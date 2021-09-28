@@ -1,0 +1,3170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title xml:lang="en">Class declarations for handrit.net</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<authority>Landsbókasafn Íslands - Háskólabókasafn</authority>
+				<authority>Stofnun Árna Magnússonar</authority>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Based principally on: <bibl>
+						<author>Páll Eggert Ólason</author>
+						<title>Skrá um handritasöfn Landsbókasafnsins I-III</title>
+						<biblScope type="volume">I-III</biblScope>
+						<pubPlace>Reykjavík</pubPlace>
+						<date>1918-1937</date>
+					</bibl>
+				</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<classDecl>
+				<taxonomy>
+					<bibl>AM</bibl>
+					<category xml:id="afb">
+						<catDesc>
+							<term xml:lang="is">Afbrot / Glæpir</term>
+							<term xml:lang="da">Forbrydelse</term>
+							<term xml:lang="en">Crime</term>
+						</catDesc>
+						<category xml:id="hord">
+							<catDesc>
+								<term xml:lang="is">Hórdómur</term>
+								<term xml:lang="da">Hor</term>
+								<term xml:lang="en">Adultery</term>
+							</catDesc>
+						</category>
+						<category xml:id="tjof">
+							<catDesc>
+								<term xml:lang="is">Þjófnaður</term>
+								<term xml:lang="da">Tyveri</term>
+								<term xml:lang="en">Theft</term>
+							</catDesc>
+						</category>
+					</category>
+
+					<category xml:id="alf">
+						<catDesc>
+							<term xml:lang="is">Alfræði</term>
+							<term xml:lang="da">Encyklopædisk viden</term>
+							<term xml:lang="en">Encyclopedic wisdom</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="athgr">
+						<catDesc>
+							<term xml:lang="is">Athugagreinar</term>
+							<term xml:lang="da">Noter</term>
+							<term xml:lang="en">Notations</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="atv">
+						<catDesc>
+							<term xml:lang="is">Atvinnuvegir</term>
+							<term xml:lang="da">Erhverv</term>
+							<term xml:lang="en">Industries</term>
+						</catDesc>
+						<category xml:id="fisk">
+							<catDesc>
+								<term xml:lang="is">Fiskveiðar</term>
+								<term xml:lang="da">Fiskeri</term>
+								<term xml:lang="en">Fishing</term>
+							</catDesc>
+						</category>
+						<category xml:id="idn">
+							<catDesc>
+								<term xml:lang="is">Iðnaður</term>
+								<term xml:lang="da">Industri</term>
+								<term xml:lang="en">Industry</term>
+							</catDesc>
+						</category>
+						<category xml:id="heimil">
+							<catDesc>
+								<term xml:lang="is">Heimilishald</term>
+								<term xml:lang="da">Husførelse</term>
+								<term xml:lang="en">Housekeeping</term>
+							</catDesc>
+							<category xml:id="heim">
+								<catDesc>
+									<term xml:lang="is">Heimilisiðnaður</term>
+									<term xml:lang="da">Hjemmeproduktion</term>
+									<term xml:lang="en">Domestic manufacture</term>
+								</catDesc>
+								<category xml:id="lit">
+									<catDesc>
+										<term xml:lang="is">Litun</term>
+										<term xml:lang="da">Farvning</term>
+										<term xml:lang="en">Dyeing</term>
+									</catDesc>
+								</category>
+								<category xml:id="tovinn">
+									<catDesc>
+										<term xml:lang="is">Tóvinna</term>
+										<term xml:lang="da">Uldarbejde</term>
+										<term xml:lang="en">Work with wool for cloth making</term>
+									</catDesc>
+								</category>
+								<category xml:id="vefn">
+									<catDesc>
+										<term xml:lang="is">Vefnaður</term>
+										<term xml:lang="da">Vævning</term>
+										<term xml:lang="en">Weaving</term>
+									</catDesc>
+								</category>
+								<category xml:id="utsk">
+									<catDesc>
+										<term xml:lang="is">Útskurður</term>
+										<term xml:lang="da">Træskæring</term>
+										<term xml:lang="en">Carving</term>
+									</catDesc>
+								</category>
+								<category xml:id="uts">
+									<catDesc>
+										<term xml:lang="is">Útsaumur</term>
+										<term xml:lang="da">Broderi</term>
+										<term xml:lang="en">Embroidery</term>
+									</catDesc>
+								</category>
+							</category>
+						</category>
+						<category xml:id="landb">
+							<catDesc>
+								<term xml:lang="is">Landbúnaður</term>
+								<term xml:lang="da">Landbrug</term>
+								<term xml:lang="en">Agriculture</term>
+							</catDesc>
+						</category>
+						<category xml:id="smid">
+							<catDesc>
+								<term xml:lang="is">Smíðar</term>
+								<term xml:lang="da">Smederi</term>
+								<term xml:lang="en">Construction/smith-work with wood or iron</term>
+							</catDesc>
+						</category>
+						<category xml:id="versl">
+							<catDesc>
+								<term xml:lang="is">Verslun</term>
+								<term xml:lang="da">Forretning</term>
+								<term xml:lang="en">Trade</term>
+							</catDesc>
+						</category>
+						<category xml:id="vidsk">
+							<catDesc>
+								<term xml:lang="is">Viðskipti</term>
+								<term xml:lang="da">Handel</term>
+								<term xml:lang="en">Commerce</term>
+							</catDesc>
+						</category>
+					</category>
+
+					<category xml:id="bokmfr">
+						<catDesc>
+							<term xml:lang="is">Bókmenntafræði</term>
+							<term xml:lang="da">Litteraturvidenskab</term>
+							<term xml:lang="en">Literary criticism</term>
+						</catDesc>
+						<category xml:id="bokms">
+							<catDesc>
+								<term xml:lang="is">Bókmenntasaga</term>
+								<term xml:lang="da">Litteraturhistorie</term>
+								<term xml:lang="en">History of literature</term>
+							</catDesc>
+						</category>
+						<category xml:id="bragfr">
+							<catDesc>
+								<term xml:lang="is">Bragfræði</term>
+								<term xml:lang="da">Metrik</term>
+								<term xml:lang="en">Metrics</term>
+							</catDesc>
+							<category xml:id="hattal">
+								<catDesc>
+									<term xml:lang="is">Háttalyklar</term>
+									<term xml:lang="da"/>
+									<term xml:lang="en">Metrical keys</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="regist">
+							<catDesc>
+								<term xml:lang="is">Efnisyfirlit / Registur</term>
+								<term xml:lang="da">Indholdsfortegnelse</term>
+								<term xml:lang="en">Tables of contents / indexes</term>
+							</catDesc>
+						</category>
+						<category xml:id="kvskr">
+							<catDesc>
+								<term xml:lang="is">Kvæðaskrár</term>
+								<term xml:lang="da">Digtfortegnelser</term>
+								<term xml:lang="en">Lists of poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="kvsk">
+							<catDesc>
+								<term xml:lang="is">Kvæðaskýringar / Vísnaskýringar</term>
+								<term xml:lang="da">Digtfortolkninger</term>
+								<term xml:lang="en">Interpretations of poems / verses</term>
+							</catDesc>
+						</category>
+						<category xml:id="ljog">
+							<catDesc>
+								<term xml:lang="is">Ljóðagerð</term>
+								<term xml:lang="da">Digtning</term>
+								<term xml:lang="en">Poetics</term>
+							</catDesc>
+						</category>
+						<category xml:id="ritas">
+							<catDesc>
+								<term xml:lang="is">Ritaskrár</term>
+								<term xml:lang="da">Bibliografier</term>
+								<term xml:lang="en">Bibliographies</term>
+							</catDesc>
+						</category>
+						<category xml:id="skaldskfr">
+							<catDesc>
+								<term xml:lang="is">Skáldskaparfræði / Mælskufræði</term>
+								<term xml:lang="da">Retorik</term>
+								<term xml:lang="en">Rhetoric</term>
+							</catDesc>
+						</category>
+						<category xml:id="stilfr">
+							<catDesc>
+								<term xml:lang="is">Stílfræði</term>
+								<term xml:lang="da">Stilistik</term>
+								<term xml:lang="en">Stylistic</term>
+							</catDesc>
+						</category>
+					</category>
+
+					<category xml:id="bok">
+						<catDesc>
+							<term xml:lang="is">Bókmenntir</term>
+							<term xml:lang="da">Litteratur</term>
+							<term xml:lang="en">Literature</term>
+						</catDesc>
+						<category xml:id="anekd">
+							<catDesc>
+								<term xml:lang="is">Anekdótur</term>
+								<term xml:lang="da">Anekdoter</term>
+								<term xml:lang="en">Anecdotes</term>
+							</catDesc>
+						</category>
+						<category xml:id="bokfr">
+							<catDesc>
+								<term xml:lang="is">Bókfræði</term>
+								<term xml:lang="da">Bibliografi</term>
+								<term xml:lang="en">Bibliography</term>
+							</catDesc>
+						</category>
+						<category xml:id="barnb">
+							<catDesc>
+								<term xml:lang="is">Barnabækur</term>
+								<term xml:lang="da">Børnebøger</term>
+								<term xml:lang="en">Children's books</term>
+							</catDesc>
+						</category>
+						<category xml:id="deil">
+							<catDesc>
+								<term xml:lang="is">Deilurit</term>
+								<term xml:lang="da">Polemik</term>
+								<term xml:lang="en">Polemics</term>
+							</catDesc>
+						</category>
+						<category xml:id="dyggd">
+							<catDesc>
+								<term xml:lang="is">Dyggðabækur / Siðabækur</term>
+								<term xml:lang="da">Bøger om skik og brug</term>
+								<term xml:lang="en">Books of ethics/etiquette</term>
+							</catDesc>
+						</category>
+					</category>
+					<category xml:id="damis">
+						<catDesc>
+							<term xml:lang="is">Dæmisögur</term>
+							<term xml:lang="da">Lignelser</term>
+							<term xml:lang="en">Exempla</term>
+						</catDesc>
+					</category>
+					<category xml:id="ferdb">
+						<catDesc>
+							<term xml:lang="is">Ferðabækur</term>
+							<term xml:lang="da">Rejsebøger</term>
+							<term xml:lang="en">Travelogues</term>
+						</catDesc>
+					</category>
+					<category xml:id="ferds">
+						<catDesc>
+							<term xml:lang="is">Ferðasögur</term>
+							<term xml:lang="da">Rejsebeskrivelser</term>
+							<term xml:lang="en">Travel stories</term>
+						</catDesc>
+					</category>
+					<category xml:id="formal">
+						<catDesc>
+							<term xml:lang="is">Formálar</term>
+							<term xml:lang="da">Forord</term>
+							<term xml:lang="en">Prolegomena / Prefaces</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="forn">
+						<catDesc>
+							<term xml:lang="is">Fornrit</term>
+							<term xml:lang="da">Oldtidstekster</term>
+							<term xml:lang="en">Antiquities</term>
+						</catDesc>
+						<category xml:id="bisks">
+							<catDesc>
+								<term xml:lang="is">Biskupasögur</term>
+								<term xml:lang="da">Bispesagaer</term>
+								<term xml:lang="en">Sagas of bishops</term>
+							</catDesc>
+						</category>
+						<category xml:id="fas">
+							<catDesc>
+								<term xml:lang="is">Fornaldarsögur</term>
+								<term xml:lang="da">Fornaldersagaer</term>
+								<term xml:lang="en">Mythical-heroic sagas</term>
+							</catDesc>
+						</category>
+						<category xml:id="fornth">
+							<catDesc>
+								<term xml:lang="is">Fornaldasagnaþættir</term>
+								<term xml:lang="da">Fornaldertotter</term>
+								<term xml:lang="en">Mythical-heoric tales</term>
+							</catDesc>
+						</category>
+						<category xml:id="hels">
+							<catDesc>
+								<term xml:lang="is">Helgisögur</term>
+								<term xml:lang="da">Helgensagaer</term>
+								<term xml:lang="en">Saint's sagas</term>
+							</catDesc>
+							<category xml:id="hms">
+								<catDesc>
+									<term xml:lang="is">Heilagramannasögur</term>
+									<term xml:lang="da">Sagaer om hellige personer</term>
+									<term xml:lang="en">Sagas of holy people</term>
+								</catDesc>
+							</category>
+							<category xml:id="leid">
+								<catDesc>
+									<term xml:lang="is">Leiðslur</term>
+									<term xml:lang="da">Visioner</term>
+									<term xml:lang="en">Visions</term>
+								</catDesc>
+							</category>
+							<category xml:id="post">
+								<catDesc>
+									<term xml:lang="is">Postulasögur</term>
+									<term xml:lang="da">Sagaer om apostle</term>
+									<term xml:lang="en">Sagas of apostles</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="hom">
+							<catDesc>
+								<term xml:lang="is">Hómilíur</term>
+								<term xml:lang="da">Homilier</term>
+								<term xml:lang="en">Homilies</term>
+							</catDesc>
+						</category>
+						<category xml:id="isl">
+							<catDesc>
+								<term xml:lang="is">Íslendingasögur</term>
+								<term xml:lang="da">Islændingesagaer</term>
+								<term xml:lang="en">Sagas of Icelanders</term>
+							</catDesc>
+						</category>
+						<category xml:id="islt">
+							<catDesc>
+								<term xml:lang="is">Íslendingaþættir</term>
+								<term xml:lang="da">Islændingetotter</term>
+								<term xml:lang="en">Tales of Icelanders</term>
+							</catDesc>
+						</category>
+						<category xml:id="kon">
+							<catDesc>
+								<term xml:lang="is">Konungasögur</term>
+								<term xml:lang="da">Kongesagaer</term>
+								<term xml:lang="en">Kings' sagas</term>
+							</catDesc>
+						</category>
+						<category xml:id="konth">
+							<catDesc>
+								<term xml:lang="is">Konungasagnaþættir</term>
+								<term xml:lang="da">Totter om konger</term>
+								<term xml:lang="en">Kings' tales</term>
+							</catDesc>
+						</category>
+						<category xml:id="ridd">
+							<catDesc>
+								<term xml:lang="is">Riddarasögur</term>
+								<term xml:lang="da">Riddersagaer</term>
+								<term xml:lang="en">Prose romances</term>
+							</catDesc>
+						</category>
+						<category xml:id="samt">
+							<catDesc>
+								<term xml:lang="is">Samtíðarsögur</term>
+								<term xml:lang="da">Samtidssagaer</term>
+								<term xml:lang="en">Sagas of contemporary history</term>
+							</catDesc>
+						</category>
+					</category>
+
+					<category xml:id="forns">
+						<catDesc>
+							<term xml:lang="is">Fornaldarsögur (síðari tíma)</term>
+							<term xml:lang="da">Fornaldersagaer (nyere tid)</term>
+							<term xml:lang="en">Late mythical-heoric sagas</term>
+						</catDesc>
+					</category>
+					<category xml:id="frodt">
+						<catDesc>
+							<term xml:lang="is">Fróðleiksþættir</term>
+							<term xml:lang="da">Kundskabsfortællinger</term>
+							<term xml:lang="en">Tales of wisdom</term>
+						</catDesc>
+					</category>
+					<category xml:id="fyr">
+						<catDesc>
+							<term xml:lang="is">Fyrirlestrar</term>
+							<term xml:lang="da">Forelæsninger</term>
+							<term xml:lang="en">Lectures</term>
+						</catDesc>
+					</category>
+					<category xml:id="fynd">
+						<catDesc>
+							<term xml:lang="is">Fyndni</term>
+							<term xml:lang="da">Humor</term>
+							<term xml:lang="en">Humor</term>
+						</catDesc>
+					</category>
+					<category xml:id="kim">
+						<catDesc>
+							<term xml:lang="is">Gamansögur / Kímnisögur</term>
+							<term xml:lang="da">Skæmtesagaer</term>
+							<term xml:lang="en">Humorous tales</term>
+						</catDesc>
+					</category>
+					<category xml:id="gat">
+						<catDesc>
+							<term xml:lang="is">Gátur</term>
+							<term xml:lang="da">Gåder</term>
+							<term xml:lang="en">Riddles</term>
+						</catDesc>
+					</category>
+					<category xml:id="himbr">
+						<catDesc>
+							<term xml:lang="is">Himnabréf</term>
+							<term xml:lang="da">Himmelbreve</term>
+							<term xml:lang="en">Hymn sheets</term>
+						</catDesc>
+					</category>
+					<category xml:id="islst">
+						<catDesc>
+							<term xml:lang="is">Íslendingasögur (síðari tíma)</term>
+							<term xml:lang="da">Islændingesagaer (nyere tid)</term>
+							<term xml:lang="en">Late sagas of Icelanders</term>
+						</catDesc>
+					</category>
+					<category xml:id="klam">
+						<catDesc>
+							<term xml:lang="is">Klám</term>
+							<term xml:lang="da">Pornografi</term>
+							<term xml:lang="en">Pornography</term>
+						</catDesc>
+					</category>
+					<category xml:id="kont">
+						<catDesc>
+							<term xml:lang="is">Konungatöl</term>
+							<term xml:lang="da">Kongelige slægtsrækker</term>
+							<term xml:lang="en">Royal genealogies</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="kvad">
+						<catDesc>
+							<term xml:lang="is">Kveðskapur / Kvæði</term>
+							<term xml:lang="da">Digte</term>
+							<term xml:lang="en">Poetry</term>
+						</catDesc>
+						<category xml:id="taekv">
+							<catDesc>
+								<term xml:lang="is">Tækifæriskvæði</term>
+								<term xml:lang="da">Lejlighedsdigte</term>
+								<term xml:lang="en">Occasional poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="atbkv">
+							<catDesc>
+								<term xml:lang="is">Atburðakvæði</term>
+								<term xml:lang="da">Hændelsesdigte</term>
+								<term xml:lang="en">Occasional poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="adeilukv">
+							<catDesc>
+								<term xml:lang="is">Ádeilukvæði / Heimsádeilur / Heimsósómar</term>
+								<term xml:lang="da">Polemiske digte</term>
+								<term xml:lang="en">Polemic poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="astkv">
+							<catDesc>
+								<term xml:lang="is">Ástarkvæði / Ástarljóð</term>
+								<term xml:lang="da">Kærlighedsdigte</term>
+								<term xml:lang="en">Love poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="barnag">
+							<catDesc>
+								<term xml:lang="is">Barnagælur</term>
+								<term xml:lang="da">Vuggeviser</term>
+								<term xml:lang="en">Nursery rhymes</term>
+							</catDesc>
+						</category>
+						<category xml:id="brudkv">
+							<catDesc>
+								<term xml:lang="is">Brúðkaupskvæði</term>
+								<term xml:lang="da">Bryllupsdigte</term>
+								<term xml:lang="en">Epithalamia/ Wedding poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="draumkv">
+							<catDesc>
+								<term xml:lang="is">Draumkvæði</term>
+								<term xml:lang="da">Drømmedigte</term>
+								<term xml:lang="en">Dream poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="drott">
+							<catDesc>
+								<term xml:lang="is">Dróttkvæði</term>
+								<term xml:lang="da">Skjaldedigte</term>
+								<term xml:lang="en">Scaldic poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="edd">
+							<catDesc>
+								<term xml:lang="is">Eddukvæði</term>
+								<term xml:lang="da">Eddadigte</term>
+								<term xml:lang="en">Eddic poems</term>
+							</catDesc>
+							<category xml:id="eddsk">
+								<catDesc>
+									<term xml:lang="is">Edduskýringar</term>
+									<term xml:lang="da">Eddatolkninger</term>
+									<term xml:lang="en">Eddic interpretations</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="ellikv">
+							<catDesc>
+								<term xml:lang="is">Ellikvæði</term>
+								<term xml:lang="da">Alderdomsdigte</term>
+								<term xml:lang="en">Poems about old age</term>
+							</catDesc>
+						</category>
+						<category xml:id="erfikv">
+							<catDesc>
+								<term xml:lang="is">Erfikvæði / Erfiljóð</term>
+								<term xml:lang="da">Mindedigte</term>
+								<term xml:lang="en">Elegies/ commemorative poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="formvis">
+							<catDesc>
+								<term xml:lang="is">Formannavísur</term>
+								<term xml:lang="da">Digte om oldtidshelte</term>
+								<term xml:lang="en">Poems about ancient heroes</term>
+							</catDesc>
+						</category>
+						<category xml:id="fornkv">
+							<catDesc>
+								<term xml:lang="is">Fornkvæði</term>
+								<term xml:lang="da">Oldnordisk digtning</term>
+								<term xml:lang="en">Ancient poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="fradl">
+							<catDesc>
+								<term xml:lang="is">Fræðiljóð</term>
+								<term xml:lang="da">Kundskabsdigte</term>
+								<term xml:lang="en">Wisdom poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="gamkv">
+							<catDesc>
+								<term xml:lang="is">Gamankvæði</term>
+								<term xml:lang="da">Skæmtedigte</term>
+								<term xml:lang="en">Humor poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="godkv">
+							<catDesc>
+								<term xml:lang="is">Goðakvæði</term>
+								<term xml:lang="da">Gudedigte</term>
+								<term xml:lang="en">Poems about gods</term>
+							</catDesc>
+						</category>
+						<category xml:id="grafsk">
+							<catDesc>
+								<term xml:lang="is">Grafskriftir</term>
+								<term xml:lang="da">Gravskrifter</term>
+								<term xml:lang="en">Epitaphs / Tomb inscriptions</term>
+							</catDesc>
+						</category>
+						<category xml:id="grylukv">
+							<catDesc>
+								<term xml:lang="is">Grýlukvæði</term>
+								<term xml:lang="da">Digte om troldkællinger</term>
+								<term xml:lang="en">Ogress poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="harmlj">
+							<catDesc>
+								<term xml:lang="is">Harmljóð</term>
+								<term xml:lang="da">Sørgedigt</term>
+								<term xml:lang="en">Laments</term>
+							</catDesc>
+						</category>
+						<category xml:id="heillkv">
+							<catDesc>
+								<term xml:lang="is">Heillaóskakvæði</term>
+								<term xml:lang="da">Lykønskningsdigte</term>
+								<term xml:lang="en">Congratulatory poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="heilrkv">
+							<catDesc>
+								<term xml:lang="is">Heilræðakvæði</term>
+								<term xml:lang="da">Panegyrik</term>
+								<term xml:lang="en">Panegyrics/ Praise poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="heimsa">
+							<catDesc>
+								<term xml:lang="is">Heimsádeilur</term>
+								<term xml:lang="da">Samfundssatire</term>
+								<term xml:lang="en">Ironic poems about the state of the world</term>
+							</catDesc>
+						</category>
+						<category xml:id="helgkv">
+							<catDesc>
+								<term xml:lang="is">Helgikvæði</term>
+								<term xml:lang="da">Helgendigte</term>
+								<term xml:lang="en">Saints poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="hetkv">
+							<catDesc>
+								<term xml:lang="is">Hetjukvæði</term>
+								<term xml:lang="da">Heltedigte</term>
+								<term xml:lang="en">Heroic poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="kappkv">
+							<catDesc>
+								<term xml:lang="is">Kappakvæði</term>
+								<term xml:lang="da">Heltedigte</term>
+								<term xml:lang="en">Heroic poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="kennil">
+							<catDesc>
+								<term xml:lang="is">Kenniljóð / Kennikvæði</term>
+								<term xml:lang="da">Teologisk digt</term>
+								<term xml:lang="en">Instructive poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="klamkv">
+							<catDesc>
+								<term xml:lang="is">Klámkvæði / Klámvísur</term>
+								<term xml:lang="da">Pornografiske digte</term>
+								<term xml:lang="en">Pornographic poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="krummv">
+							<catDesc>
+								<term xml:lang="is">Krummakvæði/ Krummavísur</term>
+								<term xml:lang="da">Ravnedigte</term>
+								<term xml:lang="en">Raven poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="laus">
+							<catDesc>
+								<term xml:lang="is">Lausavísur</term>
+								<term xml:lang="da">Strofer</term>
+								<term xml:lang="en">Stanzas</term>
+							</catDesc>
+						</category>
+						<category xml:id="leidkv">
+							<catDesc>
+								<term xml:lang="is">Leiðslukvæði</term>
+								<term xml:lang="da">Visionsdigte</term>
+								<term xml:lang="en">Vision poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="ljodbr">
+							<catDesc>
+								<term xml:lang="is">Ljóðabréf</term>
+								<term xml:lang="da">Brevdigte</term>
+								<term xml:lang="en">Epistolary poems / Letter poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="lofkv">
+							<catDesc>
+								<term xml:lang="is">Lofkvæði</term>
+								<term xml:lang="da">Hyldestdigte</term>
+								<term xml:lang="en">Hymns / Praise poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="midalkv">
+							<catDesc>
+								<term xml:lang="is">Miðaldakvæði</term>
+								<term xml:lang="da">Middelalderdigte</term>
+								<term xml:lang="en">Medieval poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="minnkv">
+							<catDesc>
+								<term xml:lang="is">Minningarkvæði</term>
+								<term xml:lang="da">Mindedigte</term>
+								<term xml:lang="en">Memorial poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="nid">
+							<catDesc>
+								<term xml:lang="is">Níðkvæði</term>
+								<term xml:lang="da">Smædedigte</term>
+								<term xml:lang="en">Derogatory poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="rimur">
+							<catDesc>
+								<term xml:lang="is">Rímur</term>
+								<term xml:lang="da">Rímur</term>
+								<term xml:lang="en">Rímur/metrical romances</term>
+							</catDesc>
+							<category xml:id="biblr">
+								<catDesc>
+									<term xml:lang="is">Biblíurímur</term>
+									<term xml:lang="da">Bibelrímur</term>
+									<term xml:lang="en">Bible rímur</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="sagd">
+							<catDesc>
+								<term xml:lang="is">Sagnadansar / Danskvæði</term>
+								<term xml:lang="da">Dansedigte</term>
+								<term xml:lang="en">Dance poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="samh">
+							<catDesc>
+								<term xml:lang="is">Samhendur</term>
+								<term xml:lang="da">Ferskeytt (metrisk figur)</term>
+								<term xml:lang="en">Four verse stanza with four feet and end rhyme
+									in each line.</term>
+							</catDesc>
+						</category>
+						<category xml:id="sagkv">
+							<catDesc>
+								<term xml:lang="is">Sagnakvæði</term>
+								<term xml:lang="da">Episk digt om sagn- og eventyrstof</term>
+								<term xml:lang="en">Epic poetry in fornyrðislag with fairy-tale
+									motifs</term>
+							</catDesc>
+						</category>
+						<category xml:id="tidav">
+							<catDesc>
+								<term xml:lang="is">Tíðavísur</term>
+								<term xml:lang="da">Tidebønnevers</term>
+								<term xml:lang="en">Poems on weather conditions</term>
+							</catDesc>
+						</category>
+						<category xml:id="salm">
+							<catDesc>
+								<term xml:lang="is">Sálmar</term>
+								<term xml:lang="da">Salmer</term>
+								<term xml:lang="en">Hymns</term>
+							</catDesc>
+							<category xml:id="andls">
+								<catDesc>
+									<term xml:lang="is">Andlátssálmar</term>
+									<term xml:lang="da">Dødssalme</term>
+									<term xml:lang="en">Death hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="arstsalm">
+								<catDesc>
+									<term xml:lang="is">Árstíðarsálmar</term>
+									<term xml:lang="da">Årstidssalme</term>
+									<term xml:lang="en">Season hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="bibls">
+								<catDesc>
+									<term xml:lang="is">Biblíusálmar</term>
+									<term xml:lang="da">Bibelsalme</term>
+									<term xml:lang="en">Bible hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="bods">
+								<catDesc>
+									<term xml:lang="is">Boðorðasálmar</term>
+									<term xml:lang="da">Salmer om de ti bud</term>
+									<term xml:lang="en">Commandment hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="ferdas">
+								<catDesc>
+									<term xml:lang="is">Ferðasálmar</term>
+									<term xml:lang="da">Rejsesalmer</term>
+									<term xml:lang="en">Travel hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="fads">
+								<catDesc>
+									<term xml:lang="is">Fæðingarsálmar</term>
+									<term xml:lang="da">Salmer om Jesu fødsel</term>
+									<term xml:lang="en">Hymns on the Nativity</term>
+								</catDesc>
+							</category>
+							<category xml:id="huggkv">
+								<catDesc>
+									<term xml:lang="is">Huggunarkvæði</term>
+									<term xml:lang="da">Trøstedigte</term>
+									<term xml:lang="en">Consolation poems</term>
+								</catDesc>
+							</category>
+							<category xml:id="huggs">
+								<catDesc>
+									<term xml:lang="is">Huggunarsálmar</term>
+									<term xml:lang="da">Trøstesalmer</term>
+									<term xml:lang="en">Consolation hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="hugvs">
+								<catDesc>
+									<term xml:lang="is">Hugvekjusálmar</term>
+									<term xml:lang="da">Opbyggelsessalmer</term>
+									<term xml:lang="en">Exhortation hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="idruns">
+								<catDesc>
+									<term xml:lang="is">Iðrunarsálmar</term>
+									<term xml:lang="da">Angerssalmer</term>
+									<term xml:lang="en">Penitential hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="jols">
+								<catDesc>
+									<term xml:lang="is">Jólasálmar</term>
+									<term xml:lang="da">Julesalmer</term>
+									<term xml:lang="en">Christmas hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="kvolds">
+								<catDesc>
+									<term xml:lang="is">Kvöldsálmar</term>
+									<term xml:lang="da">Aftensalmer</term>
+									<term xml:lang="en">Evening hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="morguns">
+								<catDesc>
+									<term xml:lang="is">Morgunsálmar</term>
+									<term xml:lang="da">Morgensalmer</term>
+									<term xml:lang="en">Morning hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="nyars">
+								<catDesc>
+									<term xml:lang="is">Nýárssálmar</term>
+									<term xml:lang="da">Nytårssalmer</term>
+									<term xml:lang="en">New year hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="passius">
+								<catDesc>
+									<term xml:lang="is">Passíusálmar / Píslarsálmar</term>
+									<term xml:lang="da">Lidelsessalmer</term>
+									<term xml:lang="en">Passion hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="paskas">
+								<catDesc>
+									<term xml:lang="is">Páskasálmar</term>
+									<term xml:lang="da">Påskesalmer</term>
+									<term xml:lang="en">Easter hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="salmfl">
+								<catDesc>
+									<term xml:lang="is">Sálmaflokkar</term>
+									<term xml:lang="da">Salmegrupper</term>
+									<term xml:lang="en">Hymn groups</term>
+								</catDesc>
+							</category>
+							<category xml:id="skirnars">
+								<catDesc>
+									<term xml:lang="is">Skírnarsálmar</term>
+									<term xml:lang="da">Dåbssalmer</term>
+									<term xml:lang="en">Baptism hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="fermingars">
+								<catDesc>
+									<term xml:lang="is">Fermingarsálmar</term>
+									<term xml:lang="da">Konfirmationssalmer</term>
+									<term xml:lang="en">Conformation hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="stafrofs">
+								<catDesc>
+									<term xml:lang="is">Stafrófssálmar</term>
+									<term xml:lang="da">Alfabetsalme</term>
+									<term xml:lang="en">Alphabet hymns</term>
+								</catDesc>
+							</category>
+							<category xml:id="vikus">
+								<catDesc>
+									<term xml:lang="is">Vikusálmar</term>
+									<term xml:lang="da">Ugesalmer</term>
+									<term xml:lang="en">Week hymns</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="siglkv">
+							<catDesc>
+								<term xml:lang="is">Siglingarkvæði / Sjóferðakvæði</term>
+								<term xml:lang="da">Sejlesalmer</term>
+								<term xml:lang="en">Sailing poem</term>
+							</catDesc>
+						</category>
+						<category xml:id="sogl">
+							<catDesc>
+								<term xml:lang="is">Söguljóð</term>
+								<term xml:lang="da">Sagadigt</term>
+								<term xml:lang="en">Saga poem</term>
+							</catDesc>
+						</category>
+						<category xml:id="spadkv">
+							<catDesc>
+								<term xml:lang="is">Spádómskvæði</term>
+								<term xml:lang="da">Spådomsdigte</term>
+								<term xml:lang="en">Prophecy poem</term>
+							</catDesc>
+						</category>
+						<category xml:id="saerkv">
+							<catDesc>
+								<term xml:lang="is">Særingarkvæði</term>
+								<term xml:lang="da">Besværgelsesdigte</term>
+								<term xml:lang="en">Conjuration poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="tobkv">
+							<catDesc>
+								<term xml:lang="is">Tóbakskvæði / Tóbaksvísur</term>
+								<term xml:lang="da">Tobaksdigte</term>
+								<term xml:lang="en">Tobacco poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="truj">
+							<catDesc>
+								<term xml:lang="is">Trúarjátning</term>
+								<term xml:lang="da">Trosbekendelse</term>
+								<term xml:lang="en">Confession</term>
+							</catDesc>
+						</category>
+						<category xml:id="trul">
+							<catDesc>
+								<term xml:lang="is">Trúarljóð</term>
+								<term xml:lang="da">Trosdigte</term>
+								<term xml:lang="en">Faith poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="vedkv">
+							<catDesc>
+								<term xml:lang="is">Veðurkvæði</term>
+								<term xml:lang="da">Vejrdigte</term>
+								<term xml:lang="en">Weather poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="viva">
+							<catDesc>
+								<term xml:lang="is">Vikivakar</term>
+								<term xml:lang="da">Danseviser</term>
+								<term xml:lang="en">Dance poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="voggkv">
+							<catDesc>
+								<term xml:lang="is">Vöggukvæði</term>
+								<term xml:lang="da">Vuggeviser</term>
+								<term xml:lang="en">Cradle poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="tjokv">
+							<catDesc>
+								<term xml:lang="is">Þjóðkvæði</term>
+								<term xml:lang="da">Folkeviser</term>
+								<term xml:lang="en">Folk poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="tjol">
+							<catDesc>
+								<term xml:lang="is">Þjóðlög</term>
+								<term xml:lang="da">Folkeviser</term>
+								<term xml:lang="en">Folk songs</term>
+							</catDesc>
+							<category xml:id="notur">
+								<catDesc>
+									<term xml:lang="is">Nótur</term>
+									<term xml:lang="da">Noder</term>
+									<term xml:lang="en">Notes (music)</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="tul">
+							<catDesc>
+								<term xml:lang="is">Þulur</term>
+								<term xml:lang="da">Rim</term>
+								<term xml:lang="en">Rhymes</term>
+							</catDesc>
+						</category>
+						<category xml:id="aettkv">
+							<catDesc>
+								<term xml:lang="is">Ættjarðarkvæði</term>
+								<term xml:lang="da">Fædrelandsdigte</term>
+								<term xml:lang="en">Fatherland poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="aevikv">
+							<catDesc>
+								<term xml:lang="is">Ævisögukvæði/Ævikvæði</term>
+								<term xml:lang="da">Biografiske digte</term>
+								<term xml:lang="en">Biography poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="avintkv">
+							<catDesc>
+								<term xml:lang="is">Ævintýrakvæði</term>
+								<term xml:lang="da">Eventyrviser</term>
+								<term xml:lang="en">Adventure poems</term>
+							</catDesc>
+						</category>
+						<category xml:id="ofugm">
+							<catDesc>
+								<term xml:lang="is">Öfugmæli</term>
+								<term xml:lang="da">Usand tale</term>
+								<term xml:lang="en">Polemics</term>
+							</catDesc>
+						</category>
+						<category xml:id="olkv">
+							<catDesc>
+								<term xml:lang="is">Ölkvæði / Ölvísur</term>
+								<term xml:lang="da">Ølviser</term>
+								<term xml:lang="en">Beer poems</term>
+							</catDesc>
+						</category>
+					</category>
+					<category xml:id="leikr">
+						<catDesc>
+							<term xml:lang="is">Leikrit</term>
+							<term xml:lang="da">Skuespil</term>
+							<term xml:lang="en">Plays</term>
+						</catDesc>
+					</category>
+					<category xml:id="mals">
+						<catDesc>
+							<term xml:lang="is">Málshættir</term>
+							<term xml:lang="da">Ordsprog</term>
+							<term xml:lang="en">Proverbs</term>
+						</catDesc>
+					</category>
+					<category xml:id="ordt">
+						<catDesc>
+							<term xml:lang="is">Orðtök</term>
+							<term xml:lang="da">Idiomer</term>
+							<term xml:lang="en">Sayings</term>
+						</catDesc>
+					</category>
+					<category xml:id="pred">
+						<catDesc>
+							<term xml:lang="is">Prédikanir</term>
+							<term xml:lang="da">Prædikener</term>
+							<term xml:lang="en">Sermons</term>
+						</catDesc>
+					</category>
+					<category xml:id="likpred">
+						<catDesc>
+							<term xml:lang="is">Líkprédikanir</term>
+							<term xml:lang="da">Ligprædikener</term>
+							<term xml:lang="en">Requiem/ Masses for the dead</term>
+						</catDesc>
+					</category>
+					<category xml:id="likr">
+						<catDesc>
+							<term xml:lang="is">Líkræður</term>
+							<term xml:lang="da">Ligprædikener</term>
+							<term xml:lang="en">Eulogys/ Remembrance speeches</term>
+						</catDesc>
+					</category>
+					<category xml:id="riddst">
+						<catDesc>
+							<term xml:lang="is">Riddarasögur (síðari tíma)</term>
+							<term xml:lang="da">Riddersagaer (nyere tid)</term>
+							<term xml:lang="en">Late romances</term>
+						</catDesc>
+					</category>
+					<category xml:id="ritg">
+						<catDesc>
+							<term xml:lang="is">Ritgerðir</term>
+							<term xml:lang="da">Stile</term>
+							<term xml:lang="en">Essays</term>
+						</catDesc>
+					</category>
+					<category xml:id="raedur">
+						<catDesc>
+							<term xml:lang="is">Ræður</term>
+							<term xml:lang="da">Taler</term>
+							<term xml:lang="en">Speeches</term>
+						</catDesc>
+					</category>
+					<category xml:id="sagnt">
+						<catDesc>
+							<term xml:lang="is">Sagnaþættir</term>
+							<term xml:lang="da">Totter</term>
+							<term xml:lang="en">Story sections</term>
+						</catDesc>
+					</category>
+					<category xml:id="sjalf">
+						<catDesc>
+							<term xml:lang="is">Sjálfsævisögur</term>
+							<term xml:lang="da">Selvbiografier</term>
+							<term xml:lang="en">Autobiographies</term>
+						</catDesc>
+					</category>
+					<category xml:id="endur">
+						<catDesc>
+							<term xml:lang="is">Endurminningar</term>
+							<term xml:lang="da">Memoirer</term>
+							<term xml:lang="en">Memoirs</term>
+						</catDesc>
+					</category>
+					<category xml:id="minngr">
+						<catDesc>
+							<term xml:lang="is">Minningargreinar</term>
+							<term xml:lang="da">Nekrologer</term>
+							<term xml:lang="en">Obituaries</term>
+						</catDesc>
+					</category>
+					<category xml:id="avis">
+						<catDesc>
+							<term xml:lang="is">Ævisögur</term>
+							<term xml:lang="da">Biografier</term>
+							<term xml:lang="en">Biographies</term>
+						</catDesc>
+					</category>
+					<category xml:id="avit">
+						<catDesc>
+							<term xml:lang="is">Æviþættir</term>
+							<term xml:lang="da">Biografier</term>
+							<term xml:lang="en">Biography sections</term>
+						</catDesc>
+					</category>
+					<category xml:id="skalds">
+						<catDesc>
+							<term xml:lang="is">Skáldsögur</term>
+							<term xml:lang="da">Romaner</term>
+							<term xml:lang="en">Novels</term>
+						</catDesc>
+						<category xml:id="almb">
+							<catDesc>
+								<term xml:lang="is">Almúgabækur</term>
+								<term xml:lang="da">Almuebøger</term>
+								<term xml:lang="en">Chapbooks</term>
+							</catDesc>
+						</category>
+					</category>
+					<category xml:id="smas">
+						<catDesc>
+							<term xml:lang="is">Smásögur</term>
+							<term xml:lang="da">Noveller</term>
+							<term xml:lang="en">Short stories</term>
+						</catDesc>
+					</category>
+					<category xml:id="tileinkun">
+						<catDesc>
+							<term xml:lang="is">Tileinkun</term>
+							<term xml:lang="da">Dedikation</term>
+							<term xml:lang="en">Dedication</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="tjos">
+						<catDesc>
+							<term xml:lang="is">Þjóðsögur</term>
+							<term xml:lang="da">Folkeeventyr</term>
+							<term xml:lang="en">Folk tales</term>
+						</catDesc>
+						<category xml:id="gods">
+							<catDesc>
+								<term xml:lang="is">Goðfræðisögur</term>
+								<term xml:lang="da">Mytologiske historier</term>
+								<term xml:lang="en">Mythology</term>
+							</catDesc>
+							<category xml:id="alfs">
+								<catDesc>
+									<term xml:lang="is">Álfasögur</term>
+									<term xml:lang="da">Alfeeventyr</term>
+									<term xml:lang="en">Elf tales</term>
+								</catDesc>
+							</category>
+							<category xml:id="dvergs">
+								<catDesc>
+									<term xml:lang="is">Dvergasögur</term>
+									<term xml:lang="da">Dværgeventyr</term>
+									<term xml:lang="en">Dwarf tales</term>
+								</catDesc>
+							</category>
+							<category xml:id="hulds">
+								<catDesc>
+									<term xml:lang="is">Huldufólkssögur</term>
+									<term xml:lang="da">Huldrefolkeventyr</term>
+									<term xml:lang="en">Huldufólk tales</term>
+								</catDesc>
+							</category>
+							<category xml:id="vatns">
+								<catDesc>
+									<term xml:lang="is">Sæbúar og vatna</term>
+									<term xml:lang="da">Overnaturlige havvæsner</term>
+									<term xml:lang="en">Supernatural sea creatures</term>
+								</catDesc>
+							</category>
+							<category xml:id="umsk">
+								<catDesc>
+									<term xml:lang="is">Umskiptingar</term>
+									<term xml:lang="da">Folketro</term>
+									<term xml:lang="en">Folklore</term>
+								</catDesc>
+							</category>
+							<category xml:id="trolls">
+								<catDesc>
+									<term xml:lang="is">Tröllasögur</term>
+									<term xml:lang="da">Troldeeventyr</term>
+									<term xml:lang="en">Troll tales</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="draugas">
+							<catDesc>
+								<term xml:lang="is">Draugasögur</term>
+								<term xml:lang="da">Spøgelseseventyr</term>
+								<term xml:lang="en">Ghost tales</term>
+							</catDesc>
+							<category xml:id="afturg">
+								<catDesc>
+									<term xml:lang="is">Afturgöngur</term>
+									<term xml:lang="da">Gengangere</term>
+									<term xml:lang="en">Spectres</term>
+								</catDesc>
+							</category>
+							<category xml:id="fylg">
+								<catDesc>
+									<term xml:lang="is">Fylgjur</term>
+									<term xml:lang="da">Skytsånd</term>
+									<term xml:lang="en">Guardian spirits</term>
+								</catDesc>
+							</category>
+							<category xml:id="uppva">
+								<catDesc>
+									<term xml:lang="is">Uppvakningar/sendingar</term>
+									<term xml:lang="da">Genfærd</term>
+									<term xml:lang="en">Ghosts</term>
+								</catDesc>
+							</category>
+							<category xml:id="utb">
+								<catDesc>
+									<term xml:lang="is">Útburðir</term>
+									<term xml:lang="da">Uønskede spædbørn, der er sat ud</term>
+									<term xml:lang="en">Unwanted infants placed outside</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="galds">
+							<catDesc>
+								<term xml:lang="is">Galdrasögur</term>
+								<term xml:lang="da">Trylleeventyr</term>
+								<term xml:lang="en">Fairytales about magic</term>
+							</catDesc>
+							<category xml:id="ofresg">
+								<catDesc>
+									<term xml:lang="is">Ófreskigáfur/Skyggni</term>
+									<term xml:lang="da">Synsk</term>
+									<term xml:lang="en">Psychic</term>
+								</catDesc>
+							</category>
+							<category xml:id="tofrar">
+								<catDesc>
+									<term xml:lang="is">Töfrabrögð</term>
+									<term xml:lang="da">Tryllekunst</term>
+									<term xml:lang="en">Magic</term>
+								</catDesc>
+							</category>
+							<category xml:id="galdram">
+								<catDesc>
+									<term xml:lang="is">Galdramenn</term>
+									<term xml:lang="da">Troldmænd</term>
+									<term xml:lang="en">Wizards</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="natts">
+							<catDesc>
+								<term xml:lang="is">Náttúrusögur</term>
+								<term xml:lang="da">Natureventyr</term>
+								<term xml:lang="en">Fairytales about nature</term>
+							</catDesc>
+							<category xml:id="dyrs">
+								<catDesc>
+									<term xml:lang="is">Dýrasögur</term>
+									<term xml:lang="da">Dyreeventyr</term>
+									<term xml:lang="en">Fairytales about animals</term>
+								</catDesc>
+							</category>
+							<category xml:id="grass">
+								<catDesc>
+									<term xml:lang="is">Grasasögur</term>
+									<term xml:lang="da">Planteeventyr</term>
+									<term xml:lang="en">Fairytales about plants</term>
+								</catDesc>
+							</category>
+							<category xml:id="steins">
+								<catDesc>
+									<term xml:lang="is">Steinasögur</term>
+									<term xml:lang="da">Steneventyr</term>
+									<term xml:lang="en">Fairytales about stones</term>
+								</catDesc>
+							</category>
+							<category xml:id="lofts">
+								<catDesc>
+									<term xml:lang="is">Loftsjónir/tunglsögur</term>
+									<term xml:lang="da">Himmelsyn</term>
+									<term xml:lang="en"/>
+								</catDesc>
+							</category>
+							<category xml:id="sjor">
+								<catDesc>
+									<term xml:lang="is">Sjór</term>
+									<term xml:lang="da">Hav</term>
+									<term xml:lang="en">Ocean</term>
+								</catDesc>
+							</category>
+							<category xml:id="ornefs">
+								<catDesc>
+									<term xml:lang="is">Örnefnasögur</term>
+									<term xml:lang="da">Stednavnsbundne sagn</term>
+									<term xml:lang="en">Tales connected to place names</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="helgiso">
+							<catDesc>
+								<term xml:lang="is">Helgisögur</term>
+								<term xml:lang="da">Legender</term>
+								<term xml:lang="en">Hagiography</term>
+							</catDesc>
+							<category xml:id="gudkol">
+								<catDesc>
+									<term xml:lang="is">Guð og kölski</term>
+									<term xml:lang="da">Gud og Fanden</term>
+									<term xml:lang="en">GOd and the Devil</term>
+								</catDesc>
+							</category>
+							<category xml:id="helgim">
+								<catDesc>
+									<term xml:lang="is">Helgir menn</term>
+									<term xml:lang="da">Hellige personer</term>
+									<term xml:lang="en">Holy people</term>
+								</catDesc>
+							</category>
+							<category xml:id="parhel">
+								<catDesc>
+									<term xml:lang="is">Paradís og Helvíti</term>
+									<term xml:lang="da">Paradis og Helvede</term>
+									<term xml:lang="en">Paradise and Hell</term>
+								</catDesc>
+							</category>
+							<category xml:id="refsid">
+								<catDesc>
+									<term xml:lang="is">Refsidómar Guðs</term>
+									<term xml:lang="da">Guds dom</term>
+									<term xml:lang="en">God's judgement</term>
+								</catDesc>
+							</category>
+							<category xml:id="hjatr">
+								<catDesc>
+									<term xml:lang="is">Hjátrú</term>
+									<term xml:lang="da">Overtro</term>
+									<term xml:lang="en">Superstition</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="vidbs">
+							<catDesc>
+								<term xml:lang="is">Viðburðasögur</term>
+								<term xml:lang="da">Mirakelfortællinger</term>
+								<term xml:lang="en">Tales of miracles</term>
+							</catDesc>
+							<category xml:id="kirks">
+								<catDesc>
+									<term xml:lang="is">Kirkjusögur</term>
+									<term xml:lang="da">Kirkehistorier</term>
+									<term xml:lang="en">Church histories</term>
+								</catDesc>
+							</category>
+							<category xml:id="fornms">
+								<catDesc>
+									<term xml:lang="is">Frá fornmönnum</term>
+									<term xml:lang="da">Om personer fra landnamstiden</term>
+									<term xml:lang="en">On people from the time of settlement</term>
+								</catDesc>
+							</category>
+							<category xml:id="sagn">
+								<catDesc>
+									<term xml:lang="is">Sagnir frá seinni tíma</term>
+									<term xml:lang="da">Historier fra nyere tid</term>
+									<term xml:lang="en">Stories from recent time</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="utilm">
+							<catDesc>
+								<term xml:lang="is">Útilegumannasögur</term>
+								<term xml:lang="da">Historier om fredløse</term>
+								<term xml:lang="en">Stories of outlaws</term>
+							</catDesc>
+						</category>
+						<category xml:id="avint">
+							<catDesc>
+								<term xml:lang="is">Ævintýri</term>
+								<term xml:lang="da">Eventyr</term>
+								<term xml:lang="en">Tales/ fairy-tales/ exempla</term>
+							</catDesc>
+							<category xml:id="stjups">
+								<catDesc>
+									<term xml:lang="is">Stjúpusögur</term>
+									<term xml:lang="da">Historier om stedmødre</term>
+									<term xml:lang="en">Stories on stepmothers</term>
+								</catDesc>
+							</category>
+							<category xml:id="vond">
+								<catDesc>
+									<term xml:lang="is">Vondir ættingjar</term>
+									<term xml:lang="da">Onde slægtninge</term>
+									<term xml:lang="en">Evil relatives</term>
+								</catDesc>
+							</category>
+							<category xml:id="kotkon">
+								<catDesc>
+									<term xml:lang="is">Kotungabörn og kóngabörn</term>
+									<term xml:lang="da">Husmandsbørn og kongebørn</term>
+									<term xml:lang="en"/>
+								</catDesc>
+							</category>
+							<category xml:id="dyggda">
+								<catDesc>
+									<term xml:lang="is">Laun dyggða og hegning ódyggða</term>
+									<term xml:lang="da"/>
+									<term xml:lang="en"/>
+								</catDesc>
+							</category>
+							<category xml:id="kimi">
+								<catDesc>
+									<term xml:lang="is">Kímileg ævintýri</term>
+									<term xml:lang="da">Morsomme eventyr</term>
+									<term xml:lang="en">Amusing fairytales</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="kimns">
+							<catDesc>
+								<term xml:lang="is">Kímnisögur</term>
+								<term xml:lang="da">Humoristiske sagaer</term>
+								<term xml:lang="en">Humorous tales</term>
+							</catDesc>
+							<category xml:id="kimsta">
+								<catDesc>
+									<term xml:lang="is">Um staði</term>
+									<term xml:lang="da">Om steder</term>
+									<term xml:lang="en">On places</term>
+								</catDesc>
+							</category>
+							<category xml:id="kimkir">
+								<catDesc>
+									<term xml:lang="is">Um klerka og kirkjulega hluti</term>
+									<term xml:lang="da">Om præster og kirkelige ting</term>
+									<term xml:lang="en">On priests and church matters</term>
+								</catDesc>
+							</category>
+							<category xml:id="kimkon">
+								<catDesc>
+									<term xml:lang="is">Um kvonbænir og kvennamál</term>
+									<term xml:lang="da">Om frieri og anliggender om kvinder</term>
+									<term xml:lang="en">On proposals and affairs to do with women</term>
+								</catDesc>
+							</category>
+							<category xml:id="bakkab">
+								<catDesc>
+									<term xml:lang="is">Bakkabræðrasögur</term>
+									<term xml:lang="da">Folkesagn om Bakkebrødrene</term>
+									<term xml:lang="en">Folk tales of the Bakka brothers</term>
+								</catDesc>
+							</category>
+							<category xml:id="nisk">
+								<catDesc>
+									<term xml:lang="is">Níska/hrekkir</term>
+									<term xml:lang="da">Drengestreger</term>
+									<term xml:lang="en">Pranks/games</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="kred">
+							<catDesc>
+								<term xml:lang="is">Kreddur</term>
+								<term xml:lang="da">Doktriner</term>
+								<term xml:lang="en">Doctrines</term>
+							</catDesc>
+							<category xml:id="viti">
+								<catDesc>
+									<term xml:lang="is">Víti</term>
+									<term xml:lang="da">Straf</term>
+									<term xml:lang="en">Punishment</term>
+								</catDesc>
+							</category>
+							<category xml:id="fyrbur">
+								<catDesc>
+									<term xml:lang="is">Fyrirburðir</term>
+									<term xml:lang="da">Uforklarlige fænomener</term>
+									<term xml:lang="en">Unexplained phenomena</term>
+								</catDesc>
+							</category>
+							<category xml:id="fyrbod">
+								<catDesc>
+									<term xml:lang="is">Fyrirboðar</term>
+									<term xml:lang="da">Varsler</term>
+									<term xml:lang="en">Forewarnings</term>
+								</catDesc>
+							</category>
+							<category xml:id="venj">
+								<catDesc>
+									<term xml:lang="is">Venjur</term>
+									<term xml:lang="da">Vaner</term>
+									<term xml:lang="en">Habits</term>
+								</catDesc>
+							</category>
+						</category>
+					</category>
+					<category xml:id="tyd">
+						<catDesc>
+							<term xml:lang="is">Þýðingar</term>
+							<term xml:lang="da">Oversættelser</term>
+							<term xml:lang="en">Translations</term>
+						</catDesc>
+					</category>
+					<category xml:id="edlfr">
+						<catDesc>
+							<term xml:lang="is">Eðlisfræði</term>
+							<term xml:lang="da">Fysik</term>
+							<term xml:lang="en">Physics</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="efnfr">
+						<catDesc>
+							<term xml:lang="is">Efnafræði</term>
+							<term xml:lang="da">Kemi</term>
+							<term xml:lang="en">Chemistry</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="fel">
+						<catDesc>
+							<term xml:lang="is">Félög</term>
+							<term xml:lang="da">Foreninger</term>
+							<term xml:lang="en">Associations</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="hagfr">
+						<catDesc>
+							<term xml:lang="is">Hagfræði</term>
+							<term xml:lang="da">Økonomi</term>
+							<term xml:lang="en">Economics</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="handfr">
+						<catDesc>
+							<term xml:lang="is">Handritafræði</term>
+							<term xml:lang="da">Kodikologi</term>
+							<term xml:lang="en">Codicology</term>
+						</catDesc>
+						<category xml:id="blek">
+							<catDesc>
+								<term xml:lang="is">Blek</term>
+								<term xml:lang="da">Blæk</term>
+								<term xml:lang="en">Ink</term>
+							</catDesc>
+						</category>
+						<category xml:id="skrif">
+							<catDesc>
+								<term xml:lang="is">Skrift</term>
+								<term xml:lang="da">Skrift</term>
+								<term xml:lang="en">Script</term>
+							</catDesc>
+						</category>
+						<category xml:id="hdrskr">
+							<catDesc>
+								<term xml:lang="is">Handritaskrár</term>
+								<term xml:lang="da">Håndskriftskataloger</term>
+								<term xml:lang="en">Manuscript catalogues</term>
+							</catDesc>
+						</category>
+						<category xml:id="texfr">
+							<catDesc>
+								<term xml:lang="is">Textafræði</term>
+								<term xml:lang="da">Filologi</term>
+								<term xml:lang="en">Philology</term>
+							</catDesc>
+						</category>
+					</category>
+
+					<category xml:id="heims">
+						<catDesc>
+							<term xml:lang="is">Heimspeki</term>
+							<term xml:lang="da">Filosofi</term>
+							<term xml:lang="en">Philosophy</term>
+						</catDesc>
+						<category xml:id="sidfr">
+							<catDesc>
+								<term xml:lang="is">Siðfræði</term>
+								<term xml:lang="da">Etik</term>
+								<term xml:lang="en">Ethics</term>
+							</catDesc>
+							<category xml:id="krsidfr">
+								<catDesc>
+									<term xml:lang="is">Kristin siðfræði</term>
+									<term xml:lang="da">Kristen moral</term>
+									<term xml:lang="en">Christian ethics</term>
+								</catDesc>
+							</category>
+						</category>
+					</category>
+
+					<category xml:id="salfr">
+						<catDesc>
+							<term xml:lang="is">Sálfræði</term>
+							<term xml:lang="da">Psykologi</term>
+							<term xml:lang="en">Psychology</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="itro">
+						<catDesc>
+							<term xml:lang="is">Íþróttir</term>
+							<term xml:lang="da">Idræt</term>
+							<term xml:lang="en">Sports</term>
+						</catDesc>
+						<category xml:id="leik">
+							<catDesc>
+								<term xml:lang="is">Leikir</term>
+								<term xml:lang="da">Lege</term>
+								<term xml:lang="en">Games</term>
+							</catDesc>
+							<category xml:id="skak">
+								<catDesc>
+									<term xml:lang="is">Skák</term>
+									<term xml:lang="da">Skak</term>
+									<term xml:lang="en">Chess</term>
+								</catDesc>
+							</category>
+						</category>
+					</category>
+
+					<category xml:id="landfr">
+						<catDesc>
+							<term xml:lang="is">Landafræði</term>
+							<term xml:lang="da">Geografi</term>
+							<term xml:lang="en">Geography</term>
+						</catDesc>
+						<category xml:id="landko">
+							<catDesc>
+								<term xml:lang="is">Landakort</term>
+								<term xml:lang="da">Landkort</term>
+								<term xml:lang="en">Maps</term>
+							</catDesc>
+						</category>
+						<category xml:id="stadl">
+							<catDesc>
+								<term xml:lang="is">Staðalýsingar / Staðfræði</term>
+								<term xml:lang="da">Topografi</term>
+								<term xml:lang="en">Toponymy</term>
+							</catDesc>
+						</category>
+					</category>
+
+					<category xml:id="landn">
+						<catDesc>
+							<term xml:lang="is">Landnám</term>
+							<term xml:lang="da">Landnam</term>
+							<term xml:lang="en">Settlement</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="list">
+						<catDesc>
+							<term xml:lang="is">Listir</term>
+							<term xml:lang="da">Kunst</term>
+							<term xml:lang="en">Arts</term>
+						</catDesc>
+						<category xml:id="byggl">
+							<catDesc>
+								<term xml:lang="is">Byggingarlist</term>
+								<term xml:lang="da">Arkitektur</term>
+								<term xml:lang="en">Architecture</term>
+							</catDesc>
+						</category>
+						<category xml:id="leikl">
+							<catDesc>
+								<term xml:lang="is">Leiklist</term>
+								<term xml:lang="da">Skuespil</term>
+								<term xml:lang="en">Drama</term>
+							</catDesc>
+						</category>
+						<category xml:id="myndl">
+							<catDesc>
+								<term xml:lang="is">Myndlist</term>
+								<term xml:lang="da">Billedkunst</term>
+								<term xml:lang="en">Art</term>
+							</catDesc>
+						</category>
+						<category xml:id="malskfr">
+							<catDesc>
+								<term xml:lang="is">Mælskufræði</term>
+								<term xml:lang="da">Retorik</term>
+								<term xml:lang="en">Rhetoric</term>
+							</catDesc>
+						</category>
+						<category xml:id="tonl">
+							<catDesc>
+								<term xml:lang="is">Tónlist</term>
+								<term xml:lang="da">Musik</term>
+								<term xml:lang="en">Music</term>
+							</catDesc>
+						</category>
+					</category>
+
+					<category xml:id="heilmal">
+						<catDesc>
+							<term xml:lang="is">Heilbrigðismál</term>
+							<term xml:lang="da">Sundhed</term>
+							<term xml:lang="en">Health</term>
+						</catDesc>
+						<category xml:id="laknfr">
+							<catDesc>
+								<term xml:lang="is">Læknisfræði</term>
+								<term xml:lang="da">Lægevidenskab</term>
+								<term xml:lang="en">Medicine</term>
+							</catDesc>
+							<category xml:id="lakn">
+								<catDesc>
+									<term xml:lang="is">Lækningar</term>
+									<term xml:lang="da">Medicin</term>
+									<term xml:lang="en">Healing</term>
+								</catDesc>
+							</category>
+							<category xml:id="faeding">
+								<catDesc>
+									<term xml:lang="is">Fæðingar / Barnsfæðingar /
+										Barnsburður</term>
+									<term xml:lang="da">Fødsel</term>
+									<term xml:lang="en">Childbirth</term>
+								</catDesc>
+							</category>
+						</category>
+					</category>
+
+					<category xml:id="logfr">
+						<catDesc>
+							<term xml:lang="is">Lögfræði</term>
+							<term xml:lang="da">Jura</term>
+							<term xml:lang="en">Law</term>
+						</catDesc>
+						<category xml:id="dom">
+							<catDesc>
+								<term xml:lang="is">Dómar</term>
+								<term xml:lang="da">Domme</term>
+								<term xml:lang="en">Convictions</term>
+							</catDesc>
+							<category xml:id="refs">
+								<catDesc>
+									<term xml:lang="is">Refsingar</term>
+									<term xml:lang="da">Straffe</term>
+									<term xml:lang="en">Sentences</term>
+								</catDesc>
+								<category xml:id="aft">
+									<catDesc>
+										<term xml:lang="is">Aftökur</term>
+										<term xml:lang="da">Henrettelser</term>
+										<term xml:lang="en">Executions</term>
+									</catDesc>
+								</category>
+								<category xml:id="fang">
+									<catDesc>
+										<term xml:lang="is">Fangelsi</term>
+										<term xml:lang="da">Fængsel</term>
+										<term xml:lang="en">Prison</term>
+									</catDesc>
+								</category>
+								<category xml:id="utl">
+									<catDesc>
+										<term xml:lang="is">Útlegð</term>
+										<term xml:lang="da">Landflygtighed</term>
+										<term xml:lang="en">Outlawry</term>
+									</catDesc>
+								</category>
+							</category>
+						</category>
+						<category xml:id="log">
+							<catDesc>
+								<term xml:lang="is">Lög</term>
+								<term xml:lang="da">Love</term>
+								<term xml:lang="en">Laws</term>
+							</catDesc>
+							<category xml:id="klog">
+								<catDesc>
+									<term xml:lang="is">Kirkjulög / Kirkjuréttur</term>
+									<term xml:lang="da">Kirkelove</term>
+									<term xml:lang="en">Canon law</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="godom">
+							<catDesc>
+								<term xml:lang="is">Goðorðsmenn</term>
+								<term xml:lang="da">Goder</term>
+								<term xml:lang="en">Members of goðorð</term>
+							</catDesc>
+						</category>
+						<category xml:id="logm">
+							<catDesc>
+								<term xml:lang="is">Lögmenn</term>
+								<term xml:lang="da">Advokater</term>
+								<term xml:lang="en">Lawyers</term>
+							</catDesc>
+						</category>
+						<category xml:id="logsm">
+							<catDesc>
+								<term xml:lang="is">Lögsögumenn</term>
+								<term xml:lang="da">Lovsigemænd</term>
+								<term xml:lang="en">Lawspeakers</term>
+							</catDesc>
+						</category>
+					</category>
+
+					<category xml:id="malvg">
+						<catDesc>
+							<term xml:lang="is">Tímatal / vog</term>
+							<term xml:lang="da">Kalender</term>
+							<term xml:lang="en">Calendar</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="mannfr">
+						<catDesc>
+							<term xml:lang="is">Mannfræði</term>
+							<term xml:lang="da">Antropologi</term>
+							<term xml:lang="en">Anthropology</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="malfr">
+						<catDesc>
+							<term xml:lang="is">Málfræði / Málvísindi</term>
+							<term xml:lang="da">Lingvistik</term>
+							<term xml:lang="en">Linguistics</term>
+						</catDesc>
+
+						<category xml:id="nafnfr">
+							<catDesc>
+								<term xml:lang="is">Nafnfræði</term>
+								<term xml:lang="da">Navneforskning</term>
+								<term xml:lang="en">Onomastics</term>
+							</catDesc>
+							<category xml:id="ornefn">
+								<catDesc>
+									<term xml:lang="is">Örnefni</term>
+									<term xml:lang="da">Stednavne</term>
+									<term xml:lang="en">Place-names</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="ordb">
+							<catDesc>
+								<term xml:lang="is">Orðabækur</term>
+								<term xml:lang="da">Ordbøger</term>
+								<term xml:lang="en">Dictionaries</term>
+							</catDesc>
+						</category>
+						<category xml:id="ordsk">
+							<catDesc>
+								<term xml:lang="is">Orðskýringar</term>
+								<term xml:lang="da">Ordforklaringer</term>
+								<term xml:lang="en">Verbal definitions</term>
+							</catDesc>
+						</category>
+						<category xml:id="ordas">
+							<catDesc>
+								<term xml:lang="is">Orðasöfn</term>
+								<term xml:lang="da">Ordlister</term>
+								<term xml:lang="en">Corpora</term>
+							</catDesc>
+						</category>
+						<category xml:id="run">
+							<catDesc>
+								<term xml:lang="is">Rúnir</term>
+								<term xml:lang="da">Runer</term>
+								<term xml:lang="en">Runes</term>
+							</catDesc>
+						</category>
+						<category xml:id="staf">
+							<catDesc>
+								<term xml:lang="is">Stafsetning</term>
+								<term xml:lang="da">Retstavning</term>
+								<term xml:lang="en">Orthography</term>
+							</catDesc>
+						</category>
+						<category xml:id="vil">
+							<catDesc>
+								<term xml:lang="is">Villuletur</term>
+								<term xml:lang="da">Lønskrifter</term>
+								<term xml:lang="en">Letter codes</term>
+							</catDesc>
+						</category>
+					</category>
+
+					<category xml:id="frmal">
+						<catDesc>
+							<term xml:lang="is">Menntamál / Fræðslumál</term>
+							<term xml:lang="da">Uddannelse</term>
+							<term xml:lang="en">Education</term>
+						</catDesc>
+						<category xml:id="einku">
+							<catDesc>
+								<term xml:lang="is">Einkunnir</term>
+								<term xml:lang="da">Karakterer</term>
+								<term xml:lang="en">Grading</term>
+							</catDesc>
+						</category>
+						<category xml:id="katkis">
+							<catDesc>
+								<term xml:lang="is"> Katekismar / Barnalærdómur </term>
+								<term xml:lang="da">Katekismer</term>
+								<term xml:lang="en">Catechisms</term>
+							</catDesc>
+						</category>
+						<category xml:id="skol">
+							<catDesc>
+								<term xml:lang="is">Skólar</term>
+								<term xml:lang="da">Skoler</term>
+								<term xml:lang="en">Schools</term>
+							</catDesc>
+							<category xml:id="kenb">
+								<catDesc>
+									<term xml:lang="is">Kennslubækur</term>
+									<term xml:lang="da">Lærebøger</term>
+									<term xml:lang="en">Text-books</term>
+								</catDesc>
+							</category>
+							<category xml:id="lestur">
+								<catDesc>
+									<term xml:lang="is">Lestur</term>
+									<term xml:lang="da">Læsning</term>
+									<term xml:lang="en">Reading</term>
+								</catDesc>
+								<category xml:id="stafr">
+									<catDesc>
+										<term xml:lang="is">Stafróf</term>
+										<term xml:lang="da">Alfabet</term>
+										<term xml:lang="en">Alphabet</term>
+									</catDesc>
+								</category>
+								<category xml:id="stafrkv">
+									<catDesc>
+										<term xml:lang="is">Stafrófskver</term>
+										<term xml:lang="da">ABC</term>
+										<term xml:lang="en">ABC</term>
+									</catDesc>
+								</category>
+							</category>
+						</category>
+					</category>
+
+					<category xml:id="natfr">
+						<catDesc>
+							<term xml:lang="is">Náttúrufræði</term>
+							<term xml:lang="da">Naturvidenskab</term>
+							<term xml:lang="en">Natural sciences</term>
+						</catDesc>
+						<category xml:id="dyrfr">
+							<catDesc>
+								<term xml:lang="is">Dýrafræði</term>
+								<term xml:lang="da">Zoologi</term>
+								<term xml:lang="en">Zoology</term>
+							</catDesc>
+							<category xml:id="dyr">
+								<catDesc>
+									<term xml:lang="is">Dýr</term>
+									<term xml:lang="da">Dyr</term>
+									<term xml:lang="en">Animals</term>
+								</catDesc>
+								<category xml:id="fugl">
+									<catDesc>
+										<term xml:lang="is">Fuglar</term>
+										<term xml:lang="da">Fugle</term>
+										<term xml:lang="en">Birds</term>
+									</catDesc>
+								</category>
+							</category>
+						</category>
+					</category>
+					<category xml:id="grasfr">
+						<catDesc>
+							<term xml:lang="is">Grasafræði / Grös</term>
+							<term xml:lang="da">Botanik</term>
+							<term xml:lang="en">Botany</term>
+						</catDesc>
+					</category>
+					<category xml:id="jardfr">
+						<catDesc>
+							<term xml:lang="is">Jarðfræði</term>
+							<term xml:lang="da">Geologi</term>
+							<term xml:lang="en">Geology</term>
+						</catDesc>
+						<category xml:id="eldg">
+							<catDesc>
+								<term xml:lang="is">Eldgos</term>
+								<term xml:lang="da">Vulkanudbrud</term>
+								<term xml:lang="en">Volcanic eruptions</term>
+							</catDesc>
+						</category>
+					</category>
+					<category xml:id="liffr">
+						<catDesc>
+							<term xml:lang="is">Líffræði</term>
+							<term xml:lang="da">Biologi</term>
+							<term xml:lang="en">Biology</term>
+						</catDesc>
+					</category>
+					<category xml:id="steinfr">
+						<catDesc>
+							<term xml:lang="is">Steinafræði</term>
+							<term xml:lang="da">Mineralogi</term>
+							<term xml:lang="en">Mineralogy</term>
+						</catDesc>
+					</category>
+					<category xml:id="vedfr">
+						<catDesc>
+							<term xml:lang="is">Veðurfræði</term>
+							<term xml:lang="da">Meteorologi</term>
+							<term xml:lang="en">Meteorology</term>
+						</catDesc>
+						<category xml:id="hafis">
+							<catDesc>
+								<term xml:lang="is">Hafís</term>
+								<term xml:lang="da">Drivis</term>
+								<term xml:lang="en">Sea ice</term>
+							</catDesc>
+						</category>
+					</category>
+
+
+					<category xml:id="person">
+						<catDesc>
+							<term xml:lang="is">Persónusaga</term>
+							<term xml:lang="da">Biografi</term>
+							<term xml:lang="en">Biography</term>
+						</catDesc>
+						<category xml:id="sendbr">
+							<catDesc>
+								<term xml:lang="is">Bréf / Sendibréf</term>
+								<term xml:lang="da">Breve</term>
+								<term xml:lang="en">Epistles / Letters</term>
+							</catDesc>
+							<category xml:id="brefab">
+								<catDesc>
+									<term xml:lang="is">Bréfabækur</term>
+									<term xml:lang="da">Brevbøger</term>
+									<term xml:lang="en">Letter books</term>
+								</catDesc>
+							</category>
+							<category xml:id="brefas">
+								<catDesc>
+									<term xml:lang="is">Bréfasöfn</term>
+									<term xml:lang="da">Brevsamlinger</term>
+									<term xml:lang="en">Letter collections</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="dagb">
+							<catDesc>
+								<term xml:lang="is">Dagbækur</term>
+								<term xml:lang="da">Dagbøger</term>
+								<term xml:lang="en">Diaries</term>
+							</catDesc>
+						</category>
+						<category xml:id="skjol">
+							<catDesc>
+								<term xml:lang="is">Einkaskjöl</term>
+								<term xml:lang="da">Private dokumenter</term>
+								<term xml:lang="en">Private documents</term>
+							</catDesc>
+						</category>
+						<category xml:id="glosu">
+							<catDesc>
+								<term xml:lang="is">Glósubækur / Minnisbækur</term>
+								<term xml:lang="da">Notesbøger</term>
+								<term xml:lang="en">Notebooks</term>
+							</catDesc>
+						</category>
+						<category xml:id="mannt">
+							<catDesc>
+								<term xml:lang="is">Manntöl</term>
+								<term xml:lang="da">Mandtal</term>
+								<term xml:lang="en">Censuses</term>
+							</catDesc>
+							<category xml:id="ritht">
+								<catDesc>
+									<term xml:lang="is">Rithöfundatöl / Skáldatöl</term>
+									<term xml:lang="da">Forfatterregister</term>
+									<term xml:lang="en">Registers of writers / poets</term>
+								</catDesc>
+							</category>
+							<category xml:id="stett">
+								<catDesc>
+									<term xml:lang="is">Stéttatöl</term>
+									<term xml:lang="da">Standsmessigt orienterede registre</term>
+									<term xml:lang="en">Professional registers</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="nafsk">
+							<catDesc>
+								<term xml:lang="is">Nafnaskrár</term>
+								<term xml:lang="da">Navneregistre</term>
+								<term xml:lang="en">Name registers</term>
+							</catDesc>
+						</category>
+						<category xml:id="attfr">
+							<catDesc>
+								<term xml:lang="is">Ættfræði</term>
+								<term xml:lang="da">Slægtsforskning</term>
+								<term xml:lang="en">Genealogy</term>
+							</catDesc>
+							<category xml:id="attat">
+								<catDesc>
+									<term xml:lang="is">Ættartölur</term>
+									<term xml:lang="da">Slægtstavler</term>
+									<term xml:lang="en">Genealogies</term>
+								</catDesc>
+							</category>
+							<category xml:id="kirkjubaekur">
+								<catDesc>
+									<term xml:lang="is">Kirkjubækur</term>
+									<term xml:lang="da">Kirkebøger</term>
+									<term xml:lang="en">Church books</term>
+								</catDesc>
+							</category>
+						</category>
+					</category>
+
+					<category xml:id="sagnfr">
+						<catDesc>
+							<term xml:lang="is">Sagnfræði</term>
+							<term xml:lang="da">Historie</term>
+							<term xml:lang="en">History</term>
+						</catDesc>
+						<category xml:id="annal">
+							<catDesc>
+								<term xml:lang="is">Annálar</term>
+								<term xml:lang="da">Annaler</term>
+								<term xml:lang="en">Annals</term>
+							</catDesc>
+						</category>
+						<category xml:id="byggdas">
+							<catDesc>
+								<term xml:lang="is">Byggðasaga</term>
+								<term xml:lang="da">Bebyggelseshistorie</term>
+								<term xml:lang="en">Population history</term>
+							</catDesc>
+						</category>
+						<category xml:id="fre">
+							<catDesc>
+								<term xml:lang="is">Fréttir</term>
+								<term xml:lang="da">Nyheder</term>
+								<term xml:lang="en">News</term>
+							</catDesc>
+						</category>
+						<category xml:id="lists">
+							<catDesc>
+								<term xml:lang="is">Listasaga</term>
+								<term xml:lang="da">Kunsthistorie</term>
+								<term xml:lang="en">Art history</term>
+							</catDesc>
+						</category>
+						<category xml:id="rett">
+							<catDesc>
+								<term xml:lang="is">Réttarsaga</term>
+								<term xml:lang="da">Retshistorie</term>
+								<term xml:lang="en">Court history</term>
+							</catDesc>
+						</category>
+						<category xml:id="stjornmal">
+							<catDesc>
+								<term xml:lang="is">Stjórnmál</term>
+								<term xml:lang="da">Politik</term>
+								<term xml:lang="en">Politics</term>
+							</catDesc>
+						</category>
+					</category>
+
+					<category xml:id="sam">
+						<catDesc>
+							<term xml:lang="is">Samgöngur</term>
+							<term xml:lang="da">Infrastruktur</term>
+							<term xml:lang="en">Communications</term>
+						</catDesc>
+						<category xml:id="postm">
+							<catDesc>
+								<term xml:lang="is">Póstmál</term>
+								<term xml:lang="da">Postsager</term>
+								<term xml:lang="en">Postal communications</term>
+							</catDesc>
+						</category>
+					</category>
+
+					<category xml:id="sal">
+						<catDesc>
+							<term xml:lang="is">Sálfræði</term>
+							<term xml:lang="da">Psykologi</term>
+							<term xml:lang="en">Psychology</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="starfr">
+						<catDesc>
+							<term xml:lang="is">Stærðfræði</term>
+							<term xml:lang="da">Matematik</term>
+							<term xml:lang="en">Mathematics</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="stjorns">
+						<catDesc>
+							<term xml:lang="is">Stjórnsýsla</term>
+							<term xml:lang="da">Forvaltning</term>
+							<term xml:lang="en">Administration</term>
+						</catDesc>
+						<category xml:id="stjornsk">
+							<catDesc>
+								<term xml:lang="is">Stjórnskipan</term>
+								<term xml:lang="da">Grundlov</term>
+								<term xml:lang="en">Government</term>
+							</catDesc>
+						</category>
+						<category xml:id="althing">
+							<catDesc>
+								<term xml:lang="is">Alþingi</term>
+								<term xml:lang="da">Alting</term>
+								<term xml:lang="en">Parliament</term>
+							</catDesc>
+						</category>
+						<category xml:id="danb">
+							<catDesc>
+								<term xml:lang="is">Dánarbú</term>
+								<term xml:lang="da">Dødsbo</term>
+								<term xml:lang="en">Estate</term>
+							</catDesc>
+						</category>
+						<category xml:id="eign">
+							<catDesc>
+								<term xml:lang="is">Eignaskrár</term>
+								<term xml:lang="da">Ejerliste</term>
+								<term xml:lang="en">Possessions inventories</term>
+							</catDesc>
+						</category>
+						<category xml:id="mark">
+							<catDesc>
+								<term xml:lang="is">Markaskrár</term>
+								<term xml:lang="da">Øremærkefortegnelse</term>
+								<term xml:lang="en">Registers of sheep marks</term>
+							</catDesc>
+							<category xml:id="fjarm">
+								<catDesc>
+									<term xml:lang="is">Fjármörk</term>
+									<term xml:lang="da">Øremærker</term>
+									<term xml:lang="en">Sheep marks</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="embr">
+							<catDesc>
+								<term xml:lang="is">Embættisbréf / Skjöl</term>
+								<term xml:lang="da">Officiel skrivelse</term>
+								<term xml:lang="en">Official letter/ documents</term>
+							</catDesc>
+							<category xml:id="emb">
+								<catDesc>
+									<term xml:lang="is">Embættisbækur</term>
+									<term xml:lang="da"/>
+									<term xml:lang="en">Official books</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="erf">
+							<catDesc>
+								<term xml:lang="is">Erfðaskrár</term>
+								<term xml:lang="da">Testamente</term>
+								<term xml:lang="en">Inheritance records</term>
+							</catDesc>
+						</category>
+						<category xml:id="arfask">
+							<catDesc>
+								<term xml:lang="is">Arfaskiptabréf</term>
+								<term xml:lang="da">Arvebreve</term>
+								<term xml:lang="en">Inheritance records</term>
+							</catDesc>
+						</category>
+						<category xml:id="far">
+							<catDesc>
+								<term xml:lang="is">Farmbréf / Farmskrár</term>
+								<term xml:lang="da">Konnossement</term>
+								<term xml:lang="en">Freight letters / records</term>
+							</catDesc>
+						</category>
+						<category xml:id="fornb">
+							<catDesc>
+								<term xml:lang="is">Fornbréf</term>
+								<term xml:lang="da">Diplomer</term>
+								<term xml:lang="en">Charters</term>
+							</catDesc>
+						</category>
+						<category xml:id="faderni">
+							<catDesc>
+								<term xml:lang="is">Faðernismál</term>
+								<term xml:lang="da"/>
+								<term xml:lang="en">Paternity dispute</term>
+							</catDesc>
+						</category>
+						<category xml:id="kaupmal">
+							<catDesc>
+								<term xml:lang="is">Kaupmálar</term>
+								<term xml:lang="da">Ægtepagter</term>
+								<term xml:lang="en">Contracts / Marriage settlements</term>
+							</catDesc>
+						</category>
+						<category xml:id="umbod">
+							<catDesc>
+								<term xml:lang="is">Umboðsbréf</term>
+								<term xml:lang="da">Fuldmagtsbrev</term>
+								<term xml:lang="en">Power of attorney</term>
+							</catDesc>
+						</category>
+						<category xml:id="hags">
+							<catDesc>
+								<term xml:lang="is">Hagskýrslur</term>
+								<term xml:lang="da">Statistisk rapport</term>
+								<term xml:lang="en">Statistical reports</term>
+							</catDesc>
+						</category>
+						<category xml:id="jarbr">
+							<catDesc>
+								<term xml:lang="is">Jarðabréf</term>
+								<term xml:lang="da">Skøder</term>
+								<term xml:lang="en">Legal papers of land estate</term>
+							</catDesc>
+						</category>
+						<category xml:id="landmbr">
+							<catDesc>
+								<term xml:lang="is">Landamerkjabréf</term>
+								<term xml:lang="da">Dokumenter om matrikelgrænser</term>
+								<term xml:lang="en">Boundaries</term>
+							</catDesc>
+						</category>
+
+						<category xml:id="jarkbr">
+							<catDesc>
+								<term xml:lang="is">Jarðakaupabréf</term>
+								<term xml:lang="da">Skøder</term>
+								<term xml:lang="en">Legal papers of land estate</term>
+							</catDesc>
+						</category>
+						<category xml:id="jarb">
+							<catDesc>
+								<term xml:lang="is">Jarðabækur</term>
+								<term xml:lang="da">Jordebøger</term>
+								<term xml:lang="en">Land registers</term>
+							</catDesc>
+						</category>
+						<category xml:id="kirkjujar">
+							<catDesc>
+								<term xml:lang="is">Kirkjujarðir</term>
+								<term xml:lang="da"/>
+								<term xml:lang="en">Church estates</term>
+							</catDesc>
+						</category>
+						<category xml:id="landm">
+							<catDesc>
+								<term xml:lang="is">Landamerkjaskrár</term>
+								<term xml:lang="da">Registre over matrikelgrænser</term>
+								<term xml:lang="en">Property boundary registers</term>
+							</catDesc>
+						</category>
+						<category xml:id="nytjar">
+							<catDesc>
+								<term xml:lang="is">landnytjar</term>
+								<term xml:lang="da"/>
+								<term xml:lang="en">Land use</term>
+							</catDesc>
+						</category>
+						<category xml:id="arasir">
+							<catDesc>
+								<term xml:lang="is">Líkamsárásir</term>
+								<term xml:lang="da"/>
+								<term xml:lang="en">Assaults</term>
+							</catDesc>
+						</category>
+						<category xml:id="mald">
+							<catDesc>
+								<term xml:lang="is">Máldagar</term>
+								<term xml:lang="da">Fortegnelse over besiddelser</term>
+								<term xml:lang="en">Chartularies</term>
+							</catDesc>
+						</category>
+						<category xml:id="meid">
+							<catDesc>
+								<term xml:lang="is">Meiðyrði</term>
+								<term xml:lang="da"/>
+								<term xml:lang="en">Libels</term>
+							</catDesc>
+						</category>
+						<category xml:id="kvitt">
+							<catDesc>
+								<term xml:lang="is">Kvittunarbréf</term>
+								<term xml:lang="da">Pantebrev</term>
+								<term xml:lang="en"></term> <!-- maybe pawn something? -->
+							</catDesc>
+						</category>
+						<category xml:id="saett">
+							<catDesc>
+								<term xml:lang="is">Sættargerðir</term>
+								<term xml:lang="da"/>
+								<term xml:lang="en">Agreements</term>
+							</catDesc>
+						</category>
+						<category xml:id="vitn">
+							<catDesc>
+								<term xml:lang="is">Vitnisburðarbréf</term>
+								<term xml:lang="da">Vidnesbyrdbreve</term>
+								<term xml:lang="en">Testimonies</term>
+							</catDesc>
+						</category>
+						<category xml:id="abud">
+							<catDesc>
+								<term xml:lang="is">Ábúðarbréf</term>
+								<term xml:lang="da">Forpagtningsbrev</term>
+								<term xml:lang="en">Tenancies</term>
+							</catDesc>
+						</category>
+						<category xml:id="husab">
+							<catDesc>
+								<term xml:lang="is">Húsabætur</term>
+								<term xml:lang="da"/>
+								<term xml:lang="en">Renovation</term>
+							</catDesc>
+						</category>
+						<category xml:id="husn">
+							<catDesc>
+								<term xml:lang="is">Húsnæði</term>
+								<term xml:lang="da"/>
+								<term xml:lang="en">Housing</term>
+							</catDesc>
+						</category>
+						<category xml:id="leigus">
+							<catDesc>
+								<term xml:lang="is">Leigusamningar</term>
+								<term xml:lang="da">Lejekontrakt</term>
+								<term xml:lang="en">Lease agreements</term>
+							</catDesc>
+						</category>
+						<category xml:id="tiund">
+							<catDesc>
+								<term xml:lang="is">Tíund</term>
+								<term xml:lang="da">Tiende</term>
+								<term xml:lang="en">Tithe</term>
+							</catDesc>
+						</category>
+						<category xml:id="prestst">
+							<catDesc>
+								<term xml:lang="is">Prestastefnur</term>
+								<term xml:lang="da"/>
+								<term xml:lang="en">Synods</term>
+							</catDesc>
+						</category>
+						<category xml:id="vis">
+							<catDesc>
+								<term xml:lang="is">Vísitasíur</term>
+								<term xml:lang="da">Visitatser</term>
+								<term xml:lang="en">Visitations</term>
+							</catDesc>
+						</category>
+						<category xml:id="gjafabr">
+							<catDesc>
+								<term xml:lang="is">Gjafabréf</term>
+								<term xml:lang="da">Gavekort</term>
+								<term xml:lang="en">Gift vouchers</term>
+							</catDesc>
+						</category>
+						<category xml:id="reka">
+							<catDesc>
+								<term xml:lang="is">Rekaskrár</term>
+								<term xml:lang="da">Ejerskabsregister for drivtømmer</term>
+								<term xml:lang="en">Driftwood sites/owners register</term>
+							</catDesc>
+						</category>
+						<category xml:id="rekabr">
+							<catDesc>
+								<term xml:lang="is">Rekabréf</term>
+								<term xml:lang="da">Ejerskabsdokument for drivtømmer</term>
+								<term xml:lang="en">Documents concerning driftwood</term>
+							</catDesc>
+						</category>
+						<category xml:id="fjarbeit">
+							<catDesc>
+								<term xml:lang="is">Fjárbeit</term>
+								<term xml:lang="da"/>
+								<term xml:lang="en">Sheep range</term>
+							</catDesc>
+						</category>
+						<category xml:id="hest">
+							<catDesc>
+								<term xml:lang="is">Hestar</term>
+								<term xml:lang="da"/>
+								<term xml:lang="en">Horses</term>
+							</catDesc>
+						</category>
+						<category xml:id="skatt">
+							<catDesc>
+								<term xml:lang="is">Skattar</term>
+								<term xml:lang="da"/>
+								<term xml:lang="en">Taxes / taxation</term>
+							</catDesc>
+						</category>
+						<category xml:id="skjask">
+							<catDesc>
+								<term xml:lang="is">Skjalaskrár</term>
+								<term xml:lang="da">Kaaloger</term>
+								<term xml:lang="en">Archival lists/ lists of legal papers</term>
+							</catDesc>
+						</category>
+						<category xml:id="skip">
+							<catDesc>
+								<term xml:lang="is">Skip</term>
+								
+								
+								
+								<term xml:lang="da"/>
+								<term xml:lang="en">Ships</term>
+							</catDesc>
+						</category>
+						<category xml:id="skuld">
+							<catDesc>
+								<term xml:lang="is">Skuldir</term>
+								<term xml:lang="da"/>
+								<term xml:lang="en">Debts</term>
+							</catDesc>
+						</category>
+						<category xml:id="spitalar">
+							<catDesc>
+								<term xml:lang="is">Spítalar</term>
+								<term xml:lang="da"/>
+								<term xml:lang="en">Hospitals</term>
+							</catDesc>
+						</category>
+						<category xml:id="velferd">
+							<catDesc>
+								<term xml:lang="is">Velferðarmál</term>
+								<term xml:lang="da">Velfærd</term>
+								<term xml:lang="en">Welfare</term>
+							</catDesc>
+						</category>
+						<category xml:id="tilskip">
+							<catDesc>
+								<term xml:lang="is">Tilskipanir / Auglýsingar / Kapítulstaxtar
+									o.fl.</term>
+								<term xml:lang="da">Påbud</term>
+								<term xml:lang="en">Directives</term>
+							</catDesc>
+						</category>
+					</category>
+					<category xml:id="stjofr">
+						<catDesc>
+							<term xml:lang="is">Stjörnufræði</term>
+							<term xml:lang="da">Astronomi</term>
+							<term xml:lang="en">Astronomy</term>
+						</catDesc>
+						<category xml:id="kosmo">
+							<catDesc>
+								<term xml:lang="is">Heimsmyndarfræði/kosmólógía</term>
+								<term xml:lang="da">Kosmologi</term>
+								<term xml:lang="en">Cosmology</term>
+							</catDesc>
+						</category>
+						<category xml:id="timafr">
+							<catDesc>
+								<term xml:lang="is">Tímatalsfræði</term>
+								<term xml:lang="da">Kronologi</term>
+								<term xml:lang="en">Chronology</term>
+							</catDesc>
+						</category>
+						<category xml:id="timat">
+							<catDesc>
+								<term xml:lang="is">Tímatöl</term>
+								<term xml:lang="da">Kalendre</term>
+								<term xml:lang="en">Calendars</term>
+							</catDesc>
+							<category xml:id="alm">
+								<catDesc>
+									<term xml:lang="is">Almanök</term>
+									<term xml:lang="da">Almanakker</term>
+									<term xml:lang="en">Almanacs</term>
+								</catDesc>
+							</category>
+							<category xml:id="jola">
+								<catDesc>
+									<term xml:lang="is">Jólaskrár</term>
+									<term xml:lang="da">Julemærker</term>
+									<term xml:lang="en">Old folkloristic books of weather forecast
+										from Christmas for the next twelve months.</term>
+								</catDesc>
+							</category>
+							<category xml:id="pask">
+								<catDesc>
+									<term xml:lang="is">Páskatöflur</term>
+									<term xml:lang="da">Påsketavler</term>
+									<term xml:lang="en">Easter tables</term>
+								</catDesc>
+							</category>
+						</category>
+					</category>
+
+					<category xml:id="tim">
+						<catDesc>
+							<term xml:lang="is">Tímarit / Sveitablöð</term>
+							<term xml:lang="da">Tidsskrifter</term>
+							<term xml:lang="en">Magazines</term>
+						</catDesc>
+					</category>
+					<category xml:id="blod">
+						<catDesc>
+							<term xml:lang="is">Dagblöð</term>
+							<term xml:lang="da">Aviser</term>
+							<term xml:lang="en">Newspapers</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="einblod">
+						<catDesc>
+							<term xml:lang="is">Einblöðungar</term>
+							<term xml:lang="da">Flyveblad</term>
+							<term xml:lang="en">Single sheet</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="trumal">
+						<catDesc>
+							<term xml:lang="is">Trúmál /Trúarlíf / Trúfræði</term>
+							<term xml:lang="da">Religion</term>
+							<term xml:lang="en">Religion</term>
+						</catDesc>
+						<category xml:id="trubr">
+							<catDesc>
+								<term xml:lang="is">Trúarbrögð</term>
+								<term xml:lang="da">Trosretninger</term>
+								<term xml:lang="en">Religions</term>
+							</catDesc>
+							<category xml:id="krist">
+								<catDesc>
+									<term xml:lang="is">Kristni</term>
+									<term xml:lang="da">Kristendom</term>
+									<term xml:lang="en">Christianity</term>
+								</catDesc>
+								<category xml:id="kirkjus">
+									<catDesc>
+										<term xml:lang="is">Kirkjusaga</term>
+										<term xml:lang="da">Kirkehistorie</term>
+										<term xml:lang="en">Church history</term>
+									</catDesc>
+								</category>
+								<category xml:id="bis">
+									<catDesc>
+										<term xml:lang="is">Biskupar</term>
+										<term xml:lang="da">Biskopper</term>
+										<term xml:lang="en">Bishops</term>
+									</catDesc>
+								</category>
+								<category xml:id="pres">
+									<catDesc>
+										<term xml:lang="is">Prestar</term>
+										<term xml:lang="da">Præster</term>
+										<term xml:lang="en">Priest</term>
+									</catDesc>
+									<category xml:id="handb">
+										<catDesc>
+											<term xml:lang="is">Handbækur presta</term>
+											<term xml:lang="da">Præstehåndbøger</term>
+											<term xml:lang="en">Priests' handbooks</term>
+										</catDesc>
+									</category>
+								</category>
+								<category xml:id="mottr">
+									<catDesc>
+										<term xml:lang="is">Mótmælendatrú / Lútherstrú</term>
+										<term xml:lang="da">Protestantisme / Lutheranisme</term>
+										<term xml:lang="en">Protestantism / Lutheranism</term>
+									</catDesc>
+								</category>
+							</category>
+							<category xml:id="kathtr">
+								<catDesc>
+									<term xml:lang="is">Kaþólsk trú</term>
+									<term xml:lang="da">Katolicisme</term>
+									<term xml:lang="en">Catholicism</term>
+								</catDesc>
+								<category xml:id="abba">
+									<catDesc>
+										<term xml:lang="is">Abbadísir</term>
+										<term xml:lang="da">Abbedisser</term>
+										<term xml:lang="en">Abbesses</term>
+									</catDesc>
+								</category>
+								<category xml:id="abot">
+									<catDesc>
+										<term xml:lang="is">Ábótar</term>
+										<term xml:lang="da">Abbeder</term>
+										<term xml:lang="en">Abbots</term>
+									</catDesc>
+									<category xml:id="dyrl">
+										<catDesc>
+											<term xml:lang="is">Dýrlingar</term>
+											<term xml:lang="da">Helgener</term>
+											<term xml:lang="en">Saints</term>
+										</catDesc>
+									</category>
+								</category>
+								<category xml:id="klaus">
+									<catDesc>
+										<term xml:lang="is">Klaustur</term>
+										<term xml:lang="da">Klostre</term>
+										<term xml:lang="en">Cloisters</term>
+									</catDesc>
+								</category>
+								<category xml:id="munk">
+									<catDesc>
+										<term xml:lang="is">Munkar</term>
+										<term xml:lang="da">Munke</term>
+										<term xml:lang="en">Monks</term>
+									</catDesc>
+								</category>
+								<category xml:id="paf">
+									<catDesc>
+										<term xml:lang="is">Páfar</term>
+										<term xml:lang="da">Paver</term>
+										<term xml:lang="en">Popes</term>
+									</catDesc>
+								</category>
+							</category>
+							<category xml:id="gudfr">
+								<catDesc>
+									<term xml:lang="is">Guðfræði</term>
+									<term xml:lang="da">Teologi</term>
+									<term xml:lang="en">Theology</term>
+								</catDesc>
+								<category xml:id="trurit">
+									<catDesc>
+										<term xml:lang="is">Guðræknirit / Hugvekjur / Trúarlíf /
+											Trúfræði</term>
+										<term xml:lang="da">Dogmatik</term>
+										<term xml:lang="en">Books on Christian religion/
+											meditations/ spiritual devotion</term>
+									</catDesc>
+									<category xml:id="hugv">
+										<catDesc>
+											<term xml:lang="is">Hugvekjur</term>
+											<term xml:lang="da">Opbyggelige skrifter</term>
+											<term xml:lang="en">Meditations</term>
+										</catDesc>
+									</category>
+									<category xml:id="truark">
+										<catDesc>
+											<term xml:lang="is">Trúarkenningar</term>
+											<term xml:lang="da">Troslærdom</term>
+											<term xml:lang="en">Dogmatic</term>
+										</catDesc>
+									</category>
+									<category xml:id="bibl">
+										<catDesc>
+											<term xml:lang="is">Biblían</term>
+											<term xml:lang="da">Bibelen</term>
+											<term xml:lang="en">Bible</term>
+										</catDesc>
+										<category xml:id="apo">
+											<catDesc>
+												<term xml:lang="is">Apókrýfar bækur</term>
+												<term xml:lang="da">Apokryfe skrifter</term>
+												<term xml:lang="en">Apocrypha</term>
+											</catDesc>
+										</category>
+										<category xml:id="biblsky">
+											<catDesc>
+												<term xml:lang="is">Biblíuskýringar</term>
+												<term xml:lang="da">Bibelfortolkninger</term>
+												<term xml:lang="en">Bible commentary</term>
+											</catDesc>
+										</category>
+										<category xml:id="biblsog">
+											<catDesc>
+												<term xml:lang="is">Biblíusögur</term>
+												<term xml:lang="da">Bibelhistorier</term>
+												<term xml:lang="en">Bible stories</term>
+											</catDesc>
+										</category>
+										<category xml:id="biblþ">
+											<catDesc>
+												<term xml:lang="is">Biblíuþýðingar</term>
+												<term xml:lang="da">Bibeloversættelser</term>
+												<term xml:lang="en">Bible translations</term>
+											</catDesc>
+										</category>
+									</category>
+									<category xml:id="banb">
+										<catDesc>
+											<term xml:lang="is">Bænabækur</term>
+											<term xml:lang="da">Bønnebøger</term>
+											<term xml:lang="en">Books of prayers</term>
+										</catDesc>
+									</category>
+									<category xml:id="ban">
+										<catDesc>
+											<term xml:lang="is">Bænir</term>
+											<term xml:lang="da">Bønner</term>
+											<term xml:lang="en">Prayers</term>
+										</catDesc>
+										<category xml:id="vikub">
+											<catDesc>
+												<term xml:lang="is">Vikubænir</term>
+												<term xml:lang="da">Ugebønner</term>
+												<term xml:lang="en">Weekly prayers</term>
+											</catDesc>
+											<category xml:id="morgunb">
+												<catDesc>
+												<term xml:lang="is">Morgunbænir</term>
+												<term xml:lang="da">Morgenbønner</term>
+												<term xml:lang="en">Morning prayers</term>
+												</catDesc>
+											</category>
+											<category xml:id="kvoldb">
+												<catDesc>
+												<term xml:lang="is">Kvöldbænir</term>
+												<term xml:lang="da">Aftenbønner</term>
+												<term xml:lang="en">Evening prayers</term>
+												</catDesc>
+											</category>
+										</category>
+										<category xml:id="jarteikn">
+											<catDesc>
+												<term xml:lang="is">Jarteiknir</term>
+												<term xml:lang="da">Jærtegn</term>
+												<term xml:lang="en">Miracles</term>
+											</catDesc>
+										</category>
+									</category>
+									<category xml:id="ferm">
+										<catDesc>
+											<term xml:lang="is">Fermingarfræðsla / Katekismar /
+												Barnalærdómur</term>
+											<term xml:lang="da">Katekismer</term>
+											<term xml:lang="en">Catechism</term>
+										</catDesc>
+									</category>
+									<category xml:id="helgb">
+										<catDesc>
+											<term xml:lang="is">Helgisiðabækur</term>
+											<term xml:lang="da">Liturgiske bøger</term>
+											<term xml:lang="en">Liturgical books</term>
+										</catDesc>
+									</category>
+									<category xml:id="postil">
+										<catDesc>
+											<term xml:lang="is">Húslestrarbækur / Postillur</term>
+											<term xml:lang="da">Postiller</term>
+											<term xml:lang="en">Collections of sermons for loud
+												reading at home</term>
+										</catDesc>
+									</category>
+								</category>
+								<category xml:id="helgs">
+									<catDesc>
+										<term xml:lang="is">Helgisiðir</term>
+										<term xml:lang="da">Ritualer</term>
+										<term xml:lang="en">Liturgics</term>
+									</catDesc>
+									<category xml:id="hsong">
+										<catDesc>
+											<term xml:lang="is">Helgisöngur</term>
+											<term xml:lang="da">Helgensange</term>
+											<term xml:lang="en">Liturgic songs</term>
+										</catDesc>
+									</category>
+									<category xml:id="tid">
+										<catDesc>
+											<term xml:lang="is">Messur / Tíðagjörðir</term>
+											<term xml:lang="da">Messer</term>
+											<term xml:lang="en">Masses</term>
+										</catDesc>
+										<category xml:id="messus">
+											<catDesc>
+												<term xml:lang="is">Messusöngsbækur</term>
+												<term xml:lang="da">Salmebøger</term>
+												<term xml:lang="en">Missals</term>
+											</catDesc>
+										</category>
+									</category>
+								</category>
+								<category xml:id="kir">
+									<catDesc>
+										<term xml:lang="is">Kirkjur</term>
+										<term xml:lang="da">Kirker</term>
+										<term xml:lang="en">Churches</term>
+									</catDesc>
+								</category>
+								<category xml:id="heid">
+									<catDesc>
+										<term xml:lang="is">Heiðni</term>
+										<term xml:lang="da">Hedenskab</term>
+										<term xml:lang="en">Heathendom</term>
+									</catDesc>
+									<category xml:id="godfrg">
+										<catDesc>
+											<term xml:lang="is">Goðafræði (grísk)</term>
+											<term xml:lang="da">Græsk mytologi</term>
+											<term xml:lang="en">Greek mythology</term>
+										</catDesc>
+									</category>
+									<category xml:id="godfrn">
+										<catDesc>
+											<term xml:lang="is">Goðafræði (norræn)</term>
+											<term xml:lang="da">Nordisk mytologi</term>
+											<term xml:lang="en">Norse mythology</term>
+										</catDesc>
+									</category>
+									<category xml:id="godfrr">
+										<catDesc>
+											<term xml:lang="is">Goðafræði (rómversk)</term>
+											<term xml:lang="da">Romersk mytologi</term>
+											<term xml:lang="en">Roman mythology</term>
+										</catDesc>
+									</category>
+									<category xml:id="hof">
+										<catDesc>
+											<term xml:lang="is">Hof</term>
+											<term xml:lang="da">Hov</term>
+											<term xml:lang="en">Temples</term>
+										</catDesc>
+									</category>
+								</category>
+							</category>
+						</category>
+					</category>
+
+					<category xml:id="uppeldi">
+						<catDesc>
+							<term xml:lang="is">Uppeldi / Uppeldismál / Barnauppeldi</term>
+							<term xml:lang="da">Opdragelse</term>
+							<term xml:lang="en">Education</term>
+						</catDesc>
+					</category>
+
+					<category xml:id="tjodfr">
+						<catDesc>
+							<term xml:lang="is">Þjóðfræði</term>
+							<term xml:lang="da">Folkloristik</term>
+							<term xml:lang="en">Folkloristics/Ethnology</term>
+						</catDesc>
+						<category xml:id="draum">
+							<catDesc>
+								<term xml:lang="is">Draumar</term>
+								<term xml:lang="da">Drømme</term>
+								<term xml:lang="en">Dreams</term>
+							</catDesc>
+							<category xml:id="draumr">
+								<catDesc>
+									<term xml:lang="is">Draumaráðningar</term>
+									<term xml:lang="da">Drømmetydninger</term>
+									<term xml:lang="en">Interpretations of dreams</term>
+								</catDesc>
+							</category>
+							<category xml:id="lofales">
+								<catDesc>
+									<term xml:lang="is">Lófalestur</term>
+									<term xml:lang="da">Håndlæsning</term>
+									<term xml:lang="en">Palm reading</term>
+								</catDesc>
+							</category>
+							<category xml:id="stjornum">
+								<catDesc>
+									<term xml:lang="is">Stjörnumerki</term>
+									<term xml:lang="da">Stjernetegn</term>
+									<term xml:lang="en">Signs of the zodiac</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="gald">
+							<catDesc>
+								<term xml:lang="is">Galdrar</term>
+								<term xml:lang="da">Trolddomme</term>
+								<term xml:lang="en">Charms</term>
+							</catDesc>
+							<category xml:id="galdr">
+								<catDesc>
+									<term xml:lang="is">Galdrarit</term>
+									<term xml:lang="da">Trolddomsbøger</term>
+									<term xml:lang="en">Magic books</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="sagnps">
+							<catDesc>
+								<term xml:lang="is">Gervisagnfræði / Pseudo-sagnfræði</term>
+								<term xml:lang="da">pseudohistorie</term>
+								<term xml:lang="en">Pseudo-history</term>
+							</catDesc>
+						</category>
+						<category xml:id="spa">
+							<catDesc>
+								<term xml:lang="is">Spádómar</term>
+								<term xml:lang="da">Spådomme</term>
+								<term xml:lang="en">Prophecies</term>
+							</catDesc>
+						</category>
+						<category xml:id="stjors">
+							<catDesc>
+								<term xml:lang="is">Stjörnuspeki</term>
+								<term xml:lang="da">Astrologi</term>
+								<term xml:lang="en">Astrology</term>
+							</catDesc>
+						</category>
+						<category xml:id="vit">
+							<catDesc>
+								<term xml:lang="is">Vitranir</term>
+								<term xml:lang="da">Åbenbaringer</term>
+								<term xml:lang="en">Visions</term>
+							</catDesc>
+						</category>
+						<category xml:id="tjodh">
+							<catDesc>
+								<term xml:lang="is">Þjóðhættir</term>
+								<term xml:lang="da">Traditioner</term>
+								<term xml:lang="en">Folk customs</term>
+							</catDesc>
+							<category xml:id="brudk">
+								<catDesc>
+									<term xml:lang="is">Brúðkaup</term>
+									<term xml:lang="da">Bryllupper</term>
+									<term xml:lang="en">Weddings</term>
+								</catDesc>
+							</category>
+							<category xml:id="fat">
+								<catDesc>
+									<term xml:lang="is">Fatnaður</term>
+									<term xml:lang="da">Tøj</term>
+									<term xml:lang="en">Clothing</term>
+								</catDesc>
+							</category>
+							<category xml:id="hatid">
+								<catDesc>
+									<term xml:lang="is">Hátíðir</term>
+									<term xml:lang="da">Højtider</term>
+									<term xml:lang="en">Festivities</term>
+								</catDesc>
+							</category>
+							<category xml:id="klaed">
+								<catDesc>
+									<term xml:lang="is">Klæðnaður</term>
+									<term xml:lang="da">Beklædning</term>
+									<term xml:lang="en">Textile products</term>
+								</catDesc>
+							</category>
+							<category xml:id="matr">
+								<catDesc>
+									<term xml:lang="is">Matreiðsla</term>
+									<term xml:lang="da">Madlavning</term>
+									<term xml:lang="en">Cooking</term>
+								</catDesc>
+							</category>
+						</category>
+						<category xml:id="tjodt">
+							<catDesc>
+								<term xml:lang="is">Þjóðtrú</term>
+								<term xml:lang="da">Folketro</term>
+								<term xml:lang="en">Superstition</term>
+							</catDesc>
+						</category>
+					</category>
+					<category xml:id="ljosm">
+						<catDesc>
+							<term xml:lang="is">Ljósmyndir</term>
+							<term xml:lang="da">Fotografier</term>
+							<term xml:lang="en">Photographs</term>
+						</catDesc>
+					</category>
+					<category xml:id="notes">
+						<catDesc>
+							<term xml:lang="is"/>
+							<term xml:lang="da"/>
+							<term xml:lang="en">Notes (scholarly)</term>
+						</catDesc>
+					</category>
+
+
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+	</teiHeader>
+	<facsimile>
+		<surface/>
+	</facsimile>
+</TEI>
