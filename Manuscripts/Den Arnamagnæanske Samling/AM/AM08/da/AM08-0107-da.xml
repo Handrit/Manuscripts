@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -15,7 +15,9 @@
                     <msIdentifier>
                         <country>Danmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 107 8vo</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2311</idno>
@@ -24,9 +26,8 @@
                     <head> </head>
                     <msContents>
                         <summary>Håndskriftet er skrevet af franciskanermunken og historikeren
-                            Petrus Olai Saneropius (&#x271D; ca. 1570) og indeholder forskelligartet
-                            historisk stof, samlet over en lang årrække, der går under titlen <title
-                                type="uniform" n="1" xml:lang="la">Collectanea ad historiam Danicam
+                            Petrus Olai Saneropius (✝ ca. 1570) og indeholder forskelligartet
+                            historisk stof, samlet over en lang årrække, der går under titlen <title type="uniform" n="1" xml:lang="la">Collectanea ad historiam Danicam
                                 pertinentia</title>. AM 107 8vo er et håndskrift med en kompliceret
                             kodikologisk og tekstlig struktur. Den oprindelige tekst er af
                             forfatteren – og nogle steder af andre hænder - senere blevet udvidet;
@@ -44,31 +45,27 @@
                                     kong Christian I</title>
                                 <textLang mainLang="da">Dansk</textLang>
                             </msItem>  -->
-                            <note>Angående indholdet i det enkelte se <bibl>Langebek:<ref
-                                        target="SRDMAE">Scriptores Rerum Danicarum Medii Aevi</ref>
-                                    <biblScope type="volume">I</biblScope><biblScope type="pages"
-                                        >69</biblScope></bibl>; om de benyttede stykker, se
+                            <note>Angående indholdet i det enkelte se <bibl>Langebek:<ref target="SRDMAE">Scriptores Rerum Danicarum Medii Aevi</ref>
+                                    <biblScope unit="volume">I</biblScope><biblScope unit="pages">69</biblScope></bibl>; om de benyttede stykker, se
                                     <bibl>Rørdam: <ref target="HHDNSR">Historieskrivningen og
-                                        Historieskriverne</ref><biblScope type="pages"
-                                        >48-49</biblScope>.</bibl></note>
+                                        Historieskriverne</ref><biblScope unit="pages">48-49</biblScope>.</bibl></note>
                             <listBibl>
                                 <bibl>Gertz: <ref target="SMHDMAE">Scriptores minores historiæ
-                                        Danicæ medii ævi</ref><biblScope type="volume"
-                                        >II</biblScope></bibl>
+                                        Danicæ medii ævi</ref><biblScope unit="volume">II</biblScope></bibl>
                                 <bibl>Jørgensen: <ref target="EllJør1920">Annales Danici medii
                                         aevi</ref>
-                                    <biblScope type="pages">130-11, 203-11</biblScope>
+                                    <biblScope unit="pages">130-11, 203-11</biblScope>
                                 </bibl>
                                 <bibl>Kroman: <ref target="Kroman1980">Danmarks middelalderlige
                                         annaler</ref>
-                                    <biblScope type="pages">300-306</biblScope></bibl>
+                                    <biblScope unit="pages">300-306</biblScope></bibl>
                                 <bibl>Langebek: <ref type="secondary-1" target="SRDMAE">Scriptores
                                         Rerum Danicarum Medii Aevi</ref>
-                                    <biblScope type="volume">I-III, V-VIII</biblScope>
+                                    <biblScope unit="volume">I-III, V-VIII</biblScope>
                                 </bibl>
                                 <bibl>Paulsson: <ref target="GötPaul1974">Annales Suecici medii
                                         aevi</ref>
-                                    <biblScope type="pages">374 ff.</biblScope>
+                                    <biblScope unit="pages">374 ff.</biblScope>
                                 </bibl>
                             </listBibl>
                             <!-- Annika: kan du finde flere udgivelser? Det er tilsyneladende et vigtigt historisk håndskrift.
@@ -120,8 +117,7 @@
                             <p>På bl. 171v har <name type="person" key="AndVed001">Anders Sørensen
                                     Vedel</name> skrevet: <q xml:lang="la">Dominus Petrus Olaj <lb/>
                                     olim familiæ Fran<lb/>ciſcanæ hunc libru<ex>m</ex> ex Variis
-                                    monu<lb/>mentis magno la<lb/>bore collegit <supplied
-                                        reason="unknown">ac</supplied> mihj moriturus suj <lb/>
+                                    monu<lb/>mentis magno la<lb/>bore collegit <supplied reason="unknown">ac</supplied> mihj moriturus suj <lb/>
                                     Μνημοσυνον <lb/> reliquit</q>.</p>
                             <p>Det ydre omslag bærer, foruden flere andre optegnelser, med en
                                 frakturhånd påskriften: <q xml:lang="la">Petro Olauo Sanerpío
@@ -130,8 +126,7 @@
                         </additions>
                         <bindingDesc>
                             <binding notBefore="1964" notAfter="1964" contemporary="false">
-                                <p>Håndskriftet er indbundet i et BD-standardbind fra <date
-                                        when="1964">1964</date>.</p>
+                                <p>Håndskriftet er indbundet i et BD-standardbind fra <date when="1964">1964</date>.</p>
                             </binding>
                             <binding>
                                 <p>Da <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -146,8 +141,7 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1515" notAfter="1570" evidence="conjecture">Skrevet i
-                                <origPlace>Danmark</origPlace> i tidsrummet <origDate
-                                notBefore="1570" notAfter="1570">1515-1570</origDate>.</origin>
+                                <origPlace>Danmark</origPlace> i tidsrummet <origDate notBefore="1570" notAfter="1570">1515-1570</origDate>.</origin>
                         <provenance><name type="person" key="PetOla002">Petrus Olai</name> skænkede
                             håndskriftet til <name type="person" key="AndVed001">Anders Sørensen
                                 Vedel</name> kort inden sin død.</provenance>
@@ -163,22 +157,21 @@
                         </adminInfo>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
-                                <biblScope type="volume">II</biblScope>
-                                <biblScope type="pages">395</biblScope>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">395</biblScope>
                             </bibl>
-                            <bibl>Rørdam: <ref type="secondary-1" target="HHDNSR"
-                                    >Historieskrivningen og Historieskriverne i Danmark og Norge
+                            <bibl>Rørdam: <ref type="secondary-1" target="HHDNSR">Historieskrivningen og Historieskriverne i Danmark og Norge
                                     siden Reformationen</ref>
-                                <biblScope type="pages">48 ff., 106</biblScope>
+                                <biblScope unit="pages">48 ff., 106</biblScope>
                             </bibl>
                             <bibl>Rørdam: <ref target="HolRør1873-1875">Monumenta historiae
                                     Danicae</ref>
-                                <biblScope type="volume">II:1</biblScope>
-                                <biblScope type="pages">8-9</biblScope>
+                                <biblScope unit="volume">II:1</biblScope>
+                                <biblScope unit="pages">8-9</biblScope>
                             </bibl>
                             <bibl>Molbech: <ref type="secondary-1" target="Rimkr1825">Den danske
                                     Rimkrønike</ref>
-                                <biblScope type="pages">xi-xii</biblScope>
+                                <biblScope unit="pages">xi-xii</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

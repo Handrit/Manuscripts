@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 753 1-2 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1869</idno>
@@ -70,14 +70,12 @@
                      </binding>
                   </bindingDesc>
                   <accMat>
-                     <p>Fjórir fastir seðlar (fremst í handriti) með hendi <name key="ArnMag001"
-                           type="person">Árna Magnússonar</name>:<list>
+                     <p>Fjórir fastir seðlar (fremst í handriti) með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name>:<list>
                            <item n="1">Á <locus from="accMat01r" to="accMat01v">seðil (a)</locus>
                                  (<dimensions type="slip" unit="mm">
                                  <height>203</height>
                                  <width>149</width>
-                              </dimensions>) er ritaður titill handrits og númer <quote
-                                 type="AMSlip" xml:lang="is">Skallda, vulgo dicta Rectius pars Eddæ.
+                              </dimensions>) er ritaður titill handrits og númer <quote type="AMSlip" xml:lang="is">Skallda, vulgo dicta Rectius pars Eddæ.
                                  [yfirstrika': aliqvot exemplaria 000000 ex Svecia] No
                               753</quote>.</item>
                            <item n="2">Á næstu tvo <locus from="accMat02r" to="accMat03v">seðla (b
@@ -119,8 +117,7 @@
                                  (<dimensions type="slip" unit="mm">
                                  <height>70</height>
                                  <width>52</width>
-                              </dimensions>) er með upplýsingum um aðföng <quote type="AMSlip"
-                                 xml:lang="is">Fengið 1703 frá Grími Einarssyni [yfirstrikað:
+                              </dimensions>) er með upplýsingum um aðföng <quote type="AMSlip" xml:lang="is">Fengið 1703 frá Grími Einarssyni [yfirstrikað:
                                  undir] í Holti undir Eyjafjöllum.</quote>.</item>
                            <item>Laus miði með upplýsingum um forvörslu bands.</item>
                         </list>
@@ -130,10 +127,7 @@
                <history>
 
                   <provenance>
-                     <p> Árni Magnússon fékk handritið árið <date when="1703">1703</date>, frá <name
-                           type="person">Grími Einarssyni</name> í <name type="place" key=""
-                           >Holti</name> undir Eyjafjöllum (sbr. <locus from="accMat04r"
-                           to="accMat04v">seðil (d)</locus>) sem nú stendur framan við fremra
+                     <p> Árni Magnússon fékk handritið árið <date when="1703">1703</date>, frá <name type="person">Grími Einarssyni</name> í <name type="place" key="">Holti</name> undir Eyjafjöllum (sbr. <locus from="accMat04r" to="accMat04v">seðil (d)</locus>) sem nú stendur framan við fremra
                         handritið, en var áður fastur við aftara handritið, skv. lýsingu Kålunds
                         (sbr. <bibl>
                            <ref target="KKKat">Katalog (II) 1894:177</ref>
@@ -148,8 +142,7 @@
                      <recordHist>
                         <source>
                            <p>
-                              <name type="person" key="ValHil001">VH</name> skráði handritið <date
-                                 when="2009-06-15">18. júní 2009</date>,</p>
+                              <name type="person" key="ValHil001">VH</name> skráði handritið <date when="2009-06-15">18. júní 2009</date>,</p>
                            <p>   <name key="DriThr001" type="person">DKÞ</name> skráði
                                  handritið  <date when="2003-12-11">11. desember 2003</date>.</p>
                            <p>
@@ -159,9 +152,7 @@
                               </bibl>,bls.177 (nr. 1869).</p>
                            <p>
                               <name type="person" key="GioVer001">GV</name> sló inn texta af seðlum
-                              Árna Magnússonar undir umsjón <name type="person" key="ThoSig001"
-                                 >ÞS</name> og með hliðsjón af gögnum frá <name type="person"
-                                 key="MarJon001">MJ</name>.</p>
+                              Árna Magnússonar undir umsjón <name type="person" key="ThoSig001">ÞS</name> og með hliðsjón af gögnum frá <name type="person" key="MarJon001">MJ</name>.</p>
                         </source>
 
                      </recordHist>
@@ -179,9 +170,9 @@
                   </listBibl>
                </additional>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 753 1 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <summary><title type="uniform">Snorra-Edda</title></summary>
                      <textLang mainLang="is">Íslenska</textLang>
@@ -270,9 +261,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 753 2 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem defective="true" class="skaldskfr godfr bragfr">
@@ -322,8 +313,7 @@
                                        </dimensions>).</item>
                                     <item>Línufjöldi er ca 24-26.</item>
                                     <item>Kaflaskipting ii-xiv (upphaf fyrsta kafla vantar).</item>
-                                    <item><catchwords>Griporð</catchwords> (sjá t.d. <locus
-                                          from="16v" to="17r">16v-17r</locus>).</item>
+                                    <item><catchwords>Griporð</catchwords> (sjá t.d. <locus from="16v" to="17r">16v-17r</locus>).</item>
                                  </list>
                               </p>
                            </layout>
@@ -352,8 +342,7 @@
                      <origin notBefore="1690" notAfter="1710">
                         <p>
                           Handritið er skrifað á <origPlace key="IS">Íslandi</origPlace>
-                                 og tímasett til ca <origDate notBefore="1690" notAfter="1710"
-                                    >1700</origDate> (sbr. <bibl>
+                                 og tímasett til ca <origDate notBefore="1690" notAfter="1710">1700</origDate> (sbr. <bibl>
                                     <ref target="KKKat">Katalog (II)1894:177</ref>
                                  </bibl>).
                         </p>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 416 a I-III 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1181</idno>
@@ -26,10 +27,8 @@
                      dómkirkjunnar 1619</title>
                   <title type="parallel">Minnisbók Odds Einarssonar biskups</title>
                   <origPlace>Ísland</origPlace>
-                  <origDate notBefore="1604" notAfter="1619" evidence="external"
-                     >1604-1619</origDate>
-                  <note>Samsett úr þremur handritum. Hér eru m.a. varðveittar bókaskrár frá <name
-                        key="OddEin001" type="person">Oddi Einarssyni</name> biskupi um bækur og
+                  <origDate notBefore="1604" notAfter="1619" evidence="external">1604-1619</origDate>
+                  <note>Samsett úr þremur handritum. Hér eru m.a. varðveittar bókaskrár frá <name key="OddEin001" type="person">Oddi Einarssyni</name> biskupi um bækur og
                      handrit, ýmist í eigu biskupsins eða Skálholtsstaðar.</note>
                </head>
                <physDesc>
@@ -52,12 +51,10 @@
                      </binding>
                   </bindingDesc>
                   <accMat>
-                     <p>Fastur <locus from="accMat01r" to="accMat01v">seðill</locus> (<dimensions
-                           type="slip" unit="mm">
+                     <p>Fastur <locus from="accMat01r" to="accMat01v">seðill</locus> (<dimensions type="slip" unit="mm">
                            <height>201</height>
                            <width>84</width>
-                        </dimensions>) fremst við brotasafnið með hendi <name key="ArnMag001"
-                           type="person">Árna Magnússonar</name>, m.a. með upplýsingum um feril:
+                        </dimensions>) fremst við brotasafnið með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name>, m.a. með upplýsingum um feril:
                            <quote xml:lang="is" type="AMSlip">Ex chartis Herra Oddz Einarssonar
                            biskups. komid til min fra Odde Sigurdz syne 1727.</quote> Seðillinn er í
                         reynd tvinn og er aftara blaðið autt. Upphaflega virðist þessu tvinni hafa
@@ -68,8 +65,7 @@
                   <provenance>
                      <p>
                         <name key="ArnMag001" type="person">Árni Magnússon</name> fékk
-                           handritið árið <date when="1727">1727</date> frá <name key="OddSig001"
-                           type="person">Oddi Sigurðssyni</name> lögmanni (sbr. seðil). </p>
+                           handritið árið <date when="1727">1727</date> frá <name key="OddSig001" type="person">Oddi Sigurðssyni</name> lögmanni (sbr. seðil). </p>
                   </provenance>
                   <acquisition notBefore="1973-11-01" notAfter="1973-11-01">
                      <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 1. nóvember 1973.</p>
@@ -80,8 +76,7 @@
                      <recordHist>
                         <source>
                            <p>
-                              <name key="GudIng001" type="person">GI</name> skráði <date
-                                 when="2002-12-10">10. desember 2002</date>, sjá einnig <bibl>
+                              <name key="GudIng001" type="person">GI</name> skráði <date when="2002-12-10">10. desember 2002</date>, sjá einnig <bibl>
                                  <ref target="KKKat">Katalog (I) 1889:620-621 (nr. 1181)</ref>
                               </bibl>. <name key="KriKaa001" type="person">Kålund</name> gekk frá
                               handritinu til skráningar <date when="1887-04-27">27. apríl
@@ -99,8 +94,7 @@
                      <p>
                         <list>
                            <item n="1">Svart-hvítar ljósmyndir á Stofnun Árna Magnússonar, sem
-                              keypti þær af <name type="person">Arne Mann Nielsen</name> <date
-                                 when="1972-08-31">31. ágúst 1972</date>.</item>
+                              keypti þær af <name type="person">Arne Mann Nielsen</name> <date when="1972-08-31">31. ágúst 1972</date>.</item>
                            <item n="2">Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
                               Kaupmannahöfn.</item>
                         </list>
@@ -118,9 +112,9 @@
                   </listBibl>
                </additional>
                <msPart>
-                  <altIdentifier type="other">
+                  <msIdentifier><altIdentifier type="other">
                      <idno>AM 416 a I 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem class="bokfr regist">
@@ -159,8 +153,7 @@
                            <layout columns="1" writtenLines="36">
                               <p>
                                  <list>
-                                    <item n="1">Leturflötur er <dimensions type="written" unit="mm"
-                                          scope="all">
+                                    <item n="1">Leturflötur er <dimensions type="written" unit="mm" scope="all">
                                           <height>183-185</height>
                                           <width>71-72</width>
                                        </dimensions>.</item>
@@ -182,8 +175,7 @@
                      </accMat>
                   </physDesc>
                   <history>
-                     <origin notBefore="1604-04-28" notAfter="1604-04-28" cert="high"
-                        evidence="internal">
+                     <origin notBefore="1604-04-28" notAfter="1604-04-28" cert="high" evidence="internal">
                         <p>Handritið er dagsett 28. apríl 1604 (1r). Það er hins vegar tímasett til
                            17. aldar í <bibl>
                               <ref target="KKKat">Katalog (I) 1889:620</ref>
@@ -198,8 +190,7 @@
                         <p>
                            <list>
                               <item n="1">Svart-hvítar ljósmyndir á Stofnun Árna Magnússonar, sem
-                                 keypti þær af <name type="person">Arne Mann Nielsen</name> <date
-                                    when="1972-08-31">31. ágúst 1972</date>.</item>
+                                 keypti þær af <name type="person">Arne Mann Nielsen</name> <date when="1972-08-31">31. ágúst 1972</date>.</item>
                               <item n="2">Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
                                  Kaupmannahöfn.</item>
                            </list>
@@ -211,9 +202,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="other">
+                  <msIdentifier><altIdentifier type="other">
                      <idno>AM 416 a II 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem class="bokfr regist">
@@ -250,8 +241,7 @@
                            <layout columns="1" writtenLines="30">
                               <p>
                                  <list>
-                                    <item n="1">Leturflötur er <dimensions type="written" unit="mm"
-                                          scope="all">
+                                    <item n="1">Leturflötur er <dimensions type="written" unit="mm" scope="all">
                                           <height>170-184</height>
                                           <width>71-72</width>
                                        </dimensions>.</item>
@@ -276,8 +266,7 @@
                      </accMat>
                   </physDesc>
                   <history>
-                     <origin notBefore="1612-07-30" notAfter="1612-07-30" cert="high"
-                        evidence="internal">
+                     <origin notBefore="1612-07-30" notAfter="1612-07-30" cert="high" evidence="internal">
                         <p>Handritið er dagsett 30. júlí 1612 (4r). Það er hins vegar tímasett til
                            17. aldar í <bibl>
                               <ref target="KKKat">Katalog (I) 1889:620</ref>
@@ -292,8 +281,7 @@
                         <p>
                            <list>
                               <item n="1">Svart-hvítar ljósmyndir á Stofnun Árna Magnússonar, sem
-                                 keypti þær af <name type="person">Arne Mann Nielsen</name> <date
-                                    when="1972-08-31">31. ágúst 1972</date>.</item>
+                                 keypti þær af <name type="person">Arne Mann Nielsen</name> <date when="1972-08-31">31. ágúst 1972</date>.</item>
                               <item n="2">Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
                                  Kaupmannahöfn.</item>
                            </list>
@@ -305,9 +293,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="other">
+                  <msIdentifier><altIdentifier type="other">
                      <idno>AM 416 a III 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem class="jarb">
@@ -343,8 +331,7 @@
                            <layout columns="1" writtenLines="29">
                               <p>
                                  <list>
-                                    <item n="1">Leturflötur er <dimensions type="written" unit="mm"
-                                          scope="all">
+                                    <item n="1">Leturflötur er <dimensions type="written" unit="mm" scope="all">
                                           <height>181-182</height>
                                           <width>72-75</width>
                                        </dimensions>.</item>
@@ -368,8 +355,7 @@
                      </accMat>
                   </physDesc>
                   <history>
-                     <origin notBefore="1619-05-25" notAfter="1619-05-25" cert="high"
-                        evidence="internal">
+                     <origin notBefore="1619-05-25" notAfter="1619-05-25" cert="high" evidence="internal">
                         <p>Handritið er dagsett 25. maí 1619 (3r). Það er hins vegar tímasett til
                            17. aldar í <bibl>
                               <ref target="KKKat"> Katalog (I) 1889: 620</ref>
@@ -384,8 +370,7 @@
                         <p>
                            <list>
                               <item n="1">Svart-hvítar ljósmyndir á Stofnun Árna Magnússonar, sem
-                                 keypti þær af <name type="person">Arne Mann Nielsen</name> <date
-                                    when="1972-08-31">31. ágúst 1972</date>.</item>
+                                 keypti þær af <name type="person">Arne Mann Nielsen</name> <date when="1972-08-31">31. ágúst 1972</date>.</item>
                               <item n="2">Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
                                  Kaupmannahöfn.</item>
                            </list>

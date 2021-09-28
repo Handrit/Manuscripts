@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 47 8vo</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>2245</idno>
@@ -31,8 +32,7 @@
                      <title type="uniform">Jónsbók</title>
                      <note>
                         <p>Útskýringar á torráðnum orðum og textaskýringar fylgja flestum köflum, að
-                           miklu leyti teknar úr <ref>Fornyrðum lögbókar</ref> eftir <name
-                              key="BjoJon006" type="person">Björn Jónsson</name> á Skarðsá.</p>
+                           miklu leyti teknar úr <ref>Fornyrðum lögbókar</ref> eftir <name key="BjoJon006" type="person">Björn Jónsson</name> á Skarðsá.</p>
                         <p>Vísað er í Gráfugl eða Grágás,
                            Gulaþingsbók, Björgvinarlög og ýmsar sögur.
                            Greint frá brotum úr réttarbótum, alþingisdómum o.fl.</p>
@@ -86,8 +86,7 @@
                      </binding>
                   </bindingDesc>
                   <accMat>
-                     <p>Fastur <locus from="accMat01r" to="accMat01v">seðill</locus> (<dimensions
-                           type="slip" unit="mm">
+                     <p>Fastur <locus from="accMat01r" to="accMat01v">seðill</locus> (<dimensions type="slip" unit="mm">
                            <height>145</height>
                            <width>86</width>
                         </dimensions>) með hendi <name key="ArnMag001" type="person">Árna
@@ -105,8 +104,7 @@
                   </origin>
                   <provenance>
                      <p>
-                        <name key="ArnMag001" type="person">Árni Magnússon</name> fékk hjá <name
-                           type="person">Torfa Jónssyni</name> sýslumanni í Flatey (sjá seðil).</p>
+                        <name key="ArnMag001" type="person">Árni Magnússon</name> fékk hjá <name type="person">Torfa Jónssyni</name> sýslumanni í Flatey (sjá seðil).</p>
                   </provenance>
                   <acquisition notBefore="1975-04-04" notAfter="1975-04-04">
                      <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 4. apríl 1975.</p>
@@ -118,10 +116,7 @@
                         <source>
                            <p>Tekið eftir <bibl>
                                  <ref target="KKKat">Katalog II</ref>
-                              </bibl>, bls. 356 (nr. 2245). <name key="KriKaa001" type="person"
-                                 >Kålund</name> gekk frá handritinu til skráningar <date
-                                 when="1889-10-18">18. október 1889</date>. <name key="ThoSig001"
-                                 type="person">ÞS</name> skráði <date when="2002-01-10">10. janúar
+                              </bibl>, bls. 356 (nr. 2245). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar <date when="1889-10-18">18. október 1889</date>. <name key="ThoSig001" type="person">ÞS</name> skráði <date when="2002-01-10">10. janúar
                                  2002</date>.</p>
                         </source>
                      </recordHist>
@@ -132,13 +127,12 @@
                            <item n="1">Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
                               Kaupmannahöfn.</item>
                            <item n="2">Svart-hvítar ljósmyndir á Stofnun Árna Magnússonar á Íslandi,
-                              sem keypti þær af <name type="person">Arne Mann Nielsen</name> <date
-                                 when="1973-04-09">9. apríl 1973</date>.</item>
+                              sem keypti þær af <name type="person">Arne Mann Nielsen</name> <date when="1973-04-09">9. apríl 1973</date>.</item>
                         </list>
                      </p>
                   </surrogates>
                   <listBibl>
-                     <bibl>Einar G. Pétursson 1976, <ref target="EinPét1976a">>Miðaldaævintýri Þýdd úr ensku</ref></bibl>
+                     <bibl>Einar G. Pétursson 1976, <ref target="EinPét1976a">&gt;Miðaldaævintýri Þýdd úr ensku</ref></bibl>
                      <bibl>Gísli Baldur Róbertsson 2010, <ref target="GísRób2010a">Nýtt af Bjarna Jónssyni lögbókarskrifara á Snæfjallaströnd</ref></bibl>
                      <bibl>Jón Samsonarson 1979, <ref target="JónSam1979a">Fjandafæla Gísla Jónssonar lærða í Melrakkadal</ref></bibl>
                      <bibl>Widding, O. 1960, <ref target="OleWid1960a">De virtutibus et vitiis i norsk-islandsk overlevering og Udvidelser til

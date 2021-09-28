@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -15,23 +15,23 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 305 fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>460</idno>
                   </altIdentifier>
                </msIdentifier>
                <head>
-                  <title type="supplied" xml:lang="da">Norsk lovhåndskrift</title>; <origPlace
-                     key="NO">Norge</origPlace>, <origDate notBefore="1290" notAfter="1460">ca. 1300 (bl. 1r-76r); ca. 1350 (bl. 76v-78v);
+                  <title type="supplied" xml:lang="da">Norsk lovhåndskrift</title>; <origPlace key="NO">Norge</origPlace>, <origDate notBefore="1290" notAfter="1460">ca. 1300 (bl. 1r-76r); ca. 1350 (bl. 76v-78v);
                         s. XIV (bl. 79r); ca. 1450 (bl. 80r-100v)</origDate>.</head>
                <msContents>
                   <msItem n="1" class="log">
                      <locus from="1r" to="76v">1r-76r</locus>
                      <title type="supplied" xml:lang="da">Magnus lagabøters norske landslov</title>
                      <textLang mainLang="no">Norrønt/norsk</textLang>
-                     <note>Med slutnings-retterbøder og epilog til <title type="uniform"
-                           >Gulaþingslǫg</title>.</note>
+                     <note>Med slutnings-retterbøder og epilog til <title type="uniform">Gulaþingslǫg</title>.</note>
                   </msItem>
                   <msItem n="2" class="log">
                      <locus from="76r" to="84v">76v-84v</locus>
@@ -40,8 +40,8 @@
                      <note>Af Erik Magnusson og Håkon Magnusson; endvidere dom om kongens visøre og
                         leding (<date when="1348">1348</date>).</note>
                      <bibl>Storm: <ref type="primary" target="NgL4">Norges gamle Love</ref>
-                        <biblScope type="volume">IV</biblScope>
-                        <biblScope type="pages">479 nr. 2</biblScope>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="pages">479 nr. 2</biblScope>
                         <note>Bl. 80ra-81rb: <title type="uniform">Réttarbótr Hákonar Magnússonar
                               hins yngra</title>
                         </note>
@@ -90,8 +90,7 @@
                      </handNote>
                      <handNote scribe="ThoHak001" scope="major" script="unknown">
                         <p>Håndskriftet er skrevet med tre forskellige hænder. Hoveddelen (bl.
-                           1-76a) er skrevet af Thorgerus Haquini. Han har også skrevet <ref
-                              type="ms" target="AM02-302-da">AM 302 fol.</ref>
+                           1-76a) er skrevet af Thorgerus Haquini. Han har også skrevet <ref type="ms" target="AM02-302-da">AM 302 fol.</ref>
                         </p>
                      </handNote>
                      <handNote scope="minor" script="other">
@@ -108,60 +107,54 @@
                         lidt under beskæring. På bl. 24r er der en længere latinsk
                         notits.<!-- Se i NgL4! --></p>
                   </additions>
-                  <accMat>Der er to AM-sedler; den ene er skrevet af <name type="person"
-                        key="ArnMag001">Arne Magnusson</name>, den anden er skrevet for
+                  <accMat>Der er to AM-sedler; den ene er skrevet af <name type="person" key="ArnMag001">Arne Magnusson</name>, den anden er skrevet for
                      ham.</accMat>
                </physDesc>
                <history>
                   <origin notBefore="1290" notAfter="1460">
-                     <p>Skrevet i <origPlace>Norge</origPlace>. Kålund (<bibl><ref
-                              target="KKKat"/></bibl>) daterede det overordnet til <origDate
-                           notBefore="1300" notAfter="1499">14. til 15. århundrede</origDate>, mens
+                     <p>Skrevet i <origPlace>Norge</origPlace>. Kålund (<bibl><ref target="KKKat"/></bibl>) daterede det overordnet til <origDate notBefore="1300" notAfter="1499">14. til 15. århundrede</origDate>, mens
                         enkelte dele senere er blevet dateret mere præcist. <list>
                            <item>Bl. 1r-76r: <origDate notBefore="1290" notAfter="1310">ca.
                                  1300</origDate> (bl.a. <bibl><ref target="DidSei9999a">Seip
-                                    1950</ref><biblScope type="pages">16</biblScope></bibl>)</item>
+                                    1950</ref><biblScope unit="pages">16</biblScope></bibl>)</item>
                            <item>Bl. 76v-78v: <origDate notBefore="1340" notAfter="1360">ca.
                                  1350</origDate> (<bibl><ref target="DidSei9999a">Seip 1950</ref>,
                                  ibid.</bibl>)</item>
-                           <item>Bl 79r: <origDate notBefore="1300" notAfter="1399"
-                                 >1300-tallet</origDate> (Magnus Rindal pers. 1988)</item>
+                           <item>Bl 79r: <origDate notBefore="1300" notAfter="1399">1300-tallet</origDate> (Magnus Rindal pers. 1988)</item>
                            <item>Bl. 80r-100v: <origDate notBefore="1440" notAfter="1460">ca.
                                  1450</origDate> (bl.a. <bibl><ref target="DidSei9999a">Seip
-                                    1950</ref><biblScope type="pages">ibid.</biblScope></bibl>
+                                    1950</ref><biblScope unit="pages">ibid.</biblScope></bibl>
                               )</item>
                         </list>
                      </p>
                   </origin>
                   <provenance>
-                     <p>Ifølge AM-sedlerne er håndskriftet erhvervet i Norge af justitsråd <name
-                           type="person" key="PetAga001">Aagaard</name>, som gav den til gehejmeråd
+                     <p>Ifølge AM-sedlerne er håndskriftet erhvervet i Norge af justitsråd <name type="person" key="PetAga001">Aagaard</name>, som gav den til gehejmeråd
                            <name type="person" key="MatMot001">Moth</name>.</p>
                   </provenance>
                   <acquisition>
-                     <name type="person" key="MatMot001">Moth</name> skænkede håndskriftet til <name
-                        type="person" key="ArnMag001">Arne Magnusson</name>.</acquisition>
+                     <name type="person" key="MatMot001">Moth</name> skænkede håndskriftet til <name type="person" key="ArnMag001">Arne Magnusson</name>.</acquisition>
                </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">257-258</biblScope>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">257-258</biblScope>
                      </bibl>
                      <bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium Islandicum</ref>
-                        <biblScope type="volume">I</biblScope>
+                        <biblScope unit="volume">I</biblScope>
                      </bibl>
                      <bibl>Knudsen: <ref type="secondary" target="CCNor1">Corpus Codicum
                            Norvegicorum Medii Aevi</ref>
-                        <biblScope type="volume">I</biblScope>
+                        <biblScope unit="volume">I</biblScope>
                      </bibl>
                      <bibl>
                         <ref target="Gthl">Magnus Konongs Laga-Bæters Gula-things-laug</ref>
                         <!-- primær eller sekundær litteratur? -->
                      </bibl>
                      <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
-                        <biblScope type="volume">IV</biblScope>
-                        <biblScope type="pages">477-82</biblScope>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="pages">477-82</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

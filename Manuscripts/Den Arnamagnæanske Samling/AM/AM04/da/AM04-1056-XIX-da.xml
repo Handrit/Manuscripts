@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,7 +14,9 @@
                     <msIdentifier>
                         <country>Danmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 1056 XIX 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2188</idno>
@@ -38,9 +40,7 @@
                                     <hi rend="underline">catholica<ex>m</ex>
                                     </hi> Th<ex>et</ex> ær so megh<ex>et</ex>
                                     <supplied reason="damage">som</supplied>
-                                    <lb/>Jech tror i then helgæ kir<supplied reason="damage"
-                                        >ke</supplied> Tha <lb/>saghde sanctus symon S<supplied
-                                        reason="damage">anctorum</supplied>
+                                    <lb/>Jech tror i then helgæ kir<supplied reason="damage">ke</supplied> Tha <lb/>saghde sanctus symon S<supplied reason="damage">anctorum</supplied>
                                     <lb/>co<ex>m</ex>munione<ex>m</ex> remissione<ex>m</ex>
                                 </incipit>
                             </msItem>
@@ -52,13 +52,13 @@
                             </explicit>
                             <bibl>Diderichsen: <ref type="primary-1" target="FragmPD">Fragmenter af
                                     gammeldanske Haandskrifter</ref>
-                                <biblScope type="pages">171-172</biblScope>
+                                <biblScope unit="pages">171-172</biblScope>
                                 <note>SM</note>
                             </bibl>
                             <bibl>Nielsen: <ref type="primary-1" target="NKirS4">Ny kirkehistoriske
                                     Samlinger</ref>
-                                <biblScope type="volume">IV</biblScope>
-                                <biblScope type="pages">154</biblScope>
+                                <biblScope unit="volume">IV</biblScope>
+                                <biblScope unit="pages">154</biblScope>
                             </bibl>
                         </msItem>
                     </msContents>
@@ -90,8 +90,7 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1400" notAfter="1499" evidence="conjecture">
-                            <p>Skrevet i <origPlace>Danmark</origPlace> i <origDate notBefore="1400"
-                                    notAfter="1499">1400-tallet</origDate>.</p>
+                            <p>Skrevet i <origPlace>Danmark</origPlace> i <origDate notBefore="1400" notAfter="1499">1400-tallet</origDate>.</p>
                         </origin>
                         <provenance>Fundet af arkivar <name type="person">O. Nielsen</name> omkring
                             Stjernholm lensregnskab <date when="1637">1637</date>.</provenance>
@@ -112,21 +111,17 @@
                         <listBibl>
                             <bibl>Diderichsen: <ref type="secondary-1" target="FragmPD">Fragmenter
                                     af gammeldanske Haandskrifter</ref>
-                                <biblScope type="pages">383-385</biblScope>
+                                <biblScope unit="pages">383-385</biblScope>
                             </bibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat"
-                                    >Katalog</ref><biblScope type="volume">II</biblScope><biblScope
-                                    type="pages">308, 312</biblScope></bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">308, 312</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change>Amended <date when="2004-11-15">15. november 2004</date> af <name type="person"
-                    key="JonAda001">JA</name>.</change>
-            <change>Oversat til dansk <date when="2009-09-24">24. september 2009</date> af <name
-                    type="person" key="EvaWed001">EW-J</name>.</change>
+            <change>Amended <date when="2004-11-15">15. november 2004</date> af <name type="person" key="JonAda001">JA</name>.</change>
+            <change>Oversat til dansk <date when="2009-09-24">24. september 2009</date> af <name type="person" key="EvaWed001">EW-J</name>.</change>
             <change when="2021-09-20" who="EvaWed001">Opdateret opmærkning.</change>
         </revisionDesc>
     </teiHeader>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 158 8vo</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>2369</idno>
@@ -24,7 +24,7 @@
                </msIdentifier>
                <msContents xml:lang="is">
                   <textLang mainLang="is">Íslenska</textLang>
-                  <msItem n="1"  class="skaldskfr">
+                  <msItem n="1" class="skaldskfr">
                      <locus from="1r" to="78v">1r-78v</locus>
                      <author key="SnoStu001">Snorri Sturluson</author>
                      <title type="uniform">Snorra-Edda</title>
@@ -46,8 +46,7 @@
                         <explicit>… leiftur hrjóður viðbláinn.</explicit>
                      </msItem>
                      <colophon>Endir Eddu og Skáldu.</colophon>
-                     <note><p>Skrifaraklausan er neðst á blaði <locus from="77v" to="77v"
-                              >77v</locus>.</p>
+                     <note><p>Skrifaraklausan er neðst á blaði <locus from="77v" to="77v">77v</locus>.</p>
                      </note>
                      <msItem n="1.3">
                         <locus from="78r" to="96v">78r-96v</locus>
@@ -57,8 +56,7 @@
                         <explicit>… sæll faðir Magna.</explicit>
                         <note>Úr Háttatali og málfræðiritgerðum.</note>
                         <colophon>Hér er endir á Skáldu.</colophon>
-                        <note><p>Skrifaraklausan er neðst á blaði <locus from="96v" to="96v"
-                                 >96v</locus>.</p></note>
+                        <note><p>Skrifaraklausan er neðst á blaði <locus from="96v" to="96v">96v</locus>.</p></note>
                      </msItem>
                   </msItem>
                </msContents>
@@ -87,8 +85,7 @@
                                  <item>Kver XI: bl. 81-88, 4 tvinn.</item>
                                  <item>Kver XII: bl. 89-96, 4 tvinn.</item>
                               </list></p></collation>
-                        <condition><p>Texti hefur lítillega skerst við kjöl á blaði <locus from="1r"
-                                 to="1v">1</locus> vegna slits.</p></condition>
+                        <condition><p>Texti hefur lítillega skerst við kjöl á blaði <locus from="1r" to="1v">1</locus> vegna slits.</p></condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="24 28">
@@ -129,8 +126,7 @@
                               (merktur a, <dimensions type="slip" unit="mm">
                                  <height>150</height>
                                  <width>96</width>
-                              </dimensions>) með upplýsingum um uppruna og feril handritsins: <quote
-                                 type="AMSlip" xml:lang="is">Edda þessi (frá Torfa Jónssyni) er
+                              </dimensions>) með upplýsingum um uppruna og feril handritsins: <quote type="AMSlip" xml:lang="is">Edda þessi (frá Torfa Jónssyni) er
                                  skrifuð eftir hendi sr. Jóns Ólafssonar á Rauðasandi. En sr. Jón
                                  hafði það exemplar (α) skrifað eftir tveimur bókum. Fyrri partinn
                                  skrifaði hann eftir hendi Óttars Guðmundssonar í Bjarneyjum /: bróður
@@ -141,15 +137,13 @@
                               (merktur b, <dimensions type="slip" unit="mm">
                                  <height>145</height>
                                  <width>94</width>
-                              </dimensions>) með upplýsingum um feril o.fl. á rektóhlið: <quote
-                                 type="AMSlip" xml:lang="is">Þessa Eddu hefi ég 1704 fengið
+                              </dimensions>) með upplýsingum um feril o.fl. á rektóhlið: <quote type="AMSlip" xml:lang="is">Þessa Eddu hefi ég 1704 fengið
                                  til eignar af Torfa Jónssyni.</quote>. Versóhlið er auð.</item>
                            <item>Seðill 3<locus from="accMat03r" to="accMat03v">er</locus>
                                  (<dimensions type="slip" unit="mm">
                                  <height>150</height>
                                  <width>96</width>
-                              </dimensions>) með upplýsingum um handrit (<quote type="AMSlip"
-                                 xml:lang="is">α] Vigfús Jónsson, í Flatey sagði mér sig eiga
+                              </dimensions>) með upplýsingum um handrit (<quote type="AMSlip" xml:lang="is">α] Vigfús Jónsson, í Flatey sagði mér sig eiga
                                  autographum sr. Jóns Ólafssonar og lofaði mér því. Þar úr varð
                                  ekkert. Meinti og G. Ø. J. að Vigfús mundi hafa lofað frekara en
                                  hann enda kynni, því hann mundi þetta exemplar fyrir löngu í burt
@@ -174,10 +168,7 @@
                   <provenance>
                      <p>
                         <name key="ArnMag001" type="person">Árni Magnússon</name> fékk handritið
-                           frá <name type="person" key="TorJon002">Torfa Jónssyni</name> í <name
-                           type="place" key="GauGau01">Gaulverjabæ</name> <date when="1704"
-                           >1704</date> (sjá <locus from="accMat02r" to="accMat02r"
-                        >seðil</locus>).</p>
+                           frá <name type="person" key="TorJon002">Torfa Jónssyni</name> í <name type="place" key="GauGau01">Gaulverjabæ</name> <date when="1704">1704</date> (sjá <locus from="accMat02r" to="accMat02r">seðil</locus>).</p>
                   </provenance>
                   <acquisition when="1977-10-26">
                      <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 26. október 1977.</p>
@@ -201,9 +192,7 @@
                                  <ref target="KKKat">Katalog II 1894:422 (nr.
                               2369)</ref></bibl>)</p>
                            <p><name type="person" key="GioVer001">GV</name> sló inn texta af seðlum
-                              Árna Magnússonar undir umsjón <name type="person" key="ThoSig001"
-                                 >ÞS</name> og með hliðsjón af gögnum frá <name type="person"
-                                 key="MarJon001">MJ</name>.</p>
+                              Árna Magnússonar undir umsjón <name type="person" key="ThoSig001">ÞS</name> og með hliðsjón af gögnum frá <name type="person" key="MarJon001">MJ</name>.</p>
                         </source>
                      </recordHist>
                      <custodialHist>

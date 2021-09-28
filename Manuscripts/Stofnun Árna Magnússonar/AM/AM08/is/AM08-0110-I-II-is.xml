@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,9 +14,9 @@
                     <msIdentifier>
                         <country key="IS">Ísland</country>
                         <settlement>Reykjavík</settlement>
-                        <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                        <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                         <repository>Handritasvið</repository>
-                        <collection>Safn Árna Magnússonar</collection>
+                        <collection key="AM">Safn Árna Magnússonar</collection>
                         <idno>AM 110 I-II 8vo</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2315</idno>
@@ -32,8 +32,7 @@
                                 <support>
                                     <p>Pappír.</p>
                                 </support>
-                                <extent>i + 18 + i blöð (<dimensions type="leaf" scope="all"
-                                        unit="mm">
+                                <extent>i + 18 + i blöð (<dimensions type="leaf" scope="all" unit="mm">
                                         <height>175</height>
                                         <width>106</width>
                                     </dimensions>). Blöð <locus from="1r" target="1v">1</locus> og
@@ -87,9 +86,7 @@
                                     (eitt tvinn, <dimensions type="slip" unit="mm">
                                         <height>163</height>
                                         <width>99</width>
-                                    </dimensions>) fremst með hendi <name key="ArnMag001"
-                                        type="person">Árna Magnússonar</name>: <quote type="AMSlip"
-                                        xml:lang="is">Þessi excerpta úr Hungurvöku eru rituð með
+                                    </dimensions>) fremst með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name>: <quote type="AMSlip" xml:lang="is">Þessi excerpta úr Hungurvöku eru rituð með
                                         hendi séra Jóns Egilssonar, sem prestur var í Hólum í
                                         Hreppum og síðan víxluprestur í Skálholti. Þau voru föst
                                         saman og aftan við excerpta nefnds séra Jóns úr annál þeim sem
@@ -129,14 +126,12 @@
                                     </p>
                                     <p>
                                         <name type="person" key="KriKaa001">Kålund</name> gekk frá
-                                        handritinu til skráningar <date notBefore="1890"
-                                            notAfter="1910">c. 1890-1910</date> (<bibl>
+                                        handritinu til skráningar <date notBefore="1890" notAfter="1910">c. 1890-1910</date> (<bibl>
                                             <ref target="KKKat">Katalog II 1892:397 (nr. 2315)</ref>
                                         </bibl>)</p>
                                     <p>
                                         <name type="person" key="GioVer001">GV</name> sló inn texta
-                                        af seðlum Árna Magnússonar undir umsjón <name type="person"
-                                            key="ThoSig001">ÞS</name> og með hliðsjón af gögnum frá
+                                        af seðlum Árna Magnússonar undir umsjón <name type="person" key="ThoSig001">ÞS</name> og með hliðsjón af gögnum frá
                                             <name type="person" key="MarJon001">MJ</name>.</p>
                                 </source>
                             </recordHist>
@@ -162,9 +157,9 @@
 
 
                     <msPart>
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>AM 110 8vo I</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
 
                         <msContents defective="false" class="bisk" xml:lang="is">
                             <msItem n="1">
@@ -177,8 +172,7 @@
                                 <note>Útdráttur <name type="person" key="JonEgi003">sr. Jóns
                                         Egilssonar í <name type="place">Hrepphólum</name>
                                     </name>.</note>
-                                <note>Á seðli sem límdur er á eldra band stendur m.h. <name
-                                        type="person" key="ArnMag001">Árna Magnússonar</name>:
+                                <note>Á seðli sem límdur er á eldra band stendur m.h. <name type="person" key="ArnMag001">Árna Magnússonar</name>:
                                         <quote xml:lang="is">Brevarium Hungrvöku sr. Jóns Egilssonar
                                         1601</quote>.</note>
                             </msItem>
@@ -190,32 +184,28 @@
                                     hendi <name type="person" key="JonEgi003">sr. Jóns
                                         Egilssonar</name> í Hrepphólum, blendingsskrift.</handNote>
                             </handDesc>
-                            <accMat>Á eftir öðru <locus from="0002r-FFl" to="0002v-FFl"
-                                    >saurblaði</locus> er bundinn seðill (eitt tvinn, 2 blöð, merkt
+                            <accMat>Á eftir öðru <locus from="0002r-FFl" to="0002v-FFl">saurblaði</locus> er bundinn seðill (eitt tvinn, 2 blöð, merkt
                                 a-b með rauðu bleki) frá <name type="person" key="ArnMag001">Árna
                                     Magnússyni</name> með upplýsingum um handritið og
                                 útdráttinn.</accMat>
                         </physDesc>
                         <history>
-                            <origin when="1601-12-04">Skrifað á <origPlace key="IS"
-                                    >Íslandi</origPlace>
+                            <origin when="1601-12-04">Skrifað á <origPlace key="IS">Íslandi</origPlace>
                                 <origDate when="1601-12-04">4. desember 1601</origDate> (sbr. blað
                                     <locus from="14v" to="14v">14v</locus> m.h. skrifara).</origin>
                         </history>
                     </msPart>
 
                     <msPart>
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>AM 110 8vo II</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
 
                         <msContents defective="true" class="bisk" xml:lang="is">
                             <msItem n="2">
                                 <locus from="18r" to="18v">18r-v</locus>
                                 <title type="uniform">Hungurvaka</title>
-                                <note>Vantar framan af. Niðurlag frásagnarinnar um drápið á <name
-                                        type="person">Páli Jónssyni</name> á <name type="place"
-                                        >Skarði </name>(<date when="1498">1498</date>)</note>
+                                <note>Vantar framan af. Niðurlag frásagnarinnar um drápið á <name type="person">Páli Jónssyni</name> á <name type="place">Skarði </name>(<date when="1498">1498</date>)</note>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -229,10 +219,8 @@
                             </handDesc>
                         </physDesc>
                         <history>
-                            <origin notBefore="1600" notAfter="1699" evidence="conjecture"
-                                cert="high">Skrifað á <origPlace key="IS">Íslandi</origPlace> á
-                                    <origDate notBefore="1600" notAfter="1699" evidence="conjecture"
-                                    cert="high">17. öld.</origDate></origin>
+                            <origin notBefore="1600" notAfter="1699" evidence="conjecture" cert="high">Skrifað á <origPlace key="IS">Íslandi</origPlace> á
+                                    <origDate notBefore="1600" notAfter="1699" evidence="conjecture" cert="high">17. öld.</origDate></origin>
                         </history>
                     </msPart>
 

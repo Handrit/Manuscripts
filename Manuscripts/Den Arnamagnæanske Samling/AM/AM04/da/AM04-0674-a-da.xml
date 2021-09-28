@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -15,7 +15,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 674 a 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1684</idno>
@@ -57,7 +59,7 @@
                      </bibl>
                      <bibl>Firchow og Grimstad: <ref type="primary-1" target="Rit36">Elucidarius in
                            Old Norse Translation</ref>
-                        <biblScope type="pages">3-59, 69-71, 131-159</biblScope><note>øverste eller
+                        <biblScope unit="pages">3-59, 69-71, 131-159</biblScope><note>øverste eller
                            eneste tekst; udg. 674.</note>
                      </bibl>
                      <msItem n="1.1" defective="true">
@@ -72,11 +74,11 @@
                            <!--REFERENCE TO PICTURE 2 (SLIDE SHOW)-->.</note>
                         <listBibl>
                            <bibl>Konráð Gislason: <ref type="primary-1" target="KonGis1858">Brudstykker af den islandske Elucidarius</ref>
-                              <biblScope type="pages">53-68</biblScope>
+                              <biblScope unit="pages">53-68</biblScope>
                               <note>Tekst A</note>
                            </bibl>
                            <bibl>Firchow og Grimstad: <ref type="primary-1" target="Rit36">Elucidarius in Old Norse Translation 1989</ref>
-                              <biblScope type="pages">3-59</biblScope>
+                              <biblScope unit="pages">3-59</biblScope>
                            </bibl>
                         </listBibl>
                      </msItem>
@@ -88,11 +90,11 @@
                         <explicit defective="true">eɴ leidde afstr ein faldan til</explicit>
                         <listBibl>
                            <bibl>Konráð Gislason: <ref type="primary-1" target="KonGis1858">Brudstykker af den islandske Elucidarius</ref>
-                              <biblScope type="pages">68-69</biblScope>
+                              <biblScope unit="pages">68-69</biblScope>
                               <note>Tekst B</note>
                            </bibl>
                            <bibl>Firchow og Grimstad: <ref type="primary-1" target="Rit36">Elucidarius in Old Norse Translation 1989</ref>
-                              <biblScope type="pages">69-71</biblScope>
+                              <biblScope unit="pages">69-71</biblScope>
                            </bibl>
                         </listBibl>
                      </msItem>
@@ -104,11 +106,11 @@
                            <ex>oc</ex> mego Þeir ia<ex>m</ex> sciot fara</explicit>
                         <listBibl>
                            <bibl>Konráð Gislason: <ref type="primary-1" target="KonGis1858">Brudstykker af den islandske Elucidarius</ref>
-                              <biblScope type="pages">69-75</biblScope>
+                              <biblScope unit="pages">69-75</biblScope>
                               <note>Tekst C</note>
                            </bibl>
                            <bibl>Firchow og Grimstad: <ref type="primary-1" target="Rit36">Elucidarius in Old Norse Translation 1989</ref>
-                              <biblScope type="pages">131-148:3</biblScope>
+                              <biblScope unit="pages">131-148:3</biblScope>
                            </bibl>
                         </listBibl>
                      </msItem>
@@ -121,11 +123,11 @@
                               ou<ex>m</ex>brøÞe</explicit>
                         <listBibl>
                            <bibl>Konráð Gislason: <ref type="secondary" target="KonGis1858">Brudstykker af den islandske Elucidarius</ref>
-                              <biblScope type="pages">75-81</biblScope>
+                              <biblScope unit="pages">75-81</biblScope>
                               <note>Tekst D</note>
                            </bibl>
                            <bibl>Firchow og Grimstad: <ref type="primary-1" target="Rit36">Elucidarius in Old Norse Translation 1989</ref>
-                              <biblScope type="pages">148:4-159</biblScope>
+                              <biblScope unit="pages">148:4-159</biblScope>
                            </bibl>
                         </listBibl>
                      </msItem>
@@ -222,8 +224,8 @@
                               de fleste blade. Disse er alle fra <date from="1800" to="1899">1800-tallet</date>. <name type="person" key="JonHel003">Jón
                                  Helgason</name> (<bibl>
                                  <ref type="secondary" target="MI4">Manuscripta Islandica</ref>
-                                 <biblScope type="volume">IV</biblScope>
-                                 <biblScope type="pages">viii</biblScope>
+                                 <biblScope unit="volume">IV</biblScope>
+                                 <biblScope unit="pages">viii</biblScope>
                               </bibl>) mener, at de unden tvivl må være skrevet af <name type="person" key="KonGis001">Konráð Gíslason</name>.</item>
                         </list> Nogle af bladene er palimpsester, da man kan ane rester af tidligere
                         skrift. <name type="person" key="ArnMag001">Arne Magnusson</name> har
@@ -241,17 +243,17 @@
                   <origin>
                      <p>Håndskriftet er skrevet i <origPlace>Island</origPlace>. Kålund (<bibl>
                            <ref type="secondary" target="KKKat">Katalog</ref>
-                           <biblScope type="volume">II</biblScope>
-                           <biblScope type="pages">92</biblScope>
+                           <biblScope unit="volume">II</biblScope>
+                           <biblScope unit="pages">92</biblScope>
                         </bibl>) var enig med Konráð Gíslasons datering af håndskriftet til <date notBefore="1175" notAfter="1225">ca. 1200</date> (<bibl>
                            <ref type="secondary" target="KonGis1858">Brudstykker af den islandske
                               Elucidarius</ref>
-                           <biblScope type="pages">51</biblScope>
+                           <biblScope unit="pages">51</biblScope>
                         </bibl>). <title type="uniform" xml:lang="da">Ordbog over det norrøne
                            prosasprog</title> daterer dog håndskriftet til <origDate notBefore="1150" notAfter="1199" evidence="conjecture" resp="ONP">1100-tallets anden halvdel</origDate> på baggrund af Hægstads (<bibl>
                            <ref type="secondary" target="Hagstad1906">Latinsk skrift i gamalnorsk
                               maal, 1906</ref>
-                           <biblScope type="pages">10</biblScope>
+                           <biblScope unit="pages">10</biblScope>
                         </bibl>) og Helle Jensen og Stefán Karlssons (1983, pers.) dateringer. AM
                         674 a 4to er dermed et af de ældste overleverede håndskrifter, der er
                         skrevet på islandsk.</p>
@@ -272,8 +274,8 @@
                            Magnússon</name>s codex. <name type="person" key="JonHel003">Jón
                            Helgason</name> (<bibl>
                            <ref type="secondary" target="MI4">Manuscripta Islandica</ref>
-                           <biblScope type="volume">IV</biblScope>
-                           <biblScope type="pages">xii</biblScope>
+                           <biblScope unit="volume">IV</biblScope>
+                           <biblScope unit="pages">xii</biblScope>
                         </bibl>) tror dog ikke, at AM 676 a 4tos forlæg, AM 676 b 4to, er Gísli
                         Magnússons codex, da han ikke regner med, at Arne Magnusson ville kalde de
                         16 blade, som forlægget bestod af, for en codex. Jón Helgason konkluderer
@@ -340,27 +342,27 @@
                   <listBibl>
                      <bibl>Firchow og Grimstad: <ref type="primary-1" target="Rit36">Elucidarius in
                            Old Norse Translation 1989</ref>
-                        <biblScope type="pages">xxviii-xxxix, xc-xcviii, cxxix,
+                        <biblScope unit="pages">xxviii-xxxix, xc-xcviii, cxxix,
                            cxxxvi-cxxxviii</biblScope>
                         <note>Med faksimile af bl. 9r</note>
                      </bibl>
                      <bibl>Firchow: <ref type="primary-1" target="EveFir1992a">The Old Norse
                            Elucidarius 1992</ref>
-                        <biblScope type="pages">ix-xv</biblScope>
+                        <biblScope unit="pages">ix-xv</biblScope>
                      </bibl>
                      <bibl>Jón Helgason: <ref type="secondary" target="MI4">Manuscripta
                            Islandica</ref>
-                        <biblScope type="volume">IV</biblScope>
-                        <biblScope type="pages">v-xxxiii</biblScope>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="pages">v-xxxiii</biblScope>
                         <note>Faksimile-udgivelse</note>
                      </bibl>
                      <bibl>Konráð Gislason: <ref type="secondary" target="KonGis1858">Brudstykker
                            af den islandske Elucidarius</ref>
-                        <biblScope type="pages">51-53</biblScope>
+                        <biblScope unit="pages">51-53</biblScope>
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">92</biblScope>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">92</biblScope>
                      </bibl>
                      <bibl>
                         <ref type="primary-1" target="FacsAM674a">Det Arnamagnæanske Haandskrift No.

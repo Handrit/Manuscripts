@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 48 8vo</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>2246</idno>
@@ -149,9 +150,7 @@
                   <accMat>
                      <p>
                         <list>
-                           <item n="1">Tveir seðlar (1. og 3.) með hendi <name key="ArnMag001"
-                                 type="person">Árna Magnússonar</name> og einn með hendi <name
-                                 type="person">Þórðar Þórðarsonar</name>.</item>
+                           <item n="1">Tveir seðlar (1. og 3.) með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name> og einn með hendi <name type="person">Þórðar Þórðarsonar</name>.</item>
 
                            <item><locus from="accMat01r" to="accMat01v">Seðill 1 (tvinn)</locus>
                                  (<dimensions type="slip" unit="mm">
@@ -220,17 +219,13 @@
                         <source>
                            <p>Tekið eftir <bibl>
                                  <ref target="KKKat">Katalog II</ref>
-                              </bibl>, bls. 356-57 (nr. 2246). <name key="KriKaa001" type="person"
-                                 >Kålund</name> gekk frá handritinu til skráningar <date
-                                 when="1909-12-23">23. desember 1909</date>. <name key="ThoSig001"
-                                 type="person">ÞS</name> skráði <date when="2002-01-14">14. janúar
+                              </bibl>, bls. 356-57 (nr. 2246). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar <date when="1909-12-23">23. desember 1909</date>. <name key="ThoSig001" type="person">ÞS</name> skráði <date when="2002-01-14">14. janúar
                                  2002</date>.</p>
                         </source>
                      </recordHist>
                      <custodialHist>
                         <custEvent type="conservation" notBefore="1976" notAfter="1976">
-                           <p>Viðgert og bundið í Kaupmannahöfn hjá <name key="BirDal001"
-                                 type="person">Birgitte Dall</name> í mars 1976. Eldra band fylgir
+                           <p>Viðgert og bundið í Kaupmannahöfn hjá <name key="BirDal001" type="person">Birgitte Dall</name> í mars 1976. Eldra band fylgir
                               í öskju með handritinu.</p>
                         </custEvent>
                      </custodialHist>
@@ -243,8 +238,7 @@
                            <item n="2">Svart-hvítar ljósmyndir á Stofnun Árna Magússonar á Íslandi,
                               sem <name key="JohOla002" type="person">Jóhanna Ólafsdóttir</name> tók
                                  <date when="1998-11-10">10. nóvember 1998</date>.</item>
-                           <item n="3">Filma á Stofnun Árna Magnússonar frá <date when="1998-11-10"
-                                 >10. nóvember 1998</date>, í öskju 456.</item>
+                           <item n="3">Filma á Stofnun Árna Magnússonar frá <date when="1998-11-10">10. nóvember 1998</date>, í öskju 456.</item>
                         </list>
                      </p>
                   </surrogates>
@@ -253,7 +247,7 @@
                      <bibl>Bekker-Nielsen, H. 1960, <ref target="HanBek1960">Et brudstykke af Kongespejlet: Med bemærkninger om indholdet af AM
                         668,4°</ref></bibl>
                      <bibl>Foote, P. 1990, <ref target="PetFoo1990b">[Introduction]</ref></bibl>
-                     <bibl>Jacobsen, B. C. 1990, <ref  target="BenJac1990a">Sektir Jónsbókar</ref></bibl>
+                     <bibl>Jacobsen, B. C. 1990, <ref target="BenJac1990a">Sektir Jónsbókar</ref></bibl>
                      <bibl>Jakob Benediktsson 1949, <ref target="JakBen1949a">Skarðsbók. Jónsbók and other laws and precepts. MS. No. 350 fol. in the
                         Arna-Magnæan Collection in the University Library of Copenhagen</ref></bibl>
                      <bibl>Louis-Jensen, J. 1970, <ref target="JonLou1130a">Et forlæg til Flateyjarbók ? Fragmenterne AM 325 IV beta og XI, 3

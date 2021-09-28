@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,9 +20,9 @@
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
-						<institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+						<institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
 						<repository>Handritasafn</repository>
-						<collection>Handritasafn Jóns Sigurðssonar</collection>
+						<collection key="JS">Handritasafn Jóns Sigurðssonar</collection>
 						<idno>JS 2 8vo</idno>
 						<altIdentifier type="internal" subtype="PEO">
 							<idno>5545</idno>
@@ -51,8 +51,7 @@
 					<physDesc>
 						<objectDesc form="codex">
 							<supportDesc material="chart">
-								<extent>Titilblað + 160 blaðsíður (<dimensions scope="all"
-										type="leaf" unit="mm">
+								<extent>Titilblað + 160 blaðsíður (<dimensions scope="all" type="leaf" unit="mm">
 										<height>162</height>
 										<width>102</width>
 									</dimensions>)</extent>
@@ -61,10 +60,8 @@
 
 						<handDesc hands="1">
 							<summary>Ein hönd ; Skrifari:</summary>
-							<handNote scope="sole" script="unknown" scribe="SigHog001"><name
-									type="person" key="SigHog001">Sigurður Högnason</name>. </handNote>
-							<handNote scope="sole" script="unknown" scribe="SigMag008"><name
-									type="person" key="SigMag008">Sigurður Magnússon</name>,
+							<handNote scope="sole" script="unknown" scribe="SigHog001"><name type="person" key="SigHog001">Sigurður Högnason</name>. </handNote>
+							<handNote scope="sole" script="unknown" scribe="SigMag008"><name type="person" key="SigMag008">Sigurður Magnússon</name>,
 								titilblað. </handNote>
 						</handDesc>
 						<bindingDesc>
@@ -80,14 +77,11 @@
 							<origDate cert="medium" when="1700">1700</origDate>
 						</origin>
 						<provenance>
-							<p>Jón Sigurðsson hefur fengið handritið 1865 frá séra <name
-									type="person" key="OlaPal002">Ólafi Pálssyni</name>.</p>
-							<p>Í bindinu er sendibréf frá <name type="person" key="HalBjo001"
-									>Halldóri Björnssyni </name>í Melrakkanesi frá 1788.</p>
+							<p>Jón Sigurðsson hefur fengið handritið 1865 frá séra <name type="person" key="OlaPal002">Ólafi Pálssyni</name>.</p>
+							<p>Í bindinu er sendibréf frá <name type="person" key="HalBjo001">Halldóri Björnssyni </name>í Melrakkanesi frá 1788.</p>
 						</provenance>
 						<acquisition>
-							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date
-									when="1878">1878.</date> Safnið var afhent Landsbókasafni að
+							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date when="1878">1878.</date> Safnið var afhent Landsbókasafni að
 								honum látnum, en hann lést 7. desember 1879. Það komst í hendur
 								safnsins árið <date when="1881">1881</date> er það var flutt í
 								Alþingishúsið.</p>

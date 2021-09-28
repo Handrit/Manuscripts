@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -15,7 +15,9 @@
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 238 XI fol.</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>360</idno>
@@ -25,8 +27,7 @@
                         <title>Philippus saga postola</title>
                         <title>Tveggja postula saga Filippuss ok Jakobs</title>
                         <title>Kross saga</title>; <origPlace>Iceland</origPlace>,
-                            <origDate notBefore="1300" notAfter="1325" cert="high"
-                            evidence="conjecture" resp="ONP">s. XIV<hi rend="sup">1/4</hi></origDate>. </head>
+                            <origDate notBefore="1300" notAfter="1325" cert="high" evidence="conjecture" resp="ONP">s. XIV<hi rend="sup">1/4</hi></origDate>. </head>
                     <!-- KKKat sluntingen af det 14. århundrede -->
                     <msContents>
                         <msItem n="1" class="post" defective="true">
@@ -53,8 +54,7 @@
                             <explicit defective="true">kvelia þic iudas þar til er</explicit>
                             <bibl>
                                 <ref type="primary" target="HMS1877">Heilagra manna søgur</ref>
-                                <biblScope type="volume">I</biblScope><biblScope type="pages"
-                                    >301:19-308:13</biblScope></bibl>
+                                <biblScope unit="volume">I</biblScope><biblScope unit="pages">301:19-308:13</biblScope></bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -90,19 +90,14 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1300" notAfter="1325" cert="high" evidence="conjecture">
-                            <p>Written in <origPlace>Iceland</origPlace>. <name type="person"
-                                    key="KriKaa001">Kristian Kålund</name> dated the fragment to <origDate
-                                    notBefore="1385" notAfter="1399">the end of the fourteenth
+                            <p>Written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> dated the fragment to <origDate notBefore="1385" notAfter="1399">the end of the fourteenth
                                     century</origDate> (<bibl>
                                     <ref type="secondary-1" target="KKKat">Katalog</ref>
                                 </bibl>), whereas <name type="person" key="SteKar001">Stefán
-                                    Karlsson</name> dates it more precisely to <origDate
-                                    notBefore="1300" notAfter="1325" cert="high"
-                                    evidence="conjecture">the first quarter of the fourteenth
+                                    Karlsson</name> dates it more precisely to <origDate notBefore="1300" notAfter="1325" cert="high" evidence="conjecture">the first quarter of the fourteenth
                                     century</origDate> (<bibl>
                                     <ref type="secondary" target="BiblArn25-2">Stefán Karlsson
-                                        1977</ref><biblScope type="pages"
-                                >116</biblScope></bibl>).</p>
+                                        1977</ref><biblScope unit="pages">116</biblScope></bibl>).</p>
                         </origin>
                     </history>
                     <additional>
@@ -170,8 +165,8 @@
                         </surrogates>
                         <listBibl>
                             <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
-                                <biblScope type="volume">I</biblScope>
-                                <biblScope type="pages">201-202</biblScope>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">201-202</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

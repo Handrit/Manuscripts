@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -11,11 +11,13 @@
                 <pubPlace>København</pubPlace>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:id="AM12-445-en" xml:lang="en">
+                <msDesc xml:id="AM12-0445-en" xml:lang="en">
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 445 12mo</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2533</idno>
@@ -99,8 +101,7 @@
                                 <lb/>gothes ko<ex>n</ex>ni<ex>n</ex>gh</incipit>
                             <explicit>Anno d<ex>omi</ex>ni M<ex>illesim</ex>o
                                     <lb/>quadragi<ex>ntesi</ex>mo sexage<ex>sim</ex>o <lb/>sexto
-                                    <del rend="overstrike" hand="scribe">st</del> [?] <del
-                                    rend="overstrike" hand="scribe">is</del>
+                                    <del rend="overstrike" hand="scribe">st</del> [?] <del rend="overstrike" hand="scribe">is</del>
                             </explicit>
                         </msItem>
                     </msContents>
@@ -110,8 +111,7 @@
                                 <support>
                                     <p><material>Parchment</material>.</p>
                                 </support>
-                                <extent>192 (+ 2 paper flyleaves). <dimensions type="leaf"
-                                        scope="all">
+                                <extent>192 (+ 2 paper flyleaves). <dimensions type="leaf" scope="all">
                                         <height>102</height>
                                         <width>75</width>
                                     </dimensions>
@@ -151,8 +151,7 @@
                                         <locus>The second flyleaf</locus> has: <q xml:lang="da">No.
                                             5 Holger Parsberg</q>.</item>
                                     <item>The name, <name type="person" key="HolPar001">Holger
-                                            Parsberg</name>, followed by the year <date when="1685"
-                                            >1685</date> is found on <locus>fol.
+                                            Parsberg</name>, followed by the year <date when="1685">1685</date> is found on <locus>fol.
                                         192v</locus>.</item>
                                 </list>
                             </p>
@@ -171,13 +170,10 @@
                         </origin>
                         <provenance>
                             <p>According to the writing on <locus>the two fly leaves</locus> and the
-                                marginalia on <locus>fol. 192v</locus> the codex was given to <name
-                                    type="person" key="EneRas001">Enevoldt Rasmussen</name> by his
+                                marginalia on <locus>fol. 192v</locus> the codex was given to <name type="person" key="EneRas001">Enevoldt Rasmussen</name> by his
                                 father-in-law, <name type="person" key="RasPed001">Rasmus
                                     Pedersen</name> on <date when="1616-12-12">12 December
-                                    1616</date>. Later it was owned by <name type="person"
-                                    key="HolPar001">Holger Parsberg</name> (<date from="1636"
-                                    to="1692">1636-1692</date>).</p>
+                                    1616</date>. Later it was owned by <name type="person" key="HolPar001">Holger Parsberg</name> (<date from="1636" to="1692">1636-1692</date>).</p>
                         </provenance>
                     </history>
                     <additional>
@@ -193,9 +189,8 @@
                             </availability>
                         </adminInfo>
                         <listBibl>
-                            <bibl>Kålund, <ref type="secondary-1" target="KKKat"
-                                    >Katalog</ref><biblScope type="volume">II</biblScope>
-                                <biblScope type="pages">496</biblScope></bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">496</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

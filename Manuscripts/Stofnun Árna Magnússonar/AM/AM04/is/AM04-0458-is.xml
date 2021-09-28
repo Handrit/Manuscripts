@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 458 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1230</idno>
@@ -45,9 +45,7 @@
                         <extent>ii + 82 + i blöð (<dimensions type="leaf" unit="mm">
                               <height>183</height>
                               <width>154</width>
-                           </dimensions>), þar með talið blað <locus from="8bisr" to="8bisv"
-                              >8bis</locus> (bls. 15 og 16 eru tvítaldar). Blað <locus from="81v"
-                              to="81v">81v</locus> er autt að mestu (11 línur skrifaðar) og um það
+                           </dimensions>), þar með talið blað <locus from="8bisr" to="8bisv">8bis</locus> (bls. 15 og 16 eru tvítaldar). Blað <locus from="81v" to="81v">81v</locus> er autt að mestu (11 línur skrifaðar) og um það
                            bil helmingur blaðs <locus from="78v" to="78v">78v</locus>.</extent>
 
                         <foliation>
@@ -76,8 +74,7 @@
                         <condition>
                            <p>
                               <list>
-                                 <item>Blöð eru víða blettótt og skítug (sjá t.d. blöð<locus
-                                       from="18v" to="19r">18v-19r</locus>).</item>
+                                 <item>Blöð eru víða blettótt og skítug (sjá t.d. blöð<locus from="18v" to="19r">18v-19r</locus>).</item>
                                  <item>Blað <locus from="78r" to="78v">78</locus> er minna en önnur
                                     blöð handritsins; innskotsblað skrifarans sjálfs. </item>
                               </list>
@@ -90,8 +87,7 @@
                            <p>
                               <list>
                                  <item>Eindálka.</item>
-                                 <item>Leturflötur er ca <dimensions type="written" scope="all"
-                                       unit="mm">
+                                 <item>Leturflötur er ca <dimensions type="written" scope="all" unit="mm">
                                        <height>150-155</height>
                                        <width>125-130</width>
                                     </dimensions>.</item>
@@ -100,8 +96,7 @@
                                     <q>w</q> eða <q>v</q> á spássíu er merki um vísu í textanum (sjá
                                        <locus from="48v" to="49v">48v-49v</locus>).</item>
                                  <item>Ónúmeraðar kaflafyrirsagnir eru á stöku stað (sjá t.d. á
-                                    blöðum <locus from="10r" to="10r">10r</locus> og <locus
-                                       from="17v" to="18r">17v-18r</locus>).</item>
+                                    blöðum <locus from="10r" to="10r">10r</locus> og <locus from="17v" to="18r">17v-18r</locus>).</item>
                               </list>
                            </p>
                         </layout>
@@ -159,13 +154,11 @@
                   <accMat>
                      <p>
                         <list>
-                           <item><locus from="accMat01r" to="accMat01v">Seðill</locus> (<dimensions
-                                 type="slip" unit="mm">
+                           <item><locus from="accMat01r" to="accMat01v">Seðill</locus> (<dimensions type="slip" unit="mm">
                                  <height>153</height>
                                  <width>141</width>
                               </dimensions>) skrifaður af ritara Árna Magnússona, með viðbót með
-                              hendi <name key="ArnMag001" type="person">Árna</name> sjálf: <quote
-                                 type="AMSlip" xml:lang="is">Egils saga Skallagrímssonar fengin
+                              hendi <name key="ArnMag001" type="person">Árna</name> sjálf: <quote type="AMSlip" xml:lang="is">Egils saga Skallagrímssonar fengin
                                  af Jóni Einarssyni. Úttekin úr bók er verið hafði í eigu herra Þorláks
                                  Skúlasonar 1621. Síðan hafði Guðbrandur Þoláksson gefið Jóni
                                  (nokkrum) Jónssyni bókina. Jón Jónsson, fékk síra Þorsteini Jónssyni
@@ -188,19 +181,11 @@
                                  1600-1640,</origDate> en til fyrri hluta 17. aldar í <bibl>
                                  <ref target="KKKat">Katalog I</ref>
                               </bibl>, bls. 648.</p>
-                           <p>Það var áður hluti af stærri bók. Í þeirri bók voru einnig <ref
-                                 target="AM04-0380" type="ms">AM 380 4to</ref>, <ref
-                                 target="AM04-0404" type="ms">AM 404 4to</ref> og <ref
-                                 target="AM04-0446" type="ms">AM 446 4to</ref>. <name key="JonSno02"
-                                 type="person">Jón Snorrason</name> prentari áleit <name
-                                 key="HalGud01" type="person">Halldór</name> á Sílastöðum skrifara
+                           <p>Það var áður hluti af stærri bók. Í þeirri bók voru einnig <ref target="AM04-0380" type="ms">AM 380 4to</ref>, <ref target="AM04-0404" type="ms">AM 404 4to</ref> og <ref target="AM04-0446" type="ms">AM 446 4to</ref>. <name key="JonSno02" type="person">Jón Snorrason</name> prentari áleit <name key="HalGud01" type="person">Halldór</name> á Sílastöðum skrifara
                               en <name key="MagMar001" type="person">Magnús Markússon</name>
-                              skólameistari taldi svo ekki vera (sbr. <locus from="accMat01r"
-                                 to="accMat01v">seðil</locus>).</p>
+                              skólameistari taldi svo ekki vera (sbr. <locus from="accMat01r" to="accMat01v">seðil</locus>).</p>
 
-                           <p>Uppskriftin er að hluta til eftir <ref target="Aug04-0910"
-                                 type="ms"> Aug. 9 10 4to</ref> í Wolfenbüttel (sbr. <ref
-                                 target="AM04-0450a" type="ms">AM 450 a 4to</ref>) en einnig eftir
+                           <p>Uppskriftin er að hluta til eftir <ref target="Aug04-0910" type="ms"> Aug. 9 10 4to</ref> í Wolfenbüttel (sbr. <ref target="AM04-0450a" type="ms">AM 450 a 4to</ref>) en einnig eftir
                                  <ref target="AM02-0132" type="ms">AM 132 fol.</ref>
                               <ref target="AM02-0128" type="ms">AM 128 fol</ref> er hins vegar
                               skrifað eftir <ref target="AM04-0458" type="ms">AM 458
@@ -213,16 +198,9 @@
                      <p>
                               <name key="ArnMag001" type="person">Árni Magnússon</name> fékk
                               handritið frá <name key="JonEin001" type="person">Jóni
-                                 Einarssyni</name> á Hólum, úr bók sem verið hafði í eigu <name
-                                 key="ThorSku001" type="person">Þorláks Skúlasonar</name> biskups
-                                 <date when="1641">1641</date>. <name key="GudThor001" type="person"
-                                 >Guðbrandur Þorláksson</name> gaf hana síðan <name type="person"
-                                 >Jóni Jónssyni</name>, sem gaf hana séra <name type="person"
-                                 >Þorsteini Jónssyni</name> á Eiðum <date when="1662">1662</date>.
-                              Þorsteinn gaf hana svo <name key="KriThor001" type="person"
-                                 >Kristrúnu</name> dóttur sinni á <name type="place"
-                                 >Eiðum,</name><date when="1678">1678</date>  (sbr.<locus
-                                 from="accMat01r" to="accMat01v"> seðil</locus>).
+                                 Einarssyni</name> á Hólum, úr bók sem verið hafði í eigu <name key="ThorSku001" type="person">Þorláks Skúlasonar</name> biskups
+                                 <date when="1641">1641</date>. <name key="GudThor001" type="person">Guðbrandur Þorláksson</name> gaf hana síðan <name type="person">Jóni Jónssyni</name>, sem gaf hana séra <name type="person">Þorsteini Jónssyni</name> á Eiðum <date when="1662">1662</date>.
+                              Þorsteinn gaf hana svo <name key="KriThor001" type="person">Kristrúnu</name> dóttur sinni á <name type="place">Eiðum,</name><date when="1678">1678</date>  (sbr.<locus from="accMat01r" to="accMat01v"> seðil</locus>).
                         </p>
                   </provenance>
                   <acquisition when="1995-03-17">
@@ -236,8 +214,7 @@
                            <p>
                                     <name type="person" key="ValHil001">VH</name> skráði handritið
                                        <date when="2009-04-02">2. apríl 2009</date>; lagfærði í <date when="2010-12">desember 2010</date>,
-                                <name key="GudIng001" type="person">GI</name> skráði <date
-                                       when="2001-12-10">10. desember 2001</date>.</p>
+                                <name key="GudIng001" type="person">GI</name> skráði <date when="2001-12-10">10. desember 2001</date>.</p>
                                  <p>
                                     <name key="KriKaa001" type="person">Kålund</name> gekk frá
                                     handritinu til skráningar í <date when="1886-11">nóvember
@@ -264,8 +241,7 @@
                            <item>Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
                               Kaupmannahöfn.</item>
                            <item>Svart-hvítar ljósmyndir á Stofnun Árna Magnússonar á Íslandi, sem
-                              keypti þær af <name type="person">Arne Mann Nielsen</name> í <date
-                                 when="1986-08">ágúst 1986</date>. Á sama tíma keypti SÁM
+                              keypti þær af <name type="person">Arne Mann Nielsen</name> í <date when="1986-08">ágúst 1986</date>. Á sama tíma keypti SÁM
                               reneg.filmu af Det Arnamagnæanske Institut (askja nr. 270).</item>
                         </list>
                      </p>

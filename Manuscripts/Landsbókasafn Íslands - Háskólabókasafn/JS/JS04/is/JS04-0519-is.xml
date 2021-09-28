@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,9 +20,9 @@
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
-						<institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+						<institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
 						<repository>Handritasafn</repository>
-						<collection>Handritasafn Jóns Sigurðssonar</collection>
+						<collection key="JS">Handritasafn Jóns Sigurðssonar</collection>
 						<idno>JS 519 4to</idno>
 						<altIdentifier type="internal" subtype="PEO">
 							<idno>5412</idno>
@@ -33,79 +33,79 @@
 						<msItem n="1" defective="unknown" class="avit">
 							<title type="supplied">Sendibréf til síra Þorgeirs Guðmundssonar</title>
 							<respStmt>
-								<resp key="rcp" /> 
+								<resp key="rcp"/> 
 								<name type="person" key="ThoGud003">Þorgeir Guðmundsson</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="BjaJon014">Bjarni Jónsson</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="BjaTho003">Bjarni Thorarensen</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="BryPet001">Brynjólfur Pétursson</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="EgiJon003">Egill Jónsson</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="EinTho007">Einar Þórðarsson</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="GudSte007">Guðmundur Stefánsson</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="JenSig001">Jens Sigurðsson</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="JonGud039">Jón Guðmundsson</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="JonJon060">Jón Jónsson</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="JonSig004">Jón Sigurðsson</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="OddSte002">Oddgeir Stephensen</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="PalGud004">Páll Guðmundsson</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="PalMat001">Páll Matthiesen</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="SigSig028">Sigurður Sigurðsson</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="SveNie001">Sveinn Níelsson</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="ThoSiv001">Þorvaldur Sívertsen</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="ThoGud017">Þorbjörg Guðmundsdóttir</name> 
 							</respStmt>
 							<respStmt>
-								<resp key="crp" /> 
+								<resp key="crp"/> 
 								<name type="person" key="ThoSte007">Þorbjörg Stefánsdóttir</name> 
 							</respStmt>
 							<note>Auk þessa eru hér reikningar nokkrir um bókasölu og prentun
@@ -132,12 +132,10 @@
 					<history>
 						<origin>
 							<origPlace key="is">Ísland</origPlace>
-							<origDate cert="high" notBefore="1840" notAfter="1870"
-							>1840-1870</origDate>.
+							<origDate cert="high" notBefore="1840" notAfter="1870">1840-1870</origDate>.
 						</origin>
 						<acquisition>
-							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date
-									when="1878">1878.</date> Safnið var afhent Landsbókasafni að
+							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date when="1878">1878.</date> Safnið var afhent Landsbókasafni að
 								honum látnum, en hann lést 7. desember 1879. Það komst í hendur
 								safnsins árið <date when="1881">1881</date> er það var flutt í
 								Alþingishúsið.</p>
@@ -147,8 +145,7 @@
 						<adminInfo>
 							<recordHist>
 								<source><name type="person" key="HalKri001">Halldóra
-									Kristinsdóttir</name> fór yfir skráningu, <date
-										when="2012-07-27">27. júlí 2012</date> ; <name type="person" key="IriLei001">Íris Alda
+									Kristinsdóttir</name> fór yfir skráningu, <date when="2012-07-27">27. júlí 2012</date> ; <name type="person" key="IriLei001">Íris Alda
 									Ísleifsdóttir</name> frumskráði, <date when="2011-06-09">09.
 										júní 2011</date> ; Handritaskrá, 2. b. ; Átaksverkefni
 								2011.</source>

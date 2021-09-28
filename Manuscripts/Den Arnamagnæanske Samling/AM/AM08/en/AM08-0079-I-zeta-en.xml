@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -15,7 +15,9 @@
                <msIdentifier>
                   <country>Denmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 79 I zeta 8vo</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>2282</idno>
@@ -32,16 +34,15 @@
                      <incipit defective="true">
                         <gap unit="lines" extent="1" reason="illegible"/>
                         <lb/> pa m<ex>eth</ex> fwl mywkdom.</incipit>
-                     <explicit defective="true">oc bithie th<ex>e</ex>m om at the b<supplied
-                           reason="illegible">ithi</supplied>e <lb/> ffor hannwm. Oc sith<ex>e</ex>n
+                     <explicit defective="true">oc bithie th<ex>e</ex>m om at the b<supplied reason="illegible">ithi</supplied>e <lb/> ffor hannwm. Oc sith<ex>e</ex>n
                         effter th<supplied reason="illegible">a</supplied>
                      </explicit>
                      <bibl>Diderichsen, <ref type="primary-1" target="FragmPD">Fragmenter af
                            gammeldanske Haandskrifter</ref>
-                        <biblScope type="pages">156-160</biblScope>
+                        <biblScope unit="pages">156-160</biblScope>
                      </bibl>
                      <bibl>Brandt, <ref type="primary-2" target="GDLaesBr">Gammeldansk Læsebog</ref>
-                        <biblScope type="pages">201-202</biblScope>
+                        <biblScope unit="pages">201-202</biblScope>
                      </bibl>
                      <note>Brandt's edited text starts on fol. 1r:20.</note>
                   </msItem>
@@ -81,22 +82,17 @@
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Catalogued <date when="2000-04-18">18 April 2000</date> by <name
-                                 type="person" key="EvaWed001">EW-J</name>.</p>
+                           <p>Catalogued <date when="2000-04-18">18 April 2000</date> by <name type="person" key="EvaWed001">EW-J</name>.</p>
                         </source>
                      </recordHist>
                      <custodialHist>
                         <custEvent type="photography">
                            <p>Photographed in <date when="1989-11">November 1989</date>,
-                              supplementary photographs were taken twice: the first time in <date
-                                 when="1990">1990</date>, and the second time is unknown.</p>
+                              supplementary photographs were taken twice: the first time in <date when="1990">1990</date>, and the second time is unknown.</p>
                         </custEvent>
                         <custEvent type="loan">
                            <p>Lent to <name type="org" xml:lang="en">The Danish National
-                                 Archives</name> (<name type="org" xml:lang="da"
-                              >Rigsarkivet</name>), <name type="place" key="Copen01" xml:lang="en"
-                                 >Copenhagen</name>, for the use of <name type="person"
-                                 key="IngDon001">Inger Dons</name>
+                                 Archives</name> (<name type="org" xml:lang="da">Rigsarkivet</name>), <name type="place" key="Copen01" xml:lang="en">Copenhagen</name>, for the use of <name type="person" key="IngDon001">Inger Dons</name>
                               <date from="1958-10-16" to="1958-12-12">16 October to 12 December
                                  1958</date>.</p>
                         </custEvent>
@@ -110,20 +106,14 @@
                                  1963</date>.</p>
                         </custEvent>
                         <custEvent type="loan">
-                           <p>Lent to <name type="org" xml:lang="en">The Royal Library</name> (<name
-                                 type="org" xml:lang="da">Det Kongelige Bibliotek</name>), <name
-                                 type="place" key="Copen01" xml:lang="en">Copenhagen</name>, for the
+                           <p>Lent to <name type="org" xml:lang="en">The Royal Library</name> (<name type="org" xml:lang="da">Det Kongelige Bibliotek</name>), <name type="place" key="Copen01" xml:lang="en">Copenhagen</name>, for the
                               use of <name type="person" key="MetPou001">Mette Poulsen</name> of
                                  <name type="org" xml:lang="en">The Dictionary of Old Danish</name>
-                                 (<name type="org" xml:lang="da">Gammeldansk Ordbog</name>) <date
-                                 from="1967-03-28" to="1968-05-20">28 March 1967 to 20 May
+                                 (<name type="org" xml:lang="da">Gammeldansk Ordbog</name>) <date from="1967-03-28" to="1968-05-20">28 March 1967 to 20 May
                                  1968</date>.</p>
                         </custEvent>
                         <custEvent type="loan">
-                           <p>Lent to <name type="org">The Royal Library</name> (<name type="org"
-                                 xml:lang="da">Det Kongelige Bibliotek</name>), <name type="place"
-                                 key="Copen01" xml:lang="en">Copenhagen</name>, for the use of <name
-                                 type="person" key="TueGad001">Tue Gad</name>
+                           <p>Lent to <name type="org">The Royal Library</name> (<name type="org" xml:lang="da">Det Kongelige Bibliotek</name>), <name type="place" key="Copen01" xml:lang="en">Copenhagen</name>, for the use of <name type="person" key="TueGad001">Tue Gad</name>
                               <date from="1973-08-21" to="1973-10-29">21 August to 29 October
                                  1973.</date>.</p>
                         </custEvent>
@@ -181,12 +171,12 @@
                   <listBibl>
                      <bibl>Diderichsen, <ref target="FragmPD">Fragmenter af gammeldanske
                            Haandskrifter</ref>
-                        <biblScope type="pages">xxi-lxiv</biblScope>
+                        <biblScope unit="pages">xxi-lxiv</biblScope>
                         <note>With facsimile of fol. <locus>2r</locus> on p. 159</note>
                      </bibl>
                      <bibl>Kålund, <ref type="secondary" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">381</biblScope>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">381</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

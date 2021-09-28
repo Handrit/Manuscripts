@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -15,7 +15,9 @@
                     <msIdentifier>
                         <country>Danmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 5 8vo</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2200</idno>
@@ -75,8 +77,7 @@
                                     <p>
                                         <material>Pergament</material>.</p>
                                 </support>
-                                <extent>77, bl. 1 og 77v var oprindelig ubeskrevne. <dimensions
-                                    type="leaf" scope="all">
+                                <extent>77, bl. 1 og 77v var oprindelig ubeskrevne. <dimensions type="leaf" scope="all">
                                     <height>140</height>
                                     <width>115</width>
                                 </dimensions>
@@ -105,8 +106,7 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Skrevet i <origPlace>Danmark</origPlace> i <origDate when="1477"
-                                cert="high" evidence="internal">1477</origDate>.</p>
+                            <p>Skrevet i <origPlace>Danmark</origPlace> i <origDate when="1477" cert="high" evidence="internal">1477</origDate>.</p>
                         </origin>
                         <provenance>
                             <p>Lige under kolofonen på bl. 77r står der: <q xml:lang="la">Liber
@@ -119,12 +119,8 @@
                                 <name type="person" key="JenGab001">Jens Gabrielsen</name>,
                                 <date when="1531">1531</date>
                             </q>, <q xml:lang="da">
-                                <name type="person" key="Nieooo001">Niels</name> i <name
-                                    type="place">Ørsløff</name>, scriffwer i <name type="place"
-                                        >Hamero<ex>m</ex> heret</name>
-                            </q> og <q xml:lang="da">Christiern Nielsen, borger mester i <name
-                                type="place">Varde</name>, <date when="1528"
-                                    >1528</date>
+                                <name type="person" key="Nieooo001">Niels</name> i <name type="place">Ørsløff</name>, scriffwer i <name type="place">Hamero<ex>m</ex> heret</name>
+                            </q> og <q xml:lang="da">Christiern Nielsen, borger mester i <name type="place">Varde</name>, <date when="1528">1528</date>
                             </q>
                             </p>
                         </provenance>
@@ -133,12 +129,12 @@
                         <listBibl>
                             <bibl>Kofod Ancher: <ref target="smlsk1">Samlede juridiske
                                 Skrifter</ref>
-                                <biblScope type="volume">I</biblScope>
-                                <biblScope type="pages">328</biblScope>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">328</biblScope>
                             </bibl>
                             <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
-                                <biblScope type="volume">II</biblScope>
-                                <biblScope type="pages">324</biblScope>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">324</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

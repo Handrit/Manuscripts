@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +14,9 @@
                     <msIdentifier>
                         <country>Danmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 325 VIII 5 a 4to.</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>1066</idno>
@@ -35,8 +37,8 @@
                                 <explicit defective="true">vegilat vaxa nęðí</explicit>
                                 <bibl>
                                     <ref target="FMS9">Fornmanna sögur</ref>
-                                    <biblScope type="volume">IX</biblScope>
-                                    <biblScope type="pages">261-66</biblScope>
+                                    <biblScope unit="volume">IX</biblScope>
+                                    <biblScope unit="pages">261-66</biblScope>
                                 </bibl>
                             </msItem>
                             <msItem n="1.2">
@@ -49,8 +51,8 @@
                                 </explicit>
                                 <bibl>
                                     <ref target="FMS9">Fornmanna sögur</ref>
-                                    <biblScope type="volume">IX</biblScope>
-                                    <biblScope type="pages">325-33</biblScope>
+                                    <biblScope unit="volume">IX</biblScope>
+                                    <biblScope unit="pages">325-33</biblScope>
                                 </bibl>
                             </msItem>
                         </msItem>
@@ -88,11 +90,10 @@
                     <history>
                         <origin>
                             <p>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> har dateret det til
-                                    <origDate notBefore="1300" notAfter="1399" cert="medium" evidence="conjecture"
-                                  resp="KKKat">1300-tallet</origDate>
+                                    <origDate notBefore="1300" notAfter="1399" cert="medium" evidence="conjecture" resp="KKKat">1300-tallet</origDate>
                                     (<bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                                    <biblScope type="volume">I</biblScope>
-                                    <biblScope type="pages">562</biblScope>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="pages">562</biblScope>
                                 </bibl>), mens <name type="person" key="JonHel003">Jón
                                     Helgason</name> har dateret det mere præcist til <origDate notBefore="1325" notAfter="1375" evidence="conjecture">ca. 1350</origDate>.</p>
                         </origin>
@@ -152,18 +153,18 @@
                         <listBibl>
                             <bibl>
                                 <ref type="secondary" target="FMS9">Fornmanna sögur</ref>
-                                <biblScope type="volume">IX</biblScope>
-                                <biblScope type="pages">XVI-XVII</biblScope>
+                                <biblScope unit="volume">IX</biblScope>
+                                <biblScope unit="pages">XVI-XVII</biblScope>
                                 <note>Beskrevet som fragmenterne 1-2</note>
                             </bibl>
                             <bibl>Guðbrandur Vigfússon <ref type="secondary" target="IslSGV1887-1">Orkneyinga Saga and Magnus Saga with Appendices
                                     </ref>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">xix-xx</biblScope>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">xix-xx</biblScope>
                      </bibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">562</biblScope>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">562</biblScope>
                      </bibl>
                         </listBibl>
                     </additional>

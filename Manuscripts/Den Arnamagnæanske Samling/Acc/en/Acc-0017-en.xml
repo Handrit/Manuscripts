@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,7 +14,9 @@
                <msIdentifier>
                   <country>Denmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="Acc"/>
                   <idno>Acc. 17</idno>
                   <altIdentifier type="internal" subtype="KatKB">
                      <idno>2840</idno>
@@ -28,14 +30,12 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support><material>Paper</material>.</support>
-                        <extent>i + 30 + i + i leaves. Size of leaves: <dimensions type="leaf"
-                           scope="all" unit="mm">
+                        <extent>i + 30 + i + i leaves. Size of leaves: <dimensions type="leaf" scope="all" unit="mm">
                            <height>168</height>
                            <width>104</width>
                         </dimensions>
                         </extent>
-                        <foliation><p>Foliation in pencil. Fol. <locus from="29r" to="29v"
-                           >29</locus> was originally a bigger single leaf which has been
+                        <foliation><p>Foliation in pencil. Fol. <locus from="29r" to="29v">29</locus> was originally a bigger single leaf which has been
                            folded in half and bound together with the other leaves, thereby
                            creating two leaves (29 and 29<hi rend="sup">bis</hi>). However, only
                            one folio number (29) was assigned to them because of the orientation
@@ -47,8 +47,7 @@
                   <additions>
                      <p>On the rear flyleaf there are two notes about the provenance of the
                         manuscript. One in red crayon the other in black ink.</p>
-                     <p>On fols <locus from="1r" to="1r">1r</locus>, <locus from="13r" to="13r"
-                        >13r</locus>, and <locus from="30r" to="30r">29bisv</locus> the number
+                     <p>On fols <locus from="1r" to="1r">1r</locus>, <locus from="13r" to="13r">13r</locus>, and <locus from="30r" to="30r">29bisv</locus> the number
                         <q>CXXXIX</q> is written.</p>
                   </additions>
                   <bindingDesc>
@@ -71,33 +70,25 @@
                <history>
                   <origin notBefore="1790" notAfter="1810">
                      <p>The manuscript was written in <origPlace>Iceland</origPlace>.</p>
-                     <p>Kålund dated the manuscript to <origDate notBefore="1790" notAfter="1810"
-                        >ca. 1800</origDate> (<bibl><ref target="KatKB">Katalog over de
-                           oldnorsk-islandske Håndskrifter</ref>, <biblScope type="pages"
-                              >458</biblScope></bibl>).</p>
+                     <p>Kålund dated the manuscript to <origDate notBefore="1790" notAfter="1810">ca. 1800</origDate> (<bibl><ref target="KatKB">Katalog over de
+                           oldnorsk-islandske Håndskrifter</ref>, <biblScope unit="pages">458</biblScope></bibl>).</p>
                   </origin>
                   <provenance>On the first rear flyleaf, there are two notes written in red crayon:
                      <q>Tilhör [Museum] for Nordiske <lb/> Oldsager, Köbenhavn.</q> and
-                     <q>Indlagte papirer ere tilstillede [commisjionen] <lb/> af Pastor <name
-                        type="person" key="AsgVig001">Asgrim Wigfússon</name> paa
+                     <q>Indlagte papirer ere tilstillede [commisjionen] <lb/> af Pastor <name type="person" key="AsgVig001">Asgrim Wigfússon</name> paa
                         Island.</q></provenance>
                   <!-- are both notes in red crayon? original text "there is a note written in red crayon:" xxx" and "xxx". -->
                   <acquisition>
-                     <p>According to Kålund's <bibl><ref target="KatKB">Katalog</ref>, <biblScope
-                        type="pages">458</biblScope></bibl>, the Arnamagnæan Comission
-                        acquired the manuscript from the National Museum (2. department) in <date
-                           when="1898">1898</date>.</p></acquisition>
+                     <p>According to Kålund's <bibl><ref target="KatKB">Katalog</ref>, <biblScope unit="pages">458</biblScope></bibl>, the Arnamagnæan Comission
+                        acquired the manuscript from the National Museum (2. department) in <date when="1898">1898</date>.</p></acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source><p>A basic description of this manuscript can be found in Kålund's
                            <bibl><ref target="KatKB">Katalog over de oldnorsk-islandske
-                              Håndskrifter</ref>, <biblScope type="pages" from="458" to="458"
-                                 >458</biblScope></bibl>.</p>
-                           <p>The digital description of this manuscript was made on <date
-                              when="2019-02-05">5 February 2019</date> by <name type="person"
-                                 key="KatKap001">Katarzyna Anna Kapitan</name>.</p>
+                              Håndskrifter</ref>, <biblScope unit="pages" from="458" to="458">458</biblScope></bibl>.</p>
+                           <p>The digital description of this manuscript was made on <date when="2019-02-05">5 February 2019</date> by <name type="person" key="KatKap001">Katarzyna Anna Kapitan</name>.</p>
                         </source>
                      </recordHist>
                   </adminInfo>
@@ -110,18 +101,16 @@
                   </surrogates>
                </additional>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>Acc. 17 I</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="1" class="run">
                         <locus from="1r" to="6r">1r-6r</locus>
                         <textLang mainLang="is"/>
                         <title type="supplied">Notes on runes</title>
                         <incipit>Malrúner eda málrunaletr</incipit>
-                        <note>Various types of alphabets, for example <q>Hiálmrúner</q> (fol. <locus
-                           from="3r" to="3r">3r</locus>), <q>kellingar Rúner</q> (fol. <locus
-                              from="3v" to="3v">3v</locus>), <q>Fin<ex>n</ex>skar Rúner</q> (fol.
+                        <note>Various types of alphabets, for example <q>Hiálmrúner</q> (fol. <locus from="3r" to="3r">3r</locus>), <q>kellingar Rúner</q> (fol. <locus from="3v" to="3v">3v</locus>), <q>Fin<ex>n</ex>skar Rúner</q> (fol.
                            <locus from="4r" to="4r">4r</locus>), </note>
                      </msItem>
                      <msItem n="2" class="run">
@@ -134,9 +123,7 @@
                            landi</incipit>
                         <colophon>Jon Jonsson</colophon>
                         <note>A short commentary on the origins of runes, with various examples. The
-                           last leaf of this manuscript (fol. <locus from="29r" to="29v"
-                              >29r-v</locus>) is an addition to this commentary on fol. <locus
-                                 from="12r" to="12r">12r</locus>.</note>
+                           last leaf of this manuscript (fol. <locus from="29r" to="29v">29r-v</locus>) is an addition to this commentary on fol. <locus from="12r" to="12r">12r</locus>.</note>
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -153,9 +140,9 @@
                   </physDesc>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>Acc. 17 II</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="3" class="gald run">
                         <locus from="13r" to="28r">13r-28r</locus>
@@ -164,11 +151,7 @@
                         <rubric>Engin<ex>n</ex> mun þin<ex>n</ex> ovin ef þú ber á þér <lb/> þessa
                            stafe: </rubric>
                         <note>Various spells and chants with drawings of magic symbols and various
-                           alphabets, for example <q>Svart Rúnir</q> (fol. <locus from="25v"
-                              to="25v">25v</locus>), <q>Skans Rúnir</q> (fol. <locus from="26v"
-                                 to="26v">26v</locus>), <q>Ægiptskt Alphabet</q> (fol. <locus
-                                    from="27v" to="27v">27v</locus>), <q>Persiskt Stafrof</q> (fol. <locus
-                                       from="28r" to="28r">28r</locus>) etc.</note>
+                           alphabets, for example <q>Svart Rúnir</q> (fol. <locus from="25v" to="25v">25v</locus>), <q>Skans Rúnir</q> (fol. <locus from="26v" to="26v">26v</locus>), <q>Ægiptskt Alphabet</q> (fol. <locus from="27v" to="27v">27v</locus>), <q>Persiskt Stafrof</q> (fol. <locus from="28r" to="28r">28r</locus>) etc.</note>
                         <colophon><name type="person" key="AsgVig001">Asgrímr
                            Vigfussson</name></colophon>
                      </msItem>
@@ -187,9 +170,9 @@
                   </physDesc>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>Acc. 17 III</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="4" class="run">
                         <locus from="29v" to="29bisr">29v-29bisr</locus>

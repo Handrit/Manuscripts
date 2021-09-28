@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,9 +14,9 @@
                     <msIdentifier>
                         <country key="IS">Ísland</country>
                         <settlement>Reykjavík</settlement>
-                        <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                        <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                         <repository>Handritasvið</repository>
-                        <collection>Safn Árna Magnússonar</collection>
+                        <collection key="AM">Safn Árna Magnússonar</collection>
                         <idno>AM 128 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>792</idno>
@@ -327,8 +327,7 @@
                             <incipit>[M]agnús með guðs miskunn …</incipit>
                             <explicit>… Þenna hátt hæfir sýslumönnum og lögmönnum, et
                                 cetera.</explicit>
-                            <note>Réttarbótin endar á bláupphafinu á <title type="supplied"
-                                    >Réttarbót Hákonar konungs háleggs um skyldur og réttindi
+                            <note>Réttarbótin endar á bláupphafinu á <title type="supplied">Réttarbót Hákonar konungs háleggs um skyldur og réttindi
                                     klerka</title>, frá 1309.</note>
                             <note>Textinn er prentaður í <bibl>
                                     <ref target="DiplIsl">DI III:75-76</ref>
@@ -353,8 +352,7 @@
                             <note>Frá 1280 eða fyrr.</note>
                             <incipit>Svo er og skipað að konungur …</incipit>
                             <explicit>… er sýni lýrittar eiði. Datum.</explicit>
-                            <note>Réttarbótin hefst í línu 11 á bl. <locus from="82r" to="82r"
-                                    >82r</locus>, en engin skil eru milli hennar og þeirrar
+                            <note>Réttarbótin hefst í línu 11 á bl. <locus from="82r" to="82r">82r</locus>, en engin skil eru milli hennar og þeirrar
                                 fyrri.</note>
                             <note>Textinn er prentaður í <bibl>
                                     <ref target="DiplIsl">DI II:161-163</ref>
@@ -707,12 +705,10 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>Skinn.</support>
-                                <extent>i + 117 + i blöð (<dimensions type="leaf" unit="mm"
-                                        scope="all">
+                                <extent>i + 117 + i blöð (<dimensions type="leaf" unit="mm" scope="all">
                                         <height>75-208</height>
                                         <width>121-161</width>
-                                    </dimensions>). Mörg blöð óregluleg í lögun og er bl. <locus
-                                        from="72r" to="72v">72</locus> á stærð við lítinn
+                                    </dimensions>). Mörg blöð óregluleg í lögun og er bl. <locus from="72r" to="72v">72</locus> á stærð við lítinn
                                     seðil.</extent>
                                 <foliation>
                                     <p>
@@ -752,27 +748,13 @@
                                             <item>Blettur á <locus from="18v" to="18v">18v</locus>
                                                 og <locus from="99v" to="99v">99v</locus>, þannig að
                                                 texti er óverulega skertur.</item>
-                                            <item>Texti máður á <locus from="86v" to="86v"
-                                                  >86v</locus>, <locus from="110r" to="110v"
-                                                  >110r-v</locus>, <locus from="111r" to="111r"
-                                                  >111r</locus>, <locus from="114r" to="114v"
-                                                  >114r-v</locus>, þannig að hann er skertur.</item>
-                                            <item>Texti skertur vegna skemmda á bl. <locus
-                                                  from="111r" to="111v">111</locus>.</item>
-                                            <item>Svo virðist sem brotnað hafi horn af bl. <locus
-                                                  from="75r" to="75v">75</locus>.</item>
-                                            <item>Bleksmitun á <locus from="90v" to="91r"
-                                                  >90v-91r</locus>, <locus from="102r" to="102r"
-                                                  >102r</locus>.</item>
-                                            <item>Göt sem myndast hafa við verkun á bl. <locus
-                                                  from="10r" to="10v">10</locus>, <locus from="76r"
-                                                  to="76v">76</locus>, <locus from="77r" to="77v"
-                                                  >77</locus>, <locus from="110r" to="110v"
-                                                  >110</locus>.</item>
-                                            <item>Gat á bl. <locus from="112r" to="112v"
-                                                >112</locus>.</item>
-                                            <item>Skrifað á uppskafning (bl. <locus from="111r"
-                                                  to="117v">111-117</locus>).</item>
+                                            <item>Texti máður á <locus from="86v" to="86v">86v</locus>, <locus from="110r" to="110v">110r-v</locus>, <locus from="111r" to="111r">111r</locus>, <locus from="114r" to="114v">114r-v</locus>, þannig að hann er skertur.</item>
+                                            <item>Texti skertur vegna skemmda á bl. <locus from="111r" to="111v">111</locus>.</item>
+                                            <item>Svo virðist sem brotnað hafi horn af bl. <locus from="75r" to="75v">75</locus>.</item>
+                                            <item>Bleksmitun á <locus from="90v" to="91r">90v-91r</locus>, <locus from="102r" to="102r">102r</locus>.</item>
+                                            <item>Göt sem myndast hafa við verkun á bl. <locus from="10r" to="10v">10</locus>, <locus from="76r" to="76v">76</locus>, <locus from="77r" to="77v">77</locus>, <locus from="110r" to="110v">110</locus>.</item>
+                                            <item>Gat á bl. <locus from="112r" to="112v">112</locus>.</item>
+                                            <item>Skrifað á uppskafning (bl. <locus from="111r" to="117v">111-117</locus>).</item>
                                         </list>
                                     </p>
                                 </condition>
@@ -783,8 +765,7 @@
                                         <list>
                                             <item>Eindálka. Innskotsblöð 111-117 eru þó
                                                 tvídálka.</item>
-                                            <item>Leturflötur er <dimensions type="written"
-                                                  unit="mm">
+                                            <item>Leturflötur er <dimensions type="written" unit="mm">
                                                   <height>142-170</height>
                                                   <width>125-140</width>
                                                 </dimensions>.</item>
@@ -792,12 +773,10 @@
                                             <item>Víða gatað fyrir línum.</item>
                                             <item>Upphafsstafir víða dregnir út úr
                                                 leturfleti.</item>
-                                            <item>Síðutitlar eru á innskotsblöðum <locus from="111v"
-                                                  to="115r">111v-115r</locus>.</item>
+                                            <item>Síðutitlar eru á innskotsblöðum <locus from="111v" to="115r">111v-115r</locus>.</item>
                                             <item>Griporð á <locus from="75r" to="75r">75r</locus>
                                                 og <locus from="76r" to="76r">76r</locus>.</item>
-                                            <item>Eyður eru fyrir upphafsstafi á bl. <locus
-                                                  from="73v" to="94v">73v-94v</locus>.</item>
+                                            <item>Eyður eru fyrir upphafsstafi á bl. <locus from="73v" to="94v">73v-94v</locus>.</item>
                                         </list>
                                     </p>
                                 </layout>
@@ -809,16 +788,13 @@
                                         <item>I. bl. <locus from="1v" to="71v">1v-71v</locus> og
                                                 <locus from="95r" to="109v">95r-109v</locus>
                                             óþekktur skrifari, árléttiskrift.</item>
-                                        <item>Skriftin og ýmis önnur sérkenni minna á höndina á <ref
-                                                target="AM04-0604" type="ms">AM 604 4to</ref>, en
-                                            einnig kemur nafn kvendýrlingsins heilagrar <name
-                                                type="person">Fennennu</name> (<locus from="1v"
-                                                to="1v">1v</locus>) fyrir í báðum handritunum (sjá <bibl>
+                                        <item>Skriftin og ýmis önnur sérkenni minna á höndina á <ref target="AM04-0604" type="ms">AM 604 4to</ref>, en
+                                            einnig kemur nafn kvendýrlingsins heilagrar <name type="person">Fennennu</name> (<locus from="1v" to="1v">1v</locus>) fyrir í báðum handritunum (sjá <bibl>
                                                 <ref>Jón Helgason 1932:147-148</ref>
                                             </bibl>).</item>
                                     </list></p></handNote>
                             <handNote scope="major" script="cursiva" scribe="unknown"><p><list>
-                                        <item>>II. bl. <locus from="71v" to="72r">71v-72r</locus>,
+                                        <item>&gt;II. bl. <locus from="71v" to="72r">71v-72r</locus>,
                                                 <locus from="73r" to="94v">73r-94v</locus> óþekktur
                                             skrifari eða skrifarar.</item>
                                     </list></p></handNote>
@@ -840,11 +816,7 @@
                                 <p>
                                     <list>
                                         <item>Upphafsstafir með mannamyndum, litur rauður og grænn,
-                                            á <locus from="5v" to="5v">5v</locus>, <locus from="7v"
-                                                to="7v">7v</locus>, <locus from="51v" to="51v"
-                                                >51v</locus>, <locus from="104v" to="104v"
-                                                >104v</locus> og <locus from="107v" to="107v"
-                                                >107v</locus>.</item>
+                                            á <locus from="5v" to="5v">5v</locus>, <locus from="7v" to="7v">7v</locus>, <locus from="51v" to="51v">51v</locus>, <locus from="104v" to="104v">104v</locus> og <locus from="107v" to="107v">107v</locus>.</item>
                                     </list>
                                 </p>
                             </decoNote>
@@ -852,9 +824,7 @@
                                 <p>
                                     <list>
                                         <item>Víða plöntuskreyttir upphafsstafir, litur rauður,
-                                            grænn og svartur, á <locus from="1v" to="71v"
-                                                >1v-71v</locus> og <locus from="95r" to="109v"
-                                                >95r-109v</locus>.</item>
+                                            grænn og svartur, á <locus from="1v" to="71v">1v-71v</locus> og <locus from="95r" to="109v">95r-109v</locus>.</item>
                                     </list>
                                 </p>
                             </decoNote>
@@ -870,9 +840,7 @@
                             <decoNote type="secondary" subtype="rubric">
                                 <p>
                                     <list>
-                                        <item>Víða rauðritaðar kaflafyrirsagnir á <locus from="1v"
-                                                to="71v">1v-71v</locus> og <locus from="95r"
-                                                to="109v">95r-109v</locus>.</item>
+                                        <item>Víða rauðritaðar kaflafyrirsagnir á <locus from="1v" to="71v">1v-71v</locus> og <locus from="95r" to="109v">95r-109v</locus>.</item>
                                     </list>
                                 </p>
                             </decoNote>
@@ -885,25 +853,20 @@
                                             öld</date>, á uppskafning úr latínugrallara (sbr. <bibl>
                                             <ref target="DiplIsl">DI I:683</ref>
                                         </bibl>).</item>
-                                    <item>Viðbætur með yngri höndum: <p>Bl. <locus from="73r"
-                                                to="73r">73r</locus>: Tvö efnisatriði og er l. 19-34
+                                    <item>Viðbætur með yngri höndum: <p>Bl. <locus from="73r" to="73r">73r</locus>: Tvö efnisatriði og er l. 19-34
                                             með hendi <name key="BjoGud002" type="person">Björns
-                                                Guðnasonar</name> sýslumanns í <name type="place"
-                                                key="ÖguÖgu01">Ögri</name> og skrifuð um <date
-                                                from="1490" to="1510">1500</date> (<bibl>
+                                                Guðnasonar</name> sýslumanns í <name type="place" key="ÖguÖgu01">Ögri</name> og skrifuð um <date from="1490" to="1510">1500</date> (<bibl>
                                                 <ref target="SteKar013">Stefán Karlsson
                                                   1970:139</ref>
                                             </bibl>. Viðbótin er prentuð í <bibl>
                                                 <ref target="DiplIsl">DI III:692-693</ref>
                                             </bibl>).</p>
                                         <p>Bl. <locus from="86v" to="86v">86v</locus>: Tvö
-                                            efnisatriði og er það fyrra (l. 1-12) skrifað <date
-                                                when="1570">um 1570</date> (<bibl>
+                                            efnisatriði og er það fyrra (l. 1-12) skrifað <date when="1570">um 1570</date> (<bibl>
                                                 <ref target="DiplIsl">DI I:683</ref>
                                             </bibl>).</p>
                                         <p>Bl. <locus from="109v" to="110r">109v-110r</locus>: Þrjú
-                                            efnisatriði öll með sömu hendi, sennilega frá <date
-                                                from="1575" to="1599">lokum 16. aldar</date> (<bibl>
+                                            efnisatriði öll með sömu hendi, sennilega frá <date from="1575" to="1599">lokum 16. aldar</date> (<bibl>
                                                 <ref target="DiplIsl">DI I:683</ref>
                                             </bibl>).</p>
                                         <p>Bl. <locus from="110v" to="110v">110v</locus>: Tvö
@@ -918,31 +881,21 @@
                                         viðbætur (t.d. <locus from="17v" to="17v">17v</locus> og
                                             <locus from="20r" to="20r">20r</locus>), ýmist með hendi
                                         skrifara eða yngri höndum. Hér eru einnig leiðbeiningastafir
-                                        (t.d <locus from="6v" to="6v">6v</locus> og <locus from="7r"
-                                            to="7r">7r</locus>), ýmis konar klausur og krot (t.d.
-                                            <locus from="32r" to="32r">32r</locus> og <locus
-                                            from="37v" to="37v">37v</locus>), sem og nöfn og
+                                        (t.d <locus from="6v" to="6v">6v</locus> og <locus from="7r" to="7r">7r</locus>), ýmis konar klausur og krot (t.d.
+                                            <locus from="32r" to="32r">32r</locus> og <locus from="37v" to="37v">37v</locus>), sem og nöfn og
                                         upplýsingar um feril (<locus from="1r" to="1r">1r</locus> og
                                             <locus from="117r" to="117r">117r</locus>).</item>
                                     <item>Á neðri spássíu á <locus from="35r" to="35r">35r</locus>
                                         er rúnastafróf og villuletur.</item>
-                                    <item>Á neðri spássíum á <locus from="80v" to="94v"
-                                            >80v-94v</locus> eru orðatiltæki, málshættir (sjá <bibl>
+                                    <item>Á neðri spássíum á <locus from="80v" to="94v">80v-94v</locus> eru orðatiltæki, málshættir (sjá <bibl>
                                             <ref>Fjölni 1844:101-103</ref>
                                         </bibl> og <bibl>
                                             <ref>Jón Samsonarson 1978:36</ref>
                                         </bibl>) og vísur (<title type="supplied">Svo fór enn sem sagt
-                                            var frá</title> (<locus from="80r" to="80v"
-                                            >80r-v</locus>, <locus from="81v" to="81v">81v</locus>
-                                        og <locus from="82v" to="82v">82v</locus>), <title
-                                            type="supplied">Ungur maður og öldruð frú</title> (<locus
-                                            from="83r" to="83r">83r</locus>), <title type="supplied"
-                                            >Ljótt er letur mitt</title> (<locus from="85v" to="85v"
-                                            >85v</locus>), <title type="supplied">Það á að tala mín
-                                            tungan snjöll</title> (<locus from="86r" to="86r"
-                                            >86r</locus>) og <title type="supplied">Manvits vant er
-                                            þeim margt skrafar</title> (<locus from="94v" to="94v"
-                                            >94v</locus>) (sjá <bibl>
+                                            var frá</title> (<locus from="80r" to="80v">80r-v</locus>, <locus from="81v" to="81v">81v</locus>
+                                        og <locus from="82v" to="82v">82v</locus>), <title type="supplied">Ungur maður og öldruð frú</title> (<locus from="83r" to="83r">83r</locus>), <title type="supplied">Ljótt er letur mitt</title> (<locus from="85v" to="85v">85v</locus>), <title type="supplied">Það á að tala mín
+                                            tungan snjöll</title> (<locus from="86r" to="86r">86r</locus>) og <title type="supplied">Manvits vant er
+                                            þeim margt skrafar</title> (<locus from="94v" to="94v">94v</locus>) (sjá <bibl>
                                             <ref>Jón Samsonarson 1978:34-39</ref>
                                         </bibl>).</item>
                                 </list>
@@ -959,16 +912,13 @@
                                     Handritið liggur í öskju.</p>
                             </binding>
                             <binding contemporary="false">
-                                <p>Eldra band virðist hafa verið skinnband með spennum (sbr. <ref
-                                        target="AM02-0477" type="ms">AM 477 fol.</ref>).</p>
+                                <p>Eldra band virðist hafa verið skinnband með spennum (sbr. <ref target="AM02-0477" type="ms">AM 477 fol.</ref>).</p>
                             </binding>
                         </bindingDesc>
                         <accMat>
                             <p>
                                 <list>
-                                    <item>Tveir fastir <locus from="accMat01r" to="accMat02v"
-                                            >seðlar</locus> fremst með hendi <name key="ArnMag001"
-                                            type="person">Árna Magnússonar</name>, með upplýsingum
+                                    <item>Tveir fastir <locus from="accMat01r" to="accMat02v">seðlar</locus> fremst með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name>, með upplýsingum
                                         um feril.</item>
                                     <item>Seðill 1 (<dimensions type="slip" unit="mm">
                                             <height>159</height>
@@ -985,8 +935,7 @@
                                             göml. Bókina hafi ég fengið 1705 frá séra Jóni Jónssyni
                                             í Garpsdal.</quote></item>
                                     <item>Laus seðill frá Kaupmannahöfn um forvörslu.</item>
-                                    <item>Í öskju með handritinu liggur nákvæmt efnisyfirlit <name
-                                            key="JonSig004" type="person">Jóns Sigurðssonar</name>,
+                                    <item>Í öskju með handritinu liggur nákvæmt efnisyfirlit <name key="JonSig004" type="person">Jóns Sigurðssonar</name>,
                                         bundið í pappakápu.</item>
                                 </list>
                             </p>
@@ -995,8 +944,7 @@
                     <history>
                         <origin notBefore="1450" notAfter="1499" cert="high" evidence="external">
                             <p>Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace>.
-                                Kålund tímasetur bl. 1v-73r:18 og 95r-109v:11 til <origDate
-                                    notBefore="1450" notAfter="1499">síðari helmings 15. aldar
+                                Kålund tímasetur bl. 1v-73r:18 og 95r-109v:11 til <origDate notBefore="1450" notAfter="1499">síðari helmings 15. aldar
                                 </origDate> (<bibl>
                                     <ref target="KKKat">Katalog I 1889:417</ref>
                                 </bibl>, sjá einnig <bibl>
@@ -1009,15 +957,8 @@
                                 <list>
                                     <item>
                                         <name key="ArnMag001" type="person">Árni Magnússon</name>
-                                        fékk handritið hjá séra <name key="JonJon018" type="person"
-                                            >Jóni Jónssyni</name> í <name type="place"
-                                            key="GarRey01">Garpsdal</name> árið <date when="1705"
-                                            >1705</date> (sbr. <locus from="accMat01r"
-                                            to="accMat02v">seðla</locus>). Einhvern tíma á <date
-                                            from="1500" to="1600">16. öld</date> átti <name
-                                            key="AndMag001" type="person">Andrés Magnússon</name>
-                                        handritið (<locus from="1r" to="1r">1r</locus> og <locus
-                                            from="117r" to="117r">117r</locus>). Um Andrés þennan, sjá <bibl>
+                                        fékk handritið hjá séra <name key="JonJon018" type="person">Jóni Jónssyni</name> í <name type="place" key="GarRey01">Garpsdal</name> árið <date when="1705">1705</date> (sbr. <locus from="accMat01r" to="accMat02v">seðla</locus>). Einhvern tíma á <date from="1500" to="1600">16. öld</date> átti <name key="AndMag001" type="person">Andrés Magnússon</name>
+                                        handritið (<locus from="1r" to="1r">1r</locus> og <locus from="117r" to="117r">117r</locus>). Um Andrés þennan, sjá <bibl>
                                             <ref>DI I:683</ref>
                                         </bibl>. Á bl. <locus from="26r" to="26r">26r</locus> er
                                             nafnið <name type="person">Bjarni
@@ -1043,17 +984,14 @@
                                     <p>
                                         <list>
                                             <item><name type="person" key="ThoSig001">ÞS</name>
-                                                lagfærði samkvæmt reglum TEIP5 <date
-                                                  notBefore="2009-10-27" notAfter="2009-10-28"
-                                                  >27.-28. október 2009</date> og síðar.</item>
+                                                lagfærði samkvæmt reglum TEIP5 <date notBefore="2009-10-27" notAfter="2009-10-28">27.-28. október 2009</date> og síðar.</item>
                                             <item>
                                                 <name key="GudIng001" type="person">GI</name> skráði
                                                   <date when="2003-01-28">28. janúar
                                                 2003</date>.</item>
                                             <item>
                                                 <name key="KriKaa001" type="person">Kålund</name>
-                                                gekk frá handritinu til skráningar <date
-                                                  when="1886-10-06">6. október 1886</date> (<bibl>
+                                                gekk frá handritinu til skráningar <date when="1886-10-06">6. október 1886</date> (<bibl>
                                                   <ref target="KKKat">Katalog I 1889:417-18 (nr.
                                                   792).</ref>
                                                 </bibl>).</item>
@@ -1063,8 +1001,7 @@
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation" when="1973-05">
-                                    <p>Viðgert og bundið af <name key="BirDal001" type="person"
-                                            >Birgitte Dall</name> í maí 1973.</p>
+                                    <p>Viðgert og bundið af <name key="BirDal001" type="person">Birgitte Dall</name> í maí 1973.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>

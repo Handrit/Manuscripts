@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 240 8vo</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>2454</idno>
@@ -49,10 +49,7 @@
                      </binding>
                      <binding contemporary="false">
                         <p>Spjöld og kjölur í eldra bandi klædd bókfelli úr kirkjulegu latnesku
-                           handriti (tvídálka). Það hefur nú verið skráð undir safnmörkunum <ref
-                              target="Acc-48e" type="ms">Accessoria 48 e</ref>, <ref
-                              target="Acc-48f" type="ms">Accessoria 48 f </ref> og <ref
-                              target="Acc-48g" type="ms">Accessoria 48 g </ref>.</p>
+                           handriti (tvídálka). Það hefur nú verið skráð undir safnmörkunum <ref target="Acc-48e" type="ms">Accessoria 48 e</ref>, <ref target="Acc-48f" type="ms">Accessoria 48 f </ref> og <ref target="Acc-48g" type="ms">Accessoria 48 g </ref>.</p>
                      </binding>
                   </bindingDesc>
                   <accMat>
@@ -81,8 +78,7 @@
                            <p>
                               <list>
                                  <item><name type="person" key="ThoSig001">ÞS</name> skráði skv.
-                                    reglum TEIP5 <date notBefore="2009-09-22" notAfter="2009-09-23"
-                                       >22.-23. september 2009</date> og síðar.</item>
+                                    reglum TEIP5 <date notBefore="2009-09-22" notAfter="2009-09-23">22.-23. september 2009</date> og síðar.</item>
                                  <item>
                                     <name key="ThoSig001" type="person">ÞS</name> færði inn
                                        grunnupplýsingar<date from="2002-09-17" to="2002-09-19">19.
@@ -99,8 +95,7 @@
                      </recordHist>
                      <custodialHist>
                         <custEvent type="conservation" when="1983-03">
-                           <p>Viðgert og bundið í <name type="place" key="Copen01"
-                              >Kaupmannahöfn</name> í mars 1983. Eldra band (frá tíma Kaalunds?)
+                           <p>Viðgert og bundið í <name type="place" key="Copen01">Kaupmannahöfn</name> í mars 1983. Eldra band (frá tíma Kaalunds?)
                               fylgdi. Eldra bókfellsband kom <date when="1997-05-06">6. maí
                               1997</date> og kápa utan um.</p>
                         </custEvent>
@@ -120,9 +115,9 @@
                   </listBibl>
                </additional>
                <msPart n="1">
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 240 I 8vo</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents class="kvad salm" xml:lang="is">
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem n="1" class="kvad">
@@ -1543,19 +1538,16 @@
                               <p>
                                  <list>
                                     <item>Eindálka.</item>
-                                    <item>Leturflötur fyrri hluta handritsins er ca <dimensions
-                                          type="written" unit="mm">
+                                    <item>Leturflötur fyrri hluta handritsins er ca <dimensions type="written" unit="mm">
                                           <height>145-155</height>
                                           <width>85-90</width>
-                                       </dimensions> en seinni hluta ca <dimensions type="written"
-                                          unit="mm">
+                                       </dimensions> en seinni hluta ca <dimensions type="written" unit="mm">
                                           <height>130-135</height>
                                           <width>75-85</width>
                                        </dimensions>.</item>
                                     <item>Línufjöldi er ca 28-38 í fyrri hlutanum en 22-27 í seinni
                                        hlutanum.</item>
-                                    <item>Strikað fyrir leturfleti á bl. <locus from="133r"
-                                          to="157r">133r-157r</locus>.</item>
+                                    <item>Strikað fyrir leturfleti á bl. <locus from="133r" to="157r">133r-157r</locus>.</item>
                                     <item><catchwords>Griporð</catchwords> eru að jafnaði á öftustu
                                        síðu í kveri í fyrri hluta handritsins og nokkrum síðum að
                                        auki en í seinni hlutanum eru griporð á flestum síðum.</item>
@@ -1573,30 +1565,10 @@
                            Óþekktur skrifari, fljótaskrift.</handNote>
                      </handDesc>
                      <musicNotation>
-                        <p>Nótnaskrift við sum kvæða sr. Ólafs Jónssonar á Söndum, sjá bl. <locus
-                              from="1r" to="1r">1r</locus>, <locus from="6v" to="6v">6v</locus>,
-                              <locus from="7v" to="7v">7v</locus>, <locus from="8v" to="8v"
-                           >8v</locus>, <locus from="9v" to="9v">9v</locus>, <locus from="16v"
-                              to="16v">16v</locus>, <locus from="18v" to="18v">18v</locus>, <locus
-                              from="25v" to="25v">25v</locus>, <locus from="28r" to="28r"
-                           >28r</locus>, <locus from="31r" to="31r">31r</locus>, <locus from="33r"
-                              to="33r">33r</locus>, <locus from="34r" to="34r">34r</locus>, <locus
-                              from="38r" to="38v">38r-v</locus>, <locus from="42r" to="42v"
-                           >42r-v</locus>, <locus from="43r" to="43r">43r</locus>, <locus from="44v"
-                              to="44v">44v</locus>, <locus from="45v" to="45v">45v</locus>, <locus
-                              from="48r" to="48r">48r</locus>, <locus from="49v" to="50r"
-                           >49v-50r</locus>, <locus from="51r" to="51r">51r</locus>, <locus
-                              from="51v" to="52r">51v-52r</locus>, <locus from="59v" to="59v"
-                           >59v</locus>, <locus from="62v" to="62v">62v</locus>, <locus from="63v"
-                              to="64r">63v-64r</locus>, <locus from="73v" to="73v">73v</locus>,
-                              <locus from="74v" to="74v">74v</locus>, <locus from="77r" to="77r"
-                           >77r</locus>, <locus from="83v" to="83v">83v</locus>, <locus from="86v"
-                              to="86v">86v</locus>, <locus from="91r" to="91r">91r</locus>, <locus
-                              from="92r" to="92r">92r</locus>, <locus from="94r" to="94r"
-                           >94r</locus>, <locus from="95v" to="95v">95v</locus>, <locus from="110r"
-                              to="110v">110r-v</locus>, <locus from="112v" to="112v">112v</locus>,
-                              <locus from="115r" to="115r">115r</locus>, <locus from="124v"
-                              to="124v">124v</locus>.</p>
+                        <p>Nótnaskrift við sum kvæða sr. Ólafs Jónssonar á Söndum, sjá bl. <locus from="1r" to="1r">1r</locus>, <locus from="6v" to="6v">6v</locus>,
+                              <locus from="7v" to="7v">7v</locus>, <locus from="8v" to="8v">8v</locus>, <locus from="9v" to="9v">9v</locus>, <locus from="16v" to="16v">16v</locus>, <locus from="18v" to="18v">18v</locus>, <locus from="25v" to="25v">25v</locus>, <locus from="28r" to="28r">28r</locus>, <locus from="31r" to="31r">31r</locus>, <locus from="33r" to="33r">33r</locus>, <locus from="34r" to="34r">34r</locus>, <locus from="38r" to="38v">38r-v</locus>, <locus from="42r" to="42v">42r-v</locus>, <locus from="43r" to="43r">43r</locus>, <locus from="44v" to="44v">44v</locus>, <locus from="45v" to="45v">45v</locus>, <locus from="48r" to="48r">48r</locus>, <locus from="49v" to="50r">49v-50r</locus>, <locus from="51r" to="51r">51r</locus>, <locus from="51v" to="52r">51v-52r</locus>, <locus from="59v" to="59v">59v</locus>, <locus from="62v" to="62v">62v</locus>, <locus from="63v" to="64r">63v-64r</locus>, <locus from="73v" to="73v">73v</locus>,
+                              <locus from="74v" to="74v">74v</locus>, <locus from="77r" to="77r">77r</locus>, <locus from="83v" to="83v">83v</locus>, <locus from="86v" to="86v">86v</locus>, <locus from="91r" to="91r">91r</locus>, <locus from="92r" to="92r">92r</locus>, <locus from="94r" to="94r">94r</locus>, <locus from="95v" to="95v">95v</locus>, <locus from="110r" to="110v">110r-v</locus>, <locus from="112v" to="112v">112v</locus>,
+                              <locus from="115r" to="115r">115r</locus>, <locus from="124v" to="124v">124v</locus>.</p>
                      </musicNotation>
                      <decoDesc>
                         <decoNote type="frieze" subtype="secondary">Ígildi bókahnúts (tveir) á bl.
@@ -1617,16 +1589,14 @@
                            tímasett til upphafs 18. aldar í <bibl>
                               <ref target="KKKat">Katalog II</ref>
                            </bibl>, bls. 462, en samkvæmt skrifaraklausu var a.m.k. fyrri hlutinn
-                           skrifaður árið <origDate notBefore="1704" notAfter="1704"
-                           >1704</origDate> (sbr. bl. <locus from="127v" to="127v"
-                        >127v</locus>).</p>
+                           skrifaður árið <origDate notBefore="1704" notAfter="1704">1704</origDate> (sbr. bl. <locus from="127v" to="127v">127v</locus>).</p>
                      </origin>
                   </history>
                </msPart>
                <msPart n="2">
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 240 II 8vo</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents xml:lang="is">
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem n="1" class="skrif" defective="false">
@@ -1678,8 +1648,7 @@
                            latínuletur og fljótaskrift.</handNote>
                      </handDesc>
                      <additions>
-                        <p>Á bl. <locus from="181v" to="181v">181v</locus> er ávarp til <q
-                              xml:lang="is">móður minnar</q>
+                        <p>Á bl. <locus from="181v" to="181v">181v</locus> er ávarp til <q xml:lang="is">móður minnar</q>
                            <name type="person">Halldóru Jónsdóttur</name> með annarri hendi.</p>
                      </additions>
                   </physDesc>

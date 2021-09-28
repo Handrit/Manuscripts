@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,7 +14,9 @@
                <msIdentifier>
                   <country>Denmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 696 VI 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1681</idno>
@@ -22,8 +24,7 @@
                </msIdentifier>
                <head>
                   <title type="uniform" xml:lang="da">Den islandske Lucidarius</title>;
-                     <origPlace>Island</origPlace>, <origDate notBefore="1600" notAfter="1650"
-                     evidence="conjecture">s. XVII 1/2</origDate>
+                     <origPlace>Island</origPlace>, <origDate notBefore="1600" notAfter="1650" evidence="conjecture">s. XVII 1/2</origDate>
                </head>
                <msContents>
                   <summary>Islandsk pergamentfragment fra 1600-tallets første halvdel, som
@@ -106,8 +107,7 @@
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="unknown" script="textualis" scope="sole">
-                        <p>Skrevet med en lidt klodset, yngre gotisk bogskrift. Bogstavet <hi
-                              rend="bold">g</hi> er bemærkelsesværdigt, da hele bogstavet er skrevet på
+                        <p>Skrevet med en lidt klodset, yngre gotisk bogskrift. Bogstavet <hi rend="bold">g</hi> er bemærkelsesværdigt, da hele bogstavet er skrevet på
                            linjen, uden nogen underlængde.</p>
                      </handNote>
                   </handDesc>
@@ -167,19 +167,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <p>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001"
-                           >Kålund</name> (<bibl>
+                     <p>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl>
                            <ref type="secondary-1" target="KKKat">Katalog</ref>
-                           <biblScope type="volume">II</biblScope>
-                           <biblScope type="pages">111</biblScope>
-                        </bibl>) har dateret det til <origDate notBefore="1500" notAfter="1599"
-                           evidence="conjecture" resp="KKKat">1500-tallet</origDate>, mens Jón
+                           <biblScope unit="volume">II</biblScope>
+                           <biblScope unit="pages">111</biblScope>
+                        </bibl>) har dateret det til <origDate notBefore="1500" notAfter="1599" evidence="conjecture" resp="KKKat">1500-tallet</origDate>, mens Jón
                         Helgason <bibl>
                            <ref type="secondary-1" target="MI4">The Arna-Magnæan Manuscript 674 A,
                               4to. Elucidarius</ref>
-                           <biblScope type="pages">xxxii-xxxiii</biblScope>
-                        </bibl> dateret det til <origDate notBefore="1600" notAfter="1650"
-                           evidence="conjecture" resp="MI4">1600-tallets første
+                           <biblScope unit="pages">xxxii-xxxiii</biblScope>
+                        </bibl> dateret det til <origDate notBefore="1600" notAfter="1650" evidence="conjecture" resp="MI4">1600-tallets første
                         halvdel</origDate>.</p>
                   </origin>
                </history>
@@ -187,8 +184,7 @@
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Katalogiseret <date when="1999-10-08">8. oktober 1999</date> af <name
-                                 type="person" key="AnnHan001">AMH</name>.</p>
+                           <p>Katalogiseret <date when="1999-10-08">8. oktober 1999</date> af <name type="person" key="AnnHan001">AMH</name>.</p>
                         </source>
                      </recordHist>
                      <availability status="free">
@@ -231,11 +227,11 @@
                      </bibl>
                      <bibl>Jón Helgason: <ref type="secondary-1" target="MI4">The Arna-Magnæan
                            Manuscript 674 A, 4to. Elucidarius</ref>
-                        <biblScope type="pages">xxxii-xxxiii</biblScope>
+                        <biblScope unit="pages">xxxii-xxxiii</biblScope>
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">111</biblScope>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">111</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
@@ -243,8 +239,7 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change>Checked <date when="2000-02-02">02.02.2000</date> by <name type="person"
-               key="MatDri001">MJD</name>.</change>
+         <change>Checked <date when="2000-02-02">02.02.2000</date> by <name type="person" key="MatDri001">MJD</name>.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

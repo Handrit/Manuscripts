@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,7 +14,9 @@
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 812 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>1944</idno>
@@ -54,11 +56,9 @@
                         </bindingDesc>
                     </physDesc>
                     <history>
-                        <provenance><p>The manuscript was in the possession of <name type="person"
-                                    key="CorLer001">Cornelius Pedersen Lerche</name> at the time of
+                        <provenance><p>The manuscript was in the possession of <name type="person" key="CorLer001">Cornelius Pedersen Lerche</name> at the time of
                                 his death and is mentioned in the 1682 auction catalogue under
-                                quarto manuscripts as no. 11 (See <bibl><ref type="secondary-2"
-                                        target="CPLKat">Catalogus, p.
+                                quarto manuscripts as no. 11 (See <bibl><ref type="secondary-2" target="CPLKat">Catalogus, p.
                             166-167</ref></bibl>).</p></provenance>
                         <acquisition>There is no record of acquisition.</acquisition>
                     </history>
@@ -66,21 +66,20 @@
                         <adminInfo>
                             <recordHist>
                                 <source> This manuscript is currently being catalogued. Last updated
-                                    on <date when="2019-03-31"/> by <name type="person"
-                                        key="KivYav001">N. Kıvılcım Yavuz</name>. </source>
+                                    on <date when="2019-03-31"/> by <name type="person" key="KivYav001">N. Kıvılcım Yavuz</name>. </source>
                             </recordHist>
                         </adminInfo>
                         <listBibl>
                             <bibl> Kålund <ref type="secondary-1" target="KKKat"/>
-                                <biblScope type="volume">II</biblScope>
-                                <biblScope type="pages">217</biblScope>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">217</biblScope>
                             </bibl>
                             <bibl>Lerche Catalogue<ref type="secondary-2" target="CPLKat"/>
-                                <biblScope type="pages">164-167</biblScope></bibl>
+                                <biblScope unit="pages">164-167</biblScope></bibl>
                             <bibl> Gigas <ref type="secondary-3" target="EmiGig1909"/></bibl>
                             <bibl>Ilsøe <ref type="secondary-4" target="HarIls1999"/>
-                                <biblScope type="volume">I</biblScope>
-                                <biblScope type="pages">360-364</biblScope></bibl>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">360-364</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

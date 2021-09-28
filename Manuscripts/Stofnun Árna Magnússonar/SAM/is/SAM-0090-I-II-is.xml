@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,9 +14,9 @@
                     <msIdentifier>
                         <country key="IS">Ísland</country>
                         <settlement>Reykjavík</settlement>
-                        <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                        <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                         <repository>Handritasvið</repository>
-                        <collection>Safn Stofnunar Árna Magnússonar á Íslandi</collection>
+                        <collection key="SAM">Safn Stofnunar Árna Magnússonar á Íslandi</collection>
                         <idno>SÁM 90 I-II</idno>
                     </msIdentifier>
                     <msContents>
@@ -71,8 +71,7 @@
 
                         </bindingDesc>
 
-                        <accMat>Afhendingarlisti Kvæðamannafélagsins Iðunnar, dagsettur <date
-                                when="2008-09-15">15. september 2008</date>. Meðfylgjandi er miði
+                        <accMat>Afhendingarlisti Kvæðamannafélagsins Iðunnar, dagsettur <date when="2008-09-15">15. september 2008</date>. Meðfylgjandi er miði
                             með númeri handrits á afhendingarlista.</accMat>
                     </physDesc>
                     <history>
@@ -98,8 +97,7 @@
                             <recordHist>
                                 <source>
                                     <p>
-                                        <name type="person" key="ValHil001">VH</name> skráði í <date
-                                            from="2010-08" to="2010-08">ágúst 2010.</date>
+                                        <name type="person" key="ValHil001">VH</name> skráði í <date from="2010-08" to="2010-08">ágúst 2010.</date>
                                     </p>
                                 </source>
                             </recordHist>
@@ -108,9 +106,9 @@
                     </additional>
 
                     <msPart>
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>SÁM 90-I.</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents xml:lang="is">
                             <textLang mainLang="IS">Íslenska</textLang>
                             <titlePage type="ms">
@@ -132,13 +130,10 @@
                                     svikara</title>
                                 <incipit type="upphaf">Valur herjans fl …</incipit>
                                 <explicit>… Óðinn knúðan síðast leið í stóð. Endir.</explicit>
-                                <note>Tíu rímur.<p>Í Rímnatali eru rímurnar sagðar ortar af <name
-                                            type="person">Guðbrandi Einarssyni</name>. Þar eru
+                                <note>Tíu rímur.<p>Í Rímnatali eru rímurnar sagðar ortar af <name type="person">Guðbrandi Einarssyni</name>. Þar eru
                                         tilgreind þrjú handrit sem varðveita rímurnar en sagt að
                                         mansöngva vanti. Hér eru rímurnar með mansöngvum. Hndr.:
-                                            <ref target="Lbs08-1789" type="ms">Lbs. 1789</ref>, <ref
-                                            type="ms" target="ÍB08-0149">ÍB 149</ref> brot, <ref
-                                            target="ÍB08-0294" type="ms">ÍB 294 8vo</ref> (sjá
+                                            <ref target="Lbs08-1789" type="ms">Lbs. 1789</ref>, <ref type="ms" target="ÍB08-0149">ÍB 149</ref> brot, <ref target="ÍB08-0294" type="ms">ÍB 294 8vo</ref> (sjá
                                             <ref>Rímnatal 1966: 317</ref>). </p></note>
                             </msItem>
 
@@ -179,8 +174,7 @@
                                         <p>
                                             <list>
                                                 <item>Eindálka.</item>
-                                                <item>Leturflötur er ca <dimensions type="written"
-                                                  unit="mm">
+                                                <item>Leturflötur er ca <dimensions type="written" unit="mm">
                                                   <height>138-145</height>
                                                   <width>90</width>
                                                   </dimensions>.</item>
@@ -194,8 +188,7 @@
                             <handDesc hands="2">
                                 <handNote scope="major" script=" kurrent humcursiva">Sennilega með
                                     hendi <name type="person">Jónasar Jónssonar</name> (sbr. blöð
-                                        <locus from="30r" to="30r">30r</locus> og <locus from="48v"
-                                        to="48v">48v</locus>). </handNote>
+                                        <locus from="30r" to="30r">30r</locus> og <locus from="48v" to="48v">48v</locus>). </handNote>
                             </handDesc>
                             <decoDesc>
                                 <decoNote type="secondary" subtype="display-script"> Fyrirsagnir og
@@ -235,9 +228,9 @@
                         </history>
                     </msPart>
                     <msPart>
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>SAM 90 II </idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents xml:lang="is">
                             <textLang mainLang="IS">Íslenska</textLang>
                             <!--  
@@ -339,8 +332,7 @@
                                     <condition>
                                         <p>
                                             <list>
-                                                <item>Band þarfnast lagfæringar; blöð <locus
-                                                  from="84r" to="85v">84 og 85</locus> eru
+                                                <item>Band þarfnast lagfæringar; blöð <locus from="84r" to="85v">84 og 85</locus> eru
                                                   laus úr bandinu.</item>
 
                                             </list>
@@ -352,8 +344,7 @@
                                         <p>
                                             <list>
                                                 <item>Eindálka.</item>
-                                                <item>Leturflötur er <dimensions type="written"
-                                                  unit="mm">
+                                                <item>Leturflötur er <dimensions type="written" unit="mm">
                                                   <height>140</height>
                                                   <width>85-90</width>
                                                   </dimensions>.</item>
@@ -372,15 +363,13 @@
 
                             <decoDesc>
                                 <decoNote type="paratext" subtype="title-page"> Titilsíður eru með
-                                    uppfylltum stöfum og á þeirri fyrri (sjá <locus from="1r"
-                                        to="1r">1r</locus>) er lítilsháttar flúr í kringum
+                                    uppfylltum stöfum og á þeirri fyrri (sjá <locus from="1r" to="1r">1r</locus>) er lítilsháttar flúr í kringum
                                 stafi.</decoNote>
                             </decoDesc>
                             <additions>
                                 <p>
                                     <list>
-                                        <item>Stimpill <q>H. Steinmanns</q> (sjá blað <locus
-                                                from="49r" to="49r">49r</locus>).</item>
+                                        <item>Stimpill <q>H. Steinmanns</q> (sjá blað <locus from="49r" to="49r">49r</locus>).</item>
                                         <item>Ritað er með bláu <q>no. 33.</q></item>
                                     </list>
                                 </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,7 +14,9 @@
                <msIdentifier>
                   <country>Denmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="Acc"/>
                   <idno>Acc. 37 b</idno>
                </msIdentifier>
                <msContents>
@@ -42,12 +44,9 @@
                         Germany, Switzerland, France, Tunisia and Holland</origPlace> in the period
                         <origDate from="1883" to="1919">1883-1919</origDate>.</origin>
                   <provenance><p> Until <date when="2019">2019</date> the collection of Kålund's
-                        letters in <ref target="#Acc-0037-a-en">Acc. 37 a</ref>, <ref
-                           target="#Acc-0037-b-en">Acc. 37 b</ref> and <ref target="#Acc-0037-c-en"
-                           >Acc. 37 c</ref> was catalogued as Acc. 37 and this is how it appears in
+                        letters in <ref target="#Acc-0037-a-en">Acc. 37 a</ref>, <ref target="#Acc-0037-b-en">Acc. 37 b</ref> and <ref target="#Acc-0037-c-en">Acc. 37 c</ref> was catalogued as Acc. 37 and this is how it appears in
                            <name type="person" key="AgnLot001">Agnete Loth's</name> unpublished
-                        catalogue. The foliation in pencil is associated with <name type="person"
-                           key="AgnLot001">Agnete Loth's</name> cataloguing, but it is uncertain
+                        catalogue. The foliation in pencil is associated with <name type="person" key="AgnLot001">Agnete Loth's</name> cataloguing, but it is uncertain
                         whether the division of the collection into five parts is also done by her.
                      </p></provenance>
                   <acquisition><p>From <name type="person" key="KriKaa001">Kålund's</name>
@@ -57,8 +56,7 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Catalogued in <date when="2019-01">January 2019</date> by <name
-                              type="person" key="KatKap001">Katarzyna Anna Kapitan</name>.</source>
+                        <source>Catalogued in <date when="2019-01">January 2019</date> by <name type="person" key="KatKap001">Katarzyna Anna Kapitan</name>.</source>
                      </recordHist>
                   </adminInfo>
                   <surrogates>
@@ -71,16 +69,15 @@
                   </surrogates>
                </additional>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>Acc. 37 b I</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem class="sendbr" n="1">
                         <locus from="1r" to="5r">1r-1v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="no"/>
-                        <note>A letter written in <name type="place">Chicago</name>, <date
-                              when="1892-02-02"/></note>
+                        <note>A letter written in <name type="place">Chicago</name>, <date when="1892-02-02"/></note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -204,9 +201,7 @@
                         <locus from="17r" to="18r">17r-18r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A letter written in <q><name type="place" key="GotSwe01"
-                                    >G<ex>öte</ex>b<ex>or</ex>g</name></q>, <date when="1906-03-02"
-                           />.</note>
+                        <note>A letter written in <q><name type="place" key="GotSwe01">G<ex>öte</ex>b<ex>or</ex>g</name></q>, <date when="1906-03-02"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -254,8 +249,7 @@
                         <textLang mainLang="da"/>
                         <note>A letter written in <name type="place" key="FloIta01">Florence</name>
                            on <date when="1914-01-31"/>. The letter is addressed to <q>Dahlerup</q>,
-                           most likely Verner Dahlerup (<date from="1859" to="1938"
-                           >1859-1938</date>).</note>
+                           most likely Verner Dahlerup (<date from="1859" to="1938">1859-1938</date>).</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="VerDah001">Verner Dahlerup</name>
@@ -327,8 +321,7 @@
                         <locus from="29r" to="30r">29r-30r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="en"/>
-                        <note>A letter written in <name type="place">Urbana</name>, <date
-                              when="1915-09-22"/> on the official paper of <q>University of
+                        <note>A letter written in <name type="place">Urbana</name>, <date when="1915-09-22"/> on the official paper of <q>University of
                               Illinois</q>
                         </note>
                         <respStmt>
@@ -344,8 +337,7 @@
                         <locus from="31r" to="31v">31r-31v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="de"/>
-                        <note>A letter written in <name type="place">Erlangen</name>, <date
-                              when="1909-01-10"/>. </note>
+                        <note>A letter written in <name type="place">Erlangen</name>, <date when="1909-01-10"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -373,8 +365,7 @@
                         <locus from="34r" to="34r">34r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="de"/>
-                        <note>A letter written in <name type="place">Erlangen</name>, <date
-                              when="1910-11-08"/>. </note>
+                        <note>A letter written in <name type="place">Erlangen</name>, <date when="1910-11-08"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -388,8 +379,7 @@
                         <locus from="35r" to="35r">35r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="de"/>
-                        <note>A letter written in <name type="place">Erlangen</name>, <date
-                              when="1911-11-03"/>. </note>
+                        <note>A letter written in <name type="place">Erlangen</name>, <date when="1911-11-03"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -403,8 +393,7 @@
                         <locus from="36r" to="36v">36r-36v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="de"/>
-                        <note>A letter written in <name type="place">Nürnberg</name>, <date
-                              when="1913-11-21"/>.</note>
+                        <note>A letter written in <name type="place">Nürnberg</name>, <date when="1913-11-21"/>.</note>
                         <!-- Corrected from 'Numberg' to 'Nürnberg' -->
                         <respStmt>
                            <resp key="rcp"/>
@@ -419,8 +408,7 @@
                         <locus from="37r" to="37v">37r-37v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="de"/>
-                        <note>A letter written in <name type="place">Erlangen</name>, <date
-                              when="1911-03-10"/>. </note>
+                        <note>A letter written in <name type="place">Erlangen</name>, <date when="1911-03-10"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -434,8 +422,7 @@
                         <locus from="38r" to="38v">38r-38v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="de"/>
-                        <note>A letter written in <name type="place" key="Kiel01">Kiel</name>, <date
-                              when="1902-12-09"/>, on the official paper of <q>Königl. Universität
+                        <note>A letter written in <name type="place" key="Kiel01">Kiel</name>, <date when="1902-12-09"/>, on the official paper of <q>Königl. Universität
                               Kiel.</q>. </note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -474,8 +461,7 @@
                         <locus from="42r" to="43v">42r-43v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="da"/>
-                        <note>Two letters written in <name type="place">Lyderslev</name>, <date
-                              when="1887-04-25"/> and <date when="1887-04-26"/>. </note>
+                        <note>Two letters written in <name type="place">Lyderslev</name>, <date when="1887-04-25"/> and <date when="1887-04-26"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -509,8 +495,7 @@
                         <locus from="49r" to="49v">49r-49v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="de"/>
-                        <note>A letter written in <name type="place">Torgau</name>, <date
-                              when="1909-05-14"/>.</note>
+                        <note>A letter written in <name type="place">Torgau</name>, <date when="1909-05-14"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -532,13 +517,11 @@
                         <msItem n="32.1" class="sendbr">
                            <locus from="50r" to="51v">50r-51v</locus>
                            <title type="supplied">Letter</title>
-                           <note>Written in <name type="place">Heidelberg</name> on <date
-                                 when="1908-12-05"/>.</note>
+                           <note>Written in <name type="place">Heidelberg</name> on <date when="1908-12-05"/>.</note>
                         </msItem>
                         <msItem n="32.2" class="sendbr">
                            <locus from="52r" to="53r">52r-53r</locus>
-                           <author>Johannes Hoops (<date from="1865" to="1949"
-                              >1865-1949</date></author>
+                           <author>Johannes Hoops (<date from="1865" to="1949">1865-1949</date></author>
                            <title>A copy of a printed article</title>
                            <note>from <title>Reallexikon der germanischen
                               Altertumskunde</title>.</note>
@@ -775,8 +758,7 @@
                         <locus from="85r" to="85v">85r-85v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A note written in <name type="place" key="Lund01">Lund</name> on <date
-                              when="1917-09-04"/>. </note>
+                        <note>A note written in <name type="place" key="Lund01">Lund</name> on <date when="1917-09-04"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -822,8 +804,7 @@
                         <locus from="89v" to="90r">89v-90r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A letter written in <name type="place">Djursholm</name> on <date
-                              when="1910-01-04"/>. </note>
+                        <note>A letter written in <name type="place">Djursholm</name> on <date when="1910-01-04"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -871,8 +852,7 @@
                         <locus from="97r" to="99r">97r-99r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="it"/>
-                        <note>A letter written in <name type="place">Lucca</name> on <date
-                              when="1914-06-29"/>. </note>
+                        <note>A letter written in <name type="place">Lucca</name> on <date when="1914-06-29"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -906,8 +886,7 @@
                         <locus from="105r" to="107r">105r-107r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="da"/>
-                        <note>A note written in <name type="place">Viborg</name> on <date
-                              when="1886-08-22"/>. </note>
+                        <note>A note written in <name type="place">Viborg</name> on <date when="1886-08-22"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1047,8 +1026,7 @@
                         <locus from="122r" to="123v">122r-123v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A letter written in <name type="place">Halle a/S</name> on <date
-                              when="1888-07-24"/>. </note>
+                        <note>A letter written in <name type="place">Halle a/S</name> on <date when="1888-07-24"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1128,8 +1106,7 @@
                         <locus from="132r" to="133v">132r-133v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="de"/>
-                        <note>A draft of a letter written in <name type="place" key="Københ01"
-                              >Copenhagen</name> on <date when="1915-01-06"/>.</note>
+                        <note>A draft of a letter written in <name type="place" key="Københ01">Copenhagen</name> on <date when="1915-01-06"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person">Gustav Schnürer (1860–1941)</name>
@@ -1157,8 +1134,7 @@
                         <locus from="136r" to="136v">136r-136v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="de"/>
-                        <note>A note written in <name type="place">Freiburg</name>, <country
-                              key="CH">Switzerland</country> on <date when="1915-04-04"/>.</note>
+                        <note>A note written in <name type="place">Freiburg</name>, <country key="CH">Switzerland</country> on <date when="1915-04-04"/>.</note>
                         <!-- code made according to "FreGer01" for Freiburg im Breisgau in <names> -->
                         <respStmt>
                            <resp key="rcp"/>
@@ -1173,8 +1149,7 @@
                         <locus from="137r" to="138v">137r-138v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="de"/>
-                        <note>A letter written in Freiburg, Switzerland on <date when="1915-02-15"
-                           />.</note>
+                        <note>A letter written in Freiburg, Switzerland on <date when="1915-02-15"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1219,8 +1194,7 @@
                         <title type="supplied">Letter</title>
                         <textLang mainLang="en"/>
                         <note>A letter written in <name type="place" key="Paris01">Paris</name>,
-                              <country key="FR">France</country> in <date when="1915" cert="medium"
-                              >1915</date> [?].</note>
+                              <country key="FR">France</country> in <date when="1915" cert="medium">1915</date> [?].</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1263,8 +1237,7 @@
                         <locus from="148r" to="149v">148r-149v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="da"/>
-                        <note>A letter written in <name type="place">Nakskov</name> on <date
-                              when="1900-07-19"/> written on the offical paper of <q>Laalands
+                        <note>A letter written in <name type="place">Nakskov</name> on <date when="1900-07-19"/> written on the offical paper of <q>Laalands
                               NørreHerreds Kontos. Nakskov</q>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -1279,8 +1252,7 @@
                         <locus from="150r" to="150r">150r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="da"/>
-                        <note>A letter written in <name type="place">Halleruplund</name> on <date
-                              when="1907-06-29"/>.</note>
+                        <note>A letter written in <name type="place">Halleruplund</name> on <date when="1907-06-29"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1447,8 +1419,7 @@
                         <locus from="174r" to="174r">174r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="da"/>
-                        <note>A letter written in <name type="place"
-                              >Klampenborg</name> on <date when="1917-08-31"/>.</note>
+                        <note>A letter written in <name type="place">Klampenborg</name> on <date when="1917-08-31"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1472,16 +1443,15 @@
                   </physDesc>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>Acc. 37 b II</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem class="sendbr" n="98">
                         <locus from="175r" to="175v">175r-175v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandg. 64, <name type="place"
-                                 key="Stock01">Sthlm</name> Va.</q> on <date when="1917-01-22"/>. </note>
+                        <note>A typewritten letter written in <q>Upplandg. 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1917-01-22"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1523,8 +1493,7 @@
                         <locus from="178r" to="178r">178r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandg. 64, Stockholm Va.</q> on <date when="1916-12-21"
-                           />. </note>
+                        <note>A typewritten letter written in <q>Upplandg. 64, Stockholm Va.</q> on <date when="1916-12-21"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1587,8 +1556,7 @@
                         <locus from="183r" to="183v">183r-183v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandg. 64, <name type="place"
-                                 key="Stock01">Sthlm</name> Va.</q> on <date when="1916-10-10"/>. </note>
+                        <note>A typewritten letter written in <q>Upplandg. 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1916-10-10"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1623,8 +1591,7 @@
                         <locus from="186r" to="186v">186r-186v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>An undated typewritten letter. Kålund added the date <date
-                              when="1916-05-01"/> in the upper corner. </note>
+                        <note>An undated typewritten letter. Kålund added the date <date when="1916-05-01"/> in the upper corner. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1666,9 +1633,7 @@
                         <locus from="189r" to="189v">189r-189v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1916-05-01"/>. </note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1916-05-01"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1696,8 +1661,7 @@
                         <locus from="191r" to="191r">191r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsg. 64, <name type="place"
-                                 key="Stock01">Sthlm</name> Va.</q> on <date when="1916-05-30"/>. </note>
+                        <note>A typewritten letter written in <q>Upplandsg. 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1916-05-30"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1725,9 +1689,7 @@
                         <locus from="193r" to="195r">193r-195r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1916-02-20"/>, kept together with additional suggestions on f.
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1916-02-20"/>, kept together with additional suggestions on f.
                               <locus from="195r" to="195r">195r</locus>. </note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -1784,8 +1746,7 @@
                         <locus from="200r" to="200v">200r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q><name type="place" key="Stock01"
-                                 >Stockholm</name></q> on <date when="1916-01-17"/></note>
+                        <note>A typewritten letter written in <q><name type="place" key="Stock01">Stockholm</name></q> on <date when="1916-01-17"/></note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1799,8 +1760,7 @@
                         <locus from="201r" to="201v">201r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="da"/>
-                        <note>An undated draft of a letter, which must postdate a letter from <date
-                              when="1916-01-17"/>, which is mentioned in this letter. </note>
+                        <note>An undated draft of a letter, which must postdate a letter from <date when="1916-01-17"/>, which is mentioned in this letter. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="NatBec001">Natanael Beckman</name>
@@ -1849,8 +1809,7 @@
                         <locus from="205r" to="205r">205r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsg. 64</q> on <date
-                              when="1915-10-17"/></note>
+                        <note>A typewritten letter written in <q>Upplandsg. 64</q> on <date when="1915-10-17"/></note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1892,9 +1851,7 @@
                         <locus from="208r" to="208v">208r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsg. 24 [sic], <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1915-10-05"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsg. 24 [sic], <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1915-10-05"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1908,9 +1865,7 @@
                         <locus from="209r" to="209v">209r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsg. 64, <name type="place"
-                                 key="Stock01">Sthlm</name> Va.</q> on <date when="1915-10-21"
-                           />.</note>
+                        <note>A typewritten letter written in <q>Upplandsg. 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1915-10-21"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1924,8 +1879,7 @@
                         <locus from="210r" to="210v">210r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp dated to <date when="1915-11-20"
-                           />.</note>
+                        <note>A typewritten note with a stamp dated to <date when="1915-11-20"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1953,9 +1907,7 @@
                         <locus from="212r" to="212v">212r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsg. 64, <name type="place"
-                                 key="Stock01">Sthlm</name> Va.</q> on <date when="1915-11-24"
-                           />.</note>
+                        <note>A typewritten letter written in <q>Upplandsg. 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1915-11-24"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1984,8 +1936,7 @@
                         <locus from="214r" to="214v">214r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a stamp dated to <date when="1915-10-18"
-                           />.</note>
+                        <note>A handwritten note with a stamp dated to <date when="1915-10-18"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -1999,9 +1950,7 @@
                         <locus from="215r" to="215r">215r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1915-10-22"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1915-10-22"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2029,8 +1978,7 @@
                         <locus from="217r" to="217v">217r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q><name type="place" key="Stock01"
-                                 >Stockholm</name></q> on <date when="1915-12-27"/>.</note>
+                        <note>A typewritten letter written in <q><name type="place" key="Stock01">Stockholm</name></q> on <date when="1915-12-27"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2044,9 +1992,7 @@
                         <locus from="218r" to="218r">218r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stkhlm</name> Va.</q> on <date
-                              when="1915-12-27"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stkhlm</name> Va.</q> on <date when="1915-12-27"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="FinJon002">Finnur Jónsson</name>
@@ -2060,9 +2006,7 @@
                         <locus from="219r" to="219v">219r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1915-10-04"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1915-10-04"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2104,9 +2048,7 @@
                         <locus from="223r" to="223r">223r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsg. 64, <name type="place"
-                                 key="Stock01">Stkhlm</name> Va.</q> on <date when="1915-09-21"
-                           />.</note>
+                        <note>A typewritten letter written in <q>Upplandsg. 64, <name type="place" key="Stock01">Stkhlm</name> Va.</q> on <date when="1915-09-21"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2120,8 +2062,7 @@
                         <locus from="224r" to="224v">224r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q><name type="place" key="Stock01"
-                                 >Stockholm</name></q> on <date when="1915-09-10"/>.</note>
+                        <note>A typewritten letter written in <q><name type="place" key="Stock01">Stockholm</name></q> on <date when="1915-09-10"/>.</note>
                         <!-- is this really with two k's? original text 'Stockkholm'-->
                         <respStmt>
                            <resp key="rcp"/>
@@ -2142,8 +2083,7 @@
                         <locus from="226r" to="226v">226r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with an unclear stamp from <date when="1915-09-01"
-                           />.</note>
+                        <note>A handwritten note with an unclear stamp from <date when="1915-09-01"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2171,8 +2111,7 @@
                         <locus from="228r" to="228r">228r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q><name type="place"
-                              >Alvastra</name></q> on <date when="1915-08-13"/>.</note>
+                        <note>A typewritten letter written in <q><name type="place">Alvastra</name></q> on <date when="1915-08-13"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2200,8 +2139,7 @@
                         <locus from="230r" to="230r">230r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Alvastra</q> on <date
-                              when="1915-08-08"/>.</note>
+                        <note>A typewritten letter written in <q>Alvastra</q> on <date when="1915-08-08"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2215,8 +2153,7 @@
                         <locus from="231r" to="231r">231r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Alvastra</q> on <date
-                              when="1915-08-04"/>.</note>
+                        <note>A typewritten letter written in <q>Alvastra</q> on <date when="1915-08-04"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2245,8 +2182,7 @@
                         <locus from="233r" to="233v">233r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 >Hedaslatt</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place">Hedaslatt</name></q>
                            <date when="1915-08-03"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -2261,8 +2197,7 @@
                         <locus from="234r" to="234v">234r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a stamp from <q><name type="place"
-                                 >Vadstena</name></q>
+                        <note>A handwritten note with a stamp from <q><name type="place">Vadstena</name></q>
                            <date when="1915-08-06"/>. On the verso of the postcard there is a
                            photograph of Vadstena castle.</note>
                         <respStmt>
@@ -2321,8 +2256,7 @@
                         <locus from="239r" to="239v">239r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A handwritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1915-07-08"/>. On the verso there is a photograph of a summer
                            cabin.</note>
                         <respStmt>
@@ -2338,8 +2272,7 @@
                         <locus from="240r" to="240v">240r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A handwritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1915-07-10"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -2403,8 +2336,7 @@
                         <locus from="245r" to="245v">245r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note written in <q>Alvastra</q> on <date
-                              when="1915-07-01"/> with a stamp from <q>Hedaslatt</q>
+                        <note>A typewritten note written in <q>Alvastra</q> on <date when="1915-07-01"/> with a stamp from <q>Hedaslatt</q>
                            <date when="1915-07-01"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -2424,8 +2356,7 @@
                         <locus from="247r" to="247v">247r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1914-10-21"/>. On the verso a photograph of a lake is
                            found.</note>
                         <respStmt>
@@ -2470,8 +2401,7 @@
                         <locus from="250r" to="250v">250r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1915-06-04"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -2486,8 +2416,7 @@
                         <locus from="251r" to="251v">251r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A handwritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1915-06-07">[7].06.1915</date>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -2578,9 +2507,7 @@
                         <locus from="260r" to="260r">260r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm.</name> Va. </q> on <date
-                              when="1915-05-25"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm.</name> Va. </q> on <date when="1915-05-25"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2594,9 +2521,7 @@
                         <locus from="261r" to="261v">261r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm.</name> Va. </q> on <date
-                              when="1915-05-19"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm.</name> Va. </q> on <date when="1915-05-19"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2610,8 +2535,7 @@
                         <locus from="262r" to="263r">262r-263r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten letter written in <name type="place" key="Stock01"
-                              >Stockholm</name> on <date when="1914-05-28"/>.</note>
+                        <note>A handwritten letter written in <name type="place" key="Stock01">Stockholm</name> on <date when="1914-05-28"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2625,8 +2549,7 @@
                         <locus from="264r" to="264v">264r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten letter written in <name type="place" key="Stock01"
-                              >Stockholm</name> on <date when="1915-05-15"/>.</note>
+                        <note>A handwritten letter written in <name type="place" key="Stock01">Stockholm</name> on <date when="1915-05-15"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2640,8 +2563,7 @@
                         <locus from="265r" to="265v">265r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A handwritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1915-05-16"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -2663,9 +2585,7 @@
                         <locus from="268r" to="269r">268r-269v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1915-05-14"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1915-05-14"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2679,8 +2599,7 @@
                         <locus from="270r" to="270v">270r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1915-05-10"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -2723,8 +2642,7 @@
                         <locus from="273r" to="273r">273r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten letter written in <name type="place" key="Stock01"
-                              >Stockholm</name> on <date when="1915-05-11"/>.</note>
+                        <note>A handwritten letter written in <name type="place" key="Stock01">Stockholm</name> on <date when="1915-05-11"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2738,9 +2656,7 @@
                         <locus from="274r" to="274r">274r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1915-05-08"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1915-05-08"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2754,8 +2670,7 @@
                         <locus from="275r" to="275r">275r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten letter written in <name type="place" key="Oslo01"
-                              >Kristiania</name> on <date when="1915-04-26"/>. It is written on the
+                        <note>A handwritten letter written in <name type="place" key="Oslo01">Kristiania</name> on <date when="1915-04-26"/>. It is written on the
                            offical paper of Hotel Augustin, Toldbodgaten 24 with the image of the
                            hotel in the upper left corner.</note>
                         <respStmt>
@@ -2771,8 +2686,7 @@
                         <locus from="276r" to="276v">276r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a partially illegible stamp <q><name
-                                 type="place" key="Oslo01">Kristiania</name></q>
+                        <note>A handwritten note with a partially illegible stamp <q><name type="place" key="Oslo01">Kristiania</name></q>
                            <date when="1915-04-27"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -2801,9 +2715,7 @@
                         <locus from="278r" to="278v">278r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1915-03-30"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1915-03-30"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2832,8 +2744,7 @@
                         <locus from="280r" to="280v">280r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1915-04-09"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -2876,9 +2787,7 @@
                         <locus from="283r" to="283v">283r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten letter written in <name type="place" key="Stock01"
-                              >Stockholm</name> on <date when="1915-04-13"
-                           >1[3].04.1915</date>.</note>
+                        <note>A handwritten letter written in <name type="place" key="Stock01">Stockholm</name> on <date when="1915-04-13">1[3].04.1915</date>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2892,8 +2801,7 @@
                         <locus from="284r" to="284v">284r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1915-04-21"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -2908,8 +2816,7 @@
                         <locus from="285r" to="285v">285r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1915-04-22"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -2929,9 +2836,7 @@
                         <locus from="292r" to="292r">292r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsg. 64, <name type="place"
-                                 key="Stock01">Stockholm</name> Va.</q> on <date when="1915-03-04"
-                           />.</note>
+                        <note>A typewritten letter written in <q>Upplandsg. 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1915-03-04"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2950,9 +2855,7 @@
                         <locus from="294r" to="294v">294r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsg. 64, <name type="place"
-                                 key="Stock01">Sthlm</name> Va</q> on <date when="1915-03-07"
-                           />.</note>
+                        <note>A typewritten letter written in <q>Upplandsg. 64, <name type="place" key="Stock01">Sthlm</name> Va</q> on <date when="1915-03-07"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2966,9 +2869,7 @@
                         <locus from="295r" to="295v">295r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1915-02-23"/>, with some handwritten notes.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1915-02-23"/>, with some handwritten notes.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -2987,8 +2888,7 @@
                         <locus from="299r" to="299v">299r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1915-01-30"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -3003,8 +2903,7 @@
                         <locus from="300r" to="300v">300r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1915-03-11"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -3019,8 +2918,7 @@
                         <locus from="301r" to="301r">301r</locus>
                         <title type="supplied">Note</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note written by <name type="person" key="NatBec001"
-                              >Natanael Beckman</name>.</note>
+                        <note>A typewritten note written by <name type="person" key="NatBec001">Natanael Beckman</name>.</note>
                      </msItem>
 
                      <msItem class="alf notes" n="208">
@@ -3036,9 +2934,7 @@
                         <locus from="304r" to="304v">304r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-12-18"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-12-18"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3052,8 +2948,7 @@
                         <locus from="305r" to="305r">305r</locus>
                         <title type="supplied">Note</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with handwritten comments written by <name
-                              type="person" key="NatBec001">Natanael Beckman</name>.</note>
+                        <note>A typewritten note with handwritten comments written by <name type="person" key="NatBec001">Natanael Beckman</name>.</note>
                      </msItem>
                      <msItem class="sendbr" n="211">
                         <locus from="306r" to="306r">306r</locus>
@@ -3073,8 +2968,7 @@
                         <locus from="307r" to="308r">307r-308r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="da"/>
-                        <note>A handwritten letter, written in <name type="place" key="Københ01"
-                              >Copenhagen</name> on <date when="1915-01-12"/>.</note>
+                        <note>A handwritten letter, written in <name type="place" key="Københ01">Copenhagen</name> on <date when="1915-01-12"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3088,8 +2982,7 @@
                         <locus from="309r" to="310r">309r-310r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="da"/>
-                        <note>A handwritten letter, written in <name type="place" key="Københ01"
-                              >Copenhagen</name> on <date when="1915-01-20"/>.</note>
+                        <note>A handwritten letter, written in <name type="place" key="Københ01">Copenhagen</name> on <date when="1915-01-20"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="NatBec001">Natanael Beckman</name>
@@ -3103,9 +2996,7 @@
                         <locus from="311r" to="311v">311r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1915-01-19"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1915-01-19"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3126,9 +3017,7 @@
                         <locus from="313r" to="313v">313r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1915-01-23"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1915-01-23"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3180,9 +3069,7 @@
                         <locus from="317r" to="317r">317r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1915-01-28"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1915-01-28"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3196,8 +3083,7 @@
                         <locus from="318r" to="318v">300r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A handwritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1915-03-11"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -3227,9 +3113,7 @@
                         <locus from="320r" to="320v">320r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-12-10"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-12-10"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3243,8 +3127,7 @@
                         <locus from="321r" to="321v">321r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1914-12-15"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -3273,9 +3156,7 @@
                         <locus from="323r" to="323r">323r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-11-13"/>. </note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-11-13"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3304,9 +3185,7 @@
                         <locus from="325r" to="326r">325r-326r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-11-24"/>. </note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-11-24"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3335,9 +3214,7 @@
                         <locus from="329r" to="329v">329r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-11-30"/>. </note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-11-30"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3373,9 +3250,7 @@
                         <locus from="332r" to="332v">332r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1914-12-04"/>. </note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1914-12-04"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3389,8 +3264,7 @@
                         <locus from="333r" to="333v">333r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A handwritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1914-12-04"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -3435,8 +3309,7 @@
                         <locus from="336r" to="339r">336r-339r</locus>
                         <textLang mainLang="sv"/>
                         <title type="supplied">Notes</title>
-                        <note>Typewritten notes written by <name type="person" key="NatBec001"
-                              >Natanael Beckman</name>.</note>
+                        <note>Typewritten notes written by <name type="person" key="NatBec001">Natanael Beckman</name>.</note>
                      </msItem>
                      <msItem class="notes" n="238">
                         <locus from="340r" to="341v">340r-341v</locus>
@@ -3502,8 +3375,7 @@
                         <locus from="349r" to="349v">349r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q><name type="place" key="Stock01"
-                                 >Stockholm</name> Va.</q> on <date when="1914-09-15"/>. </note>
+                        <note>A typewritten letter written in <q><name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1914-09-15"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3568,9 +3440,7 @@
                         <locus from="355r" to="355v">355r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-09-20"/>. </note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-09-20"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3584,8 +3454,7 @@
                         <locus from="356r" to="356v">356r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1914-09-14"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -3600,8 +3469,7 @@
                         <locus from="357r" to="357v">357r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1914-09-26"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -3616,8 +3484,7 @@
                         <locus from="358r" to="358v">358r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1914-10-01"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -3632,8 +3499,7 @@
                         <locus from="359r" to="359v">359r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1914-10-03"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -3669,9 +3535,7 @@
                         <locus from="365r" to="365v">365r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-09-24"/>. </note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-09-24"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3685,9 +3549,7 @@
                         <locus from="366r" to="366v">366r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-10-03"/>. </note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-10-03"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3701,8 +3563,7 @@
                         <locus from="367r" to="367r">367r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten letter written in <q>Uplg. 64, <name type="place"
-                                 key="Stock01">Sthlm</name>
+                        <note>A handwritten letter written in <q>Uplg. 64, <name type="place" key="Stock01">Sthlm</name>
                            </q> on <date when="1914-10-04"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -3717,9 +3578,7 @@
                         <locus from="368r" to="368v">368r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-10-16"/>. </note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-10-16"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3733,8 +3592,7 @@
                         <locus from="369r" to="369r">369r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name>
                            </q> on <date when="1914-10-18"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -3749,8 +3607,7 @@
                         <locus from="370r" to="370v">370r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note written with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q> n.d. </note>
+                        <note>A typewritten note written with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q> n.d. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3779,9 +3636,7 @@
                         <locus from="372r" to="372v">372r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-10-23"/>. </note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-10-23"/>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3810,9 +3665,7 @@
                         <locus from="374r" to="374v">374r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-11-02">2.1[1].1914</date>. </note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-11-02">2.1[1].1914</date>. </note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3826,9 +3679,7 @@
                         <locus from="375r" to="375r">375r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-11-04"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-11-04"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3857,8 +3708,7 @@
                         <locus from="377r" to="377r">377r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q><name type="place" key="Stock01"
-                                 >Stockholm</name></q> on <date when="1914-09-08"/>.</note>
+                        <note>A typewritten letter written in <q><name type="place" key="Stock01">Stockholm</name></q> on <date when="1914-09-08"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3872,9 +3722,7 @@
                         <locus from="378r" to="380r">378r-380r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name></q> on <date
-                              when="1914-09-10"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name></q> on <date when="1914-09-10"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3902,9 +3750,7 @@
                         <locus from="383r" to="384r">373r-384r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-08-31"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-08-31"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3918,8 +3764,7 @@
                         <locus from="385r" to="385v">385r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1914-09-02"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -3934,8 +3779,7 @@
                         <locus from="386r" to="386v">386r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1914-09-02"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -3964,8 +3808,7 @@
                         <locus from="388r" to="388r">388r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten undated letter. On the back Kålund wrote the date <date
-                              when="1914-08-31"/> of, most likely, his response.</note>
+                        <note>A typewritten undated letter. On the back Kålund wrote the date <date when="1914-08-31"/> of, most likely, his response.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -3993,8 +3836,7 @@
                         <locus from="390r" to="390v">390r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten letter written in <q><name type="place" key="Stock01"
-                                 >Stockholm</name></q> on <date when="1914-08-22"/>.</note>
+                        <note>A handwritten letter written in <q><name type="place" key="Stock01">Stockholm</name></q> on <date when="1914-08-22"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4008,8 +3850,7 @@
                         <locus from="391r" to="391r">391r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten letter written in <q><name type="place" key="Stock01"
-                                 >Stockholm</name></q> on <date when="1914-08-24"/>.</note>
+                        <note>A handwritten letter written in <q><name type="place" key="Stock01">Stockholm</name></q> on <date when="1914-08-24"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4023,8 +3864,7 @@
                         <locus from="392r" to="392v">392r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q><name type="place" key="Stock01"
-                                 >Stockholm</name></q> on <date when="1914-08-25"/>.</note>
+                        <note>A typewritten letter written in <q><name type="place" key="Stock01">Stockholm</name></q> on <date when="1914-08-25"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4052,8 +3892,7 @@
                         <locus from="394r" to="394v">394r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q><name type="place"
-                              >Leksand</name></q> on <date when="1914-08-15"/>.</note>
+                        <note>A typewritten letter written in <q><name type="place">Leksand</name></q> on <date when="1914-08-15"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4067,8 +3906,7 @@
                         <locus from="395r" to="395v">395r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Leksand</q> on <date
-                              when="1914-08-14"/>.</note>
+                        <note>A typewritten letter written in <q>Leksand</q> on <date when="1914-08-14"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4082,8 +3920,7 @@
                         <locus from="396r" to="396v">396r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten letter written in <q>Leksand</q> on <date
-                              when="1914-08-18"/>.</note>
+                        <note>A handwritten letter written in <q>Leksand</q> on <date when="1914-08-18"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4097,8 +3934,7 @@
                         <locus from="397r" to="397r">397r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten letter written in <q>Leksand</q> on <date
-                              when="1914-08-21"/>.</note>
+                        <note>A handwritten letter written in <q>Leksand</q> on <date when="1914-08-21"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4112,8 +3948,7 @@
                         <locus from="398r" to="399v">398r-399v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="da"/>
-                        <note>A draft of an undated letter. On the back Kålund wrote the date <date
-                              when="1914-08-23"/>.</note>
+                        <note>A draft of an undated letter. On the back Kålund wrote the date <date when="1914-08-23"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="NatBec001">Natanael Beckman</name>
@@ -4127,8 +3962,7 @@
                         <locus from="400r" to="400r">400r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Leksand</q> on <date
-                              when="1914-08-10"/>.</note>
+                        <note>A typewritten letter written in <q>Leksand</q> on <date when="1914-08-10"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4191,8 +4025,7 @@
                         <locus from="406r" to="406r">406r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten letter written in <q>Leksand</q> on <date
-                              when="1914-08-02"/>.</note>
+                        <note>A handwritten letter written in <q>Leksand</q> on <date when="1914-08-02"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4228,8 +4061,7 @@
                         <locus from="410r" to="410v">410r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a stamp from <q><name type="place"
-                                 key="Oslo01">Kristiania</name></q>
+                        <note>A handwritten note with a stamp from <q><name type="place" key="Oslo01">Kristiania</name></q>
                            <date when="1914-07-27"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -4263,8 +4095,7 @@
                         <locus from="420r" to="420r">420r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Leksand</q> on <date
-                              when="1914-07-30"/>.</note>
+                        <note>A typewritten letter written in <q>Leksand</q> on <date when="1914-07-30"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4426,9 +4257,7 @@
                         <locus from="433r" to="433r">433r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-06-04"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-06-04"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4442,9 +4271,7 @@
                         <locus from="434r" to="434v">434r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-06-06"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-06-06"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4472,9 +4299,7 @@
                         <locus from="436r" to="436v">436r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-05-25"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-05-25"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4488,9 +4313,7 @@
                         <locus from="437r" to="437v">437r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-05-28"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-05-28"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4518,8 +4341,7 @@
                         <locus from="439r" to="439r">439r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplg. 64, <name type="place"
-                                 key="Stock01">Sthlm</name>. dag före pingstafton</q> (Whit
+                        <note>A typewritten letter written in <q>Upplg. 64, <name type="place" key="Stock01">Sthlm</name>. dag före pingstafton</q> (Whit
                            Saturday).</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -4561,8 +4383,7 @@
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
                         <note>A typewritten undated letter. In the upper left corner Kålund wrote
-                           the date c. <date when="1914-05-20" cert="medium"
-                           >20.05.1914</date>.</note>
+                           the date c. <date when="1914-05-20" cert="medium">20.05.1914</date>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4576,8 +4397,7 @@
                         <locus from="447r" to="447v">447r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp dated <date when="1914-05-24"
-                           />.</note>
+                        <note>A typewritten note with a stamp dated <date when="1914-05-24"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4605,9 +4425,7 @@
                         <locus from="449r" to="449r">449r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-05-11"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-05-11"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4635,9 +4453,7 @@
                         <locus from="451r" to="451v">451r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1914-05-07"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1914-05-07"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4665,9 +4481,7 @@
                         <locus from="453r" to="453r">453r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1914-05-05"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1914-05-05"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4695,8 +4509,7 @@
                         <locus from="455r" to="455v">455r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1914-05-02"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -4725,8 +4538,7 @@
                         <locus from="457r" to="457v">457r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1914-04-28"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -4769,9 +4581,7 @@
                         <locus from="460r" to="460v">460r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-05-19"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-05-19"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4799,8 +4609,7 @@
                         <locus from="463r" to="463v">463r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1914-04-07"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -4834,8 +4643,7 @@
                         <locus from="467r" to="467v">467r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1914-03-21"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -4849,16 +4657,13 @@
                      <msItem class="notes" n="339">
                         <locus from="468r" to="468r">468r</locus>
                         <textLang mainLang="da"/>
-                        <title type="supplied">Notes in Kålund's hand dated to <date
-                              when="1914-03-25"/>.</title>
+                        <title type="supplied">Notes in Kålund's hand dated to <date when="1914-03-25"/>.</title>
                      </msItem>
                      <msItem class="sendbr" n="340">
                         <locus from="469r" to="470r">469r-470v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1914-03">0.3.1914 (sic!)</date> with an attachment in the form
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1914-03">0.3.1914 (sic!)</date> with an attachment in the form
                            of a table.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -4873,8 +4678,7 @@
                         <locus from="471r" to="471v">471r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1914-03-11"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -4936,9 +4740,7 @@
                         <locus from="476r" to="476r">476r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-02-21"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-02-21"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -4972,9 +4774,7 @@
                         <locus from="480r" to="480v">480r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1914-02-20"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1914-02-20"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5017,9 +4817,7 @@
                         <locus from="483r" to="483r">483r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name></q> on <date
-                              when="1914-01-15"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name></q> on <date when="1914-01-15"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5061,9 +4859,7 @@
                         <locus from="486r" to="486v">486r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1913-12-12"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1913-12-12"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5105,8 +4901,7 @@
                         <locus from="491r" to="491v">471r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A handwritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1913-12-03"/> and <q>Kjøbenhavn</q>
                            <date when="1913-12-04"/>.</note>
                         <respStmt>
@@ -5122,9 +4917,7 @@
                         <locus from="492r" to="492r">492r</locus>
                         <textLang mainLang="da"/>
                         <title type="supplied">Receipt</title>
-                        <note>A postal receipt for the dispatch of a package to <name type="person"
-                              key="NatBec001">Natanael Beckman</name> dated <date when="1913-12"
-                              >[4].12.1913</date>.</note>
+                        <note>A postal receipt for the dispatch of a package to <name type="person" key="NatBec001">Natanael Beckman</name> dated <date when="1913-12">[4].12.1913</date>.</note>
                      </msItem>
                      <msItem class="sendbr" n="361">
                         <locus from="493r" to="493v">493r-v</locus>
@@ -5158,9 +4951,7 @@
                         <locus from="495r" to="495v">495r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1913-11-25"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1913-11-25"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5174,9 +4965,7 @@
                         <locus from="496r" to="496v">496r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1913-11-22"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1913-11-22"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5205,9 +4994,7 @@
                         <locus from="499r" to="499r">499r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name> Va.</q> on <date
-                              when="1913-11-05"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name> Va.</q> on <date when="1913-11-05"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5237,9 +5024,7 @@
                         <locus from="502r" to="502r">502r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Sthlm</name></q> on <date
-                              when="1913-11-02"/>.</note>
+                        <note>A handwritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Sthlm</name></q> on <date when="1913-11-02"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5253,8 +5038,7 @@
                         <locus from="503r" to="503v">503r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1913-11-15"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -5269,9 +5053,7 @@
                         <locus from="504r" to="504r">504r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1913-10-31"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1913-10-31"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5299,9 +5081,7 @@
                         <locus from="506r" to="506v">506r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1913-10-10"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1913-10-10"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5315,9 +5095,7 @@
                         <locus from="507r" to="508r">507r-508r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1913-10-20"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1913-10-20"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5331,8 +5109,7 @@
                         <locus from="509r" to="509v">509r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A handwritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1913-10-21"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -5354,8 +5131,7 @@
                         <title type="supplied">Letter</title>
                         <textLang mainLang="da"/>
                         <note>A draft of a letter written on <date when="1913-10-30"/> kept together
-                           with two narrow slips of paper (fols <locus from="514r" to="515v"
-                              >514-15</locus>) with some notes.</note>
+                           with two narrow slips of paper (fols <locus from="514r" to="515v">514-15</locus>) with some notes.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="NatBec001">Natanael Beckman</name>
@@ -5383,9 +5159,7 @@
                         <locus from="517r" to="517r">517r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1913-09-08"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1913-09-08"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5413,8 +5187,7 @@
                         <locus from="518r" to="518v">518r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1913-10-12"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -5429,9 +5202,7 @@
                         <locus from="519r" to="519v">519r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1913-09-07"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1913-09-07"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5445,8 +5216,7 @@
                         <locus from="520r" to="520v">520r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A handwritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1913-09-15"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -5496,8 +5266,7 @@
                         <locus from="529r" to="529r">529r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Leksand</q> on <date
-                              when="1913-06-27"/>.</note>
+                        <note>A typewritten letter written in <q>Leksand</q> on <date when="1913-06-27"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5528,9 +5297,7 @@
                         <locus from="531r" to="531r">531r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q><name type="place" key="Stock01"
-                                 >Stockholm</name>, Upplandsgatan 64</q> on <date when="1913-06-10"
-                           />.</note>
+                        <note>A typewritten letter written in <q><name type="place" key="Stock01">Stockholm</name>, Upplandsgatan 64</q> on <date when="1913-06-10"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5558,9 +5325,7 @@
                         <locus from="533r" to="533r">533r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1913-06-03"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1913-06-03"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5574,8 +5339,7 @@
                         <locus from="534r" to="534v">534r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1913-06-04"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -5604,9 +5368,7 @@
                         <locus from="537r" to="537r">537r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1913-05-20"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgatan 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1913-05-20"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5620,8 +5382,7 @@
                         <locus from="538r" to="538v">538r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A typewritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1913-03-28">28.[3].1913</date>.</note>
                         <respStmt>
                            <resp key="rcp"/>
@@ -5650,8 +5411,7 @@
                         <locus from="540r" to="540r">540r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q><name type="place" key="Stock01"
-                                 >Stockholm</name></q> on <date when="1913-05-12"/>.</note>
+                        <note>A typewritten letter written in <q><name type="place" key="Stock01">Stockholm</name></q> on <date when="1913-05-12"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5679,9 +5439,7 @@
                         <locus from="542r" to="542r">542r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgaten 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1913-04-17"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgaten 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1913-04-17"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5710,9 +5468,7 @@
                         <locus from="547r" to="548r">547r-548r</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgaten 64, <name
-                                 type="place" key="Stock01">Stockholm</name></q> on <date
-                              when="1913-03-18"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgaten 64, <name type="place" key="Stock01">Stockholm</name></q> on <date when="1913-03-18"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5770,9 +5526,7 @@
                         <locus from="559r" to="559v">559r-v</locus>
                         <title type="supplied">Letter</title>
                         <textLang mainLang="sv"/>
-                        <note>A typewritten letter written in <q>Upplandsgaten 64, <name
-                                 type="place" key="Stock01">Stockholm</name> Va.</q> on <date
-                              when="1912-11-25"/>.</note>
+                        <note>A typewritten letter written in <q>Upplandsgaten 64, <name type="place" key="Stock01">Stockholm</name> Va.</q> on <date when="1912-11-25"/>.</note>
                         <respStmt>
                            <resp key="rcp"/>
                            <name type="person" key="KriKaa001">Kristian Kålund</name>
@@ -5802,8 +5556,7 @@
                         <locus from="561r" to="561v">561r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A handwritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1913-03-27"/>. The postcard has a black and white image of
                            some statue.</note>
                         <respStmt>
@@ -5819,8 +5572,7 @@
                         <locus from="562r" to="562v">562r-v</locus>
                         <title type="supplied">Postcard</title>
                         <textLang mainLang="sv"/>
-                        <note>A handwritten note with a stamp from <q><name type="place"
-                                 key="Stock01">Stockholm</name></q>
+                        <note>A handwritten note with a stamp from <q><name type="place" key="Stock01">Stockholm</name></q>
                            <date when="1913-04-27"/>. The postcard as a very pale sepia photograph
                            of a street in Stockholm.</note>
                         <respStmt>
@@ -5837,8 +5589,7 @@
                         <title type="supplied">Notes</title>
                         <textLang mainLang="da"/>
                         <note>Various notes in <name type="person" key="KriKaa001">Kristian
-                              Kålund</name>'s hand, one of them dated to <date when="1913-03-18"
-                           />.</note>
+                              Kålund</name>'s hand, one of them dated to <date when="1913-03-18"/>.</note>
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -5852,8 +5603,7 @@
                            <p>Some of the leaves have clearly been rearranged, most likely at the
                               time when the foliation was supplied, since some of the leaves bear
                               impression marks of other leaves, which at present are not in their
-                              immediate proximity, e.g. fol. <locus from="506r" to="506r"
-                                 >506r</locus>.</p>
+                              immediate proximity, e.g. fol. <locus from="506r" to="506r">506r</locus>.</p>
                         </binding>
                      </bindingDesc>
                   </physDesc>

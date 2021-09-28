@@ -1,4 +1,4 @@
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,8 +14,9 @@
                     <msIdentifier>
                         <country key="DA">Denmark</country>
                         <settlement>Copenhagen</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
-                        <collection>Accessoria</collection>
+                        <collection key="Acc">Accessoria</collection>
                         <idno>Acc. 53</idno>
                     </msIdentifier>
                     <msContents>
@@ -118,16 +119,12 @@
                         <accMat> </accMat>
                     </physDesc>
                     <history>
-                        <origin notBefore="1700" notAfter="1799" cert="low" evidence="external"
-                            resp="#KatKap001">
+                        <origin notBefore="1700" notAfter="1799" cert="low" evidence="external" resp="#KatKap001">
                             <p> Sandsynligvis skrevet i <origPlace key="IS">Island</origPlace> i
-                                <origDate notBefore="1700" notAfter="1799"
-                                    >1800-tallet</origDate>.</p>
+                                <origDate notBefore="1700" notAfter="1799">1800-tallet</origDate>.</p>
                         </origin>
                         <provenance>
-                            <p>Håndskrifterne Acc. 51-62 kom fra <name type="place" key="Nykob01"
-                                >Nykøbing</name> Katedralskole. De fleste af dem er <name
-                                    type="person" key="FreSch002">Fredrik Schaldemoses</name>
+                            <p>Håndskrifterne Acc. 51-62 kom fra <name type="place" key="Nykob01">Nykøbing</name> Katedralskole. De fleste af dem er <name type="person" key="FreSch002">Fredrik Schaldemoses</name>
                                 afskrifter af norrøne tekster, og han donerede dem til Nykøbing
                                 Katedralskole.</p>
                         </provenance>
@@ -141,9 +138,7 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Katalogiseret af <name type="person"
-                                        key="KatKap001">Katarzyna Anna Kapitan</name> den <date
-                                        when="2018-09-17"/>.</p>
+                                    <p>Katalogiseret af <name type="person" key="KatKap001">Katarzyna Anna Kapitan</name> den <date when="2018-09-17"/>.</p>
                                 </source>
                             </recordHist>
                         </adminInfo>
@@ -151,8 +146,7 @@
                             <p>
                                 <list>
                                     <item>Mikrofilm Neg 2018 fra <date when="2011-05-30"/>.</item>
-                                    <item>Mikrofilm (arkiv) 2000 fra <date when="2011-06-01"
-                                    />.</item>
+                                    <item>Mikrofilm (arkiv) 2000 fra <date when="2011-06-01"/>.</item>
                                     <item>Backup film TS 1296 fra <date when="2011-06-01"/>.</item>
                                 </list>
                             </p>
@@ -162,8 +156,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change>Denne fil blev oprettet d. <date when="2018-10-26"/> af <name type="person"
-                    key="KatKap001"/>.</change>
+            <change>Denne fil blev oprettet d. <date when="2018-10-26"/> af <name type="person" key="KatKap001"/>.</change>
             <change>
                 <date when="2018-10-26"/>
                 <name type="person" key="KatKap001"/> Katalogisering </change>

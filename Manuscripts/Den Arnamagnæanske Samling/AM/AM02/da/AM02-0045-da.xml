@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -11,11 +11,13 @@
                 <pubPlace>København</pubPlace>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:id="AM02-045-da" xml:lang="da">
+                <msDesc xml:id="AM02-0045-da" xml:lang="da">
                     <msIdentifier>
                         <country>Danmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 45 fol.</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>59</idno>
@@ -40,7 +42,7 @@
                             <textLang mainLang="is">Norrønt/islandsk</textLang>
                             <bibl>Unger: <ref type="primary-2" target="NHKIX">Codex Frisianus: En
                                     Samling af norske Konge-sagaer</ref>
-                                <biblScope type="pages">1-384</biblScope>
+                                <biblScope unit="pages">1-384</biblScope>
                             </bibl>
                             <msItem n="1.1" class="formal">
                                 <locus from="1ra:1" facs="#AM02-045-0001r" to="1rb:37">1ra-b</locus>
@@ -54,7 +56,7 @@
                                     tekin</explicit>
                                 <bibl>Konráð Gíslason: <ref type="primary-1" target="KGFrumparta">Um
                                         frum-parta íslenzkrar túngu í fornöld</ref>
-                                    <biblScope type="pages">iv</biblScope>
+                                    <biblScope unit="pages">iv</biblScope>
                                     <note>Bl. 1va:1-12</note>
                                 </bibl>
                             </msItem>
@@ -132,7 +134,7 @@
                                     Teksten beskriver slaget ved Svold, år <date when="1000">1000</date>.</note>
                                 <bibl>Konráð Gíslason: <ref type="primary-1" target="KGFrumparta">Um
                                         frum-parta íslenzkrar túngu í fornöld</ref>
-                                    <biblScope type="pages">iv</biblScope>
+                                    <biblScope unit="pages">iv</biblScope>
                                     <note>Bl. 37ra:13-16</note>
                                 </bibl>
                             </msItem>
@@ -152,7 +154,7 @@
                                     forraða.</explicit>
                                 <bibl>Konráð Gíslason: <ref type="primary-1" target="KGFrumparta">Um
                                         frum-parta íslenzkrar túngu í fornöld</ref>
-                                    <biblScope type="pages">iv-v</biblScope>
+                                    <biblScope unit="pages">iv-v</biblScope>
                                     <note>Bl. 37ra:19-28</note>
                                 </bibl>
                             </msItem>
@@ -281,7 +283,7 @@
                                     <lb/> haɴ v<ex>ar</ex> yngrí.</explicit>
                                 <bibl>Konráð Gíslason: <ref type="primary-1" target="KGFrumparta">Um
                                         frum-parta íslenzkrar túngu í fornöld</ref>
-                                    <biblScope type="pages">v</biblScope>
+                                    <biblScope unit="pages">v</biblScope>
                                     <note>Bl. 83va:15-21</note>
                                 </bibl>
                             </msItem>
@@ -303,17 +305,17 @@
                             <listBibl>
                                 <bibl>Unger: <ref type="primary-2" target="NHKIX">Codex Frisianus:
                                         En Samling af norske Konge-sagaer</ref>
-                                    <biblScope type="pages">387-583</biblScope>
+                                    <biblScope unit="pages">387-583</biblScope>
                                 </bibl>
                                 <bibl>
                                     <ref target="FMS9">Fornmanna sögur</ref>
-                                    <biblScope type="volume">IX</biblScope>
-                                    <biblScope type="pages">229-535</biblScope>; <biblScope type="volume">X</biblScope>
-                                    <biblScope type="pages">1-154</biblScope>
+                                    <biblScope unit="volume">IX</biblScope>
+                                    <biblScope unit="pages">229-535</biblScope>; <biblScope unit="volume">X</biblScope>
+                                    <biblScope unit="pages">1-154</biblScope>
                                 </bibl>
                                 <bibl>Konráð Gíslason: <ref type="primary-1" target="KGFrumparta">Um
                                         frum-parta íslenzkrar túngu í fornöld</ref>
-                                    <biblScope type="pages">vi</biblScope>
+                                    <biblScope unit="pages">vi</biblScope>
                                     <note>Bl. 84ra:1-12, 124rb:33-39</note>
                                 </bibl>
                             </listBibl>
@@ -506,8 +508,8 @@
                                 håndskriftsamling for at komme i besiddelse af dette håndskrift
                                     (<bibl>Finnur Jónsson: <ref type="secondary" target="ArnMaglevnskrift">Arne Magnussons Levned og
                                         Skrifter</ref>
-                                    <biblScope type="volume">1b</biblScope>
-                                    <biblScope type="pages">95</biblScope>
+                                    <biblScope unit="volume">1b</biblScope>
+                                    <biblScope unit="pages">95</biblScope>
                                 </bibl>).</p>
                         </acquisition>
                     </history>
@@ -605,13 +607,13 @@
                         </surrogates>
                         <listBibl>
                             <bibl>Finnur Jónsson: <ref target="STUAGNL23">Heimskringla</ref>
-                                <biblScope type="volume">I</biblScope>
-                                <biblScope type="pages">xxi-xxiv</biblScope>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">xxi-xxiv</biblScope>
                             </bibl>
                             <bibl>
                                 <ref type="secondary-1" target="FMS7">Fornmanna sögur</ref>
-                                <biblScope type="volume">IX</biblScope>
-                                <biblScope type="pages">xiii-xv</biblScope>
+                                <biblScope unit="volume">IX</biblScope>
+                                <biblScope unit="pages">xiii-xv</biblScope>
                             </bibl>
                             <bibl>Halldór Hermannsson: <ref target="CCIsl4">Codex Frisianus (Sagas
                                     of the Kings of Norway)</ref>
@@ -619,34 +621,34 @@
                             </bibl>
                             <bibl>Konráð Gíslason: <ref type="secondary-1" target="KGFrumparta">Um
                                     frum-parta íslenzkrar túngu í fornöld</ref>
-                                <biblScope type="pages">iii, vi-vii</biblScope>
+                                <biblScope unit="pages">iii, vi-vii</biblScope>
                             </bibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                                <biblScope type="volume">I</biblScope>
-                                <biblScope type="pages">32-33</biblScope>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">32-33</biblScope>
                             </bibl>
                             <bibl>Louis-Jensen: <ref type="secondary-1" target="BiblArn32">Kongesagastudier</ref>
-                                <biblScope type="pages">19-21</biblScope>
+                                <biblScope unit="pages">19-21</biblScope>
                             </bibl>
                             <bibl>Rafn: <ref type="secondary-1" target="AntR">Antiquités
                                     Russes</ref>
-                                <biblScope type="pages">xxvi</biblScope></bibl>
+                                <biblScope unit="pages">xxvi</biblScope></bibl>
                             <bibl>Storm: <ref type="secondary-1" target="SnorrHist">Snorre
                                     Sturlassöns Historieskrivning</ref>
-                                <biblScope type="pages">210-211, 223-226</biblScope>
+                                <biblScope unit="pages">210-211, 223-226</biblScope>
                             </bibl>
                             <bibl>Storm: <ref type="secondary-1" target="SRProces">Sigurd Ranessöns
                                     Proces</ref>
-                                <biblScope type="pages">44</biblScope>
+                                <biblScope unit="pages">44</biblScope>
                             </bibl>
                             <bibl>Thorlacius: <ref type="secondary-1" target="AntBOM">Antiqvitatum
                                     borealium observationes miscellaneæ</ref>
-                                <biblScope type="volume">II</biblScope>
-                                <biblScope type="pages">xvii</biblScope>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">xvii</biblScope>
                             </bibl>
                             <bibl>Unger: <ref target="NHKIX">Codex Frisianus: En Samling af norske
                                     Konge-sagaer</ref>
-                                <biblScope type="pages">iii-vi</biblScope>
+                                <biblScope unit="pages">iii-vi</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

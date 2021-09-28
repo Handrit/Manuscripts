@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 144 1-2 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>808</idno>
@@ -25,8 +25,7 @@
                <head>
                   <title type="supplied">Lagaritgerðir</title>
                   <origPlace>Ísland</origPlace>
-                  <origDate notBefore="1652" notAfter="1700" evidence="external"
-                     >c1652-1700</origDate>
+                  <origDate notBefore="1652" notAfter="1700" evidence="external">c1652-1700</origDate>
                   <note>Tvö handrit bundin saman.</note>
                </head>
                <msContents>
@@ -51,8 +50,7 @@
                      </binding>
                   </bindingDesc>
                   <accMat>
-                     <p>Kvartóblað fremst (saurblað?) með hendi <name key="ArnMag001" type="person"
-                           >Árna Magnússonar</name> (helmingur umslags utan um bréf til sekretera
+                     <p>Kvartóblað fremst (saurblað?) með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name> (helmingur umslags utan um bréf til sekretera
                         Árna sem sent hefur verið til Kaupmannahafnar). Inniheldur upplýsingar um
                         hvenær og frá hverjum Árni fékk handritin.</p>
                   </accMat>
@@ -68,10 +66,7 @@
                         <source>
                            <p>Tekið eftir <bibl>
                                  <ref target="KKKat">Katalog I</ref>
-                              </bibl>, bls. 430 (nr. 808). <name key="KriKaa001" type="person"
-                                 >Kålund</name> gekk frá handritinu til skráningar <date
-                                 when="1886-10-18">18. október 1886.</date> <name key="DriThr001"
-                                 type="person">DKÞ</name> skráði <date when="2003-07-17">17. júlí
+                              </bibl>, bls. 430 (nr. 808). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar <date when="1886-10-18">18. október 1886.</date> <name key="DriThr001" type="person">DKÞ</name> skráði <date when="2003-07-17">17. júlí
                                  2003</date>. <name key="MarJon001" type="person">Már Jónsson</name>
                               skráði seðil Árna Magnússonar <date when="2000-02-09">9. febrúar
                                  2000</date>.</p>
@@ -86,9 +81,9 @@
                   </listBibl>
                </additional>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 144 1 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem n="1" defective="unknown" class="logfr">
@@ -153,9 +148,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 144 2 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem n="1" class="logfr">

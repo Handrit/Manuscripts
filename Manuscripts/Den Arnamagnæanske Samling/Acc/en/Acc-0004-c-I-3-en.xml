@@ -1,4 +1,4 @@
-  <?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>  <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
   <?xml-stylesheet type="text/css" href="msDesc.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -15,7 +15,9 @@
           <msIdentifier>
             <country>Denmark</country>
             <settlement>Copenhagen</settlement>
+            <institution key="AMS"/>
             <repository>Den Arnamagnæanske Samling</repository>
+            <collection key="Acc"/>
             <idno>Acc. 4 c I[3]</idno>
             <altIdentifier type="internal" subtype="KKKat">
               <idno>2826</idno>
@@ -27,13 +29,11 @@
           <physDesc/>
           <history>
             <origin notBefore="1800" notAfter="1899">
-              <p>Written in the <origPlace key="FO">Faroe Islands</origPlace> in the <origDate
-                  notBefore="1800" notAfter="1899">nineteenth century</origDate>.</p>
+              <p>Written in the <origPlace key="FO">Faroe Islands</origPlace> in the <origDate notBefore="1800" notAfter="1899">nineteenth century</origDate>.</p>
             </origin>
             <provenance>
               <p>The manuscript materials were part of <name type="person" key="VenHam001">V. U.
-                  Hammershaimb's</name> private archive and were originally intended for <orgName
-                  key="KglNordOld">Det kgl. nordiske Oldskriftselskab</orgName>. They were given to
+                  Hammershaimb's</name> private archive and were originally intended for <orgName key="KglNordOld">Det kgl. nordiske Oldskriftselskab</orgName>. They were given to
                 the <orgName key="AMS">Arnamagnæan Collection</orgName> following Hammershaimb's
                 death in <date when="1909">1909</date>.</p>
             </provenance>
@@ -42,8 +42,7 @@
             <adminInfo>
               <recordHist>
                 <source>
-                  <p>Catalogued <date when="2021">2021</date> by <name type="person" key="SeaVri001"
-                      >SDV</name>.</p></source>
+                  <p>Catalogued <date when="2021">2021</date> by <name type="person" key="SeaVri001">SDV</name>.</p></source>
               </recordHist>
               <custodialHist>
                 <custEvent type="photography">
@@ -53,19 +52,19 @@
             </adminInfo>
             <listBibl>
               <bibl> Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                <biblScope type="volume">II</biblScope>
-                <biblScope type="pages">609</biblScope>
+                <biblScope unit="volume">II</biblScope>
+                <biblScope unit="pages">609</biblScope>
               </bibl>
               <bibl> Chesnutt and Larsen: <ref type="secondary-1" target="Foroya7">Føroya kvæði</ref>
-                <biblScope type="volume">VII</biblScope>
-                <biblScope type="pages">67-68</biblScope>
+                <biblScope unit="volume">VII</biblScope>
+                <biblScope unit="pages">67-68</biblScope>
               </bibl>
             </listBibl>
           </additional>
           <msPart n="1">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[3] Danish and Faroese Ballads</idno> <!-- LENA: Unsure about title [31/08/21] -->
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Danish and Faroese Ballads</title>
                 <note>Collected by <name type="person" key="JohSch001">J. H.
@@ -80,8 +79,7 @@
                 <incipit>Danske Konge udrejste af Danmarks Land</incipit>
                 <explicit>TEXT</explicit>
                 <!-- TODO: Start from here; finish adding colophons, folio numbers -->
-                <colophon>Vær af den Gladhed at lade denne Kiæmpevise afskrive til Hr <name
-                    type="person" key="SveGru001"/></colophon>
+                <colophon>Vær af den Gladhed at lade denne Kiæmpevise afskrive til Hr <name type="person" key="SveGru001"/></colophon>
 
 
               </msItem>
@@ -104,11 +102,11 @@
                 <incipit>Vuijsir Menn tajr riju ur suit Land</incipit>
                 <explicit>Sum Harrin vär seri innan</explicit>
                 <bibl>CCF 140*Ac. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">119</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">119</biblScope>
                 </bibl>
                 <bibl><ref type="secondary-1" target="Matras1935">Christian Matras: Föroyskur
                     Miðaldarskaldskapur (Varðin XV)</ref>
-                  <biblScope type="pages">239-241</biblScope></bibl>
+                  <biblScope unit="pages">239-241</biblScope></bibl>
               </msItem>
               <msItem n="4" class="kvad">
                 <locus from="7r" to="7v">pp. 13-14 (ff. 7r-7v)</locus>
@@ -118,8 +116,7 @@
                 <rubric>Nr. 4. Heradis Vise udtales Rudis er nok Rudis</rubric>
                 <incipit>Inn kiemur Stephan og Sijur fraa</incipit>
                 <explicit>Samen heje runni Hanin og floji ivar Bor</explicit>
-                <colophon xml:lang="da">Ieg har skrevet denne fra <name type="person"
-                    key="ElsPou001">E Thune</name> hun har og kunnet mange flere Ieg skal dog see at
+                <colophon xml:lang="da">Ieg har skrevet denne fra <name type="person" key="ElsPou001">E Thune</name> hun har og kunnet mange flere Ieg skal dog see at
                   samle dem, de ere neppe uddøde endnu. Sikkert ere de ogsaa her nord paa flere
                   Steder, men man skiuler dem endog Liomenar, den færöiske Messiade har man anseet
                   for syndig. Svaboe har giort sig fortient med at opskrive den, den islandske er
@@ -129,7 +126,7 @@
                   <name type="person" key="ElsPou001">NAME <placeName key="TorStr01"> PLACE</placeName></name>
                 </respStmt>
                 <bibl>CCF 167B. <ref type="secondary-1" target="Foroya">The Manuscripts of Faroese Ballads</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">200-201</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">200-201</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -157,8 +154,7 @@
 
                   <condition>
                     <p>There is some water damage.</p>
-                    <p>An original eighth leaf has been clipped to <width unit="mm" quantity="7"
-                        >7</width> mm. Some text is still visible.</p>
+                    <p>An original eighth leaf has been clipped to <width unit="mm" quantity="7">7</width> mm. Some text is still visible.</p>
                   </condition>
                 </supportDesc>
 
@@ -178,8 +174,7 @@
               </objectDesc>
 
               <handDesc hands="1">
-                <handNote scribe="JohSch001" scope="sole" script="other"><p>Written by <name type="person"
-                      key="JohSch001">J. H. Schrøter</name>.</p></handNote>
+                <handNote scribe="JohSch001" scope="sole" script="other"><p>Written by <name type="person" key="JohSch001">J. H. Schrøter</name>.</p></handNote>
               </handDesc>
 
               <bindingDesc>
@@ -191,11 +186,9 @@
             </physDesc>
             <history>
               <origin notBefore="1828" notAfter="1851" cert="high">
-                <p>Written on the <origPlace key="FO">Faroe Islands</origPlace> in the <origDate
-                    notBefore="1828" notAfter="1851">nineteenth century</origDate>. The final item
+                <p>Written on the <origPlace key="FO">Faroe Islands</origPlace> in the <origDate notBefore="1828" notAfter="1851">nineteenth century</origDate>. The final item
                   was recorded from the informant <name type="person" key="ElsPou001">Elsebeth
-                    Poulsdatter (Elsebeth í Túni)</name> who had been <name type="person"
-                    key="JohSch001">Schrøter's</name> housekeeper. In the colophon he writes <q>her
+                    Poulsdatter (Elsebeth í Túni)</name> who had been <name type="person" key="JohSch001">Schrøter's</name> housekeeper. In the colophon he writes <q>her
                     nord paa</q>, referring to <origPlace key="TorStr01">Tórshavn,
                     Streymoy</origPlace>, where he moved in <date when="1828">1828</date>, meaning
                   the item cannot have been written before that date.</p>
@@ -204,16 +197,15 @@
             <!-- LENA: Unsure how and if I should alter the wording here [20/05/21] -->
           </msPart>
           <msPart n="2">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[3] Drósin á Girtlandi</idno> 
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Drósin á Girtlandi</title></summary>
               <titlePage type="ms">
                 <titlePart type="main">Drousin á Gjirtlandi</titlePart>
                 <titlePart type="sub">Stevi <lb/>Tögum lat heer uj Lundum, lajjum vors mæn,
-                  <lb/>Leatum vera Dans, Svain falla. (<locus from="9r" to="9r"
-                  >9r</locus>).</titlePart>
+                  <lb/>Leatum vera Dans, Svain falla. (<locus from="9r" to="9r">9r</locus>).</titlePart>
               </titlePage>
               <msItem n="5" class="kvad">
                 <locus from="9v" to="10v">pp. 18-20 (ff. 9v-10v)</locus>
@@ -232,10 +224,8 @@
                 </respStmt>
                 <filiation>Item 62 in <ref type="ms" target="DFS-68">Sandoyarbók</ref></filiation>
                 <bibl>CCF 43b. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">II</biblScope><biblScope type="pages"
-                  >108-109</biblScope></bibl>
-                <note>Labelled as nr. 80 by <name type="person" key="JohCle001"
-                  >Clemensen</name>.</note>
+                  <biblScope unit="volume">II</biblScope><biblScope unit="pages">108-109</biblScope></bibl>
+                <note>Labelled as nr. 80 by <name type="person" key="JohCle001">Clemensen</name>.</note>
               </msItem>
             </msContents>
             <physDesc>
@@ -277,8 +267,7 @@
               </objectDesc>
 
               <handDesc hands="1">
-                <handNote scribe="JohCle001" scope="sole" script="other"><p>Written by <name type="person"
-                      key="JohCle001">Johannes Clemensen (Jóannes í Króki)</name>.</p></handNote>
+                <handNote scribe="JohCle001" scope="sole" script="other"><p>Written by <name type="person" key="JohCle001">Johannes Clemensen (Jóannes í Króki)</name>.</p></handNote>
               </handDesc>
 
               <bindingDesc>
@@ -291,11 +280,9 @@
             </physDesc>
             <history>
               <origin when="1823" cert="high">
-                <p><name type="person" key="JohCle001">Clemensen</name> writes in <ref type="ms"
-                    target="DFS-68">Sandoyarbók</ref> that he recorded the ballad from the informant
+                <p><name type="person" key="JohCle001">Clemensen</name> writes in <ref type="ms" target="DFS-68">Sandoyarbók</ref> that he recorded the ballad from the informant
                     <name type="person" key="LauOle001">Lauritz Olesen (Læars í Stórhúsi)</name>,
-                    <origPlace key="DalSan01">Dalur, Sandoy</origPlace>, on <origDate when="1823-01-16"
-                    >16 January 1823</origDate>.</p>
+                    <origPlace key="DalSan01">Dalur, Sandoy</origPlace>, on <origDate when="1823-01-16">16 January 1823</origDate>.</p>
               </origin>
             </history>
           </msPart>

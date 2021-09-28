@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://tei-enrich.googlecode.com/svn/trunk/enrich-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,9 +20,9 @@
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
-						<institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+						<institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
 						<repository>Handritasafn</repository>
-						<collection>Handritasafn Landsbókasafns</collection>
+						<collection key="Lbs">Handritasafn Landsbókasafns</collection>
 						<idno>Lbs 4434 I 8vo</idno>
 					</msIdentifier>
 
@@ -59,8 +59,7 @@
 
 					<history>
 						<acquisition>
-							<name type="person" key="SigSig017">Sigfús Sigmundsson</name> gaf <date
-								when="1986-03-25">25. mars 1986</date>
+							<name type="person" key="SigSig017">Sigfús Sigmundsson</name> gaf <date when="1986-03-25">25. mars 1986</date>
 						</acquisition>
 					</history>
 
@@ -77,17 +76,16 @@
 
 					<msPart n="1">
 
-						<altIdentifier type="partial">
+						<msIdentifier><altIdentifier type="partial">
 							<idno>Lbs 4434 I 8vo I. hluti</idno>
-						</altIdentifier>
+						</altIdentifier></msIdentifier>
 
 						<msContents>
 							<textLang mainLang="is">Íslenska</textLang>
 
 							<titlePage type="MS">
 								<docTitle>
-									<titlePart type="main">Kveðlingar Árna Gíslasonar í Höfn (<locus
-											from="1r" to="1r">1r</locus>)</titlePart>
+									<titlePart type="main">Kveðlingar Árna Gíslasonar í Höfn (<locus from="1r" to="1r">1r</locus>)</titlePart>
 								</docTitle>
 								<note>Titillinn er aðeins á efsta hluta síðunnar.</note>
 							</titlePage>
@@ -175,8 +173,7 @@
 								<note>
 									<p>5 erindi. Skrifari auðkennir eyður í 5. erindi.</p>
 								</note>
-								<colophon>Hér endar Láfa brag og vantar aftan af. (<locus from="11v"
-										to="11v">11v</locus>)</colophon>
+								<colophon>Hér endar Láfa brag og vantar aftan af. (<locus from="11v" to="11v">11v</locus>)</colophon>
 							</msItem>
 
 							<msItem n="9" defective="false" class="laus">
@@ -266,10 +263,8 @@
 								<colophon>(hjer vantar við) (<locus from="15v" to="15v">15v</locus>)</colophon>
 								<note>
 									<p>Á undan vísunum hverri um sig, nema 4., segir frá tildrögum
-										þeirra. Tildrögin að fyrstu vísunni eru á <locus from="14v"
-											to="14v">14v.</locus> 2.-4. vísa eiga efnislega saman og
-										tvær síðustu vísurnar eru númeraðar <supplied
-											reason="omitted">1</supplied> og 2. </p>
+										þeirra. Tildrögin að fyrstu vísunni eru á <locus from="14v" to="14v">14v.</locus> 2.-4. vísa eiga efnislega saman og
+										tvær síðustu vísurnar eru númeraðar <supplied reason="omitted">1</supplied> og 2. </p>
 									<p>Skrifaraklausan er á eftir síðustu vísunni.</p>
 								</note>
 							</msItem>
@@ -440,17 +435,16 @@
 
 
 					<msPart n="2">
-						<altIdentifier type="partial">
+						<msIdentifier><altIdentifier type="partial">
 							<idno>Lbs 4434 I 8vo II. hluti</idno>
-						</altIdentifier>
+						</altIdentifier></msIdentifier>
 
 						<msContents>
 							<textLang mainLang="is">Íslenska</textLang>
 							<titlePage type="MS">
 								<docTitle>
 									<titlePart type="main">Nokkrar lausavísur ortar af Sigurði
-											sál<ex>uga</ex> Jónssyni frá Brekku í Fljótsdal (<locus
-											from="26r" to="26r">26r</locus>)</titlePart>
+											sál<ex>uga</ex> Jónssyni frá Brekku í Fljótsdal (<locus from="26r" to="26r">26r</locus>)</titlePart>
 								</docTitle>
 								<note>Titillinn er aðeins á efsta hluta síðunnar.</note>
 							</titlePage>

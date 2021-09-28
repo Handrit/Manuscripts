@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 720 a I 1-2 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1815</idno>
@@ -41,8 +41,7 @@
                   </bindingDesc>
                   <accMat>Tveir seðlar (tveir fremst við 720 a I, hinn fremst við 720 a II) <list>
                         <item>Seðill 1<locus from="accMat01r" to="accMat01v">fremst við AM 720 a I
-                              4to</locus> fyrsti seðillinn, merktur "a" (<dimensions type="slip"
-                              unit="mm">
+                              4to</locus> fyrsti seðillinn, merktur "a" (<dimensions type="slip" unit="mm">
                               <height>205</height>
                               <width>162</width>
                            </dimensions>) er fyrsta blað tvinns, en hið aftara er autt. <quote><p>Herra
@@ -62,8 +61,7 @@
                                  ríkisfólkið reiðist nú; / heyr og sé / hvað fart kann ske, [heldur
                                  áfram á öðrum seðli]</p></quote></item>
                         <item>Seðill 2 <locus from="accMat02r" to="accMat02v">fremst við AM 720 a I
-                              4to</locus> fyrsti seðillinn, merktur "b" (<dimensions type="slip"
-                              unit="mm">
+                              4to</locus> fyrsti seðillinn, merktur "b" (<dimensions type="slip" unit="mm">
                               <height>205</height>
                               <width>162</width>
                            </dimensions>) er fyrsta blað tvinns, en hið aftara er autt. <quote>Þeir
@@ -92,8 +90,7 @@
                            <p><name type="person" key="ThoSig001">ÞS</name> jók við samkvæmt reglum
                               TEI P5 <date when="2009-06-03">3. júní 2009</date> og síðar.</p>
                            <p>
-                              <name key="GudIng001" type="person">GI</name> skráði <date
-                                 when="2003-10-20">20. október 2003</date>.</p>
+                              <name key="GudIng001" type="person">GI</name> skráði <date when="2003-10-20">20. október 2003</date>.</p>
                            <p>
                               <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu
                               til skráningar <date when="1888-10-15">15. október 1888</date> (sjá <bibl>
@@ -101,9 +98,7 @@
                               </bibl>). </p>
                            <p>
                               <name type="person" key="GioVer001">GV</name> sló inn texta af seðlum
-                              Árna Magnússonar undir umsjón <name type="person" key="ThoSig001"
-                                 >ÞS</name> og með hliðsjón af gögnum frá <name type="person"
-                                 key="MarJon001">MJ</name>.</p>
+                              Árna Magnússonar undir umsjón <name type="person" key="ThoSig001">ÞS</name> og með hliðsjón af gögnum frá <name type="person" key="MarJon001">MJ</name>.</p>
                         </source>
                      </recordHist>
                      <custodialHist>
@@ -121,9 +116,9 @@
                   </listBibl>
                </additional>
                <msPart n="1">
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 720 a I 1 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents xml:lang="is">
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem defective="true" class="salm">
@@ -133,9 +128,7 @@
                            <p>Sekvensía úr messusöng á þeim hátíðisdegi kirkjunnar sem á Íslandi var
                               nefndur Dýridagur (festum sanctissimi corporis Christi). Erik Eggen
                               prentaði texta sekvensíunnar, en notaði ekki þetta handrit (<bibl>
-                                 <ref>Bibliotheca Arnamagnæana</ref><biblScope type="volume"
-                                    >XXI</biblScope>, 1968<biblScope type="pages"
-                                    >121-123</biblScope></bibl>).</p></note>
+                                 <ref>Bibliotheca Arnamagnæana</ref><biblScope unit="volume">XXI</biblScope>, 1968<biblScope unit="pages">121-123</biblScope></bibl>).</p></note>
                         <msItem n="1">
                            <locus from="1r" to="1r">1r</locus>
                            <incipit defective="true">… Sumit unus sumunt mille …</incipit>
@@ -158,8 +151,7 @@
                         <explicit defective="true">… bóndinn þann sem …</explicit>
                         <note>Notað í lesbrigðaskrá neðanmáls í <bibl>
                               <ref type="primary-2" target="islmidJH-2">Íslenzk miðaldakvæði</ref>,
-                                 1938<biblScope type="volume">II</biblScope><biblScope type="pages"
-                                 >444-459</biblScope></bibl>.</note>
+                                 1938<biblScope unit="volume">II</biblScope><biblScope unit="pages">444-459</biblScope></bibl>.</note>
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -206,11 +198,9 @@
                      </objectDesc>
                      <handDesc hands="2">
                         <summary>Tvær hendur.</summary>
-                        <handNote scope="major" script="textualis" scribe="unknown">I. <locus
-                              from="1r" to="1v">1r-v</locus>: Óþekktur skrifari,
+                        <handNote scope="major" script="textualis" scribe="unknown">I. <locus from="1r" to="1v">1r-v</locus>: Óþekktur skrifari,
                            textaskrift.</handNote>
-                        <handNote scope="minor" script="cursiva" scribe="unknown">II. <locus
-                              from="1v" to="1v">1v</locus>: Óþekktur skrifari,
+                        <handNote scope="minor" script="cursiva" scribe="unknown">II. <locus from="1v" to="1v">1v</locus>: Óþekktur skrifari,
                            léttiskrift.</handNote>
                      </handDesc>
                      <musicNotation>
@@ -222,12 +212,9 @@
                               <item>Spássíugreinar:</item>
                               <item>Bl. <locus from="1r" to="1r">1r</locus>: <q>I</q>, sem tákn um
                                  að handritið sé fyrsti hluti í AM 720 a I-XI.</item>
-                              <item>Bl. <locus from="1v" to="1v">1v</locus>, með hendi <name
-                                    key="ArnMag001" type="person">Árna Magnússonar</name>: <q
-                                    xml:lang="is">Úr latínskri messusöngsbók. Blaðið er komið frá
+                              <item>Bl. <locus from="1v" to="1v">1v</locus>, með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name>: <q xml:lang="is">Úr latínskri messusöngsbók. Blaðið er komið frá
                                     Íslandi.</q></item>
-                              <item>Bl. <locus from="1v" to="1v">1v</locus>, með hendi <name
-                                    key="ArnMag001" type="person">Árna Magnússonar</name>:
+                              <item>Bl. <locus from="1v" to="1v">1v</locus>, með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name>:
                                     <q>reliqva decrant</q>.</item>
                               <item>Bl. <locus from="1v" to="1v">1v</locus>: eldra pennakrot, stök
                                  orð.</item>
@@ -241,8 +228,7 @@
                            Ólafsvísur eru skrifaðar <origDate notBefore="1300" notAfter="1510">um
                               1500</origDate> (<bibl>
                               <ref target="KKKat">Katalog II 1894:144</ref>
-                           </bibl>). Latneska messusöngsbókin er á hinn bóginn e.t.v. frá <origDate
-                              notBefore="1300" notAfter="1399">14. öld</origDate>.</p>
+                           </bibl>). Latneska messusöngsbókin er á hinn bóginn e.t.v. frá <origDate notBefore="1300" notAfter="1399">14. öld</origDate>.</p>
                      </origin>
                      <provenance>
                         <p>
@@ -261,9 +247,9 @@
                   </additional>
                </msPart>
                <msPart n="2">
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 720 a I 2 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents xml:lang="is">
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem defective="true" class="helgkv">
@@ -280,8 +266,7 @@
                            <extent>4 blöð (<dimensions type="leaf" unit="mm" scope="all">
                                  <height>209</height>
                                  <width>162</width>
-                              </dimensions>). Auð blöð: <locus from="3r" to="3v">3</locus> og <locus
-                                 from="4r" to="4v">4</locus>.</extent>
+                              </dimensions>). Auð blöð: <locus from="3r" to="3v">3</locus> og <locus from="4r" to="4v">4</locus>.</extent>
                            <foliation>
                               <p>Seinni tíma blýantsblaðmerking a-b (1r-2r).</p>
                            </foliation>
@@ -298,23 +283,20 @@
                               <p>
                                  <list>
                                     <item>Eindálka.</item>
-                                    <item>Leturflötur er <dimensions type="written" unit="mm"
-                                          scope="all">
+                                    <item>Leturflötur er <dimensions type="written" unit="mm" scope="all">
                                           <height>151/163/158</height>
                                           <width>131/125/126</width>
                                        </dimensions>.</item>
                                     <item>Línufjöldi er 17-18.</item>
                                     <item>
-                                       <catchwords>Griporð</catchwords> á <locus from="1v" to="1v"
-                                          >1v</locus>.</item>
+                                       <catchwords>Griporð</catchwords> á <locus from="1v" to="1v">1v</locus>.</item>
                                  </list>
                               </p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
                      <handDesc hands="1">
-                        <handNote scope="sole" script="kurrent" scribe="ArnMag001">Með hendi <name
-                              type="person" key="ArnMag001">Árna Magnússonar</name>,
+                        <handNote scope="sole" script="kurrent" scribe="ArnMag001">Með hendi <name type="person" key="ArnMag001">Árna Magnússonar</name>,
                            árfljótaskrift.</handNote>
                      </handDesc>
                   </physDesc>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 475 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1247</idno>
@@ -32,14 +32,11 @@
                      <incipit>…ga sínum. Það annað að eg</incipit>
                      <explicit>… föður Árna föður Ingileifar.</explicit>
                      <note>
-                        <p>Það vantar framan af sögunni í þessari uppskrift <name
-                                    type="person" key="ArnMag001">Árna Magnússonar</name> en hún er
+                        <p>Það vantar framan af sögunni í þessari uppskrift <name type="person" key="ArnMag001">Árna Magnússonar</name> en hún er
                                  gerð eftir broti sögunnar í <ref target="AM04-0564a" type="ms">AM
-                                    564a 4to</ref> (sbr. <locus from="accMat01r" to="accMat01r"
-                                    >seðil</locus>). Niðurlag sögunnar hér og í brotinu gefur
+                                    564a 4to</ref> (sbr. <locus from="accMat01r" to="accMat01r">seðil</locus>). Niðurlag sögunnar hér og í brotinu gefur
                                  vísbendingu um sögugerð sem er öðruvísi en <q>allar aðrar</q>
-                                 Þórðar sögur (sbr. <locus from="accMat01r" to="accMat01r"
-                                    >seðil</locus>).
+                                 Þórðar sögur (sbr. <locus from="accMat01r" to="accMat01r">seðil</locus>).
                            </p>
                      </note>
                   </msItem>
@@ -90,8 +87,7 @@
                   </objectDesc>
 
                   <handDesc>
-                     <handNote scope="sole" script="hybrida" scribe="ArnMag001">Með hendi <name
-                           type="person" key="ArnMag001">Árna Magnússonar</name>,
+                     <handNote scope="sole" script="hybrida" scribe="ArnMag001">Með hendi <name type="person" key="ArnMag001">Árna Magnússonar</name>,
                         blendingsskrift.</handNote>
                   </handDesc>
 
@@ -109,8 +105,7 @@
                   <accMat>
                      <p>
                         <list>
-                           <item><locus from="accMat01r" to="accMat01v">Seðill</locus> (<dimensions
-                                 type="slip" unit="mm">
+                           <item><locus from="accMat01r" to="accMat01v">Seðill</locus> (<dimensions type="slip" unit="mm">
                                  <height>204</height>
                                  <width>158</width>
                               </dimensions>) með hendi <name key="ArnMag001" type="person">Árna
@@ -125,8 +120,7 @@
                <history>
                   <origin notBefore="1690" notAfter="1710">
                      <p>Handritið er skrifað á <origPlace key="IS">Íslandi</origPlace>
-                              <!-- ath. ? Kaupmannahöfn??? --> og er afrit af síðari hluta sögunnar í <ref
-                                 target="AM04-0564a" type="ms">AM 564 a 4to</ref>.</p>
+                              <!-- ath. ? Kaupmannahöfn??? --> og er afrit af síðari hluta sögunnar í <ref target="AM04-0564a" type="ms">AM 564 a 4to</ref>.</p>
                            <p>Það er tímasett til <origDate notBefore="1690" notAfter="1710">um
                                  1700</origDate> í <bibl>
                                  <ref target="KKKat">Katalog I</ref>
@@ -143,9 +137,7 @@
                      <recordHist>
                         <source>
                            <p>
-                              <name type="person" key="ValHil001">VH</name> skráði handritið <date
-                                 when="2009-04-14">14. apríl 2009</date>; lagfærði í <date when="2010-12">desember 2010</date>. <name key="GudIng001"
-                                 type="person">GI</name> skráði <date when="2001-12-21">21. desember
+                              <name type="person" key="ValHil001">VH</name> skráði handritið <date when="2009-04-14">14. apríl 2009</date>; lagfærði í <date when="2010-12">desember 2010</date>. <name key="GudIng001" type="person">GI</name> skráði <date when="2001-12-21">21. desember
                                  2001</date>. <name key="KriKaa001" type="person">Kålund</name> gekk
                               frá handritinu til skráningar <date when="1887-06-11">11. júní
                                  1887</date>.<bibl>

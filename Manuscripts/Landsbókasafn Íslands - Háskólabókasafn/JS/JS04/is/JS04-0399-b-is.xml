@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,9 +20,9 @@
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
-						<institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+						<institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
 						<repository>Handritasafn</repository>
-						<collection>Handritasafn Jóns Sigurðssonar</collection>
+						<collection key="JS">Handritasafn Jóns Sigurðssonar</collection>
 						<idno>JS 399 b 4to</idno>
 						<altIdentifier type="internal" subtype="PEO">
 							<idno>5290</idno>
@@ -39,7 +39,7 @@
 							<incipit>Faðir vor Kristur fríður hinn hæsti …</incipit>
 							<note>Með hendi <name type="person" key="JonSig004">Jóns Sigurðssonar forseta</name>. 44 blaðsíður.</note>
 							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938
-								<biblScope type="volume">I</biblScope><biblScope type="pages">36</biblScope>.</bibl>
+								<biblScope unit="volume">I</biblScope><biblScope unit="pages">36</biblScope>.</bibl>
 						</msItem>
 						<msItem n="2" defective="false" class="helgkv">
 							<title type="uniform">Náð</title>
@@ -47,7 +47,7 @@
 							<note>Náð, kvæði um Önnu og Maríu meyju.</note>
 							<note>1. skrifað af <name type="person" key="JonSig004">Jóni Sigurðssyni</name> eftir AM 622 4to. 96 blaðsíður.</note>
 							<note>2. skrifað af <name type="person" key="ThoBja002">Þorvaldi Bjarnarsyni</name> eftir AM 622 4to. 39 blaðsíður.</note>
-							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938 <biblScope type="volume">II</biblScope><biblScope type="pages">1</biblScope>.</bibl>
+							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938 <biblScope unit="volume">II</biblScope><biblScope unit="pages">1</biblScope>.</bibl>
 						</msItem>
 						<msItem n="3" defective="false" class="helgkv">
 							<title type="uniform">Meyjadrápa</title>
@@ -55,7 +55,7 @@
 							<note>Skrifað af <name type="person" key="ThoBja002">Þorvaldi Bjarnarsyni</name> eftir AM 713 4to. 60 erindi. 30 blaðsíður.</note>
 							<bibl><ref target="JonThork1888">Jóni Þorkelssyni 1888:87</ref></bibl>
 							<bibl>Finnur Jónsson: <ref target="SkjaldFJ">Den norsk-islandske skjaldedigtning</ref>
-								<biblScope type="volume">BII</biblScope><biblScope type="pages">582-597.</biblScope></bibl>
+								<biblScope unit="volume">BII</biblScope><biblScope unit="pages">582-597.</biblScope></bibl>
 						</msItem>
 						<msItem n="4" defective="false" class="helgkv">
 							<title type="uniform">Postulavísur</title>
@@ -63,7 +63,7 @@
 							<note>Eftir AM 710 4to.</note>
 							<note>Með hendi <name type="person" key="JonSig048">séra Jóns Sigurðssonar á Eyri við Seyðisfjörð (+1781)</name>. 16 blaðsíður.</note>
 							<bibl>Finnur Jónsson: <ref target="SkjaldFJ">Den norsk-islandske skjaldedigtning</ref>
-								<biblScope type="volume">BII</biblScope><biblScope type="pages">559-562.</biblScope></bibl>
+								<biblScope unit="volume">BII</biblScope><biblScope unit="pages">559-562.</biblScope></bibl>
 						</msItem>
 						<msItem n="5" defective="false" class="helgkv">
 							<title type="uniform">Mikaelsflokkur</title>
@@ -79,7 +79,7 @@
 							<note>1. skrifað af <name type="person" key="JonSig004">Jóni Sigurðssyni</name> eftir AM 622 4to. 9 blaðsíður.</note>
 							<note>2. skrifað af <name type="person" key="ThoBja002">Þorvaldi Bjarnarsyni</name> og <name type="person" key="BenGro001">Benedikt Gröndal</name> 
 							eftir AM 622 4to. 7 blaðsíður.</note>
-							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938 <biblScope type="volume">II</biblScope><biblScope type="pages">63</biblScope>.</bibl>
+							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938 <biblScope unit="volume">II</biblScope><biblScope unit="pages">63</biblScope>.</bibl>
 						</msItem>
 						<msItem n="7" defective="false" class="helgkv">
 							<title type="supplied">Maríuvísur</title>
@@ -88,13 +88,13 @@
 							<note>Með hendi <name type="person" key="JonSig004">Jóns Sigurðssonar alþingisforseta</name>. 12 blaðsíður. 19. öld</note>
 							<note>Viðlagt annað eftirrit frá 19. öld (<name type="person" key="SteTho003">Stgr. Thorsteinsson</name>) 7. blaðsíður.</note>
 							<bibl>Finnur Jónsson: <ref target="SkjaldFJ">Den norsk-islandske skjaldedigtning</ref>
-								<biblScope type="volume">BII</biblScope><biblScope type="pages">532-538.</biblScope></bibl>
+								<biblScope unit="volume">BII</biblScope><biblScope unit="pages">532-538.</biblScope></bibl>
 						</msItem>
 						<msItem n="8" defective="false" class="helgkv">
 							<title type="supplied">Hugraun</title>
 							<incipit>Upphaf manndyggða milldu …</incipit>
 							<note>Eftir Finn. Magn. nr. 204. 18 blaðsíður. 18. öld.</note>
-							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938 <biblScope type="volume">II</biblScope><biblScope type="pages">168</biblScope>.</bibl>
+							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938 <biblScope unit="volume">II</biblScope><biblScope unit="pages">168</biblScope>.</bibl>
 						</msItem>
 						<msItem n="9" defective="false" class="helgkv">
 							<title type="supplied">Katrínardrápa</title>
@@ -104,13 +104,13 @@
 							<note>Skrifað af <name type="person" key="ThoBja002">Þorvaldi Bjarnarsyni</name> eftir AM 713 4to. 51 erindi. 25 blaðsíður.</note>
 							<bibl><ref target="JonThork1888">Jóni Þorkelssyni 1888:235</ref></bibl>
 							<bibl>Finnur Jónsson: <ref target="SkjaldFJ">Den norsk-islandske skjaldedigtning</ref>
-								<biblScope type="volume">BII</biblScope><biblScope type="pages">569-582.</biblScope></bibl>
+								<biblScope unit="volume">BII</biblScope><biblScope unit="pages">569-582.</biblScope></bibl>
 						</msItem>
 						<msItem n="10" defective="false" class="helgkv">
 							<title type="uniform">Maríuvísur hinar fyrstu</title>
 							<incipit>Heyr mig bjartast blómstrið mæta …</incipit>
 							<note>Skrifað af <name type="person" key="EirMag002">Eiríki Magnússyni</name> um 1870. 4 blaðsíður.</note>
-							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938 <biblScope type="volume">II</biblScope><biblScope type="pages">76</biblScope>.</bibl>
+							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938 <biblScope unit="volume">II</biblScope><biblScope unit="pages">76</biblScope>.</bibl>
 						</msItem>
 						<msItem n="11" defective="false" class="helgkv">
 							<title type="supplied">Magnúsdiktur Eyjajarls</title>
@@ -124,7 +124,7 @@
 							<note>Maríuflokkur.</note>
 							<note>Skrifað af <name type="person" key="JonSig004">Jóni Sigurðssyni</name> eftir AM 721 4to. 12 blaðsíður.</note>
 							<bibl>Finnur Jónsson: <ref target="SkjaldFJ">Den norsk-islandske skjaldedigtning</ref>
-								<biblScope type="volume">BII</biblScope><biblScope type="pages">538-545.</biblScope></bibl>
+								<biblScope unit="volume">BII</biblScope><biblScope unit="pages">538-545.</biblScope></bibl>
 						</msItem>
 						<msItem n="13" defective="false" class="helgkv">
 							<title type="uniform">Krossþulur</title>
@@ -183,7 +183,7 @@
 							<incipit>Hér vil ég ágætt ævintýr …</incipit>
 							<note>Skrifað af <name type="person" key="JonSig004">Jóni Sigurðssyni</name>. 7 blaðsíður + 1 seðill.</note>
 							<bibl><ref target="JonThork1888">Jóni Þorkelssyni 1888:44</ref>.</bibl>
-							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938 <biblScope type="volume">II</biblScope><biblScope type="pages">90</biblScope>.</bibl>
+							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938 <biblScope unit="volume">II</biblScope><biblScope unit="pages">90</biblScope>.</bibl>
 						</msItem>
 						<msItem n="23" defective="false" class="helgkv">
 							<title type="supplied">Vísur úr Guðmundasögu hins góða</title>
@@ -209,23 +209,23 @@
 							<incipit>Jöfur gefi upphaf …</incipit>
 							<note>Skrifað af <name type="person" key="JonSig004">Jóni Sigurðssyni</name>. 14 blaðsíður.</note>
 							<bibl><ref target="JonThork1888">Jóni Þorkelssyni 1888:98</ref>.</bibl>
-							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938 <biblScope type="volume">II</biblScope><biblScope type="pages">127-8</biblScope>.</bibl>
+							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938 <biblScope unit="volume">II</biblScope><biblScope unit="pages">127-8</biblScope>.</bibl>
 						</msItem>
 						<msItem n="27" defective="false" class="helgkv">
 							<title type="uniform">Ceciliu kvæði</title>
 							<incipit>Guð minn sæti blíðki og bæti …</incipit>
 							<note>Skrifað af <name type="person" key="JonSig004">Jóni Sigurðssyni</name> eftir AM 429 8vo. Um 30 erindi. 8 blaðsíður.</note>
 							<note>Á eftir, á blaðsíðu 9, fylgir eitt erindi af kvæði um Dorotheu hina helgu.</note>
-							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938 <biblScope type="volume">II</biblScope><biblScope type="pages">342, 359</biblScope>.</bibl>
+							<bibl><ref type="primary-1" target="islmidJH-2">Íslenzk miðaldakvæði</ref>, 1938 <biblScope unit="volume">II</biblScope><biblScope unit="pages">342, 359</biblScope>.</bibl>
 							</msItem>
 						<msItem n="28" defective="false" class="helgkv">
 							<title type="uniform">Andreas drápa postula</title>
 							<incipit>Enn kom elsku þinnar …</incipit>
 							<note>Skrifað af <name type="person" key="JonSig004">Jóni Sigurðssyni</name> eftir AM 194 4to. 1 blað.</note>
 							<bibl>Finnur Jónsson: <ref target="SkjaldFJ">Den norsk-islandske skjaldedigtning</ref>
-								<biblScope type="volume">AII</biblScope><biblScope type="pages">508-509.</biblScope></bibl>
+								<biblScope unit="volume">AII</biblScope><biblScope unit="pages">508-509.</biblScope></bibl>
 							<bibl>Finnur Jónsson: <ref target="SkjaldFJ">Den norsk-islandske skjaldedigtning</ref>
-								<biblScope type="volume">BII</biblScope><biblScope type="pages">558-559.</biblScope></bibl>
+								<biblScope unit="volume">BII</biblScope><biblScope unit="pages">558-559.</biblScope></bibl>
 						</msItem>
 						<msItem n="29" defective="false" class="helgkv">
 							<title type="uniform">Harmsól</title>
@@ -285,12 +285,10 @@
 					<history>
 						<origin>
 							<origPlace key="is">Ísland, </origPlace>
-							<origDate cert="medium" notBefore="1700" notAfter="1900"
-							>18. og 19. öld</origDate>.
+							<origDate cert="medium" notBefore="1700" notAfter="1900">18. og 19. öld</origDate>.
 						</origin>
 						<acquisition>
-							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date
-									when="1878">1878.</date> Safnið var afhent Landsbókasafni að
+							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date when="1878">1878.</date> Safnið var afhent Landsbókasafni að
 								honum látnum, en hann lést 7. desember 1879. Það komst í hendur
 								safnsins árið <date when="1881">1881</date> er það var flutt í
 								Alþingishúsið.</p>
@@ -304,8 +302,7 @@
 										<ref target="PEO">Skrá um handritasöfn
 											Landsbókasafnsins</ref>, </bibl> 2. bindi, <ref target="https://baekur.is/bok/000233966/2/572/Skra_um_handritasofn_Bindi_2_Bls_572">bls. 564</ref>. 
 								</p><name type="person" key="GudGud045">Guðrún Laufey
-									Guðmundsdóttir</name> frumskráði, <date
-										when="2019-08-26">26. ágúst 2019</date>.</source>
+									Guðmundsdóttir</name> frumskráði, <date when="2019-08-26">26. ágúst 2019</date>.</source>
 							</recordHist>
 						</adminInfo>
 					</additional>

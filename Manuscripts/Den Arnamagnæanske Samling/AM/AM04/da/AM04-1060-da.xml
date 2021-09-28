@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,7 +14,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 1060 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>2192</idno>
@@ -33,25 +35,11 @@
                      <title type="supplied" xml:lang="is">Íslenzk söguhandrit</title>
                      <title type="parallel" xml:lang="da">Katalog over sagahåndskrifter</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <note>Katalog over sagahåndskrifter, udarbejdet af <name type="person"
-                           key="PalPal004">Pálmi Pálsson</name> efter <name type="person"
-                           key="JonSig004">Jón Sigurðsson</name>s katalog, <ref type="ms"
-                           target="AM04-1059-da">AM 1059 4to</ref>. Med <name type="person"
-                           key="JonTho010">Jón Þorkelsson</name>s rettelser og tilføjelser.
-                        Kataloget behandler håndskrifter fra <name type="org" xml:lang="da"
-                           key="AMS">Den Arnamagnæanske Samling</name> i <name type="place"
-                           key="Copen01">København</name> (nu også i <name type="org"
-                           key="Arnastofnun">Stofnun Árna Magnússonar á Íslandi</name> i <name
-                           type="place" key="Reykj01">Reykjavík</name>), <name type="org"
-                           key="KungBib">Kungliga Biblioteket</name> i <name type="place"
-                           key="Stock01">Stockholm</name>, <name type="org" key="UUB">Uppsala
+                     <note>Katalog over sagahåndskrifter, udarbejdet af <name type="person" key="PalPal004">Pálmi Pálsson</name> efter <name type="person" key="JonSig004">Jón Sigurðsson</name>s katalog, <ref type="ms" target="AM04-1059-da">AM 1059 4to</ref>. Med <name type="person" key="JonTho010">Jón Þorkelsson</name>s rettelser og tilføjelser.
+                        Kataloget behandler håndskrifter fra <name type="org" xml:lang="da" key="AMS">Den Arnamagnæanske Samling</name> i <name type="place" key="Copen01">København</name> (nu også i <name type="org" key="Arnastofnun">Stofnun Árna Magnússonar á Íslandi</name> i <name type="place" key="Reykj01">Reykjavík</name>), <name type="org" key="KungBib">Kungliga Biblioteket</name> i <name type="place" key="Stock01">Stockholm</name>, <name type="org" key="UUB">Uppsala
                            universitetsbibliotek</name>, <name type="org" key="AdvLib">The Advocates
-                           Library</name> i <name type="place" key="Edinb01">Edinburgh</name>, <name
-                           type="org" key="Britmus">British Museum</name> i <name type="place"
-                           key="Londo01">London</name> (nu flyttet til <name type="org" key="BL"
-                           >British Library</name>), <name type="org" key="BodleyOx">Bodleian
-                           Library</name> i <name type="place" key="Oxfor01">Oxford</name>, <name
-                           type="org" key="IS-Land">Landsbókasafn Íslands</name> og andre
+                           Library</name> i <name type="place" key="Edinb01">Edinburgh</name>, <name type="org" key="Britmus">British Museum</name> i <name type="place" key="Londo01">London</name> (nu flyttet til <name type="org" key="BL">British Library</name>), <name type="org" key="BodleyOx">Bodleian
+                           Library</name> i <name type="place" key="Oxfor01">Oxford</name>, <name type="org" key="IS-Land">Landsbókasafn Íslands</name> og andre
                         biblioteker i Reykjavík. Indrettet til lejlighedsvis at forøges.</note>
                   </msItem>
                </msContents>
@@ -71,9 +59,7 @@
                </physDesc>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
-                           type="volume">II</biblScope><biblScope type="pages"
-                        >319</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">319</biblScope></bibl>
                   </listBibl>
                </additional>
 

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 946 a-e 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>2078</idno>
@@ -35,13 +35,7 @@
                               (<dimensions type="leaf" unit="mm" scope="all">
                               <height>275</height>
                               <width>223</width>
-                           </dimensions>); (a) blöð <locus from="26r" to="26v">26</locus> og <locus
-                              from="48v" to="48v">48v</locus> eru auð og blað <locus from="48r"
-                              to="48r">48r</locus> er autt að mestu leyti; (b) blöð <locus
-                              from="11v" to="14v">11v-12v</locus> eru auð; (c) blöð <locus
-                              from="39v" to="40v">39v-40v</locus> eru auð; (d) blöð <locus
-                              from="50r" to="52v">50r-52v</locus> eru auð; (e) blað <locus
-                              from="36r" to="36v">36</locus> er autt að mestu leyti.</extent>
+                           </dimensions>); (a) blöð <locus from="26r" to="26v">26</locus> og <locus from="48v" to="48v">48v</locus> eru auð og blað <locus from="48r" to="48r">48r</locus> er autt að mestu leyti; (b) blöð <locus from="11v" to="14v">11v-12v</locus> eru auð; (c) blöð <locus from="39v" to="40v">39v-40v</locus> eru auð; (d) blöð <locus from="50r" to="52v">50r-52v</locus> eru auð; (e) blað <locus from="36r" to="36v">36</locus> er autt að mestu leyti.</extent>
                      </supportDesc>
                   </objectDesc>
 
@@ -78,8 +72,7 @@
                      <p>
                         <list>
                            <item>Þessar fimm uppskriftir eru skrifaðar í <origPlace key="Copen01">Kaupmannahöfn</origPlace>
-                              <!-- er þetta skr. á Íslandi eða í Danmörku --> fyrir <name type="org"
-                                 >Det Arnamagnæanske legat </name>(Árnasjóð) og eru tímasettar til
+                              <!-- er þetta skr. á Íslandi eða í Danmörku --> fyrir <name type="org">Det Arnamagnæanske legat </name>(Árnasjóð) og eru tímasettar til
                               19. aldar í <bibl>
                                  <ref target="KKKat">Katalog (II) 1894:271</ref>
                               </bibl>, en hafa allar verið gerðar á árunum <origDate notBefore="1800" notAfter="1883">ca 1800-1883.</origDate></item>
@@ -90,9 +83,7 @@
                   <provenance>
                      <p>
                         <list>
-                           <item>Handritið kom á Det Arnamagnæanske Institut frá <name type="org"
-                                 >Det Kongelige Nordiske Oldskrift-Selskab</name> árið <date
-                                 when="1883">1883</date>.</item>
+                           <item>Handritið kom á Det Arnamagnæanske Institut frá <name type="org">Det Kongelige Nordiske Oldskrift-Selskab</name> árið <date when="1883">1883</date>.</item>
                         </list>
                      </p>
                   </provenance>
@@ -143,9 +134,9 @@
                </additional>
 
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 946 a 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents class="samt" defective="false">
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem>
@@ -166,8 +157,7 @@
                                  <width>224</width>
                                  <!-- ath milliblað? innskotsblað? forsíða? -->
                               </dimensions>). Blað <locus from="26r" to="26v">26</locus> er autt;
-                              sömuleiðis blað <locus from="48v" to="48v">48v</locus> og blað <locus
-                                 from="48r" to="48r">48r</locus> að mestu.</extent>
+                              sömuleiðis blað <locus from="48v" to="48v">48v</locus> og blað <locus from="48r" to="48r">48r</locus> að mestu.</extent>
                            <foliation>
                               <p>
                                  <list>
@@ -202,8 +192,7 @@
                                        </dimensions>.).</item>
                                     <item>Línufjöldi er ca 15.</item>
                                     <item>Textaflötur nær aðeins yfir ca hálft blað; fyrir neðan
-                                       hann eru skráð lesbrigði (sjá t.d. blöð <locus
-                                          from="43v" to="44r">43v-44r</locus>).</item>
+                                       hann eru skráð lesbrigði (sjá t.d. blöð <locus from="43v" to="44r">43v-44r</locus>).</item>
                                     <item>Strikað hefur verið fyrir ytri spássíu með blýanti (sjá
                                        t.d. blöð <locus from="27v" to="28r">27v-28r</locus>).</item>
                                     <item>Kaflatal 1-22.</item>
@@ -279,9 +268,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 946 b 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem class="islt" defective="false">
@@ -299,16 +288,13 @@
                            <extent>i + 12 blöð (<dimensions type="leaf" unit="mm" scope="all">
                                  <height>278</height>
                                  <width>224</width>
-                              </dimensions>). Fremra blað <locus from="accMat01r" to="accMat01r"
-                                 >tvíblöðungs</locus> á milli blaða <locus from="10v" to="11r"
-                                 >10v-11r</locus> sem í handriti er blaðsíðumerkt númer 21 er í Katalog
+                              </dimensions>). Fremra blað <locus from="accMat01r" to="accMat01r">tvíblöðungs</locus> á milli blaða <locus from="10v" to="11r">10v-11r</locus> sem í handriti er blaðsíðumerkt númer 21 er í Katalog
                               (II) 1894:271 talið sem blað 11 en ekki sem seðill eins og hér er gert
                               (sjá fylgigögn).</extent>
                            <foliation>
                               <p>
                                  <list>
-                                    <item>Blaðsíðumerkt 1-20 (<locus from="accMat01r"
-                                       to="accMat01r">seðill</locus> er ranglega inni í blaðsíðutali). Blaðsíður 21 og 22 eru
+                                    <item>Blaðsíðumerkt 1-20 (<locus from="accMat01r" to="accMat01r">seðill</locus> er ranglega inni í blaðsíðutali). Blaðsíður 21 og 22 eru
                                        ómerktar.</item>
                                  </list>
                               </p>
@@ -334,8 +320,7 @@
                                        </dimensions>.</item>
                                     <item>Línufjöldi er ca 15.</item>
                                     <item>Textaflötur nær aðeins yfir ca hálft blað; fyrir neðan
-                                       hann eru skráð lesbrigði (sjá t.d. blöð <locus
-                                          from="2v" to="3r">2v-3r</locus>). </item>
+                                       hann eru skráð lesbrigði (sjá t.d. blöð <locus from="2v" to="3r">2v-3r</locus>). </item>
                                     <item>Hugsanlega hefur verið brotið upp á blöð til að afmarka
                                        leturflöt við ytri spássíu.</item>
                                     <item>Kaflatal 1-4.</item>
@@ -355,8 +340,7 @@
                      <additions>
                         <p>
                            <list>
-                              <item>Athugasemdir á spássíum á stöku stað (sbr. t.d. <locus from="3r"
-                                    to="3r">3r</locus>).</item>
+                              <item>Athugasemdir á spássíum á stöku stað (sbr. t.d. <locus from="3r" to="3r">3r</locus>).</item>
                            </list>
                         </p>
                      </additions>
@@ -374,8 +358,7 @@
                            <list>
                               <item>Handritið er skrifað í <origPlace key="Copen01">Kaupmannahöfn</origPlace>
                                  eftir <ref target="AM02-0132" type="ms">AM 132 fol.</ref> fyrir Det
-                                 Arnamagnæanske legat (Árnasjóð) (sbr. <locus from="accMat01r"
-                                    to="accMat01r">seðil</locus>). Uppskriftin er tímasett til 19.
+                                 Arnamagnæanske legat (Árnasjóð) (sbr. <locus from="accMat01r" to="accMat01r">seðil</locus>). Uppskriftin er tímasett til 19.
                                        aldar í <bibl>
                                     <ref target="KKKat">Katalog (II) 1894:271</ref>
                                        </bibl>, en hefur verið gerð á árunum ca <origDate notBefore="1800" notAfter="1883">1800-1883.</origDate></item>
@@ -407,9 +390,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 946 c 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem class="isl" defective="false">
@@ -456,8 +439,7 @@
                            <condition>
                               <list>
                                  <item>Blekið sem notað er við ritun lesbrigða hefur smitast yfir á
-                                    blaðið á móti (sjá t.d. blöð <locus from="22v" to="23r"
-                                    >22v-23r</locus>).</item>
+                                    blaðið á móti (sjá t.d. blöð <locus from="22v" to="23r">22v-23r</locus>).</item>
                               </list>
                            </condition>
 
@@ -473,13 +455,11 @@
                                        </dimensions>.</item>
                                     <item>Línufjöldi er ca 15.</item>
                                     <item>Textaflötur nær aðeins yfir ca hálft blað; fyrir neðan
-                                       hann eru skráð lesbrigði (sjá t.d. blöð <locus
-                                          from="18v" to="19r">18v-19r</locus>). </item>
+                                       hann eru skráð lesbrigði (sjá t.d. blöð <locus from="18v" to="19r">18v-19r</locus>). </item>
                                     <item>Hugsanlega hefur verið brotið upp á blöð til að afmarka
                                        leturflöt við ytri spássíu.</item>
                                     <item>Kaflatal 1-12.</item>
-                                    <item>Vísuorð eru sér um línu (sjá t.d. blöð <locus from="37v"
-                                          to="38r">37v-38r</locus>).</item>
+                                    <item>Vísuorð eru sér um línu (sjá t.d. blöð <locus from="37v" to="38r">37v-38r</locus>).</item>
                                  </list>
                               </p>
                            </layout>
@@ -510,8 +490,7 @@
                            <list>
                               <item>Handritið er skrifað í <origPlace key="Copen01">Kaupmannahöfn</origPlace> og
                                  er uppskrift eftir <ref target="AM02-0132" type="ms">AM 132 fol.
-                                 </ref> (sbr. athugagrein á blaði <locus from="1r" to="1r"
-                                 >1r</locus>). Uppskriftin er gerð fyrir Det Arnamagnæanske legat
+                                 </ref> (sbr. athugagrein á blaði <locus from="1r" to="1r">1r</locus>). Uppskriftin er gerð fyrir Det Arnamagnæanske legat
                                  (Árnasjóð). Það er tímasett til 19. aldar í <bibl>
                                     <ref target="KKKat">Katalog (II) 1894:271</ref>
                                  </bibl>, en uppskriftin hefur verið gerð á árunum <origDate notBefore="1800" notAfter="1883">ca
@@ -542,9 +521,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 946 d 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem class="isl" defective="false">
@@ -604,13 +583,11 @@
                                        </dimensions>.</item>
                                     <item>Línufjöldi er ca 15.</item>
                                     <item>Textaflötur nær aðeins yfir ca hálft blað; fyrir neðan
-                                       hann er gert ráð fyrir lesbrigðum (sjá t.d. blöð <locus
-                                          from="1v" to="2r">1v-2r</locus>). </item>
+                                       hann er gert ráð fyrir lesbrigðum (sjá t.d. blöð <locus from="1v" to="2r">1v-2r</locus>). </item>
                                     <item>Hugsanlega hefur verið brotið upp á blöð til að afmarka
                                        leturflöt við ytri spássíu.</item>
                                     <item>Kaflatal: 1-17.</item>
-                                    <item>Vísuorð eru sér um línu (sjá t.d. blað <locus from="49v"
-                                          to="49v">49v</locus>).</item>
+                                    <item>Vísuorð eru sér um línu (sjá t.d. blað <locus from="49v" to="49v">49v</locus>).</item>
                                  </list>
                               </p>
                            </layout>
@@ -628,9 +605,7 @@
                      <additions>
                         <p>
                            <list>
-                              <item>Athugasemdir eru  víða á spássíum (sjá t.d. blöð <locus from="5r" to="5r">5r</locus> og <locus
-                                 from="19v" to="19v">19v</locus>). Á <locus
-                                    from="accMat03r" to="accMat03r">seðli (3r)</locus> eru
+                              <item>Athugasemdir eru  víða á spássíum (sjá t.d. blöð <locus from="5r" to="5r">5r</locus> og <locus from="19v" to="19v">19v</locus>). Á <locus from="accMat03r" to="accMat03r">seðli (3r)</locus> eru
                                  útskýringar á því sem fer á spássíur en þar stendur: <q>Hvor der
                                     forekom ord som formodedes at være urigtig skrevne, ere disse
                                     rettede i afskriften, men papiirshaandskriftets eller membranens
@@ -644,8 +619,7 @@
                         <p>
                            <list>
                               <item>Þrír <locus from="accMat01r" to="accMat04v">seðlar</locus>
-                                 (fjórblöðungur, skrifað á þrjú blöð) fremst (á milli <locus
-                                    from="0001v-FFl" to="0001v-FFl">saurblaðs</locus> og blaðs
+                                 (fjórblöðungur, skrifað á þrjú blöð) fremst (á milli <locus from="0001v-FFl" to="0001v-FFl">saurblaðs</locus> og blaðs
                                     <locus from="1r" to="1r">1r</locus>), með upplýsingum um
                                  forritin.</item>
                            </list>
@@ -672,8 +646,7 @@
                      <!--Um tímasetningu sjá ópr. skrá SÁM -->
                      <provenance>
                         <p><list><item>Handritið kom á Det Arnamagnæanske Institut í Kaupmannahöfn frá Det
-                           Kongelige Nordiske Oldskrift-Selskab árið <date when="1883"
-                              >1883</date>.</item></list></p>
+                           Kongelige Nordiske Oldskrift-Selskab árið <date when="1883">1883</date>.</item></list></p>
                      </provenance>
                   </history>
                   <additional>
@@ -695,9 +668,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 946 e 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
 
                   <!-- <title type="uniform">Droplaugarsona saga</title>
 <origPlace>Ísland</origPlace>
@@ -761,13 +734,11 @@
                                        </dimensions>.</item>
                                     <item>Línufjöldi er ca 15-16.</item>
                                     <item>Textaflötur nær aðeins yfir ca hálft blað; fyrir neðan
-                                       hann eru skráð lesbrigði (sjá t.d. blöð <locus
-                                          from="18v" to="19r">18v-19r</locus>. </item>
+                                       hann eru skráð lesbrigði (sjá t.d. blöð <locus from="18v" to="19r">18v-19r</locus>. </item>
                                     <item>Hugsanlega hefur verið brotið upp á blöð til að afmarka
                                        leturflöt við ytri spássíu.</item>
                                     <item>Kaflatal: 1-12.</item>
-                                    <item>Vísuorð eru sér um línu (sjá t.d. blöð <locus from="30v"
-                                          to="31r">30v-31r</locus>).</item>
+                                    <item>Vísuorð eru sér um línu (sjá t.d. blöð <locus from="30v" to="31r">30v-31r</locus>).</item>
                                  </list>
                               </p>
                            </layout>
@@ -785,8 +756,7 @@
                      <additions>
                         <p>
                            <list>
-                              <item>Athugasemdir og leiðréttingar á spássíu (sjá t.d. blöð <locus
-                                    from="20v" to="21r">20v-21r</locus>).</item>
+                              <item>Athugasemdir og leiðréttingar á spássíu (sjá t.d. blöð <locus from="20v" to="21r">20v-21r</locus>).</item>
                            </list>
                         </p>
                      </additions>
@@ -799,8 +769,7 @@
                            <list>
                               <item>Handritið er skrifað í <origPlace key="Copen01">Kaupmannahöfn</origPlace> og
                                  er uppskrift eftir <ref target="AM02-0132" type="ms">AM 132 fol.
-                                 </ref> (sbr. athugagrein á blaði <locus from="1r" to="1r"
-                                 >1r</locus>). Uppskriftin er gerð fyrir Det Arnamagnæanske legat
+                                 </ref> (sbr. athugagrein á blaði <locus from="1r" to="1r">1r</locus>). Uppskriftin er gerð fyrir Det Arnamagnæanske legat
                                  (Árnasjóð). Það er tímasett til19. aldar í <bibl>
                                     <ref target="KKKat">Katalog (II) 1894:271</ref>
                                  </bibl>, en uppskriftin hefur verið gerð á árunum  <origDate notBefore="1800" notAfter="1883">ca
@@ -811,8 +780,7 @@
                      <!--Um tímasetningu sjá ópr. skrá SÁM -->
                      <provenance>
                         <p>Handritið kom á Det Arnamagnæanske Institut í Kaupmannahöfn frá Det
-                           Kongelige Nordiske Oldskrift-Selskab árið <date when="1883"
-                        >1883</date>.</p>
+                           Kongelige Nordiske Oldskrift-Selskab árið <date when="1883">1883</date>.</p>
                      </provenance>
                   </history>
                   

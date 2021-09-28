@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -15,7 +15,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 307 fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>462</idno>
@@ -33,8 +35,7 @@
                      <title type="supplied" xml:lang="da">Kong Magnus lagabøters norske
                         landslov</title>
                      <textLang mainLang="no">Norrønt/norsk</textLang>
-                     <note>Med slutnings-retterbøder og epilog til <title type="uniform"
-                           >Borgarþingslög</title> (<date when="1274">1274</date>).</note>
+                     <note>Med slutnings-retterbøder og epilog til <title type="uniform">Borgarþingslög</title> (<date when="1274">1274</date>).</note>
                   </msItem>
                   <msItem n="2" class="log">
                      <locus from="64v" to="72v">64va-72vb</locus>
@@ -43,8 +44,8 @@
                      <textLang mainLang="no">Norrønt/norsk</textLang>
                      <bibl>Keyser og Munch: <ref type="primary" target="NgL2">Norges gamle
                            Love</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">185-274:2, 287-288</biblScope>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">185-274:2, 287-288</biblScope>
                      </bibl>
                   </msItem>
                </msContents>
@@ -60,13 +61,10 @@
                               <height>255</height>
                               <width>183</width>
                            </dimensions>.</extent>
-                        <foliation>Håndskriftet er med en hånd fra <date notBefore="1600"
-                              notAfter="1699">1600-tallet</date> folieret 1-72 med undtagelse af bl.
-                           7 og bl. 51, som allerede manglede på <name type="person" key="ArnMag001"
-                              >Arne Magnusson</name>s tid.</foliation>
+                        <foliation>Håndskriftet er med en hånd fra <date notBefore="1600" notAfter="1699">1600-tallet</date> folieret 1-72 med undtagelse af bl.
+                           7 og bl. 51, som allerede manglede på <name type="person" key="ArnMag001">Arne Magnusson</name>s tid.</foliation>
                         <condition>Håndskriftet har lakuner ved begyndelsen og slutningen, og bl. 7
-                           og 51 mangler. Defekterne er fremhævede af <name type="person"
-                              key="ArnMag001">Arne Magnusson</name> ved påtegning på det nærmest
+                           og 51 mangler. Defekterne er fremhævede af <name type="person" key="ArnMag001">Arne Magnusson</name> ved påtegning på det nærmest
                            foregående eller følgende blad.</condition>
                      </supportDesc>
                      <layoutDesc>
@@ -77,42 +75,38 @@
                   <additions>Enkelte marginal-antegnelser.</additions>
                </physDesc>
                <history>
-                  <origin>Skrevet i <origPlace>Norge</origPlace>. <name type="person"
-                        key="KriKaa001">Kålund</name> (<bibl>
+                  <origin>Skrevet i <origPlace>Norge</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl>
                         <ref type="secondary-1" target="KKKat"/>
-                     </bibl>) har dateret håndskriftet til <origDate notBefore="1300"
-                        notAfter="1399" cert="medium">1300-tallet</origDate>, mens <name type="person"
-                        key="JonSig004">Jón Sigurðsson</name> (<bibl>
+                     </bibl>) har dateret håndskriftet til <origDate notBefore="1300" notAfter="1399" cert="medium">1300-tallet</origDate>, mens <name type="person" key="JonSig004">Jón Sigurðsson</name> (<bibl>
                         <ref target="DiplIsl"/>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">xxi</biblScope>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">xxi</biblScope>
                      </bibl>) og <name type="person" key="MarHae001">Hægstad</name> (<bibl>
                         <ref type="secondary" target="MarHæg1917"/>
-                        <biblScope type="volume">35</biblScope>
-                     </bibl>) begge har dateret det mere præcist til <origDate notBefore="1340"
-                        notAfter="1360" cert="high">ca. 1350</origDate>
+                        <biblScope unit="volume">35</biblScope>
+                     </bibl>) begge har dateret det mere præcist til <origDate notBefore="1340" notAfter="1360" cert="high">ca. 1350</origDate>
                   </origin>
                </history>
                <additional>
                   <listBibl>
                      <bibl>Hægstad: <ref type="secondary" target="MarHæg1917">Indre sudvestlandsk /
                            Færøymaal / Islandsk</ref>
-                        <biblScope type="volume">35</biblScope>
+                        <biblScope unit="volume">35</biblScope>
                      </bibl>
                      <bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium Islandicum</ref>
-                        <biblScope type="volume">I</biblScope>
+                        <biblScope unit="volume">I</biblScope>
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">259</biblScope>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">259</biblScope>
                      </bibl>
                      <bibl>
                         <ref target="Gthl">Magnus Konongs Laga-Bæters Gula-things-laug</ref>
                         <!-- primær eller sekundær litteratur? -->
                      </bibl>
                      <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
-                        <biblScope type="volume">IV</biblScope>
-                        <biblScope type="pages">482-483</biblScope>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="pages">482-483</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

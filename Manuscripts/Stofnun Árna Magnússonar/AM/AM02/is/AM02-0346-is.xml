@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 346 fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>504</idno>
@@ -24,8 +25,7 @@
                <head>
                   <title type="supplied">Lögbók</title>
                   <origPlace>Ísland</origPlace>
-                  <origDate notBefore="1340" notAfter="1360" evidence="external"
-                     >c1340-1360</origDate>
+                  <origDate notBefore="1340" notAfter="1360" evidence="external">c1340-1360</origDate>
                   <!--<lang>Íslenska</lang>--><note/>
                </head>
                <msContents>
@@ -67,10 +67,8 @@
                   <msItem n="6" class="log">
                      <locus from="85r" to="85r">85r</locus>
                      <title type="supplied">Lagaformálar</title>
-                     <note>Formálar um setningu og slit héraðsþings og um útnefningu <name
-                           key="EirTor001" type="person">Eiríks Torfasonar</name>, umboðsmanns
-                        konungs milli Hvítár og Hítarár, á lögréttumanni. Viðbót frá <date
-                           from="1500" to="1525">upphafi 16. aldar</date>.</note>
+                     <note>Formálar um setningu og slit héraðsþings og um útnefningu <name key="EirTor001" type="person">Eiríks Torfasonar</name>, umboðsmanns
+                        konungs milli Hvítár og Hítarár, á lögréttumanni. Viðbót frá <date from="1500" to="1525">upphafi 16. aldar</date>.</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -123,8 +121,7 @@
                   <additions>
                      <p>
                         <list>
-                           <item>Bl. 85, upprunalega spjaldblað í eldra bandi, skrifað í <date
-                                 from="1500" to="1525">upphafi 16. aldar</date> á rektósíðu.</item>
+                           <item>Bl. 85, upprunalega spjaldblað í eldra bandi, skrifað í <date from="1500" to="1525">upphafi 16. aldar</date> á rektósíðu.</item>
                            <item>Viðbætur með hendi <name key="ArnMag001" type="person">Árna
                                  Magnússonar</name> á ýmsum stöðum.</item>
                            <!-- Ath. bl.töl -->
@@ -159,8 +156,7 @@
                                  í tóft eða naust og kemur ... til staðar er á þá skulu hinir út
                                  draga skip sitt. Nú vilja þeir eigi út draga skip sitt. Bæti fullu
                                  landnámi sem sá er.</quote></item>
-                           <item n="2">Pappírsblað í fólíó, skrifað fyrir <name key="GriTho001"
-                                 type="person">Thorkelin</name> og undirritað af honum.</item>
+                           <item n="2">Pappírsblað í fólíó, skrifað fyrir <name key="GriTho001" type="person">Thorkelin</name> og undirritað af honum.</item>
                         </list>
                      </p>
                   </accMat>
@@ -176,8 +172,7 @@
                   <provenance>
                      <p>
                         <name key="ArnMag001" type="person">Árni Magnússon</name> fékk bókina frá
-                           <name key="BjoJon007" type="person">Birni Jónssyni</name> að <name
-                           type="person">Staðarfelli</name> árið <date when="1685">1685</date> (sbr.
+                           <name key="BjoJon007" type="person">Birni Jónssyni</name> að <name type="person">Staðarfelli</name> árið <date when="1685">1685</date> (sbr.
                            <ref xml:id="AM04-0435a">AM 435 a 4to</ref>, bl. 182v (útg. bls. 60).</p>
                   </provenance>
                   <acquisition notBefore="1981-06-05" notAfter="1981-06-05">
@@ -190,10 +185,7 @@
                         <source>
                            <p>Tekið eftir <bibl>
                                  <ref target="KKKat">Katalog I</ref>
-                              </bibl>, bls. 281-282 (nr. 504). <name key="KriKaa001" type="person"
-                                 >Kålund</name> gekk frá handritinu til skráningar í <date
-                                 when="1886-01">janúar 1886</date>. <name key="DriThr001"
-                                 type="person">DKÞ</name> skráði <date when="2002-07-19">19. júlí
+                              </bibl>, bls. 281-282 (nr. 504). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar í <date when="1886-01">janúar 1886</date>. <name key="DriThr001" type="person">DKÞ</name> skráði <date when="2002-07-19">19. júlí
                                  2002</date>.</p>
                         </source>
                      </recordHist>
@@ -210,13 +202,12 @@
                            <item>Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
                               Kaupmannahöfn.</item>
                            <item>Svart-hvítar ljósmyndir á Stofnun Árna Magnússonar á Íslandi, sem
-                              keypti þær af <name type="person">Arne Mann Nielsen</name> í <date
-                                 when="1973-01">janúar 1973</date>.</item>
+                              keypti þær af <name type="person">Arne Mann Nielsen</name> í <date when="1973-01">janúar 1973</date>.</item>
                         </list>
                      </p>
                   </surrogates>
                   <listBibl>
-                     <bibl>. 857, <ref target="unknown02"></ref></bibl>
+                     <bibl>. 857, <ref target="unknown02"/></bibl>
                      <bibl>Aðalheiður Guðmundsdóttir 2017, <ref target="AðaGuð2017a">Some heroic motifs in Icelandic art</ref></bibl>
                      <bibl>Bekker-Nielsen, H. 1960, <ref target="HanBek1960">Et brudstykke af Kongespejlet: Med bemærkninger om indholdet af AM 668,4°</ref></bibl>
                      <bibl>Drechsler, S. A. 2017, <ref target="SteDre2017a">Illuminated manuscript production in western Iceland in the thirteenth and early fourteeth centuries</ref></bibl>

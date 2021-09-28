@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -15,7 +15,9 @@
                     <msIdentifier>
                         <country>Danmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 417 12mo</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2497</idno>
@@ -55,8 +57,7 @@
                                     fugle.</p>
                             </decoNote>
                             <decoNote type="mixed">
-                                <p>På bl. 34v er der en miniature af <term type="motive"
-                                        >Treenigheden</term>. I en udsmykket ramme.</p>
+                                <p>På bl. 34v er der en miniature af <term type="motive">Treenigheden</term>. I en udsmykket ramme.</p>
                             </decoNote>
                             <decoNote type="mixed">
                                 <p>Bl. 62v har en miniature af St. Anna og Jomfru Maria med
@@ -72,19 +73,14 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1460" notAfter="1470" cert="high" evidence="conjecture" resp="CHD">
-                            <p>Håndskriftet er skrevet i <name type="place">Tyskland</name>. <name
-                                    type="person" key="KriKaa001">Kålund</name> (<bibl>
+                            <p>Håndskriftet er skrevet i <name type="place">Tyskland</name>. <name type="person" key="KriKaa001">Kålund</name> (<bibl>
                                     <ref type="secondary-1" target="KKKat">Katalog</ref>
-                                    <biblScope type="volume">II</biblScope>
-                                    <biblScope type="pages">475</biblScope>
-                                </bibl>) har dateret det til <origDate notBefore="1400"
-                                    notAfter="1499" cert="medium" evidence="conjecture" resp="KKKat"
-                                    >1400-tallet</origDate>, mens en gruppe forskere fra <name
-                                    type="org">Center for Håndskriftstudier i Danmark</name> (<bibl>
+                                    <biblScope unit="volume">II</biblScope>
+                                    <biblScope unit="pages">475</biblScope>
+                                </bibl>) har dateret det til <origDate notBefore="1400" notAfter="1499" cert="medium" evidence="conjecture" resp="KKKat">1400-tallet</origDate>, mens en gruppe forskere fra <name type="org">Center for Håndskriftstudier i Danmark</name> (<bibl>
                                     <ref target="CHD1997-2007">Late Medieval and Renaissance
                                         Illuminated Manuscripts</ref>
-                                </bibl>) senere har dateret det mere præcist til <origDate
-                                    notBefore="1460" notAfter="1470">ca. 1460/1470</origDate>
+                                </bibl>) senere har dateret det mere præcist til <origDate notBefore="1460" notAfter="1470">ca. 1460/1470</origDate>
                             </p>
                         </origin>
                     </history>
@@ -92,8 +88,7 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Katalogiseret af <name type="person" key="AnnSee001"
-                                            >AWS</name>
+                                    <p>Katalogiseret af <name type="person" key="AnnSee001">AWS</name>
                                         <date when="2000-04-07">7. april 2000</date>.</p>
                                 </source>
                             </recordHist>
@@ -124,8 +119,8 @@
                         </surrogates>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                                <biblScope type="volume">II</biblScope>
-                                <biblScope type="pages">475</biblScope>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">475</biblScope>
                             </bibl>
                             <bibl xml:id="CHD1997-2007" type="electronic">
                                 <title>Late Medieval and Renaissance Illuminated Manuscripts: Books

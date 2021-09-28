@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,7 +14,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 896 4to</idno>
                   <altIdentifier type="former">
                      <idno>Addit. 271 4to</idno>
@@ -26,8 +28,7 @@
 
                <head>
                   <title type="supplied">Om forholdene i Norge, Bergens bykrønike og viser</title>;
-                     <origPlace>Norge eller Tyskland</origPlace>, <origDate notBefore="1600"
-                     notAfter="1650">s. XVII 1/2</origDate>.</head>
+                     <origPlace>Norge eller Tyskland</origPlace>, <origDate notBefore="1600" notAfter="1650">s. XVII 1/2</origDate>.</head>
 
                <msContents>
                   <msItem n="1">
@@ -44,12 +45,11 @@
                      <textLang mainLang="de">Tysk</textLang>
                      <rubric>Cronica oder aber Kürtze <lb/>
                         <choice>
-                           <sic>Histori&#x17F;cher</sic>
-                        </choice> aufzeinung vndt Bericht, <lb/> Von erbawung, Item ab: vndt Zu<lb
-                           rend="hyphenated"/>nehmung der Stadt Bergen in Norwegen. Dabey das ferner
+                           <sic>Historiſcher</sic>
+                        </choice> aufzeinung vndt Bericht, <lb/> Von erbawung, Item ab: vndt Zu<lb rend="hyphenated"/>nehmung der Stadt Bergen in Norwegen. Dabey das ferner
                         mel<lb/>dung vndt bericht von anfang <lb/> vndt Zuwachsung des itzo <lb/>
-                        &#x17F;tehenden Teütschen <lb/> Cunthors Stücks<lb/>wei&#x17F;e
-                        ge&#x17F;chehen <lb/> &#x17F;oll</rubric>
+                        ſtehenden Teütschen <lb/> Cunthors Stücks<lb/>weiſe
+                        geſchehen <lb/> ſoll</rubric>
                      <note>Tysk oversættelse med tillæg af <name type="person">Mikel
                         Hofnagel</name>s optegnelser til <date when="1622">1622</date>.</note>
                   </msItem>
@@ -63,8 +63,7 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>150. Bl. 1v, 96v, 97v og 150v er ubeskrevne. <dimensions type="leaf"
-                              scope="all">
+                        <extent>150. Bl. 1v, 96v, 97v og 150v er ubeskrevne. <dimensions type="leaf" scope="all">
                               <height>204</height>
                               <width>164</width>
                            </dimensions>.</extent>
@@ -77,8 +76,7 @@
                      en ældre indbinding, beskrevne med <list>
                         <item><q xml:lang="de">Ein Ander Reim</q> om <q xml:lang="de">Pehnix der
                               edle Vogel wert</q> (tysk digt, 2 blade)</item>
-                        <item>Privatoptegnelser af <name
-                              type="person" key="JacJan001">Jacob Jansen</name> på nedertysk (3
+                        <item>Privatoptegnelser af <name type="person" key="JacJan001">Jacob Jansen</name> på nedertysk (3
                            blade). Optegnelserne drejer sig om spillegæld, familiens mærkedage
                            (særlig dødsdage), hovedpunkter af hans eget liv; nogle religiøse
                            optegnelser ere senere overstregede.</item>
@@ -86,33 +84,28 @@
                   <bindingDesc>
                      <binding contemporary="unknown">
                         <p>Bindet var opr. betrukket med beskrevet pergament, der var forsynet med
-                           nodetegn fra et latinsk <term>antiphonarium</term>, nu i <ref type="ms"
-                              >Access. 7b, Hs 44</ref>.</p>
+                           nodetegn fra et latinsk <term>antiphonarium</term>, nu i <ref type="ms">Access. 7b, Hs 44</ref>.</p>
                      </binding>
                   </bindingDesc>
                   <accMat>
-                     <p>Af to foran indklæbede sedler indeholder den ene følgende notits af <name
-                           type="person">Arne Magnusson</name>: <q xml:lang="da">bekommet <date when="1721"
-                              >1721</date> af Monsieur <name type="person" key="JohBro001">Johan Bröger</name></q>. Den anden &#x2014; på
-                        nedertysk fra <date when="1637">1637</date> &#x2014; godtgør en
-                        overdragelse (af dette håndskrift?) fra <name type="person" key="CarMey001"
-                           >Carsten Meyyer</name> til <name type="person" key="JacJan001">Jacob
+                     <p>Af to foran indklæbede sedler indeholder den ene følgende notits af <name type="person">Arne Magnusson</name>: <q xml:lang="da">bekommet <date when="1721">1721</date> af Monsieur <name type="person" key="JohBro001">Johan Bröger</name></q>. Den anden — på
+                        nedertysk fra <date when="1637">1637</date> — godtgør en
+                        overdragelse (af dette håndskrift?) fra <name type="person" key="CarMey001">Carsten Meyyer</name> til <name type="person" key="JacJan001">Jacob
                            Jansen</name>.</p>
                   </accMat>
                </physDesc>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">249-250</biblScope></bibl>
-                     <bibl>Nicolaysen: <ref target="NorMag">Norske Magazin</ref><biblScope
-                        type="volume">II</biblScope><biblScope type="pages">3, 167</biblScope></bibl>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">249-250</biblScope></bibl>
+                     <bibl>Nicolaysen: <ref target="NorMag">Norske Magazin</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">3, 167</biblScope></bibl>
                      <bibl>Suhm:
                         <ref target="PetSuh1771-1776">Samlinger</ref>
-                        <biblScope type="volume">II:1</biblScope>
-                        <biblScope type="pages">1 ff.</biblScope>
-                        <biblScope type="volume">II:2</biblScope>
-                        <biblScope type="pages">126 ff.</biblScope>
+                        <biblScope unit="volume">II:1</biblScope>
+                        <biblScope unit="pages">1 ff.</biblScope>
+                        <biblScope unit="volume">II:2</biblScope>
+                        <biblScope unit="pages">126 ff.</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

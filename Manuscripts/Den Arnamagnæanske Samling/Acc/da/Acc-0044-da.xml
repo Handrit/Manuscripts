@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,7 +14,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="Acc"/>
                   <idno>Acc. 44</idno>
                </msIdentifier>
                <msContents>
@@ -55,15 +57,13 @@
                            Samling</name>.</p></provenance>
                   <acquisition>
                      <p>Overført fra <name type="org" key="KB">Det Kongelige Bibliotek</name> til
-                        <name type="org" key="AMS">Den Arnamagnæanske Samling</name> den <date
-                           when="1942-05-09"/>.</p>
+                        <name type="org" key="AMS">Den Arnamagnæanske Samling</name> den <date when="1942-05-09"/>.</p>
                   </acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Katalogiseret den <date when="2018-11-27"/> af <name type="person"
-                           key="KatKap001">Katarzyna Anna Kapitan</name>.</source>
+                        <source>Katalogiseret den <date when="2018-11-27"/> af <name type="person" key="KatKap001">Katarzyna Anna Kapitan</name>.</source>
                      </recordHist>
                   </adminInfo>
                   <surrogates>
@@ -77,9 +77,9 @@
                   </surrogates>
                </additional>
                <msPart n="1">
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>Acc. 44 I</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <summary>Katalog over dokumenter og breve i Den Arnamagmæanske
                         Samling</summary>
@@ -92,8 +92,7 @@
                         <incipit>1. Þ. S. Dómsbréf þierra Árna Magnússonar og fim<ex>m</ex>
                            <lb/> annarra, er til voru nefndir af Ólafi Jóns<lb/>syni</incipit>
                         <explicit>62. Þ.S. Vitnisburðarbref þeirra Kolbeins Arngrims</explicit>
-                        <note>Bl. 1-14 er blyantsfolieret af <name type="person" key="AgnLot001"
-                           >Agnete Loth</name>, mens bl. 14v-24v, som er ubeskrevne, ikke er
+                        <note>Bl. 1-14 er blyantsfolieret af <name type="person" key="AgnLot001">Agnete Loth</name>, mens bl. 14v-24v, som er ubeskrevne, ikke er
                            folieret.</note>
                      </msItem>
                   </msContents>
@@ -113,9 +112,9 @@
                   </physDesc>
                </msPart>
                <msPart n="2">
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>Acc. 44 II</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="2" class="rimur" defective="true">
                         <locus from="25r" to="29r">15r-29r (bl. 1-5)</locus>
@@ -124,9 +123,7 @@
                            því eigi mansöng slá mæta hallds um lindi</incipit>
                         <explicit>Ønnur voru eyrindi mín <lb/> auðar gefn hin svinna! <lb/> eg þín
                            biðja bauga hlín <lb/> er blómi ert allra kvinna</explicit>
-                        <note>Teksten følger vers I:1-41 i <bibl><ref target="STUAGNL35"
-                           >Rímnasafn</ref><biblScope type="volume">II</biblScope><biblScope
-                              type="pages">288-294</biblScope></bibl>.</note>
+                        <note>Teksten følger vers I:1-41 i <bibl><ref target="STUAGNL35">Rímnasafn</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">288-294</biblScope></bibl>.</note>
                      </msItem>
                      <msItem n="3">
                         <locus from="30r" to="30r">30r:1-30r:9 (bl. 5)</locus>
@@ -145,9 +142,7 @@
                            (sic!) herra <lb/> rickur heyr þú nú henni hæfir ekki skikkian
                            sú</explicit>
                         <!-- Rimnasafn s. 339 (II:31) -->
-                        <note>Teksten følger vers II:21-31 i <bibl><ref target="STUAGNL35"
-                           >Rímnasafn</ref><biblScope type="volume">II</biblScope>, <biblScope
-                              type="pages">339</biblScope></bibl>.</note>
+                        <note>Teksten følger vers II:21-31 i <bibl><ref target="STUAGNL35">Rímnasafn</ref><biblScope unit="volume">II</biblScope>, <biblScope unit="pages">339</biblScope></bibl>.</note>
                      </msItem>
                      <msItem n="5" class="rimur" defective="true">
                         <locus from="32v" to="32v">32v:1-32v:5</locus>
@@ -156,9 +151,7 @@
                         <incipit>Kalleg (sic!) eru þau kvæden flest</incipit>
                         <explicit>af lofa en unga svanna</explicit>
                         <note>Et vers på dette lægs sidste blad er skrevet omvendt i forhold til
-                           resten af teksten. Teksten følger I:1 i <bibl><ref target="STUAGNL35"
-                              >Rímnasafn</ref><biblScope type="volume">II</biblScope>, <biblScope
-                                 type="pages">327</biblScope></bibl>.</note>
+                           resten af teksten. Teksten følger I:1 i <bibl><ref target="STUAGNL35">Rímnasafn</ref><biblScope unit="volume">II</biblScope>, <biblScope unit="pages">327</biblScope></bibl>.</note>
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -175,9 +168,9 @@
                   </physDesc>
                </msPart>
                <msPart n="3">
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>Acc. 44 III</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="6">
                         <locus from="33r" to="34v">33r-34v (bl. 6-7)</locus>

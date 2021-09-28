@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -15,7 +15,9 @@
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 1056 XVIII 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2188</idno>
@@ -34,22 +36,21 @@
                                     <ex>crist</ex>i apostel so<ex>m</ex> thu <lb/>
                                 <supplied reason="damage">haffu</supplied>er megh<ex>et</ex> ælst
                                 /</incipit>
-                            <explicit defective="true">oc hans brud<supplied reason="damage"
-                                    >h</supplied> gaff sech i eet kloster / oc th<ex>e</ex>
+                            <explicit defective="true">oc hans brud<supplied reason="damage">h</supplied> gaff sech i eet kloster / oc th<ex>e</ex>
                                 <supplied reason="damage">r</supplied> bleff hwn døth oc
                                     th<ex>et</ex> ær n<supplied reason="damage">w</supplied>
                                 halfftrydiæhundredhæ aa<supplied reason="damage">r</supplied>
                             </explicit>
                             <bibl>Diderichsen, <ref type="primary-1" target="FragmPD">Fragmenter af
                                     gammeldanske Haandskrifter</ref>
-                                <biblScope type="pages">74-76</biblScope>
+                                <biblScope unit="pages">74-76</biblScope>
                                 <note>P. 75: facsimile of fol. <locus>1r</locus>
                                 </note>
                             </bibl>
                             <bibl>Nielsen: <ref type="primary-1" target="NKirS4">Ny kirkehistoriske
                                     Samlinger</ref>
-                                <biblScope type="volume">IV</biblScope>
-                                <biblScope type="pages">155-156</biblScope>
+                                <biblScope unit="volume">IV</biblScope>
+                                <biblScope unit="pages">155-156</biblScope>
                             </bibl>
 
                         </msItem>
@@ -83,44 +84,37 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1400" notAfter="1499" cert="high" evidence="conjecture">
-                            <p>Written in <origPlace>Denmark</origPlace> in <origDate
-                                    notBefore="1400" notAfter="1499">the fifteenth
+                            <p>Written in <origPlace>Denmark</origPlace> in <origDate notBefore="1400" notAfter="1499">the fifteenth
                                     century</origDate>.</p>
                         </origin>
                         <provenance>
                             <p>Found by archivist <name type="person">O. Nielsen</name> in
-                                Stjernholm estate accounts (<foreign>lensregnskab</foreign>) <date
-                                    when="1651">1651</date>.</p>
+                                Stjernholm estate accounts (<foreign>lensregnskab</foreign>) <date when="1651">1651</date>.</p>
                         </provenance>
                         <acquisition><name type="org" key="SA-Rigs">The Danish National
-                                Archives</name> donated AM 1056 4to this fragments to <name
-                                type="org">The Arnamagnæan Collection.</name> .</acquisition>
+                                Archives</name> donated AM 1056 4to this fragments to <name type="org">The Arnamagnæan Collection.</name> .</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date when="2002-04-15">15.04.2002</date> by <name
-                                            type="person">EW-J</name>. </p>
+                                    <p>Catalogued <date when="2002-04-15">15.04.2002</date> by <name type="person">EW-J</name>. </p>
                                 </source>
                             </recordHist>
                         </adminInfo>
                         <listBibl>
                             <bibl>Diderichsen, <ref type="secondary-1" target="FragmPD">Diderichsen
                                     1937</ref>
-                                <biblScope type="pages">287-292</biblScope>
+                                <biblScope unit="pages">287-292</biblScope>
                             </bibl>
-                            <bibl>Kålund, <ref type="secondary-1" target="KKKat"
-                                    >Katalog</ref><biblScope type="volume">II</biblScope><biblScope
-                                    type="pages">308, 312</biblScope></bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">308, 312</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change>Amended <date when="2004-11-15">15.11.2004</date> by <name type="person"
-                    >JA</name>.</change>
+            <change>Amended <date when="2004-11-15">15.11.2004</date> by <name type="person">JA</name>.</change>
             <change when="2021-09-21" who="EvaWed001">Updated.</change>
         </revisionDesc>
     </teiHeader>

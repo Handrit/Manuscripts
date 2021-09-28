@@ -1,4 +1,4 @@
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,7 +14,9 @@
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>Copenhagen</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 972 A 14 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2014</idno>
@@ -34,8 +36,8 @@
                             <incipit>E vajt ajna Rujmuna</incipit>
                             <explicit>Hon kom til Songar sujla</explicit>
                             <bibl>CCF 27 Bb. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                                <biblScope type="volume">I</biblScope>
-                                <biblScope type="pages">554-558</biblScope>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">554-558</biblScope>
                             </bibl>
                         </msItem>
                     </msContents>
@@ -97,14 +99,12 @@
                         </adminInfo>
                         
                         <listBibl> 
-                            <bibl><ref type="secondary-1" target="KKKat"
-                                       >Katalog</ref>
-			    <biblScope type="volume">II</biblScope>
-			    <biblScope
-                                    type="pages">283</biblScope></bibl>
+                            <bibl><ref type="secondary-1" target="KKKat">Katalog</ref>
+			    <biblScope unit="volume">II</biblScope>
+			    <biblScope unit="pages">283</biblScope></bibl>
                             <bibl><ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                            <biblScope type="volume">VI</biblScope>
-			    <biblScope type="pages">53</biblScope>
+                            <biblScope unit="volume">VI</biblScope>
+			    <biblScope unit="pages">53</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

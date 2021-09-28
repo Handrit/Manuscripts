@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://tei-enrich.googlecode.com/svn/trunk/enrich-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,9 +20,9 @@
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
-						<institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+						<institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
 						<repository>Handritasafn</repository>
-						<collection>Handritasafn Landsbókasafns</collection>
+						<collection key="Lbs">Handritasafn Landsbókasafns</collection>
 						<idno>Lbs 4434 III 8vo</idno>
 					</msIdentifier>
 
@@ -87,10 +87,8 @@
 						</handDesc>
 
 						<decoDesc>
-							<decoNote type="frieze" subtype="tail-piece">Bókahnútur á blaði <locus
-									from="25r" to="25r">25r</locus>.</decoNote>
-							<decoNote type="border">Skrautbekkur á blaði <locus from="25v" to="25v"
-									>25v</locus>.</decoNote>
+							<decoNote type="frieze" subtype="tail-piece">Bókahnútur á blaði <locus from="25r" to="25r">25r</locus>.</decoNote>
+							<decoNote type="border">Skrautbekkur á blaði <locus from="25v" to="25v">25v</locus>.</decoNote>
 						</decoDesc>
 
 						<bindingDesc>
@@ -109,8 +107,7 @@
 						</provenance>
 
 						<acquisition>
-							<name type="person" key="SigSig017">Sigfús Sigmundsson</name> gaf <date
-								when="1983">1983</date>. <note>
+							<name type="person" key="SigSig017">Sigfús Sigmundsson</name> gaf <date when="1983">1983</date>. <note>
 								<p>Gjafatíminn er líkleg ágiskun.</p>
 							</note>
 						</acquisition>
@@ -125,8 +122,7 @@
 							</recordHist>
 							
 							<custodialHist>
-								<custEvent type="conservation" notBefore="1983" notAfter="1994"
-									>Viðgert í Reykjavík einhvern tíma á árabilinu 1983-1994.
+								<custEvent type="conservation" notBefore="1983" notAfter="1994">Viðgert í Reykjavík einhvern tíma á árabilinu 1983-1994.
 								</custEvent>
 							</custodialHist>
 						</adminInfo>

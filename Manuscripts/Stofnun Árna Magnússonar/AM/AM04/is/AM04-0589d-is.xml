@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 589 d 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1486</idno>
@@ -41,8 +41,7 @@
                            <locus from="1r" to="1v">1</locus>.</note>
                      <bibl>
                         <ref target="ASB12" type="secondary-3">AltnSaga-Bibl. 12 1907</ref>.</bibl>
-                     <filiation>Í <ref target="AM02-0181d" type="ms">AM 181 d fol.</ref>, <ref
-                           target="AM02-0181e" type="ms">AM 181 e fol</ref> eru uppskriftir Clarus
+                     <filiation>Í <ref target="AM02-0181d" type="ms">AM 181 d fol.</ref>, <ref target="AM02-0181e" type="ms">AM 181 e fol</ref> eru uppskriftir Clarus
                         sögu eftir þessu handriti (<bibl>
                            <ref target="EIMF11">Loth 1977:15-16</ref>
                         </bibl>).</filiation>
@@ -65,9 +64,7 @@
                      <bibl>
                         <ref target="EA-B20-24">Editiones Arnamagnæanæ B 20
                         1962:79-186</ref>.</bibl>
-                     <filiation>Í <ref target="AM02-0181d" type="ms">AM 181 d fol.</ref>, <ref
-                           target="AM02-0181e" type="ms">AM 181 e fol</ref> og <ref
-                           target="AM04-0585a" type="ms">AM 585 a 4to</ref> eru uppskriftir Ectors
+                     <filiation>Í <ref target="AM02-0181d" type="ms">AM 181 d fol.</ref>, <ref target="AM02-0181e" type="ms">AM 181 e fol</ref> og <ref target="AM04-0585a" type="ms">AM 585 a 4to</ref> eru uppskriftir Ectors
                         sögu eftir þessu handriti (<bibl>
                            <ref target="EIMF11">Loth 1977:15-16</ref>
                         </bibl>).</filiation>
@@ -125,9 +122,7 @@
                            <p>
                               <list>
                                  <item>Á bl. <locus from="12r" to="12v">12</locus> er stór rifa og
-                                    önnur minni, smærri göt á bl. <locus from="3r" to="3v"
-                                    >3</locus>, <locus from="27r" to="27v">27</locus> og <locus
-                                       from="28r" to="28v">28</locus>.</item>
+                                    önnur minni, smærri göt á bl. <locus from="3r" to="3v">3</locus>, <locus from="27r" to="27v">27</locus> og <locus from="28r" to="28v">28</locus>.</item>
                               </list>
                            </p>
                         </condition>
@@ -150,8 +145,7 @@
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scope="sole" script="textualis" scribe="unknown">Með óþekktri hendi,
-                        textaskrift. Sami skrifari og fyrsta hönd í <ref target="AM04-0586"
-                           type="ms">AM 586 4to</ref>.</handNote>
+                        textaskrift. Sami skrifari og fyrsta hönd í <ref target="AM04-0586" type="ms">AM 586 4to</ref>.</handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="secondary" subtype="mixed">
@@ -161,32 +155,17 @@
                   <additions>
                      <p>
                         <list>
-                           <item>Innskotsblað fremst með hendi <name key="ArnMag001" type="person"
-                                 >Árna Magnússonar</name> (sjá efni 1).</item>
-                           <item>Á bl. <locus from="2r" to="2r">2r</locus> og <locus from="49v"
-                                 to="49v">49v</locus> er fyrirsögnum bætt við síðar.</item>
-                           <item>Á bl. <locus from="7v" to="7v">7v</locus>, <locus from="8v" to="8v"
-                                 >8v</locus>, <locus from="9r" to="9r">9r</locus> og e.t.v. <locus
-                                 from="10v" to="10v">10v</locus>, <locus from="22v" to="22v"
-                                 >22v</locus> eru vísur úr sálmum með 17. aldar hendi, hugsanlega
-                              séra <name type="person">Jóns Sigmundssonar</name> á <name
-                                 type="place">Kjalarnesi</name> (<bibl>
+                           <item>Innskotsblað fremst með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name> (sjá efni 1).</item>
+                           <item>Á bl. <locus from="2r" to="2r">2r</locus> og <locus from="49v" to="49v">49v</locus> er fyrirsögnum bætt við síðar.</item>
+                           <item>Á bl. <locus from="7v" to="7v">7v</locus>, <locus from="8v" to="8v">8v</locus>, <locus from="9r" to="9r">9r</locus> og e.t.v. <locus from="10v" to="10v">10v</locus>, <locus from="22v" to="22v">22v</locus> eru vísur úr sálmum með 17. aldar hendi, hugsanlega
+                              séra <name type="person">Jóns Sigmundssonar</name> á <name type="place">Kjalarnesi</name> (<bibl>
                                  <ref target="EIMF11">Loth 1977:22</ref>
                               </bibl>). Upphöf: <q>Aví, aví, mig auman
-                                 mann</q> (<locus from="9r" to="9r">9r</locus>) og <q>Ó, minn Guð, ó, minn Guð</q> (<locus from="7v"
-                                 to="7v">7v</locus> og <locus from="8v" to="8v">8v</locus>). </item>
-                           <item>Á <locus from="24r" to="24r">24r</locus> og <locus from="35r"
-                                 to="35r">35r</locus> eru nöfn á neðri spássíu.</item>
-                           <item>Á <locus from="27r" to="27r">27r</locus> og <locus from="29v"
-                                 to="29v">29v</locus> er hluti úr stafrófinu.</item>
-                           <item>Athugasemdir við texta og spássíukrot á <locus from="2r" to="2r"
-                                 >2r</locus>, <locus from="3v" to="3v">3v</locus>, <locus from="19r"
-                                 to="19r">19r</locus>, <locus from="22r" to="23r">22r-23r</locus>,
-                                 <locus from="24r" to="24r">24r</locus>, <locus from="27v" to="27v"
-                                 >27v</locus>, <locus from="29r" to="29r">29r</locus>, <locus
-                                 from="30r" to="30r">30r</locus>, <locus from="32v" to="33v"
-                                 >32v-33v</locus>, <locus from="38r" to="38r">38r</locus>, <locus
-                                 from="45r" to="45v">45r-v</locus>.</item>
+                                 mann</q> (<locus from="9r" to="9r">9r</locus>) og <q>Ó, minn Guð, ó, minn Guð</q> (<locus from="7v" to="7v">7v</locus> og <locus from="8v" to="8v">8v</locus>). </item>
+                           <item>Á <locus from="24r" to="24r">24r</locus> og <locus from="35r" to="35r">35r</locus> eru nöfn á neðri spássíu.</item>
+                           <item>Á <locus from="27r" to="27r">27r</locus> og <locus from="29v" to="29v">29v</locus> er hluti úr stafrófinu.</item>
+                           <item>Athugasemdir við texta og spássíukrot á <locus from="2r" to="2r">2r</locus>, <locus from="3v" to="3v">3v</locus>, <locus from="19r" to="19r">19r</locus>, <locus from="22r" to="23r">22r-23r</locus>,
+                                 <locus from="24r" to="24r">24r</locus>, <locus from="27v" to="27v">27v</locus>, <locus from="29r" to="29r">29r</locus>, <locus from="30r" to="30r">30r</locus>, <locus from="32v" to="33v">32v-33v</locus>, <locus from="38r" to="38r">38r</locus>, <locus from="45r" to="45v">45r-v</locus>.</item>
                         </list>
                      </p>
                   </additions>
@@ -245,11 +224,7 @@
                         <name key="ArnMag001" type="person">Árni Magnússon</name> fékk <ref>AM 589
                            a-f 4to</ref> frá <name key="BjoTho004" type="person">Birni
                            Þorleifssyni</name>, síðar biskupi á Hólum.</p>
-                     <p>Nöfn í handritinu: Sr. <name type="person">Jón Sigmundsson</name> á <name
-                           type="place">Kjalarnesi</name> (sbr. spássíugreinar), <name
-                           key="HanOla001" type="person">Hannes Ólafsson</name> (<locus from="24r"
-                           to="24r">24r</locus>), <name type="person">Jón Ívarsson</name> (<locus
-                           from="35r" to="35r">35r</locus>).</p>
+                     <p>Nöfn í handritinu: Sr. <name type="person">Jón Sigmundsson</name> á <name type="place">Kjalarnesi</name> (sbr. spássíugreinar), <name key="HanOla001" type="person">Hannes Ólafsson</name> (<locus from="24r" to="24r">24r</locus>), <name type="person">Jón Ívarsson</name> (<locus from="35r" to="35r">35r</locus>).</p>
                   </provenance>
                   <acquisition when="1988-12-14">
                      <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 14. desember 1988.</p>
@@ -263,17 +238,14 @@
                               reglum TEI P5 <date from="2009-08-10" to="2009-08-11">10.-11. ágúst
                                  2009</date> og síðar.</p>
                            <p>
-                              <name key="ThoSig001" type="person">ÞS</name> skráði <date
-                                 from="2003-02-20" to="2003-02-21">20.-21. febrúar 2003</date>.</p>
+                              <name key="ThoSig001" type="person">ÞS</name> skráði <date from="2003-02-20" to="2003-02-21">20.-21. febrúar 2003</date>.</p>
                            <p>
                               <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu
                               til skráningar <date when="1888-01-23">23. janúar 1888</date> (<bibl>
                                  <ref target="KKKat">Katalog I 1889:755 (nr. 1486)</ref>
                               </bibl>).</p>
                            <p><name type="person" key="GioVer001">GV</name> sló inn texta af seðlum
-                              Árna Magnússonar undir umsjón <name type="person" key="ThoSig001"
-                                 >ÞS</name> og með hliðsjón af gögnum frá <name type="person"
-                                 key="MarJon001">MJ</name>.</p>
+                              Árna Magnússonar undir umsjón <name type="person" key="ThoSig001">ÞS</name> og með hliðsjón af gögnum frá <name type="person" key="MarJon001">MJ</name>.</p>
                         </source>
                      </recordHist>
                      <custodialHist>

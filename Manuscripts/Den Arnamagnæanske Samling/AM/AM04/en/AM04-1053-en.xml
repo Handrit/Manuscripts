@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -15,7 +15,9 @@
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 1053 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2185</idno>
@@ -39,22 +41,20 @@
                         </objectDesc>
                     </physDesc>
                     <history>
-                        <origin notBefore="1700" notAfter="1799" resp="KKKat"
-                                ><origPlace>Denmark</origPlace>, <origDate notBefore="1700"
-                                notAfter="1799">s. XVIII</origDate>.</origin>
+                        <origin notBefore="1700" notAfter="1799" resp="KKKat"><origPlace>Denmark</origPlace>, <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>.</origin>
                     </history>
                     <additional>
                         <listBibl>
                             <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
-                                <biblScope type="volume">II</biblScope>
-                                <biblScope type="pages">308</biblScope>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">308</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>
                     <msPart>
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>AM 1053 I 4to</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents>
                             <msItem n="1" class="log">
                                 <title type="uniform" xml:lang="la">Constitutio Reginæ Margaretæ
@@ -63,8 +63,7 @@
                                     1392</title>
                                 <textLang mainLang="no" otherLangs="da">Old Norse/Norwegian and
                                     Danish</textLang>
-                                <filiation>A copy of the Old Norse text in <name type="org"
-                                        key="SA-Rigs">The Danish National Archives</name> containing
+                                <filiation>A copy of the Old Norse text in <name type="org" key="SA-Rigs">The Danish National Archives</name> containing
                                     a translation into Danish.</filiation>
                             </msItem>
                         </msContents>
@@ -96,9 +95,9 @@
                         </history>
                     </msPart>
                     <msPart>
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>AM 1053 II 4to</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents>
                             <msItem n="2" class="log">
                                 <title type="uniform">King Christian III's Legal Amendments, 1550</title>

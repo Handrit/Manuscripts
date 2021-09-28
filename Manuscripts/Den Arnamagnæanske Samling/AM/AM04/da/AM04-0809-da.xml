@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,7 +14,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 809 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1941</idno>
@@ -22,18 +24,17 @@
                </msIdentifier>
                <head>
                   <title type="supplied">Grammatica positiua</title>;
-                     <origPlace>Danmark?</origPlace>, <origDate notBefore="1450" notAfter="1499"
-                     evidence="conjecture">s. XV 2/4</origDate>.</head>
+                     <origPlace>Danmark?</origPlace>, <origDate notBefore="1450" notAfter="1499" evidence="conjecture">s. XV 2/4</origDate>.</head>
                <msContents>
                   <msItem n="1">
                      <locus from="1r" to="190r">1-190r</locus>
                      <title type="supplied">Grammatica positiua</title>
                      <textLang mainLang="la">Latin</textLang>
                      <note>Indeholder <q xml:lang="la">vtiliora vocabula ex dictis
-                              a<ex>n</ex>tiq<ex>uo</ex>r<ex>um</ex> &#x17F;c<ex>ilicet</ex>
+                              a<ex>n</ex>tiq<ex>uo</ex>r<ex>um</ex> ſc<ex>ilicet</ex>
                               hugu<ex>onis</ex> bractilíj <ex>ex</ex> a<ex>li</ex>or<ex>um</ex>
                               g<ex>ra</ex>ma<ex>ticorum</ex> ext<ex>ra</ex>cta
-                              &#x17F;<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m ordine<ex>m</ex>
+                              ſ<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m ordine<ex>m</ex>
                            alphabeti</q>.</note>
                   </msItem>
                   <msItem n="2">
@@ -55,8 +56,7 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>208 (inkl. 1<hi rend="sup">bis</hi>). <dimensions type="leaf"
-                              scope="all">
+                        <extent>208 (inkl. 1<hi rend="sup">bis</hi>). <dimensions type="leaf" scope="all">
                               <height>215</height>
                               <width>149</width>
                            </dimensions>.</extent>
@@ -82,8 +82,7 @@
                   <additions>
                      <p>1a (friblad): Latinske notitser, bl. a. skriftets titel i en cirkel.</p>
                      <p>Hist og her marginalia, også på bindets inderside; på den forreste af disse
-                        er der yderligere danske regnskabsnotitser fra <date notBefore="1475"
-                           notAfter="1525">ca. 1500</date>.</p>
+                        er der yderligere danske regnskabsnotitser fra <date notBefore="1475" notAfter="1525">ca. 1500</date>.</p>
                   </additions>
                   <bindingDesc>
                      <binding>
@@ -91,28 +90,25 @@
                            latinsk håndskrift med noder.</p>
                      </binding>
                   </bindingDesc>
-                  <accMat>Der er en AM-seddel: <q>Ex auctione <name type="person" key="FreRos001"
-                           >Ro&#x17F;tgard</name>ianâ</q>, som ikke hører til dette håndskrift,
+                  <accMat>Der er en AM-seddel: <q>Ex auctione <name type="person" key="FreRos001">Roſtgard</name>ianâ</q>, som ikke hører til dette håndskrift,
                      men snarere et dansk lovhåndskrift (papir).</accMat>
                </physDesc>
                <history>
                   <origin>Man ved ikke meget om håndskriftets historie, men det formodes at være
-                     skrevet i <origPlace>Danmark?</origPlace> i <origDate notBefore="1450"
-                        notAfter="1499" evidence="conjecture">1400-tallets anden halvdel</origDate>.
+                     skrevet i <origPlace>Danmark?</origPlace> i <origDate notBefore="1450" notAfter="1499" evidence="conjecture">1400-tallets anden halvdel</origDate>.
                      Nogen oplysning kan måske bynavnet <q>Rindeløff mark</q> i de danske
-                     regnskabsnotitser give; på bl. 1<hi rend="sup">a</hi>r ser man årstallet <date when="1545"
-                        >1545</date>.</origin>
+                     regnskabsnotitser give; på bl. 1<hi rend="sup">a</hi>r ser man årstallet <date when="1545">1545</date>.</origin>
                </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">215-216</biblScope>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">215-216</biblScope>
                      </bibl>
                      <bibl>Lorenzen: <ref type="secondary-1" target="Lorenzen1884">Gammeldanske glosser i
                            cod. Arn. Magn. 202, 8to med et tillæg af andre østnordiske
                            glosser</ref>
-                        <biblScope type="pages">73-74</biblScope>
+                        <biblScope unit="pages">73-74</biblScope>
                         <note>Om en skånsk glose på bl. 180v.</note>
                      </bibl>
                   </listBibl>

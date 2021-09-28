@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -19,9 +19,9 @@
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
-						<institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+						<institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
 						<repository>Handritasafn</repository>
-						<collection>Handritasafn Kaupmannahafnardeildar Hins íslenska
+						<collection key="IB">Handritasafn Kaupmannahafnardeildar Hins íslenska
 							bókmenntafélags</collection>
 						<idno>ÍB 179 8vo</idno>
 						<altIdentifier type="internal" subtype="PEO">
@@ -36,7 +36,7 @@
 						<textLang mainLang="is">Íslenska</textLang>
 						<titlePage type="ms">
 							<docTitle>
-								<titlePart type="main"></titlePart>
+								<titlePart type="main"/>
 							</docTitle>
 						</titlePage>
 						
@@ -119,7 +119,7 @@
 					</physDesc>
 					<history>
 						<origin>
-							<origPlace>Ísland</origPlace>, <origDate cert="medium" from="1700" to="1900" >18. og 19. öld.</origDate>
+							<origPlace>Ísland</origPlace>, <origDate cert="medium" from="1700" to="1900">18. og 19. öld.</origDate>
 						</origin>
 						
 						<provenance>
@@ -141,26 +141,24 @@
 									<p> Skráning <name type="person" key="PalOla002">Páls Eggerts
 											Ólasonar</name> á handritinu er aðgengileg í ritinu <bibl>
 											<ref target="PEO">Skrá um handritasöfn
-											Landsbókasafnsins</ref>, </bibl>3. bindi, <ref
-												target="http://baekur.is/bok/000233966/3/63/Skra_um_handritasofn_Bindi_3_Bls_63"
-											>bls. 43-44</ref>.</p>
+											Landsbókasafnsins</ref>, </bibl>3. bindi, <ref target="http://baekur.is/bok/000233966/3/63/Skra_um_handritasofn_Bindi_3_Bls_63">bls. 43-44</ref>.</p>
 									<p><name type="person" key="GudGud045">Guðrún Laufey Guðmundsdóttir</name>
 										frumskráði, <date when="2018-10-25">25. október 2018</date>.</p>
 								</source>
 							</recordHist>
 						</adminInfo>
 						<listBibl> 
-							<bibl><ref target="HalPet1887">Sálmar og kvæði</ref> <biblScope type="volume">I</biblScope>
-								<biblScope type="pages">xxiv</biblScope></bibl> 
+							<bibl><ref target="HalPet1887">Sálmar og kvæði</ref> <biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">xxiv</biblScope></bibl> 
 							
 							<bibl>
 								<ref target="IslGat">Íslenzkar gátur, skemtanir, vikivakar og þulur</ref>
-								<biblScope type="volume">II s. 208, III s. 78, 302, IV s.29</biblScope>
-								<biblScope type="pages"></biblScope>
+								<biblScope unit="volume">II s. 208, III s. 78, 302, IV s.29</biblScope>
+								<biblScope unit="pages"/>
 							</bibl>
 							
 							
-							<bibl><ref target="JonThork1888">Digtningen</ref> <biblScope type="pages">206, 357, 457, 461, 485.</biblScope></bibl> 
+							<bibl><ref target="JonThork1888">Digtningen</ref> <biblScope unit="pages">206, 357, 457, 461, 485.</biblScope></bibl> 
 						
 						</listBibl>
 					</additional>

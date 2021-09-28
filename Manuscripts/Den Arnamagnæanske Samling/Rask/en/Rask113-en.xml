@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -15,7 +15,9 @@
           <msIdentifier>
             <country>Denmark</country>
             <settlement>København</settlement>
+            <institution key="AMS"/>
             <repository>Den Arnamagnæanske Samling</repository>
+            <collection key="Rask"/>
             <idno>Rask 113</idno>
             <altIdentifier type="internal" subtype="KKKat">
               <idno>2689</idno>
@@ -91,15 +93,15 @@
             <listBibl>
               <bibl>
                 <ref type="secondary-1" target="Foroya">Chesnutt and Larsen
-                  1996</ref><biblScope type="volume">VII</biblScope><biblScope type="pages">87-88</biblScope></bibl>
-              <bibl><ref type="primary-1" target="PovSkå1964">Rasmus Rask og Færøsk</ref><biblScope type="pages">63</biblScope></bibl>
+                  1996</ref><biblScope unit="volume">VII</biblScope><biblScope unit="pages">87-88</biblScope></bibl>
+              <bibl><ref type="primary-1" target="PovSkå1964">Rasmus Rask og Færøsk</ref><biblScope unit="pages">63</biblScope></bibl>
               <!--  <bibl><ref type="primary-1" target="MåHå2019-02">Rask 113: A Ballad Manuscript in Two Parts</ref></bibl> -->
             </listBibl>
           </additional>
           <msPart n="1">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Rask 113 I</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Faroese Ballads</title>
                 <note>Copied from <ref type="ms">GKS 2894 I-III 4to</ref></note>
@@ -123,7 +125,7 @@
                 <explicit>Taa man Jörin Bûkar ûr seâr kasta</explicit>
                 <filiation>Copied from <ref type="ms">GKS 2894 I 4to</ref>, item 1.</filiation>
                 <bibl>CCF 220A. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">438-440</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">438-440</biblScope>
                 </bibl>
               </msItem>
               <msItem n="3" class="kvad">
@@ -136,13 +138,13 @@
                 <explicit>Hejkur minni Hund</explicit>
                 <filiation>Copied from <ref type="ms">GKS 2894 I 4to</ref>, item 22.</filiation>
                 <bibl>CCF 12A. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">I</biblScope><biblScope type="pages">342-349</biblScope>
+                  <biblScope unit="volume">I</biblScope><biblScope unit="pages">342-349</biblScope>
                   <!-- TODO: Double-check CCF numbers -->
                 </bibl>
               </msItem>
               <msItem n="4" class="kvad">
                 <locus from="11r" to="14">11r-14v</locus>
-                <title type="uniform"></title>
+                <title type="uniform"/>
                 <textLang mainLang="fo">Faroese</textLang>
                 <rubric>Breûka Taatur</rubric>
                 <incipit>Gjevi Ljeû o luji aa</incipit>
@@ -150,7 +152,7 @@
                 <incipit type="refrain">Ût à røgva feûr Jeûänis; <lb/>teâ veâr aj tiil Dans, <lb/>Gjiti man vera, meni Kvujvujk <lb/>stendur, Flundru=Teâk hans</incipit>
                 <filiation>Copied from <ref type="ms">GKS 2984 II 4to</ref>, item 19.</filiation>
                 <bibl>CCF 193A. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">314-316</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">314-316</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -185,14 +187,14 @@
             </physDesc>
             <history>
               <origin notBefore="1808" notAfter="1810" cert="high">
-                <p><name type="person" key="RasRas002">Rasmus Rask</name> copied these three poems <name type="person" key="JenSva001">Svabo's</name> quarto manuscript (<ref type="ms">GKS 2894 I-III 4to</ref>) in the <name type="org" key="KB">Royal Danish Library</name> in <origPlace key="Copen01">Copenhagen</origPlace>. Povl Skårup (<bibl><ref type="primary-1" target="PovSkå1964">Rasmus Rask og Færøsk</ref><biblScope type="pages">63</biblScope></bibl>) argues on the basis of paleography that the copies were made between <origDate notBefore="1808" notAfter="1810">spring 1808 and April 1810</origDate>.</p>
+                <p><name type="person" key="RasRas002">Rasmus Rask</name> copied these three poems <name type="person" key="JenSva001">Svabo's</name> quarto manuscript (<ref type="ms">GKS 2894 I-III 4to</ref>) in the <name type="org" key="KB">Royal Danish Library</name> in <origPlace key="Copen01">Copenhagen</origPlace>. Povl Skårup (<bibl><ref type="primary-1" target="PovSkå1964">Rasmus Rask og Færøsk</ref><biblScope unit="pages">63</biblScope></bibl>) argues on the basis of paleography that the copies were made between <origDate notBefore="1808" notAfter="1810">spring 1808 and April 1810</origDate>.</p>
               </origin>
             </history>
           </msPart>
           <msPart n="2">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Rask 113 II</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Finnboga ríma</title>
                 <note>With translation and commentary by <name type="person" key="JacNol001">Jacob Nolsøe</name></note></summary>
@@ -214,7 +216,7 @@
                   <explicit>Hettar er betri Meâvur en Olvur</explicit>
                   <note>Written on every verso.</note>
                   <bibl>CCF 47C. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                    <biblScope type="volume">II</biblScope><biblScope type="pages">151-152</biblScope>
+                    <biblScope unit="volume">II</biblScope><biblScope unit="pages">151-152</biblScope>
                   </bibl>
                 </msItem>
                 <msItem n="5.2" class="tyd">

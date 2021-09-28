@@ -1,4 +1,4 @@
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,7 +14,9 @@
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>Copenhagen</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="Acc"/>
                         <idno>Acc. 60</idno>
                     </msIdentifier>
                     <msContents>
@@ -36,8 +38,7 @@
                                 Kongs Hillditan, <lb/> oc Sigurdar Hrings.</rubric>
                             <textLang mainLang="is"/>
                             <note>The text starts on f. <locus from="3r" to="3r">3r (p. 1)</locus>,
-                                as f. <locus from="1r" to="1v">1r-v</locus> is blank and f. <locus
-                                    from="2r" to="2r">2r</locus> is a title page.</note>
+                                as f. <locus from="1r" to="1v">1r-v</locus> is blank and f. <locus from="2r" to="2r">2r</locus> is a title page.</note>
                             <msItem n="1.1" class="fas">
                                 <locus from="3r" to="19r">3r-19r (p. 1-33)</locus>
                                 <textLang mainLang="is"/>
@@ -115,8 +116,7 @@
                         <decoDesc>
                             <p>The manuscript is not decorated.</p>
                         </decoDesc>
-                        <additions><p>No additions, except of the provenance note: <q xml:lang="da"
-                                    >Skjenket skolebibliotheket af Hr. Schaldemose</q> underneath
+                        <additions><p>No additions, except of the provenance note: <q xml:lang="da">Skjenket skolebibliotheket af Hr. Schaldemose</q> underneath
                                 the title on f. <locus from="2r" to="2r">2r
                                 (unpaginated)</locus>.</p>
                         </additions>
@@ -129,25 +129,19 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1800" notAfter="1818" cert="medium" evidence="external">
-                            <p>The manuscript was written in <origPlace>Denmark</origPlace> by <name
-                                    type="person" key="FreSch002">Frederik Julius
+                            <p>The manuscript was written in <origPlace>Denmark</origPlace> by <name type="person" key="FreSch002">Frederik Julius
                                 Schaldemose</name>. It was probably a part of the collection of
-                                manuscripts presented to Nykøbing Katedralskole in <date when="1818"
-                                    >1818</date> by <name type="person" key="FreSch002">Frederik
+                                manuscripts presented to Nykøbing Katedralskole in <date when="1818">1818</date> by <name type="person" key="FreSch002">Frederik
                                     Julius Schaldemose</name>, so it cannot postdate this year.</p>
                         </origin>
                         <provenance>
-                            <p>The manuscripts <ref
-                                    target="#Acc-0051-en #Acc-0052-en #Acc-0053-en #Acc-0054-en #Acc-0055-en #Acc-0056-en 
-                                #Acc-0057-en #Acc-0058-en #Acc-0059-en #Acc-0061-en #Acc-0062-en"
-                                    >Acc. 51-62</ref> belong to the collection of manuscripts
+                            <p>The manuscripts <ref target="#Acc-0051-en #Acc-0052-en #Acc-0053-en #Acc-0054-en #Acc-0055-en #Acc-0056-en                                  #Acc-0057-en #Acc-0058-en #Acc-0059-en #Acc-0061-en #Acc-0062-en">Acc. 51-62</ref> belong to the collection of manuscripts
                                 Frederik Schaldemose bequeathed to <name type="org">Nykøbing
                                     Katedralskole</name>. Most of them are Fredrik Schaldemose's
                                 transcriptions of Old Norse texts.</p>
                         </provenance>
                         <acquisition>
-                            <p><orgName key="AMS">The Arnamagnæan Collection</orgName> in <name
-                                    type="place" key="Copen01">Copenhagen</name> acquired the
+                            <p><orgName key="AMS">The Arnamagnæan Collection</orgName> in <name type="place" key="Copen01">Copenhagen</name> acquired the
                                 manuscript from the school in <date when="2007">April 2007</date> as
                                 a gift.</p>
                         </acquisition>
@@ -159,9 +153,7 @@
                                     <p>Catalogued by <name type="person">Jeffrey Love</name> for the
                                         online catalogue fasnl.ku.dk.</p>
                                     <p>Converted to handrit.org standard, revised, and appended with
-                                        additional information from the manuscript on <date
-                                            when="2017-10-03"/> by <name type="person"
-                                            key="KatKap001">Katarzyna Anna Kapitan</name>.</p>
+                                        additional information from the manuscript on <date when="2017-10-03"/> by <name type="person" key="KatKap001">Katarzyna Anna Kapitan</name>.</p>
                                 </source>
                             </recordHist>
                         </adminInfo>
@@ -169,8 +161,7 @@
                             <p>
                                 <list>
                                     <item>Microfilm Neg 2019 from <date when="2011-05-31"/>.</item>
-                                    <item>Microfilm (archive) 2001 from <date when="2011-06-01"
-                                        />.</item>
+                                    <item>Microfilm (archive) 2001 from <date when="2011-06-01"/>.</item>
                                     <item>Backup film TS 1297 from <date when="2011-06-16"/>.</item>
                                 </list>
                             </p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,7 +14,9 @@
                     <msIdentifier>
                         <country>Danmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 1056 XVI 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2188</idno>
@@ -27,8 +29,7 @@
                             af de få bevarede oversættelser fra latin af Den hellige Birgittas
                                 "Liber Celestis Reuelacionum" på gammeldansk. Andre
                             håndskrifter, der indeholder fragmenter af "Den hellige Birgittas
-                            åbenbaringer" på gammeldansk er: <ref type="ms"
-                                target="#AM08-0079-I-gamma-da">AM 79 I γ 8vo</ref>; <ref>Norges
+                            åbenbaringer" på gammeldansk er: <ref type="ms" target="#AM08-0079-I-gamma-da">AM 79 I γ 8vo</ref>; <ref>Norges
                                 Riksarkiv, No. 84</ref> og <ref>Rigsarkivet, E 338</ref>.</summary>
                         <msItem n="1" defective="true" class="vit">
                             <locus from="1ra" to="2vb">1ra-2vb</locus>
@@ -36,12 +37,12 @@
                             <textLang mainLang="da">Gammeldansk</textLang>
                                 <bibl>Nielsen: <ref type="primary-1" target="NKirS3">Ny
                                         kirkehistoriske Samlinger</ref>
-                                    <biblScope type="volume">III</biblScope>
-                                    <biblScope type="pages">445-47</biblScope>
+                                    <biblScope unit="volume">III</biblScope>
+                                    <biblScope unit="pages">445-47</biblScope>
                                 </bibl>
                                 <bibl>Diderichsen: <ref type="primary-1" target="FragmPD">Fragmenter
                                         af gammeldanske Haandskrifter</ref>
-                                    <biblScope type="pages">104-106</biblScope>
+                                    <biblScope unit="pages">104-106</biblScope>
                                     <note>B. III</note>
                                 </bibl>
                             <msItem n="1.1" class="vit">
@@ -57,13 +58,12 @@
 
                                     <bibl>Nielsen: <ref type="primary-1" target="NKirS4">Ny
                                             kirkehistoriske samlinger</ref>
-                                        <biblScope type="volume">IV</biblScope>
-                                        <biblScope type="pages">148-53</biblScope>
+                                        <biblScope unit="volume">IV</biblScope>
+                                        <biblScope unit="pages">148-53</biblScope>
                                     </bibl>
 
-                                    <bibl>Diderichsen: <ref type="primary-1" target="FragmPD"
-                                            >Fragmenter af gammeldanske Haandskrifter</ref>
-                                        <biblScope type="pages">100-104</biblScope>
+                                    <bibl>Diderichsen: <ref type="primary-1" target="FragmPD">Fragmenter af gammeldanske Haandskrifter</ref>
+                                        <biblScope unit="pages">100-104</biblScope>
                                         <note>B. III</note>
                                     </bibl>
                             </msItem>
@@ -76,10 +76,7 @@
                                     åbenbaringer, bog VI</title>
                                 <incipit defective="true">bogh ære siw colu<ex>m</ex>pner Then
                                     første / ær døbelse</incipit>
-                                <explicit defective="true">Oc maa <supplied reason="illegible"
-                                        >ik</supplied>ke ko<ex>m</ex>me til thec / w<supplied
-                                        reason="illegible">then</supplied> hun / haffwer først <gap
-                                        reason="damage"/>
+                                <explicit defective="true">Oc maa <supplied reason="illegible">ik</supplied>ke ko<ex>m</ex>me til thec / w<supplied reason="illegible">then</supplied> hun / haffwer først <gap reason="damage"/>
                                 </explicit>
 
 
@@ -110,24 +107,17 @@
                         </objectDesc>
                     </physDesc>
                     <history>
-                        <origin notBefore="1450"
-                            notAfter="1499" evidence="conjecture" resp="FragmPD">
-                            <p>Skrevet i <origPlace>Danmark</origPlace>. <name type="person"
-                                    key="KriKaa001">Kålund</name> (<bibl>
+                        <origin notBefore="1450" notAfter="1499" evidence="conjecture" resp="FragmPD">
+                            <p>Skrevet i <origPlace>Danmark</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl>
                                     <ref type="secondary-1" target="KKKat">Katalog</ref>
-                                   </bibl>) har dateret dem til <origDate notBefore="1400"
-                                    notAfter="1499" cert="medium" evidence="conjecture" resp="KKKat"
-                                    >1400-tallet</origDate>. Senere har <name type="person"
-                                    key="PauDid001">Diderichsen</name> (<bibl>
+                                   </bibl>) har dateret dem til <origDate notBefore="1400" notAfter="1499" cert="medium" evidence="conjecture" resp="KKKat">1400-tallet</origDate>. Senere har <name type="person" key="PauDid001">Diderichsen</name> (<bibl>
                                         <ref type="secondary-1" target="FragmPD">Diderichsen 1937</ref>
-                                    <biblScope type="pages">xxv</biblScope>
-                                </bibl>) dog dateret det mere præcist til <origDate notBefore="1450"
-                                    notAfter="1499" evidence="conjecture">1400-tallets
+                                    <biblScope unit="pages">xxv</biblScope>
+                                </bibl>) dog dateret det mere præcist til <origDate notBefore="1450" notAfter="1499" evidence="conjecture">1400-tallets
                                     sidste halvdel</origDate>.</p>
                         </origin>
                         <provenance>
-                            <p>Fundet i <title>Holbæk lensregnskab</title> for <date from="1624" to="1625"
-                                    >1624-1625</date>.</p>
+                            <p>Fundet i <title>Holbæk lensregnskab</title> for <date from="1624" to="1625">1624-1625</date>.</p>
                         </provenance>
                         <acquisition>Skænket til <name type="org">Den Arnamagnæanske Samling</name>
                             fra <name type="org" key="SA-Rigs">Rigsarkivet</name>.</acquisition>
@@ -147,20 +137,17 @@
                             </bibl>
                             <bibl>Diderichsen: <ref type="secondary-1" target="FragmPD">Fragmenter
                                     af gammeldanske Haandskrifter</ref>
-                                <biblScope type="pages">103</biblScope>
+                                <biblScope unit="pages">103</biblScope>
                                 <note>faksimile af bl. 1v</note>
                             </bibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat"
-                                    >Katalog</ref><biblScope type="volume">II</biblScope><biblScope
-                                    type="pages">308, 312</biblScope></bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">308, 312</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change>Amended <date when="2004-11-09">9. november 2004</date> af <name type="person"
-                    key="JonAda001">JA</name>.</change>
+            <change>Amended <date when="2004-11-09">9. november 2004</date> af <name type="person" key="JonAda001">JA</name>.</change>
             <change>Oversat til dansk <date when="2009-09-24">24 september 2009</date>.</change>
             <change when="2021-09-20" who="EvaWed001">Opdateret opmærkning.</change>
         </revisionDesc>

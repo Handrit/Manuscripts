@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 567 XXVI 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1415</idno>
@@ -33,8 +33,7 @@
                      <explicit defective="true">… veikja Jötuninn ooooooooooooooooooooooooo þvíað
                         hvergi …</explicit>
                      <bibl>
-                        <ref>Opuscula</ref> 1960 <biblScope type="volume">I</biblScope><biblScope
-                           type="pages">201-206</biblScope>.</bibl>
+                        <ref>Opuscula</ref> 1960 <biblScope unit="volume">I</biblScope><biblScope unit="pages">201-206</biblScope>.</bibl>
                   </msItem>
                </msContents>
                <physDesc>
@@ -77,16 +76,14 @@
                                     </dimensions>.</item>
                                  <item>Línufjöldi er 38.</item>
                                  <item>Gatað fyrir línum.</item>
-                                 <item>Eyða fyrir upphafsstaf í fremra dálki blaðs <locus from="1r"
-                                       to="1r">1r</locus>.</item>
+                                 <item>Eyða fyrir upphafsstaf í fremra dálki blaðs <locus from="1r" to="1r">1r</locus>.</item>
                               </list>
                            </p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scope="sole" script="cursiva" scribe="MagTho005">Með hendi <name
-                           type="person" key="MagTho005">Magnúsar Þórhallssonar</name>,
+                     <handNote scope="sole" script="cursiva" scribe="MagTho005">Með hendi <name type="person" key="MagTho005">Magnúsar Þórhallssonar</name>,
                         árléttiskrift.</handNote>
                   </handDesc>
                   <additions>
@@ -104,9 +101,7 @@
                   <accMat>
                      <p>
                         <list>
-                           <item n="1">Fimm fastir <locus from="accMat01r" to="accMat05v"
-                                 >seðlar</locus> fremst, fjórir með hendi <name key="ArnMag001"
-                                 type="person">Árna Magnússonar</name> og einn auður. Seðlarnir eru
+                           <item n="1">Fimm fastir <locus from="accMat01r" to="accMat05v">seðlar</locus> fremst, fjórir með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name> og einn auður. Seðlarnir eru
                               merktir 1-5 og seðlar 4-5 einnig a-b með rauðu bleki. <list>
                                  <item n="1.1"> (<dimensions type="slip" unit="mm">
                                        <height>151</height>
@@ -140,8 +135,7 @@
                                  </item>
                               </list>
                            </item>
-                           <item n="2">Tveir lausir seðlar með teikningum <name key="MorGro001"
-                                 type="person">Morten Grønbechs</name> af ástandi blaðsins og
+                           <item n="2">Tveir lausir seðlar með teikningum <name key="MorGro001" type="person">Morten Grønbechs</name> af ástandi blaðsins og
                               hvernig það hefur verið notað sem band fylgdu við afhendingu.</item>
                            <item n="3">Laus seðill frá Kaupmannahöfn um forvörslu AM 567
                               4to-brotanna liggur í öskju með brotunum.</item>
@@ -153,14 +147,12 @@
                   <origin when="1390" cert="high" evidence="external"><p><list>
                            <item>Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace>.
                               Það er tímasett til <origDate when="1390">ca 1390</origDate> (<bibl>
-                                 <ref>Stefán Karlsson 1970</ref><biblScope type="pages"
-                                    >287</biblScope>
+                                 <ref>Stefán Karlsson 1970</ref><biblScope unit="pages">287</biblScope>
                               </bibl>). Kålund tímasetti til síðari hluta 14. aldar (<bibl>
                                  <ref target="KKKat">Katalog I 1889:728</ref>
                               </bibl>).</item>
                            <item>Handritsbrotin í AM 567 I-XXVI 4to eru kölluð <q>Fabulosæ
-                                 Islandorum Historiæ</q> á seðli með hendi <name key="ArnMag001"
-                                 type="person">Árna Magnússonar</name> sem fylgir XXVI.</item>
+                                 Islandorum Historiæ</q> á seðli með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name> sem fylgir XXVI.</item>
                         </list></p>
                   </origin>
                   <provenance>
@@ -185,9 +177,7 @@
                               til skráningar <date when="1887-10-25">25. október 1887</date> (<bibl>
                                  <ref target="KKKat">Katalog I 1889:721-729 (nr. 1415)</ref>
                               </bibl>).</p><p><name type="person" key="GioVer001">GV</name> sló inn
-                              texta af seðlum Árna Magnússonar undir umsjón <name type="person"
-                                 key="ThoSig001">ÞS</name> og með hliðsjón af gögnum frá <name
-                                 type="person" key="MarJon001">MJ</name>.</p>
+                              texta af seðlum Árna Magnússonar undir umsjón <name type="person" key="ThoSig001">ÞS</name> og með hliðsjón af gögnum frá <name type="person" key="MarJon001">MJ</name>.</p>
                         </source>
                      </recordHist>
                      <custodialHist>
@@ -203,8 +193,7 @@
                            <item>Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
                               Kaupmannahöfn.</item>
                            <item>Svart-hvítar ljósmyndir á Stofnun Árna Magnússonar á Íslandi,
-                              keyptar af <name type="person">Arne Mann Nielsen</name> í <date
-                                 when="1978-01">janúar 1978</date>.</item>
+                              keyptar af <name type="person">Arne Mann Nielsen</name> í <date when="1978-01">janúar 1978</date>.</item>
                         </list>
                      </p>
                   </surrogates>

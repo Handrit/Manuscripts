@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -15,7 +15,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 360 fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>519</idno>
@@ -23,8 +25,7 @@
                </msIdentifier>
                <head>
                   <title type="supplied" xml:lang="da">En historisk og geografisk beskrivelse af
-                     Danmark</title>; <origPlace>Danmark</origPlace>, <origDate
-                     notBefore="1685" notAfter="1699">s. XVII ex</origDate>.</head>
+                     Danmark</title>; <origPlace>Danmark</origPlace>, <origDate notBefore="1685" notAfter="1699">s. XVII ex</origDate>.</head>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
@@ -33,8 +34,7 @@
                               <material>Papir.</material>
                            </p>
                         </support>
-                        <extent>194 (+48 kort + 75 billeder klæbet ind i teksten). <dimensions
-                              type="leaf" scope="all" unit="mm">
+                        <extent>194 (+48 kort + 75 billeder klæbet ind i teksten). <dimensions type="leaf" scope="all" unit="mm">
                               <height>320</height>
                               <width>214</width>
                            </dimensions>.</extent>
@@ -44,19 +44,19 @@
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">290-291</biblScope>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">290-291</biblScope>
                      </bibl>
                      <bibl>Smith: <ref type="secondary-1" target="BirSmi1882">Om Kjøbenhavns
                            Universitetsbibliothek før 1728</ref>
-                        <biblScope type="pages">71</biblScope>
+                        <biblScope unit="pages">71</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 360 I fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <titlePage type="MS">
                         <docAuthor key="PedRes001">Peder Resen</docAuthor>
@@ -70,10 +70,7 @@
                         <title type="supplied" xml:lang="da">Beskrivelse og kort over danske byer og
                            steder</title>
                         <textLang mainLang="la">Latin</textLang>
-                        <note>Omfatter <name type="place">Fyn</name>, <name type="place"
-                              >Falster</name>, <name type="place">Lolland</name>, <name type="place"
-                              >Langeland</name>, <name type="place">Ærø</name> og <name type="place"
-                              >Als</name>.</note>
+                        <note>Omfatter <name type="place">Fyn</name>, <name type="place">Falster</name>, <name type="place">Lolland</name>, <name type="place">Langeland</name>, <name type="place">Ærø</name> og <name type="place">Als</name>.</note>
                         <msItem n="2" class="regist">
                            <locus>s. 115-117</locus>
                            <title type="supplied">Indholdsfortegnelse</title>
@@ -103,9 +100,9 @@
                   </physDesc>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 360 II fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="2" class="landfr sagnfr">
                         <title type="supplied" xml:lang="da">Beskrivelse af Jylland</title>

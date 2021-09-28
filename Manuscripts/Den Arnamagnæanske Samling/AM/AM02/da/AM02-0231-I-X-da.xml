@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -10,11 +10,13 @@
             <pubPlace>København</pubPlace>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:id="AM02-231-I-X-da" xml:lang="da">
+            <msDesc xml:id="AM02-0231-I-X-da" xml:lang="da">
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 231 I-X fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>266</idno>
@@ -22,8 +24,7 @@
                </msIdentifier>
                <head>
                   <title type="uniform">Barlaams saga ok Jósafats</title>;
-                     <origPlace>Island og Norge</origPlace>, <origDate notBefore="1300" notAfter="1499"
-                     evidence="conjecture">ss. XIV-XV</origDate>. 
+                     <origPlace>Island og Norge</origPlace>, <origDate notBefore="1300" notAfter="1499" evidence="conjecture">ss. XIV-XV</origDate>. 
                </head>
                <msContents>
                   <summary>AM 231 I-X fol.
@@ -47,8 +48,7 @@
                   </objectDesc>
                   <bindingDesc>
                      <binding contemporary="false">
-                        <p>Indbundet i et BD-bind med lærredsryg og -hjørner fra <date when="1969"
-                              >1969</date>; <dimensions type="binding" unit="mm">
+                        <p>Indbundet i et BD-bind med lærredsryg og -hjørner fra <date when="1969">1969</date>; <dimensions type="binding" unit="mm">
                               <height>314</height>
                               <width>245</width>
                               <depth>45</depth>
@@ -60,8 +60,7 @@
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Katalogiseret <date when="2000-05-18">18. maj 2000</date> af <name
-                                 type="person" key="EvaWed001">EW-J</name>
+                           <p>Katalogiseret <date when="2000-05-18">18. maj 2000</date> af <name type="person" key="EvaWed001">EW-J</name>
                            </p>
                         </source>
                      </recordHist>
@@ -91,15 +90,15 @@
                   </surrogates>
                   <listBibl>
                      <bibl>Kålund: <ref target="KKKat" type="secondary">Katalog</ref>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">188-191</biblScope>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">188-191</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 231 I fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="1" class="hels">
                         <locus from="1ra:1" to="12vb:35">1ra-12vb</locus>
@@ -111,14 +110,13 @@
                               fagnadar.</incipit>
                            <explicit defective="true">bæðe goðum ok illum.</explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">27:17-32:21</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">27:17-32:21</biblScope>
                                  <note>Udg. a1</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">18:20-23:22</biblScope>
+                                 <biblScope unit="pages">18:20-23:22</biblScope>
                                  <note>Udg. d</note>
                               </bibl>
                            </listBibl>
@@ -128,14 +126,13 @@
                            <incipit defective="true">vilia ſinna u uina.</incipit>
                            <explicit defective="true">bráttr b<ex>er</ex>g hamaʀ.</explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">63:6-65:15</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">63:6-65:15</biblScope>
                                  <note>Udg. a2</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">54:13-56:24</biblScope>
+                                 <biblScope unit="pages">54:13-56:24</biblScope>
                                  <note>Udg. d</note>
                               </bibl>
                            </listBibl>
@@ -145,18 +142,16 @@
                            <incipit defective="true">ock ſum<ex>er</ex> e<ex>r</ex> af andſkotans
                                  eggian<ex>n</ex>
                            </incipit>
-                           <explicit defective="true">lyckt<ex>er</ex> þin<ex>n</ex>a lífs<supplied
-                                 reason="damage">daga</supplied>
+                           <explicit defective="true">lyckt<ex>er</ex> þin<ex>n</ex>a lífs<supplied reason="damage">daga</supplied>
                            </explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">72:24-77:28</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">72:24-77:28</biblScope>
                                  <note>Udg. a3</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">64:1-68:34</biblScope>
+                                 <biblScope unit="pages">64:1-68:34</biblScope>
                                  <note>Udg. d</note>
                               </bibl>
                            </listBibl>
@@ -165,18 +160,16 @@
                            <locus from="6ra:1" to="6vb:35">6ra-vb</locus>
                            <incipit defective="true">
                               <ex>Ihesu</ex>s <ex>Christu</ex>s ſon h<ex>a</ex>ns.</incipit>
-                           <explicit defective="true">hvilldar ok fin<ex>n</ex>r on<supplied
-                                 reason="damage">ga</supplied>
+                           <explicit defective="true">hvilldar ok fin<ex>n</ex>r on<supplied reason="damage">ga</supplied>
                            </explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">40:23-11</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">40:23-11</biblScope>
                                  <note>Udg. d1</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">32:2-34:24</biblScope>
+                                 <biblScope unit="pages">32:2-34:24</biblScope>
                                  <note>Udg. d</note>
                               </bibl>
                            </listBibl>
@@ -188,14 +181,13 @@
                               <ex>ok</ex> hiarta m<ex>eð</ex>
                            </explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">58:13-60:27</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">58:13-60:27</biblScope>
                                  <note>Udg. d2</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">49:35-52:3</biblScope>
+                                 <biblScope unit="pages">49:35-52:3</biblScope>
                                  <note>Udg. d</note>
                               </bibl>
                            </listBibl>
@@ -210,14 +202,13 @@
                                  ept<ex>er</ex>
                            </explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">45:31-48:13</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">45:31-48:13</biblScope>
                                  <note>Udg. e1</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">37:16-40:12</biblScope>
+                                 <biblScope unit="pages">37:16-40:12</biblScope>
                                  <note>Udg. d</note>
                               </bibl>
                            </listBibl>
@@ -229,14 +220,13 @@
                               <ex>ok</ex> i ſinum ſuoru<ex>m</ex> tek<ex>it</ex>
                            </explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">53:14-55:33</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">53:14-55:33</biblScope>
                                  <note>Udg. e2</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">45:15-47:24</biblScope>
+                                 <biblScope unit="pages">45:15-47:24</biblScope>
                                  <note>Udg. d</note>
                               </bibl>
                            </listBibl>
@@ -247,14 +237,13 @@
                                  <ex>ok</ex> tru.</incipit>
                            <note>Bl. 10v er næsten ulæselig.</note>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">121:1-35</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">121:1-35</biblScope>
                                  <note>Udg. l</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">111:16-29, 112:9-22</biblScope>
+                                 <biblScope unit="pages">111:16-29, 112:9-22</biblScope>
                                  <note>Udg. d</note>
                               </bibl>
                            </listBibl>
@@ -265,14 +254,13 @@
                            <explicit defective="true">v<ex>er</ex>ith ſ<ex>va</ex> l<ex>e</ex>ngi
                               </explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">141:19-144:2</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">141:19-144:2</biblScope>
                                  <note>Udg. p1</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">132:20-134:29</biblScope>
+                                 <biblScope unit="pages">132:20-134:29</biblScope>
                                  <note>Udg. d</note>
                               </bibl>
                            </listBibl>
@@ -281,18 +269,16 @@
                            <locus from="12ra:1" to="12vb:35">12ra-vb</locus>
                            <incipit defective="true">Riddarar w<ex>oro</ex> þ<ex>ar</ex> till vpp
                               ſtigande</incipit>
-                           <explicit defective="true">reinum <ex>ok</ex> flekk<supplied
-                                 reason="damage">lauſum</supplied>
+                           <explicit defective="true">reinum <ex>ok</ex> flekk<supplied reason="damage">lauſum</supplied>
                            </explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">153:20-155:33</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">153:20-155:33</biblScope>
                                  <note>Udg. p2</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">142:36-145:11</biblScope>
+                                 <biblScope unit="pages">142:36-145:11</biblScope>
                                  <note>Udg. d</note>
                               </bibl>
                            </listBibl>
@@ -345,7 +331,7 @@
                               <item>Bl. <locus>7r, højre margen</locus>: <q xml:lang="is">Stephan
                                     Olafsson</q>. </item>
                               <item>Bl. <locus>8v, nederste margen</locus>: <q xml:lang="is">Þetta
-                                 blad vonaſt komid <lb/> fr&#xEFEB; Muncka Þver&#xEFEB;</q>. </item>
+                                 blad vonaſt komid <lb/> fr Muncka Þver</q>. </item>
                               <item>Bl. <locus>11r, øverste margen</locus>: <q xml:lang="is">fra
                                        S<ex>e</ex>r<ex>a</ex> Han<ex>n</ex>esa i Reykhollte</q>. </item>
                               <item>Bl. <locus>11r, nederste margen</locus>: <q xml:lang="is">þad er
@@ -355,18 +341,14 @@
                      </additions>
                      <accMat>
                         <p>Der er 3 AM-sedler: <list>
-                              <item>På den første, som omhandler bl. <locus from="1" to="5"
-                                    >1-5</locus>, står der: <q xml:lang="is">Ur Barlaams Sỏgu <lb/>
-                                    5. blỏd. <lb/> komin fra Sr Olafi Gud<lb rend="hyphenated"
-                                    />mundzsyne.</q>
+                              <item>På den første, som omhandler bl. <locus from="1" to="5">1-5</locus>, står der: <q xml:lang="is">Ur Barlaams Sỏgu <lb/>
+                                    5. blỏd. <lb/> komin fra Sr Olafi Gud<lb rend="hyphenated"/>mundzsyne.</q>
                               </item>
-                              <item>På den anden, som omhandler bl. <locus from="6" to="7"
-                                    >6-7</locus>, står der: <q xml:lang="is">Ur Barlaams Sỏgu. <lb/>
+                              <item>På den anden, som omhandler bl. <locus from="6" to="7">6-7</locus>, står der: <q xml:lang="is">Ur Barlaams Sỏgu. <lb/>
                                     fra Sr Snorra Jonssyne 1721.</q>
                               </item>
-                              <item>På den tredje, som omhandler bl. <locus from="8" to="9"
-                                    >8-9</locus>, står der: <q xml:lang="is">fra Sr Þorvalldi <lb/>
-                                       Stephanssyne. <lb/> 1704. <lb/> Einn madr &#xEFEB;tti hundrat <lb/>
+                              <item>På den tredje, som omhandler bl. <locus from="8" to="9">8-9</locus>, står der: <q xml:lang="is">fra Sr Þorvalldi <lb/>
+                                       Stephanssyne. <lb/> 1704. <lb/> Einn madr tti hundrat <lb/>
                                     sauda</q>.</item>
                            </list>
                         </p>
@@ -384,29 +366,23 @@
                                     Guðmundsson</name>,</item>
                               <item>bl. 6-7 præsten <name type="person" key="SnoJon002"> Snorri
                                     Jónsson</name>.</item>
-                              <item>Bl. 8-9 tilhørte i <date from="1600" to="1699"
-                                    >1600-tallet</date>
+                              <item>Bl. 8-9 tilhørte i <date from="1600" to="1699">1600-tallet</date>
                                  <name type="place" key="MunÖng01">Munkaþverá</name> og senere en
                                  Sr. Þorvaldur Stefánsson.</item>
-                              <item>Bl. <locus>11-12</locus> tilhørte præsten <name type="person"
-                                    key="HanHal001">Hannes Halldórsson</name> fra <name type="place"
-                                    >Reykholt</name>.</item>
-                           </list> I bl. <locus>7r</locus>'s margen har en <date from="1600"
-                              to="1699">1600-tals</date>-hånd skrevet : <q xml:lang="is">
+                              <item>Bl. <locus>11-12</locus> tilhørte præsten <name type="person" key="HanHal001">Hannes Halldórsson</name> fra <name type="place">Reykholt</name>.</item>
+                           </list> I bl. <locus>7r</locus>'s margen har en <date from="1600" to="1699">1600-tals</date>-hånd skrevet : <q xml:lang="is">
                               <name type="person" key="SteOla001">Stephan Olafsson</name>
                            </q> (to gange), og på bl. <locus>8v</locus>'s nederste margen står
-                           følgende: <q xml:lang="is">Þetta blad vonaſt komid <lb/> frr&#xEFEB; Muncka
-                              Þverr&#xEFEB;</q>.</p>
+                           følgende: <q xml:lang="is">Þetta blad vonaſt komid <lb/> frr Muncka
+                              Þverr</q>.</p>
                      </provenance>
                      <acquisition>
                         <p>Ifølge AM-sedlerne og marginalnotitserne på bl. <locus>8r</locus> og
                               <locus>11v</locus> har <name type="person" key="ArnMag001">Arne
                               Magnusson</name> erhvervet <list>
                               <item>bl. <locus>1-5</locus> fra Ólafur Guðmundsson,</item>
-                              <item>bl. <locus>6-7</locus> fra Snorri Jónsson i <date when="1721"
-                                 >1721</date>,</item>
-                              <item>bl. <locus>8-9</locus> fra Þorvaldur Stefánsson i <date
-                                    when="1704">1704</date>
+                              <item>bl. <locus>6-7</locus> fra Snorri Jónsson i <date when="1721">1721</date>,</item>
+                              <item>bl. <locus>8-9</locus> fra Þorvaldur Stefánsson i <date when="1704">1704</date>
                               </item>
                               <item> og bl. <locus>11-12</locus> fra Hannes Halldórsson fra Reykholt.</item>
                            </list>.</p>
@@ -414,9 +390,9 @@
                   </history>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 231 II fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="2" class="hels">
                         <locus from="1ra" to="1vb">1ra-vb</locus>
@@ -428,14 +404,13 @@
                         <explicit defective="true">En þo vrðv þ<ex>ei</ex>ra lika<ex>m</ex>ir
                            ſiðan</explicit>
                         <listBibl>
-                           <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                 >Barlaams ok Josaphats saga</ref>
-                              <biblScope type="pages">31:33-34:20</biblScope>
+                           <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                              <biblScope unit="pages">31:33-34:20</biblScope>
                               <note>Udg. b</note>
                            </bibl>
                            <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                  saga</ref>
-                              <biblScope type="pages">22:31-25:31</biblScope>
+                              <biblScope unit="pages">22:31-25:31</biblScope>
                               <note>Udg. e1</note>
                            </bibl>
                         </listBibl>
@@ -479,26 +454,24 @@
                   </physDesc>
                   <history>
                      <origin>
-                        <p>Skrevet i <origPlace>Island</origPlace>. <name type="person"
-                              key="KriKaa001">Kristian Kålund</name> (<bibl>
+                        <p>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
                               <ref type="secondary-1" target="KKKat">Katalog</ref>
-                              <biblScope type="volume">I</biblScope>
-                              <biblScope type="pages">189</biblScope>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="pages">189</biblScope>
                            </bibl>) har dateret det til <date from="1300" to="1399">the
                               1300-tallet</date>. <name type="person" key="MagRin001">Magnus
                               Rindal</name> (<bibl>
                               <ref type="secondary-1" target="NT4">Barlaams ok Josaphats saga
                                  1981</ref>
-                              <biblScope type="pages">31</biblScope>
-                           </bibl>) har dog dateret det mere præcist til <origDate notBefore="1300"
-                              notAfter="1350">1300-tallets første halvdel</origDate>.</p>
+                              <biblScope unit="pages">31</biblScope>
+                           </bibl>) har dog dateret det mere præcist til <origDate notBefore="1300" notAfter="1350">1300-tallets første halvdel</origDate>.</p>
                      </origin>
                   </history>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 231 III fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="3" class="hels">
                         <locus from="1ra:1" to="4vb:35">1ra-4vb</locus>
@@ -511,14 +484,13 @@
                                  dom<supplied reason="illegible">ara</supplied>
                            </explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">45:33-49:1</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">45:33-49:1</biblScope>
                                  <note>Udg. c1</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">37:18-41:3</biblScope>
+                                 <biblScope unit="pages">37:18-41:3</biblScope>
                                  <note>Udg. f1</note>
                               </bibl>
                            </listBibl>
@@ -528,14 +500,13 @@
                            <incipit defective="true">ekki męla ne gera</incipit>
                            <explicit defective="true">fatękir. En þ<ex>ei</ex>r ſem aðr</explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">67:3-70:5</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">67:3-70:5</biblScope>
                                  <note>Udg. c2</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">58:3-61:17</biblScope>
+                                 <biblScope unit="pages">58:3-61:17</biblScope>
                                  <note>Udg. f1</note>
                               </bibl>
                            </listBibl>
@@ -547,14 +518,13 @@
                               </supplied>vngſ s<ex>on</ex> sv<ex>arar</ex>. Ger ſua vel</incipit>
                            <explicit defective="true">Ef ek viſſi at goð vri</explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">94:28-97:27</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">94:28-97:27</biblScope>
                                  <note>Udg. c3</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">84:10-87:18</biblScope>
+                                 <biblScope unit="pages">84:10-87:18</biblScope>
                                  <note>Udg. f1</note>
                               </bibl>
                            </listBibl>
@@ -567,15 +537,14 @@
                               m<ex>er</ex>. f<ex>iri</ex> tv<supplied reason="damage">eim</supplied>
                            </explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">142:17-30, 143:10-24, 144:1-14,
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">142:17-30, 143:10-24, 144:1-14,
                                     144:18-145:3</biblScope>
                                  <note>Udg. o</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">133:15-29, 134:2-17, 217:3-19,
+                                 <biblScope unit="pages">133:15-29, 134:2-17, 217:3-19,
                                     218:7-21</biblScope>
                                  <note>Udg. f1</note>
                               </bibl>
@@ -628,27 +597,24 @@
                   </physDesc>
                   <history>
                      <origin>
-                        <p>Håndskriftet er skrevet i <origPlace>Island</origPlace>. <name
-                              type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
+                        <p>Håndskriftet er skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
                               <ref type="secondary-1" target="KKKat">Katalog</ref>
-                              <biblScope type="volume">I</biblScope>
-                              <biblScope type="pages">189</biblScope>
-                           </bibl>) har dateret håndskriftet til <date from="1300" to="1399"
-                              >1300-tallet</date>. <name type="person" key="MagRin001">Magnus
-                              Rindal</name> har dog dateret det mere præcist til <origDate
-                              notBefore="1300" notAfter="1350">1300-tallets første
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="pages">189</biblScope>
+                           </bibl>) har dateret håndskriftet til <date from="1300" to="1399">1300-tallet</date>. <name type="person" key="MagRin001">Magnus
+                              Rindal</name> har dog dateret det mere præcist til <origDate notBefore="1300" notAfter="1350">1300-tallets første
                               halvdel</origDate> (<bibl>
                               <ref type="secondary-1" target="NT4">Barlaams ok Josaphats saga
                                  1981</ref>
-                              <biblScope type="pages">32</biblScope>
+                              <biblScope unit="pages">32</biblScope>
                            </bibl>).</p>
                      </origin>
                   </history>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 231 IV fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="4" class="hels">
                         <locus from="1ra:1" to="1vb:34">1ra-vb</locus>
@@ -660,14 +626,13 @@
                         <explicit defective="true">e<ex>r</ex> oſſ megi gagn af ſt<ex>an</ex>
                            <lb/> da</explicit>
                         <listBibl>
-                           <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                 >Barlaams ok Josaphats saga</ref>
-                              <biblScope type="pages">71:3-73:33</biblScope>
+                           <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                              <biblScope unit="pages">71:3-73:33</biblScope>
                               <note>Udg. f</note>
                            </bibl>
                            <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                  saga</ref>
-                              <biblScope type="pages">62:21-65:6</biblScope>
+                              <biblScope unit="pages">62:21-65:6</biblScope>
                               <note>Udg. j</note>
                            </bibl>
                         </listBibl>
@@ -708,9 +673,9 @@
                   </history>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 231 V fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="5" class="hels">
                         <locus from="1ra:1" to="3vb:42">1ra-3vb</locus>
@@ -723,14 +688,13 @@
                            </incipit>
                            <explicit defective="true">morg lond oc ſtor riki</explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">108:16-111:35</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">108:16-111:35</biblScope>
                                  <note>Udg. h</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">97:28-101:31</biblScope>
+                                 <biblScope unit="pages">97:28-101:31</biblScope>
                                  <note>Udg. g1</note>
                               </bibl>
                            </listBibl>
@@ -738,21 +702,18 @@
                         <msItem n="5.2" class="hels">
                            <locus from="2ra:1" to="2vb:42">2ra-vb</locus>
                            <incipit defective="true">
-                              <supplied reason="damage">H</supplied>iɴ ſky<supplied reason="damage"
-                                 >nſam</supplied>aſti k<ex>onung</ex>s ſ<ex>on</ex>
+                              <supplied reason="damage">H</supplied>iɴ ſky<supplied reason="damage">nſam</supplied>aſti k<ex>onung</ex>s ſ<ex>on</ex>
                            </incipit>
-                           <explicit defective="true">h<ex>er</ex>rar ok hofþingiar heimſin<supplied
-                                 reason="damage">ſ</supplied>
+                           <explicit defective="true">h<ex>er</ex>rar ok hofþingiar heimſin<supplied reason="damage">ſ</supplied>
                            </explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">126:9-129:32</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">126:9-129:32</biblScope>
                                  <note>Udg. m</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">116:23-120:14</biblScope>
+                                 <biblScope unit="pages">116:23-120:14</biblScope>
                                  <note>Udg. g1</note>
                               </bibl>
                            </listBibl>
@@ -765,14 +726,13 @@
                                  v<ex>er</ex>ða at d<supplied reason="damage">usti</supplied>
                            </explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">162:24-16:11</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">162:24-16:11</biblScope>
                                  <note>Udg. r</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">152:11-156:22</biblScope>
+                                 <biblScope unit="pages">152:11-156:22</biblScope>
                                  <note>Udg. g1</note>
                               </bibl>
                            </listBibl>
@@ -820,11 +780,10 @@
                            <p>Fragment V er skrevet med en islandsk gotisk bogskrift. Tilsyneladende
                               er dette fragment og <ref type="ms">Perg. fol. nr. 12, V</ref> skrevet
                               af den samme skriver, og de to fragmenter har sikkert udgjort to dele
-                              af en større codex. Keyser og <name type="person" key="Ungooo001"
-                                 >Unger</name> (<bibl>
+                              af en større codex. Keyser og <name type="person" key="Ungooo001">Unger</name> (<bibl>
                                  <ref type="secondary" target="BarlJos1851">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">xxi</biblScope>
+                                 <biblScope unit="pages">xxi</biblScope>
                               </bibl>) beskriver hånden som gammel og smuk.</p>
                         </handNote>
                      </handDesc>
@@ -841,33 +800,28 @@
                   </physDesc>
                   <history>
                      <origin>
-                        <p>Fragmentet er skrevet i <origPlace>Island</origPlace>. <name
-                              type="person" key="KriKaa001">Kristian Kålund</name> har dateret det
+                        <p>Fragmentet er skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> har dateret det
                            til <date from="1300" to="1399">1300-tallet</date> (<bibl>
                               <ref type="secondary-1" target="KKKat">Katalog</ref>
-                              <biblScope type="volume">I</biblScope>
-                              <biblScope type="pages">189</biblScope>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="pages">189</biblScope>
                            </bibl>). <name type="person" key="MagRin001">Magnus Rindal</name> (<bibl>
                               <ref type="secondary-1" target="NT4">Barlaams ok Josaphats saga
                                  1981</ref>
-                              <biblScope type="pages">*34</biblScope>
-                           </bibl>) har dog dateret det mere præcist til <origDate notBefore="1300"
-                              notAfter="1350" evidence="conjecture">1300-tallets første
+                              <biblScope unit="pages">*34</biblScope>
+                           </bibl>) har dog dateret det mere præcist til <origDate notBefore="1300" notAfter="1350" evidence="conjecture">1300-tallets første
                               halvdel</origDate>.</p>
                      </origin>
                      <acquisition>
-                        <p>Ifølge fragment V's AM-seddel erhvervede <name type="person"
-                              key="ArnMag001">Arne Magnússon</name> bl. 2 fra sin nevø, præsten
-                              <name type="person" key="SnoJon002">Snorri Jónsson</name> på <name
-                              type="place" key="HelHel01">Helgafell</name>, i <date when="1721"
-                              >1721</date>.</p>
+                        <p>Ifølge fragment V's AM-seddel erhvervede <name type="person" key="ArnMag001">Arne Magnússon</name> bl. 2 fra sin nevø, præsten
+                              <name type="person" key="SnoJon002">Snorri Jónsson</name> på <name type="place" key="HelHel01">Helgafell</name>, i <date when="1721">1721</date>.</p>
                      </acquisition>
                   </history>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 231 VI fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="6" class="hels">
                         <locus from="1ra:1" to="2vb:38">1ra-2vb</locus>
@@ -880,22 +834,20 @@
                                  <ex>ok</ex>
                            </explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">111:1-113:12</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">111:1-113:12</biblScope>
                                  <note>Udg. i</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">100:24-103:9</biblScope>
+                                 <biblScope unit="pages">100:24-103:9</biblScope>
                                  <note>Udg. h1</note>
                               </bibl>
                            </listBibl>
                         </msItem>
                         <msItem n="6.2" class="hels">
                            <locus from="2ra:1" to="2vb:38">2ra-vb</locus>
-                           <incipit defective="true">hætte ma sa <supplied reason="damage"
-                                 >oðrum</supplied> hi<supplied reason="damage">al</supplied>pa eʀ
+                           <incipit defective="true">hætte ma sa <supplied reason="damage">oðrum</supplied> hi<supplied reason="damage">al</supplied>pa eʀ
                               enga <lb/> hiolp ma s<supplied reason="damage">ialfum ser
                                  v</supplied>æ<supplied reason="damage">ita</supplied>
                            </incipit>
@@ -905,14 +857,13 @@
                               <ex>ok</ex> spekingaʀ girkia. <ex>ok</ex> chall <lb/> deorum.
                                  <ex>ok</ex> egypta l<ex>a</ex>ndz maɴa</explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">137:12-139:29</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">137:12-139:29</biblScope>
                                  <note>Udg. n</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">128:3-130:29</biblScope>
+                                 <biblScope unit="pages">128:3-130:29</biblScope>
                                  <note>Udg. h1</note>
                               </bibl>
                            </listBibl>
@@ -955,28 +906,23 @@
                                     fauður og sonar Og H Anda <lb/> Heylagx</q>.</item>
                               <item>På bl. <locus>1r og 2r, nederste margen</locus>, står titlen
                                     (<title type="uniform">Barlaams saga</title>) skrevet.</item>
-                              <item>På bl. <locus>2v, nederste margen</locus>, har <name
-                                    type="person" key="ArnMag001">Arne Magnusson</name> skrevet <q
-                                    xml:lang="is">Fra <name type="place" key="SkeSta01"
-                                       >Skeliavík</name> i Steingrimsfirde</q>.</item>
+                              <item>På bl. <locus>2v, nederste margen</locus>, har <name type="person" key="ArnMag001">Arne Magnusson</name> skrevet <q xml:lang="is">Fra <name type="place" key="SkeSta01">Skeliavík</name> i Steingrimsfirde</q>.</item>
                            </list>
                         </p>
                      </additions>
                   </physDesc>
                   <history>
                      <origin>
-                        <p>Skrevet i <origPlace>Norge</origPlace>. <name type="person"
-                              key="KriKaa001">Kristian Kålund</name> har dateret håndskriftet til
+                        <p>Skrevet i <origPlace>Norge</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> har dateret håndskriftet til
                               <date from="1300" to="1399">1300-tallet</date> (<bibl>
                               <ref type="secondary-1" target="KKKat">Katalog</ref>
-                              <biblScope type="volume">I</biblScope>
-                              <biblScope type="pages">190</biblScope>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="pages">190</biblScope>
                            </bibl>). <name type="person" key="MagRin001">Magnus Rindal</name> har
-                           dog dateret det mere præcist til <origDate notBefore="1340"
-                              notAfter="1360">ca. 1350</origDate> (<bibl>
+                           dog dateret det mere præcist til <origDate notBefore="1340" notAfter="1360">ca. 1350</origDate> (<bibl>
                               <ref type="secondary-1" target="NT4">Barlaams ok Josaphats saga
                                  1981</ref>
-                              <biblScope type="pages">*42</biblScope>
+                              <biblScope unit="pages">*42</biblScope>
                            </bibl>).</p>
                      </origin>
                      <acquisition>
@@ -988,9 +934,9 @@
                   </history>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 231 VII fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="7" class="hels">
                         <locus from="1ra" to="2vb">1ra-2vb</locus>
@@ -1004,14 +950,13 @@
                                  ein<ex>n</ex> ærin<ex>n</ex>
                            </explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">117:35-120:31</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">117:35-120:31</biblScope>
                                  <note>Udg. k1</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">108:1-111:12</biblScope>
+                                 <biblScope unit="pages">108:1-111:12</biblScope>
                                  <note>Udg. i</note>
                               </bibl>
                            </listBibl>
@@ -1023,14 +968,13 @@
                            <explicit defective="true">en k<ex>onungs</ex> s<ex>un</ex> hefi ek
                                  e<ex>ig</ex>i</explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">126:28-129:29</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">126:28-129:29</biblScope>
                                  <note>Udg. k2</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">117:8-120:10</biblScope>
+                                 <biblScope unit="pages">117:8-120:10</biblScope>
                                  <note>Udg. i</note>
                               </bibl>
                            </listBibl>
@@ -1082,23 +1026,20 @@
                      <origin>
                         <p>De to sammenhængende blade er skrevet i <origPlace>Island</origPlace>.
                               <name type="person" key="KriKaa001">Kristian Kålund</name> har dateret
-                           dem til <origDate notBefore="1300" notAfter="1399" cert="high"
-                              evidence="conjecture">1300-tallet</origDate> (<bibl>
+                           dem til <origDate notBefore="1300" notAfter="1399" cert="high" evidence="conjecture">1300-tallet</origDate> (<bibl>
                               <ref type="secondary-1" target="KKKat">Katalog</ref>
-                              <biblScope type="volume">I</biblScope>
-                              <biblScope type="pages">190</biblScope>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="pages">190</biblScope>
                            </bibl>). <name type="person" key="MagRin001">Magnus Rindal</name> har
-                           dog dateret dem mere præcist til <origDate notBefore="1300"
-                              notAfter="1325" evidence="conjecture">1300-tallets
+                           dog dateret dem mere præcist til <origDate notBefore="1300" notAfter="1325" evidence="conjecture">1300-tallets
                               første fjerdedel</origDate> (<bibl>
                               <ref type="secondary-1" target="NT4">Baarlams ok Josaphats saga
                                  1981</ref>
-                              <biblScope type="pages">*43</biblScope>
+                              <biblScope unit="pages">*43</biblScope>
                            </bibl>).</p>
                      </origin>
                      <provenance>
-                        <p>Ifølge oplysningen på AM-sedlen har de to blade tilhørt kaptajn <name
-                              type="person" key="MagAra001">Magnús Arason</name>, som i sin tid fik
+                        <p>Ifølge oplysningen på AM-sedlen har de to blade tilhørt kaptajn <name type="person" key="MagAra001">Magnús Arason</name>, som i sin tid fik
                            dem fra Ísafjarðarsýsla.</p>
                      </provenance>
                      <acquisition>
@@ -1110,9 +1051,9 @@
                   </history>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 231 VIII fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="8" class="hels">
                         <locus from="1r" to="2v">1r-2v</locus>
@@ -1125,14 +1066,13 @@
                            <explicit defective="true">vm þ<ex>e</ex>tta mal n<ex>ocku</ex>rri
                                  ſtv<ex>n</ex>ddv</explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">149:12-152:32</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">149:12-152:32</biblScope>
                                  <note>Udg. q1</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">138:19-142:14</biblScope>
+                                 <biblScope unit="pages">138:19-142:14</biblScope>
                                  <note>Udg. k</note>
                               </bibl>
                            </listBibl>
@@ -1145,14 +1085,13 @@
                            <explicit defective="true">e<ex>r</ex> apt<ex>ur</ex> lyk<ex>ur</ex>
                               <ex>ok</ex> byrg<ex>er</ex> eyru sin</explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">165:17-169:16</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">165:17-169:16</biblScope>
                                  <note>Udg. q2</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">155:24-160:6</biblScope>
+                                 <biblScope unit="pages">155:24-160:6</biblScope>
                                  <note>Udg. k</note>
                               </bibl>
                            </listBibl>
@@ -1191,16 +1130,14 @@
                   </physDesc>
                   <history>
                      <origin>
-                        <p> Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1400"
-                              notAfter="1499" evidence="conjecture"
-                              >1400-tallet</origDate>.</p>
+                        <p> Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1400" notAfter="1499" evidence="conjecture">1400-tallet</origDate>.</p>
                      </origin>
                   </history>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 231 IX fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="9" class="hels">
                         <locus from="1ra:1" to="2vb:33">1ra-2vb</locus>
@@ -1212,14 +1149,13 @@
                               handlæg<ex>g</ex>ir</incipit>
                            <explicit defective="true">hotvðv ok hæddv. Ok</explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">167:11-170:3</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">167:11-170:3</biblScope>
                                  <note>Udg. s1</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">157:28-160:31</biblScope>
+                                 <biblScope unit="pages">157:28-160:31</biblScope>
                                  <note>Udg. e2</note>
                               </bibl>
                            </listBibl>
@@ -1231,14 +1167,13 @@
                            <explicit defective="true">þetta allt lastaði h<ex>ann</ex>
                            </explicit>
                            <listBibl>
-                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                    >Barlaams ok Josaphats saga</ref>
-                                 <biblScope type="pages">181:19-184:8</biblScope>
+                              <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                                 <biblScope unit="pages">181:19-184:8</biblScope>
                                  <note>Udg. s2</note>
                               </bibl>
                               <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                     saga</ref>
-                                 <biblScope type="pages">168:31-172:2</biblScope>
+                                 <biblScope unit="pages">168:31-172:2</biblScope>
                                  <note>Udg. e2</note>
                               </bibl>
                            </listBibl>
@@ -1274,8 +1209,7 @@
                      </objectDesc>
                      <handDesc hands="1">
                         <handNote scope="sole" script="textualis">
-                           <p>Fragment IX er skrevet af den same skriver (<term type="script"
-                                 >islandsk gotisk bogskrift</term>) som <ref type="ms">Fragment
+                           <p>Fragment IX er skrevet af den same skriver (<term type="script">islandsk gotisk bogskrift</term>) som <ref type="ms">Fragment
                                  II</ref>. Måske har begge blade udgjort en del af et større
                               håndskrift.</p>
                         </handNote>
@@ -1295,26 +1229,24 @@
                      <origin>
                         <p> De to sammenhængende blade er skrevet i <origPlace>Island</origPlace>.
                               <name type="person" key="KriKaa001">Kristian Kålund</name> har dateret
-                           dem til <origDate notBefore="1300" notAfter="1399" evidence="conjecture"
-                              >1300-tallet</origDate> (<bibl>
+                           dem til <origDate notBefore="1300" notAfter="1399" evidence="conjecture">1300-tallet</origDate> (<bibl>
                               <ref type="secondary-1" target="KKKat">Katalog</ref>
-                              <biblScope type="volume">I</biblScope>
-                              <biblScope type="pages">190</biblScope>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="pages">190</biblScope>
                            </bibl>). <name type="person" key="MagRin001">Magnus Rindal</name> har
-                           dog dateret dem mere præcist til <origDate notBefore="1300"
-                              notAfter="1350" evidence="conjecture">1300-tallets første
+                           dog dateret dem mere præcist til <origDate notBefore="1300" notAfter="1350" evidence="conjecture">1300-tallets første
                               halvdel</origDate> (<bibl>
                               <ref type="secondary-1" target="NT4">Baarlams ok Josaphats saga
                                  1981</ref>
-                              <biblScope type="pages">*31</biblScope>
+                              <biblScope unit="pages">*31</biblScope>
                            </bibl>).</p>
                      </origin>
                   </history>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 231 X fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="10" class="hels">
                         <locus from="1ra:1" to="1vb:36">1ra-vb</locus>
@@ -1326,14 +1258,13 @@
                            <supplied reason="omitted">lſade</supplied>
                         </explicit>
                         <listBibl>
-                           <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851"
-                                 >Barlaams ok Josaphats saga</ref>
-                              <biblScope type="pages">186:7-188:27</biblScope>
+                           <bibl>Keyser og Unger: <ref type="primary-3" target="BarlJos1851">Barlaams ok Josaphats saga</ref>
+                              <biblScope unit="pages">186:7-188:27</biblScope>
                               <note>Udg. t</note>
                            </bibl>
                            <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
                                  saga</ref>
-                              <biblScope type="pages">173:36-176:20</biblScope>
+                              <biblScope unit="pages">173:36-176:20</biblScope>
                               <note>Udg. l</note>
                            </bibl>
                         </listBibl>
@@ -1380,12 +1311,9 @@
                               <origDate notBefore="1400" notAfter="1499" evidence="conjecture">1400-tallet</origDate>.</p>
                      </origin>
                      <acquisition>
-                        <p>Ifølge et brev, skrevet af præsten <name type="person" key="FraIbs001"
-                              >Franz Ibsson</name> fra <name type="place" key="HruHru01"
-                              >Hrúni</name> i <name type="place">Árnessýsla</name>, har
+                        <p>Ifølge et brev, skrevet af præsten <name type="person" key="FraIbs001">Franz Ibsson</name> fra <name type="place" key="HruHru01">Hrúni</name> i <name type="place">Árnessýsla</name>, har
                            han sendt dette blad til <name type="person" key="ArnMag001">Arne
-                              Magnusson</name> i <name type="place" key="Copen01" xml:lang="da"
-                              >København</name> i <date when="1728">1728</date>.</p>
+                              Magnusson</name> i <name type="place" key="Copen01" xml:lang="da">København</name> i <date when="1728">1728</date>.</p>
                      </acquisition>
                   </history>
                </msPart>

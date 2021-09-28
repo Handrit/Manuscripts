@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -10,11 +10,13 @@
                 <pubPlace>København</pubPlace>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:id="AM12-445-da" xml:lang="da">
+                <msDesc xml:id="AM12-0445-da" xml:lang="da">
                     <msIdentifier>
                         <country>Danmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 445 12mo</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2533</idno>
@@ -35,7 +37,7 @@
                                 <lb/>biscop</explicit>
                             <listBibl>
                                 <bibl>Skautrup: <ref target="DGL2">Danmarks gamle
-                                        Landskabslove</ref><biblScope type="volume">II</biblScope>
+                                        Landskabslove</ref><biblScope unit="volume">II</biblScope>
                                     <note>Udg. B13</note>
                                 </bibl>
                             </listBibl>
@@ -87,16 +89,14 @@
                                 Nørrejylland, 1466</title>
                             <rubric>Hæræ begyndes th<ex>e</ex>n <lb/>ny handfæstni<ex>n</ex>gh
                                     so<ex>m</ex>
-                                <lb/>ko<ex>n</ex>ni<ex>n</ex>gh Cristiern ha<lb rend="hyphenated"
-                                />wer giffueth</rubric>
+                                <lb/>ko<ex>n</ex>ni<ex>n</ex>gh Cristiern ha<lb rend="hyphenated"/>wer giffueth</rubric>
                             <incipit>Uy c<ex>ri</ex>stiern m<ex>eth</ex> gutz <lb/>nadhe
                                     da<ex>n</ex>marks <lb/>swerig<ex>is</ex> nor-<lb/>rig<ex>is</ex>
                                 <del rend="overstrike" hand="scribe">k</del> wend<ex>is</ex> och
                                 <lb/>gothes ko<ex>n</ex>ni<ex>n</ex>gh</incipit>
                             <explicit>Anno d<ex>omi</ex>ni M<ex>illesim</ex>o
                                     <lb/>quadragi<ex>ntesi</ex>mo sexage<ex>sim</ex>o <lb/>sexto
-                                    <del rend="overstrike" hand="scribe">st</del> [?] <del
-                                    rend="overstrike" hand="scribe">is</del>
+                                    <del rend="overstrike" hand="scribe">st</del> [?] <del rend="overstrike" hand="scribe">is</del>
                             </explicit>
                         </msItem>
                     </msContents>
@@ -115,31 +115,24 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1">
-                                    <p>Teksten er enspaltet. Røde rubrikker og initialer. <title
-                                            type="uniform">Jyske lov</title>s tre bøger (bl.
-                                        1r-168r) er forsynet med kolumnetitler med en hånd fra <date
-                                            notBefore="1575" notAfter="1625">ca. 1600</date>.</p>
+                                    <p>Teksten er enspaltet. Røde rubrikker og initialer. <title type="uniform">Jyske lov</title>s tre bøger (bl.
+                                        1r-168r) er forsynet med kolumnetitler med en hånd fra <date notBefore="1575" notAfter="1625">ca. 1600</date>.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <additions>
                             <p><title type="uniform">Jyske lov</title> bog I er forsynet med talrige
                                 marginalhenvisninger til <title type="uniform">Sjællandske
-                                    lov</title>, kongelige forordninger fra <date notBefore="1500"
-                                    notAfter="1599">1500-tallet</date> samt med ordforklaringer.
+                                    lov</title>, kongelige forordninger fra <date notBefore="1500" notAfter="1599">1500-tallet</date> samt med ordforklaringer.
                                 Hånden er den samme som har skrevet kolumnetitlerne.</p>
                             <p>
                                 <list>
                                     <item>På bindets forreste inderside er der skrevet et
-                                        sammenslynget <q>VH</q> og nedenunder årstallet <date
-                                            when="1883">1883</date>.</item>
-                                    <item>Første friblad har følgende påtegning: <q xml:lang="da"
-                                            >Denne Bogh Höerer migh <name type="person"
-                                                key="EneRas001">Enne<lb/>wolldt
-                                                Ra&#x17F;mu&#x17F;&#x17F;en</name> till med <lb/>
+                                        sammenslynget <q>VH</q> og nedenunder årstallet <date when="1883">1883</date>.</item>
+                                    <item>Første friblad har følgende påtegning: <q xml:lang="da">Denne Bogh Höerer migh <name type="person" key="EneRas001">Enne<lb/>wolldt
+                                                Raſmuſſen</name> till med <lb/>
                                             rette, och bleff migh forærrit, <lb/>aff minn Kierre
-                                            Höe&#x17F;truis <lb/> fader <name type="person"
-                                                key="RasPed001">Rasmus Peder&#x17F;senn</name>
+                                            Höeſtruis <lb/> fader <name type="person" key="RasPed001">Rasmus Pederſsenn</name>
                                             <lb/> denn <date when="1616-12-06">12 decemb:
                                                   A<ex>nn</ex>o 1616</date></q> efterfulgt af et
                                         Bibelcitat (<q>Gudtz frøgt er Be<gap reason="illegible"/>nn
@@ -147,7 +140,7 @@
                                         bomærke.</item>
                                     <item>Andet friblad har på bagsiden: <q xml:lang="da">No. 5
                                                 <name type="person" key="HolPar001">Holger
-                                                Par&#x17F;berg</name></q>.</item>
+                                                Parſberg</name></q>.</item>
                                     <item>På bl. 192v står navnet Holger Parsberg, efterfulgt af
                                         årstallet <date when="1685">1685</date>.</item>
                                 </list>
@@ -163,15 +156,12 @@
 
                     <history>
                         <origin>
-                            <p>Skrevet i <name type="place">Danmark</name> i <origDate
-                                    notBefore="1475" notAfter="1499" evidence="conjecture"
-                                    >1400-tallets sidste fjerdedel.</origDate>.</p>
+                            <p>Skrevet i <name type="place">Danmark</name> i <origDate notBefore="1475" notAfter="1499" evidence="conjecture">1400-tallets sidste fjerdedel.</origDate>.</p>
                         </origin>
                         <provenance>
                             <p>Ifølge notitserne på de to friblade og marginalnoten på bl. 192v fik
                                     <name type="person" key="EneRas001">Enevoldt Rasmussen</name>
-                                håndskriftet af sin svigerfar <name type="person" key="RasPed001"
-                                    >Rasmus Pedersen</name>
+                                håndskriftet af sin svigerfar <name type="person" key="RasPed001">Rasmus Pedersen</name>
                                 <date when="1616-12-12">12 December 1616</date>. Senere tilhørte
                                 håndskriftet <name type="person" key="HolPar001">Holger
                                     Parsberg</name>.</p>
@@ -191,17 +181,15 @@
                             </availability>
                         </adminInfo>
                         <listBibl>
-                            <bibl>Kålund, <ref type="secondary-1" target="KKKat"
-                                    >Katalog</ref><biblScope type="volume">II</biblScope>
-                                <biblScope type="pages">496</biblScope></bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">496</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change>Oversat af <name type="person" key="EvaWed001">EW-J</name><date
-                    when="2009-09-22">22 september 2009</date>.</change>
+            <change>Oversat af <name type="person" key="EvaWed001">EW-J</name><date when="2009-09-22">22 september 2009</date>.</change>
             <change when="2021-09-03" who="EvaWed001">Tilføjet @class, henvisning til KKKat og
                 opdateret opmærkning.</change>
         </revisionDesc>

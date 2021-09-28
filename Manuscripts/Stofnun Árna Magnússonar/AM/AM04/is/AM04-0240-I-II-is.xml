@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
    <teiHeader>
@@ -24,7 +25,11 @@
 
                   <settlement>Reykjavík</settlement>
 
+                  <institution key="SAM"/>
+
                   <repository>Stofnun Árna Magnússonar</repository>
+
+                  <collection key="AM"/>
 
                   <idno>AM 240 I-II 4to</idno>
 
@@ -83,10 +88,7 @@
                         <source>
                            <p>Tekið eftir <bibl>
                                  <ref target="KKKat">Katalog I</ref>
-                              </bibl>, bls. 508 (nr. 965). <name key="KriKaa001" type="person"
-                                 >Kålund</name> gekk frá handritinu til skráningar í <date
-                                 when="1886-11">nóvember 1886.</date> <name key="DriThr001"
-                                 type="person">DKÞ</name> tölvuskráði <date when="2003-08-05">5.
+                              </bibl>, bls. 508 (nr. 965). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar í <date when="1886-11">nóvember 1886.</date> <name key="DriThr001" type="person">DKÞ</name> tölvuskráði <date when="2003-08-05">5.
                                  ágúst 2003</date>. <name key="ThuSig002" type="person">ÞÓS</name> skráði vatnsmerki <date when="2020-07-14">14. júlí 2020</date>.</p>
                         </source>
                      </recordHist>
@@ -111,9 +113,9 @@
                <msPart>
 
 
-                  <altIdentifier type="other">
+                  <msIdentifier><altIdentifier type="other">
                      <idno>AM 240 I 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
 
 
                   <msContents>
@@ -222,15 +224,13 @@
                               <item n="4">Seðill (<dimensions type="slip" unit="mm">
                                     <height>156</height>
                                     <width>97</width>
-                                 </dimensions>) við bls. 27: <quote xml:lang="is" type="AMSlip"
-                                    >Afsökunarbréf sitt, mun Jón Sigmundsson hafa upplesið á
+                                 </dimensions>) við bls. 27: <quote xml:lang="is" type="AMSlip">Afsökunarbréf sitt, mun Jón Sigmundsson hafa upplesið á
                                     Alþingi 1506 heldur en 1507 imo 1506 ut puto. vide
                                     miserius.</quote></item>
                               <item n="5">Seðill (<dimensions type="slip" unit="mm">
                                     <height>165</height>
                                     <width>108</width>
-                                 </dimensions>) við bls. 41: <quote xml:lang="is" type="AMSlip"
-                                    >Þennan dóm hefi ég skrifaðan eftir lacere
+                                 </dimensions>) við bls. 41: <quote xml:lang="is" type="AMSlip">Þennan dóm hefi ég skrifaðan eftir lacere
                                  charta.</quote></item>
 
                            </list>
@@ -274,9 +274,9 @@
                <msPart>
 
 
-                  <altIdentifier type="other">
+                  <msIdentifier><altIdentifier type="other">
                      <idno>AM 240 II 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
 
                   <!-- Vegna varnarrita Gu&#240;brands biskups, &#254;ar &#225; me&#240;al m&#225;lsskj&#246;l &#237; deilum hans og J&#243;ns l&#246;gmanns J&#243;nssonar. Skj&#246;lin eru fr&#225; um 1600 og f&#233;kk &#193;rni &#254;au &#250;r b&#243;k sem &#225;tti Ari Magn&#250;sson og s&#237;&#240;ar Sigur&#240;ur Magn&#250;sson &#225; Sk&#250;tust&#246;&#240;um. Hann taldi sig &#254;ekkja h&#246;nd J&#243;ns sj&#225;lfs og taldi Ara hafa fengi&#240; skj&#246;lin fr&#225; Gu&#240;r&#250;nu konu hans. (MJ) -->
 
@@ -294,8 +294,7 @@
 
                         <note>Málsskjöl í deilum <name key="GudTho001" type="person">Guðbrands
                               Þorlákssonar</name> biskups og <name key="JonJon013" type="person">Jóns
-                              Jónssonar</name> lögmanns, að mestu dómar yfir <name key="JonSig002"
-                              type="person">Jóni Sigmundssyni</name>, ásamt Leiðarhólmsskrá og
+                              Jónssonar</name> lögmanns, að mestu dómar yfir <name key="JonSig002" type="person">Jóni Sigmundssyni</name>, ásamt Leiðarhólmsskrá og
                            bréfum um Jón og jarðir hans.</note>
 
                         <note>Titill Árna Magnússonar á saurblaði: <q>
@@ -370,8 +369,7 @@
                         <p>
                            <list>
 
-                              <item n="1">Bl. 1 innskotsblað með hendi skrifara <name key="ArnMag001"
-                                    type="person">Árna Magnússonar</name>.</item>
+                              <item n="1">Bl. 1 innskotsblað með hendi skrifara <name key="ArnMag001" type="person">Árna Magnússonar</name>.</item>
 
                               <item n="2">Autt innskotsblað milli bl. 2 og 3.</item>
 
@@ -393,18 +391,14 @@
                   <history>
 
                      <origin notBefore="1590" notAfter="1610">
-                        <p>Skjölin eru skrifuð með eigin hendi <name key="JonJon013" type="person"
-                              >Jóns Jónssonar</name> lögmanns (sbr. saurbl.) og eru tímasett til
+                        <p>Skjölin eru skrifuð með eigin hendi <name key="JonJon013" type="person">Jóns Jónssonar</name> lögmanns (sbr. saurbl.) og eru tímasett til
                            c1600 í <bibl>
                               <ref target="KKKat">Katalog I</ref>
                            </bibl>, bls. 508. Voru áður hluti af annarri bók (sbr. saurbl.).</p>
                      </origin>
 
                      <provenance>
-                        <p>Bókin sem þessi skjöl tilheyrðu var í eigu <name key="AriMag001"
-                              type="person">Ara Magnússonar</name>, sem fékk hana líklega frá <name
-                              key="GudEin003" type="person">Guðrúnu Einarsdóttur</name>, konu <name
-                              key="JonJon013" type="person">Jóns Jónssonar</name> (sbr. saurbl.).
+                        <p>Bókin sem þessi skjöl tilheyrðu var í eigu <name key="AriMag001" type="person">Ara Magnússonar</name>, sem fékk hana líklega frá <name key="GudEin003" type="person">Guðrúnu Einarsdóttur</name>, konu <name key="JonJon013" type="person">Jóns Jónssonar</name> (sbr. saurbl.).
                            Síðar átti hana <name key="SigMag007" type="person">Sigurður
                               Magnússon</name> á <name type="person">Skútustöðum</name> (sbr.
                            saurbl.)</p>

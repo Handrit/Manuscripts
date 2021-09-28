@@ -1,4 +1,4 @@
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,7 +14,9 @@
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>Copenhagen</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 779 c 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>1911</idno>
@@ -77,9 +79,7 @@
                         </list>
                                     </p></surrogates>
                         <listBibl>
-                            <bibl>Kålund, <ref type="secondary-1" target="KKKat"
-                                >Katalog</ref><biblScope type="volume">II</biblScope><biblScope
-                                    type="pages">200-201</biblScope></bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">200-201</biblScope></bibl>
                         </listBibl>
                     </additional>
 
@@ -87,9 +87,9 @@
                   
 
                     <msPart>
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>AM 779 c I 4to (codicological unit 1)</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents>
                             <msItem n="1" defective="true">
                                 <locus from="1r" to="24v">1r-24v</locus>
@@ -113,10 +113,8 @@
                                         <p><material>Paper</material> with <watermark>a coat of arms of Amsterdam watermark</watermark>.</p>
                                     </support>
                                     <extent>24. <dimensions type="leaf" scope="all">
-                                            <height unit="mm" atLeast="175" atMost="189"
-                                                >175-189</height>
-                                            <width unit="mm" atLeast="134" atMost="149"
-                                                >134-149</width>
+                                            <height unit="mm" atLeast="175" atMost="189">175-189</height>
+                                            <width unit="mm" atLeast="134" atMost="149">134-149</width>
                                         </dimensions>. </extent>
                                     <foliation><p>There is later foliation in pencil. 
                                         The numbers are not consecutive and have been corrected several times.</p></foliation>
@@ -151,8 +149,7 @@
                                 </layoutDesc>
                             </objectDesc>
                             <handDesc hands="1">
-                                <handNote scribe="unknown" scope="sole" script="kanzlei"
-                                    ><p>This part of the manuscript was written in chancery script by an unidentified scribe.</p></handNote>
+                                <handNote scribe="unknown" scope="sole" script="kanzlei"><p>This part of the manuscript was written in chancery script by an unidentified scribe.</p></handNote>
                             </handDesc>
                             <decoDesc>
                                 <decoNote type="initial">There are small initials (1-2 lines).</decoNote>
@@ -166,8 +163,7 @@
                                     (<dimensions type="slip" unit="mm"><height>183</height><width>143</width></dimensions>) 
                                     is located in front of the manuscript.
                                     <name key="ArnMag001" type="person">Árni Magnússon</name> wrote on it:
-                                    <q xml:lang="is">Fra Monsieur Þorleifi Arasyne <del
-                                        rend="overstrike">til läns</del> 1711. i 
+                                    <q xml:lang="is">Fra Monsieur Þorleifi Arasyne <del rend="overstrike">til läns</del> 1711. i 
                                         Augusto.</q></p>
                                 <p>A later hand wrote <q>No 1</q> in pencil onto the AM-slip.</p>
                             </accMat>
@@ -183,9 +179,9 @@
                         </history>
                     </msPart>
                     <msPart n="2">
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>AM 779 c I 4to (codicological unit 2)</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents>
                             <msItem n="1" defective="true">
                                 <locus from="1r" to="4v">1r-4v</locus>
@@ -238,9 +234,9 @@
                     </msPart>
 
                     <msPart n="3">
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>AM 779 c II 4to</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents>
                             <msItem n="1">
                                 <locus from="1r" to="24r">1r-24r</locus>
@@ -272,8 +268,7 @@
                                         and foolscap)</watermark>.</p>
                                     </support>
                                     <extent>24. <dimensions type="leaf" scope="all">
-                                            <height unit="mm" atLeast="183" atMost="196"
-                                                >183-196</height>
+                                            <height unit="mm" atLeast="183" atMost="196">183-196</height>
                                             <width unit="mm" quantity="140">140</width>
                                         </dimensions>.</extent>
 
@@ -320,23 +315,19 @@
                                         (<locus>30v</locus>).</note></decoNote>
                             </decoDesc>
                           
-                            <additions></additions>
+                            <additions/>
 
                             <accMat>
                                 <p>An <locus from="accMat01r" to="accMat01v">AM-slip</locus> (<dimensions type="slip" unit="mm">
                                         <height>194</height>
                                         <width>147</width>
                                     </dimensions>)  is attached to the first page of the manuscript.
-                                    <name key="ArnMag001" type="person">Árni Magnússon</name> wrote on it: <q xml:lang="is"
-                                        >Grænlands=chronica utlögd af Jone Olafssyne
+                                    <name key="ArnMag001" type="person">Árni Magnússon</name> wrote on it: <q xml:lang="is">Grænlands=chronica utlögd af Jone Olafssyne
                                         Ost=india=fara.</q> Below, another hand has added: <q xml:lang="is">Ur bök i 4<hi rend="sup">to</hi>
                                             s<ex>e</ex>m Eg keypte <date when="1710">1710</date>. af
-                                            <name type="person" key="JorJon001"
-                                            >Jörun<ex>n</ex>e</name> i <name type="place"
-                                            key="HjaMos02">ytra Hiardardal</name> i Önundar firde,
+                                            <name type="person" key="JorJon001">Jörun<ex>n</ex>e</name> i <name type="place" key="HjaMos02">ytra Hiardardal</name> i Önundar firde,
                                         konu <name type="person" key="JonSte005">Jons
-                                            Steindorssonar</name> yngra. Er med hende <name
-                                            type="person" key="SteOrm001">Steindors
+                                            Steindorssonar</name> yngra. Er med hende <name type="person" key="SteOrm001">Steindors
                                         Ormssonar</name>. A.M.</q></p>
                                 <p>A later hand has added <q>No 2</q> in pencil.</p>
                             </accMat>
@@ -344,17 +335,15 @@
                         <history>
                             <acquisition>
                                 <p><name type="person" key="ArnMag001">Árni Magnússon</name> bought
-                                    the manuscript from <name type="person" key="JorJon001"
-                                        >Jórunn</name>, <name type="person" key="JonSte005">Jón
-                                        Steindórsson</name>'s widow, in <date when="1710"
-                                    >1710</date>.</p>
+                                    the manuscript from <name type="person" key="JorJon001">Jórunn</name>, <name type="person" key="JonSte005">Jón
+                                        Steindórsson</name>'s widow, in <date when="1710">1710</date>.</p>
                             </acquisition>
                         </history>
                     </msPart>
                     <msPart n="4">
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>AM 779 c III 4to</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents>
                             <msItem n="1">
                                 <locus from="1r:1" to="1r:8">1r:1-8</locus>
@@ -434,28 +423,25 @@
                                         (<locus>24v</locus>).</note></decoNote>
                                 
                             </decoDesc>
-                            <additions></additions>
+                            <additions/>
                             <accMat>There are two AM-slips in front of the manuscript. <list>
                                 <item>On <locus from="accMat01r" to="accMat01v">AM-slip</locus> a
                                     (<dimensions type="slip" unit="mm"><height>193</height><width>154</width></dimensions>) 
-                                    <name key="ArnMag001" type="person">Árni Magnússon</name> has written: <q xml:lang="is"
-                                            >Grænlands-chronika utlögd ur þeirre Dönsku af Jone
+                                    <name key="ArnMag001" type="person">Árni Magnússon</name> has written: <q xml:lang="is">Grænlands-chronika utlögd ur þeirre Dönsku af Jone
                                             Olafs syne ost-india fara.</q>
                                     A later hand has added <q>No 4</q> in pencil.</item>
                                 <item><locus from="accMat01r" to="accMat01v">AM-slip</locus> b 
                                     (<dimensions type="slip" unit="mm"><height>98</height><width>70</width></dimensions>) 
                                     reads as follows (in the hand of
                                     <name key="ArnMag001" type="person">Árni Magnússon</name>): <q xml:lang="is">Min.
-                                                feingen fra <name type="place" key="StaSuð01"
-                                                  >Stad</name> i Sugandafirdi.</q>
+                                                feingen fra <name type="place" key="StaSuð01">Stad</name> i Sugandafirdi.</q>
                                     </item>
                                 </list>
                             </accMat>
 
                         </physDesc>
                         <history>
-                            <origin>The manuscript was formerly part of a larger codex, that contained among others <ref
-                                    type="ms" target="AM04-0540-da">AM 540 4to</ref>, <ref type="ms" target="AM04-0347-da">AM 347 4to V</ref> and <ref type="ms">AM
+                            <origin>The manuscript was formerly part of a larger codex, that contained among others <ref type="ms" target="AM04-0540-da">AM 540 4to</ref>, <ref type="ms" target="AM04-0347-da">AM 347 4to V</ref> and <ref type="ms">AM
                                     554 a γ 4to</ref>.</origin>
                             <acquisition><p>It is unknown when <name type="person" key="ArnMag001">Árni Magnússon</name>
                                 acquired the manuscript, but he received it from <name type="place" key="StaSuð01">Staður</name> in
@@ -464,8 +450,7 @@
                         <additional>
                             <listBibl>
                                 <bibl>Loth: <ref type="secondary-1" target="Loth1960">Sønderdelte
-                                        arnamagnæanske papirhåndskrifter</ref><biblScope
-                                        type="pages">114, 115, 118</biblScope></bibl>
+                                        arnamagnæanske papirhåndskrifter</ref><biblScope unit="pages">114, 115, 118</biblScope></bibl>
                                 <bibl>Slay: <ref type="secondary-1" target="DesSla1967b">Further
                                         Consideration of One of the Dismembered Arnamanæan Paper
                                         Manuscripts</ref></bibl>
@@ -473,9 +458,9 @@
                         </additional>
                     </msPart>
                     <msPart n="5">
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>AM 779 c IV 4to</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents>
                             <msItem n="1">
                                 <locus from="1r" to="22r">1r-22r</locus>
@@ -486,9 +471,7 @@
                                 <rubric>edur: </rubric>
                                 <incipit>Historia I hvorre Stuttliga vtskrifad er</incipit>
                                 <explicit>Og er hier nu Ender þessrar Historiu</explicit>
-                                <note>Translation *the same as in <ref type="ms"
-                                        target="AM04-0779-a-da">AM 779 a 4to</ref>-<ref type="ms"
-                                        target="AM04-0779-b-da">AM 779 b 4to</ref> og <ref>AM 779 c
+                                <note>Translation *the same as in <ref type="ms" target="AM04-0779-a-da">AM 779 a 4to</ref>-<ref type="ms" target="AM04-0779-b-da">AM 779 b 4to</ref> og <ref>AM 779 c
                                              V 4to</ref>(.</note>
                             </msItem>
                         </msContents>
@@ -498,8 +481,7 @@
                                     <support>
                                         <p><material>Paper</material> with a <watermark>large ornamented watermark</watermark>.</p>
                                     </support>
-                                    <extent>22. Fol. <locus>22v</locus> is blank. <dimensions type="leaf"
-                                            scope="all">
+                                    <extent>22. Fol. <locus>22v</locus> is blank. <dimensions type="leaf" scope="all">
                                             <height quantity="194">194</height>
                                             <width unit="mm" quantity="155">155</width>
                                         </dimensions>. </extent>
@@ -543,8 +525,7 @@
                                     (<dimensions type="slip" unit="mm"><height>195</height><width>160</width></dimensions>) 
                                     is kept in front of the manuscript.
                                     <name key="ArnMag001" type="person">Árni Magnússon</name> has written on it:
-                                    <q xml:lang="is"> Ur bok S<ex>era</ex> Þor<del>steins</del><add
-                                        place="above" hand="ArnMag001">kels</add> Oddz sonar i
+                                    <q xml:lang="is"> Ur bok S<ex>era</ex> Þor<del>steins</del><add place="above" hand="ArnMag001">kels</add> Oddz sonar i
                                         Bæ, og heyrer h<ex>onu</ex>m til, ä eg <ex>og</ex> at lata
                                         þ<ex>ad</ex> festa til samans aptur.</q></p>
                                     <p>A later hand has added <q>No 5</q> in pencil.</p>
@@ -559,21 +540,19 @@
                             <provenance>
                                 <p><name type="person" key="ArnMag001">Árni Magnússon</name> has received the
                                     manuscript as part of a larger codex from <name type="person" key="JonTor001">Jón
-                                        Torfason</name>. At first, this was a loan, but in <date when="1721"
-                                            >1721</date> he became the owner of the manuscript (cf. AM-slip in <ref>AM 779 c V 4to</ref>).</p></provenance>
+                                        Torfason</name>. At first, this was a loan, but in <date when="1721">1721</date> he became the owner of the manuscript (cf. AM-slip in <ref>AM 779 c V 4to</ref>).</p></provenance>
                         </history>
                         <additional>
                             <listBibl>
-                                <bibl>Stefán Karlsson: <ref type="secondary-1" target="SteKar1970d"
-                                        >Halldór Guðmundsson, norðlenzkur maður</ref>, Opuscula IV
-                                    (1970) <biblScope type="pages">85</biblScope></bibl>
+                                <bibl>Stefán Karlsson: <ref type="secondary-1" target="SteKar1970d">Halldór Guðmundsson, norðlenzkur maður</ref>, Opuscula IV
+                                    (1970) <biblScope unit="pages">85</biblScope></bibl>
                             </listBibl>
                         </additional>
                     </msPart>
                     <msPart n="6">
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>AM 779 c V 4to</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents>
                             <msItem>
                                 <locus from="1r" to="26r">1r-26r</locus>
@@ -583,9 +562,7 @@
                                 <rubric>CRONICA <lb/> Sv Grænlendska</rubric>
                                 <incipit>Historia I hvorre Stuttlega Utskrifad er</incipit>
                                 <explicit>Og er Hier Nú Ender þessrar Historiu</explicit>
-                                <note>Translation (The same as in <ref type="ms"
-                                        target="AM04-0779-a-da">AM 779 a 4to</ref>, <ref type="ms"
-                                        target="AM04-0779-b-da">AM 779 b 4to</ref> and <ref>AM 779 c
+                                <note>Translation (The same as in <ref type="ms" target="AM04-0779-a-da">AM 779 a 4to</ref>, <ref type="ms" target="AM04-0779-b-da">AM 779 b 4to</ref> and <ref>AM 779 c
                                            IV 4to</ref>).</note>
                             </msItem>
                         </msContents>
@@ -595,8 +572,7 @@
                                     <support>
                                         <p><material>Paper</material> with <watermark>watermark</watermark>.</p>
                                     </support>
-                                    <extent>26. Fol. <locus>26v</locus> is blank. <dimensions type="leaf"
-                                            scope="all">
+                                    <extent>26. Fol. <locus>26v</locus> is blank. <dimensions type="leaf" scope="all">
                                             <height quantity="192">192</height>
                                             <width unit="mm" quantity="155">155</width>
                                         </dimensions>. </extent>
@@ -644,10 +620,7 @@
                                     <name key="ArnMag001" type="person">Árni Magnússon</name> wrote on it:
                                     <q xml:lang="is">Grænlandz-Kronika <lb/>
                                         Ur bok S<ex>era</ex> <name type="person" key="JonTor001">Jons
-                                            Torfasonar</name> ä <name type="place" key="BreFlj01"
-                                                >Breidabolstad</name>, og heyr<ex>ir</ex> <hi
-                                                    rend="underline">h<ex>onu</ex>m til</hi> <add
-                                                        place="inline">nu <date when="1721">1721</date> hun mier
+                                            Torfasonar</name> ä <name type="place" key="BreFlj01">Breidabolstad</name>, og heyr<ex>ir</ex> <hi rend="underline">h<ex>onu</ex>m til</hi> <add place="inline">nu <date when="1721">1721</date> hun mier
                                                         til</add>.</q></p>
                                 <p>A later hand wrote <q>No 7</q> in pencil onto the AM-slip.</p>
                                 <p>Another hand wrote <q>5</q> in black ink onto the AM-slip.</p>

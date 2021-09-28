@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,9 +14,9 @@
                     <msIdentifier>
                         <country key="IS">Ísland</country>
                         <settlement>Reykjavík</settlement>
-                        <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                        <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                         <repository>Handritasvið</repository>
-                        <collection>Safn Stofnunar Árna Magnússonar</collection>
+                        <collection key="SAM">Safn Stofnunar Árna Magnússonar</collection>
                         <idno>SÁM 67</idno>
                     </msIdentifier>
                     <msContents xml:lang="is">
@@ -66,9 +66,9 @@
                     </additional>
 
                     <msPart n="1">
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>SÁM 67 I</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents>
                             <summary>
                                 <title type="supplied">Rímur og kvæði</title>
@@ -123,8 +123,7 @@
                             <objectDesc form="codex">
                                 <supportDesc material="chart">
                                     <support>Pappír.</support>
-                                    <extent>i + 74 + iii blöð í 8vo (<dimensions type="leaf" scope="all"
-                                            unit="mm">
+                                    <extent>i + 74 + iii blöð í 8vo (<dimensions type="leaf" scope="all" unit="mm">
                                             <height>160 +/- 1</height>
                                             <width>103 +/- 1</width>
                                         </dimensions>). Tvö öftustu saurblöðin eru stubbar (úr sendibréfi).</extent>
@@ -154,8 +153,7 @@
                                         <p>
                                             <list>
                                                 <item>Eindálka.</item>
-                                                <item>Leturflötur er ca <dimensions type="written"
-                                                  unit="mm">
+                                                <item>Leturflötur er ca <dimensions type="written" unit="mm">
                                                   <height scope="range">125-133</height>
                                                   <width scope="range">83-87</width>
                                                   </dimensions>.</item>
@@ -175,66 +173,48 @@
                             </handDesc>
                             <decoDesc>
                                 <decoNote type="paratext" subtype="flourished">Fyrirsagnir eru
-                                    flúraðar og stafir blekfylltir á bl. <locus from="1r" to="1r"
-                                        >1r</locus> og <locus from="54r" to="54r">54r</locus>.</decoNote>
+                                    flúraðar og stafir blekfylltir á bl. <locus from="1r" to="1r">1r</locus> og <locus from="54r" to="54r">54r</locus>.</decoNote>
                                 <decoNote type="initial" subtype="flourished">Upphafsstafir rímna
-                                    eru flúraðir á bl. <locus from="1r" to="1r">1r</locus>, <locus
-                                        from="7v" to="7v">7v</locus>, <locus from="14r" to="14r"
-                                    >14r</locus>, <locus from="18v" to="18v">18v</locus>, <locus
-                                        from="23r" to="23r">23r</locus>, <locus from="28r" to="28r"
-                                        >28r</locus>, <locus from="33v" to="33v">33v</locus>, <locus
-                                        from="39r" to="39r">39r</locus>, <locus from="45r" to="45r"
-                                        >45r</locus>, <locus from="49v" to="49v">49v</locus>, <locus
-                                        from="54r" to="54r">54r</locus>, <locus from="58r" to="58r"
-                                        >58r</locus>, <locus from="62r" to="62r">62r</locus>, <locus
-                                        from="65v" to="65v">65v</locus>, <locus from="68v" to="68v"
-                                        >68v</locus>.</decoNote>
-                                <decoNote type="frieze" subtype="tail-piece">Bókahnútur á bl. <locus
-                                        from="71r" to="71r">71r</locus>.</decoNote>
+                                    eru flúraðir á bl. <locus from="1r" to="1r">1r</locus>, <locus from="7v" to="7v">7v</locus>, <locus from="14r" to="14r">14r</locus>, <locus from="18v" to="18v">18v</locus>, <locus from="23r" to="23r">23r</locus>, <locus from="28r" to="28r">28r</locus>, <locus from="33v" to="33v">33v</locus>, <locus from="39r" to="39r">39r</locus>, <locus from="45r" to="45r">45r</locus>, <locus from="49v" to="49v">49v</locus>, <locus from="54r" to="54r">54r</locus>, <locus from="58r" to="58r">58r</locus>, <locus from="62r" to="62r">62r</locus>, <locus from="65v" to="65v">65v</locus>, <locus from="68v" to="68v">68v</locus>.</decoNote>
+                                <decoNote type="frieze" subtype="tail-piece">Bókahnútur á bl. <locus from="71r" to="71r">71r</locus>.</decoNote>
                                 <decoNote type="secondary" subtype="doodle">Smáskreyti á efri eða
-                                    neðri spássíu bl. <locus from="41v" to="43r"
-                                >41v-43r</locus>.</decoNote>
+                                    neðri spássíu bl. <locus from="41v" to="43r">41v-43r</locus>.</decoNote>
                             </decoDesc>
                             <additions>
                                 <p>
                                     <list>
                                         <item>Texti á bl. <locus from="71v" to="74v">71v-74v</locus> er
                                             líklega síðari tíma viðbót til að fylla auð blöð í kveri.</item>
-                                        <item>Eigendanöfn eru krotuð á bl. <locus from="74v"
-                                                to="74v">74v</locus> og ártal. Einnig tölur sem óvíst er hvað merkja. Enn
-                                            fremur koma nöfn fyrir á <locus from="9901r-RFl" to="9901rRFl"
-                                                >fremsta saurblaði aftast, rektóhlið</locus> (sjá uppruna).</item>
+                                        <item>Eigendanöfn eru krotuð á bl. <locus from="74v" to="74v">74v</locus> og ártal. Einnig tölur sem óvíst er hvað merkja. Enn
+                                            fremur koma nöfn fyrir á <locus from="9901r-RFl" to="9901rRFl">fremsta saurblaði aftast, rektóhlið</locus> (sjá uppruna).</item>
                                     </list>
                                 </p>
                             </additions>
                         </physDesc>
                         <history>
-                            <origin notBefore="1700" notAfter="1787" evidence="conjecture"
-                                cert="medium">
+                            <origin notBefore="1700" notAfter="1787" evidence="conjecture" cert="medium">
                                 <p>Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace> á
                                         <origDate notBefore="1700" notAfter="1787"> 18. öld</origDate>, líklega fyrir 1787 (sbr. bl. <locus from="74v" to="74v">74v</locus>).</p>
                             </origin>
                             <provenance>
                                 <p>Eigandi handritsins (e.t.v. fyrsti eigandinn) hefur verið <name type="person">Ragnhildur</name> sem vísan á bl. <locus from="71r" to="71r">71r</locus> tileinkar kverið.</p>
                                 <p>Á bl. <locus from="74v" to="74v">74v</locus> stendur: <q xml:lang="is"><name type="person">Þórey Stefánsdóttir</name> á þessar
-                                    rímur með réttu og er vel að komin</q>. Enn fremur koma þar fyrir nöfnin: <name type="person">Sigríður Einarsdóttir</name> og <name
-                                        type="person">Sveinn Sveinsson</name>, hvort tveggja með yngri hendi.</p>
+                                    rímur með réttu og er vel að komin</q>. Enn fremur koma þar fyrir nöfnin: <name type="person">Sigríður Einarsdóttir</name> og <name type="person">Sveinn Sveinsson</name>, hvort tveggja með yngri hendi.</p>
                                 <p>Á <locus from="9901r-RFl" to="9901r-RFl">aftara saurblaði rektó</locus>
                                     kemur fyrir nafnið <name type="person">Sveinn Sveinsson</name>.</p>
                                 <p>Á <locus from="9901v-RFl" to="9901v-RFl">aftara saurblaði versó</locus>
                                     koma fyrir nöfnin <name type="person">Þorsteinn
                                     Þorsteinsson</name> og <name type="person">Guðný
-                                        Jónsdóttir</name> (í sendibréfinu) en undir bréfið skrifar <name type="person">J. Jakobsson</name> á <name
-                                        type="place">Öngulstöðum</name> í <date when="1775-05">maí
+                                        Jónsdóttir</name> (í sendibréfinu) en undir bréfið skrifar <name type="person">J. Jakobsson</name> á <name type="place">Öngulstöðum</name> í <date when="1775-05">maí
                                         1775</date>.</p>
                             </provenance>
                         </history>
                     </msPart>
 
                     <msPart n="2">
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>SÁM 67 II</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
 
                         <msContents>
                             <textLang mainLang="is">Íslenska</textLang>
@@ -334,8 +314,7 @@
                             <objectDesc form="codex">
                                 <supportDesc material="chart">
                                     <support>Pappír.</support>
-                                    <extent>i + 12 + i (<dimensions type="leaf" scope="all"
-                                            unit="mm">
+                                    <extent>i + 12 + i (<dimensions type="leaf" scope="all" unit="mm">
                                             <height>168 +/- 2</height>
                                             <width>104 +/- 2</width>
                                         </dimensions>). Blað <locus from="12v" to="12v">12v</locus>
@@ -356,14 +335,12 @@
                                         <p>
                                             <list>
                                                 <item>Eindálka.</item>
-                                                <item>Leturflötur er ca <dimensions type="written"
-                                                  unit="mm">
+                                                <item>Leturflötur er ca <dimensions type="written" unit="mm">
                                                   <height scope="range">135-150</height>
                                                   <width scope="range">85-90</width>
                                                   </dimensions>.</item>
                                                 <item>Línufjöldi er ca 19-21.</item>
-                                                <item>Strikað fyrir leturfleti og línum á bl. <locus
-                                                  from="3r" to="10v">3-10</locus>.</item>
+                                                <item>Strikað fyrir leturfleti og línum á bl. <locus from="3r" to="10v">3-10</locus>.</item>
                                             </list>
                                         </p>
                                     </layout>
@@ -371,16 +348,14 @@
                             </objectDesc>
                             <handDesc hands="2">
                                 <handNote scope="minor" script="humcursiva" scribe="unknown">Bl.
-                                        <locus from="1r" to="2v">1-2</locus> og <locus from="11r"
-                                        to="12r">11r-12r</locus>: Óþekktur skrifari, snarhönd.</handNote>
+                                        <locus from="1r" to="2v">1-2</locus> og <locus from="11r" to="12r">11r-12r</locus>: Óþekktur skrifari, snarhönd.</handNote>
                                 <handNote scope="major" script="humcursiva kurrent" scribe="unknown">Bl.
                                         <locus from="3r" to="10v">3r-10v</locus>: Óþekktur skrifari,
                                     sprettskrift en sumt með fljótaskrift.</handNote>
                             </handDesc>
                             <decoDesc>
                                 <decoNote type="paratext" subtype="secondary">Fyrirsagnir örlítið
-                                    flúraðar, sjá einkum bl. <locus from="4v" to="4v"
-                                >4v</locus>.</decoNote>
+                                    flúraðar, sjá einkum bl. <locus from="4v" to="4v">4v</locus>.</decoNote>
                             </decoDesc>
                             <additions><p>Eigendanöfn eru á <locus from="0001r-FFl" to="9901v-RFl">saurblöðum</locus> og pennakrot.</p></additions>
                             <bindingDesc>
@@ -400,9 +375,9 @@
                     </msPart>
 
                     <msPart n="3">
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>SÁM 67 III</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents>
                             <textLang mainLang="is">Íslenska</textLang>
                             <msItem n="1" defective="false" class="salm">
@@ -449,9 +424,9 @@
                     <!-- athuga tímasetningar betur síðar ÞS --></msPart>
                     
                      <msPart n="4">
-                         <altIdentifier type="partial">
+                         <msIdentifier><altIdentifier type="partial">
                              <idno>SÁM 67 IV</idno>
-                         </altIdentifier>
+                         </altIdentifier></msIdentifier>
                          <msContents>
                              <textLang mainLang="is">Íslenska</textLang>
                              <msItem n="1" defective="unknown" class="salm">
@@ -788,9 +763,9 @@
                      </msPart>   
                     
                     <msPart n="5">
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>SÁM 67 V</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents>
                             <textLang mainLang="is">Íslenska</textLang>
                             <msItem defective="false" class="kvad">
@@ -837,9 +812,9 @@
                     </msPart>
                     
                     <msPart n="6">
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>SÁM 67 VI</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents>
                             <textLang mainLang="is">Íslenska</textLang>
                             <msItem n="1" defective="false" class="laus">
@@ -876,9 +851,9 @@
                     </msPart>
                                      
                     <msPart n="7">
-                            <altIdentifier type="partial">
+                            <msIdentifier><altIdentifier type="partial">
                                 <idno>SÁM 67 VII</idno>
-                            </altIdentifier>
+                            </altIdentifier></msIdentifier>
                         <msContents>
                             <textLang mainLang="is">Íslenska</textLang>
                             <msItem n="1" defective="false" class="kvad">
@@ -945,7 +920,7 @@
                     </msPart>
 
                         <msPart n="8">
-                            <altIdentifier type="partial"><idno>SÁM 67 VIII</idno></altIdentifier>
+                            <msIdentifier><altIdentifier type="partial"><idno>SÁM 67 VIII</idno></altIdentifier></msIdentifier>
                             <msContents>
                                 <textLang mainLang="is">Íslenska</textLang>
                                 <msItem n="1" defective="false" class="kvolds salm">
@@ -995,7 +970,7 @@
                             </history>
                         </msPart>
 
-                            <msPart n="9"><altIdentifier type="partial"><idno>SÁM 67 IX</idno></altIdentifier>
+                            <msPart n="9"><msIdentifier><altIdentifier type="partial"><idno>SÁM 67 IX</idno></altIdentifier></msIdentifier>
                                 <msContents>
                                     <textLang mainLang="is">Íslenska</textLang>
                                     <msItem n="1" defective="false" class="rimur">
@@ -1030,7 +1005,7 @@
                             </msPart>
                     
                     <msPart n="10">
-                        <altIdentifier type="partial"><idno>SÁM 67 X</idno></altIdentifier>
+                        <msIdentifier><altIdentifier type="partial"><idno>SÁM 67 X</idno></altIdentifier></msIdentifier>
                         <msContents>
                             <textLang mainLang="is">Íslenska</textLang>
                             <msItem n="1" defective="false" class="kvad">
@@ -1063,7 +1038,7 @@
                     </msPart>
 
                         <msPart n="11">
-                        <altIdentifier type="partial"><idno>SÁM 67 XI</idno></altIdentifier>
+                        <msIdentifier><altIdentifier type="partial"><idno>SÁM 67 XI</idno></altIdentifier></msIdentifier>
                         <msContents>
                             <textLang mainLang="is">Íslenska</textLang>
                             <msItem n="1" defective="false" class="salm">
@@ -1095,7 +1070,7 @@
                             <history><origin notBefore="1775" notAfter="1850">Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace>, í <origDate notBefore="1775" notAfter="1825">lok 18. aldar eða byrjun 19. aldar</origDate></origin></history>
                         </msPart>
                     
-                        <msPart n="12"><altIdentifier type="partial"><idno>SÁM 67 XII</idno></altIdentifier>
+                        <msPart n="12"><msIdentifier><altIdentifier type="partial"><idno>SÁM 67 XII</idno></altIdentifier></msIdentifier>
                         <msContents>
                             <textLang mainLang="is">Íslenska</textLang>
                             <msItem n="1" defective="false" class="ban">
@@ -1126,7 +1101,7 @@
                             <history><origin notBefore="1775" notAfter="1850">Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace>, í <origDate notBefore="1775" notAfter="1825">lok 18. aldar eða byrjun 19. aldar</origDate></origin></history>
                         </msPart>
                     
-                    <msPart n="13"><altIdentifier type="partial"><idno>SÁM 67 XIII</idno></altIdentifier>
+                    <msPart n="13"><msIdentifier><altIdentifier type="partial"><idno>SÁM 67 XIII</idno></altIdentifier></msIdentifier>
                     <msContents>
                         <textLang mainLang="is">Íslenska</textLang>
                         <msItem n="1" defective="false" class="kvad">
@@ -1163,7 +1138,7 @@
                         </history>
                     </msPart>
                     <msPart n="14">
-                        <altIdentifier type="partial"><idno>SÁM 67 XIV</idno></altIdentifier>
+                        <msIdentifier><altIdentifier type="partial"><idno>SÁM 67 XIV</idno></altIdentifier></msIdentifier>
                         <msContents>
                             <textLang mainLang="is">Íslenska</textLang>
                             <msItem n="1" defective="false" class="salm">

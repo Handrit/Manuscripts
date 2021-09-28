@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 446 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1217</idno>
@@ -24,8 +25,7 @@
                <head>
                   <title type="uniform">Eyrbyggja saga</title>
                   <origPlace>Ísland</origPlace>
-                  <origDate notBefore="1600" notAfter="1640" evidence="external"
-                     >c1600-1640</origDate>
+                  <origDate notBefore="1600" notAfter="1640" evidence="external">c1600-1640</origDate>
                   <note>Lesbrigði á spássíum eru tekin úr <ref>AM 448 4to</ref> (sbr. athugasemd
                         frá <name key="GriTho001" type="person">Grími Thorkelín</name>).</note>
                </head>
@@ -85,12 +85,10 @@
                      </binding>
                   </bindingDesc>
                   <accMat>
-                     <p>Fastur <locus from="accMat01r" to="accMat01v">seðill</locus> (<dimensions
-                           type="slip" unit="mm">
+                     <p>Fastur <locus from="accMat01r" to="accMat01v">seðill</locus> (<dimensions type="slip" unit="mm">
                            <height>184</height>
                            <width>140</width>
-                        </dimensions>) fremst með hendi skrifara <name key="ArnMag001" type="person"
-                           >Árna Magnússonar</name>: <quote xml:lang="is" type="AMSlip">Eyrbyggja
+                        </dimensions>) fremst með hendi skrifara <name key="ArnMag001" type="person">Árna Magnússonar</name>: <quote xml:lang="is" type="AMSlip">Eyrbyggja
                            saga. Úttekin úr bók er verið hafði eign herra Þorláks Skúlasonar 1621.
                            Síðan hafði Guðbrandur Þorláksson gefið Jóni nokkrum Jónssyni bókina.
                            Jón Jónsson fékk síra Þorsteini Jónssyni (á Eiðum) hana 1662 en síra
@@ -112,14 +110,11 @@
                      <p>
                         <name key="ArnMag001" type="person">Árni Magnússon</name> segir handritið úr
                         bók sem hann fékk hjá <name key="JonEin001" type="person">Jóni
-                           Einarssyni</name> á Hólum og verið hafði eign <name key="ThoSku001"
-                           type="person">Þorláks Skúlasonar</name> biskups <date when="1641"
-                           >1641</date>. <name key="GudTho001" type="person">Guðbrandur
+                           Einarssyni</name> á Hólum og verið hafði eign <name key="ThoSku001" type="person">Þorláks Skúlasonar</name> biskups <date when="1641">1641</date>. <name key="GudTho001" type="person">Guðbrandur
                            Þorláksson</name> gaf síðan <name type="person">Jóni Jónssyni</name>
                         bókina en hann fékk hana séra <name type="person">Þorsteini
                         Jónssyni</name> á Eiðum <date when="1662">1662</date>. Þorsteinn gaf hana
-                           <name key="KriTho001" type="person">Kristrúnu</name> dóttur sinni <date
-                           when="1678">1678</date> (sbr. seðil).</p>
+                           <name key="KriTho001" type="person">Kristrúnu</name> dóttur sinni <date when="1678">1678</date> (sbr. seðil).</p>
                   </provenance>
                   <acquisition>
                      <p>Afhendingu frestað 18. apríl 1997 vegna rannsókna í Kaupmannahöfn; kom 5. desember 2006.</p>
@@ -131,10 +126,7 @@
                         <source>
                            <p>Tekið eftir <bibl>
                                  <ref target="KKKat">Katalog I</ref>
-                              </bibl>, bls. 642 (nr. 1217). <name key="KriKaa001" type="person"
-                                 >Kålund</name> gekk frá handritinu til skráningar í <date
-                                 when="1886-11">nóvember 1886</date>. <name key="GudIng001"
-                                 type="person">GI</name> skráði <date when="2001-11-28">28. nóvember
+                              </bibl>, bls. 642 (nr. 1217). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar í <date when="1886-11">nóvember 1886</date>. <name key="GudIng001" type="person">GI</name> skráði <date when="2001-11-28">28. nóvember
                                  2001</date>.</p>
                         </source>
                      </recordHist>
@@ -166,10 +158,10 @@
                      <bibl>Jón Helgason 1956, <ref target="JónHel1956a">Athuganir um nokkur handrit Egils sögu</ref></bibl>
                      <bibl>Ólafur Halldórsson 1978, <ref target="ÓlaHal1978a">Grænland í miðaldaritum</ref></bibl>
                      <bibl>Eyrbyggja saga. The vellum tradition. Scott, Forrest S., ed.
-                        Copenhagen: Reitzel; 2003. ( Editiones Arnamagnæanæ. Series A; 18).<ref target="ForSco2003a"></ref></bibl>
+                        Copenhagen: Reitzel; 2003. ( Editiones Arnamagnæanæ. Series A; 18).<ref target="ForSco2003a"/></bibl>
                      <bibl>Scott, Forres S. A paper manuscript of Eyrbyggja saga ÍB 180 8vo.
                         Opuscula Bibliotheca Arnamagnæana. Vol XLII. 2003; XI:
-                        161-181.<ref target="ForSco1434a"></ref></bibl>
+                        161-181.<ref target="ForSco1434a"/></bibl>
                      <bibl>Stefán Karlsson 1997, <ref target="SteKar1997b">Skrifarar Þorláks biskups Skúlasonar</ref></bibl>
                      <bibl>Stefán Karlsson 2000, <ref target="SteKar2000x">Skrifarar Þorláks biskups Skúlasonar</ref></bibl>
                   </listBibl>

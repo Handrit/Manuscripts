@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 552 k β 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1342</idno>
@@ -58,8 +58,7 @@
                   <provenance>
                      <p>
                         <name key="ArnMag001" type="person">Árni Magnússon</name> fékk hjá séra
-                           <name key="OlaGis002" type="person">Ólafi Gíslasyni</name> á <name
-                           type="place">Hofi í Vopnafirði</name>.</p>
+                           <name key="OlaGis002" type="person">Ólafi Gíslasyni</name> á <name type="place">Hofi í Vopnafirði</name>.</p>
                   </provenance>
                   <acquisition when="1992-11-13">
                      <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 13. nóvember 1992.</p>
@@ -116,9 +115,9 @@
                   </listBibl>
                </additional>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 552 k β 1 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents xml:lang="is">
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem n="1" class="fas" defective="false">
@@ -160,10 +159,7 @@
                               </p>
                            </collation>
                            <condition>
-                              <p>Handritið er morkið á jöðrum en gert hefur verið við það með pappír. Texti hefur skerst á bl. <locus from="1r"
-                                    to="1v">1</locus>, <locus from="9r" to="9r">9r</locus>, <locus
-                                    from="17r" to="17v">17</locus> og <locus from="18r" to="18v"
-                                 >18</locus>.</p>
+                              <p>Handritið er morkið á jöðrum en gert hefur verið við það með pappír. Texti hefur skerst á bl. <locus from="1r" to="1v">1</locus>, <locus from="9r" to="9r">9r</locus>, <locus from="17r" to="17v">17</locus> og <locus from="18r" to="18v">18</locus>.</p>
                            </condition>
                         </supportDesc>
                         <layoutDesc>
@@ -178,9 +174,7 @@
                                     <item>Línufjöldi er 35-38.</item>
                                     <item><catchwords>Griporð</catchwords>.</item>
                                     <item>Upphafsstafir eru sums staðar dregnir út úr leturfleti,
-                                       sjá einkum bl. <locus from="5v" to="5">5v</locus>, <locus
-                                          from="7v" to="7v">7v</locus> og <locus from="8r" to="8r"
-                                          >8r</locus>.</item>
+                                       sjá einkum bl. <locus from="5v" to="5">5v</locus>, <locus from="7v" to="7v">7v</locus> og <locus from="8r" to="8r">8r</locus>.</item>
                                     <item>Kaflar eru númeraðir á spássíum.</item>
                                  </list>
                               </p>
@@ -188,32 +182,25 @@
                         </layoutDesc>
                      </objectDesc>
                      <handDesc hands="1">
-                        <handNote scope="sole" script="kurrent">Með hendi <name
-                              type="person">Þórðar Jónssonar</name> í <name type="place"
-                           >Kálfavík</name>, fljótaskrift.</handNote>
+                        <handNote scope="sole" script="kurrent">Með hendi <name type="person">Þórðar Jónssonar</name> í <name type="place">Kálfavík</name>, fljótaskrift.</handNote>
                      </handDesc>
                      <decoDesc>
                         <decoNote type="initial">Upphafsstafir kafla eru feitletraðir og
-                           pennaflúraðir; stærstir eru M á blaði <locus from="1r" to="1r"
-                           >1r</locus>, Þ á <locus from="7v" to="7v">7v</locus> og N á <locus
-                              from="9v" to="9v">9v</locus>.</decoNote>
+                           pennaflúraðir; stærstir eru M á blaði <locus from="1r" to="1r">1r</locus>, Þ á <locus from="7v" to="7v">7v</locus> og N á <locus from="9v" to="9v">9v</locus>.</decoNote>
                      </decoDesc>
                   </physDesc>
                   <history>
                      <origin when="1683">
-                        <p>Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace> árið <origDate when="1683">1683</origDate> af <name
-                              type="person">Þórði Jónssyni</name> í <name type="place"
-                              key="KálÖgu01">Kálfavík</name> (sjá skrifaraklausu á bl. <locus
-                              from="18v" to="18v">18v</locus>).</p>
+                        <p>Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace> árið <origDate when="1683">1683</origDate> af <name type="person">Þórði Jónssyni</name> í <name type="place" key="KálÖgu01">Kálfavík</name> (sjá skrifaraklausu á bl. <locus from="18v" to="18v">18v</locus>).</p>
                      </origin>
                   </history>
                </msPart>
 
 
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 552 k β 2 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents xml:lang="is">
                      <summary>Samtíningur. Brot úr almanaki, sendibréfi og dönskum
                         verslunarreikningi.</summary>
@@ -230,8 +217,7 @@
                         <title type="supplied">Sendibréf</title>
                         <note>
                            <p>Brot úr sendibréfi til <name type="person" key="JonAra002">Jóns
-                                 Arasonar</name> skólameistara í <name type="place" key="Skálh01"
-                                 >Skálholti</name>.</p>
+                                 Arasonar</name> skólameistara í <name type="place" key="Skálh01">Skálholti</name>.</p>
                            <p>Jón var skólameistari á árunum 1633-1636.</p>
                            <p>Utanáskrift er á versósíðu.</p>
                         </note>

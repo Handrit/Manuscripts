@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,9 +20,9 @@
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
-						<institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+						<institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
 						<repository>Handritasafn</repository>
-						<collection>Handritasafn Jóns Sigurðssonar</collection>
+						<collection key="JS">Handritasafn Jóns Sigurðssonar</collection>
 						<idno>JS 303 4to</idno>
 						<altIdentifier type="internal" subtype="PEO">
 							<idno>5193</idno>
@@ -38,46 +38,46 @@
 							<author key="GisKon001">Gísli Konráðsson</author>
 							<bibl>
 								<ref target="soguGK">Söguþættir</ref>
-								<biblScope type="pages">56, 115, 122</biblScope>
+								<biblScope unit="pages">56, 115, 122</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="GísKon1935a">Huld</ref>
-								<biblScope type="volume">I</biblScope>
-								<biblScope type="pages">3</biblScope>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">3</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="GísKon1936a">Huld</ref>
-								<biblScope type="volume">II</biblScope>
-								<biblScope type="pages">3</biblScope>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="pages">3</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="HT1890">Huld</ref>
-								<biblScope type="volume">III</biblScope>
-								<biblScope type="pages">3</biblScope>
+								<biblScope unit="volume">III</biblScope>
+								<biblScope unit="pages">3</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="HT1890">Huld</ref>
-								<biblScope type="volume">IV</biblScope>
-								<biblScope type="pages">3</biblScope>
+								<biblScope unit="volume">IV</biblScope>
+								<biblScope unit="pages">3</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="HT1890">Huld</ref>
-								<biblScope type="volume">V</biblScope>
-								<biblScope type="pages">3</biblScope>
+								<biblScope unit="volume">V</biblScope>
+								<biblScope unit="pages">3</biblScope>
 							</bibl>
 							<bibl>
 								<ref>Íslenzkir sagnaþættir (Þjóðólfs)</ref>
-								<biblScope type="volume">II</biblScope>
-								<biblScope type="pages">1</biblScope>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="pages">1</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="IslList">Íslenskir listamenn</ref>
-								<biblScope type="pages">11</biblScope>
+								<biblScope unit="pages">11</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="ÞorTho1892">Landfræðisaga Íslands</ref>
-								<biblScope type="volume">III</biblScope>
-								<biblScope type="pages">114</biblScope>
+								<biblScope unit="volume">III</biblScope>
+								<biblScope unit="pages">114</biblScope>
 							</bibl>
 							<bibl> Einar G. Pétursson: <ref target="Rit46">Eddurit Jóns
 									Guðmundssonar lærða</ref>
@@ -139,12 +139,10 @@
 					<history>
 						<origin>
 							<origPlace key="is">Ísland</origPlace>
-							<origDate cert="medium" notBefore="1860" notAfter="1870"
-							>1860-1870</origDate>. </origin>
+							<origDate cert="medium" notBefore="1860" notAfter="1870">1860-1870</origDate>. </origin>
 						<provenance>Þriðja bindi í þriggja binda safni.</provenance>
 						<acquisition>
-							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date
-									when="1878">1878.</date> Safnið var afhent Landsbókasafni að
+							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date when="1878">1878.</date> Safnið var afhent Landsbókasafni að
 								honum látnum, en hann lést 7. desember 1879. Það komst í hendur
 								safnsins árið <date when="1881">1881</date> er það var flutt í
 								Alþingishúsið.</p>
@@ -154,10 +152,7 @@
 						<adminInfo>
 							<recordHist>
 								<source><name type="person" key="HalKri001">Halldóra
-									Kristinsdóttir</name> yfirfór skráningu, <date when="2012-07-11"
-										>11. júlí 2012</date> ; <name type="person" key="IriLei001"
-										>Íris Alda Ísleifsdóttir</name> frumskráði, <date
-										when="2011-06-21">21. júní 2011</date> ; Handritaskrá, 2. b.
+									Kristinsdóttir</name> yfirfór skráningu, <date when="2012-07-11">11. júlí 2012</date> ; <name type="person" key="IriLei001">Íris Alda Ísleifsdóttir</name> frumskráði, <date when="2011-06-21">21. júní 2011</date> ; Handritaskrá, 2. b.
 									; Átaksverkefni 2011.</source>
 							</recordHist>
 						</adminInfo>

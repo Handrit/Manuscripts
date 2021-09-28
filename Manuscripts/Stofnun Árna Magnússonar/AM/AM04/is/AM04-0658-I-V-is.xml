@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 658 I-V 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1650</idno>
@@ -27,8 +28,7 @@
                   <origDate notBefore="1350" notAfter="1410" evidence="external">s. XIV 2/2 - s.
                      XIV/XV</origDate>
                   <note>Brot úr fimm handritum.</note>
-                  <note>Áður var hér einnig brot úr handriti sem nú er í <ref xml:id="AM04-0660"
-                        target="AM04-0660">AM 660 4to</ref> (þ.e. brot A í <bibl>
+                  <note>Áður var hér einnig brot úr handriti sem nú er í <ref xml:id="AM04-0660" target="AM04-0660">AM 660 4to</ref> (þ.e. brot A í <bibl>
                         <ref>Postola sögum 1874</ref>
                      </bibl>).</note>
                   <!-- (sbr. <bibl><ref target="KKKat">Katalog II</ref></bibl>, bls. 72). --></head>
@@ -96,11 +96,7 @@
                         <source>
                            <p>Tekið eftir <bibl>
                                  <ref target="KKKat">Katalog II</ref>
-                              </bibl>, bls. 71-72 (nr. 1650). <name key="KriKaa001" type="person"
-                                 >Kålund</name> gekk frá handritinu til skráningar í <date
-                                 notBefore="1880-10" notAfter="1889-10">október 188?</date>. <name
-                                 key="DriThr001" type="person">DKÞ</name> skráði handritið <date
-                                 when="2003-09-16">16. september 2003</date>.</p>
+                              </bibl>, bls. 71-72 (nr. 1650). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar í <date notBefore="1880-10" notAfter="1889-10">október 188?</date>. <name key="DriThr001" type="person">DKÞ</name> skráði handritið <date when="2003-09-16">16. september 2003</date>.</p>
                         </source>
                      </recordHist>
                      <custodialHist>
@@ -126,9 +122,9 @@
                   </listBibl>
                </additional>
                <msPart>
-                  <altIdentifier type="other">
+                  <msIdentifier><altIdentifier type="other">
                      <idno>AM 658 I 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem defective="true" class="post">
@@ -193,8 +189,7 @@
                      </decoDesc>
                      <additions>
                         <p>Blaðsíðutöl með hendi <name key="ArnMag001" type="person">Árna
-                              Magnússonar</name> á spássíum, sem vísa til <ref xml:id="AM04-0631"
-                              target="AM04-0631">AM 631 4to</ref>.</p>
+                              Magnússonar</name> á spássíum, sem vísa til <ref xml:id="AM04-0631" target="AM04-0631">AM 631 4to</ref>.</p>
                      </additions>
                      <accMat>
                         <p/>
@@ -216,9 +211,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="other">
+                  <msIdentifier><altIdentifier type="other">
                      <idno>AM 658 II 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem defective="true" class="post">
@@ -284,8 +279,7 @@
                               <p/>
                            </collation>
                            <condition>
-                              <p>Blöðin hafa verið notuð í band og eru slitin af þeim sökum. <name
-                                    key="ArnMag001" type="person">Árni Magnússon</name> segir þau
+                              <p>Blöðin hafa verið notuð í band og eru slitin af þeim sökum. <name key="ArnMag001" type="person">Árni Magnússon</name> segir þau
                                  hafa verið stungin saman (sbr. seðil).</p>
                            </condition>
                         </supportDesc>
@@ -338,9 +332,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="other">
+                  <msIdentifier><altIdentifier type="other">
                      <idno>AM 658 III 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem defective="true" class="post">
@@ -401,8 +395,7 @@
                               631 4to</ref>.</p>
                      </additions>
                      <accMat>
-                        <p>Umslag með upplýsingum um feril blaðanna með hendi <name key="ArnMag001"
-                              type="person">Árna Magnússonar</name>.</p>
+                        <p>Umslag með upplýsingum um feril blaðanna með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name>.</p>
                      </accMat>
                   </physDesc>
                   <history>
@@ -418,8 +411,7 @@
                            <name key="ArnMag001" type="person">Árni Magnússon</name> segir þá sögu af
                            blöðunum að <name key="ChrMyl01" type="person">Müller</name> amtmaður
                            hafi fengið þau á Alþingi og þau hafi legið hjá honum í nokkur ár. Hann
-                           hafi svo fleygt þeim út um gluggann á Bessastöðum en <name
-                              key="JonThorVid01" type="person">Jón Vídalín</name> biskup hafi þá
+                           hafi svo fleygt þeim út um gluggann á Bessastöðum en <name key="JonThorVid01" type="person">Jón Vídalín</name> biskup hafi þá
                            verið þar staddur og tekið blöðin upp og sýnt amtmanni, sem hafi sagt þau
                            ónýt. Jón tók þá blöðin með sér og gaf Árna (sbr. seðil).</p>
                      </provenance>
@@ -434,9 +426,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="other">
+                  <msIdentifier><altIdentifier type="other">
                      <idno>AM 658 IV 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem defective="true" class="post">
@@ -521,9 +513,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="other">
+                  <msIdentifier><altIdentifier type="other">
                      <idno>AM 658 V 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem defective="true" class="post">

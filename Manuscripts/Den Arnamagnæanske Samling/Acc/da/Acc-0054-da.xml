@@ -1,4 +1,4 @@
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,8 +14,9 @@
                     <msIdentifier>
                         <country key="DA">Denmark</country>
                         <settlement>Copenhagen</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
-                        <collection>Accessoria</collection>
+                        <collection key="Acc">Accessoria</collection>
                         <idno>Acc. 54</idno>
                     </msIdentifier>
                     <msContents>
@@ -39,18 +40,14 @@
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
-                                <support><material>Papir</material>. <watermark>Vandmærker: Bikube med datoen <date
-                                    when="1814">1814</date> på fodstykket; teksten "KLIPPAN"
+                                <support><material>Papir</material>. <watermark>Vandmærker: Bikube med datoen <date when="1814">1814</date> på fodstykket; teksten "KLIPPAN"
                                     nedenunder som modmærke.</watermark></support>
                                 <extent>54. <dimensions type="leaf" scope="all" unit="mm">
                                     <height>161</height>
                                     <width>101</width>
                                 </dimensions></extent>
                                 <foliation>
-                                    <p>Pagineret 2-101. Paginationen begynder på bl. <locus
-                                        from="3r" to="3r">3r</locus> Bl. <locus from="1r"
-                                            to="1v">1r-v</locus> og <locus from="53v" to="54v"
-                                                >53v-54v</locus> er ubeskrevne og ikke paginerede.</p>
+                                    <p>Pagineret 2-101. Paginationen begynder på bl. <locus from="3r" to="3r">3r</locus> Bl. <locus from="1r" to="1v">1r-v</locus> og <locus from="53v" to="54v">53v-54v</locus> er ubeskrevne og ikke paginerede.</p>
                                 </foliation>
                                 <collation>
                                     <signatures>Der er ingen lægsignaturer.</signatures>
@@ -98,27 +95,21 @@
                     </physDesc>
                     <history>
                         <origin when="1816" cert="high" evidence="internal">
-                            <p> Skrevet i <origPlace key="DK">Danmark</origPlace> i <origDate
-                                when="1816">1816</origDate>.</p>
+                            <p> Skrevet i <origPlace key="DK">Danmark</origPlace> i <origDate when="1816">1816</origDate>.</p>
                         </origin>
                         <provenance>
-                            <p>Håndskrifterne Acc. 51-62 kom fra <name type="place" key="Nykob01"
-                                >Nykøbing</name> Katedralskole. De fleste af dem er <name
-                                    type="person" key="FreSch002">Fredrik Schaldemoses</name>
+                            <p>Håndskrifterne Acc. 51-62 kom fra <name type="place" key="Nykob01">Nykøbing</name> Katedralskole. De fleste af dem er <name type="person" key="FreSch002">Fredrik Schaldemoses</name>
                                 afskrifter af norrøne tekster, og han donerede dem til Nykøbing
                                 Katedralskole.</p></provenance>
                         <acquisition><p>I <date when="2007">april 2007</date> skænkede Nykøbing
                             katedralskole håndskriftet til <orgName key="AMS">Den Arnamagnæanske
-                                Samling</orgName> i <name type="place" key="Copen01"
-                                    >København</name>.</p></acquisition>
+                                Samling</orgName> i <name type="place" key="Copen01">København</name>.</p></acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Katalogiseret af <name type="person"
-                                        key="KatKap001">Katarzyna Anna Kapitan</name> den <date
-                                        when="2018-09-20"/>.</p>
+                                    <p>Katalogiseret af <name type="person" key="KatKap001">Katarzyna Anna Kapitan</name> den <date when="2018-09-20"/>.</p>
                                 </source>
                             </recordHist>
                         </adminInfo>
@@ -126,8 +117,7 @@
                             <p>
                                 <list>
                                     <item>Mikrofilm Neg 2018 fra <date when="2011-05-30"/>.</item>
-                                    <item>Mikrofilm (arkiv) 2000 fra <date when="2011-06-01"
-                                    />.</item>
+                                    <item>Mikrofilm (arkiv) 2000 fra <date when="2011-06-01"/>.</item>
                                     <item>Backup film TS 1296 fra <date when="2011-06-01"/>.</item>
                                 </list>
                             </p>

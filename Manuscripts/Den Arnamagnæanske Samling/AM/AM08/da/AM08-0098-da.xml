@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -15,7 +15,9 @@
 					<msIdentifier>
 						<country>Danmark</country>
 						<settlement>København</settlement>
+						<institution key="AMS"/>
 						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
 						<idno>AM 98 8vo</idno>
 						<altIdentifier type="internal" subtype="KKKat">
 							<idno>2301</idno>
@@ -40,15 +42,15 @@
 					<additional>
 						<listBibl>
 							<bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
-								<biblScope type="volume">II</biblScope>
-								<biblScope type="pages">389-390</biblScope>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="pages">389-390</biblScope>
 							</bibl>
 						</listBibl>
 					</additional>
 					<msPart>
-						<altIdentifier type="partial">
+						<msIdentifier><altIdentifier type="partial">
 							<idno>AM 98 I 8vo</idno>
-						</altIdentifier>
+						</altIdentifier></msIdentifier>
 						<msContents>
 							<summary>En latinsk <title type="uniform">missale</title>, skrevet i <origPlace>Ialand</origPlace>, <origDate notBefore="1190" notAfter="1210">ca. 1200</origDate></summary>
 							<msItem defective="true" class="messus">
@@ -96,13 +98,13 @@
 							<origin notBefore="1190" notAfter="1210" cert="high" evidence="external">
 								<p>Skrevet <origDate notBefore="1190" notAfter="1210" evidence="conjecture" resp="KKKat">ca. 1200</origDate>
 										(<bibl> Kålund: <ref type="secondary-1" target="KKKat">
-											Katalog</ref><biblScope type="volume">II</biblScope><biblScope type="pages">389-390</biblScope>.</bibl>). </p></origin>
+											Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">389-390</biblScope>.</bibl>). </p></origin>
 						</history>
 					</msPart>
 					<msPart>
-						<altIdentifier type="partial">
+						<msIdentifier><altIdentifier type="partial">
 							<idno>AM 98 II 8vo</idno>
-						</altIdentifier>
+						</altIdentifier></msIdentifier>
 						<msContents>
 							<msItem defective="true" class="helgs">
 								<locus from="1r" facs="#AM08-0098-0001r" to="9v">1r-9v</locus>

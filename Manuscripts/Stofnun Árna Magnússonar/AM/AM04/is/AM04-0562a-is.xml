@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 562 a 1-2 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1393</idno>
@@ -55,9 +55,7 @@
                                  (<dimensions type="slip" unit="mm">
                                  <height>223</height>
                                  <width>165</width>
-                              </dimensions>) fremst með efnisyfirliti <name key="ArnMag001"
-                                 type="person">Árna Magnússonar</name> á rektóhlið: <quote
-                                 type="AMSlip" xml:lang="is">[efst er krossað yfir efniyfirlit, og
+                              </dimensions>) fremst með efnisyfirliti <name key="ArnMag001" type="person">Árna Magnússonar</name> á rektóhlið: <quote type="AMSlip" xml:lang="is">[efst er krossað yfir efniyfirlit, og
                                  annað skrifað á undir] af Þorsteine stangarhggs, ur Vopnfirdinga
                                  sgu. 2. exemplar. Þorsteins hvita þattur. af Þorsteine uxafot, 2.
                                  exemplar. af Þorsteine Froda (austfirdska) af Þorsteine drum
@@ -90,9 +88,7 @@
                               </bibl>). </p>
                            <p>
                               <name type="person" key="GioVer001">GV</name> sló inn texta af seðlum
-                              Árna Magnússonar undir umsjón <name type="person" key="ThoSig001"
-                                 >ÞS</name> og með hliðsjón af gögnum frá <name type="person"
-                                 key="MarJon001">MJ</name>.</p>
+                              Árna Magnússonar undir umsjón <name type="person" key="ThoSig001">ÞS</name> og með hliðsjón af gögnum frá <name type="person" key="MarJon001">MJ</name>.</p>
                         </source>
                      </recordHist>
                      <custodialHist>
@@ -116,19 +112,17 @@
                   </listBibl>
                </additional>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 562 a 1 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents xml:lang="is">
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem class="islt" defective="false">
                         <locus from="1r" to="5v">1r-5v</locus>
                         <title type="uniform">Þorsteins þáttur stangarhöggs</title>
-                        <rubric>Þáttur úr Vopnfirðinga sögu, af Þorsteini <add place="supralinear"
-                              >stangarhögg</add> Þórarinssyni í Sunnudal</rubric>
+                        <rubric>Þáttur úr Vopnfirðinga sögu, af Þorsteini <add place="supralinear">stangarhögg</add> Þórarinssyni í Sunnudal</rubric>
                         <note>
-                           <q>stangarhögg</q> bætt við í titilinn innan sviga af <name
-                              key="ArnMag001" type="person">Árna Magnússyni</name>.</note>
+                           <q>stangarhögg</q> bætt við í titilinn innan sviga af <name key="ArnMag001" type="person">Árna Magnússyni</name>.</note>
                         <incipit>Maður hét Þórarinn, er bjó í Sunnudal …</incipit>
                         <explicit>… hefur margt manna frá þeim komið. Og lýkur hér frá þeim að
                            segja.</explicit>
@@ -142,8 +136,7 @@
                            <extent>5 blöð (<dimensions type="leaf" unit="mm" scope="all">
                                  <height>213</height>
                                  <width>165</width>
-                              </dimensions>). Auð blöð: Neðri hluti blaðs <locus from="5v" to="5v"
-                                 >5v</locus>.</extent>
+                              </dimensions>). Auð blöð: Neðri hluti blaðs <locus from="5v" to="5v">5v</locus>.</extent>
                            <foliation>
                               <p>Handritið hefur nýlega verið blaðmerkt með blýanti 1-5.</p>
                            </foliation>
@@ -168,13 +161,11 @@
                         </layoutDesc>
                      </objectDesc>
                      <handDesc hands="1">
-                        <handNote scope="sole" script="cursiva" scribe="KetJor001">Með hendi <name
-                              type="person" key="KetJor001">Ketils Jörundssonar</name>,
+                        <handNote scope="sole" script="cursiva" scribe="KetJor001">Með hendi <name type="person" key="KetJor001">Ketils Jörundssonar</name>,
                            síðléttiskrift.</handNote>
                      </handDesc>
                      <additions>
-                        <p>Lesbrigðum og leiðréttingum bætt við af <name key="ArnMag001"
-                              type="person">Árna Magnússyni</name>.</p>
+                        <p>Lesbrigðum og leiðréttingum bætt við af <name key="ArnMag001" type="person">Árna Magnússyni</name>.</p>
                      </additions>
                   </physDesc>
                   <history>
@@ -182,16 +173,15 @@
                         <p>Handritið er skrifað á <origPlace key="IS">Íslandi</origPlace>. Það er
                            tímasett til 17. aldar í <bibl>
                               <ref target="KKKat">Katalog I 1888:714</ref>
-                           </bibl>, en virkt skriftartímabil Ketils var ca <origDate from="1620"
-                              to="1670">1620-1670</origDate>.</p>
+                           </bibl>, en virkt skriftartímabil Ketils var ca <origDate from="1620" to="1670">1620-1670</origDate>.</p>
                      </origin>
                   </history>
                </msPart>
 
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 562 a 2 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents xml:lang="is">
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem n="1" defective="true" class="islt">
@@ -201,8 +191,7 @@
                         <incipit defective="true">… við fá þyki mér að meta þá sem hér …</incipit>
                         <explicit>… hefur margt manna frá þeim komið. Og lýkur hér frá þeim að
                            segja.</explicit>
-                        <note>Upphafið er líklega að finna á bl. <locus from="13v" to="13v"
-                              >13v</locus>, útkrassað og ólæsilegt.</note>
+                        <note>Upphafið er líklega að finna á bl. <locus from="13v" to="13v">13v</locus>, útkrassað og ólæsilegt.</note>
                      </msItem>
                      <msItem n="2" class="isl">
                         <locus from="9r" to="13r">9r-13r</locus>
@@ -260,8 +249,7 @@
                            fljótaskrift.</handNote>
                      </handDesc>
                      <additions><p><list>
-                              <item>Lesbrigðum og leiðréttingum bætt við af <name key="ArnMag001"
-                                    type="person">Árna Magnússyni</name>.</item>
+                              <item>Lesbrigðum og leiðréttingum bætt við af <name key="ArnMag001" type="person">Árna Magnússyni</name>.</item>
                               <item>Pennaprufa á bl. <locus from="6r" to="6r">6r</locus>.</item>
                            </list></p></additions>
                   </physDesc>

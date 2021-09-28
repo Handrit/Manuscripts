@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,7 +14,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 3 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>646</idno>
@@ -22,18 +24,14 @@
                </msIdentifier>
                <msContents>
                   <summary><title type="supplied" xml:lang="da">Danske middelalderlove</title>.
-                     Dette håndskrift fra slutningen af 1300-tallet indeholder <title type="uniform"
-                        >Jyske lov</title> uden fortale, men med <title type="uniform"
-                        >Trolddomskapitlet</title>; kongebreve og håndfæstninger; den gamle gårdsret
-                     ("Garths ræth"), og en forklaring på hvordan bøder i <title type="uniform"
-                        >Jyske lov</title> er bestemt og beregnet.</summary>
+                     Dette håndskrift fra slutningen af 1300-tallet indeholder <title type="uniform">Jyske lov</title> uden fortale, men med <title type="uniform">Trolddomskapitlet</title>; kongebreve og håndfæstninger; den gamle gårdsret
+                     ("Garths ræth"), og en forklaring på hvordan bøder i <title type="uniform">Jyske lov</title> er bestemt og beregnet.</summary>
                   <msItem n="1" class="log">
                      <locus from="1r:1" to="47v:18">1r-47v</locus>
                      <title type="uniform" xml:lang="da">Jyske lov</title>
                      <textLang mainLang="da">Gammeldansk</textLang>
                      <incipit>Hwilket barn erffue scal —- j</incipit>
-                     <explicit>Om man unther a<ex>n</ex>nen at han haffuer for<lb rend="hyphenated"
-                        />giorth ha<ex>n</ex>u<ex>m</ex> m<ex>edh</ex> troldom oc ganger hin ey
+                     <explicit>Om man unther a<ex>n</ex>nen at han haffuer for<lb rend="hyphenated"/>giorth ha<ex>n</ex>u<ex>m</ex> m<ex>edh</ex> troldom oc ganger hin ey
                         <lb/> medh th<ex>e</ex>r jekteth worther oc getth<ex>e</ex>r hin
                            ha<ex>n</ex>nu<ex>m</ex>
                         <lb/> a hand th<ex>e</ex>r secther tha werghe hin sek m<ex>edh</ex> neffnd
@@ -42,8 +40,8 @@
                      <finalRubric>Thelos tertij libri</finalRubric>
                      <bibl>Skautrup: <ref type="primary-3" target="DGL2">Danmarks gamle
                            Landskabslove</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">19-505 (Tekst 1. Ed. A<hi rend="sup">7</hi>) og
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">19-505 (Tekst 1. Ed. A<hi rend="sup">7</hi>) og
                            506</biblScope>
                         <note>Troldomskapitlet. Ed. B<hi rend="sup">3</hi>
                         </note>
@@ -80,8 +78,8 @@
                      <finalRubric>finis</finalRubric>
                      <bibl>Kolderup-Rosenvinge: <ref type="primary-3" target="SgdL5">Samling af
                            gamle danske Love</ref>
-                        <biblScope type="volume">V</biblScope>
-                        <biblScope type="pages">23-35:4</biblScope>
+                        <biblScope unit="volume">V</biblScope>
+                        <biblScope unit="pages">23-35:4</biblScope>
                         <note>Udg. G</note>
                      </bibl>
                   </msItem>
@@ -135,19 +133,17 @@
                </physDesc>
                <history>
                   <origin notBefore="1485" notAfter="1499" evidence="conjecture" resp="DGL2">
-                     <p>Håndskriftet er skrevet i <origPlace>Danmark</origPlace>. <name
-                           type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
+                     <p>Håndskriftet er skrevet i <origPlace>Danmark</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
                            <ref type="secondary" target="KKKat">Katalog</ref>
-                           <biblScope type="volume">I</biblScope>
-                           <biblScope type="pages">340</biblScope>
+                           <biblScope unit="volume">I</biblScope>
+                           <biblScope unit="pages">340</biblScope>
                         </bibl>) har dateret det til <date notBefore="1490" notAfter="1510">ca.
                            1500</date>, hvorimod <name type="person" key="PetSka001">Peter
                            Skautrup</name> (<bibl>
                            <ref type="primary-2" target="DGL2">Danmarks gamle Landskabslove</ref>
-                           <biblScope type="volume">II</biblScope>
-                           <biblScope type="pages">xvi</biblScope>
-                        </bibl>) har dateret det til <origDate notBefore="1485" notAfter="1499"
-                           evidence="conjecture" resp="DGL2">slutningen af
+                           <biblScope unit="volume">II</biblScope>
+                           <biblScope unit="pages">xvi</biblScope>
+                        </bibl>) har dateret det til <origDate notBefore="1485" notAfter="1499" evidence="conjecture" resp="DGL2">slutningen af
                         1400-tallet</origDate>.</p>
                   </origin>
                </history>
@@ -155,8 +151,7 @@
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Katalogiseret <date when="1999-08-25">25. august 1999</date> af <name
-                                 type="person" key="AnnSee001">AWS</name>.</p>
+                           <p>Katalogiseret <date when="1999-08-25">25. august 1999</date> af <name type="person" key="AnnSee001">AWS</name>.</p>
                         </source>
                      </recordHist>
                      <custodialHist>
@@ -168,17 +163,13 @@
                               restaurering).</p>
                         </custEvent>
                         <custEvent type="loan">
-                           <p>Udlånt til <name type="org" key="SA-Rigs" xml:lang="da"
-                                 >Rigsarkivet</name>, <name type="place" key="Copen01" xml:lang="da"
-                                 >København</name>, til <name type="person" key="EriKro001">Erik
+                           <p>Udlånt til <name type="org" key="SA-Rigs" xml:lang="da">Rigsarkivet</name>, <name type="place" key="Copen01" xml:lang="da">København</name>, til <name type="person" key="EriKro001">Erik
                                  Kroman</name> fra <date from="1970-06-17" to="1970-06-17">17. juni
                                  til 17. juli 1970</date>.</p>
                         </custEvent>
                         <custEvent type="loan">
                            <p>Udlånt til <name type="org" key="KB" xml:lang="da">Det Kongelige
-                                 Bibliotek</name>, København, til <name type="person"
-                                 key="AgeAnd001">Aage Andersen</name> fra <date from="1986-08-23"
-                                 to="1986-12-02">23. august til 2. december 1986</date>.</p>
+                                 Bibliotek</name>, København, til <name type="person" key="AgeAnd001">Aage Andersen</name> fra <date from="1986-08-23" to="1986-12-02">23. august til 2. december 1986</date>.</p>
                         </custEvent>
                      </custodialHist>
                   </adminInfo>
@@ -231,22 +222,22 @@
                   <listBibl>
                      <bibl>Kolderup-Rosenvinge: <ref type="secondary" target="SgdL5">Samling af
                            gamle danske Love</ref>
-                        <biblScope type="volume">V</biblScope>
-                        <biblScope type="pages">xiii-xiv</biblScope>
+                        <biblScope unit="volume">V</biblScope>
+                        <biblScope unit="pages">xiii-xiv</biblScope>
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">340</biblScope>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">340</biblScope>
                      </bibl>
                      <bibl>Skautrup: <ref type="secondary" target="DGL2">Danmarks gamle
                            Landskabslove</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">xvi, lvii, lxv</biblScope>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">xvi, lvii, lxv</biblScope>
                      </bibl>
                      <bibl>Schlyter og Collin: <ref type="secondary" target="CorpJur9">Corpus juris
                            Sueo-Gotorum antiqui: Samling af Sweriges Gamla Lagar</ref>
-                        <biblScope type="volume">IX</biblScope>
-                        <biblScope type="pages">lviii</biblScope>
+                        <biblScope unit="volume">IX</biblScope>
+                        <biblScope unit="pages">lviii</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

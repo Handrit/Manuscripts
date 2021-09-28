@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -10,13 +10,13 @@
             <p>Tilraunaútgáfa</p>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:lang="is" xml:id="AM04-0567-XX-alfa-beta-is">
+            <msDesc xml:lang="is" xml:id="AM04-0567-XX-alpha-beta-is">
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 567 XX α og β 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1415</idno>
@@ -51,9 +51,7 @@
                                  (<dimensions type="slip" unit="mm">
                                  <height>158</height>
                                  <width>113</width>
-                              </dimensions>) fremst með hendi <name key="ArnMag001" type="person"
-                                 >Árna Magnússonar</name> með fyrirsögn o.fl. á rektóhlið: <quote
-                                 type="AMSlip" xml:lang="is">Úr Sigurðar sögu þögla. Vide meam in
+                              </dimensions>) fremst með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name> með fyrirsögn o.fl. á rektóhlið: <quote type="AMSlip" xml:lang="is">Úr Sigurðar sögu þögla. Vide meam in
                                  charta fol. pag. 25.</quote></item>
                            <item>Laus seðill með hendi <name key="SteKar001" type="person">Stefáns
                                  Karlssonar</name> með upplýsingum um skemmdir á kápu.</item>
@@ -65,8 +63,7 @@
                </physDesc>
                <history>
                   <origin>Handritsbrotin í AM 567 I-XXVI 4to eru kölluð <q xml:lang="la">Fabulosæ
-                        Islandorum Historiæ</q> á seðli með hendi <name key="ArnMag001"
-                        type="person">Árna Magnússonar</name> sem fylgir XXVI.</origin>
+                        Islandorum Historiæ</q> á seðli með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name> sem fylgir XXVI.</origin>
                   <acquisition when="1993-06-02">
                      <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 2. júní 1993.</p>
                   </acquisition>
@@ -78,17 +75,14 @@
                            <p><name type="person" key="ThoSig001">ÞS</name> endurskráði skv. reglum
                               TEI P5 <date when="2009-05-25">25. maí 2009</date>.</p>
                            <p>
-                              <name key="ThoSig001" type="person">ÞS</name> skráði <date
-                                 when="2002-11-07">7. nóvember 2002</date>.</p>
+                              <name key="ThoSig001" type="person">ÞS</name> skráði <date when="2002-11-07">7. nóvember 2002</date>.</p>
                            <p>
                               <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu
                               til skráningar <date when="1887-10-22">22. október 1887</date> (<bibl>
                                  <ref target="KKKat">Katalog (I):721-729 (nr. 1415)</ref>
                               </bibl>).</p>
                            <p><name type="person" key="GioVer001">GV</name> sló inn texta af seðlum
-                              Árna Magnússonar undir umsjón <name type="person" key="ThoSig001"
-                                 >ÞS</name> og með hliðsjón af gögnum frá <name type="person"
-                                 key="MarJon001">MJ</name>.</p>
+                              Árna Magnússonar undir umsjón <name type="person" key="ThoSig001">ÞS</name> og með hliðsjón af gögnum frá <name type="person" key="MarJon001">MJ</name>.</p>
                         </source>
                      </recordHist>
                      <custodialHist>
@@ -105,8 +99,7 @@
                            <item>Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
                               Kaupmannahöfn.</item>
                            <item>Svart-hvítar ljósmyndir á Stofnun Árna Magnússonar á Íslandi,
-                              keyptar af <name type="person">Arne Mann Nielsen</name> í <date
-                                 when="1978-01">janúar 1978</date>.</item>
+                              keyptar af <name type="person">Arne Mann Nielsen</name> í <date when="1978-01">janúar 1978</date>.</item>
                         </list>
                      </p>
                   </surrogates>
@@ -117,9 +110,9 @@
                </additional>
 
                <msPart n="1">
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 567 XX α 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents xml:lang="is">
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem defective="true" class="ridd">
@@ -156,8 +149,7 @@
                               <p>
                                  <list>
                                     <item>Eindálka.</item>
-                                    <item>Leturflötur er <dimensions type="written" unit="mm"
-                                          scope="all">
+                                    <item>Leturflötur er <dimensions type="written" unit="mm" scope="all">
                                           <height>130 +/- 1</height>
                                           <width>80 +/- 1</width>
                                        </dimensions>.</item>
@@ -193,15 +185,15 @@
                               aldar</origDate> (<bibl>
                               <ref target="KKKat">Katalog I 1889:727</ref>
                            </bibl>, sjá einnig <bibl>
-                              <ref>Loth 1963</ref><biblScope type="pages">vii</biblScope>
+                              <ref>Loth 1963</ref><biblScope unit="pages">vii</biblScope>
                            </bibl>).</p>
                      </origin>
                   </history>
                </msPart>
                <msPart n="2">
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 567 XX β 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents xml:lang="is">
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem defective="true" class="ridd">
@@ -217,7 +209,7 @@
                               <ref>1963</ref>
                            </bibl>).</note>
                         <bibl>
-                           <ref>Editiones Arnamagnæanæ</ref><biblScope type="volume">B
+                           <ref>Editiones Arnamagnæanæ</ref><biblScope unit="volume">B
                               21</biblScope>, 1963.</bibl>
                      </msItem>
                   </msContents>
@@ -251,8 +243,7 @@
                               <p>
                                  <list>
                                     <item>Eindálka.</item>
-                                    <item>Leturflötur er <dimensions type="written" unit="mm"
-                                          scope="all">
+                                    <item>Leturflötur er <dimensions type="written" unit="mm" scope="all">
                                           <height>190 +/- 1</height>
                                           <width>145 +/- 1</width>
                                        </dimensions>.</item>
@@ -274,7 +265,7 @@
                               aldar</origDate> (<bibl>
                               <ref target="KKKat">Katalog I 1889:727</ref>
                            </bibl>, sjá einnig <bibl>
-                              <ref>Loth 1963</ref><biblScope type="pages">vii</biblScope>
+                              <ref>Loth 1963</ref><biblScope unit="pages">vii</biblScope>
                            </bibl>).</p>
                      </origin>
                   </history>

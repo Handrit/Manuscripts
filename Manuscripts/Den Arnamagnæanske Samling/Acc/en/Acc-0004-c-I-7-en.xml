@@ -1,4 +1,4 @@
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="msDesc.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -15,7 +15,9 @@
           <msIdentifier>
             <country>Denmark</country>
             <settlement>Copenhagen</settlement>
+            <institution key="AMS"/>
             <repository>Den Arnamagnæanske Samling</repository>
+            <collection key="Acc"/>
             <idno>Acc. 4 c I[7]</idno>
             <altIdentifier type="internal" subtype="KKKat">
               <idno>2826</idno>
@@ -40,8 +42,7 @@
               <binding>
                 <p>The entirety of <ref type="ms" target="Acc-0004-c-I-1-en.xml">Acc. 4 c
                   I[1</ref>-<ref type="ms" target="Acc-0004-c-I-14-en.xml">14]</ref> were
-                  originally wrapped in a paper cover measuring approximately <dimensions
-                    type="binding" unit="mm">
+                  originally wrapped in a paper cover measuring approximately <dimensions type="binding" unit="mm">
                     <height unit="mm" quantity="380">380</height>
                     <width unit="mm" quantity="250">250</width>
                   </dimensions> when unfolded. On this paper cover, which is <damage>highly fragile
@@ -54,8 +55,7 @@
                     <height unit="mm" quantity="305">305</height>
                     <width unit="mm" quantity="215">215</width>
                   </dimensions>.</p>
-                <p>Acc. 4 c I[<ref type="ms" target="Acc-0004-c-I-1-en.xml">1</ref>-<ref type="ms"
-                  target="Acc-0004-c-I-7-en.xml">7</ref>] are all held in an archival box
+                <p>Acc. 4 c I[<ref type="ms" target="Acc-0004-c-I-1-en.xml">1</ref>-<ref type="ms" target="Acc-0004-c-I-7-en.xml">7</ref>] are all held in an archival box
                   measuring <dimensions type="boxed">
                     <height unit="mm" quantity="320">320</height>
                     <width unit="mm" quantity="230">230</width>
@@ -66,13 +66,11 @@
           </physDesc>
           <history>
             <origin notBefore="1800" notAfter="1899">
-              <p>Written in the <origPlace key="FO">Faroe Islands</origPlace> in the <origDate
-                notBefore="1800" notAfter="1899">nineteenth century</origDate>.</p>
+              <p>Written in the <origPlace key="FO">Faroe Islands</origPlace> in the <origDate notBefore="1800" notAfter="1899">nineteenth century</origDate>.</p>
             </origin>
             <provenance>
               <p>The manuscript materials were part of <name type="person" key="VenHam001">V. U.
-                Hammershaimb's</name> private archive and were originally intended for <orgName
-                  key="KglNordOld">Det kgl. nordiske Oldskriftselskab</orgName>. They were given to
+                Hammershaimb's</name> private archive and were originally intended for <orgName key="KglNordOld">Det kgl. nordiske Oldskriftselskab</orgName>. They were given to
                 the <orgName key="AMS">Arnamagnæan Collection</orgName> following Hammershaimb's
                 death in <date when="1909">1909</date>.</p>
             </provenance>
@@ -81,8 +79,7 @@
             <adminInfo>
               <recordHist>
                 <source>
-                  <p>Catalogued <date when="2021">2021</date> by <name type="person" key="SeaVri001"
-                      >SDV</name>.</p></source>
+                  <p>Catalogued <date when="2021">2021</date> by <name type="person" key="SeaVri001">SDV</name>.</p></source>
               </recordHist>
               <custodialHist>
                 <custEvent type="photography">
@@ -92,20 +89,20 @@
             </adminInfo>
             <listBibl>
               <bibl> Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                <biblScope type="volume">II</biblScope>
-                <biblScope type="pages">609</biblScope>
+                <biblScope unit="volume">II</biblScope>
+                <biblScope unit="pages">609</biblScope>
               </bibl>
               <bibl> Chesnutt and Larsen: <ref type="secondary-1" target="Foroya7">The Manuscripts of Faroese Ballads</ref>
-                <biblScope type="volume">VII</biblScope>
-                <biblScope type="pages">71-72</biblScope>
+                <biblScope unit="volume">VII</biblScope>
+                <biblScope unit="pages">71-72</biblScope>
               </bibl>
             </listBibl>
           </additional>
 
           <msPart n="1.1">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[7] Haraldskjøldur á Miklagarði (a)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Haraldskjøldur á Miklagarði</title></summary>
               <msItem n="1.1" class="kvad">
@@ -117,13 +114,12 @@
                 <rubric>Haraldskjöldur af Miklagarði</rubric>
                 <respStmt>
                   <resp key="inf">Informant</resp>
-                  <name type="person" key="JoeHan001">Jo<del>h</del><add>gv</add>an Hanusson í <name
-                      type="place">Skúvoy</name></name>
+                  <name type="person" key="JoeHan001">Jo<del>h</del><add>gv</add>an Hanusson í <name type="place">Skúvoy</name></name>
                 </respStmt>
                 <incipit>Gevið ljóð og lýðið á</incipit>
                 <explicit>nú stár hans lív í váða</explicit>
                 <bibl>CCF 62E. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope><biblScope type="pages">30-33</biblScope>
+                  <biblScope unit="volume">III</biblScope><biblScope unit="pages">30-33</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -162,22 +158,20 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
             <history>
               <origin when="1847" cert="high">
                 <p>Recorded by <name type="person" key="VenHam001">V. U. Hammershaimb</name> in
-                  <origDate when="1847">1847</origDate> from the informant <name type="person"
-                  key="JoeHan001">Joen Hansen</name>, <origPlace key="SkuSku05">Skúvoy, Skúvoy</origPlace>.</p>
+                  <origDate when="1847">1847</origDate> from the informant <name type="person" key="JoeHan001">Joen Hansen</name>, <origPlace key="SkuSku05">Skúvoy, Skúvoy</origPlace>.</p>
               </origin>
             </history>
           </msPart>
           <msPart n="1.2">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[7] Haraldskjøldur á Miklagarði (b)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Haraldskjøldur á Miklagarði</title></summary>
               <msItem n="1.2" class="kvad" defective="true">
@@ -188,13 +182,12 @@
                 <rubric>Hàraldskjöldur àf Miklagàrði</rubric>
                 <respStmt>
                   <resp key="inf">Informant</resp>
-                  <name type="person" key="EnoBar001">Enok Dánial Berintson af <placeName
-                      key="SunStr01">Sundi</placeName>, 18 ára gamalur</name>
+                  <name type="person" key="EnoBar001">Enok Dánial Berintson af <placeName key="SunStr01">Sundi</placeName>, 18 ára gamalur</name>
                 </respStmt>
                 <incipit>Vitur er so mektigi dá</incipit>
                 <explicit>sum eina situr í ráðum</explicit>
                 <bibl>CCF 62F. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope><biblScope type="pages">34</biblScope>
+                  <biblScope unit="volume">III</biblScope><biblScope unit="pages">34</biblScope>
                 </bibl>
                 <note>Fragmentary text only consisting of the first three verses.</note>
               </msItem>
@@ -231,21 +224,19 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
             <history>
               <origin when="1847" cert="high">
-                <p>Recorded by <name type="person" key="VenHam001">V. U. Hammershaimb</name> in <origDate when="1847">1847</origDate> from the informant <name type="person"
-                  key="EnoBar001">Enok Bærentsen</name> (aged 18), <origPlace key="SunStr01">Sund, Streymoy</origPlace>.</p>
+                <p>Recorded by <name type="person" key="VenHam001">V. U. Hammershaimb</name> in <origDate when="1847">1847</origDate> from the informant <name type="person" key="EnoBar001">Enok Bærentsen</name> (aged 18), <origPlace key="SunStr01">Sund, Streymoy</origPlace>.</p>
               </origin>
             </history>
           </msPart>
           <msPart n="1.3">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[7] Haraldskjøldur á Miklagarði (c)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Haraldskjøldur á Miklagarði</title></summary>
               <msItem n="1.3" class="kvad">
@@ -265,7 +256,7 @@
                 </respStmt>
                 <filiation>Item 24 in <ref type="ms" target="DFS-68">Sandoyarbók</ref></filiation>
                 <bibl>CCF 62Bb. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope><biblScope type="pages">13-19</biblScope>
+                  <biblScope unit="volume">III</biblScope><biblScope unit="pages">13-19</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -304,24 +295,21 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="JohCle001" scope="sole" script="other">Written by <name
-                  type="person" key="JohCle001">Johannes Clemensen (Jóannes í Króki)</name>.</handNote>
+                <handNote scribe="JohCle001" scope="sole" script="other">Written by <name type="person" key="JohCle001">Johannes Clemensen (Jóannes í Króki)</name>.</handNote>
               </handDesc>
             </physDesc>
             <history>
               <origin when="1822" cert="high">
-                <p><name type="person" key="JohCle001">Clemensen</name> writes in <ref type="ms"
-                    target="DFS-68">Sandoyarbók</ref> that he recorded the ballad from the informant
+                <p><name type="person" key="JohCle001">Clemensen</name> writes in <ref type="ms" target="DFS-68">Sandoyarbók</ref> that he recorded the ballad from the informant
                     <name type="person" key="MicWid001">J. Michael Widerøe (Mikal á Reyni)</name>,
-                    <origPlace key="SanSan01">Sandur, Sandoy</origPlace>, on <origDate when="1822-03-11"
-                    >11 March 1822</origDate>.</p>
+                    <origPlace key="SanSan01">Sandur, Sandoy</origPlace>, on <origDate when="1822-03-11">11 March 1822</origDate>.</p>
               </origin>
             </history>
           </msPart>
           <msPart n="2">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[7] Heljars kvæði</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Heljars kvæði</title></summary>
               <msItem n="2" class="kvad">
@@ -331,15 +319,14 @@
                 <rubric>Heljars <add>kvæði</add></rubric>
                 <respStmt>
                   <resp key="inf">Informant</resp>
-                  <name type="person" key="OleJoe001">Óli Joensen <add>34</add> í <placeName key="SkaSan01"
-                      >Skálavík í Kirkjugerði</placeName></name>
+                  <name type="person" key="OleJoe001">Óli Joensen <add>34</add> í <placeName key="SkaSan01">Skálavík í Kirkjugerði</placeName></name>
                 </respStmt>
                 <incipit>Heljar situr á Heljaroy</incipit>
                 <incipit type="refrain">Noregis menn etc.</incipit>
                 <explicit>ríða aftur á Selgja lond</explicit>
                 <textLang mainLang="fo">Faroese</textLang>
                 <bibl>CCF 63A. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope><biblScope type="pages">35-38</biblScope>
+                  <biblScope unit="volume">III</biblScope><biblScope unit="pages">35-38</biblScope>
                 </bibl>
                 <note>The title <q>Snjolvs kv.</q>
                   <note><title type="supplied">Sniolvs kvæði</title></note> is written in pencil and
@@ -377,23 +364,21 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
             <history>
               <origin when="1847" cert="high">
                 <p>Recorded by <name type="person" key="VenHam001">V. U. Hammershaimb</name> in
-                  <origDate when="1847">1847</origDate> from the informant <name type="person"
-                  key="OleJoe001">Ole Joensen (Óli í Kirkjugerði)</name> (aged 34),
+                  <origDate when="1847">1847</origDate> from the informant <name type="person" key="OleJoe001">Ole Joensen (Óli í Kirkjugerði)</name> (aged 34),
                   <origPlace key="SkaSan01">Skálavík, Sandoy</origPlace>.</p>
               </origin>
             </history>
           </msPart>
           <msPart n="3">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[7] Herleivs kvæði</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Herleivs kvæði</title></summary>
               <msItem n="3" class="kvad">
@@ -404,13 +389,12 @@
                 <rubric>Herr Leifs kvæði</rubric>
                 <respStmt>
                   <resp key="inf">Informant</resp>
-                  <name type="person" key="ThoAug001">Tomas Johan Augustinusson í <placeName key="VagSud01"
-                      >Vági</placeName></name>
+                  <name type="person" key="ThoAug001">Tomas Johan Augustinusson í <placeName key="VagSud01">Vági</placeName></name>
                 </respStmt>
                 <incipit>Heima sitja sveinar</incipit>
                 <explicit>tá er hann betri enn nú</explicit>
                 <bibl>CCF 64b. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope><biblScope type="pages">43-45</biblScope>
+                  <biblScope unit="volume">III</biblScope><biblScope unit="pages">43-45</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -445,23 +429,21 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
             <history>
               <origin when="1848" cert="high">
                 <p>Recorded by <name type="person" key="VenHam001">V. U. Hammershaimb</name> in
-                  <origDate when="1848">1848</origDate> from the informant <name type="person"
-                  key="ThoAug001">Thomas Johan Augustinussen (Johan í Smillum)</name>,
+                  <origDate when="1848">1848</origDate> from the informant <name type="person" key="ThoAug001">Thomas Johan Augustinussen (Johan í Smillum)</name>,
                   <origPlace key="VagSud01">Vágur, Suðuroy</origPlace>.</p>
               </origin>
             </history>
           </msPart>
           <msPart n="4.1">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[7] Hermundur illi (a)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Hermundur illi</title></summary>
               <msItem n="4.1" class="kvad">
@@ -473,7 +455,7 @@
                 <incipit>Atli vindir up suin Segl</incipit>
                 <explicit>uj rejar Gudle bear aa Hendi</explicit>
                 <bibl>CCF 66B. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope><biblScope type="pages">60-63</biblScope>
+                  <biblScope unit="volume">III</biblScope><biblScope unit="pages">60-63</biblScope>
                 </bibl>
                 <note>The title <title type="supplied">Hermundur illi</title> is added in the top
                   right of <locus>p. 27</locus>.</note>
@@ -510,15 +492,14 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="JohSch001" scope="sole" script="other"><p>Written by <name
-                      type="person" key="JohSch001">J. H. Schrøter</name>.</p></handNote>
+                <handNote scribe="JohSch001" scope="sole" script="other"><p>Written by <name type="person" key="JohSch001">J. H. Schrøter</name>.</p></handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="4.2">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[7] Hermundur illi (b)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Hermundur illi</title></summary>
               <msItem n="4.2" class="kvad">
@@ -529,13 +510,12 @@
                 <rubric>Hermundur illi</rubric>
                 <respStmt>
                   <resp key="inf">Informant</resp>
-                  <name type="person" key="JohLuc001">Johannis Lukasson í <placeName key="SkaSan01"
-                      >Skálavík</placeName></name>
+                  <name type="person" key="JohLuc001">Johannis Lukasson í <placeName key="SkaSan01">Skálavík</placeName></name>
                 </respStmt>
                 <incipit>Tàð vàr fist í firndini</incipit>
                 <explicit>til Sigurjall faðir sín</explicit>
                 <bibl>CCF 66Ea. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">1234</biblScope><biblScope type="pages">76-83</biblScope>
+                  <biblScope unit="volume">1234</biblScope><biblScope unit="pages">76-83</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -576,22 +556,20 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
             <history>
               <origin when="1847" cert="high">
                 <p>Recorded by <name type="person" key="VenHam001">V. U. Hammershaimb</name> in
-                  <origDate when="1847">1847</origDate> from the informant <name type="person"
-                  key="JohLuc001">Johannes Lucassen</name>, 
+                  <origDate when="1847">1847</origDate> from the informant <name type="person" key="JohLuc001">Johannes Lucassen</name>, 
                 <origPlace key="SkaSan01">Skálavík, Sandoy</origPlace>.</p></origin>
             </history>
           </msPart>
           <msPart n="5">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[7] Hilmars tættir</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Hilmars tættir</title></summary>
               <msItem n="5" class="kvad">
@@ -615,7 +593,7 @@
                 </respStmt> <!-- LENA: Skálavík OR Sandur – CCF Vol. VII says Skálavík and CCF Vol. III says Sandur [07/05/21] -->
                 <filiation>Item 80 in <ref type="ms" target="DFS-68">Sandoyarbók</ref></filiation>
                 <bibl>CCF 68B. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope><biblScope type="pages">98-102</biblScope>
+                  <biblScope unit="volume">III</biblScope><biblScope unit="pages">98-102</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -654,17 +632,14 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="JohCle001" scope="sole" script="other">Written by <name
-                  type="person" key="JohCle001">Johannes Clemensen (Jóannes í Króki)</name>.</handNote>
+                <handNote scribe="JohCle001" scope="sole" script="other">Written by <name type="person" key="JohCle001">Johannes Clemensen (Jóannes í Króki)</name>.</handNote>
               </handDesc>
             </physDesc>
             <history>
               <origin when="1824" cert="high">
-                <p><name type="person" key="JohCle001">Clemensen</name> writes in <ref type="ms"
-                    target="DFS-68">Sandoyarbók</ref> that he recorded the ballad from the informant
+                <p><name type="person" key="JohCle001">Clemensen</name> writes in <ref type="ms" target="DFS-68">Sandoyarbók</ref> that he recorded the ballad from the informant
                     <name type="person" key="ThoHan005">Thomas Hansen (Tummas á Trøðini)</name>,
-                    <origPlace key="SanSan01">Sandur, Sandoy</origPlace>, on <origDate when="1824-07-14"
-                    >14 July 1824</origDate>.</p>
+                    <origPlace key="SanSan01">Sandur, Sandoy</origPlace>, on <origDate when="1824-07-14">14 July 1824</origDate>.</p>
                 <!-- LENA: Skálavík OR Sandur – CCF Vol. VII says Skálavík and CCF Vol. III says Sandur [07/05/21] -->
               </origin>
             </history>
@@ -702,9 +677,9 @@
           -->
           
           <msPart n="7">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[7] Hindin</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Hindin</title></summary>
               <msItem n="7" class="kvad">
@@ -724,7 +699,7 @@
                     dyr, björn og elsdyr, men Bödvar var <unclear>ma</unclear>ske og blev konge i
                     Gotland</del></colophon>
                 <bibl>CCF 135a. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">100-101</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">100-101</biblScope>
                 </bibl>
                 <note>The title <title type="uniform">Hindin</title> is added in the upper left
                   corner of <locus>p. 49</locus>.</note>
@@ -761,23 +736,21 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
             <history>
               <origin when="1847" cert="high">
                 <p>Recorded by <name type="person" key="VenHam001">V. U. Hammershaimb</name> in
-                  <origDate when="1847">1847</origDate> from the informant <name type="person"
-                    key="NicJac001">Niclas Jacobsen</name> <origPlace key="SumSud01">í Hamrabyrgi, Sumba,
+                  <origDate when="1847">1847</origDate> from the informant <name type="person" key="NicJac001">Niclas Jacobsen</name> <origPlace key="SumSud01">í Hamrabyrgi, Sumba,
                 Suðuroy</origPlace>.</p>
               </origin>
             </history>
           </msPart>
           <msPart n="8">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[7] Hjálmar og Angantýr</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Hjálmar og Angantýr</title></summary>
               <msItem n="8" class="kvad">
@@ -788,13 +761,12 @@
                 <rubric>Hjálmar og Angantýr</rubric>
                 <respStmt>
                   <resp key="inf">Informant</resp>
-                  <name type="person" key="PouJoh001">Poul Johannisson í <placeName key="SumSud01"
-                      >Sundbø</placeName></name>
+                  <name type="person" key="PouJoh001">Poul Johannisson í <placeName key="SumSud01">Sundbø</placeName></name>
                 </respStmt>
                 <incipit>Bondin í höu oyggini býr</incipit>
                 <explicit>deyðin fell á báðar tá</explicit>
                 <bibl>CCF 15A. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">I</biblScope><biblScope type="pages">399</biblScope>
+                  <biblScope unit="volume">I</biblScope><biblScope unit="pages">399</biblScope>
                 </bibl>
                 <note>The title <title type="supplied">Kappin Angantýr</title> is added in the upper
                   right corner of <locus>p. 51</locus>.</note>
@@ -832,22 +804,20 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
             <history>
               <origin when="1848" cert="high">
                 <p>Recorded by <name type="person" key="VenHam001">V. U. Hammershaimb</name> in
-                    <origDate when="1848">1848</origDate> from the informant <name type="person"
-                    key="PouJoh001">Poul Johannessen (Poul í Sakarisstovu)</name>, <origPlace key="SumSud01">Sumba,
+                    <origDate when="1848">1848</origDate> from the informant <name type="person" key="PouJoh001">Poul Johannessen (Poul í Sakarisstovu)</name>, <origPlace key="SumSud01">Sumba,
                     Suðuroy</origPlace>.</p></origin>
             </history>
           </msPart>
           <msPart n="9">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[7] Arngríms synir (Hjálmars kvæði)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Arngríms synir (Hjálmars kvæði)</title></summary>
               <msItem n="9" class="kvad">
@@ -883,7 +853,7 @@
                 <finalRubric>Ende</finalRubric>
                 <filiation>Item 8 in <ref type="ms" target="DFS-68">Sandoyarbók</ref></filiation>
                 <bibl>CCF 16Cb. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">I</biblScope><biblScope type="pages">413-421</biblScope>
+                  <biblScope unit="volume">I</biblScope><biblScope unit="pages">413-421</biblScope>
                 </bibl>
                 <note>An extra verse (58) is written and later deleted following the final
                   rubric.</note>
@@ -924,25 +894,22 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="JohCle001" scope="sole" script="other">Written by <name
-                  type="person" key="JohCle001">Johannes Clemensen (Jóannes í Króki)</name>.</handNote>
+                <handNote scribe="JohCle001" scope="sole" script="other">Written by <name type="person" key="JohCle001">Johannes Clemensen (Jóannes í Króki)</name>.</handNote>
               </handDesc>
             </physDesc>
             <history>
               <origin when="1821" cert="high">
-                <p><name type="person" key="JohCle001">Clemensen</name> writes in <ref type="ms"
-                    target="DFS-68">Sandoyarbók</ref> that he recorded the ballad from the informant
+                <p><name type="person" key="JohCle001">Clemensen</name> writes in <ref type="ms" target="DFS-68">Sandoyarbók</ref> that he recorded the ballad from the informant
                     <name type="person" key="GreGre001">Gregers Gregersen (Grias við Á)</name>,
-                    <origPlace key="HusSan01">Húsavík, Sandoy</origPlace>, on <origDate
-                    when="1821-03-01">1 March 1821</origDate>.</p>
+                    <origPlace key="HusSan01">Húsavík, Sandoy</origPlace>, on <origDate when="1821-03-01">1 March 1821</origDate>.</p>
                 <!-- LENA: GreGe001 or GreGre002 [07/05/21] -->
               </origin>
             </history>
           </msPart>
           <msPart n="10">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[7] Hústrúin og hovmaðurin</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Hústrúin og hovmaðurin</title></summary>
               <msItem n="10" class="kvad">
@@ -953,14 +920,13 @@
                 <rubric>Hústruin og hovmannin</rubric>
                 <respStmt>
                   <resp key="inf">Informant</resp>
-                  <name type="person" key="PouMic001">Poul Mikkelsen í <placeName key="VagSud01"
-                      >Vági</placeName></name>
+                  <name type="person" key="PouMic001">Poul Mikkelsen í <placeName key="VagSud01">Vági</placeName></name>
                 </respStmt>
                 <incipit>Hústrúin <del>lá í</del>
                   <add>sat við</add> akar og skàr</incipit>
                 <explicit>og las firi honum pater noster</explicit>
                 <bibl>CCF 180. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">264-265</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">264-265</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -996,23 +962,21 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
             <history>
               <origin when="1848" cert="high">
                 <p>Recorded by <name type="person" key="VenHam001">V. U. Hammershaimb</name> in
-                    <origDate when="1848">1848</origDate> from the informant <name type="person"
-                    key="PouMic001">Poul Michelsen</name>, <origPlace key="VagSud01">Vágur,
+                    <origDate when="1848">1848</origDate> from the informant <name type="person" key="PouMic001">Poul Michelsen</name>, <origPlace key="VagSud01">Vágur,
                   Suðuroy</origPlace>.</p>
               </origin>
             </history>
           </msPart>
           <msPart n="11">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[7] Hørpu ríma</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Hørpu ríma</title></summary>
               <msItem n="11" class="kvad">
@@ -1030,7 +994,7 @@
                 <explicit>bróðurin fleyt í blóði</explicit>
                 <finalRubric>finis</finalRubric>
                 <bibl>CCF 136C. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">104-105</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">104-105</biblScope>
                 </bibl>
                 <note>The end of the ballad is written on the first page (<locus>p.
                   71</locus>).</note>
@@ -1070,8 +1034,7 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
             <history>

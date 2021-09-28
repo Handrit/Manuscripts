@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,9 +20,9 @@
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
-						<institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+						<institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
 						<repository>Handritasafn</repository>
-						<collection>Handritasafn Jóns Sigurðssonar</collection>
+						<collection key="JS">Handritasafn Jóns Sigurðssonar</collection>
 						<idno>JS 609 4to</idno>
 						<altIdentifier type="internal" subtype="PEO">
 							<idno>5502</idno>
@@ -33,13 +33,11 @@
 							<title>Samtíningur</title>
 							<note>Meginhluti, bls. 1-160, með hendi Jóns Ólafssonar á Grímsstöðum</note>
 							<note>
-								<p>Eftri hluti handritsins mun að mestu runninn frá <name
-										type="person" key="MagKet001">Magnúsi sýslum.
+								<p>Eftri hluti handritsins mun að mestu runninn frá <name type="person" key="MagKet001">Magnúsi sýslum.
 									Ketilssyni</name>, enda sumt með hans hendi þar, en allt hefir
 									þetta nr. komið til Jóns Árnasonar úr Hrappsey (og er með hendi
 										<name type="person" key="ThoSiv001">Þorvalds
-									Sívertsens</name> lítið eitt aftan til), en <name type="person"
-										key="PalPal003">Páll stúdent Pálsson</name> skeytt saman og
+									Sívertsens</name> lítið eitt aftan til), en <name type="person" key="PalPal003">Páll stúdent Pálsson</name> skeytt saman og
 									bundið inn, eins og vandi hans var, þótt um alveg óskyld efni
 									væri að ræða, en að réttu hefði fyrri hl. (bls. 1-160), þ.e.
 									handrit <name type="person" key="JonOla005">Jóns</name> á
@@ -54,8 +52,8 @@
 							<bibl>
 								<ref target="SSÍ">Safn til sögu Íslands og íslenzkra bókmenta að
 									fornu og nýju</ref>
-								<biblScope type="volume">III og V, nr. 3</biblScope>
-								<biblScope type="pages">701 og 29</biblScope>
+								<biblScope unit="volume">III og V, nr. 3</biblScope>
+								<biblScope unit="pages">701 og 29</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="PalOla1926a">Menn og menntir siðskiptaaldarinnar á
@@ -72,8 +70,7 @@
 							</bibl>
 						</msItem>
 						<msItem n="2" defective="unknown" class="tjodt">
-							<title type="supplied">Um Galdra <name type="person" key="SaeSig002"
-									>Sæmundar fróda</name></title>
+							<title type="supplied">Um Galdra <name type="person" key="SaeSig002">Sæmundar fróda</name></title>
 						</msItem>
 						<msItem n="3" defective="unknown" class="kvad">
 							<title type="supplied">Fjölmóðr</title>
@@ -107,12 +104,10 @@
 						</msItem>
 						<msItem n="9" defective="unknown" class="avis">
 							<title>Æviágrip</title>
-							<rubric>Æviágrip, á víð og dreif, Sæmundar fróða, <name type="person"
-									key="GisEin003">Gizurar byskups Einarssonar</name>, Jórunnar
+							<rubric>Æviágrip, á víð og dreif, Sæmundar fróða, <name type="person" key="GisEin003">Gizurar byskups Einarssonar</name>, Jórunnar
 								Jónsdóttur í Snóksdal, <name type="person" key="EggHan001">Eggerts
 									lögmanns Hannessonar</name>, Brands Einarssonar í Stóra-Skógi</rubric>
-							<note>Að öðru leyti vísast til registrs framan við með hendi <name
-									type="person" key="PalPal003">Páls stúdents</name></note>
+							<note>Að öðru leyti vísast til registrs framan við með hendi <name type="person" key="PalPal003">Páls stúdents</name></note>
 						</msItem>
 					</msContents>
 					<physDesc>
@@ -121,8 +116,7 @@
 								<support>
 									<p>Pappír.</p>
 								</support>
-								<extent>[registur 6+] blstal 1-160, 213-55, 265-295 (<dimensions
-										scope="all" type="leaf" unit="mm">
+								<extent>[registur 6+] blstal 1-160, 213-55, 265-295 (<dimensions scope="all" type="leaf" unit="mm">
 										<height>200</height>
 										<width>162</width>
 									</dimensions>). <note>Það, sem í milli vantar, hefir verið
@@ -157,8 +151,7 @@
 								bókavarðar.</p>
 						</provenance>
 						<acquisition>
-							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date
-									when="1878">1878.</date> Safnið var afhent Landsbókasafni að
+							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date when="1878">1878.</date> Safnið var afhent Landsbókasafni að
 								honum látnum, en hann lést 7. desember 1879. Það komst í hendur
 								safnsins árið <date when="1881">1881</date> er það var flutt í
 								Alþingishúsið.</p>
@@ -168,9 +161,7 @@
 						<adminInfo>
 							<recordHist>
 								<source><name type="person" key="HalKri001">Halldóra
-									Kristinsdóttir</name> fór yfir skráningu, <date
-										when="2012-08-03">3. ágúst 2012</date> ; <name type="person"
-										key="IriLei001">Íris Alda Ísleifsdóttir</name> frumskráði,
+									Kristinsdóttir</name> fór yfir skráningu, <date when="2012-08-03">3. ágúst 2012</date> ; <name type="person" key="IriLei001">Íris Alda Ísleifsdóttir</name> frumskráði,
 										<date when="2011-06-16">16. júní 2011</date> ; Handritaskrá,
 									2. b. ; Átaksverkefni 2011.</source>
 							</recordHist>

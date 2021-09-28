@@ -1,4 +1,4 @@
-  <?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>  <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -14,20 +14,21 @@
           <msIdentifier>
             <country>Danmark</country>
             <settlement>København</settlement>
+            <institution key="AMS"/>
             <repository>Den Arnamagnæanske Samling</repository>
+            <collection key="Acc"/>
             <idno>Acc. 4 c I[3]</idno>
             <altIdentifier type="internal" subtype="KKKat">
               <idno>2826</idno>
             </altIdentifier>
           </msIdentifier>
           <head>
-            <title type="supplied">Færøske kvad i alfabetisk orden (D)</title>; <origPlace key="FO"
-              >Færøerne</origPlace>, <origDate notBefore="1828" notAfter="1851">s. XIX</origDate>.
+            <title type="supplied">Færøske kvad i alfabetisk orden (D)</title>; <origPlace key="FO">Færøerne</origPlace>, <origDate notBefore="1828" notAfter="1851">s. XIX</origDate>.
             Færøsk og dansk. </head>
           <msPart n="1">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[3] 1</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Danske viser og færøske kvad</title>
                 <note>Samlet af <name type="person" key="JohSch001">J. H.
@@ -41,8 +42,7 @@
                   Samling</rubric>
                 <incipit>Danske Konge udrejste af Danmarks Land</incipit>
                 <!-- TODO: Start from here; finish adding colophons, folio numbers -->
-                <colophon>Vær af den Gladhed at lade denne Kiæmpevise afskrive til Hr <name
-                    type="person" key="GRUNDTVIG!!"/></colophon>
+                <colophon>Vær af den Gladhed at lade denne Kiæmpevise afskrive til Hr <name type="person" key="GRUNDTVIG!!"/></colophon>
 
 
               </msItem>
@@ -63,11 +63,11 @@
                 <incipit>Vuijsir Menn tajr riju ur suit Land</incipit>
                 <explicit>Sum Harrin vär seri innan</explicit>
                 <bibl>CCF 140Ac. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">119</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">119</biblScope>
                 </bibl>
                 <bibl><ref type="secondary-1" target="Matras1935">Christian Matras: Föroyskur
                     Miðaldarskaldskapur (Varðin XV)</ref>
-                  <biblScope type="pages">239-241</biblScope></bibl>
+                  <biblScope unit="pages">239-241</biblScope></bibl>
               </msItem>
               <msItem n="4" class="kvad">
                 <locus from="7r" to="7v">s. 13-14 (bl. 7r-7v)</locus>
@@ -76,8 +76,7 @@
                 <rubric>Nr. 4. Heradis Vise udtales Rudis er nok Rudis</rubric>
                 <incipit>Inn kiemur Stephan og Sijur fraa</incipit>
                 <explicit>Samen heje runni Hanin og floji ivar Bor</explicit>
-                <colophon xml:lang="da">Ieg har skrevet denne fra <name type="person"
-                    key="ElsPou001">E Thune</name> hun har og kunnet mange flere Ieg skal dog see at
+                <colophon xml:lang="da">Ieg har skrevet denne fra <name type="person" key="ElsPou001">E Thune</name> hun har og kunnet mange flere Ieg skal dog see at
                   samle dem, de ere neppe uddøde endnu. sikkert ere de ogsaa her nord paa flere
                   Steder, men man skiuler dem endog Liomenar, den færöske Messiade har man anseet
                   som syndig. Svaboe har giort sig fortient med at opskrive den, den islandske er
@@ -87,7 +86,7 @@
                   <name type="person" key="ElsPou001">Elsabeth Poulsdatter (Elsebeth í Túni)</name>
                 </respStmt>
                 <bibl>CCF 167B. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">200-201</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">200-201</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -114,8 +113,7 @@
 
                   <condition>
                     <p>Noget af materialet har fået en vandskade.</p>
-                    <p>Et oprindeligt ottende blad er beskåret, så der nu kun er <width unit="mm"
-                        quantity="7">7</width> mm. tilbage. Man kan dog stadig se noget tekst.</p>
+                    <p>Et oprindeligt ottende blad er beskåret, så der nu kun er <width unit="mm" quantity="7">7</width> mm. tilbage. Man kan dog stadig se noget tekst.</p>
                   </condition>
                 </supportDesc>
 
@@ -135,8 +133,7 @@
               </objectDesc>
 
               <handDesc hands="1">
-                <handNote scribe="JohSch001" scope="sole" script="unknown"><p>Skrevet af <name
-                      type="person" key="JohSch001">J. H. Schrøter</name>.</p></handNote>
+                <handNote scribe="JohSch001" scope="sole" script="unknown"><p>Skrevet af <name type="person" key="JohSch001">J. H. Schrøter</name>.</p></handNote>
               </handDesc>
 
               <bindingDesc>
@@ -148,8 +145,7 @@
             </physDesc>
             <history>
               <origin notBefore="1828" notAfter="1851" cert="high">
-                <p>Skrevet på <origPlace key="FO">Færøerne</origPlace> i <origDate notBefore="1828"
-                    notAfter="1851">1800-tallet</origDate>. Den sidste del blev nedskrevet efter
+                <p>Skrevet på <origPlace key="FO">Færøerne</origPlace> i <origDate notBefore="1828" notAfter="1851">1800-tallet</origDate>. Den sidste del blev nedskrevet efter
                   informanten <name type="person" key="ElsPou001">Elsebeth í Túni</name>, som var
                     <name type="person" key="JohSch001">Schrøters</name> husholderske. I kolofonen
                   skriver han <q>her nord paa</q> (= <origPlace key="TórStr01">Tórshavn</origPlace>)
@@ -159,16 +155,15 @@
             </history>
           </msPart>
           <msPart n="2">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[3] 2</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Drósin á Girtlandi</title></summary>
               <titlePage type="ms">
                 <titlePart type="main">Drousin á Gjirtlandi</titlePart>
                 <titlePart type="sub">Stevi <lb/>Tögum lat heer uj Lundum, lajjum vors mæn,
-                  <lb/>Leatum vera Dans, Svain falla. (<locus from="9r" to="9r"
-                  >9r</locus>).</titlePart>
+                  <lb/>Leatum vera Dans, Svain falla. (<locus from="9r" to="9r">9r</locus>).</titlePart>
               </titlePage>
               <msItem n="5" class="kvad">
                 <locus from="9v" to="10v">s. 18-20 (bl. 9v-10v)</locus>
@@ -180,10 +175,8 @@
                 <incipit>Drousin drou eav landi ud</incipit>
                 <explicit>Baimalund tiil Handa</explicit>
                 <bibl>CCF 43b. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">II</biblScope><biblScope type="pages"
-                  >108-109</biblScope></bibl>
-                <note>Nummereret nr. 80 af <name type="person" key="JohCle001"
-                  >Clemensen</name>.</note>
+                  <biblScope unit="volume">II</biblScope><biblScope unit="pages">108-109</biblScope></bibl>
+                <note>Nummereret nr. 80 af <name type="person" key="JohCle001">Clemensen</name>.</note>
               </msItem>
             </msContents>
             <physDesc>
@@ -225,8 +218,7 @@
               </objectDesc>
 
               <handDesc hands="1">
-                <handNote scribe="JohCle001" scope="sole" script="unknown"><p>Skrevet af <name
-                      type="person" key="JohCle001">Johannes Clemensen (Jóannes í
+                <handNote scribe="JohCle001" scope="sole" script="unknown"><p>Skrevet af <name type="person" key="JohCle001">Johannes Clemensen (Jóannes í
                   Króki)</name>.</p></handNote>
               </handDesc>
 
@@ -240,9 +232,7 @@
             </physDesc>
             <history>
               <origin notBefore="1800" notAfter="1869" cert="high">
-                <p>Skrevet på <origPlace key="FO">Færøerne</origPlace> (sandsynligvis <origPlace
-                    key="Sandoy">Sandoy</origPlace>) i <origDate notBefore="1800" notAfter="1869"
-                    >1800-tallet</origDate>.</p>
+                <p>Skrevet på <origPlace key="FO">Færøerne</origPlace> (sandsynligvis <origPlace key="Sandoy">Sandoy</origPlace>) i <origDate notBefore="1800" notAfter="1869">1800-tallet</origDate>.</p>
               </origin>
             </history>
           </msPart>

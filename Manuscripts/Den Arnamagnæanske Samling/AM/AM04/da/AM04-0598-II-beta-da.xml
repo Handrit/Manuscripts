@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -15,7 +15,9 @@
                     <msIdentifier>
                         <country>Danmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 598 II beta 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>1512</idno>
@@ -31,12 +33,11 @@
                                 <locus>1</locus>
                                 <incipit defective="true">bedi troiman<ex>n</ex>a oc
                                     grikkia.</incipit>
-                                <explicit defective="true">Ok jþi bili brast k<supplied
-                                        reason="illegible">v</supplied>
+                                <explicit defective="true">Ok jþi bili brast k<supplied reason="illegible">v</supplied>
                                     <ex>er</ex>k</explicit>
                                 <bibl>Louis-Jensen: <ref type="primary-1" target="EA-A8">Trójumanna
                                         saga</ref>
-                                    <biblScope type="pages">113:15-123:17</biblScope>
+                                    <biblScope unit="pages">113:15-123:17</biblScope>
                                     <note>Udg. β</note>
                                 </bibl>
                             </msItem>
@@ -47,7 +48,7 @@
                                         uáp<ex>p</ex>nu<ex>m</ex> ajax bro</explicit>
                                 <bibl>Louis-Jensen: <ref type="primary-1" target="EA-A8">Trójumanna
                                         saga 1963</ref>
-                                    <biblScope type="pages">154:27</biblScope>
+                                    <biblScope unit="pages">154:27</biblScope>
                                     <note>Udg. β</note>
                                 </bibl>
                             </msItem>
@@ -79,31 +80,25 @@
                             </decoNote>
                         </decoDesc>
                         <bindingDesc>
-                            <binding notBefore="1967-07-07" notAfter="1967-04-27"
-                                contemporary="false">
+                            <binding notBefore="1967-07-07" notAfter="1967-04-27" contemporary="false">
                                 <p>I blåt papomslag.</p>
                             </binding>
                         </bindingDesc>
                         <accMat>
-                            <p>Der er en AM-seddel skrevet af <name type="person" key="ArnMag001"
-                                    >Arne Magnusson</name>: <q xml:lang="is">Þetta blad fieck eg
-                                        <date when="1703">1703</date>. af <name type="person"
-                                        key="GudOgm001">Gudrunnu ỏgmundar dottur</name> i Flatey,
+                            <p>Der er en AM-seddel skrevet af <name type="person" key="ArnMag001">Arne Magnusson</name>: <q xml:lang="is">Þetta blad fieck eg
+                                        <date when="1703">1703</date>. af <name type="person" key="GudOgm001">Gudrunnu ỏgmundar dottur</name> i Flatey,
                                     sagde hun þad væri komid nordan ur lande</q>.</p>
                         </accMat>
                     </physDesc>
                     <history>
                         <origin notBefore="1300" notAfter="1350" evidence="conjecture" resp="EA-A8">
-                            <p>Fragmentet er skrevet i <origPlace>Island</origPlace>. <name
-                                    type="person" key="KriKaa001">Kristian Kålund</name> har dateret
+                            <p>Fragmentet er skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> har dateret
                                 det til <origDate>c. 1400</origDate> (<bibl>
                                     <ref type="secondary-1" target="KKKat">Katalog</ref>
                                 </bibl>), whereas <name type="person" key="JonLou001">Jonna
-                                    Louis-Jensen</name> dateret det mere præcist til <origDate
-                                    notBefore="1300" notAfter="1350" evidence="conjecture"
-                                    >1300-tallets første halvdel</origDate> (<bibl>
+                                    Louis-Jensen</name> dateret det mere præcist til <origDate notBefore="1300" notAfter="1350" evidence="conjecture">1300-tallets første halvdel</origDate> (<bibl>
                                     <ref type="secondary" target="EA-A8">Louis-Jensen 1963</ref>
-                                    <biblScope type="pages">xxxv</biblScope>
+                                    <biblScope unit="pages">xxxv</biblScope>
                                 </bibl>).</p>
                         </origin>
                         <provenance>
@@ -157,8 +152,8 @@
                         </surrogates>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                                <biblScope type="volume">I</biblScope>
-                                <biblScope type="pages">767</biblScope>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">767</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

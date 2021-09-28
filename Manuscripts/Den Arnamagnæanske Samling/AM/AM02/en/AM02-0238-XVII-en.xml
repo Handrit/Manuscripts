@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -15,16 +15,16 @@
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 238 XVII fol.</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>360</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <head>
-                        <title>Gyðinga saga</title>; <origPlace>Iceland</origPlace>, <origDate
-                            notBefore="1300" notAfter="1325">s. XIV<hi rend="sup"
-                            >1/4</hi></origDate>
+                        <title>Gyðinga saga</title>; <origPlace>Iceland</origPlace>, <origDate notBefore="1300" notAfter="1325">s. XIV<hi rend="sup">1/4</hi></origDate>
                     </head>
                     <msContents>
                         <msItem class="sagnps">
@@ -41,11 +41,11 @@
                                     <bibl>
                                         <ref type="primary-1" target="STUAGNL6">Gyðinga saga
                                             1881</ref>
-                                        <biblScope type="pages">102-104:28</biblScope>
+                                        <biblScope unit="pages">102-104:28</biblScope>
                                     </bibl>
                                     <bibl>
                                         <ref type="primary-1" target="Rit42">Gyðinga saga 1995</ref>
-                                        <biblScope type="pages">56-62</biblScope>
+                                        <biblScope unit="pages">56-62</biblScope>
                                         <note>Ed. C</note>
                                     </bibl>
                                 </listBibl>
@@ -58,11 +58,11 @@
                                     <bibl>
                                         <ref type="primary-1" target="STUAGNL6">Gyðinga saga
                                             1881</ref>
-                                        <biblScope type="pages">104:29-107:19</biblScope>
+                                        <biblScope unit="pages">104:29-107:19</biblScope>
                                     </bibl>
                                     <bibl>
                                         <ref type="primary-1" target="Rit42">Gyðinga saga 1995</ref>
-                                        <biblScope type="pages">73-79</biblScope>
+                                        <biblScope unit="pages">73-79</biblScope>
                                         <note>Ed. C</note>
                                     </bibl>
                                 </listBibl>
@@ -125,30 +125,21 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1300" notAfter="1325" cert="high" evidence="conjecture">
-                            <p>Written in <origPlace>Iceland</origPlace>. <name
-                                    type="person" key="KriKaa001">Kristian Kålund</name> dates it to
+                            <p>Written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> dates it to
                                     <origDate notBefore="1320" notAfter="1340" cert="medium">c.
                                     1330</origDate>, whereas <name type="person" key="JonSig004">Jón
                                     Sigurðsson</name> (<bibl>
                                     <ref type="secondary-1" target="JSKat">AM 394
-                                        fol.</ref><note>317r ("18")</note></bibl>), <name
-                                    type="person" key="OleWid001">Widding</name>
+                                        fol.</ref><note>317r ("18")</note></bibl>), <name type="person" key="OleWid001">Widding</name>
                                 <bibl>
-                                    <ref type="secondary" target="BiblArn20">1960</ref><biblScope
-                                        type="pages">91</biblScope></bibl>) and <name type="person"
-                                    key="SteKar001">Stefán Karlsson</name> (<bibl>
+                                    <ref type="secondary" target="BiblArn20">1960</ref><biblScope unit="pages">91</biblScope></bibl>) and <name type="person" key="SteKar001">Stefán Karlsson</name> (<bibl>
                                     <ref type="secondary-1" target="EIMF7">Stefán Karlsson
-                                        1967</ref><biblScope type="pages">59</biblScope></bibl>)
-                                date it to <origDate notBefore="1300" notAfter="1325" cert="high"
-                                    >the beginning of the fourtheenth century</origDate>.</p>
+                                        1967</ref><biblScope unit="pages">59</biblScope></bibl>)
+                                date it to <origDate notBefore="1300" notAfter="1325" cert="high">the beginning of the fourtheenth century</origDate>.</p>
                         </origin>
                         <acquisition>
                             <p>On the AM-slip <name type="person" key="ArnMag001">Árni
-                                    Magnússo</name>n says that he recieved the fragment in <date
-                                    when="1721">1721</date> from the priest <name type="person"
-                                    key="SnoJon002">Snorri Jónsson</name> (<date from="1683"
-                                    to="1756">1683-1756</date>), who was a parison of <name
-                                    type="place">Helgafell</name>
+                                    Magnússo</name>n says that he recieved the fragment in <date when="1721">1721</date> from the priest <name type="person" key="SnoJon002">Snorri Jónsson</name> (<date from="1683" to="1756">1683-1756</date>), who was a parison of <name type="place">Helgafell</name>
                                 <date from="1720" to="1753">1720-1753</date>.</p>
                         </acquisition>
                     </history>
@@ -216,12 +207,12 @@
                         </surrogates>
                         <listBibl>
                             <bibl>Kålund, <ref type="secondary-1" target="KKKat"/>
-                                <biblScope type="volume">I</biblScope>
-                                <biblScope type="pages">203</biblScope>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">203</biblScope>
                             </bibl>
                             <bibl>Wolf, 
                                 <ref type="secondary-1" target="Rit42">Gyðinga saga</ref>
-                                <biblScope type="pages">xxxviii-l, cxli-cxlii</biblScope>
+                                <biblScope unit="pages">xxxviii-l, cxli-cxlii</biblScope>
                                 <note>Cxli-cxlii: facsimily of f. 1r-v</note>
                             </bibl>
                         </listBibl>

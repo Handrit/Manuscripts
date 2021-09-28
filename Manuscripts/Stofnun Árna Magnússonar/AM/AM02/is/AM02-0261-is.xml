@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 261 fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>416</idno>
@@ -27,12 +28,9 @@
                   <origDate notBefore="1710" notAfter="1710" evidence="external">1710</origDate>
                   <!--<lang>Íslenska</lang>--><note>
                      <p>Aftan við máldagann fylgja og nokkrir stuttir efnisþættir.</p>
-                     <p>Handritið er vandlega leiðrétt afrit fólíóhandrits sem <name key="HakOrm001"
-                           type="person">Hákon Ormsson</name> alþingisskrifari skrifaði árið 1642
-                        (sbr. seðla og innfest bréf). Svo virðist sem <name key="ArnMag001"
-                           type="person">Árna Magnússyni</name> hafi verið boðið forritið gegn
-                        afritinu (sbr. bréf). Forritið var þá í eigu <name key="JonSig006"
-                           type="person">Jóns Sigurðssonar</name> í Einarsnesi, en hafði áður
+                     <p>Handritið er vandlega leiðrétt afrit fólíóhandrits sem <name key="HakOrm001" type="person">Hákon Ormsson</name> alþingisskrifari skrifaði árið 1642
+                        (sbr. seðla og innfest bréf). Svo virðist sem <name key="ArnMag001" type="person">Árna Magnússyni</name> hafi verið boðið forritið gegn
+                        afritinu (sbr. bréf). Forritið var þá í eigu <name key="JonSig006" type="person">Jóns Sigurðssonar</name> í Einarsnesi, en hafði áður
                         tilheyrt <name key="BrySve001" type="person">Brynjólfi Sveinssyni</name>
                         biskupi og síðar <name key="HalTor001" type="person">Halldóri
                            Torfasyni</name> presti í Gaulverjabæ.</p>
@@ -44,8 +42,7 @@
                      <title type="supplied">Máldagi herra Gísla Jónssonar</title>
                      <rubric>Maaldage Herra Giisla <lb/> Jönſsonar</rubric>
                      <note>
-                        <p>Skrá yfir kirkjueignir í Skálholtsbiskupsdæmi árið <date when="1575"
-                              >1575</date> og næstu ár á eftir.</p> Bl. 71-72 auð. </note>
+                        <p>Skrá yfir kirkjueignir í Skálholtsbiskupsdæmi árið <date when="1575">1575</date> og næstu ár á eftir.</p> Bl. 71-72 auð. </note>
                   </msItem>
                   <msItem n="2" class="jarb">
                      <!-- Ath. efnisorð í 2. umferð -->
@@ -123,11 +120,8 @@
                      <p>
                         <list>
                            <item n="1">Bréf til <name key="ArnMag001" type="person">Árna
-                                 Magnússonar</name>, undirritað af <name key="SigJon006"
-                                 type="person">Sigurði Jónssyni</name>, Hvítárvöllum, <date
-                                 when="1710-04-28">28. apríl 1710</date>.</item>
-                           <item n="2">Þrír seðlar með hendi <name key="ArnMag001" type="person"
-                                 >Árna Magnússonar</name><list>
+                                 Magnússonar</name>, undirritað af <name key="SigJon006" type="person">Sigurði Jónssyni</name>, Hvítárvöllum, <date when="1710-04-28">28. apríl 1710</date>.</item>
+                           <item n="2">Þrír seðlar með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name><list>
                                  <item><locus from="accMat01r" to="accMat01v">Seðill 1</locus>
                                        (<dimensions type="slip" unit="mm">
                                        <height>213</height>
@@ -164,8 +158,7 @@
                                        gjört. Arne Magnusson. [við hliðina stendur:] Jón Sigurðsson
                                        fékk bókina af síra Halldóri Torfasyni í Bæ.</quote></item>
                               </list></item>
-                           <item><locus from="accMat033" to="accMat03v">Seðill 3</locus>(<dimensions
-                                 type="slip" unit="mm">
+                           <item><locus from="accMat033" to="accMat03v">Seðill 3</locus>(<dimensions type="slip" unit="mm">
                                  <height>165</height>
                                  <width>91</width>
                               </dimensions>): <quote xml:lang="is" type="AMSlip">Aftan við þennan
@@ -197,10 +190,7 @@
                         <source>
                            <p>Tekið eftir <bibl>
                                  <ref target="KKKat">Katalog I</ref>
-                              </bibl>, bls. 238 (nr. 416). <name key="KriKaa001" type="person"
-                                 >Kålund</name> gekk frá handritinu til skráningar í <date
-                                 when="1886-01">janúar 1886</date>. <name key="DriThr001"
-                                 type="person">DKÞ</name> skráði <date when="2001-08-20">20. ágúst
+                              </bibl>, bls. 238 (nr. 416). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar í <date when="1886-01">janúar 1886</date>. <name key="DriThr001" type="person">DKÞ</name> skráði <date when="2001-08-20">20. ágúst
                                  2001</date>.</p>
                         </source>
                      </recordHist>

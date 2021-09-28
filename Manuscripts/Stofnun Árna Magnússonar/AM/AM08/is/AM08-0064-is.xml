@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 64 8vo</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>2265</idno>
@@ -77,8 +78,7 @@
                      </binding>
                   </bindingDesc>
                   <accMat>
-                     <p>Fastur <locus from="accMat01r" to="accMat01v">seðill</locus> (<dimensions
-                           type="slip" unit="mm">
+                     <p>Fastur <locus from="accMat01r" to="accMat01v">seðill</locus> (<dimensions type="slip" unit="mm">
                            <height>167</height>
                            <width>107</width>
                         </dimensions>)með hendi <name key="ArnMag001" type="person">Árna
@@ -95,8 +95,7 @@
                   <provenance>
                      <p>
                         <name key="ArnMag001" type="person">Árni Magnússon</name> fékk að gjöf
-                        frá <name type="person" key="SigSig003">Sigurði Sigurðssyni</name> í Saurbæ eða bróður hans <name key="SigSig004" type="person">Sigurði Sigurðssyni</name> í Hjarðarholti í <date when="1713-05"
-                           >maí 1713</date> (sjá saurblað).</p>
+                        frá <name type="person" key="SigSig003">Sigurði Sigurðssyni</name> í Saurbæ eða bróður hans <name key="SigSig004" type="person">Sigurði Sigurðssyni</name> í Hjarðarholti í <date when="1713-05">maí 1713</date> (sjá saurblað).</p>
                   </provenance>
                   <acquisition notBefore="1977-05-10" notAfter="1977-05-10">
                      <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 10. maí 1977.</p>
@@ -108,17 +107,13 @@
                         <source>
                            <p>Tekið eftir <bibl>
                                  <ref target="KKKat">Katalog II</ref>
-                              </bibl>, bls. 369 (nr. 2265). <name key="KriKaa001" type="person"
-                                 >Kålund</name> gekk frá handritinu til skráningar <date
-                                 when="1889-11-13">13. nóvember 1889</date>. <name key="ThoSig001"
-                                 type="person">ÞS</name> skráði <date when="2002-01-24">24. janúar
+                              </bibl>, bls. 369 (nr. 2265). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar <date when="1889-11-13">13. nóvember 1889</date>. <name key="ThoSig001" type="person">ÞS</name> skráði <date when="2002-01-24">24. janúar
                                  2002</date>.</p>
                         </source>
                      </recordHist>
                      <custodialHist>
                         <custEvent type="conservation" notBefore="1976" notAfter="1976">
-                           <p>Viðgert og bundið á verkstæði <name key="BirDal001" type="person"
-                                 >Birgitte Dall</name> í september 1976. Eldra band fylgir
+                           <p>Viðgert og bundið á verkstæði <name key="BirDal001" type="person">Birgitte Dall</name> í september 1976. Eldra band fylgir
                               með í öskju.</p>
                         </custEvent>
                      </custodialHist>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,9 +14,9 @@
                     <msIdentifier>
                         <country key="IS">Ísland</country>
                         <settlement>Reykjavík</settlement>
-                        <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                        <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                         <repository>Handritasvið</repository>
-                        <collection>Safn Stofnunar Árna Magnússonar á Íslandi</collection>
+                        <collection key="SAM">Safn Stofnunar Árna Magnússonar á Íslandi</collection>
                         <idno>SÁM 72</idno>
                     </msIdentifier>
 
@@ -37,16 +37,14 @@
                             </docTitle>
                         </titlePage>
                  
-                        <msItem n="1" defective="unknown"
-                            class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                        <msItem n="1" defective="unknown" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                             <locus from="3r" to="82v">3r-82v</locus>
                             <author key="SnoStu001">Snorri Sturluson</author>
                             <title type="uniform">Edda</title>
                             <title type="parallel">Snorra-Edda</title>
                             <rubric>Edda Íslendinga</rubric>
                             <note>Fyrir aftan Eddu-efnið er viðbótarefni.</note>
-                            <msItem n="1.1" defective="unknown"
-                                class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                            <msItem n="1.1" defective="unknown" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                                 <locus from="3r" to="82v">3r-82v</locus>
                                 <title type="supplied">Fyrri partur Eddu</title>
                                 <note>Formálar, Gylfaginning og um Snorra Sturluson.</note>
@@ -83,8 +81,7 @@
                                     <explicit>… að þeirra tunga Asíumanna varð eigin tunga um öll
                                         þessi lönd.</explicit>
                                 </msItem>
-                                <msItem n="1.1.4" defective="false"
-                                    class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                                <msItem n="1.1.4" defective="false" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                                     <locus from="17r" to="52r">17r-52r</locus>
                                     <title type="uniform">Gylfaginning</title>
                                     <author key="SnoStu001">Snorri Sturluson</author>
@@ -93,8 +90,7 @@
                                     <explicit>… svo sem sjá má og læra í seinna parti þessarar bókar,
                                         sem hér eftir fylgir.</explicit>
                                     <note>Fyrir neðan hefur verið skrifað með blýanti með seinni
-                                        tíma hendi (sjá blað <locus from="52r" to="52r"
-                                        >52r</locus>).</note>
+                                        tíma hendi (sjá blað <locus from="52r" to="52r">52r</locus>).</note>
                                 </msItem>
                                 <msItem n="1.1.5" defective="false" class="bokmfr" xml:lang="la">
                                     <locus from="52v" to="52v">52v</locus>
@@ -104,15 +100,13 @@
                                     <explicit>… cui nomen erat Urækia.</explicit>
                                 </msItem>
                             </msItem>
-                            <msItem n="1.2" defective="unknown"
-                                class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                            <msItem n="1.2" defective="unknown" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                                 <locus from="53r" to="77r">53r-77r</locus>
                                 <title type="supplied">Annar partur Eddu</title>
                                 <note>Kenningar, fornvísur.</note>
 
 
-                                <msItem n="1.2.1" defective="false"
-                                    class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                                <msItem n="1.2.1" defective="false" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                                     <locus from="53" to="76r">53r-76r</locus>
                                     <title type="supplied">Um kenningar</title>
 
@@ -124,8 +118,7 @@
                                     <colophon>Nú eru kenningar hér skrifaðar en kunni nokkuð til að
                                         vanta má síðar inn setja. Enda eg svo þessa bók þann 19.
                                         january anno 1743. Árni Böðvarsson.</colophon>
-                                    <note>Skrifaraklausan er á blaði <locus from="76r" to="76r"
-                                        >76r</locus>. </note>
+                                    <note>Skrifaraklausan er á blaði <locus from="76r" to="76r">76r</locus>. </note>
                                 </msItem>
                                 <msItem n="1.2.2" defective="false" class="fornkv ">
                                     <locus from="76v" to="77r">76v-77r</locus>
@@ -133,9 +126,7 @@
                                     <note>Á blað <locus from="77v" to="77v">77v</locus> sem annars
                                         er autt er skrifað: <q>Þessa bók á eg undirskrifaður með
                                             réttu og hún er mér heimiluð af hennar réttum eiganda
-                                            mr. <name type="person">Jóni Sigurðssyni</name>, <name
-                                                type="place">Hörðubóli</name> þann <date
-                                                when="1832-06-12">12. júní 1832.</date> […] J.
+                                            mr. <name type="person">Jóni Sigurðssyni</name>, <name type="place">Hörðubóli</name> þann <date when="1832-06-12">12. júní 1832.</date> […] J.
                                             Grímsson.</q><q>Þessa bók Snorra- og Sæmundar-Eddur á eg
                                             undirskrifaður, J Grímsson 1832.</q></note>
                                 </msItem>
@@ -144,84 +135,70 @@
 
 
 
-                        <msItem n="2" defective="true"
-                            class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                        <msItem n="2" defective="true" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                             <locus from="78r" to="135v">78r-135v</locus>
                             <title type="uniform">Sæmundar-Edda</title>
                             <title type="parallel">Sæmundar Edda hins fróða</title>
                             <rubric>Edda Sæmundar prests hins fróða</rubric>
-                            <note>Blað eða blöð virðast hafa glatast á milli blaða <locus
-                                    from="132v" to="133r">132v-133r</locus></note>
+                            <note>Blað eða blöð virðast hafa glatast á milli blaða <locus from="132v" to="133r">132v-133r</locus></note>
 
-                            <msItem n="2.1" defective="false"
-                                class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                            <msItem n="2.1" defective="false" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                                 <locus from="78r" to="82r">78r-82r</locus>
                                 <title type="supplied">Heiti</title>
 
-                                <msItem n="2.1.1" defective="false"
-                                    class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                                <msItem n="2.1.1" defective="false" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                                     <locus from="78r" to="78v">78r-78v</locus>
                                     <title type="supplied">Óðinn; heiti hans, ætt og uppruni</title>
                                     <rubric>Hér segir fyrst um ætt Óðins frá Trojumönnum</rubric>
                                 </msItem>
-                                <msItem n="2.1.2" defective="false"
-                                    class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                                <msItem n="2.1.2" defective="false" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                                     <locus from="79r" to="79v">79r-79v</locus>
                                     <title type="supplied">Ásar og ásynjur</title>
                                     <rubric>Hér uppskrifast ásar og ásynjur</rubric>
                                 </msItem>
-                                <msItem n="2.1.3" defective="false"
-                                    class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                                <msItem n="2.1.3" defective="false" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                                     <locus from="80r" to="80r">80r</locus>
                                     <title type="supplied">Nöfn goða og gyðja</title>
                                     <rubric>Hér skrifast nöfn heiðingjanna …</rubric>
                                 </msItem>
-                                <msItem n="2.1.4" defective="false"
-                                    class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                                <msItem n="2.1.4" defective="false" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                                     <locus from="80v" to="80v">80v</locus>
                                     <title type="supplied">Nornanöfn</title>
                                     <rubric>Nornanöfn</rubric>
                                 </msItem>
-                                <msItem n="2.1.5" defective="false"
-                                    class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                                <msItem n="2.1.5" defective="false" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                                     <locus from="80v" to="81r">80v-81r</locus>
                                     <title type="supplied">Dverganöfn</title>
                                     <rubric>Dverganöfn</rubric>
                                 </msItem>
 
-                                <msItem n="2.1.6" defective="false"
-                                    class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                                <msItem n="2.1.6" defective="false" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                                     <locus from="81r" to="81r">81r</locus>
                                     <title type="supplied">Sverðaheiti</title>
                                     <rubric>Síðan teljast sverðaheiti</rubric>
                                 </msItem>
-                                <msItem n="2.1.7" defective="false"
-                                    class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                                <msItem n="2.1.7" defective="false" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                                     <locus from="81r" to="81v">81r-81v</locus>
                                     <title type="supplied">Skipaheiti</title>
                                     <rubric>Skrifa verður skipaheiti</rubric>
                                 </msItem>
-                                <msItem n="2.1.8" defective="false"
-                                    class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                                <msItem n="2.1.8" defective="false" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                                     <locus from="81v" to="81v">81v</locus>
                                     <title type="supplied">Sjókenningar</title>
                                     <rubric>Síðan teiknast sjókenningar</rubric>
                                 </msItem>
-                                <msItem n="2.1.9" defective="false"
-                                    class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
+                                <msItem n="2.1.9" defective="false" class="edd hetkv godkv skaldskfr godfrn fornkv bragfr bokmfr">
                                     <locus from="81v" to="82r">81v-82r</locus>
                                     <title type="supplied">Sjávarheiti</title>
                                     <rubric>Þetta eru heiti á sjó</rubric>
                                     <colophon>Kenningar má finna í síðari parti Snorra-Eddu. Byrjast
                                         því partar eður kvæði þessarar bókar sem eftir fylgja.</colophon>
-                                    <note>(Skrifaraklausan er á blaði <locus from="82r" to="82r"
-                                        >82r</locus>).</note>
+                                    <note>(Skrifaraklausan er á blaði <locus from="82r" to="82r">82r</locus>).</note>
                                     <note>Heiti Óðins, ása og ásynja, goða og gyðja, nöfn dverga,
                                         skipa og sjávarheiti eru upplistuð í ofangreindum köflum; um
                                         heitin ásamt kenningum er fjallað í Skáldskaparmálum
                                         Snorra-Eddu.</note>
-                                    <note>Svohljóðandi efnisyfirlit er á blaði <locus from="82v"
-                                            to="82v">82v</locus>: <q>Þetta eru partar eður Capita
+                                    <note>Svohljóðandi efnisyfirlit er á blaði <locus from="82v" to="82v">82v</locus>: <q>Þetta eru partar eður Capita
                                             Sæmundar-Eddu sem eftir fylgja: Völuspá, Hávamál,
                                             Vafþrúðnismál, Grímnismál, Skírnisför, Hárbarsljóð
                                             [sic], Þór dró Miðgarðsorm eður Hymiskviða, Lokasenna,
@@ -390,8 +367,7 @@
                             <locus from="121v" to="122v">121v-122v</locus>
                             <title type="uniform">Reginsmál</title>
                             <rubric>Frá Regin og Sigurði Fáfnisbana</rubric>
-                            <note>Aðeins hluti kvæðisins, þ.e. erindi 13 og erindi 16-26 (sjá <title
-                                    type="uniform">Eddukvæði</title> útgáfa Gísla Sigurðssonar 1999:
+                            <note>Aðeins hluti kvæðisins, þ.e. erindi 13 og erindi 16-26 (sjá <title type="uniform">Eddukvæði</title> útgáfa Gísla Sigurðssonar 1999:
                                 202-206). Skrifari hefur aðlagað efnið eða í forriti hans hafa
                                 efnistök verið með þeim hætti að lausamáli virðist á sinn hátt ætlað
                                 að gefa frekari skýringu á því sem fyrr er frá greint í kvæðinu. </note>
@@ -402,8 +378,7 @@
                             <locus from="122v" to="124r">122v-124r</locus>
                             <title type="uniform">Sigurdrífumál</title>
                             <note>
-                                <note>Aðeins hluti kvæðisins, hefst í 5. erindi (sbr. <title
-                                        type="uniform">Eddukvæði</title> útgáfa Gísla Sigurðssonar
+                                <note>Aðeins hluti kvæðisins, hefst í 5. erindi (sbr. <title type="uniform">Eddukvæði</title> útgáfa Gísla Sigurðssonar
                                     1999: 221-228). Niðurlag í lausu máli.</note>
                             </note>
 
@@ -467,8 +442,7 @@
                             <title type="uniform">Fáfnismál</title>
                             <rubric>Frá dauða Fáfnis</rubric>
                             <colophon>Þetta hefði átt að skrifast fyrri.</colophon>
-                            <note>Skrifaraklausan er á blaði <locus from="126r" to="126r"
-                                >126r.</locus></note>
+                            <note>Skrifaraklausan er á blaði <locus from="126r" to="126r">126r.</locus></note>
                             <note>Lausamálskafli er við upphaf kvæðisins. Kvæðið er ekki að fullu
                                 upp skrifað. Uppskriftinni lýkur við upphaf 23. erindis (sbr.
                                 <title type="uniform">Eddukvæði</title> útgáfa Gísla
@@ -526,8 +500,7 @@
 
                             <incipit>Vaki þú Gróa / vaki þú góð kona …</incipit>
                             <explicit>… meðan þú mín orð of manst.</explicit>
-                            <note>Fyrri hluti <title type="uniform">Svipdagsmála</title>; <title
-                                    type="uniform">Fjölsvinnsmál</title> eru talin til síðari
+                            <note>Fyrri hluti <title type="uniform">Svipdagsmála</title>; <title type="uniform">Fjölsvinnsmál</title> eru talin til síðari
                                 hlutans (sjá lið 2.22)</note>
                         </msItem>
 
@@ -550,8 +523,7 @@
                             <title type="parallel">Svipdagsmál</title>
                             <incipit>Gífur heitir / en Gere annar …</incipit>
                             <explicit>… nú er það satt / að við slíta skulum / ævialdri saman.</explicit>
-                            <note>Vantar framan af kvæðinu sem hefst skv. útgáfu <name type="person"
-                                    >Finns Jónssonar</name> (<date when="1905">1905</date>) í hdr. í
+                            <note>Vantar framan af kvæðinu sem hefst skv. útgáfu <name type="person">Finns Jónssonar</name> (<date when="1905">1905</date>) í hdr. í
                                 fjórtánda erindi (sjá bls. 213-221, Finnur Jónsson).</note>
                         </msItem>
 
@@ -569,10 +541,8 @@
                             <rubric>Bjargbúaþáttur</rubric>
                             <note>Á eftir stuttum inngangskafla í lausu máli er dróttkveðið kvæði,
                                 oftast nefnt Hallmundarkviða og fylgja skýringar með. Í annarri gerð
-                                þáttarins þar sem vísurnar eru skrifaðar upp án skýringa (sbr. <ref
-                                    target="#AM04-0564a-is">AM 564 a 4to</ref>) er lausamálsfrásögn
-                                sem er lengri og kvæðið er án skýringa (sjá nánar umfjöllun <name
-                                    type="person">Þórhalls Vilmundarsonar 1991</name>, <bibl>
+                                þáttarins þar sem vísurnar eru skrifaðar upp án skýringa (sbr. <ref target="#AM04-0564a-is">AM 564 a 4to</ref>) er lausamálsfrásögn
+                                sem er lengri og kvæðið er án skýringa (sjá nánar umfjöllun <name type="person">Þórhalls Vilmundarsonar 1991</name>, <bibl>
                                     <ref target="IF13">Íslenzk fornrit XIII</ref>
                                 </bibl>)</note>
 
@@ -612,8 +582,7 @@
                             <explicit>… vagna vára / eður vili tára.</explicit>
                             <colophon>Drápan er skrifuð eftir Runica Wormi.</colophon>
 
-                            <note>(Skrifaraklausan er á blaði <locus from="141r" to="141r"
-                                >141r</locus>).</note>
+                            <note>(Skrifaraklausan er á blaði <locus from="141r" to="141r">141r</locus>).</note>
                         </msItem>
 
                         <msItem n="2.27" defective="false" class="drott" xml:lang="is">
@@ -623,10 +592,8 @@
                             <incipit>Hjuggum vér með hjörvi …</incipit>
                             <explicit>… læjandi skal eg deyja.</explicit>
                             <colophon>Endir Loðbrókarkviðu</colophon>
-                            <note>(Skrifaraklausan er á blaði <locus from="144v" to="144v"
-                                >144v</locus>). Fyrir neðan skrifaraklausuna stendur með annarri
-                                hendi: <q>Þessi kviða kallast réttar <title type="uniform"
-                                    >Krákumál.</title></q></note>
+                            <note>(Skrifaraklausan er á blaði <locus from="144v" to="144v">144v</locus>). Fyrir neðan skrifaraklausuna stendur með annarri
+                                hendi: <q>Þessi kviða kallast réttar <title type="uniform">Krákumál.</title></q></note>
                         </msItem>
 
 
@@ -637,8 +604,7 @@
                                 hugsanlega lesa <q>Úr sögu Hákons konungs gamla</q>. Þetta er þó
                                 illlæsilegt þar sem fyrirsögn er skert vegna afskurðar blaðsins.
                                 Meðal þess sem þarna er að finna er kveðskapur Sturlu Þórðarsonar um
-                                hernað Hákons í Vermalandi, kvæði úr <title type="supplied"
-                                    >Orkneyingasögu</title> o.fl.</note>
+                                hernað Hákons í Vermalandi, kvæði úr <title type="supplied">Orkneyingasögu</title> o.fl.</note>
                         </msItem>
 
                         <msItem n="2.29" defective="false" class="run stafr" xml:lang="is">
@@ -683,8 +649,7 @@
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent>ii +153 + ii blöð (<dimensions type="leaf" scope="all"
-                                        unit="mm">
+                                <extent>ii +153 + ii blöð (<dimensions type="leaf" scope="all" unit="mm">
                                         <height>190-192</height>
                                         <width>145-150</width>
                                     </dimensions>).</extent>
@@ -734,9 +699,7 @@
                                             <item>Blað eða blöð virðast hafa glatast á milli blaða
                                                   <locus from="132v" to="133r">132v-133r</locus>. </item>
                                             <item>Blöð eru skítug og notkunarnúin. </item>
-                                            <item>Texti hefur skerst lítillega, t.d. á blöðum <locus
-                                                  from="145r" to="145v">145</locus> og <locus
-                                                  from="149r" to="149v">149</locus> vegna
+                                            <item>Texti hefur skerst lítillega, t.d. á blöðum <locus from="145r" to="145v">145</locus> og <locus from="149r" to="149v">149</locus> vegna
                                                 afskurðar blaða.</item>
                                         </list>
                                     </p>
@@ -748,8 +711,7 @@
                                     <p>
                                         <list>
                                             <item>Eindálka.</item>
-                                            <item>Leturflötur er ca <dimensions type="written"
-                                                  unit="mm">
+                                            <item>Leturflötur er ca <dimensions type="written" unit="mm">
                                                   <height>165 </height>
                                                   <width>125 </width>
                                                 </dimensions>.</item>
@@ -765,27 +727,19 @@
                         <handDesc hands="1">
                             <handNote scope="sole" script="kurrent kanzlei" scribe="ArnBod001">Að mestu með
                                 hendi <name type="person" key="ArnBod001">Árna Böðvarssonar</name>,
-                                fljótaskrift og kansellískrift.<p> Á blöðum <locus from="150r" to="153v"
-                                    >150r-153v</locus> er þó hugsanlega önnur hönd.</p></handNote>
+                                fljótaskrift og kansellískrift.<p> Á blöðum <locus from="150r" to="153v">150r-153v</locus> er þó hugsanlega önnur hönd.</p></handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote type="border">
                                 <p>Rauður rammi er um leturflöt og tvöfaldur um titilsíður.</p>
                             </decoNote>
                             <decoNote type="secondary">Fyrirsagnir eru með blekfylltum stöfum og
-                                upphafsstafir eru einnig blekfylltir (sbr. <locus from="3r" to="3r"
-                                    >3r</locus>).</decoNote>
+                                upphafsstafir eru einnig blekfylltir (sbr. <locus from="3r" to="3r">3r</locus>).</decoNote>
                             <decoNote type="frieze" subtype="tail-piece">Bókahnútur eða ígildi
-                                bókahnúts, þ.e. skreyting við niðurlag texta (sjá t.d. blöð <locus
-                                    from="52v" to="52v">52v</locus> og <locus from="106v" to="106v"
-                                    >106v</locus>).</decoNote>
+                                bókahnúts, þ.e. skreyting við niðurlag texta (sjá t.d. blöð <locus from="52v" to="52v">52v</locus> og <locus from="106v" to="106v">106v</locus>).</decoNote>
                         </decoDesc>
-                        <additions>Nöfn fyrri eigenda má sjá á blöðum <locus from="1r" to="3r"
-                            >1r-3r</locus>, <locus from="77v" to="77v">77v</locus> og á blaði <locus
-                                from="153v" to="153v">153v</locus>. Eitthvert krot er á blöðum
-                                <locus from="1v" to="1v">1v</locus> og <locus from="148v" to="148v"
-                                >148v</locus> og viðbætur eru víða (sjá t.d. <locus from="99r"
-                                to="99r">99r</locus>).</additions>
+                        <additions>Nöfn fyrri eigenda má sjá á blöðum <locus from="1r" to="3r">1r-3r</locus>, <locus from="77v" to="77v">77v</locus> og á blaði <locus from="153v" to="153v">153v</locus>. Eitthvert krot er á blöðum
+                                <locus from="1v" to="1v">1v</locus> og <locus from="148v" to="148v">148v</locus> og viðbætur eru víða (sjá t.d. <locus from="99r" to="99r">99r</locus>).</additions>
                         <bindingDesc>
                             <binding notBefore="1980" notAfter="2010">
                                 <p> Band (<dimensions type="binding" unit="mm" scope="all">
@@ -805,14 +759,11 @@
                     </physDesc>
 
                     <history>
-                        <origin when="1795">Handritið var skrifað á <origPlace key="IS"
-                            >Íslandi</origPlace> árið <origDate when="1743">1743</origDate>.</origin>
+                        <origin when="1795">Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace> árið <origDate when="1743">1743</origDate>.</origin>
                         <provenance>
-                            <p>Upplýsingar um fyrri eigendur má fá í handriti: Á blaði <locus
-                                    from="2v" to="2v">2v</locus> stendur: <q>Þessa bók heimila eg
+                            <p>Upplýsingar um fyrri eigendur má fá í handriti: Á blaði <locus from="2v" to="2v">2v</locus> stendur: <q>Þessa bók heimila eg
                                     Mr. Jóni Grímssyni til eignar þann <date when="1832-06-12">12.
-                                        júní 1832</date>. Til merkis mitt nafn <name type="person"
-                                        >Jón Sigurðsson.</name></q> Fyrir neðan hefur
+                                        júní 1832</date>. Til merkis mitt nafn <name type="person">Jón Sigurðsson.</name></q> Fyrir neðan hefur
                                 <q>J.Grímsson</q> að því er virðist, kvittað fyrir móttöku. Á blað
                                     <locus from="77v" to="77v">77v</locus> er skrifað: <q>Þessa bók
                                     á ég undirskrifaður með réttu og hún er mér heimiluð af hennar
@@ -820,10 +771,7 @@
                                         Sigurðssyni</name>, <name type="place">Hörðubóli</name> þann
                                         <date when="1832-06-12">12. júní 1832</date>. Testerar J.
                                     Grímsson.</q> Og örlítið neðar á sama blaði: Þessa bók Snorra og
-                                Sæmdundar-Eddur á ég undirskrifaður J. Grímsson. Á blað <locus
-                                    from="152v" to="152v">152v</locus> er skrifað: <q><name
-                                        type="person">Sölvason</name> frá <name type="place"
-                                        >Löngumýri</name> gefur <name type="person">Daníel
+                                Sæmdundar-Eddur á ég undirskrifaður J. Grímsson. Á blað <locus from="152v" to="152v">152v</locus> er skrifað: <q><name type="person">Sölvason</name> frá <name type="place">Löngumýri</name> gefur <name type="person">Daníel
                                     Kristjáni</name><!-- ?? frekar en Kristjánssyni??? --> þessa bók
                                         <date when="1898">1898</date>.</q></p> <p>Að því er fram
                                 kemur á <locus from="accMat-01r">seðli</locus> hefur handritið verið
@@ -844,7 +792,7 @@
                         </adminInfo>
                         <listBibl>
                             <bibl>Einar G. Pétursson, <ref type="secondary-1" target="EinPét9999a">Gripla
-                                    XVIII</ref>, <biblScope type="pages">133-152.</biblScope>
+                                    XVIII</ref>, <biblScope unit="pages">133-152.</biblScope>
                             </bibl>
                             <bibl>Einar G. Pétursson 2014, <ref target="EinPét2014b">Undarleg örlög vísna</ref></bibl>
                             <bibl>Lavender, P. <ref target="PhiLav2015a">Oedipus Industrius Aenigmatum Islandicorum</ref></bibl>

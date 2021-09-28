@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -10,13 +10,13 @@
             <p>Tilraunaútgáfa</p>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:lang="is" xml:id="AM04-0486-1-6-is">
+            <msDesc xml:lang="is" xml:id="AM04-0486-01-06-is">
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 486 1-6 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1258</idno>
@@ -83,11 +83,7 @@
                      <!-- Bandið er frá Árna (MJ) -->
                   </bindingDesc>
 
-                  <accMat> Einn <locus from="accMat01r" facs="#AM04-0484-accMat01r" to="accMat03v"
-                        >seðill</locus> fastur á <locus from="0001r-FFl" facs="#AM04-0484-0001r-FFl"
-                        to="0001r-FFl">saurblað 1r</locus> ritaður með hendi <name key="ArnMag001"
-                        type="person">Árna Magnússonar</name>: <quote type="AMSlip" xml:lang="is"
-                        >(Þorláks saga) Ísfirðinga saga. Hænsa Þóris saga. Hólmverja saga. Víglundar
+                  <accMat> Einn <locus from="accMat01r" facs="#AM04-0484-accMat01r" to="accMat03v">seðill</locus> fastur á <locus from="0001r-FFl" facs="#AM04-0484-0001r-FFl" to="0001r-FFl">saurblað 1r</locus> ritaður með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name>: <quote type="AMSlip" xml:lang="is">(Þorláks saga) Ísfirðinga saga. Hænsa Þóris saga. Hólmverja saga. Víglundar
                         saga, defect. [Ath. neðst á seðlinum: það var það sem vantaði framan við í bók
                         Gísla Jónssonar, og tók ég það héðan, og lagði þangað.] Flóamanna saga.
                         Þórðar hreðu saga. [Einnig eru seinni tíma viðbætur á seðlinum].</quote>
@@ -108,9 +104,7 @@
                         fékk úr sagnasafni sem tilheyrði <name key="GisJon005" type="person">Gísla
                            Jónssyni</name> á <name type="place">Leirá</name>, þ.e.a.s. með hendi
                            <name key="EinEyj002" type="person">Einars Eyjólfssonar</name> (sbr.
-                        seðil d á milli blaða <locus from="30r" to="30v">30</locus> og <locus
-                           from="31r" to="31v">31v</locus>). Virkt skriftartímabil Einars var <date
-                           from="1660" to="1695">ca 1660-1695</date>.</p>
+                        seðil d á milli blaða <locus from="30r" to="30v">30</locus> og <locus from="31r" to="31v">31v</locus>). Virkt skriftartímabil Einars var <date from="1660" to="1695">ca 1660-1695</date>.</p>
                   </origin>
                   <provenance>
                      <p/>
@@ -124,10 +118,7 @@
                      <recordHist>
                         <source>
                            <p>
-                              <name type="person" key="ValHil001">VH</name> skráði handritið <date
-                                 when="2009-04-15">27.-29. apríl 2009</date>; lagfærði í <date
-                                 when="2010-12">desember 2010</date>. <name key="DriThr001"
-                                 type="person">DKÞ</name> skráði <date when="2003-08-21">21. ágúst
+                              <name type="person" key="ValHil001">VH</name> skráði handritið <date when="2009-04-15">27.-29. apríl 2009</date>; lagfærði í <date when="2010-12">desember 2010</date>. <name key="DriThr001" type="person">DKÞ</name> skráði <date when="2003-08-21">21. ágúst
                                  2003</date>, <name key="KriKaa001" type="person">Kålund</name> gekk
                               frá handritinu til skráningar <date when="1887-06-16">16. júní 1887.</date> <bibl>
                                  <ref target="KKKat">Katalog I></ref>
@@ -172,9 +163,9 @@
                   </listBibl>
                </additional>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 486 1 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem class="isl" defective="false">
@@ -186,8 +177,7 @@
                         <explicit>… Og ljúkum vér hér sögu Hávarðar.</explicit>
                         <note>
 Niðurlag með öðru orðalagi má lesa milli lína en mikið er um
-                                 undirstrikanir og lesbrigði milli lína og á spássíum: <q
-                                    xml:lang="is">Og ljúkum vér þar nú þessari sögu að sinni með
+                                 undirstrikanir og lesbrigði milli lína og á spássíum: <q xml:lang="is">Og ljúkum vér þar nú þessari sögu að sinni með
                                     þessu efni.</q>
                      
                         </note>
@@ -219,8 +209,7 @@ Niðurlag með öðru orðalagi má lesa milli lína en mikið er um
                            <condition>
                               <p>
                                  <list>
-                                    <item>Blöð eru víða skítug (sbr. t.d. blöð <locus from="8v"
-                                          to="9r">8v-9r</locus>) og blettir á blöðum (sbr. t.d. blað
+                                    <item>Blöð eru víða skítug (sbr. t.d. blöð <locus from="8v" to="9r">8v-9r</locus>) og blettir á blöðum (sbr. t.d. blað
                                           <locus from="26r" to="26r">26r</locus> og víðar).</item>
                                  </list>
                               </p>
@@ -238,18 +227,15 @@ Niðurlag með öðru orðalagi má lesa milli lína en mikið er um
                                        </dimensions>.</item>
                                     <item>Línufjöldi er ca 26.</item>
                                     <item>Markað hefur verið fyrir innri og ytri spássíum með beini.</item>
-                                    <item>Sagan endar í totu (sjá blað <locus from="28r" to="28r"
-                                          >28r</locus>).</item>
+                                    <item>Sagan endar í totu (sjá blað <locus from="28r" to="28r">28r</locus>).</item>
                                     <item>
                                        <p>Upphafleg kaflaskipting: i-xxi.</p>
                                     </item>
                                     <item>Síðutitlar ná yfir opnu (síðutitillinn <q>Af Hávarði
-                                          Ísfirðingi</q> skiptist t.d. þannig, sbr. blöð <locus
-                                          from="27v" to="28r">27v-28r</locus> að á efri spássíu
+                                          Ísfirðingi</q> skiptist t.d. þannig, sbr. blöð <locus from="27v" to="28r">27v-28r</locus> að á efri spássíu
                                        blaðs 27v stendur: <q>Af Hávarði</q> og á efri spássíu blaðs
                                        28r: <q>Ísfirðingi</q>).</item>
-                                    <item>Griporð (sbr. t.d. blöð <locus from="16v" to="17r"
-                                       >16v-17r</locus>).</item>
+                                    <item>Griporð (sbr. t.d. blöð <locus from="16v" to="17r">16v-17r</locus>).</item>
                                  </list>
                               </p>
                            </layout>
@@ -257,8 +243,7 @@ Niðurlag með öðru orðalagi má lesa milli lína en mikið er um
                      </objectDesc>
 
                      <handDesc>
-                        <handNote scope="major" script="hybrida" scribe="unknown">Með hendi <name
-                              type="person" key="EinEyj002">Einars Eyjólfssonar</name>,
+                        <handNote scope="major" script="hybrida" scribe="unknown">Með hendi <name type="person" key="EinEyj002">Einars Eyjólfssonar</name>,
                            blendingsskrift. Blað <locus from="13r" to="13v">13</locus> er skrifað af
                            skrifara <name type="person" key="ArnMag001">Árna
                         Magnússonar</name>.</handNote>
@@ -268,8 +253,7 @@ Niðurlag með öðru orðalagi má lesa milli lína en mikið er um
                         <decoNote type="initial" subtype="flourished">
                            <p>
                               <list>
-                                 <item>Pennaflúraðir upphafsstafir (sjá t.d. blöð <locus from="1r"
-                                       to="1r">1r</locus>, <locus from="10v" to="10v">10v</locus> og
+                                 <item>Pennaflúraðir upphafsstafir (sjá t.d. blöð <locus from="1r" to="1r">1r</locus>, <locus from="10v" to="10v">10v</locus> og
                                     víðar).</item>
                               </list>
                            </p>
@@ -277,16 +261,14 @@ Niðurlag með öðru orðalagi má lesa milli lína en mikið er um
                         <decoNote type="paratext" subtype="flourished-title">
                            <p>
                               <list>
-                                 <item>Pennaflúruð fyrirsögn í upphafi sögu (sjá blað <locus
-                                       from="1r" to="1r">1r</locus>) sem og síðutitlar (sjá t.d.
+                                 <item>Pennaflúruð fyrirsögn í upphafi sögu (sjá blað <locus from="1r" to="1r">1r</locus>) sem og síðutitlar (sjá t.d.
                                     blöð <locus from="1v" to="2r">1v-2r</locus>).</item>
                               </list>
                            </p>
                         </decoNote>
                         <decoNote type="border">
                            <list>
-                              <item>Skrautbekkur við fyrirsögn (sjá blað <locus from="1r" to="1r"
-                                 >1r</locus>).</item>
+                              <item>Skrautbekkur við fyrirsögn (sjá blað <locus from="1r" to="1r">1r</locus>).</item>
                            </list>
                         </decoNote>
                      </decoDesc>
@@ -298,15 +280,12 @@ Niðurlag með öðru orðalagi má lesa milli lína en mikið er um
                                  bætt var við fyrir <name key="ArnMag001" type="person">Árna
                                     Magnússon</name>.</item>
                               <item>Lesbrigði úr <ref target="AM02-0160" type="ms">AM 160
-                                 fol.</ref> á spássíum og milli lína (sjá t.d. blöð <locus from="2v"
-                                    to="3r">2v-3r</locus>).</item>
+                                 fol.</ref> á spássíum og milli lína (sjá t.d. blöð <locus from="2v" to="3r">2v-3r</locus>).</item>
                               <item>Frá og með þriðja kafla eru síðari tíma viðbótarkaflamerkingar á
                                  spássíu til hliðar við þá fyrri eða á öðrum stöðum (iii-xx) (dæmi
                                  um þetta er t.d. á blaði <locus from="27r" to="27r">27r</locus>).</item>
-                              <item>Nöfnin <name type="person">Einar Ólafsson</name> á blaði <locus
-                                    from="29v" to="29v">29v</locus> og <name type="person">Þorsteinn
-                                    Arngrímsson</name> á blaði <locus from="30r" to="30r"
-                                 >30r</locus> eru síðari viðbætur en blöðin voru upprunalega
+                              <item>Nöfnin <name type="person">Einar Ólafsson</name> á blaði <locus from="29v" to="29v">29v</locus> og <name type="person">Þorsteinn
+                                    Arngrímsson</name> á blaði <locus from="30r" to="30r">30r</locus> eru síðari viðbætur en blöðin voru upprunalega
                               auð.</item>
                            </list>
                         </p>
@@ -319,9 +298,7 @@ Niðurlag með öðru orðalagi má lesa milli lína en mikið er um
                                  octavoseðill (<dimensions type="leaf" unit="mm" scope="all">
                                     <height>164</height>
                                     <width>105</width>
-                                 </dimensions>) er fremst (á milli fremra <locus from="0000v-FB"
-                                    to="0000v-FB">kápuspjalds</locus> og <locus from="accMat02r"
-                                    to="accMat02r">seðils b</locus>). Á honum er efnisyfirlit og
+                                 </dimensions>) er fremst (á milli fremra <locus from="0000v-FB" to="0000v-FB">kápuspjalds</locus> og <locus from="accMat02r" to="accMat02r">seðils b</locus>). Á honum er efnisyfirlit og
                                  athugagrein varðandi <title type="uniform">Víglundar sögu</title>.
                                  Einnig síðari tíma athugasemdir um efnið.</item>
                               <!-- <item n="1">Octavoseðill 
@@ -340,8 +317,7 @@ Aftan á er strikað yfir: <q>Hakonar S<p n="rvk">[ohal]</p>gu Hareks sonar ad u
                                  kvartóblaði (<dimensions type="leaf" unit="mm" scope="all">
                                     <height>210</height>
                                     <width>160</width>
-                                 </dimensions>) á milli <locus from="accMat01r" to="accMat01v"
-                                    >seðils a,</locus> og blaðs <locus from="1r" to="1r">1r</locus>
+                                 </dimensions>) á milli <locus from="accMat01r" to="accMat01v">seðils a,</locus> og blaðs <locus from="1r" to="1r">1r</locus>
                                  eru upplýsingar um handrit sem <title type="uniform">Hávarðar
                                  saga</title> hefur verið borin saman við.</item>
                               <!-- <item n="2">Kvartóblað
@@ -352,8 +328,7 @@ Sagan fylgir og skrifari hefur farið vandlega yfir hana með algengri hönd úr
                                     (<dimensions type="leaf" unit="mm" scope="all">
                                     <height>116</height>
                                     <width>97</width>
-                                 </dimensions>) er festur við blað <locus from="6r" to="6r"
-                                 >6r</locus>. Þar á eru efnislegar athugasemdir.</item>
+                                 </dimensions>) er festur við blað <locus from="6r" to="6r">6r</locus>. Þar á eru efnislegar athugasemdir.</item>
                               <!-- <item n="3">Miði 
 <dimensions><height></height><width></width></dimensions> <date>um 1710</date>, á milli bl. 5 og 6:
 <q>Þorbi<p n="rvk">[ohal]</p>rn bad Brand ecki. Þadann vantar i hans H<p n="rvk">[ohal]</p>j Excellences Exemplar, z er ætladur audur pappir fyrer, usqve ad
@@ -368,8 +343,7 @@ Sagan fylgir og skrifari hefur farið vandlega yfir hana með algengri hönd úr
                         <p>Handritið er skrifað á <origPlace key="IS">Íslandi</origPlace> og
                            tímasett til 17. aldar í <bibl>
                               <ref target="KKKat">Katalog I</ref>
-                           </bibl>, bls. 660, en virkt skriftartímabil skrifarans var <origDate
-                              from="1660" to="1695">ca 1660-1695</origDate> og seinni hluta 17.
+                           </bibl>, bls. 660, en virkt skriftartímabil skrifarans var <origDate from="1660" to="1695">ca 1660-1695</origDate> og seinni hluta 17.
                            aldar því nær lagi. </p>
                      </origin>
 
@@ -377,9 +351,9 @@ Sagan fylgir og skrifari hefur farið vandlega yfir hana með algengri hönd úr
                   <additional> </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 486 2-3, 6 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem n="1" class="isl" defective="true">
@@ -388,8 +362,7 @@ Sagan fylgir og skrifari hefur farið vandlega yfir hana með algengri hönd úr
                         <rubric>Hér byrjast sagan af Hænsna-Þórir</rubric>
                         <incipit>Oddur hét maður Önundarson …</incipit>
                         <explicit>… Og lýkur hér Hænsna-Þóris sögu.</explicit>
-                        <note>Texti hefur skaddast í neðri hornum blaða <locus from="31r" to="44r"
-                              >31r-44r</locus>.</note>
+                        <note>Texti hefur skaddast í neðri hornum blaða <locus from="31r" to="44r">31r-44r</locus>.</note>
                      </msItem>
 
                      <msItem n="2" class="isl" defective="unknown">
@@ -398,10 +371,8 @@ Sagan fylgir og skrifari hefur farið vandlega yfir hana með algengri hönd úr
                         <rubric>Saga af Hörð og hans fylgjurum þeim Hólmverjum</rubric>
                         <incipit>Á dögum Haralds hins hárfagra …</incipit>
                         <explicit>… Ljúkum vér svo sögu Hólmverja.</explicit>
-                        <note>Niðurlagi sögunnar er bætt við á blaði <locus from="67r" to="67r"
-                           >67r</locus> af <name key="ArnMag001" type="person">Árna
-                           Magnússyni</name>, en upprunalegt niðurlag er yfirstrikað á blaði <locus
-                              from="102r" to="102r">102r</locus>.</note>
+                        <note>Niðurlagi sögunnar er bætt við á blaði <locus from="67r" to="67r">67r</locus> af <name key="ArnMag001" type="person">Árna
+                           Magnússyni</name>, en upprunalegt niðurlag er yfirstrikað á blaði <locus from="102r" to="102r">102r</locus>.</note>
 
                      </msItem>
 
@@ -476,16 +447,13 @@ Sagan fylgir og skrifari hefur farið vandlega yfir hana með algengri hönd úr
                                        </dimensions>.</item>
                                     <item>Línufjöldi er ca 26-28.</item>
                                     <item>Skreyttir upphafsstafir eru dregnir út úr leturfleti (sbr.
-                                          <locus from="32r" to="32r">32r</locus> og <locus
-                                          from="44v" to="44v">44v</locus> og víðar).</item>
+                                          <locus from="32r" to="32r">32r</locus> og <locus from="44v" to="44v">44v</locus> og víðar).</item>
                                     <item n="1">Síðutitlar ná yfir opnu (síðutitillinn <q>Hænsna
-                                          Þórir</q> skiptist t.d. þannig, sbr. blöð <locus
-                                          from="34v" to="35r">34v-35r</locus> að á efri spássíu
+                                          Þórir</q> skiptist t.d. þannig, sbr. blöð <locus from="34v" to="35r">34v-35r</locus> að á efri spássíu
                                        blaðs 34v stendur: <q>Hænsna</q> og á efri spássíu blaðs 35r:
                                           <q>Þórir</q>). Þetta á einnig við um síðutitla hinna
                                        saganna.</item>
-                                    <item>Griporð eru víðast hvar (sbr. t.d. blað <locus from="44v"
-                                          to="44v">44v</locus>). Þau hafa þó sumstaðar morknað af,
+                                    <item>Griporð eru víðast hvar (sbr. t.d. blað <locus from="44v" to="44v">44v</locus>). Þau hafa þó sumstaðar morknað af,
                                        sbr. t.d. blað <locus from="45r" to="45r">45r</locus>.</item>
                                  </list>
                               </p>
@@ -494,27 +462,21 @@ Sagan fylgir og skrifari hefur farið vandlega yfir hana með algengri hönd úr
                      </objectDesc>
 
                      <handDesc>
-                        <handNote scope="sole" script="hybrida" scribe="EinEyj002">Með hendi <name
-                              type="person" key="EinEyj002">Einars Eyjólfssonar</name> (sbr. seðil d
-                           á milli blaða <locus from="30r" to="30v">30</locus> og <locus from="31r"
-                              to="31v">31v</locus>), blendingsskrift.</handNote>
+                        <handNote scope="sole" script="hybrida" scribe="EinEyj002">Með hendi <name type="person" key="EinEyj002">Einars Eyjólfssonar</name> (sbr. seðil d
+                           á milli blaða <locus from="30r" to="30v">30</locus> og <locus from="31r" to="31v">31v</locus>), blendingsskrift.</handNote>
 
                      </handDesc>
                      <decoDesc>
                         <decoNote type="initial" subtype="flourished">
                            <p>
                               <list>
-                                 <item>Pennaflúraðir upphafsstafir (sjá t.d. blöð <locus from="31r"
-                                       to="31r">31r</locus>
-                                    <locus from="44v" to="44v">44v</locus> og <locus from="102v"
-                                       to="102v">102v</locus>).</item>
+                                 <item>Pennaflúraðir upphafsstafir (sjá t.d. blöð <locus from="31r" to="31r">31r</locus>
+                                    <locus from="44v" to="44v">44v</locus> og <locus from="102v" to="102v">102v</locus>).</item>
                               </list>
                            </p>
                         </decoNote>
                         <decoNote type="secondary" subtype="flourished">
-                           <p><list><item>Pennaflúraðar fyrirsagnir (sjá blöð <locus from="31r" to="31r"
-                              >31r</locus>, <locus from="44v" to="44v">44v</locus> og <locus
-                                 from="102v" to="102v">102v</locus>.</item></list></p>
+                           <p><list><item>Pennaflúraðar fyrirsagnir (sjá blöð <locus from="31r" to="31r">31r</locus>, <locus from="44v" to="44v">44v</locus> og <locus from="102v" to="102v">102v</locus>.</item></list></p>
                         </decoNote>
                      </decoDesc>
                      <additions>
@@ -530,8 +492,7 @@ Sagan fylgir og skrifari hefur farið vandlega yfir hana með algengri hönd úr
                                     <height>164</height>
                                     <width>102</width>
                                  </dimensions>) með hendi <name key="ArnMag001" type="person">Árna
-                                    Magnússonar</name>, á milli blaða <locus from="30r" to="30v"
-                                 >30</locus> og <locus from="31r" to="31v">31v</locus>, með
+                                    Magnússonar</name>, á milli blaða <locus from="30r" to="30v">30</locus> og <locus from="31r" to="31v">31v</locus>, með
                                  athugagreinum um rithönd.</item>
                            </list>
                         </p>
@@ -542,8 +503,7 @@ Sagan fylgir og skrifari hefur farið vandlega yfir hana með algengri hönd úr
                         <p>Handritið er skrifað á <origPlace key="IS">Íslandi</origPlace> og
                            tímasett til 17. aldar í <bibl>
                               <ref target="KKKat">Katalog I</ref>
-                           </bibl>, bls. 660, en virkt skriftartímabil skrifara var <origDate
-                              notBefore="1660" notAfter="1695">ca 1660-1695</origDate> og seinni
+                           </bibl>, bls. 660, en virkt skriftartímabil skrifara var <origDate notBefore="1660" notAfter="1695">ca 1660-1695</origDate> og seinni
                            hluti 17. aldar því nær lagi. </p>
                      </origin>
                      <provenance>
@@ -560,9 +520,9 @@ kannske Þorsteinn Þordarson, ungr.</q>
 Síðan hefst Hænsa Þóris saga.</item> (MJ) --></additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 486 4 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem class="isl" defective="false">
@@ -603,9 +563,7 @@ Síðan hefst Hænsa Þóris saga.</item> (MJ) --></additional>
                            <condition>
                               <p>
                                  <list>
-                                    <item>Blöð eru blettótt og skítug (sjá blað <locus from="69r"
-                                          to="69r">69r</locus> og auðu blöðin frá <locus from="73v"
-                                          to="76r">73v-76r</locus>).</item>
+                                    <item>Blöð eru blettótt og skítug (sjá blað <locus from="69r" to="69r">69r</locus> og auðu blöðin frá <locus from="73v" to="76r">73v-76r</locus>).</item>
                                  </list>
                               </p>
                            </condition>
@@ -639,9 +597,7 @@ Síðan hefst Hænsa Þóris saga.</item> (MJ) --></additional>
                         <decoNote type="initial" subtype="flourished">
                            <p>
                               <list>
-                                 <item>Pennaflúraðir upphafsstafir (sjá t.d. blöð <locus from="69r"
-                                       to="69r">69r</locus> og <locus from="70r" to="70v"
-                                    >70r-v</locus>).</item>
+                                 <item>Pennaflúraðir upphafsstafir (sjá t.d. blöð <locus from="69r" to="69r">69r</locus> og <locus from="70r" to="70v">70r-v</locus>).</item>
                               </list>
                            </p>
                         </decoNote>
@@ -649,10 +605,8 @@ Síðan hefst Hænsa Þóris saga.</item> (MJ) --></additional>
                      <additions>
                         <p>
                            <list>
-                              <item>Síðari tíma eyðufyllingar í síðustu línum á blaði <locus
-                                    from="73r" to="73r">73r</locus>.</item>
-                              <item>Síðari tíma athugagreinar á blaði <locus from="76v" to="76v"
-                                 >76v</locus>, þar sem fram kemur að blaðið hefur upprunalega verið
+                              <item>Síðari tíma eyðufyllingar í síðustu línum á blaði <locus from="73r" to="73r">73r</locus>.</item>
+                              <item>Síðari tíma athugagreinar á blaði <locus from="76v" to="76v">76v</locus>, þar sem fram kemur að blaðið hefur upprunalega verið
                                  aftast í 180 blaða eða 45 arka sögusafni. Einnig er þar upptalning
                                  á sögunum sem hafa verið í því safni.</item>
                               <!-- <q>smätt Hundrad og ättatyu bl<p n="rvk">[ost]</p>d ad framan …: 45 ar[ker] meiga kosta L alner.<q> … af 1. Þorläki biskupe: 2. Nikuläse k<expan>onge</expan> leikara: 3. Vilhialme Siöd: 4. Hävarde Jisfyrðing: 5. HænsnaÞörer: 6. Hórde <expan>og</expan> Hölmv<expan>er</expan>ium:, 7. Vijglunde: 8. Ormi StörölfsSyne: 9. Flöam<p n="rvk">[ohal]</p>n<expan>n</expan>um<expan>m</expan>: 10. Þörde Hrædu</q> -->
@@ -668,8 +622,7 @@ Síðan hefst Hænsa Þóris saga.</item> (MJ) --></additional>
                                     <width>86-89</width>
                                  </dimensions>), með hendi <name key="ArnMag001" type="person">Árna
                                     Magnússonar</name>, á milli blaða <locus from="68r" to="69v">68
-                                    og 69</locus>, sem segir að þar hafi legið <title type="uniform"
-                                    >Flóamanna saga</title>.</item>
+                                    og 69</locus>, sem segir að þar hafi legið <title type="uniform">Flóamanna saga</title>.</item>
                            </list>
                         </p>
                      </accMat>
@@ -678,14 +631,12 @@ Síðan hefst Hænsa Þóris saga.</item> (MJ) --></additional>
                      <origin notBefore="1660" notAfter="1695">
                         <p> Handritið er skrifað á Íslandi og tímasett í einu lagi til 17. aldar í <bibl>
                               <ref target="KKKat">Katalog I</ref>
-                           </bibl>, bls. 660, en virkt skriftartímabil skrifara var <origDate
-                              notBefore="1660" notAfter="1695">ca 1660-1695</origDate> og seinni
+                           </bibl>, bls. 660, en virkt skriftartímabil skrifara var <origDate notBefore="1660" notAfter="1695">ca 1660-1695</origDate> og seinni
                            hluti 17. aldar því nær lagi. Handritið hefur áður verið hluti af stærra
                            sögusafni sem innihélt einnig sögur af: Þorláki helga, Nikulási kóngi
                            leikara, Vilhjálmi sjóð, Hávarði Ísfirðingi, Hænsna-Þóri, Herði og
                            Hólmverjum, Víglundi, Ormi Stórólfssyni, Flóamönnum sem og Þórðar sögu
-                           hreðu; alls tíu sögur (sbr. blað <locus from="76v" to="76v"
-                        >76v</locus>).</p>
+                           hreðu; alls tíu sögur (sbr. blað <locus from="76v" to="76v">76v</locus>).</p>
                      </origin>
 
                   </history>
@@ -695,9 +646,9 @@ Síðan hefst Hænsa Þóris saga.</item> (MJ) --></additional>
 <q>Hier inn <p n="rvk">[adac]</p> mille l<p n="rvk">[adac]</p> Floa manna Saga.</q> (Hvar er hún nú?)</item> --><!-- Góð spurning- --></additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 486 5 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem class="isl">
@@ -747,14 +698,10 @@ Síðan hefst Hænsa Þóris saga.</item> (MJ) --></additional>
                                     <item>Línufjöldi er ca 25-27.</item>
                                     <item>Markað hefur verið fyrir innri og ytri spássíum með beini.</item>
                                     <item>Upphafsstafir eru víða dregnir út fyrir línu (sbr. t.d.
-                                       blöð <locus from="81v" to="81v">81v</locus> og <locus
-                                          from="84v" to="84v">84v</locus>).</item>
+                                       blöð <locus from="81v" to="81v">81v</locus> og <locus from="84v" to="84v">84v</locus>).</item>
                                     <item>Síðutitlar ná yfir opnu. Sem dæmi þá er skrifað
-                                       <q>Bárðar</q> á efri spássíu blaðs <locus from="77v" to="77v"
-                                          >77v</locus> og <q>saga</q> á efri spássíu blaðs <locus
-                                          from="78r" to="78r">78r</locus>.</item>
-                                    <item>Kaflatal á spássíum (sjá t.d. blöð <locus from="84r"
-                                          to="84v">84r-v</locus>).</item>
+                                       <q>Bárðar</q> á efri spássíu blaðs <locus from="77v" to="77v">77v</locus> og <q>saga</q> á efri spássíu blaðs <locus from="78r" to="78r">78r</locus>.</item>
+                                    <item>Kaflatal á spássíum (sjá t.d. blöð <locus from="84r" to="84v">84r-v</locus>).</item>
                                     <item>Griporð.</item>
                                  </list>
                               </p>
@@ -774,24 +721,20 @@ Síðan hefst Hænsa Þóris saga.</item> (MJ) --></additional>
                         <decoNote type="secondary" subtype="flourished">
                            <p>
                               <list>
-                                 <item>Pennaflúruð fyrirsögn (sjá blað <locus from="77r" to="77r"
-                                       >77r</locus>).</item>
+                                 <item>Pennaflúruð fyrirsögn (sjá blað <locus from="77r" to="77r">77r</locus>).</item>
                               </list>
                            </p>
                         </decoNote>
                         <decoNote type="initial" subtype="flourished">
                            <p>
                               <list>
-                                 <item>Pennaflúraðir upphafsstafir (sjá t.d. blöð <locus from="77r"
-                                       to="77r">77r</locus>, <locus from="81v" to="81v"
-                                    >81v</locus>).</item>
+                                 <item>Pennaflúraðir upphafsstafir (sjá t.d. blöð <locus from="77r" to="77r">77r</locus>, <locus from="81v" to="81v">81v</locus>).</item>
                               </list>
                            </p>
                         </decoNote>
                      </decoDesc>
                      <additions>
-                        <p>Á spássíum eru viðbætur og leiðréttingar (sjá t.d. blöð <locus from="78v"
-                              to="79r">78v-79r</locus>). </p>
+                        <p>Á spássíum eru viðbætur og leiðréttingar (sjá t.d. blöð <locus from="78v" to="79r">78v-79r</locus>). </p>
                      </additions>
                      <accMat>
                         <p>Þrír seðlar með hendi <name key="ArnMag001" type="person">Árna
@@ -817,20 +760,16 @@ Síðan hefst Hænsa Þóris saga.</item> (MJ) --></additional>
                                     <height>157</height>
                                     <width>98-102</width>
                                  </dimensions>) er með framhaldi á vísu um Kjartan og vísu um Bolla
-                                 sem einnig fylgdi <title type="uniform">Laxdælu</title> í bók <name
-                                    type="person" key="GisJon005">Gísla Jónssonar</name>: <title
-                                    type="beg">Bolli snilldar snilli</title>.</item>
+                                 sem einnig fylgdi <title type="uniform">Laxdælu</title> í bók <name type="person" key="GisJon005">Gísla Jónssonar</name>: <title type="beg">Bolli snilldar snilli</title>.</item>
                               <item><locus from="accMat09r" to="accMat09v">Seðill i</locus>
                                     (<dimensions type="leaf" unit="mm" scope="all">
                                     <height>88</height>
                                     <width>135</width>
-                                 </dimensions>) er hluti af saurblaði úr bók <name key="GisJon005"
-                                    type="person">Gísla Jónssonar</name>, þar sem hann hefur merkt
+                                 </dimensions>) er hluti af saurblaði úr bók <name key="GisJon005" type="person">Gísla Jónssonar</name>, þar sem hann hefur merkt
                                  sér bókina árið <date when="1697">1697</date>. Á eftir fylgir
                                  efnisyfirlit þar sem fram kemur að Bárðar saga hefur staðið fremst
                                  en á eftir hafa fylgt <title type="uniform">Víglundar saga</title>,
-                                    <title type="uniform">Eyrbyggja saga</title> og <title
-                                    type="uniform">Laxdæla saga</title>.</item>
+                                    <title type="uniform">Eyrbyggja saga</title> og <title type="uniform">Laxdæla saga</title>.</item>
                            </list>
                         </p>
                      </accMat>
@@ -840,8 +779,7 @@ Síðan hefst Hænsa Þóris saga.</item> (MJ) --></additional>
                         <p> Handritið er skrifað á <origPlace key="IS">Íslandi</origPlace> og
                            tímasett til 17. aldar í <bibl>
                               <ref target="KKKat">Katalog I</ref>
-                           </bibl>, bls. 660, en virkt skriftartímabil skrifarans var <origDate
-                              notBefore="1660" notAfter="1695">ca 1660-1695</origDate> og seinni
+                           </bibl>, bls. 660, en virkt skriftartímabil skrifarans var <origDate notBefore="1660" notAfter="1695">ca 1660-1695</origDate> og seinni
                            hluti 17. aldar því nær lagi. Það hefur áður verið hluti af stærra
                            sögusafni (sbr. seðla <locus from="accMat06r" to="accMat06v">f</locus> og
                               <locus from="accMat09r" to="accMat09r">i</locus>).</p>
@@ -849,17 +787,10 @@ Síðan hefst Hænsa Þóris saga.</item> (MJ) --></additional>
                      <provenance>
                         <p>
                            <name key="ArnMag001" type="person">Árni Magnússon</name> taldi bókina
-                           sem handritið tilheyrði fyrst hafa komið frá <name key="ThoJon006"
-                              type="person">Þórði Jónssyni</name> í <name type="place"
-                           >Hítardal</name> (sbr. <locus from="accMat04r" to="accMat04v">seðil
-                           d</locus>). Árið <date when="1697">1697</date> átti hana <name
-                              key="GisJon05" type="person">Gísli Jónsson</name> á <name type="place"
-                              >Leirá</name> í Borgarfirði (sbr. <locus from="accMat06r"
-                              to="accMat09r">seðil i</locus>) en Árni fékk hana, að því er virðist,
-                           fyrst til láns en svo til eignar frá <name key="MagJon004" type="person"
-                              >Magnúsi Jónssyni</name> á <name type="place">Leirá</name> (sbr. seðla
-                              <locus from="accMat04r" to="accMat04v">d</locus> og <locus
-                              from="accMat07r" to="accMat07v">g</locus>).</p>
+                           sem handritið tilheyrði fyrst hafa komið frá <name key="ThoJon006" type="person">Þórði Jónssyni</name> í <name type="place">Hítardal</name> (sbr. <locus from="accMat04r" to="accMat04v">seðil
+                           d</locus>). Árið <date when="1697">1697</date> átti hana <name key="GisJon05" type="person">Gísli Jónsson</name> á <name type="place">Leirá</name> í Borgarfirði (sbr. <locus from="accMat06r" to="accMat09r">seðil i</locus>) en Árni fékk hana, að því er virðist,
+                           fyrst til láns en svo til eignar frá <name key="MagJon004" type="person">Magnúsi Jónssyni</name> á <name type="place">Leirá</name> (sbr. seðla
+                              <locus from="accMat04r" to="accMat04v">d</locus> og <locus from="accMat07r" to="accMat07v">g</locus>).</p>
                      </provenance>
                   </history>
                   <additional>

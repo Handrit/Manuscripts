@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -15,7 +15,9 @@
                <msIdentifier>
                   <country>Denmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 322 fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>479</idno>
@@ -31,8 +33,7 @@
                         <support>
                            <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>92. <dimensions type="leaf" scope="all"
-                           unit="mm">
+                        <extent>92. <dimensions type="leaf" scope="all" unit="mm">
                            <height>260</height>
                            <width>177</width>
                         </dimensions>.</extent>
@@ -40,60 +41,45 @@
                   </objectDesc>
                </physDesc>
                <history>
-                  <origin notBefore="1300" notAfter="1350" resp="ONP">Written in <origPlace>Norway</origPlace>. <name type="person"
-                        key="KriKaa001">Kålund</name> (<bibl><ref type="secondary-1" target="KKKat"
-                        />
-                     </bibl>) dated the manuscript to <origDate notBefore="1300" notAfter="1399"
-                        cert="medium">the fourteenth century</origDate>. The dating of the
+                  <origin notBefore="1300" notAfter="1350" resp="ONP">Written in <origPlace>Norway</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl><ref type="secondary-1" target="KKKat"/>
+                     </bibl>) dated the manuscript to <origDate notBefore="1300" notAfter="1399" cert="medium">the fourteenth century</origDate>. The dating of the
                      manuscript can however be divided into three different parts which can be dated
                      more precisely. <list>
                         <item>Fols 1ra-19rb: <origDate notBefore="1275" notAfter="1325">c.
-                              1300</origDate> (<bibl>Storm: <ref type="secondary-1" target="NgL4"
-                                 /><biblScope type="pages">502</biblScope></bibl>)</item>
-                        <item>Fols 20ra-28vb and 30ra-91va:18: <origDate notBefore="1310"
-                              notAfter="1330">c. 1320</origDate> (<bibl>Storm, <ref
-                                 type="secondary-1" target="NgL4"/><biblScope type="pages"
-                                 >502</biblScope></bibl> and <bibl>Hægstad, <ref type="secondary-1"
-                                 target="Hagstad1907"/>
-                              <biblScope type="pages">156</biblScope></bibl>)</item>
-                        <item>Fols 29ra-29rb and 91va:19-92vb: <origDate notBefore="1320"
-                              notAfter="1350">1320-1350</origDate> (<bibl>Storm, <ref
-                                 type="secondary-1" target="NgL4"/><biblScope type="pages"
-                                 >502</biblScope></bibl> and <bibl>Seip, <ref type="secondary-1"
-                                 target="Seip1955"/><biblScope type="pages"
-                              >229-30</biblScope></bibl>)</item>
+                              1300</origDate> (<bibl>Storm: <ref type="secondary-1" target="NgL4"/><biblScope unit="pages">502</biblScope></bibl>)</item>
+                        <item>Fols 20ra-28vb and 30ra-91va:18: <origDate notBefore="1310" notAfter="1330">c. 1320</origDate> (<bibl>Storm, <ref type="secondary-1" target="NgL4"/><biblScope unit="pages">502</biblScope></bibl> and <bibl>Hægstad, <ref type="secondary-1" target="Hagstad1907"/>
+                              <biblScope unit="pages">156</biblScope></bibl>)</item>
+                        <item>Fols 29ra-29rb and 91va:19-92vb: <origDate notBefore="1320" notAfter="1350">1320-1350</origDate> (<bibl>Storm, <ref type="secondary-1" target="NgL4"/><biblScope unit="pages">502</biblScope></bibl> and <bibl>Seip, <ref type="secondary-1" target="Seip1955"/><biblScope unit="pages">229-30</biblScope></bibl>)</item>
                      </list>
                   </origin>
                   <acquisition>
                      <name type="person" key="ArnMag001">Árni Magnússon</name> acquired the manuscript of 
                     <name type="person" key="ChrWor001">Christen Worm</name>. Árni
-                     Magnússon removed several leaves which are now found in e.g. <ref type="ms"
-                        target="AM02-0114-is">AM 114 4to</ref>
+                     Magnússon removed several leaves which are now found in e.g. <ref type="ms" target="AM02-0114-is">AM 114 4to</ref>
                      <ref type="ms" target="AM04-0733-da">733 4to</ref> and <ref>Dipl. Norv. fasc.
                         22</ref>.</acquisition>
                </history>
 
                <additional>
                   <listBibl>
-                     <bibl>Hægstad, <ref type="secondary-1" target="Hagstad1907"
-                           >Nordvestlandsk</ref>
-                        <biblScope type="pages">156</biblScope>
+                     <bibl>Hægstad, <ref type="secondary-1" target="Hagstad1907">Nordvestlandsk</ref>
+                        <biblScope unit="pages">156</biblScope>
                      </bibl>
                      <bibl>Konráð Gíslason, <ref type="secondary" target="KGFrumparta">Um frum-parta
                            Íslenzkrar túngu í fornöld</ref>
-                        <biblScope type="pages">xxviii-xxxvi</biblScope>
+                        <biblScope unit="pages">xxviii-xxxvi</biblScope>
                      </bibl>
                      <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">269-270</biblScope>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">269-270</biblScope>
                      </bibl>
                      <bibl>Seip, <ref type="secondary-1" target="Seip1955">Norsk språkhistorie til
                            omkring 1370</ref>
-                        <biblScope type="pages">229-30</biblScope>
+                        <biblScope unit="pages">229-30</biblScope>
                      </bibl>
                      <bibl>Storm, <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
-                        <biblScope type="volume">IV</biblScope>
-                        <biblScope type="pages">502-514</biblScope>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="pages">502-514</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

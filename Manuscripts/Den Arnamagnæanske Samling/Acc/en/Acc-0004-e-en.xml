@@ -1,4 +1,4 @@
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="msDesc.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -15,7 +15,9 @@
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>Copenhagen</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="Acc"/>
                         <idno>Acc. 4 e</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>000</idno>
@@ -33,11 +35,8 @@
                             <rubric>Götosjeggja Qväje</rubric>
                             <incipit>Ui Förjun buvu menskjir fir</incipit>
                             <explicit>Å ruima läta fadla</explicit>
-                            <note>Not used in <bibl>CCF 235. <ref type="secondary-1" target="Foroya"
-                                        >Føroya kvæði</ref></bibl>. However, the version is similar
-                                to that found in <bibl><ref type="secondary-1" target="GyltaBók"
-                                        >Gylta Bók</ref><biblScope type="pages"
-                                    >27-41</biblScope></bibl>.</note>
+                            <note>Not used in <bibl>CCF 235. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref></bibl>. However, the version is similar
+                                to that found in <bibl><ref type="secondary-1" target="GyltaBók">Gylta Bók</ref><biblScope unit="pages">27-41</biblScope></bibl>.</note>
                             <!-- LENA: Unsure if the CCF number should be inserted here -->
                             <msItem n="1.1">
                                 <locus from="1r" to="4r">1r-4r</locus>
@@ -81,8 +80,7 @@
                                 <layout columns="1" writtenLines="32 36">
                                     <p>The manuscript is written in a single column with 32-36 lines
                                         per page.</p>
-                                    <p>The dimensions of the written area are ca. <dimensions
-                                            type="written">
+                                    <p>The dimensions of the written area are ca. <dimensions type="written">
                                             <height unit="mm" quantity="155">155</height>
                                             <width unit="mm" quantity="70">70</width>
                                         </dimensions>." </p>
@@ -108,12 +106,10 @@
                         </bindingDesc>
 
                         <accMat>
-                            <p>The manuscript was given in an envelope (<dimensions type="written"
-                                    unit="mm">
+                            <p>The manuscript was given in an envelope (<dimensions type="written" unit="mm">
                                     <width>230</width>
                                     <height>160</height>
-                                </dimensions>). On it is written in pencil <quote><hi rend="italic"
-                                        >Götosjeggja Qvaje</hi> 70 strofer jvf. Føroya kvæði VI nr.
+                                </dimensions>). On it is written in pencil <quote><hi rend="italic">Götosjeggja Qvaje</hi> 70 strofer jvf. Føroya kvæði VI nr.
                                     235 ukendt kvæde 70 + 43 strofe</quote>. Another hand has added
                                 in red ink <quote>= slutn. af Gøtuskeggja kv. jfr. <q>Gylta bók</q>
                                     (v. Jóannes Patursson, fotogr. udg. 1979, s. 27-41)</quote>. On
@@ -133,8 +129,7 @@
                         </origin>
                         <provenance>
                             <p>The manuscript was donated by <name type="person">Johanne
-                                    Bichel</name> via <name type="person">Iver Kjær</name> in <date
-                                    when="1986">1986</date>.</p></provenance>
+                                    Bichel</name> via <name type="person">Iver Kjær</name> in <date when="1986">1986</date>.</p></provenance>
                         <!-- LENA: Do these names need a key? -->
                     </history>
 
@@ -143,8 +138,7 @@
                             <recordHist>
                                 <source>
                                     <p>Catalogued <date when="2019-11-07">7 November 2019</date> by
-                                            <name type="person" key="SeaVri001"
-                                    >SDV</name>.</p></source>
+                                            <name type="person" key="SeaVri001">SDV</name>.</p></source>
                             </recordHist>
                         </adminInfo>
                     </additional>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 426 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1193</idno>
@@ -84,16 +84,14 @@
                               <list>
                                  <item n="1">Aðeins er skrifað á vinstri síðu hverrar opnu (sjá t.d.
                                     blöð <locus from="2v" to="3r">2v-3r</locus>).</item>
-                                 <item n="2">Ártöl eru tilfærð á spássíum (sjá t.d. blað <locus
-                                       from="31v" to="31v">31v</locus>).</item>
+                                 <item n="2">Ártöl eru tilfærð á spássíum (sjá t.d. blað <locus from="31v" to="31v">31v</locus>).</item>
                               </list>
                            </p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script=" kurrent">Með hendi <name key="ArnMag001"
-                           type="person">Árna Magnússonar, árfljótaskrift.</name></handNote>
+                     <handNote scope="sole" script=" kurrent">Með hendi <name key="ArnMag001" type="person">Árna Magnússonar, árfljótaskrift.</name></handNote>
                   </handDesc>
                   <additions>
                      <p/>
@@ -118,8 +116,7 @@
                                  <height>192</height>
                                  <width>137</width>
                               </dimensions>) með hendi <name key="ArnMag001" type="person">Árna
-                                 Magnússonar</name> er festur inn á fremra kápuspjald: <quote
-                                 xml:lang="is" type="AMSlip">Til annum 1000 eru þessir annálar
+                                 Magnússonar</name> er festur inn á fremra kápuspjald: <quote xml:lang="is" type="AMSlip">Til annum 1000 eru þessir annálar
                                  rétt hinir sömu sem Annals Reseniani hinir gömlu og kannski
                                  skrifaði eftir þeim eða viðlíku exemplar. Hversu langt eftir annum
                                  1000 þeir hafi eins verið, er nú óvíst því í þessa vantar eftir
@@ -133,12 +130,9 @@
                   <origin notBefore="1690" notAfter="1710">
                      <p>Handritið er skrifað í <origPlace key="Copen01">Kaupmannahöfn </origPlace>
                         <!-- Kaupmannahöfn - Ísland??? Skrifað af <name key="ArnMag001" type="person">Árna Magnússyni</name>-->
-                        og tímasett til um <origDate notBefore="1690" notAfter="1710"
-                           >1700</origDate> í <bibl>
+                        og tímasett til um <origDate notBefore="1690" notAfter="1710">1700</origDate> í <bibl>
                            <ref target="KKKat">Katalog I</ref>
-                        </bibl>, bls. 629.</p> Forrit uppskriftarinnar telur <name key="ArnMag001"
-                        type="person">Árni Magnússon</name> að hafi verið í eigu <name
-                        key="BrySve001" type="person">Brynjólfs Sveinssonar</name> biskups, því hann
+                        </bibl>, bls. 629.</p> Forrit uppskriftarinnar telur <name key="ArnMag001" type="person">Árni Magnússon</name> að hafi verið í eigu <name key="BrySve001" type="person">Brynjólfs Sveinssonar</name> biskups, því hann
                      þykist þekkja hönd hans á spássíu þess við árið 1309 (sbr. athugasemdir á blaði
                         <locus from="1r" to="1r">1r</locus>) . </origin>
                   <!-- (yngstu hendi frá um 1725) (MJ) -->
@@ -152,12 +146,8 @@
                      <recordHist>
                         <source>
                            <p>
-                              <name type="person" key="ValHil001">VH</name> skráði handritið <date
-                                 when="2009-11-25">25. nóvember 2009</date>; lagfærði í <date
-                                 when="2010-11">nóvember 2010.</date>
-                              <name key="GudIng001" type="person">GI</name> skráði <date
-                                 when="2001-08-13">13. ágúst 2001</date>. <name key="KriKaa001"
-                                 type="person">Kålund</name> gekk frá handritinu til
+                              <name type="person" key="ValHil001">VH</name> skráði handritið <date when="2009-11-25">25. nóvember 2009</date>; lagfærði í <date when="2010-11">nóvember 2010.</date>
+                              <name key="GudIng001" type="person">GI</name> skráði <date when="2001-08-13">13. ágúst 2001</date>. <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til
                                  skráningar <date when="1886-11">nóvember 1886</date> í <bibl>
                                  <ref target="KKKat">Katalog II</ref>
                               </bibl>, bls. 629-630 (nr. 1193). </p>

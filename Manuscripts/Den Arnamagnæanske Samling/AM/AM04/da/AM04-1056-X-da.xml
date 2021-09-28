@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,7 +14,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 1056 X 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>2188</idno>
@@ -29,12 +31,12 @@
                      <listBibl>
                         <bibl>Nielsen: <ref type="primary-1" target="NKirS3">Ny kirkehistoriske
                               Samlinger</ref>
-                           <biblScope type="volume">III</biblScope>
-                           <biblScope type="pages">439-441:18</biblScope>
+                           <biblScope unit="volume">III</biblScope>
+                           <biblScope unit="pages">439-441:18</biblScope>
                         </bibl>
                         <bibl>Diderichsen: <ref type="primary-1" target="FragmPD">Fragmenter af
                               gammeldanske Haandskrifter</ref>
-                           <biblScope type="pages">70-73</biblScope>
+                           <biblScope unit="pages">70-73</biblScope>
                            <note>Faksimile af bl. <locus>1r</locus> på s. 71</note>
                         </bibl>
                      </listBibl>
@@ -45,8 +47,7 @@
                         <explicit defective="true">Oc reed<supplied reason="damage">h</supplied>
                            <lb/> so igeen oc hentæ th<ex>e</ex>n anne<ex>n</ex> so</explicit>
                         <note>Dansk oversættelse af <title type="uniform" xml:lang="de">Van Arnt
-                                 buschman<supplied reason="omitted">n</supplied> vn<supplied
-                                 reason="omitted">n</supplied> Henrich sym alden vader dem Geyst/
+                                 buschman<supplied reason="omitted">n</supplied> vn<supplied reason="omitted">n</supplied> Henrich sym alden vader dem Geyst/
                               Eyn wonderlich Myrackell/ dat geschyet ys yn dem land van Cleue by
                               Düyßberch tzo Meyerich</title>.</note>
                      </msItem>
@@ -100,14 +101,10 @@
                </physDesc>
                <history>
                   <origin>
-                     <p>Skrevet i <origPlace>Danmark</origPlace> i <origDate notBefore="1450"
-                           notAfter="1499" evidence="conjecture" resp="KKKat">1400-tallets sidste
+                     <p>Skrevet i <origPlace>Danmark</origPlace> i <origDate notBefore="1450" notAfter="1499" evidence="conjecture" resp="KKKat">1400-tallets sidste
                            halvdel</origDate>.</p>
                   </origin>
-                  <provenance>Fundet af arkivar <name type="person">O. Nielsen</name> fra <name
-                        type="org" key="SA-Rigs">Rigsarkivet</name>, <name type="place"
-                        key="Copen01" xml:lang="da">København</name>, i <title type="uniform"
-                        xml:lang="da">Ålholm lensregnskab 1622-23</title>.</provenance>
+                  <provenance>Fundet af arkivar <name type="person">O. Nielsen</name> fra <name type="org" key="SA-Rigs">Rigsarkivet</name>, <name type="place" key="Copen01" xml:lang="da">København</name>, i <title type="uniform" xml:lang="da">Ålholm lensregnskab 1622-23</title>.</provenance>
                   <acquisition>
                      <p>Senere skænket til <name type="org" key="AMS">Den Arnamagnæanske
                            Samling</name>.</p>
@@ -118,8 +115,7 @@
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Katalogiseret <date when="2002-04-15">15. april 2002</date> af <name
-                                 type="person" key="EvaWed001">Eva W-J</name>.</p>
+                           <p>Katalogiseret <date when="2002-04-15">15. april 2002</date> af <name type="person" key="EvaWed001">Eva W-J</name>.</p>
                         </source>
 
 
@@ -128,11 +124,11 @@
                   <listBibl>
                      <bibl>Diderichsen: <ref type="secondary" target="FragmPD">Fragmenter af
                            gammeldanske Haandskrifter</ref>
-                        <biblScope type="pages">278-286</biblScope>
+                        <biblScope unit="pages">278-286</biblScope>
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">308, 310</biblScope>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">308, 310</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -15,15 +15,16 @@
                     <msIdentifier>
                         <country>Danmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 1 f fol.</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>9</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <head>
-                        <origDate notBefore="1600" notAfter="1715"
-                            >s. XVII/s. XVIII in</origDate>
+                        <origDate notBefore="1600" notAfter="1715">s. XVII/s. XVIII in</origDate>
                     </head>
                     <msContents>
                         <msItem n="1" class="kont">
@@ -37,8 +38,7 @@
                                 <title type="supplied">Langfeðgatal Norðlanda konunga</title>
                                 <note>Fem slægtsregistre over Ynglingerne til Harald hårfagre,
                                     Skjoldungerne til Sigurd orm i øjes søn Hörda-Knut, de tre
-                                    nordiske kongehuse til <date notBefore="1309" notAfter="1329"
-                                        >ca. 1319</date>.</note>
+                                    nordiske kongehuse til <date notBefore="1309" notAfter="1329">ca. 1319</date>.</note>
                             </msItem>
                             <msItem n="1.2" class="landfr">
                                 <title type="supplied">Fortegnelse over fylkernes navne i
@@ -92,7 +92,7 @@
                                         <foreign>talbyrðingr</foreign>.</filiation>
                             </msItem>
                         </msItem>
-                        <msItem n="5"  class="kont" defective="false">
+                        <msItem n="5" class="kont" defective="false">
                             <locus from="29r" to="36v">29r-36v</locus>
                             <title type="supplied">Angelsaksiske kongerækker</title>
                         </msItem>
@@ -110,17 +110,14 @@
                                         <material>Papir</material>.
                                     </p>
                                 </support>
-                                <extent>i + 50 + ii, bl. 11 og 19 er ubeskrevne. <dimensions
-                                        type="leaf" scope="all">
+                                <extent>i + 50 + ii, bl. 11 og 19 er ubeskrevne. <dimensions type="leaf" scope="all">
                                         <height>210</height>
                                         <width>170</width>
                                     </dimensions>
                                 </extent>
                                 <foliation>
-                                    <p>Foliering af <name type="person" key="KriKaa001"
-                                            >Kålund</name> med rødt blæk anes øverst på bladene.</p>
-                                    <p>Arbejdsfoliering 1-50 med blyant fra <date when="1981"
-                                            >1981</date> (første blad ufolieret).</p>
+                                    <p>Foliering af <name type="person" key="KriKaa001">Kålund</name> med rødt blæk anes øverst på bladene.</p>
+                                    <p>Arbejdsfoliering 1-50 med blyant fra <date when="1981">1981</date> (første blad ufolieret).</p>
                                     <p>Paginering 1-69 med sort blæk på rectosiderne øverst mod
                                         snittet (stopper på blad 36r).</p>
                                 </foliation>
@@ -163,24 +160,21 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1600" notAfter="1715" evidence="conjecture">
-                            <p>Skrevet i <origPlace>Island eller Danmark</origPlace> i <origDate
-                                    notBefore="1600" notAfter="1699">1600-tallet</origDate> og
+                            <p>Skrevet i <origPlace>Island eller Danmark</origPlace> i <origDate notBefore="1600" notAfter="1699">1600-tallet</origDate> og
                                     <origDate notBefore="1700" notAfter="1715">begyndelsen af
                                     1700-tallet</origDate>.</p>
                             <p>Ifølge <name type="person" key="ArnMag001">Arne Magnusson</name>s
                                 latinske notater på bl. 10 og 20 skal bl. 11r-18r være skrevet af
                                 præsten <name type="person" key="KetJor001">Ketill Jörundsson</name>
                                 <origDate notBefore="1625" notAfter="1645">ca. 1635</origDate>,
-                                sandsynligvis for <name type="place" key="Skálh01"
-                                >Skálholt</name>-biskoppen <name type="person" key="GisOdd001">Gísli
+                                sandsynligvis for <name type="place" key="Skálh01">Skálholt</name>-biskoppen <name type="person" key="GisOdd001">Gísli
                                     Oddsson</name>.
                             </p>
                         </origin>
                         <provenance>
                             <p><name type="person" key="GisOdd001">Gísli Oddsson</name> skulle have
                             skænket <name type="person" key="OleWor001">Ole Worm</name> bl. 11-18.
-                            Det fra den Wormske slægt blev senere erhvervet af <name type="person"
-                                key="FreRos001">Frederik Rostgaard</name>.</p>
+                            Det fra den Wormske slægt blev senere erhvervet af <name type="person" key="FreRos001">Frederik Rostgaard</name>.</p>
                         </provenance>
                         <acquisition>
                             <p><name type="person" key="ArnMag001">Arne Magnusson</name> købte senere
@@ -190,8 +184,8 @@
                     <additional>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                                <biblScope type="volume">I</biblScope>
-                                <biblScope type="pages">5-6</biblScope>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">5-6</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

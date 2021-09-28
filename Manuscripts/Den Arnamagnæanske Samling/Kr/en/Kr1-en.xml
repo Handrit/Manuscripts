@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
 
     <teiHeader>
         <fileDesc>
@@ -16,7 +16,9 @@
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="Kr"/>
                         <idno>Kr 1</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2781</idno>
@@ -29,8 +31,7 @@
                         <msItem n="1" class="log">
                             <locus from="1r" to="174r">1r-174r</locus>
                             <title type="uniform">Grágás</title>
-                            <filiation> Transcript of Konungsbók <ref target="GKS02-1157" type="ms"
-                                    >GKS 1157 fol.</ref>
+                            <filiation> Transcript of Konungsbók <ref target="GKS02-1157" type="ms">GKS 1157 fol.</ref>
                             </filiation>
                         </msItem>
                         <msItem n="2">
@@ -81,8 +82,7 @@
                                     <p>
                                         <material>Paper</material> . </p>
                                 </support>
-                                <extent>343. Leaves 274v, 297v-298v and 339v are blank. <dimensions
-                                        type="leaf" unit="mm">
+                                <extent>343. Leaves 274v, 297v-298v and 339v are blank. <dimensions type="leaf" unit="mm">
                                         <height>208</height>
                                         <width>165</width>
                                     </dimensions>
@@ -98,9 +98,7 @@
                             <origPlace>Norway (?)</origPlace></origin>
                         
                         <acquisition> Following <name type="person" key="LorKri001">L.
-                                Krieger</name>'s testament, the manuscripts was handed over to <name
-                                type="org" key="AMS">The Arnamagnæan Institute</name> in <date
-                                when="1839">1839</date>. </acquisition>
+                                Krieger</name>'s testament, the manuscripts was handed over to <name type="org" key="AMS">The Arnamagnæan Institute</name> in <date when="1839">1839</date>. </acquisition>
                     </history>
                     <additional>
                         
@@ -109,8 +107,7 @@
                             <source>
                                 <p>
                                     <ref target="KKKat"> Kålund's catalogue </ref>, vol. II, p. 596. </p>
-                                <p> English version prepared based on the Danish version by <name
-                                        type="person" key="KatKap001"/> on <date when="2021-06-02"/>
+                                <p> English version prepared based on the Danish version by <name type="person" key="KatKap001"/> on <date when="2021-06-02"/>
                                     . </p>
                             </source>
                         </recordHist>
@@ -118,17 +115,16 @@
                         <listBibl>
                             <bibl> Kålund: <ref type="secondary" target="KKKat">Katalog over den
                                 Arnamagnæanske Håndskriftsamling</ref>
-                                <biblScope type="volume">II</biblScope>
-                                <biblScope type="pages">596</biblScope>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">596</biblScope>
                             </bibl>
                             <bibl> Storm: <ref type="secondary" target="NgL4"> Norges gamle Love </ref>
-                                <biblScope type="volume">IV</biblScope>
-                                <biblScope type="pages">616</biblScope>
+                                <biblScope unit="volume">IV</biblScope>
+                                <biblScope unit="pages">616</biblScope>
                             </bibl>
-                            <bibl> Vilhjálmur Finsen <ref type="secondary" target="VilFin1852-1870"
-                                >Grágás</ref>
-                                <biblScope type="volume">II</biblScope>
-                                <biblScope type="pages">li</biblScope>
+                            <bibl> Vilhjálmur Finsen <ref type="secondary" target="VilFin1852-1870">Grágás</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">li</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>
@@ -137,8 +133,7 @@
         </fileDesc>
         <revisionDesc>
             <change>
-                <date when="2021-06-02"/> English description created by <name type="person"
-                    key="KatKap001"/>
+                <date when="2021-06-02"/> English description created by <name type="person" key="KatKap001"/>
             </change>
         </revisionDesc>
     </teiHeader>

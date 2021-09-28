@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,9 +20,9 @@
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
-						<institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+						<institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
 						<repository>Handritasafn</repository>
-						<collection>Handritasafn Jóns Sigurðssonar</collection>
+						<collection key="JS">Handritasafn Jóns Sigurðssonar</collection>
 						<idno>JS 300 4to</idno>
 						<altIdentifier type="internal" subtype="PEO">
 							<idno>5190</idno>
@@ -34,9 +34,7 @@
 							<note>
 								<bibl>
 									<ref target="SyslBogBen">Bogi Benediktsson: Sýslumannaæfir</ref>
-									<biblScope type="volume">II</biblScope>, <biblScope type="pages"
-										>728 </biblScope> og <biblScope type="volume"
-									>III</biblScope>, <biblScope type="pages">215 </biblScope>
+									<biblScope unit="volume">II</biblScope>, <biblScope unit="pages">728 </biblScope> og <biblScope unit="volume">III</biblScope>, <biblScope unit="pages">215 </biblScope>
 									<note>
 										<p>Það rit sem hér er í vitnað, er ekki nú á þessum
 										stað.</p>
@@ -44,19 +42,18 @@
 								</bibl>
 								<bibl>
 									<ref target="HT1907">Hannes Þorsteinsson: Guðfræðingatal</ref>
-									<biblScope type="pages">188</biblScope>
+									<biblScope unit="pages">188</biblScope>
 								</bibl>
 								<bibl>
 									<ref target="ÞorTho1931">Þorvaldur Thoroddsen: Lýsing Íslands</ref>
-									<biblScope type="volume">II</biblScope>
-									<biblScope type="pages">259 </biblScope>
+									<biblScope unit="volume">II</biblScope>
+									<biblScope unit="pages">259 </biblScope>
 								</bibl>
 							</note>
 						</summary>
 						<textLang mainLang="is" otherLangs="da">Íslenska en sumt á dönsku</textLang>
 						<msItem n="1" defective="unknown" class="avis">
-							<title type="supplied">Ævisaga séra <name type="person" key="JonPal002"
-									>Jóns Pálssonar</name> Maríuskálds</title>
+							<title type="supplied">Ævisaga séra <name type="person" key="JonPal002">Jóns Pálssonar</name> Maríuskálds</title>
 							<author>
 								<name type="person" key="DadNie001">Daði Níelsson</name>
 							</author>
@@ -67,16 +64,14 @@
 						</msItem>
 						<msItem n="2" defective="unknown" class="avis">
 							<textLang mainLang="da">Danska</textLang>
-							<title type="supplied">Ævisaga séra <name type="person" key="ArnJon001"
-									>Arngríms lærða Jónssonar</name></title>
+							<title type="supplied">Ævisaga séra <name type="person" key="ArnJon001">Arngríms lærða Jónssonar</name></title>
 							<note>
 								<p>með hendi <name type="person" key="JonSig009">Jóns Sigurðssonar á
 										Eyri</name></p>
 							</note>
 						</msItem>
 						<msItem n="3" defective="unknown" class="avis">
-							<title type="supplied">Ævisaga <name type="person" key="SteFin004"
-									>Steindórs Finnssonar</name> sýslumanns</title>
+							<title type="supplied">Ævisaga <name type="person" key="SteFin004">Steindórs Finnssonar</name> sýslumanns</title>
 							<note>
 								<p>frumrit</p>
 							</note>
@@ -90,12 +85,10 @@
 									Sigurðssonar</name> lögmanns</title>
 						</msItem>
 						<msItem n="6" defective="unknown" class="avis">
-							<title type="supplied">Ævisaga <name type="person" key="MagKet001"
-									>Magnúsar Ketilssonar</name> sýslumanns </title>
+							<title type="supplied">Ævisaga <name type="person" key="MagKet001">Magnúsar Ketilssonar</name> sýslumanns </title>
 							<note>
 								<p>með hönd <name type="person" key="ThoOla001">Þorvalds Sívertsens
-									</name> í Hrappsey en undir hefur ritað <name type="person"
-										>Kristján sýslumaður Magnússen</name> í Skarði 1845 </p>
+									</name> í Hrappsey en undir hefur ritað <name type="person">Kristján sýslumaður Magnússen</name> í Skarði 1845 </p>
 							</note>
 						</msItem>
 					</msContents>
@@ -133,8 +126,7 @@
 							öld.</origDate>
 						</origin>
 						<acquisition>
-							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date
-									when="1878">1878.</date> Safnið var afhent Landsbókasafni að
+							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date when="1878">1878.</date> Safnið var afhent Landsbókasafni að
 								honum látnum, en hann lést 7. desember 1879. Það komst í hendur
 								safnsins árið <date when="1881">1881</date> er það var flutt í
 								Alþingishúsið.</p>
@@ -145,9 +137,7 @@
 							<recordHist>
 								<source>
 									<name type="person" key="SigJor001">Sigríður Hjördís
-										Jörundsdóttir</name> yfirfór skráningu <date
-										when="2012-04-26">26. apríl 2012</date> ; <name
-										type="person" key="EvaEin001">Eva Kamilla
+										Jörundsdóttir</name> yfirfór skráningu <date when="2012-04-26">26. apríl 2012</date> ; <name type="person" key="EvaEin001">Eva Kamilla
 									Einarsdóttir</name> frumskráði, <date when="2011-06-07">7.júní
 										2011</date> ; Handritaskrá, 2. b. ; Átaksverkefni
 								2011</source>

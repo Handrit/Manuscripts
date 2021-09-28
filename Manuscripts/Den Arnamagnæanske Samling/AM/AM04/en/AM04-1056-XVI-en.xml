@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -15,7 +15,9 @@
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 1056 XVI 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2188</idno>
@@ -30,8 +32,7 @@
                             the fragments that comprise AM 1056 XVI 4to are some of the few extant
                             translations into Old Danish from Latin of St Birgitta of Sweden's 'Book
                             of Revelations' ('Liber Celestis Reuelacionum'). The other fragments of
-                            St Birgitta's 'Revelations' in Old Danish are: <ref type="ms"
-                                target="#AM08-0079-I-gamma-en">AM 79 I γ 8vo</ref>; <ref>The
+                            St Birgitta's 'Revelations' in Old Danish are: <ref type="ms" target="#AM08-0079-I-gamma-en">AM 79 I γ 8vo</ref>; <ref>The
                                 National Archives of Norway, No. 84</ref>, and <ref>Danish National
                                 Archives, E 338</ref>.</summary>
                         <msItem n="1" defective="true" class="vit">
@@ -50,13 +51,13 @@
                                         lego<ex>m</ex>me / oc styrkte</explicit>
                                 <bibl>Diderichsen, <ref type="primary-1" target="FragmPD">Fragmenter
                                         af gammeldanske Haandskrifter</ref>
-                                    <biblScope type="pages">100-104</biblScope>
+                                    <biblScope unit="pages">100-104</biblScope>
                                     <note>B. III</note>
                                 </bibl>
                                 <bibl>Nielsen, <ref type="primary-1" target="NKirS4">Ny
                                         kirkehistoriske samlinger</ref>
-                                    <biblScope type="volume">IV</biblScope>
-                                    <biblScope type="pages">148-53</biblScope>
+                                    <biblScope unit="volume">IV</biblScope>
+                                    <biblScope unit="pages">148-53</biblScope>
                                 </bibl>
                             </msItem>
                             <msItem n="1.2" class="vit">
@@ -66,20 +67,17 @@
                                 <title xml:lang="la">Revelationes Sancte Birgitte. Liber VI</title>
                                 <incipit defective="true">bogh ære siw colu<ex>m</ex>pner Then
                                     første / ær døbelse</incipit>
-                                <explicit defective="true">Oc maa <supplied reason="illegible"
-                                        >ik</supplied>ke ko<ex>m</ex>me til thec / w<supplied
-                                        reason="illegible">then</supplied> hun / haffwer først <gap
-                                        reason="damage"/>
+                                <explicit defective="true">Oc maa <supplied reason="illegible">ik</supplied>ke ko<ex>m</ex>me til thec / w<supplied reason="illegible">then</supplied> hun / haffwer først <gap reason="damage"/>
                                 </explicit>
                                 <bibl>Diderichsen, <ref type="primary-1" target="FragmPD">Fragmenter
                                         af gammeldanske Haandskrifter</ref>
-                                    <biblScope type="pages">104-106</biblScope>
+                                    <biblScope unit="pages">104-106</biblScope>
                                     <note>B. III</note>
                                 </bibl>
                                 <bibl>Nielsen, <ref type="primary-1" target="NKirS3">Ny
                                         kirkehistoriske Samlinger</ref>
-                                    <biblScope type="volume">III</biblScope>
-                                    <biblScope type="pages">445-47</biblScope>
+                                    <biblScope unit="volume">III</biblScope>
+                                    <biblScope unit="pages">445-47</biblScope>
                                 </bibl>
                             </msItem>
                         </msItem>
@@ -107,16 +105,13 @@
                         </objectDesc>
                     </physDesc>
                     <history>
-                        <origin notBefore="1450" notAfter="1499" cert="high" evidence="conjecture"
-                            resp="FragmPD">
-                            <p>Written in <origPlace>Denmark</origPlace>. <name type="person"
-                                    key="KriKaa001">Kålund</name> dates it the fifteenth century (<bibl>
+                        <origin notBefore="1450" notAfter="1499" cert="high" evidence="conjecture" resp="FragmPD">
+                            <p>Written in <origPlace>Denmark</origPlace>. <name type="person" key="KriKaa001">Kålund</name> dates it the fifteenth century (<bibl>
                                     <ref type="secondary-1" target="KKKat">Katalog</ref>
-                                </bibl>), whereas <name type="person" key="PauDid001"
-                                    >Diderichsen</name> dates it more precisely to the second half
+                                </bibl>), whereas <name type="person" key="PauDid001">Diderichsen</name> dates it more precisely to the second half
                                 of the fifteenth century (<bibl>
                                     <ref type="secondary-1" target="FragmPD">Diderichsen 1937</ref>
-                                    <biblScope type="pages">xxv</biblScope></bibl>).</p>
+                                    <biblScope unit="pages">xxv</biblScope></bibl>).</p>
                         </origin>
                         <provenance>
                             <p>Found in Holbæk estate accounts (<foreign>lensregnskab</foreign>) for
@@ -132,8 +127,7 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date when="2002-04-09">09.04.2002</date> by <name
-                                            type="person">EW-J</name>. </p>
+                                    <p>Catalogued <date when="2002-04-09">09.04.2002</date> by <name type="person">EW-J</name>. </p>
                                 </source>
                             </recordHist>
                         </adminInfo>
@@ -160,8 +154,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change>Amended <date when="2004-11-09">09.11.2004</date> by <name type="person"
-                    >JA</name>.</change>
+            <change>Amended <date when="2004-11-09">09.11.2004</date> by <name type="person">JA</name>.</change>
             <change when="2021-09-20" who="EvaWed001">Updated markup.</change>
         </revisionDesc>
     </teiHeader>

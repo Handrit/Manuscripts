@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 385 I-III 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1138</idno>
@@ -61,8 +62,7 @@
                                  (<dimensions type="slip" unit="mm">
                                  <height>161</height>
                                  <width>125</width>
-                              </dimensions>) framan að II hluta: <quote xml:lang="is" type="AMSlip"
-                                 >Þetta blað sýnist að vera úr Þorláks sögu. En ekkert þvílíkt er í
+                              </dimensions>) framan að II hluta: <quote xml:lang="is" type="AMSlip">Þetta blað sýnist að vera úr Þorláks sögu. En ekkert þvílíkt er í
                                  þeirri Þorláks sögu, sem herra Þorlákur hefi[r] látið
                                  uppskrifa.</quote>
                            </item>
@@ -70,8 +70,7 @@
                                  (<dimensions type="slip" unit="mm">
                                  <height>187</height>
                                  <width>142</width>
-                              </dimensions>) framan að III hluta: <quote xml:lang="is" type="AMSlip"
-                                 >Þetta exemplar er skrifað eftir pappírsblöðum frá Skarði á
+                              </dimensions>) framan að III hluta: <quote xml:lang="is" type="AMSlip">Þetta exemplar er skrifað eftir pappírsblöðum frá Skarði á
                                  Skarðsströnd 1704. Höndina á þeim blöðum þekki ég ei. Var hún æri[ð]
                                  mjög nýleg, svo sem skrifuð mundi fyrir 30−40 árum. Blöðin hafði
                                  átt síra Þórður í Hítardal.</quote></item>
@@ -93,8 +92,7 @@
                            <p>
                               <list>
                                  <item n="1">
-                                    <name key="GudIng001" type="person">GI</name> skráði <date
-                                       when="2002-10-21">21. október 2002</date>.</item>
+                                    <name key="GudIng001" type="person">GI</name> skráði <date when="2002-10-21">21. október 2002</date>.</item>
                                  <item n="2">
                                     <name key="KriKaa001" type="person">Kålund</name> gekk frá
                                     handritinu til skráningar <date when="1887-04-04">4. apríl
@@ -132,9 +130,9 @@
                   </listBibl>
                </additional>
                <msPart>
-                  <altIdentifier type="other">
+                  <msIdentifier><altIdentifier type="other">
                      <idno>AM 385 I 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem defective="true" class="post">
@@ -188,8 +186,7 @@
                            <layout columns="1" writtenLines="24">
                               <p>
                                  <list>
-                                    <item n="1">Leturflötur er <dimensions type="written" unit="mm"
-                                          scope="all">
+                                    <item n="1">Leturflötur er <dimensions type="written" unit="mm" scope="all">
                                           <height>126</height>
                                           <width>83</width>
                                        </dimensions>.</item>
@@ -240,9 +237,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="other">
+                  <msIdentifier><altIdentifier type="other">
                      <idno>AM 385 II 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem defective="true" class="bisks">
@@ -291,8 +288,7 @@
                            <layout columns="1" writtenLines="23">
                               <p>
                                  <list>
-                                    <item n="1">Leturflötur er <dimensions type="written" unit="mm"
-                                          scope="all">
+                                    <item n="1">Leturflötur er <dimensions type="written" unit="mm" scope="all">
                                           <height>126</height>
                                           <width>86</width>
                                        </dimensions>.</item>
@@ -342,9 +338,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="other">
+                  <msIdentifier><altIdentifier type="other">
                      <idno>AM 385 III 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem class="bisks">
@@ -386,8 +382,7 @@
                            <layout columns="1" writtenLines="24">
                               <p>
                                  <list>
-                                    <item n="1">Leturflötur er <dimensions type="written" unit="mm"
-                                          scope="all">
+                                    <item n="1">Leturflötur er <dimensions type="written" unit="mm" scope="all">
                                           <height>145-152</height>
                                           <width>120</width>
                                        </dimensions>.</item>
@@ -425,8 +420,7 @@
                   </physDesc>
                   <history>
                      <origin notBefore="1704" notAfter="1704" cert="high">
-                        <p>Skrifað árið 1704 eftir handriti frá <name type="person"
-                              >Skarði</name> á <name type="person">Skarðsströnd</name>. Handritið
+                        <p>Skrifað árið 1704 eftir handriti frá <name type="person">Skarði</name> á <name type="person">Skarðsströnd</name>. Handritið
                            sem afritað var hafði áður átt Þórður Jónsson í Hítardal (sbr.
                            seðil).</p>
                      </origin>

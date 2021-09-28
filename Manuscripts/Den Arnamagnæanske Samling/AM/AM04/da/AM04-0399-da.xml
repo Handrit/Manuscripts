@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,7 +14,9 @@
                     <msIdentifier>
                         <country>Danmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 399 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>1122</idno>
@@ -23,15 +25,10 @@
                     </msIdentifier>
                     <head>
                         <title type="uniform" xml:lang="is">Guðmundar saga hin elzta</title>;
-                            <origPlace>Island</origPlace>, <origDate notBefore="1330"
-                            notAfter="1350">ca. 1330-1350</origDate>
-                        <note>Guðmundar saga i dette håndskrift (den såkaldte <q xml:lang="da"
-                                >ældste saga</q>) er en sammensætning af <title type="uniform"
-                                xml:lang="is">Prestssaga</title>, <title type="uniform"
-                                xml:lang="is">Hrafns saga</title>, <title type="uniform">Íslendinga
+                            <origPlace>Island</origPlace>, <origDate notBefore="1330" notAfter="1350">ca. 1330-1350</origDate>
+                        <note>Guðmundar saga i dette håndskrift (den såkaldte <q xml:lang="da">ældste saga</q>) er en sammensætning af <title type="uniform" xml:lang="is">Prestssaga</title>, <title type="uniform" xml:lang="is">Hrafns saga</title>, <title type="uniform">Íslendinga
                                 saga</title>, <title type="uniform" xml:lang="is">Arons saga</title>
-                            samt annaler. AM 399 4to var en af de håndskrifter <name type="person"
-                                key="PedRes001">Peder Resen</name> overdragede til Københavns
+                            samt annaler. AM 399 4to var en af de håndskrifter <name type="person" key="PedRes001">Peder Resen</name> overdragede til Københavns
                             Universitetsbibliotek. Dette håndskrift er et af de få, der er bevaret
                             fra Københavns Universitetsbibliotek, da biblioteket blev tilintetgjort
                             ved <name type="place" key="Copen01">Københavns</name> brand i
@@ -50,13 +47,13 @@
                                 <listBibl>
                                     <bibl>
                                         <ref type="primary" target="Bisk">Biskupa sögur</ref>
-                                        <biblScope type="volume">I</biblScope>
-                                        <biblScope type="pages">412</biblScope>
+                                        <biblScope unit="volume">I</biblScope>
+                                        <biblScope unit="pages">412</biblScope>
                                     </bibl>
                                     <bibl>
                                         <ref type="primary" target="EA-B6">Guðmundar sögur
                                             biskups</ref>
-                                        <biblScope type="pages">17-24:14</biblScope>
+                                        <biblScope unit="pages">17-24:14</biblScope>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -67,13 +64,13 @@
                                 <listBibl>
                                     <bibl>
                                         <ref type="primary" target="Bisk">Biskupa sögur</ref>
-                                        <biblScope type="volume">I</biblScope>
-                                        <biblScope type="pages">416-513</biblScope>
+                                        <biblScope unit="volume">I</biblScope>
+                                        <biblScope unit="pages">416-513</biblScope>
                                     </bibl>
                                     <bibl>
                                         <ref type="primary" target="EA-B6">Guðmundar sögur
                                             biskups</ref>
-                                        <biblScope type="pages">32:11-187</biblScope>
+                                        <biblScope unit="pages">32:11-187</biblScope>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -84,13 +81,13 @@
                                 <listBibl>
                                     <bibl>
                                         <ref type="primary" target="Bisk">Biskupa sögur</ref>
-                                        <biblScope type="volume">I</biblScope>
-                                        <biblScope type="pages">527-547</biblScope>
+                                        <biblScope unit="volume">I</biblScope>
+                                        <biblScope unit="pages">527-547</biblScope>
                                     </bibl>
                                     <bibl>
                                         <ref type="primary" target="EA-B6">Guðmundar sögur
                                             biskups</ref>
-                                        <biblScope type="pages">208:28-237</biblScope>
+                                        <biblScope unit="pages">208:28-237</biblScope>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -104,13 +101,13 @@
                                 <listBibl>
                                     <bibl>
                                         <ref type="primary" target="Bisk">Biskupa sögur</ref>
-                                        <biblScope type="volume">I</biblScope>
-                                        <biblScope type="pages">550-558</biblScope>
+                                        <biblScope unit="volume">I</biblScope>
+                                        <biblScope unit="pages">550-558</biblScope>
                                     </bibl>
                                     <bibl>
                                         <ref type="primary" target="EA-B6">Guðmundar sögur
                                             biskups</ref>
-                                        <biblScope type="pages">243:38-255</biblScope>
+                                        <biblScope unit="pages">243:38-255</biblScope>
                                     </bibl>
                                 </listBibl>
                             </msItem>
@@ -120,8 +117,7 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>Pergament.</support>
-                                <extent>74. Bl 1r oprindeligt ubeskrevet: <dimensions type="leaf"
-                                        unit="mm" scope="most">
+                                <extent>74. Bl 1r oprindeligt ubeskrevet: <dimensions type="leaf" unit="mm" scope="most">
                                         <height>224</height>
                                         <width>166</width>
                                     </dimensions>
@@ -138,46 +134,35 @@
                         </objectDesc>
                         <handDesc>
                             <handNote scope="sole" script="unknown">Håndskriftet er skrevet med en
-                                smuk, stor, klar og tydelig skrift.<name type="person"
-                                    key="SteKar001">Stefan Karlsson</name> mener, at denne skriver
+                                smuk, stor, klar og tydelig skrift.<name type="person" key="SteKar001">Stefan Karlsson</name> mener, at denne skriver
                                 også bl.a. har skrevet <title type="uniform">Sturlunga saga</title>
                                 i <ref type="ms">AM 122 a fol</ref>
                             </handNote>
                         </handDesc>
                         <additions>Det oprindeligt ubeskrevne bl. <locus>1r</locus> har i marginen
-                            1-6 indholdsbemærkninger med en uøvet hånd fra <date from="1600"
-                                to="1699">1600-tallet</date>. Blandt andre yngre marginalia finder
+                            1-6 indholdsbemærkninger med en uøvet hånd fra <date from="1600" to="1699">1600-tallet</date>. Blandt andre yngre marginalia finder
                             man navnet Ásmundur Klemensson; en mand med dette usædvanlige navn er
-                            blevet fundet i forskellige kilder fra <date from="1497" to="1530"
-                                >1497-1530</date>.</additions>
+                            blevet fundet i forskellige kilder fra <date from="1497" to="1530">1497-1530</date>.</additions>
                         <accMat>På en AM-seddel har <name type="person" key="ArnMag001">Arne
                                 Magnússon</name> skrevet: <q xml:lang="da">Denne bog haver
-                                universitas Hafniensis laant mig ex Bibliothecâ Resenianâ <date
-                                    when="1706">1706</date>. og bör den af mig uskaddet at
+                                universitas Hafniensis laant mig ex Bibliothecâ Resenianâ <date when="1706">1706</date>. og bör den af mig uskaddet at
                                 restitueres. A Magnussen</q>. Rimeligvis til et ældre friblad hører
                             følgende notits af <name type="person" key="PedRes001">Peder
                                 Resen</name>: <q xml:lang="la">Codex islandicus mss. in pergamento:
                                 agit de aliis atq<ex>ve</ex> aliis Islandiæ Episcopis præsertim de
-                                Gudmundo Eposcopo Ariæ filio. Petri Resenii <date when="1685"
-                                    >1685</date>
+                                Gudmundo Eposcopo Ariæ filio. Petri Resenii <date when="1685">1685</date>
                             </q>.</accMat>
                     </physDesc>
                     <history>
-                        <origin>Håndskriftet er skrevet i <origPlace>Island</origPlace>. <name
-                                type="person" key="KriKaa001">Kålund</name> (<bibl>
+                        <origin>Håndskriftet er skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl>
                                 <ref type="secondary" target="KKKat">Katalog</ref>
-                                <biblScope type="volume">I</biblScope>
-                                <biblScope type="pages">604</biblScope>
-                            </bibl>) har dateret det til <date notBefore="1290" notAfter="1310"
-                                evidence="conjecture">ca. 1300</date>, hvorimod <name type="person"
-                                key="SteKar001">Stefán Karlsson</name> (<bibl>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">604</biblScope>
+                            </bibl>) har dateret det til <date notBefore="1290" notAfter="1310" evidence="conjecture">ca. 1300</date>, hvorimod <name type="person" key="SteKar001">Stefán Karlsson</name> (<bibl>
                                 <ref type="secondary" target="EA-B6">Guðmundar sögur biskups</ref>
-                                <biblScope type="pages">xli</biblScope>
-                            </bibl>) senere har dateret det mere præcist til <origDate
-                                notBefore="1330" notAfter="1350" evidence="conjecture"
-                                >1330-1350</origDate>.</origin>
-                        <provenance>Håndskriftet har tilhørt <name type="person" key="PedRes001"
-                                >Peder Resen</name>, deraf dets navn. Om bogens tidligere skæbne
+                                <biblScope unit="pages">xli</biblScope>
+                            </bibl>) senere har dateret det mere præcist til <origDate notBefore="1330" notAfter="1350" evidence="conjecture">1330-1350</origDate>.</origin>
+                        <provenance>Håndskriftet har tilhørt <name type="person" key="PedRes001">Peder Resen</name>, deraf dets navn. Om bogens tidligere skæbne
                             findes der ingen efterretning.</provenance>
                         <acquisition>AM 399 4to var et af de håndskrifter Peder Resen donerede til
                             Københavns Universitetsbibliotek, men det blev heldigvis bevaret, da
@@ -188,22 +173,21 @@
                         <listBibl>
                             <bibl>
                                 <ref type="secondary" target="Bisk">Biskupa sögur</ref>
-                                <biblScope type="volume">I</biblScope>
-                                <biblScope type="pages">liii-liv</biblScope>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">liii-liv</biblScope>
                             </bibl>
                             <bibl>
                                 <ref type="secondary" target="GHM">Grönlands historiske
                                     Mindesmærker</ref>
-                                <biblScope type="volume">II</biblScope>
-                                <biblScope type="pages">751</biblScope>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">751</biblScope>
                             </bibl>
-                            <bibl>Guðbrandur Vígfússon: <ref type="secondary" target="SturlGV"
-                                    >Sturlunga saga</ref>
-                                <biblScope type="pages">cxvii, cxlvi, clxxii</biblScope>
+                            <bibl>Guðbrandur Vígfússon: <ref type="secondary" target="SturlGV">Sturlunga saga</ref>
+                                <biblScope unit="pages">cxvii, cxlvi, clxxii</biblScope>
                             </bibl>
                             <bibl>Stefán Karlsson: <ref type="secondary" target="EA-B6">Guðmundar
                                     sögur biskups</ref>
-                                <biblScope type="pages">xxx-liii</biblScope>
+                                <biblScope unit="pages">xxx-liii</biblScope>
                             </bibl>
                             <bibl/>
                         </listBibl>

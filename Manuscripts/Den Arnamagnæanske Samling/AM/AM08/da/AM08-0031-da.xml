@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -15,7 +15,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 31 8vo</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>2227</idno>
@@ -34,8 +36,8 @@
                      <note>Lakune efter bl. 2 og 7.</note>
                      <bibl>Keyser og Munch: <ref type="primary" target="NgL1">Norges gamle
                            Love</ref>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">355:24-363:8</biblScope>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">355:24-363:8</biblScope>
                      </bibl>
                   </msItem>
                   <msItem n="2" class="log">
@@ -66,8 +68,8 @@
                         <title type="uniform">Réttarbǫtr Magnús Hákonarsonar</title>
                         <bibl>Keyser og Munch: <ref type="primary" target="NgL2">Norges gamle
                               Love</ref>
-                           <biblScope type="volume">II</biblScope>
-                           <biblScope type="pages">453-455</biblScope>
+                           <biblScope unit="volume">II</biblScope>
+                           <biblScope unit="pages">453-455</biblScope>
                         </bibl>
                      </msItem>
                   </msItem>
@@ -82,15 +84,13 @@
                      <title type="uniform" xml:lang="da">Den nyere bylov</title>
                      <textLang mainLang="non">Norrønt/norsk</textLang>
                      <rubric>Biar<lb/>kr<lb/>yiar<lb/>ret<lb/>tr</rubric>
-                     <explicit defective="true">t<ex>il</ex> at p<ex>ei</ex>r atto <add
-                           hand="ArnMag001">reliqua deſiderantur</add>
+                     <explicit defective="true">t<ex>il</ex> at p<ex>ei</ex>r atto <add hand="ArnMag001">reliqua deſiderantur</add>
                      </explicit>
                   </msItem>
                   <msItem n="6" defective="true" class="log">
                      <locus from="117r" to="117v">117r-v</locus>
                      <title type="uniform">Det færøske saudabrev</title>
-                     <explicit defective="true">hiit iij ſin<ex>n</ex>e ffallij ſa ſa<supplied
-                           reason="unknown">u</supplied>dur ogil</explicit>
+                     <explicit defective="true">hiit iij ſin<ex>n</ex>e ffallij ſa ſa<supplied reason="unknown">u</supplied>dur ogil</explicit>
                   </msItem>
                   <msItem n="7" class="ban">
                      <locus from="118r" to="118v">118r-v</locus>
@@ -134,19 +134,14 @@
                </physDesc>
                <history>
                   <origin notBefore="1325" notAfter="1350" evidence="conjecture" resp="ONP">Skrevet
-                     i <origPlace>Norge</origPlace> i <origDate notBefore="1325" notAfter="1350"
-                        >1300-tallets anden fjerdedel</origDate> (Kålunds datering: <origDate
-                        notBefore="1300" notAfter="1399" evidence="conjecture" resp="KKKat"
-                        >1300-tallet</origDate>).</origin>
+                     i <origPlace>Norge</origPlace> i <origDate notBefore="1325" notAfter="1350">1300-tallets anden fjerdedel</origDate> (Kålunds datering: <origDate notBefore="1300" notAfter="1399" evidence="conjecture" resp="KKKat">1300-tallet</origDate>).</origin>
                   <provenance>Af en notits, dateret <q>ppokkna <date when="1518">1518</date>
-                     </q>, bl. 104vb ses det, at håndskriftet dengang tilhørte <q>Herre <name
-                           type="person" key="MauTho001">mauricius thorkil ſon</name>
+                     </q>, bl. 104vb ses det, at håndskriftet dengang tilhørte <q>Herre <name type="person" key="MauTho001">mauricius thorkil ſon</name>
                      </q>. Senere tilhørte det, som det af bl. 119r fremgår det, at lagmanden over
                         <name type="place" key="FO">Færøerne</name>
                      <q>
                         <name type="person" key="JonHei001">Jonas Heigneſsönn</name>
-                     </q>, som år <date when="1597">1597</date> i <name type="place" key="Berge01"
-                        >Bergen</name> overdrog det til <q>
+                     </q>, som år <date when="1597">1597</date> i <name type="place" key="Berge01">Bergen</name> overdrog det til <q>
                         <name type="person" key="SveStu001">Suen Sturm</name>
                      </q>. Påskriften <q>
                         <name type="person" key="AugWro001">Auguſtinus Oelſönn Wroe</name>
@@ -157,19 +152,19 @@
                <additional>
                   <listBibl>
                      <bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium Islandicum</ref>
-                        <biblScope type="volume">I</biblScope>
+                        <biblScope unit="volume">I</biblScope>
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">346-347</biblScope>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">346-347</biblScope>
                      </bibl>
                      <bibl>Storm: <ref target="ChrVidSkFor14">Om Haandskrifter og Oversættelser af
                            Magnus Lagaböters Love</ref>
-                        <biblScope type="pages">5, 17, 18, 21 og 49</biblScope>
+                        <biblScope unit="pages">5, 17, 18, 21 og 49</biblScope>
                      </bibl>
                      <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
-                        <biblScope type="volume">IV</biblScope>
-                        <biblScope type="pages">607-609</biblScope>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="pages">607-609</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

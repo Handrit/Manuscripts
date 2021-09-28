@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,7 +14,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 1049 4to</idno>
                   <altIdentifier type="former">
                      <idno>Addit. 108 4to</idno>
@@ -37,11 +39,10 @@
                         Daniæ</title>
                      <textLang mainLang="la">Latin</textLang>
                      <filiation>Forlægget for denne afskrift var et middelalderligt håndskrift i
-                        Universitetsbiblioteket, der brændte under <name type="place" key="Copen01"
-                           >København</name>s brand i <date when="1728">1728</date>.</filiation>
+                        Universitetsbiblioteket, der brændte under <name type="place" key="Copen01">København</name>s brand i <date when="1728">1728</date>.</filiation>
                      <bibl>Gertz: <ref type="primary" target="Gertz1908-1912">Vitae Sanctorum
                            Danorum Novam ed. criticam</ref>
-                        <biblScope type="pages">305</biblScope>
+                        <biblScope unit="pages">305</biblScope>
                      </bibl>
                   </msItem>
                </msContents>
@@ -72,8 +73,7 @@
                   </handDesc>
                   <additions>
                      <p>Bl. 81-82 er indskudte sedler.</p>
-                     <p>Bl. 108-111 indeholder notitser med en hånd fra <date notBefore="1600"
-                           notAfter="1699">1600-tallet</date>. Fra samme tid er oktavlægget bl.
+                     <p>Bl. 108-111 indeholder notitser med en hånd fra <date notBefore="1600" notAfter="1699">1600-tallet</date>. Fra samme tid er oktavlægget bl.
                         112-116.</p>
                   </additions>
                   <bindingDesc>
@@ -88,19 +88,17 @@
                   </bindingDesc>
                </physDesc>
                <history>
-                  <origin notBefore="1700" notAfter="1730" evidence="conjecture" resp="KKKat"
-                        ><origPlace>Danmark</origPlace>, <origDate notBefore="1700" notAfter="1730"
-                        >s. XVIII in</origDate>.</origin>
+                  <origin notBefore="1700" notAfter="1730" evidence="conjecture" resp="KKKat"><origPlace>Danmark</origPlace>, <origDate notBefore="1700" notAfter="1730">s. XVIII in</origDate>.</origin>
                </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">305</biblScope>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">305</biblScope>
                      </bibl>
                      <bibl>Petersen: <ref type="secondary-1" target="EriPet1999">Levende ord og
                            lysende billeder</ref>
-                        <biblScope type="pages">69</biblScope>
+                        <biblScope unit="pages">69</biblScope>
                         <note>Nr. 93</note>
                      </bibl>
                   </listBibl>

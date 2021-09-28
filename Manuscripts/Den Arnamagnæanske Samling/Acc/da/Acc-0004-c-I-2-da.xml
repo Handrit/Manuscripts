@@ -1,4 +1,4 @@
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -14,15 +14,16 @@
           <msIdentifier>
             <country>Danmark</country>
             <settlement>København</settlement>
+            <institution key="AMS"/>
             <repository>Den Arnamagnæanske Samling</repository>
+            <collection key="Acc"/>
             <idno>Acc. 4 c I[2]</idno>
             <altIdentifier type="internal" subtype="KKKat">
               <idno>2826</idno>
             </altIdentifier>
           </msIdentifier>
           <head>
-            <title type="supplied">Færøske kvad i alfabetisk orden (B)</title>; <origPlace key="FO"
-              >Færøerne</origPlace>, <origDate>s. XIX</origDate>. Færøsk og dansk.</head>
+            <title type="supplied">Færøske kvad i alfabetisk orden (B)</title>; <origPlace key="FO">Færøerne</origPlace>, <origDate>s. XIX</origDate>. Færøsk og dansk.</head>
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="chart">
@@ -38,13 +39,11 @@
           </physDesc>
           <history>
             <origin notBefore="1800" notAfter="1899">
-              <p>Skrevet på <origPlace key="FO">Færøerne</origPlace> i <origDate notBefore="1800"
-                  notAfter="1899">1800-tallet</origDate>.</p>
+              <p>Skrevet på <origPlace key="FO">Færøerne</origPlace> i <origDate notBefore="1800" notAfter="1899">1800-tallet</origDate>.</p>
             </origin>
             <provenance>
               <p>Disse materialer var en del af <name type="person" key="VenHam001">V.U.
-                  Hammershaimbs</name> private samling, og de skulle oprindeligt tilgå <orgName
-                  key="KglNordOld">Det kgl. nordiske Oldskriftselskab</orgName>. De blev dog i
+                  Hammershaimbs</name> private samling, og de skulle oprindeligt tilgå <orgName key="KglNordOld">Det kgl. nordiske Oldskriftselskab</orgName>. De blev dog i
                 stedet doneret til den <orgName key="AMS">Arnamagnæanske Samling</orgName> efter
                 Hammershaimbs død i <date when="1909">1909</date> . </p>
             </provenance>
@@ -52,19 +51,19 @@
           <additional>
             <listBibl>
               <bibl> Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                <biblScope type="volume">II</biblScope>
-                <biblScope type="pages">609</biblScope>
+                <biblScope unit="volume">II</biblScope>
+                <biblScope unit="pages">609</biblScope>
               </bibl>
               <bibl> Chesnutt and Larsen: <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                <biblScope type="volume">VII</biblScope>
-                <biblScope type="pages">64-65</biblScope>
+                <biblScope unit="volume">VII</biblScope>
+                <biblScope unit="pages">64-65</biblScope>
               </bibl>
             </listBibl>
           </additional>
           <msPart n="1">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Baraldur bóndason</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Baraldur bóndason</title></summary>
               <msItem n="1" class="kvad">
@@ -80,7 +79,7 @@
                   <name type="person" key="RasJoh001">Rasmus Johanneson Mikines</name>
                 </respStmt>
                 <bibl>CCF 40B. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">II</biblScope><biblScope type="pages">99-101</biblScope>
+                  <biblScope unit="volume">II</biblScope><biblScope unit="pages">99-101</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -116,23 +115,19 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" script="kurrent" scope="sole"><p>Skrevet af <name
-                      type="person" key="VenHam001">V.U. Hammershaimb</name>.</p></handNote>
+                <handNote scribe="VenHam001" script="kurrent" scope="sole"><p>Skrevet af <name type="person" key="VenHam001">V.U. Hammershaimb</name>.</p></handNote>
               </handDesc>
             </physDesc>
             <history>
               <origin notBefore="1848" notAfter="1849">
-                <p>Nedskrevet <origDate notBefore="1848" notAfter="1849">1848/9</origDate> af <name
-                    type="person" key="VenHam001">V.U. Hammershaimb</name> efter informanten <name
-                    type="person" key="RasJoh001">Rasmus Johanneson</name> i <placeName
-                    key="Mykines">Mykines</placeName>.</p>
+                <p>Nedskrevet <origDate notBefore="1848" notAfter="1849">1848/9</origDate> af <name type="person" key="VenHam001">V.U. Hammershaimb</name> efter informanten <name type="person" key="RasJoh001">Rasmus Johanneson</name> i <placeName key="Mykines">Mykines</placeName>.</p>
               </origin>
             </history>
           </msPart>
           <msPart n="2.1">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Belfjóna (1)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Belfjóna</title></summary>
               <msItem n="2.1" class="kvad">
@@ -143,10 +138,9 @@
                 <incipit type="refrain">Oman ettir u Nijan ettir</incipit>
                 <explicit>uj grönari lund</explicit>
                 <finalRubric>Ende</finalRubric>
-                <filiation>Findes også i <ref type="ms" target="DSF-68"
-                  >Sandoyarbók</ref>.</filiation>
+                <filiation>Findes også i <ref type="ms" target="DSF-68">Sandoyarbók</ref>.</filiation>
                 <bibl>CCF 41b. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">II</biblScope><biblScope type="pages">102-104</biblScope>
+                  <biblScope unit="volume">II</biblScope><biblScope unit="pages">102-104</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -180,8 +174,7 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="JohCle001" scope="sole" script="unknown">Skrevet af <name
-                    type="person" key="JohCle001">Johannes Clemensen</name>.</handNote>
+                <handNote scribe="JohCle001" scope="sole" script="unknown">Skrevet af <name type="person" key="JohCle001">Johannes Clemensen</name>.</handNote>
               </handDesc>
               <additions>
                 <p>Et enkeltblad (<locus from="4r" to="4v">4</locus>) der indeholder varianter, er
@@ -190,9 +183,9 @@
             </physDesc>
           </msPart>
           <msPart n="2.2">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Belfjóna (2)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Belfjóna</title></summary>
               <msItem n="2.2" class="kvad">
@@ -204,7 +197,7 @@
                 <explicit>mit uj Vadlalund.</explicit>
                 <note>Varianter til <ref type="ms">2.1</ref>.</note>
                 <bibl>CCF 41c. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">II</biblScope><biblScope type="pages">102-104</biblScope>
+                  <biblScope unit="volume">II</biblScope><biblScope unit="pages">102-104</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -246,9 +239,9 @@
             </physDesc>
           </msPart>
           <msPart n="3.1">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Berrings vísa (1)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Berrings vísa</title></summary>
               <msItem n="3.1" class="kvad">
@@ -263,7 +256,7 @@
                   <name type="person" key="PouJoh001">Poul Johannisson í Sundba</name>
                 </respStmt>
                 <bibl>CCF 42Bb. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">II</biblScope><biblScope type="pages">106-107</biblScope>
+                  <biblScope unit="volume">II</biblScope><biblScope unit="pages">106-107</biblScope>
                 </bibl>
                 <note>Varianter til <ref type="ms">3.2</ref>.</note>
               </msItem>
@@ -300,15 +293,14 @@
               </objectDesc>
 
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Skrevet af <name
-                    type="person" key="VenHam001">V.U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Skrevet af <name type="person" key="VenHam001">V.U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="3.2">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Berrings vísa (2)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Berrings vísa</title></summary>
               <titlePage type="ms">
@@ -324,7 +316,7 @@
                 <incipit>Uppi ivur Øvun</incipit>
                 <explicit>tu skalt eâd Jørini nujja</explicit>
                 <bibl>CCF 42Ba. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">II</biblScope><biblScope type="pages">106-107</biblScope>
+                  <biblScope unit="volume">II</biblScope><biblScope unit="pages">106-107</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -361,15 +353,14 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="ThoTho082" scope="major" script="hybrida"><p>Skrevet af <name
-                      type="person"/>Þórður Þorsteinsson.</p></handNote>
+                <handNote scribe="ThoTho082" scope="major" script="hybrida"><p>Skrevet af <name type="person"/>Þórður Þorsteinsson.</p></handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="4">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Bevusar tættir</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Bevusar tættir</title></summary>
               <msItem n="4" class="kvad">
@@ -385,7 +376,7 @@
                 <incipit type="refrain">Viðg. giltan spora etc.</incipit>
                 <explicit>Skrivari kongs so skaltu vera</explicit>
                 <bibl>CCF 112. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">V</biblScope><biblScope type="pages">309-312</biblScope>
+                  <biblScope unit="volume">V</biblScope><biblScope unit="pages">309-312</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -420,16 +411,15 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name
-                      type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
               </handDesc>
             </physDesc>
           </msPart>
 
           <msPart n="5.1">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc 4 c[2] 5.1</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Biðilin</title></summary>
               <msItem n="5.1" class="kvad">
@@ -437,15 +427,14 @@
                 <title type="uniform">Biðilin</title>
                 <textLang mainLang="fo" otherLangs="da"/>
                 <rubric>Ríma Biðilin</rubric>
-                <colophon>(<name type="person" key="PouJoh001">Poul Johannisson</name> í <placeName
-                    key="SumSuð01">Sundbø</placeName>)</colophon>
+                <colophon>(<name type="person" key="PouJoh001">Poul Johannisson</name> í <placeName key="SumSuð01">Sundbø</placeName>)</colophon>
                 <incipit>Eg havi mer eina jomfrú fest</incipit>
                 <incipit type="refrain">Viðgángur tit haldun idur so</incipit>
                 <explicit>hvorki árla ella síla</explicit>
                 <note>Ender med en dansk oversættelse af omkvædet <quote xml:lang="da">I holder Eder
                     so</quote></note>
                 <bibl>CCF 115A. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">4-5</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">4-5</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -479,20 +468,18 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc>
-                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name
-                      type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
               </handDesc>
             </physDesc>
             <history>
               <p>Nedskrevet af <name type="person" key="VenHam001">V.U. Hammershaimb</name> efter
-                  <name type="person" key="PouJoh001">Poul Johannisson</name>, <origPlace
-                  key="SumSuð01">Sumba, Suðuroy</origPlace>.</p>
+                  <name type="person" key="PouJoh001">Poul Johannisson</name>, <origPlace key="SumSuð01">Sumba, Suðuroy</origPlace>.</p>
             </history>
           </msPart>
           <msPart n="5.2">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc 4 c[2] 5.2</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Biðilin</title></summary>
               <msItem n="5.2" class="kvad">
@@ -500,13 +487,12 @@
                 <title type="uniform">Biðilin</title>
                 <textLang mainLang="fo" otherLangs="da">Færøsk med dansk omkvæd</textLang>
                 <rubric>Ríma Biðilin</rubric>
-                <colophon>(<name type="person" key="ThoJoe001">Tumas Jógvansson</name> í <placeName
-                    key="VágSuð01">Vági</placeName>)</colophon>
+                <colophon>(<name type="person" key="ThoJoe001">Tumas Jógvansson</name> í <placeName key="VágSuð01">Vági</placeName>)</colophon>
                 <incipit>Síla um aftanin rím fell á</incipit>
                 <incipit type="refrain" xml:lang="da">under hviden sadel</incipit>
                 <explicit>bæði árla og síla var hon mín</explicit>
                 <bibl>CCF 115B. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">5</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">5</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -540,20 +526,18 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc>
-                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name
-                      type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
               </handDesc>
             </physDesc>
             <history>
               <p>Nedskrevet af <name type="person" key="VenHam001">V.U. Hammershaimb</name> efter
-                  <name type="person" key="ThoJoe001">Tumas Jógvansson</name>, <origPlace
-                  key="VágSuð01">Vágur, Suðuroy</origPlace>.</p>
+                  <name type="person" key="ThoJoe001">Tumas Jógvansson</name>, <origPlace key="VágSuð01">Vágur, Suðuroy</origPlace>.</p>
             </history>
           </msPart>
           <msPart n="6.1">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[2] 6.1</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Blankans ríma</title></summary>
               <msItem n="6.1.1" class="kvad">
@@ -566,7 +550,7 @@
                 <incipit>Tað torir eingin danimann so gera</incipit>
                 <explicit>tá bleiv hann ein raddari fín</explicit>
                 <bibl>CCF 116Aa. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">6-7</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">6-7</biblScope>
                 </bibl>
               </msItem>
               <msItem n="6.1.2" class="kvad">
@@ -578,7 +562,7 @@
                   år.</colophon>
                 <note>Varianter til nr. 6.1 er tilføjet med blyant.</note>
                 <bibl>CCF 116Ab. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">6-7</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">6-7</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -614,22 +598,20 @@
               </objectDesc>
 
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name
-                      type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
               </handDesc>
             </physDesc>
             <history>
               <p>Begge tekster er nedskrevet af <name type="person" key="VenHam001">V. U.
-                  Hammershaimb</name>. Hovedteksten (nr. 6.1.1) er efter informanten <name
-                  type="person" key="">Magnus Ólavsson</name> i <origPlace key="">Svínoy</origPlace>
+                  Hammershaimb</name>. Hovedteksten (nr. 6.1.1) er efter informanten <name type="person" key="">Magnus Ólavsson</name> i <origPlace key="">Svínoy</origPlace>
                 med varianter (nr. 6.1.2) efter informanten <name type="person" key="">Elsebeth
                   Poulsdatter í Túni</name>.</p>
             </history>
           </msPart>
           <msPart n="6.2">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[2] 6.2</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Blankans ríma</title></summary>
               <msItem n="6.2" class="kvad">
@@ -637,14 +619,13 @@
                 <title type="uniform">Blankans ríma</title>
                 <textLang mainLang="fo"/>
                 <rubric>Harra Karls vísa</rubric>
-                <colophon>(<name type="person" key="ThoJoe001">Tumas Jógvansson</name> í <placeName
-                    key="VágSuð01">Vági</placeName>)<lb/>
+                <colophon>(<name type="person" key="ThoJoe001">Tumas Jógvansson</name> í <placeName key="VágSuð01">Vági</placeName>)<lb/>
                   <add><placeName key="">Suðuroy</placeName></add></colophon>
                 <incipit>Tað plægir eingin Danmark kvitta</incipit>
                 <incipit type="refrain">gilt sàðil á</incipit>
                 <explicit>allt Eingulland fekk hon í vold</explicit>
                 <bibl>CCF 116Ba. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">7-8</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">7-8</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -678,20 +659,18 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name
-                      type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
               </handDesc>
             </physDesc>
             <history>
               <p>Nedskrevet af <name type="person" key="VenHam001">V.U. Hammershaimb</name> from
-                  <name type="person" key="ThoJoe001">Tumas Jógvansson</name>, <origPlace
-                  key="VágSuð01">Vágur, Suðuroy</origPlace>.</p>
+                  <name type="person" key="ThoJoe001">Tumas Jógvansson</name>, <origPlace key="VágSuð01">Vágur, Suðuroy</origPlace>.</p>
             </history>
           </msPart>
           <msPart n="6.3">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[2] 6.3</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Blankans ríma</title></summary>
               <msItem n="6.3" defective="true" class="kvad">
@@ -737,20 +716,18 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name
-                      type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
               </handDesc>
             </physDesc>
             <history>
               <p>Nedskrevet af <name type="person" key="VenHam001">V.U. Hammershaimb</name> from
-                  <name type="person" key="">Daniel Jógvansson</name> på <origPlace key=""
-                  >Skúvoy</origPlace>.</p>
+                  <name type="person" key="">Daniel Jógvansson</name> på <origPlace key="">Skúvoy</origPlace>.</p>
             </history>
           </msPart>
           <msPart n="7.1">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[2] 7.1</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Blikimans kvæði</title></summary>
               <msItem n="7.1" class="kvad">
@@ -783,15 +760,14 @@
                 </layoutDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name
-                      type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="7.2">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[2] 7.2</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Blikimans kvæði</title></summary>
               <msItem n="7.2" class="kvad">
@@ -842,15 +818,14 @@
               </objectDesc>
 
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name
-                      type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other"><p>Skrevet af <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</p></handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="7.3">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Blikimans kvæði (3)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Blikimans kvæði</title></summary>
               <msItem n="7.3" class="kvad">
@@ -900,16 +875,15 @@
               </objectDesc>
 
               <handDesc hands="1">
-                <handNote scribe="JohCle001" scope="sole" script="unknown">Skrevet af <name
-                    type="person" key="JohCle001">Johannes Clemensen</name>.</handNote>
+                <handNote scribe="JohCle001" scope="sole" script="unknown">Skrevet af <name type="person" key="JohCle001">Johannes Clemensen</name>.</handNote>
               </handDesc>
 
             </physDesc>
           </msPart>
           <msPart n="8">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[2] 8</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Ríka frú</title></summary>
               <msItem n="8" class="kvad">
@@ -954,16 +928,15 @@
 
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" script="kurrent" scope="sole"><p>Skrevet af <name
-                      type="person" key="VenHam001">V.U. Hammershaimb</name>.</p></handNote>
+                <handNote scribe="VenHam001" script="kurrent" scope="sole"><p>Skrevet af <name type="person" key="VenHam001">V.U. Hammershaimb</name>.</p></handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="9">
             <!-- CURRENTLY MISPLACED AT END -->
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Bragdar tættir</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Bragdar tættir</title></summary>
               <msItem n="9" class="kvad">
@@ -1019,8 +992,7 @@
               </objectDesc>
 
               <handDesc hands="1">
-                <handNote scribe="JohSch001" scope="sole" script="other"><p>Skrevet af <name
-                      type="person" key="JohSch001">J. H. Schrøter</name>.</p></handNote>
+                <handNote scribe="JohSch001" scope="sole" script="other"><p>Skrevet af <name type="person" key="JohSch001">J. H. Schrøter</name>.</p></handNote>
               </handDesc>
 
               <additions>
@@ -1030,9 +1002,9 @@
 
           </msPart>
           <msPart n="10">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[2] 10</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Brúnsveins vísa</title></summary>
               <msItem n="10" class="kvad">
@@ -1079,15 +1051,14 @@
               </objectDesc>
 
               <handDesc hands="1">
-                <handNote scribe="VenHam001" script="kurrent" scope="sole"><p>Skrevet af <name
-                      type="person" key="VenHam001">V.U. Hammershaimb</name>.</p></handNote>
+                <handNote scribe="VenHam001" script="kurrent" scope="sole"><p>Skrevet af <name type="person" key="VenHam001">V.U. Hammershaimb</name>.</p></handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="11.1">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[2] 11</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Brøðurnir</title></summary>
               <msItem n="11.1" class="kvad">
@@ -1133,16 +1104,15 @@
               </objectDesc>
 
               <handDesc hands="1">
-                <handNote scribe="VenHam001" script="kurrent" scope="sole"><p>Skrevet af <name
-                      type="person" key="VenHam001">V.U. Hammershaimb</name>.</p></handNote>
+                <handNote scribe="VenHam001" script="kurrent" scope="sole"><p>Skrevet af <name type="person" key="VenHam001">V.U. Hammershaimb</name>.</p></handNote>
               </handDesc>
 
             </physDesc>
           </msPart>
           <msPart n="11.2">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[2] 11</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Brøðurnir</title></summary>
               <msItem n="11.2" class="kvad">
@@ -1199,23 +1169,22 @@
               </objectDesc>
 
               <handDesc hands="1">
-                <handNote scribe="VenHam001" script="kurrent" scope="sole"><p>Skrevet af <name
-                      type="person" key="VenHam001">V.U. Hammershaimb</name>.</p></handNote>
+                <handNote scribe="VenHam001" script="kurrent" scope="sole"><p>Skrevet af <name type="person" key="VenHam001">V.U. Hammershaimb</name>.</p></handNote>
               </handDesc>
 
             </physDesc>
           </msPart>
           <msPart n="13.1">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[2] 13.1</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Bænadikts kvæði</title></summary>
               <msItem n="12.1" class="kvad">
                 <locus from="33r" to="36r">s. 65-71 (bl. 33r-36r)</locus>
                 <title type="uniform">Bænadikts kvæði</title>
                 <bibl>CCF 121Ba. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">37-43</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">37-43</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -1254,22 +1223,21 @@
               </objectDesc>
 
               <handDesc hands="1">
-                <handNote scribe="JohSch001" scope="sole" script="other"><p>Skrevet af <name
-                      type="person" key="JohSch001">J. H. Schrøter</name>.</p></handNote>
+                <handNote scribe="JohSch001" scope="sole" script="other"><p>Skrevet af <name type="person" key="JohSch001">J. H. Schrøter</name>.</p></handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="13.2">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 c I[2] 13.2</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Bænadikts kvæði</title></summary>
               <msItem n="12.2" class="kvad">
                 <locus from="37r" to="41v">s. 73-82 (bl. 37r-41v)</locus>
                 <title type="uniform">Bænadikts kvæði</title>
                 <bibl>CCF 121Ca. <ref type="secondary-1" target="Foroya">Føroya Kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">43-50</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">43-50</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -1308,8 +1276,7 @@
               </objectDesc>
 
               <handDesc hands="1">
-                <handNote scribe="JohCle001" scope="sole" script="unknown">Skrevet af <name
-                    type="person" key="JohCle001">Johannes Clemensen</name>.</handNote>
+                <handNote scribe="JohCle001" scope="sole" script="unknown">Skrevet af <name type="person" key="JohCle001">Johannes Clemensen</name>.</handNote>
               </handDesc>
 
             </physDesc>

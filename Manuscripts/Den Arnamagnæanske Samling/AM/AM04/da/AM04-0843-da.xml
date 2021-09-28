@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,7 +14,9 @@
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 843 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>1975</idno>
@@ -23,10 +25,8 @@
                     <head>
                         <title type="supplied">Danske Annaler</title>
                         <origPlace>Lund, Danmark</origPlace>
-                        <origDate notBefore="1290" notAfter="1310" cert="medium"
-                            evidence="conjecture" resp="KKKat">ca. 1300</origDate>
-                        <origDate notBefore="1325" notAfter="1375" evidence="conjecture"
-                            resp="LNHaandskrifter">ca. 1350</origDate>
+                        <origDate notBefore="1290" notAfter="1310" cert="medium" evidence="conjecture" resp="KKKat">ca. 1300</origDate>
+                        <origDate notBefore="1325" notAfter="1375" evidence="conjecture" resp="LNHaandskrifter">ca. 1350</origDate>
                     </head>
                     <msContents>
                         <msItem n="1" defective="true">
@@ -34,7 +34,7 @@
                             <title type="uniform" xml:lang="la">Conspectus rerum Judæorum usqve ad
                                 interitum Hierosolymorum</title>
                             <textLang mainLang="la">Latin</textLang>
-                            <incipit defective="true">ta e&#x17F;t. Huíus etatis</incipit>
+                            <incipit defective="true">ta eſt. Huíus etatis</incipit>
                             <note>Sandsynligvis mangler 1 blad.</note>
                         </msItem>
                         <msItem n="2" defective="true">
@@ -46,13 +46,13 @@
                                 <locus from="5r" to="7v">5r-7v</locus>
                                 <incipit defective="true">Prímo temp<ex>or</ex>e</incipit>
                                 <explicit defective="true">hiarwart
-                                    &#x17F;ialan<lb/>diam</explicit>
+                                    ſialan<lb/>diam</explicit>
                             </msItem>
                             <msItem n="2.2">
                                 <locus from="8r" to="13v">8r-13v</locus>
                                 <incipit defective="true">dccxcix</incipit>
                                 <explicit defective="true">pirate in furore<ex>m</ex>
-                                    <ex>con</ex>u<ex>er</ex>&#x17F;i</explicit>
+                                    <ex>con</ex>u<ex>er</ex>ſi</explicit>
                             </msItem>
                         </msItem>
                     </msContents>
@@ -101,14 +101,12 @@
                         <listBibl>
                             <bibl>Langebek: <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
                                     Aevi</ref>
-                                <biblScope type="volume">I</biblScope>
-                                <biblScope type="pages">214 ff</biblScope>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">214 ff</biblScope>
                                 <note>Faksimile s. 223; citeret som <q xml:lang="la">fragmentum
                                         vetus</q>.</note>
                             </bibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat"
-                                    >Katalog</ref><biblScope type="volume">II</biblScope><biblScope
-                                    type="pages">231</biblScope></bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">231</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14,7 +14,9 @@
                     <msIdentifier>
                         <country>Danmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 325 VIII 4 b 4to.</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>1066</idno>
@@ -37,8 +39,8 @@
                             </explicit>
                             <bibl>
                                 <ref type="primary-2" target="FMS8">Fornmanna sögur</ref>
-                                <biblScope type="volume">VIII</biblScope>
-                                <biblScope type="pages">397-401</biblScope>
+                                <biblScope unit="volume">VIII</biblScope>
+                                <biblScope unit="pages">397-401</biblScope>
                             </bibl>
                         </msItem>
                         <msItem n="2">
@@ -46,8 +48,8 @@
                             <title type="uniform" xml:lang="is">Hákonar saga Sverrissonar</title>
                             <bibl>
                                 <ref type="primary-2" target="FMS9">Fornmanna sögur</ref>
-                                <biblScope type="volume">IX</biblScope>
-                                <biblScope type="pages">221-28</biblScope>
+                                <biblScope unit="volume">IX</biblScope>
+                                <biblScope unit="pages">221-28</biblScope>
                             </bibl>
                         </msItem>
                     </msContents>
@@ -82,11 +84,10 @@
                     <history>
                         <origin>
                             <p>Håndskriftet er skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> har dateret
-                                det til <origDate notBefore="1200" notAfter="1299" cert="medium" evidence="conjecture"
-                                  resp="KKKat">1200-tallet</origDate>
+                                det til <origDate notBefore="1200" notAfter="1299" cert="medium" evidence="conjecture" resp="KKKat">1200-tallet</origDate>
                                     (<bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                                    <biblScope type="volume">I</biblScope>
-                                    <biblScope type="pages">561</biblScope>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="pages">561</biblScope>
                                 </bibl>), mens <name type="person" key="HelJen001">Helle
                                     Jensen</name> har dateret det mere præcist til <origDate notBefore="1275" notAfter="1299" evidence="conjecture" resp="ONP">1200-tallets sidste
                                     fjerdedel</origDate>.</p>
@@ -96,7 +97,7 @@
                                 1.</p>
                             <p>Ifølge <bibl>
                                     <ref type="secondary" target="FMS9">Fornmanna sögur</ref>
-                                    <biblScope type="volume">IX</biblScope>
+                                    <biblScope unit="volume">IX</biblScope>
                                 </bibl> hørte der et omslag til bl. 2-3, på hvilket <name type="person" key="ArnMag001">Arne Magnusson</name> har skrevet:
                                     <q xml:lang="is">Þeſſe .2. innlgd bld eru
                                     fundin i <name type="place" key="NO">Noregi</name>. Eg hefi
@@ -114,8 +115,8 @@
                      </p>
                             <p>Louis-Jensen (<bibl>
                                     <ref type="secondary" target="BiblArn32">Kongesagastudier</ref>
-                                    <biblScope type="volume">XXXII</biblScope>
-                                    <biblScope type="pages">20</biblScope>
+                                    <biblScope unit="volume">XXXII</biblScope>
+                                    <biblScope unit="pages">20</biblScope>
                                 </bibl>) mener dog, at dette omslag snarere hører til <ref type="ms" target="#AM04-0325-VIII-4-c-da">AM 325 VIII 4 c 4to</ref>. </p>
                         </provenance>
                     </history>
@@ -158,31 +159,31 @@
                         <listBibl>
                             <bibl>
                                 <ref type="secondary" target="FMS8">Fornmanna sögur</ref>
-                                <biblScope type="volume">VIII</biblScope>
-                                <biblScope type="pages">XXII-XXXIII</biblScope>
+                                <biblScope unit="volume">VIII</biblScope>
+                                <biblScope unit="pages">XXII-XXXIII</biblScope>
                                 <note>Beskrevet som fragment 11</note>
                             </bibl>
                             <bibl>
                                 <ref type="secondary" target="FMS9">Fornmanna sögur</ref>
-                                <biblScope type="volume">IX</biblScope>
-                                <biblScope type="pages">x-xi</biblScope>
+                                <biblScope unit="volume">IX</biblScope>
+                                <biblScope unit="pages">x-xi</biblScope>
                             </bibl>
                             <bibl>Holm-Olsen: <ref type="secondary" target="EIMF3">The Sagas of King
                                     Sverrir and King Hakon the Old</ref>
-                                <biblScope type="pages">8</biblScope>
+                                <biblScope unit="pages">8</biblScope>
                             </bibl>
                             <bibl>Hreinn Benediktsson: <ref target="IHFol2">Early Icelandic
                                     Script</ref>
-                                <biblScope type="pages">xxxix-xl</biblScope>
+                                <biblScope unit="pages">xxxix-xl</biblScope>
                                 <note>Faksimile nr. 61 af bl. 1v</note>
                             </bibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">561</biblScope>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">561</biblScope>
                      </bibl>
                             <bibl>Louis-Jensen: <ref type="secondary" target="BiblArn32">Kongesagastudier</ref>
-                        <biblScope type="volume">XXXII</biblScope>
-                                <biblScope type="pages">20</biblScope>
+                        <biblScope unit="volume">XXXII</biblScope>
+                                <biblScope unit="pages">20</biblScope>
                      </bibl>
                         </listBibl>
                     </additional>

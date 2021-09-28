@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://tei-enrich.googlecode.com/svn/trunk/enrich-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,9 +14,9 @@
                     <msIdentifier>
                         <country key="IS">Ísland</country>
                         <settlement>Reykjavík</settlement>
-                        <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                        <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                         <repository>Handritasvið</repository>
-                        <collection>Safn Stofnunar Árna Magnússonar á Íslandi</collection>
+                        <collection key="SAM">Safn Stofnunar Árna Magnússonar á Íslandi</collection>
                         <idno>SÁM 100</idno>
                     </msIdentifier>
 
@@ -60,8 +60,7 @@
                                         <width>102</width>
                                     </dimensions>).</extent>
                                 <foliation>
-                                    <p>Seinni tíma tölusetning blaða með blýanti: 1-56. Blað <locus
-                                            from="56v" to="56v">56v</locus> er upprunalega autt; nú
+                                    <p>Seinni tíma tölusetning blaða með blýanti: 1-56. Blað <locus from="56v" to="56v">56v</locus> er upprunalega autt; nú
                                         þakið pennaprufum.</p>
                                 </foliation>
 
@@ -83,8 +82,7 @@
                                 <condition>.<p>
                                         <list>
                                             <item>Blöð eru blettótt og notkunarnúin og sumstaðar
-                                                hefur rifnað upp í tvinnin (sjá t.d. blöð <locus
-                                                  from="1r" to="8v">1-8</locus>).</item>
+                                                hefur rifnað upp í tvinnin (sjá t.d. blöð <locus from="1r" to="8v">1-8</locus>).</item>
 
                                         </list>
                                     </p></condition>
@@ -94,8 +92,7 @@
                                     <p>
                                         <list>
                                             <item>Eindálka.</item>
-                                            <item>Leturflötur er ca <dimensions type="written"
-                                                  unit="mm">
+                                            <item>Leturflötur er ca <dimensions type="written" unit="mm">
                                                   <height>146-152</height>
                                                   <width>90-95</width>
                                                 </dimensions>.</item>
@@ -109,36 +106,28 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scribe="EirPal001" scope="sole" script=" humcursiva "
-                                >Sennilega með hendi höfundar <name type="person" key="EirPal"
-                                    >Eiríks Pálssonar</name>; sprettskrift / snarhönd.</handNote>
+                            <handNote scribe="EirPal001" scope="sole" script=" humcursiva ">Sennilega með hendi höfundar <name type="person" key="EirPal">Eiríks Pálssonar</name>; sprettskrift / snarhönd.</handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote type="secondary" subtype="display-script"> Fyrirsögn og fyrsta
                                 lína rímu er með stærra letri en annars er á textanum (sjá t.d. blöð
-                                    <locus from="29r" to="29r">29r</locus> og <locus from="39r"
-                                    to="39r">39r</locus>). </decoNote>
+                                    <locus from="29r" to="29r">29r</locus> og <locus from="39r" to="39r">39r</locus>). </decoNote>
                         </decoDesc>
                         <additions>
                             <p>
                                 <list>
-                                    <item>Á neðri spássíu blaðs <locus from="56r" to="56r"
-                                        >56r</locus> stendur skrifað með blýanti: <q><name
-                                                type="person">Eiríkur Pálsson</name> á
-                                            Tjarna[r]garðsh[orni]</q> en þar bjó Eiríkur <date
-                                            notBefore="1859" notAfter="1861">1859-1861</date>. Á
+                                    <item>Á neðri spássíu blaðs <locus from="56r" to="56r">56r</locus> stendur skrifað með blýanti: <q><name type="person">Eiríkur Pálsson</name> á
+                                            Tjarna[r]garðsh[orni]</q> en þar bjó Eiríkur <date notBefore="1859" notAfter="1861">1859-1861</date>. Á
                                         blaði <locus from="56v" to="56v">56v</locus> eru ýmsar
                                         pennaæfingar þar sem fram koma meðal annars nöfnin: <q>E
                                             Pálsson á Völlum</q> en Eiríkur bjó á hluta þeirrar
-                                        jarðar <date notBefore="1857" notAfter="1859"
-                                        >1857-1859</date>; með sömu hendi eru rituð nöfnin: <q>
+                                        jarðar <date notBefore="1857" notAfter="1859">1857-1859</date>; með sömu hendi eru rituð nöfnin: <q>
                                             <name type="person">Kristján Þorsteinsson</name>
                                         </q>, <q>
                                             <name type="person">Jóhann Arnason</name>
                                         </q> og <q>Þórður</q>.</item>
                                     <item>Á blaði <locus from="1r" to="1r">1r</locus> er áritun Jóns
-                                        Borgfirðings <q>JBfi.</q> og stimpill <name type="person"
-                                            key="HalSte001">Halldórs Steinmanns
+                                        Borgfirðings <q>JBfi.</q> og stimpill <name type="person" key="HalSte001">Halldórs Steinmanns
                                         Þorsteinssonar</name>, <q>H. Steinmann.</q>
                                     </item>
 
@@ -160,8 +149,7 @@
                         </bindingDesc>
 
 
-                        <accMat>Afhendingarlisti Kvæðamannafélagsins Iðunnar, dagsettur <date
-                                when="2008-09-15">15. september 2008</date>. Miði með númeri
+                        <accMat>Afhendingarlisti Kvæðamannafélagsins Iðunnar, dagsettur <date when="2008-09-15">15. september 2008</date>. Miði með númeri
                             handrits á afhendingarlista er einnig meðfylgjandi.</accMat>
                     </physDesc>
                     <history>
@@ -172,8 +160,7 @@
                                     82</ref>). </p>
                         </origin>
                         <provenance>Handritið er gjöf frá Kvæðamannafélaginu Iðunni; tölusett sem nr. 216
-                            á afhendingarlista (sjá: Fylgigögn). Það var í safni <name type="person"
-                                >Halldórs Steinmanns Þorsteinssonar</name> og hefur sennilega verið
+                            á afhendingarlista (sjá: Fylgigögn). Það var í safni <name type="person">Halldórs Steinmanns Þorsteinssonar</name> og hefur sennilega verið
                             eiginhandarrit höfundarins (sjá nánar: Spássíugreinar og aðrar
                             viðbætur). </provenance>
                         <acquisition>Stofnun Árna Magnússonar á Íslandi fékk handritið, ásamt fleiri
@@ -187,8 +174,7 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p><name type="person" key="ValHil001">VH</name> skráði í <date
-                                            when="2010-09">september 2010</date>.</p>
+                                    <p><name type="person" key="ValHil001">VH</name> skráði í <date when="2010-09">september 2010</date>.</p>
                                 </source>
                             </recordHist>
                         </adminInfo>

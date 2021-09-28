@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,9 +20,9 @@
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
-						<institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+						<institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
 						<repository>Handritasafn</repository>
-						<collection>Handritasafn Jóns Sigurðssonar</collection>
+						<collection key="JS">Handritasafn Jóns Sigurðssonar</collection>
 						<idno>JS 258 4to</idno>
 						<altIdentifier type="internal" subtype="PEO">
 							<idno>5148</idno>
@@ -32,8 +32,7 @@
 						<textLang mainLang="is">Íslenska</textLang>
 						<msItem n="1" defective="unknown" class="kvad">
 							<title type="supplied">Kvæðasafn, 5. bindi</title>
-							<note>Jón Sigurðsson fékk handritin frá <name type="person"
-									key="ThoTho021">Þorsteini Þorsteinssyni</name> á Upsum og síra
+							<note>Jón Sigurðsson fékk handritin frá <name type="person" key="ThoTho021">Þorsteini Þorsteinssyni</name> á Upsum og síra
 									<name type="person" key="SveSku001">Sveini Skúlasyni</name></note>
 							<author key="ArnBod001">Árni Böðvarsson</author>
 							<author key="AsmSae001">Ásmundur Sæmundsson</author>
@@ -59,28 +58,28 @@
 								ónafngreindra höfunda.</note>
 							<bibl>
 								<ref target="ANF">Arkiv för nordisk filologi</ref>
-								<biblScope type="volume">III</biblScope>
-								<biblScope type="pages">368</biblScope>
+								<biblScope unit="volume">III</biblScope>
+								<biblScope unit="pages">368</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="ANF">Arkiv för nordisk filologi</ref>
-								<biblScope type="volume">IV</biblScope>
-								<biblScope type="pages">370</biblScope>
+								<biblScope unit="volume">IV</biblScope>
+								<biblScope unit="pages">370</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="IslGat">Íslenzkar gátur, skemtanir o.s.frv.</ref>
-								<biblScope type="volume">III</biblScope>
-								<biblScope type="pages">152, 188, 226, 295, 319-20, 326,
+								<biblScope unit="volume">III</biblScope>
+								<biblScope unit="pages">152, 188, 226, 295, 319-20, 326,
 								404</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="IslGat">Íslenzkar gátur, skemtanir o.s.frv.</ref>
-								<biblScope type="volume">IV</biblScope>
-								<biblScope type="pages">44, 324, 340, 358</biblScope>
+								<biblScope unit="volume">IV</biblScope>
+								<biblScope unit="pages">44, 324, 340, 358</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="JonThork1888">Digtningen på Island</ref>
-								<biblScope type="pages">204, 334</biblScope>
+								<biblScope unit="pages">204, 334</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="PalOla1926a">Menn og menntir siðskiptaaldarinnar á
@@ -88,13 +87,13 @@
 							</bibl>
 							<bibl>
 								<ref target="Kvadi">Kvæði</ref>
-								<biblScope type="volume">II</biblScope>
-								<biblScope type="pages">4 og passim</biblScope>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="pages">4 og passim</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="OlaDav1895a">Tímarit hins íslenska bókmenntafélags</ref>
-								<biblScope type="volume">VIII</biblScope>
-								<biblScope type="pages">50</biblScope>
+								<biblScope unit="volume">VIII</biblScope>
+								<biblScope unit="pages">50</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="JónHel1962a">Íslenzk fornkvæði</ref>
@@ -107,8 +106,7 @@
 								<support>
 									<p>Pappír.</p>
 								</support>
-								<extent>[6+ ] 268 blaðsíður (<dimensions scope="all" type="leaf"
-										unit="mm">
+								<extent>[6+ ] 268 blaðsíður (<dimensions scope="all" type="leaf" unit="mm">
 										<height>207</height>
 										<width>165</width>
 									</dimensions>).</extent>
@@ -130,12 +128,10 @@
 					<history>
 						<origin>
 							<origPlace key="is">Ísland</origPlace>
-							<origDate cert="medium" notBefore="1840" notAfter="1845"
-							>1840-1845.</origDate>
+							<origDate cert="medium" notBefore="1840" notAfter="1845">1840-1845.</origDate>
 						</origin>
 						<acquisition>
-							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date when="1878"
-									>1878.</date> Safnið var afhent Landsbókasafni að honum látnum,
+							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date when="1878">1878.</date> Safnið var afhent Landsbókasafni að honum látnum,
 								en hann lést 7. desember 1879. Það komst í hendur safnsins árið
 									<date when="1881">1881</date> er það var flutt í
 							Alþingishúsið.</p>
@@ -145,10 +141,7 @@
 						<adminInfo>
 							<recordHist>
 								<source><name type="person" key="HalKri001">Halldóra
-									Kristinsdóttir</name> yfirfór skráningu, <date when="2012-07-05"
-										>6. júlí 2012</date> ; <name type="person" key="IriLei001"
-										>Íris Alda Ísleifsdóttir</name> frumskráði, <date
-										when="2011-06-16">16. júní 2011</date> ; Handritaskrá, 2. b.
+									Kristinsdóttir</name> yfirfór skráningu, <date when="2012-07-05">6. júlí 2012</date> ; <name type="person" key="IriLei001">Íris Alda Ísleifsdóttir</name> frumskráði, <date when="2011-06-16">16. júní 2011</date> ; Handritaskrá, 2. b.
 									; Átaksverkefni 2011.</source>
 							</recordHist>
 						</adminInfo>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 120 fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>147</idno>
@@ -32,8 +32,7 @@
                         handritið saman við annað pappírshandrit. Árna sögu hefur hann ekki borið
                         saman við það handrit þar sem það hefur einungis innihaldið útdrátt
                         sögunnar. Á seðli eru tilmæli <name key="ArnMag001" type="person">Árna
-                           Magnússonar</name> til Þórðar um að bera handritið saman við bók <name
-                           type="person">Vigfúsar Jónssonar</name> á Leirá, til hans komna frá
+                           Magnússonar</name> til Þórðar um að bera handritið saman við bók <name type="person">Vigfúsar Jónssonar</name> á Leirá, til hans komna frá
                         Látrum en ættaða frá <name key="MagJon008" type="person">Magnúsi
                            Jónssyni</name> í Vigur.</note>
                      <!-- Þórður Þórðarson bar handritin saman út í gegn, en Árni Magnússon skipti sér ekkert af fyrr en alveg í lokin, þar sem hefst 80. kafli Árna sögu um árin 1291-1309. Þar skrifar hann á spássíu: <q>hoc caput de suo addidit Jonas Aræsonius pastor Vatnsfiordinus teste Brynolfo Svenonio Epo Scalholtensi qvi istud in sui codicis margine annotavit.</q> (305) (MJ) --></summary>
@@ -372,18 +371,13 @@
                               tilsvarandi texta úr öðru handriti, e.t.v. því sama og Þórður notaði
                               við samanburð.</item>
                            <!-- Í hdr. eru á tveimur stöðum innskotsbl. (við bl. 203 og 208) með tilsvarandi texta úr öðru hdr. e.t.v. því sama og Þórður notaði. (Sagnanet) - Telja sem innskotsblöð og setja í <additions> eða setja í <accMat> eða e.t.v. sem <msPart> ??? -->
-                           <item>Handritið er merkt <q>C</q> á spássíu bl. 1r með hendi frá <date
-                                 from="1700" to="1800">18. öld</date>.</item>
-                           <item>Lesbrigði á spássíum og milli lína að bl. 285r, með hendi <name
-                                 key="ThoTho003" type="person">Þórðar Þórðarsonar</name>.</item>
+                           <item>Handritið er merkt <q>C</q> á spássíu bl. 1r með hendi frá <date from="1700" to="1800">18. öld</date>.</item>
+                           <item>Lesbrigði á spássíum og milli lína að bl. 285r, með hendi <name key="ThoTho003" type="person">Þórðar Þórðarsonar</name>.</item>
                            <item>Ártöl og tilvísanir hér og þar á spássíum.</item>
-                           <item>Nokkrar vísur á spássíum um persónur sögunnar eftir sr. <name
-                                 key="JonAra002" type="person">Jón Arason</name> í Vatnsfirði.</item>
+                           <item>Nokkrar vísur á spássíum um persónur sögunnar eftir sr. <name key="JonAra002" type="person">Jón Arason</name> í Vatnsfirði.</item>
                            <!-- Einhvers konar tilvísun um þetta í Katalog: (III, 45, 67; IV, 50; V, 50) ? -->
                            <!-- Efnisorð: Lausavísur -->
-                           <item>Á spássíu við síðasta kafla Árna sögu hefur <name key="ArnMag001"
-                                 type="person">Árni Magnússon</name> skrifað upp athugagrein <name
-                                 key="BrySve001" type="person">Brynjólfs Sveinssonar</name> biskups
+                           <item>Á spássíu við síðasta kafla Árna sögu hefur <name key="ArnMag001" type="person">Árni Magnússon</name> skrifað upp athugagrein <name key="BrySve001" type="person">Brynjólfs Sveinssonar</name> biskups
                               úr <ref>AM 115 fol.</ref> um uppruna þessa viðbótarkafla.</item>
                         </list>
                      </p>
@@ -395,9 +389,7 @@
                   </bindingDesc>
                   <accMat>
                      <p>Tveir seðlar fremst: <list>
-                           <item n="1">með hendi skrifara (ef til vill <name key="ThoTho003"
-                                 type="person">Þórðar Þórðarsonar</name>): (<dimensions type="slip"
-                                 unit="mm">
+                           <item n="1">með hendi skrifara (ef til vill <name key="ThoTho003" type="person">Þórðar Þórðarsonar</name>): (<dimensions type="slip" unit="mm">
                                  <height>163</height>
                                  <width>101</width>
                               </dimensions>): <quote type="AMSlip" xml:lang="is">Þessa mína
@@ -443,8 +435,7 @@
                      <p>
                         <name key="ArnMag001" type="person">Árni Magnússon</name> virðist hafa fengið
                         handritið frá sr. <name key="VigGud003" type="person">Vigfúsi
-                           Guðbrandssyni</name> á Helgafelli á árunum <date from="1704" to="1707"
-                           >1704-1707</date>.</p>
+                           Guðbrandssyni</name> á Helgafelli á árunum <date from="1704" to="1707">1704-1707</date>.</p>
                      <!-- Sjá Katalog --></provenance>
                   <acquisition notBefore="1974-03-04" notAfter="1974-03-04">
                      <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 4. mars 1974.</p>
@@ -456,10 +447,7 @@
                         <source>
                            <p>Tekið eftir <bibl>
                                  <ref target="KKKat">Katalog I</ref>
-                              </bibl>, bls. 82-83 (nr. 147). <name key="KriKaa001" type="person"
-                                 >Kålund</name> gekk frá handritinu til skráningar í <date
-                                 when="1885-12">desember 1885</date>. <name key="DriThr001"
-                                 type="person">DKÞ</name> skráði <date when="2001-11-30">30.
+                              </bibl>, bls. 82-83 (nr. 147). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar í <date when="1885-12">desember 1885</date>. <name key="DriThr001" type="person">DKÞ</name> skráði <date when="2001-11-30">30.
                                  nóvember 2001</date>. <name key="ThuSig002" type="person">ÞÓS</name> skráði vatnsmerki <date when="2020-06-12">12. júní 2020</date>.</p>
                         </source>
                      </recordHist>

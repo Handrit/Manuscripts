@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,8 +14,9 @@
                     <msIdentifier>
                         <country key="DA">Denmark</country>
                         <settlement>Copenhagen</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
-                        <collection>Accessoria</collection>
+                        <collection key="Acc">Accessoria</collection>
                         <idno>Acc. 50</idno>
                     </msIdentifier>
                     <msContents>
@@ -31,8 +32,7 @@
                             <incipit>Mørd<ex>ur</ex> hiet mad<ex>ur</ex>
                                 <ex>og</ex> v<ex>ar</ex> kallad<ex>ur</ex> Gi<ex>g</ex>ja</incipit>
                             <explicit>Son Bren<ex>n</ex>u-|flosa var kolbeijrn, Er ägiætastur <lb/>
-                                madur hefur Eirn vered i þ<supplied reason="omitted"
-                                >ei</supplied>rre ætt </explicit>
+                                madur hefur Eirn vered i þ<supplied reason="omitted">ei</supplied>rre ætt </explicit>
                             <finalRubric>og lükum<ex>m</ex> vier hier So <lb/> Brennu Niaals <lb/>
                                 SØGU</finalRubric>
                             <colophon>Skrifud An<ex>n</ex>o Xti 1770 ä Nijrdra Skälanese <lb/> I
@@ -60,27 +60,21 @@
                                     <watermark>Vandmærker: Amsterdams byvåben (to forskellige
                                         versioner); bikubevandmærke uden indskrift på fodstykket;
                                         initialerne "WH"; teksten "Zoonen".</watermark></support>
-                                <extent>i + 281 + 1, inklusiv de blanke, indsatte blade. <dimensions
-                                        type="leaf" scope="all" unit="mm">
+                                <extent>i + 281 + 1, inklusiv de blanke, indsatte blade. <dimensions type="leaf" scope="all" unit="mm">
                                         <height>193</height>
                                         <width>152</width>
                                     </dimensions>
                                 </extent>
                                 <foliation>
                                     <p>De beskrevne blade er pagineret 1-279, men de senere indsatte
-                                        blade er uden paginering. Det forløber således: F. <locus
-                                            from="1r" to="1v">1-v</locus> er blank, <locus from="2r"
-                                            to="2v">2r-v</locus> er beskrevet og pagineret 1-2, bl.
+                                        blade er uden paginering. Det forløber således: F. <locus from="1r" to="1v">1-v</locus> er blank, <locus from="2r" to="2v">2r-v</locus> er beskrevet og pagineret 1-2, bl.
                                             <locus from="3r" to="3v">3r-v</locus> er blank, bl.
                                             <locus from="4r" to="4v">4r-v</locus> er beskrevet og
                                         pagineret 3-4, etc.</p>
                                     <p/>
                                 </foliation>
                                 <collation><signatures>De beskrevne, paginerede blade har
-                                        lægsignaturer; fra A på bl. <locus from="2r" to="2r"
-                                            >2r</locus> (og A2 på bl. <locus from="4r" to="4r"
-                                            >4r</locus>) til Kk3 på bl. <locus from="278r" to="278r"
-                                            >278r</locus>.</signatures></collation>
+                                        lægsignaturer; fra A på bl. <locus from="2r" to="2r">2r</locus> (og A2 på bl. <locus from="4r" to="4r">4r</locus>) til Kk3 på bl. <locus from="278r" to="278r">278r</locus>.</signatures></collation>
                                 <condition>De indsatte blanke blade mellem bl. 278 (s. 277-278) og
                                     279 (s. 279) er gået tabt.</condition>
                             </supportDesc>
@@ -101,8 +95,7 @@
                         </handDesc>
                         <decoDesc>
                             <decoNote type="initial" subtype="decorated">Dekoreret <!-- hvordan? -->
-                                15-linjers initial "M" på bl. <locus from="2r" to="2r"
-                                >2r</locus>.</decoNote>
+                                15-linjers initial "M" på bl. <locus from="2r" to="2r">2r</locus>.</decoNote>
                             <decoNote type="initial" subtype="flourished">Mindre 2-linjers folierede
                                 initialer i begyndelsen af kapitlerne.</decoNote>
                         </decoDesc>
@@ -130,21 +123,17 @@
                     <history>
                         <origin when="1770" cert="high" evidence="internal">
                             <p>Skrevet i <name type="place" key="NorVop01">Norður-Skálanes</name> i
-                                    <origPlace>det østlige Island</origPlace>, <origDate when="1770"
-                                    >1770</origDate>. </p>
+                                    <origPlace>det østlige Island</origPlace>, <origDate when="1770">1770</origDate>. </p>
                         </origin>
                         <acquisition when="2002">
-                            <p><name type="org" key="AMS">Den Arnamagnæanske Samling</name> i <name
-                                    type="place" key="Copen01">København</name> erhvervede
-                                håndskriftet i sommeren 2002 fra "<name type="org" key="VangsCopen"
-                                    >Søren Vangsgaards antikvariat</name>".</p>
+                            <p><name type="org" key="AMS">Den Arnamagnæanske Samling</name> i <name type="place" key="Copen01">København</name> erhvervede
+                                håndskriftet i sommeren 2002 fra "<name type="org" key="VangsCopen">Søren Vangsgaards antikvariat</name>".</p>
                         </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source><p>Katalogiseret den <date when="2018-09-12"/> af <name
-                                            type="person" key="KatKap001">Katarzyna Anna
+                                <source><p>Katalogiseret den <date when="2018-09-12"/> af <name type="person" key="KatKap001">Katarzyna Anna
                                             Kapitan</name>.</p></source>
                             </recordHist>
 
@@ -153,20 +142,16 @@
                             <p>
                                 <list>
                                     <item>Mikrofilm Neg 2017 fra <date when="2011-05-19"/>.</item>
-                                    <item>Mikrofilm (arkiv) 1099 fra <date when="2011-05-24"
-                                        />.</item>
+                                    <item>Mikrofilm (arkiv) 1099 fra <date when="2011-05-24"/>.</item>
                                     <item>Backup film TS 1295 fra <date when="2011-05-24"/>.</item>
                                 </list>
                             </p>
                         </surrogates>
                         <listBibl>
-                            <bibl><name type="person" key="PetSpr001">Peter Springborg</name>, <ref
-                                    type="secondary" target="PetSpr2002">Njals saga — 1770</ref>, s.
-                                    <biblScope type="pages">4 pp</biblScope></bibl>
-                            <bibl><name type="person" key="PetSpr001">Peter Springborg</name>, <ref
-                                    type="secondary" target="PetSpr2004">A recent addition to the
-                                    Arnamagnæan Collection</ref>, s. <biblScope type="pages"
-                                    >17</biblScope></bibl>
+                            <bibl><name type="person" key="PetSpr001">Peter Springborg</name>, <ref type="secondary" target="PetSpr2002">Njals saga — 1770</ref>, s.
+                                    <biblScope unit="pages">4 pp</biblScope></bibl>
+                            <bibl><name type="person" key="PetSpr001">Peter Springborg</name>, <ref type="secondary" target="PetSpr2004">A recent addition to the
+                                    Arnamagnæan Collection</ref>, s. <biblScope unit="pages">17</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

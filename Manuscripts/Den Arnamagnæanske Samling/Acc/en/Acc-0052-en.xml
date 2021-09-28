@@ -1,4 +1,4 @@
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,8 +14,9 @@
                     <msIdentifier>
                         <country key="DA">Denmark</country>
                         <settlement>Copenhagen</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
-                        <collection>Accessoria</collection>
+                        <collection key="Acc">Accessoria</collection>
                         <idno>Acc. 52</idno>
                     </msIdentifier>
                     <msContents>
@@ -24,8 +25,7 @@
                         <textLang mainLang="is" otherLangs="la"/>
                         <titlePage type="ms">
                             <docTitle>
-                                <titlePart type="main">Fundin<ex>n</ex> Noregur (<locus from="2r"
-                                    to="2r">2r</locus>)</titlePart>
+                                <titlePart type="main">Fundin<ex>n</ex> Noregur (<locus from="2r" to="2r">2r</locus>)</titlePart>
                             </docTitle>
                         </titlePage>
                         <msItem n="1" class="fas">
@@ -105,8 +105,7 @@
                             <supportDesc material="chart">
                                 <support><material>Paper</material>. <watermark>Watermarks: Pro Patria (Maid of Dort);
                                     the initials "MB"; the text "COMP".</watermark></support>
-                                <extent>14 + ii leaves. Size of leaves: <dimensions type="leaf"
-                                    scope="all" unit="mm">
+                                <extent>14 + ii leaves. Size of leaves: <dimensions type="leaf" scope="all" unit="mm">
                                     <height>158</height>
                                     <width>98</width>
                                 </dimensions></extent>
@@ -153,21 +152,15 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1807" notAfter="1827" cert="high" evidence="internal">
-                            <p>Written in <origPlace>Denmark</origPlace> <origDate
-                                notBefore="1807" notAfter="1827">around 1817</origDate> by <name
-                                    type="person" key="FreSch002">Frederik Schaldemose</name>.</p>
+                            <p>Written in <origPlace>Denmark</origPlace> <origDate notBefore="1807" notAfter="1827">around 1817</origDate> by <name type="person" key="FreSch002">Frederik Schaldemose</name>.</p>
                         </origin>
                         <provenance>
-                            <p>The manuscripts <ref
-                                target="#Acc-0051-en #Acc-0053-en #Acc-0054-en #Acc-0055-en #Acc-0056-en #Acc-0057-en 
-                                #Acc-0058-en #Acc-0059-en #Acc-0060-en #Acc-0061-en #Acc-0062-en"
-                                >Acc. 51-62</ref> belong to the collection of manuscripts
+                            <p>The manuscripts <ref target="#Acc-0051-en #Acc-0053-en #Acc-0054-en #Acc-0055-en #Acc-0056-en #Acc-0057-en                                  #Acc-0058-en #Acc-0059-en #Acc-0060-en #Acc-0061-en #Acc-0062-en">Acc. 51-62</ref> belong to the collection of manuscripts
                                 Frederik Schaldemose bequeathed to <name type="org">Nykøbing Katedralskole</name>. Most of
                                 them are Fredrik Schaldemose's transcriptions of Old Norse texts.</p>
                         </provenance>
                         <acquisition>
-                            <p><orgName key="AMS">The Arnamagnæan Collection</orgName> in <name
-                                type="place" key="Copen01">Copenhagen</name> acquired the
+                            <p><orgName key="AMS">The Arnamagnæan Collection</orgName> in <name type="place" key="Copen01">Copenhagen</name> acquired the
                                 manuscript from the school in <date when="2007">April 2007</date> as
                                 a gift.</p>
                         </acquisition>
@@ -176,13 +169,10 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued on <date when="2014-01-10"/> by <name
-                                        type="person">Jeffrey Love</name> for the on-line
+                                    <p>Catalogued on <date when="2014-01-10"/> by <name type="person">Jeffrey Love</name> for the on-line
                                         catalogue fasnl.ku.dk.</p>
                                     <p>Converted to handrit.org standard, revised, and appended with
-                                        additional information from the manuscript on <date
-                                            when="2018-09-14"/> by <name type="person"
-                                                key="KatKap001">Katarzyna Anna Kapitan</name>.</p>
+                                        additional information from the manuscript on <date when="2018-09-14"/> by <name type="person" key="KatKap001">Katarzyna Anna Kapitan</name>.</p>
                                 </source>
                             </recordHist>
                         </adminInfo>
@@ -190,8 +180,7 @@
                             <p>
                                 <list>
                                     <item>Microfilm Neg 2018 from <date when="2011-05-30"/>.</item>
-                                    <item>Microfilm (archive) 2000 from <date when="2011-06-01"
-                                    />.</item>
+                                    <item>Microfilm (archive) 2000 from <date when="2011-06-01"/>.</item>
                                     <item>Backup film TS 1296 from <date when="2011-06-01"/>.</item>
                                 </list>
                             </p>

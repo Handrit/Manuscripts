@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -13,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 268 fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>423</idno>
@@ -24,8 +25,7 @@
                <head>
                   <title type="supplied">Bréfabók Brynjólfs biskups Sveinssonar VII</title>
                   <origPlace>Ísland</origPlace>
-                  <origDate notBefore="1652" notAfter="1652" evidence="external"
-                     >1652-1654</origDate>
+                  <origDate notBefore="1652" notAfter="1652" evidence="external">1652-1654</origDate>
                   <!--<lang>Íslenska</lang>--><note>Titilsíða: <q>Brefabök B<expan>isku</expan>pſens
                         M. Brynjölfs Sveins <lb/> ſonar ſem byriast A 1652. 29 Juny,
                            en<expan>n</expan> endaſt Anno 1654 30 July. Hier eru og <lb/> ſo
@@ -595,7 +595,7 @@
                      <note>S. 71v (176) er auð.</note>
                   </msItem>
                   <msItem n="74 (177)" class="fornb pres" defective="false">
-                     <locus from="72r" to="72r"></locus>
+                     <locus from="72r" to="72r"/>
                      <rubric>Vígslubréf Gísla Jónssonar.</rubric>
                      <note>Brynjólfur biskup tilkynnir Jóni Daðasyni, presti í Arnarbæli, að hann hefur skipað honum aðstoðarprest (kapellán) sem er Gísli Jónsson. Gísli hefur hlotið prestvígslu og á að annast alla þjónustu í Ölvesi í forföllum sr. Jóns. Dags. í Skálholti 1. nóvember 1653.</note>
                      <respStmt>
@@ -628,7 +628,7 @@
                      <note>Indriði Jónsson sem búið hefur á Rangárvöllum alla ævi vottar að landamerki Efri Strandar og aðliggjandi jarða séu rétt eftir hans bestu vitneskju. Sigmundur Guðmundsson og Jón Ingjaldsson rita vitnisburðinn upp eftir Indriða, en auk þeirra skrifa fimm dómsmenn undir skjalið. Dags. á Reyðarvatni 9. maí 1653.</note>
                   </msItem>
                   <msItem n="79 (191-192)" class="fornb landmbr" defective="false">
-                     <locus from="74r" to="74v"></locus>
+                     <locus from="74r" to="74v"/>
                      <rubric>Annar vitnisburður um Efri Strandar land.</rubric>
                      <note>Auðun Ólafsson sem ólst upp á Efri Strönd og búið hefur á Rangárvöllum mestalla ævina vottar að landamerki Efri Strandar og aðliggjandi jarða séu rétt eftir hans bestu vitneskju. Sigmundur Guðmundsson og Jón Ingjaldsson rita vitnisburðinn upp eftir Indriða, en auk þeirra skrifa fimm dómsmenn undir skjalið. Dags. á Reyðarvatni 9. maí 1653.</note>
                   </msItem>
@@ -699,7 +699,7 @@
                      <note>Yfirlit yfir gjörningsbréf í bókhaldi Brynjólfs biskups, mest kaupbréf en einnig kvittanir, samþykkisbréf fyrir sölu jarða og vitnisburðir um landamerki. Alls eru talin upp 175 bréf. Dags. 11. júlí 1652.</note>
                   </msItem>
                   <msItem n="89 (205)" class="fornb pres pred" defective="false">
-                     <locus from="84r" to="84v"></locus>
+                     <locus from="84r" to="84v"/>
                      <rubric>Áminningarbréf prestanna í Skálholtsstifti um guðrækilegt bænadagahald.</rubric>
                      <note>Brynjólfur biskup skrifar próföstum og prestum í Skálholtsstifti. Hann hefur meðtekið ellefu eintök af bók með bænadagaprédikunum úr hendi konungs. Hann dreifir þessum eintökum til valinna presta og mælist til þess að menn láni hverjir öðrum bækurnar svo að þær nýtist sem best. Í bókinni er að finna upplýsingar um alla þá bænadaga sem konungur býður að séu hafðir í heiðri meðal þegna sinna og eru þegar haldnir hátíðlegir í Danmörku og Noregi. Dags. í Skálholti 27. október 1653.</note>
                   </msItem>
@@ -2180,7 +2180,7 @@
                             </list>
                         </p></collation>
                         <condition>
-                           <p></p>
+                           <p/>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -2203,13 +2203,10 @@
                      </binding>
                   </bindingDesc>
                   <accMat>
-                     <p>Einn <locus from="accMat01r" to="accMat01v">seðill</locus> (<dimensions
-                           type="slip" unit="mm">
+                     <p>Einn <locus from="accMat01r" to="accMat01v">seðill</locus> (<dimensions type="slip" unit="mm">
                            <height>168</height>
                            <width>103</width>
-                        </dimensions>) fremst með hendi skrifara <name key="ArnMag001" type="person"
-                           >Árna Magnússonar</name> og með viðbótum frá Árna: <quote xml:lang="is"
-                           type="AMSlip">Þessi VIIda bréfabók mag: Brynjólfs heyrir til lögmanninum
+                        </dimensions>) fremst með hendi skrifara <name key="ArnMag001" type="person">Árna Magnússonar</name> og með viðbótum frá Árna: <quote xml:lang="is" type="AMSlip">Þessi VIIda bréfabók mag: Brynjólfs heyrir til lögmanninum
                            Sigurði Björnssyni. Var hún, þá mér í hönd kom samföst við þá Itu, en
                            ég separeraði þær ordinis causa. [Með hendi Árna: Nú á ég hana. Hinum megin
                            H. lögmannsins Sigurðar Björnssonar]</quote></p>
@@ -2226,10 +2223,8 @@
                            hjá <name key="SigBjo001" type="person">Sigurði Björnssyni</name>
                         lögmanni, fyrst að láni og síðar til eignar (sbr. seðil). Sigurður gæti hafa
                         fengið hana frá mági sínum <name key="JonSig006" type="person">Jóni
-                           Sigurðssyni</name> í Einarsnesi, er átti <name type="person"
-                           >Ragnheiði</name> dóttur sr. <name key="TorJon002" type="person">Torfa
-                           Jónssonar</name>, sem var aðalerfingi <name key="BrySve001" type="person"
-                           >Brynjólfs</name> biskups (sbr. Jón Helgason, <bibl>
+                           Sigurðssyni</name> í Einarsnesi, er átti <name type="person">Ragnheiði</name> dóttur sr. <name key="TorJon002" type="person">Torfa
+                           Jónssonar</name>, sem var aðalerfingi <name key="BrySve001" type="person">Brynjólfs</name> biskups (sbr. Jón Helgason, <bibl>
                            <ref>Úr bréfabókum Bryjólfs biskups Sveinssonar</ref>
                         </bibl>, bls. VII). Þetta bindi var þá samfast við fyrsta bindið en Árni tók
                         þau í sundur (sbr. seðil). Fyrsta bindið hefur glatast við brunann 1728.</p>
@@ -2245,17 +2240,12 @@
                         <source>
                            <p>Tekið eftir <bibl>
                                  <ref target="KKKat">Katalog I</ref>
-                              </bibl>, bls. 242 (nr. 423). <name key="KriKaa001" type="person"
-                                 >Kålund</name> gekk frá handritinu til skráningar í <date
-                                 when="1886-01">janúar 1886</date>. <name key="DriThr001"
-                                    type="person">DKÞ</name> færði inn grunnupplýsingar <date>1. júlí 2002</date>. <name key="HjaAeg001"
-                                       type="person">HSÆ</name> skráði í <date>desember 2018</date>. <name key="ThuSig002" type="person">ÞÓS</name> skráði vatnsmerki<date when="2020-07-03">3. júlí 2020</date>.</p>
+                              </bibl>, bls. 242 (nr. 423). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar í <date when="1886-01">janúar 1886</date>. <name key="DriThr001" type="person">DKÞ</name> færði inn grunnupplýsingar <date>1. júlí 2002</date>. <name key="HjaAeg001" type="person">HSÆ</name> skráði í <date>desember 2018</date>. <name key="ThuSig002" type="person">ÞÓS</name> skráði vatnsmerki<date when="2020-07-03">3. júlí 2020</date>.</p>
                         </source>
                      </recordHist>
                      <custodialHist>
                         <custEvent type="conservation" notBefore="1977" notAfter="1977">
-                           <p>Viðgert og bundið á verkstæði <name key="BirDal001" type="person"
-                                 >Birgitte Dall</name> í mars 1977. Eldra band fylgir í öskju sem nú
+                           <p>Viðgert og bundið á verkstæði <name key="BirDal001" type="person">Birgitte Dall</name> í mars 1977. Eldra band fylgir í öskju sem nú
                               er orðin of lítil fyrir handritið sjálft.</p>
                         </custEvent>
                      </custodialHist>

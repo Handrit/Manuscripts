@@ -1,4 +1,4 @@
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="msDesc.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -11,11 +11,13 @@
         <pubPlace>Copenhagen</pubPlace>
       </publicationStmt>
       <sourceDesc>
-        <msDesc xml:id="Acc-0004-e-en" xml:lang="en">
+        <msDesc xml:id="Acc-0004-d-en" xml:lang="en">
           <msIdentifier>
             <country>Denmark</country>
             <settlement>Copenhagen</settlement>
+            <institution key="AMS"/>
             <repository>Den Arnamagnæanske Samling</repository>
+            <collection key="Acc"/>
             <idno>Acc. 4 d</idno>
             <altIdentifier type="internal" subtype="KKKat">
               <idno>2826</idno>
@@ -29,11 +31,9 @@
           <physDesc>
             <bindingDesc>
               <binding>
-                <p>The materials were originally kept in a brown paper cover with the title <quote
-                    xml:lang="da">Forskjellige i Provst <name>V. U. Hammershaimbs</name> Bo
+                <p>The materials were originally kept in a brown paper cover with the title <quote xml:lang="da">Forskjellige i Provst <name>V. U. Hammershaimbs</name> Bo
                     forefundne ikke ordnede færöske Optegnelser.</quote> written in black ink.</p>
-                <condition><p>Only the front cover is preserved, measuring <dimensions
-                      type="binding">
+                <condition><p>Only the front cover is preserved, measuring <dimensions type="binding">
                       <height unit="mm" quantity="245">245</height>
                       <width unit="mm" quantity="195">195</width>
                     </dimensions></p></condition>
@@ -41,9 +41,9 @@
             </bindingDesc>
           </physDesc>
           <msPart n="1">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Acc. 4 d (1)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Letter to <name>V. U.
                 Hammershaimb</name></title></summary>
@@ -90,12 +90,12 @@
             </physDesc>
           </msPart>
           <msPart n="2">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Acc. 4 d (2)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Various notes</title></summary>
-              <msItem n="2" class="">
+              <msItem n="2">
                 <locus from="2r" to="3v">pp. 3-6 (ff. 2r-3v)</locus>
                 <title type="supplied">Various notes</title>
               </msItem>
@@ -120,9 +120,9 @@
             </physDesc>
           </msPart>
           <msPart n="3">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 d (3)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Twenty-four prayers</title></summary>
               <msItem n="3" class="ban">
@@ -174,9 +174,9 @@
             </physDesc>
           </msPart>
           <msPart n="4">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 d (4)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary>
                 <title type="supplied">Faroese Legends</title>
@@ -197,9 +197,9 @@
                 </msItem>
                 <bibl>Hammershaimb: <ref type="primary-1" target="VenHam1849folkesagn">Færøiske
                     Folkesagn</ref>
-                  <biblScope type="pages">339</biblScope>
+                  <biblScope unit="pages">339</biblScope>
                   <ref type="primary-1" target="VenHam1891">Færøsk Anthologi</ref>
-                  <biblScope type="pages">358</biblScope>
+                  <biblScope unit="pages">358</biblScope>
                 </bibl>
               </msItem>
               <msItem class="sagn">
@@ -218,9 +218,9 @@
                 </msItem>
                 <bibl>Hammershaimb: <ref type="primary-1" target="VenHam1849folkesagn">Færøiske
                     Folkesagn</ref>
-                  <biblScope type="pages">339-340</biblScope>
+                  <biblScope unit="pages">339-340</biblScope>
                   <ref type="primary-1" target="VenHam1891">Færøsk Anthologi</ref>
-                  <biblScope type="pages">356</biblScope>
+                  <biblScope unit="pages">356</biblScope>
                 </bibl>
               </msItem>
               <msItem class="sagn" defective="true">
@@ -231,9 +231,8 @@
                 <explicit>leggjast í hvílu</explicit>
                 <note>Two separate legends from <placeName>Fámjin</placeName>, the second of which
                   is labelled number 4.</note>
-                <bibl>A slightly different version of the legends is found in Hammershaimb: <ref
-                    type="primary-3" target="VenHam1891">Færøsk Anthologi</ref>
-                  <biblScope type="pages">384-385</biblScope>
+                <bibl>A slightly different version of the legends is found in Hammershaimb: <ref type="primary-3" target="VenHam1891">Færøsk Anthologi</ref>
+                  <biblScope unit="pages">384-385</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -258,15 +257,14 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="kurrent">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="kurrent">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="5">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 d (5)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Contents of <name>Schrøter</name>'s ballad manuscript
                   (III)</title></summary>
@@ -312,20 +310,18 @@
                       <width unit="mm" quantity="168">168</width>
                     </dimensions>
                   </extent>
-                  <condition><p>The leaf was originally placed between <locus from="15v" to="16r"
-                        >pp. 30-31 (ff. 15v-16r)</locus>.</p></condition>
+                  <condition><p>The leaf was originally placed between <locus from="15v" to="16r">pp. 30-31 (ff. 15v-16r)</locus>.</p></condition>
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="6">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Ole Worm's Faroese Ballads</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Ole Worm's Faroese Ballads</title></summary>
               <msItem class="regist">
@@ -350,15 +346,14 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="7">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Contents of Schrøter's manuscript (I)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Contents of Schrøter's ballad
                 manuscript</title></summary>
@@ -386,15 +381,14 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="8">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Contents of Hentze's manuscript</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Contents of Hentze's ballad
                 manuscript</title></summary>
@@ -419,15 +413,14 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="9">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Contents of Det kgl. nordiske Oldskriftselskab archive</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Contents of Det kgl. nordiske Oldskriftselskab
                   archive</title></summary>
@@ -452,15 +445,14 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="10">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Contents of Svabo's Quarto</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Contents of Svabo's Quarto</title></summary>
               <msItem class="regist">
@@ -483,15 +475,14 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="11">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Schrøter</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Contents of Schrøter's ballad
                 manuscript</title></summary>
@@ -516,15 +507,14 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="12">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Jógvan Símunsson</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Jógvan í Dalgarði og synir hans</title></summary>
               <msItem class="sagn">
@@ -540,9 +530,8 @@
                   <resp key="inf">Informant:</resp>
                   <name type="person">Dániel Jógvansson í Skúvoy</name>
                 </respStmt>
-                <bibl>Retold in Hammershaimb: <ref type="primary-3" target="VenHam1849folkesagn"
-                    >Færøiske Folkesagn</ref>
-                  <biblScope type="pages">335-337</biblScope>
+                <bibl>Retold in Hammershaimb: <ref type="primary-3" target="VenHam1849folkesagn">Færøiske Folkesagn</ref>
+                  <biblScope unit="pages">335-337</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -558,16 +547,15 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
           </msPart>
 
           <msPart n="13">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Guttormur løgmaður</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Guttormur løgmaður</title></summary>
               <msItem class="sagn">
@@ -578,7 +566,7 @@
                 <explicit>liggur grivin í trimum kirkjugörðum</explicit>
                 <bibl>Partly retold in Jakobsen: <ref type="primary-3">Færøske folkesagn og
                     æventyr</ref>
-                  <biblScope type="pages">34-36</biblScope>
+                  <biblScope unit="pages">34-36</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -594,15 +582,14 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="14">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 d (14)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Faroese Nursery Rhymes and Proverbs</title></summary>
               <titlePage>
@@ -622,7 +609,7 @@
                   <explicit>so skeal badne tia.</explicit>
                   <bibl>Hammershaimb: <ref type="primary-1" target="VenHam1849barneviser">Barneviser
                       og ramser</ref>
-                    <biblScope type="pages">312-313</biblScope> item 7 </bibl>
+                    <biblScope unit="pages">312-313</biblScope> item 7 </bibl>
                 </msItem>
                 <msItem class="barnag">
                   <locus from="19r" to="19r">p. 37 (f. 19r)</locus>
@@ -639,7 +626,7 @@
                   <explicit>harrin han viil gieva okkun baavir</explicit>
                   <bibl>Hammershaimb: <ref type="primary-1" target="VenHam1849barneviser">Barneviser
                       og ramser</ref>
-                    <biblScope type="pages">312</biblScope> item 5 </bibl>
+                    <biblScope unit="pages">312</biblScope> item 5 </bibl>
                 </msItem>
                 <msItem class="barnag">
                   <locus from="19v" to="20r">p. 38-39 (f. 19v-20r)</locus>
@@ -649,7 +636,7 @@
                   <explicit>uj veal kunde ead fliyva</explicit>
                   <bibl>Hammershaimb: <ref type="primary-1" target="VenHam1849barneviser">Barneviser
                       og ramser</ref>
-                    <biblScope type="pages">314</biblScope> item 12 </bibl>
+                    <biblScope unit="pages">314</biblScope> item 12 </bibl>
                 </msItem>
                 <msItem class="barnag">
                   <locus from="20r" to="20r">p. 39 (f. 20r)</locus>
@@ -659,7 +646,7 @@
                   <explicit>kjaa okkun sjolvun</explicit>
                   <bibl>Hammershaimb: <ref type="primary-1" target="VenHam1849barneviser">Barneviser
                       og ramser</ref>
-                    <biblScope type="pages">314</biblScope> item 11 </bibl>
+                    <biblScope unit="pages">314</biblScope> item 11 </bibl>
                 </msItem>
                 <msItem class="barnag">
                   <locus from="20r" to="20v">pp. 39-40 (ff. 20r-20v)</locus>
@@ -670,7 +657,7 @@
                   <note>Second half of nursery rhyme</note>
                   <bibl>Hammershaimb: <ref type="primary-1" target="VenHam1849barneviser">Barneviser
                       og ramser</ref>
-                    <biblScope type="pages">313</biblScope> item 9 </bibl>
+                    <biblScope unit="pages">313</biblScope> item 9 </bibl>
                 </msItem>
                 <msItem class="barnag">
                   <locus from="20v" to="20v">p. 40 (f. 20v)</locus>
@@ -680,7 +667,7 @@
                   <explicit>o gronun traaje</explicit>
                   <bibl>Hammershaimb: <ref type="primary-1" target="VenHam1849barneviser">Barneviser
                       og ramser</ref>
-                    <biblScope type="pages">311</biblScope> item 2 </bibl>
+                    <biblScope unit="pages">311</biblScope> item 2 </bibl>
                 </msItem>
                 <msItem class="barnag">
                   <locus from="20v" to="20v">p. 40 (f. 20v)</locus>
@@ -697,7 +684,7 @@
                   <explicit>sprotin vear eav gudlenun reja</explicit>
                   <bibl>Hammershaimb: <ref type="primary-1" target="VenHam1849barneviser">Barneviser
                       og ramser</ref>
-                    <biblScope type="pages">310</biblScope> item 1 </bibl>
+                    <biblScope unit="pages">310</biblScope> item 1 </bibl>
                 </msItem>
                 <msItem class="barnag">
                   <locus from="21r" to="21v">pp. 41-42 (ff. 21r-21v)</locus>
@@ -708,7 +695,7 @@
                   <note>First half of nursery rhyme</note>
                   <bibl>Hammershaimb: <ref type="primary-1" target="VenHam1849barneviser">Barneviser
                       og ramser</ref>
-                    <biblScope type="pages">313</biblScope> item 9 </bibl>
+                    <biblScope unit="pages">313</biblScope> item 9 </bibl>
                   <msItem class="barnag" defective="true">
                     <locus from="21r" to="21v">p. 42 (f. 21v)</locus>
                     <title type="uniform">Eg sat mær á gøtulíð</title>
@@ -717,9 +704,8 @@
                     <explicit>idla spidla</explicit>
                     <note>The second half of the nursery rhyme has been written out again and
                       crossed out</note>
-                    <bibl>Hammershaimb: <ref type="primary-1" target="VenHam1849barneviser"
-                        >Barneviser og ramser</ref>
-                      <biblScope type="pages">313</biblScope> item 9 </bibl>
+                    <bibl>Hammershaimb: <ref type="primary-1" target="VenHam1849barneviser">Barneviser og ramser</ref>
+                      <biblScope unit="pages">313</biblScope> item 9 </bibl>
                   </msItem>
                 </msItem>
                 <msItem class="barnag">
@@ -751,7 +737,7 @@
                   <explicit>taaje han kiemur attir eav sodne</explicit>
                   <bibl>Hammershaimb: <ref type="primary-1" target="VenHam1849barneviser">Barneviser
                       og ramser</ref>
-                    <biblScope type="pages">313</biblScope> item 8 </bibl>
+                    <biblScope unit="pages">313</biblScope> item 8 </bibl>
                 </msItem>
               </msItem>
               <msItem class="mals">
@@ -763,8 +749,7 @@
                   <rubric>Førisk orðtøk</rubric>
                   <incipit>Betst er at biðja, tái tu ert sjålvbargjin</incipit>
                   <explicit>Hvör krevir tann kunnugasta</explicit>
-                  <bibl>Found in Hammershaimb: <ref type="primary-3" target="VenHam1849ordsprog"
-                      >Færøiske ordsprog</ref>
+                  <bibl>Found in Hammershaimb: <ref type="primary-3" target="VenHam1849ordsprog">Færøiske ordsprog</ref>
                   </bibl>
                 </msItem>
                 <msItem class="mals">
@@ -792,9 +777,9 @@
             </physDesc>
           </msPart>
           <msPart n="15">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Bible translations</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Bible translations</title></summary>
               <msItem class="tyd bibl">
@@ -829,15 +814,14 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="16">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Charter (copy)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Copy of a charter</title></summary>
               <msItem class="fornbr">
@@ -861,15 +845,14 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="17">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Field notes</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Faroese legend and proverb</title></summary>
               <msItem class="mals">
@@ -884,7 +867,7 @@
                 <incipit>Fatækur maður - ein son</incipit>
                 <explicit>við henni og húðini</explicit>
                 <bibl> Found in Jakobsen <ref type="primary-3">Sagnir og ævintýr</ref> <!-- LENA: Should this be changed into "Færøske folkesagn og æventyr" ? Also, why no target? (Is it this one: target="STUAGNL27"?) [17/09/21] -->
-                  <biblScope type="pages">89-92</biblScope>
+                  <biblScope unit="pages">89-92</biblScope>
                 </bibl>
                 <!-- TODO check this reference again against manuscript; it is clearly notes but there are two versions, one is apparently from Sumba -->
               </msItem>
@@ -904,15 +887,14 @@
                 </supportDesc>
               </objectDesc>
               <handDesc hands="1">
-                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name
-                    type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
+                <handNote scribe="VenHam001" scope="sole" script="other">Written by <name type="person" key="VenHam001">V. U. Hammershaimb</name>.</handNote>
               </handDesc>
             </physDesc>
           </msPart>
           <msPart n="18">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Varia (to be determined later)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="supplied">Varia (to be determined later)</title></summary>
               <msItem class="sagn" defective="true">
@@ -928,7 +910,7 @@
                 <note>Ends defective</note>
                 <bibl>Used in Hammershaimb: <ref type="primary-2" target="VenHam1891">Færøsk
                     Anthologi</ref>
-                  <biblScope type="pages">358-368</biblScope>
+                  <biblScope unit="pages">358-368</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -939,16 +921,14 @@
             </history>
           </msPart>
           <msPart n="19">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 d 19</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <msItem class="notes">
                 <locus from="32r" to="33v">pp. 63-66 (ff. 32r-33v)</locus>
                 <title type="supplied">Notes on Faroese legends</title>
-                <note>Contains notes about <title type="uniform">Rinkusteinarnir</title>, <title type="uniform">Skógir í Føroyum</title>, <title
-                    type="uniform">Flesjarnar</title>, <title type="uniform">Skúvoy</title>, <title
-                    type="uniform">Flokksmenn</title>, <title type="uniform">Nóa ark</title> and
+                <note>Contains notes about <title type="uniform">Rinkusteinarnir</title>, <title type="uniform">Skógir í Føroyum</title>, <title type="uniform">Flesjarnar</title>, <title type="uniform">Skúvoy</title>, <title type="uniform">Flokksmenn</title>, <title type="uniform">Nóa ark</title> and
                     <title type="uniform">Risi og Kelling</title></note>
               </msItem>
               <msItem n="1" class="sagn">
@@ -962,27 +942,27 @@
                 <locus>p. 63</locus>
                 <title type="uniform">Skógir í Føroyum</title>
 		<incipit>Haraldur gråfeldur sendi folk</incipit>
-		<explicit></explicit>
+		<explicit/>
               </msItem>
 	      <msItem>
-                <locus></locus>
+                <locus/>
                 <title type="uniform">Flesjarnar</title>
               </msItem>
 
 	      <msItem>
-                <locus></locus>
+                <locus/>
                 <title type="uniform">Skúvoy</title>
               </msItem>
               <msItem>
-                <locus></locus>
+                <locus/>
                 <title type="uniform">Flokksmenn</title>
               </msItem>
               <msItem>
-                <locus></locus>
+                <locus/>
                 <title type="uniform">Nóa ark</title>
               </msItem>
               <msItem>
-                <locus></locus>
+                <locus/>
                 <title type="uniform">Risi og Kelling</title>
               </msItem>
             </msContents>
@@ -993,9 +973,9 @@
             </history>
           </msPart>
           <msPart n="20">
-            <altIdentifier type="other">
+            <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 d 20</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <msItem class="sagn">
                 <locus from="34r" to="34v">pp. 67-68 (ff. 34r-34v)</locus>
@@ -1008,9 +988,9 @@
             </msContents>
           </msPart>
 	  <msPart n="21">
-	    <altIdentifier type="other">
+	    <msIdentifier><altIdentifier type="other">
               <idno>Acc. 4 d 21</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
 	      
 	    </msContents>

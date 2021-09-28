@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 349 I-II 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1100</idno>
@@ -65,14 +65,11 @@
                      </binding>
                   </bindingDesc>
                   <accMat>
-                     <p>Laus seðill frá Kaupmannahöfn með upplýsingum um forvörslu. Fastur <locus
-                           from="accMat01r" to="accMat01v">seðill</locus> (<dimensions type="slip"
-                           unit="mm">
+                     <p>Laus seðill frá Kaupmannahöfn með upplýsingum um forvörslu. Fastur <locus from="accMat01r" to="accMat01v">seðill</locus> (<dimensions type="slip" unit="mm">
                            <height>199</height>
                            <width>155</width>
                         </dimensions>) fremst með hendi <name key="Arn Mag001" type="person">Árna
-                           Magnússonar</name> og skrifara hans: <quote type="AMSlip" xml:lang="is"
-                           >Þáttur af Þorvaldi tasalda. Þáttur af Sigurði og Hauki, Háreki í
+                           Magnússonar</name> og skrifara hans: <quote type="AMSlip" xml:lang="is">Þáttur af Þorvaldi tasalda. Þáttur af Sigurði og Hauki, Háreki í
                            Þjóttu og Eyvindi Rimrifu [með annarri hendi]: úr bókinni sem ég fékk af síra
                            Ólafi Gíslasyni á Hofi í Vopnafirði.</quote></p>
                   </accMat>
@@ -89,11 +86,9 @@
                            <p>
                               <list>
                                  <item>
-                                    <name type="person" key="ThoSig001">ÞS</name> jók við <date
-                                       when="2009-01-07">7. janúar 2009</date>.</item>
+                                    <name type="person" key="ThoSig001">ÞS</name> jók við <date when="2009-01-07">7. janúar 2009</date>.</item>
                                  <item>
-                                    <name key="GudIng001" type="person">GI</name> skráði <date
-                                       when="2002-10-10">10. október 2002</date>.</item>
+                                    <name key="GudIng001" type="person">GI</name> skráði <date when="2002-10-10">10. október 2002</date>.</item>
                                  <item>
                                     <name key="KriKaa001" type="person">Kålund</name> gekk frá
                                     handritinu til skráningar <date when="1887-03-23">23. mars
@@ -123,8 +118,7 @@
                            <item>Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
                               Kaupmannahöfn.</item>
                            <item>Svart-hvítar ljósmyndir á Stofnun Árna Magnússonar á Íslandi, sem
-                              keypti þær af <name type="person">Arne Mann Nielsen</name> í <date
-                                 when="1977-07">júlí 1977</date>.</item>
+                              keypti þær af <name type="person">Arne Mann Nielsen</name> í <date when="1977-07">júlí 1977</date>.</item>
                         </list>
                      </p>
                   </surrogates>
@@ -133,9 +127,9 @@
                   </listBibl>
                </additional>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 349 I 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents xml:lang="is">
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem n="1" class="islt" defective="false">
@@ -178,8 +172,7 @@
                               <p>
                                  <list>
                                     <item>Eindálka.</item>
-                                    <item>Leturflötur er <dimensions type="written" unit="mm"
-                                          scope="all">
+                                    <item>Leturflötur er <dimensions type="written" unit="mm" scope="all">
                                           <height>166-175</height>
                                           <width>141-143</width>
                                        </dimensions>.</item>
@@ -191,25 +184,20 @@
                      </objectDesc>
                      <handDesc hands="1">
                         <handNote scope="sole" script="kurrent" scribe="OlaGis002">Með hendi séra
-                              <name key="OlaGis002" type="person">Ólafs Gíslasonar</name> á <name
-                              type="place">Hofi í Vopnafirði</name>, fljótaskrift.</handNote>
+                              <name key="OlaGis002" type="person">Ólafs Gíslasonar</name> á <name type="place">Hofi í Vopnafirði</name>, fljótaskrift.</handNote>
                      </handDesc>
                   </physDesc>
                   <history>
                      <origin notBefore="1675" notAfter="1699" cert="high"><p><list>
                               <item>Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace>.
-                                 Kålund tímasetur það til <origDate notBefore="1675" notAfter="1699"
-                                    >loka 17. aldar</origDate> (<bibl>
+                                 Kålund tímasetur það til <origDate notBefore="1675" notAfter="1699">loka 17. aldar</origDate> (<bibl>
                                     <ref target="KKKat">Katalog I 1889:582</ref>
                                  </bibl>).</item>
                               <item>Handritið var áður hluti af stærri bók. Í þeirri bók voru einnig
                                  (í þessari röð): <ref target="AM04-0591e" type="ms">AM 591 e
                                     4to</ref>, <ref target="AM04-0552c" type="ms">AM 552 c
                                  4to</ref>, <ref target="AM04-0552g" type="ms">AM 552 g 4to</ref>,
-                                    <ref target="AM04-0292" type="ms">AM 292 4to</ref>, <ref
-                                    target="AM04-0349" type="ms">AM 349 4to</ref>, <ref
-                                    target="AM04-0591g" type="ms">AM 591 g 4to</ref>, <ref
-                                    target="AM04-0591k" type="ms">AM 591 k 4to</ref> (<bibl>
+                                    <ref target="AM04-0292" type="ms">AM 292 4to</ref>, <ref target="AM04-0349" type="ms">AM 349 4to</ref>, <ref target="AM04-0591g" type="ms">AM 591 g 4to</ref>, <ref target="AM04-0591k" type="ms">AM 591 k 4to</ref> (<bibl>
                                     <ref target="EA-A5">Loth 1960</ref>:113-142).</bibl>
                               </item>
                            </list></p></origin>
@@ -217,8 +205,7 @@
                         <p>
                            <name key="ArnMag001" type="person">Árni Magnússon</name> fékk söguna úr
                            bók frá séra <name key="OlaGis002" type="person">Ólafi Gíslasyni</name> á
-                              <name type="place">Hofi í Vopnafirði</name> (fremra saurbl. <locus
-                              from="0002r-FFl" to="0002r-FFl">2r</locus>).</p>
+                              <name type="place">Hofi í Vopnafirði</name> (fremra saurbl. <locus from="0002r-FFl" to="0002r-FFl">2r</locus>).</p>
                      </provenance>
                   </history>
                   <additional>
@@ -242,9 +229,9 @@
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 349 II 4to</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents xml:lang="is">
                      <textLang mainLang="is">Íslenska</textLang>
                      <msItem n="1" class="islt" defective="false">
@@ -255,8 +242,7 @@
                         </note>
                         <incipit>Úlfur hét maður er bjó á Þelamörk …</incipit>
                         <explicit>… föður Gunnlaugs smiðs.</explicit>
-                        <filiation>Uppskrift eftir Flateyjarbók (<ref target="GKS02-1005" type="ms"
-                              >GKS 1005 fol.</ref>).</filiation>
+                        <filiation>Uppskrift eftir Flateyjarbók (<ref target="GKS02-1005" type="ms">GKS 1005 fol.</ref>).</filiation>
                      </msItem>
                      <msItem n="2" class="islt">
                         <locus from="10r" to="12v">10r-12v</locus>
@@ -269,8 +255,7 @@
                            …</incipit>
                         <explicit>… Á grauti mundi greyið sprungið hafa.</explicit>
                         <finalRubric>Lýk eg þar sögu frá Sneglu-Halla.</finalRubric>
-                        <filiation>Uppskrift eftir Flateyjarbók (<ref target="GKS02-1005" type="ms"
-                              >GKS 1005 fol.</ref>).</filiation>
+                        <filiation>Uppskrift eftir Flateyjarbók (<ref target="GKS02-1005" type="ms">GKS 1005 fol.</ref>).</filiation>
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -297,8 +282,7 @@
                               <p>
                                  <list>
                                     <item>Eindálka.</item>
-                                    <item>Leturflötur er <dimensions type="written" unit="mm"
-                                          scope="all">
+                                    <item>Leturflötur er <dimensions type="written" unit="mm" scope="all">
                                           <height>165-172</height>
                                           <width>125-135</width>
                                        </dimensions>.</item>
@@ -309,14 +293,11 @@
                         </layoutDesc>
                      </objectDesc>
                      <handDesc>
-                        <handNote scope="sole" script="kurrent" scribe="ArnMag001">Með hendi <name
-                              type="person" key="ArnMag001">Árna Magnússonar</name>,
+                        <handNote scope="sole" script="kurrent" scribe="ArnMag001">Með hendi <name type="person" key="ArnMag001">Árna Magnússonar</name>,
                            árfljótaskrift.</handNote>
                      </handDesc>
                      <additions>
-                        <p>Lesbrigði á spássíum á <locus from="3v" to="3v">3v</locus>, <locus
-                              from="6v" to="6v">6v</locus> og <locus from="7v" to="7v"
-                           >7v</locus>.</p>
+                        <p>Lesbrigði á spássíum á <locus from="3v" to="3v">3v</locus>, <locus from="6v" to="6v">6v</locus> og <locus from="7v" to="7v">7v</locus>.</p>
                      </additions>
                   </physDesc>
                   <history>

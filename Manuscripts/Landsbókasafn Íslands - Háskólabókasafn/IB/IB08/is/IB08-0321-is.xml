@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -19,9 +19,9 @@
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
-						<institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+						<institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
 						<repository>Handritasafn</repository>
-						<collection>Handritasafn Kaupmannahafnardeildar Hins íslenska
+						<collection key="IB">Handritasafn Kaupmannahafnardeildar Hins íslenska
 							bókmenntafélags</collection>
 						<idno>ÍB 321 8vo</idno>
 						<altIdentifier type="internal" subtype="PEO">
@@ -45,8 +45,7 @@
 								<support>
 									<p>Pappír.</p>
 								</support>
-								<extent>256 + 58 + 3 blöð (<dimensions scope="all" type="leaf"
-										unit="mm">
+								<extent>256 + 58 + 3 blöð (<dimensions scope="all" type="leaf" unit="mm">
 										<height>170</height>
 										<width>100</width>
 									</dimensions>).</extent>
@@ -81,20 +80,18 @@
 							<recordHist>
 								<source>
 									<name type="person" key="HalKri001">Halldóra
-									Kristinsdóttir</name> bætti við skráningu, <date
-										when="2012-09-07">7. september 2012</date> ; <name
-										type="person" key="IriLei001">Íris Alda Ísleifsdóttir</name>
+									Kristinsdóttir</name> bætti við skráningu, <date when="2012-09-07">7. september 2012</date> ; <name type="person" key="IriLei001">Íris Alda Ísleifsdóttir</name>
 									frumskráði, <date when="2012-06-13">13. júní 2012</date>;
 									Handritaskrá, 3. b. ; Átaksverkefni 2012.</source>
 							</recordHist>
 						</adminInfo>
 					</additional>
 					<msPart n="1">
-						<altIdentifier type="partial">
+						<msIdentifier><altIdentifier type="partial">
 							<idno>ÍB 321 8vo I. hluti</idno>
 							<note>Fyrsti hluti (256 blöð, blaðsíðutal fr. til 1-174) skrifað
 								1854-1855 af Eiríki Bjarnasyni í Hróarstungu austri</note>
-						</altIdentifier>
+						</altIdentifier></msIdentifier>
 						<msContents>
 							<textLang mainLang="is">Íslenska</textLang>
 							<msItem n="1" defective="false" class="natfr lakn">
@@ -106,14 +103,14 @@
 								<bibl>
 									<ref target="IslGat">Íslenzkar gátur, skemtanir, vikivakar og
 										þulur</ref>
-									<biblScope type="volume">II</biblScope>
-									<biblScope type="pages">279, 323</biblScope>
+									<biblScope unit="volume">II</biblScope>
+									<biblScope unit="pages">279, 323</biblScope>
 								</bibl>
 								<bibl>
 									<ref target="IslGat">Íslenzkar gátur, skemtanir, vikivakar og
 										þulur</ref>
-									<biblScope type="volume">IV</biblScope>
-									<biblScope type="pages">273</biblScope>
+									<biblScope unit="volume">IV</biblScope>
+									<biblScope unit="pages">273</biblScope>
 								</bibl>
 							</msItem>
 							<msItem n="2" defective="false" class="run">
@@ -125,8 +122,7 @@
 								<title type="supplied">Grasnytjar</title>
 								<note>Útdráttur úr Grasnytjabók Björns Halldórssonar</note>
 								<author key="BjoHal002">Björn Halldórsson</author>
-								<bibl> Kom út á prenti árið 1783. Sjá Björn Halldórsson: <ref
-										type="primary-1" target="BjoHal1783a">
+								<bibl> Kom út á prenti árið 1783. Sjá Björn Halldórsson: <ref type="primary-1" target="BjoHal1783a">
 										<title>Grasnytjar</title>
 									</ref>
 								</bibl>
@@ -284,9 +280,9 @@
 						</history>
 					</msPart>
 					<msPart n="2">
-						<altIdentifier type="partial">
+						<msIdentifier><altIdentifier type="partial">
 							<idno>ÍB 321 8vo II. hluti</idno>
-						</altIdentifier>
+						</altIdentifier></msIdentifier>
 						<msContents>
 							<textLang mainLang="is">Íslenska</textLang>
 							<msItem n="1" defective="false" class="alf">
@@ -324,9 +320,9 @@
 						</history>
 					</msPart>
 					<msPart n="3">
-						<altIdentifier type="partial">
+						<msIdentifier><altIdentifier type="partial">
 							<idno>ÍB 321 8vo III. hluti</idno>
-						</altIdentifier>
+						</altIdentifier></msIdentifier>
 						<msContents>
 							<textLang mainLang="is">Íslenska</textLang>
 							<msItem n="1" defective="false" class="alf">

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -16,7 +16,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 1 b fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>2</idno>
@@ -24,8 +26,7 @@
                </msIdentifier>
                <head>
                   <title type="uniform" xml:lang="is">Sögubrot af nokkrum fornkonungum í Dana ok
-                     Svía veldi</title>; <origPlace>Island</origPlace>, <origDate notBefore="1600"
-                        notAfter="1699" evidence="conjecture" resp="KKKat">s. XVII</origDate>.</head>
+                     Svía veldi</title>; <origPlace>Island</origPlace>, <origDate notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat">s. XVII</origDate>.</head>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
@@ -45,9 +46,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1600"
-                        notAfter="1699" evidence="conjecture" resp="KKKat"
-                        >1600-tallet</origDate>.</p>
+                     <p>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat">1600-tallet</origDate>.</p>
                   </origin>
                   <provenance>
                      <p>Sammensat af <name type="person" key="ArnMag001">Arne Magnusson</name> fra
@@ -57,25 +56,24 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <p>Katalogiseret <date when="2008-05-26">26. maj 2008</date> af <name
-                           type="person" key="SilHuf001">Silvia Hufnagel</name>.</p>
+                        <p>Katalogiseret <date when="2008-05-26">26. maj 2008</date> af <name type="person" key="SilHuf001">Silvia Hufnagel</name>.</p>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">2-3</biblScope>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">2-3</biblScope>
                      </bibl>
                      <bibl>
                         <ref type="secondary" target="STUAGNL46">Sögur Danakonunga</ref>
-                        <biblScope type="pages">viii</biblScope>
+                        <biblScope unit="pages">viii</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 1 I b fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem defective="true" class="forn">
                         <locus from="1r:1" to="4">1r-4v</locus>
@@ -89,22 +87,21 @@
                            fór Helga hins huassa t<ex>il</ex>
                            <lb/> Audar hin<ex>n</ex>ar diupaudgu yvars dottur vidfadma <lb/> j
                            Suiarike. <ex>og</ex> faalsuór jvars <lb/> upphafslaust. <lb/> Ord Audar
-                           vid fódur sin<ex>n</ex> fram<ex>m</ex>berande Eirinde hel<lb
-                              rend="hyphenated"/>ga med underhyggju</rubric>
+                           vid fódur sin<ex>n</ex> fram<ex>m</ex>berande Eirinde hel<lb rend="hyphenated"/>ga med underhyggju</rubric>
                         <incipit>** Se eg ad þetta Mäl þarf ad litt se a lopt borid</incipit>
                         <explicit defective="true">siglir huer til sijns Lands: og</explicit>
                         <filiation>Afskrift af <ref type="ms">AM 1 a fol.</ref>
                         </filiation>
                         <listBibl>
                            <bibl>Rafn: <ref type="primary-3" target="AntR">Antiquités Russes</ref>
-                              <biblScope type="volume">I</biblScope>
-                              <biblScope type="pages">67-75a:20</biblScope>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="pages">67-75a:20</biblScope>
                               <note>Udg. C</note>
                            </bibl>
                            <bibl>Rafn: <ref type="primary-3" target="C__Raf1829b">Fornaldar Sögur
                               Nordrlanda</ref>
-                              <biblScope type="volume">I</biblScope>
-                              <biblScope type="pages">363-374:5</biblScope>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="pages">363-374:5</biblScope>
                               <note>Udg. C</note>
                            </bibl>
                         </listBibl>
@@ -131,17 +128,15 @@
                         </layoutDesc>
                      </objectDesc>
                      <additions>
-                        <p>I margen af bl. <locus>1r</locus> har <name type="person" key="ArnMag001"
-                           >Arne Magnusson</name> skrevet: <q xml:lang="la">Corruptis<lb
-                              rend="hyphenated"/>simum <lb/> Exemplar <lb/>
+                        <p>I margen af bl. <locus>1r</locus> har <name type="person" key="ArnMag001">Arne Magnusson</name> skrevet: <q xml:lang="la">Corruptis<lb rend="hyphenated"/>simum <lb/> Exemplar <lb/>
                               <ex>et</ex> nullius <lb/> momenti</q>.</p>
                      </additions>
                   </physDesc>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 1 II b fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem defective="true" class="forn">
                         <locus from="5r:1" to="5v:12">5r-v</locus>
@@ -150,8 +145,7 @@
                         <incipit defective="true">landz og Er þetta spir Rädbert k<ex>ongur</ex>
                            setti h<ex>an</ex>n haralld stiupson sin<ex>n</ex> jfer <lb/>
                            skipen<ex>n</ex>, og herin<ex>n</ex>.</incipit>
-                        <note>Nederst på bl. <locus>5r</locus> har skriveren tilføjet: <q
-                           xml:lang="is">her wantar mikid v<ex>id</ex>, fram<ex>m</ex> ad elli
+                        <note>Nederst på bl. <locus>5r</locus> har skriveren tilføjet: <q xml:lang="is">her wantar mikid v<ex>id</ex>, fram<ex>m</ex> ad elli
                            dogum Haralldz kongs</q>.</note>
                         <explicit>w<ex>ar</ex> an<ex>n</ex>ar Hrærekur slaungin<ex>n</ex>
                            <lb/>bogi. en<ex>n</ex> an<ex>n</ex>ar Þrandur hin<ex>n</ex> Gamle</explicit>
@@ -159,21 +153,19 @@
                            <!--<del rend="overstrike" hand="ArnMag001">-->Hier effter ä ad setiast Brä
                               vallar bardagi s<ex>e</ex>m seiger frä Dauda <lb/> haralldar hilldi
                               Tan<ex>n</ex>ar<!--</del> -->
-                        </q>. Denne note er senere blevet overstreget af <name type="person"
-                           key="ArnMag001">Arne Magnusson</name>, som har tilføjet <q
-                              xml:lang="is">
+                        </q>. Denne note er senere blevet overstreget af <name type="person" key="ArnMag001">Arne Magnusson</name>, som har tilføjet <q xml:lang="is">
                               <!--<add place="top" hand="ArnMag001">-->Bravallar<!--</add>-->
                            </q>.</note>
                         <listBibl>
                            <bibl>Rafn: <ref type="primary-3" target="AntR">Antiquités Russes</ref>
-                              <biblScope type="volume">I</biblScope>
-                              <biblScope type="pages">75a:20-77b:7</biblScope>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="pages">75a:20-77b:7</biblScope>
                               <note>Udg. C</note>
                            </bibl>
                            <bibl>Rafn: <ref type="primary-3" target="FASNRafn">Fornaldar Sögur
                               Nordrlanda</ref>
-                              <biblScope type="volume">I</biblScope>
-                              <biblScope type="pages">374:5-377:5</biblScope>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="pages">374:5-377:5</biblScope>
                               <note>Udg. C</note>
                            </bibl>
                         </listBibl>
@@ -199,16 +191,15 @@
                         </layoutDesc>
                      </objectDesc>
                      <additions>
-                        <p>På den opr. blanke del (2/3) af bl. <locus>5v</locus> er skrevet: <q
-                           xml:lang="is">Þessa bok a Heidur legur Kien<ex>n</ex>e Man<ex>n</ex>
+                        <p>På den opr. blanke del (2/3) af bl. <locus>5v</locus> er skrevet: <q xml:lang="is">Þessa bok a Heidur legur Kien<ex>n</ex>e Man<ex>n</ex>
                            <lb/> S<ex>iera</ex> Throlffur Clausson</q>.</p>
                      </additions>
                   </physDesc>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial">
+                  <msIdentifier><altIdentifier type="partial">
                      <idno>AM 1 III b fol.</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem defective="true" class="forn">
                         <locus from="6r:34" to="10r:4">6r-10r</locus>
@@ -222,21 +213,19 @@
                         <explicit>frijdara en<ex>n</ex> Øn<ex>n</ex>ur Man<ex>n</ex>kynd a
                            Nordur<lb/>londum. Og End<ex>ar</ex> hier so Bravallar Bardaga</explicit>
                         <note>Slutningen af <title type="uniform">Hálfdanar þáttr svarta ok Haralds
-                           hárfagra</title>, som begynder på bl. <locus>6r</locus> med <q
-                              xml:lang="is">vid allar j þrȯtter, mikid gieckst Haralldur wid</q>, og
+                           hárfagra</title>, som begynder på bl. <locus>6r</locus> med <q xml:lang="is">vid allar j þrȯtter, mikid gieckst Haralldur wid</q>, og
                            som er skrevet af den samme skriver som <ref type="ms">AM 1 II b
-                              fol.</ref>, er blevet overstreget af <name type="person" key="ArnMag001"
-                                 >Arne Magnusson</name>, da han sammensatte håndskriftet.</note>
+                              fol.</ref>, er blevet overstreget af <name type="person" key="ArnMag001">Arne Magnusson</name>, da han sammensatte håndskriftet.</note>
                         <listBibl>
                            <bibl>Rafn: <ref type="primary-3" target="AntR">Antiquités Russes</ref>
-                              <biblScope type="volume">I</biblScope>
-                              <biblScope type="pages">77b:7-85a:17</biblScope>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="pages">77b:7-85a:17</biblScope>
                               <note>Udg. C</note>
                            </bibl>
                            <bibl>Rafn: <ref type="primary-3" target="FASNRafn">Fornaldar Sögur
                               Nordrlanda</ref>
-                              <biblScope type="volume">I</biblScope>
-                              <biblScope type="pages">377:5-387:25</biblScope>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="pages">377:5-387:25</biblScope>
                               <note>Udg. C</note>
                            </bibl>
                         </listBibl>
@@ -263,8 +252,7 @@
                      </objectDesc>
                      <handDesc hands="1">
                         <handNote scribe="ThoKla001" scope="sole" script="cursiva">
-                           <p>Skrevet af Þorleifur Kláusson fra <name type="place" key="ÚtsGer01"
-                              >Útskálar</name>.</p>
+                           <p>Skrevet af Þorleifur Kláusson fra <name type="place" key="ÚtsGer01">Útskálar</name>.</p>
                         </handNote>
                      </handDesc>
                   </physDesc>

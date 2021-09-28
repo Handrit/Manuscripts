@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -15,7 +15,9 @@
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 1056 XI 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2188</idno>
@@ -26,8 +28,7 @@
                                 Sapientiae</title> (Liber I, cap. 11) by <name type="person">Henry
                                 Suso</name> (<date from="1295" to="1366">1295-1366</date>). The
                             translation is quite different to the other Danish version found in the
-                                <name type="place">Grinderslev</name> manuscript (<ref type="ms"
-                                target="#AM04-0783-en">AM 783 4to</ref>).</summary>
+                                <name type="place">Grinderslev</name> manuscript (<ref type="ms" target="#AM04-0783-en">AM 783 4to</ref>).</summary>
                          <msItem n="1" defective="true" class="trurit hugv">
                             <locus from="1r:1" to="1v:46">1r:1-1v:46</locus>
                             <author>Henry Suso</author>
@@ -39,23 +40,20 @@
                             <author>Henricus Suso</author>
                             <title type="uniform" xml:lang="la">Horologium Sapientiae</title>
                             <textLang mainLang="da">Old Danish</textLang>
-                            <incipit defective="true">fruees theræs seyær / omodh diæffwel<supplied
-                                    reason="damage">en oc leghemet / æn </supplied>
-                                <lb/>lønæn i segh selff / wnderstandhes i siæ<supplied
-                                    reason="damage">lens fullæ bin-</supplied>
+                            <incipit defective="true">fruees theræs seyær / omodh diæffwel<supplied reason="damage">en oc leghemet / æn </supplied>
+                                <lb/>lønæn i segh selff / wnderstandhes i siæ<supplied reason="damage">lens fullæ bin-</supplied>
                                 <lb/>delsæ til gudh /</incipit>
                             <explicit defective="true">ell<ex>e</ex>r talæn kw<ex>n</ex>næ wthsighæ
                                 / ell<ex>e</ex>r <lb/>
                                 <gap reason="damage"/>
-                                <supplied reason="damage">Hællighe</supplied> æræ <del
-                                    rend="overstrike" hand="unknown">thinæ</del> thinæ thiænæræ the
+                                <supplied reason="damage">Hællighe</supplied> æræ <del rend="overstrike" hand="unknown">thinæ</del> thinæ thiænæræ the
                                     so<ex>m</ex>
                             </explicit>
                             <listBibl>
                                 <bibl>
                                     <ref type="primary-1" target="FragmPD">Fragmenter af
                                         gammeldanske Haandskrifter</ref>
-                                    <biblScope type="pages">137-143</biblScope>
+                                    <biblScope unit="pages">137-143</biblScope>
                                     <note>There is a facsimile of fol. <locus>1v</locus> on p.
                                         141.</note>
                                 </bibl>
@@ -76,8 +74,7 @@
                                     </dimensions>
                                 </extent>
                                 <foliation>
-                                    <p>Foliated 1 on the verso side as <name type="person"
-                                            key="KriKaa001">Kålund</name> thought this was the
+                                    <p>Foliated 1 on the verso side as <name type="person" key="KriKaa001">Kålund</name> thought this was the
                                         recto.</p>
                                 </foliation>
                                 <condition>
@@ -101,28 +98,26 @@
                         <acquisition>
                             <p>Found in <name type="org" key="SA-Rigs">The Danish National
                                     Archives</name> in the <name type="place">Ålhom</name> estate
-                                accounts (<foreign>lensregnskab</foreign>) <date from="1622"
-                                    to="1623">1622-1623</date>.</p>
+                                accounts (<foreign>lensregnskab</foreign>) <date from="1622" to="1623">1622-1623</date>.</p>
                         </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date when="2002-04-15"/> by <name type="person"
-                                            >EW-J</name>.</p>
+                                    <p>Catalogued <date when="2002-04-15"/> by <name type="person">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                         </adminInfo>
                         <listBibl>
                             <bibl>
                                 <ref type="secondary-1" target="NKirS3">Ny kirkehistoriske Samlinger
-                                    </ref><biblScope type="volume">III</biblScope>
-                                <biblScope type="pages">437, 441</biblScope>
+                                    </ref><biblScope unit="volume">III</biblScope>
+                                <biblScope unit="pages">437, 441</biblScope>
                             </bibl>
                             <bibl>
                                 <ref type="secondary-1" target="FragmPD">Diderichsen 1937</ref>
-                                <biblScope type="pages">354-358</biblScope>
+                                <biblScope unit="pages">354-358</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

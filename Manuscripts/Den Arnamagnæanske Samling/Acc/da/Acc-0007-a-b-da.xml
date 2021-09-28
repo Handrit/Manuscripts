@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,7 +14,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="Acc"/>
                   <idno>Acc. 7 a β</idno>
                   <altIdentifier type="internal" subtype="KatKB">
                      <idno>2830</idno>
@@ -31,8 +33,7 @@
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Katalogiseret <date when="2021-04">april 2021</date> af <name
-                                 type="person" key="EvaWed001">EW-J</name>. Katalogteksten er
+                           <p>Katalogiseret <date when="2021-04">april 2021</date> af <name type="person" key="EvaWed001">EW-J</name>. Katalogteksten er
                               baseret på <bibl><ref target="BiblArn46">Andersen
                               2008</ref></bibl>.</p>
                         </source>
@@ -41,9 +42,9 @@
                </additional>
 
                <msPart>
-                  <altIdentifier type="partial" xml:id="Acc-0007-a-b-2-da">
+                  <msIdentifier><altIdentifier type="partial" xml:id="Acc-0007-a-b-2-da">
                      <idno>AM Acc 7 a β, Hs 2</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="1" class="messus">
                         <title>Graduale Gufudalense</title>
@@ -78,8 +79,7 @@
                      <handDesc>
                         <handNote medium="ink" scope="sole" script="textualis">
                            <p>Skrevet af <name type="person">Jón Þorláksson</name>, som havde sit
-                              virke som skriver i perioden <date notBefore="1450" notAfter="1478"
-                                 >ca. 1450-1478</date>.</p>
+                              virke som skriver i perioden <date notBefore="1450" notAfter="1478">ca. 1450-1478</date>.</p>
                         </handNote>
                      </handDesc>
                      <musicNotation>
@@ -99,10 +99,8 @@
                         ses flere steder i marginen.</additions>
                   </physDesc>
                   <history>
-                     <origin>Skrevet i <origPlace key="IS">Island</origPlace> i <origDate
-                           notBefore="1450" notAfter="1470">1400-tallets tredje
-                        fjerdedel</origDate>. I AM 266 4to står der, at <foreign xml:lang="is"
-                           >Sera</foreign>
+                     <origin>Skrevet i <origPlace key="IS">Island</origPlace> i <origDate notBefore="1450" notAfter="1470">1400-tallets tredje
+                        fjerdedel</origDate>. I AM 266 4to står der, at <foreign xml:lang="is">Sera</foreign>
                         <name type="person">Helgi Þorkelsson</name> skænkede dette graduale til
                            <name type="org">Gufudalur kirke</name> i 1470. Denne dato må derfor være
                         en <foreign xml:lang="la">terminus ante qvem</foreign> for håndskriftet.
@@ -111,50 +109,48 @@
                   <additional>
                      <listBibl>
                         <bibl>Andersen: <ref target="MerAnd0076a">Colligere fragmenta, ne
-                              pereant</ref><biblScope type="pages">1-35</biblScope><note>pl. overfor
+                              pereant</ref><biblScope unit="pages">1-35</biblScope><note>pl. overfor
                               18 (6r), pl. overfor 20 (39r).</note></bibl>
                         <bibl>Andersen: <ref target="BiblArn46">Katalog over AM Accessoria 7. De
                               latinske fragmenter</ref>
-                           <biblScope type="pages">9-15</biblScope></bibl>
+                           <biblScope unit="pages">9-15</biblScope></bibl>
                         <bibl>Attinger: <ref target="Attinger2006">Sequences in two Icelandic mass
-                              books from the Later Middle Ages</ref><biblScope type="pages"
-                              >165-181</biblScope></bibl>
+                              books from the Later Middle Ages</ref><biblScope unit="pages">165-181</biblScope></bibl>
                         <bibl>Attinger: <ref target="Attinger2016">Iceland and Norway: separate
-                              scribal cultures versus cultural exchange</ref><biblScope type="pages"
-                              >228-29, 232-33, 237</biblScope></bibl>
+                              scribal cultures versus cultural exchange</ref><biblScope unit="pages">228-29, 232-33, 237</biblScope></bibl>
                         <bibl>Bjarni Þorsteinsson: <ref target="Thjodlog1906">Íslenzk
-                              þjóðlög</ref><biblScope type="pages">186 f</biblScope></bibl>
+                              þjóðlög</ref><biblScope unit="pages">186 f</biblScope></bibl>
                         <bibl>Eggen: <ref target="BiblArn21">The Sequences of the Archbishopric of
-                              Nidarós I</ref><biblScope type="pages">xliv (ms h, j, l), xlvi-xlviii,
+                              Nidarós I</ref><biblScope unit="pages">xliv (ms h, j, l), xlvi-xlviii,
                               lii</biblScope></bibl>
                         <bibl>Eggen: <ref target="BiblArn22">The Sequences of the Archbishopric of
                               Nidarós II</ref><note>facs. 99-218, 226-233, 279-294,
                            310-312.</note></bibl>
                         <bibl>Gjerløw: <ref target="Gjerlow1968">Ordo Nidrosiensis
-                              ecclesiae</ref><biblScope type="pages">104, 361n, 362n,
+                              ecclesiae</ref><biblScope unit="pages">104, 361n, 362n,
                               366n</biblScope></bibl>
                         <bibl>Gjerløw: <ref target="BiblArn35">Liturgica Islandica I:
-                              Text</ref><biblScope type="pages">41, 43, 44, 49, 59f,
+                              Text</ref><biblScope unit="pages">41, 43, 44, 49, 59f,
                            69f</biblScope></bibl>
                         <bibl>Gjerløw: <ref target="BiblArn36">Liturgica Islandica II:
                               Facsimiles</ref><note>facs 36-37, 38-39, 40, 41.</note></bibl>
                         <bibl>Jón Þorkelsson: <ref target="IsArt">Íslenzkar ártidaskrár eða
                               Obituaria Islandica</ref>
-                           <biblScope type="pages">146, 153 f</biblScope></bibl>
+                           <biblScope unit="pages">146, 153 f</biblScope></bibl>
                         <bibl>Róbert A. Ottósson: <ref target="BiblArnSupp3">Sancti Thorlaci
                               episcopi officia rhythmica et proprium missæ in AM 241a
-                              folio</ref><biblScope type="pages">57, 69, 71</biblScope></bibl>
+                              folio</ref><biblScope unit="pages">57, 69, 71</biblScope></bibl>
                         <bibl>Ólafur Halldórsson: <ref target="ÓlaHal1971a">Jónar tveir
-                              Þorlákssynir</ref><biblScope type="pages">128-44</biblScope></bibl>
+                              Þorlákssynir</ref><biblScope unit="pages">128-44</biblScope></bibl>
                         <bibl>Stefán Karlsson: <ref target="SteKar1587a">Sex
-                              skriffingur</ref><biblScope type="pages">36-43</biblScope></bibl>
+                              skriffingur</ref><biblScope unit="pages">36-43</biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial" xml:id="Acc-0007-a-b-3-da">
+                  <msIdentifier><altIdentifier type="partial" xml:id="Acc-0007-a-b-3-da">
                      <idno>AM Acc 7 a β, Hs 3</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="1" class="messus">
                         <title>Graduale</title>
@@ -201,7 +197,7 @@
                      <origin>Håndskriftet er skrevet i <origPlace key="IS">Island</origPlace>, i
                            <origDate from="1450" to="1472">1400-tallets tredje fjerdel, før
                               1472</origDate>(<bibl><ref target="BiblArn46">Andersen
-                                 2008</ref><biblScope type="pages">16</biblScope></bibl>). Denne
+                                 2008</ref><biblScope unit="pages">16</biblScope></bibl>). Denne
                         <foreign xml:lang="la">terminus ante qvem</foreign> er baseret på, at
                         håndskriftet ikke indeholder Presentation Mariae, som
                            opnåede universel udbredelse i den kristne verden efter pave Sixtus' promulgation i
@@ -210,29 +206,25 @@
                   <additional>
                      <listBibl>
                         <bibl>Andersen, <ref target="MerAnd0076a">Colligere fragmenta, ne
-                              pereant</ref><biblScope type="pages">10, 11 note 33</biblScope></bibl>
+                              pereant</ref><biblScope unit="pages">10, 11 note 33</biblScope></bibl>
                         <bibl>Andersen <ref target="BiblArn46">Katalog over AM Accessoria 7. De
-                              latinske fragmenter</ref>, <biblScope type="pages"
-                           >15-18</biblScope></bibl>
+                              latinske fragmenter</ref>, <biblScope unit="pages">15-18</biblScope></bibl>
                         <bibl>Attinger, <ref target="Attinger2016">Iceland and Norway: separate
-                              scribal cultures versus cultural exchange</ref><biblScope type="pages"
-                              >227-28, 237,</biblScope><note>Colour plate 9.2B</note></bibl>
+                              scribal cultures versus cultural exchange</ref><biblScope unit="pages">227-28, 237,</biblScope><note>Colour plate 9.2B</note></bibl>
                         <bibl>Eggen, <ref target="BiblArn21">The Sequences of the Archbishopric of
-                              Nidarós I</ref><biblScope type="pages">xliv (ms i)</biblScope></bibl>
+                              Nidarós I</ref><biblScope unit="pages">xliv (ms i)</biblScope></bibl>
                         <bibl>Eggen, <ref target="BiblArn22">The Sequences of the Archbishopric of
                               Nidarós II</ref><note>facs. 260-278 (bl. 1r-5r, 6r-10v)</note></bibl>
                         <bibl>Stefán Karlsson, <ref target="SteKar1587a">Sex
-                              skriffingur</ref><biblScope type="pages">42</biblScope></bibl>
+                              skriffingur</ref><biblScope unit="pages">42</biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial" xml:id="Acc-0007-a-b-4-da">
+                  <msIdentifier><altIdentifier type="partial" xml:id="Acc-0007-a-b-4-da">
                      <idno>AM Acc 7 a β, Hs 4</idno>
-                  </altIdentifier>
-                  <head><title>Graduale</title>; <origPlace>Island</origPlace>, <origDate
-                        notBefore="1350" notAfter="1399">s. XIV<hi rend="sup"
-                     >2</hi></origDate>.</head>
+                  </altIdentifier></msIdentifier>
+                  <head><title>Graduale</title>; <origPlace>Island</origPlace>, <origDate notBefore="1350" notAfter="1399">s. XIV<hi rend="sup">2</hi></origDate>.</head>
                   <msContents>
                      <msItem class="messus">
                         <textLang mainLang="la"/>
@@ -253,19 +245,19 @@
                      <listBibl>
                         <bibl>Andersen, <ref target="BiblArn46">Katalog over AM Accessoria 7. De
                               latinske fragmenter</ref>
-                           <biblScope type="pages">18</biblScope></bibl>
+                           <biblScope unit="pages">18</biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial" xml:id="Acc-0007-a-b-5-da">
+                  <msIdentifier><altIdentifier type="partial" xml:id="Acc-0007-a-b-5-da">
                      <idno>AM Acc 7 a β, Hs 5</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem class="messus">
                         <title>Graduale</title>
                         <bibl>Eggen, <ref target="BiblArn21">The Sequences of the Archbishopric of
-                              Nidarós I</ref><biblScope type="pages">229-231, 232-233,
+                              Nidarós I</ref><biblScope unit="pages">229-231, 232-233,
                               236-239</biblScope><note>ms k</note>.</bibl>
 
                      </msItem>
@@ -314,21 +306,19 @@
                   <additional>
                      <listBibl>
                         <bibl>Andersen <ref target="BiblArn46">Katalog over AM Accessoria 7. De
-                              latinske fragmenter</ref>, <biblScope type="pages"
-                           >19-20</biblScope></bibl>
+                              latinske fragmenter</ref>, <biblScope unit="pages">19-20</biblScope></bibl>
                         <bibl>Eggen, <ref target="BiblArn21">The Sequences of the Archbishopric of
-                              Nidarós I</ref><biblScope type="pages">xliv (ms k)</biblScope></bibl>
+                              Nidarós I</ref><biblScope unit="pages">xliv (ms k)</biblScope></bibl>
                         <bibl>Eggen, <ref target="BiblArn22">The Sequences of the Archbishopric of
                               Nidarós II</ref><note>facs. 297-307 (bl. 2r-5r, 6r-7v)</note></bibl>
                      </listBibl>
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial" xml:id="Acc-0007-a-b-6-da">
+                  <msIdentifier><altIdentifier type="partial" xml:id="Acc-0007-a-b-6-da">
                      <idno>AM Acc 7 a β, Hs 6</idno>
-                  </altIdentifier>
-                  <head><title>Graduale</title>; <origPlace key="GB">England</origPlace>, <origDate
-                        notBefore="1300" notAfter="1399">s. XIV</origDate>.</head>
+                  </altIdentifier></msIdentifier>
+                  <head><title>Graduale</title>; <origPlace key="GB">England</origPlace>, <origDate notBefore="1300" notAfter="1399">s. XIV</origDate>.</head>
                   <msContents>
                      <msItem class="messus">
                         <textLang mainLang="la"/>
@@ -349,16 +339,15 @@
                      <listBibl>
                         <bibl>Andersen, <ref target="BiblArn46">Katalog over AM Accessoria 7. De
                               latinske fragmenter</ref>
-                           <biblScope type="pages">20-21</biblScope></bibl>
+                           <biblScope unit="pages">20-21</biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial" xml:id="Acc-0007-a-b-7-da">
+                  <msIdentifier><altIdentifier type="partial" xml:id="Acc-0007-a-b-7-da">
                      <idno>AM Acc 7 a β, Hs 7</idno>
-                  </altIdentifier>
-                  <head><title>Graduale</title>; <origPlace key="IS">Island</origPlace>, <origDate
-                        notBefore="1290" notAfter="1310">ca. 1300</origDate>.</head>
+                  </altIdentifier></msIdentifier>
+                  <head><title>Graduale</title>; <origPlace key="IS">Island</origPlace>, <origDate notBefore="1290" notAfter="1310">ca. 1300</origDate>.</head>
                   <msContents>
                      <msItem class="messus">
                         <textLang mainLang="la"/>
@@ -379,17 +368,15 @@
                      <listBibl>
                         <bibl>Andersen, <ref target="BiblArn46">Katalog over AM Accessoria 7. De
                               latinske fragmenter</ref>
-                           <biblScope type="pages">21-22</biblScope></bibl>
+                           <biblScope unit="pages">21-22</biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial" xml:id="Acc-0007-a-b-8-da">
+                  <msIdentifier><altIdentifier type="partial" xml:id="Acc-0007-a-b-8-da">
                      <idno>AM Acc 7 a β, Hs 8</idno>
-                  </altIdentifier>
-                  <head><title>Graduale</title>; <origPlace key="IS">Island</origPlace>, <origDate
-                        notBefore="1450" notAfter="1475">s. XV<hi rend="sup"
-                     >3/4</hi></origDate>.</head>
+                  </altIdentifier></msIdentifier>
+                  <head><title>Graduale</title>; <origPlace key="IS">Island</origPlace>, <origDate notBefore="1450" notAfter="1475">s. XV<hi rend="sup">3/4</hi></origDate>.</head>
                   <msContents>
                      <msItem class="messus">
                         <textLang mainLang="la"/>
@@ -410,16 +397,15 @@
                      <listBibl>
                         <bibl>Andersen, <ref target="BiblArn46">Katalog over AM Accessoria 7. De
                               latinske fragmenter</ref>
-                           <biblScope type="pages">22-23</biblScope></bibl>
+                           <biblScope unit="pages">22-23</biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial" xml:id="Acc-0007-a-b-9-da">
+                  <msIdentifier><altIdentifier type="partial" xml:id="Acc-0007-a-b-9-da">
                      <idno>AM Acc 7 a β, Hs 9</idno>
-                  </altIdentifier>
-                  <head><title>Graduale</title>; <origPlace key="IS">Island</origPlace>, <origDate
-                        notBefore="1300" notAfter="1399">s. XIV</origDate>.</head>
+                  </altIdentifier></msIdentifier>
+                  <head><title>Graduale</title>; <origPlace key="IS">Island</origPlace>, <origDate notBefore="1300" notAfter="1399">s. XIV</origDate>.</head>
                   <msContents>
                      <msItem class="messus">
                         <textLang mainLang="la"/>
@@ -440,17 +426,15 @@
                      <listBibl>
                         <bibl>Andersen, <ref target="BiblArn46">Katalog over AM Accessoria 7. De
                               latinske fragmenter</ref>
-                           <biblScope type="pages">23</biblScope></bibl>
+                           <biblScope unit="pages">23</biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial" xml:id="Acc-0007-a-b-10-da">
+                  <msIdentifier><altIdentifier type="partial" xml:id="Acc-0007-a-b-10-da">
                      <idno>AM Acc 7 a β, Hs 10</idno>
-                  </altIdentifier>
-                  <head><title>Graduale</title>; <origPlace key="IS">Island</origPlace>, <origDate
-                        notBefore="1450" notAfter="1499">s. XV<hi rend="sup"
-                     >2</hi></origDate>.</head>
+                  </altIdentifier></msIdentifier>
+                  <head><title>Graduale</title>; <origPlace key="IS">Island</origPlace>, <origDate notBefore="1450" notAfter="1499">s. XV<hi rend="sup">2</hi></origDate>.</head>
                   <msContents>
                      <msItem class="messus">
                         <textLang mainLang="la"/>
@@ -471,17 +455,16 @@
                      <listBibl>
                         <bibl>Andersen, <ref target="BiblArn46">Katalog over AM Accessoria 7. De
                               latinske fragmenter</ref>
-                           <biblScope type="pages">24</biblScope></bibl>
+                           <biblScope unit="pages">24</biblScope></bibl>
                      </listBibl>
                   </additional>
 
                </msPart>
                <msPart>
-                  <altIdentifier type="partial" xml:id="Acc-0007-a-b-11-da">
+                  <msIdentifier><altIdentifier type="partial" xml:id="Acc-0007-a-b-11-da">
                      <idno>AM Acc 7 a β, Hs 11</idno>
-                  </altIdentifier>
-                  <head><title>Graduale</title>; <origPlace key="GB">England?</origPlace>, <origDate
-                        notBefore="1200" notAfter="1299">s. XIII</origDate>.</head>
+                  </altIdentifier></msIdentifier>
+                  <head><title>Graduale</title>; <origPlace key="GB">England?</origPlace>, <origDate notBefore="1200" notAfter="1299">s. XIII</origDate>.</head>
                   <msContents>
                      <msItem class="messus">
                         <textLang mainLang="la"/>
@@ -502,16 +485,15 @@
                      <listBibl>
                         <bibl>Andersen, <ref target="BiblArn46">Katalog over AM Accessoria 7. De
                               latinske fragmenter</ref>
-                           <biblScope type="pages">25-26</biblScope></bibl>
+                           <biblScope unit="pages">25-26</biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial" xml:id="Acc-0007-a-b-12-da">
+                  <msIdentifier><altIdentifier type="partial" xml:id="Acc-0007-a-b-12-da">
                      <idno>AM Acc 7 a β, Hs 12</idno>
-                  </altIdentifier>
-                  <head><title>Graduale</title>; <origPlace key="IS">Island</origPlace>, <origDate
-                        notBefore="1300" notAfter="1399">s. XIV</origDate>.</head>
+                  </altIdentifier></msIdentifier>
+                  <head><title>Graduale</title>; <origPlace key="IS">Island</origPlace>, <origDate notBefore="1300" notAfter="1399">s. XIV</origDate>.</head>
                   <msContents>
                      <msItem class="messus">
                         <textLang mainLang="la"/>
@@ -532,16 +514,15 @@
                      <listBibl>
                         <bibl>Andersen, <ref target="BiblArn46">Katalog over AM Accessoria 7. De
                               latinske fragmenter</ref>
-                           <biblScope type="pages">26</biblScope></bibl>
+                           <biblScope unit="pages">26</biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial" xml:id="Acc-0007-a-b-13-da">
+                  <msIdentifier><altIdentifier type="partial" xml:id="Acc-0007-a-b-13-da">
                      <idno>AM Acc 7 a β, Hs 13</idno>
-                  </altIdentifier>
-                  <head><title>Graduale</title>; <origPlace key="IS">Island?</origPlace>, <origDate
-                        notBefore="1300" notAfter="1399">s. XIV</origDate>.</head>
+                  </altIdentifier></msIdentifier>
+                  <head><title>Graduale</title>; <origPlace key="IS">Island?</origPlace>, <origDate notBefore="1300" notAfter="1399">s. XIV</origDate>.</head>
                   <msContents>
                      <msItem class="messus">
                         <textLang mainLang="la"/>
@@ -562,16 +543,15 @@
                      <listBibl>
                         <bibl>Andersen, <ref target="BiblArn46">Katalog over AM Accessoria 7. De
                               latinske fragmenter</ref>
-                           <biblScope type="pages">27</biblScope></bibl>
+                           <biblScope unit="pages">27</biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
                <msPart>
-                  <altIdentifier type="partial" xml:id="Acc-0007-a-b-14-da">
+                  <msIdentifier><altIdentifier type="partial" xml:id="Acc-0007-a-b-14-da">
                      <idno>AM Acc 7 a β, Hs 14</idno>
-                  </altIdentifier>
-                  <head><title>Graduale</title>; <origPlace key="IS">Island</origPlace>, <origDate
-                        notBefore="1300" notAfter="1399">s. XIV</origDate>.</head>
+                  </altIdentifier></msIdentifier>
+                  <head><title>Graduale</title>; <origPlace key="IS">Island</origPlace>, <origDate notBefore="1300" notAfter="1399">s. XIV</origDate>.</head>
                   <msContents>
                      <msItem class="messus">
                         <textLang mainLang="la"/>
@@ -592,21 +572,21 @@
                      <listBibl>
                         <bibl>Andersen, <ref target="BiblArn46">Katalog over AM Accessoria 7. De
                               latinske fragmenter</ref>
-                           <biblScope type="pages">28</biblScope></bibl>
+                           <biblScope unit="pages">28</biblScope></bibl>
                      </listBibl>
                   </additional>
                </msPart>
 
                <msPart>
-                  <altIdentifier type="partial" xml:id="Acc-0007-a-b-15-da">
+                  <msIdentifier><altIdentifier type="partial" xml:id="Acc-0007-a-b-15-da">
                      <idno>AM Acc 7 a β, Hs 15</idno>
-                  </altIdentifier>
+                  </altIdentifier></msIdentifier>
                   <msContents>
                      <msItem n="1" class="messus">
                         <locus from="1r" to="2v">1r-2v</locus>
                         <title>Graduale</title>
                         <bibl>Eggen, <ref target="BiblArn21">The Sequences of the Archbishopric of
-                              Nidarós I</ref><biblScope type="pages">25-26</biblScope></bibl>
+                              Nidarós I</ref><biblScope unit="pages">25-26</biblScope></bibl>
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -639,21 +619,15 @@
                      </decoDesc>
                   </physDesc>
                   <history>
-                     <origin notBefore="1450" notAfter="1499" resp="BiblArn46">Ifølge <bibl><ref
-                              target="BiblArn46">Andersen 2008</ref><biblScope type="pages"
-                              >29</biblScope></bibl> skrevet i <origPlace key="IS"
-                           >Island</origPlace> i <origDate notBefore="1450" notAfter="1499"
-                           >1400-tallets anden halvdel</origDate>.</origin>
+                     <origin notBefore="1450" notAfter="1499" resp="BiblArn46">Ifølge <bibl><ref target="BiblArn46">Andersen 2008</ref><biblScope unit="pages">29</biblScope></bibl> skrevet i <origPlace key="IS">Island</origPlace> i <origDate notBefore="1450" notAfter="1499">1400-tallets anden halvdel</origDate>.</origin>
                   </history>
                   <additional>
                      <listBibl>
                         <bibl>Andersen, <ref target="BiblArn46">Katalog over AM Accessoria 7. De
-                              latinske fragmenter</ref>, <biblScope type="pages"
-                           >29</biblScope></bibl>
+                              latinske fragmenter</ref>, <biblScope unit="pages">29</biblScope></bibl>
                         <bibl>Eggen, <ref target="BiblArn22">The Sequences of the Archbishopric of
                               Nidarós II: Facsimiles</ref>
-                           <biblScope type="pages">xlv</biblScope><note>ms r</note><biblScope
-                              type="pages">340-341</biblScope>
+                           <biblScope unit="pages">xlv</biblScope><note>ms r</note><biblScope unit="pages">340-341</biblScope>
                            <note>faksimile: <q>Acc. 7b, a leaf from AM 103, 4to
                            r-v.</q></note></bibl>
                      </listBibl>

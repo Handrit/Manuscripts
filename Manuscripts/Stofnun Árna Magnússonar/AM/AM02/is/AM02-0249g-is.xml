@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,9 +14,9 @@
                <msIdentifier>
                   <country key="IS">Ísland</country>
                   <settlement>Reykjavík</settlement>
-                  <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                  <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                   <repository>Handritasvið</repository>
-                  <collection>Safn Árna Magnússonar</collection>
+                  <collection key="AM">Safn Árna Magnússonar</collection>
                   <idno>AM 249 g fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>396</idno>
@@ -40,11 +40,8 @@
                   <msItem n="2" class="messus" defective="true">
                      <locus from="1r" to="1r">1r</locus>
                      <title type="supplied">Athugagrein um afhendingu grallara</title>
-                     <note>Samkvæmt athugagreininni, sem dagsett er að <name type="place"
-                           key="VinHvo01">Vindási</name>
-                        <date when="1680">1680</date>, afhenti <name key="SnaEin001" type="person"
-                           >Snæbjörn Einarsson</name> kirkjunni á <name type="place" key="ReyKjó01"
-                           >Reynivöllum í Kjós</name> þennan grallara. Síðar hefur verið krassað
+                     <note>Samkvæmt athugagreininni, sem dagsett er að <name type="place" key="VinHvo01">Vindási</name>
+                        <date when="1680">1680</date>, afhenti <name key="SnaEin001" type="person">Snæbjörn Einarsson</name> kirkjunni á <name type="place" key="ReyKjó01">Reynivöllum í Kjós</name> þennan grallara. Síðar hefur verið krassað
                         yfir þetta.</note>
                   </msItem>
 
@@ -94,8 +91,7 @@
                            <p>Handritið hefur verið blaðmerkt síðar með rauðu bleki.</p>
                         </foliation>
                         <condition>
-                           <p>Krassað yfir athugagrein á bl. <locus from="1r" to="1r"
-                              >1r</locus>.</p>
+                           <p>Krassað yfir athugagrein á bl. <locus from="1r" to="1r">1r</locus>.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -103,14 +99,12 @@
                            <p>
                               <list>
                                  <item>Eindálka.</item>
-                                 <item>Leturflötur er ca <dimensions type="written" unit="mm"
-                                       scope="all">
+                                 <item>Leturflötur er ca <dimensions type="written" unit="mm" scope="all">
                                        <height>175-200</height>
                                        <width>140-145</width>
                                     </dimensions>.</item>
                                  <item>Línufjöldi er ca 30-34.</item>
-                                 <item>Eyða fyrir upphafsstaf á bl. <locus from="8r" to="8r"
-                                       >8r</locus>.</item>
+                                 <item>Eyða fyrir upphafsstaf á bl. <locus from="8r" to="8r">8r</locus>.</item>
                               </list>
                            </p>
                         </layout>
@@ -125,11 +119,9 @@
                   </musicNotation>
                   <decoDesc>
                      <decoNote type="diagram">
-                        <p>Hringlaga, litskreyttar teikningar á bl. <locus from="9r" to="9v"
-                              >9r-v</locus>.</p>
+                        <p>Hringlaga, litskreyttar teikningar á bl. <locus from="9r" to="9v">9r-v</locus>.</p>
                      </decoNote>
-                     <decoNote type="initial">Litaður og flúraður upphafsstafur (R) á bl. <locus
-                           from="1r" to="1r">1r</locus>.</decoNote>
+                     <decoNote type="initial">Litaður og flúraður upphafsstafur (R) á bl. <locus from="1r" to="1r">1r</locus>.</decoNote>
                      <decoNote type="mixed">
                         <p>Víða notað rautt blek og sums staðar grænt og fjólublátt.</p>
                      </decoNote>
@@ -164,9 +156,7 @@
                         tímasett til <origDate notBefore="1550" notAfter="1599">síðari hluta 16.
                            aldar</origDate> í <bibl>
                            <ref target="KKKat">Katalog I</ref>
-                        </bibl>, bls. 228. Rímtalið er hugsanlega skrifað af eða fyrir <name
-                           key="ArnGis001" type="person">Árna Gíslason</name>, son <name
-                           key="GisJon003" type="person">Gísla Jónssonar</name> biskups, en hann
+                        </bibl>, bls. 228. Rímtalið er hugsanlega skrifað af eða fyrir <name key="ArnGis001" type="person">Árna Gíslason</name>, son <name key="GisJon003" type="person">Gísla Jónssonar</name> biskups, en hann
                         hefur skrifað athugasemd með nafni sínu við <date when="1585-07-20">20. júlí
                            1585</date> í rímtalinu. Rímtalið stóð áður framan við grallara.</p>
                   </origin>
@@ -175,8 +165,7 @@
                         <name key="ArnMag001" type="person">Árni Magnússon</name> fékk rímtalið frá
                         séra <name type="person">Torfa</name> á <name type="place">Vindási</name> og
                         í <date when="1710-03">mars 1710</date> sagði Torfi að hann þyrfti ekki að
-                        skila því aftur því grallarinn væri ónýtur (sbr. <locus from="accMat01r"
-                           to="accMat01r">seðil</locus>).</p>
+                        skila því aftur því grallarinn væri ónýtur (sbr. <locus from="accMat01r" to="accMat01r">seðil</locus>).</p>
                   </provenance>
                   <acquisition when="1978-07-26">
                      <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 26. júlí 1978.</p>
@@ -189,8 +178,7 @@
                            <p>
                               <list>
                                  <item>
-                                    <name type="person" key="ThoSig001">ÞS</name> skráði <date
-                                       from="2009-01-12" to="2009-01-19">12.-19. janúar
+                                    <name type="person" key="ThoSig001">ÞS</name> skráði <date from="2009-01-12" to="2009-01-19">12.-19. janúar
                                     2009</date>.</item>
                                  <item>
                                     <name type="person" key="DriThr001">DKÞ</name>færði inn

@@ -1,4 +1,4 @@
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,7 +14,9 @@
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="Acc"/>
                         <idno>Acc. 7 e</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2830</idno>
@@ -22,8 +24,7 @@
                     </msIdentifier>
                     <head>
                         <title>Biblia Latina and Petrus de Herentals' Hymn Commentary</title>;
-                            <origPlace>France and Iceland</origPlace>, <origDate notBefore="1200"
-                            notAfter="1499">MS 122: s. XIII and MS 123: s. XV</origDate>
+                            <origPlace>France and Iceland</origPlace>, <origDate notBefore="1200" notAfter="1499">MS 122: s. XIII and MS 123: s. XV</origDate>
                         <note>Fragments of religious texts previously used in the binding of e.g.
                                 <ref type="ms">AM 36 fol.</ref>
                         </note>
@@ -59,22 +60,20 @@
                                 <source>
                                     <p>Catalogued <date when="2021-03-26">26 March 2021</date> by
                                             <name type="person" key="EvaWed001">EW-J</name>. This
-                                        catalogue text is based on <bibl><ref target="BiblArn46"
-                                                >Andersen 2008</ref></bibl>.</p>
+                                        catalogue text is based on <bibl><ref target="BiblArn46">Andersen 2008</ref></bibl>.</p>
                                 </source>
                             </recordHist>
                         </adminInfo>
                         <listBibl>
                             <bibl>Andersen <ref target="BiblArn46">Katalog over AM Accessoria 7. De
-                                    latinske fragmenter</ref>, pp. <biblScope type="pages"
-                                    >113-121</biblScope></bibl>
+                                    latinske fragmenter</ref>, pp. <biblScope unit="pages">113-121</biblScope></bibl>
                         </listBibl>
                     </additional>
 
                     <msPart>
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>AM Acc 7 e, Hs 122.</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents>
                             <msItem n="1" class="bibl">
                                 <locus from="1r" to="70v">1r-70v</locus>
@@ -86,8 +85,7 @@
                             <objectDesc form="codex">
                                 <supportDesc material="perg">
                                     <support>Parchment.</support>
-                                    <extent>70 blade + 4 fragments from the margins, ca. <dimensions
-                                            type="leaf" scope="all">
+                                    <extent>70 blade + 4 fragments from the margins, ca. <dimensions type="leaf" scope="all">
                                             <height unit="mm">270</height>
                                             <width unit="mm">210</width>
                                         </dimensions>. </extent>
@@ -121,25 +119,21 @@
                         <history>
                             <origin notBefore="1200" notAfter="1299" evidence="conjecture"><p>According to Andersen
                                             (<bibl><ref target="BiblArn46">Katalog over AM
-                                            Accessoria 7</ref>, p. <biblScope type="pages"
-                                            >113</biblScope></bibl>) MS 122 is written in <origPlace
-                                        key="FR">France</origPlace> in the <origDate
-                                        notBefore="1200" notAfter="1299">thirteenth
+                                            Accessoria 7</ref>, p. <biblScope unit="pages">113</biblScope></bibl>) MS 122 is written in <origPlace key="FR">France</origPlace> in the <origDate notBefore="1200" notAfter="1299">thirteenth
                                         century</origDate>.</p>
                             </origin>
                         </history>
                         <additional>
                             <listBibl>
                                 <bibl>Andersen <ref target="BiblArn46">Katalog over AM Accessoria 7.
-                                        De latinske fragmenter</ref>, pp. <biblScope type="pages"
-                                        >113-118</biblScope></bibl>
+                                        De latinske fragmenter</ref>, pp. <biblScope unit="pages">113-118</biblScope></bibl>
                             </listBibl>
                         </additional>
                     </msPart>
                     <msPart>
-                        <altIdentifier type="partial">
+                        <msIdentifier><altIdentifier type="partial">
                             <idno>AM Acc 7 e, Hs 123.</idno>
-                        </altIdentifier>
+                        </altIdentifier></msIdentifier>
                         <msContents>
                             <msItem n="2" class="gudfr">
                                 <locus from="1r" to="78v">1r-78v</locus>
@@ -152,8 +146,7 @@
                             <objectDesc form="codex">
                                 <supportDesc material="perg">
                                     <support>Parchment.</support>
-                                    <extent>78 + 3 fragments. Ca. <dimensions type="leaf"
-                                            scope="all">
+                                    <extent>78 + 3 fragments. Ca. <dimensions type="leaf" scope="all">
                                             <height unit="mm">270</height>
                                             <width unit="mm">190</width>
                                         </dimensions></extent>
@@ -189,7 +182,7 @@
                         <history>
                             <origin notBefore="1400" notAfter="1499" evidence="conjecture">According to Andersen
                                         (<bibl><ref target="BiblArn46">Katalog over AM Accessoria
-                                        7</ref>, p. <biblScope type="pages">118</biblScope></bibl>)
+                                        7</ref>, p. <biblScope unit="pages">118</biblScope></bibl>)
                                 MS 123 is written in <origPlace key="IS">Iceland</origPlace> in the
                                     <origDate notBefore="1400" notAfter="1499">fifteenth
                                     century</origDate>.</origin>
@@ -197,8 +190,7 @@
                         <additional>
                             <listBibl>
                                 <bibl>Andersen <ref target="BiblArn46">Katalog over AM Accessoria 7.
-                                        De latinske fragmenter</ref>, pp. <biblScope type="pages"
-                                        >118-121</biblScope></bibl>
+                                        De latinske fragmenter</ref>, pp. <biblScope unit="pages">118-121</biblScope></bibl>
                             </listBibl>
                         </additional>
                     </msPart>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -20,9 +20,9 @@
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
-						<institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+						<institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
 						<repository>Handritasafn</repository>
-						<collection>Handritasafn Jóns Sigurðssonar</collection>
+						<collection key="JS">Handritasafn Jóns Sigurðssonar</collection>
 						<idno>JS 123 fol.</idno>
 						<altIdentifier type="internal" subtype="PEO">
 							<idno>4847</idno>
@@ -35,12 +35,12 @@
 						</summary>
 						<textLang mainLang="is">Íslenska</textLang>
 
-						<msItem n="1"  defective="false" class="embr logfr">
+						<msItem n="1" defective="false" class="embr logfr">
 							<title type="supplied">Sóknar- og varnarskjöl <name type="person" key="FinMag001">Finns Magnússonar</name> fyrir landsyfirrétti 1805 - 1808</title>
 							<note>Frá þeim tíma er Finnur var málflutningsmaður í landsyfirrétti.</note>
 						</msItem>
 						
-						<msItem n="2"  defective="true" class="dagb">
+						<msItem n="2" defective="true" class="dagb">
 							<title type="supplied">Dagbókarbrot um sama efni</title>
 							<note>1 blað.</note>
 						</msItem>
@@ -71,12 +71,9 @@
 
 						<handDesc hands="3">
 							<summary>Ein hönd (að mestu); Skrifarar:</summary>
-							<handNote scope="major" script="unknown" scribe="FinMag001"><name
-									type="person" key="FinMag001">Finnur Magnússon</name></handNote>
-							<handNote scope="minor" script="unknown" scribe="SteFin004"><name
-								type="person" key="SteFin004">Steindór Finnsson</name></handNote>
-							<handNote scope="minor" script="unknown" scribe="JonArn002"><name
-								type="person" key="JonArn002">Jón Árnason</name></handNote>
+							<handNote scope="major" script="unknown" scribe="FinMag001"><name type="person" key="FinMag001">Finnur Magnússon</name></handNote>
+							<handNote scope="minor" script="unknown" scribe="SteFin004"><name type="person" key="SteFin004">Steindór Finnsson</name></handNote>
+							<handNote scope="minor" script="unknown" scribe="JonArn002"><name type="person" key="JonArn002">Jón Árnason</name></handNote>
 						</handDesc>
 						<additions>
 							<p>Með liggur registur með hendi <name type="person" key="JonArn002">Jóns bókavarðar Árnasonar</name>.</p>
@@ -87,8 +84,7 @@
 						<origin>
 							<origPlace>Ísland</origPlace>, <origDate cert="high" notBefore="1805" notAfter="1808">1805 - 1808</origDate>.</origin>
 						<acquisition>
-							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date
-									when="1878">1878.</date> Safnið var afhent Landsbókasafni að
+							<p>Alþingi keypti handrita- og bókasafn Jóns Sigurðssonar árið <date when="1878">1878.</date> Safnið var afhent Landsbókasafni að
 								honum látnum, en hann lést 7. desember 1879. Það komst í hendur
 								safnsins árið <date when="1881">1881</date> er það var flutt í
 								Alþingishúsið.</p>

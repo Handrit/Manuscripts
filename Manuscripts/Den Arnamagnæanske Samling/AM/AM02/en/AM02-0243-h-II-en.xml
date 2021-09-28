@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -10,11 +10,13 @@
             <pubPlace>København</pubPlace>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:lang="en" xml:id="AM02-243-h-II-en">
+            <msDesc xml:lang="en" xml:id="AM02-0243-h-II-en">
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 243 h II fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>374</idno>
@@ -31,8 +33,8 @@
                      <msItem n="1.1" class="heims sidfr kenb">
                         <locus from="1r" to="1v">1r-v</locus>
                         <incipit defective="true">kaup<ex>er</ex> e<ex>da</ex> feſter</incipit>
-                        <explicit defective="true">í&#xE553; c<hi rend="sup">t</hi> vadmala
-                              e<ex>da</ex> íí&#xE553;<hi rend="sup">c</hi> m<ex>ed</ex>
+                        <explicit defective="true">í c<hi rend="sup">t</hi> vadmala
+                              e<ex>da</ex> íí<hi rend="sup">c</hi> m<ex>ed</ex>
                               þi<ex>er</ex>
                         </explicit>
                      </msItem>
@@ -42,7 +44,7 @@
                               jafn<ex>nan</ex>
                         </incipit>
                         <explicit defective="true">e<ex>r</ex> hey<ex>ra</ex> boki<ex>n</ex>a. at
-                              þ<ex>at</ex> meíg&#xE553;</explicit>
+                              þ<ex>at</ex> meíg</explicit>
                      </msItem>
                   </msItem>
                </msContents>
@@ -70,29 +72,23 @@
                   <sealDesc>
                      <seal>
                         <p>The bottom of the leaves were threaded with green silk ribbons with two
-                           wax seals belonging to <name type="person" key="BerMol001"
-                              >Møllmann</name> and <name type="person" key="JohKal001"
-                           >Kall</name>.</p>
+                           wax seals belonging to <name type="person" key="BerMol001">Møllmann</name> and <name type="person" key="JohKal001">Kall</name>.</p>
                      </seal>
                   </sealDesc>
 
                </physDesc>
                <history>
                   <origin notBefore="1490" notAfter="1510" resp="KKKat">Written in
-                        <origPlace>Iceland</origPlace>, <origDate notBefore="1490" notAfter="1510"
-                        >c. 1500</origDate></origin>
+                        <origPlace>Iceland</origPlace>, <origDate notBefore="1490" notAfter="1510">c. 1500</origDate></origin>
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Brenner, <ref target="OscBre1881"/><biblScope type="pages"
-                           >xii</biblScope></bibl>
-                     <bibl><ref target="GHM">Grönlands historiske Mindesmærker</ref><biblScope type="volume">III</biblScope><biblScope
-                           type="pages">272-73</biblScope></bibl>
-                     <bibl>Hálfdan Einarsson, <ref target="HalEin1768"/><biblScope type="pages"
-                           >xxxiv-vi</biblScope></bibl>
+                     <bibl>Brenner, <ref target="OscBre1881"/><biblScope unit="pages">xii</biblScope></bibl>
+                     <bibl><ref target="GHM">Grönlands historiske Mindesmærker</ref><biblScope unit="volume">III</biblScope><biblScope unit="pages">272-73</biblScope></bibl>
+                     <bibl>Hálfdan Einarsson, <ref target="HalEin1768"/><biblScope unit="pages">xxxiv-vi</biblScope></bibl>
                      <bibl>Kålund, <ref type="secondary-1" target="KKKat"/>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">221</biblScope></bibl>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">221</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

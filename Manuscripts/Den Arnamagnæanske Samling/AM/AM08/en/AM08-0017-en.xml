@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -15,7 +15,9 @@
                <msIdentifier>
                   <country>Denmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 17 8vo</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>2212</idno>
@@ -108,9 +110,7 @@
                </physDesc>
                <history>
                   <origin when="1472" evidence="internal">According to a note on 101v the law text
-                     is written in <origPlace>Aarhus, Denmark</origPlace> in <origDate when="1472"
-                        evidence="internal">1471</origDate> (<q xml:lang="la">aruſs Mcdlxx<hi
-                           rend="sup">o</hi> ſecu<ex>n</ex>do</q>). The texts on ff. Vr-XVr are
+                     is written in <origPlace>Aarhus, Denmark</origPlace> in <origDate when="1472" evidence="internal">1471</origDate> (<q xml:lang="la">aruſs Mcdlxx<hi rend="sup">o</hi> ſecu<ex>n</ex>do</q>). The texts on ff. Vr-XVr are
                      written in <date notBefore="1600" notAfter="1699">the seventeenth
                         century</date>.</origin>
                   <provenance>From the provenance notes on fol. 1v it appears that the manuscript
@@ -123,8 +123,7 @@
                            <q>Niels Hammer paa Dybeck</q> (<date when="1593">1593</date>),</item>
                         <item><name type="person" key="SivPed001">Sivert Pederssen</name>
                            <q>Siuert pedersenn</q> (<date when="1595">1595</date>) og</item>
-                        <item><name type="person" key="HarKas001">Hartvig Kaas</name> til Sørup <q
-                              xml:lang="da">Hartuig Kaas thill Siörup</q></item>
+                        <item><name type="person" key="HarKas001">Hartvig Kaas</name> til Sørup <q xml:lang="da">Hartuig Kaas thill Siörup</q></item>
                      </list>.</provenance>
                   <acquisition><name type="person" key="ArnMag001">Árni Magnússon</name> purchased
                      the manuscript at <name type="person" key="JacBir001">Jacob Bircherod</name>'s
@@ -135,17 +134,17 @@
                <additional>
                   <listBibl>
                      <bibl>Kofod Ancher, <ref target="smlsk1">Samlede juridiske Skrifter</ref>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">328</biblScope>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">328</biblScope>
                      </bibl>
                      <bibl>Kolderup-Rosenvinge, <ref type="secondary-1" target="SgdL5">Samling af
                            gamle danske Love</ref>
-                        <biblScope type="volume">V</biblScope>
-                        <biblScope type="pages">xiv</biblScope>
+                        <biblScope unit="volume">V</biblScope>
+                        <biblScope unit="pages">xiv</biblScope>
                      </bibl>
                      <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">332</biblScope>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">332</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

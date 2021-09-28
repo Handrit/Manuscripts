@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -10,11 +10,13 @@
             <pubPlace>København</pubPlace>
          </publicationStmt>
          <sourceDesc>
-            <msDesc xml:lang="da" xml:id="AM02-243-f-da">
+            <msDesc xml:lang="da" xml:id="AM02-0243-f-da">
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 243 f fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>372</idno>
@@ -22,8 +24,7 @@
                </msIdentifier>
                <head>
                   <title n="1" type="supplied">Konungs skuggsjá og vers</title>;
-                     <origPlace>Island</origPlace>, <origDate notBefore="1490"
-                     notAfter="1510">ca. 1500</origDate>.</head>
+                     <origPlace>Island</origPlace>, <origDate notBefore="1490" notAfter="1510">ca. 1500</origDate>.</head>
                <msContents>
                   <msItem n="1" class="heims sidfr kenb">
                      <locus from="1" to="126">s. 1-126</locus>
@@ -93,8 +94,7 @@
                      <binding contemporary="false" when="1966">
                         <p>
                            <term type="binding">BD-standardbind</term> med skindryg og hjørner og
-                           olivengrønt/brunt Shirtingsovertræk fra 1966: <dimensions type="binding"
-                              unit="mm">
+                           olivengrønt/brunt Shirtingsovertræk fra 1966: <dimensions type="binding" unit="mm">
                               <height>223</height>
                               <width>179</width>
                               <depth>53</depth>
@@ -103,15 +103,12 @@
                      </binding>
                   </bindingDesc>
                   <accMat>
-                     <p>På en seddel, som er indklæbet foran, har <name type="person"
-                           key="ArnMag001">Arne Magnusson</name> skrevet: <q>Speculum Regale Aftan
+                     <p>På en seddel, som er indklæbet foran, har <name type="person" key="ArnMag001">Arne Magnusson</name> skrevet: <q>Speculum Regale Aftan
                            vid eru <lb/>
-                           <hi rend="underline">Mariuviſur</hi> (þær hefi eg afskrifadar — i <ref
-                              type="ms">AM. 711 b 4<hi rend="sup">to</hi>
+                           <hi rend="underline">Mariuviſur</hi> (þær hefi eg afskrifadar — i <ref type="ms">AM. 711 b 4<hi rend="sup">to</hi>
                            </ref>). <lb/>
                            <hi rend="underline">Heims oſomi</hi>, byriaſt: Morg er man<ex>n</ex>zins
-                           pina. <lb/> Bokin er komin til min fra Huſtru <name type="person"
-                              key="GudGis001">Gudride Giſladottur</name>. Var in<ex>n</ex>saumud i
+                           pina. <lb/> Bokin er komin til min fra Huſtru <name type="person" key="GudGis001">Gudride Giſladottur</name>. Var in<ex>n</ex>saumud i
                            andstygdar ledr plumpt og greylega u<ex>m</ex>vendad</q>
                      </p>
                      <p>Tilsvarende oplysninger findes i <ref type="ms" target="AM04-435-a-da">AM
@@ -120,13 +117,13 @@
                </physDesc>
                <additional>
                   <listBibl>
-                     <bibl>Brenner: <ref target="OscBre1881"/><biblScope type="pages">xii</biblScope></bibl>
-                     <bibl><ref target="GHM"/><biblScope type="volume">III</biblScope><biblScope type="pages">274</biblScope></bibl>
-                     <bibl>Hálfdan Einarsson: <ref target="HalEin1768"/><biblScope type="pages">xxv-vi</biblScope><note>Med facsimile.</note></bibl>
+                     <bibl>Brenner: <ref target="OscBre1881"/><biblScope unit="pages">xii</biblScope></bibl>
+                     <bibl><ref target="GHM"/><biblScope unit="volume">III</biblScope><biblScope unit="pages">274</biblScope></bibl>
+                     <bibl>Hálfdan Einarsson: <ref target="HalEin1768"/><biblScope unit="pages">xxv-vi</biblScope><note>Med facsimile.</note></bibl>
                      <bibl>Holm-Olsen: <ref target="LudHol1987c"/><!-- biblScope? --></bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat"/>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">219-20</biblScope></bibl>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">219-20</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

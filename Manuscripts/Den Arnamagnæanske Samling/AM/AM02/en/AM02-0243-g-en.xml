@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -15,7 +15,9 @@
                <msIdentifier>
                   <country>Denmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 243 g fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>373</idno>
@@ -32,9 +34,7 @@
                </msIdentifier>
                <head>
                   <title xml:lang="la">Speculum regale</title>
-                  <title xml:lang="is">Konungs skuggsjá</title>; <origPlace
-                     >Iceland</origPlace>, <origDate notBefore="1340" notAfter="1360" cert="high"
-                     resp="ONP">s. XIV med.</origDate>
+                  <title xml:lang="is">Konungs skuggsjá</title>; <origPlace>Iceland</origPlace>, <origDate notBefore="1340" notAfter="1360" cert="high" resp="ONP">s. XIV med.</origDate>
                </head>
                <msContents>
                   <msItem defective="true" class="heims sidfr kenb">
@@ -44,15 +44,13 @@
                         <locus from="1r" to="1v">1r-v</locus>
                         <incipit defective="true">ſkiot. En ept<ex>er</ex> þ<ex>vi</ex>
                         </incipit>
-                        <explicit defective="true">i millv<ex>m</ex> allt einn dag<supplied
-                              reason="damage">r</supplied>
+                        <explicit defective="true">i millv<ex>m</ex> allt einn dag<supplied reason="damage">r</supplied>
                         </explicit>
                      </msItem>
                      <msItem n="1.2" class="heims sidfr kenb">
                         <locus from="2r" to="2v">2r-v</locus>
                         <incipit defective="true">
-                           <supplied reason="damage">hirð</supplied>ar <supplied reason="damage"
-                              >fø</supplied>ker h<ex>ann</ex> þegar ſina maka</incipit>
+                           <supplied reason="damage">hirð</supplied>ar <supplied reason="damage">fø</supplied>ker h<ex>ann</ex> þegar ſina maka</incipit>
                         <explicit defective="true">allz kynſ uorþu yv<ex>er</ex>
                            k<ex>onun</ex>ge</explicit>
                      </msItem>
@@ -133,11 +131,11 @@
                <additional>
                   <listBibl>
                      <bibl><ref type="secondary-1" target="BiblArn13">Holm-Olsen 1952</ref>
-                        <biblScope type="pages">51</biblScope><!-- more pages? -->
+                        <biblScope unit="pages">51</biblScope><!-- more pages? -->
                      </bibl>
                      <bibl>Kålund, <ref target="KKKat">Katalog</ref>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">220</biblScope>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">220</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

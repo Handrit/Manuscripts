@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,9 +14,9 @@
                     <msIdentifier>
                         <country key="IS">Ísland</country>
                         <settlement>Reykjavík</settlement>
-                        <institution>Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                        <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
                         <repository>Handritasvið</repository>
-                        <collection>Safn Árna Magnússonar</collection>
+                        <collection key="AM">Safn Árna Magnússonar</collection>
                         <idno>AM 970 VII 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2102</idno>
@@ -25,8 +25,7 @@
                     <msContents>
                         <summary><title type="supplied">Útdrættir og sýnishorn úr ýmsum
                                 verkum</title> frá <name type="person" key="SigGun001">Sr. Sigurði
-                                Gunnarssyni</name> á <placeName key="DesBor01"
-                                >Desjarmýri</placeName>
+                                Gunnarssyni</name> á <placeName key="DesBor01">Desjarmýri</placeName>
                             <note>Yfirtitill: <q>Fornrit</q>
                                 <p/></note>
                         </summary>
@@ -70,16 +69,14 @@
                             <rubric>Sagan af Hrana Egilssyni Hring (sýnishorn)</rubric>
                             <incipit>(Upphafið) Bárður hét maður …</incipit>
                             <colophon>Sagan er nýlega skrifuð en þó máð og ill aflestrar (málið víða
-                                unglegt). Eigandi er Jón Sigurðsson bóndi í <placeName
-                                    key="NjaBor01">Njarðvík</placeName>.</colophon>
+                                unglegt). Eigandi er Jón Sigurðsson bóndi í <placeName key="NjaBor01">Njarðvík</placeName>.</colophon>
                             <note>Aðeins ágrip af sögunni.</note>
                         </msItem>
 
                         <msItem n="5" defective="false" class="heims">
                             <locus from="2v" to="2v">2v</locus>
                             <title type="uniform">Vísdómsbók eða Pansophia</title>
-                            <rubric>Vísdómsbók samsett af prófasti sra <name type="person"
-                                    key="PalBjo001">Páli Björnssyni</name> anno 1574. (Sýnishorn af
+                            <rubric>Vísdómsbók samsett af prófasti sra <name type="person" key="PalBjo001">Páli Björnssyni</name> anno 1574. (Sýnishorn af
                                 innihaldi og registur bókarinnar)</rubric>
                             <incipit>1. kapit: Um hádýrðina …</incipit>
                             <colophon>Bókin er 38 kapit. víða rotin en má þó lesa (eign Jóns bónda
@@ -103,8 +100,7 @@
                             <note><p>Upplýsingar um handrit sem inniheldur Hugrás: <q>Bók skrifuð
                                         móti okri, ýmsum galdragreinum og Fjandafælu Jóns lærða af
                                         séra <name type="person" key="GudEin001">Guðmundi
-                                            Einarssyni</name> presti að <placeName key="StaSta02"
-                                            >Staðarstað</placeName> og prófasti í Þórsnesþingi anno
+                                            Einarssyni</name> presti að <placeName key="StaSta02">Staðarstað</placeName> og prófasti í Þórsnesþingi anno
                                         1640 (eign Sigurðar bónda Jónssonar í
                                 Njarðvík</q>.</p></note>
                         </msItem>
@@ -210,8 +206,7 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote scribe="SigGun001" script="humcursiva" scope="sole"><name
-                                    type="person" key="SigGun001">Sigurður Gunnarsson</name> á
+                            <handNote scribe="SigGun001" script="humcursiva" scope="sole"><name type="person" key="SigGun001">Sigurður Gunnarsson</name> á
                                     <placeName key="DesBor01">Desjarmýri</placeName>,
                                 sprettskrift.</handNote>
 
@@ -229,23 +224,19 @@
                         </sealDesc>
                         <accMat>
                             <p>Aftast er sendibréf til <q>hinnar konunglegu fornleifanefndar í
-                                    Kaupmannahöfn</q> frá <name type="person" key="SigGun001"
-                                    >Sigurði Gunnarssyni</name> á <placeName key="DesBor01"
-                                    >Desjarmýri</placeName>, dags. 28. des. 1847.</p>
+                                    Kaupmannahöfn</q> frá <name type="person" key="SigGun001">Sigurði Gunnarssyni</name> á <placeName key="DesBor01">Desjarmýri</placeName>, dags. 28. des. 1847.</p>
                         </accMat>
                     </physDesc>
                     <history>
                         <origin when="1847">
                             <p>Handritið var skrifað á <origPlace key="IS">Íslandi
-                                1847.</origPlace>. Það er tímasett til 19. aldar í <bibl><ref
-                                        target="KKKat">Katalog</ref>
+                                1847.</origPlace>. Það er tímasett til 19. aldar í <bibl><ref target="KKKat">Katalog</ref>
                                 </bibl> II 1892:282.</p>
                         </origin>
                         <provenance>
                             <p><ref target="AM04-0970-I-VII">AM 970 I-VII 4to</ref> var áður í eigu
                                 Det kongelige nordiske Oldskriftselskab. Það kom kom á Árnasafn í
-                                Kaupmannahöfn <date when="1886">1886</date> fyrir tilstuðlan <name
-                                    type="person" key="GisBry002">Gísla Brynjúlfssonar.</name></p>
+                                Kaupmannahöfn <date when="1886">1886</date> fyrir tilstuðlan <name type="person" key="GisBry002">Gísla Brynjúlfssonar.</name></p>
                         </provenance>
                         <acquisition when="1987-05-21">
                             <p>Stofnun Árna Magnússonar tók við handritinu 21. maí 1987.</p>
@@ -255,10 +246,8 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p><name type="person" key="ThoSig001"
-                                        >ÞS</name> skráði 20.-23. nóvember 2018.</p>
-                                    <p><name type="person" key="GudIng001">GI færði inn grunnupplýsingar</name><date
-                                            when="2012-06-11">11. júní 2012.</date></p>
+                                    <p><name type="person" key="ThoSig001">ÞS</name> skráði 20.-23. nóvember 2018.</p>
+                                    <p><name type="person" key="GudIng001">GI færði inn grunnupplýsingar</name><date when="2012-06-11">11. júní 2012.</date></p>
                                     <p><name type="person" key="KriKaa001">Kålund</name> gekk frá
                                         handritinu til skráningar <date when="1892">1892.</date>
                                         (sjá <bibl><ref target="KKKat">Katalog</ref>
@@ -274,8 +263,7 @@
                             <list>
                                 <item>Filma kom í <date when="1979-04">apríl 1979,</date> askja
                                     229.</item>
-                                <item>Myndir gerðar í filmuvél, frágangur í <date when="1989-11"
-                                        >nóvember 1989</date></item>
+                                <item>Myndir gerðar í filmuvél, frágangur í <date when="1989-11">nóvember 1989</date></item>
                                 <item>Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
                                     Kaupmannahöfn.</item>
                             </list>

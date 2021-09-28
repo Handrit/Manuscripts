@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -14,7 +14,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 655 XXXII 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1646</idno>
@@ -23,8 +25,7 @@
                <head>
                   <title type="uniform" xml:lang="is">Maríu saga</title>;
                      <origPlace>Island</origPlace>
-                  <origDate notBefore="1290" notAfter="1310" cert="medium" evidence="conjecture"
-                            resp="KKKat">ca. 1300</origDate>
+                  <origDate notBefore="1290" notAfter="1310" cert="medium" evidence="conjecture" resp="KKKat">ca. 1300</origDate>
                   <origDate notBefore="1300" notAfter="1399" evidence="conjecture" resp="ONP">s. XIV</origDate>
                </head>
                <msContents>
@@ -40,7 +41,7 @@
                         <supplied reason="unknown">ligri</supplied>
                      </explicit>
                      <bibl>Unger: <ref type="primary" target="Mariu1871">Maríu saga</ref>
-                        <biblScope type="pages">430-629</biblScope>
+                        <biblScope unit="pages">430-629</biblScope>
                      </bibl>
                   </msItem>
                </msContents>
@@ -73,10 +74,9 @@
                <history>
                   <origin>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl>
                         <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">66</biblScope>
-                     </bibl>) har dateret fragmentet til <origDate notBefore="1290" notAfter="1310" cert="medium" evidence="conjecture"
-                               resp="KKKat">ca. 1300</origDate>. Senere
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">66</biblScope>
+                     </bibl>) har dateret fragmentet til <origDate notBefore="1290" notAfter="1310" cert="medium" evidence="conjecture" resp="KKKat">ca. 1300</origDate>. Senere
                      har <name type="person" key="SteKar001">Stefán Karlsson</name> (pers. 1985)
                      dateret det til <origDate notBefore="1300" notAfter="1399" evidence="conjecture" resp="ONP">s. XIV</origDate>
                   </origin>
@@ -84,12 +84,12 @@
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">66-67</biblScope>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">66-67</biblScope>
                      </bibl>
                      <bibl>Unger: <ref type="secondary-1" target="Mariu1871">Maríu
-                           saga&gt;</ref>
-                        <biblScope type="pages">xxix-xxx</biblScope>
+                           saga></ref>
+                        <biblScope unit="pages">xxix-xxx</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

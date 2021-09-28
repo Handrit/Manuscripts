@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -14,9 +14,9 @@
                     <msIdentifier>
                         <country key="IS">Ísland</country>
                         <settlement>Reykjavík</settlement>
-                        <institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+                        <institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
                         <repository>Handritasvið</repository>
-                        <collection>Skinnblöð Landsbókasafns</collection>
+                        <collection key="LbsFragm">Skinnblöð Landsbókasafns</collection>
                         <idno>Lbs fragm 100</idno>
                         
                     </msIdentifier>
@@ -26,7 +26,7 @@
                         <textLang mainLang="la">Latína</textLang>
                         
                         <msItem defective="true" class="salm" n="1">
-                            <locus from="1r" to= "1v"> 1r-2v </locus>
+                            <locus from="1r" to="1v"> 1r-2v </locus>
                             <title type="supplied">Skinnblað</title>
                        
                             <msItem n="1.1">
@@ -54,7 +54,7 @@
                                     <p>Skinn.</p>
                                 </support>
                                 
-                                <extent>1 blað (<dimensions type= "leaf" scope ="all" unit="mm"><height>282</height><width>281</width></dimensions>).</extent>
+                                <extent>1 blað (<dimensions type="leaf" scope="all" unit="mm"><height>282</height><width>281</width></dimensions>).</extent>
                                 <condition>Skinn er afar ljóst. Leturflötur er skertur að ofan og neðan, einnig aðeins á vinstri jaðri. Á blaðinu eru nokkrar glufur og einnig gat sem virðist hafa myndað við verkun skinnsins.</condition>
                                 
                             </supportDesc>
@@ -62,7 +62,7 @@
                                 
                                 <layout columns="1" writtenLines="40">
                                     <p>Eindálka. 40 línur.</p>
-                                    <p>Leturflötur er <dimensions type= "leaf" scope ="all" unit="mm"><height>282</height><width>261</width></dimensions>.
+                                    <p>Leturflötur er <dimensions type="leaf" scope="all" unit="mm"><height>282</height><width>261</width></dimensions>.
                                     </p>
                                     
                                 </layout>
@@ -72,7 +72,7 @@
                         <handDesc hands="1">
                             <handNote scribe="unknown" scope="sole" script="unknown">Óþekktur skrifari.</handNote>
                         </handDesc>
-                        <decoDesc><decoNote></decoNote>
+                        <decoDesc><decoNote/>
                         </decoDesc>
                         <accMat>Tveir fylgiseðlar fylgja með. Á öðrum þeirra stendur <quote>Skinn af bandi á bók frá 1502. Frá Birni Sigfússyni 29. júní 1950</quote>. Á hinum stendur <quote>Band á bók frá 1502. Pseudo-Dionysios Areopagita: Opera</quote>.</accMat>
                     </physDesc>

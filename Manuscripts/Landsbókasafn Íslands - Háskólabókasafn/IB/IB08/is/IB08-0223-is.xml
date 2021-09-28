@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -19,9 +19,9 @@
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
-						<institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+						<institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
 						<repository>Handritasafn</repository>
-						<collection>Handritasafn Kaupmannahafnardeildar Hins íslenska
+						<collection key="IB">Handritasafn Kaupmannahafnardeildar Hins íslenska
 							bókmenntafélags</collection>
 						<idno>ÍB 223 8vo</idno>
 						<altIdentifier type="internal" subtype="PEO">
@@ -36,23 +36,22 @@
 						<msItem n="1" defective="unknown" class="kvad">
 							<title type="uniform">Krukkspá</title>
 							<note>M. h. <name type="person" key="ThoJon018">Þorkels
-								Jónssonar</name>, 11 blöð. (3 bl. aftan við m.h. <name type="person"
-									key="FinJon002">Finns Jónssonar</name>, síðar prófessors)</note>
+								Jónssonar</name>, 11 blöð. (3 bl. aftan við m.h. <name type="person" key="FinJon002">Finns Jónssonar</name>, síðar prófessors)</note>
 
 							<bibl> Páll Eggert Ólason: <ref target="MenMennt">Menn og menntir</ref>
-								<biblScope type="volume">IV</biblScope>
+								<biblScope unit="volume">IV</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="Skírnir">Skírnir</ref>
-								<biblScope type="volume">VIII</biblScope>
-								<biblScope type="pages">50</biblScope>
+								<biblScope unit="volume">VIII</biblScope>
+								<biblScope unit="pages">50</biblScope>
 							</bibl>
 						</msItem>
 						<msItem n="2" defective="unknown" class="natfr vedfr">
 							<title type="supplied">Um veðurmerki</title>
 							<note>Útdregið af [Di]ario "Iens Laurentz Sonar"</note>
 							<bibl> Jón Þorkelsson: <ref target="ThjoMunn">Þjóðsögur og munnmæli</ref>
-								<biblScope type="pages">214</biblScope>
+								<biblScope unit="pages">214</biblScope>
 							</bibl>
 						</msItem>
 						<msItem n="3" defective="unknown" class="kvad salm">
@@ -85,13 +84,13 @@
 								lögmanna- og byskupatali, um tíund o. s. frv., skr. ca. 1770. 41 bl.</note>
 							<bibl>
 								<ref target="AlþIsl004">Alþingisbækur Íslands</ref>
-								<biblScope type="volume">IV</biblScope>
-								<biblScope type="pages">88-9</biblScope>
+								<biblScope unit="volume">IV</biblScope>
+								<biblScope unit="pages">88-9</biblScope>
 							</bibl>
 							<bibl>
 								<ref target="DI">Diplomatarium Islandicum</ref>
-								<biblScope type="volume">VII</biblScope>
-								<biblScope type="pages">nr. 8</biblScope>
+								<biblScope unit="volume">VII</biblScope>
+								<biblScope unit="pages">nr. 8</biblScope>
 							</bibl>
 							<msItem n="5.1" defective="unknown" class="log ">
 								<title type="uniform">Bergþórsstatúta</title>
@@ -147,9 +146,7 @@
 							<recordHist>
 								<source>
 									<name type="person" key="SigJor001">Sigríður Hjördís
-										Jörundsdóttir</name> yfirfór skráningu <date
-										when="2012-04-03">3. apríl 2012</date> ; <name type="person"
-										key="EvaEin001">Eva Kamilla Einarsdóttir</name> frumskráði,
+										Jörundsdóttir</name> yfirfór skráningu <date when="2012-04-03">3. apríl 2012</date> ; <name type="person" key="EvaEin001">Eva Kamilla Einarsdóttir</name> frumskráði,
 										<date when="2011-07-28">28.júlí 2011</date>; Handritaskrá,
 									2. b. ; Átaksverkefni 2011.</source>
 							</recordHist>

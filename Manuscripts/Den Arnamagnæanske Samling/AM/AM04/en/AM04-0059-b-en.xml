@@ -1,4 +1,4 @@
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,7 +14,9 @@
                <msIdentifier>
                   <country>Denmark</country>
                   <settlement>Copenhagen</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 59 b 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>703</idno>
@@ -32,9 +34,7 @@
                      <note>Chap. 1-17 of King Magnus Hákonarson lagabætir's landslov</note>
                      <filiation>This is a copy of <ref type="ms" target="AM04-0059-a">AM 59 a 4to</ref> 
                         (<bibl>Storm:
-                           <ref target="NgL4">Norges gamle Love</ref><biblScope
-                              type="volume">IV</biblScope><biblScope type="pages"
-                                 >546</biblScope></bibl>).</filiation>
+                           <ref target="NgL4">Norges gamle Love</ref><biblScope unit="volume">IV</biblScope><biblScope unit="pages">546</biblScope></bibl>).</filiation>
                   
                   </msItem>
                </msContents>
@@ -92,7 +92,7 @@
                      <handNote scribe="unknown" scope="minor" script="kanzlei">
                         <p>One of <name type="person" key="ArnMag001">Árni Magnússon</name>'s scribes wrote fol.
                            <locus from="4r" to="4r">4r</locus> (see <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
-                              <biblScope type="volume">I</biblScope><biblScope type="pages">378</biblScope></bibl>).</p></handNote>
+                              <biblScope unit="volume">I</biblScope><biblScope unit="pages">378</biblScope></bibl>).</p></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="initial">The initials are hardly emphasized, but at times written somewhat larger (1-2 lines).</decoNote>
@@ -125,16 +125,14 @@
                <history>
                   <origin notBefore="1690" notAfter="1710" cert="medium" evidence="external">
                      <p>The manuscript was probably written in <origPlace key="IS">Iceland</origPlace>.</p>
-                     <p><bibl>Kålund (<ref type="secondary-1" target="KKKat"
-                        >Katalog</ref><biblScope type="volume">I</biblScope><biblScope
-                           type="pages">378</biblScope></bibl>) dates it to <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>.</p>
+                     <p><bibl>Kålund (<ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">I</biblScope><biblScope unit="pages">378</biblScope></bibl>) dates it to <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>.</p>
                   </origin>
                   <provenance>
                      <p>It is unclear if the added bifolium and note by <name type="person" key="ArnMag001">Árni Magnússon</name> with provenance information,
                         now found in <ref target="AM04-0059-a">AM 59 a 4to</ref>,
                         belongs to that copy or rather this. (See
                         also <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle
-                           Love</ref><biblScope type="volume">IV</biblScope> <biblScope type="pages">546</biblScope>
+                           Love</ref><biblScope unit="volume">IV</biblScope> <biblScope unit="pages">546</biblScope>
                         </bibl>). </p>
                   </provenance>
                </history>
@@ -157,13 +155,13 @@
                   </p></surrogates>
                   <listBibl>
                      <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">I</biblScope>
-                        <biblScope type="pages">378</biblScope>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">378</biblScope>
                      </bibl>
                      <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle
                         Love</ref>
-                        <biblScope type="volume">IV</biblScope>
-                        <biblScope type="pages">546</biblScope>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="pages">546</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

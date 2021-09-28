@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -15,7 +15,9 @@
                <msIdentifier>
                   <country>Danmark</country>
                   <settlement>København</settlement>
+                  <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
+                  <collection key="AM"/>
                   <idno>AM 226 a 8vo</idno>
                   <altIdentifier type="former">
                      <idno>Delvis overført fra Addit. 10 8vo</idno>
@@ -36,8 +38,7 @@
                   <msItem n="1" class="ridd notes">
                      <title type="supplied">Noter og uddrag af riddersagaer</title>
                      <note>Bl. 12-13 tilhører et håndskrift af <title type="uniform">Nitida saga
-                           frægu</title> fra <date notBefore="1600" notAfter="1699"
-                           >1600-tallet</date>
+                           frægu</title> fra <date notBefore="1600" notAfter="1699">1600-tallet</date>
                      </note>
                      <msItem n="2" class="bok">
                         <title type="supplied">Fragmentariske samling af titler</title>
@@ -84,8 +85,7 @@
                               <resp key="rcp"/>
                               <name type="person">Ærkebiskop Peder i Lund</name>
                            </respStmt>
-                           <note>om bekræftelse af det valg af en ærkebiskop i <name type="place"
-                                 key="Uppsa01">Uppsala</name>, der blev nødvendiggjort ved dødsfald
+                           <note>om bekræftelse af det valg af en ærkebiskop i <name type="place" key="Uppsa01">Uppsala</name>, der blev nødvendiggjort ved dødsfald
                               i <date when="1341">1341</date></note>
                         </msItem>
                      </msItem>
@@ -123,7 +123,7 @@
                            <note>Hæfte på 4 blade</note>
                            <bibl>Jón Helgason: <ref type="primary" target="JonHel1960">Fem islandske
                                  ordsamlinger fra 18. og 19. århundrede</ref>
-                              <biblScope type="pages">273-278</biblScope>
+                              <biblScope unit="pages">273-278</biblScope>
                            </bibl>
                         </msItem>
                         <msItem n="16.2" class="ordas">
@@ -131,12 +131,10 @@
                            <locus from="287" to="288">287-288</locus>
                            <title type="supplied">En ordsamling fra Meðalland</title>
                            <note>Skrevet på den ene side af et sammenfoldet blad; på bladets bagside
-                              findes en skematisk oversigt over kirker, elve mm. fra <name
-                                 type="place">Lónsheiði</name> til <name type="place"
-                                 >Meðalland</name>.</note>
+                              findes en skematisk oversigt over kirker, elve mm. fra <name type="place">Lónsheiði</name> til <name type="place">Meðalland</name>.</note>
                            <bibl>Jón Helgason: <ref type="primary" target="JonHel1960">Fem islandske
                                  ordsamlinger fra 18. og 19. århundrede</ref>
-                              <biblScope type="pages">279-280</biblScope>
+                              <biblScope unit="pages">279-280</biblScope>
                            </bibl>
                         </msItem>
                         <msItem n="16.3" class="ordas">
@@ -145,7 +143,7 @@
                            <note>Udgør et hæfte på 8 sider. Sidste side er ubeskrevet.</note>
                            <bibl>Jón Helgason: <ref type="primary" target="JonHel1960">Fem islandske
                                  ordsamlinger fra 18. og 19. århundrede</ref>
-                              <biblScope type="pages">281-284</biblScope>
+                              <biblScope unit="pages">281-284</biblScope>
                            </bibl>
                         </msItem>
                         <msItem n="16.4" class="ordas ordsk">
@@ -157,7 +155,7 @@
                            <note>Med tegninger; udgør et hæfte på 4 blade.</note>
                            <bibl>Jón Helgason: <ref type="primary" target="JonHel1960">Fem islandske
                                  ordsamlinger fra 18. og 19. århundrede</ref>
-                              <biblScope type="pages">285-290</biblScope>
+                              <biblScope unit="pages">285-290</biblScope>
                            </bibl>
                         </msItem>
                      </msItem>
@@ -174,8 +172,7 @@
                         <support>
                            <p><material>Papir</material>.</p>
                         </support>
-                        <extent>508 blade og sedler; ubeskrevne sider og blade. <dimensions
-                              type="leaf" scope="all">
+                        <extent>508 blade og sedler; ubeskrevne sider og blade. <dimensions type="leaf" scope="all">
                               <height>170</height>
                               <width>107</width>
                            </dimensions>.</extent>
@@ -196,17 +193,15 @@
                   </decoDesc>
                </physDesc>
                <history>
-                  <origin notBefore="1700" notAfter="1730" evidence="external" resp="KKKat"
-                        ><origPlace>Island/Danmark</origPlace>, <origDate notBefore="1700"
-                        notAfter="1730">s. XVIII in</origDate>.</origin>
+                  <origin notBefore="1700" notAfter="1730" evidence="external" resp="KKKat"><origPlace>Island/Danmark</origPlace>, <origDate notBefore="1700" notAfter="1730">s. XVIII in</origDate>.</origin>
                </history>
                <additional>
                   <listBibl>
                      <bibl><ref type="secondary-1" target="JonHel1960">Jón Helgason 1960</ref>
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope type="volume">II</biblScope>
-                        <biblScope type="pages">455</biblScope>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">455</biblScope>
                      </bibl>
                      <bibl><ref type="secondary-1" target="HerWäc2004a">Wackerlin 2004</ref></bibl>
                   </listBibl>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -15,7 +15,9 @@
           <msIdentifier>
             <country>Denmark</country>
             <settlement>Copenhagen</settlement>
+            <institution key="AMS"/>
             <repository>Den Arnamagnæanske Samling</repository>
+            <collection key="AM"/>
             <idno>AM 972 A 1-7 4to</idno>
             <altIdentifier type="internal" subtype="KKKat">
               <idno>2014</idno>
@@ -27,34 +29,32 @@
           <history>
             <origin notBefore="1803" notAfter="1878">
               <p>Written by <name type="person" key="JenDav001">Jens Davidsen</name> in the
-                  <origPlace key="FO">Faroe Islands</origPlace> between <origDate notBefore="1803"
-                  notAfter="1827">1824 and 1827</origDate>.</p>
+                  <origPlace key="FO">Faroe Islands</origPlace> between <origDate notBefore="1803" notAfter="1827">1824 and 1827</origDate>.</p>
             </origin>
           </history>
           <additional>
             <adminInfo>
               <recordHist>
                 <source>
-                  <p>Catalogued <date when="2019-10-24">24 October 2019</date> by <name
-                      type="person" key="SeaVri001">SDV</name></p>
+                  <p>Catalogued <date when="2019-10-24">24 October 2019</date> by <name type="person" key="SeaVri001">SDV</name></p>
                 </source>
               </recordHist>
             </adminInfo>
             <listBibl>
               <bibl> Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
-                <biblScope type="volume">II</biblScope>
-                <biblScope type="pages">283</biblScope>
+                <biblScope unit="volume">II</biblScope>
+                <biblScope unit="pages">283</biblScope>
               </bibl>
               <bibl> Chesnutt and Larsen: <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                <biblScope type="volume">VII</biblScope>
-                <biblScope type="pages">53-54</biblScope>
+                <biblScope unit="volume">VII</biblScope>
+                <biblScope unit="pages">53-54</biblScope>
               </bibl>
             </listBibl>
           </additional>
           <msPart n="1">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>AM 972 A 1-4 4to</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary>
                 <title type="supplied">Faroese Ballads</title>
@@ -90,8 +90,8 @@
                 <filiation>Copied from <ref type="ms" target="Acc-0004-c-I-8">Acc. 4 c
                   I[8]</ref>.</filiation>
                 <bibl>CCF 142 Aa. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">VI</biblScope>
-                  <biblScope type="pages">122-127</biblScope>
+                  <biblScope unit="volume">VI</biblScope>
+                  <biblScope unit="pages">122-127</biblScope>
                 </bibl>
               </msItem>
               <msItem n="2a" class="kvad" defective="false">
@@ -118,8 +118,8 @@
                 <filiation>Copied from <ref type="ms" target="Acc-0004-c-I-8">Acc. 4 c
                   I[8]</ref>.</filiation>
                 <bibl>CCF 17 b. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">I</biblScope>
-                  <biblScope type="pages">426-427</biblScope>
+                  <biblScope unit="volume">I</biblScope>
+                  <biblScope unit="pages">426-427</biblScope>
                 </bibl>
               </msItem>
               <msItem n="2b" class="tjos" defective="false">
@@ -159,8 +159,8 @@
                   I[8]</ref>.</filiation>
                 <bibl>
                   <ref type="secondary-1" target="NFSRafn">Nordiske Fortids Sagaer</ref>
-                  <biblScope type="volume">I</biblScope>
-                  <biblScope type="pages">xv-xvii</biblScope>
+                  <biblScope unit="volume">I</biblScope>
+                  <biblScope unit="pages">xv-xvii</biblScope>
                 </bibl>
               </msItem>
               <msItem n="3a" class="kvad" defective="false">
@@ -199,8 +199,8 @@
                 <filiation>Copied from <ref target="AM04-0972-A-8-13-en">AM 972 A 13a
                   4to</ref>.</filiation>
                 <bibl>CCF 55 Bc. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">II</biblScope>
-                  <biblScope type="pages">333-338</biblScope>
+                  <biblScope unit="volume">II</biblScope>
+                  <biblScope unit="pages">333-338</biblScope>
                 </bibl>
               </msItem>
               <msItem n="3b" class="kvad" defective="false">
@@ -312,9 +312,9 @@
             </physDesc>
           </msPart>
           <msPart n="2">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>AM 972 A 5-6 4to</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary>
                 <title type="supplied">Faroese Ballads</title>
@@ -325,7 +325,7 @@
                 <textLang mainLang="fo" otherLangs="da">Faroese with Danish translation and
                   commentary</textLang>
                 <rubric>Den fórste</rubric>
-                <msItem n="5.1" class="" defective="false">
+                <msItem n="5.1" defective="false">
                   <locus from="51r" to="51r">p. 103</locus>
                   <title type="supplied">Commentary</title>
                   <textLang mainLang="da">Danish</textLang>
@@ -333,7 +333,7 @@
                     end den samme omhandler</incipit>
                   <explicit>skjönt Ortografien er forskjællig</explicit>
                 </msItem>
-                <msItem n="5.2" class="" defective="false">
+                <msItem n="5.2" defective="false">
                   <locus from="51v" to="54v">pp. 104-110</locus>
                   <title type="uniform">Norðmenninir í Danmørk</title>
                   <textLang mainLang="fo">Faroese</textLang>
@@ -341,7 +341,7 @@
                   <explicit>O nast sum vid tåldun Deian</explicit>
                   <note>Written on every verso.</note>
                 </msItem>
-                <msItem n="5.3" class="" defective="false">
+                <msItem n="5.3" defective="false">
                   <locus from="52r" to="55r">pp. 104-111</locus>
                   <title type="supplied">Norðmenninir í Danmørk (translation)</title>
                   <textLang mainLang="da">Danish</textLang>
@@ -351,18 +351,16 @@
                 </msItem>
                 <colophon>Dette, at Rimet ikke saa nóie er iagttaget, troe Oversætteren at være
                   Bevis paa, at Visen er digtet inden man lagde den senere Tids Vægt paa Rimet
-                  Nöiagtighed. At Dualis <hi rend="bold">vid</hi> og Pluralis <hi rend="bold"
-                    >veâr</hi> bruges bestemt, troes ikke tilfældigt, men at betegne, naar Tvende
+                  Nöiagtighed. At Dualis <hi rend="bold">vid</hi> og Pluralis <hi rend="bold">veâr</hi> bruges bestemt, troes ikke tilfældigt, men at betegne, naar Tvende
                   eller Flere de handlende, saa bruges endnu i de nordligste Øers Dialekt. Paa
-                  Suderöen, hvor Visen er optegnet, bruges kun <hi rend="bold">ogur</hi> og <hi
-                    rend="bold">ogra</hi>. De de lærde og af Videnskaberne saa fortjente Islændere i
+                  Suderöen, hvor Visen er optegnet, bruges kun <hi rend="bold">ogur</hi> og <hi rend="bold">ogra</hi>. De de lærde og af Videnskaberne saa fortjente Islændere i
                   deres Sagaer have bevaret ikke mindre paafaldende Bevis om Tidernes Raahed og
                   Nationernes Omdömme, saa troer Oversætteren sine Landsmænd undskyldte for denne
                   Vises troe Bevarelse, og sig for at have givet den Plads blandt de övrige Oldtids
                   Sange.</colophon>
                 <bibl>CCF 78 b. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope>
-                  <biblScope type="pages">224-225</biblScope>
+                  <biblScope unit="volume">III</biblScope>
+                  <biblScope unit="pages">224-225</biblScope>
                 </bibl>
               </msItem>
               <msItem n="6" class="kvad" defective="false">
@@ -379,7 +377,7 @@
                   <explicit>Í betri kan Hjarta pruia</explicit>
                   <note>Written on every verso.</note>
                 </msItem>
-                <msItem n="6.2" class="" defective="false">
+                <msItem n="6.2" defective="false">
                   <locus from="56r" to="58r">pp. 113-117</locus>
                   <title type="supplied">Berrings Vísa (translation)</title>
                   <incipit>Offentlig Ivar Höfding fórst</incipit>
@@ -387,15 +385,14 @@
                   <note>Written on every recto.</note>
                 </msItem>
                 <colophon>Berrings Vise troes digtet i den Tid, da Væringerne endnu værrede om det
-                  óstlige Keiserdómme, og omtrent at være af samme Ælde som de saakaldte <hi
-                    rend="bold">Ljoumur</hi>. Oversætteren troer, at Kardinal Sabini fortrinligen
+                  óstlige Keiserdómme, og omtrent at være af samme Ælde som de saakaldte <hi rend="bold">Ljoumur</hi>. Oversætteren troer, at Kardinal Sabini fortrinligen
                   har bidraget til slige Visers Udbredelse, da neppe Hierarchiet med sikrere Midler
                   kunde vedligeholes. Da denne Kardinals Forhandlinger vise ligesaa megen Billighed
                   og Forsigtighed, som Lærdom og Viisdom, saa troer Oversætteren, at han hemmeligen
                   har anordnet sammes og de ovrige katolske Salmers Indförelse.</colophon>
                 <bibl>CCF 42 A. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">II</biblScope>
-                  <biblScope type="pages">105-106</biblScope>
+                  <biblScope unit="volume">II</biblScope>
+                  <biblScope unit="pages">105-106</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -444,9 +441,9 @@
             </physDesc>
           </msPart>
           <msPart n="3">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>AM 972 A 7 4to</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary>
                 <title>Geyti Áslaksson</title>
@@ -483,8 +480,8 @@
                 <colophon>Oversætteren troer dette Qvad en færöisk Original og ikke som flere andre,
                   Omarbeidelser af udenlandske Sange.</colophon>
                 <bibl>CCF 30 D. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">I</biblScope>
-                  <biblScope type="pages">638-644</biblScope>
+                  <biblScope unit="volume">I</biblScope>
+                  <biblScope unit="pages">638-644</biblScope>
                 </bibl>
               </msItem>
             </msContents>

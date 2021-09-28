@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -10,20 +10,20 @@
                 <pubPlace>København</pubPlace>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="da" xml:id="AM02-238-XXI-da">
+                <msDesc xml:lang="da" xml:id="AM02-0238-XXI-da">
                     <msIdentifier>
                         <country>Danmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 238 XXI fol.</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>360</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <head>
-                        <title type="supplied">Exempla</title>; <origPlace
-                            >Island</origPlace>, <origDate notBefore="1490" notAfter="1510"
-                            evidence="conjecture">ca. 1500</origDate>
+                        <title type="supplied">Exempla</title>; <origPlace>Island</origPlace>, <origDate notBefore="1490" notAfter="1510" evidence="conjecture">ca. 1500</origDate>
                     </head>
                     <msContents>
                         <msItem n="1" class="avint damis" defective="true">
@@ -36,8 +36,7 @@
                                     ioh<ex>ann</ex>iſ ſkalholltenſ godr<ex>ar</ex>
                                     mi<ex>nn</ex>i<ex>n</ex>g<ex>ar</ex>
                             </incipit>
-                            <bibl>Jorgensen: <ref target="PetJor0962a">Four Æventýri</ref><biblScope
-                                    type="pages">317-322</biblScope></bibl>
+                            <bibl>Jorgensen: <ref target="PetJor0962a">Four Æventýri</ref><biblScope unit="pages">317-322</biblScope></bibl>
                         </msItem>
                         <msItem n="2" class="avint damis" defective="true">
                             <locus from="2r:1" to="2r:9">2r:1-9</locus>
@@ -45,12 +44,12 @@
                             <note>Slutningen.</note>
                             <textLang mainLang="is">Norrønt/islandsk</textLang>
                             <incipit defective="true">h<ex>en</ex>nar s<ex>vo</ex> faſt ſem
-                                    m&#xA733;t<ex>t</ex>i</incipit>
+                                    mꜳt<ex>t</ex>i</incipit>
                             <listBibl>
                                 <bibl>Gering: <ref type="primary-3" target="IslAEv">Islendzk
                                         æventyri</ref>
-                                    <biblScope type="volume">I</biblScope>
-                                    <biblScope type="pages">47:32-45</biblScope>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="pages">47:32-45</biblScope>
                                     <note>Udg. M</note>
                                 </bibl>
                             </listBibl>
@@ -59,20 +58,18 @@
                             <locus from="2r:10" to="2r:21">2r:10-21</locus>
                             <title>Mordet på saracenerne ved et bjerg</title>
                             <textLang mainLang="is">Norrønt/islandsk</textLang>
-                            <bibl>Jorgensen: <ref target="PetJor0962a">Four Æventýri</ref><biblScope
-                                    type="pages">316:13-29</biblScope></bibl>
+                            <bibl>Jorgensen: <ref target="PetJor0962a">Four Æventýri</ref><biblScope unit="pages">316:13-29</biblScope></bibl>
                         </msItem>
                         <msItem n="3" class="ridd" defective="true">
                             <locus from="2r:22" to="2v">2r:22-2v</locus>
                             <title type="supplied">Karlamagnús saga</title>
                             <textLang mainLang="is">Norrønt/islandsk</textLang>
-                            <explicit defective="true">h<ex>a</ex>nſ ſpiottſkap<supplied
-                                    reason="unknown">t</supplied> var bæ<ex>di</ex> hatt <ex>ok</ex>
+                            <explicit defective="true">h<ex>a</ex>nſ ſpiottſkap<supplied reason="unknown">t</supplied> var bæ<ex>di</ex> hatt <ex>ok</ex>
                                     dig<ex>ur</ex>t</explicit>
                             <bibl>Gering: <ref type="primary-3" target="IslAEv">Islendzk
                                     æventyri</ref>
-                                <biblScope type="volume">I</biblScope>
-                                <biblScope type="pages">34:1-37:55</biblScope>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">34:1-37:55</biblScope>
                                 <note>Udg. M</note>
                             </bibl>
                         </msItem>
@@ -99,8 +96,7 @@
                         </objectDesc>
                         <bindingDesc>
                             <binding notBefore="1958" notAfter="1961" contemporary="false">
-                                <p>Indbundet i et gråt papomslag: <dimensions type="binding"
-                                        unit="mm">
+                                <p>Indbundet i et gråt papomslag: <dimensions type="binding" unit="mm">
                                         <height>296</height>
                                         <width>249</width>
                                     </dimensions>.</p>
@@ -109,16 +105,12 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Skrevet i <origPlace>Island</origPlace>. <name type="person"
-                                    key="KriKaa001">Kålund</name> (<bibl>
+                            <p>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl>
                                     <ref type="secondary-1" target="KKKat"/>
-                                </bibl>) har dateret fragmentet til <date notBefore="1400"
-                                    notAfter="1499">1400-tallet</date>. <name type="person"
-                                    key="EinPet001">Einar G. Pétursson</name> (<bibl>
+                                </bibl>) har dateret fragmentet til <date notBefore="1400" notAfter="1499">1400-tallet</date>. <name type="person" key="EinPet001">Einar G. Pétursson</name> (<bibl>
                                     <ref type="secondary" target="Rit11"/>
-                                    <biblScope type="pages">xv</biblScope>
-                                </bibl>) har dog senere dateret det til <origDate notBefore="1490"
-                                    notAfter="1510" evidence="conjecture">ca. 1500</origDate> .</p>
+                                    <biblScope unit="pages">xv</biblScope>
+                                </bibl>) har dog senere dateret det til <origDate notBefore="1490" notAfter="1510" evidence="conjecture">ca. 1500</origDate> .</p>
                         </origin>
                     </history>
                     <additional>
@@ -139,10 +131,8 @@
                                         taget i <date when="1981">1981</date>.</p>
                                 </custEvent>
                                 <custEvent type="conservation">
-                                    <p>Sat på knækfalse og indbundet i et gråt papomslag <date
-                                            from="1958-07-09" to="1959-03-02">9. juli 1958 til 2
-                                            marts 1959</date> eller <date from="1961-09"
-                                            to="1961-10"/>.</p>
+                                    <p>Sat på knækfalse og indbundet i et gråt papomslag <date from="1958-07-09" to="1959-03-02">9. juli 1958 til 2
+                                            marts 1959</date> eller <date from="1961-09" to="1961-10"/>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
@@ -185,11 +175,10 @@
                             </p>
                         </surrogates>
                         <listBibl>
-                            <bibl>Jorgensen: <ref target="PetJor0962a"/><biblScope
-                                type="pages">296-97</biblScope></bibl>
+                            <bibl>Jorgensen: <ref target="PetJor0962a"/><biblScope unit="pages">296-97</biblScope></bibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat"/>
-                                <biblScope type="volume">I</biblScope>
-                                <biblScope type="pages">204</biblScope>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">204</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

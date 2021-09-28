@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -10,11 +10,13 @@
                 <pubPlace>København</pubPlace>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:lang="en" xml:id="AM02-073-a-en">
+                <msDesc xml:lang="en" xml:id="AM02-0073-a-en">
                     <msIdentifier>
                         <country>Denmark</country>
                         <settlement>København</settlement>
+                        <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
+                        <collection key="AM"/>
                         <idno>AM 73 a fol.</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>85</idno>
@@ -22,27 +24,25 @@
                     </msIdentifier>
                     <head>
                         <title>Ólafs saga helga</title>; <origPlace key="IS">Iceland</origPlace>,
-                            <origDate notBefore="1690" notAfter="1710" evidence="conjecture"
-                            resp="KKKat">c. 1700</origDate>. </head>
+                            <origDate notBefore="1690" notAfter="1710" evidence="conjecture" resp="KKKat">c. 1700</origDate>. </head>
                     <msContents>
                         <msItem n="1" class="kon">
                             <title type="uniform">Ólafs saga helga</title>
                             <textLang mainLang="is"/>
                             <note>With a preceding <title type="supplied">Prologus</title>
                             </note>
-                            <filiation>Prewsumably a transcript of <title type="ms"
-                                    >Gottrupsbók</title>, a lost copy of <title type="ms">Bæjarbók á
+                            <filiation>Prewsumably a transcript of <title type="ms">Gottrupsbók</title>, a lost copy of <title type="ms">Bæjarbók á
                                     Rauðasandi</title> (<ref type="ms" target="AM02-073-b-da">AM 73
                                     b fol.</ref>).</filiation>
                             <listBibl>
                                 <bibl>
                                     <ref type="primary" target="FMS4">Fornmanna sögur</ref>
-                                    <biblScope type="volume">IV</biblScope>
-                                    <biblScope type="pages">16-18</biblScope>
+                                    <biblScope unit="volume">IV</biblScope>
+                                    <biblScope unit="pages">16-18</biblScope>
                                 </bibl>
                                 <bibl>Rafn, <ref type="primary" target="AntR">Antiquités
                                         Russes</ref>
-                                    <biblScope type="pages">427</biblScope>
+                                    <biblScope unit="pages">427</biblScope>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -75,21 +75,18 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <summary>Two (perhaps three?) different hands; possibly <name
-                                    type="person" key="ArnMag001">Árni Magnússon</name>'s brother,
+                            <summary>Two (perhaps three?) different hands; possibly <name type="person" key="ArnMag001">Árni Magnússon</name>'s brother,
                                     <name type="person" key="JonMag011">Jón Magnússon</name> and
                                     <name type="person" key="JonArn005">Jón Arnórsson</name>.
                                 According to <name type="person" key="JonOla003">Jón
                                 Ólafsson</name>'s catalogue (<ref type="ms" target="AM02-456-da">AM
-                                    456 fol.</ref>): 'med hende Jons Magnuſsonar i <name
-                                    type="place" key="SólSta02">Solheimum</name> og Jons Arnorſsonar
+                                    456 fol.</ref>): 'med hende Jons Magnuſsonar i <name type="place" key="SólSta02">Solheimum</name> og Jons Arnorſsonar
                                 i <name type="place" key="LjáLax01">Liäskogom</name> ad eg
                                 meina'.</summary>
                             <handNote scope="major" script="unknown" scribe="JonMag011"/>
                             <handNote scope="major" script="unknown" scribe="JonArn005"/>
                         </handDesc>
-                        <additions>On the first of the three first flyleaves a hand from <date
-                                from="1790" to="1810">c. 1800</date> added: <q xml:lang="is">Þetta
+                        <additions>On the first of the three first flyleaves a hand from <date from="1790" to="1810">c. 1800</date> added: <q xml:lang="is">Þetta
                                 er exſcriptum membranæ, ſem A. Magnæus kallar Olafsſögu fra Bæ
                                 fylgir ad meſtu leiti ordrett Snorra Sturluſyni, og hefir hun
                                 allvida hialpad mer med margar godar variantes.</q>
@@ -97,16 +94,11 @@
                         <bindingDesc>
                             <binding contemporary="false">
                                 <p>Bound in a half-binding with parchment spine and corners; the
-                                    boards are covered with marbled paper. <name type="person"
-                                        key="ArnMag001">Árni Magnússon</name> wrote the title on the
+                                    boards are covered with marbled paper. <name type="person" key="ArnMag001">Árni Magnússon</name> wrote the title on the
                                     spine but that is now almost worn off.</p>
                                 <p>Previously, the boards were covered with written parchment from a
-                                        <title>Lectionarium brevarii</title> in Latin (<country
-                                        key="IS">Island</country>, <date notBefore="1300"
-                                        notAfter="1399">s. XIV</date>). <name type="person"
-                                        key="OttEhl001">Otto Ehlert</name> removed it in the summer
-                                    of <date when="1911">1911</date>; it is now transferred to <ref
-                                        type="ms" target="Acc-0007-c-da">Access. 7c, Hs. 91</ref>
+                                        <title>Lectionarium brevarii</title> in Latin (<country key="IS">Island</country>, <date notBefore="1300" notAfter="1399">s. XIV</date>). <name type="person" key="OttEhl001">Otto Ehlert</name> removed it in the summer
+                                    of <date when="1911">1911</date>; it is now transferred to <ref type="ms" target="Acc-0007-c-da">Access. 7c, Hs. 91</ref>
                                     ff. 2-3.</p>
                             </binding>
                         </bindingDesc>
@@ -114,8 +106,7 @@
                     <additional>
                         <listBibl>
                             <bibl>Kålund, <ref type="secondary-1" target="KKKat"/>
-                                <biblScope type="volume">I</biblScope>, <biblScope type="pages"
-                                    >49</biblScope></bibl>
+                                <biblScope unit="volume">I</biblScope>, <biblScope unit="pages">49</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

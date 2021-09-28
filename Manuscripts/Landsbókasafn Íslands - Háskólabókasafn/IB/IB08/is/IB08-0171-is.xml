@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -19,9 +19,9 @@
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
-						<institution>Landsbókasafn Íslands - Háskólabókasafn</institution>
+						<institution key="NULI">Landsbókasafn Íslands - Háskólabókasafn</institution>
 						<repository>Handritasafn</repository>
-						<collection>Handritasafn Kaupmannahafnardeildar Hins íslenska
+						<collection key="IB">Handritasafn Kaupmannahafnardeildar Hins íslenska
 							bókmenntafélags</collection>
 						<idno>ÍB 171 8vo</idno>
 						<altIdentifier type="internal" subtype="PEO">
@@ -36,24 +36,24 @@
 						<textLang mainLang="is">Íslenska</textLang>
 						<titlePage type="ms">
 							<docTitle>
-								<titlePart type="main"></titlePart>
+								<titlePart type="main"/>
 							</docTitle>
 						</titlePage>
 						
-						<msItem  n="1" defective="true" class="gudfr">
-							<locus from="1r"  to="219v">1r-219v</locus>
+						<msItem n="1" defective="true" class="gudfr">
+							<locus from="1r" to="219v">1r-219v</locus>
 							<title type="supplied">Andleg kveðja</title>
 							<author><name type="person" key="HanHva001">Hans Jakobsen Hvalsöe</name></author>
 						<note>Skaddað fremst og rotið.</note>
 						</msItem>
 						
-						<msItem  n="2" defective="false" class="ban">
-							<locus from="219v"  to="221v">219v-221v</locus>
+						<msItem n="2" defective="false" class="ban">
+							<locus from="219v" to="221v">219v-221v</locus>
 							<title type="supplied">Bænir og sálmar</title>
 						</msItem>
 						
-						<msItem  n="3" defective="false" class="salm">
-							<locus from="222r"  to="228v">222r-228v</locus>
+						<msItem n="3" defective="false" class="salm">
+							<locus from="222r" to="228v">222r-228v</locus>
 							<title type="supplied">Jesú Kristi blóðskírn</title>
 							<rubric>Vors háplagaða Jesú Christi blóðskírn til guðlegrar og gagnlegrar brúkunar í söngvísum og ljóðmælum stuttlega samantekin af Mag Eiríki Eiríkssyni Pontoppidan … Anno 1653 … Enn á vort mál útsett 1714.</rubric>
 							<author><name type="person" key="EriPon001">Eirík Eiríksson Pontoppidan</name></author>
@@ -61,15 +61,15 @@
 							<note>5 söngvar.</note>
 						</msItem>
 						
-						<msItem  n="4" defective="false" class="salm">
-							<locus from="228v"  to="229v">228v-229v</locus>
+						<msItem n="4" defective="false" class="salm">
+							<locus from="228v" to="229v">228v-229v</locus>
 							<title type="supplied">Gamall sálmur</title>
 							<rubric>Gamall sálmur</rubric>
 							<incipit>Sál mín synduga, set þér í huga …</incipit>
 						</msItem>
 						
-						<msItem  n="5" defective="false" class="salm">
-							<locus from="230r"  to="230r">230r-230r</locus>
+						<msItem n="5" defective="false" class="salm">
+							<locus from="230r" to="230r">230r-230r</locus>
 							<title type="supplied">Hallelúja</title>
 							<rubric>Halleluia á Maríumessu á Langaföstu</rubric>
 							<incipit>Hallelúja Engill guðs á jörð …</incipit>
@@ -80,8 +80,8 @@
 							</note>
 						</msItem>
 						
-						<msItem  n="6" defective="true" class="vikub">
-							<locus from="230v"  to="247r">230-247r</locus>
+						<msItem n="6" defective="true" class="vikub">
+							<locus from="230v" to="247r">230-247r</locus>
 							<title type="supplied">Vikubænir</title>
 							<rubric>Soteria Anima. Andvarpanir sálarinnar á hverjum degi vikunnar samanskrifaðar af heiðurlegum sr. Árna Halldórssyni sáluga.</rubric>
 							<author><name type="person" key="ArnHal002">Árni Halldórsson</name></author>
@@ -140,9 +140,7 @@
 									<p> Skráning <name type="person" key="PalOla002">Páls Eggerts
 											Ólasonar</name> á handritinu er aðgengileg í ritinu <bibl>
 											<ref target="PEO">Skrá um handritasöfn
-											Landsbókasafnsins</ref>, </bibl>3. bindi, <ref
-												target="http://baekur.is/bok/000233966/3/61/Skra_um_handritasofn_Bindi_3_Bls_61"
-											>bls. 41</ref>.</p>
+											Landsbókasafnsins</ref>, </bibl>3. bindi, <ref target="http://baekur.is/bok/000233966/3/61/Skra_um_handritasofn_Bindi_3_Bls_61">bls. 41</ref>.</p>
 									<p><name type="person" key="GudGud045">Guðrún Laufey Guðmundsdóttir</name>
 										frumskráði, <date when="2018-10-18">18. október 2018</date>.</p>
 								</source>
