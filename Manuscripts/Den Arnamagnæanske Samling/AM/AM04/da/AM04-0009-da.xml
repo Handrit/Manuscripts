@@ -23,10 +23,8 @@
                      <idno>652</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Gamle danske love og kongebreve</title>;
-                     <origPlace>Danmark</origPlace>, <origDate when="1470">1470</origDate>. </head>
-               <msContents>
+                 <msContents>
+               	<summary><title type="supplied" xml:lang="da">Gamle danske love og kongebreve</title></summary>
                   <msItem n="1" class="log">
                      <locus from="1bis:1" facs="#AM04-0009-1bis:1" to="2r:28">1bis-2r</locus>
                      <title type="uniform" xml:lang="da">Erik Glippings nyborgske forordning for
@@ -267,7 +265,7 @@
                <history>
                   <origin when="1470" cert="high" evidence="internal">
                      <p>Håndskriftet er skrevet i <origPlace>Danmark</origPlace> i år
-                           <origDate>1470</origDate>.</p>
+                     	<origDate when="1470">1470</origDate>.</p>
                   </origin>
                   <provenance>
                      <p>På bl. 228r har en yngre hånd noteret: <q>Aar efft<ex>e</ex>r gutz afrdh
@@ -373,6 +371,7 @@
          <change>
             <date when="2005-12-15">15. december 2005</date>
             <name type="person" key="EvaWed001">EW-J</name> Oversat til dansk.</change>
+      	<change when="2021-10-05" who="EvaWed001">Flyttet information fra @head til @summary og @history.</change>
       </revisionDesc>
    </teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
