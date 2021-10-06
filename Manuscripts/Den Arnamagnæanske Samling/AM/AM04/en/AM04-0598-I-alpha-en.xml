@@ -24,10 +24,10 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary><title>Möttuls saga</title></summary>
-                        <msItem defective="true">
+                        <summary><title type="uniform">Möttuls saga</title></summary>
+                        <msItem n="1" defective="true">
                             <locus from="1r" to="1v">1</locus>
-                            <title>Möttuls saga</title>
+                            <title type="uniform">Möttuls saga</title>
                             <textLang mainLang="is">Old Norse/Icelandic</textLang>
                             <incipit defective="true">v<expan>ar</expan> mottulin
                                 mundangha</incipit>
@@ -37,15 +37,15 @@
                             <filiation>The leaf originally belonged to the same codex as <ref>Stock.
                                     perg. 4to nr 6</ref>.</filiation>
                             <listBibl>
-                                <bibl>
-                                    <ref type="primary-3" target="Trist1878">Saga af Tristam ok
-                                        Ísönd samt Möttuls saga</ref>, pp. 227-231:1 <note>Gísli
-                                        Brynjúlfsson makes AM 179 fol the basis of his text but uses
-                                        AM 598 I α and β as variants.</note>
+                                <bibl>Gísli Brynjúlfsson, <ref type="primary-3" target="Trist1878"
+                                        >Saga af Tristam ok Ísönd samt Möttuls saga</ref><biblScope
+                                        unit="page">227-231:1</biblScope>
+                                    <note>Var. app.</note>
                                 </bibl>
                                 <bibl>
                                     <ref type="primary-1" target="EA-B30">Mǫttuls saga 1987</ref>,
-                                    pp. 31:20-39:34<note>referred to as α</note>
+                                        <biblScope unit="page">31:20-39:34</biblScope><note>Ed
+                                        α</note>
                                 </bibl>
                             </listBibl>
                         </msItem>
@@ -104,7 +104,7 @@
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation">
-                                    <p>During the conservation <date>07.07.1967-27.04.1967</date>
+                                    <p>During the conservation <date from="1967-07-07" to="1967-04-27">07.07.1967-27.04.1967</date>
                                         the MS was set on a meeting guard and put in a blue
                                         cardboard cover.</p>
                                 </custEvent>
@@ -130,7 +130,9 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2021-10-06" who="EvaWed001">Updated markup.</change></revisionDesc>
+        <revisionDesc>
+            <change when="2021-10-06" who="EvaWed001">Updated markup.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>
