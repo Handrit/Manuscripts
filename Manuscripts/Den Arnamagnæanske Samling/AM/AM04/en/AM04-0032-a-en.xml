@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,16 +23,14 @@
                             <idno>644</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Norwegian Legal Manuscript</title>;
-                        <origPlace>Iceland</origPlace>,
-                        <origDate notBefore="1515" notAfter="1710">c. 1525 and c. 1700</origDate>.
-                    </head>
+                    <msContents>
+                        <summary><title>Norwegian Legal Manuscript</title></summary>
+                    </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="mixed">
                                 <support>
-                                    <p>Parchment and paper.</p>
+                                    <p><material>Parchment and paper</material>.</p>
                                 </support>
                                 <extent>7, fols 1v, 2v, 3v are blank. Fol. 1 which is of parchment
                                     has been folded and therefore its real length is 277 mm. The
@@ -42,7 +41,7 @@
                                         <height>210</height>
                                         <width>170</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="2">
@@ -54,18 +53,18 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1515" notAfter="1710" cert="medium" evidence="conjecture">
-                            <p>The manuscript, which is written in <origPlace>Iceland</origPlace>, consists
-                                of two parts; One is from the <origDate>first quarter of the
-                                    sixteenth century</origDate> and the other, written by <name type="person" key="ArnMag001">Árni Magnússon</name>, is
-                                from <origDate>c. 1700</origDate>.
-                     </p>
+                            <p>The manuscript, which is written in <origPlace>Iceland</origPlace>,
+                                consists of two parts; One is from <origDate notBefore="1515"
+                                    notAfter="1535">c. 1525</origDate> and the other, written by
+                                    <name type="person" key="ArnMag001">Árni Magnússon</name>, is
+                                from <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>.
+                            </p>
                         </origin>
                         <provenance>
                             <p>4r-v contains a note from Árni Magnússon about the provenance of the
-                                parchment leaves 1r-v and 2r-v. <q>aptan vid Noregs lògbok
-                                    Magnuff k<expan>onun</expan>gs lagabæters, þä
-                                    sem Þorgeir Hakonar son hefur ritad, og eg feck af
-                                    Capitain Jul</q>.</p>
+                                parchment leaves 1r-v and 2r-v. <q>aptan vid Noregs lògbok Magnuff
+                                        k<expan>onun</expan>gs lagabæters, þä sem Þorgeir Hakonar
+                                    son hefur ritad, og eg feck af Capitain Jul</q>.</p>
                         </provenance>
                     </history>
                     <additional>
@@ -113,49 +112,76 @@
                         </surrogates>
                         <listBibl>
                             <bibl>
-                        <ref type="primary-2" target="NgL4">Norges gamle Love indtil
-                                    1387</ref>IV, pp. 474-76, 539</bibl>
+                                <ref type="primary-2" target="NgL4">Norges gamle Love indtil
+                                    1387</ref><biblScope unit="volume">IV</biblScope><biblScope
+                                    unit="page">474-76, 539</biblScope></bibl>
                         </listBibl>
                     </additional>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 32 a 4to I</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="1">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 32 a 4to I</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
+                            <textLang mainLang="is">Icelandic</textLang>
                             <msItem n="1" class="kont">
                                 <locus from="1r" to="1r">1r</locus>
-                                <title>Slægtsregister - Kong Hans nedstamning fra Magnus
-                                    Måneskjold</title>
-                            </msItem>
+                                <title type="supplied">Royal Genealogy from King Hans to Magnus Minnisköld</title>
+                               </msItem>
                             <msItem n="2" class="sagnfr">
                                 <locus from="2r" to="2r">2r</locus>
-                                <title>Beretning om kong Hans kroning 1483</title>
-                                <textLang mainLang="is">Icelandic</textLang>
+                                <title type="supplied">Account of the Coronation of King Hans,
+                                    1483</title>
                             </msItem>
                         </msContents>
+                        <history>
+                            <origin notBefore="1515" notAfter="1535" cert="medium"
+                                evidence="conjecture">
+                                <p>This part is written in <origPlace>Iceland</origPlace>
+                                    <origDate notBefore="1515" notAfter="1535">c. 1525</origDate>.
+                                </p>
+                            </origin>
+                        </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 32 a 4to II</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="2">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 32 a 4to II</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="3" class="kont">
                                 <locus from="3r" to="3r">3r</locus>
-                                <title>Kong Hans ovennævnte stamtavle</title>
+                                <title type="supplied">Royal Genealogy</title>
+                                <filiation>A copy of f. 1r.</filiation>
                             </msItem>
                             <msItem n="4" class="notes">
                                 <locus from="4r" to="4v">4r-v</locus>
-                                <title>Árni Magnússons meddelelse om de to pergamentblade</title>
+                                <title type="supplied">Árni Magnússon's Notes Concerning the Two Parchment Leaves</title>
                             </msItem>
                             <msItem n="5" class="kont sagnfr">
                                 <locus from="5r" to="7v">5r-7v</locus>
-                                <title>Árni Magnússons afskrift af de to pergamentblade</title>
+                                <title type="supplied">Royal Genealogy and Account of the Coronation of King Hans,
+                                    1483</title>
+                                <filiation><name type="person" key="ArnMag001">Árni Magnússon</name>'s
+                                    copy of the two parchment leaves</filiation>
                             </msItem>
                         </msContents>
+                        <history>
+                            <origin notBefore="1690" notAfter="1710" cert="medium"
+                                evidence="conjecture">
+                                <p>This part is written in <origPlace>Iceland</origPlace> <origDate notBefore="1690"
+                                        notAfter="1710">c. 1700</origDate>. </p>
+                            </origin>
+                        </history>
+
                     </msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2021-10-06">Information moved from head to @summary and @origin. Translated the titles into English.</change></revisionDesc>
+        
     </teiHeader>
     <facsimile>
         <surface/>
