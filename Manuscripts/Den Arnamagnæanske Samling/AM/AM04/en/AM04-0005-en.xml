@@ -22,10 +22,8 @@
                      <idno>648</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Legal Manuscript</title>; <origPlace>Denmark</origPlace>, <origDate when="1547">1547</origDate>. 
-               </head>
-               <msContents>
+                 <msContents>
+                  <summary><title type="supplied">Legal Manuscript</title></summary>
                   <msItem n="1" class="log">
                      <locus from="2r:1" to="86v:10">2r-86v</locus>
                      <title type="uniform" xml:lang="en">The Provincial Law of Jutland</title>
@@ -193,7 +191,7 @@
                </physDesc>
                <history>
                   <origin when="1547" cert="high" evidence="internal">
-                     <p>Written in <origPlace>Denmark</origPlace> in <origDate>1547</origDate>.</p>
+                     <p>Written in <origPlace>Denmark</origPlace> in <origDate when="1547">1547</origDate>.</p>
                   </origin>
                   <provenance>
                      <p>
@@ -272,6 +270,7 @@
                     <date when="2005-11-22">22 November 2004</date>
                         <name type="person" key="EvaWed001">EW-J</name>
                     Changed to TEI P5 and parsed</change>
+         <change when="2021-10-06">information moved from head to @summary and @origin.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
