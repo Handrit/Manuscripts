@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,18 +23,15 @@
                      <idno>644</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Legal Manuscript</title>;
-                  <origPlace>Denmark?</origPlace>,
-                  <origDate notBefore="1675" notAfter="1699">s. XVII<hi rend="sup">4/4</hi></origDate>
-               </head>
+               <head> </head>
                <msContents>
+                  <summary><title type="supplied">Legal Manuscript</title></summary>
                   <textLang mainLang="la">Latin</textLang>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
+                        <support><material>Paper</material>.</support>
                         <extent>47. <dimensions type="leaf" scope="all">
                               <height>230</height>
                               <width>175</width>
@@ -42,9 +40,24 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin notBefore="1675" notAfter="1699"><origPlace>Denmark?</origPlace>,
+                        <origDate notBefore="1675" notAfter="1699">s. XVII<hi rend="sup"
+                        >4/4</hi></origDate></origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">339</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-06" who="EvaWed001">Updated markup and added reference to KKKat.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>
