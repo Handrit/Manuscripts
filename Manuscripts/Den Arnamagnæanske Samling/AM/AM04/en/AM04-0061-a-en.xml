@@ -23,13 +23,8 @@
                             <idno>705</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Norwegian Legal Manuscript</title>
-                        <origPlace>Iceland and Norway</origPlace>
-                        <origDate notBefore="1300" notAfter="1599">s. XVI ex, s. XIV 3/4, s.
-                            XVI</origDate>
-                    </head>
-                    <msContents>
+                       <msContents>
+                        <summary><title>Norwegian Legal Manuscript</title></summary>
                         <msItem n="1" class="athgr kvad log ban">
                             <locus from="1" to="1ter">1-1ter</locus>
                             <textLang mainLang="da">Danish</textLang>
@@ -222,13 +217,13 @@
                         <origin notBefore="1350" notAfter="1599" cert="high" evidence="conjecture">
                             <p>The bulk of the manuscript (1quater r-v, 3r-73v) is written in
                                     <origPlace>Iceland</origPlace>
-                                <origDate>between 1350 and
+                                <origDate notBefore="1350" notAfter="1370">between 1350 and
                                     1370</origDate>; the later inserted leaf f. 2 is written in
-                                    <origPlace>Norway</origPlace> in <origDate>the sixteenth century</origDate>. Fols. 1-1ter
-                                are written in <origPlace>Norway</origPlace> at <origDate notBefore="1579" notAfter="1599">the end of the sixteenth
+                                    <origPlace>Norway</origPlace> in <origDate notBefore="1500" notAfter="1599">the sixteenth century</origDate>. Fols. 1-1ter
+                                are written in <origPlace>Norway</origPlace> at <origDate notBefore="1585" notAfter="1599">the end of the sixteenth
                                     century</origDate> by Mikkel Jenssøn, also owner of the
                                 manuscript.</p>
-                        </origin>
+                             </origin>
                         <provenance>
                             <p>According to Mikkel Jenssøn's account on f. 1r he bought the
                                 manuscript for 4 <foreign>daler</foreign> in <date when="1579">1579</date> of
@@ -256,7 +251,8 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2021-07-09" who="EvaWed001">Translated (and corrected) titles and added @class.</change></revisionDesc>
+        <revisionDesc><change when="2021-07-09" who="EvaWed001">Translated (and corrected) titles and added @class.</change>
+            <change when="2021-10-06" who="EvaWed001">Moved information from @head to @summary and @history.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>
