@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -23,16 +24,16 @@
                   </altIdentifier>
                </msIdentifier>
                <head>
-                  <title type="uniform" xml:lang="la">Brevarium Juris</title>;
-        <origPlace>Danmark?</origPlace>, <origDate notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat">s.
-        XVII</origDate>.</head>
+                  .</head>
                <msContents>
-                  <msItem class="log">
-                     <title type="uniform" xml:lang="la">Brevarium Juris</title>
+                  <summary><title type="uniform" xml:lang="la">Breviarium Juris</title> med
+                     tilhørende register. Overblik over romerretten og dennes forhold til dansk
+                     ret.</summary>
+                  <msItem class="logfr">
+                     <title type="uniform" xml:lang="la">Breviarium Juris</title>
                      <textLang mainLang="la">Latin</textLang>
                      <rubric>BREUIARIVM IVRIS</rubric>
-                     <note>Med tilhørende register. Udsigt over romerretten og dennes forhold til dansk
-            ret.</note>
+                     <note/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -52,9 +53,24 @@
                      <p>Adskillige marginalia.</p>
                   </additions>
                </physDesc>
-            </msDesc>
+               <history><origin notBefore="1600" notAfter="1699"
+                  evidence="conjecture" resp="KKKat"><origPlace>Danmark?</origPlace>, <origDate notBefore="1600" notAfter="1699"
+                  >s. XVII</origDate>.</origin></history>
+               <additional>
+               <listBibl>
+                  <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     <biblScope unit="volume">I</biblScope>
+                     <biblScope unit="pages">350</biblScope>
+                  </bibl>
+               </listBibl>
+               </additional>
+             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-07" who="EvaWed001">Flyttet information fra @head til @summary og
+            @history og indsat bibliografi.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>
