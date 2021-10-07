@@ -24,15 +24,38 @@
 						</altIdentifier>
 					</msIdentifier>
 					<msContents>
-						<summary><title>Sagas of the Norwegian Kings</title>. The manuscript ends abruptly.</summary>
-						<msItem>
-							<textLang mainLang="is">Icelandic</textLang>
+						<summary><title>Sagas of Kings of Norway</title>. The manuscript ends abruptly.</summary>
+						<textLang mainLang="is">Icelandic</textLang>
+						<msItem n="1" class="kon">
+							<locus from="1r" facs="#AM04-0304-0001r" to="181v">1r-181v</locus>
+							<title type="uniform">Noregs konunga s&#x01EB;gur</title>
+							<note>The sagas of the kings of Norway from Magnus the Good to Magnus Erlingsson</note>
+							<filiation>Corresponding to <ref type="ms">Hrokkinskinna</ref> (<ref type="ms">GKS
+								1010 fol</ref>).</filiation>
+						</msItem>
+						<msItem n="2" defective="true" class="kon">
+							<locus from="181r" facs="#AM04-0304-0181r" to="251r">182r-251r</locus>
+							<title type="uniform" xml:lang="is">Sverris saga</title>
+								<incipit>þ<ex>ei</ex>r sogdu </incipit>
+							<note>Corresponding to <bibl>Unger, <ref target="Sverr1873">Konunga
+								sögur</ref>
+								<biblScope unit="pages">9</biblScope>
+							</bibl> with several lacunae.</note>
+						</msItem>
+						<msItem n="3" class="kon" defective="true">
+							<locus from="251r" facs="#AM04-0304-0251r" to="265v">251r-365v</locus>
+							<title type="uniform" xml:lang="is">Hákonar saga Hákonarsonar</title>
+							<explicit defective="true">Häkon af Stejne <lb/> Þor</explicit>
+							<note>Corresponding to <bibl>Unger, <ref target="Sverr1873">Konunga
+								sögur</ref>
+								<biblScope unit="pages">473</biblScope>
+							</bibl>.</note>
 						</msItem>
 					</msContents>
 					<physDesc>
 						<objectDesc form="codex">
 							<supportDesc material="chart">
-								<support><material>Paper</material>.</support>
+								<support><p><material>Paper</material>.</p></support>
 								<extent>365. <dimensions type="leaf" scope="all">
 										<height>205</height>
 										<width>160</width>
@@ -42,12 +65,21 @@
 						</objectDesc>
 					</physDesc>
 					<history>
-						<origin><origPlace>Iceland</origPlace>
-							<origDate notBefore="1600" notAfter="1650">s. XVII<hi rend="sup">1</hi></origDate></origin>
+						<origin><origPlace>Iceland</origPlace>,
+							<origDate notBefore="1600" notAfter="1650">s. XVII<hi rend="sup">1</hi></origDate>.</origin>
 					</history>
+					<additional>
+						<listBibl>
+							<bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">543</biblScope>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
+		<revisionDesc><change when="2021-10-07" who="EvaWed001">Updated markup and added content to msContents.</change></revisionDesc>
 	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0304-0001v-FFl" n="0">
