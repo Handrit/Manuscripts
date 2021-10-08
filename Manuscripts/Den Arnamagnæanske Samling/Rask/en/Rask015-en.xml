@@ -22,54 +22,72 @@
                             <idno>2585</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title n="1">Dictionarium Islandico-Latinum</title>
-                        <title n="2">Adagia</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1805-01-01" notAfter="1805-12-31">1805</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1">
+                        <summary><title type="supplied">Miscellany</title></summary>
+                        <textLang mainLang="is" otherLangs="la">Icelandic and Latin</textLang>
+                        <msItem n="1" class="ordb">
                             <locus from="1" to="268">pp. 1-268</locus>
-                            <author>Hákon Jónsson</author>
+                            <respStmt>
+                                <resp key="edt"/>
+                                <name type="person" key="HakJon001">Hákon Jónsson</name>
+                            </respStmt>
                             <title type="uniform">Dictionarium Islandico-Latinum</title>
-                            <textLang mainLang="is" otherLangs="la">Icelandic and Latin</textLang>
                             <rubric>Islendskt og Latinskt <lb/> Compendieux <lb/> Dictionarium <lb/>
                                 sammanskrifad <lb/> af <lb/> Hákoni Jónssyni <lb/> 1805</rubric>
                         </msItem>
-                        <msItem n="2">
+                        <msItem n="2" class="mals">
                             <locus from="269" to="329">pp. 269-329</locus>
                             <title type="uniform">Adagia</title>
                             <textLang mainLang="is" otherLangs="la">Icelandic and Latin</textLang>
                             <note>Icelandic proverbs in alphabetical order with a rendering in
                                 Latin.</note>
                         </msItem>
+                        <msItem n="3" class="hagfr">
+                            <locus from="330" to="330">s. 330</locus>
+                            <title type="supplied">Note on Roman Currency</title>
+                        </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
-                                    <p>Paper</p>
+                                    <p><material>Paper</material>.</p>
                                 </support>
-                                <extent>166 (pag. 1-330 + 79ter). <dimensions type="leaf" scope="all">
-                                        <height>196</height>
-                                        <width>165</width>
-                                    </dimensions>
-                        </extent>
+                                <extent>166 (pag. 1-330 + 79ter). <dimensions type="leaf"
+                                    scope="all">
+                                    <height>196</height>
+                                    <width>165</width>
+                                </dimensions>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scribe="HakJon01" scope="sole" script="unknown">
-                                <p> Written by Hákon Jónsson.</p>
+                            <handNote scribe="HakJon001" scope="sole" script="unknown">
+                                <p>Written by <name type="person" key="HakJon001">Hákon
+                                    Jónsson</name>.</p>
                             </handNote>
                         </handDesc>
-                        <additions>
-                            <p>p. 330 has a note on Roman currency.</p>
-                        </additions>
                     </physDesc>
+                    <history>
+                        <origin when="1805"  cert="high" evidence="internal">
+                            <origPlace>Iceland</origPlace>,
+                            <origDate when="1805">1805</origDate>.
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">512</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-10-08" who="EvaWed001">Updated markup.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>
