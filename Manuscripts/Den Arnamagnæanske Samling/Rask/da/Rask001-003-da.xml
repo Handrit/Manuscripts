@@ -24,47 +24,54 @@
                         </altIdentifier>
                     </msIdentifier>
 
-                    <head>
-                        <title type="supplied" xml:lang="da">Latin-Islandsk ordbog, vol.
-                            I-III</title> og <title>LEXICON MANUALE <lb/> bipartitum <lb/>
-                            Latino-Islandicum <lb/> et Islandico Latinum <lb/> ſive <lb/>
-                            NUCLEUS-LATINITATIS <lb/> Ex aliis Lexicis auctus et adornatus <lb/> in
-                            <lb/> GRATIAM TIRONUM</title>; <origPlace>Danmark</origPlace>, <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>. <note>Ifølge <name type="person" key="RasRas001">Rasmus Rask</name> er der en henvisning
-                            i Isländskan, s. XXV, hvor dette codex betegnes som <name type="person" key="GudTho04">Guðlaugur Þorgeirsson</name>'s oversættelse af
-                            Weismanns ordbog på latin.</note>
-                    </head>
-
                     <msContents>
-                        <msItem n="1">
+                        <summary><title type="supplied" xml:lang="da">Latin-Islandsk ordbog, vol.
+                            I-III</title>. I <name type="person" key="RasRas001">Rasmus
+                                Rasks</name> "Anvisning till Isländskan", s. xxv, betegnes dette
+                            codex som Guðlaugur Þorgeirssons oversættelse af Weismanns ordbog på
+                            latin.</summary>
+                        <titlePage>
+                            <titlePart type="main">LEXICON MANUALE <lb/> bipartitum <lb/>
+                                Latino-Islandicum <lb/> et Islandico Latinum</titlePart>
+                            <titlePart type="sub">&#x17F;ive <lb/> NUCLEUS-LATINITATIS <lb/> Ex
+                                aliis Lexicis auctus et adornatus <lb/> in <lb/> GRATIAM
+                                TIRONUM</titlePart>
+                        </titlePage>
+                        <msItem n="1" class="ordb">
                             <locus from="1r" to="759v">1r-759v</locus>
-                            <title type="supplied">Vol. I-II: Latin-Islandsk ordbog</title>
+                            <author>Weismann</author>
+                            <title type="supplied">Latinsk-islandsk ordbog, bd. I-II</title>
                             <textLang mainLang="la" otherLangs="is">Latin og islandsk</textLang>
-                            <msItem n="1.1">
+                            <respStmt>
+                                <resp key="trl">oversætter</resp>
+                                <name type="person" key="GudTho004">Guðlaugur Þorgeirsson</name>
+                            </respStmt>
+                            <msItem n="1.1" class="malvg">
                                 <locus from="760r" to="760v">760</locus>
                                 <rubric>CALENDARIUM <lb/> Veterum Romanorum</rubric>
                                 <textLang mainLang="la">Latin</textLang>
                             </msItem>
-                            <msItem n="1.2">
+                            <msItem n="1.2" class="ordb">
                                 <locus from="761r" to="789v">761r-789v</locus>
-                                <rubric>De <lb/> Nominibus Propriis ex Weiſmanno
+                                <rubric>De <lb/> Nominibus Propriis ex Wei&#x17F;manno
                                     de<lb/>cerpta</rubric>
                                 <textLang mainLang="la">Latin</textLang>
                             </msItem>
-                            <msItem n="1.3">
+                            <msItem n="1.3" class="ordb">
                                 <locus from="789v" to="791v">789v-791v</locus>
-                                <rubric>Appendix <lb/> Vocum Græcarum <lb/> ſed
-                                    La<lb/>tini uſus</rubric>
+                                <rubric>Appendix <lb/> Vocum Græcarum <lb/> &#x17F;ed La<lb/>tini
+                                    u&#x17F;us</rubric>
                                 <textLang mainLang="la">Latin</textLang>
                             </msItem>
-                            <msItem n="1.4">
+                            <msItem n="1.4" class="bok">
                                 <locus from="792" to="792">792</locus>
-                                <rubric>Auctores Clasſici</rubric>
+                                <rubric>Auctores Clas&#x17F;ici</rubric>
                                 <textLang mainLang="la">Latin</textLang>
                             </msItem>
                         </msItem>
                         <msItem n="2">
                             <locus from="793r" to="1086v">793r-1086v</locus>
-                            <title type="uniform">Vol. III: Islandsk-Latin ordbog</title>
+                            <title type="uniform">Islandsk-Latin ordbog, bd. III</title>
                             <textLang mainLang="is">Islandsk</textLang>
                             <textLang mainLang="la">Latin</textLang>
                         </msItem>
@@ -86,7 +93,8 @@
                                     <p>Spaltevis paginering. </p>
                                 </foliation>
                                 <condition>
-                                    <p>Beskadiget af borebiller (<foreign>anobium</foreign>).</p>
+                                    <p>Beskadiget af borebiller (<foreign xml:lang="la"
+                                        >anobium</foreign>).</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -95,9 +103,14 @@
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                    </physDesc><history><origin notBefore="1700" notAfter="1799" cert="high" evidence="conjecture">
-                        <p>Skrevet i Danmark i det 18. århundrede.</p>
-                    </origin></history>
+                    </physDesc>
+                    <history>
+                        <origin notBefore="1700" notAfter="1799" cert="high" evidence="conjecture"
+                            resp="KKKat">
+                            <p>Skrevet i <origPlace>Danmark</origPlace> i
+                                <origDate>1700-tallet</origDate>.</p>
+                        </origin>
+                    </history>
                     <additional>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
@@ -109,6 +122,9 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+              <change when="2021-10-08" who="EvaWed001">Opdateret opmærkning.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>
