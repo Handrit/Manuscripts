@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,16 +23,15 @@
                      <idno>2583</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Udkast til en islandsk-dansk ordbog over digtersproget</title>;
-            <origPlace>Island/Danmark?</origPlace> 
-                  <origDate notBefore="1800" notAfter="1815">s.
-            XIX in</origDate>.</head>
                <msContents>
-                  <msItem>
-                     <author>
-                        <name type="person" key="RasRas001">Rasmus Rask</name>
-                     </author>
+                  <summary>
+                     <title type="supplied">Udkast til en islandsk-dansk ordbog over det poetiske
+                        sprog</title>
+                  </summary>
+                  <msItem n="1" class="ordb">
+                     <author key="RasRas001">Rasmus Rask</author>
+                     <title type="supplied">Udkast til en islandsk-dansk ordbog over det poetiske
+                        sprog</title>
                      <textLang mainLang="is" otherLangs="da">Islandsk og dansk</textLang>
                   </msItem>
                </msContents>
@@ -39,10 +39,10 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Papir.</p>
+                           <p><material>Papir</material>.</p>
                         </support>
                         <extent>142. Forskellige ubeskrevne blade og sider, deriblandt bl. 113-141.
-                        <dimensions type="leaf" scope="all">
+                              <dimensions type="leaf" scope="all">
                               <height>215</height>
                               <width>166</width>
                            </dimensions>.</extent>
@@ -50,17 +50,35 @@
                            <p>Skrevet på brækkede blade.</p>
                         </condition>
                      </supportDesc>
-                   </objectDesc>
+                  </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="RasRas001" scope="sole" script="unknown">
-                        <p>Skrevet af Rasmus Rask.</p>
+                        <p>Skrevet af <name type="person" key="RasRas001">Rasmus Rask</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin notBefore="1800" notAfter="1832">
+                     <origPlace>Island/Danmark?</origPlace>,
+                     <origDate notBefore="1800" notAfter="1832">s. XIX in</origDate>.
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">511</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-08" who="EvaWed001">Opdateret opmærkning.</change>
+      </revisionDesc>
    </teiHeader>
+
    <facsimile>
       <surface/>
    </facsimile>
