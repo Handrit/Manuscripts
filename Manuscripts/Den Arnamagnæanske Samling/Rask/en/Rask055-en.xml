@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,65 +23,133 @@
                             <idno>2628</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title n="1">
-                            <q xml:lang="is">Yferferd Skálhollts-Stiftes edr stutt Agrip
-                                Skálhollts-Stiftes Presta sídan Reformationis Tíma</q>
-                        </title>
-                        <title n="2">Gunnlaugsbuð</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1785" notAfter="1830">s. XVIII ex., s. XVIII
-                            in</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="uniform">Prestasögur í Skálholtsbiskupsdæmi</title>
+                            <title type="supplied">Legal document</title></summary>
                         <textLang mainLang="is">Icelandic</textLang>
                     </msContents>
+                    <history>
+                        <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1785"
+                                notAfter="1815">s. XVIII ex., s. XVIII in</origDate></origin>
+                        <provenance>Before the manuscript came into possession of <name
+                                type="person" key="RasRas001">Rasmus Rask</name> it belonged to
+                            belonged to <name type="person" key="EggJon001">Eggert Jónsson</name> of
+                                <name type="place" key="BalSka01">Ballará</name>.</provenance>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund, <ref target="#KKKat"/><biblScope unit="volume"
+                                    >II</biblScope><biblScope unit="page">537</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                     <msPart n="1">
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>Rask 55 I</idno>
-                        </altIdentifier></msIdentifier>
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>Rask 55 I</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                            <titlePage type="MS">
+                                <docTitle>
+                                    <titlePart type="main">Yferferd Skálhollts-Stiftes <lb/> edr
+                                        stutt Agrip <lb/> Skálhollts-Stiftes Presta <lb/> sídan
+                                        Reformationis Tíma. <lb/> Sammanskrifat i eitt af <lb/>
+                                        Profastinum S<hi rend="sup">r</hi> Ione Halldors
+                                        Syne</titlePart>
+                                </docTitle>
+                            </titlePage>
+                            <msItem n="1" class="pres stett">
+                                <author key="JonHal004">Jón Halldórsson</author>
+                                <title type="uniform">Prestasögur í Skálholtsbiskupsdæmi</title>
+                                <note>Followed by an index.</note>
+                            </msItem>
+                        </msContents>
                         <physDesc>
                             <objectDesc form="codex">
                                 <supportDesc material="chart">
                                     <support>
-                                        <p>Paper</p>
+                                        <p><material>Paper</material>.</p>
                                     </support>
-                                    <extent>297. <dimensions type="leaf" scope="all">
+                                    <extent>297. Ff. 268-84 and a few other pages are blank.
+                                            <dimensions type="leaf" scope="all">
                                             <height>107</height>
                                             <width>167</width>
                                         </dimensions>
-                           </extent>
+                                    </extent>
+                                    <foliation>The text is paginated 1-531.</foliation>
+                                    <condition>Most of the blank fols 268-84 are uncut.</condition>
                                 </supportDesc>
                             </objectDesc>
                             <handDesc hands="1">
                                 <handNote scribe="JonKet002" scope="sole" script="unknown">
-                                    <p> Written by Jón Ketilsson.</p>
+                                    <p>Written by <name type="person" key="JonKet002">Jón
+                                            Ketilsson</name>.</p>
                                 </handNote>
                             </handDesc>
+                            <additions>At the beginning of the manuscript <name type="person"
+                                    key="RasRas001">Rask</name> added: <q xml:lang="is">R. Rask
+                                    hefir feingid &#x00FE;essa bók hiá Sra. Eggerti á Ballará</q>
+                                and <q>&#x00FE;essi bók er skrifud med hendi Sra. Jóns Kètilssonar í
+                                    Hiardarholti</q>.</additions>
                         </physDesc>
+                        <history>
+                            <origin>Written in <origPlace key="IS">Iceland</origPlace> towards
+                                    <origDate notBefore="1785" notAfter="1799">the end of the
+                                    eighteenth century</origDate>.</origin>
+                            <provenance/>
+                        </history>
+                        <additional>
+                            <listBibl>
+                                <bibl>Jón Þorkelsson, <ref target="JonThork1888"/><biblScope
+                                        unit="page">135, 391-92</biblScope></bibl>
+                            </listBibl>
+                        </additional>
+
                     </msPart>
                     <msPart n="2">
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>Rask 55 II</idno>
-                        </altIdentifier></msIdentifier>
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>Rask 55 II</idno>
+                            </altIdentifier>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem n="2" class="embr">
+                                <title type="supplied">Legal Document</title>
+                                <rubric>Uppskrift <lb/> á so kalladre Gun<ex>n</ex>lavgsbud
+                                    &#x00FE;á <name type="person" key="JonGun002">Jon
+                                        Gun<ex>n</ex>lavgsson</name> skildest vid en<ex>n</ex>
+                                    <name type="person" key="MagBja001">Magnus Biarnason</name>
+                                    <lb/> Tök vid Anno <date when="1805">1805</date></rubric>
+                            </msItem>
+                        </msContents>
                         <physDesc>
                             <objectDesc form="codex">
                                 <supportDesc material="chart">
                                     <support>
-                                        <p>Paper</p>
+                                        <p><material>Paper</material>.</p>
                                     </support>
                                     <extent>3. <dimensions type="leaf" scope="all">
                                             <height>148</height>
                                             <width>86</width>
                                         </dimensions>
-                           </extent>
+                                    </extent>
                                 </supportDesc>
                             </objectDesc>
                         </physDesc>
+                        <history>
+                            <origin>Written in <origPlace>Iceland</origPlace> in <origDate
+                                    notBefore="1805" notAfter="1815">the beginning of the nineteenth
+                                    century</origDate>. This part was slipped into the main part of
+                                the manuscript (containing Jón Halldórsson's
+                                <title type="uniform">Prestasögur í Skálholtsbiskupsdæmi</title>).</origin>
+                        </history>
                     </msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-10-11" who="EvaWed001">Updated markup.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>
