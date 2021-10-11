@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,25 +23,17 @@
                      <idno>2588</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Islandsk-latinske vocabularia</title>; <origPlace>Island?</origPlace> 
-                  <origDate notBefore="1800" notAfter="1815">s. XIX in</origDate>. 
-    </head>
                <msContents>
-                  <msItem n="1">
-                     <title type="supplied">Anatomi</title>
-                     <textLang mainLang="is" otherLangs="la">Islandsk og latin</textLang>
+                  <summary><title type="supplied">Islandsk-latinske vokabularia</title></summary>
+                  <textLang mainLang="is" otherLangs="la">Islandsk og latin</textLang>
+                  <msItem n="1" class="ordas lakn">
                      <rubric>Anatomica</rubric>
                   </msItem>
-                  <msItem n="2">
-                     <title type="supplied">Diverse</title>
-                     <textLang mainLang="is" otherLangs="la">Islandsk og latin</textLang>
+                  <msItem n="2" class="ordas">
                      <rubric>Diversa</rubric>
                      <note>Særligt dialektudtryk.</note>
                   </msItem>
-                  <msItem n="3">
-                     <title type="supplied">Botanik, zoologi etc.</title>
-                     <textLang mainLang="is" otherLangs="la">Islandsk og latin</textLang>
+                  <msItem n="3" class="ordas grasfr dyrfr">
                      <rubric>Botanico-Zoologica et cet.</rubric>
                   </msItem>
                </msContents>
@@ -48,7 +41,7 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Papir.</p>
+                           <p><material>Papir</material>.</p>
                         </support>
                         <extent>12. Bl. 12v ubeskrevet. <dimensions type="leaf" scope="all">
                               <height>184</height>
@@ -62,11 +55,22 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scope="sole" scribe="SvePal01" script="unknown">
-                        <p>Ifølge kataloget sandsynligvis skrevet av lægen Sveinn Pálsson.</p>
+                     <handNote scope="sole" scribe="SvePal001" script="unknown">
+                        <p>Sandsynligvis skrevet af lægen Sveinn Pálsson, som også menes at være
+                           forfatteren.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1800" notAfter="1815"
+                        >s. XIX in</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                      <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">513</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
