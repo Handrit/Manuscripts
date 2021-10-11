@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,25 +23,39 @@
                      <idno>2632</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Geografiske beretninger</title>; <origPlace>Island?</origPlace>,
-            <origDate notBefore="1750" notAfter="1799">s. XVIII 2/2</origDate>.</head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Landa-Skipte</rubric>
-                     <note>De i AM 736 4to I stykke 1 og II stykke 1 indeholdt geografiske beretninger.</note>
-                     <filiation>
-                        <q>Udskrevne efter <name type="person" key="BjoJon006">Biörn a
-                    Skardsaae</name> egenhændige Manuskript</q> er tilføjet under titlen. Plus en
-                gengivelse af en meddelelse fra Björn Jónsson, at stykkerne er afskrevet af <ref type="ms">AM 736 4to I og II</ref>.</filiation>
+                  <summary><title type="supplied">Geografiske beretninger</title></summary>
+                  <titlePage>
+                     <docTitle>
+                        <titlePart>Landa-Skipte <gap/></titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem class="landfr ferds">
+                     <filiation>Under titlen er der tilføjet: <q>Udskrevne efter Biörn a Skardsaae
+                           egenhændige Manuskript</q> . På titelbladets inderside ses en gengivelse
+                           <name type="person" key="BjoJon006">Björn Jónsson</name>s oplysning om,
+                        at stykkerne er afskrevet af AM 736 4to I og II.</filiation>
+                     <msItem n="1" class="landfr">
+                        <title type="supplied">Landalýsning</title>
+                        <textLang mainLang="is">Islandsk</textLang>
+                        <note>De i AM 736 4to I stykke 1 og II stykke 1 indeholdt geografiske
+                           beretninger.</note>
+                        <filiation>Afskrift af <ref type="ms" target="#AM04-0736-I-da">AM 736 4to
+                              I</ref>, stykke 1.</filiation>
+                     </msItem>
+                     <msItem n="2" class="ferds">
+                        <author key="Nikooo001">Ábóti Nikulás</author>
+                        <title type="uniform">Leiðarvísir</title>
+                        <filiation>Afskrift af <ref type="ms" target="#AM04-0736-I-da">AM 736 4to
+                              I</ref>, stykke 1.</filiation>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Papir.</p>
+                           <p><material>Papir</material>.</p>
                         </support>
                         <extent>16. <dimensions type="leaf" scope="all">
                               <height>189</height>
@@ -52,9 +67,22 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island?</origPlace>, <origDate notBefore="1750" notAfter="1799"
+                        >s. XVIII<hi rend="sup">2</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat"/><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">538</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-11" who="EvaWed001">Opdateret opmærkning.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>
