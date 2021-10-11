@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,54 @@
                      <idno>2627</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Æfi Hóla-biskupa</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1785" notAfter="1799">s. XVIII ex.</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="uniform">Biskupasögur Jóns prófasts Halldórssonar í
+                        Hítardal</title>. Titles in Latin and Icelandic, respectively. The text is
+                     followed by genealogies and an index, to the latter a slip has been
+                     inserted.</summary>
+                  <msItem n="1" class="bis bisks attat regist">
+                     <author key="JonHal004">Jón Halldórsson</author>
+                     <rubric>Æfi Höla-biskupa.</rubric>
+                     <textLang mainLang="is"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>494. 
-<dimensions type="leaf" scope="all">
+                        <support><material>Paper</material>.</support>
+                        <extent>494. A few pages and the uncut fols 477-480 are blank. <dimensions
+                              type="leaf" scope="all">
                               <height>210</height>
                               <width>160</width>
                            </dimensions>
                         </extent>
+                        <foliation>Paginated 9-951.</foliation>
                      </supportDesc>
                   </objectDesc>
+                  <additions/>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1785" notAfter="1799"
+                        >s. XVIII ex.</origDate>.</origin>
+                  <provenance><p>On the title page this provenance note is written: <q xml:lang="la"
+                           >Hunc librum possidet juste SMagni</q> (<name type="person"
+                           key="SkuMag001">Skúli Magnússon</name>). On the top of the title page,
+                        the bind rune SM is found.</p></provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Jón Halldórsson, <ref target="JonHalld1903-1916"/><biblScope
+                           unit="volume">I</biblScope><biblScope unit="page">xx</biblScope></bibl>
+                     <bibl>Kålund, <ref target="KKKat"/><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">537</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-11" who="EvaWed001">Updated markup.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>
