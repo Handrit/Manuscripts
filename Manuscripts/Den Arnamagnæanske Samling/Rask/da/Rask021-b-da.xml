@@ -23,43 +23,58 @@
                             <idno>2592</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title n="1">Snorra Edda</title>, <title n="2">Afskrifter og fortolkning af
-                            oldnordisk poesi</title> og <title n="3">Manuskript til Snorra
-                            Edda</title>; <origPlace>Island/Danmark?</origPlace>, <origDate notBefore="1800" notAfter="1832">s. XIX in.</origDate>.</head>
-
-                    <msContents>
-                        <msItem n="1" defective="true">
+                     <msContents>
+                        <summary><title type="uniform" n="1">Snorra Edda</title>, <title
+                                type="supplied" n="2">Afskrifter og fortolkning af oldnordisk
+                                poesi</title> og <title type="supplied" n="3">Manuskript til Snorra
+                                Edda</title></summary>
+                        <textLang mainLang="is">Islandsk</textLang>
+                        <msItem n="1" class="edd" defective="true">
                             <locus from="1r" to="21v">1r-21v</locus>
                             <title type="uniform">Snorra Edda</title>
-                            <textLang mainLang="is">Islandsk</textLang>
                             <explicit defective="true">f<ex>ra</ex> morg<ex>um</ex>
                                     tiþ<ex>en</ex>d<ex>um</ex>
                             </explicit>
-                            <filiation>Efter Codex Upsalensis.</filiation>
+                            <filiation>Efter Codex Upsaliensis.</filiation>
                         </msItem>
-                        <msItem n="2">
+                        <msItem n="2" class="edd kvskr">
                             <locus from="23r" to="57v">23r-57v</locus>
                             <title type="supplied">Afskrifter og fortolkning af oldnordisk
                                 poesi</title>
                             <textLang mainLang="is">Islandsk</textLang>
-                            <note>Heri Rígsmál, om versene i Víglundar saga, versene i Svarfdæla
-                                saga efter Scheving's codex, om Sigrdrífumál m.fl. Kommentar til
-                                versene i Ynglinga saga.</note>
+                            <note>Heri:</note>
+                            <msItem n="2.1" class="edd">
+                                <title type="uniform">Rígsþula</title>
+                            </msItem>
+                            <msItem n="2.2" class="kvskr">
+                                <title type="supplied">Om versene i Víglundar saga</title>
+                            </msItem>
+                            <msItem n="2.3" class="kvskr">
+                                <title type="supplied">versene i Svarfdæla saga efter Scheving's
+                                    codex</title>
+                            </msItem>
+                            <msItem n="2.4" class="kvskr">
+                                <title type="supplied">Om Sigrdrífumál m.fl.</title>
+                            </msItem>
+                            <msItem n="2.5" class="kvskr">
+                                <title type="supplied">Kommentar til versene i Ynglinga saga</title>
+                            </msItem>
+
                         </msItem>
-                        <msItem n="3">
+                        <msItem n="3" class="edd">
                             <locus from="58r" to="97v">58r-97v</locus>
-                            <title type="supplied">Manuscript for Snorra Edda</title>
-                            <textLang mainLang="is">Icelandic</textLang>
+                            <title type="supplied">Manuskript til Snorra Edda</title>
+                           <note>Indlagt er nogle optegnelser med <name type="person"
+                                key="RasNye001">Rasmus Nyerup</name>s hånd.</note>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
-                                    <p>Paper</p>
+                                    <p><material>Papir</material>.</p>
                                 </support>
-                                <extent>97 blade og sedler. Hist og her er der ubeskrevne blade.
+                                <extent>97 blade og sedler. Hist og her ubeskrevne blade.
                                         <dimensions type="leaf" scope="all">
                                         <height>210</height>
                                         <width>170</width>
@@ -67,29 +82,34 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scribe="RasRas002" scope="sole" script="unknown">
-                                <p>Skrevet af Rasmus Rask.</p>
+                            <handNote scribe="RasRas001" scope="sole" script="unknown">
+                                <p>Skrevet af <name type="person" key="RasRas001">Rasmus Rask</name>.</p>
                             </handNote>
                         </handDesc>
-                        <accMat>Bl. 34 er et indlagt brev fra <name type="person" key="HalSch001">H.
-                                Scheving</name>, dateret <name type="place">Bessastöðum</name>
-                            <date when="1815-07-06">6. 7. 1815</date>. I forbindelse med Snorra Edda
-                            bl. 58-97 er der indlagt nogle optegnelser med <name type="person" key="RasNye001">Rasmus Nyerup</name>'s hånd.</accMat>
+                        <additions>Bl. 34 er et indlagt brev fra <name type="person" key="HalSch001">H.
+                                Scheving</name>, <name type="place">Bessastöðum</name>
+                            <date when="1815-07-06">6. 7. 1815</date>.</additions>
                     </physDesc>
-                    <history><origin when="1805" cert="high" evidence="conjecture">
-                        <p>Skrevet i Island eller Danmark i begyndelsen af det 19. århundrede.</p>
-                    </origin></history>
+                    <history>
+                        <origin>
+                            <p>Skrevet i Island eller Danmark i <origDate notBefore="1800"
+                                    notAfter="1832">begyndelsen af det 19.
+                                århundrede</origDate>.</p>
+                        </origin>
+                    </history>
                     <additional>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                                 <biblScope unit="volume">II</biblScope>
                                 <biblScope unit="pages">515</biblScope>
                             </bibl>
+                            <!-- Snorra Edda II, s. c, cviii -->
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2021-10-11" who="EvaWed001">Tjekket og opdateret.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

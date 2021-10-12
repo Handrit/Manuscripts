@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,54 +23,72 @@
                             <idno>2592</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>On Snorra Edda</title>
-                        <origPlace>Iceland/Denmark?</origPlace>
-                        <origDate notBefore="1800" notAfter="1832">s. XIX in.</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1" defective="true">
+                        <summary><title type="uniform">Snorra Edda</title>, <title type="supplied">Copies and Interpretations of Old Norse
+                            Poetry</title>, <title type="supplied">Manuscript for Snorra Edda</title>.</summary>
+                        <textLang mainLang="is">Icelandic</textLang>
+                        <msItem n="1" defective="true" class="edd">
                             <locus from="1r" to="21v">1r-21v</locus>
-                            <title type="uniform">Snorra Edda According to Codex Upsalensis</title>
-                            <textLang mainLang="is">Icelandic</textLang>
-                            <explicit defective="true">f<ex>ra</ex> morg<ex>um</ex>
+                            <title type="uniform">Snorra Edda</title>
+                             <explicit defective="true">f<ex>ra</ex> morg<ex>um</ex>
                                     tiþ<ex>en</ex>d<ex>um</ex>
-                     </explicit>
+                            </explicit>
+                            <filiation>Copy of Codex Upsaliensis (<ref type="ms">DG 11
+                                4to</ref>)</filiation>
                         </msItem>
-                        <msItem n="2">
+                        <msItem n="2" class="edd kvskr">
                             <locus from="23r" to="57v">23r-57v</locus>
-                            <title type="supplied">Transcripts and Interpretation of Old Norse
+                            <title type="supplied">Copies and Interpretations of Old Norse
                                 Poetry</title>
-                            <textLang mainLang="is">Icelandic</textLang>
-                            <note>Rígsmál, on the verse of Víglundar saga, the verse of Svarfdæla
-                                saga according to Scheving's codex, on Sigrdrífumál etc. Comment on
-                                the verse of Ynglinga saga.</note>
+                             <note>Comprising e.g.</note>
+                            <msItem n="2.1" class="edd">
+                                <title type="uniform">Rígsþula</title>
+                            </msItem>
+                            <msItem n="2.2" class="kvskr">
+                                <title type="supplied">Poetry of Víglundar saga</title>
+                            </msItem>
+                            <msItem n="2.3" class="kvskr">
+                                <title type="supplied">Poetry of Svarfdæla saga in Scheving's
+                                    Codex</title>
+                            </msItem>
+                            <msItem n="2.4" class="kvskr">
+                                <title type="supplied">On Sigrdrífumál and Others</title>
+                            </msItem>
+                            <msItem n="2.5" class="kvskr">
+                                <title type="supplied">Comment on the Poetry of Ynglinga
+                                    saga.</title>
+                            </msItem>
                         </msItem>
-                        <msItem n="3">
+                        <msItem n="3" class="edd">
                             <locus from="58r" to="97v">58r-97v</locus>
                             <title type="supplied">Manuscript for Snorra Edda</title>
-                            <textLang mainLang="is">Icelandic</textLang>
+                             <note>Some notes in <name type="person" key="RasNye001">Rasmus
+                                Nyerup</name>'s hand have been inserted.</note>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
-                                    <p>Paper</p>
+                                    <p><material>Paper</material>.</p>
                                 </support>
                                 <extent>97 leaves and slips.</extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scribe="RasRas002" scope="sole" script="unknown">
-                                <p> Written by Rasmus Rask.</p>
+                            <handNote scribe="RasRas001" scope="sole" script="unknown">
+                                <p> Written by <name type="person" key="RasRas001">Rasmus Rask</name>.</p>
                             </handNote>
                         </handDesc>
-                        <accMat>Fol. 34 is an inserted letter from <name type="person" key="HalSch001">H. Scheving</name>, dated <name type="place">Bessastöðum</name>
-                            <date when="1815-07-06">6. 7. 1815</date>. For the Manuscript for Snorra
-                            Edda some records in <name type="person" key="RasNye001">Rasmus
-                                Nyerup</name>'s hand are inserted.</accMat>
+                        <additions>Fol. 34 is a letter from <name type="person"
+                                key="HalSch001">H. Scheving</name>, <name type="place"
+                                >Bessastöðum</name>
+                            <date when="1815-07-06">6. 7. 1815</date>.</additions>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Iceland or Denmark</origPlace>
+                        <origDate notBefore="1800" notAfter="1832">s. XIX in</origDate>.</origin>
+                    </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
@@ -77,10 +96,18 @@
                                     EW-J.</source>
                             </recordHist>
                         </adminInfo>
+                        <listBibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">515</biblScope>
+                            </bibl>
+                            <!-- Snorra Edda II, pp. c, cviii -->
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2021-10-11" who="EvaWed001">Checked and updated.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>
