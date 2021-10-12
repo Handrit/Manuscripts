@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,33 +23,51 @@
                      <idno>2595</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Noregs konunga sögur</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>
-                  <note>Opening with Magnúss saga ins góða.</note>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="uniform">Noregs konunga sögur</title> from 'Magnús saga
+                     góða' up to, and including, 'Magnús saga Erlingssonar'.</summary>
+                  <msItem n="1" class="kon">
+                     <title type="uniform">Noregs konunga sögur</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <rubric>Sagann Af Magnu&#x017F;e Kon<lb/>ge Göda</rubric>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>287. 
-<dimensions type="leaf" scope="all">
+                        <support><material>Paper</material>.</support>
+                        <extent>287. Fol. 287v is blank. <dimensions type="leaf" scope="all">
                               <height>206</height>
                               <width>164</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <additions><p>Several marginalia occur in the first half of the
+                        manuscript.</p><p>Fol. 287 is a re-used envelope.</p>
+                     <p>Towards the end of the manuscript <name type="person" key="JonJak001">Jón
+                           Jakobsson</name> added: <q>Her endar No&#xA75B;egs Kongatal Klh. Widalins
+                           &#x017F;em er in folio a 538 pag. rettskrifad af <name type="person"
+                              key="AsgJon001">Asgeire</name> hand&#x017F;kr. LL &#x00FE;ad byriar á
+                           Halfdane Svarta, mun &#x017F;u Bok &#x017F;krifud effter Membrana
+                              <add>mege eg rett ætla</add> 1788. J Jacobsen</q>.</p></additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1700" notAfter="1799"
+                        >s. XVIII</origDate></origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">516</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-11" who="EvaWed001">Checked and updated.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>
