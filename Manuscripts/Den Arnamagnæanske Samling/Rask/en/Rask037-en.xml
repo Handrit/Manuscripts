@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,7 +24,7 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary><title type="supplied">Saga Manuscript</title></summary>
+                        <summary><title type="supplied">Sagas of Icelanders</title></summary>
                         <titlePage type="MS">
                             <docTitle>
                                 <titlePart type="main"><locus from="1r" to="1r">1r</locus> Nockrir
@@ -57,8 +58,9 @@
                             <title type="uniform">Vatnsdæla saga</title>
                             <rubric>SAgANN AF Watnsdælu<ex>m</ex>
                             </rubric>
-                            <msItem n="4.1">
+                            <msItem n="4.1" class="attat">
                                 <locus from="96r" to="96v">96r-v (inserted slip)</locus>
+                                <title type="supplied">Genealogy o the Vatnsdælas</title>
                                 <quote>Ætt Vatnsdęla of<ex>an</ex> t<ex>il</ex> Sturlúnga</quote>
                             </msItem>
                         </msItem>
@@ -76,6 +78,7 @@
                         </msItem>
                         <msItem n="7" class="attat">
                             <locus from="262" to="263">pp. 262-263</locus>
+                            <title type="supplied">Genealogy from Flóamanna saga</title>
                             <rubric>Ættar tala úr Flóaman<ex>n</ex>a Sỏgu, ok sva ofan<ex>n</ex>
                                 eptir</rubric>
                             <note>Traced down to the scribe himself.</note>
@@ -87,25 +90,37 @@
                                 <support>
                                     <p>Paper</p>
                                 </support>
-                                <extent>i + 141 (pp. 1-263 + the inserted leaves 40-42, and 96).
-                                    Fol. 42v and the last page are blank. <dimensions type="leaf" scope="all">
-                                        <height>203</height>
-                                        <width>163</width>
+                                <extent>i + 141 (pp. 1-263 + the inserted leaves 40-4, and 96). Fol.
+                                    42v and the last page are blank. <dimensions type="leaf"
+                                        scope="all" unit="mm">
+                                        <height unit="mm">203</height>
+                                        <width unit="mm">163</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scribe="OlaSig01" scope="sole" script="unknown">
-                                <p> Written by Ólafur Sigurðsson.</p>
+                            <handNote scribe="OlaSig001" scope="sole" script="unknown">
+                                <p> Written by <name type="person" key="OlaSig001">Ólafur
+                                        Sigurðsson</name>.</p>
                             </handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote type="initial" subtype="flourished">
-                                <p>p. 115 has a flourished initial.</p>
+                                <p>P. 115 has a flourished initial.</p>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
+                    <history>
+                        <origin>Written in <origPlace>Iceland</origPlace>
+                            <origDate from="1812" to="1813">1812-1813</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                                    >II</biblScope><biblScope unit="page">524-525</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
