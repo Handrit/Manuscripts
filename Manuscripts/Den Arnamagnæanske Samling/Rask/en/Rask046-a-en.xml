@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,36 +22,63 @@
                      <idno>2617</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Icelandic Poems</title>
-                  <origPlace>Iceland/Denmark?</origPlace>
-                  <origDate notBefore="1800" notAfter="1832">s. XIX in</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="is" otherLangs="dan">Icelandic and Danish</textLang>
+                  <summary><title type="supplied">Icelandic Poems</title></summary>
+                  <msItem n="1" class="kvad">
+                     <textLang mainLang="is" otherLangs="da"/>
+                     <note>Some of the poems contain explanations in Danish.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>68. 
-<dimensions type="leaf" scope="all">
-                              <height>212</height>
-                              <width>167</width>
-                           </dimensions>
+                        <support><material>Paper</material>.</support>
+                        <extent>68. Ff. 34-65 and 68v are blank. <dimensions type="leaf" scope="all">
+                           <height unit="mm">212</height>
+                           <width unit="mm">167</width>
+                        </dimensions>
                         </extent>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2">
+                           <p>Written in two columns. Ff. 66-67 are written upside down.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="RasRas001" scope="sole" script="unknown">
-                        <p>
-Written by Rasmus Rask.</p>
+                        <p>Written by <name type="person" key="RasRas001">Rasmus Rask</name>.</p>
                      </handNote>
                   </handDesc>
+                  <accMat>
+                     <p>A further two poems are found in a slip inserted at the beginning of the
+                        manuscript.</p>
+                  </accMat>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland or Denmark</origPlace>, <origDate notBefore="1800"
+                     notAfter="1832">s. XIX in</origDate>.</origin>
+                  <acquisition><name type="org">The Arnamagnæan Commission</name> in Copenhagen
+                     bought Rask's Old Norse-Icelandic manuscript collection after his death in
+                     <date when="1832">1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Einar G. Pétursson, <ref type="secondary" target="EinPét0276a"
+                     /><!-- biblScope? --></bibl>
+                     <bibl>Jón Guðmundsson, <ref target="JónGuð1936a"/><!-- biblScope? --></bibl>
+                     <bibl>Kålund, <ref type="secondary" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">531-32</biblScope>
+                     </bibl>
+                     <bibl>Stefán Ólafsson, <ref target="Kvadi"/><biblScope unit="page"
+                        >xi</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-14" who="EvaWed001">Updated markup and added information.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

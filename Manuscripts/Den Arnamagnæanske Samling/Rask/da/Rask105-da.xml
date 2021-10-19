@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,18 +23,24 @@
                      <idno>2681</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Handbók presta</title>; <origPlace>Island</origPlace>, <origDate when="1640">1640</origDate>.</head>
                <msContents>
-                  <msItem>
-                     <title type="supplied">Håndbog til Præster</title>
-                     <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Skijrnar Em<ex>m</ex>bættisins <lb/> skickun, hegdun, og mte,
-                    m<ex>ed</ex>al krist<lb/>in<ex>n</ex>a man<ex>n</ex>a […] Saman<ex>n</ex>
-                tekid ut af Guds <lb/> Orde og Af pomeränisk<lb/>re Ordinantiu, og af
-                    or<lb/>din<ex>n</ex>antiu k. kristia<ex>n</ex>z þ<ex>ess</ex>
-                        <lb/> 4. og af Andligu<ex>m</ex> statutu<ex>m</ex>
-                        <ex>og</ex> syn<lb/>odalijs. <lb/> An<ex>n</ex>o 1640</rubric>
+                  <summary><title type="supplied">Præstehåndbog</title>.</summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main"><locus from="1r" to="1r">1r</locus> Skijrnar
+                              Em<ex>m</ex>bættisins <lb/> skickun, hegdun, og m&#xA733;te,
+                              m<ex>ed</ex>al krist<lb/>in<ex>n</ex>a man<ex>n</ex>a <gap
+                              reason="irrelevant"/></titlePart>
+                        <titlePart type="sub">Saman<ex>n</ex> tekid ut af Guds <lb/> Orde og Af
+                           pomeränisk<lb/>re Ordinantiu, og af or<lb/>din<ex>n</ex>antiu k.
+                              kristia<ex>n</ex>z þ<ex>ess</ex>
+                           <lb/> 4. og af Andligu<ex>m</ex> statutu<ex>m</ex>
+                           <ex>og</ex> syn<lb/>odalijs. <lb/> An<ex>n</ex>o 1640</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="handb">
+                     <title type="supplied">Handbók presta</title>
+                     <textLang mainLang="is"/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -43,22 +50,50 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>193. Hist og her oprindeligt ubeskrevne blade. <dimensions type="leaf" scope="all">
-                              <height>140</height>
-                              <width>100</width>
+                        <extent>193. <dimensions type="leaf" scope="all" unit="mm">
+                              <height unit="mm">140</height>
+                              <width unit="mm">100</width>
                            </dimensions>.</extent>
                         <foliation>
-                           <p>Ældre, fejlfuld paginering.</p>
+                           <p>Samtidig, fejlfuld paginering.</p>
                         </foliation>
                         <condition>
-                           <p>Bl. 1-4 beskadigede ved hensmulren, bl. 4v overklæbet og på ny beskrevet.</p>
+                           <p>Bl. 1-4 beskadigede ved hensmuldren, bl. 4v overklæbet og på ny
+                              beskrevet.</p>
                         </condition>
                      </supportDesc>
                   </objectDesc>
+                  <additions><p>Navne på ejere ses på bl. 117v, 150v, 183r, 192v.</p><p>Mod
+                        håndskriftets slutning ses hist og her oprindeligt ubeskrevne blade, som dog
+                        er udfyldt med en samtidig eller lidt yngre hånd.</p></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Indbundet i et helbind af læder med oprøjet bind. Forspejlet og det
+                           første flyveblad består af genbrugsmateriale; blade fra et tidligere
+                           håndkskrift med religiøst indhold. Angående dette giver arkivar <name
+                              type="person" key="JonSig004">Jón Sigurðsson</name> følgende
+                           vedtegning: <q>með hendi S<hi rend="sup">r</hi>
+                              <name type="person" key="AsgBja001">Asgeirs Bjarnasonar</name> i Ögum
+                              þingum. mestpart</q>.</p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate when="1640"
+                     >1640</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">558-59</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-07-02" who="EvaWed001">Revideret.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

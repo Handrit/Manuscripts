@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,37 @@
                      <idno>2636</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Arnbjörg eður hin góða húsfreya</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1790" notAfter="1810">c. 1800</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                 <msContents>
+                  <summary><title type="uniform">Arnbjörg eður hin góða húsfreyja</title></summary>
+                  <msItem n="1" class="kenb heimil">
+                     <author key="BjoHal002">Björn Halldórsson</author>
+                     <title type="uniform">Arnbjörg eður hin góða húsfreyja</title>
+                     <textLang mainLang="is">Icelandic</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>28. 
-<dimensions type="leaf" scope="all">
-                              <height>212</height>
-                              <width>170</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>28. Fol. 28v is blank. <dimensions type="leaf" scope="all" unit="mm">
+                              <height unit="mm">212</height>
+                              <width unit="mm">170</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>, <origDate notBefore="1790" notAfter="1810">c. 1800</origDate></origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">539</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-15" who="EvaWed001">Updated markup.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

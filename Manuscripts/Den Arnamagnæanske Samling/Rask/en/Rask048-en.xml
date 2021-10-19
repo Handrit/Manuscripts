@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,35 +23,132 @@
                      <idno>2621</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" n="1">Annalár</title>
-                  <title n="2">Tólf presta dómur</title>
-                  <title n="3">Lögmanna registr</title>
-                  <title n="4">Íslenzkar ættartölur</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1775" notAfter="1799">s. XVIII 3/4</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Miscellaneous</title>. According to Kålund's
+                     catalogue the manuscript consists of two parts written by different
+                     hands.</summary>
+                  <msItem n="1" class="annal bis">
+                     <locus from="3r" to="78v">3r-78v</locus>
+                     <title type="uniform">Biskupaannálar Jóns Egilssonar</title>
+                     <textLang mainLang="is"/>
+                     <rubric>ANNAL <lb/> Innehalldande adskilianlega hlute</rubric>
+                     <note>Kolumnetitel <q>Annalar S<hi rend="sup">r</hi> Ións
+                        Egilssonar</q>.</note>
+                     <note>With a continuation after <title type="uniform">Annálar Björns Jónssonar á
+                           Skarðsá</title> for årene <date from="1558" to="1639"
+                        >1588-1639</date>.</note>
+                  </msItem>
+                  <msItem n="2" class="annal">
+                     <locus from="79" to="92r">79-92r</locus>
+                     <author key="GunTho002">Gunnlaugur Þorsteinsson</author>
+                     <title type="uniform">Vallholtsannáll</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Ur Annalum Gunlogs Pr<ex>ests</ex> Þorsteins sonar</rubric>
+                     <note><date from="1626" to="1666">1626-1666</date>. At the end of the annal the
+                        death of the author in <choice>
+                           <sic>1678</sic>
+                        </choice> is mentioned.</note>
+                  </msItem>
+                  <msItem n="3" class="annal">
+                     <locus from="92r" to="144">92r-144</locus>
+                     <author key="EyjJon002">Eyjólfur Jónsson</author>
+                     <title type="uniform">Vallaannál</title>
+                     <textLang mainLang="is"/>
+                     <rubric>IB. Annala up<ex>p</ex>kast</rubric>
+                     <note>
+                        <date from="1659" to="1737">1659-1737</date>
+                     </note>
+                  </msItem>
+                  <msItem n="4" class="fornb dom">
+                     <locus from="145" to="148v">145-148v</locus>
+                     <title type="supplied" xml:lang="is">Tólf presta dómur um aðtektir í Viðey
+                        1539</title>
+                     <textLang mainLang="is"/>
+                     <note>With comments.</note>
+                  </msItem>
+                  <msItem n="5" class="nafsk">
+                     <locus from="148v" to="150r">148v-150r</locus>
+                     <title type="supplied">Register of lawmen</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Lögman<ex>n</ex>a Registr</rubric>
+                     <note>
+                        <date from="1284" to="1509">1284-1509</date>
+                     </note>
+                  </msItem>
+                  <msItem n="6" class="attat">
+                     <locus from="151" to="160">151-160</locus>
+                     <author key="JonHel002">Sýslumaður Jón Helgason</author>
+                     <title type="supplied">Icelandic genealogical tables</title>
+                     <textLang mainLang="is"/>
+                     <note>Traced down to <name type="person" key="EirGud001">Eiríkur Guðmundsson
+                           Hoff</name>. Composed and written in <date when="1761"
+                        >1761</date>.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>160. 
-<dimensions type="leaf" scope="all">
-                              <height>203</height>
-                              <width>159</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>160. <dimensions type="leaf" scope="all" unit="mm">
+                              <height unit="mm">203</height>
+                              <width unit="mm">159</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p><list>
+                                 <item>Ff. 3r-78v are paginated 1-149 - with some inaccuracies,</item>
+                                 <item>ff. 79-92r are paginated 1-27;</item>
+                                 <item>ff. 92r-144 are only partially paginated.</item>
+                              </list></p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" scribe="MarEyj001" script="unknown">Ff. 3r-78v and 92r-144v (except for the account covering the years
+                        1737) are written by the samme hand. According to <name type="person"
+                           key="RasRas001">Rask</name> this hand belongs to <name type="person"
+                           key="MarEyj001">Markús Eyjólfsson</name>.</handNote>
+                     <handNote scope="minor" script="unknown">Ff. 79r-92r are written by another hand.</handNote>
+                     <handNote scope="minor" script="unknown" scribe="JonHel002">Ff. 151r-160v written by the <foreign xml:lang="is"
+                           >sýslumaður</foreign>
+                        <name type="person" key="JonHel002">Jón Helgason</name>.</handNote>
+                  </handDesc>
+                  <additions><name type="person" key="RasRas001">Rask</name> wrote that item 1 was
+                     in <q>hönd Sra <name type="person" key="MarEyj001">Marcúsar Eyjólfssonar</name>
+                        á Söndum f. V.</q>; on p. 1 he added a similar, yet unreliable, account on
+                     the scribe of item 2. Item 4 is said to be a copy of <name type="person"
+                        key="ArnMag001">Árni Magnússon</name>'s copy of the diploma; item 5 is
+                     supposedly <q>aflavsum rotnum bl&#xE7D3;dum epter Syslum. <name type="person"
+                           key="OrmDad001">Orm Dada Son</name>.</q>
+                  </additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1785"
+                        notAfter="1799">s. XVIII ex</origDate>.
+                  </origin>
+                  <provenance>The provenance notes on the two flyleaves attest that the manuscript
+                     belonged to <name type="person" key="BogBen001">Bogi Benediktsson</name> and
+                        <name type="person" key="FinMag001">Finnur Magnússon</name> beore it came
+                     into possession of <name type="person" key="RasRas001"
+                     >Rask</name>.</provenance>
+                  <acquisition><name type="org">The Arnamagnæan Commision</name> bought <name
+                        type="person" key="RasRas001">Rask</name>'s Nordic manuscript collection
+                     after his death in <date when="1832">1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Jón Þorkelsson, <ref type="secondary" target="JTh1856"/><biblScope
+                           unit="volume">I</biblScope><biblScope unit="page">26</biblScope></bibl>
+                     <bibl>Kålund, <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">533</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-15" who="EvaWed001">Updated.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

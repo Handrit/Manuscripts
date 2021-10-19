@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,19 +23,35 @@
                      <idno>2688</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Uddrag af to færøske ordbøger</title>; <origPlace>København,
-        Danmark</origPlace>, <origDate when="1810">1810</origDate>. 
-    </head>
                <msContents>
-                  <msItem>
-                     <locus from="1" to="76">1-76</locus>
-                     <title>Uddrag af to færøske ordbøger</title>
-                     <author>Rasmus Kristian Rask</author>
-                     <textLang mainLang="fo">Færøsk</textLang>
-                     <rubric>Udtog <lb/> af <lb/> Jens Christian Svabo´s <lb/> tvende
-                færöiske Ordböger. <lb/> uddraget <lb/> af <lb/> R.K.
-                Rask. <lb/> Kjøbenhavn 1810</rubric>
+                  <summary><title type="supplied">Uddrag af to færøske ordbøger</title>.</summary>
+                  <titlePage>
+                     <titlePart type="main">Udtog<lb/> af<lb/> Jens Christian Svabo's<lb/> tvende
+                        færöiske Ordböger</titlePart>
+                     <titlePart type="sub">uddraget af <name type="person" key="RasRas001">R. K.
+                           Rask</name></titlePart>
+                     <titlePart type="sub"><name type="place" key="Copen01">Kjöbenhavn</name>
+                        <date when="1810">1810</date></titlePart>
+                  </titlePage>
+                  <msItem n="1" class="notes malfr">
+                     <locus from="2r" to="76r">s. 3-151 (bl. 2r-76r)</locus>
+                     <title type="supplied">Uddrag af Jens Christian Svabos to færøske
+                        ordbøger</title>
+                     <textLang mainLang="fo" otherLangs="da la">Færøisk med dansk, latin og
+                        islandsk</textLang>
+                     <filiation>Uddragene er kopieret fra <ref type="ms">Ulldal 475 4to</ref> og
+                           <ref type="ms">NKS 1953 4to.</ref></filiation>
+                     <author>J. C. Svabo</author>
+                     <msItem n="1.1" class="notes formal">
+                        <locus from="2r" to="2v">s. 3-4 (bl. 2r-2v)</locus>
+                        <title type="supplied">Forord</title>
+                        <textLang mainLang="da">Dansk</textLang>
+                        <incipit>Af Fortalen synes det vigtigt, som næremest angaar Bogen, og sammes
+                           Beskaffenhed</incipit>
+                        <explicit>Hvor den danske Oversættelse enten manglede eller ikke forekom mig
+                           tydelig tilföede jeg den latinske. R.</explicit>
+                        <author>Rasmus Rask</author>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -42,26 +59,89 @@
                      <supportDesc material="chart">
                         <support>
                            <p>
-                              <material>Papir</material>.</p>
+                              <material>Papir</material> med <watermark>Ørholm vendmærke med
+                                 Frederik den 6.'s kongelige monogram</watermark>.</p>
                         </support>
-                        <extent>76. <dimensions type="leaf" scope="all">
-                              <height>160</height>
-                              <width>97</width>
+                        <extent>i + 76 + xii. <dimensions type="leaf" scope="all">
+                              <height unit="mm">160</height>
+                              <width unit="mm">97</width>
                            </dimensions>.</extent>
-                        <foliation>
-                           <p>Sidevis pagineret. S. 2 og 152 ubeskrevet.</p>
-                        </foliation>
+                        <foliation><p>Der er ingen foliering.</p></foliation>
+                        <collation>
+                           <p>
+                              <!--<list>
+                          <item/>
+                        </list>-->
+                           </p>
+                           <signatures>Der er ingen lægsignaturer.</signatures>
+                           <catchwords>Der er ingen kustoder.</catchwords>
+                        </collation>
+                        <condition>
+                           <p>Papiret er i god stand.</p>
+                        </condition>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="20">
+                           <p>Teksten er enspaltet med 20 linjer pr. side.</p>
+                           <p>Tekstfladen måler: <dimensions type="written">
+                                 <height unit="mm" quantity="150">150</height>
+                                 <width unit="mm" quantity="75">75</width>
+                              </dimensions>.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="RasRas02" scope="sole" script="unknown">
-                        <p>Skrevet af Rasmus Rask.</p>
+                     <handNote scribe="RasRas001" scope="sole" script="unknown">
+                        <p>Skrevet af <name type="person" key="RasRas001">Rasmus Rask</name>.</p>
                      </handNote>
                   </handDesc>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <p>Indbundet i et papbind fra 1800-tallet betrukket med marmoreret papir og
+                           med læderryg og hjørner.</p>
+                        <p>Bindet måler: <dimensions type="binding">
+                              <height unit="mm" quantity="162">162</height>
+                              <width unit="mm" quantity="103">103</width>
+                              <depth unit="mm" quantity="20">20</depth>
+                           </dimensions>.</p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>København, Danmark</origPlace>, <origDate when="1810"
+                        >1810</origDate>.</origin>
+                  <acquisition><name type="org">Den Arnamagnæanske Kommission</name> købte
+                     håndskriftet efter Rasks død i <date when="1832">1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <p>Katalogiseret <date when="2021">2021</date> af <name type="person"
+                                 key="SeaVri001">SDV</name>.</p>
+                        </source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates>
+                     <p>
+                        <list>
+                           <item>Digitale billeder fra <date when="2019">2019</date>.</item>
+                        </list>
+                     </p>
+                  </surrogates>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">561</biblScope></bibl>
+                     <bibl>Skårup: <ref type="secondary-1" target="PovSkå1964">Rasmus Rask og
+                        Færøsk</ref><biblScope unit="pages">10-11</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-15" who="EvaWed001">Opdateret og oversat fra engelsk.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

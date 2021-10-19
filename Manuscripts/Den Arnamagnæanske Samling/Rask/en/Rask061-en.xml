@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,51 @@
                      <idno>2635</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Um búskap íslenzkra bænda</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1785" notAfter="1799">s. XVIII ex</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                 <msContents>
+                  <summary><title type="supplied">Um búskap íslenskra bænda</title>.
+                  </summary>
+                    <msItem n="1" defective="true" class="versl">
+                     <locus>s. 1-222</locus>
+                     <author key="JonJon038">Jón Jónsson</author>
+                     <title type="supplied">Um búskap íslenskra bænda</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <rubric>Skrif <lb/> þesss ypparlega man<ex>n</ex>s, Sýra Jóns <lb/> Jonssonar
+                        Ingra, á Núpufelle <add hand="RasRas001">sidan Mdrufelli</add>
+                        <lb/> lied Sýsluman<ex>n</ex>e <name type="person" key="JonJak001">Jóne
+                           Jacobssyne</name>, vid Nýár <date when="1793">1793</date>, til
+                        yferskodunar</rubric>
+                     <note>The text ends abruptly on p. 222. Fol. 1 is written by another hand.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>141. 
-<dimensions type="leaf" scope="all">
-                              <height>220</height>
-                              <width>172</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>141 leaves. Page 225 is blank <dimensions type="leaf" scope="all" unit="mm">
+                              <height unit="mm">220</height>
+                              <width unit="mm">172</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Paginated 1-294 (with the exception of 80-89, 223-224).</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1785" notAfter="1793"
+                        >s. XVIII ex</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat"/><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">539</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-15" who="EvaWed001">Updated markup opmærkning.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,32 +22,95 @@
                      <idno>2620</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Annálar</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1650" notAfter="1700">s. XVII 2/2</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Annals</title></summary>
+                  <msItem n="1" class="annal">
+                     <locus from="1r" to="1r">1r</locus>
+                     <title type="supplied">Annalistic note for 1681</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="annal">
+                     <locus from="2r" to="76v">2r-76v</locus>
+                     <title type="uniform">Flateyarannál</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="3" class="annal">
+                     <locus from="77" to="177r">77-177r</locus>
+                     <author key="BjoJon006">Björn Jónsson</author>
+                     <title type="uniform">Annálar Björn Jónssonar á Skarðsá</title>
+                     <textLang mainLang="is"/>
+                     <note><date from="1400" to="1642">1400-1642</date>. Differs from Storm's
+                        edition (<bibl><ref target="GusSto1888a"/></bibl>).</note>
+                  </msItem>
+                  <msItem n="4" class="annal">
+                     <locus from="177v" to="241r">177v-241r</locus>
+                     <author key="MagMag007">Magnús Magnússon</author>
+                     <title type="uniform">Annálar Magnúsar Magnússonar sýslumanns í
+                        Ísafjarðarsýsla</title>
+                     <textLang mainLang="is"/>
+                     <note><date from="1843" to="1884">1843-84</date>. Occasional additions in the
+                        margins.</note>
+                  </msItem>
+                  <msItem n="5" class="annal">
+                     <title type="supplied">Annalistic note for 1731</title>
+                     <textLang mainLang="is"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>242. 
-<dimensions type="leaf" scope="all">
-                              <height>237</height>
-                              <width>190</width>
-                           </dimensions>
-                        </extent>
+                        <support><material>Paper</material>.</support>
+                        <extent>i + 242 + i. Ff. 232v-233r and 241v are blank. <dimensions
+                           type="leaf" scope="all" unit="mm">
+                           <height unit="mm">237</height>
+                           <width unit="mm">190</width>
+                        </dimensions>.</extent>
+                        <condition>Bl. 188v-189r have been glued together.</condition>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scribe="TorJon002" scope="minor" script="unknown">
+                        <p>Ff. 2r-177r written by <name type="person" key="TorJon002">Torfi
+                           Jónsson</name> of Gaulverjabær.</p>
+                     </handNote>
+                     <handNote scribe="MagMag007" scope="minor" script="unknown">
+                        <p>Ff. 177v-241r written by <name type="person" key="MagMag007">Magnús
+                           Magnússon</name> of Eyri.</p>
+                     </handNote>
+                  </handDesc>
+                  <additions><p>A statuary provision for Þverárdalur i <name type="place"
+                     key="Eyjafj02">Eyjafjarðarsýsla</name> (<date from="1666" to="1667"
+                        >1666-67</date>) has been inserted.</p>
+                     <p>On ff. 1 and 242 which originally was used as material for the pastedown a few notes are found. 
+                        On fol. 1v an annalistic note for <date when="1668"
+                           >1668</date> written by 
+                        Torfi Jónssons and the provenance note: <q>Hr Biskop
+                           Harboe tilhørende</q> are found. On fol. 242r an annalistic note for 
+                        <date when="1731">1731</date> (partly cryptogram) is added .</p></additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>,
+                     <origDate notBefore="1650" notAfter="1699">s. XVII<hi rend="sup"
+                        >2</hi></origDate></origin>
+                  <provenance>The manuscript belonged to the Danish bishop <name type="person"
+                     key="LudHar001">Ludvig Harboe</name>.</provenance>
+                  <acquisition><name type="org">The Arnamagnæan Commision</name> bought <name
+                     type="person" key="RasRas001">Rask</name>'s Old Norse and Icelandic
+                     manuscript collection after his death in <date when="1832"
+                        >1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">532-33</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-06-25" who="EvaWed001">Added information and changed origDate.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

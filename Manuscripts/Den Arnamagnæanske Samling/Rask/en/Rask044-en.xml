@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,35 +22,81 @@
                      <idno>2615</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Tiðavísur</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1750" notAfter="1799">s. XVIII 2/2</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
-                     <author>
-                        <name type="person" key="JonJon021">Síra Jón Jónsson á Kvíabekk</name>
-                     </author>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied" xml:lang="is">Tíðavísur séra Jóns Jónssonar á Kvíabekk</title></summary>
+                  <titlePage>
+                     <docTitle>
+                        <titlePart type="main"><locus from="1r" to="1r">1r</locus> Nockur <lb/>
+                           Fretta-Registur <lb/> I Liódum, <lb/> Sem min<ex>n</ex>ast á fá ein
+                           Tídindi, af m&#xE7D3;rgum, <lb/> er sked hafa, <lb/> Hier á Islande og
+                           An<ex>n</ex>arstadar, <lb/> Ar eftir Ar fram<ex>m</ex>, <lb/> Frá þeim
+                           si&#xE7D3;unda Deige Aprilis, <lb/> Anno 1768. <lb/> Saman<ex>n</ex>skrifud ad
+                           níu, af Auctore, <lb/> í eirn Annál, (ef so má kallast)</titlePart>
+                        <note>En hånd fra c. 1800 har tilføjet <q>Þessi lioda Annall er ritadur af
+                           Prestinum Sira Jone <choice>
+                              <sic>Jonsonar</sic>
+                              <corr>Jonssyne</corr>
+                           </choice> - Sira Jons Sigurdssonar, hverier badir voru Prestar i
+                           Olafsfirde ed<ex>ur</ex> t<ex>il</ex> Kviabeckiar Sogn i Hola
+                           Stipte</q>.</note>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="kvad">
+                     <author key="JonJon021">Jón Jónsson of Kvíabekkur</author>
+                     <title type="supplied">Tiðavísur 1768-83</title>
+                     <textLang mainLang="is"/>
+                     <msItem n="1.1" class="tileinkun">
+                        <locus from="1v" to="1v">1v</locus>
+                        <title type="supplied">Dedication</title>
+                        <respStmt>
+                           <resp key="dte"/>
+                           <name type="person" key="JonJak001">Jón Jakobsson</name>
+                        </respStmt>
+                     </msItem>
+                     <msItem n="1.2" class="tileinkun">
+                        <locus from="2r" to="8v">2r-8v</locus>
+                        <title type="supplied">Versed Dedication</title>
+                        <respStmt>
+                           <resp key="dte"/>
+                           <name type="person" key="JonJak001">Jón Jakobsson</name>
+                        </respStmt>
+                        <colophon>skrifad heima þan<ex>n</ex> 21 Febr. 1774, af Ione
+                           Ionssyne</colophon>
+                     </msItem>
+                     <msItem n="1.3" class="tileinkun">
+                        <title type="supplied">Dedication</title>
+                        <note><q>Til Lesarans</q></note>
+                     </msItem>
+                     <note>With comprehensive comments below the text; however, with open space for
+                        <date when="1780">1780</date>.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>84. 
-<dimensions type="leaf" scope="all">
-                              <height>195</height>
-                              <width>156</width>
-                           </dimensions>
+                        <support><material>Paper</material>.</support>
+                        <extent>84. Ff. 60v, 80v are blank. <dimensions type="leaf" scope="all">
+                           <height unit="mm">195</height>
+                           <width unit="mm">156</width>
+                        </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>, <origDate notBefore="1750" notAfter="1799">s. XVIII<hi
+                  rend="sup">2</hi></origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">531</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-06-23" who="EvaWed001">Updated and added information</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

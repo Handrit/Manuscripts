@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,38 +22,73 @@
                      <idno>2679</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Miscellaneous</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1740" notAfter="1760">c. 1750</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Poems of Ólafur Gunnlaugsson of Svefneyjar</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <msItem n="1" class="aevikv">
+                     <locus from="1r" to="82v">1r-82v</locus>
+                     <author key="OlaGun001">Ólafur Gunnlaugsson</author>
+                     <title type="uniform">Lífssaga Jesú</title>
+                     <rubric>Nya Testamented, Lyfs Historia Edur Æfesaga Endurlasnarans vors Iesv
+                        Christi</rubric>
+                     <note>In <term>dróttkvætt</term>.</note>
+                  </msItem>
+                  <msItem n="2" class="aevikv">
+                     <locus from="83" to="88r">83-88r</locus>
+                     <author key="OlaGun001">Ólafur Gunnlaugsson</author>
+                     <title type="uniform">Lífssaga postula og guðspjallamanna</title>
+                     <rubric>Stutt &#xA733;grip um<ex>m</ex> lyf og lyfnad, kienyng og Afgang þeirra
+                        H. Christj Po<lb/>stula, og Gudspiallaman<ex>n</ex>a, wr <lb/> Theatro
+                        Historico Andreæ <lb/> Handorfii, liödsett <lb/> Anno 1751</rubric>
+                     <note>In <term>dróttkvætt</term>.
+                     </note>
+                  </msItem>
+                  <msItem n="3" class="landfr sagnfr kvad">
+                     <locus from="89" to="97r">89-97r</locus>
+                     <author key="OlaGun001">Ólafur Gunnlaugsson</author>
+                     <rubric>Historia Foreidslu og nidur <lb/> brotz Borgarin<ex>nar</ex> Jerusalem
+                        <lb/> sett ä liöd An<ex>n</ex>o 1752</rubric>
+                     <note>In <term>dróttkvætt</term>.
+                     </note>
+                  </msItem>
+                  <msItem n="4" class="kvad">
+                     <locus from="98" to="102">98-102</locus>
+                     <author key="OlaGun001">Ólafur Gunnlaugsson</author>
+                     <title type="uniform">Herleiðingarkvæði</title>
+                     <textLang mainLang="is"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>102. 
-<dimensions type="leaf" scope="all">
-                              <height>167</height>
-                              <width>105</width>
-                           </dimensions>
+                        <support><material>Paper</material>.</support>
+                        <extent>102. Fol. 97v is blank.<dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">167</height>
+                           <width unit="mm">105</width>
+                        </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="OlaGun01" scope="sole" script="unknown">
-                        <p>
-Written by Ólafur Gunnlaugsson.</p>
+                     <handNote scribe="OlaGun001" scope="sole" script="unknown">
+                        <p>The <name type="person" key="OlaGun001">author</name>'s autograph.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>, <origDate notBefore="1740"
+                  notAfter="1760">c. 1750</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">558</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-07-01" who="EvaWed001">Revised.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

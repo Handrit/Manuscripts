@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,77 @@
                      <idno>2683</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Guðfræðisrit Páls prófasts Björnssonar í Setardal, II</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                 <msContents>
+                  <summary><title type="supplied">Guðfræðisrit Páls prófasts Björnssonar í Selárdal,
+                        II</title>.</summary>
+                  <msItem n="1" class="gudfr">
+                     <locus from="1r" to="70v">1r-70v</locus>
+                     <title type="supplied" xml:lang="la">Crux eloqvens</title>
+                     <title type="supplied" xml:lang="en">The Seven Last Words of Christ from the Cross</title>
+                     <textLang mainLang="is" otherLangs="la">Icelandic and Latin</textLang>
+                     <note>Med en fortale, dateret <date when="1699">1699</date> og en ufuldendt
+                        titel</note>
+                  </msItem>
+                  <msItem n="2" class="gudfr">
+                     <locus from="71r" to="106v">71r-106v</locus>
+                     <title type="supplied">Mnemonics for the Prayer Day</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <rubric>'ϓΠΟϺΝΗϺΑΤΑ edur Minnes Schedell til Textans Vors Bænadags</rubric>
+                     <note>Med efterfølgende <title type="supplied">Evangelium Bænadagsins</title>
+                     </note>
+                  </msItem>
+                  <msItem n="3" class="pred">
+                     <locus from="108r" to="172v">108r-172v</locus>
+                     <title type="supplied">Sermon for Psalm 51</title>
+                     <textLang mainLang="is" otherLangs="la">Islandsk og latin</textLang>
+                     <rubric>Triental miseriæ et gratiæ, þad eru &#x00DE;riär Homiliæ in Psalmum LI
+                        Davidis</rubric>
+                  </msItem>
+                  <msItem n="4" class="pred lofts">
+                     <locus from="173r" to="190v">173r-190v</locus>
+                     <title type="supplied">Sermon on the Comet of 1680</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <rubric>De cometa 1680</rubric>
+                  </msItem>
+                  <msItem n="5" class="pred">
+                     <locus from="191r" to="210r">191r-210r</locus>
+                     <title type="supplied">Homily</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <rubric>Homilia ex textu Num. 21</rubric>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>210. 
-<dimensions type="leaf" scope="all">
-                              <height>160</height>
-                              <width>101</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>210. Fols 107, 108v, 210v are blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">160</height>
+                              <width unit="mm">101</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scribe="AsgBja001" scope="major" script="unknown">
+                        <p>Mainly written by the priest <name type="person" key="AsgBja001"
+                           >Ásgeir Bjarnason</name>.</p>
+                     </handNote>
+                  </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1700" notAfter="1799"
+                        >s. XVIII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">559</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-18" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>
