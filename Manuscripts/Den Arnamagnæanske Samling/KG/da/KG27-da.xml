@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,11 +23,13 @@
                             <idno>2811</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Brudstykker af Wulfilas gotiske
-                            bibeloversættelse</title>; <origPlace>Danmark?</origPlace>, <origDate notBefore="1800" notAfter="1899">1800-tallet</origDate>
-                        <note>Afskrift med tilhørende noter.</note>
-                    </head>
+
+                    <msContents>
+                        <summary><title type="supplied">Uddrag af Wulfilas gotiske
+                                bibeloversættelse</title>
+                            <note>Afskrift med tilhørende noter.</note></summary>
+                        <textLang mainLang="got">Gotisk </textLang>
+                    </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
@@ -35,17 +38,35 @@
                                         <material>Papir</material> .</p>
                                 </support>
                                 <extent>16. <dimensions type="leaf" scope="all" unit="mm">
-                                        <height>343</height>
-                                        <width>213</width>
+                                        <height unit="mm">343</height>
+                                        <width unit="mm">213</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote scribe="KonGis001" scope="sole" script="unknown">Skrevet af
-                                Konrad Gislason (med hans autograf).</handNote>
+                                Konrad Gislason</handNote>
                         </handDesc>
                     </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Danmark?</origPlace>, <origDate notBefore="1800"
+                                notAfter="1899">1800-tallet</origDate></origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <custodialHist>
+                                <p>Katalogiseret af <name type="person" key="AnnChr001">Annika
+                                        Christensen</name><date when="2021-11-04"/></p>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Kålund <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                                    >II</biblScope>
+                                <biblScope unit="page">602</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
