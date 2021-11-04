@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,12 +23,9 @@
                      <idno>2601</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Sagahåndskrift</title>;
-                     <origPlace>Island</origPlace>, <origDate notBefore="1790" notAfter="1810">ca.
-                     1800</origDate>.</head>
                <msContents>
-                  <msItem n="1" class="islsg">
+                  <summary><title type="supplied" xml:lang="da">Sagahåndskrift</title>.</summary>
+                  <msItem n="1" class="isl">
                      <locus from="1r:1" to="18r:27">1r-18r</locus>
                      <title type="uniform">Eiríks saga rauða</title>
                      <title type="parallel">Þorfinns saga karlsefnis</title>
@@ -74,7 +72,7 @@
                      <incipit>I <lb/> Vi hórte nylig Frommen</incipit>
                      <explicit>farga dyrfast böfar arger</explicit>
                   </msItem>
-                  <msItem n="5" class="islsg">
+                  <msItem n="5" class="isl">
                      <locus from="29r:1" to="87r:13">29r-87r</locus>
                      <title type="uniform">Ljósvetninga saga</title>
                      <title type="parallel">Reykdæla saga</title>
@@ -87,7 +85,7 @@
                         bőta,</explicit>
                      <note>Med kapiteltitler.</note>
                   </msItem>
-                  <msItem n="6" class="geog">
+                  <msItem n="6" class="landfr">
                      <locus from="87v:1" to="90r:23">87v-90r</locus>
                      <author>Ivar Bárdarson</author>
                      <title type="supplied" xml:lang="da">Beskrivelse af Grønland</title>
@@ -107,8 +105,10 @@
                      <title type="supplied" xml:lang="da">Om tyrkerranet på Vestmannaøerne i
                         1627</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>um þaug Sorglegu <lb/> Hrigdartijdende, sem Skiedu og tilfi<lb rend="hyphenated"/>ellu I Vestmannaeium, fra þ<ex>ei</ex>m <lb/> xvii
-                        Deige Iulij, til þess xix<hi rend="sup">da</hi> a þe<lb rend="hyphenated"/>ssu re Anno 1627 af mordlegre um<lb rend="hyphenated"/>geingne þeirra
+                     <rubric>um þaug Sorglegu <lb/> Hrigdartijdende, sem Skiedu og tilfi<lb
+                           rend="hyphenated"/>ellu I Vestmannaeium, fra þ<ex>ei</ex>m <lb/> xvii
+                        Deige Iulij, til þess xix<hi rend="sup">da</hi> a þe<lb rend="hyphenated"
+                        />ssu re Anno 1627 af mordlegre um<lb rend="hyphenated"/>geingne þeirra
                         aumu Bloodhunda sem <lb/> af Tyrkiansvallde sender voru.</rubric>
                      <incipit>Hvórnenn þeirra Ferda<lb rend="hyphenated"/>lags uppbbirum first
                         skede, kan<ex>n</ex>
@@ -116,24 +116,32 @@
                      <explicit>og Sijngia <lb/> honum lof og þackar giord hier stundlegu <lb/>
                            en<ex>n</ex> An<ex>n</ex>ars heims Eilijflega Amen</explicit>
                   </msItem>
-                  <msItem n="8" class="bref">
+                  <msItem n="8" class="sendbr">
                      <locus from="100v:23" to="101v:17">100v-101v</locus>
-                     <title type="supplied">Breve fra <name type="person" key="ThoMag004">Þorleifur
+                     <title type="supplied">Breve</title>
+                     <respStmt>
+                        <resp key="crp"/>
+                        <name type="person" key="ThoMag004">Þorleifur
                            Magnússon</name>
-                     </title>
+                     </respStmt>
                      <textLang mainLang="is">Islandsk</textLang>
                      <rubric>Þetta er Skrifad epter Brefe Þorleifs <lb/> Magnussonar skrifad Anno
                         1627 þan<ex>n</ex> 17 <lb/> Aug<ex>ust</ex>um</rubric>
                      <incipit>þa ogudlegu mordingia er J Austfiórdu ko<pb rend="hyphenated"/>mu, og
                            þadan<ex>n</ex> foru og J Vestman<ex>n</ex>a Eiar</incipit>
                      <explicit>ef han<ex>n</ex>
-                        <lb/> Vill landenu bijhallda under Kru<lb rend="hyhpenated"/>nuna_</explicit>
+                        <lb/> Vill landenu bijhallda under Kru<lb rend="hyhpenated"
+                        />nuna_</explicit>
                      <note>Uddrag</note>
                   </msItem>
-                  <msItem n="9" class="bref">
+                  <msItem n="9" class="sendbr">
                      <locus from="101v:18" to="103v:5">101v-103v</locus>
-                     <title type="supplied">Breve fra biskop <name type="person" key="OddEin001">Oddur Einarsson</name>
-                     </title>
+                     <title type="supplied">Breve</title>
+                     <respStmt>
+                        <resp key="crp"/>
+                        <name type="person" key="OddEin001"
+                           >Biskop Oddur Einarsson</name>
+                     </respStmt>
                      <textLang mainLang="is">Islandsk</textLang>
                      <rubric>Af Brefe Biskupsens Hl Odds Einars<lb rend="hyphenated"/>Sonar</rubric>
                      <incipit>Ecke hefur hier neitt Sierlegt tilfalled So eg <lb/> Vite
@@ -169,7 +177,7 @@
                         Am<ex>en</ex>.</explicit>
                      <filiation>Afskrift af <ref target="ms">Kall 618 4to</ref>. </filiation>
                   </msItem>
-                  <msItem n="12" defective="true" class="islsg">
+                  <msItem n="12" defective="true" class="isl">
                      <locus from="134r:1" to="155v:2">134r-155v</locus>
                      <title type="uniform">Heiðarvíga saga</title>
                      <title type="parallel">Víga-Styrs saga</title>
@@ -179,9 +187,11 @@
                            han<ex>n</ex> veigen<ex>n</ex> af ma<lb rend="hyphenated"/>n<ex>n</ex>e
                         Nockrum sem deilde Vid han<ex>n</ex>
                      </incipit>
-                     <explicit defective="true">þa harekßyner urdu hans varer J bænum leitu<lb rend="hyphenated"/>du þeir hans,</explicit>
+                     <explicit defective="true">þa harekßyner urdu hans varer J bænum leitu<lb
+                           rend="hyphenated"/>du þeir hans,</explicit>
                      <note>
-                        <q xml:lang="is">Jóns Ólafssonar Grunnvíkings</q>. Slutter brat i kapitel <q xml:lang="is">Af Heidarvijgum</q>
+                        <q xml:lang="is">Jóns Ólafssonar Grunnvíkings</q>. Slutter brat i kapitel <q
+                           xml:lang="is">Af Heidarvijgum</q>
                      </note>
                      <bibl>
                         <ref type="primary-3" target="IslJS">Íslendinga sögur</ref>
@@ -190,7 +200,7 @@
                         <note>Udg. R</note>
                      </bibl>
                   </msItem>
-                  <msItem n="13" class="islsg">
+                  <msItem n="13" class="isl">
                      <locus from="157r:1" to="182r:7">157r-182r</locus>
                      <title type="uniform">Flóamanna saga</title>
                      <title type="parallel">Þorgils saga Örrabeinsfóstra</title>
@@ -214,7 +224,7 @@
                         <lb/> Ellidaga, og endast her þeßi Saga af þ<ex>ei</ex>m brædrum <lb/>
                         Fertram og Plato.</explicit>
                   </msItem>
-                  <msItem n="15" class="forn">
+                  <msItem n="15" class="fas">
                      <locus from="201v:17" to="206r:6">201v-206r</locus>
                      <title type="uniform">Illuga saga Gríðarfóstra</title>
                      <textLang mainLang="is">Islandsk</textLang>
@@ -226,7 +236,7 @@
                         <lb/> Hnodar Asmúndar, og lúkum vér so Sógu þættinum af <lb/> Illhuga Grídar
                         Fóstra.</explicit>
                   </msItem>
-                  <msItem n="16" class="sagnt">
+                  <msItem n="16" class="konth">
                      <locus from="206r:1" to="208v">206r-208v</locus>
                      <title type="uniform">Hálfdanar þáttr svarta ok Haralds hárfagra</title>
                      <textLang mainLang="is">Islandsk</textLang>
@@ -249,8 +259,8 @@
                         </support>
                         <extent>i+208+i. Bl. <locus>90v, 156 og 182v-183v</locus> er blanke.
                               <dimensions type="leaf" scope="all">
-                              <height>195</height>
-                              <width>154</width>
+                              <height unit="mm">195</height>
+                              <width unit="mm">154</width>
                            </dimensions>.</extent>
                         <foliation>
                            <p>Folieret med blyant i nederste ydre hjørne på hver tiende side.</p>
@@ -263,9 +273,10 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1 2" writtenLines="22 29">
-                           <p>Teksten er enspaltet med 22-29 linjer pr. side. Digtet på bl.
-                                 <locus from="27v" to="28v">27v-28v</locus> er tospaltet. Kolumnetitler på bl.
-                                 <locus from="1v" to="18r">1v-18r</locus> og <locus from="29v">29v-87r</locus>.</p>
+                           <p>Teksten er enspaltet med 22-29 linjer pr. side. Digtet på bl. <locus
+                                 from="27v" to="28v">27v-28v</locus> er tospaltet. Kolumnetitler på
+                              bl. <locus from="1v" to="18r">1v-18r</locus> og <locus from="29v"
+                                 >29v-87r</locus>.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -273,23 +284,27 @@
                      <binding contemporary="true">
                         <p>Indbundet i et mørke-brunt læderbind med blindtrykt dekoration og
                            metalspænder og læderrem. Det forreste og bagerste forsatsblad er
-                           sammenlagte ubeskrevede skemaer fra det danske Folketal fra den <date when="1801-02-01">1. februar
-                              1801</date>.</p>
+                           sammenlagte ubeskrevede skemaer fra det danske folketal fra <date
+                              when="1801-02-01">1. februar 1801</date>.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin notBefore="1790" notAfter="1810" cert="high" evidence="internal">
-                     <p>Skrevet i <origPlace>Island</origPlace>. Bl. <locus>182r</locus> har
+                     <p>Skrevet i <origPlace>Island</origPlace>. <origDate notBefore="1790"
+                           notAfter="1810">ca. 1800</origDate> Bl. <locus>182r</locus> har
                         dateringen <date when="1800">1800</date>. Ifølge Foote (<bibl>
                            <ref target="PetFoo2003a" type="secondary">Jóns saga Hólabyskups ens
                               helga</ref>
                            <biblScope unit="pages">114</biblScope>
                         </bibl>), er delen med <title type="uniform">Jóns saga helga</title> (bl.
-                           <locus from="107" to="133">107-133</locus>) skrevet før <date when="1735">1735</date>.</p>
+                           <locus from="107" to="133">107-133</locus>) dog skrevet før <date
+                           notAfter="1735">1735</date>.</p>
                   </origin>
                   <acquisition>
-                     <p>På et indsat forsatsblad er der under indholdsfortegnelsen noteret: <q xml:lang="is">Keyptar med Verdi i Holti i Ønundarfirdi <lb/> þann 17<hi rend="sup">da</hi> Augusti 1811 af <lb/>
+                     <p>På et indsat forsatsblad er der under indholdsfortegnelsen noteret: <q
+                           xml:lang="is">Keyptar med Verdi i Holti i Ønundarfirdi <lb/> þann 17<hi
+                              rend="sup">da</hi> Augusti 1811 af <lb/>
                            <name type="person" key="ThoBod001">Þorvalldi Bỏdvarssynz</name>
                         </q>.</p>
                   </acquisition>
@@ -297,12 +312,13 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <p>Katalogiseret <date when="2008-05-21">21. maj 2008</date> af <name type="person" key="SilHuf001">Silvia Hufnagel</name>.</p>
+                        <p>Katalogiseret <date when="2008-05-21">21. maj 2008</date> af <name
+                              type="person" key="SilHuf001">Silvia Hufnagel</name>.</p>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <bibl>Foote: <ref type="secondary" target="PetFoo2003a">Jóns saga Hólabyskups ens
-                           helga</ref>
+                     <bibl>Foote: <ref type="secondary" target="PetFoo2003a">Jóns saga Hólabyskups
+                           ens helga</ref>
                         <biblScope unit="pages">97*, 113*-115* og 117*-119*</biblScope>
                      </bibl>
                      <bibl>
@@ -326,6 +342,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-12" who="EvaWed001">Opdateret opmærkning.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,32 +22,64 @@
                      <idno>2656</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Kvæði eptir Eggert Ólafsson</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1790" notAfter="1810">c. 1800</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Kvæði Eggerts Ólafssonar</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart>Kvædi <lb/> eptir <lb/> Eggèrt Ólafsson <add hand="RasRas001"
+                           place="below">ad miklu leiti skrifud eptir hans <lb/> egin handar
+                           riti</add></titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="kvad">
+                     <locus from="1r" to="145v">1r-145v</locus>
+                     <author key="EggOla001">Eggert Ólafsson</author>
+                     <title type="supplied">Kvæði Eggerts Ólafssonar</title>
+                     <msItem n="1.1" class="regist">
+                        <locus from="2r" to="2v">2r-v</locus>
+                        <title type="supplied">List of Contents</title>
+                        <rubric>Innihald kvædasafnsins</rubric>
+                        <note>Added by <name type="RasRas001">Rasmus Rask</name>.</note>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>145. 
-<dimensions type="leaf" scope="all">
-                              <height>168</height>
-                              <width>97</width>
-                           </dimensions>
-                        </extent>
+                        <support>
+                           <p>
+                              <material>Paper</material>.</p>
+                        </support>
+                        <extent>145. <dimensions type="leaf" scope="all">
+                           <height unit="mm">168</height>
+                           <width unit="mm">97</width>
+                        </dimensions>.</extent>
+                        <foliation>
+                           <p>Partly paginated 1-285.</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote script="unknown">Written by two different hands.</handNote>
+                  </handDesc>
                </physDesc>
+               <history><origin> <origPlace>Iceland?</origPlace>,
+                  <origDate notBefore="1790" notAfter="1810">c. 1800</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >547</biblScope></bibl>
+                     <bibl><ref target="unknown14">[Vísur]</ref><biblScope unit="page">74, 76</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-29" who="EvaWed001">Updated markup and content.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

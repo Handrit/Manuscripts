@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,54 @@
                      <idno>2650</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Jónsbók</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
-                  </msItem>
+                  <summary><title type="uniform">Jónsbók</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart>LØG<lb/>Book <lb/> Islendinga</titlePart>
+                     </docTitle>
+                  </titlePage>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>226. 
-<dimensions type="leaf" scope="all">
-                              <height>141</height>
-                              <width>93</width>
-                           </dimensions>
-                        </extent>
+                        <support>
+                           <p>
+                              <material>Papir</material>.</p>
+                        </support>
+                        <extent>226 including a younger title page. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">141</height>
+                              <width unit="mm">93</width>
+                           </dimensions>.</extent>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>Red or green headings, large polychrome chapter initials (open space
+                              was, however, left for some of these); inside the initial on fol. 34r,
+                              a male figure is found.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland?</origPlace>, <origDate notBefore="1600" notAfter="1699"
+                        >s. XVII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >545</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-29" who="EvaWed001">Updated markup</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

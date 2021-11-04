@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,67 @@
                      <idno>2632</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Landaskipte</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1750" notAfter="1800">s. XVIII 2/2</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary>
+                     <title type="supplied">Geographical Accounts</title></summary>
+                  <titlePage>
+                     <docTitle>
+                        <titlePart>Landa-Skipte <gap/></titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="landfr ferds">
+                     <title type="supplied">Geographical Accounts</title>
+                     <filiation>Below the title the following was added: <q>Udskrevne efter Biörn a
+                           Skardsaae egenhændige Manuskript</q>. On the verso of the title page a
+                        copy of a note by <name type="person" key="BjoJon006">Björn Jónsson</name>,
+                        according to which he transcribed the items from AM 736 4to I and II, is
+                        found.</filiation>
+                     <msItem n="1.1" class="landfr">
+                        <title type="uniform">Landalýsning</title>
+                        <textLang mainLang="is"/>
+                          <filiation>Copy of <ref type="ms" target="#AM04-0736-I-en">AM 736 4to
+                              I</ref>, item I.</filiation>
+                     </msItem>
+                     <msItem n="1.2" class="ferds">
+                        <author key="Nikooo001">Ábóti Nikulás</author>
+                        <title type="uniform">Leiðarvísir</title>
+                        <textLang mainLang="is"/>
+                        <filiation>Copy of <ref type="ms" target="#AM04-0736-II-en">AM 736 4to
+                              II</ref>, item II.</filiation>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>16. 
-<dimensions type="leaf" scope="all">
-                              <height>189</height>
-                              <width>150</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>16. <dimensions type="leaf" scope="all">
+                              <height unit="mm">189</height>
+                              <width unit="mm">150</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Pagination occur on every page.</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland?</origPlace>, <origDate notBefore="1750"
+                        notAfter="1799">s. XVIII<hi rend="sup">2</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat"/><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">538</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-11" who="EvaWed001">Updated markup.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -12,7 +12,7 @@
          <sourceDesc>
             <msDesc xml:id="Rask051-da" xml:lang="da">
                <msIdentifier>
-                  <country>Danmark</country>
+                  <country>Denmark</country>
                   <settlement>København</settlement>
                   <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
@@ -22,32 +22,36 @@
                      <idno>2624</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Diverse registre over islandske embedsmænd og konger</title>; 
-        <origPlace>Island</origPlace>, <origDate when="1790">1790</origDate>.</head>
                <msContents>
-                  <msItem n="1">
-                     <locus from="1" to="177">S. 1-177</locus>
+                  <summary><title type="supplied">Registre over islandske embedsmænd og konger</title></summary>
+                  <titlePage>
+                     <docTitle>
+                        <titlePart>Stutt Agrip <lb/> yfer <lb/> Hirdstioora <lb/>
+                           Stipt-Amtmen<ex>n</ex>
+                           <lb/> Amtmenn <lb/> Landfogeta og <lb/> Fullmegtuga <lb/> yfer Islande
+                           <lb/> Frá 1450 til Annum 1739. <lb/> samanskrifad <lb/> af <lb/> Sr Ione
+                           Sál. Halldors Syne <lb/> ad Hytartal</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="nafsk">
+                     <locus from="1" to="177">s. 1-177</locus>
+                     <author key="JonHal004">Jón Halldórsson</author>
                      <title type="supplied">Register over islandske embedsmænd</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Stutt Agrip <lb/> yfer <lb/> Hirdstioora <lb/> Stipt-Amtmen<ex>n</ex>
-                        <lb/> Amtmenn <lb/> Landfogeta og <lb/> Fullmegtuga <lb/> yfer Islande <lb/> Frá
-                1450 til Annum 1739. <lb/> samanskrifad <lb/> af <lb/> Sr Ione Sál. Halldors Syne
-                <lb/> ad Hytartal</rubric>
                   </msItem>
-                  <msItem n="2">
-                     <locus from="178" to="181">S. 178-181</locus>
+                  <msItem n="2" class="regist">
+                     <locus from="178" to="181">s. 178-181</locus>
                      <title type="supplied">Register</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <rubric>Lítid Registur þeirra er serdeilis getid verdur i þessum
-                Bæklinge</rubric>
+                        Bæklinge</rubric>
                   </msItem>
-                  <msItem n="3">
-                     <locus from="182" to="198">S. 182-198</locus>
-                     <title type="supplied">Register over islandske konger</title>
+                  <msItem n="3" class="kont">
+                     <locus from="182" to="198">s. 182-198</locus>
+                     <title type="supplied">Register over konger, der regerede over Island fra
+                        1262-1750</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <rubric>Registur <lb/> yfer <lb/> Islands Konunga</rubric>
-                     <note>1262-1750</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -55,27 +59,46 @@
                      <supportDesc material="chart">
                         <support>
                            <p>
-                              <material>Papir</material>.</p>
+                              <material>Papir.</material></p>
                         </support>
-                        <extent>100. Bl. 1v ubeskrevet. <dimensions type="leaf" scope="all">
-                              <height>202</height>
-                              <width>164</width>
-                           </dimensions>.</extent>
-                        <foliation>Pagineret s. 1-196, undtaget titelblad og register. Tallet 121 er gentaget.</foliation>
-                     </supportDesc>         
+                        <extent>100. Bl. 1v ubeskrevet. <dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">202</height>
+                           <width unit="mm">164</width>
+                        </dimensions>.</extent>
+                        <foliation>Paigneret 1-196; undtaget er titelblad og register. Tallet 121 er
+                           gentaget.</foliation>
+                     </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="JonAsg001" scope="sole" script="unknown">
-                        <p>Skrevet af Jón Ásgeirsson.</p>
+                        <p>Skrevet af <name type="person" key="JonAsg001">Jón Ásgeirsson</name>.</p>
                      </handNote>
                   </handDesc>
-                  <accMat>
-                     <p>Til s. 13 en indlagt seddel.</p>
-                  </accMat>
+                  <additions>
+                     <p>Til s. 13 er der en indlagt seddel.</p>
+                  </additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate when="1790"
+                     >1790</origDate>.</origin>
+                  <acquisition><name type="org">Den Arnamagnæanske kommission</name> købte <name
+                     type="person" key="RasRas001">Rask</name>s nordiske håndskrifter efter hans
+                     død i <date when="1832">1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">534</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-11" who="EvaWed001">Opdateret opmærkning.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

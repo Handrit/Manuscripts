@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,12 +23,9 @@
                      <idno>2602</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Sagahåndskrift</title>;
-                     <origPlace>Island</origPlace>, <origDate notBefore="1700" notAfter="1799">s.
-                     XVIII</origDate>. </head>
-               <msContents>
-                  <msItem n="1" class="islsg">
+                   <msContents>
+                  <summary><title type="supplied">Sagahåndskrift</title></summary>
+                  <msItem n="1" class="isl">
                      <locus from="2r:1" to="15v:11">2r-15v</locus>
                      <title type="uniform" xml:lang="is">Gull-Þóris saga</title>
                      <title type="parallel" xml:lang="is">Þorskfirðinga saga</title>
@@ -35,10 +33,11 @@
                      <rubric>Her Hefzt Saga <lb/> Gull Þoriss</rubric>
                      <incipit>Hallstein Son Þ<ex>or</ex>olfs møstra SkeGia nam allan<ex>n</ex>
                         Þorska<lb/>fiørð f<ex>yrir</ex> verstan,</incipit>
-                     <explicit>ofan í ein<ex>n</ex> mikin<ex>n</ex> foss, <del rend="subpunctuation">æn</del> Þor<ex>ir</ex>
+                     <explicit>ofan í ein<ex>n</ex> mikin<ex>n</ex> foss, <del rend="subpunctuation"
+                           >æn</del> Þor<ex>ir</ex>
                         <del rend="subpunctuation">kastar</del> eptir h<ex>onu</ex>m.</explicit>
                   </msItem>
-                  <msItem n="2" class="saga" defective="true">
+                  <msItem n="2" class="kon" defective="true">
                      <locus from="15v:12" to="21r:19">15v-21r</locus>
                      <title type="uniform" xml:lang="is">Færeyinga saga</title>
                      <textLang mainLang="is">Islandsk</textLang>
@@ -51,7 +50,7 @@
                      <explicit>oc er hi<ex>er</ex> ei getit at meiri afdrif <lb/> hafi ordit
                         Sigmundar BrestisSunar edr afkqvæmis h<ex>an</ex>s.</explicit>
                   </msItem>
-                  <msItem n="3" class="saga">
+                  <msItem n="3" class="konth">
                      <locus from="21r:20" to="25r:23">21r-25r</locus>
                      <title type="uniform" xml:lang="is">Grænlendinga þáttur</title>
                      <textLang mainLang="is">Islandsk</textLang>
@@ -61,7 +60,7 @@
                      <explicit>en<ex>n</ex> þ<ex>ei</ex>r Hermadur como til Islans til ætt Iarda
                         Sinna. <lb/> Og lykur þar þessari Sógu.</explicit>
                   </msItem>
-                  <msItem n="4" class="forn">
+                  <msItem n="4" class="fas">
                      <locus from="25r:24" to="35v:2">25r-35v</locus>
                      <title type="uniform" xml:lang="is">Áns saga bogsvegis</title>
                      <textLang mainLang="is">Islandsk</textLang>
@@ -72,7 +71,7 @@
                         Norvege og lijk<ex>ur</ex> hi<ex>er</ex> v<ex>id</ex>
                         <lb/> Sgu Aans Bogsveigers</explicit>
                   </msItem>
-                  <msItem n="5" class="forn">
+                  <msItem n="5" class="fas">
                      <locus from="35v:3" to="46v:7">35v-46v</locus>
                      <title type="uniform" xml:lang="is">Yngvars saga víðförla</title>
                      <textLang mainLang="is">Islandsk</textLang>
@@ -87,9 +86,10 @@
                         <note>Udg. D</note>
                      </bibl>
                   </msItem>
-                  <msItem n="6">
+                  <msItem n="6" class="ridd">
                      <locus from="46v:8" to="50r:">46v-50r</locus>
                      <title type="uniform" xml:lang="is">Æfintýr af Perus meistara</title>
+                     <title type="parallel">Perus saga</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <rubric>ÆfenTyr af Meystara Perus</rubric>
                      <incipit>Cap I<hi rend="sup">e</hi>. <lb/> Bræd<ex>ur</ex> IJ v<ex>or</ex>u
@@ -131,7 +131,7 @@
                         <ex>og</ex> h<ex>an</ex>z Drottning i gődre Elle, <ex>og</ex>
                            lijk<ex>ur</ex> so þessare <lb/> Sógu af Apolloniu Konge</explicit>
                   </msItem>
-                  <msItem n="9" class="forn">
+                  <msItem n="9" class="fas">
                      <locus from="86v:9" to="118v:3">86v-118v</locus>
                      <title type="uniform" xml:lang="is">Hrólfs saga kraka</title>
                      <textLang mainLang="is">Islandsk</textLang>
@@ -157,7 +157,7 @@
                            <ex>og</ex> Endar hi<ex>er</ex> so þessa Søgu af <lb/> Sigurgarde og
                         Valbrande.</explicit>
                   </msItem>
-                  <msItem n="11" class="forn">
+                  <msItem n="11" class="fas">
                      <locus from="138r.1" to="153v:19">138r-153v</locus>
                      <title type="uniform" xml:lang="is">Haralds saga Hringsbana</title>
                      <textLang mainLang="is">Islandsk</textLang>
@@ -276,18 +276,19 @@
                         </support>
                         <extent>i + 349 + ii. Bl. <locus>8v</locus> er blank med undtagelse af tre
                            linjer. <dimensions type="leaf" scope="all">
-                              <height>200</height>
-                              <width>152</width>
+                              <height unit="mm">200</height>
+                              <width unit="mm">152</width>
                            </dimensions>.</extent>
                         <foliation>
-                           <p>Uregelmæssigt folieret med blyant i nederste ydre hjørne; folieringen startet på
-                              det forreste forsatsblad. På bl. 100, 180, 200, 220, 240,
-                                 260, 280, 300, 320 og 340 kan man se en ældre foliering med
-                              mørkt blæk i bladenes øverste hjørne, yderst.</p>
+                           <p>Uregelmæssigt folieret med blyant i nederste ydre hjørne; folieringen
+                              starter på det forreste forsatsblad. På bl. 100, 180, 200, 220, 240,
+                              260, 280, 300, 320 og 340 kan man se en ældre foliering med mørkt blæk
+                              i bladenes øverste hjørne, yderst.</p>
                         </foliation>
                         <collation>
                            <p>
-                              <catchwords>Der er kustoder på de fleste sider mellem bl. <locus from="2r" to="165r">2r og 165r</locus>.</catchwords>
+                              <catchwords>Der er kustoder på de fleste sider på bl. <locus from="2r"
+                                    to="165r">2r-165r</locus>.</catchwords>
                            </p>
                         </collation>
                         <condition>
@@ -303,33 +304,38 @@
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="OlaGis003" scope="sole" script="unknown">
-                        <p>Skrevet med samme hånd som <ref type="ms" target="#Rask32-da">Rask 32</ref>; <name type="person" key="RasRas001">Rasmus Rask</name> mente, at <name type="person" key="OlaGis003">Ólafur Gíslason</name> har skrevet håndskriftet.</p>
+                        <p>Skrevet af samme hånd som <ref type="ms" target="#Rask032-da">Rask
+                              32</ref>; <name type="person" key="RasRas001">Rasmus Rask</name>
+                           mente, at denne hånd var <name type="person" key="OlaGis003">Ólafur
+                              Gíslason</name>.</p>
                      </handNote>
                   </handDesc>
                   <additions>
-                     <p>På forsatsbladets versoside er en indholdsfortegnelse blevet tilføjet.</p>
+                     <p>På forsatsbladets versoside er der blevet tilføjet en
+                        indholdsfortegnelse.</p>
                   </additions>
                </physDesc>
                <history>
                   <origin notBefore="1700" notAfter="1799">
-                     <p>Skrevet i <origPlace>Island</origPlace> i
-                        <origDate>1700-tallet</origDate>.</p>
+                     <p>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1700"
+                           notAfter="1799">1700-tallet</origDate>.</p>
                   </origin>
                   <provenance>
-                     <p>På forsatsbladets rektoside ses navnet <q xml:lang="is">B Bogason</q>; denne
-                        mand er med stor sandsynlighed <name type="person" key="BenBog001">Benedikt
-                           Bogason</name>. Samtidig er der på forsatsbladet tilført <q xml:lang="is">Þessa bők hef ek uppbunded ad niju <lb/>
+                     <p>På forsatsbladets rectoside ses navnet <q xml:lang="is">B Bogason</q>, som
+                        med stor sandsynlighed kan identificeres som <name type="person"
+                           key="BenBog001">Benedikt Bogason</name>. Samtidig står der også på
+                        forsatsbladet: <q xml:lang="is">Þessa bők hef ek uppbunded ad niju <lb/>
                            <name type="person" key="JonJon008">Jon Jons Son</name>. Asgarde.</q>
-                           Nederst på bl. <locus>2r</locus> a har: <q xml:lang="is">
+                        Nederst på bl. <locus>2r</locus> har en: <q xml:lang="is">
                            <name type="person" key="JohOla001">Jóhann Olafsson</name>
                         </q> skrevet sit navn. Skriveren, Ólafur Gíslason, havde en søn, der hed
                         Jóhann, og det er formodentlig ham, der har skrevet sit navn.</p>
                   </provenance>
                   <acquisition>
-                     <p>Chris Sanders gætter (<bibl>
+                     <p>Chris Sanders (<bibl>
                            <ref type="secondary-1" target="ChrSan2001a">Sanders 2001</ref>
                            <biblScope unit="pages">cxxii</biblScope>
-                        </bibl>), at <name type="person" key="RasRas001">Rasmus Rask</name>
+                     </bibl>) mener, at <name type="person" key="RasRas001">Rasmus Rask</name>
                         erhvervede håndskriftet i <date when="1815">1815</date>.</p>
                   </acquisition>
                </history>
@@ -343,38 +349,20 @@
                      </recordHist>
                   </adminInfo>
                   <surrogates>
-                     <listBibl>
-                        <bibl>
-                           <title type="gmd">mikrofilm (originaler)</title>
-                           <idno>G. neg. 233</idno>
-                           <date when="1970">1970</date>
-                           <note>før restaurering</note>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">mikrofilm (reserve)</title>
-                           <idno>TS 238</idno>
-                           <date when="1999-10-28">28 October 1999</date>
-                           <note>reserve af mikrofilm (originaler) G. neg. 233</note>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">mikrofilm (arkiv)</title>
-                           <idno>pos. 549</idno>
-                           <date when="1970-10-23">23. oktober 1970</date>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">mikrofilm (arkiv)</title>
-                           <idno>ny arkiv 1024</idno>
-                           <date when="2007-07-11">11. juli 2007</date>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">b/w fotografier</title>
-                           <idno>Rask 31</idno>
-                           <date when="1996-02-01">1. februar 1996</date>
-                           <note>Bl. 304v-325r</note>
-                        </bibl>
-                     </listBibl>
+                     <list>
+                        <item n="1">Mikrofilm (originaler), <idno>G. neg. 233</idno> fra <date
+                           when="1970">1970</date> (før restaurering) </item>
+                        <item n="2">Mikrofilm, <idno>TS 238</idno> fra <date when="1999-10-28">28.
+                           oktober 1999</date> (back-up af G. neg. 233) </item>
+                        <item n="3">Mikrofilm (arkiv), <idno>pos. 549</idno> fra <date
+                           when="1970-10-23">23 oktober 1970</date>. </item>
+                        <item n="4">Mikrofilm (arkhive), <idno>ny arkiv 1024</idno>, fra <date
+                           when="2007-07-11">11. juli 2007</date></item>
+                        <item n="5">Sort-hvid billeder fra <date when="1996-02-01">1. februar
+                           1996</date> (bl. 304v-325r).</item>
+                     </list>
                   </surrogates>
-                  <listBibl>
+                    <listBibl>
                      <bibl>Cederschiöld: <ref type="secondary" target="Clarus1879">Clarus saga</ref>
                         <biblScope unit="pages">iv</biblScope>
                      </bibl>
@@ -406,9 +394,9 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      
       <revisionDesc>
          <change when="2018-10-03" who="KatKap001">Opdateret "þáttur" og "og".</change>
+         <change when="2021-10-12" who="EvaWed001">Opdateret opmærkning.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

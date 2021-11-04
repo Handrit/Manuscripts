@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,38 +23,78 @@
                      <idno>2594</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">On Norwegian Kings</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1794-01-01" notAfter="1794-12-31">1794</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">On Norwegian Kings</title></summary>
+                  <msItem n="1" class="drott">
+                     <locus from="2" to="5v">2-5v</locus>
+                     <title type="uniform">Noregs konungatal</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <rubric>Noregs kóngatal, er Sæmundur Fródi ordti</rubric>
+                  </msItem>
+                  <msItem n="2" class="kont">
+                     <locus from="5v" to="7r">5v-7r</locus>
+                     <title type="supplied">Two Royal Genealogies</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <note>Til Haraldr hinn hárfagri, henholdsvis fra Adam og Njord</note>
+                  </msItem>
+                  <msItem n="3" class="kon">
+                     <locus from="9" to="382">9-382</locus>
+                     <title type="uniform">Ólafs Saga helga</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <rubric>Saga Ólafs kóngs Haraldssonar</rubric>
+                     <filiation>Copy of <title type="ms">Flateyjarbók</title> (<ref type="ms">GKS
+                           1005 fol.</ref>).</filiation>
+                  </msItem>
+                  <msItem n="4" class="rimur">
+                     <locus from="383" to="385">383-385</locus>
+                     <title type="uniform">Ólafs ríma Haraldssonar</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <rubric>Olafs Rijma Haralldsson<ex>ar</ex> er <lb/> Einar Gilsson kvad</rubric>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>385. 
-<dimensions type="leaf" scope="all">
-                              <height>195</height>
-                              <width>164</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>385. Ff. 1v, 7v and 8 are blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">195</height>
+                              <width unit="mm">164</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="ThoTho005" scope="sole" script="unknown">
-                        <p>
-Written by Þorður Þorsteinsson at <name type="place">Snæfjöll</name>.</p>
+                     <handNote scribe="ThoTho056" scope="sole" script="unknown">
+                        <p> Written by <name type="person" key="ThoTho056">Þorður
+                              Þorsteinsson</name>.</p>
                      </handNote>
                   </handDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Full leather binding; old envelopes were used as material for the
+                           pastedowns.</p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate when="1794">1794</origDate>. On
+                     the title page the scribe wrote: <q>Skrifut at Snæfj&#xE7D3;llum<ex>m</ex>
+                        <lb/> af <lb/> Thordi Thorsteins&#xF127;yni</q>. To this <name
+                        type="person" key="RasRas001">Rask</name> added <q>Sira</q> and
+                        <q>&#xF127;idan á Skardi í Skötufirdi</q>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">516</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-11" who="EvaWed001">Checked and updated.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

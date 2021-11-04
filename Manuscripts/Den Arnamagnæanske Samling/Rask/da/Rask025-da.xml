@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,24 +23,21 @@
                      <idno>2596</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Hákonar saga Hákonarsonar og Noregs konunga tal</title>;
-            <origPlace>Island</origPlace>, <origDate when="1798">1798 med en
-            tilføjelse fra 1801</origDate>.</head>
                <msContents>
-                  <msItem n="1">
+                  <summary><title n="1" type="uniform">Hákonar saga Hákonarsonar</title><title n="2"
+                        type="supplied">Norsk kongerække</title></summary>
+                  <textLang mainLang="is">Islandsk</textLang>
+                  <msItem n="1" class="kon">
                      <locus from="1" to="174r">1-174r</locus>
                      <title type="uniform">Hákons saga Hákonarsonar</title>
-                     <textLang mainLang="is">Islandsk</textLang>
                      <rubric>Saga af <lb/> Hákoni kongi Gamla Hákonarsyni</rubric>
-                     <note>Tilføjelse af Rask: <q xml:lang="is">Kemr saman vid Cod. Flat.</q>
-                     </note>
+                     <note><q xml:lang="is">Kemr saman vid Cod. Flat.</q> har <name type="person" key="RasRas001">Rask</name> tilføjet.</note>
                   </msItem>
-                  <msItem n="2">
+                  <msItem n="2" class="kont">
                      <locus from="174v" to="175r">174v-175r</locus>
-                     <title type="uniform">Noregs konunga tal</title>
-                     <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Kongatal i Noregi <lb/> eptir <lb/> Hákon konung hin<ex>n</ex> Gamla</rubric>
+                     <title type="uniform">Norsk kongerække</title>
+                     <rubric>Kongatal i Noregi <lb/> eptir <lb/> Hákon konung hin<ex>n</ex>
+                        Gamla</rubric>
                   </msItem>
                </msContents>
                <physDesc>
@@ -50,25 +48,37 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>175. Bl. 175v ubeskrevet. <dimensions type="leaf" scope="all">
-                              <height>203</height>
-                              <width>165</width>
+                              <height unit="mm">203</height>
+                              <width unit="mm">165</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="ThoTho007" scope="sole" script="unknown">
-                        <p>Skrevet af Þorður Þorsteinsson.</p>
+                     <handNote scribe="ThoTho056" scope="sole" script="unknown">
+                        <p>Skrevet af <name type="person" key="ThoTho056">Þorður
+                           Þorsteinsson</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p>Bl. 1-174r er skrevet i <origDate when="1798">1798</origDate>, bl. 174v-175r er tilføjet år <origDate when="1801">1801</origDate>.</p>
+                     <p><origPlace>Island</origPlace>. Håndskriftet er skrevet i <origDate
+                           when="1798">1798</origDate>; Kongerækken på bl. 174v-175r er dog en senere tilføjelse fra <origDate
+                           when="1801">1801</origDate>.</p>
                   </origin>
                </history>
+                  <additional>
+                     <listBibl>
+                        <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                           <biblScope unit="volume">II</biblScope>
+                           <biblScope unit="pages">517</biblScope>
+                        </bibl>
+                     </listBibl>
+                  </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-11" who="EvaWed001">Tjekket og opdateret.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,36 +23,86 @@
                      <idno>2593</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Skaldatál</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1750" notAfter="1800">s. XVIII 2/2</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="isl" otherLangs="la">Icelandic and Latin</textLang>
+                  <summary><title type="supplied">Miscellany</title></summary>
+                  <msItem n="1" class="ritht">
+                     <locus from="1" to="14">1-14</locus>
+                     <title type="supplied">Excerpts of Skáldatal</title>
+                     <textLang mainLang="is" otherLangs="la">Icelandic and Latin</textLang>
+                     <msItem n="1.1" class="godfrn">
+                        <title type="supplied">Notes</title>
+                        <note>Concerning life after death according to Old Norse mythology, on
+                           Asgard and tha Asirs' connection to Troy.</note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2" class="sendbr">
+                     <locus from="15" to="18">15-18</locus>
+                     <title type="supplied">Extract of a Letter</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <rubric>Ex literis Stephani Olavii ad Bryniolfum Svenonium, Havniæ 20. maii
+                        1646</rubric>
+                     <respStmt>
+                        <resp key="crp"/>
+                        <name type="person" key="SteOla002">Stefán Ólafsson</name>
+                     </respStmt>
+                     <respStmt>
+                        <resp key="rcp"/>
+                        <name type="person" key="BrySve001">Bishop Brynjólfur Sveinsson</name>
+                     </respStmt>
+                  </msItem>
+                  <msItem n="3" class="attat">
+                     <locus from="19" to="20">19-20</locus>
+                     <title type="supplied">Old Norse Mythological Genealogies</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                  </msItem>
+                  <msItem n="4" class="drott ritht laus kont">
+                     <locus from="21" to="183">21-183</locus>
+                     <title type="uniform">Stanzas by Þorbjörn hornklofi and Þjóðolfr ór Hvíni,
+                        Skáldatal etc.</title>
+                     <textLang mainLang="is" otherLangs="da">Icelandic and Danish</textLang>
+                     <rubric>Þorbiørn Horn<lb rend="hyphenated"/>-klofi, cum nonnulis carminibus
+                        <lb/> Þióðólfs Hvínverska <lb/> item <lb/> Skállda Tal, etc. <lb/> Ere
+                        skrevne efter en fasciculo med Arnæ Magnæi egen <lb/> Haand i Hans
+                        bibliotheca N° 761, in <lb/> Qvarto</rubric>
+                     <filiation>Copy of <ref type="ms">AM 761 a 4to</ref>.</filiation>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>92. 
-<dimensions type="leaf" scope="all">
-                              <height>226</height>
-                              <width>170</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>92. <dimensions type="leaf" scope="all">
+                              <height unit="mm">226</height>
+                              <width unit="mm">170</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Paginated 1-184.</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="GudMag01" scope="sole" script="unknown">
-                        <p>
-Written by Guðmundur Magnússon (Guðmundur Magnæus).</p>
+                     <handNote scribe="GudMag001" scope="sole" script="unknown">
+                        <p> Written by <name type="person" key="GudMag001">Guðmundur Magnússon</name> (Guðmundur Magnæus).</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1750" notAfter="1799"
+                     >s. XVIII<hi rend="sup">2</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">515-16</biblScope>
+                     </bibl>
+                    </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-12" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

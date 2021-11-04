@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,49 +22,57 @@
                             <idno>2579</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Anállar</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1700" notAfter="1745">s. XVIII 1/2</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1">
+                        <summary><title type="supplied">Annals</title></summary>
+                        <textLang mainLang="is">Icelandic</textLang>
+                        <msItem n="1" class="annal">
                             <locus from="1r" to="11r">1r-11r</locus>
-                            <title type="uniform">Vallholts annáll, 1626-78</title>
-                            <textLang mainLang="is">Icelandic</textLang>
+                            <title type="supplied">Vallholts annáll, 1626-78</title>
+                            <title type="parallel">Annáll síra Gunnlaugs Þorsteinssonar</title>
                             <rubric>Ur Annalum Gun<ex>n</ex>las <lb/> pr<ex>est</ex>s
                                 Þorstenssonar</rubric>
                         </msItem>
-                        <msItem n="2">
+                        <msItem n="2" class="annal">
                             <locus from="12r" to="81v">12r-81v</locus>
-                            <title type="uniform">Valla annáll, 1659-1729</title>
-                            <textLang mainLang="is">Icelandic</textLang>
-                            <rubric>Annala-up<ex>p</ex>kast</rubric>
+                            <title type="supplied">Valla annáll, 1659-1729</title>
+                             <rubric>Annala-up<ex>p</ex>kast</rubric>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
-                                    <p>Paper</p>
+                                    <p><material>Paper</material>.</p>
                                 </support>
-                                <extent>81. Fols. 11v, 52v, 57v, 59v and 61v are blank. <dimensions type="leaf" scope="all">
-                                        <height>350</height>
-                                        <width>105</width>
-                                    </dimensions> Fols. 59, 61 and 73 do not have full
-                                    size.</extent>
+                                <extent>81. Fols 11v, 52v, 57v, 59v and 61v are blank. <dimensions type="leaf" scope="all">
+                                    <height unit="mm">350</height>
+                                    <width unit="mm">105</width>
+                                </dimensions> Fols. 59, 61 and 73 of a smaller format.</extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
                             <handNote scribe="EyjJon002" scope="sole" script="unknown">
                                 <p> Written by Eyjólfur Jónnson of <name type="place">Vellir,
-                                        Svarfaðardalur</name>.</p>
+                                    Svarfaðardalur</name>.</p>
                             </handNote>
                         </handDesc>
                     </physDesc>
+                    <history><origin  notBefore="1700" notAfter="1745"><origPlace>Iceland</origPlace>,
+                        <origDate notBefore="1700" notAfter="1745">s. XVIII<hi rend="sup">1</hi></origDate>.</origin></history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">511</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-10-08" who="EvaWed001">Updated markup.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

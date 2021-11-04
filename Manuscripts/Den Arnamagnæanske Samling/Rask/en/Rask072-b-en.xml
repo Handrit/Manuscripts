@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,67 @@
                      <idno>2647</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Jónsbók</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1485" notAfter="1515">c. 1500</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="non">Old Norse/Icelandic</textLang>
+                  <summary><title type="uniform">Jónsbók</title></summary>
+                  <msItem n="1" class="log" defective="true">
+                     <locus from="1r" to="43v">1r-43v</locus>
+                     <title type="uniform">Jónsbók</title>
+                     <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                     <incipit defective="true">Or rang &#xEFEB;r þ<ex>in</ex>gí &#x017F;k<ex>al</ex>
+                           nef<ex>na</ex> viij m<ex>enn</ex>
+                        <note><title type="uniform">&#x00DE;ingfararb&#x01EB;lkr</title>, chapter
+                           2.</note>
+                     </incipit>
+                     <explicit defective="true">&#xA77C;io&#xA75B;<ex>ar</ex> m<ex>er</ex>k<ex>ur</ex>
+                           &#x017F;<ex>e</ex>m <note><title type="uniform"
+                              >&#x00DE;jófab&#x01EB;lkr</title>, chapter 22</note>
+                     </explicit>
+                     <note>Followed by fol. 44 which seems to have
+                        been written by a younger hand.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>44. 
-<dimensions type="leaf" scope="all">
-                              <height>136</height>
-                              <width>110</width>
+                        <extent>44. <dimensions type="leaf" scope="all">
+                              <height unit="mm">136</height>
+                              <width unit="mm">110</width>
                            </dimensions>
                         </extent>
+                        <condition>
+                           <p>Lacunae following fols 2, 3, 4, 5, 6, 7, 8, 10, 12, 15, 17, 21, 29 and
+                              42.</p>
+                           <p>Fol. 44v is illegible.</p>
+                        </condition>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>Rubrics in red; red and green initials.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1490" notAfter="1510"
+                        >c. 1500</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >544</biblScope></bibl>
+                     <bibl>Ólafur Halldórsson, <ref type="secondary-1" target="Jonsbok1904"
+                           >Jónsbók</ref><biblScope unit="page">xlviii</biblScope></bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-26" who="EvaWed001">Updated content and markup.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

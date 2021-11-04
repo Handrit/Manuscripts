@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,30 +23,43 @@
                      <idno>2587</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Onomasticon</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1700" notAfter="1800">s. XVIII</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="non" otherLangs="la">Old Norse/Icelandic and Latin</textLang>
+                  <summary><title type="supplied">Onomasticon</title></summary>
+                  <textLang mainLang="is" otherLangs="la">Old Norse/Icelandic and Latin</textLang>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>12. 
-<dimensions type="leaf" scope="all">
-                              <height>201</height>
-                              <width>162</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>12. <dimensions type="leaf" scope="all">
+                              <height unit="mm">201</height>
+                              <width unit="mm">162</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <additions>Below the title, <name type="person" key="JonOla003">Jón
+                     Ólafsson</name> of Grunnavík added: <q>Auctorem puto e&#x017F;&#x017F;e
+                        D<ex>omi</ex>num Eggertem [Æginhartum Olavii nunc, a<hi rend="sup">o</hi> <date when="1768">1768</date>,
+                        L&#xE7D3;gmannu<ex>m</ex> in Is-landia</q></additions>
+                  
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland?</origPlace>, <origDate notBefore="1700"
+                        notAfter="1799">s. XVIII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">512-513</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-11" who="EvaWed001">Updated markup.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

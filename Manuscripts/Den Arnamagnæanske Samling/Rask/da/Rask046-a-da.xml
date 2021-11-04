@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,14 +22,12 @@
                      <idno>2617</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Samlinger af nyere islandske digte</title>; 
-        <origPlace>Island/Danmark?</origPlace> 
-                  <origDate notBefore="1800" notAfter="1815">s. XIX in</origDate>.</head>
                <msContents>
-                  <msItem>
-                    <textLang mainLang="is" otherLangs="da">Islandsk og dansk</textLang>
-                    <note>Til dels med forklarende oplysninger på dansk.</note>
+                  <summary><title type="supplied">Islandske digte</title>.</summary>
+                  <msItem n="1" class="kvad">
+                     <title type="supplied">Islandske digte</title>
+                     <textLang mainLang="is" otherLangs="da"/>
+                     <note>Tildels med forklarende oplysninger på dansk.</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -37,31 +35,54 @@
                      <supportDesc material="chart">
                         <support>
                            <p>
-                              <material>Papir</material>.</p>
+                              <material>Papir.</material></p>
                         </support>
-                        <extent>68. Bl. 34-65 og 68v er ubeskrevne, bl. 66-67 er omvendt beskrevne. <dimensions type="leaf" scope="all">
-                              <height>212</height>
-                              <width>167</width>
-                           </dimensions>.</extent>
+                        <extent>68. Bl. 34-65 og 68v er ubeskrevne. <dimensions type="leaf"
+                           scope="all">
+                           <height unit="mm">212</height>
+                           <width unit="mm">167</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2">
-                           <p>Tospaltet.</p>
+                           <p>Tospaltet. Bl. 66-67 er skrevet på hovedet i forhold til resten af
+                              teksten.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="RasRas02" scope="sole" script="unknown">
-                        <p>Skrevet af Rasmus Rask.</p>
+                     <handNote scribe="RasRas001" scope="sole" script="unknown">
+                        <p>Skrevet af <name type="person" key="RasRas001">Rasmus Rask</name>.</p>
                      </handNote>
                   </handDesc>
                   <accMat>
-                     <p>På en foran indlagt seddel endvidere to viser.</p>
+                     <p>På en foran indlagt seddel er der endvidere to viser.</p>
                   </accMat>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island eller Danmark</origPlace>
+                     <origDate notBefore="1800" notAfter="1832">s. XIX in</origDate>.</origin>
+                  <acquisition><name type="org">Den Arnamagnæanske Kommision</name> købte Rasks
+                     norrøne og islandske håndskriftsamling efter hans død i <date when="1832"
+                        >1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Einar G. Pétursson: <ref type="secondary" target="EinPét0276a"
+                     /><!-- biblScope? --></bibl>
+                     <bibl>Jón Guðmundsson: <ref target="JónGuð1936a"/><!-- biblScope? --></bibl>
+                     <bibl>Kålund: <ref type="secondary" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">531-32</biblScope>
+                     </bibl>
+                     <bibl>Stefán Ólafsson: <ref target="Kvadi"/><biblScope unit="page"
+                        >xi</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-14" who="EvaWed001">Opdateret opmærkning og redigeret indhold.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

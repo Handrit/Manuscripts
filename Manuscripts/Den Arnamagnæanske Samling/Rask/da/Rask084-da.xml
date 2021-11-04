@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,15 +23,27 @@
                      <idno>2658</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Kvæði af præsten Jón Þorláksson</title>; 
-        <origPlace>Island</origPlace>, 
-        <origDate when="1814">1814</origDate>.</head>
                <msContents>
-                  <msItem>
-                     <author>Jón Þláksson</author>
+                  <summary><title type="supplied">Kvæði Jóns Þorlákssonar I</title>. Del II: <ref
+                        type="ms" target="#Rask085-da">Rask 85</ref>.</summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main"><locus>1r</locus> Kvædi <lb/> eptir <lb/> Sra. Jón
+                           Þorláksſon <lb/> frumkvedin og útlögd</titlePart>
+                        <note>Tilføjet af <name type="person" key="RasRas001">Rask</name>.</note>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="kvad">
+                     <locus from="1r" to="73v">1r-73v</locus>
+                     <author key="JonTho011">Jón Þorláksson</author>
+                     <title type="supplied">Kvæði Jóns Þorlákssonar</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Kvædi <lb/> eptir <lb/> Sra. Jón Þorláksson <lb/> frumkvedin og útlögd</rubric>
+                     <msItem n="1.1" class="regist">
+                        <locus from="2r" to="3v">2r-3v</locus>
+                        <title type="supplied">Indholdsfortegnelse</title>
+                        <rubric>Innihald bókarinnar</rubric>
+                        <note>Tilføjet af <name type="person" key="RasRas001">Rask</name>.</note>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -41,18 +54,35 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>73. Bl. 1v, 4r, 173v ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>156</height>
-                              <width>100</width>
+                              <height unit="mm">156</height>
+                              <width unit="mm">100</width>
                            </dimensions>.</extent>
                         <foliation>
                            <p>Pagineret 1-137.</p>
                         </foliation>
                      </supportDesc>
                   </objectDesc>
+                      <additions><p>På bl. 4v meddeler <name type="person" key="RasRas001">Rask</name>: <q>Þad fyrſta í þeſsu
+                     ſafni (allt ad blſ. 71.) hefir skrifad bóndinn á Stockahlödum
+                     í Eyiafyrdi <name type="person" key="ThoGis005">Þorſteinn Gíslaſon</name> Hreppstióri. N<hi rend="sup">o</hi> 55, 57, 70, 71, 72 hefir ſkrifad
+                         <name type="person" key="OlaTho002">Ólafr Thorarenſen</name> frá Mödruvöllum. Hitt hefi eg klórad ſiálfr</q>.</p>
+                     <p>På titelbladet har han tilføjet <q>Samanſöfnud af R. Rask <lb/> Reykjavík 1814.<lb/> 1ſta ſafn</q>.</p></additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate when="1814"
+                     >1814</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >548</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-27" who="EvaWed001">Opdateret opmærkning og tilføjet information fra Kålunds katalog.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

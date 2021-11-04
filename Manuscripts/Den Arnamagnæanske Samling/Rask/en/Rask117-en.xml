@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,23 +23,53 @@
                      <idno>2693</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Angelsaksisk Sproglære</title>
-                  <origPlace>Stockholm, Sweden</origPlace>
-                  <origDate notBefore="1817-01-01" notAfter="1817-12-31">1817</origDate>
-                  <note>Printed Book.</note>
-               </head>
                <msContents>
-                  <msItem n="1">
-                     <author>
-                        <name type="person" key="RasRas001">Rasmus Rask</name>
-                     </author>
-                     <textLang mainLang="dan">Danish</textLang>
+                  <summary><title type="uniform" xml:lang="en">Alglo-Saxon Grammar</title></summary>
+                  <titlePage>
+                     <docTitle>
+                        <titlePart type="main">Angelsaksisk <lb/> SPROGLÆRE <lb/> tilligemed <lb/>
+                           en kort <lb/> LÆSEBOG <lb/> ved <lb/> R. K. Rask </titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="malfr">
+                     <author key="RasRas001">Rasmus Rask</author>
+                     <title type="uniform" xml:lang="en">Alglo-Saxon Grammar</title>
+                     <title type="uniform" xml:lang="da">Angelsaksisk Sproglære</title>
+                     <textLang mainLang="da" otherLangs="en">Danish and Anglo-Saxon</textLang>
                   </msItem>
                </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <p>Paper. Printed book. Interfoliated with white sheets of paper.</p>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <additions>
+                     <p>With <name type="person" key="RasRas001">Rasmus Rask</name>'s personal notes
+                        and corrections.</p>
+                  </additions>
+               </physDesc>
+               <history>
+                  <origin><origPlace>Stockholm, Sweden</origPlace>, <origDate when="1817"
+                        >1817</origDate>.</origin>
+                  <provenance>Entered the collection following the death of <name type="person"
+                        key="RasRas001">Rasmus Rask</name> in <date when="1832"
+                     >1832</date>.</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">562</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-15">Updated markup and content.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

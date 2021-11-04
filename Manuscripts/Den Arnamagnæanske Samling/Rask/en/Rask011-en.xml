@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,45 +23,59 @@
                             <idno>2581</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Tillæg og rettelser til Björn Haldorsons Islandske Ordbog</title>
-                        <origPlace>Iceland/Denmark?</origPlace>
-                        <origDate notBefore="1800" notAfter="1832">s. XIX in</origDate>
-                    </head>
-                    <msContents>
-                        <msItem n="1">
+                      <msContents>
+                        <summary>
+                            <title type="supplied">Additions and Corrections to Björn Haldorson's
+                                Icelandic Dictionary</title>
+                        </summary>
+                        <textLang mainLang="da">Danish</textLang>
+                        <msItem n="1" class="malfr">
+                            <title type="supplied">Additions and Corrections to Björn Haldorson's
+                                Icelandic Dictionary</title>
                             <rubric>Tillæg og Rettelser <lb/> til <lb/> Biörn Haldorsons Islandske
                                 Ordbog <lb/> samlede fra forskjellige Kilder <lb/> af <lb/> R.
                                 Rask</rubric>
-                            <textLang mainLang="da">Danish</textLang>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
-                                    <p>Paper</p>
+                                    <p><material>Paper</material>.</p>
                                 </support>
                                 <extent>84. <dimensions type="leaf" scope="all">
-                                        <height>222</height>
-                                        <width>175</width>
+                                        <height unit="mm">222</height>
+                                        <width unit="mm">175</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <foliation>
-                                    <p>Apart from fols I-IV (introductory remarks) and the last
+                                    <p>Except from fols I-IV (introductory remarks) and the last
                                         leaf, the manuscript is paginated 1-156 (incl. 89bis).</p>
                                 </foliation>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scribe="RasRas002" scope="sole" script="unknown">
+                            <handNote scribe="RasRas001" scope="sole" script="unknown">
                                 <p> Written by Rasmus Rask.</p>
                             </handNote>
                         </handDesc>
                     </physDesc>
+                    <history><origin><origPlace>Iceland or Denmark</origPlace>,
+                        <origDate notBefore="1800" notAfter="1832">s. XIX in</origDate>.</origin></history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">511</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-10-08" who="EvaWed001">Updated markup.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

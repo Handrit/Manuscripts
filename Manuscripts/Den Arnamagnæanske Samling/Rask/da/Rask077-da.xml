@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,14 +23,59 @@
                      <idno>2652</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Fragmenter af Jarlmanns saga samt Þættir, rímur, viser og
-            sálmer</title>; <origPlace>Island</origPlace>, <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>. <note>Dannet af løse indlæg, til dels dårligt
-            konserverede, og næppe oprindeligt sammenhørende.</note>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Håndskrift med blandet indhold</title>. Dannet af
+                     løse indlæg, til dels dårligt konserverede, og næppe oprindeligt
+                     sammenhørende.</summary>
+                  <textLang mainLang="is">Islandsk</textLang>
+                  <msItem n="1" class="islt">
+                     <locus from="1r" to="4r">1r-4r</locus>
+                     <title type="uniform">Úlfs þáttr auðga</title>
+                     <rubric>Þattur a&#xA77C; Ulfenu<ex>m</ex> Audga</rubric>
+                  </msItem>
+                  <msItem n="2" class="islt">
+                     <locus from="4v" to="12v">4v-12v</locus>
+                     <title type="uniform">Þormóðar þáttr Kolbrúnarskálds</title>
+                     <rubric>Þattur af Þormode Kolbrunar&#x017F;kalde</rubric>
+                     <!-- KKKat: "sål., desuden med o ved rettelse af a" (?) -->
+                  </msItem>
+                  <msItem n="3" class="islt">
+                     <locus from="12v" to="19r">12v-19r</locus>
+                     <title type="uniform">Auðunar þáttr vestfirska</title>
+                     <rubric>Audunar Þattur</rubric>
+                  </msItem>
+                  <msItem n="4" class="kvad">
+                     <locus from="20v" to="21r">20v-21r</locus>
+                     <title type="supplied">Digte</title>
+                     <note>1-3</note>
+                  </msItem>
+                  <msItem n="5" defective="true" class="ridd">
+                     <locus from="23r" to="25v">23r-25v</locus>
+                     <note>særlig hånd</note>
+                     <title type="uniform">Jarlmanns saga ok Hermanns</title>
+                     <note>To fragmenter, indbefattende brudstykker af kap. 5-6 og 18 samt hele
+                        slutningskapitlet (19).</note>
+                  </msItem>
+                  <msItem n="6" class="rimur" defective="true">
+                     <locus from="26r" to="26v">26r-v</locus>
+                     <note>særlig hånd</note>
+                     <title type="uniform">Rímur af Auðuni Íslending</title>
+                     <rubric><supplied>Rímur</supplied> Af Audun Islendingi</rubric>
+                     <note>Ender defekt i første rime.</note>
+                  </msItem>
+                  <msItem n="7" class="rimur">
+                     <locus from="27r" to="28v">27r-28v</locus>
+                     <note>særlig hånd</note>
+                     <title type="uniform">Rímur af Króka-Ref</title>
+                     <!-- Þorvaldur Rögnvaldsson -->
+                     <incipit>Einku<ex>m</ex> bid Eg</incipit>
+                     <explicit>v<ex>ar</ex>d h<ex>an</ex>n næ&#x017F;ta <lb/> Linur</explicit>
+                  </msItem>
+                  <msItem n="8" class="salm">
+                     <locus from="29r" to="30r">29r-30r</locus>
+                     <note>særlig hånd</note>
+                     <title type="supplied">Salmer</title>
+                     <incipit>Æ hvad er armædu kafid</incipit>
                   </msItem>
                </msContents>
                <physDesc>
@@ -39,19 +85,41 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>30. Bl. 19v-20r, 21v-22r, 30v ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>170</height>
-                              <width>105</width>
+                        <extent>30. Bl. 19v-20r, 21v-22r og 30v er ubeskrevne. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">170</height>
+                              <width unit="mm">105</width>
                            </dimensions>. </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc><handNote script="unknown">Forskellige hænder.</handNote></handDesc>
                   <additions>
-                     <p>På bl. 22v nogle penneprøver.</p>
-                  </additions>
+                     <p>På bl. 22v og bagpermen ses nogle penneprøver.</p>
+                     <p>På bl. 25v er der tilføjet: <q>Endad er &#x00FE;etta Søgu kver af <name
+                              type="person" key="JonHra001">Iöne Rafnkelssyne</name>
+                           <unclear>skrifad</unclear> og <name type="person" key="OgmEoo001">Øgmunde
+                              E. Syne</name> D <date when="1766-11-02">2 Novemb<ex>ri</ex>s
+                              1766</date></q></p>
+                   </additions>
+                  <bindingDesc><binding><p>Indbundet i et moderne halvbind. Til spejlene er der brugt et fragment af et brev.</p></binding></bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1700" notAfter="1799"
+                        >s. XVIII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Pálmi Pálsson: <ref target="STUAGNL10">Króka-Refs saga og Króka-Refs
+                           rímur</ref><biblScope unit="page">xxxiv</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >546</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-26" who="EvaWed001">Opdateret opmærkning</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

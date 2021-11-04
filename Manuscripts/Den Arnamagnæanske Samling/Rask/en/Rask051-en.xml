@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,38 +22,82 @@
                      <idno>2624</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-<!--title></title-->
-<origPlace>Iceland</origPlace>
-                  <origDate notBefore="1790-01-01" notAfter="1790-12-31">1790</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Lists of Government Officials and Kings of
+                     Iceland</title></summary>
+                  <titlePage>
+                     <docTitle>
+                        <titlePart>Stutt Agrip <lb/> yfer <lb/> Hirdstioora <lb/>
+                           Stipt-Amtmen<ex>n</ex>
+                           <lb/> Amtmenn <lb/> Landfogeta og <lb/> Fullmegtuga <lb/> yfer Islande
+                           <lb/> Frá 1450 til Annum 1739. <lb/> samanskrifad <lb/> af <lb/> Sr Ione
+                           Sál. Halldors Syne <lb/> ad Hytartal</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="nafsk">
+                     <locus from="1" to="177">pp. 1-177</locus>
+                     <author key="JonHal004">Jón Halldórsson</author>
+                     <title type="supplied">List of government officials</title>
+                     <textLang mainLang="is"/>
+                  </msItem>
+                  <msItem n="2" class="regist">
+                     <locus from="178" to="181">pp. 178-181</locus>
+                     <title type="supplied">Index</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Lítid Registur þeirra er serdeilis getid verdur i þessum
+                        Bæklinge</rubric>
+                  </msItem>
+                  <msItem n="3" class="kont">
+                     <locus from="182" to="198">pp. 182-198</locus>
+                     <title type="supplied">List of kings who ruled Iceland from 1262-1750</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Registur <lb/> yfer <lb/> Islands Konunga</rubric>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>100. 
-<dimensions type="leaf" scope="all">
-                              <height>202</height>
-                              <width>164</width>
-                           </dimensions>
+                        <support><material>Paper</material>.</support>
+                        <extent>100. Fol. 1v is blank. <dimensions type="leaf" scope="all">
+                           <height unit="mm">202</height>
+                           <width unit="mm">164</width>
+                        </dimensions>
                         </extent>
+                        <foliation>Paginated 1-196 as the title page and the index have not been
+                           paginated. Two pages have been paginated 121.</foliation>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="JonAsg001" scope="sole" script="unknown">
-                        <p>
-Written by Jón Ásgeirsson.</p>
+                        <p> Written by <name type="person" key="JonAsg001">Jón
+                           Ásgeirsson</name>.</p>
                      </handNote>
                   </handDesc>
+                  <additions>
+                     <p>A slip has been added to page 13.</p>
+                  </additions>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Iceland</origPlace>, <origDate when="1790">1790</origDate>.</origin>
+                  <acquisition><name type="org">The Arnamagnæan Commision</name> bought <name
+                     type="person" key="RasRas001">Rask</name>'s Nordic manuscript collection
+                     after his death in <date when="1832">1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">534</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-11" who="EvaWed001">Updated markup and content.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,39 +23,47 @@
                      <idno>2651</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1" xml:lang="is">Heiðarvíga saga</title>, <title n="2" xml:lang="la">Fermentum vetus</title> og <title n="3" xml:lang="la">De Heidarviga
-        saga</title>; <origPlace>Island/Danmark?</origPlace> 
-                  <origDate notBefore="1790" notAfter="1810">ca. 1800</origDate>.</head>
                <msContents>
-                  <msItem n="1">
-                     <locus from="1" to="21">1-21</locus>
-                     <title type="uniform">Heidarvíga-Saga</title>
+                  <summary><title type="supplied">Heiðarvíga saga mm.</title>.</summary>
+                  <msItem n="1" class="isl">
+                     <locus from="1r" to="21v">1r-21v</locus>
+                     <title type="uniform">Heiðarvíga saga</title>
                      <textLang mainLang="is" otherLangs="la">Islandsk og latin</textLang>
                      <rubric>Heidarvíga-Saga</rubric>
-                     <filiation>En afskrift af H. Finnssons gengivelse af Stockholmsfragmentet.</filiation>
-                     <note>Med tilföjet latinsk indledning og egenhændige rettelser af Rasmus Rask.</note>
+                     <filiation>En kopi af <name type="person" key="HanFin001">Hannes
+                           Finnsson</name>s afskrift af <ref type="ms">Holm perg 18
+                        4to</ref>.</filiation>
+                     <note>Med tilføjet latinsk indledning. Egenhændige rettelser af <name
+                           type="person" key="RasRas001">Rasmus Rask</name>.</note>
                   </msItem>
-                  <msItem n="2">
-                     <locus from="22" to="23r">22-23r</locus>
-                     <textLang mainLang="no" otherLangs="is">Norsk dialekt og islandsk</textLang>
-                     <msItem n="2.1">
-                        <title>En versificeret besværgelssformular mod rovdyr</title>
-                        <rubric>Fermentum vetus <lb/> sev <lb/> Residuæ in norvegico orbe cum paganismi
-                    <lb/> tum papismi reliqviæ</rubric>
+                  <msItem n="2" class="kvad">
+                     <locus from="22r" to="23r">22r-23r</locus>
+                     <title type="supplied">Et par tekster</title>
+                     <textLang mainLang="no" otherLangs="is">Norsk dialekt med tilføjet islandsk
+                        oversættelse</textLang>
+                     <msItem n="2.1" class="kvad">
+                        <title type="supplied">Besværgelssformular mod rovdyr</title>
+                        <rubric>Fermentum vetus <lb/> &#x017F;ev <lb/> Re&#x017F;iduæ in norvegico
+                           orbe cum pagani&#x017F;mi <lb/> tum papi&#x017F;mi reliqviæ</rubric>
                         <note>2 vers</note>
                      </msItem>
-                     <msItem n="2.2">
-                        <rubric>En gammel Söndagsvæss</rubric>
+                     <msItem n="2.2"><!-- class="kvad"? -->
+                         <title type="supplied">En gammel søndagsvest</title>
+                        <rubric>En gammel Söndagsvæ&#x017F;s</rubric>
                      </msItem>
                   </msItem>
-                  <msItem n="3">
-                     <locus from="24" to="25">24-25</locus>
-                     <textLang mainLang="la" otherLangs="is">Latin og islandsk</textLang>
+                  <msItem n="3" class="notes texfr drott">
+                     <locus from="24r" to="25v">24r-25v</locus>
                      <title type="supplied">Om Heidarvíga saga</title>
-                     <note>Afskrift af H. Finnsons latinske oplysninger om originalen, hvortil Rask knytter
-                en kortere islandsk notits, og afskrift af nogle emnet vedrørende
-            skjaldevers.</note>
+                     <textLang mainLang="la" otherLangs="is">Latin og islandsk</textLang>
+                     <msItem n="3.1" class="texfr">
+                        <title type="supplied">Om Holm perg 18 4to</title>
+                        <note>Afskrift af Hannes Finnsons latinske oplysninger, hvortil Rask har
+                           tilknyttet en kortere islandsk notits.</note>
+                     </msItem>
+                     <msItem n="3.2" class="drott">
+                        <title type="supplied">Nogle skjaldevers</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -65,20 +74,33 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>25. Bl. 23v ubeskrevet. <dimensions type="leaf" scope="all">
-                              <height>204</height>
-                              <width>129</width>
+                              <height unit="mm">204</height>
+                              <width unit="mm">129</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote scope="minor" scribe="RasRas001" script="unknown">
-                        <p>Bl. 24-25 skrevet af Rasmus Rask.</p>
+                        <p>Bl. 24-25 skrevet af <name type="person" key="RasRas001">Rasmus
+                              Rask</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island/Danmark?</origPlace>, <origDate notBefore="1790"
+                        notAfter="1810">ca. 1800</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >545-546</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-26" who="EvaWed001">Opdateret opmærkning</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

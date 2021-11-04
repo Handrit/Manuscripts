@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,39 +23,60 @@
                      <idno>2596</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">Hákons saga Hákonarsonar</title>
-                  <title n="2">Kongatál i Noregi eptir Hákon konung hinn gamla</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1798-01-01" notAfter="1801-12-31">1798 and 1801</origDate>
-               </head>
+
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="uniform" n="1">Hákons saga Hákonarsonar</title>
+                     <title type="supplied" n="2">List of Kings of Norway</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <msItem n="1" class="kon">
+                     <locus from="1" to="174r">1-174r</locus>
+                     <title type="uniform">Hákons saga Hákonarsonar</title>
+                     <rubric>Saga af <lb/> Hákoni kongi Gamla Hákonarsyni</rubric>
+                     <note><q xml:lang="is">Kemr saman vid Cod. Flat.</q>
+                        <name type="person" key="RasRas001">Rask</name> added.</note>
+                  </msItem>
+                  <msItem n="2" class="kont">
+                     <locus from="174v" to="175r">174v-175r</locus>
+                     <title type="uniform">List of Kings of Norway</title>
+                     <rubric>Kongatal i Noregi <lb/> eptir <lb/> Hákon konung hin<ex>n</ex>
+                        Gamla</rubric>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>175. 
-<dimensions type="leaf" scope="all">
-                              <height>203</height>
-                              <width>165</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>175. <dimensions type="leaf" scope="all">
+                              <height unit="mm">203</height>
+                              <width unit="mm">165</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="ThoTho005" scope="sole" script="unknown">
-                        <p>
-Written by Þorður Þorsteinsson.</p>
+                     <handNote scribe="ThoTho056" scope="sole" script="unknown">
+                        <p> Written by <name type="person" key="ThoTho056">Þorður
+                           Þorsteinsson</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
-            </msDesc>
+               <history>
+                  <origin>Written in <origPlace>Iceland</origPlace> in <origDate when="1798"
+                     >1798</origDate>. The list of kings on ff. 174v-175r is, however, a later addition from <origDate
+                        when="1801">1801</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">517</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-11" who="EvaWed001">Checked and updated.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

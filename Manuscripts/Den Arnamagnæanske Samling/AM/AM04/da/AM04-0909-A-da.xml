@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,25 +22,18 @@
                      <idno>2041</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">
-                     <name type="person" key="ArnMag001">Arne Magnusson</name>s bibliografiske
-                     samlinger og optegnelser, mest fra hans ophold i Tyskland</title>;
-                     <origPlace>Hovedsagelig Tyskland, Leipzig</origPlace>, <origDate notBefore="1690" notAfter="1710">ca. 1700</origDate>.</head>
                <msContents>
-                  <msItem>
-                     <author>Arne Magnusson</author>
-                     <title type="supplied" xml:lang="da">
-                        <name type="person" key="ArnMag001">Arne Magnusson</name>s bibliografiske
-                        samlinger og optegnelser, mest fra hans ophold i Tyskland</title>
+                  <summary><title type="supplied">Arne Magnussons historiske og bibliografiske optegnelser</title>
+                     fra hans ophold i Tyskland <date
+                        from="1694" to="1696">1694-96</date>. Indeholder excerpter vedr.
+                     Benediktinerordenen; bogtitler og kortere uddrag af bøger og håndskrifter,
+                     hovedsageligt med historisk, geografisk eller kirkeligt indhold; noter om Ungarns historie; katalog over
+                     akademiske disputatser fra universiteter i Sachsen fra 1600-tallet om
+                     Germanernes oprindelse, vandringer, sprog o.l.</summary>
+                  <msItem n="1" class="notes hdrskr sagnfr">
+                     <author key="ArnMag001">Arne Magnusson</author>
+                     <title type="supplied" xml:lang="da">Historiske og bibliografiske optegnelser</title>
                      <textLang mainLang="la">Hovedsagelig latin</textLang>
-                     <note>Excerpter vedr. Benediktinerordenen; bogtitler og kortere uddrag af bøger
-                        og håndskrifter (mest værker hørende til den historiske og geografiske eller
-                        kirkelige litteratur, - også etymologiske optegnelser); samlinger til
-                        Ungarns historie; om biblioteker, samt lignende bibliografiske optegnelser
-                        o.l.; katalog over akademiske disputatser fra universiteter i Sachsen,
-                        alfabetisk ordnede efter forfatternavn; tre latinske disputatser fra <date notBefore="1600" notAfter="1699">1600-tallet</date>, utvivlsomt alle
-                        tyske: om Germanernes oprindelse, vandringer, sprog o.l.</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -57,10 +51,14 @@
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="ArnMag001" scope="sole" script="unknown">
-                        <p>Skrevet af Arne Magnusson.</p>
+                        <p>Skrevet af <name type="person" key="ArnMag001">Arne Magnusson</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Tyskland, Leipzig</origPlace>, <origDate notBefore="1694"
+                        notAfter="1696" evidence="external">1694-1696</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
@@ -71,6 +69,9 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-09" who="EvaWed001">Opdateret opmærkning og indhold.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

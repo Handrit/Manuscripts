@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,42 +22,40 @@
                      <idno>2679</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Teologisk håndskrift</title>; <origPlace>Island</origPlace>,
-            <origDate notBefore="1740" notAfter="1760">c. 1750</origDate>.
-    </head>
                <msContents>
-                  <msItem n="1">
-                     <locus from="1" to="82">1-82</locus>
-                     <title type="supplied">Af Jesu Christs liv</title>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Digte af Ólafur Gunnlaugsson på Svefneyjar</title></summary>
+                  <textLang mainLang="is">Islandsk</textLang>
+                  <msItem n="1" class="aevikv">
+                     <locus from="1r" to="82v">1r-82v</locus>
+                     <author key="OlaGun001">Ólafur Gunnlaugsson</author>
+                     <title type="uniform">Lífssaga Jesú</title>
                      <rubric>Nya Testamented, Lyfs Historia Edur Æfesaga Endurlasnarans vors Iesv
-            Christi</rubric>
-                     <note>på <q xml:lang="is">dróttkvætt</q>
+                        Christi</rubric>
+                     <note>på <term>dróttkvætt</term>
                      </note>
                   </msItem>
-                  <msItem n="2">
+                  <msItem n="2" class="aevikv">
                      <locus from="83" to="88r">83-88r</locus>
-                     <title type="supplied">Af apostlene og evangelisterne</title>
-                     <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Stutt grip um<ex>m</ex> lyf og lyfnad, kienyng og Afgang
-                þeirra H. Christj Po<lb/>stula, og Gudspiallaman<ex>n</ex>a, wr <lb/>
-                Theatro Historico Andreæ <lb/> Handorfii, liödsett <lb/> Anno 1751</rubric>
-                     <note>på <q xml:lang="is">dróttkvætt</q>
+                     <author key="OlaGun001">Ólafur Gunnlaugsson</author>
+                     <title type="uniform">Lífssaga postula og guðspjallamanna</title>
+                     <rubric>Stutt &#xA733;grip um<ex>m</ex> lyf og lyfnad, kienyng og Afgang þeirra
+                        H. Christj Po<lb/>stula, og Gudspiallaman<ex>n</ex>a, wr <lb/> Theatro
+                        Historico Andreæ <lb/> Handorfii, liödsett <lb/> Anno 1751</rubric>
+                     <note>På <term>dróttkvætt</term>
                      </note>
                   </msItem>
-                  <msItem n="3">
+                  <msItem n="3" class="landfr sagnfr kvad">
                      <locus from="89" to="97r">89-97r</locus>
-                     <title type="supplied">Historia Foreidslu og nidur brotz Borgarinnar Jerusalem</title>
-                     <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Historia Foreidslu og nidur <lb/> brotz Borgarin<ex>nar</ex> Jerusalem <lb/> sett ä liöd An<ex>n</ex>o 1752</rubric>
-                     <note>på <q xml:lang="is">dróttkvætt</q>
+                     <author key="OlaGun001">Ólafur Gunnlaugsson</author>
+                     <rubric>Historia Foreidslu og nidur <lb/> brotz Borgarin<ex>nar</ex> Jerusalem
+                        <lb/> sett ä liöd An<ex>n</ex>o 1752</rubric>
+                     <note>På <term>dróttkvætt</term>
                      </note>
                   </msItem>
-                  <msItem n="4">
+                  <msItem n="4" class="kvad">
                      <locus from="98" to="102">98-102</locus>
+                     <author key="OlaGun001">Ólafur Gunnlaugsson</author>
                      <title type="uniform">Herleiðingarkvæði</title>
-                     <textLang mainLang="is">Islandsk</textLang>
                   </msItem>
                </msContents>
                <physDesc>
@@ -67,21 +65,33 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>102. Bl. 97v ubeskrevet. <dimensions type="leaf" scope="all">
-                              <height>167</height>
-                              <width>105</width>
-                           </dimensions>.</extent>
+                        <extent>102. Bl. 97v ubeskrevet. <dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">167</height>
+                           <width unit="mm">105</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="OlaGun01" scope="sole" script="unknown">
-                        <p>Skrevet af Ólafur Gunnlaugsson.</p>
+                     <handNote scribe="OlaGun001" scope="sole" script="unknown">
+                        <p>Forfatterens autograf.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history><origin><origPlace
+                  >Island</origPlace>, <origDate notBefore="1740" notAfter="1760">c.
+                     1750</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="pages">558</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-07-01" who="EvaWed001">Revideret.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

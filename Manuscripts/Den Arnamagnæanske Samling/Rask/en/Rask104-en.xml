@@ -1,55 +1,74 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">Rask 104</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="Rask104-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="Rask"/>
-                  <idno>Rask 104</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>2680</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title>Sendibréfið til Rómverja</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1800" notAfter="1832">s. XIX in.</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>46. 
-<dimensions type="leaf" scope="all">
-                              <height>202</height>
-                              <width>128</width>
-                           </dimensions>
-                        </extent>
-                     </supportDesc>
-                  </objectDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Rask 104</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="Rask104-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="Rask"/>
+						<idno>Rask 104</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>2680</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="uniform" xml:lang="en">Epistle of Paul to the
+								Romans</title><title type="uniform" xml:lang="is">Rómverjarbréfið</title></summary>
+						<textLang mainLang="is"/>
+						<msItem n="1" class="formal">
+							<locus from="1" facs="#Rask104-0001r" to="3">pp. 1-3</locus>
+							<title type="supplied">The Translator's Prologue</title>
+							<rubric>Adgiætande</rubric>
+						</msItem>
+						<msItem n="2" class="bibl">
+							<locus from="4" facs="#Rask104-0004r" to="91">pp. 4-91</locus>
+							<title type="uniform">Rómverjarbréfið</title>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support><material>Paper</material>.</support>
+								<extent>46. <dimensions type="leaf" scope="all">
+										<height unit="mm">202</height>
+										<width unit="mm">128</width>
+									</dimensions>
+								</extent>
+								<foliation>Pagination on every page.</foliation>
+							</supportDesc>
+						</objectDesc>
+						<bindingDesc>
+							<binding>
+								<p>The binding carries the title <q>Sendibrefid <lb/> til <lb/>
+									Romveria</q></p>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history><origin><origPlace key="IS">Iceland?</origPlace>, <origDate notBefore="1800" notAfter="1825">s. XIX<hi rend="sup">1/4</hi></origDate>.</origin></history>
+					<additional>
+						<listBibl>
+							<bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="page">558</biblScope></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change when="2021-07-01" who="EvaWed001">Amended.</change>
+		</revisionDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="Rask104-0001r-FFl" n="0">
 			<desc>0001r-FFl</desc>

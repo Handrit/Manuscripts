@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,35 +23,65 @@
                      <idno>2586</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">En kortfattet poetisk Islandsk-Latinsk ordbog til Snorres Edda og Skalda</title>
-                  <origPlace>Iceland/Denmark?</origPlace>
-                  <origDate notBefore="1790" notAfter="1810">c. 1800</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
-                     <author>
-                        <name type="person" key="JonOla013">Jón Ólafsson yngri</name>
-                     </author>
-                     <textLang mainLang="non" otherLangs="la">Old Norse/Icelandic and Latin</textLang>
+                  <summary><title type="supplied">Icelandic-Latin Dictionary of the poetic language of Snorri's Edda and
+                        Skalda</title></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">En kortfattet poetisk Islandsk-Latinsk Ordbog til
+                           Snorros Edda og Skalda ved John Olafsen fra Svefneyum med gjennemskudte
+                           Blade, hvorpaa nogle Tillæg af Rask</titlePart>
+                     </docTitle>
+                     <note>Titel tilføjet af <name type="person" key="FinMag001">Finnur
+                           Magnússon</name>.</note>
+                  </titlePage>
+                  <msItem n="1" class="ordb">
+                     <respStmt>
+                        <resp key="edt"/>
+                        <name type="person" key="JonOla017">Jón Ólafsson</name>
+                     </respStmt>
+                     <title type="supplied">Icelandic-Latin Dictionary of the poetic language of Snorri's Edda and
+                        Skalda</title>
+                     <textLang mainLang="is" otherLangs="la">Icelandic and Latin</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>65. 
-<dimensions type="leaf" scope="all">
-                              <height>212</height>
-                              <width>170</width>
+                        <support><p><material>Paper.</material> Some of the interfoliated leaves are
+                              blank.</p></support>
+                        <extent>65. <dimensions type="leaf" scope="all">
+                              <height unit="mm">212</height>
+                              <width unit="mm">170</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland or Denmark</origPlace>, <origDate notBefore="1790"
+                        notAfter="1810">c. 1800</origDate>.</origin>
+                  <acquisition>According to Kålund (<bibl><ref target="KKKat"
+                           >Katalog</ref><biblScope unit="volume">II</biblScope><biblScope
+                           unit="page">512</biblScope></bibl>) <name type="person" key="RasRas001"
+                        >Rasmus Rask</name> wrote a note in Icelandic on the acquisition of the
+                     manuscript on f. 65r.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <p>Catalogued according to Kålund's catalogue.</p>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">512</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-11" who="EvaWed001">Updated markup.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,29 +23,30 @@
                      <idno>2685</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Bønnebog med kalendarium</title>; 
-        <origPlace>Island</origPlace>, 
-        <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>.
-    </head>
                <msContents>
-                  <msItem n="1">
-                     <locus from="2" to="43">2-43</locus>
-                        <title type="supplied">Bønner</title>
-                        <textLang mainLang="is" otherLangs="de">Islandsk og tysk</textLang>
-                       <rubric>Nytsamlegar Bæner sem lesa maa Sier hvørn Dag, Saman Skrifadar i þysku
-                af M. Johan Lassen, utlagdar Af S. Thorsteini Gunnars Syni, Kirkiu Presti ä Hölum
-                1681</rubric>
-                     <note>Bl. 36-43 indeholder diverse aftenbønner</note>
-                    </msItem>
-                  <msItem n="2">
-                     <locus from="45" to="77">45-77</locus>
-                     <author>
-                        <name type="person" key="JonArn003">Jón Árnason</name>
-                     </author>
+                  <summary><title type="supplied">Bønnebog med kalendarium</title></summary>
+                  <msItem n="1" class="kvoldb">
+                     <locus from="2r" to="43v">2r-43v</locus>
+                     <author key="JohLas001">Johan Lassen</author>
+                     <respStmt>
+                        <resp key="trl"/>
+                        <name type="person" key="ThoGun004">Þorsteinn Gunnarsson</name>
+                     </respStmt>
+                     <title type="supplied">Aftenbønner</title>
+                     <textLang mainLang="is">Islandsk</textLang>
+                     <rubric>Nyt&#x017F;amlegar Bæner &#x017F;em le&#x017F;a maa Sier hvørn Dag,
+                        Saman Skri&#xA77C;adar i þy&#x017F;ku a&#xA77C; M. Johan La&#x017F;sen,
+                        utlagdar A&#xA77C; S. Thorsteini Gunnars Syni, Kirkiu Pre&#x017F;ti ä Hölum
+                        1681</rubric>
+                     <note>Bl. 36-43 indeholder påny forskellige hverdags-aftenbønner</note>
+                  </msItem>
+                  <msItem n="2" class="malvg">
+                     <locus from="45r" to="77v">45r-77v</locus>
+                     <author key="JonArn003">Jón Árnason</author>
                      <textLang mainLang="is">Islandsk</textLang>
                      <title type="uniform" xml:lang="la">Calendarium Gregorianum</title>
-                        <rubric>Calendarium Gregorianum Edur S Nie Still, Hvar med og fylgia Islendsk Missera skipte</rubric>
+                     <rubric>Calendarium Gregorianum Edur S&#xA733; Nie Still, Hvar med og
+                        &#xA77C;ylgia Islend&#x017F;k Mi&#x017F;&#x017F;era &#x017F;kipte</rubric>
                   </msItem>
                </msContents>
                <physDesc>
@@ -54,17 +56,36 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>79 (inkl. smudsblade). Bl. 35v, 44 og 78v-79r er ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>165</height>
-                              <width>101</width>
+                        <extent>79 (inkl. friblade). Bl. 35v, 44r-v og 78v-79r er ubeskrevne.
+                              <dimensions type="leaf" scope="all">
+                              <height unit="mm">165</height>
+                              <width unit="mm">101</width>
                            </dimensions>.</extent>
                         <condition>Efter bl. 35 synes et blad udskåret.</condition>
                      </supportDesc>
                   </objectDesc>
+                  <additions>Bl. 1 indeholder forskellige ejernotitser, bl. 78 bærer kun en notits
+                     af <name type="person" key="RasRas001">Rask</name> angående kalendariets forfatter, bl. 79v versificerede penneprøver og
+                     lignende.</additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1700" notAfter="1799"
+                        >s. XVIII</origDate>.</origin>
+                  <provenance>Blandt ejernotisterne på bl. 1 ses navnene <name
+                        type="person" key="ThoJon104">Þorvaldur Jónsson</name> og <name
+                        type="person" key="OlaSig001">Ólafur Sigurðsson</name> (<date from="1806"
+                        to="1807">1806-7</date>).</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">560</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-18" who="EvaWed001">Opdateret opmærkning og indhold.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

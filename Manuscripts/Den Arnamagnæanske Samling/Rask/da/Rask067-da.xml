@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,14 +23,13 @@
                      <idno>2641</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Kongelige anordninger vedrørende kirker og gejstlighed
-        i Island 1735-63</title>; 
-        <origPlace>Island</origPlace>, 
-        <origDate notBefore="1790" notAfter="1810">ca. 1800</origDate>.
-    </head>
-               <msContents>
-                  <msItem>
+                 <msContents>
+                  <summary> <title type="supplied">Kongelige anordninger vedrørende kirker og gejstlighed i
+                     Island 1735-63</title></summary>
+                    <msItem n="1" class="klog kirkjus">
+                     <author key="MagKet001">Magnús Ketilsson</author>
+                     <title type="supplied">Kongelige anordninger vedrørende kirker og gejstlighed i
+                        Island 1735-63</title>
                      <textLang mainLang="da">Dansk</textLang>
                   </msItem>
                </msContents>
@@ -41,20 +41,29 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>59. <dimensions type="leaf" scope="all">
-                              <height>213</height>
-                              <width>170</width>
+                              <height unit="mm">213</height>
+                              <width unit="mm">170</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scope="sole" scribe="MagKet01" script="unknown">
-                        <p>Skrevet af Magnús Ketilsson.</p>
+                     <handNote scope="sole" scribe="MagKet001" script="unknown">
+                        <p>Skrevet af <name type="person" key="MagKet001">Magnús Ketilsson</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history><origin><origPlace>Island</origPlace>, <origDate
+                  notBefore="1790" notAfter="1803">ca. 1800</origDate>. </origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">540</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-19" who="EvaWed001">Opdateret opmærkning.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

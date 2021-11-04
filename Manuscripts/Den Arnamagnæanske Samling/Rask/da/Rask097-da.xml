@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,36 +22,28 @@
                      <idno>2673</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Rímur og salmer</title>; <origPlace>Island?</origPlace> 
-                  <origDate notBefore="1800" notAfter="1832">s. XIX 1/4</origDate>.</head>
-               <msContents>
-                  <msItem n="1">
-                     <locus from="1" to="7">1-7</locus>
-                     <author>
-                        <name type="person" key="FinMag001">Finnur Magnússon</name>
-                     </author>
+                 <msContents>
+                  <summary><title type="supplied">Rímur og passionssalmer</title></summary>
+                  <textLang mainLang="is">Islandsk</textLang>
+                  <msItem n="1" class="rimur">
+                     <locus from="1r" to="7v">1r-7v</locus>
+                     <author key="FinMag001">Finnur Magnússon</author>
                      <title type="supplied" xml:lang="is">Selveru ríma</title>
-                     <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Selveru-Ríma</rubric>
-                     <note>gennemset af forfatteren</note>
+                      <rubric>Selveru-Ríma</rubric>
+                     <note>Gennemset af forfatteren.</note>
                   </msItem>
-                  <msItem n="2">
+                  <msItem n="2" class="rimur">
                      <locus from="9" to="14">9-14</locus>
-                     <author>
-                        <name type="person" key="FinMag001">Finnur Magnússon</name>
-                     </author>
-                     <title type="supplied" xml:lang="is">Rökkur ríma</title>
-                     <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Rökkur-Ríma</rubric>
-                     <note>gennemset af forfatteren</note>
+                     <author key="FinMag001">Finnur Magnússon</author>
+                     <title type="supplied" xml:lang="is">Rökkurríma</title>
+                      <rubric>Röckur-Ríma</rubric>
+                     <note>Gennemset af forfatteren.</note>
                   </msItem>
-                  <msItem n="3">
+                  <msItem n="3" class="passius">
                      <locus from="15" to="20r">15-20r</locus>
-                     <author>Hallgrímur Pétursson</author>
-                     <title type="supplied" xml:lang="is">VIII. og XV. passionssalme</title>
-                     <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>VIII. og XV. psálmur</rubric>
+                     <author key="HalPet001">Hallgrímur Pétursson</author>
+                     <title type="supplied" xml:lang="is">Passíusálmar Hallgríms Péturssonar</title>
+                     <note>8. og 15. passionssalme.</note>  
                   </msItem>
                </msContents>
                <physDesc>
@@ -62,15 +54,24 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>20. Bl. 8 og 20v ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>179</height>
-                              <width>108</width>
+                              <height unit="mm">179</height>
+                              <width unit="mm">108</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Island?</origPlace> 
+                  <origDate notBefore="1800" notAfter="1815">s. XIX in</origDate></origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">556</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-02" who="EvaWed001">Opdateret opmærkning.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

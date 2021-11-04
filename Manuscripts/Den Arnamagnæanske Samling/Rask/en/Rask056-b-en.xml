@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,32 +22,42 @@
                      <idno>2630</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Testamentis- og jarðabréf</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1790" notAfter="1810">c. 1800</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Will and Deed of Conveyance</title>. Begins with bishop <name type="person" key="GudTho001">Guðbrandur
+                     Þorláksson</name>'s will.</summary>
+                  <msItem n="1" class="skjol">
+                     <title type="supplied" xml:lang="is">Testamentis- og jarðabréf</title>
+                     <textLang mainLang="is"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>26. 
-<dimensions type="leaf" scope="all">
-                              <height>200</height>
-                              <width>160</width>
-                           </dimensions>
+                        <support><material>Blue paper</material>.</support>
+                        <extent>26. Pp. 18 and 42-48 are blank. <dimensions type="leaf" scope="all">
+                           <height unit="mm">200</height>
+                           <width unit="mm">160</width>
+                        </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>,
+                  <origDate notBefore="1790" notAfter="1810">c. 1800</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat"/><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">537</biblScope></bibl>
+                     <bibl>Páll Eggert Olason, <ref target="PalOla1919b"/><biblScope unit="page"
+                        >419</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-11" who="EvaWed001">Updated markup.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

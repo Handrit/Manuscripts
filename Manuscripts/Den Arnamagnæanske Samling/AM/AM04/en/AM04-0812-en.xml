@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,19 +22,47 @@
                             <idno>1944</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title n="1">Plinii secundi de naturali historia secundi libri
-                            enarratio</title>
-                        <title n="2">Alphabetically Ordered Excerpts from Classical Authors</title>
-                        <title n="3">Notes and Jottings</title>
-                        <title n="4">Ex literis R. P. Martinj Leubestianj Collegii Lucernen
-                            Societatis Iesu Rectoris datis Lucerne 3 Augusti 1578</title>
-                        <origPlace>Spain</origPlace>
-                        <origDate notBefore="1568" notAfter="1578">s. XVI</origDate>
-                    </head>
                     <msContents>
-                        <textLang mainLang="la" otherLangs="es">Latin and Spanish</textLang>
+                        <summary>
+                            <title type="supplied">Miscellany</title>
+                        </summary>
+                        <msItem n="1" class="alf">
+                            <locus from="2r" to="47v">2r-47v</locus>
+                            <author key="Pliooo001">Gaius Plinius Secundus (Plinius den
+                                Ældre)</author>
+                            <title type="uniform">Naturalis Historia</title>
+                            <textLang mainLang="la">Latin</textLang>
+                            <rubric>Plinii secundi de naturali historia secundi libri
+                                enarratio</rubric>
+                            <colophon>m. hieronymus munnos sacrarum literarum veteris testamenti
+                                professor</colophon>
+                            <note>Opened by a preface in which the author states his name.</note>
+                            </msItem>
+                        <msItem n="2">
+                            <locus from="50r" to="169v">50r-169v</locus>
+                            <locus from="183r" to="249v">183r-249v</locus>
+                            <title type="supplied">Excerpts from Classical
+                                Authors</title>
+                            <textLang mainLang="la" otherLangs="es">Latin with Spanish</textLang>
+                            <note>alphabetically ordered</note>
+                        </msItem>
+                        <msItem n="3" class="athgr">
+                            <locus from="170r" to="181v">170r-181v</locus>
+                            <author>Antonio Augustin</author>
+                            <title type="supplied">Notes and Jottings</title>
+                            <textLang mainLang="la" otherLangs="es">Latin and Spanish</textLang>
+                        </msItem>
+                        <msItem n="4">
+                            <locus from="251r" to="252v">251r-252v</locus>
+                            <title type="supplied">Ex literis R. P. Martini Leubestiani Collegii
+                                Lucernensis</title>
+                            <rubric>Ex literis R. P. Martinj Leubestianj Collegii <lb/> Lucernen
+                                Societatis Iesu Rectoris datis Lucerne <lb/>
+                                <date when="1578-09-03">3 Augusti 1578</date></rubric>
+                            <textLang mainLang="la">Latin</textLang>
+                        </msItem>
                     </msContents>
+
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
@@ -56,17 +84,25 @@
                         </bindingDesc>
                     </physDesc>
                     <history>
-                        <provenance><p>The manuscript was in the possession of <name type="person" key="CorLer001">Cornelius Pedersen Lerche</name> at the time of
+                        <origin notBefore="1568"
+                            notAfter="1578"><origPlace>Spain</origPlace>, <origDate notBefore="1568"
+                                notAfter="1578">1568-1578</origDate>.</origin>
+                        <provenance>
+                            <p>The manuscript was in the possession of <name type="person"
+                                    key="CorLer001">Cornelius Pedersen Lerche</name> at the time of
                                 his death and is mentioned in the 1682 auction catalogue under
-                                quarto manuscripts as no. 11 (See <bibl><ref type="secondary-2" target="CPLKat">Catalogus, p.
-                            166-167</ref></bibl>).</p></provenance>
+                                quarto manuscripts as no. 11 (See <bibl><ref type="secondary-2"
+                                        target="CPLKat">Catalogus</ref><biblScope unit="page"
+                                        >166-167</biblScope></bibl>).</p>
+                        </provenance>
                         <acquisition>There is no record of acquisition.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source> This manuscript is currently being catalogued. Last updated
-                                    on <date when="2019-03-31"/> by <name type="person" key="KivYav001">N. Kıvılcım Yavuz</name>. </source>
+                                    on <date when="2019-03-31"/> by <name type="person"
+                                        key="KivYav001">N. Kıvılcım Yavuz</name>. </source>
                             </recordHist>
                         </adminInfo>
                         <listBibl>
@@ -85,6 +121,9 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-10-08" who="EvaWed001">Updated markup.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

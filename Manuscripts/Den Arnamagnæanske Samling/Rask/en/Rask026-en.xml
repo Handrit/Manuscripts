@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,49 @@
                      <idno>2597</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Jómsvíkinga saga</title>
-                  <origPlace>Iceland/Denmark?</origPlace>
-                  <origDate notBefore="1800" notAfter="1832">s. XIX in.</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                <msContents>
+                  <summary><title type="uniform">Jómsvíkinga saga</title></summary>
+                   <textLang mainLang="is">Icelandic</textLang>
+                   <msItem n="1" class="kon">
+                     <title type="uniform">Jómsvíkinga saga</title>
+                      <rubric>Her hefr upp Jómsvíkínga savgu</rubric>
+                     <filiation>Copy of  <ref type="ms">Holm perg 7 4to</ref></filiation>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>34. 
-<dimensions type="leaf" scope="all">
-                              <height>208</height>
-                              <width>166</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>34. <dimensions type="leaf" scope="all">
+                              <height unit="mm">208</height>
+                              <width unit="mm">166</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribe="RasRas001" script="unknown">
+                        <p>Written by <name type="person" key="RasRas001">Rasmus Rask</name>.</p>
+                     </handNote>
+                  </handDesc>
                </physDesc>
+               <history><origin><origPlace>Sweden or Denmark</origPlace>,
+                  <origDate notBefore="1800" notAfter="1815">s. XIX in</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">517</biblScope>
+                     </bibl>
+                     <bibl>Þórdís Edda Jóhannesdóttir &amp; Veturliði Óskarsson, <ref
+                        target="ÞórJóh2014a">The manuscripts of Jómsvíkinga saga</ref>
+                        <biblScope unit="page">18</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-11" who="EvaWed001">Checked and updated.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

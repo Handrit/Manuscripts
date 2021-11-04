@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,13 +23,14 @@
                      <idno>2644</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Minnisblöð</title>; <origPlace>Island</origPlace>, <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>.</head>
                <msContents>
-                  <msItem>
-                     <title type="supplied">Bibelcitater, teologiske optegnelser m.v.</title>
+                  <summary><title type="supplied">Teologiske tekster</title>. Indeholder
+                     bibelcitater, teologiske optegnelser mm., som er nedskrevet til grundlag for
+                     prædikener i embeds medfør.</summary>
+                  <msItem n="1" class="bibl gudfr pred">
+                     <author key="JonMag008">Jón Magnússon</author>
+                     <title type="supplied">Teologiske tekster</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <note>Autograf</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -39,27 +41,42 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>154 blade og sedler. <dimensions type="leaf" scope="all">
-                              <height>197</height>
-                              <width>158</width>
+                              <height unit="mm">197</height>
+                              <width unit="mm">158</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scope="major" scribe="JonMag10" script="unknown">
-                        <p>Skrevet af præsten Jón Magnússon fra Laufás.</p>
+                     <handNote scope="major" scribe="JonMag008" script="unknown">
+                        <p><name type="person" key="JonMag008">Forfatteren</name>s autograf.</p>
                      </handNote>
                   </handDesc>
+                  <additions>På bl. 9r har <name type="person" key="RasRas001">Rask</name> skrevet
+                     en notits om forfatteren.</additions>
                   <bindingDesc>
                      <binding contemporary="unknown">
-                        <p>Oprindeligt indbundet med beskrevet og med nodetegn forsynet pergament fra et
-                    latinsk ritualhåndskrift, nu <ref type="ms">Access. 7b, Hs 20, 69 og
-                137</ref>.</p>
+                        <p>Oprindeligt indbundet med beskrevet pergament forsynet med nodetegn fra
+                           et latinsk håndskrift med liturgiske tekster, nu <ref type="ms"
+                              target="#Acc-0007-b-da">Access. 7b, Hs 20, 69 og 137</ref>.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1600" notAfter="1699"
+                        >s. XVII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">543</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-25" who="EvaWed001">Opdateret indhold og opmærkning.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

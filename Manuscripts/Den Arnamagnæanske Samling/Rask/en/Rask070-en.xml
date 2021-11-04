@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,60 @@
                      <idno>2644</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Minnisblöð</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Theological Texts</title>. Contains Bible quotes,
+                     theological notes etc. written down forming the basis of sermons used in the
+                     line of duty.</summary>
+                  <msItem n="1" class="bibl gudfr pred">
+                     <author key="JonMag008">Jón Magnússon</author>
+                     <title type="supplied">Theological Texts</title>
+                     <textLang mainLang="is">Icelandic</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>154. 
-<dimensions type="leaf" scope="all">
-                              <height>197</height>
-                              <width>158</width>
-                           </dimensions>
-                        </extent>
+                        <support>
+                           <p>
+                              <material>Paper</material>.</p>
+                        </support>
+                        <extent>154 leaves and slips. <dimensions type="leaf" scope="all">
+                              <height unit="mm">197</height>
+                              <width unit="mm">158</width>
+                           </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scope="major" scribe="JonMag008" script="unknown">
+                        <p>The <name type="person" key="JonMag008">author</name>'s autograph.</p>
+                     </handNote>
+                  </handDesc>
+                  <additions>On fol. 9r <name type="person" key="RasRas001">Rask</name> added a note
+                     about the author.</additions>
+                  <bindingDesc>
+                     <binding contemporary="unknown">
+                        <p>The boards were originally covered with parchment containing liturgical texts and notes from 
+                          a Latin manuscript, now <ref type="ms"
+                              target="#Acc-0007-b-en">Access. 7b, Hs 20, 69 og 137</ref>.</p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1600" notAfter="1699"
+                        >s. XVII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">543</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-25" who="EvaWed001">Updated content and markup.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

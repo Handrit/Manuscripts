@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,61 @@
                      <idno>2657</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Kvæði eptir Stefán Ólafsson</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1800" notAfter="1830">s. XIX in.</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Kvæði Stefáns Ólafssonar</title>.</summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">Kvædi <lb/> þe&#x017F;s nafnfræga þiód&#x017F;kálds
+                           <lb/> Sra. Steffáns Ólafs&#x017F;onar <lb/> á <lb/> Vallanesi </titlePart>
+                        <note>Tilføjet af <name type="person" key="RasRas001">Rask</name>.</note>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="kvad">
+                     <author key="SteOla004">Stefán Ólafsson</author>
+                     <title type="supplied">Kvæði Stefáns Ólafssonar</title>
+                     <textLang mainLang="is">Icelandic</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>172. 
-<dimensions type="leaf" scope="all">
-                              <height>167</height>
-                              <width>100</width>
-                           </dimensions>
-                        </extent>
+                        <support>
+                           <p>
+                              <material>Paper</material>.</p>
+                        </support>
+                        <extent>172. Fols 1v-3v, 4v-8v, 172v are blank. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">167</height>
+                              <width unit="mm">100</width>
+                           </dimensions>.</extent>
+                        <foliation>
+                           <p>Irrgularly pagination: 1-366.</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
+                  <additions><p>Four leaves written by <name type="person" key="HalSch001">H.
+                           Scheving</name> on <q>innihald bokarin<ex>n</ex>ar</q> were added to the
+                        codex.</p>
+                     <p><name type="person" key="RasRas001">Rask</name>
+                        copied one of the poems on a loose leaf.</p></additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland?</origPlace>, <origDate notBefore="1800" notAfter="1815"
+                        >s. XIX in</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >547</biblScope></bibl>
+                     <bibl><ref target="SteOla1885a">Kvæði eptir Stefán Ólafsson</ref><biblScope
+                           unit="page">xi</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-29" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

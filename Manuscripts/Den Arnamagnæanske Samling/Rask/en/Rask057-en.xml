@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,33 +22,59 @@
                      <idno>2631</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Bréfabók Páls lögmanns Vídalíns</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1722-01-01" notAfter="1722-12-31">1722</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Bréfabók Páls lögmanns Vídalíns, 1722</title></summary>
+                  <msItem n="1" class="brefab">
+                     <title type="supplied">Bréfabók Páls lögmanns Vídalíns, 1722</title>
+                     <textLang mainLang="is"/>
+                     <note>Among the content letters to <name type="person"
+                        key="ArnMag001">Árni Magnússon</name> can be noted.</note>
+                     <msItem n="1.1">
+                        <locusGrp>
+                           <locus from="357r" to="357v">357r-v</locus>
+                           <locus from="359v" to="359v">359v</locus>
+                        </locusGrp>
+                        <title type="supplied">Indices</title>
+                        <note>Fragments.</note>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>359. 
-<dimensions type="leaf" scope="all">
-                              <height>213</height>
-                              <width>170</width>
-                           </dimensions>
+                        <support><material>Paper</material>.</support>
+                        <extent>359. Ff. 353v-356 and 358-359r are blank. <dimensions type="leaf" scope="all">
+                           <height unit="mm">213</height>
+                           <width unit="mm">170</width>
+                        </dimensions>
                         </extent>
+                        <foliation>
+                           <p>An irregular pagination (1-610) exists.</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="minor" scribe="PalJon005" script="unknown">
+                        <p>Partly the author's autograph.</p>
+                     </handNote>
+                  </handDesc>
+                  <additions>Ff. 301, 341 are loose leaves, inserted after pp. 134 and 424.</additions>
                </physDesc>
+               <history><origin><origPlace
+                  >Iceland</origPlace>, <origDate when="1722">1722</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat"/><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">538</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+      <revisionDesc>
+         <change when="2021-10-11" who="EvaWed001">Updated markup.</change>
+      </revisionDesc>
+       </teiHeader>
    <facsimile>
       <surface/>
    </facsimile>

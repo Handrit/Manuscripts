@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,213 @@
                      <idno>2664</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Rímur, Kvæði, Vísur and Psálmar</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1700" notAfter="1830">1700-1830</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Collection of Poetic Texts</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <msItem n="1" class="rimur" defective="true">
+                     <locus from="1r" to="21r">1r-21r</locus>
+                     <title type="uniform">Valdimars rímur</title>
+                     <!-- Kålund's title is this  'Rímur af Valdimar frækna'? -->
+                     <incipit defective="true">yta þar. urdu lofenu tyna</incipit>
+                     <note>Catchword: <q>Valdimars rímur</q>. Eight <foreign xml:lang="is"
+                           >rímur</foreign> cantos. Begins defectively.</note>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="22r" to="85v">22r-85v</locus>
+                     <author key="GudBer001">Guðmundur Bergþórsson</author>
+                     <title type="uniform">Bósarímur</title>
+                     <rubric>Bósa rímur kveðnar af Guðmundi Bergþórssyni</rubric>
+                     <note>Fifteen <foreign xml:lang="is">rímur</foreign> cantos.</note>
+                  </msItem>
+                  <msItem n="3" class="rimur">
+                     <locus from="86r" to="105v">86r-105v</locus>
+                     <title type="uniform">Grobbians rímur</title>
+                     <rubric>Grobbians Rímr S<hi rend="sup">r</hi> I. MS.</rubric>
+                     <note>Four <foreign xml:lang="is">rímur</foreign> cantos.</note>
+                  </msItem>
+                  <msItem n="4" class="rimur" defective="true">
+                     <locus from="106r" to="114v">106r-114v</locus>
+                     <author key="GudBer001">Guðmundur Bergþórsson</author>
+                     <title type="uniform">Finnboga rímur</title>
+                     <note>A fragment consisting of seven badly worn leaves put inside a cover, made
+                        up of two conjoint leaves containing some stanzas of some hymns in
+                        Icelandic. The <foreign xml:lang="is">rímur</foreign>, including an
+                        autobiographical fragment, contains parts of the second and third <foreign
+                           xml:lang="is">rímur</foreign> cantos.</note>
+                  </msItem>
+                  <msItem n="5" class="rimur" defective="true">
+                     <locus from="115r" to="120v">115r-120v</locus>
+                     <author key="HalPet001">Hallgrímur Pétursson</author>
+                     <title type="uniform">Króka-Réfs rímur</title>
+                     <note>A fragment; starting in the third <foreign xml:lang="is">rímur</foreign>
+                        canto and ending in the fifth. There is a lacuna after fol 117.</note>
+                  </msItem>
+                  <msItem n="6" class="rimur" defective="true">
+                     <locus from="121r" to="126v">121r-126v</locus>
+                     <title type="uniform">Ekkju ríma</title>
+                     <incipit>Ecju Ryma</incipit>
+                     <note>Ends defectively.</note>
+                  </msItem>
+                  <msItem n="7" class="rimur">
+                     <locus from="127r" to="134v">127r-134v</locus>
+                     <title type="uniform">Biðils ríma</title>
+                     <rubric>Ryma <lb/> af Einum<ex>m</ex> Bidle</rubric>
+                  </msItem>
+                  <msItem n="8" class="kvad">
+                     <locus from="135r" to="142r">135r-142r</locus>
+                     <author key="ThoRog001">Þorvaldur Rögnvaldsson</author>
+                     <title type="supplied">Grisíldarkvæði</title>
+                     <rubric>kvædi af Grísilldi þolin<ex>n</ex>
+                        <lb/> modu</rubric>
+                  </msItem>
+                  <msItem n="9" class="kvad">
+                     <locus from="142v" to="144v">142v-144v</locus>
+                     <title type="uniform">Þolinmæðikvæði</title>
+                     <rubric>Qvædi um<ex>m</ex> Þolin<ex>n</ex>mædina</rubric>
+                  </msItem>
+                  <msItem n="10" class="kvad draum">
+                     <locus from="145r" to="152v">145r-152v</locus>
+                     <title type="uniform">Kötludraumur</title>
+                     <rubric>Kotlu Draumur</rubric>
+                  </msItem>
+                  <msItem n="11" class="kvad draum">
+                     <locus from="153r" to="156r">153-156r</locus>
+                     <title type="uniform">Bergbúavísur</title>
+                     <rubric>Hallmundar Qvid<lb/>a Edur hans Tolf Flo<lb/>cka vïsur</rubric>
+                  </msItem>
+                  <msItem n="12" class="kvad">
+                     <locus from="157r" to="169v">157r-169v</locus>
+                     <author key="ArnSig003">Árni Sigurðsson</author>
+                     <title type="supplied">Kvæði Árna Sigurðssonar á Skútum</title>
+                  </msItem>
+                  <msItem n="13" class="gamkv">
+                     <locus from="170r" to="175v">170r-175v</locus>
+                     <author key="MagEin008">Magnús Einarsson</author>
+                     <title type="supplied">Gamankvæði</title>
+                     <rubric>F&#xA733;einar gaman<ex>n</ex> vysur <lb/> kvednar af Sal. Sra
+                           M<supplied reason="omitted">agnúsi</supplied> E<supplied reason="omitted"
+                           >inars</supplied> S<supplied reason="omitted">yni</supplied> ä
+                        Tiorn</rubric>
+                  </msItem>
+                  <msItem n="14" class="salm">
+                     <locus from="176r" to="183v">176r-183v</locus>
+                     <author key="JonHja001">Jón Oddsson Hjaltalín</author>
+                     <title type="supplied">Sálmar séra Jóns Hjaltalíns 1775-79</title>
+                     <note>Four hymns.</note>
+                  </msItem>
+                  <msItem n="15" class="kvad">
+                     <locus from="184r" to="230v">184r-230v</locus>
+                     <author key="BryBry001">Brynjólfur Brynjólfsson</author>
+                     <author key="SteOla004">Stefán Ólafsson</author>
+                     <author key="IslAsg001">Ísleifur Ásgrímsson</author>
+                     <author key="DavJon001">Davíð Jónsson</author>
+                     <author key="BenHan002">Benedikt Hannesson</author>
+                     <author key="PalJon005">Páll Vídalín</author>
+                     <author key="GudBer001">Guðmundur Bergþórsson</author>
+                     <author key="VigJon012">Vigfús Jónsson</author>
+                     <author key="HalPet001">Hallgrímur Pétursson</author>
+                     <author key="HalEld001">Hallgrímur Eldjárnsson</author>
+                     <author key="PalOla001">Páll skáldi</author>
+                     <author key="ThoGis004">Þorsteinn Gissurarson</author>
+                     <title type="supplied" xml:lang="da">Digte</title>
+                     <note>Including a text in prose and a table of contents by <name type="person"
+                           >Rasmus Rask</name> preceding the content. The outer leaves serve as a
+                        cover and on the back cover, fol. 184, Rasmus Rask wrote a few notes in
+                        Icelandic. </note>
+                  </msItem>
+                  <msItem n="16">
+                     <locus from="231r" to="231v">231r-v</locus>
+                     <author key="ThoSve006">Þórður Sveinbjörnsson</author>
+                     <title type="supplied">Ávarp</title>
+                     <rubric>Ávarp Ólafs Sögu <lb/> Til <lb/> Lensenda og heirenda</rubric>
+                  </msItem>
+                  <msItem n="17">
+                     <locus from="232r" to="235r">232r-235r</locus>
+                     <title type="supplied">Brúðkaupsvísur</title>
+                     <respStmt>
+                        <resp key="dte"/>
+                        <name type="person" key="PetSve001">Séra Pétur Sveinsson</name>
+                     </respStmt>
+                     <respStmt>
+                        <resp key="dte"/>
+                        <name type="person" key="ThoBer001">Þorbjörg Bergsdóttir</name>
+                     </respStmt>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>235. 
-<dimensions type="leaf" scope="all">
-                              <height>168</height>
-                              <width>107</width>
-                           </dimensions>
-                        </extent>
+                        <support>
+                           <p>
+                              <material>Paper</material>.</p>
+                        </support>
+                        <extent>235. A few pages and leaves are blank. Some of the leaves consist of
+                           inserted leaves. <dimensions type="leaf" scope="all">
+                              <height unit="mm">168</height>
+                              <width unit="mm">107</width>
+                           </dimensions>.</extent>
+                        <condition>
+                           <p>Ff. 106-114 are badly worn. An older foliation suggests that a leaf is
+                              missing at the beginning of the manuscript.</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <summary>Various hands.</summary>
+                     <handNote script="unknown" scribe="EinHal001">With the exception of a newer
+                        addition, fols 86-105 are written by Rev. <name type="person"
+                           key="EinHal001">Einar Hálfdanarson</name>.</handNote>
+                     <handNote script="unknown" scribe="BogBen001">Fols 127r-134v are written by
+                           <name type="person" key="BogBen001">Bogi Benediktsson</name>.</handNote>
+                     <handNote script="unknown">Fols 153r-156r are written by one of <name
+                           type="person" key="ArnMag001">Árni Magnússon</name>'s
+                        copyists.</handNote>
+                     <handNote script="unknown" scribe="ArnSig003">Fols 157r-169v are possibly the
+                        author, <name type="person" key="ArnSig003">Árni Sigurðsson</name>'s
+                        authograph.</handNote>
+                     <handNote script="unknown">Fols. 184r-230v are written by <name type="person"
+                           key="HalDav001">Halldór Davíðsson</name> of Hof in Öræfi (see fols 225v,
+                        226, 228v (secret code), 229v).</handNote>
+                     <handNote script="unknown">Fol. 231 is the author, <name type="person"
+                           key="ThoSve006">Þórður Sveinbjarnarson</name>'s autograph.</handNote>
+                  </handDesc>
                </physDesc>
+               <history>
+                  <origin notBefore="1700" notAfter="1815">
+                     <origPlace>Iceland</origPlace>, <origDate notBefore="1700" notAfter="1815"
+                        >1700-1815</origDate>. Some of the texts are provided with information about
+                     the scribe and the origin of the particular text. <list>
+                        <item n="1">Fols 1r-21r are written <date when="1769-01-10">10 January
+                              1769</date>: <q><supplied>E</supplied>ndad ad Holtum þan<ex>n</ex>
+                              <date when="1769-01-18">18 Januari 1769</date> af
+                           <gap/>syne</q>.</item>
+                        <item n="2">On fol. 31 a newer addition to item 2 is dated <date when="1807"
+                              >1807</date>.</item>
+                        <item n="3">Fols 127r-134v are written by Bogi Benediktsson in <date
+                              when="1803">1803</date> (On fol. 134 Rasmus Rask gives some information
+                           on the author).</item>
+                        <item n="4">Fols 145r-152v are written <date when="1802-10-20"
+                              >20 Octtober 1802</date> (<q>skrifad a Hnappavollum þan<ex>n</ex> 30
+                              october 1802 af SMS</q>). </item>
+                        <item n="5">Fols 184r-230v are written in the <date notBefore="1800"
+                              notAfter="1815">beginning of the nineteenth century</date>.</item>
+                     </list></origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >551-553</biblScope></bibl>
+                     <bibl>Jón Þorkelsson, <ref target="JonThork1888">Om digtningen på
+                           Island</ref><biblScope unit="page">255, 311, 338</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-11-01" who="EvaWed001">Updated and added content from KKKat.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

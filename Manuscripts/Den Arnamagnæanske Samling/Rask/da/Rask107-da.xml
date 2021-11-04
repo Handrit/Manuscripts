@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,43 +23,41 @@
                      <idno>2683</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Guðfræðisrit Páls
-            prófasts Björnssonar í Selárdal, II</title>; <note>Teologisk
-            manuskript</note>
-                  <origPlace>Island</origPlace>, <origDate notBefore="1700" notAfter="1799">s.
-        XVIII</origDate>.</head>
                <msContents>
-                  <msItem n="1">
-                     <locus from="1" to="70">1-70</locus>
+                  <summary><title type="supplied">Guðfræðisrit Páls prófasts Björnssonar í Selárdal,
+                        II</title>.</summary>
+                  <msItem n="1" class="gudfr">
+                     <locus from="1r" to="70v">1r-70v</locus>
                      <title type="supplied" xml:lang="la">Crux eloqvens</title>
-                     <title type="supplied" xml:lang="da">7 sidste ord Christs på kors</title>
+                     <title type="supplied" xml:lang="da">Kristus sidste 7 ord på korset</title>
                      <textLang mainLang="is" otherLangs="la">Islandsk og latin</textLang>
-                     <note>Med en 1699 dat. fortale og ufuldendt titel</note>
+                     <note>Med en fortale, dateret <date when="1699">1699</date> og en ufuldendt
+                        titel</note>
                   </msItem>
-                  <msItem n="2">
-                     <locus from="71" to="106">71-106</locus>
-                     <title type="supplied">Noder on bededagen</title>
+                  <msItem n="2" class="gudfr">
+                     <locus from="71r" to="106v">71r-106v</locus>
+                     <title type="supplied">Memorandum til bededagen</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>ϓΠOMͶHMATΛ
-                edur Minnes Schedell til Textans Vors Bænadags</rubric>
-                     <note>Med efterfølgende <q xml:lang="is">Evangelium Bænadagsins</q>
+                     <rubric>'ϓΠΟϺΝΗϺΑΤΑ edur Minnes Schedell til Textans Vors Bænadags</rubric>
+                     <note>Med efterfølgende <title type="supplied">Evangelium Bænadagsins</title>
                      </note>
                   </msItem>
-                  <msItem n="3">
-                     <locus from="108" to="172">108-172</locus>
-                     <title type="supplied">Homilie til den 51. salme Davids</title>
+                  <msItem n="3" class="pred">
+                     <locus from="108r" to="172v">108r-172v</locus>
+                     <title type="supplied">Prædiken til Davidssalme nr. 51</title>
                      <textLang mainLang="is" otherLangs="la">Islandsk og latin</textLang>
-                     <rubric>Triental miseriæ et gratiæ, þ eru
-            þriär Homiliæ in Psalmum LI Davidis</rubric>
+                     <rubric>Triental miseriæ et gratiæ, þad eru &#x00DE;riär Homiliæ in Psalmum LI
+                        Davidis</rubric>
                   </msItem>
-                  <msItem n="4">
-                     <locus from="173" to="190">173-190</locus>
-                      <textLang mainLang="is">Islandsk</textLang>
+                  <msItem n="4" class="pred lofts">
+                     <locus from="173r" to="190v">173r-190v</locus>
+                     <title type="supplied">Prædiken om kometen i 1680</title>
+                     <textLang mainLang="is">Islandsk</textLang>
                      <rubric>De cometa 1680</rubric>
                   </msItem>
-                  <msItem n="5">
-                     <locus from="191" to="210r">191-210r</locus>
+                  <msItem n="5" class="pred">
+                     <locus from="191r" to="210r">191r-210r</locus>
+                     <title type="supplied">Homilie</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <rubric>Homilia ex textu Num. 21</rubric>
                   </msItem>
@@ -70,21 +69,33 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>210. Bl. 107, 108v, 210v ubeskr. <dimensions type="leaf" scope="all">
-                              <height>160</height>
-                              <width>101</width>
+                        <extent>210. Bl. 107, 108v, 210v ubeskrevet. <dimensions type="leaf" scope="all">
+                              <height unit="mm">160</height>
+                              <width unit="mm">101</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scribe="AsgBja01" scope="major" script="unknown">
-                        <p>Hovedsagelig skrevet af præsten Ásgeir Bjarnason.</p>
+                     <handNote scribe="AsgBja001" scope="major" script="unknown">
+                        <p>Hovedsagelig skrevet af præsten <name type="person" key="AsgBja001"
+                              >Ásgeir Bjarnason</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1700" notAfter="1799"
+                        >s. XVIII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">559</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-18" who="EvaWed001">Opdateret opmærkning og indhold.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>
