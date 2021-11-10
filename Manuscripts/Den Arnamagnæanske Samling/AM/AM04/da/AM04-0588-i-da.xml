@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,21 @@
                      <idno>1474</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Mǫttuls saga</title>
-                  <origPlace>Island</origPlace>
-                  <origDate notBefore="1675" notAfter="1699">s. XVII 4/4</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform">Mǫttuls saga</title></summary>
+                  <msItem n="1" class="ridd">
                      <locus from="1r" to="5r">1r-5r</locus>
                      <title type="uniform">Mǫttuls saga</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <incipit>Hier hefur Mottuls þätt</incipit>
-                     <bibl>Kalinke <ref type="primary-1" target="EA-B30">Mǫttuls
-                           saga</ref>
-                        <biblScope unit="pages">3-69: højresiderne, nederste
-                           tekst</biblScope>
+                     <bibl>Kalinke: <ref type="primary-1" target="EA-B30">Mǫttuls saga</ref>
+                        <biblScope unit="pages">3-69: højresiderne, nederste tekst</biblScope>
                         <note>Udg. A3</note>
                      </bibl>
                   </msItem>
-                  <msItem>
-                     <locus>5v</locus>
-                     <title type="supplied">Vers om Mǫttuls þáttur</title>
+                  <msItem n="2" class="laus">
+                     <locus from="5v" to="5v">5v</locus>
+                     <title type="supplied">Vers om Mǫttuls þáttr</title>
                      <note>Fire linjer.</note>
                   </msItem>
                </msContents>
@@ -62,32 +57,36 @@
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scribe="MagOla001" scope="sole" script="unknown">Skrevet af Magnús
-                        Ólafsson fra <name type="place" key="BrúHof01">Brúarland</name>.</handNote>
+                     <handNote scribe="MagOla001" scope="sole" script="unknown">Skrevet af <name
+                           type="person" key="MagOla001">Magnús Ólafsson</name> fra <name
+                           type="place" key="BrúHof01">Brúarland</name>.</handNote>
                   </handDesc>
-                  <additions>Foraatsbladet indeholder en lignende meddelelse af <name type="person" key="ArnMag001">Arne Magnusson</name> som <ref type="ms" target="AM04-0588-a-da">AM 588 a 4to</ref> angående afskriveren og det
-                     forlæg han benyttede; denne original var atter skrevet <q xml:lang="is">ordrett
-                        epter rotnu pappirs exemplare, hvert ſidan<ex>n</ex>
-                        meinaſt interciderad hafa</q>.</additions>
+                  <additions>Forsatsbladet indeholder en meddelelse af <name type="person"
+                        key="ArnMag001">Arne Magnusson</name> som ligner den i <ref type="ms"
+                        target="AM04-0588-a-da">AM 588 a 4to</ref>. Notitsen angår afskriveren og det
+                     forlæg han benyttede; denne original var også skrevet <q xml:lang="is">ordrett
+                        epter rotnu pappirs exemplare, hvert ſidan<ex>n</ex> meinaſt interciderad
+                        hafa</q>.</additions>
                </physDesc>
                <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1675" notAfter="1699"
+                        >s. XVII<hi rend="sup">4/4</hi></origDate></origin>
                   <acquisition> Ligesom <ref type="ms" target="AM04-0588-a-da">AM 588 a 4to</ref> er
-                     dette håndskrift erhvervet <date when="1703">1703</date> fra <name type="person" key="MagMar001">Magnús Markusson</name>
+                     dette håndskrift erhvervet <date when="1703">1703</date> fra <name
+                        type="person" key="MagMar001">Magnús Markusson</name>
                      <q xml:lang="la">Aliis Skickiu Saga dicitur</q>
                   </acquisition>
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Cederschiöld og Wulff:
-                        <ref target="Mottul1877">Möttuls saga</ref>
+                     <bibl>Cederschiöld og Wulff: <ref target="Mottul1877">Möttuls saga</ref>
                         <biblScope unit="pages">39</biblScope>
                      </bibl>
-                     <bibl>Gísli Brynjólfsson:
-                        <ref target="Trist1878">Saga af Tristram ok Ísönd samt Möttuls saga</ref>
+                     <bibl>Gísli Brynjólfsson: <ref target="Trist1878">Saga af Tristram ok Ísönd
+                           samt Möttuls saga</ref>
                         <biblScope unit="pages">418</biblScope>
                      </bibl>
-                     <bibl>Kalinke <ref type="secondary-1" target="EA-B30">Mǫttuls
-                           saga</ref>
+                     <bibl>Kalinke: <ref type="secondary-1" target="EA-B30">Mǫttuls saga</ref>
                         <biblScope unit="pages"/>
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,29 +23,73 @@
                      <idno>1474</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Möttuls saga</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1685" notAfter="1699">s. XVII ex.</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <msContents>
+                  <summary><title type="uniform">Mǫttuls saga</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="5r">1r-5r</locus>
+                     <title type="uniform">Mǫttuls saga</title>
+                     <incipit>Hier hefur Mottuls þätt</incipit>
+                     <bibl>Kalinke, <ref type="primary-1" target="EA-B30">Mǫttuls saga</ref>
+                        <biblScope unit="pages">3-69: højresiderne, nederste tekst</biblScope>
+                        <note>Udg. A3</note>
+                     </bibl>
+                  </msItem>
+                  <msItem n="2" class="laus">
+                     <locus from="5v" to="5v">5v</locus>
+                     <title type="supplied">Vers om Mǫttuls þáttr</title>
+                     <note>Fire linjer.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>5. 
-<dimensions type="leaf" scope="all">
-                              <height>208</height>
-                              <width>166</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>5. <dimensions type="leaf" scope="all">
+                              <height unit="mm">208</height>
+                              <width unit="mm">166</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scribe="MagOla001" scope="sole" script="unknown">Written by <name
+                           type="person" key="MagOla001">Magnús Ólafsson</name> fra <name
+                           type="place" key="BrúHof01">Brúarland</name>.</handNote>
+                  </handDesc>
+                  <additions>The flyleaf contains a note written by <name type="person"
+                        key="ArnMag001">Árni Magnússon</name>, as the note in <ref type="ms"
+                        target="AM04-0588-a-da">AM 588 a 4to</ref> it is concerning the scribe and
+                     his source text, which was also copied <q xml:lang="is">ordrett epter rotnu pappirs
+                        exemplare, hvert ſidan<ex>n</ex> meinaſt interciderad hafa</q>.</additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1675" notAfter="1699"
+                        >s. XVII<hi rend="sup">4/4</hi></origDate></origin>
+                  <acquisition>Like <ref type="ms" target="AM04-0588-a-da">AM 588 a 4to</ref>, Árni
+                     Magnússon purchased the manuscript in <date when="1703">1703</date> of <name
+                        type="person" key="MagMar001">Magnús Markusson</name>
+                     <q xml:lang="la">Aliis Skickiu Saga dicitur</q>.
+                  </acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Cederschiöld og Wulff, <ref target="Mottul1877">Möttuls saga</ref>
+                        <biblScope unit="pages">39</biblScope>
+                     </bibl>
+                     <bibl>Gísli Brynjólfsson, <ref target="Trist1878">Saga af Tristram ok Ísönd
+                           samt Möttuls saga</ref>
+                        <biblScope unit="pages">418</biblScope>
+                     </bibl>
+                     <bibl>Kalinke, <ref type="secondary-1" target="EA-B30">Mǫttuls saga</ref>
+                        <biblScope unit="pages"/>
+                     </bibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">751</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
