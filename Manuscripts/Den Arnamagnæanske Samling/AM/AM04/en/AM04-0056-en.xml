@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,16 +23,12 @@
                             <idno>699</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Landslǫg and réttarbœtr</title>;
-                        <origPlace>Norway</origPlace>,
-                        <origDate notBefore="1290" notAfter="1310">c. 1300</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="supplied">Landslǫg and réttarbœtr</title></summary>
                         <msItem n="1" class="log">
                             <locus from="1ar" to="76bv">1ar-75bv</locus>
-                            <title>Landslǫg</title>
-                            <textLang mainLang="no">Old Norse/Norwegian</textLang>
+                            <title type="uniform">Landslǫg</title>
+                            <textLang mainLang="non">Old Norse/Norwegian</textLang>
                             <bibl>
                                 <ref type="primary-2" target="NgL2">Norges gamle Love</ref>
                                 <biblScope unit="volume">II</biblScope>
@@ -41,7 +38,7 @@
                         </msItem>
                         <msItem n="2" class="log">
                             <locus from="75bv" to="76bv">75bv-76bv</locus>
-                            <title>Réttarbœtr</title>
+                            <title type="supplied">Réttarbœtr</title>
                             <rubric>Vm rettar bótr Magnusar ko<expan>non</expan>gs er hann gaf allum
                                 noregs mo<expan>nn</expan>om</rubric>
                             <explicit defective="true">till born ero mat annongar</explicit>
@@ -51,13 +48,13 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
                                 <extent>76 <dimensions type="leaf" scope="all" unit="mm">
                                         <height>277</height>
                                         <width>208</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <collation>
                                     <p>There are 9 gatherings with 8 leaves in each. The 4 loose
                                         leaves presumably formed the 1st part of the 10th
@@ -78,7 +75,8 @@
                         <handDesc>
                             <handNote scribe="ThoHak001" scope="sole" script="unknown">
                                 <p>The name of the first scribe is Thorger<expan>us</expan> Haquini,
-                                    and his hand also occurs in <ref type="ms" target="AM02-0302-en">AM 302 fol</ref></p>
+                                    and his hand also occurs in <ref type="ms" target="AM02-0302-en"
+                                        >AM 302 fol</ref></p>
                             </handNote>
                             <handNote scope="sole" script="unknown">
                                 <p>The hand of the second scribe is from the second half of the
@@ -100,29 +98,33 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1290" notAfter="1310">
-                            <p>The manuscript is written in Norway <origDate>c. 1300</origDate>. This dating
-                                corresponds to the one given by <name type="person" key="GusSto001">Gustav
-                                    Storm</name>
+                            <p>The manuscript is written in <origPlace>Norway</origPlace>
+                                <origDate notBefore="1290" notAfter="1310">c. 1300</origDate>. This
+                                dating corresponds to the one given by <name type="person"
+                                    key="GusSto001">Gustav Storm</name>
                                 <bibl>
-                           <ref type="secondary" target="NgL4">Norges gamle Love indtil
-                                        1387</ref><biblScope unit="volume">IV</biblScope><biblScope unit="pages">539</biblScope></bibl> and Asgaut Steinnes
-                                <bibl>
+                                    <ref type="secondary" target="NgL4">Norges gamle Love indtil
+                                        1387</ref><biblScope unit="volume">IV</biblScope><biblScope
+                                        unit="pages">539</biblScope></bibl> and Asgaut Steinnes <bibl>
                                     <ref type="secondary" target="Steinnes1964">Asgaut Steinnes
                                         1964</ref><biblScope unit="pages">35</biblScope>
-                                </bibl> whereas <name type="person" key="KriKaa001">Kristian Kålund</name> has dated the manuscript
-                                less precisely to the beginning of the fourteenth century.</p>
+                                </bibl> whereas <name type="person" key="KriKaa001">Kristian
+                                    Kålund</name> has dated the manuscript less precisely to the
+                                beginning of the fourteenth century.</p>
                         </origin>
                         <provenance>
                             <p>According to one of the inserted AM-slips the manuscript belonged
                                     to<name type="person" key="AnnKru001">Anna Krukov</name>, and
                                 passed on to<name type="person" key="AndNil001">Anders
-                                Nilssen</name>, mayor in <name type="place">Bergen</name>, who was
-                                married to <name type="person" key="KarTei001">Karine Teiste</name>,
-                                daughter of <name type="person" key="JonTei001">Jon Teiste</name> and
-                                    <name type="person" key="AnnKru001">Anna Krukov</name>. Later on
-                                it belonged to <name type="person" key="HanTie001">Hans
-                                Tieste</name>, Lawman in <name type="place">Stavanger</name>
-                        <date from="1585" to="1591">1585-91</date>, and in <date when="1682">1682</date> to <name type="person" key="Schooo001">M.
+                                    Nilssen</name>, mayor in <name type="place">Bergen</name>, who
+                                was married to <name type="person" key="KarTei001">Karine
+                                    Teiste</name>, daughter of <name type="person" key="JonTei001"
+                                    >Jon Teiste</name> and <name type="person" key="AnnKru001">Anna
+                                    Krukov</name>. Later on it belonged to <name type="person"
+                                    key="HanTie001">Hans Tieste</name>, Lawman in <name type="place"
+                                    >Stavanger</name>
+                                <date from="1585" to="1591">1585-91</date>, and in <date when="1682"
+                                    >1682</date> to <name type="person" key="Schooo001">M.
                                     Schanchius</name>.</p>
                         </provenance>
                     </history>
@@ -135,50 +137,45 @@
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="photography">
-                                    <p>Photographed in <date>1965</date> and in
-                                        <date>1990</date>
-                           </p>
+                                    <p>Photographed in <date>1965</date> and in <date>1990</date>
+                                    </p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
                                 <listBibl>
-                                    <bibl>
-                                        <title type="gmd">microfilm (master)</title>
-                                        <idno>Neg. 851</idno>
-                                        <date>June 1990</date>
+                                    <bibl>Microfilm (master), <idno>Neg. 851</idno>, from
+                                        <date when="1990-06">June 1990</date>
                                     </bibl>
-                                    <bibl>
-                                        <title type="gmd">microfilm (archive)</title>
-                                        <idno>Pos. 770</idno>
-                                        <date> June 1990</date>
+                                    <bibl>Microfilm (archive), 
+                                        <idno>Pos. 770</idno>, from
+                                        <date when="1990-06">June 1990</date>.
                                     </bibl>
-                                    <bibl>
-                                        <title type="gmd">70 mm</title>
-                                        <idno>44</idno>
-                                        <date>1965</date>
+                                    <bibl>70 mm, 
+                                        <idno>44</idno>, from
+                                        <date when="1965">1965</date>
                                     </bibl>
-                                    <bibl>
-                                        <title type="gmd">Diapositive</title>
-                                        <idno>AM 56 4to</idno>
-                                        <date>February 1984</date>
+                                    <bibl>Diapositives from
+                                        <date when="1984-02">February 1984</date>
                                     </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <idno>AM 56 4to</idno>
-                                        <date>October 1965 </date>
+                                    <bibl>Black and white prints from
+                                        <date when="1965-10">October 1965</date>
                                     </bibl>
                                 </listBibl>
                             </p>
                         </surrogates>
                         <listBibl>
+                            <bibl>Kålund, <ref type="secondary" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">375</biblScope>
+                            </bibl>
                             <bibl>
-                        <ref type="secondary-1" target="NgL4">Storm, 1885</ref>, pp.
-                                539-41</bibl>
+                                <ref type="secondary-1" target="NgL4">Storm, 1885</ref>
+                                <biblScope unit="page">539-41</biblScope></bibl>
                             <bibl>
-                        <ref type="secondary" target="ChrVidSkFor14">Storm, 1879</ref>,
-                                pp. 2, 17, 19, 20, 46-47</bibl>
+                                <ref type="secondary" target="ChrVidSkFor14">Storm, 1879</ref>
+                                <biblScope unit="page">2, 17, 19, 20, 46-47</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,31 +23,66 @@
                      <idno>1104</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="en">Ynglinga saga with a Translation into Swedish</title>
-                  <origPlace>Iceland, Denmark or Sweden</origPlace>
-                  <origDate notBefore="1700" notAfter="1715">s. XVIII in.</origDate>
-                  <note>The swedish translation is in Peringskiöld's edition.</note>
-               </head>
                <msContents>
-                  <textLang mainLang="is" otherLangs="se">Icelandic and Swedish</textLang>
+                  <summary><title type="supplied" xml:lang="en">Excerpts from Ynglinga saga and
+                        Egils saga</title> includning a tralstion of 'Ynglinga saga' into
+                     Swedish</summary>
+                  <msItem n="1" class="kon isl">
+                     <locus from="1r" to="3v">1r-3v</locus>
+                     <title type="supplied">Excerpts from Ynglinga saga and Egils saga</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                  </msItem>
+                  <msItem n="2" class="kon">
+                     <locus from="4" to="40">4-40</locus>
+                     <title type="supplied">Ynglinga saga, chapters 38-48</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                  </msItem>
+                  <msItem n="3" class="kon tyd">
+                     <locus from="41r" to="62v">41r-62v</locus>
+                     <title type="supplied">Ynglinga saga, chapters 38-48</title>
+                     <textLang mainLang="sv">Swedish</textLang>
+                     <respStmt>
+                        <resp key="trl"/>
+                        <name type="person" key="JohPer001">Peringskiöld</name>
+                     </respStmt>
+                     <filiation>A copy of Peringskiölds translation into Swedish, published in <date
+                           when="1697">1697</date> (<bibl>
+                           <ref type="primary-3" target="JohPer_Heimskringla1">Heimskringla</ref>
+                        </bibl>)</filiation>
+                  </msItem>
+
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>61. 
-<dimensions type="leaf" scope="all">
-                              <height>198</height>
-                              <width>153</width>
-                           </dimensions>
-                        </extent>
+                        <support><material>Paper</material>.</support>
+                        <extent>61. <dimensions type="leaf" scope="all">
+                               <height unit="mm">198</height>
+                              <width unit="mm">153</width>
+                           </dimensions>.</extent>
+                           <foliation>
+                              <p>Foliated 1-62, leaving out the number 8.</p>
+                           </foliation>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland, Denmark or Sweden</origPlace>, <origDate
+                        notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s.
+                           XVIII<hi rend="sup">1/4</hi></origDate></origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope><biblScope unit="page"
+                           >583-584</biblScope></bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>
+   <revisionDesc><change when="2021-11-09" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

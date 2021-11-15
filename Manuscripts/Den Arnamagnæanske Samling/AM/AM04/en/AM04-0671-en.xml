@@ -1,175 +1,316 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="main">AM 667 XVII 4to</title>
-            </titleStmt>
-            <publicationStmt>
-                <authority>Den Arnamagnæanske Samling</authority>
-                <pubPlace>København</pubPlace>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="AM04-0671-en" xml:lang="en">
-                    <msIdentifier>
-                        <country>Denmark</country>
-                        <settlement>København</settlement>
-                        <institution key="AMS"/>
-                        <repository>Den Arnamagnæanske Samling</repository>
-                        <collection key="AM"/>
-                        <idno>AM 667 XVII 4to</idno>
-                        <altIdentifier type="internal" subtype="KKKat">
-                            <idno>1664</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                    <head>
-                        <title type="supplied">Theological and Canon Legal Manuscript</title>;
-                            <origPlace>Iceland</origPlace>, <origDate notBefore="1300" notAfter="1340">s. XIV in (the texts in Latin), c. 1320-1340 (the texts in Icelandic)</origDate>
-                    </head>
-                    <msContents>
-                        <msItem n="1" class="gudfr">
-                            <locus from="1r" facs="#AM04-0671-0001r" to="8v">1r-8v</locus>
-                            <title type="supplied" xml:lang="la">Theologica qvædam</title>
-                            <textLang mainLang="la">Latin</textLang>
-                            <msItem n="1.1">
-                                <title type="uniform">De doctrina salubri</title>
-                            </msItem>
-                            <msItem n="1.2">
-                                <title type="uniform">De die judicii</title>
-                            </msItem>
-                            <msItem n="1.3">
-                                <title type="uniform">De beneficiis dei</title>
-                            </msItem>
-                            <msItem n="1.4">
-                                <title type="uniform">Excerpta moralia e Gregorii et aliorum
-                                    scriptis</title>
-                            </msItem>
-                            <note>Numerous comtemporary marginalia, among these a glossary in
-                                Icelandic on f. 5r can be noted.</note>
-                        </msItem>
-                        <msItem n="2" defective="true" class="gudfr ritg">
-                            <locus from="9r" to="16v">9r-16v</locus>
-                            <title type="uniform">De ordine juris in judico</title>
-                            <textLang mainLang="la">Latin</textLang>
-                            <explicit defective="true">m<ex>ihi</ex> daret. dila<lb/>cione<ex>m</ex>
-                            </explicit>
-                            <note>Marginalia occur occasionally. The dissertation ends in chapter
-                                twelve but from the index on f. 9r it is made clear that it
-                                originally consisted of eighteen chapters.</note>
-                        </msItem>
-                        <msItem n="3" class="embr">
-                            <locus from="17r" facs="#AM04-0671-0017r" to="23v">17r-23v</locus>
-                            <title type="supplied">Biskupa statútur</title>
-                            <msItem n="3.1">
-                                <locus from="17r" to="20v">17r-20v</locus>
-                                <title type="supplied">Statutur Eilífs erkibiskups</title>
-                                <note>To statutter.</note>
-                            </msItem>
-                            <msItem n="3.2">
-                                <locus/>
-                                <title type="uniform">Statuta Jóns Skálholsbiskups</title>
-                            </msItem>
-                            <msItem n="3.3">
-                                <title type="supplied">Regulation on Holidays</title>
-                            </msItem>
-                        </msItem>
-                        <msItem n="4" class="pred">
-                            <locus from="24r" to="25r:22">24r-25r:22</locus>
-                            <title type="suppliex">Ræða á allra heilagra ok allra sálna
-                                messu</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
-                            <bibl>Þorvaldur Bjarnason, <ref type="primary-1" target="Leifar1878">Leifar fornra kristinna fræða Íslenzkra</ref>
-                                <biblScope unit="pages">172:10-175:20</biblScope>
-                            </bibl>
-                        </msItem>
-                        <msItem n="5" class="sendbr">
-                            <locus from="25r" facs="#AM04-0671-0025r" to="26r">25r-26r</locus>
-                            <title type="supplied">Úr 7. brefi Bernardi ábóta af Clairvaux</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
-                            <bibl>Widding and Bekker-Nielsen, <ref type="primary-1" target="Clairvaux1977">Et brev fra Bernhard af Clairvaux</ref>
-                            </bibl>
-                        </msItem>
-                        <msItem n="6" class="gudfr">
-                            <locus from="26r" facs="#AM04-0671-0026r" to="26v">26r-v</locus>
-                            <title type="uniform">Excerpta theologica</title>
-                            <textLang mainLang="la">Latin</textLang>
-                        </msItem>
-                        <msItem n="7" class="klog">
-                            <locus from="27r" facs="#AM04-0671-0027r" to="27v">27r-v</locus>
-                            <title type="uniform">Excerpta juris canonici</title>
-                            <textLang mainLang="la">Latin</textLang>
-                            <note>nederst lses…</note>
-                        </msItem>
-                        <msItem n="8">
-                            <locus from="28r" facs="#AM04-0671-0028r" to="29v">28r-29v</locus>
-                            <title type="uniform">Theologica nonnula</title>
-                            <incipit xml:lang="la">De deo, christo, homine, gracia. penitencia,
-                                contritione, confessione, prudencia, morte, baptizatione</incipit>
-                            <textLang mainLang="la">Latin</textLang>
-                        </msItem>
-                        <msItem n="9">
-                            <locus from="30r" facs="#AM04-0671-30r:1" to="30r">30r</locus>
-                            <title type="uniform">Versus latini de qvatuor temperamentis</title>
-                            <textLang mainLang="la">Latin</textLang>
-                        </msItem>
-                        <msItem n="10">
-                            <locus from="30r" to="31v">30r-31v</locus>
-                            <locus from="30r" facs="#AM04-0671-0030r" to="31v">30r</locus>
-                            <author>Magns Gizurarson and rni orlksson</author>
-                            <note>bl. 30v i nedre margen læses en brevformular, hvorved opfordres til
-                                sammenskud for en trngende familie, i marginen bl. 31r latinske
-                                formularer, bl. 31v efter sidste forordnings slutning et latinsk
-                                stykke <q xml:lang="la">de r<ex>ati</ex>onale</q>.</note>
-                        </msItem>
-                        <msItem n="11">
-                            <locus from="32r" to="33r">32r-33r</locus>
-                            <rubric>exc<ex>er</ex>pta dec<ex>re</ex>tor<ex>um</ex>
-                            </rubric>
-                        </msItem>
-                        <msItem n="12">
-                            <locus from="33v" to="34r:15">33r-34r:15</locus>
-                            <title type="uniform">Ra um hina heilgu kveldmltid</title>
-                            <bibl>
-                                <ref type="primary-1" target="Leifar1878">Leifar fornra kristinna
-                                    fra slenzkra</ref>
-                                <biblScope unit="pages">186-188:11</biblScope>
-                            </bibl>
-                        </msItem>
-                    </msContents>
-                    <physDesc>
-                        <objectDesc form="codex">
-                            <supportDesc material="perg">
-                                <support>
-                                    <p>
-                                        <material>Parchment.</material>
-                                    </p>
-                                </support>
-                                <extent>63, fols 55v and 63v are blank. Up to <dimensions type="leaf" scope="all">
-                                        <height>220</height>
-                                        <width>164</width>
-                                    </dimensions>
-                                </extent>
-                            </supportDesc>
-                            <layoutDesc>
-                                <layout columns="1">
-                                    <p>Written in long lines except from fols 32-33r which have
-                                        double columns.</p>
-                                </layout>
-                            </layoutDesc>
-                        </objectDesc>
-                        <decoDesc>
-                            <decoNote type="initial">
-                                <p>Initials alternating in black and red ink, a single initial is in
-                                    green ink.</p>
-                            </decoNote>
-                        </decoDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
-   	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 671 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0671-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 671 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>1664</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="supplied">Theological and Canonical Legal
+								Manuscript</title></summary>
+						<msItem n="1" class="gudfr">
+							<locus from="1r" facs="#AM04-0671-0001r" to="8v">1r-8v</locus>
+							<title type="supplied" xml:lang="la">Theologica qvædam</title>
+							<textLang mainLang="la">Latin</textLang>
+							<msItem n="1.1">
+								<title type="uniform">De doctrina salubri</title>
+							</msItem>
+							<msItem n="1.2">
+								<title type="uniform">De die judicii</title>
+							</msItem>
+							<msItem n="1.3">
+								<title type="uniform">De beneficiis dei</title>
+							</msItem>
+							<msItem n="1.4">
+								<title type="uniform">Excerpta moralia e Gregorii et aliorum
+									scriptis</title>
+							</msItem>
+							<note>Numerous comtemporary marginalia, among these a glossary in
+								Icelandic on f. 5r can be noted.</note>
+						</msItem>
+						<msItem n="2" defective="true" class="gudfr ritg">
+							<locus from="9r" facs="#AM04-0671-0009r" to="16v">9r-16v</locus>
+							<title type="uniform">De ordine juris in judicio</title>
+							<textLang mainLang="la">Latin</textLang>
+							<explicit defective="true">m<ex>ihi</ex> daret. dila<lb/>cione<ex>m</ex>
+							</explicit>
+							<note>Marginalia occur occasionally. The dissertation ends in chapter
+								twelve but from the index on f. 9r it is made clear that it
+								originally consisted of eighteen chapters.</note>
+						</msItem>
+						<msItem n="3" class="embr">
+							<locus from="17r" facs="#AM04-0671-0017r" to="23v">17r-23v</locus>
+							<title type="supplied">Biskupa statútur</title>
+							<msItem n="3.1">
+								<locus from="17r" facs="#AM04-0671-0017r" to="20v">17r-20v</locus>
+								<title type="supplied">Statútur Eilífs erkibiskups</title>
+								<note>Two statutes.</note>
+								<bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium
+										Islandicum</ref><biblScope unit="volume">II</biblScope><biblScope unit="page">499-500</biblScope><note>Nr. 671.</note></bibl>
+								<bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium
+										Islandicum</ref><biblScope unit="volume">II</biblScope><note>Var.app. F.</note></bibl>
+							</msItem>
+							<msItem n="3.2">
+								<locus from="20v" facs="#AM04-0671-0020v" to="23v">20v-23v</locus>
+								<title type="uniform">Statúta Jóns Skálholsbiskups</title>
+								<bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium
+										Islandicum</ref><biblScope unit="volume">II</biblScope><biblScope unit="page">482-594</biblScope></bibl>
+							</msItem>
+							<msItem n="3.3">
+								<locus from="23v" facs="#AM04-0671-0023v" to="23v">23v</locus>
+								<title type="supplied">Regulation on Holidays</title>
+								<bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium
+										Islandicum</ref><biblScope unit="volume">II</biblScope><biblScope unit="page">594-595</biblScope></bibl>
+							</msItem>
+						</msItem>
+						<msItem n="4" class="pred">
+							<locus from="24r" facs="#AM04-0671-0024r" to="25r:22">24r-25r:22</locus>
+							<title type="suppliex">Ræða á allra heilagra ok allra sálna
+								messu</title>
+							<textLang mainLang="non">Old Norse/Icelandic</textLang>
+							<bibl>Þorvaldur Bjarnason, <ref type="primary-1" target="Leifar1878">Leifar fornra kristinna fræða Íslenzkra</ref>
+								<biblScope unit="pages">172-175</biblScope>
+							</bibl>
+						</msItem>
+						<msItem n="5" class="sendbr">
+							<locus from="25r" facs="#AM04-0671-0025r" to="26r">25r-26r</locus>
+							<title type="supplied">Bréf Bernharðs</title>
+							<textLang mainLang="non">Old Norse/Icelandic</textLang>
+							<bibl>Widding and Bekker-Nielsen, <ref type="primary-1" target="Clairvaux1977">Et brev fra Bernhard af Clairvaux</ref>
+							</bibl>
+						</msItem>
+						<msItem n="6" class="gudfr">
+							<locus from="26r" facs="#AM04-0671-0026r" to="26v">26r-v</locus>
+							<title type="uniform">Excerpta theologica</title>
+							<textLang mainLang="la">Latin</textLang>
+						</msItem>
+						<msItem n="7" class="klog">
+							<locus from="27r" facs="#AM04-0671-0027r" to="27v">27r-v</locus>
+							<title type="uniform">Excerpta juris canonici</title>
+							<textLang mainLang="la">Latin</textLang>
+							<note>At the bottom: <q>Clericus <lb/> eccleſía <lb/> laícus noruegia
+									<lb/> leges <lb/> Exulat <lb/> arguitur <lb/> gaudet <lb/>
+										c<ex>on</ex>funditur <lb/> abſunt</q>.</note>
+						</msItem>
+						<msItem n="8" class="gudfr">
+							<locus from="28r" facs="#AM04-0671-0028r" to="29v">28r-29v</locus>
+							<title type="uniform">Theologica nonnula</title>
+							<incipit xml:lang="la">De deo, christo, homine, gracia. penitencia,
+								contritione, confessione, prudencia, morte, baptizatione</incipit>
+							<textLang mainLang="la">Latin</textLang>
+						</msItem>
+						<msItem n="9" class="kvad">
+							<locus from="30r" facs="#AM04-0671-30r:1" to="30r">30r</locus>
+							<title type="uniform">Versus latini de qvatuor temperamentis</title>
+							<textLang mainLang="la">Latin</textLang>
+						</msItem>
+						<msItem n="10" class="sendbr">
+							<locus from="30r" facs="#AM04-0671-0030r" to="31v">30r-31v</locus>
+							<title type="uniform">Biskupa skipanir</title>
+							<textLang mainLang="non">Norrønt/Islandsk</textLang>
+							<note>In the bottom margin of f. 30v, a letter formula is found
+								containing a request a collection of money for a poor family. In the
+								margin of f. 31r latin formulae are found;on f. 31v, below the last
+								ordinance <q xml:lang="la">de r<ex>ati</ex>onale</q>. Some of the
+								marginalia is published in <bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium Islandicum</ref><biblScope unit="volume">II</biblScope>
+									<biblScope unit="page">647-648</biblScope></bibl>.</note>
+							<respStmt>
+								<resp key="crp"/>
+								<name type="person">Magnús Gissurarson</name>
+							</respStmt>
+							<respStmt>
+								<resp key="crp"/>
+								<name type="person">Árni Þorláksson</name>
+							</respStmt>
+							<bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium
+									Islandicum</ref><biblScope unit="volume">II</biblScope>
+								<biblScope unit="page">435-437</biblScope><note>ff.
+								30r-v</note></bibl>
+							<bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium
+									Islandicum</ref><biblScope unit="volume">II</biblScope>
+								<biblScope unit="page">128-129</biblScope><note>f. 31r</note></bibl>
+						</msItem>
+						<msItem n="11" class="klog">
+							<locus from="32r" facs="#AM04-0671-0032r" to="33r">32r-33r</locus>
+							<title type="supplied">Decretorum excerpta</title>
+							<rubric>exc<ex>er</ex>pta dec<ex>re</ex>tor<ex>um</ex>
+							</rubric>
+						</msItem>
+						<msItem n="12" class="pred">
+							<locus from="33v" facs="#AM04-0671-0033v" to="34r">33v-34r</locus>
+							<title type="uniform">Ræða um hina heilögu kveldmáltíd</title>
+							<bibl>Þorvaldur Bjarnason: <ref type="primary-1" target="Leifar1878">Leifar fornra kristinna fra slenzkra</ref>
+								<biblScope unit="pages">186-188:11</biblScope>
+							</bibl>
+							<note>Followed by a formula for confession (in Icelandic), the rest of
+								the page is blank with the exception of two lines.</note>
+						</msItem>
+						<msItem n="13" class="klog">
+							<locus facs="#AM04-0671-0034v">34v</locus>
+							<msItem n="13.1">
+								<title type="supplied">Traces of Text</title>
+								<note>Various name names for both men and women occur followed by
+									some lines with a smaller script.</note>
+								<textLang mainLang="non">Old Norse/Icelandic</textLang>
+								<note>The first half of the page; the script has been scraped
+									off.</note>
+							</msItem>
+							<msItem n="13.2">
+								<title type="supplied">Statuta Árna biskups</title>
+								<rubric>Ef barn þ<ex>at</ex> er ſkemri ſkirn uar
+									ſk<ex>ir</ex>t</rubric>
+							</msItem>
+							<msItem n="13.3">
+								<title type="supplied">Jus canonicum</title>
+								<textLang mainLang="la">Latin</textLang>
+								<note>Excerpts.</note>
+							</msItem>
+						</msItem>
+						<msItem n="14" class="log">
+							<locus from="35r" facs="#AM04-0671-0035r" to="35v">35r-v</locus>
+							<title type="supplied">Various Legal Notes</title>
+							<textLang mainLang="non">Old Norse/Icelandic</textLang>
+							<bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium
+									Islandicum</ref><biblScope unit="volume">II</biblScope>
+								<biblScope unit="page">43-47, 48, 49</biblScope></bibl>
+							<msItem n="14.1">
+								<title type="supplied">Form of an oath and Form of a
+									<q>grið</q></title>
+							</msItem>
+							<msItem n="14.2">
+								<title type="supplied">Formulae</title>
+							</msItem>
+						</msItem>
+						<msItem n="15" defective="true" class="klog logfr ritg">
+							<locus from="36r" facs="#AM04-0671-0036r" to="39v">36r-39v</locus>
+							<title type="supplied">Summae de casibus</title>
+							<note>
+								<q>Nota sex</q>
+							</note>
+							<textLang mainLang="la">Latin</textLang>
+							<explicit defective="true">ut digit<ex>us</ex></explicit>
+							<note>Written in stanzas which are subsequently explained; several
+								marginalia.</note>
+						</msItem>
+						<msItem n="16" class="klog">
+							<locus from="40r" facs="#AM04-0671-0040r" to="52v">40r-52v</locus>
+							<title type="supplied">Canonical Provisions</title>
+							<textLang mainLang="la">Latin</textLang>
+							<note>Containing quotations from papal briefs, <foreign xml:lang="la">conciliae</foreign> etc.</note>
+						</msItem>
+						<msItem n="17">
+							<locus from="52v" facs="#AM04-0671-0052v" to="55v">52v-55v</locus>
+							<title type="supplied">De vitiis et virtutibus</title>
+							<textLang mainLang="la">Latin</textLang>
+							<note>Stops midpage on fol. 55v.</note>
+						</msItem>
+						<msItem n="18" class="klog logfr">
+							<locus from="56r" facs="#AM04-0671-0056r" to="62v">56r-62v</locus>
+							<title type="supplied">Canonical Reflections</title>
+							<textLang mainLang="la">Latin</textLang>
+							<incipit>Mat<ex>ri</ex>moníum est legítíma <ex>con</ex>iunct<ex>i</ex>o
+								mariſ <ex>et</ex> femíne</incipit>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="perg">
+								<support>
+									<p>
+										<material>Parchment.</material>
+									</p>
+								</support>
+								<extent>63, fols 55v and 63v are blank. Up to <dimensions type="leaf" scope="all">
+										<height unit="mm">220</height>
+										<width unit="mm">164</width>
+									</dimensions>
+								</extent>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1 2">
+									<p>Written in one column, except from fols 32-33r which are
+										written in two columns.</p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<decoDesc>
+							<decoNote type="initial">
+								<p>Initials alternating in black and red ink, a single initial is in
+									green ink.</p>
+							</decoNote>
+						</decoDesc>
+						<accMat>On a slip pasted to the beginning of the manuscript, <name type="person" key="ArnMag001">Árni Magnússon</name> wrote a table of
+							contents. Below he added: <q xml:lang="is">Þetta lä i <name type="place" key="Skálh01">Skalhollte</name> epter Mag. <name type="person" key="ThoTho005">Þord</name>, <ex>og</ex> hafde þar leged um hans
+								tid. öviſt hvert kirkiunne tilheyrt hafi. eda epter orded af
+								ſkrædvun Mag. <name type="person" key="BrySve001">Bryniolfs</name>.
+								I eingu kirkiuregistre finnſt þad</q>. På en anden seddel bemærker
+							han <q>Þeſſe bok er, oefad ſu, fem Sr Olafur kalladi <date when="1699">1699</date>. De judiciis Latinè, med nockrum b<ex>isku</ex>pa
+								Statutum vernaculè. E<ex>ck</ex>i en<ex>n</ex>nu
+							regiſtrerad</q>.</accMat>
+					</physDesc>
+					<history>
+						<origin notBefore="1300" notAfter="1340">Written in
+								<origPlace>Iceland</origPlace>
+							<origDate notBefore="1300" notAfter="1340">between 1300 and
+								1340</origDate>.. The Latin text is written in <origDate notBefore="1300" notAfter="1325" resp="KriVad2015">the beginning of
+								the fourteenth century</origDate> (<bibl><ref target="KriVad2015">Vadum 2015</ref></bibl>). The Old Norse text is written
+								<origDate notBefore="1320" notAfter="1340" evidence="conjecture" resp="EA-B6">c. 1320-1340</origDate>
+							<name type="person" key="SteKar001">Stefán Karlsson</name> (<bibl>
+								<ref type="secondary-1" target="EA-B6">Guðmundar sögur biskups</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">xl, xli</biblScope>
+							</bibl>).</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<bibl>Anderson, <ref target="JoeAnd2012">Dispensation ‘By the Book:’
+									Instrumentality and AM 671 4to</ref></bibl>
+							<!-- 		<bibl>Finnur Jónsson [biskup]: <ref target="HistEcclIsl">Historia
+									Ecclesiastica Islandiæ</ref>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="pages">62</biblScope>
+							</bibl>
+							<bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium
+									Islandicum</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="pages">43-49, 128, 279, 320, 499, 582, 594,
+									647</biblScope>
+							</bibl>  -->
+							<bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">87-89</biblScope></bibl>
+							<bibl>Storm, <ref type="secondary-1" target="NgL4">Norges gamle
+									Love</ref><biblScope unit="volume">IV</biblScope><biblScope unit="pages">606-607</biblScope></bibl>
+							<bibl>Vadum, <ref type="secondary-1" target="KriVad2015">Bruk av
+									kanonistisk litteratur i Nidarosprovinsen ca.
+								1250–1340</ref></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change when="2021-11-11" who="EvaWed001">Updated markup and content.</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0671-accMat01v" n="0">
 			<desc>accMat01v</desc>
 			<graphic mimeType="pdf" url="AM%20671%204to/0/HIGH_QUALITY_DISPLAY"/>

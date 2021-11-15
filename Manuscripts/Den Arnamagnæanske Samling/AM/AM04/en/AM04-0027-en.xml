@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,20 +23,17 @@
                      <idno>670</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Legal Manuscript</title>;
-                  <origPlace>Denmark</origPlace>,
-                  <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>.
-               </head>
                <msContents>
-                  <textLang mainLang="da">Danish</textLang>
+                  <summary><title type="supplied">Legal Manuscript</title></summary>
+                  <msItem n="1">
+                     <textLang mainLang="da">Danish</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>164. 
-<dimensions type="leaf" scope="all">
+                        <support><material>Paper</material>.</support>
+                        <extent>164. <dimensions type="leaf" scope="all">
                               <height>189</height>
                               <width>157</width>
                            </dimensions>
@@ -43,6 +41,10 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark</origPlace>, <origDate notBefore="1690" notAfter="1710"
+                        >c. 1700</origDate>.</origin>
+               </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
