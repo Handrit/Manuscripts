@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,20 +23,17 @@
                      <idno>690</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Legal Manuscript</title>;
-                  <origPlace>Sweden</origPlace>,
-                  <origDate notBefore="1550" notAfter="1599" evidence="conjecture" resp="KKKat">s. XVI <hi rend="sup">2</hi></origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="sv">Early Modern Swedish</textLang>
+                  <summary><title type="supplied">Legal Manuscript</title></summary>
+                  <msItem n="1" class="log">
+                     <textLang mainLang="sv">Early Modern Swedish</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>189. 
-<dimensions type="leaf" scope="all">
+                        <support><material>Paper</material>.</support>
+                        <extent>189. <dimensions type="leaf" scope="all">
                               <height>194</height>
                               <width>158</width>
                            </dimensions>
@@ -43,6 +41,19 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Sweden</origPlace>, <origDate notBefore="1550" notAfter="1599"
+                        evidence="conjecture" resp="KKKat">s. XVI <hi rend="sup"
+                     >2</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">371</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
