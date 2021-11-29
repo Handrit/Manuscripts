@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,12 +23,20 @@
                             <idno>2822</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Tyske optegnelser af blandet indhold</title>;
-                            <origPlace>Danmark</origPlace>, <origDate notBefore="1840" notAfter="1860">ca. 1850</origDate>
-                        <note>Indeholder (med ukendt hånd) Excerpter af Kants <title type="uniform">Kritik der reinen Vernunft</title> og Xenophons <title type="uniform">Memorabilia</title>, tyske vers, <title type="uniform">Aphorismen über das tragische</title>, samt <title type="uniform">Hrafnkels saga</title> og <title type="uniform">Bandamanna saga</title>
-                  </note>
-                    </head>
+                    <msContents>
+                        <summary>
+                            <title type="supplied">Blandede tyske skrifter</title></summary>
+                        <msItem n="1">
+                            <title>Blandede tyske skrifter</title>
+                            <msItem n="1.1">
+                                <author key="ImmKan001"/>
+                                <title type="uniform">Kritik der reinen Vernunft</title>
+
+                            </msItem>
+                            
+                        </msItem>
+                    </msContents>
+
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
@@ -35,16 +44,22 @@
                                     <p>
                                         <material>Papir</material>.</p>
                                 </support>
-                                <extent>120 + nogle vedlagte løse læg. Kun delvist beskrevet. <dimensions type="leaf" unit="mm">
+                                <extent>120 + nogle vedlagte løse læg. Kun delvist beskrevet.
+                                        <dimensions type="leaf" unit="mm">
                                         <height>204</height>
                                         <width>176</width>
-                                </dimensions>
-                        </extent>
+                                    </dimensions>
+                                </extent>
                                 <collation>
-                           <title type="uniform">Bandamanna saga</title> på løse læg.</collation>
+                                    <title type="uniform">Bandamanna saga</title> på løse
+                                    læg.</collation>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Danmark</origPlace>, <origDate notBefore="1840"
+                                notAfter="1860">ca. 1850</origDate></origin>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
