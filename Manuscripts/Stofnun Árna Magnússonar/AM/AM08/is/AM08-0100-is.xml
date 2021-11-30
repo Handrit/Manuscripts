@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="phd_schema_BS.rnc" type="application/relax-ng-compact-syntax"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+	
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>AM 100 8vo</title>
+				<title>Handritaskrá Árnastofnunar</title>
 			</titleStmt>
-
 			<publicationStmt>
-				<availability status="free">
-					<licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed by
-						the University of Copenhagen under a Creative Commons Attribution-ShareAlike
-						3.0 Unported License.</licence>
-				</availability>
-				<authority>Den Arnamagnæanske Samling, København</authority>
+				<p>Tilraunaútgáfa</p>
 			</publicationStmt>
-
 			<sourceDesc>
-
-				<msDesc xml:id="AM08-0100-is" xml:lang="is"> 
+				<msDesc xml:id="AM08-0100-is" xml:lang="is">
 					<msIdentifier>
-						
-						<institution key="SAM"/><repository ref="#AMIS">Stofnun Árna Magnússonar í íslenskum fræðum, Reykjavík</repository>
-						<collection key="AM"/>
+						<country key="IS">Ísland</country>
+						<settlement>Reykjavík</settlement>
+						<institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+						<repository>Handritasvið</repository>
+						<collection key="AM">Safn Árna Magnússonar</collection>
 						<idno>AM 100 8vo</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>2304</idno>
+						</altIdentifier>
 					</msIdentifier>
+	
+	<!-- ATH! Þýða þarf texta! -->
 
 					<physDesc>
 						<objectDesc form="codex">
@@ -51,9 +51,9 @@
 						<q>ad AM 100,8o: <p>Samme hånd som AM 1033,4o (JH).</p> <p>22/5-80</p> AL.</q></p></accMat>
 					</physDesc>
 					
-					<msPart xml:id="AM080100CU1"> 
+					<msPart> 
 						<msIdentifier><altIdentifier>
-							<idno>AM 100 8vo CU1</idno>
+							<idno>AM 100 8vo (part 1)</idno>
 						</altIdentifier></msIdentifier>
 
 						<msContents>
@@ -80,7 +80,7 @@
 											<height unit="mm" quantity="152"/>  
 											<width unit="mm" quantity="100"/>
 										</dimensions>
-										<watermark ana="yes">The watermark is a maid of Dort ("ProPatria") with the letters "AI" underneath. 
+										<!--<watermark ana="yes">The watermark is a maid of Dort ("ProPatria") with the letters "AI" underneath. 
 											The twin mark consists of three letter: "ACD"(?).
 											<p>The details are:
 												<list>
@@ -102,7 +102,7 @@
 													<item>Fol. 14: letters (larger part)</item>
 												</list>
 											</p>
-										</watermark> 
+										</watermark> -->
 									</support>
 									<foliation ana="later fol">There is later foliation in the top outer corners (1-14).</foliation> 
 									<collation>
@@ -160,9 +160,9 @@
 						</history>
 					</msPart>
 
-					<msPart xml:id="AM080100CU2"> 
+					<msPart> 
 						<msIdentifier><altIdentifier>
-							<idno>AM 100 8vo CU2</idno>
+							<idno>AM 100 8vo (part 2)</idno>
 						</altIdentifier></msIdentifier>
 						
 						<msContents>
@@ -190,7 +190,7 @@
 											<height unit="mm" quantity="152"/>  
 											<width unit="mm" quantity="100"/>
 										</dimensions>
-										<watermark ana="yes">The watermark is a coat of arms of Amsterdam. The twin mark consists of
+										<!--<watermark ana="yes">The watermark is a coat of arms of Amsterdam. The twin mark consists of
 											several letters in a frame.
 											<p>The details are: 
 												<list>
@@ -203,7 +203,7 @@
 													<item>Fol. 21: letter (larger part)</item>
 												</list>
 											</p>
-										</watermark>
+										</watermark>-->
 									</support>
 									<foliation ana="later fol">There is later foliation in pencil in the top outer corners (15-21).</foliation> 
 									<collation>
@@ -257,9 +257,9 @@
 						</history>
 					</msPart>
 					
-					<msPart xml:id="AM080100CU3"> 
+					<msPart> 
 						<msIdentifier><altIdentifier>
-							<idno>AM 100 8vo CU3</idno>
+							<idno>AM 100 8vo (part 3)</idno>
 						</altIdentifier></msIdentifier>
 						
 						<msContents>
@@ -283,9 +283,9 @@
 											<height unit="mm" atLeast="197" atMost="203"/>  
 											<width unit="mm" quantity="74"/>
 										</dimensions>
-										<watermark ana="yes">There are parts of a round watermark with surrounding letters visible. In the centre of the
+										<!--<watermark ana="yes">There are parts of a round watermark with surrounding letters visible. In the centre of the
 											watermark there is possibly a figure of some kind.
-										</watermark> 
+										</watermark> -->
 									</support>
 									<foliation ana="later fol">There is later foliation in pencil in the top outer corner (22).</foliation> 
 									<collation>
@@ -345,7 +345,7 @@
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
-			<change when="2015" who="#BS">Catalogued according to own standards.</change>
+			<change when="2015" who="#BS">BS catalogued for PhD project (2015).</change>
 		</revisionDesc>
 	</teiHeader>
 
