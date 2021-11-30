@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,44 +24,47 @@
                         </altIdentifier>
                         <msName type="nickname">Codex Milzovianus</msName>
                     </msIdentifier>
-                    <head>
-                        <title>Legal Manuscript</title>;
-                        <origPlace>Norway</origPlace>,
-                        <origDate notBefore="1350" notAfter="1375">s. XIV<hi rend="sup">3/4</hi></origDate>
-                    </head>
-                      <msContents>
+                    <msContents>
+                        <summary><title type="supplied">Legal Manuscript</title>.</summary>
                         <msItem n="1" class="log">
                             <locus from="1r" to="40r">1r-40r</locus>
                             <title type="supplied">Landslǫg and réttarbœtr</title>
                             <textLang mainLang="non">Old Norse</textLang>
                             <bibl>
-                        <ref type="primary-2" target="NgL2">Norges gamle Love</ref> <biblScope unit="volume">II</biblScope>,
-                                <biblScope unit="pages">1-178 </biblScope><note>Var. app. Gk</note>
-                     </bibl>
+                                <ref type="primary-2" target="NgL2">Norges gamle Love</ref>
+                                <biblScope unit="volume">II</biblScope>, <biblScope unit="pages"
+                                    >1-178 </biblScope><note>Var. app. Gk</note>
+                            </bibl>
                         </msItem>
                         <msItem n="2" class="klog">
                             <locus from="40r" to="40v">40r-v</locus>
                             <title type="uniform">Statuta Vilhjalms kardinála</title>
                             <bibl>
-                        <ref type="primary-2" target="NgL1">Norges gamle Love</ref> <biblScope unit="volume">I</biblScope>,
-                               <biblScope unit="pages">454-56</biblScope> <note>Var. app. D</note>
-                     </bibl>
+                                <ref type="primary-2" target="NgL1">Norges gamle Love</ref>
+                                <biblScope unit="volume">I</biblScope>, <biblScope unit="pages"
+                                    >454-56</biblScope>
+                                <note>Var. app. D</note>
+                            </bibl>
                         </msItem>
                         <msItem n="2" class="log">
                             <locus from="40v" to="40v">40v</locus>
                             <title type="uniform">Réttarbœtr Hákonar Magnússonar</title>
                             <note>On ground rent in Viken</note>
                             <bibl>
-                        <ref type="primary-2" target="NgL3">Norges gamle Love</ref> <biblScope unit="volume">III</biblScope>,
-                                <biblScope unit="pages">70-71</biblScope> <note>Var. app. E</note>
-                     </bibl>
+                                <ref type="primary-2" target="NgL3">Norges gamle Love</ref>
+                                <biblScope unit="volume">III</biblScope>, <biblScope unit="pages"
+                                    >70-71</biblScope>
+                                <note>Var. app. E</note>
+                            </bibl>
                         </msItem>
                         <msItem n="4" class="log">
                             <locus from="40v" to="40v">40v</locus>
                             <title type="supplied">Formula for Establishing an Assembly</title>
+                            <note>Later addition from <date notBefore="1550" notAfter="1599">the
+                                    second half of the sixteenth century</date>.</note>
                         </msItem>
                     </msContents>
-          <physDesc>
+                    <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
@@ -70,23 +74,25 @@
                                         <height> 278</height>
                                         <width>205</width>
                                     </dimensions>
-                        </extent>
-                                <collation>
-                                    <p>There are 10 gatherings in the manuscript.</p>
-                                </collation>
+                                </extent>
+                             <!--    <collation>
+                                    <p>Originally consisting of ten quires.</p>
+                                    <p>I: There is a
+                                        lacunae at the beginning. II: The gathering is complete.
+                                        III: All the leaves are missing. IV: The 6th and 7th leaf
+                                        are missing between the ff. 13v and 14r.V: The gathering,
+                                        which consists of 4 leaves, is intact. VI: Originally the
+                                        gathering consisted of 6 leaves, now 3 are missing between
+                                        27v and 28r. VIII: Originally the gathering consisted of 6
+                                        leaves, but now the third one is missing between 32v and
+                                        33r. IX: There is a lacunae after 38v. X: There is a lacunae
+                                        between 39v and 40r.</p>
+                                </collation>  -->
                                 <condition>
-                                    <p>There are several lacunae in the manuscript, which consists
-                                        of 10 gatherings. I: There is a lacunae at the beginning.
-                                        II: The gathering is complete. III: All the leaves are
-                                        missing. IV: The 6th and 7th leaf are missing between the
-                                        ff. 13v and 14r.V: The gathering, which consists of 4
-                                        leaves, is intact. VI: Originally the gathering consisted of
-                                        6 leaves, now 3 are missing between 27v and 28r. VIII:
-                                        Originally the gathering consisted of 6 leaves, but now the
-                                        third one is missing between 32v and 33r. IX: There is a
-                                        lacunae after 38v. X: There is a lacunae between 39v and
-                                        40r.</p>
-                                </condition>
+                                    <p>There are several lacunae in the manuscript; <name
+                                            type="person" key="ArnMag001">Árni Magnússon</name>
+                                        marked the lacunae on the preceding leaves.</p>
+                                     </condition>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="4">
@@ -100,13 +106,15 @@
                             </handNote>
                             <handNote script="cursiva" scope="sole">
                                 <p>The third hand occurs on 40v and is a gothic cursive from the
-                                    second half of the fourteenth century. The scribe is named <name type="person">Halvard Ruffe</name>
-                        </p>
+                                    second half of the fourteenth century. The scribe is named <name
+                                        type="person">Halvard Ruffe</name>
+                                </p>
                             </handNote>
                             <handNote scribe="MarNie001" script="cursiva" scope="sole">
                                 <p>The fourth hand occurs on 40v and is a gothic cursive from the
-                                    second half of the fourteenth century. The scribe is named <name type="person" key="MarNie001">Martin Nielssön.</name>
-                        </p>
+                                    second half of the fourteenth century. The scribe is named <name
+                                        type="person" key="MarNie001">Martin Nielssön.</name>
+                                </p>
                             </handNote>
                         </handDesc>
                         <decoDesc>
@@ -122,20 +130,25 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1350" notAfter="1375" cert="high" evidence="conjecture">
-                            <p>Originally <name type="person" key="KriKaa001">Kristian Kålund</name>
-                                dated the manuscript to the second half of the fourteenth century,
-                                however a more recent dating is the one by <name type="person" key="DidSei001">Seip</name>, who in <date>1955</date> dated it
-                                to <date>the third quarter of the fourteenth century</date>.<bibl>
-                                    <ref type="secondary" target="Seip1955">Norsk språkhistorie til
-                                        omkring 1370, p. 233, p. 218.</ref>
-                                </bibl>
-                     </p>
+                            <p><origPlace>Norway</origPlace>, <origDate notBefore="1350"
+                                    notAfter="1375">s. XIV<hi rend="sup">3/4</hi></origDate> (<bibl>
+                                    <ref type="secondary" target="Seip1955">Seip 1955</ref>
+                                    <biblScope unit="page">233, 218</biblScope>
+                                </bibl>) Kålund's dating: <date notBefore="1350" notAfter="1399">the
+                                    second half of the fourteenth century</date> (<bibl>
+                                    <ref type="secondary" target="KKKat">Katalog</ref>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="page">376</biblScope>
+                                </bibl>).. </p>
                         </origin>
                         <provenance>
-                            <p>According to an AM-slip the manuscript belonged to <name type="person" key="GerMil001">Gerhard Miltzov</name>from <name type="place">Voss</name>.</p>
+                            <p>According to an AM-slip the manuscript belonged to <name
+                                    type="person" key="GerMil001">Gerhard Miltzov</name>from <name
+                                    type="place">Voss</name>.</p>
                         </provenance>
                         <acquisition>
-                            <p><name type="person" key="ArnMag001">Árni Magnússon</name> acquired the manuscript in <name type="place">Bergen</name>.</p>
+                            <p><name type="person" key="ArnMag001">Árni Magnússon</name> acquired
+                                the manuscript in <name type="place">Bergen</name>.</p>
                         </acquisition>
                     </history>
                     <additional>
@@ -148,7 +161,8 @@
                         </adminInfo>
                         <listBibl>
                             <bibl>
-                        <ref type="secondary-1" target="NgL4">Storm, 1885</ref> <biblScope unit="volume">IV</biblScope>
+                                <ref type="secondary-1" target="NgL4">Storm, 1885</ref>
+                                <biblScope unit="volume">IV</biblScope>
                                 <biblScope unit="pages">541-43</biblScope></bibl>
                         </listBibl>
                     </additional>
