@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,24 +23,19 @@
                             <idno>1069</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform" xml:lang="is">Noregs konunga sögur</title>;
-                            <origPlace>Island</origPlace>, <origDate notBefore="1300" notAfter="1325" evidence="conjecture">s. XIV
-                        1/4</origDate>.</head>
                     <msContents>
-                        <msItem n="1">
+                        <summary><title type="uniform" xml:lang="is">Heimskringla</title></summary>
+                        <textLang mainLang="non"/>
+                        <msItem n="1" class="kon">
                             <locus from="1ra" to="1vb">1ra-vb</locus>
                             <title type="uniform" xml:lang="is">Ólafs saga Tryggvasonar</title>
-                            <textLang mainLang="non">Norrønt/Islandsk</textLang>
                             <incipit defective="true">
                                 <supplied reason="unknown">li</supplied>fðe nætr. þau komo</incipit>
                             <explicit defective="true">sva harðlega sem h<ex>ann</ex> v<ex>ar</ex>
                             </explicit>
-                            <listBibl>
-                                <bibl>Unger: <ref type="primary-2" target="Hkr1868">Heimskringla</ref>
-                                    <biblScope unit="page">125-29</biblScope>
-                                </bibl>
-                            </listBibl>
+                            <bibl>Unger: <ref type="primary-2" target="Hkr1868">Heimskringla</ref>
+                                <biblScope unit="page">125-29</biblScope>
+                            </bibl>
                         </msItem>
                         <msItem n="2">
                             <locus from="2ra" to="4vb">2ra-4vb</locus>
@@ -48,21 +44,24 @@
                                 <locus>2va</locus> getit arnliotz <ex>ok</ex> þ<ex>at</ex>
                                     m<ex>eð</ex>
                             </incipit>
-                            <explicit defective="true">leika an<ex>n</ex>at. þa r<supplied reason="unknown">ei</supplied>ddiz</explicit>
+                            <explicit defective="true">leika an<ex>n</ex>at. þa r<supplied
+                                    reason="unknown">ei</supplied>ddiz</explicit>
                             <note>Sagaen her består af tre fragmenter, bl. 2r er næsten
                                 ulæselig.</note>
-                            <listBibl>
-                                <bibl>Unger: <ref type="primary-2" target="Hkr1868">Heimskringla</ref>
-                           <biblScope unit="page">406-24</biblScope>
-                        </bibl>
-                            </listBibl>
+                            <bibl>Finnur Jónsson: <ref type="primary" target="FinJón1893a"
+                                    >Heimskringla</ref>
+                                <biblScope unit="page">xxx a, b</biblScope><note>bl.
+                                3ra-vb</note></bibl>
+                            <bibl>Unger: <ref type="primary-2" target="Hkr1868">Heimskringla</ref>
+                                <biblScope unit="page">406-24</biblScope>
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Pergament.</p>
+                                    <p><material>Pergament</material>.</p>
                                 </support>
                                 <extent>4. <dimensions type="leaf" scope="all">
                                         <height unit="mm">255</height>
@@ -77,22 +76,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" writtenLines="32 36">
-                                    <p>Teksten er tospaltet. Antallet af linjer pr. spalte varierer: <list>
-                                            <item>
-                                                <locus>bl. 1</locus> har 32 linjer.</item>
-                                            <item>
-                                                <locus>bl. 2ra</locus> har 35 linjer.</item>
-                                            <item>
-                                                <locus>bl. 2rb</locus> har 36 linjer.</item>
-                                            <item>
-                                                <locus>bl. 2v</locus> har 34 linjer.</item>
-                                            <item>
-                                                <locus>bl. 3</locus> har 32 og 35 linjer, 32 i den
-                                                indre og 35 i den ydre spalte.</item>
-                                            <item>
-                                                <locus>bl. 4</locus> har 35 linjer.</item>
-                                        </list>
-                                    </p>
+                                    <p>Teksten er tospaltet med 32 til 36 linjer pr. spalte. </p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -102,14 +86,16 @@
                             </decoNote>
                         </decoDesc>
                         <bindingDesc>
-                            <binding notBefore="1959-06-09" notAfter="1959-08-15" contemporary="false">
-                                <p>Lagt i et papomslag.</p>
+                            <binding notBefore="1959-06-09" notAfter="1959-08-15"
+                                contemporary="false">
+                                <p>Lagt i et papomslag i <date when="1959">1959</date>.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1300" notAfter="1325" evidence="conjecture">begyndelsen af
+                            <p>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1300"
+                                    notAfter="1325" evidence="conjecture">begyndelsen af
                                     1300-tallet</origDate>.</p>
                         </origin>
                     </history>
@@ -118,7 +104,8 @@
                             <recordHist>
                                 <source>
                                     <p>Katalogiseret <date when="2000-09-06">6. september
-                                            2000</date> af <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                            2000</date> af <name type="person" key="EvaWed001"
+                                            >EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
@@ -131,34 +118,26 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                        <name type="org" key="AMS">Den Arnamagnæanske Samling</name> har
-                                følgende kopier: <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plade</title>
-                                        <idno>plade 37</idno> s.d. </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositiv</title>
-                                        <idno>AM 325 XI 1 4to</idno>
-                                        <date notBefore="1984-05" notAfter="1985-05">Maj 1984 eller
-                                            1985</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">s/h fotografier</title>
-                                        <idno>AM 325 XI 1 4to</idno>
-                                        <date when="1959-08">August 1959</date>
-                                    </bibl>
-                                </listBibl>
+                                <name type="org" key="AMS">Den Arnamagnæanske Samling</name> har
+                                følgende kopier: <list>
+                                    <item n="1">Plade, <idno>plade 37</idno>. </item>
+                                    <item n="2">Diapositiver fra <date notBefore="1984-05"
+                                            notAfter="1985-05">maj 1984 eller 1985</date>
+                                    </item>
+                                    <item n="3">Sort-hvid fotografier fra <date when="1959-08"
+                                            >august 1959</date>. </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="page">565</biblScope>
-                     </bibl>
-                            <bibl>Louis-Jensen: <ref type="secondary-1" target="BiblArn32">Kongesagastudier</ref>
-                        <biblScope unit="page">32, 35,
-                                    36</biblScope>
-                     </bibl>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">565</biblScope>
+                            </bibl>
+                            <bibl>Louis-Jensen: <ref type="secondary-1" target="BiblArn32"
+                                    >Kongesagastudier</ref>
+                                <biblScope unit="page">32, 35, 36</biblScope>
+                            </bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
