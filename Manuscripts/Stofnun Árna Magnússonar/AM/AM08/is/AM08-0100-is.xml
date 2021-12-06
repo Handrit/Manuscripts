@@ -30,25 +30,33 @@
 						<objectDesc form="codex">
 							<supportDesc material="chart">
 								<support>
-									<num type="front-flyleaf" value="1">1</num>
-									<num type="book-block" value="22">22</num>
-									<num type="back-flyleaf" value="1">1</num>
+									<p>Pappír með vatnsmerkjum.</p> 
 								</support>
+									<extent>i + 22 + i blöð (<dimensions type="leaf" unit="mm" scope="all">
+										<height>152</height>
+										<width>100</width>
+									</dimensions>).</extent>
 							</supportDesc>
 						</objectDesc>
-						<bindingDesc><binding><p>The manuscript is bound in a grey cardboard binding that uses blank paper as pastedown (a blueish sheet in the front cover and a
-						white leaf, taken from the quire in <ref>AM 100 8vo</ref>, in the back). On the front board, the number <q>100</q> was written in the top left corner using dark ink. On the spine, there are two stickers for
-						the shelfmark and the running number.</p></binding></bindingDesc>
 						
-						<accMat><p>An <locus from="accMat01r" to="accMat01v">AM-slip</locus>
+						
+						<bindingDesc><binding>
+							<p>Handritið er bundið í pappabandi og stendur "100" utan á spjaldinu.</p>
+							
+							
+						<!--	<p>The manuscript is bound in a grey cardboard binding that uses blank paper as pastedown (a blueish sheet in the front cover and a
+						white leaf, taken from the quire in <ref>AM 100 8vo II</ref>, in the back).--> 
+							<!-- On the front board, the number <q>100</q> was written in the top left corner using dark ink. On the spine, there are two stickers for
+						the shelfmark and the running number.</p> -->
+						
+						</binding></bindingDesc>
+						
+						<accMat><p>Fastur <locus from="accMat01r" to="accMat01v">seðill</locus>
 							(<dimensions type="slip" unit="mm"><height>128</height><width>78</width></dimensions>) 
-							is attached to the front flyleaf. <name key="ArnMag001" type="person">Árni
-								Magnússon</name> wrote on it: <q>Ur bok Pals Widalins Lógman<ex>n</ex>s in octavo.</q>
-							A modern hand added in pencil at the bottom of the leaf: <q>Fra bl. 2r</q>.
-							<note>This AM-slip belongs to <ref>AM 100 8vo CU1</ref>.</note>
+							með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name> á 
+								saurblaði fremst í handritinu: <quote>Ur bok Pals Widalins Lógman<ex>n</ex>s in octavo.</quote>
 						</p>
-						<p>There is a loose slip in the back of the manuscript containing information about the scribe of one of the parts:
-						<q>ad AM 100,8o: <p>Samme hånd som AM 1033,4o (JH).</p> <p>22/5-80</p> AL.</q></p></accMat>
+							<p>Laus seðill aftast í handritinu: <quote>ad AM 100,8o: / Samme hånd som AM 1033,4o (JH). / 22/5-80 AL.</quote></p></accMat>
 					</physDesc>
 					
 					<msPart> 
@@ -61,12 +69,15 @@
 								<locus from="1r" to="13v">1r-13v</locus>
 								<title type="uniform">Sethskvæði</title>
 								<author>Jón Pétursson </author> 
-								<textLang mainLang="is">Icelandic</textLang>
+								<textLang mainLang="is">Íslenska</textLang>
 								<rubric>Þetta Kallast Sethskuæde</rubric>
 								<incipit>Otte drottins upp haf er allra vitsku greina</incipit>
 								<explicit>Einum Gude æra Sie vm allar allder Jä</explicit>
-								<note>The lower half of fol. <locus>13v</locus> and all of fol. <locus>14</locus>are blank.</note>
-								<bibl>Jón Þorkelsson 1888, 334-335.</bibl>
+								<note>Neðri parturinn af bl. <locus from="13v" to="13v">13v</locus> og allt bl. <locus from="14r" to="14v">14</locus> eur auð.</note>
+								<!--<note>The lower half of fol. <locus>13v</locus> and all of fol. <locus>14</locus>are blank.</note>-->
+								<bibl>Jón Þorkelsson 1888, 334-335.</bibl> <!-- ekki í AM bibl -->
+								<!--<bibl><ref type="primary-2" target="">Jón Þorkelsson 1888</ref>
+									<biblScope unit="pages">334-335</biblScope></bibl>-->
 							</msItem>
 							
 						</msContents>
@@ -75,11 +86,8 @@
 							<objectDesc form="codex">
 								<supportDesc material="chart">
 									<support>
-										<num type="book-block" value="14"/>
-										<dimensions type="leaf">
-											<height unit="mm" quantity="152">152</height>  
-											<width unit="mm" quantity="100">100</width>
-										</dimensions>
+										<p>Pappír með vatnsmerkjum.</p>
+										
 										<!--<watermark ana="yes">The watermark is a maid of Dort ("ProPatria") with the letters "AI" underneath. 
 											The twin mark consists of three letter: "ACD"(?).
 											<p>The details are:
@@ -104,62 +112,84 @@
 											</p>
 										</watermark> -->
 									</support>
-									<foliation ana="later fol">There is later foliation in the top outer corners (1-14).</foliation> 
+									<extent>14 blöð (<dimensions type="leaf" unit="mm" scope="all">
+										<height>152</height>
+										<width>100</width>
+									</dimensions>).</extent>
+										
+									<foliation ana="later fol">Nýrri blaðsíðumerking (1-14).</foliation>  <!-- check age! -->
+									<!-- There is later foliation in the top outer corners (1-14). -->
 									<collation>
-										<p>There are two quires: <list>
-												<item>I: fols. 1-8 (1+8, 2+7, 3+6, 4+5) (4 bifolia)</item> 
-												<item>II: fols. 9-14 (9+14, 10+13, 11+12) (3 bifolia)</item>
+										<p>Tvö kver: <list>
+												<item>I: bl. 1-8 (1+8, 2+7, 3+6, 4+5) (4 tvinn)</item> 
+												<item>II: bl. 9-14 (9+14, 10+13, 11+12) (3 tvinn)</item>
 										</list>
 										</p>
-										<signatures>There are no quire signatures.</signatures>
-										<catchwords>There are catchwords on all pages except for the last.</catchwords>
+										<signatures>Engin kveramerking.</signatures>
+										<catchwords>Griporð eru á öllum blaðsíðum nema þeirri síðustu.</catchwords> 
 									</collation>
-									<condition><p>The leaves are generally clean, but the ink is bleeding into the paper, heavily discolouring the
-									writing area.</p>
-									<p>In the bottom margin of fol. <locus>2r</locus> remnants of glue are visible
-										from when the AM-slip was attached there (cf. accMat above).</p>
-										<p>Fol. <locus>1r</locus> is somwhat darker and dirty than the other leaves at quire boundaries (also fol. <locus>14v</locus>).
-										<note>This could be an indicator for it having been located in the front of a larger manuscript.</note></p></condition> 
+									
+									<condition>
+										<p>Blekið sést víða í gegnum pappírinn.</p> <!-- ? -->
+										<!--<p>The leaves are generally clean, but the ink is bleeding into the paper, heavily discolouring the
+									writing area.</p>-->
+										<p>Seðillinn með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name>
+											var áður fastur í neðri spássíu á bl. <locus from="2r" to="2r">2r</locus>.</p>
+									<!--<p>In the bottom margin of fol. <locus>2r</locus> remnants of glue are visible
+										from when the AM-slip was attached there.</p>-->
+										<p>Blaðsíða <locus from="1r" to="1r">1r</locus> er dekkri en hinar síður.</p>
+										<!--<p>Fol. <locus>1r</locus> is somewhat darker and dirtier than the other leaves at quire boundaries.
+										</p>-->
+									</condition> 
 								</supportDesc>
 								<layoutDesc>
 									<layout columns="1" writtenLines="13 14">
-										<num type="wpl" atLeast="2" atMost="6"/>
-										<dimensions type="written">
-											<height unit="mm" quantity="108">108</height>
-											<width unit="mm" quantity="65">65</width>
-										</dimensions>
+										<p>
+											<list>
+												<item>Eindálka.</item>
+												<item> Leturflötur er ca <dimensions type="written" unit="mm" scope="all">
+													<height>108</height>
+													<width>65</width>
+												</dimensions>. </item>
+												<item>Línufjöldi á blaði er ca 13-14.</item>
+											</list>
+										</p>
 									</layout>
 								</layoutDesc>
 							</objectDesc>
 
 							<handDesc hands="1">
-								<handNote scribeRef="unknown" scope="sole" script="chancery">Unknown scribe</handNote> <!-- same as AM 1033 4to (?) check!-->
+								<handNote scribeRef="unknown" scope="sole" script="chancery">Óþekktur skrifari.</handNote> 
 							</handDesc>
 
-							<decoDesc><decoNote type="initial">The first initials spans ca. 1.5 lines and is decorated by means of additional bows ans squiggles.</decoNote>
-							<decoNote type="paratext">The rubric was written slightly larger.</decoNote>
-							<decoNote type="frieze">There is a small tailpiece (resembling a modern @-sign) at the end of the text on fol. <locus>13v</locus>.</decoNote></decoDesc>
-							<!--<additions><p/></additions>-->
+
+
+							<decoDesc><decoNote type="initial">Fyrsti upphafsstafurinn er aðeins stærri (ca ein og hálf lína há) og örlítið skreytt.
+								<!--The first initial spans ca. 1.5 lines and is decorated by means of additional bows ans squiggles.--></decoNote>
+							<decoNote type="paratext">Fyrirsögnin er með aðeins stærrum stöfum.<!--The rubric was written slightly larger.--></decoNote>
+								<decoNote type="frieze" subtype="tail-piece">Lítill bókahnútur á bl. <locus from="13v" to="13v">13v</locus>.
+									<!--There is a small tailpiece at the end of the text on fol. <locus>13v</locus>.--></decoNote></decoDesc>
 							
-							<accMat>(cf. above)</accMat>
+							<accMat>(sjá fyrir ofan)</accMat>
 						</physDesc>
 
 						<history>
 							<origin>
-								<p>The manuscript was presumably written in <origPlace key="IS">Iceland</origPlace>. 
-									Kålund dates it to the <origDate notBefore="1700" notAfter="1730">beginning of the 18th century</origDate>
-									<bibl><ref target="KKKat">Kålund II</ref>, 
-										<biblScope unit="page">390</biblScope></bibl>.</p>
+								<p><!--The manuscript was presumably written in -->Líkelga skrifað á <origPlace key="IS">Íslandi</origPlace>. 
+									Tímasett til <origDate notBefore="1700" notAfter="1725">byrjunar af 18. öld</origDate> í
+									<bibl><ref target="KKKat">Kålund</ref> (Katalog <biblScope unit="volume">II</biblScope>,
+										<biblScope unit="page">390</biblScope></bibl>).</p>
 							</origin>
 							<provenance>
 								<p>
-									<name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> received the 
-								 larger manuscript, of which this was a part, from <name type="person" key="PalJon005">Páll Vídalín Jónsson</name>.
+									<name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> fékk
+									bókina sem blöðin tilheyrðu frá <name type="person" key="PalJon005">Páll Vídalín Jónsson</name>. 
 								</p>
 						</provenance>
 						</history>
 					</msPart>
 
+<!-- Stopp. Þýða héðan -->
 					<msPart> 
 						<msIdentifier><altIdentifier>
 							<idno>AM 100 8vo (part 2)</idno>
