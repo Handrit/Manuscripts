@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,22 +23,19 @@
                      <idno>1473</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Möttuls saga</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1650" notAfter="1699">s. XVII</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <msContents>
+                  <summary><title type="uniform">Mǫttuls saga</title></summary>
+                  <msItem n="1" class="ridd">
+                     <title type="uniform">Mǫttuls saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Møttuls saga</rubric>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>18. 
-<dimensions type="leaf" scope="all">
+                        <support><material>Paper</material>.</support>
+                        <extent>18. <dimensions type="leaf" scope="all">
                               <height unit="mm">199</height>
                               <width unit="mm">156</width>
                            </dimensions>
@@ -45,6 +43,33 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Iceland</origPlace>,
+                     <origDate notBefore="1650" notAfter="1699" evidence="conjecture" resp="KKKat"
+                        >s. XVII <hi rend="sup">2</hi></origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Cederschiöld og Wulff: <ref target="Mottul1877">Möttuls saga</ref>
+                        <biblScope unit="page">39</biblScope>
+                     </bibl>
+                     <bibl>Gísli Brynjólfsson: <ref target="Trist1878">Saga af Tristram ok Ísönd
+                        samt Möttuls saga</ref>
+                        <biblScope unit="page">418</biblScope>
+                     </bibl>
+                     <bibl>
+                        <ref type="secondary" target="EA-B30">Kalinke 1987</ref>
+                        <biblScope unit="page">lxxxv, cxxxix-cxxxviii, cxliii</biblScope>
+                     </bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">751</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>
