@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,11 +22,8 @@
                      <idno>1493</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Fornaldarsögur norðurlanda</title>;
-                     <origPlace>Island</origPlace>, <origDate notBefore="1677" notAfter="1697">ca.
-                     1687</origDate>. </head>
-               <msContents>
+                  <msContents>
+                  <summary><title type="uniform">Oldtidssagaer</title></summary>
                   <msItem n="1" class="fas">
                      <locus from="1r:1" to="22r:13">1r-22r:13</locus>
                      <title type="uniform">Hrólfs saga kraka</title>
@@ -91,20 +89,21 @@
                      </handNote>
                   </handDesc>
                   <accMat>
-                     <p>På fribladet har <name type="person" key="ArnMag001">Arne
-                           Magnusson</name> noteret dette håndskrifts titler. Nedenunder har <name type="person" key="MagEin005">Magnus Einarsson</name> skrevet: <q xml:lang="is">Úr bokum er eg feck af S<ex>era</ex> Olafe Gisla syne <lb/>
-                            Hofe i Vopnafirde.</q>, en sætning, som som er kopieret fra Arne
-                        Magnusson, og som også kan ses i <ref type="ms">AM 349 4to</ref> og i andre
+                     <p>På fribladet har <name type="person" key="ArnMag001">Arne Magnusson</name>
+                        noteret dette håndskrifts titler. Nedenunder har <name type="person"
+                           key="MagEin005">Magnus Einarsson</name> skrevet: <q xml:lang="is">Úr
+                           bokum er eg feck af S<ex>era</ex> Olafe Gisla syne <lb/>  Hofe i
+                           Vopnafirde.</q>, en sætning, som som er kopieret fra Arne Magnusson, og
+                        som også kan ses i <ref type="ms">AM 349 4to</ref> og i andre
                         håndskrifter.</p>
                   </accMat>
                </physDesc>
                <history>
                   <origin>
                      <p>Skrevet i <origPlace>Island</origPlace>
-                        <origDate notBefore="1682" notAfter="1692" evidence="conjecture">ca. 1687</origDate>, formodentlig som en del af et større
-                        håndskrift (jf. Loth, <bibl>
-                           <ref type="secondary" target="Loth1960">Sønderdelte arnamagnæanske
-                              papirhåndskrifter</ref>
+                        <origDate notBefore="1677" notAfter="1697" cert="high">ca. 1687</origDate>,
+                        formodentlig som en del af et større håndskrift (jf. Loth, <bibl>
+                           <ref type="secondary" target="Loth1960">Loth 1960</ref>
                            <biblScope unit="page">122-142</biblScope>
                         </bibl>).</p>
                   </origin>
@@ -129,53 +128,27 @@
                         </custEvent>
                         <custEvent type="conservation">
                            <date from="1975-12-01" to="1977-03-11">1. december 1975 til 11. marts
-                              1977</date>: restaureret af <name type="person" key="BirDal001">Birgitte Dall</name>
+                              1977</date>: restaureret af <name type="person" key="BirDal001"
+                              >Birgitte Dall</name>
                         </custEvent>
                      </custodialHist>
                   </adminInfo>
                   <surrogates>
-                     <bibl>
-                        <title type="gmd">mikrofilm (originaler)</title>
-                        <idno>G. neg. 135</idno>
-                        <note>før konservering</note>
-                     </bibl>
-                     <bibl>
-                        <title type="gmd">mikrofilm (arkiv)</title>
-                        <idno>No. 999</idno>
-                        <date when="2007-07-02">2 July 2007</date>
-                     </bibl>
-                     <bibl>
-                        <title type="gmd">mikrofilm (back-up)</title>
-                        <idno>TS 140</idno>
-                        <date when="1999-05-27">27 May 1999</date>
-                     </bibl>
-                     <bibl>
-                        <title type="gmd">mikrofilm (originaler)</title>
-                        <idno>No. 510</idno>
-                        <date when="1975">1975</date>
-                        <note>under restaurering 1975-77</note>
-                     </bibl>
-                     <bibl>
-                        <title type="gmd">mikrofilm (arkiv)</title>
-                        <idno>No. 510</idno>s.d. <note>positiv</note>
-                     </bibl>
-                     <bibl>
-                        <title type="gmd">mikrofilm (back-up)</title>
-                        <idno>TS 736</idno>
-                        <date when="2004-02-17">17 February 2004</date>
-                     </bibl>
-                     <bibl>
-                        <title type="gmd">s/h fotografier</title>
-                        <idno>AM 591 c 4to</idno>
-                        <date when="1976-03">Marts 1976</date>
-                        <note>Før restaurering</note>
-                     </bibl>
-                     <bibl>
-                        <title type="gmd">s/h fotografier</title>
-                        <idno>AM 591 c 4to</idno>
-                        <date when="1976-03">Marts 1976</date>
-                        <note>Under restaurering 1975-77</note>
-                     </bibl>
+                     <list>
+                        <item>Mikrofilm (originaler), <idno>G.neg. 135</idno> (før
+                           konservering).</item>
+                        <item>Mikrofilm (arkiv), <idno>Nr. 999</idno>, fra <date when="2007-07-02"
+                              >2. juli 2007</date></item>
+                        <item>Mikrofilm (back-up), <idno>TS 140</idno>, fra <date when="1999-05-27"
+                              >27. maj 1999</date></item>
+                        <item>Mikrofilm (originaler), <idno>Nr. 510</idno>, fra <date when="1975"
+                              >1975</date> (under konservering 1975-77).</item>
+                        <item>Mikrofilm (arkiv), <idno>Nr. 510</idno>, s.d.</item>
+                        <item>Mikrofilm (back-up), <idno>TS 736</idno>, fra <date when="2004-02-17"
+                              >17. februar 2004</date>.</item>
+                        <item>Sort-hvid fotografier fra <date when="1976-03">marts
+                           1976</date></item>
+                     </list>
                   </surrogates>
                   <listBibl>
                      <bibl>Finnur Jónsson: <ref type="secondary" target="STUAGNL32">Hrólfs saga
