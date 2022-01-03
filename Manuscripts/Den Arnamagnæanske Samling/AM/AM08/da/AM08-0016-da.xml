@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,17 +22,13 @@
                      <idno>2211</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Gammeldansk lovhåndskrift</title>; <origPlace>Danmark</origPlace>,
-                  <origDate notBefore="1475" notAfter="1599">s. XV 4/4 + s. XVI</origDate>. </head>
                <msContents>
-                  <summary><title>Jyske lov med kommentar og
-                     efterfølgende forordninger</title>, der svarer i indhold og anordning til
-                     biskop Knuds udgave (<date when="1504">1504</date>).</summary>
+                  <summary><title type="uniform">Gammeldansk lovhåndskrift</title>.</summary>
                   <msItem n="1" class="regist">
                      <locus from="2r" to="14v">2r-14v</locus>
                      <title type="uniform">Oversigt over Jyske lovs indhold</title>
-                     <note>Særlig hånd, ca. 1500</note>
+                     <note>Særlig hånd, ca. <date notBefore="1490" notAfter="1510">ca.
+                        1500</date></note>
                   </msItem>
                   <msItem n="2" class="logfr">
                      <locus from="15r" to="189v">15r-189v</locus>
@@ -88,7 +85,8 @@
                   </msItem>
                   <msItem n="8" class="logfr">
                      <locus from="220r" to="223r">220r-223r</locus>
-                     <rubric>Conſtitucio Criſtoferi reg<ex>is</ex> Dacie <gap reason="irrelevant"/></rubric>
+                     <rubric>Conſtitucio Criſtoferi reg<ex>is</ex> Dacie <gap reason="irrelevant"
+                        /></rubric>
                      <textLang mainLang="la">Latin</textLang>
                      <note>
                         <date when="1320">1320</date>
@@ -143,182 +141,233 @@
                      <textLang mainLang="da">Dansk</textLang>
                      <note>Med nogle udeladelser</note>
                   </msItem>
-                  
+
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="perg">
                         <support>
                            <p>
-                              <material>Pergament</material>.</p>
+                              <material>Pergament</material>. Fribladet og de sidste tre læg er af
+                              et lysere pergament end resten af håndskriftet. </p>
                         </support>
-                        <extent>i + 239 (inkl. 126<hi rend="sup">bis</hi>). Bl.
-                           <locus from="237r" to="238v">237-238</locus> opr. ubeskrevne; derefter adskillige ubeskrevne blade. Herudover 238v-247v blanke   <!-- check! -->
-                              <dimensions type="leaf" scope="all">
-                              <height>142</height>
-                              <width>100</width>
+                        <extent>i + 239 (inkl. 126<hi rend="sup">bis</hi>). Bl. <locus from="237r"
+                              to="238v">237-238</locus> opr. ubeskrevne; derefter adskillige
+                           ubeskrevne blade. <dimensions type="leaf" scope="all">
+                              <height unit="mm">142</height>
+                              <width unit="mm">100</width>
                            </dimensions>.</extent>
-                        
-                        <foliation><p><!--Describe foliation, e.g. "There is later foliation in dark ink."--></p></foliation> 
+
+                        <foliation><p>Håndskriftet er folieret 1-147 med sort blæk. Både fribladet
+                              og de blanke blade bagerst i håndskriftet er
+                           folierede.</p></foliation>
                         <collation>
                            <p>
                               <list>
-                                 <item><!--I: fols. 1-11 (1+10, 2+9, 3+8, 4+7, 5+6, 11)--></item> <!-- Fill in quire structure if known (usually determined by conservators)-->
-                                 <item><!--II: fols. 12-19 (12+19, 13+18, 14+17, 15+16)--></item>
+                                 <item>I: spejl + 1 </item>
+                                 <item>II: bl. 2-14 (2+snip tilhørende 14v, 3+14, 4+13, 5+12, 6+11,
+                                    7+10, 8+9) </item>
+                                 <item>III: bl. 15-21 (15+20, 16+19, 17+18, 21+stub to 15r) </item>
+                                 <item>IV: bl. 22-29 (22+29, 23+28, 24+27, 25+26)</item>
+                                 <item>V: bl. 30-37 (30+37, 31+36, 32+35, 33+34)</item>
+                                 <item>VI: bl. 38-45 (38+45, 39+44, 40+43, 41+42)</item>
+                                 <item>VII: bl. 46-53 (46+53, 47+52, 48+51, 49+50)</item>
+                                 <item>VIII: bl. 54-61 (54+61, 55+60, 56+59, 57+58)</item>
+                                 <item>IX: bl. 62-69 (62+69, 63+68, 64+67, 65+66)</item>
+                                 <item>X: bl. 70-77 (70+77, 71+76, 72+75, 73+74)</item>
+                                 <item>XI: bl. 78-85 (78+85, 79+84, 80+83, 81+82)</item>
+                                 <item>XII: bl. 86-93 (86+93, 87+92, 88+91, 89+90)</item>
+                                 <item>XIII: bl. 94-101 (94+101, 95+100, 96+99, 97+98)</item>
+                                 <item>XIV: bl. 102-109 (102+109, 103+108, 104+107, 105+106) </item>
+                                 <item>XV: bl. 110-117 (110+117, 111+116, 112+115, 113+114) </item>
+                                 <item>XVI: bl. 118-125 (118+125, 119+124, 120+123, 121+122) </item>
+                                 <item>XVII: bl. 126-132 (126+132, 126bis+131, 127+130, 128+129) </item>
+                                 <item>XVIII: bl. 133-140 (133+140, 134+139, 135+138, 136+137) </item>
+                                 <item>XIX: bl. 141-148 (141+148, 142+147, 143+146, 144+145) </item>
+                                 <item>XX: bl. 149-156 (149+156, 150+155, 151+154, 152+153) </item>
+                                 <item>XXI: bl. 157-164 (157+164, 158+163, 159+162, 160+161) </item>
+                                 <item>XXII: bl. 165-172 (165+172, 166+171, 167+170, 168+169) </item>
+                                 <item>XXIII: bl. 173-180 (173+180, 174+179, 175+178, 176+177) </item>
+                                 <item>XXIV: bl. 181-188 (181+188, 182+187, 183+186, 184+185) </item>
+                                 <item>XXV: bl. 189-196 (189+196, 190+195, 191+194, 192+193) </item>
+                                 <item>XXVI: bl. 197-204 (197+204, 198+203, 199+202, 200+201) </item>
+                                 <item>XXVII: bl. 205-212 (205+212, 206+211, 207+210, 208+209) </item>
+                                 <item>XXVIII: bl. 213-220 (213+220, 214+219, 215+218, 216+217) </item>
+                                 <item>XXIX: bl. 221-228 (221+228, 222+227, 223+226, 224+225) </item>
+                                 <item>XXX: bl. 229-236 (229+236, 230+235, 231+234, 232+233) </item>
+                                 <item>XXXI: bl. 237-240 (237+240, 238+239)</item>
+                                 <item>XXXII: bl. 241-244 (241+244, 242+243)</item>
+                                 <item>XXXIII: bl. 245-spejl (245+spejl, 246+247)</item>
                               </list>
                            </p>
-                           <signatures><!--Info on quire signature, e.g. "There are no quire signatures."--></signatures>
-                           <catchwords><!--Info on catchwords, e.g. "There is a catchword on every other page."--></catchwords>
+                           <signatures>Der er ingen lægsignaturer.</signatures>
+                           <catchwords>Der er ingen kustoder.</catchwords>
                         </collation>
-                        
-                        <condition><!--  Describe the condition in one ore more paragraphs (using multiple <p> elemente), e.g.:
-                                    <p>The paper is rather dark, especially at the original quire boundaries.</p>
-                                    <p>Some leaves have suffered damage at the edges and have been repaired (by means of attaching paper).</p>
-                                    <p>Some leaves are stained.</p> 
-                                -->
-                        </condition> 
-                        
+
+                        <condition>
+                           <p>Der er mange spor af slid, og pergamentet er mørkere i nederste højre
+                              hjørne end resten af bladet.</p>
+                           <p>Bl. <locus from="29r" to="31v">29-31</locus>s nederste ydre hjørner er
+                              bortskåret.</p>
+                           <p>Mange af bladenes yderste del er beskadiget af fugt.</p>
+                           <p>Der er nogle få små huller i pergamentet.</p>
+                        </condition>
+
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="21">
-                           <p>Håndskriftet er enspaltig med 21 linjer per side og brede marginer, der delvis indeholder kommentarer.</p>
-                           <p> Kolumnestørrelsen er
-                           <dimensions type="written">
-                              <height quantity="70" unit="mm">70</height>
-                              <width quantity="60" unit="mm">60</width>
-                           </dimensions>.</p>
+                           <p>Håndskriftet er enkeltspaltet med 21 linjer per side og brede
+                              marginer, der delvis indeholder et latinsk glossar.</p>
+                           <p> Tekstfladen måler ca. <dimensions type="written">
+                                 <height quantity="70" unit="mm">70</height>
+                                 <width quantity="60" unit="mm">60</width>
+                              </dimensions>.</p>
                         </layout>
                      </layoutDesc>
-                    
+
                   </objectDesc>
-                  
-                  <handDesc n="999"> <!-- check!!! -->
-                     <handNote scope="major" script="unknown">Størstedelen af håndskriften er skrevet af en skriver.</handNote>
-                     <handNote scope="minor" script="unknown">Bl. <locus from="2r" to="14v">2r-14v</locus> blev skrevet af mindst en anden skriver.</handNote>
-                     <handNote scope="minor" script="unknown">Bl. <locus from="135v" to="236v">235v-236v</locus> blev skreve af mindst en anden skriver.</handNote>
+
+                  <handDesc n="999">
+                      <handNote scope="major" script="unknown">Størstedelen af håndskriften er
+                        skrevet af en enkelt hånd fra <date notBefore="1475" notAfter="1499"
+                           evidence="conjecture" resp="KKKat">slutningen af
+                        1400-tallet</date>.</handNote>
+                     <handNote scope="minor" script="unknown">Bl. <locus from="2r" to="14v"
+                           >2r-14v</locus>, som indeholder en oversigt over Jyske lov er skrevet af
+                        en anden hånd fra <date notBefore="1490" notAfter="1510">ca.
+                        1500</date>.</handNote>
+                     <handNote scope="minor" script="unknown">Bl. <locus from="135v" to="236v"
+                        >235v-236v</locus> blev skrevet af en tredje hånd fra <date notBefore="1500" notAfter="1599">1500-tallet</date>.</handNote>
                   </handDesc>
-                  
+
                   <decoDesc>
                      <decoNote>
-                        <p>Røde overskrifter</p>
-                        <p>Røde eller blå initialer. Store initialer med lettere flourenné i rød og blå: ff. <locus from="15r" to="15r">15r,</locus> <locus from="19r" to="19r">19r</locus>, 
-                           <locus from="66r" to="66r">66r</locus>, <locus from="67v" to="67v">67v</locus>, <locus from="70v" to="70v">70v</locus>, 
-                           <locus from="142r" to="142r">142r,</locus>, <locus from="142" to="142v">142v</locus>, <locus from="144r" to="144r">144r</locus>. </p>
+                        <p>Røde rubrikker</p>
+                        <p>Røde eller blå initialer. Store initialer med lettere flourenné i rød og
+                           blå: ff. <locus from="15r" to="15r">15r,</locus>
+                           <locus from="19r" to="19r">19r</locus>, <locus from="66r" to="66r"
+                              >66r</locus>, <locus from="67v" to="67v">67v</locus>, <locus
+                              from="70v" to="70v">70v</locus>, <locus from="142r" to="142r"
+                              >142r,</locus>, <locus from="142" to="142v">142v</locus>, <locus
+                              from="144r" to="144r">144r</locus>. </p>
                      </decoNote>
                   </decoDesc>
-                  
+
                   <additions>
-                     <p>Nogle marginalia. Ved slutningen af stykke 2, bl. <locus from="189v" to="189v">189v</locus>, findes følgende
-                        notits: <q xml:lang="la">Expliciu<ex>n</ex>t queta<ex>m</ex> b<ex>re</ex>ues
+                     <p>Nogle marginalia. Ved slutningen af stykke 2, bl. <locus from="189v"
+                           to="189v">189v</locus>, findes følgende notits: <q xml:lang="la"
+                              >Expliciu<ex>n</ex>t queta<ex>m</ex> b<ex>re</ex>ues
                               expo<ex>sitio</ex>nes <ex>et</ex> legu<ex>m</ex> et iuriu<ex>m</ex>
                               c<ex>on</ex>cort<ex>an</ex>cie <gap reason="irrelevant"/>[den
                            fuldstændige titel] Sub anno d<ex>omi</ex>ni milleſimo
-                              quadri<ex>n</ex>genteſimo octogeſimo VIII<hi rend="sup">o</hi> fferia Sexta an<ex>te</ex> d<ex>omi</ex>nicam
-                           Eſto michi</q>. Forsatsbladet og bl. <locus from="237r" to="238r">237r-238r</locus> bærer
-                        påskrifter af forskellige ejere fra <date notBefore="1600" notAfter="1624">begyndelsen af 1600-tallet</date>, der havde håndskriftet i længere eller kortere perioder:
-                        <list>
-                     <item>
-                        <name key="JenPou001" type="person"><!-- falsk ID --> Jens Poulsson</name>
-                        Indtil 1601.
-                     </item>
-                     <item>
-                        <name key="NeiJen001" type="person"><!-- falsk ID --> Niels Jensson</name>
-                       1601-1602.
-                     </item>
+                           quadri<ex>n</ex>genteſimo octogeſimo VIII<hi rend="sup">o</hi> fferia
+                           Sexta an<ex>te</ex> d<ex>omi</ex>nicam Eſto michi</q>. Forsatsbladet og
+                        bl. <locus from="237r" to="238r">237r-238r</locus> bærer påskrifter af
+                        forskellige ejere fra <date notBefore="1600" notAfter="1624">begyndelsen af
+                           1600-tallet</date>, der havde håndskriftet i længere eller kortere
+                        perioder: <list>
                            <item>
-                        <name key="AndJen001" type="person"><!-- falsk ID --> Anders Jensson</name>
-                        19. september 1602- 17. september 1604.
-                           </item>
+                              <name key="JenPou001" type="person"><!-- falsk ID --> Jens
+                                 Poulsson</name> Indtil 1601. </item>
                            <item>
-                        <name key="PedSal001" type="person"><!-- falsk ID --> Peder Sallgrimsson</name>
-                        17. september 1604-19. juli 1613.
-                           </item>
+                              <name key="NeiJen001" type="person"><!-- falsk ID --> Niels
+                                 Jensson</name> 1601-1602. </item>
                            <item>
-                        <name key="NieJen001" type="person"><!-- falsk ID --> Niels Jensson</name>
-                        19. juli 1613-24. januar 1614.
-                           </item>
+                              <name key="AndJen001" type="person"><!-- falsk ID --> Anders
+                                 Jensson</name> 19. september 1602- 17. september 1604. </item>
                            <item>
-                        <name key="MouChr001" type="person"><!-- falsk ID --> Mourits Christenssenn</name>
-                        Fra 24. januar 1614.
-                           </item>
-                           <item> <name key="AndJen001" type="person"><!-- falsk ID --> Anders Jensson </name> underskriver sig som ejer af bogen <locus from="24r" to="24r">24r</locus>.</item>
-                     <item>Niells Matzen underskriver sig som ejer af bogen <date when="1613">1613</date> <locus from="179r" to="179r">179r</locus>.</item>
-                     </list>
+                              <name key="PedSal001" type="person"><!-- falsk ID --> Peder
+                                 Sallgrimsson</name> 17. september 1604-19. juli 1613. </item>
+                           <item>
+                              <name key="NieJen001" type="person"><!-- falsk ID --> Niels
+                                 Jensson</name> 19. juli 1613-24. januar 1614. </item>
+                           <item>
+                              <name key="MouChr001" type="person"><!-- falsk ID --> Mourits
+                                 Christenssenn</name> Fra 24. januar 1614. </item>
+                           <item>
+                              <name key="AndJen001" type="person"><!-- falsk ID --> Anders Jensson
+                              </name> underskriver sig som ejer af bogen <locus from="24r" to="24r"
+                                 >24r</locus>.</item>
+                           <item>Niells Matzen underskriver sig som ejer af bogen <date when="1613"
+                                 >1613</date>
+                              <locus from="179r" to="179r">179r</locus>.</item>
+                        </list>
                      </p>
                   </additions>
-                  
-                  
+
+
                   <bindingDesc>
                      <binding contemporary="true">
                         <p>Presset læderbind.<dimensions type="binding">
-                           <height>150</height>
-                           <width>110</width>
-                           <depth>65</depth>
-                        </dimensions>.</p>
+                              <height>150</height>
+                              <width>110</width>
+                              <depth>65</depth>
+                           </dimensions>.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p>Størstedelen af håndskriftet blev skrevet i <date notBefore="1475" notAfter="1499" evidence="conjecture" resp="KKKat">1400-tallets sidste fjerdedel</date>, 
-                        men bl. <locus from="2r" to="14v">2r-14v</locus>
-                        er skrevet <date notBefore="1475" notAfter="1524">ca. 1500</date>,
-                        og bl. <locus from="135v" to="236v">235v-236v</locus> er skrevet i <date notBefore="1500" notAfter="1599">1500-tallet</date>. </p> <!-- <origDate from="1475" to="1599"/> -->
+                     <p>Størstedelen af håndskriftet blev skrevet i <date notBefore="1475"
+                           notAfter="1499" evidence="conjecture" resp="KKKat">1400-tallets sidste
+                           fjerdedel</date>, men bl. <locus from="2r" to="14v">2r-14v</locus> er
+                        skrevet <date notBefore="1475" notAfter="1524">ca. 1500</date>, og bl.
+                           <locus from="135v" to="236v">235v-236v</locus> er skrevet i <date
+                           notBefore="1500" notAfter="1599">1500-tallet</date>. </p>
+                     <!-- <origDate from="1475" to="1599"/> -->
                   </origin>
                   <provenance>
-                     <p>Ejet af: 
-                        <list>
+                     <p>Ejet af: <list>
                            <item>
-                              <name key="JenPou001" type="person"><!-- falsk ID --> Jens Poulsson</name>,
-                              Indtil 1601.
+                              <name key="JenPou001" type="person"><!-- falsk ID --> Jens
+                                 Poulsson</name>, Indtil 1601. </item>
+                           <item>
+                              <name key="NieJen001" type="person"><!-- falsk ID --> Niels
+                                 Jensson</name>, 1601-1602 og 19. juli 1613-24. januar 1614.
+                              <!-- CHECK! Is he the same guy? -->
                            </item>
                            <item>
-                              <name key="NieJen001" type="person"><!-- falsk ID --> Niels Jensson</name>,
-                              1601-1602 og 19. juli 1613-24. januar 1614.   <!-- CHECK! Is he the same guy? -->
-                           </item>
+                              <name key="AnJe001" type="person"><!-- falsk ID --> Anders
+                                 Jensson</name>, 19. september 1602- 17. september 1604. </item>
                            <item>
-                              <name key="AnJe001" type="person"><!-- falsk ID --> Anders Jensson</name>,
-                              19. september 1602- 17. september 1604.
-                           </item>
+                              <name key="PeSa001" type="person"><!-- falsk ID --> Peder
+                                 Sallgrimsson</name>, 17. september 1604-19. juli 1613. </item>
                            <item>
-                              <name key="PeSa001" type="person"><!-- falsk ID --> Peder Sallgrimsson</name>,
-                              17. september 1604-19. juli 1613.
-                           </item>
+                              <name type="person" key="">Niells Matzen </name>, <date when="1613"
+                                 >1613</date>. </item>
                            <item>
-                              <name type="person" key="">Niells Matzen </name>, <date when="1613">1613</date>.
-                           </item>
-                           <item>
-                              <name key="MoCh001" type="person"><!-- falsk ID --> Mourits Christenssenn</name>,
-                              Fra 24. januar 1614.
-                           </item>
-                           
+                              <name key="MoCh001" type="person"><!-- falsk ID --> Mourits
+                                 Christenssenn</name>, Fra 24. januar 1614. </item>
+
                         </list></p>
-                        
-                     
                   </provenance>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Catalogued <date when="2019-08-22">22 August 2019</date> by 
-                              <name type="person" key="">WR</name>, <name type="person">PE</name>, <name type="person">CKE</name>
-                              and <name type="person">MA</name>.</p>
-                        <p>Checked and expanded <date when="2019-09">September 2019</date> by <name type="person" key="BeeSte001">BS</name>.</p></source>
+                           <p>Catalogued <date when="2019-08-22">22 August 2019</date> by <name
+                                 type="person" key="">WR</name>, <name type="person">PE</name>,
+                                 <name type="person">CKE</name> and <name type="person"
+                              >MA</name>.</p>
+                           <p>Checked and expanded <date when="2019-09">September 2019</date> by
+                                 <name type="person" key="BeeSte001">BS</name>.</p></source>
                      </recordHist>
                   </adminInfo>
-               
+
                   <listBibl>
                      <bibl>Kofod Ancher: <ref target="smlsk1">Samlede juridiske Skrifter</ref>
                         <biblScope unit="volume">I</biblScope>
                         <biblScope unit="pages">168</biblScope>
                      </bibl>
-                     <bibl>Kolderup-Rosenvinge:
-                        <ref type="secondary-1" target="SgdL3">Samling af gamle danske Love</ref>
+                     <bibl>Kolderup-Rosenvinge: <ref type="secondary-1" target="SgdL3">Samling af
+                           gamle danske Love</ref>
                         <biblScope unit="volume">III</biblScope>
-                        <biblScope unit="pages">xvi, xxiv</biblScope>	
+                        <biblScope unit="pages">xvi, xxiv</biblScope>
                      </bibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">333-334</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="pages"
+                        >333-334</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>
