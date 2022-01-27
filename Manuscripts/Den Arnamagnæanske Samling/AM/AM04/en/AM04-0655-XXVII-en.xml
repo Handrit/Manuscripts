@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,15 +23,13 @@
                      <idno>1646</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="en">Icelandic Homilies</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1290" notAfter="1310">c. 1300;s. XIII (ONP)</origDate>
-               </head>
                <msContents>
-                  <summary><title type="supplied" xml:lang="en">Icelandic Homilies</title></summary>
+                  <summary><title type="supplied">Homilies</title></summary>
                   <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                     <locus from="1r" to="14v">1r-14v</locus>
+                     <title type="supplied">Homilies</title>
+                     <textLang mainLang="non"/>
+                     <note>Fragments.</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -39,10 +38,39 @@
                         <support>
                            <p>Parchment.</p>
                         </support>
-                        <extent>14. </extent>
+                        <extent>14. <dimensions type="leaf" scope="all" unit="mm">
+                              <height unit="mm">150</height>
+                              <width unit="mm">110</width>
+                           </dimensions></extent>
                      </supportDesc>
                   </objectDesc>
+                  <accMat>On an AM-slip <name type="person" key="ArnMag001">Árni Magnússon</name>
+                     wrote: <q xml:lang="is">fra Magnuſe Jons ſyne i Snoksdal 1704</q>. </accMat>
                </physDesc>
+               <history>
+                  <origin>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1200"
+                        notAfter="1299">the thirteenth century</origDate> (<bibl><ref
+                           target="OleWid1814a">Widding 1960</ref><biblScope unit="page"
+                           >90</biblScope></bibl>). Kålund's dating: c. 1300 (<bibl><ref
+                           type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">65</biblScope>
+                     </bibl>).</origin>
+                  <acquisition>Accortding to the AM-slip Árni Magnússon acquired the manuscript from
+                        <name type="person" key="MagJon007">Magnús Jónsson</name> of <name
+                        type="place" key="SnoMið01">Snóksdalur</name> in <date when="1704"
+                        >1704</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">65</biblScope>
+                     </bibl>
+                     <bibl><ref target="OleWid1814a">Widding 1960</ref><biblScope unit="page"
+                           >90</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
