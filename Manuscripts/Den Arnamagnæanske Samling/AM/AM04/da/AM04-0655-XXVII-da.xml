@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,17 +23,15 @@
                      <idno>1646</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="is">Íslenzkar hómiliur</title>
-                  <origPlace>Island</origPlace>
-                  <origDate notBefore="1290" notAfter="1310" cert="medium" evidence="conjecture" resp="KKat">c. 1300</origDate>
-                  <origDate notBefore="1200" notAfter="1299" evidence="conjecture" resp="ONP">s. XIII</origDate>
-               </head>
                <msContents>
-                  <msItem defective="true">
-                     <title type="supplied" xml:lang="is">Íslenzkar hómiliur</title>
+                  <summary>
+                     <title type="supplied">Homilier</title>
+                  </summary>
+                  <msItem n="1" defective="true">
+                     <locus from="1r" to="14v">1r-14v</locus>
+                     <title type="supplied" xml:lang="is">Homilier</title>
                      <note>brudstykker</note>
-                     <textLang mainLang="non">Norrønt/Islandsk</textLang>
+                     <textLang mainLang="non"/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -50,18 +49,34 @@
                      </supportDesc>
                   </objectDesc>
                   <accMat>På en vedlagt seddel har <name type="person" key="ArnMag001">Arne
-                        Magnusson</name> noteret: <q xml:lang="is">fra <name type="person" key="MagJon007">Magnuſe Jons
-                           ſyne</name> i <name type="place" key="SnóMið01">Snoksdal</name> 
-                        <date when="1704">1704</date>
-                     </q>.
-                  </accMat>
+                        Magnusson</name> noteret: <q xml:lang="is">fra <name type="person"
+                           key="MagJon007">Magnuſe Jons ſyne</name> i Snoksdal <date when="1704"
+                           >1704</date>
+                     </q>. </accMat>
                </physDesc>
+               <history>
+                  <origin>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1200"
+                        notAfter="1299" evidence="conjecture" resp="ONP">s. XIII</origDate>
+                           (<bibl><ref target="OleWid1814a">Widding 1960</ref><biblScope unit="page"
+                           >90</biblScope></bibl>). Kålunds datering: c. 1300 (<bibl><ref
+                           type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">65</biblScope>
+                     </bibl>). </origin>
+                  <provenance/>
+                  <acquisition>Ifølge AM-sedlen fik Arne Magnusson håndskriftet af <name
+                        type="person" key="MagJon007">Magnús Jónsson</name> fra <name type="place"
+                        key="SnoMið01">Snóksdalur</name> i <date when="1704"
+                     >1704</date>.</acquisition>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
                         <biblScope unit="page">65</biblScope>
                      </bibl>
+                     <bibl><ref target="OleWid1814a">Widding 1960</ref><biblScope unit="page"
+                           >90</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>
