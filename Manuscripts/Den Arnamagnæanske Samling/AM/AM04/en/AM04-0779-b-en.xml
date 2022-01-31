@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,13 +23,12 @@
                      <idno>1910</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Grænlands Chronica</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
                <msContents>
+                  <summary>
+                     <title type="uniform">Grænlands Chronica</title>
+                  </summary>
                   <msItem>
+                     <title type="uniform">Grænlands Chronica</title>
                      <textLang mainLang="is">Icelandic</textLang>
                   </msItem>
                </msContents>
@@ -40,17 +40,20 @@
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="KetJor001" scope="sole" script="unknown">
-                        <p>
-Written by Ketill Jörundsson.</p>
+                        <p> Written by Ketill Jörundsson.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
                <history>
+                  <origin><origPlace>Iceland</origPlace>,
+                     <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>.</origin>
                   <provenance>
-                     <p><ref type="ms">AM 779 a-b 4to</ref> were for some time part of the collection in the
-                        <name type="org" key="KB">Royal Library in Copenhagen</name> under the shelfmark
-                        <ref type="ms">NkS 346 c-d 8vo</ref>. In <date when="1888-04">April 1888</date> the manuscripts were returned to the 
-                        <name type="org" key="AMDK">Arnamagnæan Collection</name>.</p>
+                     <p><ref type="ms">AM 779 a-b 4to</ref> were for some time part of the
+                        collection in the <name type="org" key="KB">Royal Library in
+                           Copenhagen</name> catalogued as <ref type="ms">NkS 346 c-d
+                           8vo</ref>. In <date when="1888-04">April 1888</date> the manuscripts were
+                        returned to the <name type="org" key="AMDK">Arnamagnæan
+                        Collection</name>.</p>
                   </provenance>
                </history>
             </msDesc>
