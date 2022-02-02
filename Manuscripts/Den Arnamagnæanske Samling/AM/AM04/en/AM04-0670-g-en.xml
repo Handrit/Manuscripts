@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,20 +23,19 @@
                      <idno>1675</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>De Sancto Lucio</title>
-                  <origPlace>Denmark?</origPlace>
-                  <origDate notBefore="1700" notAfter="1725">s. XVII 1/4</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <summary><title type="uniform">De Sancto Lucio</title>
+                  </summary>
+                  <msItem n="1" class="helgiso">
+                     <title type="uniform">De Sancto Lucio</title>
+                     <textLang mainLang="la">Latin</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>2. 
-<dimensions type="leaf" scope="all">
+                        <support><material>Paper</material>.</support>
+                        <extent>2. <dimensions type="leaf" scope="all">
                               <height unit="mm">212</height>
                               <width unit="mm">163</width>
                            </dimensions>
@@ -43,6 +43,11 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark?</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup"
+                           >1/4</hi></origDate>.</origin>
+               </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
