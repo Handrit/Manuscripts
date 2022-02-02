@@ -23,22 +23,17 @@
                             <idno>1664</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1490" notAfter="1510">c. 1500</origDate>
-                    </head>
-                    <msContents>
+                        <msContents>
                         <summary><title type="supplied">Ævintýri</title><note>The MS contains the
-                                end of the tale <title>Af einsetumanni ok engli</title> and the
-                                beginning of the tale <title>Af kóngssyni ok kóngsdóttur</title>
+                                end of the tale <title type="uniform">Af einsetumanni ok engli</title> and the
+                            beginning of the tale <title type="uniform">Af kóngssyni ok kóngsdóttur</title>
                                 corresponding to the two tales designated C and LXXIX in <bibl>
                                     <ref type="primary" target="IslAEv">Islendzk æventýri:
                                         Isländische Legenden, Novellen und Märchen</ref>
                                 </bibl>, respectively.</note></summary>
-                        <msItem n="1">
-                            <locus from="1r" facs="#AM04-0667-XVIII-0001r" to="1v:5">f.
-                                1r-1v:5</locus>
-                            <title>Af einsetumanni ok engli</title>
+                            <msItem n="1" class="avint">
+                            <locus from="1r" facs="#AM04-0667-XVIII-0001r" to="1v:5">1r-1v:5</locus>
+                            <title type="uniform">Af einsetumanni ok engli</title>
                             <textLang mainLang="is">Icelandic</textLang>
                             <incipit defective="true">
                                 <gap reason="lacuna"/>um<expan>m</expan>
@@ -53,12 +48,15 @@
                                     uen<expan>n</expan>tyr</rubric>
                             <bibl>
                                 <ref type="primary" target="AnmIslAEv">Nordisk Tidsskrift for
-                                    Filologi</ref> VII, pp. 60-61</bibl>
+                                    Filologi</ref>    
+                                <biblScope unit="volume">VII</biblScope>
+                                <biblScope unit="page">60-61</biblScope>
+                            </bibl>
                         </msItem>
-                        <msItem n="2">
+                            <msItem n="2" class="avint">
                             <locus from="1v:6" facs="#AM04-0667-XVIII-1v:6" to="1v:31">f.
                                 1v:6-31</locus>
-                            <title>Af kóngssyni ok kóngsdóttur</title>
+                            <title type="uniform">Af kóngssyni ok kóngsdóttur</title>
                             <incipit>heyrt hefi ek sagt at k<expan>onun</expan>g<expan>r</expan>
                                 hafi rad<expan>it</expan> f<expan>yrir</expan> galasia er
                                     so<expan>n</expan> atti ung<expan>an</expan>
@@ -83,15 +81,13 @@
                                     </dimensions>
                                 </extent>
                                 <condition>
-                                    <p>Some letters are missing recto and verso by the trimming down
-                                        of the inner margin. With the exception of some few words
+                                    <p>Due to trimming along the inner margin, some letters are missing on the recto and verso pages. With the exception of some few words,
                                         the text is clear and legible.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1" writtenLines="30 31">
-                                    <p>The leaf is written in long lines with 30 lines recto and 31
-                                        lines verso.</p>
+                                    <p>The leaf is written in one column with 30 and 31 extant lines, respectively.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -104,13 +100,15 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1490" notAfter="1510" cert="high" evidence="conjecture">
-                            <p>The MS is written <origPlace>Iceland</origPlace> dates it to
+                            <p>Written <origPlace>Iceland</origPlace>
                                     <origDate notBefore="1490" notAfter="1510">c. 1500</origDate>
                                     (<name type="person" key="PetSpr001">Springborg</name> pers.
-                                1983, cf. <name type="org" key="ONP">ONP</name>). <name
+                                1983, cf. <bibl><ref target="ONPindices">ONP</ref></bibl>). <name
                                     type="person" key="KriKaa001">Kålund</name>'s dating: the second
                                 half of the fifteenth century (<bibl>
                                     <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                    <biblScope unit="volume">II</biblScope>
+                                    <biblScope unit="page">81</biblScope>
                                 </bibl>).</p>
                         </origin>
                     </history>
