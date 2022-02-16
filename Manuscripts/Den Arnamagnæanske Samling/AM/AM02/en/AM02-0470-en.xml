@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,15 +26,11 @@
                             <idno>Addit. 48 q fol.</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="da">Manorial court rolls</title>
-                        <origPlace>Denmark</origPlace>
-                        <origDate notBefore="1700" notAfter="1800">s. XVIII</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
-                            <author>Árni Magnússon</author>
-                            <author>Páll Vídalín</author>
+                        <msItem n="1" class="jarb">
+                            <author key="ArnMag001">Arne Magnusson</author>
+                            <author key="PalJon005">Páll Vídalín</author>
+                            <title type="supplied">Land Registers</title>
                             <textLang mainLang="da">Danish</textLang>
                         </msItem>
                     </msContents>
@@ -49,17 +46,30 @@
                                         <height unit="mm">340</height>
                                         <width unit="mm">214</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Denmark</origPlace>
+                            <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund, <ref target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">332</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                     <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 470 I fol.</idno>
-                        </altIdentifier></msIdentifier>
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 470 I fol.</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
-                                <title type="supplied">Manorial Court Roll for
+                                <title type="supplied">Land Register for
                                     Ísafjarðarsýsla</title>
                                 <rubric>Jordebog <lb/>Over <lb/>Isefiord-syssel <lb/>udj
                                     <lb/>Jss-land</rubric>
@@ -79,12 +89,14 @@
                         </physDesc>
                     </msPart>
                     <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 470 II fol.</idno>
-                        </altIdentifier></msIdentifier>
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 470 II fol.</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
-                                <title type="uniform">Jordebog over Strandasýsla</title>
+                                <title type="supplied">Land Register for Strandasýsla</title>
                                 <rubric>Jorde-Bog <lb/>over <lb/>Strande-Syssel <lb/>udi
                                     <lb/>Island</rubric>
                             </msItem>
