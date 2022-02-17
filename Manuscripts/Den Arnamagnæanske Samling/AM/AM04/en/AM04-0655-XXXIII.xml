@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,12 +23,9 @@
                             <idno>1646</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="en">Legends of Saints</title>;
-                        <origPlace>Iceland</origPlace>,
-                        <origDate notBefore="1250" notAfter="1299">s. XIII<hi rend="sup">2</hi></origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="supplied" xml:lang="en">Legends of
+                            Saints</title></summary>
                         <msItem n="1">
                             <locus from="1r" to="1v">1r-1v</locus>
                             <title type="uniform" xml:lang="is">XL riddara saga</title>
@@ -43,12 +41,46 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
-                                <extent>2. </extent>
+                                <extent>2. <dimensions type="leaf" scope="all" unit="mm">
+                                        <height unit="mm">214</height>
+                                        <width unit="mm">190</width>
+                                    </dimensions>. </extent>
+                                <condition>The leaves are damaged and bottom of both are cut.</condition>
                             </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1">Initials and rubrics in red ink.</layout>
+                            </layoutDesc>
                         </objectDesc>
+                        <accMat>On the AM-slip belonging to all the fragments catalogued as AM 6555
+                            4to <name type="person"
+                                key="ArnMag001">Árni Magnússon</name> wrote: <q xml:lang="la"
+                                >Fragmenta antiqvæ Scripturæ. Non nulla reliqvis fasciculis inſunt
+                                ſed p<ex>er</ex>pauca</q>. Below <name type="person"
+                                key="JonOla003">Jón Ólafsson from Grunnavik</name> wrote an index.</accMat>
+
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1250"
+                                notAfter="1299">s. XIII<hi rend="sup">2</hi></origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl><ref type="secondary-1" target="HreBen1964"/>
+                                <biblScope unit="page">144-148</biblScope></bibl>
+                            <bibl><ref target="KGFrumparta"/>
+                                <biblScope unit="page">lxvii-lxxxv</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">67</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary" target="Wolf2013"/>
+                                <biblScope unit="page">113, 245</biblScope></bibl>
+                        </listBibl>
+                    </additional>
+
                 </msDesc>
             </sourceDesc>
         </fileDesc>
