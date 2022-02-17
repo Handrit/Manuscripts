@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,13 +23,10 @@
                      <idno>2639</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Fornyðri Páll Vídalíns</title>
-                  <origPlace>Denmark, Copenhagen</origPlace>
-                  <origDate notBefore="1752-01-01" notAfter="1752-12-31">1752</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Fornyðri Páll Vídalíns</title></summary>
                   <msItem>
+                     <title type="supplied">Fornyðri Páll Vídalíns</title>
                      <textLang mainLang="is">Islandsk</textLang>
                   </msItem>
                </msContents>
@@ -36,8 +34,7 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>425. 
-<dimensions type="leaf" scope="all">
+                        <extent>425. <dimensions type="leaf" scope="all">
                               <height unit="mm">200</height>
                               <width unit="mm">162</width>
                            </dimensions>
@@ -45,12 +42,21 @@
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="HalEin01" scope="sole" script="unknown">
-                        <p>
-Written by Hálfdan Einarsson.</p>
+                     <handNote scribe="HalEin001" scope="sole" script="unknown">
+                        <p> Written by Hálfdan Einarsson.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history><origin><origPlace>Copenhagen, Denmark</origPlace>
+                  <origDate when="1752">1752</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">541-542</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
