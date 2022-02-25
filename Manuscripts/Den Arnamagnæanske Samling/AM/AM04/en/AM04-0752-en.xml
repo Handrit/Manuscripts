@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,22 +23,18 @@
                      <idno>1868</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Snorra Edda</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1650" notAfter="1699">s. XVII 2/2</origDate>
-               </head>
                <msContents>
+                  <summary><title type="uniform">Snorra Edda</title></summary>
                   <msItem>
+
                      <textLang mainLang="is">Icelandic</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>43. 
-<dimensions type="leaf" scope="all">
+                        <support><material>Paper</material>.</support>
+                        <extent>43. <dimensions type="leaf" scope="all">
                               <height unit="mm">185</height>
                               <width unit="mm">142</width>
                            </dimensions>
@@ -45,6 +42,24 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland?</origPlace>
+                     <origDate notBefore="1650" notAfter="1699">s. XVII<hi rend="sup"
+                        >2</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>
+                        <ref type="secondary" target="Edda1848-87">Edda Snorra Sturlusonar</ref>
+                        <biblScope unit="volume">III</biblScope>
+                        <biblScope unit="page">ciii, cviii</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">174-175</biblScope></bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

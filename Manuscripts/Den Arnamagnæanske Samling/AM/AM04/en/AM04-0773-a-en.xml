@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,25 +23,38 @@
                      <idno>1897</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Gronlandia</title>
-                  <origPlace>Iceland/Denmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1730">s. XVIII in</origDate>
-               </head>
                <msContents>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="ArnJon001">Arngrímur Jónsson</name>
-                     </author>
+                     <locus from="1r" to="38v">1r-38v</locus>
+                     <author key="ArnJon001">Arngrímur Jónsson</author>
+                     <title type="uniform">Gronlandia</title>
                      <textLang mainLang="la">Latin</textLang>
                   </msItem>
+                  <msItem n="1">
+                     <locus from="1r" to="37v">1r-37v</locus>
+                     <author key="ArnJon001">Arngrímur Jónsson</author>
+                     <title type="uniform">Gronlandia</title>
+                     <textLang mainLang="la"/>
+                     <rubric>ANRGRIMI JONÆ <lb/> ISLANDI <lb/> GRONLANDIA</rubric>
+                     <filiation>Cognate to <ref type="ms" target="AM04-0773-b-en">AM 773 b
+                        4to</ref>.</filiation>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="38r" to="38v">38r-v</locus>
+                     <title type="supplied">Sea Routes to Greenland</title>
+                     <textLang mainLang="da">Ældre nydansk</textLang>
+                     <rubric>Om Grönlands Siegling</rubric>
+                     <filiation>Stemmer med <ref type="ms" target="AM04-0773-b-en">AM 773 b
+                           4to</ref>.</filiation>
+                     <note>A translation of three well known sea routes.</note>
+                  </msItem>
+
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>38. 
-<dimensions type="leaf" scope="all">
+                        <extent>38 (including one map). <dimensions type="leaf" scope="all">
                               <height unit="mm">206</height>
                               <width unit="mm">165</width>
                            </dimensions>
@@ -48,6 +62,21 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland or Denmark</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="external">s. XVIII<hi rend="sup"
+                        >1/4</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref target="GHM">Grönlands historiske Mindesmærker</ref><biblScope
+                           unit="volume">III</biblScope><biblScope unit="page"
+                        >248</biblScope></bibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">194</biblScope></bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>
