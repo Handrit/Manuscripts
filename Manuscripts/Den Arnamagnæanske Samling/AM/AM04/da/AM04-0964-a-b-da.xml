@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,16 +23,10 @@
                      <idno>096</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Optegnelser om Island</title>;
-        <origPlace>Danmark?</origPlace> 
-                  <origDate notBefore="1800" notAfter="1899">s.
-        XIX</origDate>. </head>
                <msContents>
-                  <msItem>
-                     <author key="NiePet001">Niels Matthias Petersen</author>
-                  </msItem>
-               </msContents>
+                  <summary><title type="supplied" xml:lang="da">Optegnelser om
+                     Island</title></summary>
+                 </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
@@ -47,12 +42,22 @@
                      </handNote>
                   </handDesc>
                </physDesc>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>a</idno>
-                  </altIdentifier></msIdentifier>
+               <additional>
+                  <listBibl>
+                     <bibl><ref target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">280</biblScope></bibl>
+                  </listBibl>
+               </additional>
+               <msPart n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>a</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem>
+                     <msItem n="1">
+                        <author key="NiePet001">Niels Matthias Petersen</author>
                         <title type="uniform">Optegnelser til Islands ældre Beskrivelse</title>
                         <textLang mainLang="da">Ældre nydansk</textLang>
                      </msItem>
@@ -74,13 +79,20 @@
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
+                  <history>
+                     <origin><origPlace>Danmark?</origPlace>
+                        <origDate notBefore="1800" notAfter="1899">s. XIX</origDate>.</origin>
+                  </history>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>b</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>b</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem>
+                     <msItem n="2">
+                        <author key="NiePet001">Niels Matthias Petersen</author>
                         <title type="uniform">Optegnelser til Islands ældre Historie</title>
                         <textLang mainLang="da">Ældre nydansk</textLang>
                      </msItem>
@@ -88,12 +100,13 @@
                   <physDesc>
                      <objectDesc form="codex">
                         <supportDesc material="chart">
-                           <extent>367 og nogle indskudte sedler. <dimensions type="leaf" scope="all">
+                           <extent>367 og nogle indskudte sedler. <dimensions type="leaf"
+                                 scope="all">
                                  <height unit="mm">225</height>
                                  <width unit="mm">177</width>
                               </dimensions>.</extent>
                            <foliation>
-                              <p>Pagineret 1-735, tallene 562-566 oversprungne.</p>
+                              <p>Pagineret 1-735, tallene 562-566 er sprunget over.</p>
                            </foliation>
                         </supportDesc>
                      </objectDesc>
