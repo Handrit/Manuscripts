@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,15 +23,65 @@
                             <idno>1892</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c alfa 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msContents>
+                        <summary>
+                            <title type="supplied">Gronlandia</title>
+                            <note>The manuscript is a composite of eight originally different
+                                manuscripts.</note>
+                        </summary>
+                    </msContents>
+                    <history>
+                        <origin>Written in <origPlace>Iceland and Denmark</origPlace> from <origDate
+                                notBefore="1500" notAfter="1725">the sixteenth century to the
+                                beginning of the eighteenth century</origDate>.</origin>
+                    </history>
+
+                    <additional>
+                        <listBibl>
+                            <bibl>
+                                <ref target="GHM">Grönlands historiske Mindesmærker</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">84 (referred to as 470 c due to a
+                                    typhographical error), 118, 119, 640 ff., 664, 726</biblScope>
+                            </bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat"
+                                    >Katalog</ref><biblScope unit="volume">II</biblScope><biblScope
+                                    unit="page">190-191</biblScope></bibl>
+                            <bibl>Rafn, <ref target="AntA">Antiqvitates Americanæ</ref>
+                                <biblScope unit="page">83, 196-200, 209 og 296</biblScope>
+                            </bibl>
+                            <bibl>Stegmann, <ref type="secondary-1" target="BeeSte2016"/>
+                                <biblScope unit="page">158, 159, 180, 206, 207,
+                                226</biblScope></bibl>
+                        </listBibl>
+                    </additional>
+
+                    <msPart n="1">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c α 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="supplied" xml:lang="da">Tilbud fra Peder Hvitfeldt og
-                                    Christoffer Walkendorff angående Grønlands genopdagelse</title>
+                            <msItem n="1" class="embr">
+                                <title type="supplied">Proposition concerning an Expedition to
+                                    Rediscover Greenland</title>
+                                <note>A draft or a contemporaneous copy.</note>
                                 <textLang mainLang="da">Danish</textLang>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="PedHvi001">Peder Hvitfeldt</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="ChrWal001">Christoffer
+                                        Walkendorf</name>
+                                </respStmt>
+                                <bibl>
+                                    <ref target="GHM">Grönlands historiske Mindesmærker</ref>
+                                    <biblScope unit="volume">III</biblScope>
+                                    <biblScope unit="page">665</biblScope>
+                                </bibl>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -45,26 +96,38 @@
                                             <height unit="mm">300</height>
                                             <width unit="mm">196</width>
                                         </dimensions>
-                           </extent>
+                                    </extent>
                                 </supportDesc>
                             </objectDesc>
                         </physDesc>
                         <history>
-                            <origin notBefore="1550" notAfter="1599" cert="high" evidence="conjecture">
-                                <p>Written in Denmark s. XVI 2/2.</p>
+                            <origin notBefore="1550" notAfter="1599" cert="high"
+                                evidence="conjecture">
+                                <p>Written in <origPlace>Denmark</origPlace> s. XVI<hi rend="sup"
+                                        >2</hi>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c beta 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="2">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c β 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="supplied" xml:lang="da">Christian IV's tilladelse for
-                                    J. og G. Bram til handel på den grønlandske insul
-                                    Christiansberg: 16. oktober 1631</title>
+                            <msItem n="2" class="embr">
+                                <title type="supplied" xml:lang="da">Christian IV's Trade Licence on
+                                    the Island of Svalbard: 16. oktober 1631</title>
+                                <note>At that time thought connected with Greenland.</note>
                                 <textLang mainLang="da">Danish</textLang>
+                                <respStmt>
+                                    <resp key="rcp"/>
+                                    <name type="person" key="Braooo003">J. Bram</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="rcp"/>
+                                    <name type="person" key="Braooo002">G. Bram</name>
+                                </respStmt>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -79,22 +142,26 @@
                                             <height unit="mm">320</height>
                                             <width unit="mm">205</width>
                                         </dimensions>
-                           </extent>
+                                    </extent>
                                 </supportDesc>
                             </objectDesc>
                         </physDesc>
                         <history>
-                            <origin notBefore="1600" notAfter="1699" cert="high" evidence="conjecture">
-                                <p>Written in Denmark s. XVII.</p>
+                            <origin notBefore="1600" notAfter="1699" cert="high"
+                                evidence="conjecture">
+                                <p>Written in <origPlace>Denmark</origPlace>, <origDate
+                                        notBefore="1600" notAfter="1699">s. XVII</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c gamma 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="3">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c γ 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="3">
                                 <title xml:lang="la">De præadamitis</title>
                             </msItem>
                         </msContents>
@@ -110,23 +177,32 @@
                                             <height unit="mm">333</height>
                                             <width unit="mm">210</width>
                                         </dimensions>
-                           </extent>
+                                    </extent>
                                 </supportDesc>
                             </objectDesc>
+                            <handDesc>
+                                <p>Partly written by <name type="person" key="ArnMag001">Árni
+                                        Magnússon</name>.</p>
+                            </handDesc>
                         </physDesc>
                         <history>
-                            <origin notBefore="1690" notAfter="1730" cert="high" evidence="conjecture">
-                                <p>Written in Iceland or/and Denmark c. 1700.</p>
+                            <origin notBefore="1690" notAfter="1730" cert="high"
+                                evidence="conjecture">
+                                <p>Written in <origPlace>Iceland and/or Denmark</origPlace>, c.
+                                    1700.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c delta 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="4">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c δ 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title xml:lang="da">Dagbog over Jakob Aldays Grønlandsrejse</title>
+                            <msItem n="4" class="athgr">
+                                <title type="supplied">Log of James Alday's Expedition to Greenland
+                                    in 1579</title>
                                 <textLang mainLang="da">Danish</textLang>
                             </msItem>
                         </msContents>
@@ -142,33 +218,51 @@
                                             <height unit="mm">215</height>
                                             <width unit="mm">156</width>
                                         </dimensions>
-                           </extent>
+                                    </extent>
                                 </supportDesc>
                             </objectDesc>
+                            <accMat>The AM-slips belong to this part. One of them containing the
+                                following note <q xml:lang="da">Kiöbt paa Etats Raad <name
+                                        type="person" key="FreRos001">Roſtgaard</name>z auction, i
+                                    en faſciculo, num. Mſtoru<ex>m</ex> 604</q>. </accMat>
                         </physDesc>
                         <history>
-                            <origin notBefore="1590" notAfter="1610" cert="high" evidence="conjecture">
-                                <p>Written in Denmark c. 1600.</p>
+                            <origin notBefore="1590" notAfter="1610" cert="high"
+                                evidence="conjecture">
+                                <p>Written in <origPlace>Denmark</origPlace>, <origDate
+                                        notBefore="1590" notAfter="1610">c. 1600</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c epsilon 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="5">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c ε 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <textLang mainLang="is">Icelandic</textLang>
+                            <msItem n="5">
                                 <locus from="1v" to="3r">1v-3r</locus>
-                                <title type="uniform">Af Eiriki rauða</title>
+                                <title type="uniform">Eiríks saga rauða</title>
                             </msItem>
-                            <msItem n="2">
+                            <msItem n="6">
                                 <locus from="3r" to="5r">3r-5r</locus>
-                                <title type="uniform">Eitt annað annál</title>
+                                <title type="supplied">Eiríks saga rauða</title>
+                                <note>On Eiríkr rauði Þorvaldsson, the Viking settlement of
+                                    Greenland, the nature on Greenland and geograpical notes.</note>
                             </msItem>
-                            <msItem n="3">
-                                <locus from="5r" to="7r">5r-7r</locus>
-                                <title type="uniform">Af Þorbirne Kallz efni</title>
-                                <textLang mainLang="is">Icelandic</textLang>
+                            <msItem n="7">
+                                <locus from="5r" to="6r">5r-6r</locus>
+                                <title type="uniform">Eiríks saga rauða</title>
+                                <rubric>Af Þorbirne Kalls efni</rubric>
+                            </msItem>
+                            <msItem n="8">
+                                <locus from="6v" to="7r">6v-7r</locus>
+                                <title type="supplied">Notes</title>
+                                <note>Notes concerning produce on Greenland, the history of
+                                    Greenland, Björn Einarsson's visit and Gunnbjörn's
+                                    skerries.</note>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -183,23 +277,33 @@
                                             <height unit="mm">162</height>
                                             <width unit="mm">102</width>
                                         </dimensions>
-                           </extent>
+                                    </extent>
                                 </supportDesc>
                             </objectDesc>
+                            <additions>A note in <name type="person" key="ArnMag001">Árni
+                                    Magnússon</name>'s hand reads: <q>Ex chartâ qvadam, in Islandiâ
+                                    exſcriptum <date when="1702">1702</date> [Annotatum erat in
+                                    margine Landnamæ Sigurdar ä Feriu]</q>.</additions>
+
                         </physDesc>
                         <history>
-                            <origin notBefore="1600" notAfter="1699" cert="high" evidence="conjecture">
-                                <p>Written in Iceland s. XVII</p>
+                            <origin notBefore="1600" notAfter="1699" cert="high"
+                                evidence="conjecture">
+                                <p>Written in <origPlace>Iceland</origPlace>, <origDate
+                                        notBefore="1600" notAfter="1699">s. XVII</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c zeta 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="6">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c ζ 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="uniform">Kirkiur ä Grænland</title>
+                            <msItem n="9">
+                                <title type="uniform">Churches in Greenland</title>
+                                <rubric>Kirkiur ä Grænland</rubric>
                                 <textLang mainLang="is">Icelandic</textLang>
                             </msItem>
                         </msContents>
@@ -215,29 +319,35 @@
                                             <height unit="mm">167</height>
                                             <width unit="mm">108</width>
                                         </dimensions>
-                           </extent>
+                                    </extent>
                                 </supportDesc>
                             </objectDesc>
                             <handDesc hands="1">
                                 <handNote scribe="ArnMag001" scope="sole" script="unknown">
-                                    <p> Written by Árni Magnússon.</p>
+                                    <p> Written by <name type="person" key="ArnMag001">Árni
+                                            Magnússon</name>.</p>
                                 </handNote>
                             </handDesc>
                         </physDesc>
                         <history>
-                            <origin notBefore="1700" notAfter="1730" cert="high" evidence="conjecture">
-                                <p>Written in Iceland or Denmark s. XVIII in.</p>
+                            <origin notBefore="1700" notAfter="1730" cert="high"
+                                evidence="conjecture">
+                                <p>Written in <origPlace>Iceland or Denmark</origPlace>, <origDate
+                                        notBefore="1700" notAfter="1730">s. XVIII in</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c eta 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="7">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c η 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="uniform">Sögn Þormóðar Torfasonar um dráp Otta
-                                    Axelsonar skipherra</title>
+                            <msItem n="10" class="sagnfr">
+                                <author key="ThoTor001">Þormóður Torfason</author>
+                                <title type="supplied">The Death of Captain Otto Axelsen</title>
+                                <textLang mainLang="is"/>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -252,28 +362,35 @@
                                             <height unit="mm">165</height>
                                             <width unit="mm">107</width>
                                         </dimensions>
-                           </extent>
+                                    </extent>
                                 </supportDesc>
                             </objectDesc>
                             <handDesc hands="1">
                                 <handNote scribe="ArnMag001" scope="sole" script="unknown">
-                                    <p> Written by Árni Magnússon.</p>
+                                    <p> Written by <name type="person" key="ArnMag001">Árni
+                                            Magnússon</name>.</p>
                                 </handNote>
                             </handDesc>
                         </physDesc>
                         <history>
-                            <origin notBefore="1700" notAfter="1730" cert="high" evidence="conjecture">
-                                <p>Written in Iceland or Denmark s. XVIII in.</p>
+                            <origin notBefore="1700" notAfter="1730" cert="high"
+                                evidence="conjecture">
+                                <p>Written in <origPlace>Iceland or Denmark</origPlace>, <origDate
+                                        notBefore="1700" notAfter="1730">s. XVIII in</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c theta 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="8">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c θ 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
-                                <title type="uniform">Gronlandica</title>
+                                <title type="supplied">Gronlandica</title>
+                                <note>Notes on the literature concerning Greenland; titles of books,
+                                    literary notes etc.</note>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -284,12 +401,19 @@
                                             <material>Paper.</material>
                                         </p>
                                     </support>
-                                    <extent>26. <dimensions type="leaf" scope="range">
+                                    <extent>1. <dimensions type="leaf" scope="range">
                                             <height unit="mm">170</height>
                                             <width unit="mm">110</width>
                                         </dimensions>
-                           </extent>
+                                    </extent>
+                                    <condition>The leaf previously served as a cover, in all
+                                        probability for some loose leaves. A horizontal folding line at the
+                                        middle of the leaves indicates that it used to be folded.</condition>
                                 </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1">The title is written perpendicularly on the
+                                        current recto, the notes are written on the verso.</layout>
+                                </layoutDesc>
                             </objectDesc>
                         </physDesc>
                     </msPart>
