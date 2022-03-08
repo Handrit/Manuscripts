@@ -1,4 +1,5 @@
 <?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="msDesc.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -451,6 +452,7 @@
           <msPart n="6">
             <altIdentifier type="partial">
               <idno>*Acc. 4 c I[1] Ásmundur trøllabani</idno>
+              <note>FLB E 171 (19)</note>
             </altIdentifier>
             <msContents>
               <msItem n="7" class="kvad" defective="true">
@@ -460,7 +462,7 @@
                   <resp key="inf">Informant</resp>
                   <name type="person" key="ThoHan006">Thomas Hansen (66), <placeName key="SkaSan01">Skálavík, Sandoy</placeName></name>
                 </respStmt>
-                <note>*Missing</note>
+                <note>*Misplaced</note>
                 <bibl>CCF 39A. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
                   <biblScope type="volume">II</biblScope><biblScope type="pages">88-96</biblScope>
                 </bibl>
@@ -476,10 +478,16 @@
                 <p>Recorded by <name type="person" key="VenHam001">V. U. Hammershaimb</name> in
                     <origDate when="1847" cert="high">1847</origDate> from <name type="person" key="ThoHan006">Thomas Hansen (Tummas á Trøðini)</name> (aged 66), <origPlace key="SkaSan01">Skálavík, Sandoy</origPlace>.</p>
               </origin>
-              <provenance>
-                <p>The manuscript went missing sometime after being edited in CCF.</p>
-              </provenance>
+              <acquisition>
+                <p>Currently in <name type="place" key="TorStr01">Tórshavn</name>, <name type="org" key="LBS-FO">Landsbókasavnið</name>, <ref type="ms" target="FLB-E-171">E 171</ref> (item 19).</p>
+              </acquisition>
             </history>
+            <additional>
+              <adminInfo>
+                <recordHist>
+                  <p><ref type="secondary-1" target="Foroya7">Chesnutt and Larsen</ref> record this manuscript as missing from <ref type="ms" target="Acc-0004-c">Acc. 4 c</ref>.  It was identified in the manuscript <name type="place" key="TorStr01">Tórshavn</name>, <name type="org" key="LBS-FO">Landsbókasavnið</name>, <ref type="ms" target="FLB-E-171">E 171</ref> by <name type="person" key="SeaVri001">SDV</name> in <date when="2021">2021</date>.</p></recordHist>
+              </adminInfo>
+            </additional>
           </msPart>
         </msDesc>
       </sourceDesc>
