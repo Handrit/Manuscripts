@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="../meta/msDesc.css" title="msDesc" alternate="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -9,13 +8,13 @@
       </titleStmt>
       <publicationStmt>
         <authority>Den Arnamagnæanske Samling</authority>
-        <pubPlace>Copenhagen</pubPlace>
+        <pubPlace key="Copen01">Copenhagen</pubPlace>
       </publicationStmt>
       <sourceDesc>
         <msDesc xml:id="Acc-0004-b-en" xml:lang="en">
           <msIdentifier>
-            <country>Denmark</country>
-            <settlement>Copenhagen</settlement>
+            <country key="DK">Denmark</country>
+            <settlement key="Copen01">Copenhagen</settlement>
             <institution key="AMS"/>
             <repository>Den Arnamagnæanske Samling</repository>
             <collection key="Acc"/>
@@ -28,11 +27,10 @@
           <msContents>
 
             <summary>
-              <title type="uniform">Føroya kvæði - Faroese Ballads</title>
-              <!-- LENA: Delete "Føroya kvæði" ? [09/09/21] -->
+              <title type="uniform">Føroya kvæði - Faroese Ballads</title> <!-- LENA: Delete "Føroya kvæði" ? [09/09/21] --> 
             </summary>
             <msItem n="1" class="regist">
-              <locus from="1r" to="1r">1r (titlepage)</locus>
+              <locus from="1r" to="1r">p. 1234 (f. 1r) (titlepage)</locus>
               <title type="supplied">Table of Contents</title>
               <textLang mainLang="fo" otherLangs="da">Faroese and Danish</textLang>
               <rubric>Indhold</rubric>
@@ -40,9 +38,7 @@
             </msItem>
 
             <msItem n="2" class="kappkv">
-              <locus from="1v" to="26">1v-14r (pp. 1-26)</locus>
-              <!-- LENA: All locus tags in this file need to be updated to the correct format = "pp. 1234-1234 (ff. 1234-1234)" [15/09/21] -->
-              <!-- TODO: are these pp.? Then prefix prose numbers with p /pp., numbers in attributes have to be ff., i.e. need to be converted -->
+              <locus from="1v" to="14r">pp. 1-26 (ff. 1v-14r)</locus>
               <title type="uniform">Gormunds kvæði</title>
               <title type="short">CCF 50</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -55,7 +51,7 @@
             </msItem>
 
             <msItem n="3" class="kappkv">
-              <locus from="14v" to="22v">14v-22v (pp. 27-43)</locus>
+              <locus from="14v" to="22v">pp. 27-43 (ff. 14v-22v)</locus>
               <title type="uniform">Torsteins kvæði</title>
               <title type="short">CCF 99</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -68,7 +64,7 @@
             </msItem>
 
             <msItem n="4" class="kappkv">
-              <locus from="22v" to="28r">22v-28r (pp. 43-56)</locus>
+              <locus from="22v" to="28r">pp. 43-56 (ff. 22v-28r)</locus>
               <title type="uniform">Ívar á Bretlandi</title>
               <title type="short">CCF 69</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -81,7 +77,7 @@
             </msItem>
 
             <msItem n="5" class="kappkv">
-              <locus from="28r" to="30v">28r-30v (pp. 56-59)</locus>
+              <locus from="28r" to="30v">pp. 56-59 (ff. 28r-30v)</locus>
               <title type="uniform">Risin í Holmgørðum</title>
               <title type="uniform">Dysjadólgur</title>
               <title type="short">CCF 10</title>
@@ -96,7 +92,7 @@
             </msItem>
 
             <msItem n="6" class="kappkv">
-              <locus from="30v" to="33r">30v-33r (pp. 59-64)</locus>
+              <locus from="30v" to="33r">pp. 59-64 (ff. 30v-33r)</locus>
               <title type="uniform">Tróndur Jógvansson</title>
               <title type="short">CCF 100</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -109,7 +105,7 @@
             </msItem>
 
             <msItem n="7" class="kappkv">
-              <locus from="33r" to="40r">33r-40r (pp. 64-78)</locus>
+              <locus from="33r" to="40r">pp. 64-78 (ff. 33r-40r)</locus>
               <title type="uniform">Valin svein</title>
               <title type="short">CCF 102</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -122,7 +118,7 @@
             </msItem>
 
             <msItem n="8" class="kappkv">
-              <locus from="40r" to="43r">40r-43r (pp. 84-87)</locus>
+              <locus from="40r" to="43r">pp. 84-87 (ff. 40r-43r)</locus>
               <title type="uniform">Gongurólvs kvæði</title>
               <title type="short">CCF 29</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -135,7 +131,7 @@
             </msItem>
 
             <msItem n="9" class="kappkv">
-              <locus from="43r" to="44v">43r-46v (pp. 84-87)</locus>
+              <locus from="43r" to="44v">pp. 84-87 (ff. 43r-46v)</locus> <!-- LENA: folio numbers don't correspond. Is it 44v or 46v? (I'm guessing it should be 44v since that's where the next item starts?) [29/10/21] -->
               <title type="uniform">Hermundur Grimmarsson</title>
               <title type="short">CCF 65</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -148,7 +144,7 @@
             </msItem>
 
             <msItem n="10" class="kappkv">
-              <locus from="44v" to="48r">44v-48r (pp. 87-94)</locus>
+              <locus from="44v" to="48r">pp. 87-94 (ff. 44v-48r)</locus>
               <title type="uniform">Raðals kvæði</title>
               <title type="short">CCF 82</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -164,7 +160,7 @@
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="chart">
-                <support>Paper</support>
+                <support>Paper.</support>
                 <extent>48. <dimensions type="leaf" scope="all">
                     <height unit="mm" quantity="360">360</height>
                     <width unit="mm" quantity="215">215</width>
@@ -187,7 +183,7 @@
 
                 <condition>
                   <p>The paper is browned and crumbling at the edges. Some leaves have fallen apart
-                    at the spine, e.g. fols. <locus from="1r" to="1v">1</locus> and <locus
+                    at the spine, e.g. ff. <locus from="1r" to="1v">1</locus> and <locus
                       from="48r" to="48v">48</locus> which had originally been one bifolium.</p>
                 </condition>
               </supportDesc>
@@ -207,7 +203,7 @@
                   Michelsen</name>.</p></handNote>
               <handNote scribe="JenDav001" scope="minor" script="unknown">
                 <p>The table of contents was written by <name type="person" key="JenDav001">Jens
-                    Davidsen</name></p></handNote>
+                    Davidsen</name>.</p></handNote>
             </handDesc>
 
             <additions>
@@ -230,11 +226,11 @@
           </physDesc>
           <history>
 
-            <origin notBefore="1814" notAfter="1875" cert="high">
+            <origin notBefore="1814" notAfter="1878" cert="high">
               <p> The manuscript was most likely written by the local schoolteacher <name
                   type="person" key="ZacMic001">Zacharias Michelsen</name> on the island of
                   <origPlace key="Fugloy">Fugloy</origPlace> in the middle of the <origDate
-                  notBefore="1825" notAfter="1875">nineteenth century</origDate>.</p>
+                  notBefore="1825" notAfter="1874">nineteenth century</origDate>.</p>
               <!-- LENA: Changed name from 'Zacharis' to 'Zacharias' -->
             </origin>
             <provenance>
@@ -263,8 +259,7 @@
             </surrogates>
 
             <listBibl>
-              <bibl><ref type="secondary-1" target="Foroya7">The Manuscripts of Faroese
-                  Ballads</ref>
+              <bibl><ref type="secondary-1" target="Foroya7">The Manuscripts of Faroese Ballads</ref>
                 <biblScope unit="volume">VII</biblScope><biblScope unit="pages"
                 >61-62</biblScope></bibl>
             </listBibl>
