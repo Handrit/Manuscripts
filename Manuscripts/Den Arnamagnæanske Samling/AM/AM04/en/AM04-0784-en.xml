@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,12 +23,8 @@
                             <idno>1917</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Prayer book</title>
-                        <origPlace>Denmark</origPlace>
-                        <origDate notBefore="1523-01-01" notAfter="1523-12-31">1523</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="supplied">Prayer book</title></summary>
                         <textLang mainLang="da">Old Danish</textLang>
                     </msContents>
                     <physDesc>
@@ -42,16 +39,16 @@
                                         <height unit="mm">192</height>
                                         <width unit="mm">130</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <bindingDesc>
                             <binding notBefore="1523" notAfter="1599">
                                 <p>
-                           <dimensions type="binding">
+                                    <dimensions type="binding">
                                         <height unit="mm">194</height>
                                         <width unit="mm">133</width>
-                                        <depth>70</depth>
+                                        <depth unit="mm">70</depth>
                                     </dimensions>. Contemporary brown blind-tooled calfskin over
                                     pasteboards on three sewing supports. The back cover is extended
                                     with a flap which is fastened to the front cover by to metal
@@ -64,9 +61,34 @@
                         <accMat>
                             <p>The text on rni Magnusson's slip reads: <q xml:lang="la">Ex auctione
                                     Rostgardianå <lb/>Num. 353.</q> indicating that Árni Magnússon
-                                aquired the manuscript at <name type="person" key="FreRos001">Frederik Rostgaard</name>'s auction in <date when="1726">1726</date>.</p>
+                                aquired the manuscript at <name type="person" key="FreRos001"
+                                    >Frederik Rostgaard</name>'s auction in <date when="1726"
+                                    >1726</date>.</p>
                         </accMat>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Denmark</origPlace>, <origDate when="1523"
+                                >1523</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Cormack, <ref type="secondary-1" target="MarCor2016a">St Ursula
+                                    and the 11,000 Virgins in Scandinavia and Iceland in the Middle
+                                    Ages</ref>
+                                <biblScope unit="page">208, 220 (fodnoter)</biblScope></bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">202-203</biblScope>
+                            </bibl>
+                            <bibl>Rietz, <ref target="Wadstena">En Wadstena-nunnas bönbok</ref>
+                                <biblScope unit="page">xv-xvi</biblScope>
+                            </bibl>
+                            <bibl>Wolf, <ref target="Barbarasaga2000">The Old Norse-Icelandic Legend
+                                    of Saint Barbara</ref><biblScope unit="page">55,
+                                57</biblScope></bibl>
+                        </listBibl>
+                    </additional>
+
                 </msDesc>
             </sourceDesc>
         </fileDesc>

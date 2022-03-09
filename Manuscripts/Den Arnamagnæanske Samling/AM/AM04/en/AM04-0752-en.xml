@@ -24,23 +24,43 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary><title type="uniform">Snorra Edda</title></summary>
-                  <msItem>
-
-                     <textLang mainLang="is">Icelandic</textLang>
-                  </msItem>
+                  <summary><title type="supplied">Snorra Edda and Dæmisögur</title>
+                     <note>The manuscript is a compilation of two different
+                     manuscripts.</note></summary>
+                  <textLang mainLang="is"/>
+                     <msItem n="1" class="edd">
+                        <locus from="1r" to="35v">1r-35v</locus>
+                        <title type="uniform" xml:lang="is">Snorra Edda</title>
+                        <explicit>en<ex>n</ex> huioriu dru filg<ex>er</ex>
+                        </explicit>
+                        <filiation>Deriving from <name type="ms">Codex Upsaliensis</name> (<ref
+                              type="ms">DG 11</ref>)</filiation>
+                     </msItem>
+                     <msItem n="2" class="damis">
+                        <locus from="36r" to="43r">36r-43r</locus>
+                        <title type="supplied" xml:lang="is">Dæmisögur</title>
+                     </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support><material>Paper</material>.</support>
-                        <extent>43. <dimensions type="leaf" scope="all">
+                        <extent>43. Bl. 43v was originally blank. <dimensions type="leaf" scope="all">
                               <height unit="mm">185</height>
                               <width unit="mm">142</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">Spaces are left blank for initials except from the
+                           opening initial. Further blank spaces occur occasionally, most probably
+                           to mark illegible passages in the exemplar.</layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <decoDesc>
+                     <decoNote type="initial" subtype="flourished">The main part (fols 1-35) opens with a <term>littera florissa</term>.</decoNote>
+                  </decoDesc>
+                  <additions>Pen trials and a stanza are found on fol. 43v.</additions>
                </physDesc>
                <history>
                   <origin><origPlace>Iceland?</origPlace>
@@ -59,7 +79,6 @@
                         <biblScope unit="page">174-175</biblScope></bibl>
                   </listBibl>
                </additional>
-
             </msDesc>
          </sourceDesc>
       </fileDesc>

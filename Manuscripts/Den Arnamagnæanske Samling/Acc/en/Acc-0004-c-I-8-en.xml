@@ -1,5 +1,5 @@
-<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-1.0.rnc" type="compact"?>
-
+<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml-stylesheet type="text/css" href="msDesc.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -15,7 +15,9 @@
           <msIdentifier>
             <country key="DK">Denmark</country>
             <settlement key="Copen01">Copenhagen</settlement>
+            <institution key="AMS"/>
             <repository>Den Arnamagnæanske Samling</repository>
+            <collection key="Acc"/>
             <idno>Acc. 4 c I[8]</idno>
             <altIdentifier type="internal" subtype="KKKat">
               <idno>2826</idno>
@@ -75,19 +77,19 @@
             </adminInfo>
             <listBibl>
               <bibl> Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                <biblScope type="volume">II</biblScope>
-                <biblScope type="pages">609</biblScope>
+                <biblScope unit="volume">II</biblScope>
+                <biblScope unit="pages">609</biblScope>
               </bibl>
               <bibl> Chesnutt and Larsen: <ref type="secondary-1" target="Foroya7">The Manuscripts of Faroese Ballads</ref>
-                <biblScope type="volume">VII</biblScope>
-                <biblScope type="pages">72-73</biblScope>
+                <biblScope unit="volume">VII</biblScope>
+                <biblScope unit="pages">72-73</biblScope>
               </bibl>
             </listBibl>
           </additional>
           <msPart n="1">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Acc. 4 c I[8] Illu hjúnini</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Illu hjúnini</title></summary>
               <msItem n="1" class="kvad">
@@ -103,7 +105,7 @@
                   <name type="person" key="MagOle001">Magnus Ólavsson í <placeName key="SviSvi02">Svínoy</placeName></name>
                 </respStmt>
                 <bibl><ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">265-266</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">265-266</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -153,9 +155,9 @@
             </history>
           </msPart>
           <msPart n="2">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Acc. 4 c I[8] Ívar Skjøldsvein</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Ívar Skjøldsvein</title></summary> 
               <msItem n="2" class="kvad" defective="true">
@@ -170,7 +172,7 @@
                 <incipit>Ribar Ulv var to lítil ein drong</incipit>
                 <incipit type="refrain">So herliga og to væl, der de trådde</incipit>
                 <explicit>meg yvir tann unga Ribar Ulv at hevna</explicit>
-              </msItem>
+              
               <msItem n="2.1" class="sendibr notes" defective="false">
                 <locus from="1r" to="1v">pp. 1-2 (ff. 1r-1v)</locus> 
                 <title type="supplied">Commentary</title>
@@ -179,6 +181,7 @@
                 <incipit>Sandt at sige, gider jeg ikke skrive den af på færøsk, da den slet ikke er færøsk</incipit>
                 <explicit>da <seg>to</seg> og <seg>få</seg> jo også rime sammen <supplied reason="damage">i</supplied> den danske v. 26.</explicit>
                 <note>Letter to <name type="person" key="SveGru001">Svend Grundtvig</name>, dated Kirketeig (Kirkjuteigur parsonage in <placeName key="KviStr01">Kvívík</placeName>), <date when="1858-12-04">4 December 1858</date>.</note> 
+              </msItem>
               </msItem>
             </msContents>
             <physDesc>
@@ -233,9 +236,9 @@
             </history>
           </msPart>
           <msPart n="3">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Acc. 4 c I[8] Ívint Herintsson</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Ívint Herintsson</title></summary>
               <msItem n="3" class="kvad">
@@ -255,13 +258,13 @@
                 </respStmt>
                 <filiation>Item 41 in <ref type="ms" target="DFS-68">Sandoyarbók</ref></filiation>
                 <bibl>CCF 108Aa. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">V</biblScope><biblScope type="pages">199-218</biblScope>
+                  <biblScope unit="volume">V</biblScope><biblScope unit="pages">199-218</biblScope>
                 </bibl>
                 <note>In the upper right corner <name type="person" key="VenHam001">V. U.
                     Hammershaimb</name> has rewritten the refrain as <q>Stevi:<lb/> Gár í dans
                     frúir! sprund<lb/> fagra eg màr kjósi til àt<lb/> dansa med við hánd<lb/> so
                     fàgurliga sum tú kan,<lb/> gár í dans frúir!</q></note>
-                <msItem n="4" class="kvad">
+                <msItem n="3.1" class="kvad">
                   <locus from="3r" to="6r">pp. 5-11 (ff. 3r-6r)</locus>
                   <title type="uniform">Jákimann kongur</title>
                   <title type="short">CCF 108</title>
@@ -270,7 +273,7 @@
                   <incipit>Jagjimankongur uj Hunalandi</incipit>
                   <explicit>Herint u hans vuiv</explicit>
                 </msItem>
-                <msItem n="5" class="kvad">
+                <msItem n="3.2" class="kvad">
                   <locus from="6r" to="8v">pp. 11-16 (ff. 5r-8v)</locus>
                   <title type="uniform">Kvikilsprang</title>
                   <title type="short">CCF 108</title>
@@ -279,7 +282,7 @@
                   <incipit>Tej vouru ikkji lengji seaman</incipit>
                   <explicit>sum Gjirtlands kongur otti</explicit>
                 </msItem>
-                <msItem n="6" class="kvad">
+                <msItem n="3.3" class="kvad">
                   <locus from="8v" to="11v">pp. 16-22 (ff. 8v-11v)</locus>
                   <title type="uniform">Ívints táttur</title>
                   <title type="short">CCF 108</title>
@@ -288,7 +291,7 @@
                   <incipit>Orla vear um Morginin</incipit>
                   <explicit>uj Muine Herbu lidgja</explicit>
                 </msItem>
-                <msItem n="7" class="kvad">
+                <msItem n="3.4" class="kvad">
                   <locus from="11v" to="15v">pp. 22-30 (ff. 11v-15v)</locus>
                   <title type="uniform">Galians táttur fyrri</title>
                   <title type="short">CCF 108</title>
@@ -297,7 +300,7 @@
                   <incipit>Hartankongur uj Hunalandi</incipit>
                   <explicit>gjevi eav sluigji leadi</explicit>
                 </msItem>
-                <msItem n="8" class="kvad">
+                <msItem n="3.5" class="kvad">
                   <locus from="15v" to="18r">pp. 30-35 (ff. 15v-18r)</locus>
                   <title type="uniform">Galians táttur seinni</title>
                   <title type="short">CCF 108</title>
@@ -364,12 +367,12 @@
             </history>
           </msPart>
           <msPart n="4">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Acc. 4 c I[8] Jallgríms kvæði</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Jallgríms kvæði</title></summary>
-              <msItem n="9" class="kvad">
+              <msItem n="4" class="kvad">
                 <locus from="19r" to="22r">pp. 37-43 (ff. 19r-22r)</locus>
                 <title type="uniform">Jallgríms kvæði</title>
                 <title type="short">CCF 19</title>
@@ -381,7 +384,7 @@
                 <explicit>skatt u gudl uj skruin</explicit>
                 <finalRubric>Ende</finalRubric>
                 <bibl>CCF 19A. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">I</biblScope><biblScope type="pages">435-439</biblScope>
+                  <biblScope unit="volume">I</biblScope><biblScope unit="pages">435-439</biblScope>
                 </bibl>
                 <note>Not found in <ref type="ms" target="DFS-68">Sandoyarbók</ref>.</note>
               </msItem>
@@ -428,12 +431,12 @@
             </history> <!-- LENA: Should this be rephrased? [17/09/21] -->
           </msPart>
           <msPart n="5.1">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Acc. 4 c I[8] Jatvarðs ríma (a)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Jatvarðs ríma</title></summary>
-              <msItem n="10" class="kvad">
+              <msItem n="5" class="kvad">
                 <locus from="23r" to="24v">pp. 45-48 (ff. 23r-24v)</locus>
                 <title type="uniform">Jatvarðs ríma</title>
                 <title type="short">CCF 71</title>
@@ -447,7 +450,7 @@
                 <incipit>Ein byr jallur í Noregi</incipit>
                 <explicit>herklæði öll</explicit>
                 <bibl>CCF 71B. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope><biblScope type="pages"
+                  <biblScope unit="volume">III</biblScope><biblScope unit="pages"
                     >136-138</biblScope>
                 </bibl>
               </msItem>
@@ -497,12 +500,12 @@
             </history>
           </msPart>
           <msPart n="5.2">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Acc. 4 c I[8] Jatvarðs ríma (b)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Jatvarðs ríma</title></summary>
-              <msItem n="11" class="kvad">
+              <msItem n="6" class="kvad">
                 <locus from="25r" to="28v">pp. 49-56 (ff. 25r-28v)</locus>
                 <title type="uniform">Jatvarðs ríma</title>
                 <title type="short">CCF 71</title>
@@ -520,7 +523,7 @@
                 <filiation>Item 43 in <ref type="ms" target="DFS-68">Sandoyarbók</ref></filiation>
                 <note type="label" n="11">Labelled number 11.</note>
                 <bibl>CCF 71Ab. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope><biblScope type="pages">132-135</biblScope>
+                  <biblScope unit="volume">III</biblScope><biblScope unit="pages">132-135</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -569,12 +572,12 @@
             </history>
           </msPart>
           <msPart n="6">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Acc. 4 c I[8] Jómsvíkinga vísa</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Jómsvíkinga vísa</title></summary>
-              <msItem n="12" class="kvad">
+              <msItem n="7" class="kvad">
                 <locus from="29r" to="30r">pp. 57-59 (ff. 29r-30r)</locus>
                 <title type="uniform">Jómsvíkinga vísa</title>
                 <title type="short">CCF 20</title>
@@ -589,7 +592,7 @@
                   <add>í</add> Jógvansborg</incipit>
                 <explicit>at allur herurin doyði</explicit>
                 <bibl>CCF 20Ab. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">I</biblScope><biblScope type="pages">448-450</biblScope>
+                  <biblScope unit="volume">I</biblScope><biblScope unit="pages">448-450</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -633,28 +636,28 @@
             </history>
           </msPart>
           <msPart n="7">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Acc. 4 c I[8] Harra Jóan Ingvarsson</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Harra Jóan Ingvarsson</title></summary>
-              <msItem n="13" class="kvad">
+              <msItem n="8" class="kvad">
                 <locus from="31r" to="48r">pp. 61-95 (ff. 31r-48r)</locus>
                 <title type="uniform">Harra Jóan Ingvarsson</title>
                 <title type="short">CCF 142</title>
-                <bibl>CCF 142Ab. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref><biblScope type="volume">VI</biblScope><biblScope type="pages"
+                <bibl>CCF 142Ab. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref><biblScope unit="volume">VI</biblScope><biblScope unit="pages"
                   >122-127</biblScope>
                 </bibl>
               </msItem>
-              <msItem n="14" class="kvad">
+              <msItem n="9" class="kvad">
                 <locus from="48v" to="52r">pp. 96-103 (ff. 48v-52r)</locus>
                 <title type="uniform">Gátu ríma</title>
                 <title type="short">CCF 17</title>
                 <bibl>CCF 17. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">I</biblScope><biblScope type="pages">426-427</biblScope>
+                  <biblScope unit="volume">I</biblScope><biblScope unit="pages">426-427</biblScope>
                 </bibl>
               </msItem>
-              <msItem n="15" class="tjos"> 
+              <msItem n="10" class="tjos"> 
                 <locus from="52v" to="54v">pp. 104-108 (ff. 52v-54v)</locus>
                 <title type="uniform">Legend of Ivar the Boneless</title>
               </msItem>
@@ -697,16 +700,16 @@
           </msPart>
           
           <msPart n="8.1">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>*Acc. 4 c I[8] Jósveins vísa (a)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
-              <msItem n="16" class="kvad" defective="true">
+              <msItem n="11" class="kvad" defective="true">
                 <title type="uniform">Jósveins vísa</title>
                 <title type="short">CCF 72</title>
                 <note>*Missing</note>
                 <bibl>CCF 72a. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope><biblScope type="pages">139-140</biblScope>
+                  <biblScope unit="volume">III</biblScope><biblScope unit="pages">139-140</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -725,11 +728,11 @@
             
           
           <msPart n="8.2">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>*Acc. 4 c I[8] Jósveins vísa (b)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
-              <msItem n="17" class="kvad" defective="true">
+              <msItem n="12" class="kvad" defective="true">
                 <title type="uniform">Jósveins vísa</title>
                 <title type="short">CCF 72</title>
                 <respStmt>
@@ -738,7 +741,7 @@
                 </respStmt>
                 <note>*Missing</note>
                 <bibl>CCF 72b. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope><biblScope type="pages">139-140</biblScope>
+                  <biblScope unit="volume">III</biblScope><biblScope unit="pages">139-140</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -759,11 +762,11 @@
           
           
           <msPart n="8.3">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>*Acc. 4 c I[8] Jósveins vísa (c)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
-              <msItem n="18" class="kvad" defective="true">
+              <msItem n="13" class="kvad" defective="true">
                 <title type="uniform">Jósveins vísa</title>
                 <title type="short">CCF 72</title>
                 <respStmt>
@@ -772,7 +775,7 @@
                 </respStmt>
                 <note>*Missing</note>
                 <bibl>CCF 72c. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope><biblScope type="pages">139-140</biblScope>
+                  <biblScope unit="volume">III</biblScope><biblScope unit="pages">139-140</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -791,12 +794,12 @@
             </history>
           </msPart>
           <msPart n="9">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Acc. 4 c I[8] Junkarin Loðin</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Junkarin Loðin</title></summary>
-              <msItem n="19" class="kvad">
+              <msItem n="14" class="kvad">
                 <locus from="55r" to="55r">p. 109 (f. 55r)</locus>
                 <title type="uniform">Junkarin Loðin</title>
                 <title type="short">CCF 143</title>
@@ -805,7 +808,7 @@
                   <name type="person" key="PouJoh001">NAME, <placeName key="SumSud01">PLACE</placeName></name>
                 </respStmt>
                 <bibl>CCF 143. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">VI</biblScope><biblScope type="pages">133-134</biblScope>
+                  <biblScope unit="volume">VI</biblScope><biblScope unit="pages">133-134</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -851,17 +854,17 @@
             </history>
           </msPart>
           <msPart n="10.1">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Acc. 4 c I[8] Jústinjalls kvæði (a)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Jústinjalls kvæði</title></summary>
-              <msItem n="20" class="kvad">
+              <msItem n="15" class="kvad">
                 <locus from="57r" to="65r">pp. 113-129 (ff. 57r-65r)</locus>
                 <title type="uniform">Jústinjalls kvæði</title>
                 <title type="short">CCF 73</title>
                 <bibl>CCF 73B. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope><biblScope type="pages">154-164</biblScope>
+                  <biblScope unit="volume">III</biblScope><biblScope unit="pages">154-164</biblScope>
                 </bibl>
               </msItem>
             </msContents>
@@ -902,12 +905,12 @@
             </physDesc>
           </msPart>
           <msPart n="10.2">
-            <altIdentifier type="partial">
+            <msIdentifier><altIdentifier type="partial">
               <idno>Acc. 4 c I[8] Jústinjalls kvæði (b)</idno>
-            </altIdentifier>
+            </altIdentifier></msIdentifier>
             <msContents>
               <summary><title type="uniform">Jústinjalls kvæði</title></summary>
-              <msItem n="21" class="kvad">
+              <msItem n="16" class="kvad">
                 <locus from="68r" to="77v">pp. 135-154 (ff. 68r-77v)</locus>
                 <title type="uniform">Jústinjalls kvæði</title>
                 <title type="short">CCF 73</title>
@@ -917,7 +920,7 @@
                 </respStmt>
                 <filiation>Item 59 in <ref type="ms" target="DFS-68">Sandoyarbók</ref></filiation>
                 <bibl>CCF 73Ab. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                  <biblScope type="volume">III</biblScope><biblScope type="pages">141-154</biblScope>
+                  <biblScope unit="volume">III</biblScope><biblScope unit="pages">141-154</biblScope>
                 </bibl>
               </msItem>
             </msContents>
