@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,16 +23,17 @@
                      <idno>672</idno>
                   </altIdentifier>
                </msIdentifier>
-                  <msContents>
+               <msContents>
                   <summary><title type="supplied">Legal Manuscript</title></summary>
-                  <msItem><textLang mainLang="da" otherLangs="la">Danish and Latin</textLang></msItem>
+                  <msItem>
+                     <textLang mainLang="da" otherLangs="la">Danish and Latin</textLang>
+                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support><material>Paper</material>.</support>
-                        <extent>112. 
-<dimensions type="leaf" scope="all">
+                        <extent>112. <dimensions type="leaf" scope="all">
                               <height unit="mm">216</height>
                               <width unit="mm">165</width>
                            </dimensions>
@@ -39,9 +41,27 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
-               <history><origin><origPlace>Denmark</origPlace>,
-                  <origDate notBefore="1500" notAfter="1699">ss. XVI-XVII</origDate>.
-               </origin></history>
+               <history>
+                  <origin><origPlace>Denmark</origPlace>, <origDate notBefore="1500" notAfter="1699"
+                        >ss. XVI-XVII</origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Jørgensen, <ref type="secondary-1" target="Jørgensen1884">Udsigt over de
+                           danske Rigsarchivers Historie</ref>
+                        <biblScope unit="page">200-205</biblScope>
+                     </bibl>
+                     <bibl>Kolderup-Rosenvinge, <ref type="secondary-1" target="SgdL3">Samling af
+                           gamle danske Love</ref>
+                        <biblScope unit="volume">III</biblScope>
+                        <biblScope unit="page">xx</biblScope>
+                     </bibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">358-359</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
