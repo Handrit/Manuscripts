@@ -27,7 +27,14 @@
                   <summary><title type="uniform" xml:lang="la">Annales Lundenses</title>
                      <title type="uniform" xml:lang="da">Lundeårbogen</title>
                   </summary>
-                  <textLang mainLang="la">Latin</textLang>
+                  <msItem n="1" class="annal">
+                     <locus from="1r" to="41v">1r-41v</locus>
+                     <title type="uniform" xml:lang="la">Annales Lundenses</title>
+                     <title type="uniform" xml:lang="da">Lundeårbogen</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <note>From the creation of the world to <date when="1307">1307</date>.</note>
+                  </msItem>
+                  
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -35,13 +42,32 @@
                         <support>
                            <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>41. <dimensions type="leaf" scope="all">
+                        <extent>50. Fols 42-50 are blank. <dimensions type="leaf" scope="all">
                               <height unit="mm">227</height>
                               <width unit="mm">165</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Paginated 1-82.</p>
+                        </foliation>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1 2">
+                           <p>Partly written in two columns. Red rubrics and initials; a few initials on fol. 1r are, however, blue.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <additions>
+                     <p>Occasional marginalia and highlighting of text in a younger hand. On the pastedown a hand from the <date notBefore="1500" notAfter="1599"
+                        >sixteenth century</date> added some historical notes on the implementation of the Danish 
+                        dioceses, <name type="place">Dalby church</name> and the battle of <name type="place">Fodevig</name>.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Full leather binding with parchment pastedowns.</p>
+                     </binding>
+                  </bindingDesc>
+                  
                </physDesc>
                <history>
                   <origin>
@@ -57,7 +83,7 @@
                         Aevi</ref>
                         <biblScope unit="volume">I</biblScope>
                         <biblScope unit="page">210-50</biblScope>
-                        <note>Med faksimile</note>
+                        <note>With a facsimile.</note>
                      </bibl>
                      <bibl>Rørdam, <ref target="HolRør1873-1875">Historiske Kildeskrifter</ref>
                         <biblScope unit="volume">I:1</biblScope>
@@ -73,6 +99,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2022-03-16" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>
