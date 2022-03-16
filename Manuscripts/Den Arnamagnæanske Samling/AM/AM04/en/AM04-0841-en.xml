@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,20 +23,17 @@
                      <idno>1973</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="la">Annales Lundenses</title>
-                  <title type="uniform" xml:lang="da">Lundeårbogen</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1390" notAfter="1410">s. XIV/XV</origDate>
-               </head>
                <msContents>
+                  <summary><title type="uniform" xml:lang="la">Annales Lundenses</title>
+                     <title type="uniform" xml:lang="da">Lundeårbogen</title>
+                  </summary>
                   <textLang mainLang="la">Latin</textLang>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
                         <extent>41. <dimensions type="leaf" scope="all">
                               <height unit="mm">227</height>
@@ -45,6 +43,33 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Denmark</origPlace>,
+                     <origDate notBefore="1390" notAfter="1410">c. 1400</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                        unit="volume">II</biblScope><biblScope unit="page">230</biblScope></bibl>
+                     <bibl>Langebek, <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
+                        Aevi</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">210-50</biblScope>
+                        <note>Med faksimile</note>
+                     </bibl>
+                     <bibl>Rørdam, <ref target="HolRør1873-1875">Historiske Kildeskrifter</ref>
+                        <biblScope unit="volume">I:1</biblScope>
+                        <biblScope unit="page">264</biblScope>
+                     </bibl>
+                     <bibl>Suhm, <ref target="PetSuh1771-1776">Samlinger</ref>
+                        <biblScope unit="volume">II:3</biblScope>
+                        <biblScope unit="page">1 ff.</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>
