@@ -25,9 +25,7 @@
                     </msIdentifier>
                     <msContents>
                         <summary><title type="supplied">Annals and Chronicles</title></summary>
-                        <!-- Fra haandskrift.ku.dk: AM 843 4to fra ca. 1250-1300 er det ældste fragment af historisk indhold.
-                            Den indeholder brudstykker af annaler, en historie om jødefolket og Lejrekrøniken. -->
-                        <textLang mainLang="la">Latin</textLang>
+                           <textLang mainLang="la">Latin</textLang>
                         <msItem n="1" defective="true">
                             <locus from="1r" to="4v">1r-4v</locus>
                             <title type="uniform" xml:lang="la">Conspectus rerum Judæorum usqve ad
@@ -43,7 +41,8 @@
                             <incipit defective="true">Prímo temp<ex>or</ex>e</incipit>
                             <explicit defective="true">hiarwart ſialan<lb/>diam</explicit>
                             <note>Ends defectively.</note>
-                            <bibl>Gertz, <ref target="SMHDMAE">Scriptores minores historiæ Danicæ medii ævi</ref>
+                            <bibl>Gertz, <ref target="SMHDMAE">Scriptores minores historiæ Danicæ
+                                    medii ævi</ref>
                                 <biblScope unit="page">43-53</biblScope>
                                 <note>Ed. A.</note></bibl>
                         </msItem>
@@ -84,19 +83,24 @@
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
+                        <handDesc>
+                            <handNote script="textualis"><p>Written by two early Gothic Bookhands.</p></handNote>
+                        </handDesc>
                     </physDesc>
                     <history>
-                        <origin notBefore="1275" notAfter="1325"><p>Written probably in
-                                    <origPlace>Lund, Sweden</origPlace>
-                                <origDate notBefore="1240" notAfter="1260" evidence="conjecture"
-                                    resp="LNHaandskrifter">c. 1250</origDate> (<bibl><ref
-                                        type="secondary" target="LNHaandskrifter">Nielsen
-                                        1937</ref>
-                                    <biblScope unit="page">106</biblScope></bibl> and <bibl><ref target="SMHDMAE">Gertz 1917-1920</ref>
-                                        <biblScope unit="page">38</biblScope></bibl>). Kålund's dating: c. 1300 (<bibl><ref
-                                        type="secondary-1" target="KKKat">Katalog</ref>
+                        <origin notBefore="1275" notAfter="1325"><p>Most possibly written in
+                                    <origPlace>Lund, Sweden</origPlace>, <origDate notBefore="1290"
+                                    notAfter="1310">c. 1300</origDate> (<bibl><ref
+                                        type="secondary-1" target="KKKat">Kålund, Katalog</ref>
                                     <biblScope unit="volume">II</biblScope>
-                                    <biblScope unit="page">231</biblScope></bibl>).</p></origin>
+                                    <biblScope unit="page">231</biblScope></bibl> and <bibl><ref
+                                        target="Kroman1980">Kromann 1980</ref>
+                                    <biblScope unit="page">21</biblScope></bibl>). It was previously
+                                dated to c. 1250 (<bibl><ref type="secondary"
+                                        target="LNHaandskrifter">Nielsen 1937</ref>
+                                    <biblScope unit="page">106</biblScope></bibl> and <bibl><ref
+                                        target="SMHDMAE">Gertz 1917-1920</ref>
+                                    <biblScope unit="page">38</biblScope></bibl>).</p></origin>
                     </history>
                     <additional>
                         <adminInfo>
@@ -111,6 +115,9 @@
                             <bibl><ref target="SMHDMAE">Gertz 1917-1920</ref>
                                 <biblScope unit="volume">I</biblScope>
                                 <biblScope unit="page">38-39</biblScope></bibl>
+                            <bibl><ref
+                                target="Kroman1980">Kromann 1980</ref>
+                                <biblScope unit="page">21</biblScope></bibl>
                             <bibl><ref target="SRDMAE">Langebek 1772-1878</ref>
                                 <biblScope unit="volume">I</biblScope>
                                 <biblScope unit="page">214 ff</biblScope>
@@ -126,6 +133,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2022-03-21" who="EvaWed001">Updated msContens, origDate and added titles to the bibliography.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>
