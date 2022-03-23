@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,52 @@
                      <idno>2023</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Boreas, Chapter V and VII</title>
-                  <origPlace>Norway?</origPlace>
-                  <origDate notBefore="1688" notAfter="1704">c. 1700</origDate>
-               </head>
-               <msContents>
+                  <msContents>
+                  <summary>
+                     <title type="uniform">Boreas ejusque laudes</title>
+                     <note>Chapters V and VII.</note></summary>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="OttSpe001">Ottho Sperling</name>
-                     </author>
-                     <textLang mainLang="la">Latin</textLang>
+                     <author key="OttSpe001">Ottho Sperling</author>
+                     <title type="uniform">Boreas ejusque laudes</title><textLang mainLang="la">Latin</textLang>
+                     <msItem n="1.1">
+                        <rubric>De Iotis, Iotunheimis, Iettis, qvod sint veri
+                           Gothi</rubric>
+                     </msItem>
+                     <msItem n="1.2">
+                        <rubric>De Metallis Borealium</rubric>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>23. 
-<dimensions type="leaf" scope="all">
+                        <extent>23. <dimensions type="leaf" scope="all">
                               <height unit="mm">215</height>
                               <width unit="mm">165</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribe="AsgJon001" scope="sole" script="unknown">
+                        <p>Written by Ásgeir Jónsson.</p>
+                     </handNote>
+                  </handDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Norway?</origPlace>
+                     <origDate notBefore="1688" notAfter="1705">c. 1688-1705</origDate>.
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">248</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
