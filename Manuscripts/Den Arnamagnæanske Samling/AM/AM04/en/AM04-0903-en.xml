@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -23,18 +24,47 @@
                   </altIdentifier>
                </msIdentifier>
                <head>
-                  <title>Greek-Latin Vocabulary</title>
-                  <origPlace>Unknown</origPlace>
-                  <origDate notBefore="1400" notAfter="1499">s. XV</origDate>
+                  <title type="supplied">Greek-Latin Vocabulary and og Eqvivoca Mathæi</title>
                </head>
                <msContents>
                   <textLang mainLang="la" otherLangs="gr">Latin and Greek</textLang>
+                  <msItem n="1">
+                     <locus from="1r" to="17v">1r-17v</locus>
+                     <title type="supplied">Vocabularium Græco-Latinum</title>
+                     <textLang mainLang="la" otherLangs="grc"/>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="18r" to="88v">18r-88v</locus>
+                     <author>Matheus</author>
+                     <title type="supplied">Eqvivoca Mathæi</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <note>Titlens navn bør måske antages at vedkomme hele samlingen af tildels
+                        uordnede blade, på bl. 42v nederst står: <q>Equivoca mathei</q>, bl. 88r:
+                        <q>Expliciunt synonima Anno d<ex>omi</ex>ni m<hi rend="sup">o</hi> cd<hi
+                           rend="sup">o</hi> xxii<hi rend="sup">o</hi> i<ex>n</ex> sabbato
+                           pe<ex>n</ex>tecostes</q>.</note>
+                  </msItem>
+                  <msItem n="3">
+                     <locus from="89r" to="89v">89r-v</locus>
+                     <title type="supplied">Forklaringer af grammatiske fagudtryk</title>
+                     <note>i huskevers</note>
+                     <textLang mainLang="la">Latin</textLang>
+                  </msItem>
+                  <msItem n="4">
+                     <locus from="90r" to="90v">90r-v</locus>
+                     <author key="Greooo002">Gregor</author>
+                     <title type="supplied">Fragment af et af Gregors skrifter</title>
+                     <note>Om Ezekiel?</note>
+                     <textLang mainLang="la">Latin</textLang>
+                     <note>vedlagt</note>
+                  </msItem>
+                  
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p>Paper.</p>
                         </support>
                         <extent>90. <dimensions type="leaf" scope="all">
                               <height unit="mm">225</height>
@@ -44,6 +74,12 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown country of origin</origPlace>,
+                     <origDate notBefore="1400" notAfter="1499">s. XV</origDate>.
+                  </origin>
+               </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
