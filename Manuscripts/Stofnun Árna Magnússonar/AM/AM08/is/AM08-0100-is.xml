@@ -44,7 +44,7 @@
 						
 						<bindingDesc><binding>
 							<p>Handritið er bundið í pappabandi og stendur "100" utan á spjaldinu.</p>
-							<p>Saurblaðið fyrir aftan tekið frá <ref type="ms" target="AM08-0100-01-03">AM 100 2 8vo</ref>.</p> <!-- CHECK: still connected? -->
+							<p>Saurblaðið fyrir aftan tilheyrir <ref type="ms" target="AM08-0100-01-03">AM 100 2 8vo</ref>.</p> <!-- CHECK: still connected? -->
 							
 						<!--	<p>The manuscript is bound in a grey cardboard binding that uses blank paper as pastedown (a blueish sheet in the front cover and a
 						white leaf, taken from the quire in <ref>AM 100 8vo II</ref>, in the back).--> 
@@ -56,17 +56,43 @@
 						<accMat><p>Fastur <locus from="accMat01r" to="accMat01v">seðill</locus>
 							(<dimensions type="slip" unit="mm"><height>128</height><width>78</width></dimensions>) 
 							með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name> á 
-							saurblaði fremst í handritinu: <quote type="AMSlip" xml:lang="is">Ur bok Pals Widalins Lógman<ex>n</ex>s in octavo.</quote>
+							saurblaði fremst í handritinu sem á við <ref type="ms" target="#AM08-0100-01-03-is">AM 100 1 8vo</ref>: <quote type="AMSlip" xml:lang="is">Ur bok Pals Widalins Lógman<ex>n</ex>s in octavo.</quote>
+							Áður var seðillinn límt fastur í neðri spássíu á bl. <locus from="2r" to="2r">2r</locus>.
 						</p>
-							<p>Laus seðill aftast í handritinu: <quote type="note" xml:lang="da">ad AM 100,8o: / Samme hånd som AM 1033,4o (JH). / 22/5-80 AL.</quote></p></accMat>
+							<p>Laus seðill aftast í handritinu: <quote type="note" xml:lang="da">ad AM 100,8o: / Samme hånd som AM 1033,4o (JH). / 22/5-80 AL.</quote></p></accMat> <!-- cehck and add to right part -->
 					</physDesc>
+					<history>
+						<provenance>
+							<p>Hlutarnir voru sett saman af <name key="ArnMag001" type="person">Árna Magnússyni</name>.</p>
+						</provenance>
+						<acquisition when="1980-06-11">
+							<p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 11. júní 1980.</p>
+						</acquisition>
+						
+					</history>
 					
 					<additional>
-						<adminInfo/>
+						<adminInfo>
+							<recordHist>
+							<source>
+								<p><name key="KriKaa001" type="person">Kålund</name>
+									gekk frá handritinu til skráningar <date when="1890-01-18">18. janúari 1890</date>.</p>
+								<p><name type="person" key="BeeSte001">BS</name> skráði <date from="2022-03-30" to="2022-03-30">30. marts 2022</date>
+									samkvæmt TEI P5 reglum.</p></source>
+							</recordHist>
+							<custodialHist>
+								<p>Viðgerðir á bl. <locus from="22r" to="22v">22</locus>.</p>
+							</custodialHist>
+						</adminInfo>
+						
+						<surrogates>
+							<p>Svart-hvítar ljósmyndir á Árnasafni í Kaupmannahöfn, aðgengilegar á <ref>https://digitalesamlinger.hum.ku.dk/</ref>.</p> <!-- check! -->
+						</surrogates>
+						
 						<listBibl>
-							<bibl><ref type="primary-2" target="JonThork1888">Jón Þorkelsson, 1888</ref>
+							<bibl><ref type="secondary-1" target="JonThork1888">Jón Þorkelsson, 1888</ref>
 								<biblScope unit="pages">334-335</biblScope></bibl>
-							<bibl><ref type="primary-2" target="WolfvanDeusen2017">Wolf and van Deusen, 2017</ref>
+							<bibl><ref type="secondary-1" target="WolfvanDeusen2017">Wolf and van Deusen, 2017</ref>
 							<biblScope unit="pages">75-76</biblScope></bibl>
 						</listBibl>
 					</additional>
@@ -131,7 +157,7 @@
 										<width>100</width>
 									</dimensions>). Autt blað: 14r-v.</extent>
 										
-									<foliation ana="later fol">Blaðmerking 1-14, líklega seinni tíma viðbót.</foliation>  
+									<foliation ana="later fol">Blaðmerking 1-14, seinni viðbót.</foliation>  <!-- check about l+iklega (isn't this in all parts) -->
 									<!-- There is later foliation in the top outer corners (1-14). -->
 									<collation>
 										<p>Tvö kver: <list>
@@ -245,7 +271,7 @@
 										<width>100</width>
 									</dimensions>). Autt blað: 21v.</extent>
 							
-									<foliation ana="later fol">Blaðmerking 15-21, líklega seinni tíma viðbót.</foliation>  
+									<foliation ana="later fol">Blaðmerking 15-21, seinni viðbót.</foliation>  
 									<collation>
 										<p>Eitt kver: <list>
 											<item>Kver I: bl. 15-21 (15+saurblaðið aftast, 16+21, 17+20, 18+19) (4 tvinn) <!--<note>The last (blank) leaf of this 
@@ -261,7 +287,7 @@
 								
 	
 								<layoutDesc>
-									<layout columns="1" writtenLines="16 17">
+									<layout columns="1" writtenLines="4 7">
 										<p>
 											<list>
 												<item>Eindálka.</item>
@@ -288,7 +314,7 @@
 								<decoNote type="paratext">Fyrirsögnin er skrifuð í kansellískrift og með strærri letrum. <!--The rubric was written in larger letters and in chancery script.--></decoNote>
 							</decoDesc>
 							
-							<additions><p>Á bl. <locus from="15r" to="15r">15r</locus> er orðið <q xml:lang="is">Edlid</q> undirstrikað og endurtekið í spássíunni af seinni skrifara.</p>
+							<additions><p>Á bl. <locus from="15r" to="15r">15r</locus> er orðið <quote xml:lang="is">Edlid</quote> undirstrikað og endurtekið í spássíunni af seinni skrifara.</p>
 								<!--<p>In the second stanza (bl. <locus>15r</locus>) one word <q>Edlid</q> is partly illegible. Therefore it has been underlined
 							and was repeated in the outer margin by a different hand using dark brown ink.</p>--></additions>
 							
@@ -302,13 +328,10 @@
 									<bibl><ref target="KKKat">Kålund</ref> (Katalog <biblScope unit="volume">II</biblScope>,
 										<biblScope unit="page">390</biblScope></bibl>).</p>
 							</origin>
-							<provenance>
-								<p>Ekki er vitað hvenær eða hvernig blöðin komu til <!--It is hitherto unknown how or when this manuscript came into the possession of -->
-									<name type="person" role="owner" key="ArnMag001">Árna Magnússonar</name>.</p>
-								
-							</provenance>
+							
 						</history>
 					</msPart>
+					
 					
 					<msPart n="3"> 
 						<msIdentifier><altIdentifier type="partial">
@@ -319,91 +342,94 @@
 							<textLang mainLang="is">Íslenska</textLang>
 							<msItem n="1" defective="true" class="helgkv">
 								<locus from="22r" to="22v">22r-22v</locus>
-								<author>Hallur prestur</author>
-								<title type="uniform">Gimsteinn</title>
-								<title type="parallel">Krossdrápa</title>
+								<!--<author key="HalOgm001">Hallur prestur Ögmundsson</author>
+								<title type="uniform">Gimsteinn</title>-->
+								<title type="supplied">Krossdrápa</title>
 								<note>Brot.</note>
-								<incipit defective="true">... at snertta mvndi hen<ex>n</ex>ar hiarta ...</incipit>
-								<explicit defective="true">... sagdi sialf maria h<gap/>dis klara ...</explicit>
+								<incipit defective="true">... at snertta mvndi hen<ex>n</ex>ar hiarta hrærast...</incipit>
+								<explicit defective="true">... sagdi sialf maria <gap/>dis klara ...</explicit>
 								
 							</msItem>
 							
 						</msContents>
-						
 						<physDesc>
 							<objectDesc form="codex">
 								<supportDesc material="chart">
 									<support>
-										<num type="book-block" value="1">1</num>
-										<dimensions type="leaf">
-											<height unit="mm" atLeast="197" atMost="203">197-203</height>  
-											<width unit="mm" quantity="74">74</width>
-										</dimensions>
-										<!--<watermark ana="yes">There are parts of a round watermark with surrounding letters visible. In the centre of the
+										<p>Pappír með vatnsmerki.</p><!--<watermark ana="yes">There are parts of a round watermark with surrounding letters visible. In the centre of the
 											watermark there is possibly a figure of some kind.
 										</watermark> -->
 									</support>
-									<foliation ana="later fol">There is later foliation in pencil in the top outer corner (22).</foliation> 
-									<collation>
-										<p>There is one singleton.</p>
-								
-									</collation>
+									<extent>1 blað (<dimensions type="leaf" unit="mm" scope="all">
+										<height scope="range">197-203</height>  
+										<width>74</width>
+									</dimensions>).</extent>
+									<foliation ana="later fol">Blaðmerking 22, seinni viðbót.</foliation>  
+									<collation>Eitt blað. Brotið er límt á bl. <locus from="21v" to="21v">21v</locus> (af <ref type="ms" target="#AM08-0100-01-03-is">AM 100 2 8vo</ref>).
+								</collation>
+							
 									<condition>
-										<p>Einnungis eins blaðs brot, vantar bæði framan af og aftan af.</p>
-										<p>The fragment is either an oblong 8vo-format of part of a former 4to-leaf.</p>
-									<p>The leaf is folded once horizontally, so it does not stick out of the binding. There are older horizontal folding lines visible.</p>
-									<p>The leaf is dirty with many stains.</p>
-										<p>The recto-side of the leaf is somewhat dirtier than the verso-side.</p>
-									<p>The edges are untrimmed.</p>
-									<p>The leaf has been repaired here and there, e.g. at the inner margin, using Japanese paper.</p>
-										<p>The fragment is attached to fol. <locus>21v</locus> of <ref>AM 100 8vo CU2</ref>.</p>
+										<list>
+											<item>Einnungis eins blaðs brot, vantar bæði framan og aftan af.</item>
+											<item>Blaðið er í stærra broti, en hefur verið brotið saman eitt sinn. <!-- The fragment is either an oblong 8vo-format of part of a former 4to-leaf. -->
+												Einhvern tíma hefur það verið brotið saman fleiri sinnum.</item> <!-- check -->
+											<item>Blettótt og dökkt, sérstaklega á bl. <locus from="22r" to="22r">22r</locus>.</item> <!-- check -->
+										</list>
 									</condition> 
 								</supportDesc>
+								
 								<layoutDesc>
 									<layout columns="1" writtenLines="25 26">
-										<num type="wpl" atLeast="2" atMost="4"/>
-										<dimensions type="written">
-											<height unit="mm" quantity="175">175</height>
-											<width unit="mm" quantity="55">55</width>
-										</dimensions>
-										<note>stanzas are indicated by means of two parallel strokes in front of the new line.</note>
-										<catchwords>Engin griporð.</catchwords>
+										<p>
+											<list>
+												<item>Eindálka.</item>
+												<item>Leturflötur er ca <dimensions type="written" unit="mm" scope="all">
+													<height>175</height>
+													<width>55</width>
+												</dimensions>. </item>
+												<item>Línufjöldi er ca 25-26.</item>
+												<item><catchwords>Engin griporð.</catchwords></item>
+											
+											</list>
+										</p>
+										
 									</layout>
 								</layoutDesc>
 							</objectDesc>
+								
+								
 							
 							<handDesc hands="1">
 								<handNote scribe="unknown" scope="sole" script="hybrida">Óþekktur skrifari.</handNote>
 							</handDesc>
 							
 						<!--	<decoDesc><decoNote/></decoDesc>-->
-							<additions><p>In the bottom margin fol. <locus>22v</locus>, a later hand added two lines upside-down, so they are visible when the leaf is folded up.
-							The text was written in grey ink and reads: Bref form f<ex>irir</ex> Þorun<ex>n</ex>j Od til Einars og Sig<ex>ur</ex>dar Jons sona.</p></additions>
+							
+							<additions><p>Í neðri spássíu á bl. <locus from="22v" to="22v">22v</locus> skrifaði seinni hönd tvær linjur sem hægt eru að lesa þegar blaðið er brotið saman:
+								<quote xml:lang="is">Bref form f<ex>yrir</ex> Þorun<ex>n</ex>j O.d[ottur] til Einars og Sig<ex>ur</ex>dar Jons sona.</quote></p></additions> <!-- check transcription -->
+							
+							<!-- <p>In the bottom margin bl. <locus from="22v" to="22v">22v</locus>, a later hand added two lines upside-down, so they are visible when the leaf is folded up.
+							The text was written in grey ink and reads: Bref form f<ex>irir</ex> Þorun<ex>n</ex>j Od til Einars og Sig<ex>ur</ex>dar Jons sona.</p> -->
+							
 							<!--<accMat/>-->
 						</physDesc>
 						
 						<history>
-							<origin>
-								<p>The manuscript was written in <origPlace key="IS">Iceland</origPlace>. 
-									Kålund dates it to the <origDate notBefore="1600" notAfter="1649">first hal of the 17th century</origDate>
-									<bibl><ref target="KKKat">Kålund II</ref>, 
-										<biblScope unit="page">391</biblScope></bibl>.</p>
-							</origin>
-							<provenance>
-								<p>It is hitherto unknown how or when this manuscript came into the possession of 
-									<name type="person" role="owner" key="ArnMag001">Árni Magnússon</name>.
-								</p>
+							<origin notBefore="1600" notAfter="1649">
+								<p>Lílega skrifað á <origPlace key="IS">Íslandi</origPlace>. 
+									Það er tímasett til <origDate notBefore="1600" notAfter="1649">fyrri helmings 17. aldar</origDate> í
+									<bibl><ref target="KKKat">Kålund</ref> (Katalog <biblScope unit="volume">II</biblScope>,
+										<biblScope unit="page">391</biblScope></bibl>).</p>
 								
-							</provenance>
+							</origin>
+							
 						</history>
 					</msPart>
 
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc>
-			<change when="2015" who="#BS">BS catalogued for PhD project (2015).</change>
-		</revisionDesc>
+		
 	</teiHeader>
 
 	<facsimile>
