@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,13 +23,19 @@
                             <idno>2782</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Vatnsfjarðar-skjöl</title>;
-                            <origPlace>Island?</origPlace>, <origDate notBefore="1690" notAfter="1710">ca. 1700</origDate>
-                        <note>Angår <name type="person" key="BjoGud002">Björn Guðnason</name> og
-                                <name type="person" key="BjoTho002">Bjorn Þorleifsson</name> samt
-                            deres ejendomme og arvinger.</note>
-                    </head>
+                    <msContents>
+                        <summary>
+                            <title type="supplied">Vatnsfjarðar-skjöl</title>
+                            <note>Angår <name type="person" key="BjoGud002">Björn Guðnason</name> og
+                                    <name type="person" key="BjoTho002">Bjorn Þorleifsson</name>
+                                samt deres ejendomme og arvinger.</note>
+                        </summary>
+                        <msItem n="1" class="embr">
+                            <locus from="1r" to="185v">1r-185v</locus>
+                            <title type="supplied">Vatnsfjarðar-skjöl</title>
+                        </msItem>
+                    </msContents>
+
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
@@ -40,7 +47,7 @@
                                         <height>202</height>
                                         <width>160</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>De forreste blade er slidte og beskadigede.</condition>
                             </supportDesc>
                         </objectDesc>
@@ -50,16 +57,19 @@
                         </handDesc>
                     </physDesc>
                     <history>
-                        <acquisition>Ifølge <name type="person" key="LorKri001">L. Kriegers</name> testamentariske disposition overdraget til
-                            <name type="org" key="AMS">Den Arnamagnæanske Samling</name> i <date when="1839">1839</date>
-                  </acquisition>
+                        <origin><origPlace>Island?</origPlace>, <origDate notBefore="1690"
+                            notAfter="1710">ca. 1700</origDate>.</origin>
+                        <acquisition>Ifølge <name type="person" key="LorKri001">L. Kriegers</name>
+                            testamentariske disposition overdraget til <name type="org" key="AMS"
+                                >Den Arnamagnæanske Samling</name> i <date when="1839">1839</date>
+                        </acquisition>
                     </history>
                     <additional>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="volume">II</biblScope>
                                 <biblScope unit="pages">596</biblScope>
-                     </bibl>
+                            </bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
