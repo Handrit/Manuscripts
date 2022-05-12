@@ -1,76 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 302 fol.</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM02-0302-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 302 fol.</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>457</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <msContents class="log">
-               	<summary><title type="supplied" xml:lang="en">Norwegian Legal Manuscript</title></summary>
-                  <textLang mainLang="non">Old Norse</textLang>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>
-                           <p><material>Parchment</material>.</p>
-                        </support>
-                     	<extent>87. <dimensions type="leaf" scope="all" unit="mm">
-                     		<height unit="mm">287</height>
-                     		<width unit="mm">210</width>
-                     	</dimensions>.</extent>
-                     </supportDesc>
-                  </objectDesc>
-               </physDesc>
-            	<history><origin><origPlace>Norway</origPlace>,
-            		<origDate notBefore="1290" notAfter="1310" resp="ONP">c. 1300</origDate></origin></history>
-            	<additional>
-            		<listBibl>
-            			<bibl>Konráð Gíslason, <ref type="secondary-1" target="KGFrumparta">Um
-            				frum-parta Íslenzkrar túngu í fornöld</ref>
-            				<biblScope unit="pages">xxvi-xxviii</biblScope>
-            			</bibl>
-            			<bibl>Keyser, <ref type="secondary-1" target="NgL2">Norges gamle
-            				Love</ref>
-            				<biblScope unit="volume">II</biblScope>
-            				<biblScope unit="pages">210:1-16</biblScope>
-            				<note>Faksimile.</note>
-            			</bibl>
-            			<bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
-            				<biblScope unit="volume">I</biblScope>
-            				<biblScope unit="pages">256</biblScope>
-            			</bibl>
-            			<bibl>Steinnes,: <ref type="secondary-1" target="Steinnes1964">Rygjarbit</ref></bibl>
-            			<bibl>Storm, <ref type="secondary-1" target="NgL4">Norges gamle
-            				Love</ref>
-            				<biblScope unit="volume">IV</biblScope>
-            				<biblScope unit="pages">473-76</biblScope>
-            			</bibl>
-            		</listBibl>
-            	</additional>
-            	
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 302 fol.</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM02-0302-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 302 fol.</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>457</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents class="log">
+						<summary><title type="supplied" xml:lang="en">Norwegian Legal
+								Manuscript</title></summary>
+						<textLang mainLang="non">Old Norse/Norwegian</textLang>
+						<msItem n="1" class="log">
+							<locus from="1r" facs="#AM02-0302-0001r" to="85v">1r-85v</locus>
+							<title type="uniform" xml:lang="en">King Magnus the Lawmender’s
+								Norwegian National Law</title>
+							<note>Including <title type="uniform">Réttarbœtr Magnús Eiríkssonar ok
+									Hákonar Magnússonar</title> and the epilogue to <title type="uniform">Gulaþingslǫg</title> (<date when="1274">1274</date>).</note>
+						</msItem>
+						<msItem n="2" class="log">
+							<locus from="85v" facs="#AM02-0302-0085v" to="87v">85v-87v</locus>
+							<title type="uniform">Réttarbœtr Eiríks Magnússonar</title>
+							<rubric>Rettarbtr mins virðuleghs herra Eriks noregs konongs</rubric>
+							<colophon>Dextera Scriptoris careat gravitate doloris. Explicit hic
+								liber. Thorgerus haquini me scripsit</colophon>
+							<textLang mainLang="non" otherLangs="la"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p><material>Parchment</material>.</p>
+								</support>
+								<extent>87. <dimensions type="leaf" scope="all" unit="mm">
+										<height unit="mm">287</height>
+										<width unit="mm">210</width>
+									</dimensions>.</extent>
+								<foliation>
+									<p>Paginated 1-174 by <name type="person" key="JonSig004">Jón
+											Sigurðsson</name>.</p>
+								</foliation>
+								<collation>
+									<p>The manuscript is made up of twelve quires, originally of
+										eight leaves each.</p>
+								</collation>
+								<condition>
+									<p>The leaves have suffered some damage due to exposure to damp
+										and moths.</p>
+									<p><list>
+											<item>The first two, presumably blank, leaves are cut
+												out.</item>
+											<item>Only the first leaf and a slip of the last leaf
+												are preserved. The leaves in between these are cut
+												out. <name type="person" key="ArnMag001">Árni
+												Magnússon</name> cut out three leaves of this
+												quire.</item>
+										</list></p>
+								</condition>
+							</supportDesc>
+								</objectDesc>
+						<handDesc hands="1">
+							<handNote scribe="ThoHak001" scope="sole" script="other">
+								<p>Written in a large script by Thorgerus Haquini (<name type="person" key="ThoHak001">Þorgeir Hákonarson</name>).
+									The same hand also wrote <ref type="ms" target="#AM02-0305-en">AM 305 fol.</ref>, <ref type="ms" target="#AM04-0056-en">AM
+										56 4to</ref> and <ref type="ms" target="#AM04-0078-en">AM 78
+										4to</ref> (<bibl><ref target="NgL4">Norges gamle Love</ref>
+										<biblScope unit="volume">IV</biblScope>
+											<biblScope unit="page">473</biblScope></bibl>).</p>
+							</handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote type="initial" subtype="flourished"><p/></decoNote>
+							<!-- mixed? Forskellig farvede initialer, røde overskrifter. Stærkt
+										forsirede initiallinjer til de forskellige hovedafsnit.</p>
+					 -->
+							<decoNote type="initial" subtype="plain"><p>Lombarder på 1 linje med skiftevis blåt og rødt blæk.</p></decoNote>
+						</decoDesc>
+						<additions>
+							<p>Occasional younger marginalia: <list>
+									<item n="1">In the open space before the explicit (of <title type="uniform">Réttarbœtr Eiríks Magnússonar</title>) a
+										sixteenth century-hand added: <q xml:lang="la">In proprias
+											laudes odiosa jactatio est. O M.</q>
+									</item>
+									<item n="2">In the bottom margin of fol. 62r, a hand from c.
+										1400 wrote: <q>læirhæims skogh</q> (Lørenskog,
+										Romerike).</item>
+									<item n="3">In the first half of the sixteenth century, one of
+											<name type="person" key="EskBil001">Eske Bille</name>'s
+										scribes added notes in the margins throughout the
+										manuscript. E.g. fol. 6r <q>Om Steffning</q>, p. 86 <q>Om
+											Godtz</q> ligger lx wedtther eller lenger: thet bliffuer
+										odall, fol. 45r <q>Odall igjenn att løse indenn lx
+											wettre</q>, fol. 76r <q>Kiøb som breff og Segl er paa
+											giort thet scall holdis wid macht</q>.</item>
+								</list>
+							</p>
+						</additions>
+						<bindingDesc>
+							<binding>
+								<p>Laced grey parchment case with traces of brass clasps.</p>
+								<p>When the manuscript was bound, recycled parchment was used as
+									material for the pastedowns. This parchment contain pen trials
+									from the first half of the sixteenth century, one of them reading <q>Jeg
+										hanss erichsenn hoffuitzmand paa Bahuss</q> (I am <name type="person" key="HanEri001">Hans Eriksen</name>, manager
+									of Bohus Fortress).</p>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin><origPlace>Norway</origPlace>, <origDate notBefore="1290" notAfter="1310" resp="ONP">c. 1300</origDate>.
+							As mentioned above, <name type="person" key="ArnMag001">Árni Magnússon</name> removed three leaves from the last quire, written in
+							<date notBefore="1500" notAfter="1525">the beginning of the sixteenth century</date>. See <ref type="ms" target="#AM04-0032-a-da">AM 32 a 4to</ref> and <ref type="ms" target="#AM04-0032-b-da">AM
+										32 b 4to</ref>.
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<bibl>Konráð Gíslason, <ref type="secondary-1" target="KGFrumparta">Um
+									frum-parta Íslenzkrar túngu í fornöld</ref>
+								<biblScope unit="pages">xxvi-xxviii</biblScope>
+							</bibl>
+							<bibl>Keyser, <ref type="secondary-1" target="NgL2">Norges gamle
+									Love</ref>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="pages">210:1-16</biblScope>
+								<note>Faksimile.</note>
+							</bibl>
+							<bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">256</biblScope>
+							</bibl>
+							<bibl>Steinnes,: <ref type="secondary-1" target="Steinnes1964">Rygjarbit</ref></bibl>
+							<bibl>Storm, <ref type="secondary-1" target="NgL4">Norges gamle
+									Love</ref>
+								<biblScope unit="volume">IV</biblScope>
+								<biblScope unit="pages">473-76</biblScope>
+							</bibl>
+						</listBibl>
+					</additional>
+
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM02-0302-0001r" n="0">
 			<desc>0001r</desc>
