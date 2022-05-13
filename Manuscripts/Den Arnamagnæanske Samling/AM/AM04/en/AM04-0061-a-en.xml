@@ -24,7 +24,13 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary><title type="supplied">Norwegian Legal Manuscript</title></summary>
+                        <summary><title type="supplied">Norwegian Legal Manuscript</title>
+                            <note>When Árni Magnússon acquired the manuscript it contained later
+                                inserted supplements, which he removed (previously transferred to AM
+                                95 4to and NKS 1654 4to but now constituting <ref
+                                    target="#AM04-0061-b-en">AM 61 b 4to</ref>). However, the later
+                                supplements fols 1-1<hi rend="sup">ter</hi> were not removed.
+                            </note></summary>
                         <msItem n="1" class="athgr kvad log ban">
                             <locus from="1" to="1ter">1-1<hi rend="sup">ter</hi></locus>
                             <title type="supplied">Norwegian Legal Manuscript</title>
@@ -147,7 +153,8 @@
                             <handNote scribe="MikJen001" script="unknown" scope="minor">
                                 <p> Fols. 1-1<hi rend="sup">ter</hi> were written by the mayor of
                                         <name type="place" key="Berge01">Bergen</name>, <name
-                                        type="person" key="MikJen001">Mikkel Jenssøn</name>.</p>
+                                        type="person" key="MikJen001">Mikkel Jenssøn</name> who was
+                                    in possession of the manuscript.</p>
                             </handNote>
                         </handDesc>
                         <additions>
@@ -176,14 +183,6 @@
                             </p>
                         </additions>
                         <accMat>
-                            <!--    <p>Der er seks AM-sedler som giver oplysninger hertil hørende
-                                bestanddele, som har været taget ud af <name type="person"
-                                    key="ArnMag001">Arne Magnusson</name>, en tid har været opført
-                                som <ref type="ms" target="#AM02-0095-da">AM 95 4to</ref> og <ref
-                                    type="ms">NKS 1654 4to</ref> men nu udgør <ref
-                                    type="ms" target="#AM04-0061-b-da">AM 61 b 4to</ref>
-                            </p>
-                          -->
                             <p>There are six AM-slips: The first two, designated a and b, are pasted
                                 between the fly-leaf and fol. 1. On these <name type="person"
                                     key="ArnMag001">Árni Magnússon</name> wrote: <list>
@@ -234,6 +233,7 @@
                                 </list>
                             </p>
                         </accMat>
+
                     </physDesc>
                     <history>
                         <origin notBefore="1350" notAfter="1599" cert="high" evidence="conjecture">
@@ -249,18 +249,11 @@
                                     <item>Fol. 2 is from the sixteenth century (<bibl><ref
                                                 target="NgL4">Storm 1885</ref>
                                             <biblScope unit="page">549</biblScope></bibl>).</item>
-                                    <item>Bl. 1-1<hi rend="sup">ter</hi> are written in the second
-                                        half of the sixteenth century (<bibl><ref target="NgL4"
-                                                >Storm 1885</ref>
-                                            <biblScope unit="page">549</biblScope></bibl>) by <name
-                                            type="person" key="MikJen001">Mikkel Jenssøn</name> who
-                                        also was the owner of the manuscript.</item>
+                                    <item>Bl. 1-1<hi rend="sup">ter</hi> are written in the end of
+                                        the sixteenth century by <name type="person" key="MikJen001"
+                                            >Mikkel Jenssøn</name> who acquired the manuscript in
+                                        1579.</item>
                                 </list></p>
-                            <p>When Árni Magnússon acquired the manuscript it contained later
-                                inserted supplements, which he removed (previously AM 95 4to and NKS
-                                1654 4to but now constituting <ref target="#AM04-0061-b-en">AM 61 b
-                                    4to</ref>). However, the later supplements fols 1-1<hi
-                                        rend="sup">ter</hi> were not removed.</p>
                         </origin>
                         <provenance>
                             <p>According to Mikkel Jenssøn's account on fol. 1r he bought the
@@ -270,7 +263,7 @@
                                     key="ClaSki001">Claus Skiell</name>. Later it came into <name
                                     type="person" key="FreGab001">Frederik Gabel</name>'s
                                 possession.</p>
-                         </provenance>
+                        </provenance>
                         <acquisition>
                             <p>According to Árni Magnússon's account on the AM-slips, he purchased
                                 the manuscript at Frederik Gabel's auction in <date when="1709"
@@ -289,6 +282,7 @@
                         <listBibl>
                             <bibl>
                                 <ref target="Gthl">Gulaþingslǫg</ref>
+                                <biblScope unit="page">lv-lvi</biblScope>
                             </bibl>
                             <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
                                 <biblScope unit="volume">I</biblScope>
@@ -309,8 +303,8 @@
         <revisionDesc>
             <change when="2021-07-09" who="EvaWed001">Translated (and corrected) titles and added
                 @class.</change>
-            <change when="2021-10-06" who="EvaWed001">Moved information from @head to @summary and
-                @history.</change>
+            <change when="2021-10-06" who="EvaWed001">Moved information from @head to
+                @summary.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
