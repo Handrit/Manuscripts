@@ -25,9 +25,19 @@
                </msIdentifier>
                <msContents>
                   <summary><title type="supplied">Legal Manuscript</title></summary>
-                  <msItem n="1" class="log">
-                     <textLang mainLang="sv">Early Modern Swedish</textLang>
-                  </msItem>
+               	<textLang mainLang="sv"/>
+               	<msItem n="1" class="log">
+               		<locus from="1r" facs="#AM04-0050-0001r" to="145v">1r-145v</locus>
+               		<title type="uniform">King Christoffer's National Law</title>
+               		<title type="uniform">Kung Kristofers landslag</title>
+               	</msItem>
+               	<msItem n="2" defective="true" class="klog">
+               		<locus from="146r" facs="#AM04-0050-0146r" to="147v">146r-47v</locus>
+               		<title type="supplied" xml:lang="en">The Provincial Law of Uppland:
+               			Church Paragraph</title>
+               		<title type="uniform">Upplandslagens kyrkobalk</title>
+               		<note>Fragmentary.</note>
+               	</msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -38,8 +48,21 @@
                               <width unit="mm">147</width>
                            </dimensions>
                         </extent>
+                     	<condition>
+                     		<p>Fols 16, 17 and 147 are badly damaged.</p>
+                     	</condition>
                      </supportDesc>
+                  	<layoutDesc>
+                  		<layout columns="1">
+                  			<p>Initials in green ink in the first third of the manuscript. Running titles.</p>
+                  		</layout>
+                  	</layoutDesc>
                   </objectDesc>
+               	<handDesc>
+               		<handNote scope="sole" scribe="PetEla001" script="unknown">
+               			<p>The scribe presents himself as <name type="person" key="PetEla001">Petrus Elaui</name> on fol. 41v.</p>
+               		</handNote>
+               	</handDesc>
                </physDesc>
                <history>
                   <origin><origPlace>Sweden</origPlace>, <origDate when="1551">1551</origDate>.</origin>
@@ -50,9 +73,13 @@
                         <biblScope unit="volume">I</biblScope>
                         <biblScope unit="pages">372</biblScope>
                      </bibl>
+                  	<bibl>Schlyter &amp; Collin, <ref type="secondary-1" target="CorpJur12">Corpus
+                  		juris Sueo-Gotorum antiqui</ref>
+                  		<biblScope unit="volume">XII</biblScope>
+                  		<biblScope unit="page">xxv</biblScope>
+                  	</bibl>
                   </listBibl>
                </additional>
-
             </msDesc>
          </sourceDesc>
       </fileDesc>
