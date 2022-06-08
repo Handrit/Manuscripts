@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,49 @@
                      <idno>2086</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Hirðskrá</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1785" notAfter="1799">s. XVIII ex</origDate>
-               </head>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <msContents>
+                  <summary><title type="uniform">Hirðskrá</title></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">Fragment <lb/> af <lb/> Hirdskr. <lb/> Accedit <lb/>
+                           Versio Latina <lb/> Authore Biarno Ionæo, Philosophiæ Magistro et <lb/>
+                           Rectore Scholæ, qvæ Schalholti est</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1">
+                     <locus from="1r" to="66v">1r-66v</locus>
+                     <respStmt>
+                        <resp key="trl"/>
+                        <name type="person" key="BjaJon001">Bjarni Jónsson</name>
+                     </respStmt>
+                     <title type="uniform">Hirðskrá</title>
+                     <textLang mainLang="la">Latin</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>66. 
-<dimensions type="leaf" scope="all">
-                              <height>213</height>
-                              <width>168</width>
-                           </dimensions>
+                        <support><material>Paper</material>.</support>
+                        <extent>66. <dimensions type="leaf" scope="all">
+                              <height unit="mm">213</height>
+                              <width unit="mm">168</width>
+                           </dimensions>.
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1785" notAfter="1799"
+                     >s. XVIII ex</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">277</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

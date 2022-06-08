@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,67 @@
                      <idno>1751</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Rhetoric</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1589-01-01" notAfter="1689-12-31">1589</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="supplied">Spegill þeirrar sönnu rhetorica</title></summary>
+                  <titlePage>
+                     <docTitle>
+                        <titlePart type="main"><locus from="1v" to="1v">1v</locus> Speigill
+                              þ<ex>eir</ex>rar ſaun<ex>n</ex>u Rethorica</titlePart>
+                        <titlePart type="sub">vt af Marco Tullio Cicerone og audru<ex>m</ex> til
+                           ſamans tekin<ex>n</ex>
+                           <gap reason="irrelevant"/> af meistara Fridrich Riedrer af Friborg J
+                           Briſgau, en<ex>n</ex> Jſlenskud af mier magnuſi Jonſſ<ex>yn</ex>i at Haga
+                            Bardaſtrond og Rauda ſandi <gap reason="irrelevant"/> Anno <date
+                              when="1589">1589</date></titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="malskfr">
+                     <locus from="2r" to="71r">1v-71r</locus>
+                     <author key="FriRie001">Friedrich Riedrer</author>
+                     <title type="uniform">Spiegel der waren Rhetoric</title>
+                     <respStmt>
+                        <resp key="trl"/>
+                        <name type="person" key="MagJon006">Magnús Jónsson</name>
+                     </respStmt>
+                     <title type="supplied" xml:lang="is">Spegill þeirrar sönnu rhetorica</title>
+                     <textLang mainLang="is"/>
+                     <note>Incorporating a translation of <name type="person" key="Cicooo001"
+                           >Cicero</name>'s <title type="uniform">De inventione</title>.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>72. 
-<dimensions type="leaf" scope="all">
-                              <height>196</height>
-                              <width>162</width>
-                           </dimensions>
-                        </extent>
+                        <support><material>Paper</material>.</support>
+                        <extent>72 (fol. 1-71 + 1<hi rend="sup">bis</hi>). <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">196</height>
+                              <width unit="mm">162</width>
+                           </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>,
+                     <origDate when="1589">1589</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Jón Þorkelsson, <ref type="secondary" target="JonThork1888">Om digtningen
+                           på Island i det 15. og 16. Århundrede</ref>
+                        <biblScope unit="pages">380</biblScope>
+                     </bibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">119</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-12" who="EvaWed001">Updated markup.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

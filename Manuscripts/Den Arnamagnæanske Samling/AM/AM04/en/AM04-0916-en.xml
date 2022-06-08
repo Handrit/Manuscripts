@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,16 +23,12 @@
                      <idno>2048</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Adversaria Eddica</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1775" notAfter="1795">c. 1785</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Adversaria Eddica</title></summary>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="MagKet001">Magnús Ketilsson</name>
-                     </author>
+                     <locus from="1r" to="165v">1r-156v</locus>
+                     <author key="MagKet001">Magnús Ketilsson</author>
+                     <title type="supplied">Adversaria Eddica</title>
                      <textLang mainLang="is">Icelandic</textLang>
                   </msItem>
                </msContents>
@@ -39,24 +36,41 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>165. 
-<dimensions type="leaf" scope="all">
-                              <height>210</height>
-                              <width>166</width>
-                           </dimensions>
-                        </extent>
+                        <extent>165. <dimensions type="leaf" scope="all">
+                              <height unit="mm">210</height>
+                              <width unit="mm">166</width>
+                           </dimensions>. </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="MagKet001" scope="sole" script="unknown">
-                        <p>
-Written by Magnús Ketilsson.</p>
+                        <p> Written by <name type="person" key="MagKet001">Magnús
+                           Ketilsson</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Iceland</origPlace>, <origDate notBefore="1775" notAfter="1795">c.
+                        1785</origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>
+                        <ref type="secondary" target="Edda1848-87">Edda Snorra Sturlusonar</ref>
+                        <biblScope unit="volume">III</biblScope>
+                        <biblScope unit="page">cx</biblScope>
+                     </bibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">261</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2022-03-29" who="EvaWed001">Updated.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

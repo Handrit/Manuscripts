@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,27 +19,24 @@
                         <repository>Den Arnamagnæanske Samling</repository>
                         <collection key="AM"/>
                         <idno>AM 325 VIII 5 c 4to.</idno>
+                        <msName type="nickname" xml:lang="is">Gullinskinna</msName>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>1066</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Hákonar saga Hákonarsonar</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1390" notAfter="1410" cert="high" evidence="conjecture">c. 1400</origDate>
-                        <note>This leaf once belonged to and is presumably all that remains of the
-                            codex known as Gullinskinna which was destroyed in the Copenhagen fire
-                            of <date>1728</date>. The text of Gulinskinna is preserved in two
-                            transcripts by <name type="person" key="AsgJon001">Ásgeir
-                            Jónsson</name>: AM 42 fol. and AM 80 fol .</note>
-                    </head>
                     <msContents>
-                        <msItem class="kon" defective="true">
-                            <locus from="1r" to="1v">1r-1v</locus>
-                            <title>Hákonar saga Hákonarsonar</title>
-                            <textLang mainLang="is">Icelandic</textLang>
+                        <summary><title type="uniform">Hákonar saga Hákonarsonar</title></summary>
+                        <msItem n="1" class="kon" defective="true">
+                            <locus from="1ra" to="1vb">1ra-1vb</locus>
+                            <title type="uniform">Hákonar saga Hákonarsonar</title>
+                            <textLang mainLang="non"/>
                             <incipit defective="true">v<expan>ær</expan>i brótt or rikínv</incipit>
                             <explicit defective="true">skilduz þ<expan>ei</expan>r þa</explicit>
+                            <filiation>This leaf once belonged to and is presumably all that remains
+                                of the codex known as Gullinskinna which was destroyed in the
+                                Copenhagen fire of <date>1728</date>. The text of Gulinskinna is
+                                preserved in two copies by <name type="person" key="AsgJon001"
+                                    >Ásgeir Jónsson</name>: AM 42 fol. and AM 80 fol.</filiation>
                             <bibl>
                                 <ref target="FMS10">Fornmanna sögur</ref>
                                 <biblScope unit="pages">80-97</biblScope>
@@ -53,10 +51,10 @@
                                         <material>Parchment</material>.</p>
                                 </support>
                                 <extent>1. <dimensions scope="range" type="leaf">
-                                        <height>255</height>
-                                        <width>200</width>
+                                        <height unit="mm">155</height>
+                                        <width unit="mm">250</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
                                     <p>The initial is blurred. The outer corners have been cut away,
                                         and the cutting of the top corners has included some of the
@@ -83,57 +81,75 @@
                                     within the letter.</p>
                             </decoNote>
                         </decoDesc>
+                        <!--  Jacobsen's copy of the AM-slip (BenJac1982a):  <accMat><q>Þetta blad ur Hakonar Sógu Hakonarsonar feck eg 1719. af Pro-
+                                fessor Gram, enn hann hafde þad fleiged utanaf bok in Bibliotheca
+                                Lymvicana supra Hopnerianam. Mier virdest þad vera ur Codice
+                                Academico þeim sem kom fra Þormodi, og hann kallar Gullinskinnu, o:
+                                þeim, sem eg liet setia banded um. Formed er ad sónnu nockru
+                                styttra, enn linurnar eru eins margar i hverutveggiu. Skriften er ad
+                                sönnu smærre á þessu blade, Enn hun smæckar og i Codice Academico,
+                                epter þvi sem á hann lidur.</q> 
+                        </accMat> -->
                     </physDesc>
                     <history>
-                        <origin notBefore="1376" notAfter="1425" cert="high" evidence="conjecture">
-                            <p>The manuscript is written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> dated it to
-                                    <origDate>the end of the fourteenth century</origDate>, whereas
-                                    <name type="person" key="JonLou001">Jonna Louis-Jensen</name>
-                                dated it to <origDate notBefore="1390" notAfter="1410" cert="high" evidence="conjecture">c. 1400</origDate>.</p>
+                        <origin>
+                            <p>Written in <origPlace>Iceland</origPlace>
+                                <origDate notBefore="1390" notAfter="1410" cert="high"
+                                    evidence="conjecture">c. 1400</origDate> (<bibl>
+                                    <ref target="BiblArn32">Louis-Jensen 1977</ref>
+                                    <biblScope unit="page">30</biblScope>
+                                </bibl>). Kålund's date: <date notBefore="1375" notAfter="1399">the
+                                    end of the fourteenth century</date> (<bibl>Kålund: <ref
+                                        type="secondary-1" target="KKKat">Katalog</ref>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="page">562</biblScope>
+                                </bibl>).</p>
                         </origin>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date>10.03.2000.</date> by <name type="person" key="EvaWed001">EW-J</name>. (Parsed
-                                            <date>24.07.2000</date>).</p>
+                                    <p>Catalogued <date when="2000-03-10">10.03.2000.</date> by
+                                            <name type="person" key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
-                                    <p>The manuscript was set on meeting guards and put in a
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
+                                    <p>The manuscript was put on meeting guards and put in a
                                         cardboard cover <date>02.04.1958-04.04.1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade 37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositives</title>
-                                        <idno>AM 325 VIII 5 c 4to</idno>
-                                        <date>May 1984 (or 1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <date>October 1956</date>
-                                        <idno>AM 325 VIII 5 c 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item n="1">Plate, <idno>plade 37</idno>.</item>
+                                    <item n="2">Diapositives from <date notBefore="1984-05"
+                                            notAfter="1985-05">May 1984 or 1985</date>.
+                                    </item>
+                                    <item n="3">Black and white prints from <date when="1956-10"
+                                            >October 1956</date>.</item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
                             <bibl>
-                        <ref type="secondary" target="FMS9">Fornmanna sögur</ref>
+                                <ref type="secondary" target="FMS9">Fornmanna sögur</ref>
                                     IX<biblScope unit="pages">XVII-XVIII</biblScope>
-                        <note>described
-                                    as fragment no. 7</note>
-                     </bibl>
+                                <note>Ddescribed as fragment no. 7.</note>
+                            </bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">562-563</biblScope>
+                            </bibl>
+                            <bibl><ref type="ms" target="BenJac1982a">Jacobsen 1982</ref>
+                                <biblScope unit="page">289-303</biblScope><note>including a
+                                    facsimile of the verso</note></bibl>
+                            <bibl><ref target="BiblArn32">Louis-Jensen</ref>
+                                <biblScope unit="page">28-31</biblScope>
+                            </bibl>
                             <bibl>
                                 <ref type="secondary" target="EIMF7">Stefán Karlsson 1967</ref>
                                 <biblScope unit="pages">60</biblScope>

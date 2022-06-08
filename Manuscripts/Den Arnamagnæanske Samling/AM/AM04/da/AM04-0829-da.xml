@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,30 +22,43 @@
                             <idno>1961</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="da">To kejserbiografier</title>
-                        <origDate notBefore="1100" notAfter="1199" evidence="conjecture" resp="KKKat">s. XII</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="supplied" xml:lang="da">Karl den Stores og Ludvig den
+                                Frommes biografier</title></summary>
                         <msItem n="1">
                             <locus from="2r" to="10v">2r-10v</locus>
                             <author key="Einooo003">Einhard</author>
                             <title type="uniform">Vita Caroli Magni</title>
                             <textLang mainLang="la">Latin</textLang>
                             <rubric>ADHEMARI MONACHI <lb/> de rebus domi forisq<ex>ue</ex>
-                                <lb/> a Carolo Magno <lb/> geſtis Liber, que<ex>m</ex>
-                                <lb/> Æginarto adſcri<lb/>bunt germani</rubric>
-                            <note>Overskriften tilføjet med en yngre hånd. Hertil er med en anden
-                                hånd føjet en marginalnotits, hvori sandsynligheden af Einhards
-                                forfatterskab bestrides.</note>
+                                <lb/> a Carolo Magno <lb/> gestis Liber, que<ex>m</ex>
+                                <lb/> Æginarto adscri <lb/> bunt germani</rubric>
+                            <incipit>VITAM et conuersationem et ex <lb/> parte non modica res gestas
+                                <lb/> domini et nutritoris mei karoli <lb/> excellentissimi
+                                    <ex>et</ex> merito famosissimi re <lb/> gis postquam animus
+                                tulit scribere</incipit>
+                            <explicit>PRECELLENTISSIMI ET PRESTANTIS <lb/> SIMI AC PIE RECORDATIONIS
+                                KAROLI MAGNI INVICTI <lb/> AUGUSTI UITA FINITA EXPLICIT</explicit>
+                            <note>Overskriften tilføjet af <name type="person" key="JacVas001"
+                                    >Jacobus Marande</name>. Hertil er med en anden hånd føjet en
+                                marginalnotits, hvori sandsynligheden af Einhards forfatterskab
+                                bestrides.</note>
                         </msItem>
                         <msItem n="2">
                             <locus from="10v" to="35v">10v-35v</locus>
                             <title type="uniform">Vita Hludovici imperatoris</title>
                             <textLang mainLang="la">Latin</textLang>
-                            <rubric>Nunc Auctor incertus i<ex>n</ex> uita<ex>m</ex> ludouici Pii
-                                imperat</rubric>
-                            <note>Overskriften tilføjet med en yngre hånd. I en marginalnote gives
+                            <incipit>CUM gesta prisco<ex>rum</ex> bona mala ue maxime princi <lb/>
+                                pum ad memoriam reducant<ex>ur</ex></incipit>
+                            <explicit>in basilica s<ex>an</ex>c<ex>t</ex>i arnulfi qua et
+                                    mat<ex>er</ex>
+                                <lb/>ei<ex>us</ex> condita erat nobiliter sepeliuit</explicit>
+                            <note><bibl>
+                                    <ref type="primary" target="MGHSRG064">Tremp</ref>
+                                </bibl>
+                                <note>siglum K.</note>
+                            </note>
+                            <note>Overskriften tilføjet af Jacobus Marande. I en marginalnote gives
                                 en bedømmelse af den ukendte forfatters værk.</note>
                         </msItem>
                     </msContents>
@@ -57,47 +70,96 @@
                                         <material>Pergament.</material>
                                     </p>
                                 </support>
-                                <extent>36. <dimensions type="leaf" scope="all">
-                                        <height>255</height>
-                                        <width>192</width>
+                                <extent>i + 34 + i. <dimensions type="leaf" scope="all">
+                                        <height unit="mm">255</height>
+                                        <width unit="mm">192</width>
                                     </dimensions>
                                 </extent>
+                                <foliation>Folieret 1-36, da fribladene også er
+                                    folierede.</foliation>
                             </supportDesc>
-
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="36">
+                                    <p>Teksten er enkeltspaltet med 36 linjer pr. side.</p>
+                                    <p>Tekstfladen måler: <dimensions type="written" unit="mm">
+                                            <height unit="mm">210</height>
+                                            <width unit="mm">135</width>
+                                        </dimensions>.</p>
+                                </layout>
+                            </layoutDesc>
                         </objectDesc>
+                        <handDesc hands="1">
+                            <handNote scope="sole" script="textualis">Skrevet af en enkelt skriver
+                                med en gotisk bogskrift.</handNote>
+                        </handDesc>
                         <decoDesc>
-                            <decoNote type="illustration" subtype="miniature">Forrest i håndskriftet
-                                en miniature, der forestiller kejser Karl på sin trone.</decoNote>
+                            <decoNote type="miniature" subtype="historiated">
+                                <p>Forrest i håndskriftet ses en miniature af en siddende konge, der
+                                    af en senere hånd på bl. <locus from="2r" to="2r">2r</locus>
+                                    bliver identificeret som <q>CAROLUS MAGNUS REX</q>: Karl den
+                                    Store.</p>
+                            </decoNote>
+                            <decoNote type="initial" subtype="plain">
+                                <p>Røde initialer på 3-6 linjer på bl. <locus from="2r" to="2r"
+                                        >2r</locus>, <locus from="2v" to="2v">2v</locus>, <locus
+                                        from="6r" to="6r">6r</locus>, <locus from="10v" to="10v"
+                                        >10v</locus>, <locus from="11r" to="11r">11r</locus> og
+                                        <locus from="27r" to="27r">27r</locus>.</p>
+                            </decoNote>
                         </decoDesc>
                         <additions>
-                            <p>Marginalhenvisninger med yngre hånd.</p>
-                            <p>Af de to smudsblade indeholder det første (bl. 1v) med en hånd fra
-                                    <date notBefore="1590" notAfter="1610">ca. 1600</date>
-                                påskriften <q xml:lang="la">Iste unus est de libris iacobj
+                            <p>Notitser og ejernotitser på hhv. det forreste og bagerste friblad
+                                (bl. 1r-v og 36r) af <name type="person" key="JacVas001">Jacobus
+                                    Marande</name>. Samme hånd har også skrevet overskrifterne på
+                                bl. 2r og 10v og andre marginalia. Mindst endnu en senere hånd har
+                                også skrevet marginalhenvisninger.</p>
+                            <p>På bl. 1v står der: <q xml:lang="la">Iste unus est de libris iacobj
                                         Mer<ex>en</ex>dæ vascalobrogis</q>, efterfulgt af en
                                 udførlig redegørelse for, hvorledes denne mand, der fødtes i
                                 Allobrogernes fordums land og senere levede i <q>Vasconia</q>, mener
-                                at kunne bruge benævnelsen <q>Vascallobrox</q>. Det sidste smudsblad
-                                (bl. 36r) bærer navnet <q><name type="person" key="JacVas001">Jacobus Marande <lb/> Allobrox</name></q>; bl. 2r står i
-                                øvre margen <q>IA MERENDA</q>.</p>
+                                at kunne bruge benævnelsen <q>Vascallobrox</q>. På bl. 36r:
+                                    <q>Jacobus Marande <lb/> Allobrox</q></p>
+                            <p>På bl. 2r står i øvre margin <q>IA MERENDA</q>.</p>
                         </additions>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Loire-regionen, Frankrig</origPlace> i <origDate
+                                notBefore="1150" notAfter="1199">1100-tallets anden
+                                halvdel</origDate> (<bibl><ref type="secondary-2"
+                                    target="MatTis2001a">Tischler
+                                2001</ref><!-- biblScope? --></bibl>)</origin>
+                    </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source><p>Nærværende håndskriftbeskrivelsen er lavet udelukkende på
-                                    basis af <bibl><ref target="KKKat">Kålunds katalog</ref></bibl>. </p><p>For yderligere
-                                        oplysninger se den engelske beskrivelse: <ref type="url" target="https://handrit.is/manuscript/view/en/AM04-0829">https://handrit.is/manuscript/view/en/AM04-0829</ref>.</p>
-                                    </source>
+                                <source><p>Katalogiseret på baggrund af <bibl><ref target="KKKat"
+                                                >Kålunds katalog</ref></bibl> og <name type="person"
+                                            key="KivYav001">N. Kıvılcım Yavuz</name>' tilføjelser i
+                                        den engelske version.</p>
+                                </source>
                             </recordHist>
                         </adminInfo>
                         <listBibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">223-224</biblScope></bibl>
+                            <bibl> <ref type="primary-1" target="MGHSRG025"/>
+                            </bibl>
+                            <bibl> <ref type="primary-2"
+                                target="MGHSRG064"/>
+                                <biblScope unit="pages">278-555</biblScope>
+                            </bibl>
+                            <bibl> <ref type="primary-3"
+                                target="Einooo2009a"/>
+                            </bibl>
+                            <bibl> <ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">223-224</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary-2" target="MatTis2001a"/></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2022-03-18" who="EvaWed001">Opdateret og oversat information fra den engelske version.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

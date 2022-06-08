@@ -1,52 +1,105 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 673 b 4to</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM04-0673-b-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 673 b 4to</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>1683</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title type="uniform">Placítus drápa</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate>c. 1200</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>
-                           <p>Parchment.</p>
-                        </support>
-                        <extent>5. </extent>
-                     </supportDesc>
-                  </objectDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 673 b 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0673-b-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 673 b 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>1683</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="uniform">Placítusdrápa</title><note>The text is only
+								preserved in AM 673 b 4to, which is considered one of the earliest
+								surviving vernacular manuscripts. It is the oldest manuscript
+								preserving containing a poem in <foreign xml:lang="is">dróttkvætt</foreign>.
+								It contains numerous mistakes and <name type="person" key="JonLou001">Louis-Jensen</name> (<bibl><ref type="secondary-1" target="JonLou1998">Louis-Jensen 1998</ref>,
+										<biblScope unit="page">xcix</biblScope></bibl>) therefore
+								infers it was a copy of an earlier manuscript that is now
+								lost.</note></summary>
+						<msItem n="1">
+							<locus from="1r" facs="#AM04-0673-b-0001r" to="5v">1r-5v</locus>
+							<title type="uniform">Placítusdrápa</title>
+							<textLang mainLang="non"/>
+								<bibl>Finnur Jónsson, <ref target="FinJon1887">Plácitusdrápa</ref>
+									<biblScope unit="page">214-222</biblScope></bibl>
+								<bibl>Finnur Jónsson, <ref target="SkjaldFJ">Den norsk-islandske
+										skjaldedigtning</ref>
+									<biblScope unit="volume">1A</biblScope><biblScope unit="page">607-618</biblScope>
+									<biblScope unit="volume">1B</biblScope><biblScope unit="page">606-622</biblScope>
+								</bibl>
+								<bibl>Louis-Jensen: <ref target="JonLou1998">Plácitus drápa</ref>
+									<biblScope unit="page">93-123</biblScope>
+								</bibl>
+								<bibl>Louis-Jensen &amp; Wills: <ref target="JonLou2007">Plácitusdrápa</ref><biblScope unit="page">179-220</biblScope></bibl>
+								
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p><material>Parchment</material>.</p>
+								</support>
+								<extent>5. <dimensions type="leaf" unit="mm">
+										<height unit="mm">185</height>
+										<width unit="mm">125</width>
+									</dimensions>.</extent>
+								<condition>The leaves are badly worn and eleven stanzas from the beginning and eight stanzas from the end of
+									the <foreign xml:lang="is">drápa</foreign> are missing.</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote scope="sole" script="carolmin">Mainly written in carolingian
+								minuscule.</handNote>
+						</handDesc>
+					</physDesc>
+					<history>
+						<origin><p><origPlace>Iceland</origPlace>, <origDate notBefore="1190" notAfter="1210" cert="high" resp="KKKat JonLou1998">c.
+									1200</origDate>.</p>
+							<p>According to <name type="person" key="JonLou001">Louis-Jensen</name> (<bibl>
+									<ref type="secondary-1" target="JonLou1998">ibid.</ref>
+									<biblScope unit="page">xcii-xciii</biblScope>
+								</bibl>) AM 673 b 4to was part of a larger manuscript, that probably
+								included <ref type="ms" target="#AM04-0673a-II-is">AM 673 a II 4to</ref>, containing fragments
+								of the Icelandic <title type="uniform">Physiologus</title> and two
+								sermons.</p></origin>
+					</history>
+					<additional>
+						<listBibl>
+							<bibl>Finnur Jónsson, <ref type="secondary-1" target="FinJon1887">Plácitusdrápa</ref></bibl>
+							<bibl><ref type="secondary-1" target="HarBer2018a"/><biblScope unit="page">280, 295</biblScope></bibl>	
+							<bibl>Jón Helgason, <ref target="JonHel1932-1933">Til skjaldedigtningen</ref>
+								<biblScope unit="page">150-168</biblScope>
+							</bibl>
+							<bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="page">92</biblScope>
+							</bibl>
+							<bibl>Louis-Jensen, <ref type="secondary-1" target="JonLou1998">Plácitus
+								drápa</ref><biblScope unit="page">xcii-cxxv</biblScope></bibl>
+						</listBibl>
+					</additional>
+					
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0673-b-0001r" n="0">
 			<desc>0001r</desc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,26 +23,50 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Sermons</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1400" notAfter="1499">s. XVI</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="supplied">Sermons</title></summary>
+                  <msItem n="1" defective="true" class="pred">
+                     <locus from="1ra" to="1vb">1ra-vb</locus>
+                     <title type="supplied">Sermons</title>
+                     <textLang mainLang="non"/>
+                     <msItem n="1.1">
+                        <incipit defective="true">man<ex>n</ex>en<ex>n</ex> af vphafi</incipit>
+                        <explicit defective="true">min ord m<ex>ed</ex></explicit>
+                     </msItem>
+                     <msItem n="1.2">
+                        <incipit defective="true">vel ſkickad</incipit>
+                        <explicit defective="true">alleinazta riettlæ</explicit>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>1. </extent>
+                        <extent>1. <dimensions type="leaf">
+                              <height unit="mm">184</height>
+                              <width unit="mm">150</width>
+                           </dimensions>.</extent>
+                        <condition>The bottom and a part of one of the sides were excised.</condition>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2">Written in two columns.</layout>
+                     </layoutDesc>
                   </objectDesc>
-               </physDesc>
+                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Iceland</origPlace>, <origDate notBefore="1500" notAfter="1599">s.
+                        XVI</origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">111</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

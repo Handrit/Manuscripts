@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -23,13 +23,14 @@
                             <idno>33</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="en">Árni Magnússons notes</title>; <origPlace>Iceland or Denmark</origPlace>, <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>
-                    </head>
                     <msContents>
-                        <msItem class="notes">
-                            <title type="supplied" xml:lang="en">Árni Magnússons notes on <title>Knýtlinga
-                                saga</title> and other issues concerning this saga</title>
+                        <summary><title type="supplied" xml:lang="en">Árni Magnússons
+                                Notes</title><note>Concerning <title type="uniform">Knýtlinga
+                                    saga</title> and other issues pertaining to this
+                            saga.</note></summary>
+                        <msItem n="1" class="notes">
+                            <locus from="1r" to="35v">1r-35v</locus>
+                            <title type="supplied" xml:lang="en">Árni Magnússons Notes</title>
                             <textLang mainLang="is"/>
                         </msItem>
                     </msContents>
@@ -37,8 +38,12 @@
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Paper.</support>
-                                <extent>36.</extent>
-                                <foliation>Foliated 1-35 in blue ink by <name type="person" key="KriKaa001">Kålund</name>.</foliation>
+                                <extent>35. <dimensions type="leaf" scope="all" unit="mm">
+                                    <height unit="mm">207</height>
+                                    <width unit="mm">160</width>
+                                </dimensions>.</extent>
+                                <foliation>Foliated 1-35 in blue ink by <name type="person"
+                                        key="KriKaa001">Kålund</name>.</foliation>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
@@ -51,39 +56,45 @@
                         <bindingDesc>
                             <binding contemporary="false">
                                 <p>BD standard binding with cloth spine and corners together with a
-                                    cloth cover from <date when="1981">1981</date>. <name type="person" key="KriKaa001">Kålund</name>'s commments from
+                                    cloth cover from <date when="1981">1981</date>. <name
+                                        type="person" key="KriKaa001">Kålund</name>'s commments from
                                     a previous binding was cut out of the old first flyleaf and
-                                    glued to the upper board. Size of binding: <dimensions type="binding" unit="mm">
-                                        <height>215</height>
-                                        <width>185</width>
-                                        <depth>13</depth>
+                                    glued to the upper board. Size of binding: <dimensions
+                                        type="binding" unit="mm">
+                                        <height unit="mm">215</height>
+                                        <width unit="mm">185</width>
+                                        <depth unit="mm">13</depth>
                                     </dimensions>
                                 </p>
                             </binding>
                             <binding contemporary="false">
                                 <p>The leaves were originally loose but were gathered and bound in
-                                    <name type="person" key="KriKaa001">Kålund</name>’s time (<date notBefore="1880" notAfter="1889">the 1880es</date>). It was a half-binding with cloth
-                                    spine and corners; the boards are covered with glossy combed marble paper.
-                                    Kålund noted the date <date when="1885-06-10">10/6-85</date> on the front flyleaf. It is
-                                    unknown whether this binding still exists.</p>
+                                        <name type="person" key="KriKaa001">Kålund</name>’s time
+                                        (<date notBefore="1880" notAfter="1889">the 1880es</date>).
+                                    It was a half-binding with cloth spine and corners; the boards
+                                    are covered in glossy combed marble paper. Kålund noted the date
+                                        <date when="1885-06-10">10/6-85</date> on the front flyleaf.
+                                    It is unknown whether this binding still exists.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
+                    <history><origin><origPlace>Iceland or Denmark</origPlace>, <origDate notBefore="1690"
+                        notAfter="1710">c. 1700</origDate>.</origin></history>
                     <additional>
                         <listBibl>
-                        <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                            <biblScope unit="volume">I</biblScope>
-                            <biblScope unit="pages">15</biblScope>
-                        </bibl>
-                    </listBibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">15</biblScope>
+                            </bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
             <change>
-                <date when="2021-04-12"/><name type="person" key="EvaWed001">EW-J</name> added
-                and translated information from the Danish description.</change>
+                <date when="2021-04-12"/><name type="person" key="EvaWed001">EW-J</name> added and
+                translated information from the Danish description.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>

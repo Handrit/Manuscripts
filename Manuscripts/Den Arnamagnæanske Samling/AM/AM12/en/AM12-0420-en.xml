@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,13 +23,92 @@
                             <idno>2500</idno>
                         </altIdentifier>
                     </msIdentifier>
-                         <msContents>
-                        <summary><title>Old Danish Prayer Book</title></summary>
+                    <msContents>
+                        <summary><title type="supplied">Old Danish Prayer Book</title></summary>
                         <msItem n="1" class="banb" defective="true">
-                            <title>Old Danish Prayer Book</title>
-                            <textLang mainLang="la" otherLangs="da">Latin and Danish</textLang>
-                            <note>The prayers are mostly written in Latin with the exception of a
-                                single prayer in Danish.</note>
+                            <title type="supplied">Old Danish Prayer Book</title>
+                            <textLang mainLang="da" otherLangs="la">Old Danish and Latin</textLang>
+                            <note>The following prayers are printed in <bibl><ref type="primary"
+                                        target="MDB">Middelalderens danske bønnebøger</ref>
+                                    <biblScope unit="volume">IV</biblScope>
+                                </bibl>:</note>
+                            <msItem n="1.1">
+                                <locus from="6r" to="8v">6r-8v</locus>
+                                <title type="supplied">Prayer to Christ</title>
+                                <bibl>Nielsen: <ref type="primary" target="MDB">Middelalderens
+                                        danske bønnebøger</ref>
+                                    <biblScope unit="volume">IV</biblScope>
+                                    <biblScope unit="page">347-348</biblScope><note>No
+                                    1079</note></bibl>
+                            </msItem>
+                            <msItem n="1.2">
+                                <locus from="17r" to="17v">17r-v</locus>
+                                <title type="supplied">Prayer for Absolution</title>
+                                <bibl>Nielsen: <ref type="primary" target="MDB">Middelalderens
+                                        danske bønnebøger</ref>
+                                    <biblScope unit="volume">IV</biblScope>
+                                    <biblScope unit="page">348</biblScope><note>No
+                                    1080</note></bibl>
+                            </msItem>
+                            <msItem n="1.3">
+                                <locus from="24v" to="25v">24v-25v</locus>
+                                <title type="supplied">Prayer to Be Read before the
+                                    Communion</title>
+                                <bibl>Nielsen: <ref type="primary" target="MDB">Middelalderens
+                                        danske bønnebøger</ref>
+                                    <biblScope unit="volume">IV</biblScope>
+                                    <biblScope unit="page">348-349</biblScope><note>No
+                                        1081a-c</note></bibl>
+                            </msItem>
+                            <msItem n="1.4">
+                                <locus from="45v" to="49r">45v-49r</locus>
+                                <title type="supplied">Prayer to the Virgin</title>
+                                <bibl>Nielsen: <ref type="primary" target="MDB">Middelalderens
+                                        danske bønnebøger</ref>
+                                    <biblScope unit="volume">IV</biblScope>
+                                    <biblScope unit="page">349-351</biblScope><note>No
+                                    1082</note></bibl>
+                            </msItem>
+                            <msItem n="1.5">
+                                <locus from="83v" to="98r">83v-98r</locus>
+                                <title type="supplied">Prayers to John the Baptist and the Apostles
+                                    Peter and Andrew</title>
+                                <bibl>Nielsen: <ref type="primary" target="MDB">Middelalderens
+                                        danske bønnebøger</ref>
+                                    <biblScope unit="volume">IV</biblScope>
+                                    <biblScope unit="page">351-359</biblScope><note>Nos 1083a-f,
+                                        1084-85, 1086a-c, 1087</note></bibl>
+                            </msItem>
+                            <msItem n="1.6">
+                                <locus from="101v" to="108r">101v-108r</locus>
+                                <title type="supplied">Prayers to Mary Magdalene, St. Catherine of
+                                    Alexandria, St. Gertrude of Nivelles</title>
+                                <bibl>Nielsen: <ref type="primary" target="MDB">Middelalderens
+                                        danske bønnebøger</ref>
+                                    <biblScope unit="volume">IV</biblScope>
+                                    <biblScope unit="page">361-362</biblScope><note>Nos
+                                        1088-1090</note></bibl>
+                            </msItem>
+                            <msItem n="1.7">
+                                <locus from="114v" to="115v">114v-115v</locus>
+                                <title type="supplied">Prayers and an Excorcism</title>
+                                <bibl>Nielsen: <ref type="primary" target="MDB">Middelalderens
+                                        danske bønnebøger</ref>
+                                    <biblScope unit="volume">IV</biblScope>
+                                    <biblScope unit="page">359-361</biblScope><note>Nos
+                                        1091-1093</note></bibl>
+                                <!-- tjek her  -->
+                            </msItem>
+                            <msItem n="1.8">
+                                <locus from="117r" to="117r">117r</locus>
+                                <title type="supplied">Prayer to the Virgin</title>
+                                <bibl>Nielsen: <ref type="primary" target="MDB">Middelalderens
+                                        danske bønnebøger</ref>
+                                    <biblScope unit="volume">IV</biblScope>
+                                    <biblScope unit="page">362</biblScope><note>No
+                                    1094</note></bibl>
+                            </msItem>
+
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -36,35 +116,42 @@
                             <supportDesc material="perg">
                                 <support>
                                     <p>
-                              <material>Parchment</material>.</p>
+                                        <material>Parchment</material>.</p>
                                 </support>
                                 <extent>121. <dimensions type="leaf">
-                                        <height>130</height>
-                                        <width>90</width>
+                                        <height unit="mm">130</height>
+                                        <width unit="mm">90</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
+                                <foliation>Foliated 1-117 (including 7<hi rend="sup">bis</hi>, 16<hi
+                                        rend="sup">bis</hi>, 17<hi rend="sup">bis</hi> and 90<hi
+                                        rend="sup">bis</hi>).</foliation>
                                 <collation>
-                                    <p>fols 112r-117 have been inserted and now mistakenly form the
-                                        last gathering which begins and ends defectively, while the
-                                        right ending of the manuscript is to be found on f.
-                                        111v.</p>
+                                    <p>Fols 112-117, beginning and ending defetively, are now
+                                        erroneously bound as the last gathering. The text ends on
+                                        fol. 111v.</p>
+                                    <!-- er det blevet ændret siden Kålunds tid? Tjek med konservatorerne!!! -->
                                 </collation>
                                 <condition>
-                                    <p>There is a lacuna after f. 25r-v and at places there are
-                                        damages due to wear.</p>
+                                    <p>The manuscript begins defectively and a lacuna occur after
+                                        fol. 25. Minor damages occur due to wear.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1">
-                                    <p>There are rubrics, initials written in red ink.</p>
+                                    <p>Rubrics, initials, explanations etc. in red ink.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
+                        <additions>Provenance notes, personal names etc. are found on fol. 13v, 25r,
+                            38v, 52r and 11r-v.</additions>
                     </physDesc>
                     <history>
-                        <origin notBefore="1490" notAfter="1510" evidence="conjecture" resp="KKKat"><origPlace>Denmark</origPlace>, <origDate notBefore="1490" notAfter="1510">c. 1500</origDate>.</origin>
+                        <origin notBefore="1490" notAfter="1510" evidence="conjecture" resp="KKKat"
+                            >Written in <origPlace>Denmark</origPlace>, <origDate notBefore="1490"
+                                notAfter="1510">c. 1500</origDate>.</origin>
                     </history>
-                    
+
                     <additional>
                         <adminInfo>
                             <recordHist>
@@ -80,17 +167,15 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                        <bibl>
-                                    <title type="gmd">microfilm master</title>
-                                    <idno>Neg .832</idno>
-                                    <title type="gmd">microfilm archive</title>
-                                    <idno>Pos. 757 </idno>
-                                    <date when="1989">1989</date>
-                                </bibl>.</p>
+                                <list>
+                                    <item> Microfilm (master and archive) <idno>Neg .832</idno> and
+                                            <idno>Pos. 757 </idno>, from <date when="1989"
+                                            >1989</date>.</item>
+                                </list>.</p>
                         </surrogates>
                         <listBibl>
                             <bibl>Brandt &amp; Helweg, <ref target="DDPsalme">Den Danske
-                                Psalmedigtning</ref>
+                                    Psalmedigtning</ref>
                                 <biblScope unit="volume">I</biblScope>
                                 <biblScope unit="pages">xx</biblScope>
                             </bibl>
@@ -98,6 +183,10 @@
                                 <biblScope unit="volume">II</biblScope>
                                 <biblScope unit="pages">476</biblScope>
                             </bibl>
+                            <bibl>Nielsen, <ref target="MDB">Middelalderens danske
+                                bønnebøger</ref>
+                                <biblScope unit="volume">V</biblScope>
+                                <biblScope unit="page">4-5</biblScope></bibl>
                             <bibl>Rietz, <ref target="Wadstena">En Wadstena-nunnas bönbok</ref>
                                 <biblScope unit="pages">xx-xxii</biblScope>
                             </bibl>
@@ -106,7 +195,9 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2021-09-07" who="EvaWed001">Updated markup.</change></revisionDesc>
+        <revisionDesc>
+            <change when="2021-09-07" who="EvaWed001">Updated markup.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,29 +22,59 @@
                      <idno>1415</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Rémundar saga keisarasonar</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1385" notAfter="1399">s. XIV ex</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="supplied">Rémundar saga keisarasonar</title>.</summary>
+                  <msItem n="1" defective="true" class="ridd">
+                     <locus from="1r" to="2v">1r-2v</locus>
+                     <title type="supplied">Rémundar saga keisarasonar</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">
+                        <gap reason="damage"/>lykr s<ex>vo</ex>
+                        þ<ex>ess</ex>e ſtefno</incipit>
+                     <explicit defective="true">kalla aller m<ex>ed</ex> eíne rauddo</explicit>
+                     <bibl>Broberg, <ref type="primary" target="STUAGNL38">Rémundar saga
+                        keisarasonar</ref>
+                        <note>Var.app. E</note>
+                     </bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>2. </extent>
+                        <extent>2. <dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">205</height>
+                           <width unit="mm">150</width>
+                        </dimensions>
+                        </extent>
                      </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1">Traces of initials in various colours.</layout>
+                  </layoutDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="unknown">Probably the same hand as in <ref type="ms" target="#AM04-0567-XVI-en">AM 567 XVI 4to</ref>.</handNote>
+                  </handDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>, <origDate notBefore="1375" notAfter="1399">s.
+                  XIV<hi rend="sup">4/4</hi></origDate></origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">727</biblScope>
+                     </bibl>
+                     <bibl><ref type="primary-3" target="STUAGNL38"/>
+                        <biblScope unit="page">iii <!-- and more? --></biblScope>
+                       </bibl>
+                  </listBibl>
+               </additional>   
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-12-06" who="EvaWed001">Opdateret.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

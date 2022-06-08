@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -25,7 +25,7 @@
                <msContents xml:lang="is">
                   <textLang mainLang="is">Íslenska</textLang>
                   <msItem defective="true" class="ridd">
-                     <locus from="1r" to="1v">1r-1v</locus>
+                     <locus from="1r" facs="#AM04-0567-XVII-gamma-0001r" to="1v">1r-1v</locus>
                      <title type="uniform">Mágus saga</title>
                      <title type="parallel">Mágus saga jarls</title>
                      <title type="parallel">Bragða-Mágus saga</title>
@@ -92,7 +92,7 @@
                   <accMat>
                      <p>
                         <list>
-                           <item n="1">Tveir fastir <locus from="accMat01r" to="accMat02v">seðlar</locus> fremst með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name> með titli sögunnar og
+                           <item n="1">Tveir fastir <locus from="accMat01r" facs="#AM04-0567-XVII-gamma-accMat01r" to="accMat02v">seðlar</locus> fremst með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name> með titli sögunnar og
                               upplýsingum um feril, versóhliðar auðar.</item>
                            <item>Seðill 1 (<dimensions type="slip" unit="mm">
                                  <height>150</height>
@@ -128,7 +128,7 @@
                   </origin>
                   <provenance>
                      <p>
-                        <name key="ArnMag001" type="person">Árni Magnússon</name> fékk frá <name key="OrmDad001" type="person">Ormi Daðasyni</name> <date when="1721">1721</date> (sjá <locus from="accMat02r" to="accMat02r">seðil</locus>).</p>
+                        <name key="ArnMag001" type="person">Árni Magnússon</name> fékk frá <name key="OrmDad001" type="person">Ormi Daðasyni</name> <date when="1721">1721</date> (sjá <locus from="accMat02r" facs="#AM04-0567-XVII-gamma-accMat02r" to="accMat02r">seðil</locus>).</p>
                   </provenance>
                   <acquisition when="1992-03-26">
                      <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 26. mars 1992.</p>
@@ -179,7 +179,79 @@
          <change when="2008-10" who="#EriHas01">Migrated from MASTER to P5</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+		<surface xml:id="AM04-0567-XVII-gamma-addMat01r" n="0">
+			<desc>addMat01r</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/0/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/0/THUMBNAIL" width="200px" height="240px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/0/SECONDARY_DISPLAY" width="5248px" height="6299px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/0/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-gamma-addMat01v" n="1">
+			<desc>addMat01v</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/1/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/1/THUMBNAIL" width="200px" height="250px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/1/SECONDARY_DISPLAY" width="4960px" height="6195px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/1/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-gamma-accMat01r" n="2">
+			<desc>accMat01r</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/2/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/2/THUMBNAIL" width="195px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/2/SECONDARY_DISPLAY" width="2440px" height="3754px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/2/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-gamma-accMat01v" n="3">
+			<desc>accMat01v</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/3/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/3/THUMBNAIL" width="198px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/3/SECONDARY_DISPLAY" width="2528px" height="3834px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/3/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-gamma-accMat02r" n="4">
+			<desc>accMat02r</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/4/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/4/THUMBNAIL" width="200px" height="132px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/4/SECONDARY_DISPLAY" width="2440px" height="1609px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/4/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-gamma-accMat02v" n="5">
+			<desc>accMat02v</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/5/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/5/THUMBNAIL" width="200px" height="129px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/5/SECONDARY_DISPLAY" width="2240px" height="1448px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/5/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-gamma-0001r" n="6">
+			<desc>0001r</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/6/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/6/THUMBNAIL" width="200px" height="281px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/6/SECONDARY_DISPLAY" width="4112px" height="5779px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/6/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-gamma-0001v" n="7">
+			<desc>0001v</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/7/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/7/THUMBNAIL" width="200px" height="285px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/7/SECONDARY_DISPLAY" width="4024px" height="5731px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/7/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-gamma-addMat02r" n="8">
+			<desc>addMat02r</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/8/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/8/THUMBNAIL" width="200px" height="249px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/8/SECONDARY_DISPLAY" width="5032px" height="6267px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/8/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-gamma-addMat02v" n="9">
+			<desc>addMat02v</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/9/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/9/THUMBNAIL" width="200px" height="249px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B3%204to/9/SECONDARY_DISPLAY" width="5032px" height="6267px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B3%204to/9/WEB_DISPLAY"/>
+		</surface>
+	</facsimile>
+	<text>
       <body>
 
          <p/>

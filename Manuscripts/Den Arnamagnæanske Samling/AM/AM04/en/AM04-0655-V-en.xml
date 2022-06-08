@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">AM 655 I 4to</title>
+                <title type="main">AM 655 V 4to</title>
             </titleStmt>
             <publicationStmt>
                 <authority>Den Arnamagnæanske Samling</authority>
@@ -22,103 +23,147 @@
                             <idno>1646</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="is">Heilagra manna sögur</title>,
-                            <origPlace>Iceland</origPlace>; <origDate notBefore="1200" notAfter="1215">s. XIII in</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1">
-                            <locus from="1r" to="2v">1r-2v</locus>
+                        <summary><title type="uniform">Erasmus saga</title> and <title
+                                type="uniform">Silvesters saga</title></summary>
+                        <msItem n="1" class="hels" defective="true">
+                            <locus from="1r" facs="#AM04-0655-V-0001r" to="2v">1r-2v</locus>
                             <title>Erasmus saga</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <incipit defective="true">
-                        <gap reason="damage"/> boþorþ <gap reason="damage"/>. dvr oc fog</incipit>
-                            <listBibl>
-                                <bibl>
-                           <ref type="primary" target="HMS1877">Heilagra manna
-                                        søgur</ref> I, pp. </bibl>
-                                <bibl>
-                           <ref type="primary-1" target="HeilagraSuppl">Arnamagnæanische
-                                        Fragmente</ref>, pp. 14-22</bibl>
-                            </listBibl>
+                                <gap reason="damage"/> boþorþ <gap reason="damage"/>. dvr oc
+                                fog</incipit>
+                                <bibl>Morgenstern, <ref type="primary-1" target="HeilagraSuppl"
+                                        >Arnamagnæanische Fragmente</ref>
+                                    <biblScope unit="page">14-22</biblScope>
+                                </bibl>
+                                <bibl>Unger, <ref type="primary" target="HMS1877">Heilagra manna
+                                        søgur</ref>
+                                    <biblScope unit="volume">II</biblScope>
+                                    <biblScope unit="page">363-368</biblScope>
+                                </bibl>
                         </msItem>
-                        <msItem n="2">
-                            <locus from="2v:24" to="2v:46">2v:27-46</locus>
+                        <msItem n="2" class="hels" defective="true">
+                            <locus from="2v:24" facs="#AM04-0655-V-2v:24" to="2v:46"
+                                >2v:27-46</locus>
                             <title>Silvesters saga</title>
                             <incipit>Siluest<expan>er</expan> uar ungr selldr</incipit>
-                            <explicit defective="true">er ver
-                                c<expan>ri</expan>stn<expan>ir</expan>
-                     </explicit>
-                            <listBibl>
-                                <bibl>
-                           <ref type="primary" target="HMS1877">Heilagra manna
-                                        søgur</ref> II, pp. 280-281</bibl>
-                                <bibl>
-                           <ref type="primary-1" target="HeilagraSuppl">Arnamagnæanische
-                                        Fragmente</ref>, pp. 22-23</bibl>
-                            </listBibl>
+                            <explicit defective="true">er ver c<expan>ri</expan>stn<expan>ir</expan>
+                            </explicit>
+                                <bibl>Morgenstern, <ref type="primary-1" target="HeilagraSuppl"
+                                        >Arnamagnæanische Fragmente</ref>
+                                    <biblScope unit="page">22-23</biblScope>
+                                </bibl>
+                                <bibl>Unger, <ref type="primary" target="HMS1877">Heilagra manna
+                                        søgur</ref>
+                                    <biblScope unit="volume">II</biblScope>
+                                    <biblScope unit="page">280-281</biblScope>
+                                </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
                                 <extent>2. <dimensions type="leaf" scope="all">
-                                        <height>205</height>
-                                        <width>150</width>
+                                        <height unit="mm">205</height>
+                                        <width unit="mm">150</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
+                                <condition>The leaves are damaged due to excising: Fol. 1 along the
+                                    inner margin and at the top, the bottom and a part of the inner
+                                    margin of fol. 2. Fol. 1r is worn.</condition>
                             </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1">
+                                    <p>Faint rubrics in red and coloured initials.</p>
+                                </layout>
+                            </layoutDesc>
                         </objectDesc>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1200"
+                                notAfter="1225">s. XIII<hi rend="sup">1/4</hi></origDate>.</origin>
+                        <acquisition>According to a note on the old cover in <name type="person"
+                                key="ArnMag001">Árni Magnússson</name>'s hand, he acquired the two
+                            leaves from <name type="person" key="ArnHan001">Árni Hannesson</name> in
+                            the autumn of 1706: <q xml:lang="is">feinged af <name type="person"
+                                    key="ArnHan001">Arna Han<ex>n</ex>eſſſyne</name> 1706. um
+                                hauſted og fan<ex>n</ex> h<ex>an</ex>n þetta i ruſle ä Itra Holme ä
+                                Akraneſe, og var þ<ex>ar</ex> eckert meira þeſſ
+                            ſlags</q>.</acquisition>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">59</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2022-01-25" who="EvaWed001">Updated.</change>
+        </revisionDesc>
     </teiHeader>
-	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
-		<surface xml:id="AM04-0655-V-0001r" n="0">
-			<desc>0001r</desc>
-			<graphic mimeType="pdf" url="AM%20655%20V%204to/0/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20V%204to/0/THUMBNAIL" width="200px" height="267px"/>
-			<graphic mimeType="jpg" url="AM%20655%20V%204to/0/SECONDARY_DISPLAY" width="4240px" height="5648px"/>
-			<graphic mimeType="pdf" url="AM%20655%20V%204to/0/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0655-V-0001v" n="1">
-			<desc>0001v</desc>
-			<graphic mimeType="pdf" url="AM%20655%20V%204to/1/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20V%204to/1/THUMBNAIL" width="200px" height="267px"/>
-			<graphic mimeType="jpg" url="AM%20655%20V%204to/1/SECONDARY_DISPLAY" width="4240px" height="5652px"/>
-			<graphic mimeType="pdf" url="AM%20655%20V%204to/1/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0655-V-0002r" n="2">
-			<desc>0002r</desc>
-			<graphic mimeType="pdf" url="AM%20655%20V%204to/2/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20V%204to/2/THUMBNAIL" width="200px" height="267px"/>
-			<graphic mimeType="jpg" url="AM%20655%20V%204to/2/SECONDARY_DISPLAY" width="4240px" height="5656px"/>
-			<graphic mimeType="pdf" url="AM%20655%20V%204to/2/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0655-V-0002v" n="3">
-			<desc>0002v</desc>
-			<graphic mimeType="pdf" url="AM%20655%20V%204to/3/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20V%204to/3/THUMBNAIL" width="200px" height="267px"/>
-			<graphic mimeType="jpg" url="AM%20655%20V%204to/3/SECONDARY_DISPLAY" width="4240px" height="5655px"/>
-			<graphic mimeType="pdf" url="AM%20655%20V%204to/3/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0655-V-accMat01r" n="4">
-			<desc>accMat01r</desc>
-			<graphic mimeType="pdf" url="AM%20655%20V%204to/4/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20V%204to/4/THUMBNAIL" width="200px" height="267px"/>
-			<graphic mimeType="jpg" url="AM%20655%20V%204to/4/SECONDARY_DISPLAY" width="4240px" height="5663px"/>
-			<graphic mimeType="pdf" url="AM%20655%20V%204to/4/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0655-V-accMat01v" n="5">
-			<desc>accMat01v</desc>
-			<graphic mimeType="pdf" url="AM%20655%20V%204to/5/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20V%204to/5/THUMBNAIL" width="200px" height="268px"/>
-			<graphic mimeType="jpg" url="AM%20655%20V%204to/5/SECONDARY_DISPLAY" width="4224px" height="5665px"/>
-			<graphic mimeType="pdf" url="AM%20655%20V%204to/5/WEB_DISPLAY"/>
-		</surface>
-	</facsimile>
+    <facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+        <surface xml:id="AM04-0655-V-0001r" n="0">
+            <desc>0001r</desc>
+            <graphic mimeType="pdf" url="AM%20655%20V%204to/0/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20655%20V%204to/0/THUMBNAIL" width="200px"
+                height="267px"/>
+            <graphic mimeType="jpg" url="AM%20655%20V%204to/0/SECONDARY_DISPLAY" width="4240px"
+                height="5648px"/>
+            <graphic mimeType="pdf" url="AM%20655%20V%204to/0/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0655-V-0001v" n="1">
+            <desc>0001v</desc>
+            <graphic mimeType="pdf" url="AM%20655%20V%204to/1/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20655%20V%204to/1/THUMBNAIL" width="200px"
+                height="267px"/>
+            <graphic mimeType="jpg" url="AM%20655%20V%204to/1/SECONDARY_DISPLAY" width="4240px"
+                height="5652px"/>
+            <graphic mimeType="pdf" url="AM%20655%20V%204to/1/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0655-V-0002r" n="2">
+            <desc>0002r</desc>
+            <graphic mimeType="pdf" url="AM%20655%20V%204to/2/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20655%20V%204to/2/THUMBNAIL" width="200px"
+                height="267px"/>
+            <graphic mimeType="jpg" url="AM%20655%20V%204to/2/SECONDARY_DISPLAY" width="4240px"
+                height="5656px"/>
+            <graphic mimeType="pdf" url="AM%20655%20V%204to/2/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0655-V-0002v" n="3">
+            <desc>0002v</desc>
+            <graphic mimeType="pdf" url="AM%20655%20V%204to/3/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20655%20V%204to/3/THUMBNAIL" width="200px"
+                height="267px"/>
+            <graphic mimeType="jpg" url="AM%20655%20V%204to/3/SECONDARY_DISPLAY" width="4240px"
+                height="5655px"/>
+            <graphic mimeType="pdf" url="AM%20655%20V%204to/3/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0655-V-accMat01r" n="4">
+            <desc>accMat01r</desc>
+            <graphic mimeType="pdf" url="AM%20655%20V%204to/4/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20655%20V%204to/4/THUMBNAIL" width="200px"
+                height="267px"/>
+            <graphic mimeType="jpg" url="AM%20655%20V%204to/4/SECONDARY_DISPLAY" width="4240px"
+                height="5663px"/>
+            <graphic mimeType="pdf" url="AM%20655%20V%204to/4/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0655-V-accMat01v" n="5">
+            <desc>accMat01v</desc>
+            <graphic mimeType="pdf" url="AM%20655%20V%204to/5/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20655%20V%204to/5/THUMBNAIL" width="200px"
+                height="268px"/>
+            <graphic mimeType="jpg" url="AM%20655%20V%204to/5/SECONDARY_DISPLAY" width="4224px"
+                height="5665px"/>
+            <graphic mimeType="pdf" url="AM%20655%20V%204to/5/WEB_DISPLAY"/>
+        </surface>
+    </facsimile>
 </TEI>

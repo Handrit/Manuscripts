@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,38 +22,37 @@
                             <idno>1975</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Danske Annaler</title>
-                        <origPlace>Lund, Danmark</origPlace>
-                        <origDate notBefore="1290" notAfter="1310" cert="medium" evidence="conjecture" resp="KKKat">ca. 1300</origDate>
-                        <origDate notBefore="1325" notAfter="1375" evidence="conjecture" resp="LNHaandskrifter">ca. 1350</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="supplied">Annaler og krøniker</title></summary>
+                        <textLang mainLang="la">Latin</textLang>
                         <msItem n="1" defective="true">
                             <locus from="1r" to="4v">1r-4v</locus>
                             <title type="uniform" xml:lang="la">Conspectus rerum Judæorum usqve ad
                                 interitum Hierosolymorum</title>
-                            <textLang mainLang="la">Latin</textLang>
                             <incipit defective="true">ta eſt. Huíus etatis</incipit>
-                            <note>Sandsynligvis mangler 1 blad.</note>
+                            <note>En oversigt over jødernes historie indtil Jerusalems ødelæggelse.
+                                Dette parti er dog ufuldstændigt, idet det mangler begyndelsen, som
+                                har stået på det bortskårne blad.</note>
                         </msItem>
-                        <msItem n="2" defective="true">
-                            <locus from="5r" to="13v">5r-13v</locus>
+                        <msItem n="2" defective="true" class="sagnfr">
+                            <locus from="5r" to="7v">5r-7v</locus>
+                            <title type="uniform" xml:lang="la">Chronicon Lethrense</title>
+                            <title type="uniform" xml:lang="da">Lejrekrøniken</title>
+                            <incipit defective="true">Prímo temp<ex>or</ex>e</incipit>
+                            <explicit defective="true">hiarwart ſialan<lb/>diam</explicit>
+                            <note>Ender ufuldstændigt.</note>
+                            <bibl>Gertz: <ref target="SMHDMAE">Scriptores minores historiæ Danicæ
+                                    medii ævis</ref>
+                                <biblScope unit="page">43-53</biblScope>
+                                <note>Udg. A.</note></bibl>
+                        </msItem>
+                        <msItem n="3" defective="true">
+                            <locus from="8r" to="13v">8r-13v</locus>
                             <title type="uniform" xml:lang="la">Annales Lundenses</title>
                             <title type="uniform" xml:lang="da">Lundeårbogen</title>
-                            <textLang mainLang="la">Latin</textLang>
-                            <msItem n="2.1">
-                                <locus from="5r" to="7v">5r-7v</locus>
-                                <incipit defective="true">Prímo temp<ex>or</ex>e</incipit>
-                                <explicit defective="true">hiarwart
-                                    ſialan<lb/>diam</explicit>
-                            </msItem>
-                            <msItem n="2.2">
-                                <locus from="8r" to="13v">8r-13v</locus>
-                                <incipit defective="true">dccxcix</incipit>
-                                <explicit defective="true">pirate in furore<ex>m</ex>
-                                    <ex>con</ex>u<ex>er</ex>ſi</explicit>
-                            </msItem>
+                            <incipit defective="true">dccxcix</incipit>
+                            <explicit defective="true">pirate in furore<ex>m</ex>
+                                <ex>con</ex>u<ex>er</ex>ſi</explicit>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -65,12 +64,13 @@
                                     </p>
                                 </support>
                                 <extent>13. <dimensions type="leaf" scope="all">
-                                        <height>180</height>
-                                        <width>126</width>
+                                        <height unit="mm">180</height>
+                                        <width unit="mm">126</width>
                                     </dimensions>
                                 </extent>
-                                <condition>Begynder og ender defekt; efter bl. 7 er der en
-                                    lakune.</condition>
+                                <collation>Består af to læg.</collation>
+                                <condition>Begynder og ender defekt. Det første blad i det første
+                                    læg er bortskåret og efter bl. 7 er der en lakune.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1">Teksten er enspaltet. Røde eller blågrønne
@@ -78,7 +78,8 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <p>To forskellige hænder.</p>
+                            <handNote script="textualis"><p>Skrevet af to forskellige hænder med en
+                                    tidlig gotisk bogskrift. </p></handNote>
                         </handDesc>
                         <additions>Det første stykke (bl. 1-4) har talrige marginaltillæg med hænder
                             fra middelalderen.</additions>
@@ -87,31 +88,48 @@
                                 <p>Skindomslag med forskellige yngre påskrifter.</p>
                             </binding>
                         </bindingDesc>
-
                     </physDesc>
+                    <history>
+                        <origin>Sandsynligvis skrevet i <origPlace>Lund, Sverige</origPlace>,
+                                <origDate notBefore="1290" notAfter="1310">ca. 1300</origDate>
+                                    (<bibl><ref type="secondary-1" target="KKKat">Kålund:
+                                    Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">231</biblScope></bibl> og <bibl><ref
+                                    target="Kroman1980">Kroman 1980</ref>
+                                <biblScope unit="page">21</biblScope></bibl>). Håndskriftet har
+                            tidligere været dateret til c. 1250 (<bibl><ref type="secondary"
+                                    target="LNHaandskrifter">Nielsen 1937</ref>
+                                <biblScope unit="page">106</biblScope></bibl> og <bibl><ref
+                                    target="SMHDMAE">Gertz 1917-1920</ref>
+                                <biblScope unit="page">38</biblScope></bibl>).</origin>
+                    </history>
                     <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <source><p>Nærværende håndskriftbeskrivelsen er lavet udelukkende på
-                                    basis af <bibl><ref target="KKKat">Kålunds katalog</ref></bibl>. </p><p>For yderligere
-                                        oplysninger se den engelske beskrivelse: <ref type="url" target="https://handrit.is/manuscript/view/en/AM04-0843">https://handrit.is/manuscript/view/en/AM04-0843</ref>.</p>
-                                </source>
-                            </recordHist>
-                        </adminInfo>
+                        <adminInfo> </adminInfo>
                         <listBibl>
-                            <bibl>Langebek: <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
-                                    Aevi</ref>
+                            <bibl><ref target="SMHDMAE">Gertz 1917-1920</ref>
                                 <biblScope unit="volume">I</biblScope>
-                                <biblScope unit="pages">214 ff</biblScope>
+                                <biblScope unit="page">38-39</biblScope></bibl>
+                            <bibl><ref target="Kroman1980">Kromann 1980</ref>
+                                <biblScope unit="page">21</biblScope></bibl>
+                            <bibl><ref target="SRDMAE">Langebek 1772-1878</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">214 ff</biblScope>
                                 <note>Faksimile s. 223; citeret som <q xml:lang="la">fragmentum
                                         vetus</q>.</note>
                             </bibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">231</biblScope></bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat"
+                                    >Katalog</ref><biblScope unit="volume">II</biblScope><biblScope
+                                    unit="page">231</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2022-03-21" who="EvaWed001">Opdateret msContens, origDate og tilføjet
+                titler til bibliografien.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

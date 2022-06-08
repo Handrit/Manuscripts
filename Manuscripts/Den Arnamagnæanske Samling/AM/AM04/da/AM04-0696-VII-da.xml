@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,27 +23,34 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="is">Æfintýri</title>
-                  <origPlace>Island</origPlace>
-                  <origDate notBefore="1490" notAfter="1510" evidence="conjecture" resp="KKKat">ca.
-                     1500</origDate>
-               </head>
                <msContents>
-                  <msItem defective="true">
-                     <title type="supplied" xml:lang="is">Æfintýri</title>
-                     <textLang mainLang="is">Norrønt/Islandsk</textLang>
-                     <note>Deriblandt Fablen om den syge løve; ellers af opbyggelig karakter</note>
-                     <msItem n="1">
+                  <textLang mainLang="non"/>
+                  <msItem n="1" class="damis dyrs" defective="true">
+                     <title type="supplied" xml:lang="is">Ævintýri</title>
+                     <note>Deriblandt fablen .</note>
+                     <msItem n="1.1" class="damis">
                         <locus from="1r" to="1v">1r-v</locus>
                         <incipit defective="true">dreckt morgu<ex>m</ex> m<ex>ann</ex>e j
                            ſio</incipit>
-                        <explicit>Þ<ex>e</ex>tta ſynde hu<ex>n</ex></explicit>
+                        <!--    <explicit>Þ<ex>e</ex>tta ſynde hu<ex>n</ex></explicit>  -->
+                        <bibl>Jorgensen: <ref type="primary-1" target="PetJor0960a">Ten Icelandic
+                              exempla and their Middle English source</ref>
+                           <biblScope unit="page">201-203</biblScope><note>Udg. O</note></bibl>
                      </msItem>
-                     <msItem n="2">
+                     <msItem n="1.2" class="damis">
+                        <locus from="1v" to="2r">1v-2r</locus>
+                        <bibl>Jorgensen: <ref type="primary-1" target="PetJor0960a">Ten Icelandic
+                              exempla and their Middle English source</ref>
+                           <biblScope unit="page">203-205</biblScope><note>Udg. O</note></bibl>
+                     </msItem>
+                     <msItem n="1.3" class="dyrs">
                         <locus from="2r" to="2v">2r-v</locus>
+                        <title type="uniform">Den syge løve</title>
                         <incipit defective="true">ſitt hiarta blod</incipit>
-                        <note>Ender ulæseligt i løvefablen.</note>
+                        <note>Ender ulæseligt i fablen.</note>
+                        <bibl>Jorgensen: <ref type="primary-1" target="PetJor0960a">Ten Icelandic
+                              exempla and their Middle English source</ref>
+                           <biblScope unit="page">205-207</biblScope><note>Udg. O</note></bibl>
                      </msItem>
                   </msItem>
                </msContents>
@@ -55,35 +62,38 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>2. <dimensions type="leaf" unit="mm">
-                              <height>165</height>
-                              <width>117</width>
+                              <height unit="mm">165</height>
+                              <width unit="mm">117</width>
                            </dimensions></extent>
                         <condition>Slidte og beskadigede ved beskæring af hjørnerne.</condition>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
                <history>
-                  <origin>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl>
+                  <origin>Skrevet i <origPlace>Island</origPlace>
+                     <origDate notBefore="1490" notAfter="1510" evidence="conjecture" resp="ONP">ca.
+                        1500</origDate> (<bibl>
+                        <ref type="secondary-1" target="PetJor1970">Jorgensen 1970</ref>
+                        <biblScope unit="page">178</biblScope>
+                     </bibl>). <name type="person" key="KriKaa001">Kålund</name>'s datering:
+                     1400-tallet (<bibl>
                         <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">111</biblScope>
-                     </bibl>) har dateret det til 1400-tallet. Senere har Jorgensen (<bibl>
-                        <ref type="secondary-1" target="PetJor1970">Ten Icelandic Exempla and Their
-                           Middle English Source</ref>
-                        <biblScope unit="pages">178</biblScope>
-                     </bibl>) dateret det til <origDate notBefore="1490" notAfter="1510" evidence="conjecture" resp="ONP">ca. 1500</origDate>.</origin>
+                        <biblScope unit="page">111</biblScope>
+                     </bibl>).</origin>
                </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">111</biblScope>
+                        <biblScope unit="page">111</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-12" who="EvaWed001">Opdateret opmærkning.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

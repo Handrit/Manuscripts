@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,14 +23,16 @@
                      <idno>360</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Æfintýri</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1350" notAfter="1375">s. XIV; s. XIV 3/4 (ONP)</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Ævintýri</title></summary>
+                  <msItem n="1" class="avint">
+                     <title type="supplied" xml:lang="is">Ævintýri</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">vitrlig<ex>ri</ex> ok m<ex>ar</ex>gfalld<ex>ri</ex>
+                           vmleita<ex>n</ex>
+                     </incipit>
+                     <explicit defective="true">þ<ex>at</ex> er grftr tekin<ex>n</ex> helldr
+                        geysili</explicit>
                   </msItem>
                </msContents>
                <physDesc>
@@ -38,10 +41,35 @@
                         <support>
                            <p>Parchment.</p>
                         </support>
-                        <extent>3. </extent>
+                        <extent>3. <dimensions type="leaf" scope="all" unit="mm">
+                              <height unit="mm">227</height>
+                              <width unit="mm">145</width>
+                           </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                    <origin>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1350"
+                        notAfter="1375" cert="high">the third quarter of the fourteenth century</origDate>
+                           (<bibl><ref type="secondary" target="BiblArn32">Louis-Jensen
+                           1977</ref><biblScope unit="page">8, 14</biblScope></bibl>). <name
+                        type="person" key="KriKaa001">Kålund</name>'s dating: The fourteenth century (<bibl>
+                        <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">205</biblScope>
+                     </bibl>).</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>
+                        <ref type="secondary" target="KKKat"/>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">205</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="BiblArn32"/>
+                        <biblScope unit="page">8, 14</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

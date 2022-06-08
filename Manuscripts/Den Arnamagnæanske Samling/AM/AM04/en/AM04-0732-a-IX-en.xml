@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,24 +23,44 @@
                      <idno>1838</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Four Letters on the Changing of the Icelandic Calendar</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1700" notAfter="1730">s. XVIII in</origDate>
-                  <note>From <name type="person" key="JonArn003">Jón Árnason</name> to <name type="person" key="ArnMag001">Árni Magnússon</name>.</note>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="uniform">Tractatus computisticus</title><note>Containing a
+                        dedication in Danish.</note></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="17v">1r-17v</locus>
+                     <author key="JonDad001">Jonas Gam (Jón Daðason)</author>
+                     <title type="uniform" xml:lang="la">Tractatus computisticus</title>
+                     <textLang mainLang="la" otherLangs="da"/>
+                     <respStmt>
+                        <resp>Dedicatee</resp>
+                        <name type="person" key="JonArn003">Jón Árnason</name>
+                     </respStmt>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
+                        <support><material>Paper</material>.</support>
+                        <extent>17. <dimensions type="leaf" extent="all">
+                              <height unit="mm">220</height>
+                              <width unit="mm">172</width>
+                           </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Iceland</origPlace>, <origDate notBefore="1700" notAfter="1717">s.
+                        XVIII in</origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">159</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

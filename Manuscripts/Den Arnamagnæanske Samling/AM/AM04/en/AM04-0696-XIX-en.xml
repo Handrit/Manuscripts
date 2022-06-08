@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,26 +22,51 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Píslarsaga Krists</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1490" notAfter="1510">c. 1500; s. XVI 1/2 (ONP)</origDate>
-               </head>
-               <msContents>
-                  <msItem>
+                 <msContents>
+                  <summary><title type="uniform" xml:lang="is">Píslarsaga Krists</title></summary>
+                    <msItem n="1" defective="true">
+                       <locus from="1r" to="2v">1r-2v</locus>
+                       <title type="uniform" xml:lang="is">Píslarsaga Krists</title>
                      <textLang mainLang="is">Icelandic</textLang>
+                     <incipit defective="true">En<ex>n</ex> u<ex>m</ex> m<ex>or</ex>guni<ex>n</ex>
+                        ſnem<ex>m</ex>a</incipit>
+                     <explicit defective="true">tak h<ex>a</ex>n<ex>n</ex> j burt <lb/>
+                        <gap reason="lacuna"/></explicit>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>2. </extent>
+                        <extent>2. <dimensions type="leaf">
+                           <height unit="mm">90</height>
+                           <width unit="mm">123</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin>Written in <origPlace>Iceland</origPlace> in
+                  <origDate
+                     notBefore="1500" notAfter="1550" evidence="conjecture" resp="ONP"
+                     >1500-tallets første halvdel</origDate> (<name type="person"
+                        key="SteKar001">Stefán Karlsson</name> pers., see <bibl><ref type="secondary" target="ONPindices">ONP</ref></bibl>).
+                  <name type="person" key="KriKaa001"
+                     >Kålund</name>'s dating: c. 1500 (<bibl>Kålund: <ref type="secondary-1" target="KKKat"
+                        >Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">113</biblScope>
+                     </bibl>).</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">113-114</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>

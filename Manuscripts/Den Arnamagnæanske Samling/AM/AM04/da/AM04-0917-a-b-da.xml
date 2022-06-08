@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,16 +23,12 @@
                      <idno>2049</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Historien om Martin Luther</title>;
-                     <origPlace>Island</origPlace>, <origDate notBefore="1720" notAfter="1740">ca.
-                     1730</origDate>. <note>2 bind</note>
-               </head>
-               <msContents>
-                  <msItem>
-                     <title type="supplied">Historien om Martin Luther</title>
+                  <msContents>
+                  <summary><title type="supplied">Martin Luthers biografi</title><note>2 bind.</note></summary>
+                     <msItem n="1" class="person">
+                     <title type="supplied">Martin Luthers biografi</title>
                      <respStmt>
-                        <resp>Oversat fra tysk til islandsk af </resp>
+                        <resp key="trl">Oversat fra tysk til islandsk af</resp>
                         <name type="person" key="EyjJon002">Eyjólfur Jónsson</name>
                      </respStmt>
                      <textLang mainLang="is">Islandsk</textLang>
@@ -47,18 +43,20 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>752 (454 + 298) + titelblade. <dimensions type="leaf" scope="all">
-                              <height>215</height>
-                              <width>170</width>
+                              <height unit="mm">215</height>
+                              <width unit="mm">170</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scope="sole" scribe="EyjJon002" script="unknown">
-                        <p>Skrevet af præsten Eyjólfur Jónsson til Vellir i Svarfaðardalur.</p>
+                        <p>Skrevet af præsten <name type="person" key="EyjJon002">Eyjólfur Jónsson</name> til Vellir i Svarfaðardalur.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
                <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1720" notAfter="1740">ca.
+                     1730</origDate>.</origin>
                   <acquisition>Er skænket til <name type="org">Den Arnamagnæanske Samling</name> af
                      pastor <name type="person" key="ThoGud003">Þorgeir
                      Guðmundsson</name>.</acquisition>
@@ -67,7 +65,7 @@
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">261</biblScope>
+                        <biblScope unit="page">261</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

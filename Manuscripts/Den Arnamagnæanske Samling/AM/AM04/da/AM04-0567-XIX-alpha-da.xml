@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">AM 567 XIX alfa 4to</title>
+            <title type="main">AM 567 XIX alpha 4to</title>
          </titleStmt>
          <publicationStmt>
             <authority>Den Arnamagnæanske Samling</authority>
@@ -17,52 +18,51 @@
                   <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
                   <collection key="AM"/>
-                  <idno>AM 567 XIX alfa 4to</idno>
+                  <idno>AM 567 XIX alpha 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1415</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Rémundar saga keisarasonar</title>
-                  <origPlace>Island</origPlace>
-                  <origDate notBefore="1450" notAfter="1499" resp="KKKat ONP">s. XV 2/2</origDate>
-               </head>
                <msContents>
-                  <msItem defective="true">
+                  <summary><title type="uniform">Rémundar saga keisarasonar</title></summary>
+                  <msItem n="1" class="ridd" defective="true">
                      <title type="uniform">Rémundar saga keisarasonar</title>
-                     <textLang mainLang="is">Islandsk</textLang>
+                     <textLang mainLang="non">Norrønt/islandsk</textLang>
                      <bibl>Broberg: <ref type="primary-3" target="STUAGNL38">Rémundar saga
-                     keisarasonar</ref>
+                           keisarasonar</ref>
                         <note>Var.app. I</note>
                      </bibl>
-                     <msItem>
+                     <msItem n="1.1">
                         <locus from="1r" to="1v">1r-v</locus>
                         <incipit defective="true">
-                           <gap reason="lacuna" extent="5 lines"/>drecka nv glad<ex>er</ex> 
+                           <gap reason="lacuna" extent="5 lines"/>drecka nv glad<ex>er</ex>
                            <ex>ok</ex> kat<ex>er</ex>
                         </incipit>
-                        <explicit defective="true">ſid<ex>an</ex> R<ex>emund</ex> k<ex>eisara</ex> s<ex>on</ex>
+                        <explicit defective="true">ſid<ex>an</ex> R<ex>emund</ex> k<ex>eisara</ex>
+                              s<ex>on</ex>
                         </explicit>
                      </msItem>
-                     <msItem>
+                     <msItem n="1.2">
                         <locus from="2r" to="2v">2r-v</locus>
                         <incipit defective="true">
-                           <gap reason="lacuna" extent="3 lines"/>þ<ex>ei</ex>ra, heſtar ſkortí þa e<ex>igi</ex>
+                           <gap reason="lacuna" extent="3 lines"/>þ<ex>ei</ex>ra, heſtar ſkortí þa
+                              e<ex>igi</ex>
                         </incipit>
-                        <explicit defective="true">særd<ex>er</ex> all<ex>er</ex> nalega t<ex>il</ex> olífíſ <ex>ok</ex>
+                        <explicit defective="true">særd<ex>er</ex> all<ex>er</ex> nalega
+                              t<ex>il</ex> olífíſ <ex>ok</ex>
                         </explicit>
-                    </msItem>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Pergament</p>
+                           <p><material>Pergament</material>.</p>
                         </support>
                         <extent>2. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>165</height>
-                              <width>147</width>
+                              <height unit="mm">165</height>
+                              <width unit="mm">147</width>
                            </dimensions>
                         </extent>
                         <condition>Stærkt hensmuldrende blade, hvoraf kun den nederste del er
@@ -70,17 +70,27 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1450" notAfter="1499"
+                        resp="ONP">s. XV <hi rend="sup">2</hi></origDate></origin>
+               </history>
                <additional>
                   <listBibl>
+                     <bibl>Broberg: <ref type="secondary-1" target="STUAGNL38">Rémundar saga
+                           keisarasonar</ref><!-- biblScope? -->
+                     </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">726</biblScope>
+                        <biblScope unit="page">726</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-11-10" who="EvaWed001">Opdateret opmærkning.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

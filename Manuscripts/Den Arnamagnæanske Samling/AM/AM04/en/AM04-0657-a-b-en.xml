@@ -1,53 +1,270 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 657 a-b 4to</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM04-0657-a-b-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 657 a-b 4to</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>1648</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="is">sögur og æfintýri</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1300" notAfter="1399" cert="medium" evidence="conjecture" resp="KKKat">1300-tallet</origDate>
-                  <origDate notBefore="1350" notAfter="1399" evidence="conjecture" resp="ONP">ca. 1375</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>
-                           <p>Parchmen.t</p>
-                        </support>
-                        <extent>100. </extent>
-                     </supportDesc>
-                  </objectDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 657 a-b 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0657-a-b-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 657 a-b 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>1648</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="supplied">Sagas and Folk Tales</title></summary>
+						<textLang mainLang="non">Old Norse/Icelandic</textLang>
+						<msItem n="1" class="hels">
+							<locus from="1r" facs="#AM04-0657-a-b-0001r" to="17v">1r-17v</locus>
+							<title type="uniform">Mikjáls saga</title>
+							<bibl>Unger, <ref type="primary" target="HMS1877">Heilaga Manna
+									Søgur</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">676-713</biblScope>
+								<note>Ed. A</note>
+							</bibl>
+						</msItem>
+						<msItem n="2" class="hels">
+							<locus from="17v" facs="#AM04-0657-a-b-0017v" to="18r">17v-18r</locus>
+							<title type="uniform" xml:lang="is">Heilagra feðra æfi</title>
+							<title type="uniform" xml:lang="la">Vitae patrum</title>
+							<rubric>af brodur einu<ex>m</ex> einsetu man<ex>n</ex>i</rubric>
+							<bibl>Unger, <ref type="primary" target="HMS1877">Heilaga Manna
+									Søgur</ref>
+							</bibl>
+						</msItem>
+						<msItem n="3" class="avint damis">
+							<locus from="18r" facs="#AM04-0657-a-b-0018r" to="18v">18r-v</locus>
+							<title type="supplied">Eventyr</title>
+							<rubric>af <ex>con</ex>ſtantino k<ex>o</ex>nghi</rubric>
+							<bibl>Gering, <ref type="primary" target="IslAEv">Íslendzk
+									æventýri</ref>
+								<note>no v</note>
+							</bibl>
+						</msItem>
+						<msItem n="4" class="damis">
+							<locus from="18v" facs="#AM04-0657-a-b-0018v" to="19r">18v-19r</locus>
+							<title type="supplied">Exemplum</title>
+							<rubric>af hinu<ex>m</ex> helga thoma</rubric>
+							<bibl>Gering: <ref type="primary" target="IslAEv">Íslendzk
+									æventýri</ref>
+								<note>no xviii</note>
+							</bibl>
+						</msItem>
+						<msItem n="5" defective="true" class="hels">
+							<locus from="19r" facs="#AM04-0657-a-b-0019r" to="22v">19r-22v</locus>
+							<title type="uniform">Maríu saga</title>
+							<msItem n="5.1">
+								<rubric>e<ex>r</ex> hin<ex>n</ex>
+									<lb/> audgi gaf fianda ſ<ex>on</ex> ſin<ex>n</ex>
+								</rubric>
+							</msItem>
+							<msItem n="5.2">
+								<rubric>af einu<ex>m</ex> husbonda i roma</rubric>
+							</msItem>
+							<msItem n="5.3" defective="true">
+								<rubric>iarteign Mariu d<ex>ro</ex>ttn<ex>in</ex>g<ex>ar</ex>
+								</rubric>
+								<explicit defective="true">vrv<ex>m</ex> h<ex>er</ex>ʀa
+										<ex>iesu</ex>
+									<ex>christ</ex>o <ex>ok</ex> h<ex>an</ex>s modvr</explicit>
+							</msItem>
+						</msItem>
+						<msItem n="6" class="avint damis vidbs" defective="true">
+							<locus from="23r" facs="#AM04-0657-a-b-0023r" to="58v">23r-58v</locus>
+							<locus from="65r" facs="#AM04-0657-a-b-0065r" to="83v">65r-82v</locus>
+							<title type="supplied">Folk Tales</title>
+							<note>Several lacunae</note>
+								<bibl>Gering, <ref type="primary" target="IslAEv">Íslendzk
+										æventýri</ref>
+									<note>Nr. xcvi, xcv, xvi <q>Af Furseo</q> (s. xi) xvii, xcviii,
+										lxxx, lxxxvi, lxxxi, lxxxix, c, xxi, xlii a, xx, vi, xiv,
+										xii, xiii, xciv, ci, lxxxviii, xliii, xliv, xcix, et mirakel
+										(s. xi-xii), xlv, xlvi, xlvii, lxxxvii, i, ii, xlviii, iii,
+										iv, ix, xix, xxiv, xxv, lxxxv b, lxxxix, xxviii, lxxxii,
+										lxxviii, xc, xci-xciii, xxvi, xxvii, x, xi</note>
+								</bibl>
+								<bibl>Unger, <ref type="primary" target="HMS1877">Heilagra Manna
+										Søgur</ref>
+									<biblScope unit="volume">I</biblScope>
+									<biblScope unit="pages">714-716</biblScope>
+									<note>Eventyr nr. iii</note>
+								</bibl>
+						</msItem>
+						<msItem n="7" defective="true" class="ridd">
+							<locus from="58v" facs="#AM04-0657-a-b-0058v" to="62v">58v-62v</locus>
+							<title type="uniform">Drauma-Jóns saga</title>
+							<rubric>af drauma joni</rubric>
+							<explicit defective="true">er g<ex>er</ex>dizſt m<ex>ed</ex>
+							</explicit>
+							<bibl>Page, <ref type="primary" target="Page1957">Drauma-Jóns Saga</ref>
+								<note>Var.app. B.</note>
+							</bibl>
+						</msItem>
+						<msItem n="8" defective="true" class="kon">
+							<locus from="63r" facs="#AM04-0657-a-b-0063r" to="64v">63r-64v</locus>
+							<title type="uniform">Hákonar saga Hárekssonar</title>
+							<incipit defective="true">hond. Vigf<ex>us</ex> seg<ex>er</ex>
+								fliott</incipit>
+							<explicit defective="true">getid er nu <ex>ok</ex>
+							</explicit>
+						</msItem>
+						<msItem n="9" defective="true" class="ridd">
+							<locus from="83r" facs="#AM04-0657-a-b-0083r" to="90v">83r-90v</locus>
+							<title type="uniform">Clarus saga</title>
+							<incipit defective="true">[spaze]randi vti</incipit>
+							<note>Efter bl. <locus from="88v" facs="#AM04-0657-a-b-0088v" to="88v">88v</locus> mangler 1 blad.</note>
+								<bibl>Cederschiöld, <ref target="Clarus1879">Clarus saga = Clari
+										fabella</ref>
+								</bibl>
+						</msItem>
+						<msItem n="10" class="avint" defective="true">
+							<locus from="90v" facs="#AM04-0657-a-b-0090v" to="100v">90v-100v</locus>
+							<title type="supplied">Folk Tales</title>
+							<note>Fragments of five tales.</note>
+									<bibl>Gering, <ref type="primary" target="IslAEv">Íslendzk
+										æventýri</ref>
+									<note>xv, xxiii, xxii</note>
+								</bibl>
+								<bibl>Jakobsen, <ref type="primary-1" target="AlfJak1960">Et
+										bruddstykke av en Maria-legende</ref>
+									<biblScope unit="pages">268</biblScope>
+									<note>Fols 91v:18-33</note>
+								</bibl>
+							<msItem n="10.1">
+								<title type="supplied">Af Furseo</title>
+								<note>The end</note>
+							</msItem>
+							<msItem n="10.2">
+								<title type="supplied">The Abbey and His Foster-Father</title>
+							</msItem>
+							<msItem n="10.3">
+								<title type="supplied">Emperor Phocas</title>
+							</msItem>
+							<msItem n="10.4">
+								<title type="supplied">A Strife Between Angels and Demons</title>
+							</msItem>
+							<msItem n="10.5">
+								<title type="supplied">Emperor Tiburcius</title>
+								<note>A part is published in <bibl>Gering, <ref type="primary" target="IslAEv">Íslendzk æventýri</ref>
+										<biblScope unit="pages">xxvi</biblScope>
+									</bibl>
+								</note>
+							</msItem>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p><material>Parchment</material>.</p>
+								</support>
+								<extent>100. <dimensions type="leaf" scope="all" unit="mm">
+										<height unit="mm">222</height>
+										<width unit="mm">173</width>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<p>Written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl><ref type="secondary-1" target="KKKat">Katalog</ref>
+									<biblScope unit="volume">II</biblScope>
+									<biblScope unit="pages">68</biblScope>
+								</bibl>) dated it to <date notBefore="1300" notAfter="1399" cert="medium" evidence="conjecture" resp="KKKat">the fourteenth
+									cenrury</date>. The general concensus, however, is that the
+								manuscript can be dated more precisely to <origDate notBefore="1340" notAfter="1360" evidence="conjecture" resp="ONP">c.
+									1350</origDate> (See e.g. <bibl>
+									<ref type="secondary-1" target="HMS1877">Unger 1877</ref>
+									<biblScope unit="volume">I</biblScope>
+									<biblScope unit="pages">xv</biblScope>
+								</bibl>, <bibl>
+									<ref type="secondary-1" target="AlfJak1964">Jakobsen 1964</ref>
+									<biblScope unit="pages">12</biblScope>
+								</bibl> and <bibl>
+									<ref type="secondary-1" target="JonLou1975">Louis-Jensen
+										1975</ref>
+								</bibl>).</p>
+						</origin>
+						<acquisition>
+							<p>In <ref type="ms" target="AM04-0435-a-da">AM 435 a 4to</ref> fols
+								20v-21v omtaler <name type="person" key="ArnMag001">Árni
+									Magnússon</name> describes the manuscript in the following way:</p>
+							<q>
+								<p>Saga Michaels Hfudeingels</p>
+								<p>Mrg æfintir. Þar ä medal</p>
+								<p>Af Drauma Jone,</p>
+								<p>Meiſtara Perus etc.</p> 4<hi rend="sup">to</hi> majori. Liber
+								confuſus et valde mutilus. Bokina hefi eg (meſtan<ex>n</ex> part)
+								feinged af vice Igman<ex>n</ex>enum <name type="person" key="PalJon005">Päle Jonsſyne</name>, en<ex>n</ex> han<ex>n</ex>
+								af <name type="person" key="HalErl001">Halldoru Erlendzdottur</name>
+								i <name type="place" key="BólBól01">Bolſtada hlid</name>. Mun fyrrum
+								hafa vered Kirkiubok þar: þvi par er Michaels kirkia. 10 ſeinuſtu
+								bldin hefi eg feinged ur þrimr ſtdum, <ex>og</ex>
+								nockur af þ<ex>ei</ex>m af einum Skola pillte, fra <name type="place">Holum</name>, ſem ætladi ad hafa þau utan um qver.
+								En<ex>n</ex> nu ſidan hefi eg feinged þau blden, ſem
+								hier eru ſamanbundin, og nu liggia allra ſidarſt. Eru þau
+								ſmuleidis ur ymſum stdum, og nockur þar af fra
+								S<ex>era</ex>
+								<name type="person" key="SnoJon002">Snorra Jonsſyne</name>
+								<date when="1721">1721</date>
+							</q>.
+						</acquisition>
+					</history>
+					<additional>
+						<listBibl>
+							<bibl><ref type="secondary-1" target="EinPét1980a">Einar G. Pétursson
+									1980</ref><!-- biblScope? --></bibl>
+							<bibl><ref type="secondary-1" target="EinPét2011b">Einar G. Pétursson
+									2011</ref><!-- biblScope? --></bibl>
+							<bibl><ref type="secondary-1" target="GuðGun2016a">Guðvarður Már
+									Gunnlaugsson 2016</ref><!-- biblScope? --></bibl>
+							<bibl><ref type="secondary-1" target="ShaHug2008a">Hughes
+								2008</ref></bibl>
+							<bibl><ref type="secondary-1" target="EIMF13">Jakob Benediktsson
+									1980</ref><biblScope unit="page">10-12</biblScope></bibl>
+							<bibl><ref type="secondary-1" target="HelJen0762a">Jensen
+								1967</ref><!-- biblScope --></bibl>
+							<bibl><ref type="secondary-1" target="JónHel1960a">Jón Helgason
+									1960</ref><biblScope unit="page">xi</biblScope></bibl>
+							<bibl><ref type="secondary-1" target="BiblArnSupp8">Kjeldsen
+								2013</ref><!-- biblScope? --></bibl>
+							<bibl><ref target="JonLou1975">Louis-Jensen
+								1975</ref><!-- biblScope? -->
+							</bibl>
+							<bibl><ref type="primary-1" target="AlfJak1959a">Jakobsen
+								1959</ref><!-- biblScope? -->
+							</bibl>
+							<bibl><ref type="primary-1" target="AlfJak0741a">Jakobsen
+								1960</ref><!-- biblScope? -->
+							</bibl>
+							<bibl><ref type="primary-1" target="AlfJak1960a">Jakobsen
+								1960</ref><!-- biblScope? --></bibl>
+							<bibl><ref type="secondary-1" target="KKKat">Kålund Katalog</ref>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="pages">68-70</biblScope>
+							</bibl>
+							<bibl><ref type="secondary-1" target="SteKar1991c">Stefán Karlsson
+									1991</ref><!-- <biblScope unit="page"></biblScope>? --></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0657-a-b-0000r-FB" n="0">
 			<desc>0000r-FB</desc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,36 +23,33 @@
                      <idno>751</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Norsk lovhåndskrift</title>;
-                     <origPlace>Norge</origPlace>, <origDate notBefore="1550" notAfter="1599" evidence="conjecture" resp="KKKat">s. XVI
-                     2/4</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
+                  <summary><title type="supplied" xml:lang="da">Norsk
+                     lovhåndskrift</title>.</summary>
+                  <msItem n="1" class="log">
                      <locus from="1r" to="219v">1r-219v</locus>
                      <title type="uniform">Nidaros bylov</title>
                      <note>Med forudgående fortale og register</note>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
-                  <msItem n="2">
+                  <msItem n="2" class="logfr">
                      <locus from="220r" to="223v">220r-223v</locus>
                      <title type="supplied">Om edens betydning. Formularer for byfogeds-, rådmands-,
                         lagrettes- og borger-ed</title>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
-                  <msItem n="3">
+                  <msItem n="3" class="log">
                      <locus from="224r" to="247v">224r-247v</locus>
                      <title type="uniform">Farmannaloven</title>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
-                  <msItem n="4">
+                  <msItem n="4" class="log">
                      <locus from="248r" to="291v">248r-291v</locus>
                      <title type="supplied">Retterbøder fra 1200-1500-tallet</title>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                      <note>De ældre i dansk oversættelse.</note>
                   </msItem>
-                  </msContents>
+               </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
@@ -59,9 +57,10 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>292 (inkl. bl. 104<hi rend="sup">bis</hi>). <dimensions type="leaf" scope="all">
-                              <height>201</height>
-                              <width>155</width>
+                        <extent>292 (inkl. bl. 104<hi rend="sup">bis</hi>). <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">201</height>
+                              <width unit="mm">155</width>
                            </dimensions>.</extent>
                      </supportDesc>
                      <layoutDesc>
@@ -70,35 +69,39 @@
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="MarNie001" scope="sole" script="unknown">
-                        <p>Skrevet af Martin Nilssøn.</p>
+                        <p>Skrevet af <name type="person" key="MarNie001">Martin Nilssøn</name>.</p>
                      </handNote>
                   </handDesc>
                   <additions>
                      <p>Jævnlige marginalantegnelser.</p>
-                     <p>På bl. 6v finder vi initialerne <q>M. N. S.</q>, og ifølge en AM-seddel stod
-                        der <q>M. N. <date when="1580">1580</date>
-                        </q> på det gamle bind. Disse
-                        initialer må tolkes som skriveren, <name type="person" key="MarNie001">Martin Nilssøn</name>s.</p>
+                     <p>På bl. 6v ses initialerne <q>M. N. S.</q>, og ifølge en AM-seddel stod
+                        der også <q>M. N. <date when="1580">1580</date>
+                        </q> på det gamle bind. Disse initialer må tolkes som skriveren, <name
+                           type="person" key="MarNie001">Martin Nilssøn</name>s.</p>
                      <p>På bl. 144r læses årstallet <date when="1579">1579</date>.</p>
                   </additions>
                   <accMat>Der er en AM-seddel.</accMat>
                </physDesc>
+               <history>
+                  <origin><origPlace>Norge</origPlace>, <origDate notBefore="1550" notAfter="1599"
+                        evidence="conjecture" resp="KKKat">s. XVI<hi rend="sup">2</hi></origDate></origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">403</biblScope>
+                        <biblScope unit="page">403</biblScope>
                      </bibl>
                      <bibl>Rafn: <ref target="AntR">Antiquités Russes</ref>
-                        <biblScope unit="pages">456</biblScope>
+                        <biblScope unit="page">456</biblScope>
                      </bibl>
                      <bibl>Storm: <ref type="secondary" target="ChrVidSkFor14">Om Haandskrifter og
-                        Oversættelser af Magnus Lagaböters Love</ref>
-                        <biblScope unit="pages">48, 56-57</biblScope>
+                           Oversættelser af Magnus Lagaböters Love</ref>
+                        <biblScope unit="page">48, 56-57</biblScope>
                      </bibl>
                      <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
                         <biblScope unit="volume">IV</biblScope>
-                        <biblScope unit="pages">592-593</biblScope>
+                        <biblScope unit="page">592-593</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

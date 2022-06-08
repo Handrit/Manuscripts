@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,31 +23,87 @@
                      <idno>1674</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">De Sancto Magno Martyre glorioso</title>
-                  <title n="2">Seqventia in festo Magni ducis martyris</title>
-                  <origPlace>Denmark?</origPlace>
-                  <origDate notBefore="1700" notAfter="1725">s. XVII 1/4</origDate>
-               </head>
                <msContents>
+                  <summary>
+                     <title type="supplied">Vita of St. Magnús and the Feast Day of St. Magnús</title>
+                  </summary>
                   <textLang mainLang="la">Latin</textLang>
+                  <msItem n="1" class="helgiso">
+                     <locus from="3r" to="7r">3r-7r</locus>
+                     <title type="uniform">De Sancto Magno Martyre glorioso</title>
+                     <rubric>De Sancto Magno Martyre glorioso</rubric>
+                     <note>Variants added by <name type="person" key="ArnMag001">Árni
+                           Magnússon</name> in the text as well as on ff. 1 and 2.</note>
+                  </msItem>
+                  <msItem n="2" class="helgs">
+                     <locus from="10r" to="12v">10r-12v</locus>
+                     <title type="supplied" xml:lang="la">Seqventia in festo Magni ducis
+                        martyris</title>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>12. 
-<dimensions type="leaf" scope="all">
-                              <height>213</height>
-                              <width>172</width>
-                           </dimensions>
-                        </extent>
+                        <support><material>Paper</material>.</support>
+                        <extent>12. Fols 1r, 7v-8v and 9v are blank. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">213</height>
+                              <width unit="mm">172</width>
+                           </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" script="unknown">Fols 3r-7r are written in the same hand
+                        as <ref type="ms" target="#AM04-0670-a-en #AM04-0670-b-en #AM04-0670-c-en #AM04-0670-d-en">AM 670 a-d 4to</ref>, the first eight leaves of
+                        <ref type="ms" target="AM04-0670-e-en">AM 670 e 4to</ref> and <ref type="ms"
+                           target="#AM04-0670-g-en">AM 670 g 4to</ref>.</handNote>
+                     <handNote scope="minor" script="unknown" scribe="ArnMag001">The rest is written
+                        by <name type="person" key="ArnMag001">Árni Magnússon</name>.</handNote>
+                  </handDesc>
+                  <additions>
+                     <p>On fol. 2r <name type="person" key="ArnMag001">Árni Magnússon</name> wrote
+                        the following concerning the variants of item 1: <q>For og bag inden paa
+                           bindet af den Snorre Sturlesens chronica, som ieg eier, og begynder af
+                           Sven Alfifesön, vare liimede .2. pergam<ex>en</ex>ts blade i folio, hvor
+                           dog neden af vare bortskaarne nogle liner. Paa diſſe 2. blade vare
+                           ſkrefne med en haand icke ret gam<ex>m</ex>el, og hverken god eller ond,
+                           legenda S. Annæ matris B. Virginis, og begyndelsen af legenda S. Magni
+                           orcadenſis ſtrax efter den anden. Af dette fragmento membraneo ere tagne
+                           de Variæ lectiones, fom her ftaae med min egen haand fkrefne. Bindet paa
+                           Snorre Sturleſen, er viſſeligen icke Iislandsſk. maae ſaa diſſe blade
+                           vere limede paa bindet, i Norge eller Danmark</q>.</p>
+                     <p>On fol. 9r he wrote the following concerning item 2: <q>Exſcriptmn ex libro officiorum
+                           Sacrorum (Meſſebog) in grandi folio, qvem nactus ſum <name type="place"
+                              key="SkaSka02">Scardi Scardſtrandenſium</name> in occidentali
+                           Islandiâ</q>.</p>
+                  </additions>
+
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark?</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup"
+                           >1/4</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Guðbrandur Vigfússon, <ref type="secondary" target="IslSGV1887-1"
+                           >Icelandic Sagas</ref>
+                        <biblScope unit="pages">299-305</biblScope>
+                     </bibl>
+                     <bibl>Jón Þorkelsson, <ref type="secondary" target="JonThork1888">Om digtningen
+                           på Island</ref>
+                        <biblScope unit="pages">24</biblScope>
+                     </bibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="pages">85</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-11-11" who="EvaWed001">Updated markup.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

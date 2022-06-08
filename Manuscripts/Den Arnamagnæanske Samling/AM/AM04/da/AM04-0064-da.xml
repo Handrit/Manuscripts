@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,32 +22,29 @@
                      <idno>709</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Norsk lovhåndskrift</title>;
-                     <origPlace>Norge</origPlace>, <origDate notBefore="1590" notAfter="1610" evidence="conjecture" resp="KKKat">ca.
-                     1600</origDate>.</head>
                <msContents>
-                  <msItem n="1">
+                  <summary><title type="supplied" xml:lang="da">Norsk lovhåndskrift</title></summary>
+                  <msItem n="1" class="log">
                      <locus from="1r" to="230r">1r-230r</locus>
                      <title type="uniform">Gulaþingslǫg</title>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
-                  <msItem n="2">
+                  <msItem n="2" class="regist">
                      <locus from="230v" to="238v">230v-238v</locus>
                      <title type="supplied">Register over loven</title>
                   </msItem>
-                  <msItem n="3">
+                  <msItem n="3" class="regist">
                      <locus from="240r" to="243v">240r-243v</locus>
                      <title type="supplied">Registre over sagøre</title>
                      <rubric>Tabula totius Legis Noruegiæ</rubric>
                   </msItem>
-                  <msItem n="4">
+                  <msItem n="4" class="log">
                      <locus from="244r" to="331r">244r-331r</locus>
                      <title type="supplied">Retterbøder, recesser o.l.</title>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                      <note>Fra 1200-1500-tallet.</note>
                   </msItem>
-                  <msItem n="5">
+                  <msItem n="5" class="log hagfr">
                      <locus from="332r" to="334r">332r-334r</locus>
                      <title type="supplied">Uddrag af Lauritz hanssøns lovhåndskrift</title>
                      <rubric>Lauritz Hanſöns Lougbog fordum lagmand y Stauanger. Anno
@@ -63,19 +60,20 @@
                      <rubric>Danmarckis Adels Gamb<lb/>le Naffn och Slechter</rubric>
                   </msItem>
                   <msItem n="7">
-                     <locus>335v</locus>
+                     <locus from="335v" to="335v">335v</locus>
                      <title type="supplied">Fjorten kongekapeller i Norge</title>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                      <rubric>Fiorten Konningens Capel<lb/>ler wdj Norrigis Riige</rubric>
                   </msItem>
                   <msItem n="8">
-                     <locus>335v</locus>
-                     <rubric>Inſcriptio MAGNI Lapidis dictj <lb/> (Lappe Stenen)
+                     <locus from="335v" to="335v">335v</locus>
+                     <rubric>Inſcriptio MAGNI Lapidis dictj <lb/> 
                         ſiti iuxta littus <lb/> munitionis Kroneburgenſis
                         An<lb/>no <date when="1577">1577</date>
                      </rubric>
+                     <note>Lappe Stenen</note>
                   </msItem>
-                  <msItem n="9">
+                  <msItem n="9" class="logfr">
                      <locus from="336r" to="337r">336r-337r</locus>
                      <title type="supplied">Nogle spørgsmål om Norges lov som synes dunkle og som
                         kunne forandres</title>
@@ -85,7 +83,7 @@
                      <note>Med tilhørende <q>Gienſuar</q>
                      </note>
                   </msItem>
-                  <msItem n="10">
+                  <msItem n="10" class="log">
                      <locus from="338r" to="358v">338r-358v</locus>
                      <title type="uniform">Jørgen Lykkes retterbod, 1568</title>
                   </msItem>
@@ -98,8 +96,8 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>353. Bl. 90v, 239, 331v og 337v er opr. ubeskrevet. <dimensions type="leaf" scope="all">
-                              <height>202</height>
-                              <width>160</width>
+                              <height unit="mm">202</height>
+                              <width unit="mm">160</width>
                            </dimensions>.</extent>
                         <foliation>
                            <p>Med rødt er udført en ældre foliering af håndskriftets to hoveddele.
@@ -114,15 +112,15 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc hands="3">
-                     <handNote scribe="PedNil001" scope="major" script="unknown">
-                        <p>Håndskriftets hoveddel, bl. 1r-332v, 339r-353v, er skrevet af Peder
-                           Nilssøn Lem fra <name type="place" key="Berge01">Bergen</name>.</p>
+                     <handNote scribe="PedLem001" scope="major" script="unknown">
+                        <p>Håndskriftets hoveddel, bl. 1r-332v, 339r-353v, er skrevet af <name type="person" key="PedLem001">Peder
+                           Nilssøn Lem</name> fra <name type="place" key="Berge01">Bergen</name>.</p>
                      </handNote>
                      <handNote scribe="AbsAbs001" scope="minor" script="unknown">
-                        <p>Bl. 333r-334v, 336v-338v er skrevet af præsten Absalon Absalonssøn.</p>
+                        <p>Bl. 333r-334v, 336v-338v er skrevet af præsten <name type="person" key="AbsAbs001">Absalon Absalonssøn</name>.</p>
                      </handNote>
                      <handNote scribe="JenKna001" scope="minor" script="unknown">
-                        <p>Bl. 335r-336v er skrevet af Jens Knabestop.</p>
+                        <p>Bl. 335r-336v er skrevet af <name type="person" key="JenKna001">Jens Knabestop</name>.</p>
                      </handNote>
                   </handDesc>
                   <additions>
@@ -140,15 +138,15 @@
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">381-382</biblScope>
+                        <biblScope unit="page">381-382</biblScope>
                      </bibl>
                       <bibl>Storm: <ref type="secondary" target="ChrVidSkFor14">Om Haandskrifter og
                            Oversættelser af Magnus Lagaböters Love</ref>
-                        <biblScope unit="pages">24, 46, 56</biblScope>
+                        <biblScope unit="page">24, 46, 56</biblScope>
                      </bibl>
                      <bibl>Storm: <ref type="secondary" target="NgL4">Norges gamle Love</ref>
                         <biblScope unit="volume">IV</biblScope>
-                        <biblScope unit="pages">557-559</biblScope>
+                        <biblScope unit="page">557-559</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

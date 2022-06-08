@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,10 +23,8 @@
                      <idno>1985</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Regum Daniæ Series</title>; <origPlace>Danmark</origPlace>,
-                     <origDate notBefore="1590" notAfter="1610" evidence="conjecture" resp="KKKat">ca. 1600</origDate>. </head>
-               <msContents>
+                <msContents>
+                  <summary><title type="supplied">Regum Daniæ Series</title></summary>
                   <titlePage type="MS">
                      <docTitle>
                         <titlePart type="main">REGVM DANIÆ <lb/> SERIES</titlePart>
@@ -56,10 +54,9 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>191. Bl. 1v-2, 188v og 190-191r er ubeskrevne. Bl. 7, 24 og 29 er
-                           insatte blade. Til bl. 20 er en mindre seddel fastklæbet. <dimensions type="leaf" scope="all">
-                              <height>195</height>
-                              <width>170</width>
+                        <extent>191. Bl. 1v-2, 188v og 190-191r er ubeskrevne. <dimensions type="leaf" scope="all">
+                              <height unit="mm">195</height>
+                              <width unit="mm">170</width>
                            </dimensions>.</extent>
                         <foliation>
                            <p>Teksten er pagineret 1-362.</p>
@@ -67,23 +64,26 @@
                      </supportDesc>
                   </objectDesc>
                   <additions>
-                     <p>I tekst og margen findes adskillige tilføjelser.</p>
+                     <p>Bl. 7, 24 og 29 er
+                        insatte blade. Til bl. 20 er en mindre seddel fastklæbet.</p>
+                     <p>I tekst og margin findes adskillige tilføjelser.</p>
                      <p>På bl. 1r er der en latinsk sentens, og på bl. 191v er der en fortegnelse
                         over <q xml:lang="da">1 personis wnd<ex>er</ex>holldning en monid</q>.</p>
                   </additions>
                </physDesc>
+               <history><origin><origPlace>Danmark</origPlace>,
+                  <origDate notBefore="1590" notAfter="1610" evidence="conjecture" resp="KKKat">ca. 1600</origDate>.</origin></history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">234</biblScope></bibl>
-                     <bibl xml:id="HHDNSR">Rørdam: <title level="m">Historieskrivningen og
-                           Historieskriverne i Danmark og Norge siden Reformationen</title>
-                        <biblScope unit="pages">58</biblScope>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">234</biblScope></bibl>
+                     <bibl><ref target="HHDNSR"/>
+                        <biblScope unit="page">58</biblScope>
                      </bibl>
-                     <bibl xml:id="HolRør1873-1875">Rørdam: <title level="m">Historiske
-                           Kildeskrifter og Bearbejdelser af dansk Historie især fra det 16
-                           Aarhundrede</title>
+                     <bibl><ref target="HolRør1873-1875"/>
                         <biblScope unit="volume">I:2</biblScope>
-                        <biblScope unit="pages">81 ff.</biblScope>
+                        <biblScope unit="page">81 ff.</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

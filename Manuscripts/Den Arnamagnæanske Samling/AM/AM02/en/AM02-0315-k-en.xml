@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,24 +22,56 @@
                      <idno>471</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title xml:lang="dan">Den ældre Frostatingslovs kristenret</title>
-                  <origPlace>Norway</origPlace>
-                  <origDate notBefore="1125" notAfter="1230">1125-1230</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="non">Old Norse</textLang>
+                  <summary><title type="uniform">Frostaþingslǫg: Kristinn réttr hinn
+                     forni</title></summary>
+                  <msItem n="1" class="log" defective="true">
+                     <locus from="1r" to="1v">1r-v</locus>
+                     <title type="uniform">Frostaþingslǫg: Kristinn réttr hinn forni</title>
+                     <textLang mainLang="non"/>
+                     <bibl>Storm: <ref type="primary" target="NgL4">Norges gamle Love</ref>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="page">30:12-31:14</biblScope>
+                     </bibl>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>1. </extent>
+                        <extent>1. <dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">203</height>
+                           <width unit="mm">100</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin>Written in <origPlace>Norway</origPlace>,
+                  <origDate notBefore="1125" notAfter="1230">1125-1230</origDate> (<bibl>
+                     <ref type="secondary-1" target="NgL4">Storm 1885</ref>
+                     <biblScope unit="volume">IV</biblScope>
+                     <biblScope unit="page">493</biblScope>
+                  </bibl>). <name type="person" key="KriKaa001">Kålund</name>s dating:
+                  1300-tallet (<bibl>
+                     <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     <biblScope unit="volume">I</biblScope>
+                     <biblScope unit="page">264</biblScope>
+                  </bibl>).</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">264</biblScope>
+                     </bibl>
+                     <bibl>Storm, <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="page">493</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>

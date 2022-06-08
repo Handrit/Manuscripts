@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,34 +23,80 @@
                      <idno>2667</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">Hemings rímur Áslákssonar</title>
-                  <title n="2">Eiríks rímur víðförla</title>
-                  <title n="3">Fjandafæla</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Collection of Poetic Texts</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <msItem n="1" class="rimur">
+                     <locus from="1r" to="40v">1r-40v</locus>
+                     <author key="BenSig001">Benedikt Sigurðsson</author>
+                     <title type="uniform">Hemings rimur</title>
+                     <quote>Hier <lb/> Skrifast <lb/> Rymur Af <lb/> Hemynge Asláchs Syne <lb/>
+                        Giørdar An<ex>n</ex>o 1729</quote>
+                     <note>Seven <foreign xml:lang="is">rímur</foreign> cantos. This title is
+                        written on an f. 1. which is a later addition.</note>
+                     <!-- check with  EdArn B, 3.  (not in the library)-->
+                     <msItem n="1.1" class="kvad">
+                        <locus from="40v" to="40v">40v</locus>
+                        <title type="supplied">Poems</title>
+                        <note>Written by the scribe who presented himself as <q>ESSon</q>.</note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="41r" to="56r">41r-56r</locus>
+                     <author key="GudBer001">Guðmundur Bergþórsson</author>
+                     <title type="uniform">Eiríks rímur víðförla</title>
+                     <quote>Rímur af <lb/> Eirike Vijdførula <lb/> kvednar af Gudmundi
+                           Bergþorss<ex>yni</ex>
+                     </quote>
+                     <note>Four <foreign xml:lang="is">rímur</foreign> cantos. This title is written
+                        on two added leaves at the beginning of the manuscript.</note>
+                  </msItem>
+                  <msItem n="3" class="kvad gald" defective="true">
+                     <locus from="58r" to="67r">58r-67r</locus>
+                     <author key="JonGud003">Jón Guðmundsson</author>
+                     <title type="supplied">Fjandafæla</title>
+                     <rubric>Fjandafæla</rubric>
+                     <note>A poem in three parts, defective at the beginning.</note>
+                  </msItem>
+                  <msItem n="4" class="laus">
+                     <locus from="67v" to="67v">67v</locus>
+                     <title type="supplied">Stanzas</title>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>67. 
-<dimensions type="leaf" scope="all">
-                              <height>177</height>
-                              <width>110</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>67. <dimensions type="leaf" scope="all">
+                              <height unit="mm">177</height>
+                              <width unit="mm">110</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                     <handDesc>
+                        <summary>Various hands.</summary>
+                        <handNote script="unknown" scribe="RasRas001">
+                           <p>Fol. 56r is written by <name type="person" key="RasRas001"
+                              >Rask</name>.</p>
+                        </handNote>
+                        <handNote script="unknown"><p>According to a note of fol. 67r, fols 58r-67v are
+                           written <date when="1759-01-20">20. January 1759</date> by an <q>Erlendur
+                              Magnusson</q>.</p></handNote>
+                     </handDesc>
                </physDesc>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">553-54</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-11-01" who="EvaWed001">Updated markup.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

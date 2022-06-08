@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,26 +22,56 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title xml:lang="is">Viðræði likams ok sálar</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1400" notAfter="1499">s. XV</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                 <msContents>
+                  <summary><title type="uniform" xml:lang="is">Viðrœða líkams ok sálar</title> og
+                     <title type="uniform" n="2">Viðræði æðru ok hugrekki</title></summary>
+                  <msItem defective="true">
+                     <locus from="1r" to="3r">1r-3r</locus>
+                     <title type="uniform" n="1">Viðræði likams ok sálar</title>
+                     <incipit>
+                        <supplied reason="damage">Med</supplied> fagnadi koma mi<ex>er</ex>
+                     </incipit>
+                     <textLang mainLang="non"/>
+                     <bibl>Gunnar Harðarson, <ref type="primary-2" target="GHLitterature"
+                        >Littérature et spiritualité en Scandinavie médiévale</ref>
+                        <biblScope unit="page">200-201, 209-214, 216-219</biblScope>
+                        <note>Udg. W</note>
+                     </bibl>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="3r" to="4v">3r-4v</locus>
+                     <title type="uniform" n="2">Viðræði æðru ok hugrekki</title>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>4. </extent>
+                        <extent>4. <dimensions type="leaf" extent="all">
+                           <height unit="mm">168</height>
+                           <width unit="mm">135</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>,
+                  <origDate notBefore="1400" notAfter="1499">s. XV</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary" target="GHLitterature"/>
+                        <biblScope unit="page">44-46</biblScope>
+                        <note>Facsimily of fol. 3r.</note>
+                     </bibl>
+                     <bibl><ref type="secondary" target="GunHar2016a"/>
+                        <biblScope unit="page">147</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">116</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

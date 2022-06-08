@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,59 +23,82 @@
                             <idno>1646</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform">Silvesters saga</title>
-                        <origPlace>Island</origPlace>
-                        <origDate notBefore="1200" notAfter="1224">s. XIII 1/4</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
+                        <summary><title type="uniform">Silvesters saga</title> og <title
+                                type="uniform">Vincentíus saga</title></summary>
+                        <msItem n="1" class="hels" defective="true">
                             <locus from="1r" to="2r">1r-2r</locus>
                             <title type="uniform">Silvesters saga</title>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                            <textLang mainLang="non">Norrønt/Islandsk</textLang>
                             <incipit defective="true">
                                 <supplied reason="damage">H</supplied>ᴇlena
                                 drotni<ex>n</ex>g</incipit>
                             <explicit defective="true"> at s<ex>va</ex> er ri</explicit>
                             <note>1v:52</note>
-                            <note>Sagaens slutning antages at have stået på bl. 2r; bl. 2v har
-                                indeholdt begyndelsen af <title type="uniform">Vincencius
-                                    saga</title>.</note>
-                            <bibl>Morgenstern: <ref type="primary-1" target="HeilagraSuppl">Arnamagnæanische Fragmente</ref>
-                        <biblScope unit="pages">8-14</biblScope>
-                        <note>Bl. 1</note>
-                     </bibl>
+                            <note>Sagaens slutning antages at have stået på bl. 2r.</note>
+                            <bibl>Morgenstern: <ref type="primary-1" target="HeilagraSuppl"
+                                    >Arnamagnæanische Fragmente</ref>
+                                <biblScope unit="page">8-14</biblScope>
+                                <note>Bl. 1</note>
+                            </bibl>
+                            <bibl>Unger: <ref type="primary" target="HMS1877">Heilagra Manna
+                                    Søgur</ref>
+                                <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                                    >281–286</biblScope></bibl>
+                            <!--Wolf, p. 330: Hreinn Benediktsson: Early Icelandic Script: Plate 19 and pp. xiii–xv.
+Facsimile and text edition of AM 655 4to IV, fol. 1v. -->
+                        </msItem>
+                        <msItem n="2" class="hels" defective="true">
+                            <locus from="2v" to="2v">2v</locus>
+                            <title type="uniform">Vincentíus saga</title>
+                            <note>Begyndelsen.</note>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Pergament.</p>
+                                    <p><material>Pergament</material>.</p>
                                 </support>
                                 <extent>2. <dimensions type="leaf" scope="all">
-                                        <height>236</height>
-                                        <width>157</width>
+                                        <height unit="mm">236</height>
+                                        <width unit="mm">157</width>
                                     </dimensions>
                                 </extent>
                                 <condition>
-                                    <p>Bl. 1 er beskadiget ved huller, og af bl. 2 er der kun 
-                                        en smal strimmel langs ryggen tilbage, og selv af denne rest er øverste del afrevet. 
-                                        Har været anvendt til indbinding.</p>
+                                    <p>Bl. 1 er beskadiget ved huller, og af bl. 2 er der kun en
+                                        smal strimmel langs ryggen tilbage, og selv af denne rest er
+                                        øverste del afrevet. Har været anvendt til indbinding.</p>
                                 </condition>
                             </supportDesc>
                         </objectDesc>
                         <additions>
-                            <p>På foden af bl. 1r har en hånd fra <date notBefore="1800" notAfter="1894">1800-tallet</date> angivet indholdet.</p>
+                            <p>På foden af bl. 1r har en hånd fra <date notBefore="1800"
+                                    notAfter="1899">1800-tallet</date> angivet indholdet.</p>
                         </additions>
                     </physDesc>
+                    <history>
+                        <origin>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1200"
+                            notAfter="1225">begyndelsen af 1200-tallet</origDate> (jf. fx <bibl><ref target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">58</biblScope></bibl> og <bibl><ref
+                                    target="HreBen1965a">Hreinn Benediktsson 1965</ref>
+                                    <biblScope unit="page">xiii</biblScope></bibl>). </origin>
+                    </history>
                     <additional>
                         <listBibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">58</biblScope>
-                     </bibl>
-                            </listBibl>
+                            <bibl><ref target="HreBen1965a"/>
+                                <biblScope unit="page">xiii–xv</biblScope><note>Faksimile: Planche
+                                    19</note></bibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">58</biblScope>
+                            </bibl>
+                            <bibl><ref type="primary-1" target="HeilagraSuppl"/>,
+                                <biblScope unit="page">50</biblScope><!-- more? --></bibl>
+                            <bibl><ref type="secondary" target="Wolf2013"/><biblScope
+                                    unit="page">330, 393</biblScope></bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

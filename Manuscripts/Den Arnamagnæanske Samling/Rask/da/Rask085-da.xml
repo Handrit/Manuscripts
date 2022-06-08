@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,15 +22,29 @@
                      <idno>2659</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Kvæði af præsten Jón Þorláksson</title>; 
-        <origPlace>Island</origPlace>, 
-        <origDate when="1815">1815</origDate>.</head>
-               <msContents>
-                  <msItem>
-                     <author>Jón Þláksson</author>
+                  <msContents>
+                  <summary><title type="supplied">Kvæði Jóns Þorlákssonar II</title>. Del I: <ref
+                     type="ms" target="#Rask084-da">Rask 84</ref>.</summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main"><locus>1r</locus> Kvædi <lb/> eptir <lb/> Sra. Jón
+                           Þorláks&#x017F;on <lb/> frumkvedin og útlögd</titlePart>
+                        <titlePart type="sub">Uppſkrifud á Bessastödum <lb/> 1815 <lb/> af Jóhann Bjarnaſyni
+                           ſkolapilti <lb/> 2<hi rend="sup">nad</hi> ſafn</titlePart>
+                        <note>Tilføjet af <name type="person" key="RasRas001">Rask</name>.</note>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="kvad">
+                     <locus from="1r" to="73v">1r-73v</locus>
+                     <author key="JonTho011">Jón Þorláksson</author>
+                     <title type="supplied">Kvæði Jóns Þorlákssonar</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Kvædi <lb/> eptir <lb/> Sra. Jón Þláksson <lb/> frumkvedin og útlögd</rubric>
+                     <msItem n="1.1" class="regist">
+                        <locus from="2r" to="2v">2r-v</locus>
+                        <title type="supplied">Indholdsfortegnelse</title>
+                        <rubric>Innihald bókarinnar</rubric>
+                        <note>Tilføjet af <name type="person" key="RasRas001">Rask</name>.</note>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
@@ -40,9 +54,9 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>58. Bl. 1v, 2v-4 ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>170</height>
-                              <width>108</width>
+                        <extent>58. Bl. 1v, 2v-4v ubeskrevne. <dimensions type="leaf" scope="all">
+                              <height unit="mm">170</height>
+                              <width unit="mm">108</width>
                            </dimensions>.</extent>
                         <foliation>
                            <p>Pagineret 1-107.</p>
@@ -50,17 +64,27 @@
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="2">
-                     <handNote scribe="JohBja01" scope="major" script="unknown">
-                        <p>Skrevet af Jóhann Bjarnason.</p>
+                     <handNote scribe="JohBja001" scope="major" script="unknown">
+                        <p>Skrevet af <name type="person" key="JonBja001">Jóhann Bjarnason</name>.</p>
                      </handNote>
                      <handNote scribe="RasRas001" scope="minor" script="unknown">
-                        <p>Sidste blad hovedsagelig udfyldt af Rasmus Rask</p>
+                        <p>Sidste blad hovedsagelig udfyldt af <name type="person" key="RasRas001">Rasmus Rask</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history><origin><origPlace>Island</origPlace>, 
+                  <origDate when="1815">1815</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >548</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-27" who="EvaWed001">Opdateret opmærkning og tilføjet information fra Kålunds katalog.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

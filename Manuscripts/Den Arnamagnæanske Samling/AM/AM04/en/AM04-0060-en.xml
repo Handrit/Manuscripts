@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -24,11 +24,16 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary><title type="supplied">Legal Manuscript</title></summary>
+                        <summary><title type="supplied">Legal Manuscript</title>
+                            <note>An electronic edition (facsimile transcription) of the manuscript can be seen at <ref
+                                    type="url" target="http://clarino.uib.no/menota/catalogue"
+                                    >Menota</ref> (<bibl>Horn, <ref target="AnnHorMenota-04-0060">Kristinréttir, Landslǫg
+                                        Magnúss Hákonarsonar, Bǿjarlǫg Magnúss Hákonarsonar ok réttarbǿtr</ref></bibl>).
+                            </note></summary>
                         <msItem n="1" class="log">
                             <locus from="1ra" to="6va">1ra-6va</locus>
-                            <title type="uniform">Gulaþingslǫg: Kristinn réttr hinn nýi</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <title type="uniform">Gulaþingslǫg (Kristinn réttr hinn nýi)</title>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <bibl>
                                 <ref type="primary-2" target="NgL2">Norges gamle Love</ref>
                                 <biblScope unit="volume">II</biblScope>
@@ -38,7 +43,7 @@
                         <msItem n="2" class="klog tiund">
                             <locus from="6va" to="7va">6va-7va</locus>
                             <title type="uniform">Kristinn réttr Jóns erkibiskups</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <note>On tithe.</note>
                             <bibl>
                                 <ref type="primary-2" target="NgL2">Norges gamle Love</ref>
@@ -48,8 +53,8 @@
                         </msItem>
                         <msItem n="3" class="klog">
                             <locus from="8ra" to="20rb">8ra-20rb</locus>
-                            <title type="uniform">Frostuþingslǫg: Kristinn réttr hinn forni</title>
-                            <textLang mainLang="no">Old Norse/Norwegian</textLang>
+                            <title type="uniform">Frostuþingslǫg (Kristinn réttr hinn forni)</title>
+                            <textLang mainLang="non">Old Norse/Norwegian</textLang>
                             <bibl>
                                 <ref type="primary-1" target="NgL1">Norges gamle Love</ref>
                                 <biblScope unit="volume">I</biblScope><biblScope unit="pages"
@@ -57,7 +62,7 @@
                         </msItem>
                         <msItem n="4" class="klog">
                             <locus from="20r" to="21r">20r-21r</locus>
-                            <title type="uniform">Bjarkeyjarréttr: Kristinn réttr</title>
+                            <title type="uniform">Bjarkeyjarréttr (Kristinn réttr)</title>
                             <bibl>
                                 <ref type="primary-1" target="NgL1">Norges gamle Love</ref>
                                 <biblScope unit="volume">I</biblScope><biblScope unit="pages"
@@ -66,10 +71,12 @@
                         </msItem>
                         <msItem n="5" class="log">
                             <locus from="21va" to="81va">21va-81va</locus>
-                            <title type="uniform">Landslǫg</title>
-                            <textLang mainLang="no">Old Norse/Norwegian</textLang>
-                            <filiation>The <title type="uniform">Landslǫg</title> in Deichmann 11 8vo is a copy of
-                                this item.</filiation>
+                            <title type="uniform" xml:lang="en">King Magnus the Lawmender’s National
+                                Law of Norway</title>
+                            <title type="uniform" xml:lang="non">Landslǫg</title>
+                            <textLang mainLang="non">Old Norse/Norwegian</textLang>
+                            <filiation>The National Law of Norway
+                                in Deichmann 11 8vo is a copy of this item.</filiation>
                             <bibl>
                                 <ref type="primary-1" target="NgL2">Norges gamle Love</ref>
                                 <biblScope unit="volume">II</biblScope><biblScope unit="pages"
@@ -77,8 +84,9 @@
                         </msItem>
                         <msItem n="6" class="log">
                             <locus from="81va" to="98va">81va-98va</locus>
-                            <title type="uniform">Bæjarlǫg (Bjarkeyjarréttr hinn nýi)</title>
-                            <textLang mainLang="no">Old Norse/Norwegian</textLang>
+                            <title type="uniform">Bæjarlǫg</title>
+                            <title type="parallel">Bjarkeyjarréttr hinn nýi</title>
+                            <textLang mainLang="non">Old Norse/Norwegian</textLang>
                             <bibl>
                                 <ref type="primary-1" target="NgL2">Norges gamle Love</ref>
                                 <biblScope unit="volume">II</biblScope><biblScope unit="pages"
@@ -86,8 +94,9 @@
                         </msItem>
                         <msItem n="7" class="log">
                             <locus from="98va" to="103v">98va-103rb</locus>
-                            <title type="supplied">Réttarbætr</title>
-                            <textLang mainLang="no">Old Norse/Norwegian</textLang>
+                            <title type="supplied">Legal Amendments by the Kings Magnús Eiríksson,
+                                Hákon Magnússon and Eiríkr Magnússon</title>
+                            <textLang mainLang="non">Old Norse/Norwegian</textLang>
                             <msItem n="7.1" class="log">
                                 <locus from="98va" to="100ra">98va-100ra</locus>
                                 <title type="uniform">Réttarbætr Magnús Eiríkssonar ok Hákonar
@@ -117,8 +126,8 @@
                         </msItem>
                         <msItem n="8" class="log">
                             <locus from="103va" to="103vb">103va-vb</locus>
-                            <title type="supplied">Landmark between Norway and Sweden</title>
-                            <textLang mainLang="no">Old Norse/Norwegian</textLang>
+                            <title type="supplied">The Border between Norway and Sweden</title>
+                            <textLang mainLang="non">Old Norse/Norwegian</textLang>
                             <bibl>
                                 <ref type="primary-1" target="NgL2">Norges gamle
                                     Love</ref><biblScope unit="volume">II</biblScope>
@@ -140,19 +149,19 @@
                                 </support>
                                 <extent>103. </extent>
                                 <foliation>
-                                    <p>There are red numbers of chapters and rubrics. Occasionally
-                                        spaces for initials and rubrics have been left empty.</p>
+                                    <p>Chapter numbers and rubrics in red ink. Occasionally spaces
+                                        for initials and rubrics have been left empty.</p>
                                 </foliation>
                                 <collation>
                                     <dimensions type="leaf" scope="all" unit="mm">
-                                        <height>210</height>
-                                        <width>156</width>
+                                        <height unit="mm">210</height>
+                                        <width unit="mm">156</width>
                                     </dimensions>
-                                    <p>The manuscript consists of 13 gatherings of 8 leaves each.
-                                        The last leaf of the 1st gathering has been excised.</p>
+                                    <p>The manuscript consists of 13 quires of 8 leaves. The last
+                                        leaf of the first gathering has been excised.</p>
                                 </collation>
                                 <condition>
-                                    <p>The script has been touched up on 8r-103r.</p>
+                                    <p>The script was touched up on 8r-103r.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -187,8 +196,8 @@
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p>There are younger marginalia from the sixteenth and seventeenth
-                                century.</p>
+                            <p>Younger marginalia from the sixteenth and seventeenth century
+                                occur.</p>
                         </additions>
                         <bindingDesc>
                             <binding>
@@ -202,27 +211,39 @@
                     <history>
                         <origin notBefore="1310" notAfter="1350" cert="high" evidence="conjecture">
                             <p>The manuscript is written in <origPlace>Iceland and
-                                    Norway</origPlace>. <name type="person" key="KriKaa001">Kristian
-                                    Kålund</name> dated the manuscript to the fourteenth century,
-                                but <name type="person" key="GusSto001">Gustav Storm</name> (<bibl>
-                                    <ref type="secondary" target="NgL4">Storm, 1885</ref>
-                                    <biblScope unit="page">547</biblScope></bibl>) dated 1ra-7va to <origDate notBefore="1330" notAfter="1350">1330-1350</origDate> and
-                                has also presumed that these folios could be Icelandic, whereas the
-                                rest of them are Norwegian. 8ra-130rb:22 have been dated to
-                                    <origDate notBefore="1310" notAfter="1330">c. 1320</origDate>, a dating on which <name
-                                    type="person" key="MarHae001">Marius Hægstad</name> (<bibl>
-                                    <ref type="secondary" target="Hagstad1907">Hægstad, 1907</ref>,
-                                    p. 156</bibl>) and <name type="person" key="MikSor001">Mikjel
-                                    Sørlie</name> (<bibl>
-                                    <ref type="secondary" target="Sorlie1936">Sørlie, 1936</ref>
-                                    <biblScope unit="page">468</biblScope></bibl>) agree. Finally, 103va-103vb:22 have been dated to
-                                    <origDate notBefore="1320" notAfter="1340">c. 1330</origDate>.</p>
+                                    Norway</origPlace> in the period <origDate notBefore="1310"
+                                    notAfter="1350">1310-1350</origDate>.</p>
+                            <p><name type="person" key="KriKaa001">Kålund</name> (<bibl>
+                                    <ref type="secondary" target="KKKat">Katalog</ref>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="page">378</biblScope>
+                                </bibl>) dated the manuscript to the fourteenth century but Storm
+                                    <name type="person" key="GusSto001">Storm</name> (<bibl>
+                                    <ref type="secondary" target="NgL4">Storm 1885</ref>
+                                    <biblScope unit="page">547</biblScope></bibl>) provides three
+                                different dates of origin. <list>
+                                    <item>Fols 1ra-7va: ca. 1330-1350. Storm also suggested that
+                                        these first seven leaves was written in Iceland while the
+                                        rest of the manuscript was written in Norway.</item>
+                                    <item>Fols 8ra-130rb:22: c. 1320. This dating has been backed up
+                                        by <name type="person" key="MarHae001">Hægstad</name> (<bibl>
+                                            <ref type="secondary" target="Hagstad1907">Hægstad,
+                                                1907</ref>
+                                            <biblScope unit="page">156</biblScope></bibl>) and <name
+                                            type="person" key="MikSor001">Sørlie</name> (<bibl>
+                                            <ref type="secondary" target="Sorlie1936">Sørlie,
+                                                1936</ref>
+                                            <biblScope unit="page">468</biblScope></bibl>).</item>
+                                    <item>Fols 103va-103vb:22: c. 1330.</item>
+                                </list>
+                            </p>
                         </origin>
                         <provenance>
                             <p>The manuscript was owned by <name type="person" key="HanLoe001">Hans
                                     Loe</name> in <date when="1570">1570</date>, as his version of
-                                    <title type="uniform">Landslǫg</title> in the manuscript Deichmann 11 8vo is
-                                based on the version occuring in this manuscript AM 60 4to.</p>
+                                    the national law of Norway in the
+                                manuscript Deichmann 11 8vo is a copy of the version occuring in this
+                                manuscript.</p>
                             <p>Possibly the manuscript originally consisted of more leaves
                                 containing legal amendments after the thirteenth quire. This can be
                                 presumed as two leaves of the same size and written by in a hand
@@ -282,7 +303,8 @@
         </fileDesc>
         <revisionDesc>
             <change when="2021-07-09" who="EvaWed01">Amended.</change>
-            <change when="2021-10-06" who="EvaWed01">Added type to titles and notBefore/notAfter to origdate.</change>
+            <change when="2021-10-06" who="EvaWed01">Added type to titles and notBefore/notAfter to
+                origdate.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>

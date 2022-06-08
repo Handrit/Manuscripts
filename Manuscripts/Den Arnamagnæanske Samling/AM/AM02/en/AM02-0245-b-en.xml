@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,30 +23,40 @@
                      <idno>386</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                 <title type="uniform">Flateyarannáll</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-                  <note>Transcript of <ref type="ms" target="GKS02-1005">Flateyarbók(GKS. 1005-6 fol.)</ref>.</note>
-               </head>
                <msContents>
-                  <msItem>
+               	<summary><title type="uniform">Flateyarannáll</title></summary>
+                  <msItem n="1" class="annal">
+                  	<locus from="1r" facs="#AM02-0245-b-0001r" to="76v">1r-76v</locus>
+                  	<title type="uniform">Flateyarannáll</title>
                      <textLang mainLang="is">Islandsk</textLang>
+                  	<filiation>Copy of <ref type="ms" target="#GKS02-1005">Flateyarbók (GKS. 1005-6 fol.)</ref>.
+                  	</filiation>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
+                        <support><material>Paper</material>.</support>
                         <extent>76. 
 <dimensions type="leaf" scope="all">
-                              <height>320</height>
-                              <width>211</width>
+                              <height unit="mm">320</height>
+                              <width unit="mm">211</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+            	<history><origin> <origPlace>Iceland</origPlace>,
+            		<origDate notBefore="1600" notAfter="1699">s. XVII</origDate>.
+            	</origin></history>
+            	<additional>
+            		<listBibl>
+            			<bibl>Kålund, <ref target="KKKat">Katalog</ref>
+            				<biblScope unit="volume">I</biblScope>
+            				<biblScope unit="pages">225</biblScope>
+            			</bibl>
+            		</listBibl>
+            	</additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

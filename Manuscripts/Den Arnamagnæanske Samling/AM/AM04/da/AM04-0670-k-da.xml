@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,27 +22,24 @@
                      <idno>1678</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" n="1">Acta sanctorum in Selio</title>
-                  <title type="supplied" n="2">De sanctis in Selio</title>;
-                  <origPlace>Island eller Danmark</origPlace>,
-                  <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s. XVII 1/4</origDate>
-               </head>
                <msContents>
-                  <msItem n="1" defective="true">
+                  <summary><title type="uniform" n="1">Acta sanctorum in Selio</title>
+                     <title type="uniform" n="2">De sanctis in Selio</title></summary>
+                  <msItem n="1" defective="true" class="helgiso">
                      <locus from="2r" to="6v">2r-6v</locus>
-                     <title type="supplied">Acta sanctorum in Selio</title>
+                     <title type="uniform">Acta sanctorum in Selio</title>
                      <textLang mainLang="la">Latin</textLang>
-                     <note>Fragment. Ifølge bl. 1r er det afskrevet efter et pergamentblad fra
-                        Island i folio; en rest af et anseligt håndskrift, som indeholdt et
-                        legendarium.</note>
+                     <note>Fragment.</note>
+                     <filiation>Ifølge bl. 1r er det afskrevet efter et pergamentblad fra Island i
+                        folio; en rest af et anseligt håndskrift, som indeholdt et
+                        legendarium.</filiation>
+                     <!-- Tjek: Unger "Heilagra Manna Søgur" -->
                   </msItem>
-                  <msItem n="2">
+                  <msItem n="2" class="jarteikn">
                      <locus from="9r" to="16v">9r-16v</locus>
                      <title type="supplied">De sanctis in Selio</title>
                      <textLang mainLang="la">Latin</textLang>
-                     <filiation><q>Ex Breviario Nidroſienſi.
-                           impreſſo in 8vo</q>.</filiation>
+                     <filiation><q>Ex Breviario Nidroſienſi. impreſſo in 8vo</q>.</filiation>
                   </msItem>
                </msContents>
                <physDesc>
@@ -51,9 +49,10 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>11. Bl. 1v, 6v-8, 9v 10v er ubeskrevne. <dimensions type="leaf" scope="most">
-                              <height>218</height>
-                              <width>167</width>
+                        <extent>11. Bl. 1v, 6v-8, 9v 10v er ubeskrevne. <dimensions type="leaf"
+                              scope="most">
+                              <height unit="mm">218</height>
+                              <width unit="mm">167</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
@@ -61,19 +60,34 @@
                      <p>Skrevet dels af, dels for <name type="person" key="ArnMag001">Arne
                            Magnusson</name>.</p>
                   </handDesc>
-                  <accMat>Bl. 10 og 11 er AM-sedler, der vedrører originalen til stykke 2.</accMat>
+                  <additions>På bl. 1r har Arne Magnusson skrevet: <q xml:lang="la">Fragmentum hocce
+                     accurate exscriptum est ex folio pergameno disrupto ex libro in folio
+                     Regali. folium istud in Islandia nactus sum. erat satis vetustum, exaratum
+                     grandiori scriptura, sed non satis accurate. Fuitque sine dubio hoc volumen,
+                     antequam discerperetur, egregius et satis magnificus codex. Legendarium
+                     absque dubio erat, sine cantibus vel aliis officiis</q>
+                  </additions>
+                  
+                  <accMat>Bl. 10 og 11 er AM-sedler, der vedrører originalen til <title
+                        type="supplied">De sanctis in Selio</title>.</accMat>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island eller Danmark</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">s. XVII<hi rend="sup"
+                           >1/4</hi></origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Langebek: <ref type="secondary" target="SRDMAE">Scriptores Rerum
-                        Danicarum Medii Aevi</ref>
+                     <bibl><ref type="secondary" target="SRDMAE"/>
                         <biblScope unit="volume">IV</biblScope>
-                        <biblScope unit="pages">1 ff.</biblScope>
+                        <biblScope unit="page">1 ff.</biblScope>
                      </bibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">86</biblScope></bibl>
-                     <bibl>Storm:
-                        <ref type="secondary" target="MhN">Monumenta historica Norvegiae</ref>
-                        <biblScope unit="pages">xxxxi, 149-151</biblScope>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope
+                           unit="volume">II</biblScope>
+                        <biblScope unit="page">86</biblScope></bibl>
+                     <bibl><ref type="secondary" target="MhN"/>
+                        <biblScope unit="page">xxxxi, 149-151</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

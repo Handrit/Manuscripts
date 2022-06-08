@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,30 +23,56 @@
                      <idno>1657</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Játvarðar saga</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1685" notAfter="1699">s. XVII ex.</origDate>
-                  <note>Transscript of <ref>Cod. Holm. 5 fol.</ref>.</note>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                 <msContents>
+                  <summary><title type="uniform">Játvarðar saga</title></summary>
+                  <msItem n="1" class="hels">
+                     <locus from="1r" to="14r">1r-14r</locus>
+                     <title type="uniform">Játvarðar saga</title>
+                     <title type="parallel">Saga Játvarðs konungs hins helga</title>
+                     <textLang mainLang="is">Islandsk</textLang>
+                     <rubric>Þattur af Wilhialme ba<lb/>stharde, og nóckrum ódrum Eingla
+                        Kóngum</rubric>
+                     <filiation>Copy of <ref type="ms">Holm perg 5 fol.</ref>.</filiation>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>14. 
-<dimensions type="leaf" scope="all">
-                              <height>213</height>
-                              <width>170</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>14. Fol. 14v is blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">213</height>
+                              <width unit="mm">170</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="unknown">Written by <name type="person"
+                           key="JonEgg001">Jón Eggertsson</name>?</handNote>
+                  </handDesc>
+                  <additions>Interlinear variants from <ref type="ms" target="AM04-0663-b-en">AM 663
+                        b 4to</ref> in <name type="person" key="ArnMag001">Árni Magnússon</name>'s
+                     hand. In the margin of fol. 1r, Árni Magnússon added: <q xml:lang="is">Af
+                        Membranâ efft<ex>er</ex> ſgu Þorlaks helga i Sviariki</q> (ͻ: Stock Perg. fol. no 5).</additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland?</origPlace>
+                     <origDate notBefore="1675" notAfter="1699">s. XVII<hi rend="sup"
+                        >4/4</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">75</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="CarRaf1852"/>
+                        <biblScope unit="page">8</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="Wolf2013"/>
+                        <biblScope unit="page">96</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

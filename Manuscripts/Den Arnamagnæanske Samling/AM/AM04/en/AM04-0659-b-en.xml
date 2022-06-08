@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,30 +23,58 @@
                      <idno>1652</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">Jóns saga postola</title>
-                  <title n="1">Jakobs saga postola</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1600" notAfter="1615">s. XVII in</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <msContents>
+                  <summary>
+                     <title type="uniform" n="1">Jóns saga postola</title>
+                     <title type="uniform" n="2">Jakobs saga postola</title>
+                  </summary>
+                  <msItem n="1" class="hels post" defective="true">
+                     <locus from="1ra" to="1rb">1ra-b</locus>
+                     <title type="uniform">Jóns saga postola</title>
+                     <textLang mainLang="is"/>
+                     <note>Running title: <supplied reason="illegible">iohannes ſaga</supplied>
+                     </note>
+                     <incipit defective="true">ſ er lætr ſoma</incipit>
+                  </msItem>
+                  <msItem n="2" class="hels post" defective="true">
+                     <locus from="1va" to="2vb">1va-2vb</locus>
+                     <title type="uniform" n="1">Jakobs saga postola</title>
+                     <textLang mainLang="is"/>
+                     <note>Running title: iacob<ex>us</ex> ſaga</note>
+                     <explicit defective="true">uid Baudulin<ex>n</ex>: færdu ock<ex>ur</ex>
+                     </explicit>
+                     <note>Lacuna after fol. 1.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>2. 
-<dimensions type="leaf" scope="all">
-                              <height>195</height>
-                              <width>140</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>2. <dimensions type="leaf" scope="all">
+                              <height unit="mm">195</height>
+                              <width unit="mm">140</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
+                   <layoutDesc>
+                     <layout columns="2">Written in two columns. Faint running titles.</layout>
+                  </layoutDesc>
                   </objectDesc>
+                  <additions>Two drawings of animals are added to the bottom margin fol 1r.</additions>
                </physDesc>
+               <history><origin>
+                  <origPlace>Iceland?</origPlace>
+                  <origDate notBefore="1600" notAfter="1625" resp="KKKat">s. XVII<hi rend="sup">1/4</hi></origDate>.
+               </origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">73</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="Wolf2013">154, 168</ref></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -25,29 +25,26 @@
                             <idno>Addit. 39 4to</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Lýsing Grænlandskorts Þórðar Þorlákssonar</title>
-                        <origPlace>Danmark</origPlace>
-                        <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII 1/4</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
-                            <author key="ArnMag001">Arne Magnússon</author>
-                            <title type="supplied">Lýsing Grænlandskorts Þórðar Þorlákssonar</title>
-                            <textLang mainLang="is">Islandsk</textLang>
-                            <note>En noget mere udførlig beskrivelse af samme kort som det, der er
-                                omtalt under <ref type="ms" target="AM04-0771-a-da">AM 771 a
+                        <summary><title type="supplied">Kommentar til Thorlacius' kort over
+                            Grønland</title> <note>En noget mere udførlig beskrivelse af samme kort som det, der er
+                                omtalt under <ref type="ms" target="#AM04-0771-a-da">AM 771 a
                                     4to</ref>. Overskrift, datering og underskrift mangler, men om
                                 kortet findes følgende oplysning: <q>Dedicatio Chartæ er: Heroi
                                     Perilluſtri <gap reason="irrelevant"/>
                                     <name type="person" key="HenBie001">HENRICO BIELKE</name>,
-                                        D<ex>omi</ex>no de Elingegaard <gap reason="irrelevant"/> et
-                                    Gubernatori Islandiæ, D<ex>omi</ex>no Patrono et Evergetæ
-                                    ſuo ſummo, Novam hanc terrarum hyperborearum
-                                    mappam Greographicam humillime offert et conſecrat
-                                        <name type="person" key="ThoTho005">Theodorus
-                                            Thorlaci<ex>us</ex></name></q>.</note>
-                        </msItem>
+                                    D<ex>omi</ex>no de Elingegaard <gap reason="irrelevant"/> et
+                                    Gubernatori Islandiæ, D<ex>omi</ex>no Patrono et Evergetæ ſuo
+                                    ſummo, Novam hanc terrarum hyperborearum mappam Greographicam
+                                    humillime offert et conſecrat <name type="person"
+                                        key="ThoTho005">Theodorus
+                                        Thorlaci<ex>us</ex></name></q>.</note>
+                        </summary>
+                        <msItem n="1">
+                            <author key="ArnMag001">Arne Magnússon</author>
+                            <title type="supplied">Lýsing Grænlandskorts Þórðar Þorlákssonar</title>
+                            <textLang mainLang="is"/>
+                           </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
@@ -58,21 +55,39 @@
                                     </p>
                                 </support>
                                 <extent>4. <dimensions type="leaf" scope="all">
-                                        <height>210</height>
-                                        <width>165</width>
+                                        <height unit="mm">210</height>
+                                        <width unit="mm">165</width>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
                             <handNote scribe="JonOla003" scope="sole" script="unknown">
-                                <p>Skrevet ad Jón Ólafsson.</p>
+                                <p>Skrevet af <name type="person" key="JonOla003">Jón
+                                        Ólafsson</name>.</p>
                             </handNote>
                         </handDesc>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Danmark</origPlace>, <origDate notBefore="1700"
+                                notAfter="1725" evidence="external">s. XVIII<hi rend="sup"
+                                >1/4</hi></origDate>.</origin>
+                    </history>
                     <additional>
                         <listBibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">193</biblScope></bibl>
+                            <bibl>Jón Þorkelsson: <ref type="secondary" target="NblH">Nokkur blöð úr
+                                Hauksbók</ref>
+                            </bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat"
+                                >Katalog</ref><biblScope unit="volume">II</biblScope><biblScope
+                                    unit="page">184</biblScope></bibl>
+                            <bibl>Rafn: <ref type="secondary" target="AntR">Antiquités Russes</ref>
+                                <biblScope unit="volume">II</biblScope>, <biblScope unit="page"
+                                    >426</biblScope>
+                            </bibl>
+                            <bibl>Werlauff: <ref type="secondary" target="Symbol">Symbolæ ad
+                                Geographiam Medii Aevi</ref>
+                            </bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

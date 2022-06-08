@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -23,11 +23,8 @@
                             <idno>1695</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform">Salmer fra Salmernes bog</title>
-                        <origDate notBefore="1390" notAfter="1410" evidence="conjecture">ca. 1400</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="uniform">Salmer fra Salmernes bog</title></summary>
                         <msItem n="1">
                             <locus from="1r" facs="#AM04-0680-c-0001r" to="1r">1r</locus>
                             <title type="uniform">Salmernes Bog 63</title>
@@ -72,9 +69,9 @@
                                     </p>
                                 </support>
                                 <extent>2. <dimensions type="leaf" unit="mm">
-                                        <height>252</height>
-                                        <width>160</width>
-                                    </dimensions></extent>
+                                        <height unit="mm">252</height>
+                                        <width unit="mm">160</width>
+                                    </dimensions>.</extent>
                                 <condition>
                                     <p>To brudstykker. Der mangler fire blade mellem bl. 1 og 2,
                                         beregnet efter materialets størrelse mellem Salmernes Bog
@@ -85,14 +82,19 @@
                                 <layout columns="1">Røde og grønne initialer.</layout>
                             </layoutDesc>
                         </objectDesc>
-                        <additions>En yngre hånd har skrevet: <q>Ordo uſus
-                                Eccleſiastici</q> på bl. 1r.</additions>
+                        <additions>En yngre hånd har skrevet: <q>Ordo uſus Eccleſiastici</q> på bl.
+                            1r.</additions>
                     </physDesc>
+                    <history>
+                        <origin>Skrevet <origDate notBefore="1390" notAfter="1410"
+                                evidence="conjecture">ca. 1400</origDate>. Oprindelseslandet er ukendt.
+                        </origin>
+                    </history>
                     <additional>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                                 <biblScope unit="volume">II</biblScope>
-                                <biblScope unit="pages">96</biblScope>
+                                <biblScope unit="page">96</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>
@@ -100,34 +102,42 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
-		<surface xml:id="AM04-0680-c-0001r" n="0">
-			<desc>0001r</desc>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/0/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/0/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/0/SECONDARY_DISPLAY" width="3226px" height="4205px"/>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/0/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0680-c-0001v" n="1">
-			<desc>0001v</desc>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/1/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/1/THUMBNAIL" width="200px" height="273px"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/1/SECONDARY_DISPLAY" width="3062px" height="4185px"/>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/1/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0680-c-0002r" n="2">
-			<desc>0002r</desc>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/2/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/2/THUMBNAIL" width="200px" height="265px"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/2/SECONDARY_DISPLAY" width="3210px" height="4251px"/>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/2/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0680-c-0002v" n="3">
-			<desc>0002v</desc>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/3/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/3/THUMBNAIL" width="200px" height="274px"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/3/SECONDARY_DISPLAY" width="3062px" height="4200px"/>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/3/WEB_DISPLAY"/>
-		</surface>
-	</facsimile>
+    <facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+        <surface xml:id="AM04-0680-c-0001r" n="0">
+            <desc>0001r</desc>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/0/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/0/THUMBNAIL" width="200px"
+                height="261px"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/0/SECONDARY_DISPLAY" width="3226px"
+                height="4205px"/>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/0/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0680-c-0001v" n="1">
+            <desc>0001v</desc>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/1/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/1/THUMBNAIL" width="200px"
+                height="273px"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/1/SECONDARY_DISPLAY" width="3062px"
+                height="4185px"/>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/1/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0680-c-0002r" n="2">
+            <desc>0002r</desc>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/2/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/2/THUMBNAIL" width="200px"
+                height="265px"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/2/SECONDARY_DISPLAY" width="3210px"
+                height="4251px"/>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/2/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0680-c-0002v" n="3">
+            <desc>0002v</desc>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/3/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/3/THUMBNAIL" width="200px"
+                height="274px"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/3/SECONDARY_DISPLAY" width="3062px"
+                height="4200px"/>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/3/WEB_DISPLAY"/>
+        </surface>
+    </facsimile>
 </TEI>

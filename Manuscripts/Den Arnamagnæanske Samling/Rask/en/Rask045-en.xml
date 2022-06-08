@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,32 +22,49 @@
                      <idno>2616</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Kvæði Sigurðar Péturssonar sýslumanns</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1800" notAfter="1832">s. XIX in</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Kvæði Sigurðar Péturssonar sýslumanns</title></summary>
+                  <msItem n="1" class="kvad">
+                     <author key="SigPet001">Sigurður Pétursson</author>
+                     <title type="supplied">Kvæði</title>
+                     <textLang mainLang="is"/>
+                     <note>The title, index and the last poem are added by <name type="person"
+                        key="RasRas001">Rasmus Rask</name>.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>24. 
-<dimensions type="leaf" scope="all">
-                              <height>184</height>
-                              <width>148</width>
-                           </dimensions>
+                        <support><material>Paper</material>.</support>
+                        <extent>24. Fols 24v ff. blank. <dimensions type="leaf" scope="all">
+                           <height unit="mm">184</height>
+                           <width unit="mm">148</width>
+                        </dimensions>
                         </extent>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"><p>Written in two columns.</p></layout>
+                     </layoutDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland?</origPlace>, <origDate notBefore="1800" notAfter="1815">s.
+                  XIX in</origDate>.</origin>
+                  <acquisition><name type="org">The Arnamagnæan Commision</name> in Copenhagen bought <name
+                     type="person" key="RasRas001">Rask's</name> Old Norse-Icelandic manuscript collection after his death in
+                     <date when="1832">1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">531</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-06-23" who="EvaWed001">Updated markup and added information</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

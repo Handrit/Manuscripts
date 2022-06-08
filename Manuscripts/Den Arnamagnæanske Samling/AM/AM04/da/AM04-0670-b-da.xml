@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,15 +22,11 @@
                      <idno>1670</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">De S. Wilhelmo Confessore</title>;
-                     <origPlace>Danmark?</origPlace>, <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s.
-                     XVII 1/4</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="supplied">Legende om Sankt Wilhelm Abbas</title></summary>
+                  <msItem n="1" class="hels">
                      <locus from="1r" to="6r">1r-6r</locus>
-                     <title type="supplied">De S. Wilhelmo Confessore</title>
+                     <title type="supplied">De St. Wilhelmo Confessore</title>
                      <textLang mainLang="la">Latin</textLang>
                   </msItem>
                </msContents>
@@ -41,23 +38,34 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>6. Bl. 6v ubeskrevet. <dimensions type="leaf" scope="all">
-                              <height>215</height>
-                              <width>167</width>
+                              <height unit="mm">215</height>
+                              <width unit="mm">167</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="unknown">Samme hånd som <ref type="ms" target="AM04-0670-a-da">AM 670 a 4to</ref>.</handNote>
+                     <handNote scope="sole" script="unknown">Samme hånd som <ref type="ms"
+                        target="#AM04-0670-a-da">AM 670 a 4to</ref>, <ref type="ms"
+                           target="#AM04-0670-c-da #AM04-0670-d-da">AM 670 c-d 4to</ref>, de første 8 blade af <ref type="ms"
+                              target="#AM04-0670-e-da">AM 670 e 4to</ref>, bl. 3r-7r af <ref type="ms"
+                                 target="#AM04-0670-f-en">AM 670 f 4to</ref> og <ref type="ms" target="#AM04-0670-g-en">AM 670 g 4to</ref>.</handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Danmark?</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup"
+                           >1/4</hi></origDate></origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">83</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">83</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2022-02-02" who="EvaWed001">Opdateret opmærkning og handDesc.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

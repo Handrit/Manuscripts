@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,28 +23,82 @@
                      <idno>2035</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Greek-Latin Vocabulary</title>
-                  <origPlace>Unknown</origPlace>
-                  <origDate notBefore="1400" notAfter="1499">s. XV</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la" otherLangs="gr">Latin and Greek</textLang>
+                  <summary><title type="supplied">Greek-Latin Vocabulary and Eqvivoca Mathæi</title></summary>
+                  <textLang mainLang="la" otherLangs="grc">Latin and Greek</textLang>
+                  <msItem n="1">
+                     <locus from="1r" to="17v">1r-17v</locus>
+                     <title type="supplied">Vocabularium Græco-Latinum</title>
+                     <textLang mainLang="la" otherLangs="grc"/>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="18r" to="88v">18r-88v</locus>
+                     <author>Matheus</author>
+                     <title type="supplied">Eqvivoca Mathæi</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <note>The title is supposedly concerning the entire collection of partly
+                        unarranged leaved. The bottom of fol. 42v: <q>Equivoca mathei</q> and  fol.
+                        88r: <q>Expliciunt synonima Anno d<ex>omi</ex>ni m<hi rend="sup">o</hi>
+                              cd<hi rend="sup">o</hi> xxii<hi rend="sup">o</hi> i<ex>n</ex> sabbato
+                              pe<ex>n</ex>tecostes</q>.</note>
+                  </msItem>
+                  <msItem n="3">
+                     <locus from="89r" to="89v">89r-v</locus>
+                     <title type="supplied">Explanations of Grammatical Terms</title>
+                     <note>in mnemonic verse</note>
+                     <textLang mainLang="la">Latin</textLang>
+                  </msItem>
+                  <msItem n="4">
+                     <locus from="90r" to="90v">90r-v</locus>
+                     <author key="Greooo002">Gregory</author>
+                     <title type="supplied">Fragment of One of the Writings of Gregory</title>
+                     <note>On Ezekiel?</note>
+                     <textLang mainLang="la">Latin</textLang>
+                     <note>enclosed</note>
+                  </msItem>
+
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p>Paper.</p>
                         </support>
                         <extent>90. <dimensions type="leaf" scope="all">
-                              <height>225</height>
-                              <width>150</width>
+                              <height unit="mm">225</height>
+                              <width unit="mm">150</width>
                            </dimensions>
                         </extent>
+                        <condition>
+                           <p>Defective and badly damaged.</p>
+                        </condition>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1 2">
+                           <p>Partly written in two columns.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown country of origin</origPlace>, <origDate notBefore="1400"
+                        notAfter="1499">s. XV</origDate>. </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Digitalisation and translation of the catalogue text in Kålund's
+                           catalogue.</source>
+                     </recordHist>
+                  </adminInfo>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">253-254</biblScope></bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

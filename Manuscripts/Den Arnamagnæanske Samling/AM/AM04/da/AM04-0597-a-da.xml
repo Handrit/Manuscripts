@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,12 +22,8 @@
                      <idno>1510</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Trójumanna saga</title>
-                  <origPlace>Island</origPlace>
-                  <origDate when="1668">1668</origDate>
-               </head>
-               <msContents>
+                  <msContents>
+                  <summary><title type="uniform">Trójumanna saga</title></summary>
                   <titlePage type="MS">
                      <docTitle>
                         <titlePart type="main">BELLUM TROIANUM. <lb/>
@@ -37,7 +33,8 @@
                            Bardaga</titlePart>
                      </docTitle>
                   </titlePage>
-                  <msItem>
+                  <msItem n="1" class="sagnps">
+                     <locus from="1r" to="64v">1r-64v</locus>
                      <title type="uniform">Trójumanna saga</title>
                      <textLang mainLang="is">Islandsk</textLang>
                   </msItem>
@@ -50,8 +47,8 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>64. <dimensions type="leaf" scope="all">
-                              <height>205</height>
-                              <width>165</width>
+                              <height unit="mm">205</height>
+                              <width unit="mm">165</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
@@ -60,11 +57,13 @@
                         ei</q>
                   </accMat>
                </physDesc>
+               <history><origin><origPlace>Island</origPlace>
+                  <origDate when="1668">1668</origDate>.</origin></history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">764</biblScope>
+                        <biblScope unit="page">764</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

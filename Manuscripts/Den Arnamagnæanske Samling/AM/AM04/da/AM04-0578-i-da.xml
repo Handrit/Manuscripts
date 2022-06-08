@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,9 +23,10 @@
                      <idno>1444</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Æfintýri</title>; <origPlace>Island?</origPlace>, <origDate notBefore="1650" notAfter="1699" evidence="conjecture" resp="KKKat">s. XVII 2/4</origDate>
-               </head>
+               <msContents>
+                  <summary><title type="supplied">Ævintýri</title></summary>
+                  <textLang mainLang="is">Islandsk</textLang>
+               </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
@@ -33,78 +35,90 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>5. <dimensions type="leaf" scope="all">
-                              <height>207</height>
-                              <width>162</width>
+                              <height unit="mm">207</height>
+                              <width unit="mm">162</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island?</origPlace>, <origDate notBefore="1650" notAfter="1699"
+                        evidence="conjecture" resp="KKKat">s. XVII<hi rend="sup"
+                     >2</hi></origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Gering
-                        <ref type="secondary-1" target="IslAEv">Íslendzk æventýri: Isländische Legenden, Novellen und
-                        Märchen</ref>
-                        <biblScope unit="pages">xxxi</biblScope>
+                     <bibl>Gering: <ref type="secondary-1" target="IslAEv">Íslendzk æventýri:
+                           Isländische Legenden, Novellen und Märchen</ref>
+                        <biblScope unit="page">xxxi</biblScope>
                         <note>Citeret som AM 578 k 4to.</note>
-                        </bibl>
+                     </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">741</biblScope>
+                        <biblScope unit="page">741</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 578 i I 4to</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 578 i I 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem>
+                     <msItem n="1" class="avint">
                         <locus from="1r" to="3r">1r-3r</locus>
-                        <title type="uniform">Æfintyr af Sniðólfi bónda</title>
+                        <title type="uniform">Ævintyr af Sniðólfi bónda</title>
                         <textLang mainLang="is">Islandsk</textLang>
                         <incipit>Hier biriaſt</incipit>
-                        <note>osv. Bl. 1v og 3v er ubeskrevne</note>
+                        <note>Bl. 1v og 3v er ubeskrevne</note>
                      </msItem>
                   </msContents>
                   <physDesc>
                      <additions>1r er tilføjet med en særlig hånd.</additions>
                   </physDesc>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 578 i II 4to</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 578 i II 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem>
+                     <msItem n="2">
                         <locus from="4r" to="5v">4r-5v</locus>
-                        <title type="supplied">Yms æfintýri</title>
+                        <title type="supplied">Forskellige eventyr</title>
                         <textLang mainLang="is">Islandsk</textLang>
-                        <msItem>
-                           <title type="uniform">Æfintýr um þrjá Stallbræður</title>
+                        <note>Øverst bl. 4 er seks linjer udstregede, ligeledes er begyndelsen af
+                           bl. 5v (ca. en halv side) af <title type="uniform">Ævintýr af
+                              Þorsteini forvitna</title> (<q xml:lang="is">Æfen<ex>n</ex>tyr af
+                                 Þorſteine forvitna</q>) overstreget.</note>
+                        <msItem n="2.1">
+                           <title type="uniform">Ævintýr um þrjá Stallbræður</title>
                            <rubric>Æfin<ex>n</ex>tyr vm<ex>m</ex> þria Stallbræður</rubric>
                         </msItem>
-                        <msItem>
-                           <title type="uniform">Æfintýr um bónda ok ein fugl</title>
+                        <msItem n="2.2">
+                           <title type="uniform">Ævintýr um bónda ok ein fugl</title>
                            <rubric>Æ<ex>fintyr</ex> v<ex>m</ex> bonda o<ex>c</ex> eirn fugl</rubric>
                         </msItem>
-                        <msItem>
-                           <title type="uniform">Æfintýr um tvo unga kaupmenn</title>
+                        <msItem n="2.3">
+                           <title type="uniform">Ævintýr um tvo unga kaupmenn</title>
                            <rubric>Æ<ex>fintyr</ex> vm<ex>m</ex> tvo vnga Kaupmen</rubric>
                         </msItem>
-                        <note>Øverst bl. 4 er seks linjer udstregede, ligeledes er begyndelsen af
-                           bl. 5v (godt og vel en halv side) af <title type="uniform">Æfintýr af
-                              Þorsteini forvitna</title> (<q xml:lang="is">Æfen<ex>n</ex>tyr af
-                              Þorſteine forvitna</q>) overstreget.</note>
+                        
                      </msItem>
-                  </msContents>
+                   </msContents>
                   <physDesc>
-                     <additions>Over det overstregne har <name type="person" key="ArnMag001">Arne Magnusson</name> tilføjet: <q xml:lang="la">habeo alibi</q>; dog har han hist og her i det
-                        overstregede stykke tilføjet interlinear-varianter.</additions>
+                     <additions>Over det overstregne har <name type="person" key="ArnMag001">Arne
+                           Magnusson</name> tilføjet: <q xml:lang="la">habeo alibi</q>; dog har han
+                        hist og her i det overstregede stykke tilføjet
+                        interlinear-varianter.</additions>
                   </physDesc>
                </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-10" who="EvaWed001">Opdateret opmærkning.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

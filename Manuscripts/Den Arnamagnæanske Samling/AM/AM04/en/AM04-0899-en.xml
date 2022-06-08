@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,28 +23,72 @@
                      <idno>2099</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="en">Old Swedish Chronicles</title>
-                  <origPlace>Sweden</origPlace>
-                  <origDate notBefore="1500" notAfter="1599">s. XVI</origDate>
-                  <note>The manuscript contains the Old Swedish Chronicles: <title type="uniform">Erikskrönikan</title>, <title type="uniform">Karls-krönikan</title> and <title type="uniform">Sture-krönikorna</title>
-                  </note>
-               </head>
                <msContents>
-                  <textLang mainLang="sv">Swedish</textLang>
+                  <summary><title type="uniform" xml:lang="en">The Larger Rhymed Chronicle</title><note>
+                        <title type="uniform" xml:lang="sv">Stora rimkrönikan</title> (The larger
+                        rhymed chonicle) is a title given to three rhymed chonicles, <title
+                           type="uniform">Erik's Chronicle</title> (<title type="uniform"
+                           >Erikskrönikan</title>), <title type="uniform">Karl's Chronicle</title>
+                           (<title type="uniform">Karlskrönikan</title>) and <title type="uniform"
+                           >Sture's Chronicles</title> (<title type="uniform"
+                           >Sturekrönikorna</title>), combined.</note></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="478v">1r-478v</locus>
+                     <title type="uniform" xml:lang="sv">Stora rimkrönikan</title>
+                     <textLang mainLang="sv">Swedish</textLang>
+                     <note>Blank space is used to separate the third part from the rest of the
+                        text.</note>
+                     <filiation>According to Klemming (<bibl><ref target="GusKle1865-1868">Klemming
+                              1866</ref>
+                           <biblScope unit="page">265</biblScope></bibl>) the manuscript is a copy
+                        of <ref type="url" target="https://www.manuscripta.se/ms/100351">Kungliga
+                           biblioteket, D 5</ref>.</filiation>
+                  </msItem>
+
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>478. <dimensions type="leaf" scope="all">
-                              <height>198</height>
-                              <width>160</width>
-                           </dimensions>
-                        </extent>
+                        <extent>478. Fols 23-24 are blank (with the exception of 1,5 lines on fol.
+                           22v, apparently written in cipher). <dimensions type="leaf" scope="all">
+                              <height unit="mm">198</height>
+                              <width unit="mm">160</width>
+                           </dimensions>. </extent>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>Initials in red or blank spaces for initials occur. Further into the
+                              manuscript the use of red ink is extended to opening words or
+                              lines.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <handDesc>
+                     <p>Principally written by two hands.</p>
+                  </handDesc>
+                  <additions>
+                     <p>Contemporaneous marginalia, mainly in the first part of the
+                        manuscript.</p>
+                  </additions>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Sweden</origPlace>, <origDate notBefore="1500" notAfter="1599">s.
+                        XVI</origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Klemming, <ref target="GusKle1865-1868">Svenska medeltidens
+                           rim-krönikor</ref>
+                        <biblScope unit="volume">III</biblScope>
+                        <biblScope unit="page">264-265</biblScope>
+                     </bibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">250-251</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

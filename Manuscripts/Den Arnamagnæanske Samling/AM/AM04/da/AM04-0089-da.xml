@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,45 +22,44 @@
                      <idno>742</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Norsk lovhåndskrift</title>; <origPlace>Norge</origPlace>,
-                     <origDate notBefore="1550" notAfter="1599" evidence="conjecture" resp="KKKat">s. XVI 2/2</origDate>. </head>
                <msContents>
-                  <msItem n="1">
+                  <summary><title type="supplied">Norsk lovhåndskrift</title></summary>
+                  <msItem n="1" class="log">
                      <locus from="1r" to="172v">1r-172v</locus>
-                     <title type="uniform" xml:lang="da">Kong Magnus Lagabøters Norske
+                     <title type="uniform" xml:lang="da">Magnus Lagabøters Norske
                         landslov</title>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                      <note>Nyere fortale.</note>
                   </msItem>
-                  <msItem n="2">
+                  <msItem n="2" class="log">
                      <locus from="173r" to="217r">173r-217r</locus>
                      <title type="supplied" xml:lang="da">Retterbøder, recesser o.l.</title>
                      <textLang mainLang="da">Ældre nydansk med undtagelse af et mindre stykke
                         <!-- som er hvilket sprog? --></textLang>
-                     <note>Fra 1200-1500-tallet. Dansk sprogform med undtagelse af et enkelt mindre
-                        stykke.</note>
-                  </msItem>
-                  <msItem n="2.1">
+                     <note>Fra 1200-1500-tallet. <!--  Dansk sprogform med undtagelse af et enkelt mindre
+                        stykke. --></note>
+                     <msItem n="2.1" class="hagfr logfr">
                      <locus from="194v" to="195v">194v-195v</locus>
                      <title type="supplied" xml:lang="da">Værdiberegning, forklaringer og udtryk i
                         loven og lign.</title>
                      <textLang mainLang="da">Ældre nydansk</textLang>
-                     <rubric>noger ſmaa Artickler ſom er Vdragenn aff Thenn ganmble Norſke <gap reason="irrelevant"/>
+                     <rubric>noger ſmaa Artickler ſom er Vdragenn aff Thenn ganmble Norſke <gap
+                           reason="irrelevant"/>
                      </rubric>
                   </msItem>
-                  <msItem n="2.2">
+                  <msItem n="2.2" class="annal">
                      <locus from="195v" to="196v">195v-196v</locus>
                      <title type="supplied" xml:lang="da">Annaler, 1328-1583</title>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
-                  <msItem n="2.3">
+                  <msItem n="2.3" class="logfr">
                      <locus from="216r" to="217v">216r-217v</locus>
                      <title type="supplied" xml:lang="da">Småstykker om mandsgæld, tegn og
                         marketal</title>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
-                  <msItem n="3">
+                  </msItem>
+                  <msItem n="3" class="logfr">
                      <locus from="218r" to="219v">218r-219v</locus>
                      <title type="uniform" xml:lang="da">Fingrenes betydning ved
                         edsaflæggelsen</title>
@@ -74,17 +74,21 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>219. <dimensions type="leaf" scope="all">
-                              <height>200</height>
-                              <width>155</width>
+                              <height unit="mm">200</height>
+                              <width unit="mm">155</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
                <history>
-                  <provenance>Rester af det ældre friblad er bevarede; her findes to
-                     versificerede påskrifter af en ældre ejer <q>
+                  <origin><origPlace>Norge</origPlace>, <origDate notBefore="1550" notAfter="1599"
+                        evidence="conjecture" resp="KKKat">s. XVI <hi rend="sup"
+                     >2</hi></origDate>.</origin>
+                  <provenance>Rester af det ældre friblad er bevarede; her findes to versificerede
+                     påskrifter af en ældre ejer <q>
                         <name type="person" key="KorPou001">Cort Pouelſön</name>
-                     </q> eller <q>Conradus Paulij Stavangriensis</q> (<date notBefore="1600" notAfter="1699">1600-tallet</date>), der har fået bogen af sin mor <q>
+                     </q> eller <q>Conradus Paulij Stavangriensis</q> (<date notBefore="1600"
+                        notAfter="1699">1600-tallet</date>), der har fået bogen af sin mor <q>
                         <name type="person" key="MetTom001">Mette Tommesdatter</name>
                      </q>. Uden på det ældre bind stod <q>I. M. <date when="1583">1583</date>
                      </q>. </provenance>
@@ -92,28 +96,32 @@
                      <name type="person" key="ArnMag001">Arne Magnusson</name> har, som det fremgår
                      af en foran indklæbet seddel, ladet håndskriftet ombinde efter at have
                      erhvervet det fra <q>
-                        <name type="person" key="ThoTor001">Thormod Torveſen</name>s Enke <date when="1720">1720</date>
+                        <name type="person" key="ThoTor001">Thormod Torveſen</name>s Enke <date
+                           when="1720">1720</date>
                      </q>.</acquisition>
                </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">399</biblScope>
+                        <biblScope unit="page">399</biblScope>
                      </bibl>
                      <bibl>Storm: <ref type="secondary" target="ChrVidSkFor14">Om Haandskrifter og
                            Oversættelser af Magnus Lagaböters Love</ref>
-                        <biblScope unit="pages">24</biblScope>
+                        <biblScope unit="page">24</biblScope>
                      </bibl>
                      <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
                         <biblScope unit="volume">IV</biblScope>
-                        <biblScope unit="pages">584-585</biblScope>
+                        <biblScope unit="page">584-585</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-11-09" who="EvaWed001">Opdateret opmærkning.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

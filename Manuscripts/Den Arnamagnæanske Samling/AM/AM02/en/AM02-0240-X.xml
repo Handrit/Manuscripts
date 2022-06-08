@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,28 +23,30 @@
                             <idno>362</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Maríu saga</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1390" notAfter="1410">c. 1400</origDate>
-                    </head>
-                    <msContents>
+                      <msContents>
+                        <summary><title type="uniform">Maríu saga</title></summary>
                         <textLang mainLang="non">Old Norse/Icelandic</textLang>
-                        <msItem n="1" defective="true">
-                            <locus from="1" to="2">1-2</locus>
-                            <incipit defective="true">
-                        <ex>hvar</ex>ki eta ne</incipit>
-                            <explicit defective="true">syting <ex>ok</ex>
-                                g<ex>ra</ex>tsamlíg</explicit>
-                        </msItem>
-                        <msItem n="2" defective="true">
-                            <locus>3</locus>
-                            <incipit defective="true">skir u<ex>ar</ex> meydom<ex>ur</ex>
-                                    heilagr<ex>ar</ex>
-                     </incipit>
-                            <explicit defective="true">oumrẻdiligr<ex>ar</ex>
-                                    miskun<ex>ar</ex>
-                     </explicit>
+                        <msItem n="1" class="hels">
+                            <title type="uniform">Maríu saga</title>
+                            <bibl>Unger: <ref type="primary-3" target="Mariu1871">Maríu saga</ref>
+                                <note>Udg. <q>b</q>
+                                </note>
+                            </bibl>
+                            <msItem n="1.1" defective="true" class="hels">
+                                <locus from="1ra" to="2va">1ra-2vb</locus>
+                                <incipit defective="true">
+                                    <ex>hvar</ex>ki eta ne</incipit>
+                                <explicit defective="true">ſyting <ex>ok</ex>
+                                    g<ex>ra</ex>tſamlíg</explicit>
+                            </msItem>
+                            <msItem n="1.2" defective="true" class="hels">
+                                <locus from="3ra" to="3vb">3ra-vb</locus>
+                                <incipit defective="true">ſkirr u<ex>ar</ex> meydom<ex>ur</ex>
+                                        heilagr<ex>ar</ex>
+                                </incipit>
+                                <explicit defective="true">oumrẻdiligr<ex>ar</ex> miſkun<ex>ar</ex>
+                                </explicit>
+                            </msItem>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -55,10 +58,10 @@
                                     </p>
                                 </support>
                                 <extent>3. <dimensions type="leaf" scope="all">
-                                        <height>295</height>
-                                        <width>235</width>
+                                        <height unit="mm">295</height>
+                                        <width unit="mm">235</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2">
@@ -68,6 +71,21 @@
                             </layoutDesc>
                         </objectDesc>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1390"
+                                notAfter="1410" evidence="conjecture">c. 1400</origDate>.</origin>
+                     </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">209</biblScope>
+                            </bibl>
+                            <bibl><ref target="Wolf2013"/>
+                                <biblScope unit="page">231</biblScope></bibl>
+                        </listBibl>
+                    </additional>
+
                 </msDesc>
             </sourceDesc>
         </fileDesc>

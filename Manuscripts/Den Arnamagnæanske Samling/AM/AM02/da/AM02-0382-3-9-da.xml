@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -12,20 +13,20 @@
          <sourceDesc>
             <msDesc xml:id="AM02-0382-3-9-da" xml:lang="da">
                <msIdentifier>
-                  <country>Danmark</country>
+                  <country>Denmark</country>
                   <settlement>København</settlement>
                   <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
                   <collection key="AM"/>
                   <idno>AM 382 3-9 fol.</idno>
                   <altIdentifier type="internal" subtype="KKKat">
-                     <idno>540</idno>
+                     <idno>539</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Dokumenter</title>; <origPlace>Danmark (og
-                     Island?)</origPlace>, <origDate notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat">s.
-                     XVII</origDate>. </head>
+               <msContents>
+                  <summary><title type="supplied" xml:lang="da">Håndskrift med blandet
+                        indhold</title></summary>
+               </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
@@ -34,69 +35,84 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>117 (de 11 sidste i 8vo). <dimensions type="leaf" scope="most">
-                              <height>340</height>
-                              <width>210</width>
+                              <height unit="mm">340</height>
+                              <width unit="mm">210</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Danmark</origPlace>, <origDate notBefore="1600" notAfter="1699"
+                        evidence="conjecture" resp="KKKat">s. XVII</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">300-301</biblScope>
+                        <biblScope unit="page">300-301</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 382 III fol.</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 382 III fol.</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem n="1">
+                     <msItem n="1" class="embr">
                         <title type="supplied" xml:lang="da">Danske dokumenter og
                            optegnelser</title>
                         <textLang mainLang="da">Dansk</textLang>
-                        <msItem n="1.1">
-                           <title>Kong Christian IVs brev om islandske håndskrifter til <name type="person" key="NieKra001">Nils Krag</name>, <date when="1596">1596</date>
-                           </title>
-                           <note>Afskrift</note>
+                        <msItem n="1.1" class="embr">
+                           <title type="supplied">Kong Christian IVs brev om islandske håndskrifter</title>
+                           <respStmt>
+                              <resp key="rcp"/>
+                              <name type="person" key="NieKra001">Nils Krag</name>
+                           </respStmt>
+                           <note><date when="1596">1596</date>. Afskrift</note>
                         </msItem>
-                        <msItem n="1.2">
+                        <msItem n="1.2" class="embr">
                            <title type="supplied">Frederik IIIs resolution om en klædning til den
-                           islandske præst Thord eller Thorarin Eriksson, <date when="1659">1659</date>
-                           </title>
+                              islandske præst Thord eller Thorarin Eriksson</title>
+                           <note><date when="1659">1659</date></note>
                         </msItem>
-                        <msItem n="1.3">
+                        <msItem n="1.3" class="landfr">
                            <author key="ArnMag001">Arne Magnusson</author>
                            <title type="supplied">Optegnelser om norske gårde</title>
                         </msItem>
                      </msItem>
                   </msContents>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 382 IV fol.</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 382 IV fol.</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem>
-                        <title type="supplied" xml:lang="da">Et pavebrev om de nordiske lande, <date when="1252">1252</date>
-                        </title>
+                     <msItem n="2" class="embr">
+                        <title type="supplied" xml:lang="da">Et pavebrev om de nordiske lande, </title>
                         <textLang mainLang="la">Latin</textLang>
-                        <note>Af pave Innocent IV.</note>
+                        <note><date when="1252">1252</date></note>
+                        <respStmt>
+                           <resp key="crp"/>
+                           <name type="person">Pave Innocent IV</name>
+                        </respStmt>
                      </msItem>
                   </msContents>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 238 V fol.</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="3">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 238 V fol.</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem>
-                        <title type="supplied">Skaldatal</title>
+                     <msItem n="3">
                         <textLang mainLang="is">Islandsk</textLang>
                         <rubric>Skallda tal Danmarka og Swija</rubric>
-                     </msItem>
+                      </msItem>
                   </msContents>
                   <physDesc>
                      <objectDesc form="codex">
@@ -117,103 +133,122 @@
                            sml. 854 4to</ref>)</provenance>
                   </history>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 282 VI</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="4">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 282 VI</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem>
+                     <msItem n="4" class="hdrskr">
                         <title type="supplied" xml:lang="da">En manuskriptfortegnelse</title>
                         <textLang mainLang="da">Dansk?</textLang>
                         <note>Fortegnelse over værker om dansk historie og ret.</note>
                      </msItem>
                   </msContents>
                   <history>
-                     <origin>Fra <origDate notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat">1600-tallet</origDate>.</origin>
+                     <origin>Fra <origDate notBefore="1600" notAfter="1699" evidence="conjecture"
+                           resp="KKKat">1600-tallet</origDate>.</origin>
                   </history>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 282 VII</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="5">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 282 VII</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem n="1">
+                     <msItem n="5">
                         <title type="supplied" xml:lang="da">Danske sager</title>
-                        <textLang mainLang="da" otherLangs="la ge">Dansk, latin og tysk</textLang>
-                        <msItem n="1.1">
-                           <title type="supplied">Kongebreve af Frederik III og Kong Hans</title>
+                        <textLang mainLang="da" otherLangs="la de">Dansk, latin og tysk</textLang>
+                        <msItem n="5.1" class="embr">
+                           <title type="supplied">Kongebreve</title>
                            <textLang mainLang="da">Dansk</textLang>
+                           <respStmt>
+                              <resp key="rcp"/>
+                              <name type="person" key="Friooo005">Frederik III</name>
+                           </respStmt>
+                           <respStmt>
+                              <resp key="rcp"/>
+                              <name type="person">Kong Hans</name>
+                           </respStmt>
                         </msItem>
-                        <msItem n="1.2">
+                        <msItem n="5.2" class="kvad">
                            <title type="supplied">Et par æresvers rettede mod danske konger</title>
                            <textLang mainLang="la">Latin</textLang>
                         </msItem>
-                        <msItem n="1.3">
-                           <title type="supplied">Dokumenter veddrørende <name type="person" key="JacMat002">Jacob Matzöns</name> testamente</title>
-                           <msItem n="1.4">
-                              <title type="supplied">Testamentum Petri Olafsun de Kalwæris,
-                                 1261</title>
-                              <textLang mainLang="la">Latin</textLang>
-                              <filiation>Afskrift af <ref type="ms">AM Dipl. dan. I,
-                                 1</ref>
-                              </filiation>
-                           </msItem>
-                           <msItem n="1.5">
-                              <title type="supplied">Skøde på nogle københavnske grunde,
-                                 1569</title>
-                           </msItem>
-                           <msItem n="1.6">
-                              <title type="supplied">De to breve mellem Karl IX og Christian IV
-                                 under Kalmarkrigen</title>
-                              <note>Nyere afskrift</note>
-                           </msItem>
-                           <msItem n="1.7">
-                              <title type="supplied">Christian IVs brev, hvori enkedronningens død
-                                 meddeles, 1631</title>
-                              <note>Afskrift</note>
-                           </msItem>
-                           <msItem n="1.8">
-                              <title type="supplied">Testimonium academicum for M. P. König,
-                                 1659</title>
-                           </msItem>
-                           <msItem n="1.9">
-                              <title type="supplied">Kgl. konfirmation af M. P. Königs
-                                 doktorat</title>
-                           </msItem>
-                           <msItem n="1.10">
-                              <title type="supplied">Christian Vs Resolution om en kommissions
-                                 nedsættelse til visse offentlige regnskabers undersøgelse,
-                                 1680</title>
-                              <note>Afskrift</note>
-                           </msItem>
-                           <msItem n="1.11">
-                              <title type="supplied">Alliance-punkter mellem Danmark og Holland,
-                                 1701</title>
-                              <textLang mainLang="de">Tysk</textLang>
-                           </msItem>
+                        <msItem n="5.3" class="embr">
+                           <title type="supplied">Dokumenter</title>
+                           <note>Vedrørende <name type="person"
+                              key="JacMat002">Jacob Matzöns</name> testamente.</note>
+                                   </msItem>
+                        <msItem n="5.4" class="embr">
+                           <title type="supplied">Testamentum Petri Olafsun de Kalwæris,
+                              1261</title>
+                           <textLang mainLang="la">Latin</textLang>
+                           <filiation>Afskrift af <ref type="ms">AM Dipl. dan. I, 1</ref>
+                           </filiation>
+                        </msItem>
+                        <msItem n="5.5" class="embr">
+                           <title type="supplied">Skøde på nogle københavnske grunde,
+                              1569</title>
+                        </msItem>
+                        <msItem n="5.6" class="embr">
+                           <title type="supplied">De to breve mellem Karl IX og Christian IV
+                              under Kalmarkrigen</title>
+                           <note>Nyere afskrift</note>
+                        </msItem>
+                        <msItem n="5.7" class="embr">
+                           <title type="supplied">Christian IVs brev, hvori enkedronningens død
+                              meddeles, 1631</title>
+                           <note>Afskrift</note>
+                        </msItem>
+                        <msItem n="5.8" class="embr">
+                           <title type="supplied">Testimonium academicum for M. P. König,
+                              1659</title>
+                        </msItem>
+                        <msItem n="5.9" class="embr">
+                           <title type="supplied">Kongelig konfirmation af M. P. Königs
+                              doktorat</title>
+                        </msItem>
+                        <msItem n="5.10" class="embr">
+                           <title type="supplied">Christian Vs Resolution om en kommissions
+                              nedsættelse til visse offentlige regnskabers undersøgelse,
+                              1680</title>
+                           <note>Afskrift</note>
+                        </msItem>
+                        <msItem n="5.11" class="embr">
+                           <title type="supplied">Alliancepunkter mellem Danmark og Holland,
+                              1701</title>
+                           <textLang mainLang="de">Tysk</textLang>
                         </msItem>
                      </msItem>
                   </msContents>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 382 VIII fol.</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="6">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 382 VIII fol.</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem n="1">
-                        <title type="supplied" xml:lang="la">Justi Lipsi Epistolæ quatuor</title>
+                     <msItem n="6" class="heims">
+                        <author key="JusLip001">Justus Lipsus</author>
+                        <title type="supplied" xml:lang="la">Quatuor epistolæ</title>
                         <textLang mainLang="la">Latin</textLang>
                         <rubric>Justi Lipsi Epiſtolæ quatuor, 1586</rubric>
                         <note>Afskrift</note>
                      </msItem>
                   </msContents>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 382 IX fol.</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="7">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 382 IX fol.</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem n="1">
+                     <msItem n="7" class="bok">
                         <author key="ArnMag001">Arne Magnusson</author>
                         <title type="supplied" xml:lang="da">Fortegnelse over litteratur</title>
                         <textLang mainLang="la">Latin?</textLang>
@@ -229,17 +264,20 @@
                         </supportDesc>
                      </objectDesc>
                      <handDesc>
-                        <handNote scope="major" scribe="ArnMag001" script="unknown">Størstedelen skrevet af <name type="person" key="ArnMag001">Arne
-                     Magnusson</name>.</handNote>
+                        <handNote scope="major" scribe="ArnMag001" script="unknown">Størstedelen
+                           skrevet af <name type="person" key="ArnMag001">Arne
+                           Magnusson</name>.</handNote>
                      </handDesc>
                      <additions>
-                        <p>Der er vedlagt nogle litteraturoptegnelser af <name type="person" key="ArnMag001">Arne Magnusson</name> på løse sedler.</p>
+                        <p>Der er vedlagt nogle litteraturoptegnelser af <name type="person"
+                              key="ArnMag001">Arne Magnusson</name> på løse sedler.</p>
                      </additions>
-                     </physDesc>
+                  </physDesc>
                </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-05" who="EvaWed001">Opdateret opmærkning og indhold.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

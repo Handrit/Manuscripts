@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,13 +23,9 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Henrik Harpestrengs Lægebog</title>
-                  <origPlace>Island</origPlace>
-                  <origDate notBefore="1350" notAfter="1399">s. XIV 2/2</origDate>
-               </head>
-               <msContents>
-                  <msItem n="1" defective="true">
+                   <msContents>
+                  <summary><title type="supplied">Henrik Harpestrengs Lægebog</title></summary>
+                  <msItem n="1" defective="true" class="lakn tyd">
                      <author key="HenHar001">Henrik Harpestreng</author>
                      <title type="uniform">Lækningabók</title>
                      <textLang mainLang="non">Norrønt/norsk</textLang>
@@ -57,15 +53,15 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>2. <dimensions type="leaf" unit="mm">
-                              <height>198</height>
-                              <width>127</width>
+                              <height unit="mm">198</height>
+                              <width unit="mm">127</width>
                            </dimensions></extent>
                      </supportDesc>
                   </objectDesc>
                   <additions>
-                     <p>I bl. 1r, nedre margen har en omtrent samtidig hånd skrevet en formular for
+                     <p>I bl. 1r, nedre margin har en omtrent samtidig hånd skrevet en formular for
                         standsning af blod.</p>
-                     <p>I bl. 2rs nederste margen står dette på hovedet: <q xml:lang="is">Þetta kuer
+                     <p>I bl. 2rs nederste margin står dette på hovedet: <q xml:lang="is">Þetta kuer
                            a eg <name type="person" key="BjoPet001">Biorn pettuʀ <lb/>
                               Son</name> m<ex>ed</ex> ʀiettu <lb/> An<ex>n</ex>o <date when="1692">1692</date>.</q></p>
                   </additions>
@@ -76,24 +72,22 @@
                   </bindingDesc>
                </physDesc>
                <history>
-                  <origin>Skrevet i <origPlace>Island</origPlace>. I <bibl>
+                  <origin>Skrevet i <origPlace>Island</origPlace> <origDate notBefore="1340"
+                     notAfter="1360" evidence="conjecture" resp="ONP">c. 1350</origDate>
+                     (<bibl><ref type="secondary-1" target="KriKal1907a">Kålund 1907</ref>
+                        <biblScope unit="page">4</biblScope>
+                     </bibl> og (<bibl>
+                        <ref type="secondary-1" target="EIMF7">Stefán Karlsson 1967</ref>
+                        <biblScope unit="page">52</biblScope><note>no. 24</note>
+                     </bibl>). Kålunds oprindelige datering: 1300-tallets anden halvdel (<bibl>
                         <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">110</biblScope>
-                     </bibl> daterer <name type="person" key="KriKaa001">Kålund</name> det til
-                     1300-tallets anden halvdel, men senere, i <bibl>
-                        <ref type="secondary-1" target="KriKal1907a">Den islandske lægebog</ref>
-                        <biblScope unit="pages">4</biblScope>
-                     </bibl> daterer han mere præcist til <origDate notBefore="1325" notAfter="1375" evidence="conjecture" resp="ONP">ca. 1350</origDate>. En datering, som også
-                     er blevet bakket op af <name type="person" key="SteKar001">Stefán
-                        Karlsson</name> (<bibl>
-                        <ref type="secondary-1" target="EIMF7">Sagas of Icelandic Bishops</ref>
-                        <biblScope unit="pages">52</biblScope><note>n. 24</note>
+                        <biblScope unit="page">110</biblScope>
                      </bibl>).</origin>
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">110</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="page">110</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

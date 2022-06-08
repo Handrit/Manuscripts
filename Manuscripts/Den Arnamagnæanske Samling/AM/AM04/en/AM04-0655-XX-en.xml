@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -23,25 +23,21 @@
                             <idno>1646</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="is">Prédikanir</title>
-                        <title type="parallel" xml:lang="en">Two homilies on the Birth of Christ and
-                            Confession</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1300" notAfter="1350">s. XIV 1/2</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1" defective="true">
-                            <title type="supplied" xml:lang="is">Prédikanir</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                        <summary><title type="supplied">Two Homilies</title>
+                            <note>On on Christ's birth and one on Confession</note></summary>
+                        <msItem n="1" class="hom" defective="true">
+                            <locus from="1ra" facs="#AM04-0655-XX-1ra" to="2vb">1ra-2vb</locus>
+                            <title type="supplied">Two Homilies</title>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <rubric>Innatiutate d<expan>omini</expan> n<expan>ostri</expan>
                                 <expan>iesu</expan>
                                 <expan>christi</expan>
-                     </rubric>
+                            </rubric>
                             <explicit defective="true">Eingi lutr e<expan>r</expan> sa
                                     e<expan>r</expan>
-                     </explicit>
-                            <note>Lacuna following fol. 1</note>
+                            </explicit>
+                            <note>Lacuna after fol. 1</note>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -51,10 +47,10 @@
                                     <p>Parchment.</p>
                                 </support>
                                 <extent>2. <dimensions type="leaf" scope="all">
-                                        <height>209</height>
-                                        <width>155</width>
+                                        <height unit="mm">209</height>
+                                        <width unit="mm">155</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" writtenLines="30 32">
@@ -66,15 +62,25 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1300" notAfter="1350" cert="high" evidence="conjecture">
-                            <p>Written in Iceland in first half of the fourteenth century.</p>
+                            <p>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1300" notAfter="1350">the first half of the
+                                    fourteenth century</origDate>.</p>
                         </origin>
                         <provenance>
-                            <p>In the inner margin of fol. 1r Árni Magnússon has written: <q xml:lang="is">Þetta blad var lïmt a spialld einnar latinskrar
+                            <p>In the inner margin of fol. 1r, a note in <name type="person" key="ArnMag001">Árni Magnússon</name>'s hand reads: <q xml:lang="is">Þetta blad var lïmt a spialld einnar latinskrar
                                         saungbok<expan>ar</expan> sem fra gamalli tid hefr
                                         v<expan>er</expan>et eign N. kirkiu ä Islandi, þangad gefin
                                     i Munkanna tïd</q>.</p>
                         </provenance>
                     </history>
+                    <additional>
+                        <listBibl>
+                            <bibl><ref target="KGFrumparta"/><biblScope unit="page">lxxxv</biblScope><!-- more pages? --></bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">63</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

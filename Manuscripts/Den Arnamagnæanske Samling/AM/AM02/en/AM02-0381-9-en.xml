@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,31 +23,44 @@
                      <idno>539</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Two Documents Concerning Greenland</title>
-                  <origPlace>Denmark/Norway</origPlace>
-                  <origDate notBefore="1500" notAfter="1699">s. XVI-XVII</origDate>
-                  <note>According to Kålunds catalogue the languages of the texts are Danish and Danish-Norwegian.</note>
-               </head>
                <msContents>
-                  <textLang mainLang="dan">Danish</textLang>
+                  <summary><title type="supplied">Two Documents Concerning
+                     Greenland</title>. Copies of documents dated <date when="1407">1407</date> and <date
+                        when="1442">1442</date>, respectively.</summary>
+                     <msItem n="1" class="embr">
+                     <title type="supplied">Two Documents Concerning Greenland</title>
+                        <textLang mainLang="da" otherLangs="no">Danish and a mixed Danish-Norwegian
+                           language</textLang>
+                     </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>79. 
-<dimensions type="leaf" scope="all">
-                              <height>340</height>
-                              <width>220</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>79. <dimensions type="leaf" scope="all">
+                              <height unit="mm">340</height>
+                              <width unit="mm">220</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark/Norway</origPlace>,
+                     <origDate notBefore="1500" notAfter="1699">s. XVI-XVII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">299, 300</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-05" who="EvaWed001">Updated markup.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,26 +22,41 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">A fragment with theological contents</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1485" notAfter="1499">s. XV ex</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                <msContents>
+                  <summary><title type="supplied">Commentary on the Penitential Psalms</title></summary>
+                   <msItem n="1" defective="true">
+                      <locus from="1r" to="1v">1r-v</locus>
+                      <title type="supplied">Commentary on the Penitential Psalms</title>
+                     <textLang mainLang="non"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>1. </extent>
+                        <extent>1. <dimensions type="leaf" unit="mm" scope="all">
+                           <height unit="mm">58</height>
+                           <width unit="mm">38</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>
+                     <origDate notBefore="1200" notAfter="1225" evidence="conjecture" resp="KKKat"
+                        >s. XIII in</origDate> (<bibl><ref type="secondary" target="KirWol2002a"
+                           >Wolf 2002</ref><biblScope unit="page">1001</biblScope></bibl>)</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">114</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -26,10 +26,12 @@
 					<msContents>
 						<summary><title type="supplied" xml:lang="en">Norwegian Legal
 								Manuscript</title></summary>
-						<textLang mainLang="no">Old Norse/Norwegian</textLang>
+						<textLang mainLang="non">Old Norse/Norwegian</textLang>
 						<msItem n="1" class="log">
 							<locus from="1r" facs="#AM04-0065-0001r" to="59v">1r-59v</locus>
-							<title type="uniform">Landslǫg</title>
+							<title type="uniform" xml:lang="en">King Magnus the Lawmender’s National
+								Law of Norway</title>
+							<title type="uniform" xml:lang="non">Landslǫg</title>
 							<incipit defective="true">
 								<supplied reason="damage">ha</supplied>seti huær mork
 									s<ex>ilfrs</ex> við k<ex>onun</ex>g. </incipit>
@@ -41,9 +43,9 @@
 						</msItem>
 						<msItem n="2" class="log">
 							<locus from="60r" facs="#AM04-0065-0060r" to="65r">60r-65r</locus>
-							<title type="supplied">Réttarbœtr</title>
+							<title type="supplied">Legeal Amendments by the Kings Eiríkr Magnússon and Hákon Magnússon</title>
 							<msItem n="2.1" class="log">
-								<locus from="59v" to="62r">59v-62r</locus>
+								<locus from="59v" facs="#AM04-0065-0059v" to="62r">59v-62r</locus>
 								<title type="uniform">Réttarbœtr Eiríks Magnússonar</title>
 								<bibl>
 									<ref type="primary-2" target="NgL3">Norges gamle Love</ref>
@@ -53,7 +55,7 @@
 								</bibl>
 							</msItem>
 							<msItem n="2.2" class="log">
-								<locus from="62r" to="65r">62r-65r</locus>
+								<locus from="62r" facs="#AM04-0065-0062r" to="65r">62r-65r</locus>
 								<title type="uniform">Réttarbœtr Hákonar Magnússonar</title>
 								<bibl><ref type="primary-2" target="NgL3">Norges gamle Love </ref>
 									<biblScope unit="volume">III</biblScope>
@@ -99,8 +101,8 @@
 									<p><material>Parchment</material>.</p>
 								</support>
 								<extent>99. <dimensions type="leaf" scope="all">
-										<height>235</height>
-										<width>160</width>
+										<height unit="mm">235</height>
+										<width unit="mm">160</width>
 									</dimensions>
 								</extent>
 								<collation>
@@ -187,10 +189,11 @@
 					</physDesc>
 					<history>
 						<origin notBefore="1320" notAfter="1360" cert="high" evidence="conjecture">
-							<p>The manuscript is written in <origPlace>Norway</origPlace> in the period 
-								<origDate notBefore="1320" notAfter="1360">1320-1360</origDate>. <name type="person" key="KriKaa001">Kristian
-									Kålund</name> dated it to the fourteenth century, but the leaves
-								have been dated more precisely.<list>
+							<p>The manuscript is written in <origPlace>Norway</origPlace> in the
+								period <origDate notBefore="1320" notAfter="1360"
+									>1320-1360</origDate>. <name type="person" key="KriKaa001"
+									>Kristian Kålund</name> dated it to the fourteenth century, but
+								the leaves have been dated more precisely.<list>
 									<item><name type="person" key="JonTho001">Jón Þorkelsson</name> (<bibl>
 											<ref type="secondary-2" target="DiplIsl">Diplomatarium
 												Islandicum</ref><biblScope unit="volume"
@@ -200,7 +203,8 @@
 											<ref type="secondary-2" target="Malmberg1982">Om språket
 												i AM 65 qv. hd. a.</ref><biblScope unit="pages"
 												>312</biblScope></bibl>) have dated 1r-65r and
-										80r-99r to <origDate notBefore="1320" notAfter="1350">the first quarter of the fourteenth century</origDate>, and
+										80r-99r to <origDate notBefore="1320" notAfter="1350">the
+											first quarter of the fourteenth century</origDate>, and
 										according to <name type="person" key="DidSei001">Didrik Arup
 											Seip</name> (<bibl>
 											<ref type="secondary-2" target="Seip1955">Norsk
@@ -237,49 +241,31 @@
 						</adminInfo>
 						<surrogates>
 							<p>
-								<bibl>
-									<title type="gmd">microfilm (master)</title>
-									<idno>Neg. 443 </idno>
-									<date>1971</date>
-								</bibl>
-								<bibl>
-									<title type="gmd">microfilm (archive)</title>
-									<idno>Pos. 443</idno>
-									<date>1971</date>
-								</bibl>
-								<bibl>
-									<title type="gmd">70 mm</title>
-									<idno>91</idno>
-									<date>1971</date>
-								</bibl>
-								<bibl>
-									<title type="gmd">microfilm (35 mm suppl.)</title>
-									<idno>Neg. 617 (master)</idno>
-									<date>1981</date>
-								</bibl>
-								<bibl>
-									<title type="gmd">microfilm (35 mm. suppl)</title>
-									<idno>Pos. 568 (archive)</idno>
-									<date>1981</date>
-								</bibl>
-								<bibl>
-									<title type="gmd">diapositive</title>
-									<idno>AM 65 4to</idno>
-									<date>March 1984</date>
-								</bibl>
-								<note>Supplementary prints from October 1981</note>
-								<bibl>
-									<title type="gmd">b/w prints</title>
-									<idno>AM 65 4to</idno>
-									<date>May 1981</date>
-								</bibl>
+								<list>
+									<item>Microfilm (master), <idno>Neg. 443 </idno>, from <date
+											when="1971">1971</date>.</item>
+									<item>Microfilm (archive), <idno>Pos. 443</idno>, from <date
+											when="1971">1971</date>.</item>
+									<item>70 mm, <idno>91</idno>, from <date when="1971"
+										>1971</date>.</item>
+									<item>Microfilm (35 mm suppl.), <idno>Neg. 617 (master)</idno>,
+										from <date when="1981">1981</date>.</item>
+									<item>Microfilm (35 mm. suppl.), <idno>Pos. 568
+										(archive)</idno>, from <date when="1981">1981</date>.</item>
+									<item> Diapositives from <date when="1984-03">March 1984</date>.</item>
+									<item> Black and white prints <idno>AM 65 4to</idno> from <date
+											when="1981-05">May 1981</date> (supplementary prints
+										from October 1981).</item>
+								</list>
 							</p>
 						</surrogates>
 					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc><change when="2021-10-06" who="EvaWed001">Updated markup.</change></revisionDesc>
+		<revisionDesc>
+			<change when="2021-10-06" who="EvaWed001">Updated markup.</change>
+		</revisionDesc>
 	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0065-accMat01r" n="0">

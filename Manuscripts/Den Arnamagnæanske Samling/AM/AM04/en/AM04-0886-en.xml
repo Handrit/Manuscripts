@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,62 @@
                      <idno>2017</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Description of Norway</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1600" notAfter="1625">s. XVII in</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Absalon Pederssøn's Description of
+                     Norway</title></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">Norriges Riges <lb/> med de <lb/> Dertil fordum og nu hörende Landes
+                           <lb/> Korte dog historische beschrivelſe <lb/> forhen udi Pennen forfattet
+                           <lb/> ved <lb/> Mag. <name type="person" key="AbsPed001">Abſolon
+                              Pederſön</name>
+                           <lb/> fordum Lectore Theologiæ og ſiden Slots <lb/> Prædikant i Bergen <lb/>
+                           og nu paa nye efterſeet <lb/> Samt <lb/> til trykken befordret <lb/> af <lb/>
+                           <name type="person" key="JoaWie001">I. Wielandt</name>.</titlePart>
+                     </docTitle>
+                  </titlePage>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="AbsPed001">Absalon Pederssøn</name>
-                     </author>
-                     <textLang mainLang="da">Danish</textLang>
+                     <author key="AbsPed001">Absalon Pederssøn</author>
+                     <title type="supplied">Description of Norway</title>
+                     <textLang mainLang="da">Early Modern Danish</textLang>
+                     <note>The same text as in <ref type="ms" target="#AM04-0885-en">AM 885
+                        4to</ref> but this is a fair copy, intended for publication.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>64. 
-<dimensions type="leaf" scope="all">
-                              <height>205</height>
-                              <width>172</width>
+                        <extent>64. Fols 1v, 48v and 64v are blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">205</height>
+                              <width unit="mm">172</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <accMat>
+                     <p>A slip pasted to the manuscript reads: <q xml:lang="da">Dette remit<lb/>teres
+                        til Professoris Historiarum censur <lb/>
+                        <name type="person" key="Horooo001">P. Horrebow</name></q>.</p>
+                  </accMat>
+                  
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Denmark</origPlace>, <origDate notBefore="1700" notAfter="1730">s.
+                           XVII in</origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">246</biblScope></bibl>
+                     <bibl>Suhm, <ref target="PetSuh1771-1776">Samlinger</ref>
+                        <biblScope unit="volume">III</biblScope>
+                        <biblScope unit="page">34 ff.</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

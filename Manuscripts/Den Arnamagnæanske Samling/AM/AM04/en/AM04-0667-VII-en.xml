@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,15 +22,12 @@
                             <idno>1664</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Andreas saga postola</title>, <origPlace>Iceland</origPlace>;
-                            <origDate notBefore="1490" notAfter="1510">c. 1500</origDate>
-                    </head>
                     <msContents>
-                        <msItem defective="true">
+                        <summary><title type="uniform">Andreas saga postola</title></summary>
+                        <msItem n="1" class="hels post" defective="true">
                             <locus from="1r" to="2v">1r-2v</locus>
-                            <title>Andreas saga postola</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <title type="uniform">Andreas saga postola</title>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <msItem n="1.1">
                                 <locus> 1</locus>
                                 <incipit defective="true">
@@ -56,16 +53,15 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
                                 <extent>2. <dimensions type="leaf" scope="all">
-                                        <height>183</height>
-                                        <width>122</width>
+                                        <height unit="mm">183</height>
+                                        <width unit="mm">122</width>
                                     </dimensions>
                         </extent>
                                 <condition>
-                                    <p>The manuscript is considerably worn on the outer sides i.e.
-                                        fols 1r and 2v.</p>
+                                    <p>Fols 1r and 2v are badly worn.</p>
                                 </condition>
                             </supportDesc>
                         </objectDesc>
@@ -76,9 +72,9 @@
                         </bindingDesc>
                     </physDesc>
                     <history>
-                        <origin notBefore="1475" notAfter="1525" cert="high" evidence="conjecture">
+                        <origin notBefore="1490" notAfter="1510" cert="high" evidence="conjecture">
                             <p>Written in <origPlace>Iceland</origPlace>
-                                <origDate>c. 1500</origDate>.</p>
+                                <origDate notBefore="1490" notAfter="1510">c. 1500</origDate>.</p>
                         </origin>
                     </history>
                     <additional>
@@ -91,25 +87,32 @@
                             <custodialHist>
                                 <custEvent type="conservation">
                                     <p>During the restoration <date from="1963-04-02" to="1965-11-11">2 April 1963-11 November 1965</date>the
-                                        leaves were restored, set on meeting guards and put in a
+                                        leaves were restored, put on meeting guards and put into a
                                         cardboard cover.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <bibl>
-                                    <title type="gmd">70 mm</title>
-                                    <idno>?</idno>
-                                    <date>1963</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">b/w prints</title>
-                                    <idno>AM 667 VII 4to</idno>
-                                    <date>March 1963</date>
-                                </bibl>
+                                <list>
+                                    <item>70 mm from <date when="1963">1963</date>
+                                    </item>
+                                    <item>Plate, <idno>Plade 105 II</idno>, s.d. (supplementary
+                                        photographs).</item>
+                                    <item> Black and white prints from
+                                        <date when="1963-03">March 1963</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
+                        <listBibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">79</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary" target="Wolf2013"/>
+                                <biblScope unit="page">31</biblScope></bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,12 +22,10 @@
                      <idno>2623</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Islandske annaler 1740-79</title>; <origPlace>Island</origPlace>,
-            <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>. 
-    <note>Autograf</note>.</head>
                <msContents>
-                  <msItem>
+                  <summary><title type="supplied">Islandsk annal, 1740-79</title></summary>
+                  <msItem n="1" class="annal">
+                     <title type="supplied">Islandsk annal, 1740-79</title>
                      <textLang mainLang="is">Islandsk</textLang>
                   </msItem>
                </msContents>
@@ -35,23 +33,47 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Papir.</p>
+                           <p><material>Papir</material>.</p>
                         </support>
-                        <extent>48. <dimensions type="leaf" scope="all">
-                              <height>210</height>
-                              <width>165</width>
-                           </dimensions>.</extent>
+                        <extent>48. <dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">210</height>
+                           <width unit="mm">165</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
-                  <accMat>
-                     <p>Bl. 48 løst blad om nogle viser af Sneglu-Halla <q xml:lang="is">þáttr</q>.
-                Et islandsk digt i udkast. I omslag udfodret med et brev fa lovmand Björn Markússon
-                til lovmand Sveinn Sölvason, Ökrum d. 21. jan. 1751.</p>
-                  </accMat>
+                  <additions>
+                     <p>Bl. 48 er et løst blad, skrevet af andre hænder, om nogle kvad fra
+                        <title type="uniform">Sneglu-Halla þáttr</title> samt et islandsk digt i udkast.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>I omslag udfodret med et brev fra lovmand <name type="person"
+                           key="BjoMar001">Björn Markússon</name> til lovmand <name type="person"
+                              key="SveSol002">Sveinn Sölvason</name>, dateret <name type="place"
+                                 key="StóAkr01">Akrar</name> d. <date when="1751-01-21">21. jan.
+                                    1751</date>.</p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1700" notAfter="1799">s.
+                     XVIII</origDate>.</origin>
+                  <acquisition><name type="org">Den Arnamagnæanske kommission</name> købte <name
+                     type="person" key="RasRas001">Rask</name>s nordiske håndskrifter efter hans
+                     død i <date when="1832">1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">534</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-15" who="EvaWed001">Opdateret.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

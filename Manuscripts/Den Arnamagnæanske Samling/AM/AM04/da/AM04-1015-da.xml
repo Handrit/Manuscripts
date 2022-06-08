@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -25,24 +25,22 @@
                      <idno>2147</idno>
                   </altIdentifier>
                </msIdentifier>
-
-               <head>
-                  <title type="uniform">Magnús saga lagabætis</title>;
-                     <origPlace>Island?</origPlace>
-                  <origDate when="1735" evidence="internal">1735</origDate>.</head>
-
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform">Magnús saga lagabætis</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="33r">1r-33r</locus>
                      <title type="uniform">Magnús saga lagabætis</title>
                      <respStmt>
-                        <resp key="trl">Oversætter</resp>
+                        <resp key="trl"/>
                         <name type="person" key="ErlOla001">Erlendur Ólafsson</name>
                      </respStmt>
-                     <textLang mainLang="is" otherLangs="la">Islandsk med latinsk
-                        oversættelse</textLang>
-                     <rubric>Historlæ Magni regis Norvegiæ, legum reformatoris, fragmentum</rubric>
-                     <note>Med dedikation til <name type="person" key="HanGra001">Hans Gram</name>
-                        og fortale. </note>
+                     <respStmt>
+                        <resp key="dte"/>
+                        <name type="person" key="HanGra001">Hans Gram</name>
+                     </respStmt>
+                     <textLang mainLang="is" otherLangs="la"/>
+                     <rubric>Historiæ Magni regis Norvegiæ, legum reformatoris, fragmentum</rubric>
+                     <note>Med dedikation til Hans Gram og fortale.</note>
                   </msItem>
                </msContents>
 
@@ -54,8 +52,8 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>33. Bl. 1v og 33v er ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>203</height>
-                              <width>163</width>
+                              <height unit="mm">203</height>
+                              <width unit="mm">163</width>
                            </dimensions>.</extent>
                      </supportDesc>
                      <layoutDesc>
@@ -69,9 +67,14 @@
                      <p>Under teksten findes der anmærkninger til oversættelsen.</p>
                   </additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island?</origPlace>
+                     <origDate when="1735" evidence="internal">1735</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">294</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">294</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

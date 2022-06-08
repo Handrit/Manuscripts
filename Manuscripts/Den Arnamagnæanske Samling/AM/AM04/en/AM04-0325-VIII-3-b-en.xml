@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,16 +22,12 @@
                             <idno>1066</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Sverris saga</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1400" notAfter="1415" cert="high" evidence="conjecture">s. XV in</origDate>
-                    </head>
-                    <msContents>
-                        <msItem class="kon" defective="true">
+                     <msContents>
+                        <summary><title type="uniform">Sverris saga</title></summary>
+                        <msItem n="1" class="kon" defective="true">
                             <locus from="1ra" to="1vb">1ra-1vb</locus>
-                            <title>Sverris saga</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <title type="uniform">Sverris saga</title>
+                            <textLang mainLang="non"/>
                             <incipit defective="true">iafna<expan>n</expan> b<expan>er</expan>a
                                     hied<expan>an</expan> í f<expan>ra</expan>
                      </incipit>
@@ -39,8 +35,8 @@
                                 erfide u<expan>ar</expan> þ<expan>vi</expan>
                      </explicit>
                             <bibl>
-                        <ref type="primary-2" target="FMS8">Fornmanna sögur</ref> VIII,
-                                pp. 14-18.</bibl>
+                        <ref type="primary-2" target="FMS8">Fornmanna sögur</ref>
+                                <biblScope unit="page">14-18</biblScope>.</bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -52,13 +48,13 @@
                                 </support>
                                 <extent>1. <dimensions scope="all" type="leaf">
                                         <height scope="all">280</height>
-                                        <width>208</width>
+                                        <width unit="mm">208</width>
                                     </dimensions>
                         </extent>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" writtenLines="29">
-                                    <p>Written in double columns with 29 lines per column. Space on
+                                    <p>Written in two columns with 29 lines per column. Space on
                                         2 lines are left empty for initials to be filled in.</p>
                                 </layout>
                             </layoutDesc>
@@ -74,9 +70,9 @@
                         </additions>
                     </physDesc>
                     <history>
-                        <origin notBefore="1401" notAfter="1415" cert="high" evidence="conjecture">
+                        <origin notBefore="1401" notAfter="1425" cert="high" evidence="conjecture">
                             <p>The manuscript is written in <origPlace>Iceland</origPlace> in
-                                    <origDate notBefore="1400" notAfter="1415" cert="high" evidence="conjecture">the beginning of the fifteenth
+                                    <origDate notBefore="1400" notAfter="1425" cert="high" evidence="conjecture">the beginning of the fifteenth
                                     century</origDate>.</p>
                         </origin>
                     </history>
@@ -90,35 +86,35 @@
                             </recordHist>
                             <custodialHist>
                                 <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
-                                    <p>The manuscript was set on meeting guards and put in a
+                                    <p>The manuscript was put on meeting guards and put in a
                                         cardboard cover <date from="1958-03-02" to="1959-04-04">02.03.1958-04.04.1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade 37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositives</title>
-                                        <idno>AM 325 VIII 3 b 4to</idno>
-                                        <date>May 1984 (or 1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <date>October 1956</date>
-                                        <idno>AM 325 VIII 3 b 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item>Plate, <idno>plade37</idno>, s.d.</item>
+                                    <item>Diapositives from <date notBefore="1984-05"
+                                        notAfter="1985-05">May 1984 or 1985</date>.
+                                    </item>
+                                    <item>Black and white prints from <date when="1956-10">October
+                                        1956</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
+                        <listBibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">560</biblScope>
+                            </bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2021-11-30" who="EvaWed001">Updated markup and added KKKat.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

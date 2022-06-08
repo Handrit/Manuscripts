@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,38 +23,65 @@
                      <idno>1990</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Chronicon siue Historia Joannis Regis Daniæ</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1582-01-01" notAfter="1582-12-31">1582</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Chronicon sive Historia Joannis Regis
+                        Daniæ</title></summary>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="HanSva001">Hans Svaning</name>
-                     </author>
-                     <textLang mainLang="da">Danish</textLang>
+                     <locus from="1r" to="199v">1r-199v</locus>
+                     <author key="HanSva001">Hans Svaning</author>
+                     <title type="supplied">Chronicon sive Historia Joannis Regis Daniæ</title>
+                     <respStmt>
+                        <resp key="trl">Translated by</resp>
+                        <name type="person" key="ZacJac001">Zacharias Jacobsen</name>
+                     </respStmt>
+                     <textLang mainLang="da"/>
+                     <rubric>Kong Hanses Chronnicke oc bescriffuelſe emellem hannem oc de Suenſke,
+                        desligiſt om den dytmerſke feyde <gap reason="irrelevant"/> af Latinen
+                        vdſettt vid Zacariam Jacobsen</rubric>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>199. 
-<dimensions type="leaf" scope="all">
-                              <height>202</height>
-                              <width>161</width>
+                        <extent>199. <dimensions type="leaf" scope="all">
+                              <height unit="mm">202</height>
+                              <width unit="mm">161</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="ZacJac01" scope="sole" script="unknown">
-                        <p>
-Translated and written by Zacharias Jacobsen.</p>
+                     <handNote scribe="ZacJac001" scope="sole" script="unknown">
+                        <p>Translated and written by <name type="person" key="ZacJac001">Zacharias
+                              Jacobsen</name>.</p>
                      </handNote>
                   </handDesc>
+                  <additions><p>Below the dedication on fol. 2r, a younger hand added: <q xml:lang="da">
+                        <name type="person" key="EriQui001">Erick Quitzow</name>
+                     </q>.</p>
+                     <p>The title on the spine is in <name type="person" key="ArnMag001"
+                        >Árni Magnússon</name>'s hand: <q><name type="person" key="PetPar001">Petri
+                           Parvi</name>
+                           <lb/> Hiſt. Johannis <lb/> Regis Daniæ. <lb/> Danicé</q>. Under dennes
+                        navn udgaves nemlig den latinske original <date when="1561"
+                           >1561</date>.</p></additions>
                </physDesc>
+               <history>
+                  <origin>Written in <origPlace>Denmark</origPlace>, <origDate when="1582"
+                        >1582</origDate>. The translation was commissioned by <q>velbyrdig mand
+                           <name type="person" key="GabSpa001">Gabriell Sparre</name> tiill <name
+                           type="place" key="Svaneh01">Suanſholm</name></q>. </origin>
+                  <provenance>A note on the front fly leaf (fol. 1r) reads: <q>Erlig och welbyrdig <name
+                           type="person" key="TruAxe001">Trud Axellſen</name>
+                        <lb/> mig denne bog Lannt haffaer 1588</q>.</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">236</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

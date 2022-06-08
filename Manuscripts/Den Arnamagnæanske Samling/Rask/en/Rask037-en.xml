@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,66 +23,65 @@
                             <idno>2608</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Saga Book</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1812-01-01" notAfter="1813-12-31">1812-13</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="supplied">Sagas of Icelanders</title></summary>
                         <titlePage type="MS">
                             <docTitle>
-                                <titlePart type="main">Nockrir <lb/> FORNMANNA <lb/> SAUGU-ÞÆTTIR
-                                    <lb/> Islendínga. <lb/> Þridia Bindi. <lb/> uppskrifad ad <lb/>
-                                    Melum vid Hrútafiörd <lb/> frá byriun Arsins 1812, til <lb/>
-                                    vordaga 1813. <lb/> Af <lb/> Olafi Sigurdarsyni</titlePart>
+                                <titlePart type="main"><locus from="1r" to="1r">1r</locus> Nockrir
+                                    <lb/> FORNMANNA <lb/> SAUGU-ÞÆTTIR <lb/> Islendínga. <lb/>
+                                    Þridia Bindi. <lb/> uppskrifad ad <lb/> Melum vid Hrútafiörd
+                                    <lb/> frá byriun Arsins 1812, til <lb/> vordaga 1813. <lb/> Af
+                                    <lb/> Olafi Sigurdarsyni</titlePart>
                             </docTitle>
                         </titlePage>
-                        <msItem n="1">
-                            <locus>1v</locus>
+                        <msItem n="1" class="regist">
+                            <locus from="1v" to="1v">1v</locus>
                             <title type="supplied">Index</title>
                         </msItem>
-                        <msItem n="2">
-                            <locus from="1" to="65">pp. 1-65</locus>
-                            <title type="uniform">Vémundar saga ok Víga-Skútu</title>
+                        <msItem n="2" class="isl">
+                            <locus from="1" to="65">pp. 1-65 (ff. 2 etc.)</locus>
+                            <title type="uniform">Reykdæla saga</title>
+                            <title type="parallel">Vémundar saga ok Víga-Skútu</title>
                             <textLang mainLang="is">Icelandic</textLang>
-                            <title type="parallel">Reykdæla saga</title>
                             <rubric>Sagan af <lb/> REIKDÆLUM <lb/> edur <lb/> Wemundi køgr og
                                 Wíga-<lb/>-Skúta</rubric>
                         </msItem>
-                        <msItem n="3" defective="true">
-                            <locus>pp. 66-114 + fols 40-42</locus>
+                        <msItem n="3" defective="true" class="isl">
+                            <locus>pp. 66-114 (+ ff. 40-42)</locus>
                             <title type="uniform">Svarfdæla saga</title>
                             <rubric>Sagan<ex>n</ex> Af <lb/> Svarf dælum</rubric>
-                            <note>The inserted leaves concerns the lacuna.</note>
+                            <note>The inserted leaves contain text to fill in the lacuna or
+                                information about the lacuna.</note>
                         </msItem>
-                        <msItem n="4">
+                        <msItem n="4" class="isl">
                             <locus from="115" to="182">pp. 115-182</locus>
                             <title type="uniform">Vatnsdæla saga</title>
                             <rubric>SAgANN AF Watnsdælu<ex>m</ex>
-                     </rubric>
-                            <msItem n="4.1">
-                                <locus>96</locus>
-                                <rubric>Ætt Vatnsdęla of<ex>an</ex> t<ex>il</ex>
-                                    Sturlúnga</rubric>
+                            </rubric>
+                            <msItem n="4.1" class="attat">
+                                <locus from="96r" to="96v">96r-v (inserted slip)</locus>
+                                <title type="supplied">Genealogy o the Vatnsdælas</title>
+                                <quote>Ætt Vatnsdęla of<ex>an</ex> t<ex>il</ex> Sturlúnga</quote>
                             </msItem>
                         </msItem>
-                        <msItem n="5">
+                        <msItem n="5" class="isl">
                             <locus from="182" to="226">pp. 182-226</locus>
                             <title type="uniform">Finnboga saga ramma</title>
                             <rubric>Sagann Af <lb/> Finnboga Rama</rubric>
                         </msItem>
-                        <msItem n="6">
+                        <msItem n="6" class="isl">
                             <locus from="226" to="262">226-262</locus>
                             <title type="uniform">Flóamanna saga</title>
                             <title type="parallel">Þorgils saga örrabeinsfóstra</title>
                             <rubric>Sagan<ex>n</ex> af <lb/> Flóamaunnum <lb/> edr <lb/> Þorgils
                                 Þórdar S: Orrabeins-<lb/>Fóstra</rubric>
                         </msItem>
-                        <msItem n="7">
+                        <msItem n="7" class="attat">
                             <locus from="262" to="263">pp. 262-263</locus>
-                            <rubric>Ættar tala úr Flóaman<ex>n</ex>a Sỏgu, ok sva
-                                    ofan<ex>n</ex> eptir</rubric>
-                            <note>Leading to the scribe himself.</note>
+                            <title type="supplied">Genealogy from Flóamanna saga</title>
+                            <rubric>Ættar tala úr Flóaman<ex>n</ex>a Sỏgu, ok sva ofan<ex>n</ex>
+                                eptir</rubric>
+                            <note>Traced down to the scribe himself.</note>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -90,25 +90,37 @@
                                 <support>
                                     <p>Paper</p>
                                 </support>
-                                <extent>i + 141 (pp. 1-263 + the inserted leaves 40-42, and 96).
-                                    Fol. 42v and the last page are blank. <dimensions type="leaf" scope="all">
-                                        <height>203</height>
-                                        <width>163</width>
+                                <extent>i + 141 (pp. 1-263 + the inserted leaves 40-4, and 96). Fol.
+                                    42v and the last page are blank. <dimensions type="leaf"
+                                        scope="all" unit="mm">
+                                        <height unit="mm">203</height>
+                                        <width unit="mm">163</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scribe="OlaSig01" scope="sole" script="unknown">
-                                <p> Written by Ólafur Sigurðsson.</p>
+                            <handNote scribe="OlaSig001" scope="sole" script="unknown">
+                                <p> Written by <name type="person" key="OlaSig001">Ólafur
+                                        Sigurðsson</name>.</p>
                             </handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote type="initial" subtype="flourished">
-                                <p>p. 115 has a flourished initial.</p>
+                                <p>P. 115 has a flourished initial.</p>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
+                    <history>
+                        <origin>Written in <origPlace>Iceland</origPlace>
+                            <origDate from="1812" to="1813">1812-1813</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                                    >II</biblScope><biblScope unit="page">524-525</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,14 +23,13 @@
                             <idno>2197</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Digestorum libri L</title>;
-                            <origPlace>Danmark</origPlace>, <origDate notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat">s. XVII</origDate>. </head>
                     <msContents>
-                        <msItem n="1" class="misc">
-                            <locus from="1v:1" to="2r:36">1v_1-2r:36</locus>
-                            <title type="supplied" xml:lang="la">Tabula</title>
-                            <title type="supplied" xml:lang="da">Tavle om lensvæsen</title>
+                        <summary><title type="uniform">Digestorum seu pandectarum iuris ciuilis
+                                partitio et methodus, Liber primus</title></summary>
+                        <msItem n="1" class="logfr">
+                            <locus from="1r" to="2r">1r-2r</locus>
+                            <title type="supplied" xml:lang="da">Synoptisk tavle om
+                                feudal lovgivning</title>
                             <textLang mainLang="la">Latin</textLang>
                             <rubric>Tabula atq<ex>ae</ex> Synopsis totius juris Feudalis omnium quas
                                 hactenus vidi longé perfectissima.</rubric>
@@ -37,9 +37,11 @@
                             <explicit>nam ininutu<ex>um</ex> theorici<ex>um</ex> cogniti<ex>um</ex>
                                     minu<ex>um</ex> immoraberi<ex>um</ex>.</explicit>
                         </msItem>
-                        <msItem n="2">
-                            <locus from="3r:1" to="23v">3r-23v</locus>
-                            <title type="supplied" xml:lang="la">Digestorum libri L</title>
+                        <msItem n="2" class="logfr">
+                            <locus from="3r" to="23v">3r-23v</locus>
+                            <author>Guilielmus Cornhuysius</author>
+                            <title type="uniform" xml:lang="la">Digestorum seu pandectarum iuris
+                                ciuilis partitio et methodus</title>
                             <rubric>DIGESTORUM seu PANDECATRUM</rubric>
                             <incipit>LIBER PRIMUS <lb/> Titulus I. de Iustitia et Iure.</incipit>
                         </msItem>
@@ -51,12 +53,13 @@
                                     <p>
                                         <material>Papir</material>.</p>
                                 </support>
-                                <extent>32. Bl. 1v og 2v er blanke. <dimensions type="leaf" scope="main">
-                                        <height>176</height>
-                                        <width>117</width>
+                                <extent>32. Bl. 1v og 2v er blanke. <dimensions type="leaf"
+                                        scope="main">
+                                        <height unit="mm">176</height>
+                                        <width unit="mm">117</width>
                                     </dimensions> og <dimensions type="leaf" scope="main">
-                                        <height>167</height>
-                                        <width>104</width>
+                                        <height unit="mm">167</height>
+                                        <width unit="mm">104</width>
                                     </dimensions>.</extent>
                                 <foliation>Pagineret med blyant i øverste højre hjørne.</foliation>
                             </supportDesc>
@@ -68,7 +71,7 @@
                         </objectDesc>
                         <decoDesc>
                             <decoNote type="diagram">
-                                <p>På bl. 1-2 og 24-32 er der en oversigtstavle over lensvæsen.</p>
+                                <p>På bl. 1-2 er der en oversigtstavle over lensvæsen.</p>
                             </decoNote>
                         </decoDesc>
                         <bindingDesc>
@@ -76,13 +79,18 @@
                                 <p>Indbundet i et halvbind med ryg og hjørner i vinrød Winchester
                                     med håndlavet engelsk bakkemarmor i sneglemønster fra
                                     Cockerell's værksted i Cambridge. <dimensions type="binding">
-                                        <height>184</height>
-                                        <width>127</width>
-                                        <depth>12</depth>
+                                        <height unit="mm">184</height>
+                                        <width unit="mm">127</width>
+                                        <depth unit="mm">12</depth>
                                     </dimensions>.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Danmark</origPlace>, <origDate notBefore="1600"
+                                notAfter="1699" evidence="conjecture" resp="KKKat">s.
+                                XVII</origDate>.</origin>
+                    </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
@@ -93,7 +101,8 @@
                             <custodialHist>
                                 <custEvent type="conservation">
                                     <p>Restaureret <date from="2000-01-20" to="2004-11-22">20.
-                                            januar 2000 til 22. november 2004</date> af <name type="person" key="MarLun001">Marianne Lund
+                                            januar 2000 til 22. november 2004</date> af <name
+                                            type="person" key="MarLun001">Marianne Lund
                                             Petersen</name>
                                     </p>
                                 </custEvent>
@@ -106,83 +115,42 @@
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
-                            <bibl>
-                                <title type="gmd">mikrofilm (originaler)</title>
-                                <idno>G. neg. 197</idno>
-                                <date when="1959">1959</date>
-                                <note>før konservering</note>
-                            </bibl>
-                            <bibl>
-                                <title type="gmd">mikrofilm (back-up)</title>
-                                <idno>TS 202</idno>
-                                <date when="1999-10-19">19. oktober 1999</date>
-                                <note>back-up af mikrofilm (originaler) G. neg. 197</note>
-                            </bibl>
-                            <bibl>
-                                <title type="gmd">mikrofilm (arkiv)</title>
-                                <idno>G. pos. 230</idno>
-                                <note>positiver</note>
-                            </bibl>
-                            <bibl>
-                                <title type="gmd">mikrofilm (originaler)</title>
-                                <idno>Neg. 1016</idno>
-                                <date when="2000-08-07">7. august 2000</date>
-                                <note>før konservering</note>
-                            </bibl>
-                            <bibl>
-                                <title type="gmd">mikrofilm (back-up)</title>
-                                <idno>TS 1203</idno>
-                                <date when="2006-08-18">18. august 2006</date>
-                                <note>back-up af mikrofilm (originaler) neg. 1016</note>
-                            </bibl>
-                            <bibl>
-                                <title type="gmd">mikrofilm (suppl.)</title>
-                                <idno>neg. 1022</idno>
-                                <date when="2000-12-12">12. december 2000</date>
-                                <note>supplerende optagelser til mikrofilm (originaler) neg.
-                                    1016</note>
-                            </bibl>
-                            <bibl>
-                                <title type="gmd">mikrofilm (back-up)</title>
-                                <idno>TS 1209</idno>
-                                <date when="2006-08-18">18 August 2006</date>
-                                <note>back-up af mikrofim (suppl.) neg. 1022</note>
-                            </bibl>
-                            <bibl>
-                                <title type="gmd">mikrofilm (arkiv)</title>
-                                <idno>952</idno>
-                                <date when="2004-12-08">8. december 2004</date>
-                            </bibl>
-                            <bibl>
-                                <title type="gmd">mikrofilm (suppl.)</title>
-                                <idno>921</idno>
-                                <date when="2001-03-12">12 marts 2001</date>
-                                <note>supplerende optagelser til mikrofilm neg. 952</note>
-                            </bibl>
-                            <bibl>
-                                <title type="gmd">s/h fotografier</title>
-                                <idno>AM 2 8vo</idno>
-                                <date when="2000-08-08">8 august 2000</date>
-                                <note>143 %</note>
-                            </bibl>
-                            <bibl>
-                                <title type="gmd">s/h fotografier (supplement)</title>
-                                <idno>Am 2 8vo</idno>
-                                <date when="2000-12-12">12. december 2000</date>
-                                <note>bl. 22v, 32v</note>
-                            </bibl>
-                            <bibl>
-                                <title type="gmd">diapositiv (6x6)</title>
-                                <idno>TS 105</idno>
-                                <date when="2000-04-12">12. april 2000</date>
-                                <note>før konservering</note>
-                            </bibl>
-                            <bibl>
-                                <title type="gmd">diapositiv (6x6)</title>
-                                <idno>TS 209</idno>
-                                <date when="2005-03-10">10. marts 2005</date>
-                                <note>after restoration</note>
-                            </bibl>
+                            <list>
+                                <item>Mikrofilm (originaler), <idno>G. neg. 197</idno>, from <date
+                                        when="1959">1959</date> (før konservering). </item>
+                                <item> Mikrofilm (back-up), <idno>TS 202</idno>, fra <date
+                                        when="1999-10-19">19. oktober 1999</date> (back-up af G.
+                                    neg. 197). </item>
+                                <item> Mikrofilm (arkiv), <idno>G. pos. 230</idno>, s.d. </item>
+                                <item> Mikrofilm (originaler), <idno>Neg. 1016</idno>, fra <date
+                                        when="2000-08-07">7. august 2000</date> (før konservering). </item>
+                                <item> Mikrofilm (back-up), <idno>TS 1203</idno>, fra <date
+                                        when="2006-08-18">18. august 2006</date> (back-up af Neg.
+                                    1016). </item>
+                                <item> Mikrofilm (suppl.), <idno>neg. 1022</idno>, fra <date
+                                        when="2000-12-12">12. december 2000</date> (supplerende
+                                    optagelser til Neg. 1016). </item>
+                                <item> Mikrofilm (back-up), <idno>TS 1209</idno>, <date
+                                        when="2006-08-18">18 August 2006</date> (back-up af Neg.
+                                    1022). </item>
+                                <item> Mikrofilm (arkiv), <idno>952</idno>, fra <date
+                                        when="2004-12-08">8. december 2004</date>
+                                </item>
+                                <item> Mikrofilm (suppl.), <idno>921</idno>, fra <date
+                                        when="2001-03-12">12 marts 2001</date> (supplerende
+                                    optagelser til Neg. 952). </item>
+                                <item> Sort-hvid fotografier fra <date when="2000-08-08">8 august
+                                        2000</date> (forstørret til 143 %). </item>
+                                <item> Sort-hvid fotografier (supplement) fra <date
+                                        when="2000-12-12">12. december 2000</date>
+                                    <note>bl. 22v, 32v</note>
+                                </item>
+                                <item> Diapositiver (6x6), <idno>TS 105</idno>, fra <date
+                                        when="2000-04-12">12. april 2000</date> (før konservering). </item>
+                                <item> Diapositiver (6x6), <idno>TS 209</idno>, fra <date
+                                        when="2005-03-10">10. marts 2005</date> (efter
+                                    konservering). </item>
+                            </list>
                         </surrogates>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
@@ -195,7 +163,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change>Oversat til dansk <date when="2009-08-12">12. august 2009</date> af <name type="person" key="EvaWed001">EW-J</name>.</change>
+            <change>Oversat til dansk <date when="2009-08-12">12. august 2009</date> af <name
+                    type="person" key="EvaWed001">EW-J</name>.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>

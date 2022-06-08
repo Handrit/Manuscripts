@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,11 +23,12 @@
                      <idno>2098</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Markusevangeliet</title>; <origPlace>uvis oprindelse</origPlace>,
-            <origDate notBefore="1175" notAfter="1225">ca. 1200</origDate>. </head>
                <msContents>
-                  <msItem>
+                  <summary>
+                     <title type="uniform">Markusevangeliet</title></summary>
+                  <msItem n="1" class="bibl">
+                     <locus from="1r" to="6v">1r-6v</locus>
+                     <title type="uniform">Markusevangeliet</title>
                      <textLang mainLang="la">Latin</textLang>
                      <note>Efter Vulgata, brudstykker af kap. V-VIII og XII</note>
                   </msItem>
@@ -36,25 +38,29 @@
                      <supportDesc material="perg">
                         <support>
                            <p>
-                              <material>Pergament</material>. I marginen ses på nogle blade spor af en
-                        ældre skrift (palimpsest?).</p>
+                              <material>Pergament</material>. I marginen ses på nogle blade spor af
+                              en ældre skrift (palimpsest?).</p>
                         </support>
                         <extent>6. <dimensions type="leaf" scope="all">
-                              <height>236</height>
-                              <width>170</width>
+                              <height unit="mm">236</height>
+                              <width unit="mm">170</width>
                            </dimensions>.</extent>
                         <condition>
-                           <p>Bl. <locus>2-3 og 5-6</locus> formindskede og beskadigede ved beskæring. Bl.
-                            <locus>1r og 4v</locus> ulæselige ved slid og smuds.</p>
+                           <p>Bl. 2-3 og 5-6 formindskede og beskadigede ved beskæring. Bl. 1r og 4v
+                              ulæselige ved slid og smuds.</p>
                         </condition>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>Skrevet <origDate notBefore="1190" notAfter="1210">ca. 1200</origDate>.
+                     Oprindelsesstedet er ukendt.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">281</biblScope>
+                        <biblScope unit="page">281</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

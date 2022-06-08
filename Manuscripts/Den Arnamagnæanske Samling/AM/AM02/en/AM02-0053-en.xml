@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -23,20 +23,16 @@
                             <idno>68</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform">Ólafs saga Tryggvasonar</title>;
-                            <origPlace>Iceland</origPlace>, <origDate notBefore="1375" notAfter="1399" cert="high" evidence="conjecture">s. XIV<hi rend="sup">4/4</hi></origDate>
-                    </head>
-                    <msContents>
-                        <msItem defective="true" class="kon">
+                     <msContents>
+                        <summary><title type="uniform">Ólafs saga Tryggvasonar</title></summary>
+                        <msItem n="1" defective="true" class="kon">
                             <locus from="1r" to="72v">1r-72v</locus>
                             <title type="uniform">Ólafs saga Tryggvasonar</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <explicit defective="true"> hv <expan>ar</expan> f G <expan>autr</expan>
                                 þa aftr t <expan>il</expan> herbergis <expan>ok</expan>
                                 <gap reason="lacuna"/>
                             </explicit>
-                            <listBibl>
                                 <bibl>
                                     <ref type="primary-3" target="FMS1">Fornmanna sögur</ref>
                                     <biblScope unit="volume">I</biblScope>
@@ -49,20 +45,32 @@
                                 </bibl>
                                 <bibl>
                                     <ref type="primary-3" target="FMS3">Fornmanna sögur</ref>
-                                    <biblScope unit="volume">III</biblScope>, <biblScope unit="pages">1-62:2</biblScope>
+                                    <biblScope unit="volume">III</biblScope>, <biblScope
+                                        unit="pages">1-62:2</biblScope>
                                     <note>Ed C</note>
                                 </bibl>
-                                <bibl>
-                                    <ref type="primary-1" target="EA-A1 EA-A2 EA-A3">Óláfs saga
+                            <bibl>Ólafur Halldórsson,
+                                    <ref type="primary-1" target="EA-A1">Óláfs saga
                                         Tryggvasonar en mesta</ref>
                                     <biblScope unit="volume">III</biblScope>
                                     <note>Ed. B</note>
                                 </bibl>
-                                <bibl>
+                            <bibl>Ólafur Halldórsson,
+                                <ref type="primary-1" target="EA-A2">Óláfs saga
+                                    Tryggvasonar en mesta</ref>
+                                <biblScope unit="volume">III</biblScope>
+                                <note>Ed. B</note>
+                            </bibl>
+                            <bibl>Ólafur Halldórsson,
+                                <ref type="primary-1" target="EA-A3">Óláfs saga
+                                    Tryggvasonar en mesta</ref>
+                                <biblScope unit="volume">III</biblScope>
+                                <note>Ed. B</note>
+                            </bibl>
+                            <bibl>Bjarni Einarsson, 
                                     <ref type="primary-2" target="Rit15">Hallfreðar saga</ref>
                                     <note>Ed. 53</note>
                                 </bibl>
-                            </listBibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -74,8 +82,8 @@
                                     </p>
                                 </support>
                                 <extent> 72. <dimensions type="leaf" scope="all">
-                                        <height>290</height>
-                                        <width>225</width>
+                                        <height unit="mm">290</height>
+                                        <width unit="mm">225</width>
                                     </dimensions>
                                 </extent>
                                 <condition>
@@ -110,8 +118,10 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1375" notAfter="1399" cert="high" evidence="external">
-                            <p> Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1375" notAfter="1399" cert="high" evidence="conjecture">the fourth quarter of the fourteenth
-                                    century</origDate> . </p>
+                            <p>Written in <origPlace>Iceland</origPlace> in <origDate
+                                    notBefore="1375" notAfter="1399" cert="high"
+                                    evidence="conjecture">the last quarter of the fourteenth
+                                    century</origDate>.</p>
                         </origin>
                         <provenance>
                             <p> On fol. 37 the name <q xml:lang="is">
@@ -125,7 +135,9 @@
                         </provenance>
                         <acquisition>
                             <p> According to the AM-slip and AM 435a 4to, f. 39v, Árni Magnússon
-                                obtained the codex in <date>1704</date> from <name type="person" key="GudSig001">Guðmundur Sigurðsson</name> of <name type="place">Álftanes</name> : <q xml:lang="is">Olafs saga
+                                obtained the codex in <date>1704</date> from <name type="person"
+                                    key="GudSig001">Guðmundur Sigurðsson</name> of <name
+                                    type="place">Álftanes</name> : <q xml:lang="is">Olafs saga
                                     Tryggvasonar, folio. vantar sumstadar. Komin til min 1704 fra
                                     Gudmundi Sigurdsyne á Alftanese.</q>
                             </p>
@@ -135,9 +147,8 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p> Catalogued <date>19.10.1999</date> by EW-J. Checked
-                                            <date>01.03.2000</date> by MJD. Parsed
-                                            <date>21.06.2000</date> by EW-J. </p>
+                                    <p> Catalogued <date when="1999-10-19">19.10.1999</date> by EW-J. Checked
+                                            <date when="2000-03-01">01.03.2000</date> by MJD.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
@@ -153,36 +164,15 @@
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
-                            <p> The manuscript was photographed in September 1967. The AMI has the
-                                following copies: <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade 53</idno>
-                                        <date>September 1967</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">70 mm</title>
-                                        <idno>70mm 102</idno>
-                                        <date>September 1967</date>
-                                        <note>Supplementary photographs</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">70 mm</title>
-                                        <idno>70mm 105</idno>
-                                        <date>September 1967 </date>
-                                        <note>Taken in ultraviolet light</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">70 mm</title>
-                                        <idno>70mm 102, 105 and 106</idno>
-                                        <date>September 1967</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <idno>AM 53 fol.</idno>
-                                        <date>1967</date>
-                                    </bibl>
-                                </listBibl>
+                            <p> The manuscript was photographed in <date when="1967-09">September
+                                    1967</date>. The following copies are kept at <name type="org"
+                                    key="AMS">The Arnamagnæan Collection</name>: <list>
+                                    <item> Plate, <idno>plade 53</idno>. </item>
+                                    <item> 70 mm, <idno>70mm 102</idno> (supplementary photographs). </item>
+                                    <item> 70 mm, <idno>70mm 105</idno> (using UV photography). </item>
+                                    <item> 70 mm, <idno>70mm 102, 105 and 106</idno>. </item>
+                                    <item> Black and white prints. </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>

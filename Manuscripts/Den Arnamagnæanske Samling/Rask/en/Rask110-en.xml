@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,33 +23,70 @@
                      <idno>2686</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">Nockrar sjónir og draumar</title>
-                  <title n="2">Lækningabók</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                 <msContents>
+                  <summary><title type="supplied">Nockrar sjónir og draumar</title>
+                     <title type="supplied">Lækningabók</title>.</summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <msItem n="1" class="draum">
+                     <locus from="1r" to="15v">1r-15v</locus>
+                     <title type="supplied" xml:lang="is">Nockrar sjónir og draumar</title>
+                     <rubric>Nockrar Sioonir og Draumar med deigi og dato</rubric>
+                     <msItem n="1.1" class="helgkv">
+                        <author key="ThoMag016">Þorvaldur Magnússon</author>
+                        <title type="uniform">Veronikukvæði</title>
+                        <rubric>Kvæde af Veronica</rubric>
+                        <note>Followed by</note>
+                     </msItem>
+                     <msItem n="1.2" class="anekd">
+                        <title type="supplied">Anecdotes</title>
+                     </msItem>
+                     <msItem n="1.3" class="ordsk">
+                        <title type="supplied">Safnaða heiti</title>
+                        <rubric>Um safnada Heite</rubric>
+                     </msItem>
+                     <msItem n="1.4" class="liffr">
+                        <title type="supplied">Náttúra mannsins</title>
+                        <rubric>Um<ex>m</ex> Man<ex>n</ex>&#x017F;ins a&#xA75B;t og Edle</rubric>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2" defective="true">
+                     <locus from="16" to="38">16-38</locus>
+                     <title type="supplied">Lækningabók</title>
+                      <rubric>Lækningabók</rubric>
+                     <incipit defective="true">Höfta af Kullda</incipit>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>38. 
-<dimensions type="leaf" scope="all">
-                              <height>170</height>
-                              <width>107</width>
-                           </dimensions>
+                        <support><material>Paper</material>.</support>
+                        <extent>38. Fol. 1v is blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">170</height>
+                              <width unit="mm">107</width>
+                           </dimensions>.
                         </extent>
+                        <condition>Lacuna after fol. 30; the following leaves (except from fol. 32 are a later addition).</condition>
                      </supportDesc>
                   </objectDesc>
-               </physDesc>
+                      </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1700" notAfter="1799"
+                     >s. XVIII</origDate>. Fol. 1r carries an comprehensive title ending with the words:
+                     <q>Skri&#xA77C;ad ad Felli i Vopna F. <lb/> ANNO <date when="1758"
+                        >1758</date></q>.</origin>
+                  <provenance>Towards the end of the manuscript the names <q><name type="person"
+                     key="Wiuooo003">CHWium</name></q> and <q>Þordur Arna Son</q> are found.</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">561</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-18" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

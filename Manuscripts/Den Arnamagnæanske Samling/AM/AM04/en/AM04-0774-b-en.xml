@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,32 +26,58 @@
                      <idno>1901</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Dend Tredie Part af det saa kaldede Gamle og Ny Grønlands Beskrivelse</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1730">s. XVII in</origDate>
-               </head>
                <msContents>
+                  <summary>
+                     <title type="supplied">Descripton of Greenland, Part III</title>
+                     <note>The contet is similar to <ref type="ms" target="#AM04-0774-a-en">AM 774 a
+                           4to</ref>. Thes catalogue number, however, contains an
+                     appendix.</note></summary>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="ArnJon001">Arngrímur Jónsson</name>
-                     </author>
-                     <textLang mainLang="da">Danish</textLang>
+                     <locus from="1r" to="39v">1r-39v</locus>
+                     <author key="ArnJon001">Árngrimur Jónsson Vídalín</author>
+                     <title type="supplied">Descripton of Greenland, Part III</title>
+                     <respStmt>
+                        <resp key="trl"/>
+                        <name type="person" key="ArnJon001">Árngrimur Jónsson Vídalín</name>
+                     </respStmt>
+                     <textLang mainLang="da"/>
+                     <rubric>Dend Tredie Part <lb/> af det saa kaldede <lb/> Gamle oc Nye Grönlands
+                        <lb/> Beskrivelse</rubric>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="40r" to="42r">40-42r</locus>
+                     <title type="supplied">Appendix on Navigation to Greenland</title>
+                     <textLang mainLang="da"/>
+                  </msItem>
+                  <msItem n="3">
+                     <locus from="42v" to="44v">42v-44v</locus>
+                     <title type="supplied">Description of a Map of Greenland</title>
+                     <textLang mainLang="de"/>
+                     <rubric>Kurtze Erklärung <lb/> der beygefügten Charten des Grönländisken <lb/>
+                        Eilandſs</rubric>
+                     <note>The map is not enclosed.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>44. 
-<dimensions type="leaf" scope="all">
-                              <height>215</height>
-                              <width>168</width>
-                           </dimensions>
+                        <support><material>Paper</material>.</support>
+                        <extent>44. <dimensions type="leaf" scope="all">
+                              <height unit="mm">215</height>
+                              <width unit="mm">168</width>
+                           </dimensions>.
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Denmark</origPlace>, <origDate notBefore="1700" notAfter="1725"
+                  evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup">1/4</hi></origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                        unit="volume">II</biblScope><biblScope unit="page">195</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

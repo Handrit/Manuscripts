@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,30 +23,81 @@
                      <idno>687</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Magnus Eriksson's Town Law</title>;
-                  <origPlace>Sweden</origPlace>,
-                  <origDate notBefore="1550" notAfter="1599">s. XVI<hi rend="sup">2</hi></origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="sv">Swedish</textLang>
+                  <summary><title type="uniform">Magnus Eriksson's Municipal Law for Sweden</title></summary>
+                  <msItem n="1">
+                     <locus from="2r" to="100v">2r-100v</locus>
+                     <title type="uniform">Magnus Eriksson's Municipal Law for Sweden</title>
+                     <textLang mainLang="sv">Swedish</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>101 (100 + 1bis). 
-<dimensions type="leaf" scope="all">
-                              <height>194</height>
-                              <width>150</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>101. Fol 1 is an originally blank
+                           fly-leaf. <dimensions type="leaf" scope="all">
+                              <height unit="mm">194</height>
+                              <width unit="mm">150</width>
                            </dimensions>
                         </extent>
+                        <foliation>Foliated 1-100 (including 1<hi rend="sup">bis</hi>).</foliation>
+                        <condition>
+                           <p>The outer part of the leaves are damaged due to weear and tear and
+                              exposure to moist.</p>
+                        </condition>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>Red running titles, rubrics etc.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="unknown">Ifølge Schlyter og Collin (<bibl>
+                           <ref type="secondary-1" target="CorpJur9">Corpus juris Sueo-Gotorum
+                              antiqui</ref>
+                           <biblScope unit="volume">IX</biblScope>
+                           <biblScope unit="page">xxxiv</biblScope>
+                        </bibl>) er håndskriftet skrevet af stadsskriveren <name type="person"
+                           key="JacIll001">Jacob Iller</name> i <name type="place">Mariestad</name>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="initial" subtype="flourished">
+                        <p>Some of the initials are flourished.</p>
+                     </decoNote>
+                  </decoDesc>
+                  <accMat>There are two AM-slips. The first carries a note in <name type="person"
+                        key="ArnMag001">Árni Magnússon</name>'s hand: <q>Ex auctione Rostgardiana
+                        Num. 457</q>. The second has references to the contents of the law in a
+                        <date notBefore="1600" notAfter="1699">seventeenth century</date>
+                     hand.</accMat>
                </physDesc>
+               <history>
+                  <origin><origPlace>Sweden</origPlace>, <origDate notBefore="1550" notAfter="1599"
+                        >s. XVI<hi rend="sup">2</hi></origDate></origin>
+                  <acquisition><name type="person" key="ArnMag001">Árni Magnússon</name> acquired
+                     the manuscript on <name type="person" key="FreRos001">Rostgaard</name>'s
+                     auction in <date when="1726">1726</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">369</biblScope>
+                     </bibl>
+                     <bibl>Schlyter &amp; Collin, <ref type="secondary-1" target="CorpJur9">Corpus
+                           juris Sueo-Gotorum antiqui</ref>
+                        <biblScope unit="volume">IX</biblScope>
+                        <biblScope unit="page">xxxiv</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2022-04-28" who="EvaWed001">Expanded.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,84 @@
                      <idno>2649</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Jónsbók</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1585" notAfter="1600">s. XVI ex.</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="uniform">Jónsbók</title></summary>
+                  <msItem n="1" class="log">
+                     <locus from="1r" to="89v">1r-89v</locus>
+                     <title type="uniform">Jónsbók</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <msItem n="1.1">
+                        <locus from="1" to="70r">1-70r</locus>
+                        <title type="uniform">Jónsbók</title>
+                        <incipit defective="true">handsalz slijte </incipit>
+                        <note>Beginning in <title type="uniform">Landsleigub&#x01EB;lkr</title>,
+                           chapter 1</note>
+                     </msItem>
+                     <msItem n="1.2" class="regist">
+                        <locus from="70v" to="80r">70v-80r</locus>
+                        <title type="supplied">Table of Contents</title>
+                     </msItem>
+                     <msItem n="1.3" class="log">
+                        <locus from="80r" to="89v">80r-89v</locus>
+                        <title type="supplied">Legal Amendments</title>
+                        <explicit defective="true">ept<ex>er</ex> alm<ex>enn</ex>ilegu<ex>m</ex>
+                              verd<supplied reason="damage">au&#xA75B;<ex>um</ex>
+                           </supplied>
+                           <lb/> j god&#xA75B;i</explicit>
+                        <note>Ends defectively in an <foreign xml:lang="is"
+                              >alþingissamþykkt</foreign> of <date when="1585">1585</date>
+                           <q>Um tíundargjald</q> etc.</note>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>89. 
-<dimensions type="leaf" scope="all">
-                              <height>151</height>
-                              <width>93</width>
-                           </dimensions>
-                        </extent>
+                        <support>
+                           <p>
+                              <material>Paper</material>.</p>
+                        </support>
+                        <extent>89. <dimensions type="leaf" scope="all">
+                              <height unit="mm">151</height>
+                              <width unit="mm">93</width>
+                           </dimensions>.</extent>
+                        <condition>After fol. 88, ending with the renewed <foreign xml:lang="is"
+                              >sáttmáli</foreign> of 1302, a lacuna is found.</condition>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>Coloured initials, mostly red or green; large flourished chapter initials and
+                              rubrics in red.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Bound in a modern half-binding. An envelope and a letter of <date when="1743">1743</date> from <name
+                              type="person" key="BraBja002">Brandur Bjarnason</name> to the priest
+                              <name type="person" key="JonTho004">Jón Þórðarson</name> of Einholt
+                           (in an Icelandic and Low German mixed language) are used as
+                           flyleaves.</p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1585" notAfter="1599"
+                        >s. XVI ex</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >545</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-29" who="EvaWed001">Opdateret opmærkning</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

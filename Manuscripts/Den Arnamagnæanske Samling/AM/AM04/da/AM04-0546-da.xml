@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,12 +22,10 @@
                      <idno>1323</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Trójumanna saga</title>; <origPlace>Island</origPlace>,
-                     <origDate notBefore="1600" notAfter="1699" resp="KKKat">s. XVII</origDate>
-               </head>
-               <msContents>
-                  <msItem>
+                <msContents>
+                  <summary><title type="uniform">Trójumanna saga</title></summary>
+                  <msItem n="1" class="sagnps">
+                     <locus from="1r" to="54v">1r-54v</locus>
                      <title type="uniform">Trójumanna saga</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <rubric>Hier hepur wpp Tröiuman<ex>n</ex>a sög<lb/>u fra vpp hafe til Enda <gap reason="irrelevant"/>
@@ -44,8 +42,8 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>54. <dimensions type="leaf" scope="all">
-                              <height>197</height>
-                              <width>160</width>
+                              <height unit="mm">197</height>
+                              <width unit="mm">160</width>
                            </dimensions>.</extent>
                         <condition>Noget beskadiget ved slid.</condition>
                      </supportDesc>
@@ -59,6 +57,8 @@
                   </accMat>
                </physDesc>
                <history>
+                  <origin><origPlace>Island</origPlace>,
+                     <origDate notBefore="1600" notAfter="1699" resp="KKKat">s. XVII</origDate>.</origin>
                   <provenance>Håndskriftet har tilhørt <name type="person" key="AudEyj002">Auðunn</name> fra <name type="place" key="ArnEyr01">Arnarhóll</name>
                         (<q xml:lang="is">Audunn ä Arnarhole i Eyrarſveit</q>), som skrev de senere
                      tilsatte ark, og senere <name type="person" key="VigArn001">Vigfús
@@ -73,7 +73,7 @@
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">688</biblScope>
+                        <biblScope unit="page">688</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

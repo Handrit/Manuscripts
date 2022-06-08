@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,71 @@
                      <idno>1985</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Regum Daniæ Series</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1590" notAfter="1610">c. 1600</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Regum Daniæ Series</title></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">REGVM DANIÆ <lb/> SERIES</titlePart>
+                        <titlePart type="sub">VNA CVM NOTATIO<lb/>ne succincta temporum <ex>et</ex>
+                           re<lb/>rum maxime memorabilium <lb/> quæ singulis regnatib<ex>us</ex>
+                           <lb/> per Daniam <ex>et</ex> in <lb/> vicinia acciderunt. <lb/>
+                           Collectore <lb/> Magno Mathia Th. Lectore <ex>et</ex>
+                           <lb/> Canonico Lundensi.</titlePart>
+                     </docTitle>
+                  </titlePage>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="MagMat001">Magnus Mathias</name>
-                     </author>
+                     <locus from="1v" to="5v">1v-5v</locus>
+                     <title type="supplied">Title, List of Kings etc.</title>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="6r" to="189v">6r-189v</locus>
+                     <author key="MagMat001">Magnus Mathias</author>
+                     <title type="supplied">Regum Daniæ Series</title>
                      <textLang mainLang="la">Latin</textLang>
+                     <note>From king Dan to the death of Christian III.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>191. 
-<dimensions type="leaf" scope="all">
-                              <height>195</height>
-                              <width>170</width>
+                        <extent>191. Fols 1v-2, 188v and 190-191r are blank. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">195</height>
+                              <width unit="mm">170</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>The text is paginated 1-362.</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
+                   <additions>
+                     <p>Fols 7, 24 and 29 are later inserted leaves. A small slip is appended to fol. 20.</p>
+                     <p>Several marginalia.</p>
+                     <p>On fol. 1r a saying in Latin occur and on fol. 191v a calculation of
+                         <q xml:lang="da">1 personis wnd<ex>er</ex>holldning en monid</q> is found.</p>
+                  </additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark</origPlace>, <origDate notBefore="1590" notAfter="1610"
+                        evidence="conjecture" resp="KKKat">ca. 1600</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">234</biblScope></bibl>
+                     <bibl>Rørdam, <ref target="HHDNSR">Historieskrivningen og Historieskriverne i
+                           Danmark og Norge siden Reformationen</ref>
+                        <biblScope unit="page">58</biblScope>
+                     </bibl>
+                     <bibl>Rørdam, <ref target="HolRør1873-1875">Historiske Kildeskrifter og
+                           Bearbejdelser af dansk Historie især fra det 16 Aarhundrede</ref>
+                        <biblScope unit="volume">I:2</biblScope>
+                        <biblScope unit="page">81 ff.</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

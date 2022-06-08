@@ -1,65 +1,73 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="main">AM 331 4to</title>
-            </titleStmt>
-            <publicationStmt>
-                <authority>Den Arnamagnæanske Samling</authority>
-                <pubPlace>København</pubPlace>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="AM04-0331-en" xml:lang="en">
-                    <msIdentifier>
-                        <country>Denmark</country>
-                        <settlement>København</settlement>
-                        <institution key="AMS"/>
-                        <repository>Den Arnamagnæanske Samling</repository>
-                        <collection key="AM"/>
-                        <idno>AM 331 4to</idno>
-                        <altIdentifier type="internal" subtype="KKKat">
-                            <idno>1078</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                    <head>
-                        <title>Description of Norway</title>, <origPlace>Iceland?</origPlace>;
-                            <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-                        <note>Translation into Icelandic.</note>
-                    </head>
-                    <msContents>
-                        <msItem n="1">
-                            <author>Peder Claussøn</author>
-                            <title>Description of Norway</title>
-                            <textLang mainLang="is">Icelandic</textLang>
-                            <rubric>Wtskyring wm Noreg</rubric>
-                            <note>Two thirds of fol. 28 are left blank, leaving open space for the
-                                most part of <q xml:lang="is">Qviendiz heide</q>
-                     </note>
-                        </msItem>
-                    </msContents>
-                    <physDesc>
-                        <objectDesc form="codex">
-                            <supportDesc material="chart">
-                                <support>
-                                    <p>Paper.</p>
-                                </support>
-                                <extent>75. <dimensions type="leaf" scope="all">
-                                        <height>190</height>
-                                        <width>154</width>
-                                    </dimensions>
-                        </extent>
-                                <condition>
-                                    <p>The upper margin is cut out.</p>
-                                </condition>
-                            </supportDesc>
-                        </objectDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 331 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0331-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 331 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>1078</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="supplied">Peder Claussøn Friis' Description of
+								Norway</title> translated into Icelandic.</summary>
+						<msItem n="1" class="landfr tyd">
+							<locus from="1r" facs="#AM04-0331-0001r" to="75v">1r-75v</locus>
+							<author key="PedFri001">Peder Claussøn Friis</author>
+							<title type="uniform">Description of Norway</title>
+							<textLang mainLang="is"/>
+							<rubric>Wtskyring wm Noreg</rubric>
+							<note>Two thirds of fol. 28 are left blank, leaving open space for the
+								most part of <q xml:lang="is">Qviendiz heide</q>
+							</note>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p><material>Paper</material>.</p>
+								</support>
+								<extent>75. <dimensions type="leaf" scope="all">
+										<height unit="mm">190</height>
+										<width unit="mm">154</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<p>The top margin is excised.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history><origin><origPlace>Iceland?</origPlace>,
+						<origDate notBefore="1600" notAfter="1699">s. XVII</origDate>.</origin></history>
+					<additional>
+						<listBibl>
+							<bibl><ref type="secondary-1" target="KKKat"/>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="page">573</biblScope>
+							</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0331-0001r" n="0">
 			<desc>0001r</desc>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,18 +22,20 @@
                             <idno>2190</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <msItem n="1" class="sendbr">
-                        <title type="supplied">Brev</title>
-                        <textLang xml:lang="da">Dansk</textLang>
-                        <respStmt>
-                            <resp key="crp"/>
-                            <name type="person" key="OddHja001">Oddur Jónsson Hjaltalín</name>
-                        </respStmt>
-                        <respStm>
-                            <resp key="rcp"/>
-                            <name type="person">Matthias Hastrup Bornemann</name>
-                        </respStm>
-                    </msItem>
+                    <msContents>
+                        <msItem n="1" class="sendbr">
+                            <title type="supplied">Brev</title>
+                            <textLang xml:lang="da">Dansk</textLang>
+                            <respStmt>
+                                <resp key="crp"/>
+                                <name type="person" key="OddHja001">Oddur Jónsson Hjaltalín</name>
+                            </respStmt>
+                            <respStmt>
+                                <resp key="rcp"/>
+                                <name type="person" key="BorMat001">Matthias Hastrup Bornemann</name>
+                            </respStmt>
+                        </msItem>
+                    </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
@@ -46,7 +48,8 @@
                         </objectDesc>
                     </physDesc>
                     <history>
-                        <origin>Skrevet i <origPlace>Island</origPlace> i <origDate when="1831">1831</origDate>.</origin>
+                        <origin>Skrevet i <origPlace>Island</origPlace>, <origDate when="1831"
+                                >1831</origDate>.</origin>
                     </history>
                 </msDesc>
             </sourceDesc>

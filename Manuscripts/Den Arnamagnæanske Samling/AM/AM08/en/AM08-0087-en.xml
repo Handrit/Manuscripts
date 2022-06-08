@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,16 +22,15 @@
                             <idno>2290</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Religious Reflections</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1650" notAfter="1699">s. XVII 2/2</origDate>
-                        <note>Icelandic translation of the Danish edition from 1642: <q xml:lang="is">Af Þydskun<ex>n</ex>e vtsett ä Donsku, af <name type="person" key="OluGre002">O G B</name>
-                     </q>.</note>
-                    </head>
-                    <msContents>
+                     <msContents>
+                        <summary><title type="supplied">Guðlegar hugleiðingar</title><note>Icelandic translation of the Danish edition from 1642: <q xml:lang="is">Af Þydskun<ex>n</ex>e vtsett ä Donsku, af <name type="person" key="OluGre002">O G B</name>
+                     </q>.</note></summary>
                         <msItem n="1">
-                            <author>Martinus Hyllerus</author>
+                            <author key="MarHyl001">Martin Hyller</author>
+                            <respStmt>
+                                <resp key="trl"/>
+                                <name type="person" key="OluGre002">Oluf Gregerssøn</name>
+                            </respStmt>
                             <title type="uniform">XVII Guðlegar hugleiðingar út af Esajæ cap. 49, v.
                                 15</title>
                             <textLang mainLang="is">Icelandic</textLang>
@@ -44,10 +43,10 @@
                                     <p>
                               <material>Paper</material>.</p>
                                 </support>
-                                <extent>101, By mistake, fols 94-101 are inserted efter f. 9.
+                                <extent>101, By mistake, fols 94-101 are inserted efter fol. 9.
                                         <dimensions type="leaf" scope="all">
-                                        <height>157</height>
-                                        <width>100</width>
+                                        <height unit="mm">157</height>
+                                        <width unit="mm">100</width>
                                     </dimensions>
                         </extent>
                             </supportDesc>
@@ -57,6 +56,17 @@
                                     Magnusson</q>.</p>
                         </additions>
                     </physDesc>
+                    <history><origin><origPlace>Iceland</origPlace>
+                        <origDate notBefore="1650"
+                            notAfter="1699">s. XVII<hi rend="sup">2</hi></origDate>.</origin></history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">385</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

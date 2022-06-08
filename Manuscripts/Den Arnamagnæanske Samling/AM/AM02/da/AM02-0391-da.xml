@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,43 +23,42 @@
                             <idno>549</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Afskrifter udførte for det Arnamagnæanske Legat</title>
-                        <origPlace>Danmark (?)</origPlace>
-                        <origDate notBefore="1865" notAfter="1885">ca. 1875</origDate>
-                    </head>
-                    <msContents>
+                       <msContents>
+                    	<summary><title type="supplied">Afskrifter udførte for det Arnamagnæanske Legat</title></summary>
                         <msItem n="1" class="kon">
-                            <locus from="1r" to="5v">1r-5v</locus>
+                            <locus from="1r" facs="#AM02-0391-0001r" to="5v">1r-5v</locus>
                             <title type="unform">Ólafs saga Tryggvasonar</title>
                         	<note>Den legendariske version.</note>
                             <textLang mainLang="is"/>
                             <note>Brudstykke</note>
-                        	<filiation>Afskrift af <ref type="ms">Upps DG 4-7</ref>.</filiation>
+                        	<filiation>Afskrift af <ref type="ms">Upps DG 4-7</ref> (<q><locus from="1r" facs="#AM02-0391-0001r" to="1r">1r</locus> Brudstykke af Odd Mukns Olafs
+                        		saga (Efter cod. Upl. 4-7 fol.)</q>).</filiation>
                         </msItem>
-                    	<msItem n="2" class="rimur">
-                            <locus from="7r" to="12v">7r-12v</locus>
-                            <title type="uniform" xml:lang="da">Dialog mellem tvende elskende</title>
+                    	<msItem n="2">
+                            <locus from="7r" facs="#AM02-0391-0007r" to="12v">7r-12v</locus>
                             <title type="uniform" xml:lang="is">Tveggja elskanda ljóð</title>
-                        	<filiation>Afskrift af <ref type="ms">Upps DG 4-7</ref>.</filiation>
+                    		<filiation>Afskrift af <ref type="ms">Upps DG 4-7</ref> (<q><locus from="7r" facs="#AM02-0391-0007r" to="7r">7r</locus>
+                    			Dialog mellem tvende elskende (Efter cod. Ups. 4-7 fol.)</q>).</filiation>
                         </msItem>
                     	<msItem n="3" class="ridd heims sidfr">
-                            <locus from="15r" to="18v">15r-18v</locus>
-                        	<filiation>Afskrift af <ref type="ms">Upps DG 4-7</ref>.</filiation>
+                            <locus from="15r" facs="#AM02-0391-0015r" to="18v">15r-18v</locus>
+                    		<filiation>Afskrift af <ref type="ms">Upps DG 4-7</ref> (<q><locus from="15r" facs="#AM02-0391-0015r" to="15r">15r</locus> 1. Dialog mellem Mod og
+                    			Feighed (Brudst.) <lb/> 2. Elis saga (1. kap.) <lb/> 3. Strengleikar
+                    			(Indledningen). <lb/> Efter Cod. Ups. 4-7 fol.)</q>).</filiation>
                         	<msItem n="3.1" class="heims sidfr">
-                                <title type="uniform">Dialog mellem mod og fejhed</title>
-                                <note>Brudstykke</note>
+                        		<title type="uniform">Hugrækki ok æðri</title>
+                        		<note>Brudstykke</note>
                             </msItem>
                         	<msItem n="3.2" class="ridd">
                             	<title type="uniform">Elis saga ok Rósamundu</title>
                             </msItem>
-                        	<msItem n="3.3" class="formal ridd">
+                        	<msItem n="3.3">
                                 <title type="uniform">Strengleikar</title>
                                 <note>Indledningen</note>
                             </msItem>
                         </msItem>
                         <msItem n="4" class="kon">
-                            <locus from="21r" to="36v">21r-36v</locus>
+                            <locus from="21r" facs="#AM02-0391-0021r" to="36v">21r-36v</locus>
                             <title type="supplied">Kongesagaer</title>
                         	<filiation>Afskrift af <ref type="ms">OsloUB 371 fol.</ref>.</filiation>
                         	<!-- Kålund: Afskrift af de første 16 blade af Fagrskinna??? NRA 51 Fragrskinna B is just one leaf. has this been mixed up with OsloUB 371 fol?  -->
@@ -73,8 +73,8 @@
                                     </p>
                                 </support>
                                 <extent>36. Bl. 6, 13-14, 19-20 er helt ubeskrevne. <dimensions type="leaf" scope="all">
-                                        <height>375</height>
-                                        <width>233</width>
+                                        <height unit="mm">375</height>
+                                        <width unit="mm">233</width>
                                     </dimensions>
                         </extent>
                             </supportDesc>
@@ -85,11 +85,13 @@
                             </handNote>
                         </handDesc>
                     </physDesc>
+                	<history><origin><origPlace>Danmark?</origPlace>
+                		<origDate notBefore="1865" notAfter="1885">ca. 1875</origDate>.</origin></history>
                     <additional>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">303</biblScope>
+                        <biblScope unit="page">303</biblScope>
                      </bibl>
                         </listBibl>
                     </additional>

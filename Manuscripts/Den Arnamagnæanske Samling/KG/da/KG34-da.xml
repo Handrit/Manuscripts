@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,32 +23,35 @@
                             <idno>2818</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Konrad Gislason, personalia</title>;
-                            <origPlace>Danmark</origPlace>, <origDate notBefore="1800" notAfter="1899">s. XIX</origDate>
-                    </head>
                     <msContents>
+                        <summary>
+                            <title type="supplied">Konrad Gislason, personalia</title>
+                        </summary>
                         <msItem n="1">
-                            <title type="supplied">Officielle skrivelser til Konrad Gislason</title>
+                            <title type="supplied">Officielle skrivelser</title>
+                            <respStmt>
+                                <resp key="rcp"/>
+                                <name type="person" key="KonGis001">Konráð Gíslason</name>
+                            </respStmt>
                         </msItem>
                         <msItem n="2">
-                            <title type="supplied">Autobiografiske fragmenter og andet privatlivet
-                                vedkommende</title>
+                            <title type="supplied">Autobiografiske uddrag og andet vedrørende Konrad Gislasons
+                                privatliv</title>
                         </msItem>
                         <msItem n="3">
-                            <title type="supplied">Diplomer </title>
+                            <title type="supplied">Diplomer</title>
                             <msItem n="3.1">
-                                <title type="supplied">Diplom mv. som æresdoktor ved Lunds
+                                <title type="supplied">Diplom som æresdoktor ved Lunds
                                     universitets 2. sekularfest</title>
                             </msItem>
-                            <msItem n="3.2.">
+                            <msItem n="3.2">
                                 <title type="supplied">Diplom som medlem af Vitterhets Historie och
-                                    Atiqvitets Akademien</title>
+                                    Antikvitets Akademien</title>
                             </msItem>
                         </msItem>
                         <msItem n="4">
-                            <title>Protokol over forelæsningerne i Islandsk ved undervisningskurset
-                                for seminariste 1859-1882</title>
+                            <title type="supplied">Dokument over forelæsningerne i islandsk ved undervisningskurser
+                                for seminarister 1859-1882</title>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -55,15 +59,34 @@
                             <supportDesc material="chart">
                                 <support>
                                     <p>
-                                        <material>Papir</material> .</p>
+                                        <material>Papir.</material>
+                                    </p>
                                 </support>
                                 <extent>Vekslende format, hovedsageligt folio.</extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Danmark</origPlace>, <origDate notBefore="1828"
+                                notAfter="1891">1800-tallet</origDate></origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <custodialHist>
+                                <p>Katalogiseret <date when="2021-11-08"/> efter kataloget af <name
+                                        type="person" key="AnnChr001">Annika Christensen</name>.</p>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                                    >II</biblScope>
+                                <biblScope unit="page">605-606</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2022-03-31" who="EvaWed001">Korrekturlæst.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

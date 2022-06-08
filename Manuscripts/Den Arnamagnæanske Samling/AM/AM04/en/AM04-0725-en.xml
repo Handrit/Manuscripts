@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,23 +23,46 @@
                      <idno>1823</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="la">Calendarium Romanum</title>
-                  <origDate notBefore="1200" notAfter="1300">s. XIII</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <summary><title type="supplied" xml:lang="la">Calendarium
+                     Romanum</title></summary>
+                  <msItem n="1" class="timat">
+                     <locus from="1r" to="6v">1r-6v</locus>
+                     <title type="supplied" xml:lang="la">Calendarium Romanum</title>
+                     <textLang mainLang="la">Latin</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>6. </extent>
+                        <extent>6. <dimensions type="leaf" scope="all">
+                           <height unit="mm">203</height>
+                           <width unit="mm">142</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
+                  <accMat>AN AM-slip in <name type="person" key="ArnMag001">Árni
+                     Magnússon</name>'s hand reads: <q>Framanvid Latinſka Bibliu Verſionis Hieronymi.
+                        hveria eg hafdi feinged epter Etats Raad Roſencrantz</q>.</accMat>
                </physDesc>
+               <history>
+                  <origin>Written in
+                     <origDate notBefore="1200" notAfter="1299">the thirteenth century</origDate>. The place of origin is unknown.</origin>
+                  <acquisition>According to the AM-slip, Árni Magnusson acquired the manuscript after
+                     the death of <name type="person" key="JenRos001"
+                        >Jens Rosenkrantz</name>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">154</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

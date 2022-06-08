@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,60 @@
                      <idno>1967</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Liber Memoriarum et Donariorum Ecclesiæ Hamburgensis Ex vetusto codice Bibliotecæ Cathedralis descriptus</title>
-                  <!--origPlace></origPlace-->
-<origDate notBefore="1707-01-01" notAfter="1707-12-31">1707</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <summary><title type="supplied">Liber Memoriarum et Donariorum Ecclesiæ
+                        Hamburgensis</title></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main"><locus from="1r" to="1r">1r</locus> Liber Memoriarum
+                           et Donario<lb/>rum Eccleſiæ Hamburgensis <lb/> Ex vetusto codice
+                           Bibliotecæ Cathedra<lb/>lis deſcriptus</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1">
+                     <locus from="2r" to="59r">2r-59r</locus>
+                     <title type="supplied">Liber Memoriarum et Donariorum Ecclesiæ
+                        Hamburgensis</title>
+                     <textLang mainLang="la">Latin</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>59. 
-<dimensions type="leaf" scope="all">
-                              <height>200</height>
-                              <width>155</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>59 (including. 1<hi rend="sup">bis</hi>). Fol. 59v is blank.
+                              <dimensions type="leaf" scope="all">
+                              <height unit="mm">200</height>
+                              <width unit="mm">155</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Paginated 1-115.</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
+                  <additions>Below the title, <name type="person" key="ArnMag001">Árni
+                        Magnússon</name> added: <q>ab <lb/> Ottone Sperlingio. <lb/> ex cuius Msto
+                        hoc exemplar deſcri<lb/>ptum eſt anno <date when="1707">1707</date></q>. </additions>
+                  <accMat>On the two AM-slips <name type="person" key="ArnMag001">Árni
+                        Magnússon</name> wrote some comments on the relationship between <name
+                        type="person" key="OttSpe001">Sperlings</name>'s copy and the orginal
+                     etc.</accMat>
                </physDesc>
+               <history>
+                  <origin><origPlace>Germany?</origPlace>
+                     <origDate when="1707">1707</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">227</biblScope></bibl>
+                     <bibl>Langebek, <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
+                           Aevi</ref>
+                        <biblScope unit="volume">V</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

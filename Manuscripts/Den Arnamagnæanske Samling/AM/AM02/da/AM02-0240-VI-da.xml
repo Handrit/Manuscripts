@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,12 +23,11 @@
                      <idno>362</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Maríu saga</title>; <origPlace>Island</origPlace>, <origDate notBefore="1390" notAfter="1410" cert="high" resp="ONP">ca. 1400</origDate>.</head>
                <msContents>
+                  <summary><title type="uniform">Maríu saga</title></summary>
                   <msItem n="1" class="hels">
-                     <title type="uniform" xml:lang="is">Maríu saga</title>
-                     <textLang mainLang="is">Norrønt/islandsk</textLang>
+                     <title type="uniform">Maríu saga</title>
+                     <textLang mainLang="non">Norrønt/islandsk</textLang>
                      <incipit defective="true">ſong <gap reason="lacuna"/> heilaga
                         c<ex>ro</ex>ſſi</incipit>
                      <explicit defective="true">h<ex>ann</ex> s<ex>va</ex> ſalug<ex>ur</ex>
@@ -43,8 +42,8 @@
                               <material>Pergament.</material></p>
                         </support>
                         <extent>1. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>285</height>
-                              <width>217</width>
+                              <height unit="mm">285</height>
+                              <width unit="mm">217</width>
                            </dimensions>.</extent>
                      </supportDesc>
                      <layoutDesc>
@@ -60,24 +59,32 @@
                   </bindingDesc>
                </physDesc>
                <history>
-                  <origin>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl>
-                        <ref type="secondary-1" target="KKKat">Katalog</ref></bibl>) har dateret
-                     fragmentet til <origDate cert="medium" notBefore="1350" notAfter="1399">1300-tallets anden halvdel</origDate>, mens Unger (<bibl>
-                        <ref type="secondary-1" target="Mariu1871">Maríu saga</ref>
-                        <biblScope unit="pages">xxix ("m"), xv</biblScope>
-                     </bibl>) og Stefán Karlsson (<bibl>
+                  <!-- <origPlace>Island</origPlace>, <origDate notBefore="1390" notAfter="1410" cert="high" resp="ONP">ca. 1400</origDate> -->
+                  <origin>Skrevet i <origPlace>Island</origPlace>, <origDate notBefore="1390"
+                        notAfter="1410" cert="high">c. 1400</origDate> (<bibl>
                         <ref type="secondary-1" target="EIMF7">Stefán Karlsson 1967</ref>
-                        <biblScope unit="pages">21 n. 14</biblScope>
-                     </bibl>)har dateret der til <origDate notBefore="1390" notAfter="1410" cert="high">c.
-                        1400</origDate>
-                  </origin>
+                        <biblScope unit="page">21 n. 14</biblScope>
+                     </bibl>). <name type="person" key="KriKaa001">Kålund</name>s datering:
+                     1300-tallets anden halvdel (<bibl>
+                        <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     </bibl>).</origin>
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat"/>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">208</biblScope>
+                        <biblScope unit="page">208</biblScope>
                      </bibl>
+                     <bibl>
+                        <ref type="secondary-1" target="EIMF7">Stefán Karlsson 1967</ref>
+                        <biblScope unit="page">21</biblScope><!-- more pages? -->
+                     </bibl>
+                     <bibl>
+                        <ref type="secondary-1" target="Mariu1871"/>
+                        <biblScope unit="page">xxix ("m"), xv</biblScope><!-- more pages? -->
+                     </bibl>
+                     <bibl><ref type="secondary" target="Wolf2013"/>
+                        <biblScope unit="page">236</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -24,19 +24,19 @@
                </msIdentifier>
                <msContents xml:lang="is">
                   <textLang mainLang="is">Íslenska</textLang>
-                  <msItem defective="true" class="ridd">
-                     <locus from="1r" to="3v">1r-3v</locus>
+                  <msItem n="1" defective="true" class="ridd">
+                     <locus from="1r" facs="#AM04-0567-XVII-beta-0001r" to="3v">1r-3v</locus>
                      <title type="uniform">Mágus saga</title>
                      <title type="parallel">Mágus saga jarls</title>
                      <title type="parallel">Bragða-Mágus saga</title>
                      <note>Tvö brot, texti einnig skertur vegna afskurðar.</note>
-                     <msItem n="1" defective="true">
-                        <locus from="1r" to="2v">1r-2v</locus>
+                     <msItem n="1.1" defective="true">
+                        <locus from="1r" facs="#AM04-0567-XVII-beta-0001r" to="2v">1r-2v</locus>
                         <incipit defective="true">… undan við sína sveit …</incipit>
                         <explicit defective="true">… [en fyrir því að] …</explicit>
                      </msItem>
-                     <msItem n="2" defective="true">
-                        <locus from="3r" to="3v">3r-3v</locus>
+                     <msItem n="1.2" defective="true">
+                        <locus from="3r" facs="#AM04-0567-XVII-beta-0003r" to="3v">3r-3v</locus>
                         <incipit defective="true">… hann bað nú Baldvina frægja …</incipit>
                         <explicit defective="true">… sínum herra að fagna. Þessir menn …</explicit>
                      </msItem>
@@ -59,11 +59,11 @@
                         <condition>
                            <p>
                               <list>
-                                 <item n="1">Skorið hefur verið neðan af bl. <locus from="1r" to="1v">1</locus> og <locus from="2r" to="2v">2</locus> og ofan af bl. <locus from="3r" to="3v">3</locus>.</item>
-                                 <item n="2">Einungis um 1/3 eftir af bl. <locus from="1r" to="1v">1</locus>, næst kili.</item>
+                                 <item n="1">Skorið hefur verið neðan af bl. <locus from="1r" facs="#AM04-0567-XVII-beta-0001r" to="1v">1</locus> og <locus from="2r" facs="#AM04-0567-XVII-beta-0002r" to="2v">2</locus> og ofan af bl. <locus from="3r" facs="#AM04-0567-XVII-beta-0003r" to="3v">3</locus>.</item>
+                                 <item n="2">Einungis um 1/3 eftir af bl. <locus from="1r" facs="#AM04-0567-XVII-beta-0001r" to="1v">1</locus>, næst kili.</item>
                                  <item n="3">Blöðin eru skítug og blettótt.</item>
-                                 <item n="4">Pappírsviðgerðir á stórum götum á bl. <locus from="2r" to="2v">2</locus> og <locus from="3r" to="3v">3</locus>.</item>
-                                 <item n="5">Bl. <locus from="3r" to="3v">3</locus> hefur verið gatað, e.t.v. til að sauma við spjöld. Smágöt eru einnig á bl. <locus from="2r" to="2v">2</locus>.</item>
+                                 <item n="4">Pappírsviðgerðir á stórum götum á bl. <locus from="2r" facs="#AM04-0567-XVII-beta-0002r" to="2v">2</locus> og <locus from="3r" facs="#AM04-0567-XVII-beta-0003r" to="3v">3</locus>.</item>
+                                 <item n="5">Bl. <locus from="3r" facs="#AM04-0567-XVII-beta-0003r" to="3v">3</locus> hefur verið gatað, e.t.v. til að sauma við spjöld. Smágöt eru einnig á bl. <locus from="2r" facs="#AM04-0567-XVII-beta-0002r" to="2v">2</locus>.</item>
                               </list>
                            </p>
                         </condition>
@@ -90,8 +90,8 @@
                   <additions>
                      <p>
                         <list>
-                           <item n="1">Spássíuvísa með annarri hendi neðst á <locus from="3v" to="3v">3v</locus>.</item>
-                           <item n="2">Titli sögunnar bætt við síðar, efst á <locus from="1r" to="1v">1r</locus> og neðst á <locus from="3r" to="3r">3r</locus>.</item>
+                           <item n="1">Spássíuvísa með annarri hendi neðst á <locus from="3v" facs="#AM04-0567-XVII-beta-0003v" to="3v">3v</locus>.</item>
+                           <item n="2">Titli sögunnar bætt við síðar, efst á <locus from="1r" facs="#AM04-0567-XVII-beta-0001r" to="1v">1r</locus> og neðst á <locus from="3r" facs="#AM04-0567-XVII-beta-0003r" to="3r">3r</locus>.</item>
                         </list>
                      </p>
                   </additions>
@@ -172,7 +172,79 @@
          <change when="2008-10" who="#EriHas01">Migrated from MASTER to P5</change>
       </revisionDesc>
    </teiHeader>
-   <text>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+		<surface xml:id="AM04-0567-XVII-beta-addMat01r" n="0">
+			<desc>addMat01r</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/0/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/0/THUMBNAIL" width="200px" height="240px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/0/SECONDARY_DISPLAY" width="5248px" height="6299px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/0/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-beta-addMat01v" n="1">
+			<desc>addMat01v</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/1/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/1/THUMBNAIL" width="200px" height="242px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/1/SECONDARY_DISPLAY" width="5176px" height="6275px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/1/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-beta-0001r" n="2">
+			<desc>0001r</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/2/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/2/THUMBNAIL" width="116px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/2/SECONDARY_DISPLAY" width="1976px" height="5099px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/2/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-beta-0001v" n="3">
+			<desc>0001v</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/3/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/3/THUMBNAIL" width="113px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/3/SECONDARY_DISPLAY" width="1864px" height="4971px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/3/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-beta-0002r" n="4">
+			<desc>0002r</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/4/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/4/THUMBNAIL" width="200px" height="237px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/4/SECONDARY_DISPLAY" width="4416px" height="5235px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/4/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-beta-0002v" n="5">
+			<desc>0002v</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/5/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/5/THUMBNAIL" width="200px" height="233px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/5/SECONDARY_DISPLAY" width="4504px" height="5251px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/5/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-beta-0003r" n="6">
+			<desc>0003r</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/6/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/6/THUMBNAIL" width="200px" height="193px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/6/SECONDARY_DISPLAY" width="4360px" height="4210px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/6/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-beta-0003v" n="7">
+			<desc>0003v</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/7/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/7/THUMBNAIL" width="200px" height="195px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/7/SECONDARY_DISPLAY" width="4216px" height="4106px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/7/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-beta-addMat02r" n="8">
+			<desc>addMat02r</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/8/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/8/THUMBNAIL" width="200px" height="252px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/8/SECONDARY_DISPLAY" width="4992px" height="6291px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/8/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0567-XVII-beta-addMat02v" n="9">
+			<desc>addMat02v</desc>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/9/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/9/THUMBNAIL" width="200px" height="247px"/>
+			<graphic mimeType="jpg" url="AM%20567%20XVII%20%CE%B2%204to/9/SECONDARY_DISPLAY" width="5104px" height="6291px"/>
+			<graphic mimeType="pdf" url="AM%20567%20XVII%20%CE%B2%204to/9/WEB_DISPLAY"/>
+		</surface>
+	</facsimile>
+	<text>
       <body>
          
          <p/>

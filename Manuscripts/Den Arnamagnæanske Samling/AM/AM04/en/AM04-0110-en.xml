@@ -1,53 +1,90 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 110 4to</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM04-0110-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 110 4to</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>764</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title type="supplied">Norwegian Law Glossary</title>
-                  <origPlace>Norway</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
-               <msContents>
-                  <textLang mainLang="da">Danish</textLang>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>316. 
-<dimensions type="leaf" scope="all">
-                              <height>192</height>
-                              <width>155</width>
-                           </dimensions>
-                        </extent>
-                     </supportDesc>
-                  </objectDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 110 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0110-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 110 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>764</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="supplied">Glossary for The Norwegian
+							Code</title>.</summary>
+						<msItem n="1" facs="#AM04-0110-0001r" class="ordsk">
+							<locus from="1r" facs="#AM04-0110-0001r" to="316v">1r-316v</locus>
+							<title type="supplied" xml:lang="en">Glossary for The Norwegian
+								Code</title>
+							<title type="uniform" xml:lang="la">Glossarium juridicum
+								Danico-Norvegicum</title>
+							<textLang mainLang="da"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>Paper.</support>
+								<extent>316. <dimensions type="leaf" scope="all">
+										<height unit="mm">192</height>
+										<width unit="mm">155</width>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+						<additions>
+							<p>Occasional marginalia by <name type="person" key="ThoTor001">Torfæus</name> who also filled in fol. 316v
+								with notes on <q>Hvad marts och ortuger haffver gieldit gammel
+									dage.</q>
+							</p>
+						</additions>
+						
+						<accMat>On an <locus from="accMat01r" facs="#accMat01r" to="accMat01r">AM-slip</locus>
+							<name type="person" key="ArnMag001">Árni Magnússon</name> wrote: <q xml:lang="da">Auctor til dette Gloſſarium Juridicum
+								Danico-Norvegicum, er <name type="person" key="NieLem001">Niels
+									Pederſen (Lem)</name> i <name type="place" key="Berge01">Bergen</name>, fom var <name type="person" key="IveLem001">Jver
+									Nielfen Lems</name> fader, hvilken Iver Nilſen hafde til ægte
+								den kone, ſom <name type="person" key="ThoTor001">Thormod
+									Torueſen</name> ſiden fick til ægte. Niels Pederſen, Gloſſarii
+								author, var en lærd mand. Relatio Dni. Thormodi Torfæi, <name type="place">Stangelandiæ</name>
+								<date when="1712-10">1712. menſe Octobri</date>. Jeg bekom bogen
+									<date when="1720">1720</date>. fra Sal. Aſſeſſor Thormod
+								Torueſens Enke, og er i Regiſteret over Torveſens Mſter Num. 22</q>
+						</accMat>
+					</physDesc>
+					<history>
+						<origin><origPlace>Norway</origPlace>
+							<origDate notBefore="1600" notAfter="1699">s. XVII</origDate></origin>
+						<provenance>According to the AM-slip the manuscript belonged to the author,
+								<name type="person" key="NieLem001">Niels Pedersen Lem</name>, and
+							after him, his son, <name type="person" key="IveLem001">Iver Nielsen
+								Lem</name>. Iver was married to <name type="person">Anna
+								Hansdatter</name> who remarried <name type="person" key="ThoTor001">Torfæus</name> after Iver's death; Torfæus must have inherited
+							the book from her when she died.</provenance>
+						<acquisition>Árni Magnússon acquired the book from Torfæus' widow in <date when="1720">1720</date>.</acquisition>
+
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change when="2021-12-09" who="EvaWed001">Updated markup and added accMat, provenance, acquistion and bibliography.</change>
+		</revisionDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0110-0000r-FB" n="0">
 			<desc>0000r-FB</desc>

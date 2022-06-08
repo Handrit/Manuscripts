@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,20 +22,23 @@
                      <idno>1991</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Obsidio Havniensis</title>; <origPlace>Danmark</origPlace>,
-                     <origDate notBefore="1650" notAfter="1699" evidence="conjecture" resp="KKKat">s. XVII 2/2</origDate>. </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="supplied">Obsidio Havniensis</title>. <note>Omfatter tiden <date from="1658-08-08"
+                     to="1658-10-31">8. august-31 oktober 1658</date>.</note></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart><locus from="1r" to="1r">1r</locus> Obſidio Havnienſis <lb/>
+                           1658</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="sagnfr">
+                     <locus from="2r" to="47v">2r-47v</locus>
+                     <author key="JohSir001">Johannes Sirckes Lubecensis</author>
                      <title type="supplied">Obsidio Havniensis</title>
                      <textLang mainLang="la">Latin</textLang>
-                     <note>Titlen <q>Obſidio Havnienſis <lb/> 1658</q> er
-                        tilføjet af <name type="person" key="RasNye001">Nyerup</name> på
-                        forsatsbladet (bl. 1r). Omfatter tiden <date from="1658-08-08" to="1658-10-31">8. august-31 oktober 1658</date></note>
-                     <msItem>
-                        <rubric>FINIS PRIMÆ PARTIS</rubric>
-                     </msItem>
-                  </msItem>
+                     <note>Titlen er tilføjet af <name type="person" key="RasNye001">Nyerup</name>
+                        på forsatsbladet (bl. 1r).</note>
+                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -45,14 +48,17 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>47. <dimensions type="leaf" scope="all">
-                              <height>300</height>
-                              <width>158</width>
+                              <height unit="mm">300</height>
+                              <width unit="mm">158</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <additions>
-                     <p>På fribladed er noteret af <name type="person" key="RasNye001">Nyerup</name>: <q xml:lang="la">Autor <name type="person" key="JohSir001">Iohannes Sirckes</name>, Lubecensis, vid: Exemplar autoris
-                           autographum in Bibliotheca Regia. ibi Dedicatio ad F. III data <name type="place" key="Københ01">Hafniæ</name>
+                     <p>Efter teksten er der tilføjet <q>FINIS PRIMÆ PARTIS</q>.</p>
+                     <p>På fribladet har <name type="person" key="RasNye001"
+                        >Nyerup</name> noteret: <q xml:lang="la">Autor Iohannes Sirckes, Lubecensis, vid: Exemplar autoris
+                           autographum in Bibliotheca Regia. ibi Dedicatio ad F. III data <name
+                              type="place" key="Copen01">Hafniæ</name>
                            <date when="1661">1661</date></q>.</p>
                   </additions>
                   <bindingDesc>
@@ -61,15 +67,18 @@
                      </binding>
                   </bindingDesc>
                </physDesc>
+               <history><origin><origPlace>Danmark</origPlace>, <origDate notBefore="1650" notAfter="1699"
+                  evidence="conjecture" resp="KKKat">s. XVII<hi rend="sup">2</hi></origDate>.</origin></history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">236</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">236</biblScope></bibl>
                   </listBibl>
                </additional>
-
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-26" who="EvaWed001">Opdateret.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

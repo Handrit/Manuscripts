@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,55 @@
                      <idno>2028</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Olai Petri Svenska Krönika</title>
-                  <origPlace>Sweden</origPlace>
-                  <origDate notBefore="1561" notAfter="1562">1561-62</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="sv">Swedish</textLang>
+                  <summary><title type="uniform">Olai Petri Swedish Chronicle</title> <note>At the end of the preface as well as the end of the text (ff. 10r and
+                        218r) the letters Æ. V. M. V. and the years 1561 and 1562 are found.</note></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="218r">1r-218r</locus>
+                     <author key="OlaPet001">Olaus Petri</author>
+                     <title type="uniform" xml:lang="sv">Svenska Krönika</title>
+                     <textLang mainLang="sv">Swedish</textLang>
+                     <rubric>Allom them ſom then<ex>n</ex>a Crönecka lä<lb/>ſande eller hörande
+                        warda önſk<lb/>ar iagh Olauus Petri predi<lb/>kare i Stocholm
+                        ſanhete<lb/>nes kundſkapp</rubric>
+                     <colophon>Æ. V. M. V. 1561</colophon>
+                     <colophon>Æ. V. M. V. 1562</colophon>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>218. 
-<dimensions type="leaf" scope="all">
-                              <height>198</height>
-                              <width>155</width>
+                        <extent>218. Fol. 218v is blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">198</height>
+                              <width unit="mm">155</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Fols 1-47 are foliated 2-48 in red ink (due to a preceding
+                              flyleaf).</p>
+                        </foliation>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>Rubrics, initials, running titles and references to the text in the
+                              margins on fols 1r-49r are in red ink.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Sweden</origPlace>, <origDate notBefore="1561" notAfter="1562"
+                        >1561-62</origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">250</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

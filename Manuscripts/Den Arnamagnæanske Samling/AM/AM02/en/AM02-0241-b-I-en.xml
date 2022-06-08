@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,12 +23,9 @@
                      <idno>364</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Fragments of Liturgical Manuscripts</title>;
-                  <origPlace>Iceland</origPlace>,
-                  <origDate notBefore="1200" notAfter="1599">s. XIII-XVII</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Fragments of Liturgical
+                     Manuscripts</title></summary>
                   <textLang mainLang="la">Latin</textLang>
                </msContents>
                <physDesc>
@@ -36,10 +34,14 @@
                         <support>
                            <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>6 1/2.</extent>
+                        <extent>6,5.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1200" notAfter="1599"
+                        >s. XIII-XVII</origDate></origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
@@ -47,18 +49,19 @@
                         <biblScope unit="pages">211-12</biblScope></bibl>
                   </listBibl>
                </additional>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 241 b I alfa fol.</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 241 b I alfa fol.</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem class="pred">
+                     <msItem n="1" class="pred">
                         <locus from="1ra" to="1vb">1ra-vb</locus>
-                        <author>Nicolaus de Gorran (1232-ca. 1295)</author>
+                        <author>Nicholas de Gorran (1232-ca. 1295)</author>
                         <title type="uniform">Themata sermonum</title>
                         <textLang mainLang="la"/>
-                        <filiation>Closely related to <ref type="ms">Uppsala UB C
-                           301</ref>.</filiation>
+                        <filiation>Closely related to <ref type="ms">UppsUB C 301</ref>.</filiation>
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -69,36 +72,40 @@
                                  <material>Parchment.</material></p>
                            </support>
                            <extent>1. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>302</height>
-                              <width>238</width>
-                           </dimensions>
+                                 <height unit="mm">302</height>
+                                 <width unit="mm">238</width>
+                              </dimensions>
                            </extent>
                         </supportDesc>
                         <layoutDesc>
                            <layout columns="2">
-                              <p>Teksten er tospaltet.</p>
+                              <p>Written in two columns.</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
                   </physDesc>
                   <history>
-                     <origin>Written i <origPlace>Iceland</origPlace> in the
-                        <origDate notBefore="1300" notAfter="1399">fourteenth century</origDate>. According to
-                        Marner (<bibl><ref target="AstMar2017">Marner 2017</ref></bibl>) this part is probably written in <name type="place" key="Skálh01">Skálholt</name>, when <name type="person">Jón Halldorsson</name>
-                        was a bishop (fra <date from="1322" to="1339">1322–39</date>).</origin>
+                     <origin>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1300"
+                           notAfter="1399">the fourteenth century</origDate>. According to Marner
+                              (<bibl><ref target="AstMar2017">Marner 2017</ref></bibl>) this part is
+                        probably written in <name type="place" key="Skálh01">Skálholt</name>, when
+                           <name type="person">Jón Halldorsson</name> was a bishop (fra <date
+                           from="1322" to="1339">1322–39</date>).</origin>
                   </history>
                   <additional>
                      <listBibl>
                         <bibl>Marner, <ref target="AstMar2017"><foreign xml:lang="la">Themata
-                           sermonum</foreign> in Skálholt: AM 241b Iα fol. and Uppsala UB C
-                           301</ref></bibl>
+                                 sermonum</foreign> in Skálholt: AM 241b Iα fol. and Uppsala UB C
+                              301</ref></bibl>
                      </listBibl>
                   </additional>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 241 b I beta fol.</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 241 b I beta fol.</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <physDesc>
                      <objectDesc form="codex">
                         <supportDesc material="chart">
@@ -106,10 +113,10 @@
                               <p>
                                  <material>Parchment.</material></p>
                            </support>
-                           <extent>1½. <dimensions type="leaf" scope="range" unit="mm">
-                              <height>245</height>
-                              <width>160</width>
-                           </dimensions>
+                           <extent>1,5. <dimensions type="leaf" scope="range" unit="mm">
+                                 <height unit="mm">245</height>
+                                 <width unit="mm">160</width>
+                              </dimensions>
                            </extent>
                         </supportDesc>
                         <layoutDesc>
@@ -120,10 +127,12 @@
                      </objectDesc>
                   </physDesc>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 241 b I gamma fol.</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="3">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 241 b I gamma fol.</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <physDesc>
                      <objectDesc form="codex">
                         <supportDesc material="chart">
@@ -132,9 +141,9 @@
                                  <material>Parchment.</material></p>
                            </support>
                            <extent>1. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>210</height>
-                              <width>133</width>
-                           </dimensions>
+                                 <height unit="mm">210</height>
+                                 <width unit="mm">133</width>
+                              </dimensions>
                            </extent>
                         </supportDesc>
                         <layoutDesc>
@@ -150,10 +159,12 @@
                      </decoDesc>
                   </physDesc>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 241 b I delta fol.</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="4">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 241 b I delta fol.</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <physDesc>
                      <objectDesc form="codex">
                         <supportDesc material="chart">
@@ -162,9 +173,9 @@
                                  <material>Parchment.</material></p>
                            </support>
                            <extent>1. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>210</height>
-                              <width>138</width>
-                           </dimensions>
+                                 <height unit="mm">210</height>
+                                 <width unit="mm">138</width>
+                              </dimensions>
                            </extent>
                         </supportDesc>
                      </objectDesc>
@@ -173,10 +184,12 @@
                      </musicNotation>
                   </physDesc>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 241 b I epsilon fol.</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="5">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 241 b I epsilon fol.</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <physDesc>
                      <objectDesc form="codex">
                         <supportDesc material="chart">
@@ -185,18 +198,20 @@
                                  <material>Parchment.</material></p>
                            </support>
                            <extent>1. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>212</height>
-                              <width>168</width>
-                           </dimensions>
+                                 <height unit="mm">212</height>
+                                 <width unit="mm">168</width>
+                              </dimensions>
                            </extent>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 241 b I zeta fol.</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="6">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 241 b I zeta fol.</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <physDesc>
                      <objectDesc form="codex">
                         <supportDesc material="chart">
@@ -205,9 +220,9 @@
                                  <material>Parchment.</material></p>
                            </support>
                            <extent>1. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>332</height>
-                              <width>258</width>
-                           </dimensions>
+                                 <height unit="mm">332</height>
+                                 <width unit="mm">258</width>
+                              </dimensions>
                            </extent>
                         </supportDesc>
                      </objectDesc>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,21 +21,16 @@
                      <idno>1661</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Legenda de Sancto Olavo</title>;
-                     <origPlace>Island?</origPlace>, <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s.
-                     XVIII 1/4</origDate>
-               </head>
-               <msContents>
+                <msContents>
+                  <summary><title type="uniform">Legenda de Sancto Olavo</title></summary>
                   <titlePage>
                      <docTitle>
                         <titlePart>Legenda de Sancto Olavo. <lb/> ex <lb/> libro Norvegico
                            Homiletico</titlePart>
                      </docTitle>
-                     <note>Skrevet af <name type="person" key="ArnMag001">Arne
-                        Magnusson</name>.</note>
-                  </titlePage>
-                  <msItem>
+                    </titlePage>
+                  <msItem n="1" class="hels">
+                     <locus from="1r" to="16v">1r-16v</locus>
                      <title type="uniform">Legenda de Sancto Olavo</title>
                      <textLang mainLang="la">Latin</textLang>
                   </msItem>
@@ -48,20 +43,23 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>16. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>217</height>
-                              <width>167</width>
+                              <height unit="mm">217</height>
+                              <width unit="mm">167</width>
                            </dimensions></extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="MagEin005" scope="sole" script="unknown">
+                     <handNote scribe="MagEin005" scope="major" script="unknown">
                         <p>Skrevet af Magnús Einarsson.</p>
                      </handNote>
+                     <handNote scribe="ArnMag001" scope="minor" script="unknown"><p>Titelbladet er skrevet af Arne Magnusson.</p></handNote>
                   </handDesc>
                </physDesc>
+               <history><origin><origPlace>Island?</origPlace>, <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s.
+                  XVIII<hi rend="sup">1/4</hi></origDate>.</origin></history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">76</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="page">76</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

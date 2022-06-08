@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,36 +23,79 @@
                      <idno>2640</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>En historisk-critisk Afhandling om Kirker og Kirke-godse udi Iceland deres Ejeres og Værgers Rettigheder og Pligter mm.</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1800-01-01" notAfter="1800-12-31">1800</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="dan">Danish</textLang>
+                  <summary><title type="supplied">Churches and Church Property in Iceland</title>.
+                     The treatise is made ready for press, with dedications to <name
+                        type="person" key="FreMol001">F. Moltke</name> and <name type="person"
+                        key="JacCol001">J.E. Colbiørnsen</name> (dated <date when="1802"
+                           >1802</date>), a preface and an table of contents and an index at the end.</summary>
+                  <textLang mainLang="da">Danish</textLang>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">En hi&#x017F;to&#xA75B;i&#x017F;k-critisk Afhandling
+                           <lb/> om <lb/> Ki&#xA75B;ke&#xA75B; og Kirke-god&#x017F;e udi
+                           I&#x017F;land <lb/> de&#xA75B;es Ejeres og Væ&#xA75B;ge&#xA75B;s
+                           Rettighede&#xA75B; <lb/> og Pligte&#xA75B; mm.<lb/> Forfattet udi Aaret
+                           1800. <lb/> af <lb/> Magnus Ketilsson <lb/> Sy&#x017F;selm. udi
+                           Dale-Sy&#x017F;sel <lb/> i Island</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="kirkjus kirkjujar">
+                     <locus from="1" to="348">Pp. 1-348</locus>
+                     <author key="MagKet001">Magnús Ketilsson</author>
+                     <title type="uniform">Churches and Church Property in Iceland</title>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>200. 
-<dimensions type="leaf" scope="all">
-                              <height>210</height>
-                              <width>172</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>200. <dimensions type="leaf" scope="all">
+                              <height unit="mm">210</height>
+                              <width unit="mm">172</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="MagKet001" scope="sole" script="unknown">
-                        <p>
-Written by Magnús Ketilsson.</p>
+                        <p>Written by <name type="person" key="MagKet001">Magnús
+                           Ketilsson</name>.</p>
                      </handNote>
                   </handDesc>
+                  <additions><p>Ten unbound leaves, paginated 455-469 containing a duplicate of the
+                        end of the treatise, are kept with the manuscript.</p>
+                  </additions>
+                  <accMat>A proxy from the author's son, <foreign xml:lang="is">sýslumaður</foreign>
+                     <name type="person" key="SkuMag002">Skúli Magnússon</name> to <name
+                        type="person" key="RasRas001">Rasmus Rask</name> to let <foreign
+                        xml:lang="da">etatsråd</foreign>
+                     <name type="person" key="GriTho002">Grímur Thorkelin</name> hand him over
+                     the manuscript (<date when="1815">1815</date>) and a slip containing a note by
+                     Rask: <q>Sýslumadr Skúli Magnú&#x017F;son á &#x00fE;e&#x017F;sa bók</q> are
+                     attached to the manuscript.</accMat>
                </physDesc>
+               <history>
+                  <origin>Written in <origPlace>Iceland</origPlace>, <origDate when="1800"
+                        >1800</origDate>. The printing of the book was abandoned due to the death of
+                     the author.</origin>
+                  <provenance>The author's son, <name type="person" key="SkuMag002">Skúli
+                        Magnússon</name> owned the manuscript before he gave it to <name
+                        type="person" key="RasRas001">Rask</name> in <date when="1815"
+                     >1815</date>.</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">540</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-19" who="EvaWed001">Updated markup and content.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

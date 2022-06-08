@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,13 +23,17 @@
                      <idno>2053</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Magnus Erikssons landslag</title>
-                  <origPlace>Sweden</origPlace>
-                  <!--origDate notBefore="" notAfter=""></origDate-->
-</head>
                <msContents>
-                  <textLang mainLang="sv">Swedish</textLang>
+                  <summary><title type="supplied" xml:lang="en">King Magnus Eriksson's National Law
+                        of Sweden</title>
+                     <note>Fragmenter. Containing parts of <title type="supplied">Eghno balk</title>
+                        and <title type="supplied">Bygninga balk</title>.</note></summary>
+                  <!-- tjek oversættelse med ordliste -->
+                  <msItem n="1" class="log">
+                     <title type="supplied" xml:lang="en">King Magnus Eriksson's National Law of
+                        Sweden</title>
+                     <textLang mainLang="sv">Swedish</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -36,9 +41,37 @@
                         <support>
                            <p>Parchment.</p>
                         </support>
+                        <extent>6 fragments from two leaves. The sixth fragment is blank.</extent>
+                        <condition>
+                           <p>The inner part of fragment no 2 is torn out.</p>
+                        </condition>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>Rubrics and chapter numbers in red ink.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Sweden</origPlace>, <origDate notBefore="1300" notAfter="1399"
+                     >s. XIV</origDate> (<bibl><ref type="secondary-1" target="Lorenzen1889">Lorenzen 1889</ref>
+                     </bibl>).</origin>
+                  <provenance>The fragments were used as support material below the endbands of
+                     aprinted book from <date notBefore="1600" notAfter="1699"
+                     >the seventeenth century</date>.</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat">Kålund: Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">262, 263</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="Lorenzen1889">Lorenzen 1889</ref>
+                     </bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,38 +23,117 @@
                      <idno>1067</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Ólafs saga Tryggvasonar</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                <msContents>
+                  <summary><title type="uniform">Ólafs saga Tryggvasonar</title></summary>
+                  <msItem n="1" class="kon">
+                     <title type="uniform" xml:lang="is">Ólafs saga Tryggvasonar</title>
+                     <textLang mainLang="is"/>
+                     <bibl>Ólafur Halldórsson, <ref type="primary" target="EA-A1">Óláfs saga
+                           Tryggvasonar en mesta</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <note>Var.app. C<hi rend="sup">8</hi>
+                        </note>
+                     </bibl>
+                     <bibl>Ólafur Halldórsson, <ref type="primary" target="EA-A2">Óláfs saga
+                           Tryggvasonar en mesta</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <note>Var.app. C<hi rend="sup">8</hi>
+                        </note>
+                     </bibl>
+                     <msItem n="1.1">
+                        <locus from="1r" to="2v">1r-2v</locus>
+                        <incipit>Her byriar Sgu af þeim Lofliga <lb/> Noregs Kongi Olafi
+                              Trig<ex>g</ex>vasini</incipit>
+                        <explicit>Kongur ifer <lb/> Dyflin<ex>n</ex>e</explicit>
+                        <bibl>
+                           <ref type="primary" target="FMS1">Formanna sögur</ref>
+                           <biblScope unit="volume">I</biblScope>
+                           <biblScope unit="page">1-8</biblScope>
+                        </bibl>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="3r" to="18v">3r-18v</locus>
+                        <incipit>leida Gude t<ex>il</ex> handa</incipit>
+                        <explicit>so m<ex>a</ex>rga Luti goþa <lb/> sem</explicit>
+                        <bibl>
+                           <ref type="primary" target="FMS">Formanna sögur</ref>
+                           <biblScope unit="volume">I</biblScope>
+                           <biblScope unit="page">284</biblScope>; <biblScope unit="volume"
+                              >II</biblScope>
+                           <biblScope unit="page">47</biblScope>
+                        </bibl>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="19r" to="26v">19r-26v</locus>
+                        <incipit>vel ok skrugliga</incipit>
+                        <explicit>hrafnavins <lb/> fe</explicit>
+                           <bibl>
+                              <ref type="primary" target="FMS2">Formanna sögur</ref>
+                              <biblScope unit="volume">II</biblScope>
+                              <biblScope unit="page">51-83</biblScope>
+                           </bibl>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>26. 
-<dimensions type="leaf" scope="all">
-                              <height>278</height>
-                              <width>215</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>26. <dimensions type="leaf" scope="all">
+                              <height unit="mm">278</height>
+                              <width unit="mm">215</width>
                            </dimensions>
                         </extent>
+                        <collation>Due to crumbling all leaves have been separated.</collation>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="17 33">
+                           <p>Written in two columns with 17-33 lines per page. The text opens with
+                              a red heading.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="JonErl001" scope="sole" script="unknown">
-                        <p>
-Written by Jón Erlendsson.</p>
+                        <p> Written by <name type="person" key="JonErl001">Jón Erlendsson</name> of
+                              <name type="place" key="LamRau02">Lambavatn</name>.</p>
                      </handNote>
                   </handDesc>
+                  <accMat>
+                     <p>An AM-slip containing the following note by <name type="person"
+                           key="ArnMag001">Árni Magnússon</name>: <q xml:lang="is">Examinetur probè,
+                           hvadan S<ex>era</ex>
+                           <name type="person" key="JonOla009">Jon</name> hafe fyllt defectus
+                           þeſſarar bokar, hvert ur Flateyarbok, eda Exemplare <name type="person"
+                              key="GudSig001">Gudmundar</name> ä <name type="place" key="ÁlfÁlf01"
+                              >Alftaneſe</name>, ſem nu er mitt, eda hvadan</q> is added.</p>
+                  </accMat>
                </physDesc>
+               <history>
+                  <origin>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1650"
+                        notAfter="1699" cert="high" evidence="external">the second half of the
+                        seventeeth century</origDate> by <name type="person" key="JonOla009">Jón
+                        Ólafsson</name> of <name type="place" key="LamRau02">Lambavatn</name>. The
+                     manuscript was written to fill out lacunae in<ref type="ms"
+                        target="AM02-0054-en">AM 54 fol</ref>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">563</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="EA-A3">Ólafur Halldórsson 2000</ref>
+                        <biblScope unit="page">xvii-xix, lxxxv, cxxx, cxli, ccx, ccxxiv-ccxxviii,
+                           ccxxviii-ccxxix, cclxiv, cclxix-cclxxvi, ccxcv, ccc-ccciii, cccvi,
+                           cccix</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-30" who="EvaWed001">Updated markup and added content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

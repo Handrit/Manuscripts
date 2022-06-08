@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,30 +23,43 @@
                      <idno>2080</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Karlamagnús saga</title>
-                  <origPlace>Denmark, Copenhagen</origPlace>
-                  <origDate notBefore="1800" notAfter="1900">s. XIX</origDate>
-                  <note>Transcript of <ref>AM 180 fol</ref>.</note>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="uniform">Karlamagnús saga</title></summary>
+                  <msItem n="1" class="ridd" defective="true">
+                     <locus from="1r" to="20v">1r-20v</locus>
+                     <title type="uniform">Karlamagnús saga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Saga Karlamagnúsar ok kappa hans</rubric>
+                     <filiation>Copy of <ref type="ms" target="#AM02-0180-a-da">AM 180 a
+                        fol.</ref></filiation>
+                     <note>Fragment.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>20. 
-<dimensions type="leaf" scope="all">
-                              <height>305</height>
-                              <width>254</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>20. Fol. 14v is blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">305</height>
+                              <width unit="mm">254</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Copenhagen, Denmark</origPlace>, <origDate notBefore="1800"
+                        notAfter="1899">s. XIX</origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">274</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

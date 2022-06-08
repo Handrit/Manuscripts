@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,19 +23,16 @@
                      <idno>1884</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">Veraldar saga</title>
-                  <title n="2">Niðurstigs vísur</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
                <msContents>
+                  <summary><title n="1">Veraldar saga</title>
+                     <title n="2">Niðurstigs vísur</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <!-- 
                   <msItem n="1">
                      <author>
                         <name type="person" key="JonAra002">Jón Arason</name>
                      </author>
-                     <textLang mainLang="is">Icelandic</textLang>
-                  </msItem>
+                   </msItem>  -->
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -42,15 +40,25 @@
                         <support>
                            <p>Parchment.</p>
                         </support>
-                        <extent>13. 
-<dimensions type="leaf" scope="all">
-                              <height>248</height>
-                              <width>180</width>
+                        <extent>13. <dimensions type="leaf" scope="all">
+                              <height unit="mm">248</height>
+                              <width unit="mm">180</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1600" notAfter="1699"
+                        >s. XVII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">186</biblScope></bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

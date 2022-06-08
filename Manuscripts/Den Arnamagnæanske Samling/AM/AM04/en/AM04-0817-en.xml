@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,52 @@
                      <idno>1949</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Descriptiones nummorum antiqvorum</title>
-                  <origPlace>Italy</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la" otherLangs="ita">Latin and Italian</textLang>
+                  <summary><title type="supplied">Descriptiones nummorum antiqvorum and a Calalogue
+                        of Medals</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="62v">1r-62v</locus>
+                     <title type="supplied">Descriptiones nummorum antiqvorum</title>
+                     <textLang mainLang="la" otherLangs="it"/>
+                     <rubric>M. D. E. <lb/> Nummi Aenei Magni. <lb/>
+                        1652</rubric>
+                     <note>Comprising <q xml:lang="la">nummi ænei</q> from Rom, Grækenland and the
+                        colonies, divided into different parts.</note>
+                     <filiation>Partly cognate to <ref type="ms" target="#AM04-0818-en">AM 818
+                           4to</ref>.</filiation>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="63" to="66">63r-66v</locus>
+                     <title type="supplied">Catalogue of Medals</title>
+                     <textLang mainLang="it"/>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>66. 
-<dimensions type="leaf" scope="all">
-                              <height>206</height>
-                              <width>142</width>
-                           </dimensions>
-                        </extent>
+                        <support><material>Paper</material>.</support>
+                        <extent>66. Fols 45-46 are blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">206</height>
+                              <width unit="mm">142</width>
+                           </dimensions>. Fols 63-66 are larger and folded to fit into the quarto
+                           format. </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Italy</origPlace>, <origDate notBefore="1652" notAfter="1699">s.
+                        XVII</origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">219</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,26 +22,59 @@
                      <idno>1646</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Marteins saga biskups</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1300" notAfter="1399">s. XIV in</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="uniform" xml:lang="is">Marteins saga biskups</title></summary>
+                  <msItem n="1" defective="true">
+                     <locus from="1r" to="3v">1r-3v</locus>
+                     <title type="uniform" xml:lang="is">Marteins saga biskups</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">þ<ex>via</ex>t þ<ex>at</ex> v<ex>ar</ex> fyʀ en ek
+                        kæma til h<ex>an</ex>ſ</incipit>
+                     <explicit defective="true">heilagr domr hinſ <supplied reason="damage">ſæla
+                        M<ex>ar</ex>tini</supplied>
+                        <gap reason="damage"/>
+                     </explicit>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>3. </extent>
+                        <extent>3. <dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">195</height>
+                           <width unit="mm">136</width>
+                        </dimensions>.</extent>
+                        <condition>The leaves are badly worn.</condition>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">Rubrics and initials in red ink.</layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <accMat>There is an AM-slip pasted to the manuscript.</accMat>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>,
+                  <origDate notBefore="1300" notAfter="1325">s. XIV in</origDate>.</origin>
+                  <acquisition>The text on the AM-slip tells that in <date when="1722">1722</date>, <name type="person"
+                     key="MagAra001">Magnús Arason</name> let <name type="person" key="OrmDad001">Ormur
+                        Dadason</name> transport the manuscript from <name type="place" key="HagBar01"
+                           >Hagi in Barðaströnd</name> to <name type="person"
+                     key="ArnMag001">Árni Magnússon</name>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="EIMF4"/>
+                        <biblScope unit="page">20</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">66</biblScope>
+                     </bibl>
+                     <bibl><ref type="secndary" target="Wolf2013"/>
+                        <biblScope unit="page">230</biblScope></bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>

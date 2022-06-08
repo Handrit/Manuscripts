@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -23,46 +23,63 @@
                   </altIdentifier>
                </msIdentifier>
 
-               <head>
-                  <title type="supplied" xml:lang="is">Íslenzk söguhandrit</title>;
-                     <origPlace>Island eller Danmark</origPlace>
-                  <origDate notBefore="1875" notAfter="1899" evidence="external">s. XIX 4/4</origDate>
-                  <note>Ufuldstændig.</note>
-               </head>
-
                <msContents>
-                  <msItem n="1">
-                     <title type="supplied" xml:lang="is">Íslenzk söguhandrit</title>
-                     <title type="parallel" xml:lang="da">Katalog over sagahåndskrifter</title>
+                  <summary>
+                     <title type="supplied">Katalog over islandske
+                        sagahåndskrifter</title><note>Ufuldstændig. <note> Kataloget behandler
+                           håndskrifter fra <name type="org" xml:lang="da" key="AMS">Den
+                              Arnamagnæanske Samling</name> i <name type="place" key="Copen01"
+                              >København</name> og (nu også) i <name type="org" key="Arnastofnun"
+                              >Stofnun Árna Magnússonar á Íslandi</name> i <name type="place"
+                              key="Reykj01">Reykjavík</name>, <name type="org" key="KungBib"
+                              >Kungliga Biblioteket</name> i <name type="place" key="Stock01"
+                              >Stockholm</name>, <name type="org" key="UUB">Uppsala
+                              universitetsbibliotek</name>, <name type="org" key="AdvLib">The
+                              Advocates Library</name> i <name type="place" key="Edinb01"
+                              >Edinburgh</name>, <name type="org" key="Britmus">British
+                              Museum</name> (nu <name type="org" key="BL">British Library</name>) i
+                              <name type="place" key="Londo01">London</name> , <name type="org"
+                              key="BodleyOx">Bodleian Library</name> i <name type="place"
+                              key="Oxfor01">Oxford</name>, <name type="org" key="IS-Land"
+                              >Landsbókasafn Íslands</name> og andre håndskriftbiblioteker i
+                           Reykjavík. Indrettet til lejlighedsvis at forøges.</note></note>
+                  </summary>
+                  <msItem n="1" class="hdrskr">
+                     <author key="PalPal004">Pálmi Pálsson</author>
+                     <title type="supplied" xml:lang="da">Katalog over islandske
+                        sagahåndskrifter</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <note>Katalog over sagahåndskrifter, udarbejdet af <name type="person" key="PalPal004">Pálmi Pálsson</name> efter <name type="person" key="JonSig004">Jón Sigurðsson</name>s katalog, <ref type="ms" target="AM04-1059-da">AM 1059 4to</ref>. Med <name type="person" key="JonTho010">Jón Þorkelsson</name>s rettelser og tilføjelser.
-                        Kataloget behandler håndskrifter fra <name type="org" xml:lang="da" key="AMS">Den Arnamagnæanske Samling</name> i <name type="place" key="Copen01">København</name> (nu også i <name type="org" key="Arnastofnun">Stofnun Árna Magnússonar á Íslandi</name> i <name type="place" key="Reykj01">Reykjavík</name>), <name type="org" key="KungBib">Kungliga Biblioteket</name> i <name type="place" key="Stock01">Stockholm</name>, <name type="org" key="UUB">Uppsala
-                           universitetsbibliotek</name>, <name type="org" key="AdvLib">The Advocates
-                           Library</name> i <name type="place" key="Edinb01">Edinburgh</name>, <name type="org" key="Britmus">British Museum</name> i <name type="place" key="Londo01">London</name> (nu flyttet til <name type="org" key="BL">British Library</name>), <name type="org" key="BodleyOx">Bodleian
-                           Library</name> i <name type="place" key="Oxfor01">Oxford</name>, <name type="org" key="IS-Land">Landsbókasafn Íslands</name> og andre
-                        biblioteker i Reykjavík. Indrettet til lejlighedsvis at forøges.</note>
+                     <filiation>Efter <name type="person" key="JonSig004">Jón Sigurðsson</name>s
+                        katalog, <ref type="ms" target="AM04-1059-da">AM 1059 4to</ref>.</filiation>
                   </msItem>
                </msContents>
 
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Papir.</support>
+                        <support><material>Papir</material>.</support>
                         <extent>
                            <dimensions type="leaf" scope="all">
-                              <height>228</height>
-                              <width>181</width>
+                              <height unit="mm">228</height>
+                              <width unit="mm">181</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <additions>Med <name type="person" key="JonTho010">Jón Þorkelsson</name>s
+                     rettelser og tilføjelser.</additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island eller Danmark</origPlace>
+                     <origDate notBefore="1875" notAfter="1899" evidence="external">s. XIX<hi
+                           rend="sup">4/4</hi></origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">319</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">319</biblScope></bibl>
                   </listBibl>
                </additional>
-
             </msDesc>
          </sourceDesc>
       </fileDesc>

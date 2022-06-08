@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,30 +23,53 @@
                      <idno>1672</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>De Sancto Kanuto Rege</title>
-                  <origPlace>Denmark?</origPlace>
-                  <origDate notBefore="1700" notAfter="1725">s. XVII 1/4</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <summary><title type="uniform">Vita of St Canute IV of Denmark</title></summary>
+                  <msItem n="1" class="helgiso">
+                     <locus from="1r" to="7r">1r-7r</locus>
+                     <title type="supplied">De Sancto Kanuto Rege</title>
+                     <textLang mainLang="la">Latin</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>7. 
-<dimensions type="leaf" scope="all">
-                              <height>214</height>
-                              <width>167</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>7. Fol. 7v is blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">214</height>
+                              <width unit="mm">167</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="unknown">Written by the hand who also wrote <ref type="ms"
+                        target="#AM04-0670-a-en #AM04-0670-b-en #AM04-0670-c-en">AM 670 a-c 4to</ref>, the first eight leaves of <ref type="ms"
+                                 target="#AM04-0670-e-en">AM 670 e 4to</ref>, fols 3r-7r of <ref type="ms"
+                                    target="#AM04-0670-f-en">AM 670 f 4to</ref> and <ref type="ms" target="#AM04-0670-g-en">AM 670 g 4to</ref>.</handNote>
+                  </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark?</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup"
+                           >1/4</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Langebek, <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
+                        Aevi</ref>
+                        <biblScope unit="volume">III</biblScope>
+                        <biblScope unit="page">390</biblScope>
+                     </bibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                        unit="volume">II</biblScope><biblScope unit="page">84</biblScope></bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2022-02-02" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

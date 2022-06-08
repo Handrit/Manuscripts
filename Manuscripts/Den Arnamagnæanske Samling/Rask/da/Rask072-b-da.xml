@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,19 +23,23 @@
                      <idno>2647</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Jónsbók</title>; <origPlace>Island</origPlace>, <origDate notBefore="1490" notAfter="1510">ca. 1500</origDate>.</head>
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform">Jónsbók</title></summary>
+                  <msItem n="1" class="log" defective="true">
+                     <locus from="1r" to="43v">1r-43v</locus>
                      <title type="uniform">Jónsbók</title>
-                     <textLang mainLang="no" otherLangs="is">Norrønt og islandsk</textLang>
-                     <incipit type="damaged">Or rang r þ<ex>in</ex>gí sk<ex>al</ex>
-                nefna viij m<ex>enn</ex>
-                        <note>Ȣingfararbók kap. 2)</note>
+                     <textLang mainLang="is">Norrønt/islandsk</textLang>
+                     <incipit  defective="true">Or rang &#xEFEB;r þ<ex>in</ex>gí &#x017F;k<ex>al</ex>
+                           nef<ex>na</ex> viij m<ex>enn</ex>
+                        <note><title type="uniform">&#x00DE;ingfararb&#x01EB;lkr</title>, kap.
+                           2.</note>
                      </incipit>
-                     <explicit type="damaged">Fior<ex>ar</ex> m<ex>er</ex>k<ex>ur</ex> s<ex>e</ex>m
-                    <note>Ȣjófabók kap. 22</note>
+                     <explicit  defective="true">&#xA77C;io&#xA75B;<ex>ar</ex> m<ex>er</ex>k<ex>ur</ex>
+                           &#x017F;<ex>e</ex>m <note><title type="uniform"
+                              >&#x00DE;jófab&#x01EB;lkr</title>, kap. 22</note>
                      </explicit>
+                     <note>Herefter følger bl. 44, hvis bagside er ulæselig, og som synes beskrevet med en noget
+                        yngre hånd.</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -45,12 +50,12 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>44. <dimensions type="leaf" scope="all">
-                              <height>136</height>
-                              <width>110</width>
+                              <height unit="mm">136</height>
+                              <width unit="mm">110</width>
                            </dimensions>.</extent>
                         <condition>
-                           <p>Lakuner efter bl. 2, 3, 4, 5, 6, 7, 8, 10, 12, 15, 17, 21, 29 og 42. Bl. 44v
-                        er ulæselig.</p>
+                           <p>Lakuner efter bl. 2, 3, 4, 5, 6, 7, 8, 10, 12, 15, 17, 21, 29 og 42.</p>
+                              <p>Bl. 44v er ulæselig.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -59,15 +64,23 @@
                         </layout>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc>
-                     <handNote scope="minor" script="unknown">
-                        <p>Bl. 44 synes beskrevet med en noget yngre hånd.</p>
-                     </handNote>
-                  </handDesc>
-               </physDesc>
+                  </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1490" notAfter="1510"
+                        >ca. 1500</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >544</biblScope></bibl>
+                     <bibl>Ólafur Halldórsson: <ref type="secondary-1" target="Jonsbok1904">Jónsbók</ref><biblScope unit="page">xlviii</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-26" who="EvaWed001">Opdateret indhold og opmærkning.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

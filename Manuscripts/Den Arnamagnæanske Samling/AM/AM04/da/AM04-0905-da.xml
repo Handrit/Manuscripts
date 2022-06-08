@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,20 +22,24 @@
                      <idno>2037</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Kataloger og et traktat</title>;
-                     <origPlace>Danmark</origPlace>, <origDate notBefore="1690" notAfter="1710" evidence="conjecture" resp="KKKat">ca.
-                     1700</origDate>.</head>
                <msContents>
+                  <summary><title type="supplied" xml:lang="da">Kataloger og et
+                     traktat</title></summary>
                   <msItem n="1">
                      <locus from="1r" to="13v">1r-13v</locus>
-                     <title type="supplied" xml:lang="da">Fortegnelse over de efter N. Krags død i
-                        1602 til universitetsbiblioteket afleverede håndskrifter</title>
+                     <title type="supplied" xml:lang="da">Fortegnelse over N. Krags
+                        håndskrifter</title>
+                     <note>Afleveret af hans enke til universitetsbiblioteket efter hans død i
+                        1602.</note>
                      <textLang mainLang="la">Latin</textLang>
+                     <bibl>Smith <ref target="BirSmi1882">Om Kjøbenhavns Universitetsbibliothek før 1728, især dets
+                        Håndskriftsamlinger</ref>
+                     <biblScope unit="page">112-121</biblScope></bibl>
                   </msItem>
                   <msItem n="2">
                      <locus from="14r" to="41v">14r-41v</locus>
-                     <title type="supplied" xml:lang="da">Katalog over C. Worms bibliotek</title>
+                     <title type="supplied" xml:lang="da">Katalog over Christen Worms
+                        håndskriftbibliotek</title>
                      <textLang mainLang="la">Latin</textLang>
                      <rubric>Catalogus <lb/> librorum Manuscriptorum <lb/> D<ex>omi</ex>ni
                         Christiani Wormii, <lb/> Sælandiæ Episcopi</rubric>
@@ -54,22 +59,26 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>42. <dimensions type="leaf" scope="all">
-                              <height>212</height>
-                              <width>167</width>
+                              <height unit="mm">212</height>
+                              <width unit="mm">167</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="ArnMag001" scope="sole" script="unknown">
-                        <p>Skrevet af eller for Arne Magnusson.</p>
+                        <p>Skrevet af eller for <name type="person" key="ArnMag001">Arne Magnusson</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Danmark</origPlace>, <origDate notBefore="1690" notAfter="1720"
+                        evidence="conjecture" resp="KKKat">ca. 1700</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">254</biblScope></bibl>
+                        <biblScope unit="page">254</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

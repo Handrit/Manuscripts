@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,21 +23,20 @@
                      <idno>1909</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Grænlands Chronica</title>; <origPlace>Island</origPlace>,
-                     <origDate notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat">s. XVII</origDate>.</head>
                <msContents>
-                  <msItem>
+                  <summary>
+                     <title type="uniform">Den Grønlandske Cronica</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="48v">1r-48v</locus>
                      <author key="ClaLys001">Claus Lyschander</author>
-                     <title type="supplied">Grænlands Chronica</title>
-                     <respStmt>
-                        <resp>Oversat af</resp>
-                        <name type="person">G.Þ. s.</name>
-                     </respStmt>
+                     <title type="uniform">Den Grønlandske Cronica</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <rubric>Grænlands Chronica</rubric>
-                     <note>Stemmer med <ref type="ms" target="AM04-0779-b-da">AM 779 b 4to</ref> og <ref type="ms" target="AM04-0779-c-da">AM 779 c
-                           IV og V 4to</ref>.</note>
+                     <note>Det nu vanskeligt læselige bl. 1 har indeholdt en fortale af
+                        oversætteren, underskrevet <q>G.Þ.s.</q>.</note>
+                     <filiation>Stemmer med <ref type="ms"
+                           target="AM04-0779-b-da">AM 779 b 4to</ref> og <ref type="ms"
+                           target="AM04-0779-c-da">AM 779 c IV og V 4to</ref>.</filiation>
                   </msItem>
                </msContents>
                <physDesc>
@@ -46,25 +46,24 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>48. Bl. <locus>3v</locus> er ubeskrevet. <dimensions type="leaf" scope="all">
-                              <height>157</height>
-                              <width>102</width>
+                        <extent>48. Bl. 3v er ubeskrevet. <dimensions type="leaf" scope="all">
+                              <height unit="mm">157</height>
+                              <width unit="mm">102</width>
                            </dimensions>.</extent>
                         <condition>
-                           <p>Bl. <locus>1</locus> er stærkt beskadiget.</p>
+                           <p>Bl. 1 er stærkt beskadiget.</p>
                         </condition>
                      </supportDesc>
                   </objectDesc>
-                  <handDesc>
-                     <handNote scope="minor" script="unknown">
-                        <p>Bl. <locus>2-3</locus> og <locus>47-48</locus> tillagte med særlig
-                           hånd.</p>
-                     </handNote>
-                  </handDesc>
+                  <additions>Bl. 2r-3r og 47r-48v tilføjet med særlig hånd.</additions>
                </physDesc>
                <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1600" notAfter="1699"
+                        evidence="conjecture" resp="KKKat">s. XVII</origDate>.</origin>
                   <provenance>
-                     <p><ref type="ms">AM 779 a-b 4to</ref> har en tid været indlemmet i <name type="org" key="KB">Det Kongelige Bibliotek</name> som <ref type="ms">NkS 346 c-d 8vo</ref>. I <date when="1888-04">april 1888</date> kom det 
+                     <p><ref type="ms" target="#AM04-0779-b-da">AM 779 a-b 4to</ref> har en tid været indlemmet i <name
+                           type="org" key="KB">Det Kongelige Bibliotek</name> som <ref type="ms">NKS
+                           346 c-d 8vo</ref>. I <date when="1888-04">april 1888</date> kom det
                         tilbage til samlingen.</p>
                   </provenance>
                </history>
@@ -72,13 +71,14 @@
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">199</biblScope>
+                        <biblScope unit="page">199</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2022-03-01" who="EvaWed001">Opdateret opmærkning.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

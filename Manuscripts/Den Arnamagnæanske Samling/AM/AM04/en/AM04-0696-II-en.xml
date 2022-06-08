@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,26 +23,65 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Medical book</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1400" notAfter="1499">s. XV</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="supplied">Leechbook</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="2v">1r-2v</locus>
+                     <title type="supplied">Leechbook</title>
                      <textLang mainLang="is">Icelandic</textLang>
+                     <msItem n="1.1">
+                        <title type="supplied">Remedy for Protection against the Plague</title>
+                        <rubric xml:lang="la">Regíme<ex>n</ex>
+                           <ex>contra</ex> pestilencia<ex>m</ex></rubric>
+                        <bibl>Kålund, <ref type="primary" target="STUAGNL45">Alfræði
+                              Íslenzk</ref><biblScope unit="volume">III</biblScope><biblScope
+                              unit="page">76-80</biblScope></bibl>
+                     </msItem>
+                     <msItem n="1.2">
+                        <author key="Marooo003">Marbod</author>
+                        <title type="uniform">Liber Lapidum</title>
+                        <note>Translation.</note>
+                        <rubric>Náttúrur allra gimsteina</rubric>
+                        <explicit defective="true">t<ex>il</ex> þeſſ at ad</explicit>
+                        <bibl>Kålund, <ref type="primary" target="STUAGNL45">Alfræði
+                              Íslenzk</ref><biblScope unit="volume">III</biblScope><biblScope
+                              unit="page">84</biblScope></bibl>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>2. </extent>
+                        <extent>2. <dimensions type="leaf" unit="mm">
+                              <height unit="mm">181</height>
+                              <width unit="mm">137</width>
+                           </dimensions>.</extent>
+                        <collation>The two leaves are conjoint.</collation>
+                        <condition>The bottom margins are excised.</condition>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="textualis">Written in a gothic semi-cursive
+                        hand.</handNote>
+                  </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1400" notAfter="1499"
+                        >s. XV</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">110</biblScope></bibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="STUAGNL45">Alfræði Íslenzk</ref>
+                        <biblScope unit="volume">III</biblScope><biblScope unit="page"
+                           >xi-xii</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

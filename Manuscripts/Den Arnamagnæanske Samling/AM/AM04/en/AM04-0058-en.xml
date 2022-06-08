@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,62 +23,70 @@
                      <idno>701</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Legal Manuscript</title>; <origPlace>Norway</origPlace>,
-                     <origDate notBefore="1320" notAfter="1360">c. 1330 and c. 1350</origDate>
-               </head>
                <msContents>
+                  <summary>
+                     <title type="supplied">Legal Manuscript</title></summary>
                   <msItem n="1" class="log">
-                     <locus from="1va" to="1vb">1v</locus>
+                     <locus from="1v" to="1v">1v</locus>
                      <title type="uniform">On the Oath of Allegiance</title>
                      <textLang mainLang="da">Early Modern Danish</textLang>
                   </msItem>
-                  <msItem n="2" class="kont">
-                     <locus from="2ra" to="2vb">2ra-vb</locus>
-                     <title type="supplied">List of Norwegian Kings</title>
+                  <msItem n="2" class="sagn">
+                     <locus from="2r" to="2v">2r-v</locus>
+                     <title type="supplied">History of Norwegian Kings</title>
                      <textLang mainLang="da">Early Modern Danish</textLang>
                      <rubric>Etlegh Norgis konongar fraa <lb/> harald haarfagre indtill
                            k<expan>on</expan>ge Olaf</rubric>
                      <incipit>Wdi gamell tidt for harald haarffagre wor mange konger i
                         norige</incipit>
                      <explicit defective="true">och Halffdan suarte och Sigroder</explicit>
+                     <bibl>Storm: <ref target="NgL4">Norges gamle Love</ref>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="page">544</biblScope></bibl>
                   </msItem>
                   <msItem n="3" class="klog">
                      <locus from="3ra" to="11vb">3ra-11vb</locus>
                      <title type="uniform">Eiðsifaþingslǫg: Kristinn réttr hinn forni</title>
-                     <textLang mainLang="no">Old Norse/Norwegian</textLang>
+                     <textLang mainLang="non">Old Norse/Norwegian</textLang>
                      <bibl>
                         <ref type="primary-1" target="NgL1">Norges gamle Love</ref>
                         <biblScope unit="volume">I</biblScope>
                         <biblScope unit="pages">394-406</biblScope></bibl>
                   </msItem>
                   <msItem n="4" class="klog">
-                     <locus from="11va" to="11vb">11va-vb</locus>
-                     <title>Borgarþingslǫg: Kristinn réttr hinn nýi</title>
-                     <textLang mainLang="no">Old Norse/Norwegian</textLang>
+                     <locus from="11vb" to="11vb">11vb</locus>
+                     <title type="uniform">Borgarþingslǫg: Kristinn réttr hinn nýi</title>
+                     <textLang mainLang="non">Old Norse/Norwegian</textLang>
                      <note>Chapter 24.</note>
                      <bibl>
-                        <ref type="primary-1" target="NgL1">Norges gamle Love</ref><biblScope unit="volume">I</biblScope>
+                        <ref type="primary-1" target="NgL1">Norges gamle Love</ref><biblScope
+                           unit="volume">I</biblScope>
                         <biblScope unit="pages">406</biblScope></bibl>
                   </msItem>
                   <msItem n="5" class="log">
                      <locus from="12ra" to="81vb">12ra-81vb</locus>
-                     <title type="uniform">Landslǫg</title>
-                     <textLang mainLang="no">Old Norse/Norwegian</textLang>
+                     <title type="uniform" xml:lang="en">King Magnus the Lawmender’s National Law of Norway</title>
+                     <title type="uniform" xml:lang="non">Landslǫg</title>
+                     <textLang mainLang="non">Old Norse/Norwegian</textLang>
                   </msItem>
                   <msItem n="6" class="log">
                      <locus from="82ra" to="86vb">82ra-86vb</locus>
-                     <title>Legal Amendments by the Kings Magnús VI Hákonarson, Eiríkr Magnússon and
+                     <title type="uniform">Legal Amendments by the Kings Magnús Hákonarson, Eiríkr Magnússon and
                         Hákon Magnússon</title>
-                     <textLang mainLang="no">Old Norse/Norwegian</textLang>
+                     <textLang mainLang="non">Old Norse/Norwegian</textLang>
                      <note>The last legal amendment by Hákon Magnússon on duty for foreigners is
                         written by one of <name type="person" key="ArnMag001">Árni Magnusson</name>s
-                        scribes and is found on the seven paper leaves in octavo, inserted
-                        at the end of the manuscript.</note>
+                        scribes and is found on the seven paper leaves in octavo, inserted at the
+                        end of the manuscript.</note>
                      <bibl>
                         <ref type="primary-2" target="NgL2">Norges gamle Love</ref>
                         <biblScope unit="volume">II</biblScope>
                         <biblScope unit="pages">453-55</biblScope><note>Ed. D</note>
+                     </bibl>
+                     <bibl><ref type="primary-2" target="NgL3">Norges gamle Love</ref>
+                        <biblScope unit="volume">III</biblScope>
+                        <note>Var.app. F (bl. 84r), var.app. C (84r), var.app. K (84v), var.app. E
+                           (85r-v), var.app. B (86r-v).</note>
                      </bibl>
                   </msItem>
                </msContents>
@@ -89,13 +97,13 @@
                            <p><material>Parchment</material>.</p>
                         </support>
                         <extent>86. <dimensions type="leaf" scope="most" unit="mm">
-                              <height>225</height>
-                              <width>165</width>
+                              <height unit="mm">225</height>
+                              <width unit="mm">165</width>
                            </dimensions>.</extent>
                         <condition>
                            <p>There are several defects and <name type="person" key="ArnMag001">Árni
-                                 Magnússon</name> has marked some of them on the lower margin of the
-                              previous page. The folios 19, 23, 28, 29 have been damaged due to
+                                 Magnússon</name> has marked some of them on the bottom margin of
+                              the previous page. The folios 19, 23, 28, 29 have been damaged due to
                               trimming of the outer margin and 78, 84 have been trimmed in the lower
                               margin. 1r is blank.</p>
                         </condition>
@@ -107,7 +115,7 @@
                         </layout>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc hands="4">
+                  <!--      <handDesc hands="4">
                      <handNote scope="minor" script="cursiva">
                         <p>Hand 1 occurs on 2r-v and is from the second half of the sixteenth
                            century written in gothic cursive.</p>
@@ -124,14 +132,15 @@
                         <p>Hand 4 is found on 82r-v and is a gothic bookhand from the middle of the
                            fourteenth century.</p>
                      </handNote>
-                  </handDesc>
+                  </handDesc>  
+             -->
                   <decoDesc>
                      <decoNote>
-                        <p>The initials have various colours and there are rubrics in red.</p>
+                        <p>The initials are in various colours and there are rubrics in red.</p>
                      </decoNote>
                   </decoDesc>
-                  <additions>Seven paper leaves in octavo have been inserted at the end
-                     of the manuscript</additions>
+                  <additions>Seven paper leaves in octavo have been inserted at the end of the
+                     manuscript</additions>
                   <bindingDesc>
                      <binding contemporary="false" notAfter="1730">
                         <p>Earlier the manuscript was bound in a grey cardboard binding but is now
@@ -141,27 +150,31 @@
                </physDesc>
                <history>
                   <origin notBefore="1320" notAfter="1360" cert="high" evidence="conjecture">
-                     <p>Kristian Kålund has dated the manuscript to <origDate cert="medium">the fourteenth
-                           century</origDate>, but even more precise dates have been given. In
-                           <date>1885</date>
-                        <name type="person" key="GusSto001">Gustav Storm</name> dated 1r-83v to
-                           <origDate>c. 1350</origDate>, a date, which has also been given by <name type="person" key="JohLan001">John Landrö</name> in <date>1969</date>
-                        <bibl>
-                           <ref type="secondary" target="Landro1969">John Landrö 1969, p. 21, p.
-                              67</ref>
-                        </bibl> and <name type="person" key="AseRob001">Åse Sletten Robertsen</name>
-                        in <date>1979</date>
-                        <bibl>
-                           <ref type="secondary" target="Robertsen1979">Åse Sletten Robertsen 1979,
-                              p.138</ref>
-                        </bibl>. 84r-85v has been dated to <origDate>c. 1330</origDate> also by Gustav Storm
-                        and later by <name type="person" key="DidSei001">Didrik Seip</name> in
-                           <date>1955</date>.<bibl>
-                           <ref type="secondary" target="Seip1955">Didrik Arup Seip 1955,
-                              p.332</ref>
-                        </bibl>
-                        <bibl>
-                           <ref type="secondary" target="NgL4">Storm, 1885</ref>, p. 539</bibl>.</p>
+                     <p>Written in <origPlace>Norway</origPlace> between <origDate notBefore="1320"
+                           notAfter="1360">1320-1360</origDate>. <list>
+                           <item>Fols 1r-83v were dated c. 1350 (<bibl>
+                                 <ref type="secondary-1" target="NgL4">Storm 1885</ref>
+                                 <biblScope unit="page">543</biblScope>
+                              </bibl>, <bibl>
+                                 <ref type="secondary" target="Landro1969">Landrö 1969</ref>
+                                 <biblScope unit="page">21, 67</biblScope>
+                              </bibl> and <bibl>
+                                 <ref type="secondary" target="Robertsen1979">Robertsen 1979</ref>
+                                 <biblScope unit="page">138</biblScope>
+                              </bibl>)</item>
+                           <item>Fols 84r-85v were dated c. 1330 (<bibl>
+                                 <ref type="secondary" target="NgL4">Storm 1885</ref>
+                                 <biblScope unit="page">539</biblScope>
+                              </bibl> and <bibl>
+                                 <ref type="secondary" target="Seip1955">Seip 1955</ref>
+                                 <biblScope unit="page">332</biblScope>
+                              </bibl>).</item>
+                           <item>At the beginning of the manuscript, an addition written in the
+                              second half of the sixteenth century (<bibl>
+                                 <ref type="secondary-1" target="NgL4">Storm 1885</ref>
+                                 <biblScope unit="page">543</biblScope>
+                              </bibl>) is found.</item>
+                        </list>. Kålund's date: The fourteenth century.</p>
                   </origin>
                   <provenance>
                      <p>The owners are mentioned on 85v :<q>
@@ -188,55 +201,53 @@
                   <adminInfo>
                      <custodialHist>
                         <custEvent notBefore="1981" notAfter="1982" type="conservation">
-                           <p>The manuscript was restored from <date>1981.04.22</date> to
-                                 <date>1982.03.30</date>. The former grey cardboard binding has been
-                              replaced and manuscript was set on meeting guards and bound in a
-                              modern standard half binding.</p>
+                           <p>The manuscript was restored from <date>1981.04.22 to
+                              1982.03.30</date>. The former grey cardboard binding was replaced and
+                              it was put on meeting guards and bound in a modern standard half
+                              binding.</p>
                         </custEvent>
                         <custEvent type="photography">
-                           <p>The manuscript was photographed in 1981.</p>
+                           <p>The manuscript was photographed in <date when="1981">1981</date>.</p>
                         </custEvent>
                         <custEvent type="loan">
-                           <p>The manuscript was lent to the The University Library of Oslo for the
-                              use of <name type="person" key="TryKnu001">Tryggve Knudsen</name> from
-                                 <date>1977.06.15</date> to <date>1978.06.10</date>.</p>
+                           <p>The manuscript was lent to <name type="org">The University Library of
+                                 Oslo</name> for the use of <name type="person" key="TryKnu001"
+                                 >Tryggve Knudsen</name> from <date>1977.06.15 to
+                              1978.06.10</date>.</p>
                         </custEvent>
                      </custodialHist>
                   </adminInfo>
                   <surrogates>
-                     <p>The AMI has the following copies:<listBibl>
-                           <bibl>
-                              <title type="gmd">microfilm (35 mm. suppl.) master</title>
-                              <idno>Neg. 617</idno>
-                              <date>1981</date>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">microfilm (35 mm. suppl.)archive</title>
-                              <idno>Pos. 568</idno>
-                              <date>1981</date>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">70 mm</title>
-                              <idno>70</idno>
-                              <date>1981</date>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">diapositive</title>
-                              <idno>AM 58 4to</idno>
-                              <date>February 1984</date>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">b/w prints</title>
-                              <idno>AM 58 4to</idno>
-                              <date>March 1981</date>
-                              <note>There are supplementary b/w prints from September 1981</note>
-                           </bibl>
-                        </listBibl>
+                     <p>The following copies are kept at <name type="org" key="AMS">The Arnamagnæan
+                           Collection</name> in Copenhagen : <list>
+                           <item> Microfilm (35 mm. suppl., master), <idno>Neg. 617</idno>, from
+                                 <date when="1981">1981</date>.</item>
+                           <item>microfilm (35 mm. suppl., archive), <idno>Pos. 568</idno>, from
+                                 <date when="1981">1981</date>.</item>
+                           <item> 70 mm <idno>70</idno> from <date when="1981">1981</date>.</item>
+                           <item> Diapositives from <date when="1984-02">February 1984</date>
+                           </item>
+                           <item> Black and white prints from <date when="1981-03">March 1981</date>
+                              (supplementary prints from September 1981 exist).</item>
+                        </list>
                      </p>
                   </surrogates>
                   <listBibl>
                      <bibl>
-                        <ref type="secondary-1" target="NgL4">Storm, 1885</ref>, pp. 543-46</bibl>
+                        <ref type="secondary" target="Gthl"/>
+                        <biblScope unit="page">lxiii-iv</biblScope>
+                        <note>Facsimile</note>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">376-377</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="ChrVidSkFor14"/>
+                        <biblScope unit="page">6</biblScope>
+                     </bibl>
+                     <bibl>Storm: <ref type="secondary-1" target="NgL4"/>
+                        <biblScope unit="page">543-46</biblScope>
+                     </bibl>
                   </listBibl>
                </additional>
             </msDesc>

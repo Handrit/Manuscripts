@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,43 @@
                      <idno>2013</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Nor-d-rigis Fordum Enne-wolde Konningers Eigentlige Stamme ock Herkomst Forneme Bedriffter Regierings Aaringer Dødelig Affgang Fra 878 thill Kong Oluf 1387</title>
-                  <origPlace>Norway or Denmark</origPlace>
-                  <origDate notBefore="1600" notAfter="1650">s. XVII 1/2</origDate>
-               </head>
-               <msContents>
-                  <textLang mainLang="da">Danish</textLang>
+                 <msContents>
+                  <summary><title type="supplied">History of Norwegian Kings</title><note>A history
+                        of the kings of Norway from Harald Hairfair to (and including) Olaf
+                        Hakonsson, written as an annal. The reign of each king opening with a stanza
+                        attributed to the king.</note></summary>
+                  <msItem n="1" class="sagnfr annal">
+                     <locus from="1r" to="153v">1r-153v</locus>
+                     <title type="supplied" xml:lang="da">History of Norwegian Kings</title>
+                     <textLang mainLang="da">Early Modern Danish</textLang>
+                     <rubric>NOR-D-RIGIS Fordum Enne-wolde Konningers Eigentlige Stamme ock Herkomst
+                        Forneme Bedriffter Regierings Aaringer Dødelig Affgang Fra <gap
+                           reason="irrelevant"/> 878 <gap reason="irrelevant"/> thill Kong Olluff
+                           <gap reason="irrelevant"/> 1387</rubric>
+                     <!-- rubric or title page? -->
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>153. 
-<dimensions type="leaf" scope="all">
-                              <height>190</height>
-                              <width>158</width>
+                        <extent>153. <dimensions type="leaf" scope="all">
+                              <height unit="mm">190</height>
+                              <width unit="mm">158</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Norway or Denmark</origPlace>,
+                  <origDate notBefore="1600" notAfter="1650">s. XVII<hi rend="sup">1</hi></origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">244</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,14 +23,13 @@
                      <idno>369</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title xml:lang="la">Speculum regale</title>
-                  <title xml:lang="isl">Konungs skuggsjá</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1540" notAfter="1560">s. XVI mid</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary><title xml:lang="la">Speculum regale</title>
+                     <title xml:lang="is">Konungs skuggsjá</title></summary>
+                  <msItem n="1" class="heims sidfr kenb">
+                     <locus from="1r" to="55v">1r-55v</locus>
+                     <title xml:lang="la">Speculum regale</title>
+                     <title xml:lang="is">Konungs skuggsjá</title>
                      <textLang mainLang="is">Islandsk</textLang>
                   </msItem>
                </msContents>
@@ -37,12 +37,27 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>55. </extent>
+                        <extent>55. <dimensions type="leaf" scope="all" unit="mm">
+                              <height unit="mm">232</height>
+                              <width unit="mm">169</width>
+                           </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1540" notAfter="1560"
+                        >s. XVI med</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">218</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

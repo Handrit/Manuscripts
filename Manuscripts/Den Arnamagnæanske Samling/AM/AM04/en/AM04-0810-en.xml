@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,54 @@
                      <idno>1942</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Observationes Iuveniles</title>
-                  <!--origPlace></origPlace-->
-<origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Observationes juveniles</title>
+                     <note>Consisting of a number of corrections and additions added to a printed
+                        book whose leaves are inserted or pasted to the maniscript. The book in
+                        question is <title type="uniform">Henrici Ernstii Helmstadensis Variarum
+                           observationum libri duo, Amstelodami 1636</title>
+                     </note></summary>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="HenErn001">Henrik Ernst</name>
-                     </author>
+                     <locus from="1r" to="212v">1r-212v</locus>
+                     <author key="HenErn001">Henrik Ernst</author>
+                     <title type="supplied">Observationes juveniles</title>
                      <textLang mainLang="la">Latin</textLang>
+                     <rubric>HENRICI ERNSTII <lb/> OBSERVATIONES IUVENILES <lb/> Emendatæ
+                           <ex>et</ex> uno Libro <lb/> auctæ </rubric>
+                     <note>Således den på flere steder rettede titel.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>212. 
-<dimensions type="leaf" scope="all">
-                              <height>206</height>
-                              <width>165</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>212 (including the inserted leaves from the printed book and the
+                           slip 70<hi rend="sup">bis</hi>). <dimensions type="leaf" scope="all">
+                              <height unit="mm">206</height>
+                              <width unit="mm">165</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scribe="HenErn001" scope="sole" script="unknown">
+                        <p>Written by <name type="person" key="HenErn001">Henrik Ernst</name>.</p>
+                     </handNote>
+                  </handDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Germany or Denmark</origPlace>, <origDate notBefore="1636"
+                        notAfter="1699">s. XVII</origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">216</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

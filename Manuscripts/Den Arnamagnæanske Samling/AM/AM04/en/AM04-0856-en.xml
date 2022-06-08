@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,33 +23,52 @@
                      <idno>1987</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Conjectanea to Saxo</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1649-01-01" notAfter="1649-12-31">1649</origDate>
-                  <note>The manuscript opens with a foreword <q xml:lang="la">in conjectanea Saxonica proloqvium</q> dated Skálholt 1649.</note>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Conjectanea</title></summary>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="BrySve001">Brynjólfur Sveinsson</name>
-                     </author>
+                     <locus from="1r" to="91v">1r-91v</locus>
+                     <author key="BrySve001">Brynjólfur Sveinsson</author>
+                     <title type="supplied">Conjectanea</title>
                      <textLang mainLang="la">Latin</textLang>
-                  </msItem>
+                     <msItem n="1.1">
+                        <title type="supplied">Preface</title>
+                        <rubric>BRUNOFLI SVENONI ISLANDI R. CONIECTANEORUM SAXONIANORUM in Præfationem
+                           PERICULUM I et II</rubric>
+                        <note>The author's signature <q>in conjectanea Saxonica proloqvium </q>,
+                           dated <name type="place" key="Skálh01">Skálholt</name>
+                           <date when="1649">1649</date>.</note>
+                     </msItem>
+                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>91. 
-<dimensions type="leaf" scope="all">
-                              <height>208</height>
-                              <width>168</width>
+                        <extent>91. <dimensions type="leaf" scope="all">
+                              <height unit="mm">208</height>
+                              <width unit="mm">168</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc hands="2">
+                     <handNote scope="major" scribe="BrySve001" script="unknown">
+                        <p>Mainly written by <name type="person" key="BrySve001">Brynjólfur
+                              Sveinsson</name> (the author's autograph).</p>
+                     </handNote>
+                  </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate when="1649"
+                     >1649</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">235</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

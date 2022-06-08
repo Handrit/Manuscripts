@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,25 +22,26 @@
                      <idno>2099</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Gammelsvenske krøniker</title>;
-                     <origPlace>Sverige</origPlace>, <origDate notBefore="1500" notAfter="1599" evidence="conjecture" resp="KKKat">s. XVI</origDate>.</head>
                <msContents>
+                  <summary><title type="uniform" xml:lang="sv">Stora rimkrönikan</title><note><title
+                           type="uniform">Stora rimkrönikan</title> er den sammefattende benævnelse
+                        for de tre rimkrøniker: <title type="uniform">Erikskrönikan</title>, <title
+                           type="uniform">Karlskrönikan</title> og dens fortsættelse <title
+                           type="uniform">Sturekrönikorna</title>. I Kålunds katalog skelnes mellem
+                           <title type="uniform">Gamla krönikan</title> (<title type="uniform"
+                           >Erikskrönikan</title>) og <title type="uniform">Nya krönikan</title>
+                           (<title type="uniform">Karlskrönikan</title> og <title type="uniform"
+                           >Sturekrönikorna</title>).</note></summary>
                   <msItem n="1">
-                     <locus from="1r" to="22r">1r-22r</locus>
-                     <title type="uniform" xml:lang="sv">Gamla krönikan</title>
-                     <title type="parallel" xml:lang="sv">Eriks krönikan</title>
+                     <locus from="1r" to="478v">1r-478v</locus>
+                     <title type="uniform" xml:lang="sv">Stora rimkrönikan</title>
                      <textLang mainLang="sv">Svensk</textLang>
-                  </msItem>
-                  <msItem n="2">
-                     <locus from="25r" to="478v">25r-478v</locus>
-                     <title n="1" type="uniform">Nya krönikan</title>
-                     <title n="1" type="parallel">Karlskrönikan</title>
-                     <title n="2" type="uniform">Nya krönikans fortsättningar</title>
-                     <title type="parallel">Sturekrönikan</title>
-                     <textLang mainLang="sv">Svensk</textLang>
-                     <note>Tredje afdeling er dog ved en åben plads adskilt fra det
-                        foregående.</note>
+                     <note>Tredje afdeling er adskilt fra det foregående ved åben plads.</note>
+                     <filiation>Ifølge Klemming (<bibl><ref target="GusKle1865-1868">Klemming
+                              1866</ref>
+                           <biblScope unit="page">265</biblScope></bibl>) er håndskriftet en
+                        afskrift af <ref type="url" target="https://www.manuscripta.se/ms/100351"
+                           >Kungliga biblioteket, D 5</ref>.</filiation>
                   </msItem>
                </msContents>
                <physDesc>
@@ -50,34 +51,38 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>478. Bl. 23-24 er ubeskrevne. Bl. 22v er ubeskrevet med undtagelse
-                           af 1½ linje — som synes — lønskrift. <dimensions type="leaf" scope="all">
-                              <height>198</height>
-                              <width>160</width>
+                        <extent>478. Bl. 23-24 er ubeskrevne (med undtagelse af 1,5 linje på bl. 22v, som synes skrevet med lønskrift). <dimensions type="leaf" scope="all">
+                              <height unit="mm">198</height>
+                              <width unit="mm">160</width>
                            </dimensions>.</extent>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1">
-                           <p>Ved håndskriftets begyndelse er der røde initialer eller åben plads for
-                              disse, senere hele begyndelsesord eller -linjer skrevet med rødt
+                           <p>Røde initialer eller åben plads
+                              for disse, senere hele begyndelsesord eller -linjer skrevet med rødt
                               blæk.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
+                  <handDesc><p>Hovedsagelig to forskellige hænder.</p></handDesc>
                   <additions>
                      <p>Hist og her, navnlig i begyndelsen, er der samtidige marginalnoter.</p>
                   </additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Sverige</origPlace>, <origDate notBefore="1500" notAfter="1599"
+                        evidence="conjecture" resp="KKKat">s. XVI</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Klemming: <ref target="GusKle1865-1868">Svenska medeltidens
                            rim-krönikor</ref>
                         <biblScope unit="volume">III</biblScope>
-                        <biblScope unit="pages">264-265</biblScope>
+                        <biblScope unit="page">264-265</biblScope>
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">250-251</biblScope></bibl>
+                        <biblScope unit="page">250-251</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

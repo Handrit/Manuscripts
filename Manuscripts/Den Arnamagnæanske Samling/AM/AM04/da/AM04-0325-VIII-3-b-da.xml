@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,15 +23,12 @@
                             <idno>1066</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform" xml:lang="is">Sverris saga</title>;
-                            <origPlace>Island</origPlace>, <origDate notBefore="1400" notAfter="1425" evidence="conjecture">s. XV
-                        1/4</origDate>.</head>
                     <msContents>
-                        <msItem class="kon" defective="true">
+                        <summary><title type="uniform" xml:lang="is">Sverris saga</title></summary>
+                        <msItem n="1" class="kon" defective="true">
                             <locus from="1ra" to="1vb">1ra-1vb</locus>
                             <title type="uniform" xml:lang="is">Sverris saga</title>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                            <textLang mainLang="non"/>
                             <incipit defective="true">iafna<ex>n</ex> b<ex>er</ex>a hied<ex>an</ex>
                                 í f<ex>ra</ex>
                             </incipit>
@@ -39,9 +37,9 @@
                             </explicit>
                             <bibl>
                                 <ref type="primary-2" target="FMS8">Fornmanna sögur</ref>
-                        <biblScope unit="volume">VIII</biblScope>
-                        <biblScope unit="pages">14-18</biblScope>
-                     </bibl>
+                                <biblScope unit="volume">VIII</biblScope>
+                                <biblScope unit="page">14-18</biblScope>
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -53,13 +51,13 @@
                                 </support>
                                 <extent>1. <dimensions scope="all" type="leaf">
                                         <height scope="all">280</height>
-                                        <width>208</width>
+                                        <width unit="mm">208</width>
                                     </dimensions>.</extent>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" writtenLines="29">
-                                    <p>Skriften er tospaltet med 29 linjer pr. spalte. Åben
-                                        plads på 2 linjer for initialer og overskrifter.</p>
+                                    <p>Skriften er tospaltet med 29 linjer pr. spalte. Åben plads på
+                                        2 linjer for initialer og overskrifter.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -78,7 +76,9 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Håndskriftet er skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1400" notAfter="1425" evidence="conjecture">1400-tallets første fjerdedel</origDate>.</p>
+                            <p>Håndskriftet er skrevet i <origPlace>Island</origPlace> i <origDate
+                                    notBefore="1400" notAfter="1425" evidence="conjecture"
+                                    >1400-tallets første fjerdedel</origDate>.</p>
                         </origin>
                     </history>
                     <additional>
@@ -90,43 +90,38 @@
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
-                                    <p>Sat på knækfalse og lagt i et papomslag <date from="1958-03-02" to="1959-04-04">2. marts 1958 - 4.
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
+                                    <p>Sat på knækfalse og lagt i et papomslag <date
+                                            from="1958-03-02" to="1959-04-04">2. marts 1958 - 4.
                                             april 1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plade</title>
-                                        <idno>plade 37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositiv</title>
-                                        <idno>AM 325 VIII 3 b 4to</idno>
-                                        <date notBefore="1984-05" notAfter="1985-05">Maj 1984 eller
-                                            1985</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">s/h fotografier</title>
-                                        <date when="1956-10">Oktober 1956</date>
-                                        <idno>AM 325 VIII 3 b 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item>Plade, <idno>plade37</idno>, s.d. </item>
+                                    <item>Diapositiver fra <date notBefore="1984-05"
+                                        notAfter="1985-05">maj 1984 eller 1985</date>.
+                                    </item>
+                                    <item>Sort-hvid fotografier fra <date when="1956-10">oktober
+                                        1956</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">560</biblScope>
-                     </bibl>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">560</biblScope>
+                            </bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2021-11-30" who="EvaWed001">Opdateret opmærkning.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

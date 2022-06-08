@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -25,13 +25,10 @@
                             <idno>Addit 75 4to (minus IX)</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Arnamagnæana</title>
-                        <origPlace>Island/Danmark</origPlace>
-                        <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII 1/4</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
+                        <summary><title type="supplied">Arnamagnæana</title></summary>
+                        <msItem n="1">
+                            <locus from="1r" to="258v">1r-258v</locus>
                             <title type="supplied">Arnamagnæana</title>
                             <textLang mainLang="is" otherLangs="da">Islandsk og dansk</textLang>
                             <note>Breve, optegnelser mm.</note>
@@ -48,25 +45,35 @@
                                 </support>
                                 <extent>258. Løse ark, blade og sedler i forskelligt format.
                                         <dimensions type="leaf" scope="all">
-                                        <height>350</height>
-                                        <width>230</width>
+                                        <height unit="mm">350</height>
+                                        <width unit="mm">230</width>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 I 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <history>
+                        <origin>
+                            <origPlace>Island/Danmark</origPlace>, <origDate notBefore="1700"
+                                notAfter="1730" evidence="conjecture" resp="KKKat">s. XVIII in</origDate>.
+                        </origin>
+                    </history>
+                    <msPart n="1">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 I 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
                                 <title type="supplied">Fra jordebogskommisionens tid</title>
                                 <textLang mainLang="da" otherLangs="is">Dansk og islandsk</textLang>
-                                <note>Heri <q>Om Reſtantzerne <lb/> Notitier <date when="1712">1712</date></q>, åbne breve fra
-                                    kommissærerne, bemærkninger af <name type="person" key="PalJon005">P. Vidalin</name> til den udsendte instruks,
-                                    dom i sagen <name type="person" key="Kinooo001">P. Kinch</name>
-                                    — <name type="person" key="Fuhooo001">N. Fuhrmann</name>
+                                <note>Heri <q>Om Reſtantzerne <lb/> Notitier <date when="1712"
+                                            >1712</date></q>, åbne breve fra kommissærerne,
+                                    bemærkninger af <name type="person" key="PalJon005">P.
+                                        Vidalin</name> til den udsendte instruks, dom i sagen <name
+                                        type="person" key="Kinooo001">P. Kinch</name> — <name
+                                        type="person" key="Fuhooo001">N. Fuhrmann</name>
                                     <date when="1728">1728</date>
                                     <name type="person" key="ArnMag001">Arne Magnusson</name>s
                                     kopi.</note>
@@ -85,16 +92,17 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 II 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="2">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 II 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="2">
                                 <title type="supplied">Brevveksling mellem Arne Magnusson og hans
                                     kone</title>
-                                <textLang mainLang="da" otherLangs="is">Hovedsagelig
-                                    dansk</textLang>
+                                <textLang mainLang="da"/>
                                 <note>Rekvisitioner til Islandsrejsen, regninger og andet
                                     pengemellemværende.</note>
                             </msItem>
@@ -112,16 +120,24 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 III 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="3">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 III 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="supplied">Breve fra Jonas Gram til Arne
-                                    Magnusson</title>
-                                <textLang mainLang="is" otherLangs="da">Hovedsageligt
-                                    islandsk</textLang>
+                            <msItem n="3">
+                                <title type="supplied">Breve</title>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="JonGam001">Jonas Gam</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="rcp"/>
+                                    <name type="ArnMag001">Arne Magnusson</name>
+                                </respStmt>
+                                <textLang mainLang="is" otherLangs="da"/>
                                 <note>3 i alt, hovedsageligt omkring pengesager.</note>
                             </msItem>
                         </msContents>
@@ -138,15 +154,25 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 IV 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="4">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 IV 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
-                                <title type="supplied">Breve fra Þormóður Torfason (Torfæus) til
-                                    Arne Magnusson</title>
-                                <textLang mainLang="is">Hovedsageligt islandsk</textLang>
+                                <title type="supplied">Breve</title>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="ThoTor001">Þormóður Torfason
+                                        (Torfæus)</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="rcp"/>
+                                    <name type="ArnMag001">Arne Magnusson</name>
+                                </respStmt>
+                                <textLang mainLang="is"/>
                                 <note>6 i alt, med adskillige bilag.</note>
                             </msItem>
                         </msContents>
@@ -163,14 +189,23 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 V 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="5">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 V 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
-                                <title type="supplied">Breve fra biskop Jón Árnason til Arne
-                                    Magmusson</title>
+                                <title type="supplied">Breve</title>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="JonArn003">Jón Árnason</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="rcp"/>
+                                    <name type="ArnMag001">Arne Magnusson</name>
+                                </respStmt>
                                 <textLang mainLang="is">Islandsk</textLang>
                                 <note>I alt 10 breve.</note>
                             </msItem>
@@ -188,14 +223,23 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 VI 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="6">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 VI 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
-                                <title type="supplied">Breve fra Magnús Arason til Arne
-                                    Magnusson</title>
+                                <title type="supplied">Breve</title>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="MagAra001">Magnús Arason</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="rcp"/>
+                                    <name type="ArnMag001">Arne Magnusson</name>
+                                </respStmt>
                                 <textLang mainLang="is">Islandsk</textLang>
                                 <note>I alt 3 breve.</note>
                             </msItem>
@@ -213,13 +257,19 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 VII 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="7">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 VII 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
-                                <title type="supplied">Et privatbrev fra I. Mathesius</title>
+                                <title type="supplied">Privatbrev</title>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="Mat001">I. Mathesius</name>
+                                </respStmt>
                                 <textLang mainLang="da">Dansk</textLang>
                                 <note>Heri adskilligt om <name type="person" key="ArnMag001">Arne
                                         Magnussons</name> stilling til de ham overdragne offenlige
@@ -239,34 +289,57 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 VIII 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="8">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 VIII 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
-                                <title type="supplied">Breve fra C. J. Lund</title>
+                                <title type="supplied">Breve</title>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person">C. J. Lund</name>
+                                </respStmt>
                                 <textLang mainLang="da">Dansk</textLang>
                             </msItem>
                             <msItem n="2">
-                                <title type="supplied">Breve fra R. Rasmussen</title>
+                                <title type="supplied">Breve</title>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="Rasooo002">R. Rasmussen</name>
+                                </respStmt>
                                 <textLang mainLang="da">Dansk</textLang>
                             </msItem>
                             <msItem n="3">
-                                <title type="supplied">Breve fra N. Therckilsen</title>
+                                <title type="supplied">Breve</title>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="Theooo003">N. Therckilsen</name>
+                                </respStmt>
                                 <textLang mainLang="da">Dansk</textLang>
                             </msItem>
                             <msItem n="4">
-                                <title type="supplied">Brev fra Þorleifur Halldórsson</title>
+                                <title type="supplied">Brev</title>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="ThoHal009">Þorleifur Halldórsson</name>
+                                </respStmt>
                                 <textLang mainLang="is">Islandsk</textLang>
                             </msItem>
                             <msItem n="5">
-                                <title type="supplied">Brev fra Sigurður Sigurðsson, Saurbæ</title>
+                                <title type="supplied">Brev</title>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="SigSig003">Sigurður Sigurðsson</name>
+                                </respStmt>
                                 <textLang mainLang="is">Islandsk</textLang>
                             </msItem>
                             <msItem n="6">
-                                <title type="supplied">Kopi af en erklæring fra L. C.
-                                    Gottrup</title>
+                                <title type="supplied">Kopi af en erklæring</title>
+                                <note>Fra <name type="person" key="LauGot001">L. C.
+                                    Gottrup</name></note>
                                 <textLang mainLang="da">Dansk</textLang>
                             </msItem>
                         </msContents>
@@ -283,19 +356,51 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 IX 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="9">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 IX 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
                                 <title type="supplied">Aktstykker om udlån af norske diplomer og
                                     brevbøger til Arne Magnusson</title>
                                 <textLang mainLang="da">Dansk</textLang>
-                                <note>Indeholder udlånsbeviser, reklamationsskrivelser til <name type="person" key="ArnMag001">Arne Magnusson</name> angående
+                                <note>Indeholder udlånsbeviser, reklamationsskrivelser til <name
+                                        type="person" key="ArnMag001">Arne Magnusson</name> angående
                                     Stavangerbrevene og (i afskrift) dennes gensvar, samt andre
                                     breve til oplysning om de fra vedkommende bispestole nedsendte
-                                    sager. Brevskriverne er <name type="person" key="MatMot001">Matthias Moth</name>, Arne Magnusson, biskopperne <name type="person">L. Stoud</name>, <name type="person" key="JacBir001">J. Bircherod</name>, <name type="person" key="HanRos001">H. Rosing</name>, <name type="person" key="PetKro001">P. Krog</name>, <name type="person" key="NieRan001">Randulf</name>.</note>
+                                    sager.</note>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="MatMot001">Matthias Moth</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="ArnMag001">Arne Magnusson</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person">L. Stoud</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="JacBir001">J. Bircherod</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="HanRos001">H. Rosing</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="PetKro001">P. Krog</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="NieRan001">Randulf</name>
+                                </respStmt>
+
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -309,21 +414,27 @@
                                     <extent>57.</extent>
                                 </supportDesc>
                             </objectDesc>
-                            <additions>Vedlagt er en fortegnelseudført for <name type="person" key="ArnMag001">Arne Magnusson</name>, over bogkister, der blev
-                                sendt ned fra Island, og en afskrift vistnok taget af <name type="person" key="PedTho001">P. G. Thorsen</name> af fire af de
-                                ovennævnte skrivelser (3 bl. <date notBefore="1800" notAfter="1899">1800-tallet</date>).</additions>
+                            <additions>Vedlagt er en fortegnelseudført for <name type="person"
+                                    key="ArnMag001">Arne Magnusson</name>, over bogkister, der blev
+                                sendt ned fra Island, og en afskrift vistnok taget af <name
+                                    type="person" key="PedTho001">P. G. Thorsen</name> af fire af de
+                                ovennævnte skrivelser (3 bl. <date notBefore="1800" notAfter="1899"
+                                    >1800-tallet</date>).</additions>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 X 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="10">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 X 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
                                 <title type="supplied">Notitser om håndskrifter og gamle
-                                breve</title>
+                                    breve</title>
                                 <textLang mainLang="da" otherLangs="is">Dansk og islandsk</textLang>
-                                <note>Om en rimnabok, en norsk lovbog fra <name type="person" key="JohBro001">Johannes Brøgger</name>, et forfalsket
+                                <note>Om en rimnabok, en norsk lovbog fra <name type="person"
+                                        key="JohBro001">Johannes Brøgger</name>, et forfalsket
                                     islandsk pergamentdiplom,</note>
                             </msItem>
                         </msContents>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,29 +23,79 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="is">Æfintýri</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1400" notAfter="1499">s. XV; 1475-1525 (ONP)</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <textLang mainLang="non"/>
+                  <msItem n="1" class="damis dyrs" defective="true">
+                     <title type="supplied" xml:lang="is">Ævintýri</title>
+                      <msItem n="1.1">
+                        <locus from="1r" to="1v">1r-v</locus>
+                        <incipit defective="true">dreckt morgu<ex>m</ex> m<ex>ann</ex>e j
+                           ſio</incipit>
+                        <!--    <explicit>Þ<ex>e</ex>tta ſynde hu<ex>n</ex></explicit>  -->
+                        <bibl>Jorgensen: <ref type="primary-1" target="PetJor0960a">Ten Icelandic
+                              exempla and their Middle English source</ref>
+                           <biblScope unit="page">201-203</biblScope><note>Ed. O</note></bibl>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="1v" to="2r">1v-2r</locus>
+                        <bibl>Jorgensen: <ref type="primary-1" target="PetJor0960a">Ten Icelandic
+                              exempla and their Middle English source</ref>
+                           <biblScope unit="page">203-205</biblScope><note>Ed. O</note></bibl>
+                     </msItem>
+                     <msItem n="1.3" class="dyrs">
+                        <locus from="2r" to="2v">2r-v</locus>
+                        <title type="uniform">The Sick Lion</title>
+                        <incipit defective="true">ſitt hiarta blod</incipit>
+                        <note>The fable ends illegibly.</note>
+                        <bibl>Jorgensen: <ref type="primary-1" target="PetJor0960a">Ten Icelandic
+                              exempla and their Middle English source</ref>
+                           <biblScope unit="page">205-207</biblScope><note>Ed. O</note></bibl>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>2. </extent>
+                        <extent>2. <dimensions type="leaf" unit="mm">
+                              <height unit="mm">165</height>
+                              <width unit="mm">117</width>
+                           </dimensions></extent>
+                        <condition>The leaves are worn and damaged due to excising of the corners.</condition>
                      </supportDesc>
-                  </objectDesc>
+                    </objectDesc>
                </physDesc>
+               <history>
+                  <origin>Written in <origPlace>Iceland</origPlace>
+                     <origDate notBefore="1490" notAfter="1510" evidence="conjecture" resp="ONP">c.
+                        1500</origDate> (<bibl>
+                        <ref type="secondary-1" target="PetJor1970">Jorgensen 1970</ref>
+                        <biblScope unit="pages">178</biblScope>
+                     </bibl>). <name type="person" key="KriKaa001">Kålund</name>'s date: fifteenth
+                     century (<bibl>
+                        <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">111</biblScope>
+                     </bibl>).</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>
+                        <ref type="secondary-1" target="PetJor1970">Jorgensen 1970</ref>
+                        <!-- <biblScope unit="pages"/> ?  -->
+                     </bibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">111</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-12" who="EvaWed001">Updated markup.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

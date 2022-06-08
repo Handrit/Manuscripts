@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,23 +23,21 @@
                      <idno>1652</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" n="1">Jóns saga postola</title>
-                  <title type="uniform" n="1">Jakobs saga postola</title>
-                  <origPlace>Island?</origPlace>
-                  <origDate notBefore="1600" notAfter="1625" resp="KKKat">s. XVII 1/4</origDate>
-               </head>
                <msContents>
-                  <msItem n="1" defective="true">
-                     <locus>1r</locus>
+                  <summary>
+                     <title type="uniform" n="1">Jóns saga postola</title>
+                     <title type="uniform" n="2">Jakobs saga postola</title>
+                  </summary>
+                  <msItem n="1" class="hels post" defective="true">
+                     <locus from="1ra" to="1rb">1ra-b</locus>
                      <title type="uniform">Jóns saga postola</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <note>Kolumnetitel: <supplied reason="illegible">iohannes ſaga</supplied>
                      </note>
                      <incipit defective="true">ſ er lætr ſoma</incipit>
                   </msItem>
-                  <msItem n="2" defective="true">
-                     <locus from="1v" to="2v">1v-2v</locus>
+                  <msItem n="2" class="hels post" defective="true">
+                     <locus from="1va" to="2vb">1va-2vb</locus>
                      <title type="uniform" n="1">Jakobs saga postola</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <note>Kolumnetitel: iacob<ex>us</ex> ſaga</note>
@@ -55,23 +54,30 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>2. <dimensions type="leaf" scope="all">
-                              <height>195</height>
-                              <width>140</width>
+                              <height unit="mm">195</height>
+                              <width unit="mm">140</width>
                            </dimensions>.</extent>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2">Tospaltet. Spor til kolumnetitler.</layout>
                      </layoutDesc>
                   </objectDesc>
-                  <additions>I bl. 1rs nederste margen er der to dyrebilleder.</additions>
+                  <additions>I bl. 1rs nederste margin er der to dyrebilleder.</additions>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Island?</origPlace>
+                     <origDate notBefore="1600" notAfter="1625" resp="KKKat">s. XVII<hi rend="sup"
+                           >1/4</hi></origDate>. </origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">73</biblScope>
+                        <biblScope unit="page">73</biblScope>
                      </bibl>
-                     </listBibl>
+                     <bibl><ref type="secondary" target="Wolf2013">154, 168</ref></bibl>
+                  </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>

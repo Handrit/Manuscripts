@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -23,13 +23,9 @@
                             <idno>1079</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Orkneyinga saga</title>
-                        <origPlace>Norge?</origPlace>
-                        <origDate notBefore="1688" notAfter="1704">ca. 1688-1704</origDate>
-                    </head>
-                    <msContents>
-                        <msItem n="1" defective="true">
+                       <msContents>
+                    	<summary><title type="uniform">Orkneyinga saga</title></summary>
+                        <msItem n="1" class="kon" defective="true">
                             <title type="uniform">Orkneyinga saga</title>
                             <textLang mainLang="is">Islandsk</textLang>
                             <filiation>Disse brudstykker er afskrevne af et tabt
@@ -41,43 +37,35 @@
                                 </incipit>
                                 <explicit defective="true">und<ex>ir</ex> lytr at ſtunda <lb/>
                                     En</explicit>
-                                <listBibl>
                                     <bibl>Guðbrandur Vigfússon: <ref type="primary-2" target="IslSGV1887-1">Icelandic sagas</ref>
-                                        <biblScope unit="pages">3:29-10:7</biblScope>
+                                        <biblScope unit="page">3:29-10:7</biblScope>
                                     </bibl>
-                                </listBibl>
                             </msItem>
                             <msItem n="1.2" defective="true">
                                 <locus from="7v" facs="#AM04-0332-0007v" to="21v">7v-21v</locus>
                                 <incipit defective="true">jarli þ<ex>at</ex> allt</incipit>
                                 <explicit defective="true">oʀ<ex>ost</ex>o þ<ex>eir</ex>ar <lb/>
                                     getr</explicit>
-                                <listBibl>
                                     <bibl>Guðbrandur Vigfússon: <ref type="primary-2" target="IslSGV1887-1">Icelandic sagas</ref>
-                                        <biblScope unit="pages">27:5-40:30</biblScope>
+                                        <biblScope unit="page">27:5-40:30</biblScope>
                                     </bibl>
-                                </listBibl>
                             </msItem>
                             <msItem n="1.3" defective="true">
                                 <incipit defective="true">oc þotto þ<ex>ei</ex>r</incipit>
                                 <explicit defective="true">at þ<ex>ei</ex>r ſkylldo <lb/>
                                     þegar</explicit>
-                                <listBibl>
                                     <bibl>Guðbrandur Vigfússon: <ref type="primary-2" target="IslSGV1887-1">Icelandic sagas</ref>
-                                        <biblScope unit="pages">179:14-185:17</biblScope>
+                                        <biblScope unit="page">179:14-185:17</biblScope>
                                     </bibl>
-                                </listBibl>
                             </msItem>
                             <msItem n="1.4" defective="true">
                                 <incipit defective="true">þ<ex>ei</ex>ra an<ex>n</ex>aʀ með iij
                                     maɴ</incipit>
                                 <explicit defective="true">frendi Sveins þ<ex>ei</ex>r
                                     kollo</explicit>
-                                <listBibl>
                                     <bibl>Guðbrandur Vigfússon: <ref type="primary-2" target="IslSGV1887-1">Icelandic sagas</ref>
-                                        <biblScope unit="pages">197:9-203:21</biblScope>
+                                        <biblScope unit="page">197:9-203:21</biblScope>
                                     </bibl>
-                                </listBibl>
                             </msItem>
                         </msItem>
                     </msContents>
@@ -85,18 +73,18 @@
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
-                                    <p>Papir.</p>
+                                    <p><material>Papir</material>.</p>
                                 </support>
                                 <extent>34. <dimensions type="leaf" scope="all">
-                                        <height>196</height>
-                                        <width>153</width>
+                                        <height unit="mm">196</height>
+                                        <width unit="mm">153</width>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
                             <handNote scribe="AsgJon001" script="unknown" scope="sole">
-                                <p>Skrevet af Ásgeir Jónsson.</p>
+                                <p>Skrevet af <name type="person" key="AsgJon001">Ásgeir Jónsson</name>.</p>
                             </handNote>
                         </handDesc>
                         <accMat>Der er en AM-seddel, hvor <name type="person" key="ArnMag001">Arne
@@ -104,6 +92,8 @@
                                 Universit. Hafn.</q>
                         </accMat>
                     </physDesc>
+                	<history><origin><origPlace>Norge?</origPlace>,
+                	<origDate notBefore="1688" notAfter="1705">ca. 1700</origDate>.</origin></history>
                     <additional>
                         <adminInfo>
                             <recordHist>
@@ -114,20 +104,20 @@
                             </recordHist>
                         </adminInfo>
                         <listBibl>
-                            <bibl>Jonas Jonæus
+                            <bibl>Jonas Jonæus:
                                 <ref type="secondary" target="Orkneyingasaga1780">Orkneyinga saga</ref>
-                                <biblScope unit="pages">x</biblScope>
+                                <biblScope unit="page">x</biblScope>
                             </bibl>
                             <bibl>Guðbrandur Vigfússon: <ref type="primary-2" target="IslSGV1887-1">Icelandic sagas</ref>
-                                <biblScope unit="pages">xi, xxii, xxiii</biblScope>
+                                <biblScope unit="page">xi, xxii, xxiii</biblScope>
                             </bibl>
                             <bibl>Guðbrandur Vigfússon og Unger: 
                                 <ref type="secondary" target="FlbChria">Flateyjarbók</ref>
-                                <biblScope unit="pages">viii</biblScope>
+                                <biblScope unit="page">viii</biblScope>
                             </bibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">573</biblScope>
+                        <biblScope unit="page">573</biblScope>
                      </bibl>
                         </listBibl>
                     </additional>

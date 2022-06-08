@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,30 +23,54 @@
                      <idno>734</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Norwegian Legal Manuscript</title>
-                  <origPlace>Norway</origPlace>
-                  <origDate notBefore="1500" notAfter="1599">s. XVI</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="da">Danish</textLang>
+                  <summary><title type="supplied">Norwegian Legal Manuscript</title></summary>
+                  <msItem>
+                     <title type="supplied">Norwegian Legal Manuscript</title>
+                     <textLang mainLang="da"/>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>191 (183 + I-VIII). 
-<dimensions type="leaf" scope="all">
-                              <height>190</height>
-                              <width>148</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>191 (183 + I-VIII). <dimensions type="leaf" scope="all">
+                              <height unit="mm">190</height>
+                              <width unit="mm">148</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Norway</origPlace>, <origDate notBefore="1500" notAfter="1599"
+                        >s. XVI</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>
+                        <ref target="Gthl"/>
+                        <biblScope unit="page">xxx</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">393-394</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="ChrVidSkFor14"/>
+                        <biblScope unit="page">24</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="NgL4"/>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="page">576-579</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-12-09" who="EvaWed001">Updated markup and added bibliography.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

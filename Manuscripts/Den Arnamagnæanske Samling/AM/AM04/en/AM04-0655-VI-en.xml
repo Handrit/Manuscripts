@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,48 +23,68 @@
                             <idno>1646</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title xml:lang="is">Basíliuss saga</title>, <origPlace>Iceland</origPlace>;
-                            <origDate notBefore="1200" notAfter="1215">s. XIII in</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
+                        <summary><title type="uniform" xml:lang="is">Basílius saga</title></summary>
+                        <msItem n="1" class="hels" defective="true">
                             <locus from="1r" to="2v">1r-2v</locus>
-                            <title xml:lang="is">Basíliuss saga</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <title type="uniform" xml:lang="is">Basílius saga</title>
+                            <textLang mainLang="non"/>
                             <incipit defective="true">
-                        <gap reason="damage"/>þ<expan>ei</expan>r foro
-                                meþ micilli t<expan>rv</expan>
-                     </incipit>
-                            <explicit defective="true">i hafþi g<supplied reason="unknown">o</supplied>rzsc nema sic ein</explicit>
-                            <bibl>
-                        <ref type="primary-1" target="HeilagraSuppl">Arnamagnæanische
-                                    Fragmente</ref>, pp. 24-25</bibl>
+                                <gap reason="damage"/>þ<ex>ei</ex>r foro meþ micilli t<ex>rv</ex>
+                            </incipit>
+                            <explicit defective="true">i hafþi g<supplied reason="unknown"
+                                    >o</supplied>rzsc nema sic ein</explicit>
+                            <bibl>Hreinn Benediktsson, <ref type="primary-1" target="HreBen1965a"
+                                    >Early Icelandic Script</ref><biblScope unit="page"
+                                    >xvi</biblScope><note>fol. 2r; Facsimile: Plate
+                                21.</note></bibl>
+                            <bibl>Morgenstern, <ref type="primary-1" target="HeilagraSuppl"
+                                    >Arnamagnæanische Fragmente</ref>
+                                <biblScope unit="page">24-25</biblScope>
+                            </bibl>
+                            <!-- AM 655 VI 4to contains two leaves, of which f. 1r
+and f. 2v are so badly damaged that they could not be edited -->
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
                                 <extent>2. <dimensions type="leaf" scope="all">
-                                        <height>205</height>
-                                        <width>150</width>
+                                        <height unit="mm">205</height>
+                                        <width unit="mm">150</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
-                                    <p>The first and last page are almost illegible due to thier
-                                        former use as binding. Holes at the upper two lines of f. 2
-                                        have damaged the text.</p>
+                                    <p>The first and last page are almost illegible due to their
+                                        former use as binding material. Holes at the two top lines
+                                        of fol. 2 have damaged the text.</p>
                                 </condition>
                             </supportDesc>
                         </objectDesc>
                         <additions>
-                            <p>The bottom margin of f. 2v contains stock-taking of fish from the
-                                seventeenth century.</p>
+                            <p>The bottom margin of fol. 2v contains some inventories (of fish) from
+                                    <date notBefore="1600" notAfter="1699">the seventeenth
+                                    century</date>.</p>
                         </additions>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1200"
+                                notAfter="1225">s. XIII<hi rend="sup">1/4</hi></origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl><ref type="secondary-1" target="PetJor2015"/><biblScope unit="page">57, 65, 67, 70</biblScope></bibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">59</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary-1" target="GusMor1895a"/><biblScope unit="page">97</biblScope></bibl>
+                            <bibl><ref type="secondary-1" target="Wolf2013"/><biblScope unit="page">56-57</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

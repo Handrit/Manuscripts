@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,29 +26,136 @@
                      <idno>1428</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title/>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1300" notAfter="1399">s. XIV;s. XIV med (ONP)</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="uniform" n="1">Trójumanna saga</title> and <title
+                     type="uniform" n="2">Breta sǫgur</title></summary>
+                  <textLang mainLang="non"/>
+                  <msItem n="1" class="sagnps" defective="true">
+                     <locus from="1r" to="23v">1r-23v</locus>
+                     <title type="uniform">Trójumanna saga</title>
+                     <incipit defective="true">er þv vart m<ex>ed</ex> feþr minv<ex>m</ex>
+                     </incipit>
+                     <bibl>Jón Sigurðsson, <ref target="TrojBretAn1848-49">Trójumanna saga ok Breta
+                           sögur</ref>
+                        <biblScope unit="issue">1848</biblScope>
+                        <biblScope unit="page">28, 34-38, 58-62, 70-86 </biblScope><note>Ed.
+                           B</note></bibl>
+                     <bibl>Louis-Jensen, <ref type="primary-1" target="EA-A8">Trójumanna saga</ref>
+                        <biblScope unit="pages">20-36, 51-167, 175-191, 213-238</biblScope>
+                        <note>Ed. S</note>
+                     </bibl>
+                  </msItem>
+                  <msItem n="2" class="sagnps">
+                     <locus from="24r" to="63v">24r-63v</locus>
+                     <title type="uniform">Breta sǫgur</title>
+                     <msItem n="2.1" defective="true">
+                        <locus from="63r" to="63v">63r-v</locus>
+                        <title type="uniform">Valvens þáttr</title>
+                        <bibl>Jón Sigurðsson: <ref target="TrojBretAn1848-49">Trójumanna saga ok
+                              Breta sögur</ref>
+                           <biblScope unit="issue">1848</biblScope>
+                           <biblScope unit="page">110-12, 122-28, 186-90</biblScope>
+                           <biblScope unit="issue">1849</biblScope>
+                           <biblScope unit="page">86-90, 121</biblScope>
+                           <note>Var.app. B.</note>
+                        </bibl>
+                        <bibl>Kölbing, <ref target="Kolbing1880">Ein Bruchstück des Valvers
+                              þáttr</ref>
+                           <biblScope unit="page">385-388</biblScope><note>Udg. B</note></bibl>
+                        <note>Ends defectively.</note>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>63. </extent>
+                        <extent>63. <dimensions type="leaf" scope="all" unit="mm">
+                              <height unit="mm">188</height>
+                              <width unit="mm">137</width>
+                           </dimensions>
+                        </extent>
+                        <condition>The manuscript ends defectively. Lacunae occur after fols 2, 18,
+                           20, 25, 38, 48 and 62.</condition>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <p>Written by various hands.</p>
+                  </handDesc>
+                  <accMat>AN AM-slip informs on the provenance and acquisition of the
+                     manuscript.</accMat>
                </physDesc>
+               <history>
+                  <origin>The manuscript is written in <origPlace>Iceland</origPlace> between c.
+                        <origDate notBefore="1330" notAfter="1375">1330-1375</origDate>. <list>
+                        <item>Kålund dated the entire manuscript to the <date notBefore="1300"
+                              notAfter="1399" cert="medium" resp="KKKat">fourteenth century</date> (<bibl>
+                              <ref type="secondary-1" target="KKKat">Katalog</ref>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="pages">735</biblScope>
+                           </bibl>). The manuscript have, however, subsequently been dated more
+                           precisely.</item>
+                        <item>Fols 1r-45v: <origDate notBefore="1350" notAfter="1375" cert="high"
+                              resp="EA-A8">1350-1375</origDate> (<bibl>
+                              <ref type="secondary-1" target="EA-A8">Louis-Jensen 1963</ref>
+                              <biblScope unit="pages">xxxi</biblScope>
+                           </bibl>)</item>
+                        <item>Fols 46r-63v: <origDate notBefore="1330" notAfter="1370" cert="high"
+                              resp="EIMF7" scope="range">c. 1330-1370</origDate> (<bibl>
+                              <ref type="secondary-1" target="EIMF7">Stéfan Karlsson 1967</ref>
+                              <biblScope unit="pages">26, 28</biblScope>
+                           </bibl>) </item>
+                     </list>
+                  </origin>
+                  <provenance>
+                     <p>Fols 46r-63v, written in a separate hand, were once part of <ref type="ms"
+                           >Thott 1763 4to</ref> in <name type="org" key="KB">The Royal
+                           Library</name> of <name type="place" key="Copen01">Copenhagen</name>.</p>
+                  </provenance>
+                  <acquisition><p>In <ref type="ms" target="AM04-0435-a-da">AM 435 a 4to</ref>, f.
+                        144v, <name type="person" key="ArnMag001">Árni Magnússon</name> tells that
+                        this codex (called <q xml:lang="la">mutilus et confusus</q>) has <q>kominn
+                           fra Biarna Biarnaſyne i <name type="place" key="ArnFel01"
+                              >Arnarbæle</name>, nockurn part <date when="1699">1699</date>.
+                              <ex>og</ex> nockud sidan <date when="1703">1703</date>.</q></p>
+                     <p>From the content of the AM-slip it can be inferred that Árni Magnússon got
+                        fols 1-2 and 19-23 from <name type="person" key="BjaBja001">Bjarni
+                           Bjarnason</name> in <date when="1703">1703</date>: <q>En<ex>n</ex> bokina
+                           hafde eg feinged nockrum ärum fyrr, af <name type="person"
+                              key="JacLof001">Jacob Lfberg</name>, en<ex>n</ex> han<ex>n</ex> af
+                           Biarna Bianiaſyne, og hafa þä þ<ex>ess</ex>e bld hiä Biarna epter
+                           orded</q>.</p></acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="MatDri1992a"/><!-- biblScope? --></bibl>
+                     <bibl><ref type="secondary-1" target="HarBer2006c"/></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">735-736</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="EA-A8"/>
+                        <biblScope unit="page"/>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="JonLou1130a"/>
+                        <biblScope unit="page"/>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="SteKar1552a"/></bibl>
+                     <bibl><ref type="secondary-1" target="SteKar1961a"/></bibl>
+                     <bibl>
+                        <ref type="secondary-1" target="EIMF7"/>
+                        <biblScope unit="page">26, 28</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="SteKar2000q"/></bibl>
+                     <bibl><ref type="secondary-1" target="SteKar2000r"/></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-10" who="EvaWed001">Updated markup.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

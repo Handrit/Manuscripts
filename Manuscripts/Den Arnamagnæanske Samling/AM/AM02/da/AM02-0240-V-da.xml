@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,21 +23,21 @@
                      <idno>362</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Maríu saga</title>; <origPlace>Island</origPlace>, <origDate notBefore="1325" notAfter="1375" cert="high" resp="ONP">ca. 1330-70</origDate>. </head>
-               <msContents>
+                  <msContents>
+                  <summary><title type="uniform">Maríu saga</title></summary>
                   <msItem n="1" defective="true" class="hels">
-                     <title type="uniform" xml:lang="is">Maríu saga</title>
-                     <textLang mainLang="is">Norrønt/islandsk</textLang>
+                     <title type="uniform">Maríu saga</title>
+                     <textLang mainLang="non">Norrønt/islandsk</textLang>
                      <bibl>Unger: <ref type="primary-3" target="Mariu1871">Maríu saga</ref>
-                        <biblScope unit="pages">409:12-411:3, 411:23-412:2, 450:2-4532, 472:-482:32,
+                        <biblScope unit="page">409:12-411:3, 411:23-412:2, 450:2-4532, 472:-482:32,
                            502:21-508:2</biblScope>
                         <note>Udg. <q>f</q>.</note>
                      </bibl>
                      <msItem n="1.1" class="hels">
                         <locus from="1r" to="1v">1r-v</locus>
                         <incipit defective="true">þuiat þau</incipit>
-                        <explicit defective="true">fiandano<ex>m</ex>. hu<ex>er</ex>r <gap reason="illegible"/> ſelia</explicit>
+                        <explicit defective="true">fiandano<ex>m</ex>. hu<ex>er</ex>r <gap
+                              reason="illegible"/> ſelia</explicit>
                      </msItem>
                      <msItem n="1.2" class="hels">
                         <locus from="2r" to="3v">2r-3v</locus>
@@ -66,8 +66,8 @@
                               <material>Pergament.</material></p>
                         </support>
                         <extent>6. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>252</height>
-                              <width>177</width>
+                              <height unit="mm">252</height>
+                              <width unit="mm">177</width>
                            </dimensions>.</extent>
                         <condition>
                            <p>Bl. 1 har mistet nedre halvdel, bl. 3 er betydelig beskadiget ved
@@ -82,19 +82,24 @@
                   </bindingDesc>
                </physDesc>
                <history>
-                  <origin>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl><ref target="KKKat">Katalog</ref></bibl>) daterede fragmentet til <origDate notBefore="1290" notAfter="1300">ca. 1300</origDate>. Senere har <name type="person" key="SteKar001">Stefán Karlsson</name> (<bibl><ref target="EIMF7">Stefán
-                           Karlsson 1967</ref><biblScope unit="pages">25, 28</biblScope></bibl>) dateret det til perioden
-                        <origDate notBefore="1330" notAfter="1370">ca. 1330-1370</origDate></origin>
+                  <origin>Skrevet i <origPlace>Island</origPlace>, <origDate notBefore="1330" notAfter="1370">ca.
+                     1330-1370</origDate> (<bibl><ref target="EIMF7">Stefán
+                        Karlsson 1967</ref><biblScope unit="page">25, 28</biblScope></bibl>). 
+                     <name type="person"
+                        key="KriKaa001">Kålund</name>s datering: ca. 1300 (<bibl><ref target="KKKat"
+                        >Katalog</ref></bibl>).</origin>
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat"/>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">208</biblScope>
+                        <biblScope unit="page">208</biblScope>
                      </bibl>
-                     <bibl>Stefán Karlsson,
-                        <ref target="EIMF7"/>
+                     <bibl><ref target="EIMF7"/>
+                        <biblScope unit="page">25, 28</biblScope>
                      </bibl>
+                     <bibl><ref type="secondary" target="Wolf2013"/>
+                        <biblScope unit="page">236</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

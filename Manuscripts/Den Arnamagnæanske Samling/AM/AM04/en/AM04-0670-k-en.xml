@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,34 +23,74 @@
                      <idno>1678</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">Acta sanctorum in Selio</title>
-                  <title n="2">De sanctis in Selio</title>
-                  <origPlace>Iceland or Denmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1725">s. XVII 1/4</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <summary><title type="uniform" n="1">Acta sanctorum in Selio</title>
+                     <title type="uniform" n="2">De sanctis in Selio</title></summary>
+                  <msItem n="1" defective="true" class="helgiso">
+                     <locus from="2r" to="6v">2r-6v</locus>
+                     <title type="uniform">Acta sanctorum in Selio</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <note>Fragment.</note>
+                     <filiation>According to a note on fol. 1r, this item is copied from a parchment
+                        leaf in folio from Iceland; this was the remainder of a stately manuscript
+                        containing a en legendary.</filiation>
+                     <!-- Tjek: Unger "Heilagra Manna Søgur" -->
+                  </msItem>
+                  <msItem n="2" class="jarteikn">
+                     <locus from="9r" to="16v">9r-16v</locus>
+                     <title type="supplied">De sanctis in Selio</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <filiation><q>Ex Breviario Nidroſienſi. impreſſo in 8vo</q>.</filiation>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>11. 
-<dimensions type="leaf" scope="most">
-                              <height>218</height>
-                              <width>167</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>11. Fols 1v, 6v-8, 9v 10v are blank. <dimensions type="leaf"
+                              scope="most">
+                              <height unit="mm">218</height>
+                              <width unit="mm">167</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
-                  <handDesc hands="1">
-                     <handNote scribe="ArnMag001" scope="sole" script="unknown">
-                        <p>
-Written by Árni Magnússon.</p>
-                     </handNote>
+                  <handDesc hands="9">
+                     <p>Partly copied by <name type="person" key="ArnMag001">Árni Magnússon</name>
+                        and partly for him.</p>
                   </handDesc>
+                  <additions>A note on fol. 1r in Árni Magnússon's hand reads: <q xml:lang="la"
+                        >Fragmentum hocce accurate exscriptum est ex folio pergameno disrupto ex
+                        libro in folio Regali. folium istud in Islandia nactus sum. erat satis
+                        vetustum, exaratum grandiori scriptura, sed non satis accurate. Fuitque sine
+                        dubio hoc volumen, antequam discerperetur, egregius et satis magnificus
+                        codex. Legendarium absque dubio erat, sine cantibus vel aliis officiis</q>
+                  </additions>
+                  <accMat>Fols 10 and 11 are AM-slips concerning the exemplar for <title
+                        type="supplied">De sanctis in Selio</title>.</accMat>
+
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark?</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup"
+                           >1/4</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary" target="SRDMAE"/>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="page">1 ff.</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope
+                           unit="volume">II</biblScope>
+                        <biblScope unit="page">86</biblScope></bibl>
+                     <bibl><ref type="secondary" target="MhN"/>
+                        <biblScope unit="page">xxxxi, 149-151</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -23,9 +23,9 @@
                             <idno>2499</idno>
                         </altIdentifier>
                     </msIdentifier>
-                       <msContents>
+                    <msContents>
                         <summary>
-                            <title>Book of Hours of the Blessed Virgin Mary</title>
+                            <title type="supplied">Book of Hours of the Blessed Virgin Mary</title>
                         </summary>
                         <msItem n="1" class="banb">
                             <!-- Er der noget om denne i "Middelalderens danske bønnebøger"? -->
@@ -34,7 +34,8 @@
                             <title xml:lang="da">Vor Frue Tider</title>
                             <textLang mainLang="da">Danish</textLang>
                             <filiation>Copy of <title type="uniform">Christiern Pedersens
-                                tidebog</title>, <name type="place" key="Paris01">Paris</name> <date when="1514">1514</date>.</filiation>
+                                    tidebog</title>, <name type="place" key="Paris01">Paris</name>
+                                <date when="1514">1514</date>.</filiation>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -45,8 +46,8 @@
                                         <material>Parchment</material>.</p>
                                 </support>
                                 <extent>9. <dimensions type="leaf" scope="all">
-                                        <height>112</height>
-                                        <width>80</width>
+                                        <height unit="mm">112</height>
+                                        <width unit="mm">80</width>
                                     </dimensions>
                                 </extent>
                                 <condition>
@@ -62,8 +63,9 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1514" notAfter="1525" cert="high" evidence="conjecture">
-                            <p>The manuscript is written in <origPlace>Denmark</origPlace> in <origDate>the beginning of the
-                                sixteenth century</origDate>.</p>
+                            <p>The manuscript is written in <origPlace>Denmark</origPlace> in
+                                    <origDate notBefore="1514" notAfter="1525">the beginning of the
+                                    sixteenth century</origDate>.</p>
                         </origin>
                         <acquisition>
                             <p>On an AM-slip is written <q xml:lang="la">Ex auctione Rostgardiana
@@ -81,22 +83,17 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <bibl>
-                                    <title type="gmd">microfilm (master)</title>
-                                    <idno>Neg. 832</idno>
-                                    <date when="1989">1989</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">microfilm (archive)</title>
-                                    <idno>Pos. 757</idno>
-                                    <date when="1989">1989</date>
-                                    <note/>
-                                </bibl>
+                                <list>
+                                    <item> Microfilm (master), <idno>Neg. 832</idno>, from <date
+                                            when="1989">1989</date>. </item>
+                                    <item> Microfilm (archive), <idno>Pos. 757</idno>, from <date
+                                            when="1989">1989</date>. </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
                             <bibl>Brandt and Helweg, <ref target="DDPsalme">Den Danske
-                                Psalmedigtning</ref>
+                                    Psalmedigtning</ref>
                                 <biblScope unit="volume">I</biblScope>
                                 <biblScope unit="pages">xx</biblScope>
                             </bibl>
@@ -108,11 +105,14 @@
                                 <biblScope unit="pages">xvii-xviii</biblScope>
                             </bibl>
                         </listBibl>
-                      </additional>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-   <revisionDesc><change when="2021-09-07" who="EvaWed001">Updated markup and changed origDate.</change></revisionDesc>  </teiHeader>
+        <revisionDesc>
+            <change when="2021-09-07" who="EvaWed001">Updated markup and changed origDate.</change>
+        </revisionDesc>
+    </teiHeader>
     <facsimile>
         <surface/>
     </facsimile>

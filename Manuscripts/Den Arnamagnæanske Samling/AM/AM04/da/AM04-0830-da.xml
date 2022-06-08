@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,29 +23,53 @@
                      <idno>1962</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Biografier om tyske herskere, annaler m.v.</title>;
-                     <origPlace>Tyskland?</origPlace>, <origDate notBefore="1490" notAfter="1510" evidence="conjecture" resp="KKKat">ca. 1500</origDate>. </head>
-
                <msContents>
-                  <msItem n="1">
+                  <summary><title type="supplied">Historisk kompendium</title></summary>
+                  <msItem n="1" defective="false" class="person">
                      <locus from="1r" to="22v">1r-22v</locus>
-                     <title type="uniform">Gesta Karoli magni</title>
+                     <author>Pseudo-Turpinus</author>
+                     <title type="uniform">Historia Karoli magni et Rotholandi</title>
                      <textLang mainLang="la">Latin</textLang>
-                     <rubric>Gesta Karoli magni in Hispania Turpini Archiepiscopi</rubric>
-                     <explicit>Finito libro ſit maxima laus rotolando</explicit>
-                     <note>Efterfulgt af en notits om Karl den stores død.</note>
+                     <rubric>Incipiu<ex>n</ex>t gesta Karoli magni in Hispania Turpini Archi <lb/>
+                        ep<ex>iscop</ex>i Remensis eiusde<ex>m</ex> karoli magni annei et
+                        secretarii </rubric>
+                     <incipit>Gloriosissim<ex>us</ex>
+                        <ex>Christi</ex> ap<ex>osto</ex>lus iacob<ex>us</ex> aliis
+                        ap<ex>osto</ex>lis et <lb/> d<ex>o</ex>m<ex>ini</ex>cis discipulis diversa
+                        cosmi climata adeu<ex>n</ex>
+                        <lb/> tib<ex>us</ex></incipit>
+                     <explicit>Qui vero a potestate sarraceno<ex>rum</ex> illa<ex>m</ex> custodierit
+                        celesti <lb/> munere remunerabitur</explicit>
+                     <rubric>Finito libro sit maxima laus rotolando</rubric>
+                     <colophon>Sc<ex>ri</ex>ptus fuit liber iste Turpini archiep<ex>iscop</ex>i de
+                        gestis b<ex>ea</ex>ti karoli in <lb/> hyspania factis p<ex>er</ex>
+                        supp<ex>ri</ex>ore<ex>m</ex> ordi<ex>ni</ex>s cano<ex>nicorum</ex>
+                        Reg<ex>ularium</ex> mo<ex>na</ex>sterii i<ex>n</ex> kyrßg<ex>art</ex>
+                        <lb/> iuxta wor<ex>macia</ex>m anno domini <date when="1496">m. cccc.
+                           xcvi°</date> in oct<ex>av</ex>a s<ex>ancti</ex> Aug<ex>ustin</ex>i
+                        pr<ex>ior</ex>is n<ex>ost</ex>ri</colophon>
                   </msItem>
-                  <msItem n="2">
+                  
+                  <msItem n="2" defective="true" class="annal">
                      <locus from="23r" to="24v">23r-24v</locus>
+                     <title type="uniform">Chronicon Laureshamense (uddrag)</title>
                      <textLang mainLang="la">Latin</textLang>
-                     <rubric>De <ex>con</ex>íunctione m<ex>at</ex>rimoniali filie carolí magni,
-                           cu<ex>m</ex> e<ex>ius</ex> notario</rubric>
+                     <rubric>De <ex>con</ex>iu<ex>n</ex>ctio<ex>n</ex>e m<ex>at</ex>rimoniali filie
+                        caroli magni cu<ex>m</ex> e<ex>ius</ex> notario</rubric>
+                     <incipit>Est res tu<ex>m</ex> cognitu et admiratio<ex>n</ex>e digna
+                        tu<ex>m</ex> qualis <lb/> uel q<ex>uan</ex>ta olim
+                        i<ex>m</ex>p<ex>er</ex>ialis excelle<ex>n</ex>tie et erga subditos <lb/>
+                        pietas et erga deuotos libe<ex>r</ex>alitas et erga suorum excess<ex>us</ex>
+                        <lb/> cleme<ex>n</ex>cia fue<ex>r</ex>it euide<ex>n</ex>s
+                        exe<ex>m</ex>plu<ex>m</ex></incipit>
+                     <explicit>qui totis nisibus usq<ex>ue</ex>quaq<ex>ue</ex> n<ex>ostr</ex>o
+                        seruicio <lb/> nostris iussionib<ex>us</ex> fideliter par<ex>er</ex>e
+                        student </explicit>
                   </msItem>
                   <msItem n="3">
                      <locus from="25r" to="43r">25r-43r</locus>
-                     <author key="Einooo003">Einhard</author>
-                     <title type="uniform">Vita Caroli Magni</title>
+                     <author key="Einooo003">Einhardus</author>
+                     <title type="uniform">Vita Karoli magni</title>
                      <textLang mainLang="la">Latin</textLang>
                      <rubric>Einharti vita Karoli magni</rubric>
                   </msItem>
@@ -54,64 +78,54 @@
                      <rubric>Informaciones et cautele obseruande presbitero voienti diuina
                         celebrare</rubric>
                   </msItem>
-                  <msItem n="5">
+                  <msItem n="5" class="annal">
                      <locus from="45v" to="95v">45v-95v</locus>
                      <title type="uniform">Annales Fuldenses</title>
                      <rubric>Alia qvædam gesta Francorum regum</rubric>
-                     <note>Kaldes ved fortællingens slutning: <q xml:lang="la">Historia Francorum
-                           Karoli magni et Lodowici filij et filiorum Lodowici qvæ inventa fuit in
-                           libraria maioris ecclesie in Wormacia vbi præcipue describuntur gesta
-                           huius patrie</q>.</note>
+                     <finalRubric>Historia Francorum Karoli magni et Lodowici filij et filiorum
+                        Lodowici qvæ inventa fuit in libraria maioris ecclesie in Wormacia vbi
+                        præcipue describuntur gesta huius patrie</finalRubric>
+                     <note>Kurze, <bibl> Annales Fuldenses <ref type="primary" target="MGHSRG007"/>
+                     </bibl>, siglum 1a. </note>
+                     
                   </msItem>
                   <msItem n="6">
                      <locus from="97r" to="108v">97r-108v</locus>
-                     <author>Thegan</author>
+                     <author>Theganus</author>
                      <title type="uniform">Gesta Hludowici imperatoris</title>
                      <rubric>Thegani archiepiscopi de gestis Ludowici pii</rubric>
-                     <note>Med Prologus. Ender med en rækkce kapiteloverskrifter; derefter tilføjes:
-                           <q>Iſta cap<ex>itu</ex>la no<ex>n</ex> habentur ſed
-                           aluid exe<ex>m</ex>plar expectat<ex>ur</ex></q>, hvorefter resten af
-                        siden er ladet blank.</note>
                   </msItem>
                   <msItem n="7">
                      <locus from="109r" to="134v">109r-134v</locus>
                      <rubric>Historia Frederici primi et progenitorum suorum</rubric>
-                     <note>Ender i det tyske interregnum.</note>
-                     <msItem n="7.1">
-                        <title type="supplied">Efterskrift</title>
-                        <rubric>hæc historia a pio papa descripta videtur, qvi antea dictus fuit
-                           eneas siluius, tunc legatus cesaris frederici 3ij sed non est finis vt
-                           videtur</rubric>
-                     </msItem>
+                     <finalRubric>hæc historia a pio papa descripta videtur, qvi antea dictus fuit
+                        eneas siluius, tunc legatus cesaris frederici 3ij sed non est finis vt
+                        videtur</finalRubric>
                   </msItem>
-                  <msItem n="8">
+                  <msItem n="8" class="annal">
                      <locus from="134v" to="139v">134r-139v</locus>
-                     <title type="supplied">Annaler 1170-1295</title>
+                     <title type="supplied">Annaler, 1170-1295</title>
                      <rubric>Qvæ contigerunt temporibus Frederici primi imperatoris ejusqve
                         sequacium</rubric>
-                     <note><q>Sumpta et transscripta sunt ex quodam antiquissimo libro, qui iam præ
-                           sua vetustate vix extitit legibilis, discerptus enim erat ae proiectus
-                           veluti inutilis</q>. </note>
                   </msItem>
                   <msItem n="9">
                      <locus from="140r" to="219v">140r-219v</locus>
-                     <author key="Piuooo001">Enea Silvio Picolomini</author>
+                     <author key="Piuooo001">Aeneas Silvius Bartholomeus Piccolominus</author>
                      <title type="uniform">De origine Bohemorum</title>
                      <rubric>De origine Bohemorum</rubric>
                   </msItem>
                   <msItem n="10">
                      <locus from="220r" to="221v">220r-221v</locus>
                      <title type="supplied">Bernardino fra Sienas helgenkåring</title>
-                     <rubric>De canoniſacio<ex>n</ex>e <name type="person" key="BerSie001">ſancti bernardini</name>
-                           ord<ex>in</ex>is <lb/> minor<ex>um</ex></rubric>
+                     <rubric>De canoniſacio<ex>n</ex>e <name type="person" key="BerSie001">ſancti bernardini</name> ord<ex>in</ex>is <lb/>
+                        minor<ex>um</ex></rubric>
                   </msItem>
                   <msItem n="11">
                      <locus from="221v" to="223v">221v-223v</locus>
-                     <author key="JohCap001">Johannes Capistrano</author>
+                     <author key="GioCap001">Johannes Capistrano</author>
                      <title type="uniform">Ordinis minorum</title>
                      <textLang mainLang="la">Latin</textLang>
-                     <rubric>De iohan<ex>n</ex>e capiſtrano ordinis
-                        minor<ex>um</ex></rubric>
+                     <rubric>De iohan<ex>n</ex>e capiſtrano ordinis minor<ex>um</ex></rubric>
                   </msItem>
                </msContents>
                <physDesc>
@@ -122,8 +136,8 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>223. <dimensions type="leaf" scope="all">
-                              <height>220</height>
-                              <width>158</width>
+                              <height unit="mm">220</height>
+                              <width unit="mm">158</width>
                            </dimensions>.</extent>
                      </supportDesc>
                      <layoutDesc>
@@ -135,28 +149,43 @@
                   </objectDesc>
                   <additions>
                      <p>I marginen hist og her årstal, henvisninger o.l.</p>
-                     <p>Ved slutningen af stykke 1 (bl. 22v nederst) står der: <q xml:lang="la">Scriptus fuit liber iſte Turpini archiep<ex>iscop</ex>i de
-                           geſtis beati karoli <lb/> in hyſpania factis per
-                              supp<ex>ri</ex>ore<ex>m</ex> ordi<ex>ni</ex>s cano<ex>nicorum</ex>
-                              Reg<ex>ularium</ex> mo<ex>na</ex>ſterij i<ex>n</ex>
-                           kyrſzgart <lb/> iuxta wor<ex>macia</ex>m anno domini <date when="1496">M. cccc. xcvj°</date> in octava ſ.
-                              Aug<ex>ustin</ex>i prioris nostri</q>.</p>
+                     <p>Ved slutningen af stykke 1 (bl. 22v nederst) står der: <q xml:lang="la"
+                           >Scriptus fuit liber iſte Turpini archiep<ex>iscop</ex>i de geſtis beati
+                           karoli <lb/> in hyſpania factis per supp<ex>ri</ex>ore<ex>m</ex>
+                              ordi<ex>ni</ex>s cano<ex>nicorum</ex> Reg<ex>ularium</ex>
+                              mo<ex>na</ex>ſterij i<ex>n</ex> kyrſzgart <lb/> iuxta
+                              wor<ex>macia</ex>m anno domini <date when="1496">M. cccc. xcvj°</date>
+                           in octava ſ. Aug<ex>ustin</ex>i prioris nostri</q>.</p>
                   </additions>
                   <accMat>På en foran indklæbet seddel har <name type="person" key="ArnMag001">Arne
-                        Magnusson</name> noteret: <q xml:lang="da">Bekommet af Secreterer <name type="person">Frankenau</name>
+                        Magnusson</name> noteret: <q xml:lang="da">Bekommet af Secreterer <name
+                           type="person">Frankenau</name>
                         <date when="1717-02">1717. in Februario</date></q>. </accMat>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Kloster Kirschgarten (Worms), Tyskland</origPlace> i <origDate
+                        notBefore="1490" notAfter="1499" evidence="conjecture">slutningen af 1400-tallet</origDate>. </origin>
+
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source><p>Nærværende håndskriftbeskrivelsen er lavet udelukkende på
-                           basis af <bibl><ref target="KKKat">Kålunds katalog</ref></bibl>. </p><p>For yderligere
-                              oplysninger se den engelske beskrivelse: <ref type="url" target="https://handrit.is/manuscript/view/en/AM04-0830">https://handrit.is/manuscript/view/en/AM04-0830</ref>.</p>
-                        </source>
+                        <source><p>Håndskriftbeskrivelsen er baseret på
+                           <bibl><ref target="KKKat">Kålunds katalog</ref></bibl> og <name type="person" key="KivYav001">N.
+                              Kıvılcım Yavuz</name>' oplysninger i den engelske version.</p></source>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">224-225</biblScope></bibl>
+                     <bibl><ref type="primary-1" target="MGHSRG025"/>
+                     </bibl>
+                     <bibl><ref type="primary-2" target="Einooo2009a"/>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">223-224</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-2" target="MatTis2001a"/></bibl>
                   </listBibl>
                </additional>
             </msDesc>

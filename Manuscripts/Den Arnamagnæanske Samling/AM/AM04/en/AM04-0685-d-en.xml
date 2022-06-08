@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,29 +23,125 @@
                      <idno>1709</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Theological treatises</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1400" notAfter="1499">s. XV</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
-                  </msItem>
+                  <msContents>
+               	<summary><title type="supplied">Theological Treatises</title></summary>
+               	<textLang mainLang="non"/>
+               	<msItem n="1" class="gudfr">
+               		<locus from="1r" facs="#AM04-0685-d-0001r" to="8v">1r-8v</locus>
+               		<title type="supplied">Speculum poenitentis</title>
+               		<bibl>Louis-Jensen &amp; Pedersen, <ref target="JonLou1377a">Speculum
+               			penitentis</ref>
+               			<biblScope unit="page">205-224</biblScope><note>Edg.
+               				A.</note></bibl>
+               	</msItem>
+               	<msItem n="2" defective="true" class="gudfr krsidfr">
+               		<locus from="8v" facs="#AM04-0685-d-0008v" to="10v">8v-10v</locus>
+               		<title type="uniform">Elucidarius</title>
+               		<rubric>hi<ex>er</ex> hef<ex>ur</ex> vp<ex>p</ex>
+               			elvcid<ex>ar</ex>ivm</rubric>
+               		<explicit defective="true">M. þa uar h<ex>ann</ex>
+               			a<ex>n</ex>d</explicit>
+               		<bibl>Firchow &amp; Grimstad, <ref type="primary-1" target="Rit36">Elucidarius in Old Norse Translation</ref>
+               			<biblScope unit="pages">3-29</biblScope><note>Fourth text; ed.
+               				685d.</note>
+               		</bibl>
+               	</msItem>
+                  	<msItem n="3" defective="true" class="krsidfr">
+               		<locus from="11r" facs="#AM04-0685-d-0011r" to="24r">11r-24r</locus>
+                  		<author key="Alcooo001">Alcuin</author>
+               		<title type="uniform" xml:lang="la">De virtutibus et vitiis
+               			liber</title>
+               		<incipit defective="true">t<ex>il</ex> ſk<ex>ri</ex>pta
+               			g<ex>on</ex>gu</incipit>
+               		<bibl>Widding, <ref target="EA-A4">Alkuin: De virtutibus et vitiis i
+               			norsk-islandsk overlevering og Udvidelser til Jonsbogens kapitel
+               			om domme</ref><biblScope unit="page">68-136</biblScope><note>Ed. 685</note></bibl>
+               	</msItem>
+               	<msItem n="4">
+               		<locus from="24r" facs="#AM04-0685-d-0024r" to="24r">24r</locus>
+               			<rubric>Fyrer hueria ſauk flydi j<ex>esus</ex></rubric>
+               		<note>Followed by a list of <q>v flóttagreinir</q>.</note>
+               	</msItem>
+               	<msItem n="5">
+               		<locus from="24v" facs="#AM04-0685-d-0024v" to="29r">24v-29r</locus>
+               		<title type="supplied">Algorismus</title>
+               		<rubric xml:lang="la">Algorismus</rubric>
+               	</msItem>
+               	<msItem n="6" class="alf hagfr">
+               		<locus from="29r" facs="#AM04-0685-d-0029r" to="31v">29r-31v</locus>
+               		<title type="supplied">Short Pieces</title>
+               		<bibl>Kålund &amp; Beckman, <ref target="STUAGNL41">Alfræði
+               			Íslenzk</ref><biblScope unit="volume">II</biblScope><note>Ed.
+               				H.</note>
+               		</bibl>
+               		<bibl>Kålund, <ref target="STUAGNL45">Alfræði Íslenzk</ref><biblScope unit="volume">III</biblScope><biblScope unit="page">74-75</biblScope><note>Ed. H.</note></bibl>
+               		<msItem n="6.1" class="hagfr">
+               			<title type="supplied">Assessment, Dimensions and Indications of Weight</title>
+               		</msItem>
+               		<msItem n="6.2" class="starfr">
+               			<title type="supplied">Geometrics and other Calculations</title>
+               		</msItem>
+               		<msItem n="6.3" class="stafr">
+               			<title type="supplied">Alphabets</title>
+               		</msItem>
+               		<msItem n="6.4">
+               			<title type="supplied">Greek and Latin Numerals</title>
+               		</msItem>
+               		<msItem n="6.5">
+               			<title type="supplied">On the World according to Imago
+               				Mundi</title>
+               		</msItem>
+               	</msItem>
+                  	<msItem n="7" defective="true" class="trurit">
+               		<locus from="31v" facs="#AM04-0685-d-0031v" to="31v">31v</locus>
+               		<title type="supplied">Um Móyses</title>
+                  		<note>Religious meditations; ends abruptly.</note>
+               	</msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>32. </extent>
-                     </supportDesc>
+                     	<extent>32. Fol 32 is black with the exception of an invocation in Latin. <dimensions type="leaf">
+                     			<height unit="mm">160</height>
+                     			<width unit="mm">123</width>
+                     		</dimensions>. Several leaves have an irregular shape.</extent>  </supportDesc>
                   </objectDesc>
                </physDesc>
+            	<history>
+            		<origin>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1450" notAfter="1499" evidence="conjecture" resp="Rit36">the second half of the fifteenth century</origDate> (<bibl>
+            				<ref type="primary-1" target="Rit36">Firchow og Grimstad 1989</ref>
+            				<biblScope unit="pages">lxiii</biblScope>
+            			</bibl>). <name type="person" key="KriKaa001">Kålund</name>'s date:
+            			fifteenth century (<bibl>
+            				<ref type="secondary-1" target="KKKat">Katalog</ref>
+            				<biblScope unit="volume">II</biblScope>
+            				<biblScope unit="pages">100</biblScope>
+            			</bibl>).</origin>
+            	</history>
+            	<additional>
+            		<listBibl>
+            			<bibl>Firchow &amp; Grimstad, <ref target="Rit36">Elucidarius in Old Norse
+            				Translation</ref><!-- biblScope --></bibl>
+            				<bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+            				<biblScope unit="volume">II</biblScope>
+            				<biblScope unit="pages">100-101</biblScope>
+            			</bibl>
+            			<bibl>Kålund, <ref type="secondary-1" target="STUAGNL41">Alfræði
+            				Íslenzk</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">ccxxv</biblScope></bibl>
+            			<bibl>Louis-Jensen &amp; Pedersen, <ref target="JonLou1377a">Speculum
+            				penitentis</ref><!-- <biblScope unit="page"/> ?-->
+            				</bibl>
+            		</listBibl>
+            	</additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+   	<revisionDesc>
+   		<change when="2021-11-12" who="EvaWed001">Updated markup and content.</change>
+   	</revisionDesc>
    </teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0685-d-accMat01r" n="0">

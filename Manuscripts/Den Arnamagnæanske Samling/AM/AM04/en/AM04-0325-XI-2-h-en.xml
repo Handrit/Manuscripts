@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,33 +23,28 @@
                             <idno>1069</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Ólafs saga helga</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1320" notAfter="1340" cert="high" evidence="conjecture">c. 1320-1340</origDate>
-                        <note>The fragment originally belonged to the codex now catalogued as Holm
-                            perg 4 4to belonging to <name type="place">Kungliga Biblioteket</name>
-                            in <name type="place">Stockholm</name>.</note>
-                    </head>
                     <msContents>
-                        <msItem class="kon" defective="true">
+                        <summary><title type="uniform">Ólafs saga helga</title></summary>
+                        <msItem n="1" class="kon" defective="true">
                             <locus from="1ra" to="2vb">1ra-2vb</locus>
                             <title type="uniform">Ólafs saga helga</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <textLang mainLang="non"/>
                             <incipit defective="true">ept<expan>ir</expan> erendu<expan>m</expan>
                                     sinu<expan>m</expan>
-                     </incipit>
-                            <note>The text on f. 2v is partly illegible</note>
-                            <listBibl>
-                                <bibl>
-                           <ref type="primary-3" target="OlHMU">Saga Ólafs konungs ens
-                                        helga</ref>, pp. 193-96</bibl>
-                                <bibl>
-                           <ref type="primary-3" target="OlHJH">Den store saga om Olav
-                                        den Hellige</ref>, pp. 509:12-524:14 <note>Ed. 325 XI
-                                        2h</note>
-                        </bibl>
-                            </listBibl>
+                            </incipit>
+                            <filiation>The fragment originally belonged to the codex now kept at
+                                    <name type="org" key="KungBib">The Royal Library of
+                                    Sweden</name>, catalogued as <ref type="ms">Holm perg 4
+                                    4to</ref>.</filiation>
+                            <note>The text on fol. 2v is partly illegible</note>
+                            <bibl>
+                                <ref type="primary-3" target="OlHMU">Saga Ólafs konungs ens
+                                    helga</ref><biblScope unit="page">193-96</biblScope></bibl>
+                            <bibl>
+                                <ref type="primary-3" target="OlHJH">Den store saga om Olav den
+                                    Hellige</ref><biblScope unit="page">509:12-524:14</biblScope>
+                                <note>Ed. 325 XI 2h</note>
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -57,11 +53,12 @@
                                 <support>
                                     <p>Parchment.</p>
                                 </support>
-                                <extent>2 conjoint fragment-leaves. <dimensions type="leaf" scope="all">
-                                        <height>167</height>
-                                        <width>157</width>
+                                <extent>2 conjoint fragment-leaves. <dimensions type="leaf"
+                                        scope="all">
+                                        <height unit="mm">167</height>
+                                        <width unit="mm">157</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
                                     <p>The two leaves are trimmed causing a loss of text; the last 4
                                         lines of both of the leaves are now missing, furthermore a
@@ -83,10 +80,24 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scribe="AM04-325-XI-2h-H1" script="textualis" scope="sole">
-                                <p>A beautiful and clear hand. The same has also written <ref>AM 122
-                                        a fol</ref>, <ref>AM 346 fol</ref> and <ref>AM 399
-                                    4to</ref>.</p>
+                            <handNote script="textualis" scope="sole">
+                                <p>A beautiful and clear hand. The same is also found in 
+                                    <list>
+                                        <item><ref type="ms" target="#AM02-0122-a-en">AM 122 a
+                                            fol</ref> (<title type="ms"
+                                                >Króksfjarðarbók</title>),</item>
+                                        <item><ref type="ms" target="#AM02-0346-en">AM 346 fol</ref>
+                                            (<title type="ms">Staðarfellsbók</title>),</item>
+                                        <item><ref type="ms" target="#AM04-0399-en">AM 399 4to</ref>
+                                            (<title type="ms">Codex Resenianus</title>),</item>
+                                        <item><ref type="ms" target="#AM04-0671-en">AM 671
+                                            4to</ref>,</item>
+                                        <item><ref type="ms">Holm perg 4 4to</ref> and</item>
+                                        <item><ref type="ms" target="#KBAdd02-0001-is">KBAdd 1
+                                            fol.</ref> (<title type="ms">Ártíðaskrá
+                                                Vestfirðinga</title>).</item>
+                                    </list>
+                                </p>
                             </handNote>
                         </handDesc>
                         <decoDesc>
@@ -103,55 +114,68 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1320" notAfter="1340" cert="high" evidence="conjecture">
-                            <p>The fragment is written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> dated it
-                                    <origDate>the beginning of the fourteenth century</origDate> (<bibl>
+                            <p>The fragment is written in <origPlace>Iceland</origPlace>
+                                <origDate notBefore="1320" notAfter="1340" cert="high">c.
+                                    1320-1340</origDate> (<bibl>
+                                    <ref type="secondary-1" target="OlHJH">Johnsen &amp; Jón
+                                        Helgason 1941</ref><biblScope unit="page"
+                                    >942</biblScope></bibl>). Kålund's date: <date>The beginning of
+                                    the fourteenth century</date> (<bibl>
                                     <ref type="secondary-1" target="KKKat">KKKat</ref>
-                                </bibl>). Later <name type="person" key="OscJoh001">Oscar Albert
-                                    Johnsen</name> and <name type="person" key="JonHel003">Jón
-                                    Helgason</name> dated it more precisely to <origDate>the middle
-                                    of the fourteenth century</origDate> (<bibl>
-                           <ref type="secondary-1" target="OlHJH">Johnsen &amp; Jón
-                                        Helgason 1941</ref>, p. 942</bibl>).</p>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="page">567</biblScope>
+                                </bibl>.</p>
                         </origin>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date>19.09.2000</date> by <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                    <p>Catalogued <date when="2000-09-19">19.09.2000</date> by <name
+                                            type="person" key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation">
-                                    <p>The MS was set on meeting guards and bound in a cardboard
-                                        cover <date>09.06.1959-15.08.1959</date>.</p>
+                                    <p>Put on meeting-guards and bound in a cardboard
+                                        cover <date from="1959-06-09" to="1959-08-15"
+                                            >09.06.1959-15.08.1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
-                            <p>The AMI has the following surrogates: <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade 37</idno>
-                                        <date>n.d.</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositive</title>
-                                        <idno>AM 325 XI 2h 4to</idno>
-                                        <date>May 1984 (1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <idno>AM 325 XI 2h 4to</idno>
-                                        <date>August 1959</date>
-                                    </bibl>
-                                </listBibl>
-                     </p>
+                            <p><list>
+                                    <item n="1">Plate, <idno>plade 37</idno>, s.d.</item>
+                                    <item n="2">Diapositives from <date notBefore="1984-05"
+                                            notAfter="1985-05">May 1984 or 1985</date>.
+                                    </item>
+                                    <item n="3">Black and white prints from <date when="1956-09"
+                                            >August 1956</date>.</item>
+                                </list>
+                            </p>
                         </surrogates>
+                        <listBibl>
+                            <bibl><ref type="secondary" target="SteDre2017a"/>
+                                <biblScope unit="page">178</biblScope></bibl>
+                            <bibl><ref type="secondary-1" target="SteDre2021a"/><biblScope
+                                    unit="page">162</biblScope></bibl>
+                            <bibl><ref type="secondary-1" target="OlHJH"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">942</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">567</biblScope>
+                            </bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-12-03" who="EvaWed001">Updated.</change>
+            <change when="2022-06-01" who="EvaWed001">Updated references in handDesc.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

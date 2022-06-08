@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,25 +23,25 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Viðrœða líkams ok sálar</title>;
-                  <origPlace>Island</origPlace>,
-                  <origDate notBefore="1400" notAfter="1499" evidence="conjecture" resp="KKKat ONP">s. XV</origDate>
-               </head>
                <msContents>
+                  <summary><title type="uniform" xml:lang="is">Viðrœða líkams ok sálar</title> og
+                        <title type="uniform" n="2">Viðræði æðru ok hugrekki</title></summary>
                   <msItem defective="true">
+                     <locus from="1r" to="3r">1r-3r</locus>
                      <title type="uniform" n="1">Viðræði likams ok sálar</title>
-                     <title type="uniform" n="2">Viðræði æðru ok hugrekki</title>
                      <incipit>
-                        <supplied reason="damage">Med</supplied> fagnadi koma
-                           mi<ex>er</ex>
+                        <supplied reason="damage">Med</supplied> fagnadi koma mi<ex>er</ex>
                      </incipit>
-                     <textLang mainLang="is">Norrønt/Islandsk</textLang>
-                     <bibl>Gunnar Harðarson: <ref type="primary-2" target="GHLitterature">Littérature et spiritualité en Scandinavie médiévale</ref>
-                        <biblScope unit="pages">200-201, 209-214, 216-219</biblScope>
-                        <note>Udg. <hi rend="bold">W</hi>,
-                           midterste tekst</note>
+                     <textLang mainLang="non">Norrønt/Islandsk</textLang>
+                     <bibl>Gunnar Harðarson: <ref type="primary-2" target="GHLitterature"
+                           >Littérature et spiritualité en Scandinavie médiévale</ref>
+                        <biblScope unit="page">200-201, 209-214, 216-219</biblScope>
+                        <note>Udg. W</note>
                      </bibl>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="3r" to="4v">3r-4v</locus>
+                     <title type="uniform" n="2">Viðræði æðru ok hugrekki</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -51,9 +52,9 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>4. <dimensions type="leaf" extent="all">
-                              <height>168</height>
-                              <width>135</width>
-                           </dimensions>
+                              <height unit="mm">168</height>
+                              <width unit="mm">135</width>
+                           </dimensions>.
                         </extent>
                         <condition>
                            <p>Bladene, særlig bl. 1v er stærkt slidte. Bl. 1 er hullet, og efter bl.
@@ -65,15 +66,19 @@
                      </layoutDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Island</origPlace>,
+                  <origDate notBefore="1400" notAfter="1499">s. XV</origDate>.</origin></history>
                <additional>
                   <listBibl>
-                     <bibl>Gunnar Harðarson: <ref type="secondary" target="GHLitterature">Littérature et spiritualité en Scandinavie médiévale</ref>
-                        <biblScope unit="pages">44-46</biblScope> 
+                     <bibl><ref type="secondary" target="GHLitterature"/>
+                        <biblScope unit="page">44-46</biblScope>
                         <note>Faksimile af bl. 3r.</note>
                      </bibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     <bibl><ref type="secondary" target="GunHar2016a"/>
+                        <biblScope unit="page">147</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">116</biblScope>
+                        <biblScope unit="page">116</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

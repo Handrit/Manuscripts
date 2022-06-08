@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -32,16 +32,51 @@
 						</altIdentifier>
 					</msIdentifier>
 					<msContents>
-						<msItem>
-							<locus from="1r" facs="#IBR08-0014-0001r" to="191v">1r-191v</locus>
-							<title type="supplied">Rímnasafn</title>
-							<note>1) »Rimur [19] af Cajo Julio Cæsare« eftir Jón Espólín, m. h.
-								Einars Bjarnasonar frá Starrastöðum; aftan við m. s. h.:
-								»Asgardsförin« (ríma eftir Þorstein Pálsson á Reykjavöllum),
-								»Drauga-málin« eftir Sigurð Breiðfjörð, »Bardagi Fáskiptins og
-								Nídings« (ríma), »Ríma Gamlamuna og Nýamóðs« eftir Hallgrím Jónsson.
-								2) Kvæði eftir Níels skálda Jónsson, ehdr. (eitt kvæði þar hefir Jón
-								Espólín orkt um ehdr.).</note>
+						<summary>
+							<title type="uniform">Rímnasafn</title>
+						</summary>
+						<textLang mainLang="is">Íslenska</textLang>
+						<msItem n="1" defective="false" class="rimur">
+							<locus from="1r" facs="#IBR08-0014-0001r" to="112v">1r-112v</locus>
+							<title type="uniform">Cæsarsrímur</title>
+							<rubric>Rímur af Caio Julio Cæsare ...</rubric>
+							<author key="JonEsp001">Jón Espolín</author>
+							<incipit>Ég hefi fengist áður við ...</incipit>
+							<note><p>19. rímur.</p><p>Með hendi Einars Bjarnasonar frá Starrastöðum.</p></note>			
+						</msItem>
+							<msItem n="2" defective="false" class="rimur">
+							<locus from="113r" facs="#IBR08-0014-0113r" to="122v">113r-122v</locus>
+							<title type="uniform">Ásgarðsförin</title>
+							<rubric>Ásgarðsförin</rubric>
+							<author key="ThoPal014">Þorsteinn Pálsson á Reykjavöllum</author>
+							<incipit>Funnu ljóma ferju tetri ...</incipit>
+							<note><p>Með hendi Einars Bjarnasonar frá Starrastöðum.</p></note>		
+						</msItem>
+						<msItem n="3" defective="false" class="kvad">
+							<locus from="123r" facs="#IBR08-0014-0123r" to="127v">123r-127v</locus>
+							<title type="uniform">Draugamálin</title>
+							<rubric>Drauga-málin</rubric>
+							<author key="SigBre001">Sigurður Breiðfjörð</author>
+							<incipit>Svona er nú sagan best ...</incipit>		
+						</msItem>
+							<msItem n="4" defective="false" class="rimur">
+							<locus from="127v" facs="#IBR08-0014-0127v" to="130r">127v-130r</locus>
+								<title type="supplied">Bardagi fáskiptins og níðings</title>
+							<rubric>Bardagi fáskiptins og níðings</rubric>
+						</msItem>
+							<msItem n="5" defective="false" class="rimur">
+							<locus from="130v" facs="#IBR08-0014-0136v" to="1">130v-136v</locus>
+								<title type="supplied">Ríma Gamlamuna og Nýamóðs</title>
+								<rubric>Ríma Gamlamuna og Nýjamóðs</rubric>
+								<author key="HalJon013">Hallgrímur Jónsson</author>
+								<incipit>Blíður Ása Bakkus, þig ...</incipit>
+						</msItem>
+						<msItem n="6" defective="false" class="kvad">
+							<locus from="137r" facs="#IBR08-0014-0137r" to="152v">137r-152v</locus>
+							<title type="supplied">Kvæði</title>
+							<author key="NieJon001">Níels Jónsson</author>
+							<note><p>Eiginhandarrit.</p> <p>Eitt kvæði þar hefir Jón
+								Espólín orkt um og er með hans hendi.</p></note>
 						</msItem>
 					</msContents>
 					<physDesc>
@@ -53,6 +88,18 @@
 								<extent>i + 191 + i blöð.</extent>
 							</supportDesc>
 						</objectDesc>
+						<handDesc hands="3">
+							<summary>Þrjár hendur ; Skrifarar:</summary>
+							<handNote scope="minor" script="unknown" scribe="EinBja003">
+								<name type="person" key="EinBja003">Einar Bjarnason</name>
+							</handNote>
+							<handNote scope="minor" script="unknown" scribe="NieJon001">
+								<name type="person" key="NieJon001">Níels Jónsson</name>
+							</handNote>
+							<handNote scope="minor" script="unknown" scribe="JonEsp001">
+								<name type="person" key="JonEsp001">Jón Espólín</name>
+							</handNote>
+						</handDesc>
 						<accMat>
 							<p>Einn laus seðill</p>
 						</accMat>
@@ -60,7 +107,7 @@
 					<history>
 						<origin>
 							<origPlace>Ísland</origPlace>
-							<origDate cert="medium" from="1803" to="1835">1803-1835</origDate>
+							<origDate cert="high" from="1803" to="1835">1803-1835</origDate>
 						</origin>
 						<provenance>
 							<p><name type="person" key="GudEin005">Guðmundur Einarsson</name>
@@ -76,9 +123,14 @@
 					<additional>
 						<adminInfo>
 							<recordHist>
-								<source><name type="person" key="OrnHra001">Örn Hrafnkelsson</name>
+								<source>	<p> Skráning <name type="person" key="PalOla002">Páls Eggerts
+									Ólasonar</name> á handritinu er aðgengileg í ritinu <bibl>
+										<ref target="PEO">Skrá um handritasöfn
+											Landsbókasafnsins</ref>, </bibl>3. bindi, <ref target="https://baekur.is/bok/000233966/3/250/Skra_um_handritasofn_Bindi_3_Bls_250">bls. 230</ref>.</p>
+									<name type="person" key="GudGud045">Guðrún Laufey Guðmundsdóttir</name>
+									bætti við skráninguna, <date when="2022-04-22">22. apríl 2022</date> ; <name type="person" key="OrnHra001">Örn Hrafnkelsson</name>
 									frumskráði fyrir myndvinnslu, <date when="2009-10-26">26.
-										október 2009</date> ; Handritaskrá, 3. b.</source>
+										október 2009</date>.</source>
 							</recordHist>
 						</adminInfo>
 					</additional>

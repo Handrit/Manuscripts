@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,77 @@
                      <idno>538</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Letters</title>
-                  <origPlace>Denmark, Norway and Iceland?</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="dan" otherLangs="la">Danish and Latin</textLang>
+                  <summary><title type="supplied">Letters</title></summary>
+                  <msItem n="1" class="sendbr">
+                     <locus from="1r" to="13v">1r-13v</locus>
+                     <title type="supplied">Letters</title>
+                     <respStmt>
+                        <resp key="crp"/>
+                        <name type="person" key="FreRos001">Frederik Rostgaard</name>
+                     </respStmt>
+                     <respStmt>
+                        <resp key="rcp"/>
+                        <name type="person" key="ArnMag001">Arne Magnusson</name>
+                     </respStmt>
+                     <textLang mainLang="da"/>
+                     <note>Copy of five letters from <date from="1694" to="1698"
+                        >1694-98</date>.</note>
+                  </msItem>
+                  <msItem n="2" class="sendbr">
+                     <locus from="15r" to="17v">15r-17v</locus>
+                     <title type="supplied">Letter</title>
+                     <note>Concerning how to interpret scaldic verse, dated <date when="1669"
+                           >1669</date>.</note>
+                     <respStmt>
+                        <resp key="crp"/>
+                        <name type="person" key="ThoArn002">Þorkell Arngrímsson Vídalín</name>
+                     </respStmt>
+                     <respStmt>
+                        <resp key="rcp"/>
+                        <name type="person" key="OleBor001">Ole Borch</name>
+                     </respStmt>
+                     <textLang mainLang="la"/>
+                  </msItem>
+                  <msItem n="3" class="embr">
+                     <locus from="18r" to="19v">18r-19v</locus>
+                     <title type="supplied">Letter of Reccomendation</title>
+                     <textLang mainLang="la"/>
+                     <note>From <name type="person" key="SkuTho002">Skúli Thorlacius</name>
+                        for <name type="person" key="OlaHal002">Olafur Hallson</name>. Dated <date
+                           when="1626">1626</date>.</note>
+                  </msItem>
+                  <msItem n="4">
+                     <locus from="20r" to="21v">20r-21v</locus>
+                     <title type="supplied">Two Letters</title>
+                     <textLang mainLang="la"/>
+                     <respStmt>
+                        <resp key="crp"/>
+                        <name type="person" key="JonAra002">Jón Arason</name>
+                     </respStmt>
+                     <respStmt>
+                        <resp key="crp"/>
+                        <name type="person" key="BrySve001">Brynjólfur Sveinsson</name>
+                     </respStmt>
+                     <note>Fragments.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>21. 
-<dimensions type="leaf" scope="all">
-                              <height>335</height>
-                              <width>213</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>21. Fols 4, 5, 10, 12 and 14 are blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">335</height>
+                              <width unit="mm">213</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark, Norway and Iceland?</origPlace>
+                     <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>.</origin>
+               </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>

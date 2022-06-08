@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,35 +23,44 @@
                             <idno>1891</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title n="1">Um Grænland</title>
-                        <title n="2">Þorfinns saga karlsefnis</title>
-                        <title n="3">Eiriks saga rauða</title>
-                        <origPlace>Iceland/Denmark</origPlace>
-                        <origDate notBefore="1600" notAfter="1730">I: s. XVII, II: s. XVII ex, III:
-                            c. 1700</origDate>
-                    </head>
+                    <msContents>
+                        <summary><title n="1">Um Grænland</title>
+                            <title n="2">Þorfinns saga karlsefnis</title>
+                            <title n="3">Eiriks saga rauða</title><note>AM 770 b I-II was once
+                                considered as a part of AM 779 4to.</note></summary>
+                    </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
                                     <p>
-                                        <material>Papir.</material>
+                                        <material>Paper.</material>
                                     </p>
                                 </support>
                                 <extent>40.</extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 b I 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <history>
+                        <origin><origPlace>Iceland or Denmark</origPlace>
+                            <origDate notBefore="1600" notAfter="1710">I: s. XVII, II: s. XVII ex,
+                                III: c. 1700</origDate></origin>
+                    </history>
+                    <msPart n="1">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 b I 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
-                                <locus from="1" to="4">1-4</locus>
-                                <author>Peder Claussøn</author>
-                                <title type="uniform">Um Grænland</title>
+                                <locus from="1r" to="4v">1r-4v</locus>
+                                <author key="PedFri001">Peder Claussøn Friis</author>
+                                <title type="uniform">On Greenland</title>
+                                <textLang mainLang="is"/>
+                                <rubric>Vm Grænland</rubric>
+                                <note>Translation of the beginning, including the annal, from Danish
+                                    into Icelandic.</note>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -58,26 +68,61 @@
                                 <supportDesc material="chart">
                                     <support>
                                         <p>
-                                            <material>Papir.</material>
+                                            <material>Paper.</material>
                                         </p>
                                     </support>
                                     <extent>4. <dimensions type="leaf" scope="all">
-                                            <height>196</height>
-                                            <width>154</width>
+                                            <height unit="mm">196</height>
+                                            <width unit="mm">154</width>
                                         </dimensions>
-                           </extent>
+                                    </extent>
                                 </supportDesc>
                             </objectDesc>
+                            <accMat>An AM-slip pasted to fol. 5 reads:
+                                <q>Gronlandica vetera Islandicè. Kom fra Islandi, med
+                                    minu<ex>m</ex> boku<ex>m</ex>
+                                    <date when="1720">1720</date>.</q> På smudsbladet har <name
+                                        type="person" key="ArnMag001">Arne Magnusson</name> noteret
+                                <q>Dette indlagde er en lumpen translation af Peder Clauſſens
+                                    Relation om Grenland i hans Norges Beſkrivelſe. <name
+                                        type="person" key="ThoTor001">Thormod Torvefen</name> (hand
+                                    haver eiet dette ſam<ex>m</ex>e Exemplar) haver giort alt for
+                                    stort verk af den<ex>n</ex>e charteqve, Gronlandiæ suæ pag. 42.
+                                    ligeſom det var bedre Exemplar end de Danſke Translationer, da
+                                    det er langt verre et nullius plane authoritatis. Thormod hafde
+                                    intet Exemplar paa Jislandſk, uden dette</q>.</accMat>
+                            
                         </physDesc>
+                        <additional>
+                            <listBibl>
+                                <bibl>
+                                    <ref target="GHM">Grönlands historiske Mindesmærker</ref>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="page">485</biblScope>
+                                    <note>Citeret som 779</note>
+                                </bibl>
+                                <bibl>Storm: <ref target="STUAGNL21">Eiríks saga rauða</ref>
+                                    <biblScope unit="page">v</biblScope>
+                                </bibl>
+                            </listBibl>
+                        </additional>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 b II 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="2">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 b II 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
                                 <locus from="6" to="18">6-18</locus>
                                 <title type="uniform">Þorfinns saga karlsefnis</title>
+                                <rubric>Hier hefur Søgu Þorfin<ex>n</ex>s <lb/> Karlsefnis
+                                    Þördarſonar</rubric>
+                             <!--    <filiation><title type="uniform">Eiríks saga rauða</title> efter
+                                    <title type="ms">Hauksbók</title> (<ref type="ms"
+                                        target="AM04-0544-da">AM 544 4to</ref>) med indskud fra
+                                    <title type="uniform">Landnáma</title>.</filiation>  -->
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -85,26 +130,50 @@
                                 <supportDesc material="chart">
                                     <support>
                                         <p>
-                                            <material>Papir.</material>
+                                            <material>Paper.</material>
                                         </p>
                                     </support>
                                     <extent>13. <dimensions type="leaf" scope="all">
-                                            <height>207</height>
-                                            <width>170</width>
+                                            <height unit="mm">207</height>
+                                            <width unit="mm">170</width>
                                         </dimensions>
-                           </extent>
+                                    </extent>
                                 </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1">Occasional marginalia occur.</layout>
+                                </layoutDesc>
                             </objectDesc>
                         </physDesc>
+                        <additional>
+                            <listBibl>
+                                <bibl>
+                                    <ref target="GHM">Grönlands historiske Mindesmærker</ref>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="page">348</biblScope>
+                                    <note>Ed. 779</note>
+                                </bibl>
+                                <bibl>Rafn: <ref target="AntA">Antiqvitates
+                                    Americanæ</ref><biblScope unit="page"
+                                        >81-82</biblScope><note>Ed. 779</note>.</bibl>
+                            </listBibl>
+                        </additional>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 b III 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="3">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 b III 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
                                 <locus from="19" to="40r">19-40r</locus>
                                 <title type="uniform">Eiriks saga rauða</title>
+                                <rubric>Hier hefft Saga af <lb/> Eiriki Rauda</rubric>
+                                <filiation><title type="uniform">Eiríks saga rauða</title> derived from
+                                    <ref type="ms" target="#AM04-0557-is">AM 557 4to</ref>.</filiation>
+                                <note>Quotations in Danish in the margin from <q>Mag <name
+                                    type="person" key="ThoTho005">Þordr</name> in Notis ad
+                                    verſionem suam</q> occur.</note>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -112,18 +181,31 @@
                                 <supportDesc material="chart">
                                     <support>
                                         <p>
-                                            <material>Papir.</material>
+                                            <material>Paper.</material>
                                         </p>
                                     </support>
                                     <extent>13. <dimensions type="leaf" scope="all">
-                                            <height>205</height>
-                                            <width>170</width>
+                                            <height unit="mm">205</height>
+                                            <width unit="mm">170</width>
                                         </dimensions>
-                           </extent>
+                                    </extent>
                                 </supportDesc>
                             </objectDesc>
+                            <additions>Marginalia; partly in <name type="person" key="ArnMag001"
+                                >Arne Magnusson</name>'s hand.</additions>
                         </physDesc>
-                    </msPart>
+                        <additional>
+                            <listBibl>
+                                <bibl>
+                                    <ref target="GHM">Grönlands historiske Mindesmærker</ref>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="page">349</biblScope>
+                                </bibl>
+                                <bibl>Rafn, <ref target="AntA">Antiqvitates
+                                    Americanæ</ref><biblScope unit="page">82</biblScope>.</bibl>
+                            </listBibl>
+                        </additional>
+                     </msPart>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

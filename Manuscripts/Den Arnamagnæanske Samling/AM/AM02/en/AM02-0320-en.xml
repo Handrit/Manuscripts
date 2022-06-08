@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,33 +23,54 @@
                      <idno>477</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Norwegian Law Book</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1593-01-01" notAfter="1593-12-31">1593</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Norwegian Legal Manuscript</title></summary>
                   <textLang mainLang="dan">Danish</textLang>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="sub">Dette er thent Rætte <lb/> Norſhe Lough Wdſatt paa
+                           <lb/> Dannſke Hvilkenn <add place="above">aff</add> thenndt <lb/> Hellige
+                           hærre Sanncte Oluff <lb/> Konningh medh meninge Nor<lb rend="hyphenated"
+                           />ges Riiges raadhz willge och <lb/> Sambtocke bleff giortt vvh(?) <lb/>
+                           Udgangenn meninge Nor<lb rend="hyphenated"/>ges riiges Jndbÿggere till
+                           <lb/> Gaffn och beste ther <lb/> Manndt ſo ſhreff aar <lb/> Epter
+                           Chriſtij <lb/> födzell <lb/> Ett thuſinndt Ett hundridt och <lb/> ſex
+                           <lb/> AMB <date when="1106">1106</date>
+                        </titlePart>
+                     </docTitle>
+                  </titlePage>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>183. 
-<dimensions type="leaf" scope="all">
-                              <height>322</height>
-                              <width>208</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>183. <dimensions type="leaf" scope="all">
+                              <height unit="mm">322</height>
+                              <width unit="mm">208</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="JohHel01" scope="sole" script="unknown">
-                        <p>
-Written by Johannes Heliæ.</p>
+                        <p> Written by Johannes Heliæ.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history><origin><origPlace>Denmark</origPlace>,
+                  <origDate when="1593">1593</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">267-268</biblScope>
+                     </bibl>
+                     <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="page">500-501</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

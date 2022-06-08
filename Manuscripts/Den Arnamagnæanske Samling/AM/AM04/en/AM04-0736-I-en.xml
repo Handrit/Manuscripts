@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -23,41 +23,64 @@
                             <idno>1846</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Geographical and cosmographical book</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1290" notAfter="1310">c. 1300;s. XIV in
-                            (ONP)</origDate>
-                    </head>
+
                     <msContents>
-                        <msItem n="1">
+                        <summary>
+                            <title type="supplied">Encyclopedia</title>
+                            <note>Contain illustrated texts on geography and cosmography.</note>
+                        </summary>
+                        <msItem n="1" defective="true" class="landfr">
                             <locus from="1r" facs="#AM04-0736-I-0001r" to="1r">1r</locus>
-                            <title>Landalýsing</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
-                            <incipit>Sva e<ex>r</ex> kallat sem þrideild se iord</incipit>
+                            <title type="supplied">Geographical Treatise</title>
+                            <note>A description of the three continents.</note>
+                            <incipit>Sva e<ex>r</ex> kallat ſem þrideild ſe iorð</incipit>
+                            <textLang mainLang="non"/>
+                            <filiation><ref type="ms" target="#AM08-0193-I-V-is">AM 193 III
+                                    8vo</ref>, fols 15v—17r and <ref type="ms">NKS 359 4to</ref>,
+                                pp. 16-26 are copies of this manuscript.</filiation>
+                            <bibl>Kålund, <ref type="primary" target="STUAGNL37">Alfræði
+                                    Íslenzk</ref><biblScope unit="volume">I</biblScope><biblScope unit="page">6:9-12:25</biblScope><note>Var.app.</note></bibl>
+                            <bibl>Rafn, <ref type="primary" target="AntA">Antiqvitates
+                                    Americanæ</ref><biblScope unit="page">283 ff.</biblScope></bibl>
+                            <bibl>Simek, <ref type="primary" target="RudSim2012a">Altnordische
+                                    Kosmographie</ref>
+                                <biblScope unit="page">429-432</biblScope></bibl>
                         </msItem>
+                        <!-- tjek hvilke dele der er i "Alfræði" -->
                         <msItem n="2">
-                            <locus from="1v" facs="#AM04-0736-I-0001v" to="1v">1v</locus>
-                            <title type="supplied">Note on the annual error in making the
-                                calculation of the Julian calender</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <locus from="1r" facs="#AM04-0736-I-0001r" to="1r">1r</locus>
+                            <title type="supplied">Text on the Three Magi</title>
+                            <note>Two lines</note>
+                            <!--    <rubric>gaspar balthalar melchior</rubric> -->
+                            <textLang mainLang="non"/>
                         </msItem>
                         <msItem n="3">
                             <locus from="1v" facs="#AM04-0736-I-0001v" to="1v">1v</locus>
-                            <title type="uniform">On the course of the moon</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <title type="supplied">Note on the Error in the Julian Calendar</title>
+                            <note>Accompanies the hemispherical world map, see below.</note>
+                            <textLang mainLang="non"/>
                         </msItem>
                         <msItem n="4">
                             <locus from="1v" facs="#AM04-0736-I-0001v" to="1v">1v</locus>
-                            <title type="supplied">A Verse on the cross</title>
-                            <textLang mainLang="la">Latin</textLang>
+                            <title type="supplied">Tidal Note</title>
+                            <note>Accompanies the hemispherical world map, see below.</note>
+                            <textLang mainLang="non"/>
+                            <note>Fol. 1v:1-8 is printed in <bibl><ref target="DalKed2020a">Kedwards
+                                        2020</ref>, <biblScope unit="page">43</biblScope></bibl>.</note>
                         </msItem>
                         <msItem n="5">
                             <locus from="2v" facs="#AM04-0736-I-0002v" to="2v">2v</locus>
-                            <title>Lýsing Jórsalaborgar</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <title type="supplied">Description of the Church of the Holy
+                                Sepulchre</title>
+                            <textLang mainLang="non"/>
+                            <note>And the area surrounding Jerusalem; the text derives from a part of
+                                abbot Nikuás' <title type="uniform">Leiðarvísir</title>. Later
+                                addition from ca. 1350.</note>
+                            <bibl>Simek, <ref type="primary" target="RudSim2012a">Altnordische
+                                    Kosmographie</ref>
+                                <biblScope unit="page">494-496</biblScope></bibl>
                         </msItem>
-                    </msContents>
+                                 </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
@@ -66,25 +89,105 @@
                                         <material>Parchment.</material>
                                     </p>
                                 </support>
-                                <extent>2. </extent>
+                                <extent>2. <dimensions type="leaf" scope="all">
+                                    <height unit="mm">272</height>
+                                    <width unit="mm">227</width>
+                                </dimensions>.</extent>
+                                <collation>I (1+2).</collation>
                             </supportDesc>
                         </objectDesc>
                         <decoDesc>
                             <decoNote type="diagram" subtype="astronomical">
-                                <p>On fol. <locus facs="#AM04-0736-I-0001v">1v</locus> there is an astronomical pen-drawing of
+                                <p>On fol. <locus facs="#AM04-0736-I-0001v">1v (top left)</locus> a
+                                    hemispherical world map (a <foreign xml:lang="la">mappa
+                                        mundi</foreign>) is found. An astronomical pen-drawing of
                                     the constellations of the sun, the moon and the earth along with
-                                    the position of the continents. The sun and the moon are
-                                    coloured in red.</p>
+                                    the position of the continents. The sun and the moon are filled
+                                    in with red ink.</p>
+                                    <p>The text inside the <foreign xml:lang="la">mappa mundi</foreign> was edited in
+                                        <bibl><ref target="DalKed2020a">The Mappae mundi of
+                                            Medieval Iceland</ref>, <biblScope unit="page">190-191</biblScope></bibl> and <bibl><ref target="RudSim2012a">Altnordische Kosmographie</ref>
+                                        <biblScope unit="page">406-407</biblScope><note>No
+                                            4a.</note></bibl>. In the former, a translation into
+                                    English is added in a second column.</p>
+                                <!-- Previous editions and commentaries: 
+                                    Rafn, Antiquités Russes, vol. 2, p. 391; 
+                                    Miller, Mappaemundi, vol. 3, p. 125; A  II, pp. 118–19; 
+                                    Destombes, Mappemondes, p. 175;  -->
+                            </decoNote>
+                            <decoNote type="diagram" subtype="astronomical"><p>On fol. <locus facs="#AM04-0736-I-0001v">1v (bottom right)</locus> a
+                                    circular diagram is showing the moon, Mercury, Venus, the sun,
+                                    Mars, Jupiter and Saturn orbiting around planet Earth.</p>
                             </decoNote>
                             <decoNote type="diagram" subtype="map">
-                                <p>On fol. <locus facs="#AM04-0736-I-0002r">2r</locus> a full-page map of Jerusalem is drawn.
-                                    The ground-plan has the form of a circle divided into four
-                                    sections by a cross. The main buildings and monuments are
-                                    depicted illuminated in red and yellow, and the names of the
-                                    monuments or their function are given in Latin.</p>
-                            </decoNote>
+                                <p>On fol. <locus facs="#AM04-0736-I-0002r">2r</locus> a full-page
+                                    map of Jerusalem. The ground-plan has the form of a
+                                    circle divided into four sections by a cross. The main buildings
+                                    and monuments are depicted, illuminated in red and yellow, and
+                                    the names of the monuments or their function are given in
+                                    Latin.</p>
+                                </decoNote>
+                            <decoNote/>
                         </decoDesc>
                     </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Iceland</origPlace> in <origDate notBefore="1300" notAfter="1360">the first half of the fourteenth century</origDate>.
+                            Fols 1r-2r are written in <origDate notBefore="1300" notAfter="1325" evidence="conjecture" resp="STUAGNL41">the first quarter of the
+                                fourteenth century</origDate>; fol. 2v is written <origDate notBefore="1340" notAfter="1360" evidence="conjecture" resp="STUAGNL37">c. 1350</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl><ref target="GunHar2016a"/>
+                            <biblScope unit="page">131</biblScope></bibl>
+                            <bibl><ref target="JónJóh1960a"/></bibl>
+                            <bibl><ref target="DalKed2020a"/>
+                                <biblScope unit="page">40-53</biblScope>
+                                <note>Facsimiles of fol. 1r (p. 46), fol. 1v (p. 41), fol. 2r (p.
+                                    52).</note></bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">164</biblScope>
+                            </bibl>
+                            <bibl>Kålund, <ref type="secondary" target="STUAGNL37">Alfræði
+                                    Íslenzk</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">xxxiii</biblScope>
+                            </bibl>
+                            <bibl>Kålund, <ref type="secondary" target="STUAGNL41">Alfræði
+                                    Íslenzk</ref><biblScope unit="volume">II</biblScope><biblScope unit="page">ccix-ccx</biblScope></bibl>
+                            <bibl>Rafn, <ref type="secondary" target="AntA">Antiqvitates
+                                    Americanæ</ref>
+                                <biblScope unit="page">278 ff.</biblScope>
+                                <note>Facsimile</note>
+                            </bibl>
+                            <bibl>Rafn, <ref type="secondary" target="AntR">Antiquités Russes</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">xiv</biblScope>
+                                <note>Facsimile.</note>
+                            </bibl>
+                            <bibl><ref type="secondary" target="EliRow2008a"/>
+                            <biblScope unit="page">69</biblScope></bibl>
+                            <bibl><ref target="RudSim1993a"/>
+                            <biblScope unit="page">228</biblScope></bibl>
+                            <bibl><ref target="RudSim2009a"/>
+                            <biblScope unit="page">189-190</biblScope></bibl>
+                            <bibl>Simek, <ref target="RudSim2012a">Altnordische Kosmografie</ref>
+                                <biblScope unit="page">367-372, 382-385, 406, 412,
+                                    428-429</biblScope></bibl>
+                            <bibl>Stefán Björnsson, <ref type="secondary" target="Rymbegla">Rymbegla</ref>
+                                <biblScope unit="page">110,
+                                    478</biblScope><note><!-- Facsimiles of the illustrations on fols 1v top (p. 410, text 4a) (text 5c) . --></note>
+                            </bibl>
+                            <bibl><ref target="SveTóm2001b"/>
+                                <biblScope unit="page">30</biblScope></bibl>
+                            <bibl>Werlauff, <ref type="secondary" target="Symbol">Symbolæ ad
+                                    geographiam medii ævi</ref>
+                                <biblScope unit="page">5, 55</biblScope>
+                                <note>Faksimile</note>
+                            </bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,28 +23,67 @@
                      <idno>2026</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">De Nordische Sauw</title>
-                  <title n="2">Cronica der Stadt Bergen</title>
-                  <origPlace>Norway or Germany</origPlace>
-                  <origDate notBefore="1600" notAfter="1650">s. XVII 1/2</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="ger">German</textLang>
+                  <summary><title type="supplied">The Norwegian Sow and Bergens
+                     Fundas</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="96v">1r-96v</locus>
+                     <title type="uniform">Die Nordische Saw</title>
+                     <textLang mainLang="de">German</textLang>
+                     <rubric>Die Nordsche Sauw</rubric>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="97r" to="150v">97r-150v</locus>
+                     <author key="HerLau001">Herluf Lauritssøn</author>
+                     <title type="uniform">Bergens Fundas</title>
+                     <textLang mainLang="de">German</textLang>
+                     <rubric>Cronica oder aber Kürtze <lb/>
+                        <choice>
+                           <sic>Historiſcher</sic>
+                        </choice> aufzeinung vndt Bericht, <lb/> Von erbawung, Item ab: vndt Zu<lb
+                           rend="hyphenated"/>nehmung der Stadt Bergen in Norwegen. Dabey das ferner
+                        mel<lb/>dung vndt bericht von anfang <lb/> vndt Zuwachsung des itzo <lb/>
+                        ſtehenden Teütschen <lb/> Cunthors Stücks<lb/>weiſe geſchehen <lb/>
+                        ſoll</rubric>
+                     <note>Translation into German, including additions from <name type="person"
+                           key="MikHof001">Michael Hofnagel</name>'s journal (up to <date
+                           when="1622">1622</date>).</note>
+                  </msItem>
+
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>150. 
-<dimensions type="leaf" scope="all">
-                              <height>204</height>
-                              <width>164</width>
+                        <extent>150. <dimensions type="leaf" scope="all">
+                              <height unit="mm">204</height>
+                              <width unit="mm">164</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Norway</origPlace>, <origDate notBefore="1600" notAfter="1650"
+                        >s. XVII<hi rend="sup">1</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">249-250</biblScope></bibl>
+                     <bibl>Nicolaysen: <ref target="NorMag">Norske Magazin</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">3,
+                        167</biblScope></bibl>
+                     <bibl>Suhm: <ref target="PetSuh1771-1776">Samlinger</ref>
+                        <biblScope unit="volume">II:1</biblScope>
+                        <biblScope unit="page">1 ff.</biblScope>
+                        <biblScope unit="volume">II:2</biblScope>
+                        <biblScope unit="page">126 ff.</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

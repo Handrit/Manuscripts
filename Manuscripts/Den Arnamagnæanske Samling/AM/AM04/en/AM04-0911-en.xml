@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,30 +23,86 @@
                      <idno>2043</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Miscellaneous</title>
-                  <origPlace>Denmark?</origPlace>
-                  <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <summary><title type="supplied">Miscellany</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="2v">1r-2v</locus>
+                     <author key="TycBra001">Tycho Brahe</author>
+                     <title type="supplied">Nomina studiosorum</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <rubric>Nomina Studioſorum, qui Tychoni Braheo in <lb/> inſula Hvæna
+                        inſervierunt</rubric>
+                     <filiation>
+                        <q xml:lang="la">Ex charta cujusdam autographa</q>
+                     </filiation>
+                  </msItem>
+                  <msItem n="2" class="embr">
+                     <locus from="3r" to="14v">3r-14v</locus>
+                     <title type="supplied">To Papal Briefs Dated 1458 and 1462</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <filiation>
+                        <q>Ex libro chartaceo Bibliothecæ Academicæ Lipſienſis vitiosè ſcripto</q>
+                     </filiation>
+                  </msItem>
+                  <msItem n="3">
+                     <locus from="15r" to="24v">15r-24v</locus>
+                     <title type="supplied">Catalogue of Letters in the Archive of the University of
+                        Copenhagen</title>
+                     <textLang mainLang="la">Latin</textLang>
+                  </msItem>
+                  <msItem n="4">
+                     <locus from="25r" to="34v">25r-34v</locus>
+                     <title type="supplied">Catalogue of Peder Syv's Manuscripts</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <rubric>Ex MSS. Septimii</rubric>
+                  </msItem>
+                  <msItem n="5">
+                     <locus from="36r" to="44v">36r-44v</locus>
+                     <author key="EriGra001">Bishop Grave</author>
+                     <author key="MatFos001">Bishop Foss</author>
+                     <author key="HanLet001">Court Chaplain Leth</author>
+                     <author key="Loiooo001">Rev. Loiberg</author>
+                     <title type="supplied">Resolution Concerning Protestantism and
+                        Catholicism</title>
+                     <textLang mainLang="da">Early Modern Danish</textLang>
+                     <rubric>Resolution <lb/> Paa trende Poſter, af Hans Kongl <lb/> Majeſtet for
+                        dennem Fremſat anl<lb/>angende Voris og den Catholiſke <lb/>
+                        Religion</rubric>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>44. 
-<dimensions type="leaf" scope="all">
-                              <height>216</height>
-                              <width>165</width>
-                           </dimensions>
+                        <extent>44. <dimensions type="leaf" scope="all">
+                              <height unit="mm">216</height>
+                              <width unit="mm">165</width>
+                           </dimensions>.
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc hands="9">
+                     <p>Written by a variety of hands. Fols 15r-24v are in <name type="person"
+                           key="ArnMag001">Árni Magnússon</name>'s hand; fols 25r-34v in his or one
+                        of his scribe's hand.</p>
+                  </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark?</origPlace>, <origDate notBefore="1690"
+                        notAfter="1710">c. 1700</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">257</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2022-03-29" who="EvaWed001">Updated and expanded.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

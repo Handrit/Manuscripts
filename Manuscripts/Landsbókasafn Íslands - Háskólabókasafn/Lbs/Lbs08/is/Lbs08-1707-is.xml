@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -32,21 +32,77 @@
 						<summary>
 							<title type="supplied">Samtíningur</title>
 						</summary>
-						<msItem>
-							<p>Samtíningr. 1) Sálmar. Nafngreindir höfundar: Sigurðr Gíslason í Bæ í
-								Miðdölum, síra Stefán Ólafsson, Þormóðr Eiríksson, síra Jón
-								Hjaltalín, síra Hallgrímr Pétrsson (aftast í hdr.). 2) »Sorgarreisa
-								Sr. Olafs Eijiglssonar« (þ.e. ferðasaga hans). 3) Draumr Hávarðs
-								Loptssonar. 4) Orðkviðaklasi (kvæði). 5) Himnabréf.</p>
+							<msItem n="1" defective="false" class="salm kvad">								
+								<locus from="1r" facs="#Lbs08-1707-0001r" to="54r">1r-54r</locus>
+								<title type="supplied">Sálmar</title>
+								<author><name type="person" key="SigGis001">Sigurður Gíslason í Bæ í Miðdölum</name></author>
+								<author><name type="person" key="SteOla004">Stefán Ólafsson</name></author>
+								<author><name type="person" key="ThoEir003">Þormóður Eiríksson</name></author>
+								<author><name type="person" key="JonHja001">Jón Hjaltalín</name></author>
+								<note><p>Meðal efnis eru Vikusálmar, Gyllinistafróf og Veðrahjálmur.</p></note>							
+						</msItem>
+						<msItem n="2" defective="false" class="ferds">
+							<locus from="54r" facs="#Lbs08-1707-0054r" to="90v">54r-90v</locus>
+							<title type="uniform">Reisubók séra Ólafs Egilssonar</title>
+							<rubric>Sorgarreisa sr. Ólafs Egilssonar ... anno 1627</rubric>
+							<author><name type="person" key="OlaEgi001">Ólafur Egilsson</name></author>
+						</msItem>
+						<msItem n="3" defective="false" class="tjodt draum">
+							<locus from="91r" facs="#Lbs08-1707-0091r" to="102v">91r-102v</locus>
+							<title type="uniform">Draumar <name type="person" key="HavLof001">Hávarðs Loptssonar</name></title>
+							<rubric>Draumur eður vitran Hávarðs Loptssonar</rubric>	
+						</msItem>
+						<msItem n="4" defective="false" class="kvad">
+							<locus from="102v" facs="#Lbs08-1707-0100v" to="118v">102v-118v</locus>
+							<title type="uniform">Orðskviðaklasi</title>
+							<rubric>Eitt kvæði sem kallast Orðskviðaklasi</rubric>
+						</msItem>
+						<msItem n="5" defective="false" class="himbr">
+							<locus from="118v" facs="#Lbs08-1707-0118v" to="122r">118v-122r</locus>
+							<title type="uniform">Himnabréf</title>						
+						</msItem>
+						<msItem n="6" defective="false" class="kvad">								
+							<locus from="122r" facs="#Lbs08-1707-0122r" to="124r">122r-124r</locus>
+							<title type="supplied">Kvæði</title>
+							<author><name type="person" key="HalPet001">Hallgrímur Pétursson</name></author>
+							<rubric>Eitt kvæði ort af: Sr. HPSyni</rubric>
 						</msItem>
 					</msContents>
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p>Pappír.</p>
+								</support>
+								<extent>124 blöð (<dimensions scope="all" type="leaf" unit="mm">
+										<height>134</height>
+										<width>81</width>
+									</dimensions>).</extent>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="3">
+							<summary>Þrjár hendur. Óþekktir skrifarar.</summary>
+							<handNote scope="minor" script="unknown"/>
+						</handDesc><bindingDesc><binding><p>Skinnband</p></binding></bindingDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origPlace>Ísland</origPlace>, <origDate cert="medium" when="1792">um 1792</origDate>.
+						</origin>
+						<acquisition><p>Landsbókasafn keypti árið 1901 handritasafn Hins íslenska bókmenntafélags, Kaupmannahafnardeildar (ÍB) og Reykjavíkurdeildar (ÍBR).</p>
+						</acquisition>
+					</history>
 					<additional>
 						<adminInfo>
 							<recordHist>
 
-								<source><name type="person" key="BraOla001">Bragi Þorgrímur
-									Ólafsson</name> frumskráði fyrir myndvinnslu, <date when="2009-11-04">4. nóvember 2009</date> ; Handritaskrá, 2.
-									b.</source>
+								<source><p>Skráning <name type="person" key="PalOla002">Páls Eggerts Ólasonar</name>
+									á handritinu er aðgengileg í ritinu <bibl><ref target="PEO">Skrá um handritasöfn Landsbókasafnsins</ref>,</bibl> 2. bindi,
+									<ref target="https://baekur.is/bok/000233966/2/342/Skra_um_handritasofn_Bindi_2_Bls_342"> bls. 335</ref>.</p>
+									<name type="person" key="GudGud045">Guðrún Laufey Guðmundsdóttir</name> bætti við færsluna, <date when="2021-12-29">29. desember 2021</date> 
+									; <name type="person" key="BraOla001">Bragi Þorgrímur
+									Ólafsson</name> frumskráði fyrir myndvinnslu, <date when="2009-11-04">4. nóvember 2009</date>.</source>
 							</recordHist>
 						</adminInfo>
 					</additional>

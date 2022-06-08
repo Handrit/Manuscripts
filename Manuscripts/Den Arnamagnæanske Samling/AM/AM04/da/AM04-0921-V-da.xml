@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,13 +23,22 @@
                      <idno>2053</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Om Skt. Agatha og Skt. Lucia</title>;
-                     <origPlace>Island</origPlace>, <origDate notBefore="1390" notAfter="1410" evidence="conjecture">ca. 1400</origDate>. </head>
                <msContents>
-                  <msItem>
-                     <title type="supplied">Om Skt. Agatha og Skt. Lucia</title>
-                     <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                  <summary><title type="supplied">Helgensagaer</title></summary>
+                  <textLang mainLang="non"/>
+                  <msItem n="1" class="hels">
+                     <locus from="1ra" to="1rb">1ra-1rb</locus>
+                     <title type="uniform">Nikulás saga erkibiskups</title>
+                     <bibl>Loth: <ref type="primary-1" target="AgnLot1984a">Roted fragmentum
+                           membraneum, um Sanctam Luciam og Agatham</ref>
+                        <biblScope unit="page">224-226</biblScope></bibl>
+                  </msItem>
+                  <msItem n="2" class="hels">
+                     <locus from="1rb" to="1vb">1rb-1vb</locus>
+                     <title type="uniform">Lúcíu saga</title>
+                     <bibl>Loth: <ref type="primary-1" target="AgnLot1984a">Roted fragmentum
+                           membraneum, um Sanctam Luciam og Agatham</ref>
+                        <biblScope unit="page">226-229</biblScope></bibl>
                   </msItem>
                </msContents>
                <physDesc>
@@ -39,26 +48,36 @@
                            <p>
                               <material>Pergament</material>.</p>
                         </support>
+                        <extent>1 blad.</extent>
                         <condition>
                            <p>Et stærkt hensmuldrende fragment.</p>
                         </condition>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1390" notAfter="1410"
+                     evidence="conjecture">ca. 1400</origDate>. Håndskriftet har engang været en del af
+                     <ref type="ms" target="#AM02-0235-da">AM 235 fol.</ref></origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">262, 263</biblScope>
+                        <biblScope unit="page">262, 263</biblScope>
                      </bibl>
-                     <bibl>Loth: <ref type="secondary-1" target="AgnLot1984"><q>Roted fragmentum
-                              membraneum, um Sanctam Luciam og Agatham</q>: AM 921, V, 4to</ref>
+                     <bibl><ref type="secondary-1" target="AgnLot1984">Loth 1984</ref>
                      </bibl>
+                     <bibl><ref type="secondary" target="Wolf2013">Wolf 2013</ref>
+                        <biblScope unit="page">202, 262</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2022-03-29" who="EvaWed001">Opdateret.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

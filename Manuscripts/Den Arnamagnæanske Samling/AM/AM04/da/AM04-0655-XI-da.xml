@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,45 +23,40 @@
                             <idno>1646</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="is">Prédikan</title>,
-                            <origPlace>Island</origPlace>; <origDate notBefore="1275" notAfter="1310">ca. 1300</origDate>
-                        <note>Prædiken for askeonsdag</note>
-                    </head>
                     <msContents>
+                        <summary><title type="supplied">Prædiken til askeonsdag</title></summary>
                         <msItem n="1" defective="true">
-                            <title type="supplied" xml:lang="is">Prédikan</title>
+                            <title type="supplied">Prædiken til askeonsdag</title>
                             <incipit defective="true">ganga <ex>ok</ex> kyn<ex>n</ex>a</incipit>
                             <explicit defective="true">rettruandi at hon</explicit>
-                            <listBibl>
                                 <bibl>Konráð Gíslason: <ref type="primary-1" target="KGFrumparta">Um
                                         frum-parta íslenzkrar túngu í fornöld</ref>
-                                    <biblScope unit="pages">lxxi-lxxvii</biblScope>
+                                    <biblScope unit="page">lxxi-lxxvii</biblScope>
                                 </bibl>
                                 <bibl>Rode: <ref type="primary-1" target="Rode1977">Et fragment af
                                         en prædiken til askeonsdag AM 655 XI, 4to</ref>
-                                    <biblScope unit="pages">58-61</biblScope>
+                                    <biblScope unit="page">58-61</biblScope>
                                 </bibl>
-                            </listBibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Pergament.</p>
+                                    <p><material>Pergament</material>.</p>
                                 </support>
-                                <extent>2 sammenhængende blade. <dimensions type="leaf" scope="all">
-                                        <height>175</height>
-                                        <width>135</width>
+                                <extent>2. <dimensions type="leaf" scope="all">
+                                        <height unit="mm">175</height>
+                                        <width unit="mm">135</width>
                                     </dimensions>
                                 </extent>
+                                <collation>De to blade er sammenhængende.</collation>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1">
                                     <p>Teksten er enspaltet, <dimensions type="written" scope="all">
-                                            <height>125</height>
-                                            <width>95</width>
+                                            <height unit="mm">125</height>
+                                            <width unit="mm">95</width>
                                         </dimensions>
                                     </p>
                                 </layout>
@@ -84,17 +80,24 @@
                                             <ex>ei</ex>m godu<ex>m</ex> m<ex>onnu</ex>m</q>
                                     </item>
                                     <item>
-                              <date notBefore="1600" notAfter="1699">1600-tallet?</date>: Bl. 2r, nederst til venstre, ser man
-                                        navnene <q>Sigfs</q> og <q>Vigfs</q>, delvis på islandsk og delvist på latin: <q xml:lang="la">Sigfusus</q>
+                                        <date notBefore="1600" notAfter="1699">1600-tallet?</date>:
+                                        Bl. 2r, nederst til venstre, ser man navnene <q>Sigfs</q> og
+                                            <q>Vigfs</q>, delvis på islandsk og delvist på latin: <q
+                                            xml:lang="la">Sigfusus</q>
                                         <q xml:lang="la">Vigfusus</q>
                                     </item>
-                                    <item>1600-tallet? Bl. 2v, nederst (omvendt)
-                                        <q xml:lang="la">stas</q>
+                                    <item>1600-tallet? Bl. 2v, nederst (omvendt) <q xml:lang="la"
+                                            >stas</q>
                                     </item>
                                 </list>
                             </p>
                         </additions>
                     </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Island</origPlace>, <origDate notBefore="1290"
+                                notAfter="1310">ca. 1300</origDate>.</origin>
+                    </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
@@ -105,15 +108,13 @@
                             </recordHist>
                         </adminInfo>
                         <listBibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">61</biblScope>
-                     </bibl>
-                            <bibl>Rode: 
-                                <ref type="secondary-1" target="Rode1977">Et fragment af
-                                    en prædiken til askeonsdag AM 655 XI, 4to</ref>
-                                <biblScope unit="pages">44-57</biblScope>
-                                <note>Med faksimile af bl. 1r.</note>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">61</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary-1" target="Rode1977"/>
+                                <biblScope unit="page">44-57</biblScope>
+                                <note>Faksimile af bl. 1r.</note>
                             </bibl>
                         </listBibl>
                     </additional>
@@ -121,34 +122,42 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
-		<surface xml:id="AM04-0655-XI-0001r" n="0">
-			<desc>0001r</desc>
-			<graphic mimeType="pdf" url="AM%20655%20XI%204to/0/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20XI%204to/0/THUMBNAIL" width="200px" height="266px"/>
-			<graphic mimeType="jpg" url="AM%20655%20XI%204to/0/SECONDARY_DISPLAY" width="4256px" height="5656px"/>
-			<graphic mimeType="pdf" url="AM%20655%20XI%204to/0/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0655-XI-0001v" n="1">
-			<desc>0001v</desc>
-			<graphic mimeType="pdf" url="AM%20655%20XI%204to/1/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20XI%204to/1/THUMBNAIL" width="200px" height="265px"/>
-			<graphic mimeType="jpg" url="AM%20655%20XI%204to/1/SECONDARY_DISPLAY" width="4272px" height="5659px"/>
-			<graphic mimeType="pdf" url="AM%20655%20XI%204to/1/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0655-XI-0002r" n="2">
-			<desc>0002r</desc>
-			<graphic mimeType="pdf" url="AM%20655%20XI%204to/2/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20XI%204to/2/THUMBNAIL" width="200px" height="266px"/>
-			<graphic mimeType="jpg" url="AM%20655%20XI%204to/2/SECONDARY_DISPLAY" width="4256px" height="5666px"/>
-			<graphic mimeType="pdf" url="AM%20655%20XI%204to/2/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0655-XI-0002v" n="3">
-			<desc>0002v</desc>
-			<graphic mimeType="pdf" url="AM%20655%20XI%204to/3/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20XI%204to/3/THUMBNAIL" width="200px" height="265px"/>
-			<graphic mimeType="jpg" url="AM%20655%20XI%204to/3/SECONDARY_DISPLAY" width="4272px" height="5672px"/>
-			<graphic mimeType="pdf" url="AM%20655%20XI%204to/3/WEB_DISPLAY"/>
-		</surface>
-	</facsimile>
+    <facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+        <surface xml:id="AM04-0655-XI-0001r" n="0">
+            <desc>0001r</desc>
+            <graphic mimeType="pdf" url="AM%20655%20XI%204to/0/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20655%20XI%204to/0/THUMBNAIL" width="200px"
+                height="266px"/>
+            <graphic mimeType="jpg" url="AM%20655%20XI%204to/0/SECONDARY_DISPLAY" width="4256px"
+                height="5656px"/>
+            <graphic mimeType="pdf" url="AM%20655%20XI%204to/0/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0655-XI-0001v" n="1">
+            <desc>0001v</desc>
+            <graphic mimeType="pdf" url="AM%20655%20XI%204to/1/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20655%20XI%204to/1/THUMBNAIL" width="200px"
+                height="265px"/>
+            <graphic mimeType="jpg" url="AM%20655%20XI%204to/1/SECONDARY_DISPLAY" width="4272px"
+                height="5659px"/>
+            <graphic mimeType="pdf" url="AM%20655%20XI%204to/1/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0655-XI-0002r" n="2">
+            <desc>0002r</desc>
+            <graphic mimeType="pdf" url="AM%20655%20XI%204to/2/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20655%20XI%204to/2/THUMBNAIL" width="200px"
+                height="266px"/>
+            <graphic mimeType="jpg" url="AM%20655%20XI%204to/2/SECONDARY_DISPLAY" width="4256px"
+                height="5666px"/>
+            <graphic mimeType="pdf" url="AM%20655%20XI%204to/2/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0655-XI-0002v" n="3">
+            <desc>0002v</desc>
+            <graphic mimeType="pdf" url="AM%20655%20XI%204to/3/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20655%20XI%204to/3/THUMBNAIL" width="200px"
+                height="265px"/>
+            <graphic mimeType="jpg" url="AM%20655%20XI%204to/3/SECONDARY_DISPLAY" width="4272px"
+                height="5672px"/>
+            <graphic mimeType="pdf" url="AM%20655%20XI%204to/3/WEB_DISPLAY"/>
+        </surface>
+    </facsimile>
 </TEI>

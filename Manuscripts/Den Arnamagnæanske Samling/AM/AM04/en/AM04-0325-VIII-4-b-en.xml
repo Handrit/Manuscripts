@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,33 +23,40 @@
                             <idno>1066</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Sverris saga</title>
-                        <title>Hákonar saga Sverrissonar</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1275" notAfter="1300" cert="high" evidence="conjecture">s. XIII 4/4</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="uniform" xml:lang="is">Noregs konunga
+                            sǫgur</title>.</summary>
                         <msItem n="1" class="kon" defective="true">
                             <locus from="1r" to="1v">1r-1v</locus>
-                            <title>Sverris saga</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <title type="uniform">Sverris saga</title>
+                            <textLang mainLang="non"/>
                             <incipit defective="true">let g<expan>er</expan>a orþ
                                     ept<expan>ir</expan> þei<expan>m</expan>
-                     </incipit>
-                            <explicit defective="true">þa let h<expan>ann</expan> blasa <gap reason="damage"/>
+                            </incipit>
+                            <explicit defective="true">þa let h<expan>ann</expan> blasa <gap
+                                    reason="damage"/>
                                 <lb/>bergi fellv<gap reason="damage"/>
-                     </explicit>
+                            </explicit>
                             <bibl>
-                        <ref type="primary-2" target="FMS8">Fornmanna sögur</ref> VIII,
-                                pp. 397-401</bibl>
+                                <ref type="primary-2" target="FMS8">Fornmanna sögur</ref>
+                                <biblScope unit="volume">VIII</biblScope>
+                                <biblScope unit="page">397-402</biblScope>
+                            </bibl>
+                            <bibl>Jensen, <ref type="primary-1" target="FragmHelleJensen">Fragmenter
+                                af et kongesagahåndskrift fra det 13 århundrede</ref>
+                                <biblScope unit="page">47-51</biblScope></bibl>
                         </msItem>
-                        <msItem n="2">
+                        <msItem n="2" class="kon">
                             <locus from="2r" to="3v">2r-3v</locus>
-                            <title>Hákonar saga Sverrissonar</title>
+                            <title type="uniform">Bǫglunga saga</title>
                             <bibl>
-                        <ref type="primary-2" target="FMS9">Fornmanna sögur</ref> IX, pp.
-                                221-28</bibl>
+                                <ref type="primary-2" target="FMS9">Fornmanna sögur</ref>
+                                <biblScope unit="volume">IX</biblScope>
+                                <biblScope unit="page">221-228</biblScope>
+                            </bibl>
+                            <bibl>Jensen: <ref type="primary-1" target="FragmHelleJensen">Fragmenter
+                                af et kongesagahåndskrift fra det 13 århundrede</ref>
+                                <biblScope unit="page">51-63</biblScope><note>4b</note></bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -59,10 +67,10 @@
                                         <material>Parchment</material>.</p>
                                 </support>
                                 <extent>3. <dimensions scope="all" type="leaf">
-                                        <height>215</height>
-                                        <width>147</width>
+                                        <height unit="mm">215</height>
+                                        <width unit="mm">147</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
                                     <p>The 3 leaves are not well preserved. The lower half of f. 1
                                         has several holes and the most part of the last 3 lines is
@@ -82,93 +90,112 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1276" notAfter="1300" cert="high" evidence="conjecture">
-                            <p>The manuscript is written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> has dated it
-                                to <origDate>the thirteenth century</origDate>, whereas <name type="person" key="HelJen001">Helle Jensen</name> has dated it
-                                more precisely to <origDate notBefore="1275" notAfter="1300" cert="high" evidence="conjecture">the fourth quarter of the
-                                    thirteenth century</origDate>.</p>
+                            <p>The manuscript is written in <origPlace>Iceland</origPlace> in
+                                    <origDate notBefore="1275" notAfter="1300" cert="high"
+                                    evidence="conjecture">the fourth quarter of the thirteenth
+                                    century</origDate> (<bibl>
+                                    <ref target="FragmHelleJensen">Jensen 1979</ref>
+                                    <biblScope unit="page">45</biblScope>
+                                </bibl>). Kålund's dating: <date notBefore="1200" notAfter="1299"
+                                    >the thirteenth century</date> (<bibl>Kålund: <ref type="secondary-1" target="KKKat"
+                                        >Katalog</ref>
+                                        <biblScope unit="volume">I</biblScope>
+                                        <biblScope unit="page">561</biblScope>
+                                    </bibl>).</p>
                         </origin>
                         <provenance>
-                            <p>There is no information about the history of fol. 1. According to <bibl>
-                                    <ref type="secondary" target="FMS9">Fornmanna sögur IX</ref>
-                                </bibl> ff. 2-3 once was bound in a cover on which <name type="person" key="ArnMag001">Árni Magnússon</name> wrote the
-                                following account: <q xml:lang="is">Þesse .2. innlgd
-                                    bld eru fundin i Noregi. Eg hefi feinged þau af
-                                        <name type="person" key="AsgJon001">Asgeiri Jonssyne</name>,
-                                        en<expan>n</expan> hann feck þau fra Hr. <name type="person" key="TruNit001">Truid Nitter</name>, presti i
-                                    Norðlndum, hver þau hafdi tekit fra stulku einne, er
-                                    þau ætladi ad bruka til at sauma ä. Fyrra bladed er ur <hi rend="underline">Sverris Sgu</hi> hid sidara er
-                                    ur <hi rend="underline">Appendice Sverris</hi>-Sgu
-                                    druvïs samsettre, en<expan>n</expan> vær
-                                        almen<expan>n</expan>elega hfum. Og mä
-                                        þ<expan>et</expan>ta sidara blad halldast
-                                        f<expan>iri</expan> raritet. NB. Þetta blad accorderar vid
-                                    þä Dönsku version nærre lage.</q>
-                     </p>
+                            <p>Nothing is known about the provenance and history of fol. 1. According to <bibl>
+                                    <ref type="secondary" target="FMS9">Fornmanna sögur</ref>
+                                    <biblScope unit="volume">IX</biblScope>
+                                </bibl> fols 2-3 were put in a cover on which <name type="person"
+                                    key="ArnMag001">Árni Magnússon</name> had written: <q
+                                    xml:lang="is">Þesse .2. innlgd bld eru fundin i <country
+                                        key="NO">Noregi</country>. Eg hefi feinged þau af <name
+                                        type="person" key="AsgJon001">Asgeiri Jonssyne</name>,
+                                        en<expan>n</expan> hann feck þau fra Hr. <name type="person"
+                                        key="TruNit001">Truid Nitter</name>, presti i Norðlndum,
+                                    hver þau hafdi tekit fra stulku einne, er þau ætladi ad bruka
+                                    til at sauma ä. Fyrra bladed er ur <hi rend="underline">Sverris
+                                        Sgu</hi> hid sidara er ur <hi rend="underline">Appendice
+                                        Sverris</hi>-Sgu druvïs samsettre, en<expan>n</expan> vær
+                                        almen<expan>n</expan>elega hfum. Og mä þ<expan>et</expan>ta
+                                    sidara blad halldast f<expan>iri</expan> raritet. NB. Þetta blad
+                                    accorderar vid þä Dönsku version nærre lage.</q>
+                            </p>
+                            <p>Louis-Jensen (<bibl>
+                                    <ref type="secondary" target="BiblArn32">Louis Jensen 1977</ref>
+                                    <biblScope unit="page">20</biblScope>
+                                </bibl>) however, is more inclined to think that this cover belonged
+                                to <ref type="ms" target="#AM04-0325-VIII-4-c-en">AM 325 VIII 4 c
+                                    4to</ref>. </p>
                         </provenance>
-                        <acquisition>
-                            <p>Árni Magnússon got ff. 2-3 from <name type="person" key="AsgJon001">Ásgeir Jónsson</name>: <q xml:lang="is">Þesse .2.
-                                    innlgd bld eru fundin i Noregi. Eg hefi
-                                    feinged þau af Asgeiri Jonssyne</q>.</p>
-                        </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date>08.03.2000.</date> by <name type="person" key="EvaWed001">EW-J</name>. (Parsed
-                                            <date>10.07.2000</date>).</p>
+                                    <p>Catalogued <date when="2000-03-08">08.03.2000.</date> by
+                                            <name type="person" key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
-                                    <p>The manuscript was set on meeting guards and put in a
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
+                                    <p>The manuscript was put on meeting guards and put in a
                                         cardboard cover <date>02.03.1958-04.04.1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plate 37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositives</title>
-                                        <idno>AM 325 VIII 4 b 4to</idno>
-                                        <date>May 1984 (or 1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <date>October 1956</date>
-                                        <idno>AM 325 VIII 4 b 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item n="1">Plate, <idno>plade 37</idno>.</item>
+                                    <item n="2">Diapositives from <date notBefore="1984-05"
+                                            notAfter="1985-05">May 1984 or 1985</date>.
+                                    </item>
+                                    <item n="3">Black and white prints from <date when="1956-10"
+                                            >October 1956</date>.</item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
                             <bibl>
-                        <ref type="secondary" target="FMS8">Fornmanna sögur</ref> VIII,
-                                pp. XXII-XXXIII<note>described as fragment 11</note>
-                     </bibl>
+                                <ref type="secondary" target="FMS8">Fornmanna sögur</ref>
+                                <biblScope unit="volume">VIII</biblScope>
+                                <biblScope unit="page">xxii-xxxiii</biblScope>
+                                <note>Described as fragment 11.</note>
+                            </bibl>
                             <bibl>
-                        <ref type="secondary" target="FMS9">Fornmanna sögur</ref> IX, pp.
-                                X-XI</bibl>
-                            <bibl>
-                        <ref type="secondary" target="EIMF3">Holm-Olsen 1961</ref>, p.
-                                8</bibl>
-                            <bibl>
-                        <ref target="IHFol2">Hreinn Benediktsson 1965</ref>, pp.
-                                    xxxix-xl<note>facsimile no 61 of f. 1v</note>
-                     </bibl>
-                            <bibl>
-                        <ref type="secondary" target="BiblArn32">Louis-Jensen 1977</ref>,
-                                p. 20</bibl>
+                                <ref type="secondary" target="FMS9">Fornmanna sögur</ref>
+                                <biblScope unit="volume">IX</biblScope>
+                                <biblScope unit="page">x-xi</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary" target="EIMF3">Holm-Olsen 1961</ref>
+                                <biblScope unit="page">8</biblScope>
+                            </bibl>
+                            <bibl><ref target="IHFol2">Hreinn Benediktsson 1965</ref>
+                                <biblScope unit="page">xxxix-xl</biblScope>
+                                <note>Facsimile no 61 of f. 1v.</note>
+                            </bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">561</biblScope>
+                            </bibl>
+                            <bibl><ref target="NT5">Magerøy 1988</ref><biblScope
+                                unit="volume">I</biblScope>
+                                <biblScope unit="page">15-17, 215, 217</biblScope></bibl>
+                            <bibl><ref type="secondary" target="BiblArn32"
+                                >Louis-Jensen 1977</ref>
+                                <biblScope unit="page">20</biblScope>
+                            </bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-11-09" who="EvaWed001">Updated markup and bibliography.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

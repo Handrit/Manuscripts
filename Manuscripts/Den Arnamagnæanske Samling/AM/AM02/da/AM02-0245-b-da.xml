@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -28,14 +28,10 @@
                      <idno>Addit. 10 fol.</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="is">Flateyarannáll</title>;
-                     <origPlace>Island</origPlace>, <origDate notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat">s.
-                     XVII</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <title type="uniform" xml:lang="is">Flateyarannáll</title>
+                  <msContents>
+               	<summary><title type="supplied">Flateyarannáll</title></summary>
+                  <msItem n="1" class="annal">
+                     <title type="uniform">Flateyarannáll</title>
                      <textLang mainLang="is">Islandsk</textLang>
                     <filiation>Afskrift af <ref type="ms" target="GKS02-1005">Flateyjarbók (GKS 1005-6 fol.</ref>)</filiation>
                   </msItem>
@@ -48,8 +44,8 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>76. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>320</height>
-                              <width>211</width>
+                              <height unit="mm">320</height>
+                              <width unit="mm">211</width>
                            </dimensions>.</extent>
                         <foliation>Håndskriftet har været folieret med rødt blæk, som nu er overskrevet med blyant</foliation>
                         <collation>Håndskriftet består af 9 læg:
@@ -86,14 +82,25 @@
                         <p>
                            <term type="binding">BD-standardbind</term> med brun lærredsryg og
                            hjørner og overtræk af grå shirting fra 1970. Bindstørrelse: <dimensions type="binding" unit="mm">
-                              <height>323</height>
-                              <width>232</width>
-                              <depth>32</depth>
+                              <height unit="mm">323</height>
+                              <width unit="mm">232</width>
+                              <depth unit="mm">32</depth>
                            </dimensions>
                         </p>
                      </binding>
                   </bindingDesc>
                </physDesc>
+            	<history><origin><origPlace>Island</origPlace>, <origDate notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat">s.
+            		XVII</origDate>.</origin></history>
+            	<additional>
+            		<listBibl>
+            			<bibl>Kålund: <ref target="KKKat">Katalog</ref>
+            				<biblScope unit="volume">I</biblScope>
+            				<biblScope unit="page">225</biblScope>
+            			</bibl>
+            		</listBibl>
+            	</additional>
+            	
             </msDesc>
          </sourceDesc>
       </fileDesc>

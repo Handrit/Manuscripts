@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -26,6 +26,39 @@
                <msContents>
                   <summary><title type="supplied">Old Danish Legal Manuscript</title></summary>
                   <textLang mainLang="da" otherLangs="la">Danish</textLang>
+                  <msItem n="1" class="log">
+                     <locus from="1r" to="101v">1r-101v</locus>
+                     <title type="uniform">The provincial Law of Jutland</title>
+                     <textLang mainLang="da">Old Danish</textLang>
+                     <note>Including <title type="uniform">The Chapter on Sorcery</title>.</note>
+                  </msItem>
+                  <msItem n="2" class="log">
+                     <locus from="102r" to="106r">102r-106r</locus>
+                     <title type="uniform">King Erik Glipping's Nyborg Decree for North Jutland,
+                        1284</title>
+                     <textLang mainLang="da" otherLangs="la">Old Danish and Latin</textLang>
+                     <note>Rubric in Latin at the bottom of fol. 101v.</note>
+                  </msItem>
+                  <msItem n="3" class="log">
+                     <locus from="106r" to="109r">106r-109r</locus>
+                     <title type="uniform">King Christian I's Decree for North Jutland, 1466</title>
+                     <textLang mainLang="da" otherLangs="la">Old Danish and Latin</textLang>
+                     <note>Rubric in Latin.</note>
+                  </msItem>
+                  <msItem n="4" class="log">
+                     <locus from="109v" to="124r">109v-124r</locus>
+                     <title type="uniform" xml:lang="la">Articuli Thordonis legiferi</title>
+                     <title type="uniform" xml:lang="en">Articles by the Clerk Thord</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <rubric>Articuli et correctiones legis</rubric>
+                  </msItem>
+                  <msItem n="5" class="log">
+                     <locus from="124v" to="129r">124v-129r</locus>
+                     <title type="uniform">The Manorial Court Law</title>
+                     <textLang mainLang="da">Old Danish</textLang>
+                     <rubric>Saa begynd<ex>es</ex> gartzret</rubric>
+                  </msItem>
+
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -33,26 +66,55 @@
                         <support>
                            <p><material>Parchment and paper</material>.</p>
                         </support>
-                        <extent>131. <dimensions type="leaf" scope="all">
-                              <height>117</height>
-                              <width>85</width>
+                        <extent>131. Fols 129v-130v originally blank. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">117</height>
+                              <width unit="mm">85</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Foliated 1-130 + 75<hi rend="sup">bis</hi>.</p>
+                        </foliation>
+                        <condition>
+                           <p>Lacunae after fols 1, 3, 5, 9, 15, 19, 21, 66 and 123.</p>
+                        </condition>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>Rubrics and initials in red ink. Small capitals are are marked with
+                              red pen-strokes.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <bindingDesc>
+                     <binding contemporary="unknown">
+                        <p>Damaged leather binding.</p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
                <history>
                   <origin when="1486" cert="high" evidence="internal"><origPlace>Denmark</origPlace>
-                     <origDate when="1486">1486</origDate></origin>
+                     <origDate when="1486" cert="high">1486</origDate>. This date was written on
+                     fols 124r and 130v.</origin>
+                  <provenance>On fol. 94r a <name type="person" key="MorNie001">martten
+                        Nielſsenn</name> wrote a provenance note, dated <date when="1621"
+                        >1621</date>; on fol 119r the name <q><name type="person" key="JenIve001"
+                           >Jens Iffuerſen</name> y Outtrup</q> is found; this name was repeated
+                     several times throughout the manuscript.</provenance>
+                  <acquisition>An AM-slip in <name type="person"
+                        key="ArnMag001">Árni Magnússon</name>'s hand reads:
+                     <q xml:lang="la">Ex auctione <name type="person" key="FreRos001"
+                           >Roſtgardianâ</name>, Num. 389</q>.</acquisition>
                </history>
                <additional>
                   <listBibl>
                      <bibl>Kolderup-Rosenvinge: <ref target="SgdL3">Samling af gamle danske
-                        Love</ref>
+                           Love</ref>
                         <biblScope unit="volume">III</biblScope>
                         <biblScope unit="pages">xxiv</biblScope>
                      </bibl>
-                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope>
                         <biblScope unit="pages">497</biblScope></bibl>
                   </listBibl>
                </additional>
@@ -60,8 +122,8 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change when="2021-09-03" who="EvaWed001">Added bibliography and updated
-            markup.</change>
+         <change when="2021-09-03" who="EvaWed001">Added bibliography and updated markup.</change>
+         <change when="2022-05-09" who="EvaWed001">Expanded.</change>
       </revisionDesc>
 
    </teiHeader>

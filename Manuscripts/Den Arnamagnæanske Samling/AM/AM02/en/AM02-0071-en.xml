@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,35 +23,77 @@
                      <idno>83</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Ólafs saga helga</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1675" notAfter="1725">c. 1700</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="uniform">Ólafs saga helga</title></summary>
+                  <msItem n="1" class="kon">
+                     <title type="uniform">Ólafs saga helga</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Hier hef<ex>ur</ex> upp Sauguna Olafs <lb/> konungs Harallds
+                        sonar</rubric>
+                     <filiation>According to <name type="person" key="ArnMag001">Árni
+                           Magnússon's</name> notes in AM 76 b fol. concerning parchment manuscripts
+                        containing <title type="uniform">Ólafs saga helga</title>, this manuscript
+                        is a copy of a parchment manuscript, Árni acquired from the farm <name
+                           type="place" key="BærRey01">Bær</name> in Rauðasandur. The lacunae of the
+                        original are, however, filled in.</filiation>
+                     <bibl>Björn K. Þórólfsson, <ref type="primary-3" target="STUAGNL49">Fóstbræðra
+                           saga</ref><note>Fols 88r-105v, var.app. B</note></bibl>
+                     <bibl>Guðni Jónsson &amp; Sigurður Nordal, <ref type="primary-3" target="IF3"
+                           >Borgfirðinga sǫgur</ref>
+                        <note>Fols 63-71, <title type="uniform">Bjarnar saga
+                              Hítd&#x0153;lakappa</title>, var.app. 71.</note></bibl>
+                     <bibl>Johnsen &amp; Jón Helgason, <ref type="primary-3" target="OlHJH">Den
+                           store Saga om Olav den Hellige</ref>
+                        <note>Var.app. Bœjarb./71</note>
+                     </bibl>
+                     <bibl>Ólafur Halldórsson, <ref type="primary-3" target="OlaHal1987a">Færeyinga
+                           saga</ref><note>Fols 109v-110v, 117r-119r, 128r-130v. Var.app.
+                        71</note></bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>196. 
-<dimensions type="leaf" scope="all">
-                              <height>312</height>
-                              <width>207</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>196. <dimensions type="leaf" scope="all">
+                              <height unit="mm">312</height>
+                              <width unit="mm">207</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="MagEin005" scope="sole" script="unknown">
-                        <p>
-Written by Magnús Einarsson.</p>
+                        <p> Written by <name type="person" key="MagEin005">Magnús
+                           Einarsson</name>.</p>
                      </handNote>
                   </handDesc>
+                  <accMat>On an AM-slip pasted to the front of the manuscript in <name type="person"
+                        key="ArnMag001">Árni Magnússon</name>'s hand reads: <q>Þessa Olafs S⻏gu
+                        Helga feck eg fra Islande 1725. hana hefur skrifad Magnus Einarsſon ä Jrfa
+                        i Haukadal, epter bok in folio ſem liede Lgmaduren<ex>n</ex>
+                        <name type="person" key="PalJon005">Pall Jonsſon</name>, og var fra <name
+                           type="person" key="SnaPal001">Snæbirne Palsſyne</name> ä <name
+                           type="place" key="MýrMýr01">Myrum</name> i Dyrafirde. Su bok hafde fyrrum
+                        vered eign <name type="person" key="AstJon001">Aſstridar Jonsdottur</name>,
+                        vermodur Snæbiarnar.</q>
+                  </accMat>
+
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1690" notAfter="1710"
+                        >c. 1700</origDate>.</origin>
+                  <acquisition>According to Árni Magnússon's account on the AM-slip he received the
+                     manuscript from Iceland in <date when="1725">1725</date>. </acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">48</biblScope></bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,51 +1,187 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 623 4to</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM04-0623-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 623 4to</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>1611</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="is">Heilagra manna sögur</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1200" notAfter="1300">s. XIII;c. 1325 (ONP)</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>
-                           <p>Parchment</p>
-                        </support>
-                        <extent>31. </extent>
-                     </supportDesc>
-                  </objectDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 623 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0623-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 623 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>1611</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="supplied" xml:lang="is">Helgisögur</title></summary>
+						<textLang mainLang="non"/>
+						<msItem n="1" defective="true" class="hels">
+							<locus from="1r" facs="#AM04-0623-0001r" to="5v">1r-5v</locus>
+							<title type="uniform">Niðrstigningar saga</title>
+							<incipit defective="true">til þin. ec emc til þeſſ
+								ſet<ex>t</ex>r</incipit>
+							<explicit>P<ex>er</ex> omnia benedictvs devſ aMEN</explicit>
+							<filiation><name type="person" key="ArnMag001">Árni Magnússon</name>
+								notes this as<q xml:lang="is">Ur Adams boc</q>
+							</filiation>
+							<bibl>Finnur Jónsson: <ref type="primary-1" target="STUAGNL52">AM 623,
+									4to. Helgensagaer</ref>
+								<biblScope unit="page">1-9:17</biblScope>
+							</bibl>
+							<bibl>Konráð Gíslason: <ref target="KGFrumparta">Um frum-parta
+									Íslenzkrar túngu í fornöld</ref>
+								<biblScope unit="page">lii</biblScope>
+							</bibl>
+						</msItem>
+						<msItem n="2" class="hels post">
+							<locus from="6r" facs="#AM04-0623-0006r" to="15r">6r-15r</locus>
+							<title type="uniform">Jóns saga postola</title>
+							<note>Illegible rubric.</note>
+							<incipit>Domitianvſ keiſari framþi ena meſto ſtyriolld.</incipit>
+							<explicit>Nv varþveiti os gvþ almattigr ſa er lifir <ex>oc</ex> rikir
+								meþ feþ<ex>r</ex>
+								<ex>oc</ex> helgom anda of alldir allda. A-M-E-N</explicit>
+							<bibl>Finnur Jónsson: <ref type="primary-1" target="STUAGNL52">AM 623,
+									4to. Helgensagaer</ref>
+								<biblScope unit="page">9:19-25:6</biblScope>
+							</bibl>
+							<bibl>Konráð Gíslason: <ref target="KGFrumparta">Um frum-parta
+									Íslenzkrar túngu í fornöld</ref>
+								<biblScope unit="page">liii</biblScope>
+							</bibl>
+						</msItem>
+						<msItem n="3" class="hels">
+							<locus from="15r" facs="#AM04-0623-0015r" to="19r">15r-19r</locus>
+							<title type="uniform">XL riddara saga</title>
+							<rubric>Paſſio. xl. militu<ex>m</ex>
+							</rubric>
+							<incipit>Sa varþ atbvrþ<ex>r</ex> at þvi <supplied reason="damage">er</supplied> meɴ ſegia</incipit>
+							<explicit>Nicalluſ. p<ex>ri</ex>ſcuſ. Sac<ex>er</ex>dón. Ediciuſ.
+								þeodvluſ. Mellituſ. Gaiuſ. Ualerianus.</explicit>
+							<note>The saga is only found in this manuscript and as a fragmentary
+								text in <ref type="ms" target="AM04-0655-XXXIII-en">AM 655 XXXIII
+									4to</ref>.</note>
+							<bibl>Finnur Jónsson: <ref type="primary-1" target="STUAGNL52">AM 623,
+									4to. Helgensagaer</ref>
+								<biblScope unit="page">25:7-33:8</biblScope>
+							</bibl>
+							<bibl>Konráð Gíslason: <ref target="KGFrumparta">Um frum-parta
+									Íslenzkrar túngu í fornöld</ref>
+								<biblScope unit="page">liv-lv</biblScope>
+							</bibl>
+						</msItem>
+						<msItem n="4" class="hels">
+							<locus from="19r" facs="#AM04-0623-0019r" to="26r">19r-26r</locus>
+							<title type="uniform">Blasius saga</title>
+							<rubric>Paſſio blasíj ep<ex>iscop</ex>i</rubric>
+							<incipit>Líciniuſ het<ex>t</ex> konongr í auſtr riki.</incipit>
+							<explicit>þes <ex>er</ex> meþ feþ<ex>r</ex>
+								<ex>oc</ex> helgo<ex>m</ex> anda lif<ex>ir</ex>
+								<ex>oc</ex> rik<ex>ir</ex> of allar alld<ex>ir</ex> allda.
+									AM<ex>en</ex>
+							</explicit>
+							<bibl>Finnur Jónsson: <ref type="primary-1" target="STUAGNL52">AM 623,
+									4to. Helgensagaer</ref>
+								<biblScope unit="page">33:9-47:15</biblScope>
+							</bibl>
+							<bibl>Konráð Gíslason: <ref type="primary" target="KGProver">Fire og
+									Fyrretyve for en stor Deel forhen utrykte Prøver af oldnordisk
+									Sprog og Litteratur</ref>
+								<biblScope unit="page">438-446</biblScope>
+							</bibl>
+						</msItem>
+						<msItem n="5" class="hels">
+							<locus from="26r" facs="#AM04-0623-0026r" to="29r">26r-29r</locus>
+							<title type="uniform">Alexis saga</title>
+							<rubric>Fabella alexiſ c<ex>on</ex>feſoriſ</rubric>
+							<incipit>A dgo<ex>m</ex> arkadíj <ex>oc</ex> honoríj
+								ke<ex>iſa</ex>ra</incipit>
+							<explicit>
+								<ex>oc</ex> velldi lof <ex>oc</ex> riki in ſecula ſeculorum.
+								A-M-E-N.</explicit>
+							<bibl>Finnur Jónsson: <ref type="primary-1" target="STUAGNL52">AM 623,
+									4to. Helgensagaer</ref>
+								<biblScope unit="page">37:16-53</biblScope>
+							</bibl>
+							<bibl>Konráð Gíslason: <ref target="KGFrumparta">Um frum-parta
+									Íslenzkrar túngu í fornöld</ref>
+								<biblScope unit="page">lvi:1-18</biblScope>
+							</bibl>
+						</msItem>
+						<msItem n="6" defective="true" class="hels">
+							<locus from="29r" facs="#AM04-0623-0029r" to="31v">29r-31v</locus>
+							<title type="uniform" xml:lang="is">Sjau sofanda saga</title>
+							<title type="uniform" xml:lang="la">Septem dormientes</title>
+							<rubric xml:lang="la">vij . dormie<ex>n</ex>civ<ex>m</ex>
+							</rubric>
+							<incipit>A þei<ex>m</ex> dgvm er deciuſ var keiſari.</incipit>
+							<explicit defective="true">
+								<ex>oc</ex> kendi engi h<ex>ann</ex>. En þo treyſ</explicit>
+							<bibl>Finnur Jónsson: <ref type="primary-1" target="STUAGNL52">AM 623,
+									4to. Helgensagaer</ref>
+								<biblScope unit="page">54-59</biblScope>
+							</bibl>
+							<bibl>Konráð Gíslason: <ref target="KGFrumparta">Um frum-parta
+									Íslenzkrar túngu í fornöld</ref>
+								<biblScope unit="page">lvii</biblScope>
+							</bibl>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p><material>Parchment</material>.</p>
+								</support>
+								<extent>31. <dimensions type="leaf" scope="all" unit="mm">
+										<height unit="mm">168</height>
+										<width unit="mm">124</width>
+									</dimensions></extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origPlace>Iceland</origPlace>, <origDate notBefore="1315" notAfter="1335" resp="ONP">c. 1325</origDate>.</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<bibl><ref type="primary-1" target="STUAGNL52"/>
+								<biblScope unit="page">i-ix</biblScope>
+							</bibl>
+							<bibl><ref type="secondary-1" target="KKKat"/>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="page">37</biblScope>
+							</bibl>
+							<bibl><ref target="HMS1877"/>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="page">viii, ix, xi, xv, xx</biblScope>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="page">9 ff.</biblScope>
+							</bibl>
+							<bibl><ref target="Postola1874"/>
+								<biblScope unit="page">xxii</biblScope>
+							</bibl>
+							<bibl><ref target="Wolf2013"/><biblScope unit="page">23-24, 64, 114,
+									171, 227, 329</biblScope></bibl>
+						</listBibl>
+					</additional>
+
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc><change when="2021-11-07" who="EvaWed001">Updated markup and added msContents and bibliography.</change></revisionDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0623-0000r-FB" n="0">
 			<desc>0000r-FB</desc>

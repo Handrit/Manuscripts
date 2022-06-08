@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,14 +22,15 @@
                      <idno>1697</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Duggals leiðsla</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1490" notAfter="1510">c. 1500; s. XV med (ONP)</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <msContents>
+                  <summary><title type="uniform" xml:lang="is">Duggals leiðsla</title></summary>
+                  <msItem n="1" defective="true" class="leid">
+                     <title type="uniform" xml:lang="is">Duggals leiðsla</title>
+                     <textLang mainLang="non"/>
+                     <bibl>Cahill: <ref type="primary-1" target="Rit25">Duggals
+                        leiðsla</ref><biblScope unit="page">1-104</biblScope></bibl>
+                     <bibl>Unger: <ref type="primary" target="HMS1877">Heliagra manna
+                        søgur</ref><biblScope unit="volume">I</biblScope><biblScope unit="page">342:21-344:35, 352:30-354:10</biblScope></bibl>
                   </msItem>
                </msContents>
                <physDesc>
@@ -38,13 +39,42 @@
                         <support>
                            <p>Parchment.</p>
                         </support>
-                        <extent>4. </extent>
+                        <extent>4. <dimensions type="leaf" unit="mm">
+                           <height unit="mm">178</height>
+                           <width unit="mm">128</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>Skrevet i <origPlace>Iceland</origPlace>
+                     <origDate notBefore="1440" notAfter="1460" cert="high" evidence="conjecture"
+                        resp="Rit25">c. 1450</origDate> (<bibl>
+                           <ref type="secondary-1" target="Rit25">Cahill 1983</ref>
+                           <biblScope unit="page">xxxvii</biblScope>
+                        </bibl>). <name type="person" key="KriKaa001">Kålund</name>'s dating: c. 1500 (<bibl>
+                           <ref type="secondary-1" target="KKKat">Katalog</ref>
+                           <biblScope unit="volume">II</biblScope>
+                           <biblScope unit="page">97</biblScope>
+                        </bibl>).</origin>
+                  <provenance>Fols 1-2 originally belonged to the collection of manuscripts catalogued as AM 696
+                     4to</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="Rit25"/>
+                        <biblScope unit="page">ix, xxxvi-xlviii</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">97</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2022-02-10" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

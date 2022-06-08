@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,26 +22,52 @@
                      <idno>1662</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Maríu saga</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1350" notAfter="1399">s. XIV 2/2</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                 <msContents>
+                  <summary><title type="uniform" xml:lang="is">Maríu saga</title></summary>
+                    <msItem n="1" class="hels jarteikn" defective="true">
+                     <title type="uniform" xml:lang="is">Maríu saga</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">at taka. hu<ex>ar</ex>t ſem helldr vill h<ex>ann</ex>
+                        ſla edr ſu<ex>er</ex>fa</incipit>
+                     <explicit defective="true">til nytſemdar romv<ex>er</ex>ſkri þiod m<ex>vn</ex>
+                     </explicit>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>1. </extent>
+                        <extent>1. <dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">212</height>
+                           <width unit="mm">170</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
+                  <accMat>The AM-slip reads: <q xml:lang="is">Fra landzſkrifaranum
+                     Monſr Sigurde Sigurdsſyne 1726</q>.</accMat>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Iceland</origPlace>,
+                     <origDate notBefore="1350" notAfter="1399">s. XIV<hi rend="sup"
+                        >2</hi></origDate>
+                  </origin>
+                  <acquisition>According to the AM-slip <name type="person" key="ArnMag001">Árni
+                     Magnússon</name> acquired this leaf from <name type="person" key="SigSig003"
+                        >Sigurður Sigurðsson</name> in <date when="1726">1726</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">76-77</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="Wolf2013"/>
+                        <biblScope unit="page">236</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

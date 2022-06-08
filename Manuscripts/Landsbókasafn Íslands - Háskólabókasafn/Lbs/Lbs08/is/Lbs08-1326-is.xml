@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -30,20 +30,72 @@
 					</msIdentifier>
 					<msContents>
 						<summary>
-							<title type="supplied">Pílagríms framgangur og ferðalag</title>
+							<title type="supplied">Ferðasögur</title>
 						</summary>
-						<msItem>
-							<p>I. Bl. 1-129. »Pilagrijms Frammgángur og Ferdalag.« Íslenzk þýðing
-								(úr dönsku, sbr. formálann) á John Bunyan: The Pilgrim´s Progress.´
-								Virðist vera ehdr. síra Guðlaugs Sveinssonar í Vatnsfirði
-								(þýðandans). II. Bl. 130-60. »Ferda-Saga Olafs Prests Eigillssonar.«
-								Skr. 1798.</p>
+					
+						<msItem n="1" defective="false" class="skalds gudfr">
+							<locus from="1r" facs="#Lbs08-1326-0001r" to="130v">1r-130v</locus>
+							<title type="uniform">Pílagríms framgangur og ferðalag</title>
+							<author><name type="person" key="JohBun001">John Bunyan</name></author>
+							<respStmt>
+								<resp key="trl"/>
+								<name type="person" key="GudSve001">Guðlaugur Sveinsson</name>
+							</respStmt>
+							<note><p>Íslensk þýðing úr dönsku, samanber formálann.</p>
+								<p>Virðist vera eiginhandarrit síra Guðlaugs í Vatnsfirði.</p></note>
 						</msItem>
+							<msItem n="2" defective="false" class="ferds">
+								<locus from="131r" facs="#Lbs08-1326-0131r" to="162r">131r-162r</locus>
+								<title type="uniform">Reisubók séra Ólafs Egilssonar</title>
+								<rubric>Ferðasaga Ólafs prests Egilssonar sem hertekinn var með öðrum í Vestmannaeyjum og svo fluttur 
+								af landi burt þá datum skrifaðist 1627 eftir sjálfs hans orðan. Uppskrifað að nýju eftir 79 ára gömlu
+								Manuscripto Anno 1798.</rubric>
+								<author><name type="person" key="OlaEgi001">Ólafur prestur Egilsson</name></author>
+							</msItem>
+						
 					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p>Pappír.</p>
+								</support>
+								<extent>160 blöð
+									<dimensions scope="all" type="leaf" unit="mm">
+										<height>176</height>
+										<width>111</width>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="2">
+							<summary>Tvær hendur ; líklegur skrifari á fyrri hluta:</summary>
+							<handNote scope="major" script="unknown" scribe="GudSve001">
+								<name type="person" key="GudSve001">Guðlaugur Sveinsson</name>
+							</handNote>
+						</handDesc>
+						<bindingDesc><binding><p>Skinnheft.</p></binding></bindingDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origPlace>Ísland</origPlace>, 
+							<origDate cert="medium" from="1790" to="1800"> um 1790-1800</origDate>
+						</origin>
+				
+					</history>
 					<additional>
 						<adminInfo>
 							<recordHist>
-								<source><name type="person" key="BraOla001">Bragi Þorgrímur
+								<source><p> Skráning <name type="person" key="PalOla002">Páls
+									Eggerts Ólasonar</name> á handritinu er aðgengileg í
+									ritinu <bibl>
+										<ref target="PEO">Skrá um handritasöfn
+											Landsbókasafnsins</ref>, </bibl>2. bindi, <ref
+												target="https://baekur.is/bok/000233966/2/266/Skra_um_handritasofn_Bindi_2_Bls_266"
+												>bls. 258</ref>.</p>
+									<name type="person" key="GudGud045">Guðrún Laufey
+										Guðmundsdóttir</name> bætti við skráninguna, <date
+											when="2022-04-28">28. apríl 2022</date> ; <name type="person" key="BraOla001">Bragi Þorgrímur
 									Ólafsson</name> frumskráði fyrir myndvinnslu, <date when="2009-10-20">20. október 2009</date> ; Handritaskrá, 2.
 									b.</source>
 							</recordHist>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,30 +24,25 @@
                         </altIdentifier>
                         <msName type="nickname" xml:lang="is">Villa</msName>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="da">Messebog</title>;
-                            <origPlace>Island</origPlace>, <origDate notBefore="1225" notAfter="1229">s. XIII 2/4</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1" defective="true">
-                            <locus>1r</locus>
-                            <title type="supplied">Prédikan</title>
-                            <note>Udlægning af Davids fjerde bodssalme, Miserere</note>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                        <summary>
+                            <title type="supplied" xml:lang="da">Missale</title></summary>
+                        <msItem n="1" defective="true" class="pred">
+                            <locus from="1r" to="1r">1r</locus>
+                            <title type="supplied">Udlægning af Davids fjerde bodssalme, Miserere</title>
+                            <textLang mainLang="non">Norrønt/Islandsk</textLang>
                             <incipit defective="true">ſonar G<ex>uðs</ex>
                             </incipit>
                             <explicit defective="true">ieno<ex>m</ex>
                                 <lb/> forno<ex>m</ex> lgo<ex>m</ex>
                             </explicit>
-                            <listBibl>
                                 <bibl>Konráð Gíslason: <ref type="primary-1" target="KGFrumparta">Um
                                         frum-parta íslenzkrar túngu í fornöld</ref>
-                                    <biblScope unit="pages">lxxxii-iii</biblScope>
+                                    <biblScope unit="page">lxxxii-iii</biblScope>
                                 </bibl>
-                            </listBibl>
                         </msItem>
-                        <msItem n="2" defective="true">
-                            <locus>1v</locus>
+                        <msItem n="2" defective="true" class="ban">
+                            <locus from="1v" to="1v">1v</locus>
                             <title type="supplied">Bønner</title>
                             <textLang mainLang="la">Latin</textLang>
                         </msItem>
@@ -55,11 +51,11 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Pergament.</p>
+                                    <p><material>Pergament</material>.</p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>195</height>
-                                        <width>140</width>
+                                        <height unit="mm">195</height>
+                                        <width unit="mm">140</width>
                                     </dimensions>
                                 </extent>
                                 <condition>
@@ -71,22 +67,23 @@
                         <accMat>
                             <p>Der er to AM-sedler. Her står der, at bladet engang skulle have hørt
                                 til en membran fra <name type="place">Örnundarfjörður</name>, der på
-                                grund af de vanskeligheder, læsningen frembød, kaldtes <q xml:lang="is">Villa</q>.</p>
+                                grund af de vanskeligheder, læsningen frembød, kaldtes <q
+                                    xml:lang="is">Villa</q>.</p>
                         </accMat>
                     </physDesc>
                     <history>
                         <origin>
                             <p>Håndskriftet er skrevet i <origPlace>Örnundarfjörður,
-                                    Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
+                                Island</origPlace> i <origDate notBefore="1225"
+                                    notAfter="1250" evidence="conjecture" resp="IHFol2"
+                                    >1200-tallets anden fjerdedel</origDate> (<bibl>
+                                        <ref type="secondary-1" target="IHFol2">Hreinn Benediktsson 1965</ref>
+                                        <biblScope unit="page">xxv</biblScope>
+                                    </bibl>). <name type="person" key="KriKaa001">Kålund</name>s datering: Første halvdel af 1200-tallet (<bibl>
                                     <ref type="secondary-1" target="KKKat">Katalog</ref>
                                     <biblScope unit="volume">II</biblScope>
-                                    <biblScope unit="pages">64</biblScope>
-                                </bibl>) har dateret det til <origDate notBefore="1200" notAfter="1249" cert="medium" evidence="conjecture" resp="KKKat">1200-tallets første halvdel</origDate>. Senere har <name type="person" key="HreBen001">Hreinn
-                                Benediktsson</name> (<bibl>
-                                    <ref type="secondary-1" target="IHFol2">Early Icelandic
-                                        Script</ref>
-                                    <biblScope unit="pages">xxv</biblScope>
-                                </bibl>) dateret det mere præcist til <origDate notBefore="1225" notAfter="1249" evidence="conjecture" resp="IHFol2 ONP">1200-tallets anden fjerdedel</origDate>.</p>
+                                    <biblScope unit="page">64</biblScope>
+                                </bibl>).</p>
                         </origin>
                     </history>
                     <additional>
@@ -100,11 +97,12 @@
                         </adminInfo>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">64</biblScope>
-                     </bibl>
-                            <bibl>Bekker-Nielsen og Widding: <ref type="secondary-1" target="OrdbogBNW">Fra ordbogens værksted</ref>
-                                <biblScope unit="pages">341-42</biblScope>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">64</biblScope>
+                            </bibl>
+                            <bibl>Bekker-Nielsen og Widding: <ref type="secondary-1"
+                                    target="OrdbogBNW">Fra ordbogens værksted</ref>
+                                <biblScope unit="page">341-42</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

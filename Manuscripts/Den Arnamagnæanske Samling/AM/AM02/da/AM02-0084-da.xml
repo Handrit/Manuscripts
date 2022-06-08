@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,15 +23,13 @@
                      <idno>103</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Sverris saga</title>; <origPlace>Norge</origPlace>, <origDate notBefore="1688" notAfter="1700">s. XVII ex</origDate>
-               </head>
-               <msContents>
-                  <msItem class="kon">
-                     <title type="uniform" xml:lang="is">Sverris saga</title>
+                 <msContents>
+               	<summary><title type="uniform">Sverris saga</title></summary>
+                  <msItem n="1" class="kon">
+                  	<locus from="1r" facs="#AM02-0084-0001r" to="131v">1r-131v</locus>
+                  	<title type="uniform">Sverris saga</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <colophon>Samanborin<ex>n</ex> vid Membranam Ao. <date when="1695">1695</date>
-                     </colophon>
+                     <colophon>Samanborin<ex>n</ex> vid Membranam Ao. 1695</colophon>
                      <filiation>Stemmer med recensionen i <title type="ms">Flateyjarbók</title>.</filiation>
                   </msItem>
                </msContents>
@@ -43,8 +41,8 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>131. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>317</height>
-                              <width>207</width>
+                              <height unit="mm">317</height>
+                              <width unit="mm">207</width>
                            </dimensions>.</extent>
                         <foliation>
                            <p>Folieret 1-131 med rødt blæk af <name type="person" key="KriKaa001">Kålund</name>. </p>
@@ -63,14 +61,23 @@
                            genbrugsmateriale, idet der på forpermen og bagpermen anes en tekst,
                            muligvis fra et diplom.</p>
                         <p>Bindstørrelse: <dimensions type="binding">
-                              <height>321</height>
-                              <width>214</width>
-                              <depth>40</depth>
+                              <height unit="mm">321</height>
+                              <width unit="mm">214</width>
+                              <depth unit="mm">40</depth>
                            </dimensions>
                         </p>
                      </binding>
                   </bindingDesc>
                </physDesc>
+            	<history><origin><origPlace>Norge</origPlace>, <origDate notBefore="1688" notAfter="1700">s. XVII ex</origDate>.</origin></history>
+            	<additional>
+            		<listBibl>
+            			<bibl><ref type="secondary-1" target="KKKat"/>
+            			<biblScope unit="volume">I</biblScope>
+            				<biblScope unit="page">62</biblScope>
+            			</bibl>
+            		</listBibl>
+            	</additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

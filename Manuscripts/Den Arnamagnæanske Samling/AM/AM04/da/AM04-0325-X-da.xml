@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,52 +22,57 @@
                             <idno>1068</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform" xml:lang="is">Konunga sögur</title>;
-                            <origPlace>Island</origPlace>, <origDate notBefore="1360" notAfter="1380" evidence="conjecture">ca.
-                        1370</origDate>.</head>
-                    <msContents>
-                        <msItem>
-                            <msItem n="1.1">
-                                <locus from="1r" to="7r">1r-7r</locus>
-                                <title type="uniform" xml:lang="is">Sverris saga</title>
-                                <textLang mainLang="is">Norrønt/Islandsk</textLang>
-                                <incipit defective="true">þ<ex>e</ex>u maali en<ex>n</ex>
-                                        k<ex>onun</ex>gi</incipit>
-                                <note>Seks brudstykker af sagaen.</note>
-                            </msItem>
-                            <msItem n="1.2">
-                                <locus from="7r" to="7v">7r-7v</locus>
-                                <title type="uniform" xml:lang="is">Hákonar saga
-                                    Sverrissonar</title>
-                                <bibl>
-                                    <ref type="primary-2" target="FMS9">Fornmanna sögur</ref>
-                                    <biblScope unit="volume">IX</biblScope>
-                                    <biblScope unit="pages">214-16</biblScope>
-                                </bibl>
-                            </msItem>
-                            <msItem n="1.3">
-                                <locus from="8r" to="12v">8r-12v</locus>
-                                <title type="uniform" xml:lang="is">Hákonar saga
-                                    Hákonarsonar</title>
-                                <incipit defective="true">
-                                    <supplied reason="damage">Kolb</supplied>æin<supplied reason="unknown">n</supplied> kettu hryʀ</incipit>
-                                <explicit defective="true">vpp vnd<ex>ir</ex> kuʀínn
-                                        en<ex>n</ex>
-                                </explicit>
-                                <note>Fem brudstykker af sagaen.</note>
-                            </msItem>
-                            <msItem n="1.4">
-                                <locus from="13r" to="14v">13r-14v</locus>
-                                <title type="uniform" xml:lang="is">Magnúss saga lagabætis
-                                    Hákonarsonar</title>
-                                <note>To brudstykker.</note>
-                                <bibl>
-                                    <ref type="primary-2" target="FMS10">Fornmanna sögur</ref>
-                                    <biblScope unit="volume">X</biblScope>
-                                    <biblScope unit="pages">155-63</biblScope>
-                                </bibl>
-                            </msItem>
+                       <msContents>
+                        <summary><title type="uniform" xml:lang="is">Konunga
+                            sǫgur</title></summary>
+                        <textLang mainLang="non"/>
+                        <msItem n="1" class="kon">
+                            <locus from="1ra" to="7rb">1ra-7rb</locus>
+                            <title type="uniform" xml:lang="is">Sverris saga</title>
+                            <note>Seks brudstykker af sagaen.</note>
+                            <incipit defective="true">þ<ex>e</ex>u maali en<ex>n</ex>
+                                    k<ex>onun</ex>gi</incipit>
+                        </msItem>
+                        <msItem n="2" class="kon">
+                            <locus from="7va" to="7vb">7va-vb</locus>
+                            <title type="uniform" xml:lang="is">Bǫglunga saga</title>
+                            <bibl>
+                                <ref type="primary-2" target="FMS9">Fornmanna sögur</ref>
+                                <biblScope unit="volume">IX</biblScope>
+                                <biblScope unit="page">214-16</biblScope>
+                            </bibl>
+                            <bibl>Magerøy: <ref type="primary-1" target="NT5">Soga om birkebeinar og
+                                    baglar: Bǫglunga sǫgur</ref>
+                                <biblScope unit="page">3-7</biblScope><note>Udg. X.</note></bibl>
+                        </msItem>
+                        <msItem n="3" class="kon">
+                            <locus from="8r" to="12v">8r-12v</locus>
+                            <title type="uniform" xml:lang="is">Hákonar saga Hákonarsonar</title>
+                            <note>Fem brudstykker af sagaen.</note>
+                            <incipit defective="true">
+                                <supplied reason="damage">Kolb</supplied>æin<supplied
+                                    reason="unknown">n</supplied> kettu hry&#x0262;</incipit>
+                            <explicit defective="true">vpp vnd<ex>ir</ex> ku&#x0262;ínn en<ex>n</ex>
+                            </explicit>
+                            <bibl>Guðbrandur Vigfússon: <ref type="primary" target="IslSGV1887-2"
+                                    >Hakonar Saga, and a Fragment of Magnus Saga, with
+                                    Appendices</ref>
+                                <biblScope unit="page">375-380</biblScope></bibl>
+                        </msItem>
+                        <msItem n="4" class="kon">
+                            <locus from="13r" to="14v">13r-14v</locus>
+                            <title type="uniform" xml:lang="is">Magnús saga lagabœtis</title>
+                            <note>To brudstykker.</note>
+                            <bibl>
+                                <ref type="primary-2" target="FMS10">Fornmanna sögur</ref>
+                                <biblScope unit="volume">X</biblScope>
+                                <biblScope unit="page">155-63</biblScope>
+                            </bibl>
+                            <bibl>Guðbrandur Vigfússon: <ref type="primary" target="IslSGV1887-2"
+                                    >Hakonar Saga, and a Fragment of Magnus Saga, with
+                                    Appendices</ref>
+                                <biblScope unit="page">361-368</biblScope><note>Udg.
+                                Cd.</note></bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -77,12 +83,12 @@
                                         <material>Pergament</material>.</p>
                                 </support>
                                 <extent>14. <dimensions type="leaf" scope="all">
-                                        <height>300</height>
-                                        <width>220</width>
+                                        <height unit="mm">300</height>
+                                        <width unit="mm">220</width>
                                     </dimensions>.</extent>
                                 <condition>
                                     <p>Kun bl. 3 og 5 er i fuld størrelse, de andre har mistet mere
-                                        eller mindre af margenen. Flere blade er stærkt slidte eller
+                                        eller mindre af marginen. Flere blade er stærkt slidte eller
                                         beskadigede ved småhuller og rifter. <list>
                                             <item>Bl. 1 har større beskadigelser og nogle linjer er
                                                 bortskåret foroven.</item>
@@ -105,27 +111,29 @@
                         </objectDesc>
                         <decoDesc>
                             <decoNote type="initial">
-                                <p>Udviskede initialer i forskellig farve. Røde overskrifter.</p>
+                                <p>Udviskede initialer i forskellige farver. Røde overskrifter.</p>
                             </decoNote>
                         </decoDesc>
-                        <additions>3 sammensatte blade, som indeholder <name type="person" key="ThoTho003">Þórður Þórðarsson</name>s afskrift af bl.
+                        <additions>3 sammensatte blade, som indeholder <name type="person"
+                                key="ThoTho003">Þórður Þórðarsson</name>s afskrift af bl.
                             13.</additions>
                         <accMat>
                             <p>Der er to AM-sedler. <list>
-                                    <item>Den første er skrevet for <name type="person" key="ArnMag001">Arne Magnusson</name> og omhandler bl.
-                                        4: <q xml:lang="is">Þetta Sverris sgu blad feck eg <date when="1706">1706</date> af <name type="person" key="ArnHan001">Arna Han<ex>n</ex>essyne</name>, og
-                                            hafde han<ex>n</ex> þ<ex>ad</ex> fundid j
-                                            ruſle ä ytra Hölme, og var þar eckert meira
-                                            þeſs ſlags. Þad er
-                                            manifeſtè ur ſama volumine
-                                                ſe<ex>m</ex> þ<ex>ad</ex> eina blad ur
-                                            Magnuſs ſgu lagabætis er eg fenged
-                                            hefe utan af Kvere <name type="person" key="HanTho001">Han<ex>n</ex>esar
+                                    <item>Den første er skrevet for <name type="person"
+                                            key="ArnMag001">Arne Magnusson</name> og omhandler bl.
+                                        4: <q xml:lang="is">Þetta Sverris sgu blad feck eg <date
+                                                when="1706">1706</date> af <name type="person"
+                                                key="ArnHan001">Arna Han<ex>n</ex>essyne</name>, og
+                                            hafde han<ex>n</ex> þ<ex>ad</ex> fundid j ruſle ä ytra
+                                            Hölme, og var þar eckert meira þeſs ſlags. Þad er
+                                            manifeſtè ur ſama volumine ſe<ex>m</ex> þ<ex>ad</ex>
+                                            eina blad ur Magnuſs ſgu lagabætis er eg fenged hefe
+                                            utan af Kvere <name type="person" key="HanTho001"
+                                                  >Han<ex>n</ex>esar
                                         Þorleifssonar</name></q>.</item>
                                     <item>Den anden AM-seddel omhandler bl. 13 og er skrevet af Arne
                                         Magnusson: <q xml:lang="is">Þetta blad var utanum qver, er
-                                            att hafdi Han<ex>n</ex>es
-                                        Þorleifsſon</q>.</item>
+                                            att hafdi Han<ex>n</ex>es Þorleifsſon</q>.</item>
                                     <item>.</item>
                                 </list>
                             </p>
@@ -133,19 +141,20 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> har dateret det til
-                                    <origDate notBefore="1390" notAfter="1410" cert="medium" evidence="conjecture" resp="KKKat">ca. 1400</origDate>
-                                    (<bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                            <p>Skrevet i <origPlace>Island</origPlace>, <origDate notBefore="1360"
+                                    notAfter="1380" cert="high" resp="ONP">ca. 1370</origDate>
+                                        (<bibl><ref type="secondary" target="EIMF7">Stefán Karlsson
+                                        1967</ref><biblScope unit="page">28</biblScope>
+                                </bibl>). Kålunds datering: <date notBefore="1390" notAfter="1410"
+                                    >ca. 1400</date> (<bibl><ref type="secondary-1" target="KKKat"
+                                        >Katalog</ref>
                                     <biblScope unit="volume">I</biblScope>
-                                    <biblScope unit="pages">564</biblScope>
-                                </bibl>), mens <name type="person" key="SteKar001">Stefán
-                                    Karlsson</name> senere har dateret det til <origDate notBefore="1365" notAfter="1375" cert="high" evidence="conjecture" resp="ONP">ca. 1370</origDate>
-                                    (<bibl>Karlsson: <ref type="secondary" target="EIMF7">Sagas of
-                                        Icelandic Bishops </ref><biblScope unit="volume">VII</biblScope><biblScope unit="pages">28</biblScope>
+                                    <biblScope unit="page">564</biblScope>
                                 </bibl>).</p>
                         </origin>
                         <provenance>
-                            <p>På bl. 2r og 4r har en hånd fra <date notBefore="1600" notAfter="1699">1600-tallet</date> skrevet: <q xml:lang="is">
+                            <p>På bl. 2r og 4r har en hånd fra <date notBefore="1600"
+                                    notAfter="1699">1600-tallet</date> skrevet: <q xml:lang="is">
                                     <name type="person" key="SnaSte001">Snæbjörn Steffánsson</name>
                                 </q>, og på bl. 11r optræder navnet <q xml:lang="is">
                                     <name type="person" key="SnoAsg001">snore asgeirsson</name>
@@ -155,31 +164,41 @@
                             <p>
                                 <name type="person" key="ArnMag001">Arne Magnusson</name> fik
                                 fragmenterne fra flere forskellige steder. <list>
-                                    <item>En AM-seddel skrevet for <name type="person" key="ArnMag001">Arne Magnusson</name> fortæller om bl.
-                                        4: <q xml:lang="is">Þetta Sverris sgu blad feck eg <date when="1706">1706</date> af <name type="person" key="ArnHan001">Arna Han<ex>n</ex>essyne</name>, og
+                                    <item>En AM-seddel skrevet for <name type="person"
+                                            key="ArnMag001">Arne Magnusson</name> fortæller om bl.
+                                        4: <q xml:lang="is">Þetta Sverris sgu blad feck eg <date
+                                                when="1706">1706</date> af <name type="person"
+                                                key="ArnHan001">Arna Han<ex>n</ex>essyne</name>, og
                                             hafde han<ex>n</ex> þ<ex>ad</ex> fundid j rusle ä ytra
                                             Hölme, og var þar eckert meira þess slags. Þad er
                                             manifestè ur sama volumine se<ex>m</ex> þ<ex>ad</ex>
                                             eina blad ur Magnuss sgu lagabætis er eg fenged hefe
-                                            utan af Kvere <name type="person" key="HanTho001">Han<ex>n</ex>esar Þorleifssonar</name>
+                                            utan af Kvere <name type="person" key="HanTho001"
+                                                  >Han<ex>n</ex>esar Þorleifssonar</name>
                                         </q>.</item>
                                     <item><name type="person" key="ArnMag001">Arne Magnusson</name>
                                         har skrevet følgende på bl. 9r: <q xml:lang="is">i Reyk
                                             hollte <date when="1707">1707</date>
                                         </q>.</item>
-                                    <item>På en anden note nederst i margen på bl. 10r står
+                                    <item>På en anden note nederst i margin på bl. 10r står
                                         følgende: <q xml:lang="is">Ur Aust fiordu<ex>m</ex>
                                             <date when="1711">1711</date>
                                         </q>.</item>
-                                    <item> På en AM-seddel omhandlende bl. 13 har <name type="person" key="ArnMag001">Arne Magnusson</name>
+                                    <item> På en AM-seddel omhandlende bl. 13 har <name
+                                            type="person" key="ArnMag001">Arne Magnusson</name>
                                         skrevet: <q xml:lang="is">Þetta blad var utanum qver, er att
-                                            hafdi <name type="person" key="HanTho001">Han<ex>n</ex>es Þorleifsson</name>
+                                            hafdi <name type="person" key="HanTho001"
+                                                >Han<ex>n</ex>es Þorleifsson</name>
                                         </q>.</item>
                                     <item>Ifølge <bibl>
                                             <ref type="secondary" target="FMS9">Fornmanna
-                                                sögur</ref> IX</bibl> hører et papirblad med <name type="person" key="ArnMag001">Arne Magnusson</name>s
-                                        hånd til bl. 7. Arne Magnusson meddeler, at han har købt en
-                                        bog med dette papirblad på en auktion i <name type="place" key="Copen01">København</name>.</item>
+                                                sögur</ref>
+                                            <biblScope unit="volume">IX</biblScope></bibl> hører et
+                                        papirblad med <name type="person" key="ArnMag001">Arne
+                                            Magnusson</name>s hånd til bl. 7. Arne Magnusson
+                                        meddeler, at han har købt en bog med dette papirblad på en
+                                        auktion i <name type="place" key="Copen01"
+                                        >København</name>.</item>
                                 </list>
                             </p>
                         </acquisition>
@@ -194,7 +213,8 @@
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation">
-                                    <p>Håndskriftet blev sat på knækfalse og lagt i et omslag <date from="1959-03-03" to="1959-04-04">3. marts-4. april
+                                    <p>Håndskriftet blev sat på knækfalse og lagt i et omslag <date
+                                            from="1959-03-03" to="1959-04-04">3. marts-4. april
                                             1959</date>.</p>
                                 </custEvent>
                                 <custEvent type="conservation">
@@ -203,56 +223,56 @@
                                             1980</date>.</p>
                                 </custEvent>
                                 <custEvent type="conservation">
-                                    <p>Bindet fik nummer og rygtitel <date when="1961-10-04">4. oktober 1961</date> .</p>
+                                    <p>Bindet fik nummer og rygtitel <date when="1961-10-04">4.
+                                            oktober 1961</date> .</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plade</title>
-                                        <idno>plade37</idno> s.d. </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositiv</title>
-                                        <idno>AM 325 X 4to</idno>
-                                        <date notBefore="1984-05" notAfter="1985-05">Maj 1984 eller
-                                            1985</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">s/h fotografier</title>
-                                        <idno>325 X 4to</idno>
-                                        <date when="1958-11">November 1958</date>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item n="1">Plade, <idno>plade 37</idno>, s.d.</item>
+                                    <item n="2">Diapositiver fra <date notBefore="1984-05"
+                                            notAfter="1985-05">maj 1984 eller 1985</date>.
+                                    </item>
+                                    <item n="3">Sort-hvid fotografier fra <date when="1956-10"
+                                            >oktober 1956</date>.</item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
+                            <bibl><ref type="secondary-1" target="SteDre2021a">Dreschler
+                                2021</ref><biblScope unit="page">26, 52, 127-128, 146-147, 226</biblScope></bibl>
                             <bibl>
                                 <ref type="secondary" target="FMS8">Fornmanna sögur</ref>
                                 <biblScope unit="volume">VIII</biblScope>
-                                <biblScope unit="pages">xvii-xxvii</biblScope>
+                                <biblScope unit="page">xvii-xxvii</biblScope>
                                 <note>Beskrevet som fragment 2-5, 7, 10 og 14</note>
                             </bibl>
                             <bibl>
                                 <ref type="secondary" target="FMS9">Fornmanna sögur</ref>
                                 <biblScope unit="volume">IX</biblScope>
-                                <biblScope unit="pages">ix, xvii-viii</biblScope>
+                                <biblScope unit="page">ix, xvii-viii</biblScope>
                                 <note>Beskrevet som fragment 1, 3, 4, 6, 8 og 9</note>
                             </bibl>
                             <bibl>
                                 <ref type="secondary" target="FMS10">Fornmanna sögur</ref>
                                 <biblScope unit="volume">X</biblScope>
-                                <biblScope unit="pages">v-vi</biblScope>
+                                <biblScope unit="page">v-vi</biblScope>
                             </bibl>
-                            <bibl>Guðbrandur Vigfússon: <ref target="IslSGV1887-1">Icelandic Sagas
-                                    and other Historical Documents</ref><biblScope unit="volume">I</biblScope><biblScope unit="pages">xvii-xx</biblScope></bibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">I</biblScope><biblScope unit="pages">564-565</biblScope></bibl>
+                            <bibl><ref target="IslSGV1887-1">Guðbrandur Vigfússon 1887</ref><biblScope unit="volume"
+                                    >I</biblScope><biblScope unit="page">xvii-xx</biblScope></bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat"
+                                    >Katalog</ref><biblScope unit="volume">I</biblScope><biblScope
+                                    unit="page">564-565</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-11-09" who="EvaWed001">Opdateret opmærkning og bibliografi.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

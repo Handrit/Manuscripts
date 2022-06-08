@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,8 +41,8 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>248. <dimensions type="leaf" scope="all">
-                              <height>208</height>
-                              <width>160</width>
+                              <height unit="mm">208</height>
+                              <width unit="mm">160</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
@@ -57,10 +58,10 @@
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">674</biblScope>
+                        <biblScope unit="page">674</biblScope>
                      </bibl>
                      <bibl>Unger: <ref target="Alex1848">Alexanders saga</ref>
-                        <biblScope unit="pages">xii</biblScope>
+                        <biblScope unit="page">xii</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
@@ -69,7 +70,13 @@
       </fileDesc>
       <revisionDesc><change when="2021-09-24" who="EvaWed001">Opmærkning opdateret.</change></revisionDesc>
    </teiHeader>
-   <facsimile>
-      <surface/>
-   </facsimile>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+		<surface xml:id="AM04-0520-addMat01r" n="0">
+			<desc>addMat01r</desc>
+			<graphic mimeType="pdf" url="AM%20520%204to/0/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20520%204to/0/THUMBNAIL" width="200px" height="138px"/>
+			<graphic mimeType="jpg" url="AM%20520%204to/0/SECONDARY_DISPLAY" width="10032px" height="6950px"/>
+			<graphic mimeType="pdf" url="AM%20520%204to/0/WEB_DISPLAY"/>
+		</surface>
+	</facsimile>
 </TEI>

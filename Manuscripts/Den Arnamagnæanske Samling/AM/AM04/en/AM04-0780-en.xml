@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,51 @@
                      <idno>1912</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Descriptio Navigationum trium Borealium à Belgis in Chinam et Indiam frustrà tentatarum</title>
-                  <origPlace>Denmark?</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Descriptio Navigationum trium Borealium</title></summary>
                   <textLang mainLang="la">Latin</textLang>
+                  <titlePage type="MS"><docTitle>
+                     <titlePart type="main"><add place="opposite">Nova Zemla sive</add> 
+                        <lb/>
+                        <handShift/>DESCRIPTIO <lb/> NAVIGATIONVM <lb/> trium Borealium, á Belgis in
+                        Chinam <lb/> et Indiam frustrá <lb/> tentatarum <lb/></titlePart>
+                     <titlePart type="sub"><add place="below">Annis supra sesqvi millesimum nonagesimo qvarto qvinto et sexto:
+                        <lb/> Auctore Daniele Schemerengio Flissingano, edita Flissingæ An. <date when="1631">1631</date>
+                     </add></titlePart>
+                  </docTitle>
+                  </titlePage>
+                  <msItem n="1">
+                     <locus from="1r" to="22r">1r-22r</locus>
+                     <author key="DanSch001">Daniel Flissingenus Schemerengius</author>
+                     <title type="supplied">Descriptio Navigationum trium Borealium</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <note>In heksameter.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>22. 
-<dimensions type="leaf" scope="all">
-                              <height>328</height>
-                              <width>202</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>22. Fol. 22v is blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">328</height>
+                              <width unit="mm">202</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark?</origPlace>
+                     <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">199</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

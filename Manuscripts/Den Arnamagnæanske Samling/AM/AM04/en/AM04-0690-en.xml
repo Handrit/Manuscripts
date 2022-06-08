@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,28 +23,36 @@
                      <idno>1723</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Tale mod de norske biskopper</title>
-                  <origPlace>Denmark?</origPlace>
-                  <origDate notBefore="1700" notAfter="1725">s. XVIII 1/4</origDate>
-                  <note>Transcript of <ref>AM 114 a 4to</ref>.</note>
-               </head>
                <msContents>
-                  <textLang mainLang="is">Old Norse</textLang>
+                  <summary><title type="supplied">Varnaðarrœða</title></summary>
+                  <msItem n="1" class="deil">
+                     <locus from="1r" to="52v">1r-52v</locus>
+                     <title type="supplied">Varnaðarrœða</title>
+                     <textLang mainLang="is"/>
+                     <filiation>Copy of <ref type="ms" target="#AM04-0114-a-en">AM 114 a 4to</ref>.</filiation>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
+                        <support><material>Paper</material>.</support>
+                        <extent>52. <dimensions type="leaf" scope="all">
+                           <height unit="mm">208</height>
+                           <width unit="mm">167</width>
+                        </dimensions>. </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="ArnMag001" scope="sole" script="unknown">
-                        <p>
-Written by Árni Magnússon.</p>
+                        <p> Written by Árni Magnússon.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark or Iceland</origPlace>,
+                     <origDate notBefore="1700" notAfter="1725">s. XVIII<hi rend="sup"
+                        >1/4</hi></origDate>.</origin>
+               </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>

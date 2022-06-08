@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,12 +22,10 @@
                             <idno>2082</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="da">Fragmenter</title>; <origPlace>Danmark,
-                            København</origPlace>, <origDate notBefore="1700" notAfter="1799">s.
-                            XVIII</origDate>.</head>
                     <msContents>
-                        <msItem><title type="supplied" xml:lang="da">Fragmenter</title>
+                        <summary><title type="supplied" xml:lang="da">Fragmenter</title></summary>
+                        <msItem n="1">
+                            <title type="supplied" xml:lang="da">Fragmenter</title>
                             <textLang mainLang="is" otherLangs="la">Islandsk</textLang>
                         </msItem>
                     </msContents>
@@ -42,26 +40,36 @@
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Danmark, København</origPlace>, <origDate
+                                notBefore="1700" notAfter="1799">s. XVIII</origDate>.</origin>
+                        <acquisition>Erholdt fra <name type="org" key="KglNordOld">Det kongelige
+                                nordiske Oldskriftselskab</name> i <date when="1883">1883</date>.</acquisition>
+                    </history>
                     <additional>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                                 <biblScope unit="volume">II</biblScope>
-                                <biblScope unit="pages">276</biblScope>
+                                <biblScope unit="page">276</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 950 I 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="1">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 950 I 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="1" class="konth">
                                 <locus from="1r" to="6r">1r-6r</locus>
-                                <title type="uniform">Helga þáttur og Úlfs</title>
+                                <title type="uniform">Helga þáttr ok Úlfs</title>
+                                <rubric>Fra Helga og Vlfi</rubric>
                             </msItem>
-                            <msItem n="2">
+                            <msItem n="2" class="sagnps">
                                 <locus from="6v" to="22v">6v-22v</locus>
                                 <title type="uniform">Játvarðs saga helga</title>
+                                <rubric>Saga ens heilaga Eduarðar</rubric>
                                 <textLang mainLang="is">Islandsk</textLang>
                             </msItem>
                         </msContents>
@@ -74,8 +82,8 @@
                                         </p>
                                     </support>
                                     <extent>22. <dimensions type="leaf" scope="all">
-                                            <height>225</height>
-                                            <width>174</width>
+                                            <height unit="mm">225</height>
+                                            <width unit="mm">174</width>
                                         </dimensions>.</extent>
                                     <foliation>
                                         <p>Pagineret 35-78.</p>
@@ -88,19 +96,22 @@
                                 </handNote>
                             </handDesc>
                             <accMat>
-                                <p>I fragmentet bl. 6v-22 er indlagt nogle påskrevne blade og sedler
-                                    af arkivar <name type="person" key="">Jón Sigurðsson</name> med
-                                    uddrag af de tilsvarende latinske kildeskrifter.</p>
+                                <p>I fragmentet bl. 6v-22v er der indlagt nogle blade og sedler,
+                                    skrevet af <name type="person" key="JonSig004">Jón
+                                        Sigurðsson</name>, og som indeholder uddrag af de
+                                    tilsvarende latinske kildeskrifter.</p>
                             </accMat>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 950 II 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="2">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 950 II 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="uniform">Grænlendinga þáttur</title>
+                            <msItem n="3" class="islt">
+                                <title type="uniform">Grænlendinga þáttr</title>
                                 <textLang mainLang="is">Islandsk</textLang>
                             </msItem>
                         </msContents>
@@ -112,28 +123,32 @@
                                             <material>Papir.</material>
                                         </p>
                                     </support>
-                                    <extent>16 (inkl. fortsatsblad). <dimensions type="leaf" scope="all">
-                                            <height>215</height>
-                                            <width>170</width>
+                                    <extent>16 (inkl. fortsatsblad). <dimensions type="leaf"
+                                            scope="all">
+                                            <height unit="mm">215</height>
+                                            <width unit="mm">170</width>
                                         </dimensions>.</extent>
                                 </supportDesc>
                             </objectDesc>
                             <handDesc hands="1">
-                                <handNote scribe="GudMag01" scope="sole" script="unknown">
+                                <handNote scribe="GudMag001" scope="sole" script="unknown">
                                     <p>Formodentlig skrevet af Guðmundur Magnússon.</p>
                                 </handNote>
                             </handDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 950 III 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="3">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 950 III 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="4" class="edd">
                                 <title type="uniform">Rígsþula</title>
                                 <textLang mainLang="is">Islandsk</textLang>
-                                <filiation>Afskrift efter <ref>AM 754 4to</ref>.</filiation>
+                                <filiation>Afskrift efter <ref type="ms" target="#AM04-0754-is">AM
+                                        754 4to</ref>.</filiation>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -145,32 +160,28 @@
                                         </p>
                                     </support>
                                     <extent>12. <dimensions type="leaf" scope="all">
-                                            <height>215</height>
-                                            <width>170</width>
+                                            <height unit="mm">215</height>
+                                            <width unit="mm">170</width>
                                         </dimensions>
                                     </extent>
                                 </supportDesc>
                             </objectDesc>
-                            <handDesc hands="1">
-                                <handNote scribe="Iss001" scope="sole" script="unknown">
-                                    <p>Skrevet af Issfold.</p>
-                                </handNote>
-                            </handDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 950 IV 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="4">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 950 IV 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="uniform">
-                                    <q xml:lang="is">Hafurs grid</q>
-                                </title>
-                                <textLang mainLang="is">Islandsk</textLang>
-                                <textLang mainLang="la">Latin</textLang>
-                                <note>Latinsk oversættelse efter Resens fortale til Lexicon Isl.
-                                    Gudmundi Andreæ.</note>
+                            <msItem n="5" class="kvad">
+                                <title type="uniform">Hafursgrið</title>
+                                <rubric>Hafurs grid</rubric>
+                                <textLang mainLang="is" otherLangs="la"/>
+                                <note>Med latinsk oversættelse.</note>
+                                <filiation>Afskrift af Resens fortale til <title type="uniform"
+                                        >Lexicon Islandicum Gudmundi Andreæ</title>.</filiation>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -182,21 +193,23 @@
                                         </p>
                                     </support>
                                     <extent>3. <dimensions type="leaf" scope="all">
-                                            <height>215</height>
-                                            <width>170</width>
+                                            <height unit="mm">215</height>
+                                            <width unit="mm">170</width>
                                         </dimensions>.</extent>
                                 </supportDesc>
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 950 V 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="5">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 950 V 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
                                 <title type="supplied">Flateyarbók, Col. 5</title>
-                                <rubric>Sva ħegir i Hamborgar yħtoria - oc <lb/>
+                                <rubric>Sva &#x017F;egir i Hamborgar y&#x017F;toria - oc <lb/>
                                     Eirekr Iarl Hakonarħon</rubric>
                                 <textLang mainLang="is">Islandsk</textLang>
                             </msItem>
@@ -210,8 +223,8 @@
                                         </p>
                                     </support>
                                     <extent>3. <dimensions type="leaf" scope="all">
-                                            <height>215</height>
-                                            <width>170</width>
+                                            <height unit="mm">215</height>
+                                            <width unit="mm">170</width>
                                         </dimensions>.</extent>
                                 </supportDesc>
                             </objectDesc>
@@ -225,7 +238,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        
+
         <revisionDesc>
             <change when="2018-10-03" who="KatKap001">Opdateret "þáttur" og "og".</change>
         </revisionDesc>

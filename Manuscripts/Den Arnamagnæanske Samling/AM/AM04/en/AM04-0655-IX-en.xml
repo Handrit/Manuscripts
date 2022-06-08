@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,41 +23,127 @@
                             <idno>1646</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Legends of Saints</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1150" notAfter="1200">s. XII 2/2 (ONP)</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1">
+                        <summary><title type="supplied">Legends of Saints</title></summary>
+                        <msItem n="1" class="hels">
                             <locus from="1r" to="1v">1r-1v</locus>
                             <title xml:lang="is">Plácidús saga</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
+                            <incipit defective="true">at ec em</incipit>
+                            <explicit defective="true">A<supplied reason="unknown">t</supplied> þu
+                                ſynir mer</explicit>
+                            <bibl>Tucker, <ref type="primary" target="EA-B31">Plácidus saga</ref>
+                            </bibl>
+                            <bibl>Unger, <ref type="primary" target="HMS1877">Heilagra manna
+                                    sögur</ref>
+                                <biblScope unit="page">207-9</biblScope>
+                            </bibl>
                         </msItem>
-                        <msItem n="2">
+                        <msItem n="2" class="hels">
                             <locus from="2r" to="2v">2r-2v</locus>
                             <title xml:lang="is">Blasíus saga</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
+                            <incipit defective="true">Ða gec ſiallfr drotten</incipit>
+                            <explicit defective="true">alſkynſ Jartæinir</explicit>
+                            <bibl>Unger, <ref type="primary" target="HMS1877">Heilagra manna
+                                    sögur</ref>
+                                <biblScope unit="page">269-271</biblScope>
+                            </bibl>
                         </msItem>
-                        <msItem n="3">
+                        <msItem n="3" class="hels post">
                             <locus from="3r" to="3v">3r-3v</locus>
-                            <title xml:lang="is">Matheus saga postola</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <title xml:lang="is">Matheus saga</title>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
+                            <incipit defective="true">en hæyrða kænning</incipit>
+                            <explicit defective="true">u<ex>m</ex> langa <lb/> faſtu</explicit>
+                            <bibl>Ólafur Halldórsson, <ref target="ÓlaHal1994a">Mattheus saga
+                                    postula</ref><biblScope unit="page"
+                                    >4–83</biblScope><note>Var.app.</note></bibl>
+                            <bibl>Unger, <ref type="primary" target="Postola1874">Postola
+                                    sögur</ref>
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
-                                <extent>3. </extent>
+                                <extent>3. <dimensions type="leaf" scope="all" unit="mm">
+                                        <height unit="mm">234</height>
+                                        <width unit="mm">171</width>
+                                    </dimensions>.</extent>
+                                <condition>Fol. 1 is damaged at the bottom; all three leaves are,
+                                    however, damaged due to small holes in the
+                                    parchment.</condition>
                             </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1">Red and green initials, especially on fol.
+                                    1.</layout>
+                            </layoutDesc>
                         </objectDesc>
+                        <handDesc>
+                            <handNote scope="sole" script="carolmin">Written in Anglo-Saxon letter forms (<term
+                                    type="script">Carolingian Minuscule</term>).</handNote>
+                        </handDesc>
+                        <accMat>An AM-slip contains a copy of a part of letter from <q xml:lang="is">
+                                <name type="person" key="ThoJon007">Þordur Jonsson</name>, <date
+                                    when="1964">1694</date>
+                            </q>: <q xml:lang="is">Blad ur Blasij ſgu fra S<hi rend="sup">r</hi>
+                                <name type="person" key="HanBjo001">Han<ex>n</ex>eſe</name> i <name
+                                    type="place" key="SauHva01">Saurbæ</name> ſende eg ydur
+                                    eirnen<ex>n</ex> med ädurſkrifudu, Þad þikeſt eg ſkynia ad þetta
+                                blad ur Blaſij ſgu mune gamallt vera</q>.</accMat>
+
                     </physDesc>
+                    <history>
+                        <origin>Written in <origDate notBefore="1150" notAfter="1199">the second
+                                half of the twelfth century</origDate> (Kålund's dating: c. 1200 (<bibl>
+                                <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">60</biblScope>
+                            </bibl>)). The scribe was possibly Norwegian but located in
+                                <origPlace>Iceland</origPlace> when it was written (see <bibl><ref
+                                    type="secondary-1" target="ÓlaHal1967a">Ólafur Halldórsson
+                                    1967</ref><biblScope unit="page"
+                            >lxvi</biblScope></bibl>).</origin>
+                        <acquisition>
+                            <name type="person" key="ArnMag001">Árni Magnússon</name> got the
+                            manuscript from <name type="person" key="AudBen001">Auðunn
+                                Benediktsson</name> in the autumn of <date when="1706">1706</date>.
+                            Árni thought that all of the leaves contain <title type="uniform"
+                                >Blasius saga</title> as he wrote the following on the cover: <q>Ur
+                                Blaſius Sgu, feinged um hauſted <date when="1706">1706</date>. af
+                                    S<hi rend="sup">r</hi> Audunne Benedixſyne ä <name type="place"
+                                    key="BorBor02">Borg</name>.</q>
+                        </acquisition>
+
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Haraldur Hreinsson, <ref type="secondary" target="HarHre2021"
+                                    /><biblScope unit="page">282</biblScope></bibl>
+                            <bibl><ref target="JónSig2000a"/><!-- biblScope? --></bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">60</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary-1" target="ÓlaHal1967a"/><biblScope
+                                    unit="page">lxiv, lxvi</biblScope><!-- more? --></bibl>
+                            <bibl><ref type="secondary-1" target="ÓlaHal1994a"
+                                /><!-- biblScope? --></bibl>
+                            <bibl><ref target="Wolf2013"/><biblScope unit="page">62, 104, 250</biblScope></bibl>
+                            <bibl><ref target="ÞórGuð2000a"/><!-- biblScope?--></bibl>
+                            <!-- JonLou1129a, SteKar1979f -->
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2022-01-24" who="EvaWed001">Updated markup and content.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

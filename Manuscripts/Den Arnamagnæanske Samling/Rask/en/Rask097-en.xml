@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,34 +23,56 @@
                      <idno>2673</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">Selveruríma</title>
-                  <title n="2">Rökkurríma</title>
-                  <title n="3">Psálmar</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1800" notAfter="1832">s. XIX in</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Rímur and Passion Hymns</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <msItem n="1" class="rimur">
+                     <locus from="1r" to="7v">1r-7v</locus>
+                     <author key="FinMag001">Finnur Magnússon</author>
+                     <title type="supplied" xml:lang="is">Selveru ríma</title>
+                     <rubric>Selveru-Ríma</rubric>
+                     <note>Revised by the author.</note>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="9" to="14">9-14</locus>
+                     <author key="FinMag001">Finnur Magnússon</author>
+                     <title type="supplied" xml:lang="is">Rökkurríma</title>
+                     <rubric>Röckur-Ríma</rubric>
+                     <note>Revised by the author.</note>
+                  </msItem>
+                  <msItem n="3" class="passius">
+                     <locus from="15" to="20r">15-20r</locus>
+                     <author key="HalPet001">Hallgrímur Pétursson</author>
+                     <title type="supplied" xml:lang="is">Passíusálmar Hallgríms Péturssonar</title>
+                     <note>The eight and fifteenth Passion Hymns.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>20. 
-<dimensions type="leaf" scope="all">
-                              <height>179</height>
-                              <width>108</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>20. Fols 8 and 20v are blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">179</height>
+                              <width unit="mm">108</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland?</origPlace>
+                     <origDate notBefore="1800" notAfter="1815">s. XIX in</origDate></origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">556</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-02" who="EvaWed001">Updated markup.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

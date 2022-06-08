@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?oxygen RNGSchema="http://www.handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <?xml-stylesheet type="text/css" href="../meta/msDesc.css" title="msDesc" alternate="no"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -8,13 +8,13 @@
       </titleStmt>
       <publicationStmt>
         <authority>Den Arnamagnæanske Samling</authority>
-        <pubPlace>Copenhagen</pubPlace>
+        <pubPlace key="Copen01">Copenhagen</pubPlace>
       </publicationStmt>
       <sourceDesc>
         <msDesc xml:id="Acc-0004-b-en" xml:lang="en">
           <msIdentifier>
-            <country>Denmark</country>
-            <settlement>Copenhagen</settlement>
+            <country key="DK">Denmark</country>
+            <settlement key="Copen01">Copenhagen</settlement>
             <institution key="AMS"/>
             <repository>Den Arnamagnæanske Samling</repository>
             <collection key="Acc"/>
@@ -30,7 +30,7 @@
               <title type="uniform">Føroya kvæði - Faroese Ballads</title> <!-- LENA: Delete "Føroya kvæði" ? [09/09/21] --> 
             </summary>
             <msItem n="1" class="regist">
-              <locus from="1r" to="1r">1r (titlepage)</locus>
+              <locus from="1r" to="1r">p. 1234 (f. 1r) (titlepage)</locus>
               <title type="supplied">Table of Contents</title>
               <textLang mainLang="fo" otherLangs="da">Faroese and Danish</textLang>
               <rubric>Indhold</rubric>
@@ -38,8 +38,7 @@
             </msItem>
 
             <msItem n="2" class="kappkv">
-              <locus from="1v" to="26">1v-14r (pp. 1-26)</locus> <!-- LENA: All locus tags in this file need to be updated to the correct format = "pp. 1234-1234 (ff. 1234-1234)" [15/09/21] -->
-              <!-- TODO: are these pp.? Then prefix prose numbers with p /pp., numbers in attributes have to be ff., i.e. need to be converted -->
+              <locus from="1v" to="14r">pp. 1-26 (ff. 1v-14r)</locus>
               <title type="uniform">Gormunds kvæði</title>
               <title type="short">CCF 50</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -47,11 +46,12 @@
               <incipit>Djeve ljou uv luie aa</incipit>
               <explicit>Qvóje heave e um tea alt</explicit>
               <bibl>CCF 50Bb. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                <biblScope unit="volume">II</biblScope><biblScope unit="pages">199-217</biblScope></bibl>
+                <biblScope unit="volume">II</biblScope><biblScope unit="pages"
+                >199-217</biblScope></bibl>
             </msItem>
 
             <msItem n="3" class="kappkv">
-              <locus from="14v" to="22v">14v-22v (pp. 27-43)</locus>
+              <locus from="14v" to="22v">pp. 27-43 (ff. 14v-22v)</locus>
               <title type="uniform">Torsteins kvæði</title>
               <title type="short">CCF 99</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -59,11 +59,12 @@
               <incipit>Vilja tid luia aa uv Ljouva djeva</incipit>
               <explicit>hin ónda Ingegjer</explicit>
               <bibl>CCF 99Cb. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                <biblScope unit="volume">IV</biblScope><biblScope unit="pages">258-272</biblScope></bibl>
+                <biblScope unit="volume">IV</biblScope><biblScope unit="pages"
+                >258-272</biblScope></bibl>
             </msItem>
 
             <msItem n="4" class="kappkv">
-              <locus from="22v" to="28r">22v-28r (pp. 43-56)</locus>
+              <locus from="22v" to="28r">pp. 43-56 (ff. 22v-28r)</locus>
               <title type="uniform">Ívar á Bretlandi</title>
               <title type="short">CCF 69</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -71,11 +72,12 @@
               <incipit>Nu gjeve e Ljou uv luie tearaa</incipit>
               <explicit>Adlar Aavur til Enda</explicit>
               <bibl>CCF 69Bb. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                <biblScope unit="volume">III</biblScope><biblScope unit="pages">116-124</biblScope></bibl>
+                <biblScope unit="volume">III</biblScope><biblScope unit="pages"
+                >116-124</biblScope></bibl>
             </msItem>
 
             <msItem n="5" class="kappkv">
-              <locus from="28r" to="30v">28r-30v (pp. 56-59)</locus>
+              <locus from="28r" to="30v">pp. 56-59 (ff. 28r-30v)</locus>
               <title type="uniform">Risin í Holmgørðum</title>
               <title type="uniform">Dysjadólgur</title>
               <title type="short">CCF 10</title>
@@ -85,11 +87,12 @@
               <explicit>Me listur ikkja longur eat ruima</explicit>
               <finalRubric/>
               <bibl>CCF 10Db. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                <biblScope unit="volume">I</biblScope><biblScope unit="pages">320-323</biblScope></bibl>
+                <biblScope unit="volume">I</biblScope><biblScope unit="pages"
+                >320-323</biblScope></bibl>
             </msItem>
 
             <msItem n="6" class="kappkv">
-              <locus from="30v" to="33r">30v-33r (pp. 59-64)</locus>
+              <locus from="30v" to="33r">pp. 59-64 (ff. 30v-33r)</locus>
               <title type="uniform">Tróndur Jógvansson</title>
               <title type="short">CCF 100</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -97,11 +100,12 @@
               <incipit>Tea vear han Haakun Jadl</incipit>
               <explicit>Vear sear kongur loingje</explicit>
               <bibl>CCF 100Cb. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                <biblScope unit="volume">IV</biblScope><biblScope unit="pages">302-305</biblScope></bibl>
+                <biblScope unit="volume">IV</biblScope><biblScope unit="pages"
+                >302-305</biblScope></bibl>
             </msItem>
 
             <msItem n="7" class="kappkv">
-              <locus from="33r" to="40r">33r-40r (pp. 64-78)</locus>
+              <locus from="33r" to="40r">pp. 64-78 (ff. 33r-40r)</locus>
               <title type="uniform">Valin svein</title>
               <title type="short">CCF 102</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -109,11 +113,12 @@
               <incipit>Luie veal til uv ljouve aa</incipit>
               <explicit>Ivur borgargórun taa</explicit>
               <bibl>CCF 102Bb. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                <biblScope unit="volume">IV</biblScope><biblScope unit="pages">323-333</biblScope></bibl>
+                <biblScope unit="volume">IV</biblScope><biblScope unit="pages"
+                >323-333</biblScope></bibl>
             </msItem>
 
             <msItem n="8" class="kappkv">
-              <locus from="40r" to="43r">40r-43r (pp. 84-87)</locus>
+              <locus from="40r" to="43r">pp. 84-87 (ff. 40r-43r)</locus>
               <title type="uniform">Gongurólvs kvæði</title>
               <title type="short">CCF 29</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -121,11 +126,12 @@
               <incipit>Aina vait e Ruimena</incipit>
               <explicit>Taaui Soulun vear ui Heav</explicit>
               <bibl>CCF 29Db. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                <biblScope unit="volume">I</biblScope><biblScope unit="pages">602-606</biblScope></bibl>
+                <biblScope unit="volume">I</biblScope><biblScope unit="pages"
+                >602-606</biblScope></bibl>
             </msItem>
 
             <msItem n="9" class="kappkv">
-              <locus from="43r" to="44v">43r-46v (pp. 84-87)</locus>
+              <locus from="43r" to="44v">pp. 84-87 (ff. 43r-46v)</locus> <!-- LENA: folio numbers don't correspond. Is it 44v or 46v? (I'm guessing it should be 44v since that's where the next item starts?) [29/10/21] -->
               <title type="uniform">Hermundur Grimmarsson</title>
               <title type="short">CCF 65</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -133,11 +139,12 @@
               <incipit>Aina vait e Ruimena</incipit>
               <explicit>Hearfraa haim til Tuin</explicit>
               <bibl>CCF 65Bb. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                <biblScope unit="volume">III</biblScope><biblScope unit="pages">51-53</biblScope></bibl>
+                <biblScope unit="volume">III</biblScope><biblScope unit="pages"
+                >51-53</biblScope></bibl>
             </msItem>
 
             <msItem n="10" class="kappkv">
-              <locus from="44v" to="48r">44v-48r (pp. 87-94)</locus>
+              <locus from="44v" to="48r">pp. 87-94 (ff. 44v-48r)</locus>
               <title type="uniform">Raðals kvæði</title>
               <title type="short">CCF 82</title>
               <textLang mainLang="fo">Faroese</textLang>
@@ -145,14 +152,15 @@
               <incipit>Rea-al Kongur aa Miglageare</incipit>
               <explicit>Tea sómde veal tui Draingje</explicit>
               <bibl>CCF 82Bb. <ref type="secondary-1" target="Foroya">Føroya kvæði</ref>
-                <biblScope unit="volume">III</biblScope><biblScope unit="pages">262-268</biblScope></bibl>
+                <biblScope unit="volume">III</biblScope><biblScope unit="pages"
+                >262-268</biblScope></bibl>
             </msItem>
           </msContents>
 
           <physDesc>
             <objectDesc form="codex">
               <supportDesc material="chart">
-                <support>Paper</support>
+                <support>Paper.</support>
                 <extent>48. <dimensions type="leaf" scope="all">
                     <height unit="mm" quantity="360">360</height>
                     <width unit="mm" quantity="215">215</width>
@@ -175,7 +183,8 @@
 
                 <condition>
                   <p>The paper is browned and crumbling at the edges. Some leaves have fallen apart
-                    at the spine, e.g. fols. <locus from="1r" to="1v">1</locus> and <locus from="48r" to="48v">48</locus> which had originally been one bifolium.</p>
+                    at the spine, e.g. ff. <locus from="1r" to="1v">1</locus> and <locus
+                      from="48r" to="48v">48</locus> which had originally been one bifolium.</p>
                 </condition>
               </supportDesc>
 
@@ -194,7 +203,7 @@
                   Michelsen</name>.</p></handNote>
               <handNote scribe="JenDav001" scope="minor" script="unknown">
                 <p>The table of contents was written by <name type="person" key="JenDav001">Jens
-                    Davidsen</name></p></handNote>
+                    Davidsen</name>.</p></handNote>
             </handDesc>
 
             <additions>
@@ -218,20 +227,25 @@
           <history>
 
             <origin notBefore="1814" notAfter="1878" cert="high">
-              <p> The manuscript was most likely written by the local schoolteacher <name type="person" key="ZacMic001">Zacharias Michelsen</name> on the island of
-                  <origPlace key="Fugloy">Fugloy</origPlace> in the middle of the <origDate notBefore="1825" notAfter="1874">nineteenth century</origDate>.</p>
+              <p> The manuscript was most likely written by the local schoolteacher <name
+                  type="person" key="ZacMic001">Zacharias Michelsen</name> on the island of
+                  <origPlace key="Fugloy">Fugloy</origPlace> in the middle of the <origDate
+                  notBefore="1825" notAfter="1874">nineteenth century</origDate>.</p>
               <!-- LENA: Changed name from 'Zacharis' to 'Zacharias' -->
             </origin>
             <provenance>
               <p> Belonged to <name type="person" ref="VenHam001">V. U. Hammershaimb</name> likely
-                after <date notBefore="1855">1855</date>.</p><p>Came into the collection in <date when="1909">1909</date> with <name type="person" ref="VenHam001">Hammershaimb's</name> materials.</p></provenance>
+                after <date notBefore="1855">1855</date>.</p><p>Came into the collection in <date
+                  when="1909">1909</date> with <name type="person" ref="VenHam001"
+                  >Hammershaimb's</name> materials.</p></provenance>
           </history>
 
           <additional>
             <adminInfo>
               <recordHist>
                 <source>
-                  <p>Catalogued <date when="2019-10-02">2 October 2019</date> by <name type="person" key="SeaVri001">SDV</name>.</p>
+                  <p>Catalogued <date when="2019-10-02">2 October 2019</date> by <name type="person"
+                      key="SeaVri001">SDV</name>.</p>
                 </source>
               </recordHist>
             </adminInfo>
@@ -246,7 +260,8 @@
 
             <listBibl>
               <bibl><ref type="secondary-1" target="Foroya7">The Manuscripts of Faroese Ballads</ref>
-                <biblScope unit="volume">VII</biblScope><biblScope unit="pages">61-62</biblScope></bibl>
+                <biblScope unit="volume">VII</biblScope><biblScope unit="pages"
+                >61-62</biblScope></bibl>
             </listBibl>
           </additional>
         </msDesc>

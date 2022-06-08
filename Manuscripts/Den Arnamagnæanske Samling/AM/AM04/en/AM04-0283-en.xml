@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -20,31 +20,49 @@
                   <collection key="AM"/>
                   <idno>AM 283 4to</idno>
                </msIdentifier>
-               <head>
-                  <title>Hrólfs saga kraka</title>; 
-        <origPlace>Iceland?</origPlace> 
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>.</head>
-               <msContents>
-                  <msItem>
+                   <msContents>
+               	<summary><title type="uniform">Hrólfs saga kraka</title></summary>
+                  <msItem n="1" class="fas">
+                  	<title type="uniform">Hrólfs saga kraka</title>
                      <textLang mainLang="is">Icelandic</textLang>
+                  	<note>For <name type="person" key="ArnMag001">Arne Magnusson</name>;
+                  		collated with <ref type="ms" target="AM02-009-en">AM. 9
+                  			fol.</ref></note>
+                  	<bibl>Rafn, <ref type="primary-3" target="FASNRafn">Fornaldar Sögur
+                  		Nordrlanda</ref>
+                  		<biblScope unit="volume">I</biblScope>
+                  	</bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Paper.</p>
+                           <p><material>Paper</material>.</p>
                         </support>
                         <extent>40. <dimensions type="leaf" scope="all">
-                              <height>208</height>
-                              <width>170</width>
+                              <height unit="mm">208</height>
+                              <width unit="mm">170</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+            	<history><origin><origPlace>Iceland?</origPlace>,
+            		<origDate notBefore="1600" notAfter="1699">s. XVII</origDate>.</origin></history>
+            	<additional>
+            		<listBibl>
+            			<bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+            				<biblScope unit="volume">I</biblScope>
+            				<biblScope unit="page">536</biblScope>
+            			</bibl>
+            		</listBibl>
+            	</additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+   	<revisionDesc>
+   		<change when="2021-12-09" who="EvaWed001">Updated markup.</change>
+   	</revisionDesc>
    </teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0283-0001r-FFl" n="0">

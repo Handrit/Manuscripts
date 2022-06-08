@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,34 +23,49 @@
                      <idno>2324</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
                <msContents>
-                  <summary><title>Bréf Alexandri Magni</title>
+                  <summary><title type="supplied">Bréf Alexandri Magni</title>
                   </summary>
-                  <textLang mainLang="is">Icelandic</textLang>
+                  <msItem n="1" class="sendbr">
+                     <title type="supplied">Bréf Alexandri Magni</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Brief Alexandri Magni <lb/> er han<ex>n</ex> ſkrifar til
+                        Meiſt<ex>ar</ex>a <lb/> Synu<ex>m</ex> Ariſtotele vm<ex>m</ex>
+                        vnd<ex>ur</ex>
+                        <ex>og</ex> fadæmi India-landz</rubric>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
                         <extent>8. <dimensions type="leaf" scope="all">
-                              <height>170</height>
-                              <width>104</width>
+                              <height unit="mm">170</height>
+                              <width unit="mm">104</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
                <history>
-                  <origin notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat"><origPlace>Iceland</origPlace>, <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>.</origin>
-               </history>
+                  <origin notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat"
+                        ><origPlace>Iceland</origPlace>, <origDate notBefore="1600" notAfter="1699"
+                        >s. XVII</origDate>.</origin>
+                    </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">401</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2021-09-02" who="EvaWed001">Updated mark-up.</change></revisionDesc>
+      <revisionDesc>
+         <change when="2021-09-02" who="EvaWed001">Updated mark-up.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

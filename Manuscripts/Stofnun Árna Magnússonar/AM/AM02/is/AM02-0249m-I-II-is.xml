@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -49,7 +49,7 @@
                         <accMat>
                             <p>
                                 <list>
-                                    <item>Fastur <locus from="accMat01r" to="accMat01v">seðill</locus> (<dimensions type="slip" unit="mm">
+                                    <item>Fastur <locus from="accMat01r" facs="#AM02-0249m-I-II-accMat01r" to="accMat01v">seðill</locus> (<dimensions type="slip" unit="mm">
                                             <height>123</height>
                                             <width>108</width>
                                         </dimensions>) með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name>: <quote type="AMSlip" xml:lang="is">Þetta mun vera frá Eyri í
@@ -62,7 +62,7 @@
                     </physDesc>
                     <history>
                         <provenance>
-                            <p>Frá <name type="place">Eyri í Skutulsfirði</name> (sjá <locus from="accMat01r" to="accMat01r">seðil</locus>).</p>
+                            <p>Frá <name type="place">Eyri í Skutulsfirði</name> (sjá <locus from="accMat01r" facs="#AM02-0249m-I-II-accMat01r" to="accMat01r">seðil</locus>).</p>
                         </provenance>
                         <acquisition when="1992-10-29">
                             <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 29. október
@@ -107,14 +107,14 @@
                         </altIdentifier></msIdentifier>
                         <msContents xml:lang="is">
                             <textLang mainLang="la">Latína</textLang>
-                            <msItem n="1" defective="true" class="timt">
-                                <locus from="1r" to="5v">1r-5v</locus>
+                            <msItem n="1" defective="true" class="timat">
+                                <locus from="1r" facs="#AM02-0249m-I-II-0001r" to="5v">1r-5v</locus>
                                 <title type="supplied">Rímtal</title>
                                 <note>Brot úr latnesku rímtali er nær yfir mánuðina
                                     apríl-desember.</note>
                             </msItem>
-                            <msItem n="2" defective="true" class="timt">
-                                <locus from="5v" to="5v">5v</locus>
+                            <msItem n="2" defective="true" class="timat">
+                                <locus from="5v" facs="#AM02-0249m-I-II-0005v" to="5v">5v</locus>
                                 <title type="supplied">Talbyrðingur</title>
                             </msItem>
                         </msContents>
@@ -202,8 +202,8 @@
                         </altIdentifier></msIdentifier>
                         <msContents xml:lang="is">
                             <textLang mainLang="la">Latína.</textLang>
-                            <msItem defective="true" class="salm">
-                                <locus from="1r" to="2v">1r-2v</locus>
+                            <msItem n="1" defective="true" class="salm">
+                                <locus from="1r" facs="#AM02-0249m-I-II-0001r" to="2v">1r-2v</locus>
                                 <title type="supplied">Latneskur messusöngur</title>
                                 <note>Brot úr latneskum messusöng með nótum.</note>
                             </msItem>
@@ -279,7 +279,254 @@
             <change when="2008-10" who="#EriHas01">Migrated from MASTER to P5</change>
         </revisionDesc>
     </teiHeader>
-    <text>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+		<surface xml:id="AM02-0249m-I-II-0000r-FB" n="0">
+			<desc>0000r-FB</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./0/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./0/THUMBNAIL" width="200px" height="261px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./0/SECONDARY_DISPLAY" width="4632px" height="6051px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./0/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0000v-FB" n="1">
+			<desc>0000v-FB</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./1/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./1/THUMBNAIL" width="200px" height="264px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./1/SECONDARY_DISPLAY" width="4520px" height="5971px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./1/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0001r-FFl" n="2">
+			<desc>0001r-FFl</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./2/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./2/THUMBNAIL" width="200px" height="266px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./2/SECONDARY_DISPLAY" width="3888px" height="5184px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./2/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0001v-FFl" n="3">
+			<desc>0001v-FFl</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./3/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./3/THUMBNAIL" width="200px" height="266px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./3/SECONDARY_DISPLAY" width="4304px" height="5723px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./3/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-accMat01r" n="4">
+			<desc>accMat01r</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./4/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./4/THUMBNAIL" width="200px" height="225px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./4/SECONDARY_DISPLAY" width="2616px" height="2937px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./4/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-accMat01v" n="5">
+			<desc>accMat01v</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./5/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./5/THUMBNAIL" width="200px" height="232px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./5/SECONDARY_DISPLAY" width="2512px" height="2913px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./5/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0001r" n="6">
+			<desc>0001r</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./6/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./6/THUMBNAIL" width="200px" height="260px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./6/SECONDARY_DISPLAY" width="3856px" height="5011px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./6/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0001v" n="7">
+			<desc>0001v</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./7/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./7/THUMBNAIL" width="200px" height="265px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./7/SECONDARY_DISPLAY" width="3704px" height="4907px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./7/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0002r" n="8">
+			<desc>0002r</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./8/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./8/THUMBNAIL" width="200px" height="245px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./8/SECONDARY_DISPLAY" width="3728px" height="4570px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./8/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0002v" n="9">
+			<desc>0002v</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./9/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./9/THUMBNAIL" width="200px" height="246px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./9/SECONDARY_DISPLAY" width="3656px" height="4506px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./9/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0003r" n="10">
+			<desc>0003r</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./10/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./10/THUMBNAIL" width="200px" height="252px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./10/SECONDARY_DISPLAY" width="3712px" height="4674px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./10/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0003v" n="11">
+			<desc>0003v</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./11/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./11/THUMBNAIL" width="200px" height="248px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./11/SECONDARY_DISPLAY" width="3712px" height="4602px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./11/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0004r" n="12">
+			<desc>0004r</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./12/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./12/THUMBNAIL" width="200px" height="263px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./12/SECONDARY_DISPLAY" width="3792px" height="4995px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./12/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0004v" n="13">
+			<desc>0004v</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./13/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./13/THUMBNAIL" width="200px" height="261px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./13/SECONDARY_DISPLAY" width="3776px" height="4931px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./13/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0005r" n="14">
+			<desc>0005r</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./14/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./14/THUMBNAIL" width="200px" height="255px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./14/SECONDARY_DISPLAY" width="3720px" height="4739px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./14/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0005v" n="15">
+			<desc>0005v</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./15/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./15/THUMBNAIL" width="200px" height="266px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./15/SECONDARY_DISPLAY" width="3592px" height="4771px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./15/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-addMat01r" n="16">
+			<desc>addMat01r</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./16/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./16/THUMBNAIL" width="200px" height="259px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./16/SECONDARY_DISPLAY" width="4368px" height="5659px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./16/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-addMat01v" n="17">
+			<desc>addMat01v</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./17/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./17/THUMBNAIL" width="200px" height="265px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./17/SECONDARY_DISPLAY" width="4328px" height="5731px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./17/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-addMat02r" n="18">
+			<desc>addMat02r</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./18/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./18/THUMBNAIL" width="200px" height="264px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./18/SECONDARY_DISPLAY" width="4296px" height="5667px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./18/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-addMat02v" n="19">
+			<desc>addMat02v</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./19/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./19/THUMBNAIL" width="200px" height="260px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./19/SECONDARY_DISPLAY" width="4344px" height="5643px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./19/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0006r" n="20">
+			<desc>0006r</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./20/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./20/THUMBNAIL" width="200px" height="257px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./20/SECONDARY_DISPLAY" width="4296px" height="5523px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./20/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0006v" n="21">
+			<desc>0006v</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./21/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./21/THUMBNAIL" width="200px" height="267px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./21/SECONDARY_DISPLAY" width="4192px" height="5595px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./21/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0007r" n="22">
+			<desc>0007r</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./22/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./22/THUMBNAIL" width="200px" height="267px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./22/SECONDARY_DISPLAY" width="4136px" height="5523px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./22/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-0007v" n="23">
+			<desc>0007v</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./23/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./23/THUMBNAIL" width="200px" height="262px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./23/SECONDARY_DISPLAY" width="4208px" height="5507px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./23/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-9901r-RFl" n="24">
+			<desc>9901r-RFl</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./24/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./24/THUMBNAIL" width="200px" height="277px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./24/SECONDARY_DISPLAY" width="4112px" height="5707px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./24/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-9901v-RFl" n="25">
+			<desc>9901v-RFl</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./25/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./25/THUMBNAIL" width="200px" height="265px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./25/SECONDARY_DISPLAY" width="4320px" height="5723px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./25/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-9999r-RB" n="26">
+			<desc>9999r-RB</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./26/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./26/THUMBNAIL" width="200px" height="265px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./26/SECONDARY_DISPLAY" width="4568px" height="6059px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./26/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-9999v-RB" n="27">
+			<desc>9999v-RB</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./27/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./27/THUMBNAIL" width="200px" height="258px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./27/SECONDARY_DISPLAY" width="4552px" height="5875px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./27/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-Spine" n="28">
+			<desc>Spine</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./28/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./28/THUMBNAIL" width="169px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./28/SECONDARY_DISPLAY" width="2760px" height="4907px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./28/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-Fore-Edge" n="29">
+			<desc>Fore-Edge</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./29/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./29/THUMBNAIL" width="169px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./29/SECONDARY_DISPLAY" width="2760px" height="4907px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./29/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-Head-Edge" n="30">
+			<desc>Head-Edge</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./30/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./30/THUMBNAIL" width="169px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./30/SECONDARY_DISPLAY" width="2426px" height="4312px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./30/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-Tail-Edge" n="31">
+			<desc>Tail-Edge</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./31/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./31/THUMBNAIL" width="169px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./31/SECONDARY_DISPLAY" width="2426px" height="4312px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./31/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-addMat03r" n="32">
+			<desc>addMat03r</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./32/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./32/THUMBNAIL" width="200px" height="113px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./32/SECONDARY_DISPLAY" width="5184px" height="2916px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./32/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-addMat03v" n="33">
+			<desc>addMat03v</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./33/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./33/THUMBNAIL" width="200px" height="113px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./33/SECONDARY_DISPLAY" width="5184px" height="2916px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./33/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0249m-I-II-Scale" n="34">
+			<desc>Scale</desc>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./34/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./34/THUMBNAIL" width="200px" height="266px"/>
+			<graphic mimeType="jpg" url="AM%20249%20m%20I-II%20fol./34/SECONDARY_DISPLAY" width="3888px" height="5184px"/>
+			<graphic mimeType="pdf" url="AM%20249%20m%20I-II%20fol./34/WEB_DISPLAY"/>
+		</surface>
+	</facsimile>
+	<text>
         <body>
 
             <p/>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,49 +23,50 @@
                             <idno>1066</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Konunga sögur</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1300" notAfter="1325" cert="high" evidence="conjecture">s. XIV 1/4</origDate>
-                    </head>
                     <msContents>
-                        <msItem class="kon" defective="true">
-                            <locus n="1" from="1ra" to="2vb">1ra-2vb</locus>
-                            <title>Sverris saga</title>
-                            <textLang mainLang="is">Icelandic</textLang>
-                            <msItem n="1.1">
+                        <summary><title type="uniform">Noregs konunga sǫgur</title></summary>
+                        <textLang mainLang="non"/>
+                        <msItem n="1" class="kon" defective="true">
+                            <locus from="1ra" to="2vb">1ra-2vb</locus>
+                            <title type="uniform">Sverris saga</title>
+                            <msItem n="1.1" class="kon" defective="true">
                                 <locus from="1ra" to="1vb">1ra-1vb</locus>
                                 <incipit defective="true">g<expan>ri</expan>ð <expan>ok</expan> fe
                                         h<expan>an</expan>s aullu</incipit>
                                 <explicit defective="true">gott <expan>ok</expan> dul
                                     hæsta</explicit>
                                 <bibl>
-                           <ref type="primary-2" target="FMS8">Fornmanna sögur</ref>
-                                    VIII, pp. 262-77</bibl>
+                                    <ref type="primary-2" target="FMS8">Fornmanna sögur</ref>
+                                    <biblScope unit="volume">VIII</biblScope>
+                                    <biblScope unit="pages">262-77</biblScope>
+                                </bibl>
                             </msItem>
-                            <msItem>
+                            <msItem n="1.2" class="kon" defective="true">
                                 <locus n="1.2" from="2ra" to="2vb">2ra-2vb</locus>
                                 <incipit defective="true">bohbrndum for ekci fimt</incipit>
                                 <explicit defective="true">aptr v<expan>m</expan> kuelldit
                                         t<expan>il</expan> skipan<expan>n</expan>a.
                                         ORO<expan>st</expan>an</explicit>
-                                <bibl>
-                           <ref type="primary-2" target="FMS8">Fornmanna sögur</ref>
-                                    VIII, pp. 407-22</bibl>
                             </msItem>
                         </msItem>
-                        <msItem n="2">
+                        <msItem n="2" class="kon" defective="true">
                             <locus from="3ra" to="3vb">3ra-3vb</locus>
-                            <title>Hákonar saga Sverrissonar</title>
+                            <title type="uniform">Bǫglunga saga</title>
                             <incipit defective="true">v<expan>oro</expan> þa
                                     f<expan>ra</expan>mset<expan>t</expan>
-                     </incipit>
+                            </incipit>
                             <explicit defective="true">fell þ<expan>ar
                                 </expan>hv<expan>ar</expan>tuegmaji olafr <expan>ok</expan>
                                 <lb/> fair m<expan>en</expan>n<gap reason="lacuna"/>
-                     </explicit>
-                            <bibl>
-                        <ref target="FMS9">Fornmanna sögur</ref> IX, pp. 27-40</bibl>
+                            </explicit>
+                            <note>Corresponding to <bibl>
+                                    <ref target="FMS9">Fornmanna sögur</ref>
+                                    <biblScope unit="volume">IX</biblScope>
+                                    <biblScope unit="page">27-40</biblScope>
+                                </bibl></note>
+                            <bibl>Magerøy: <ref target="NT5">Soga om birkebeinar og baglar:
+                                    Bǫglunga sǫgur</ref><biblScope unit="page">64-77,
+                                    79-95</biblScope><note>4a</note></bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -75,63 +77,71 @@
                                         <material>Parchment</material>.</p>
                                 </support>
                                 <extent>3. <dimensions scope="all" type="leaf">
-                                        <height>330</height>
-                                        <width>238</width>
+                                        <height unit="mm">330</height>
+                                        <width unit="mm">238</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" writtenLines="39">
-                                    <p>Written in double columns with 39 lines per column, spaces
-                                        for chapter-headings are left empty. Majuscules occur in
-                                        varying colours.</p>
+                                    <p>Written in two columns with 39 lines per column, spaces for
+                                        chapter-headings are left empty. Majuscules occur in varying
+                                        colours.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote script="textualis" scope="sole">
-                                <p>Icelandic Gothic bookhand.</p>
+                                <p>Written in an <term type="script">Icelandic Gothic
+                                        bookhand</term>. According to Stefán Karlsson (<bibl><ref
+                                            type="secondary" target="EIMF7">Stefán Karlsson
+                                            1967</ref><biblScope unit="page">59</biblScope></bibl>)
+                                    this hand is similar to the second hand in <ref type="ms"
+                                        target="AM02-0047-en">AM 47 fol.</ref> (Eirspennill).</p>
                             </handNote>
                         </handDesc>
                         <additions>
-                            <p>On the top margin of f. 2r Árni Magnússon has written: <q xml:lang="is">Ur Sverris Sǫgu</q>. On the top margin
-                                of f. 3r he has (erroneously) written: <q xml:lang="is">Ur Hakonar
-                                    Sǫgu Gamla</q>.</p>
+                            <p>In the top margin of f. 2r, Árni Magnússon wrote: <q xml:lang="is">Ur
+                                    Sverris Sǫgu</q>. In the top margin of f. 3r he (erroneously)
+                                wrote: <q xml:lang="is">Ur Hakonar Sǫgu Gamla</q>.</p>
                         </additions>
                         <accMat>
-                            <p>An AM-slip presumably concerning ff. 2-3 reads: <q xml:lang="is">Þesse .2. blǫd hefi eg feinged af Jone Sal.
-                                    Eggertssyne, og voru þä utan um Jardabok Jens
-                                    Sǫfrenssonar, fogeta ä Islande</q>.</p>
+                            <p>An AM-slip presumably concerning ff. 2-3 reads: <q xml:lang="is"
+                                    >Þesse .2. blǫd hefi eg feinged af <name type="person"
+                                        key="JonEgg001">Jone Sal. Eggertsſyne</name>, og voru þä
+                                    utan um Jardabok <name type="person" key="JenSor001">Jens
+                                        S&#xE7D3;frenssonar</name>, fogeta ä Islande</q>.</p>
                         </accMat>
                     </physDesc>
                     <history>
                         <origin notBefore="1300" notAfter="1325" cert="high" evidence="conjecture">
-                            <p>The manuscript is written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
-                                    <ref type="secondary-1" target="KKKat">KKKat</ref>
-                                </bibl>) has dated it to <origDate>the fourteenth
-                                century</origDate>, whereas <name type="person" key="OleWid001">Ole
-                                    Widding</name> (<bibl>
-                           <ref type="secondary" target="HandskrWidding1960">Widding 1960</ref>, p.
-                                91</bibl>) and <name type="person" key="SteKar001">Stefán
-                                    Karlson</name> (<bibl>
-                           <ref type="secondary" target="EIMF7">Stefán Karlsson 1967</ref>, p. 59</bibl>) has dated it more
-                                precisely to <origDate notBefore="1300" notAfter="1325" cert="high" evidence="conjecture">the first quarter of the fourteenth
-                                    century</origDate>.</p>
+                            <p>The manuscript was written in <origPlace>Iceland</origPlace> in
+                                    <origDate notBefore="1300" notAfter="1325" cert="high"
+                                    evidence="conjecture">the first quarter of the fourteenth
+                                    century</origDate> (<bibl>
+                                    <ref type="secondary" target="HandskrWidding1960">Widding
+                                        1960</ref><biblScope unit="page">91</biblScope></bibl> and <bibl>
+                                    <ref type="secondary" target="EIMF7">Stefán Karlsson 1967</ref>,
+                                        <biblScope unit="page">59</biblScope></bibl>). Kålund's
+                                date: <date notBefore="1300" notAfter="1399">the fourteenth
+                                    century</date>.</p>
                         </origin>
                         <provenance>
-                            <p>
-                        <name type="person" key="SnoJon002">Snorri Jónsson</name> was the
-                                owner of f. 1. The Bailiff <name type="person" key="JenSor001">Jens
-                                    Sørensen (Seffrynsson)</name> used the bifolia f. 2-3 as binding
-                                for his court roll. After his provenance they belonged to <name type="person" key="JonEgg001">Jón Eggertsson</name>.</p>
+                            <p>Fol 1 belonged to <name type="person" key="SnoJon002">Snorri
+                                    Jónsson</name> and the bailiff <name type="person"
+                                    key="JenSor001">Jens Sørensen (Seffrynsson)</name> used ff. 2-3
+                                as binding for his land registers. Subsequently they belonged to
+                                    <name type="person" key="JonEgg001">Jón Eggertsson</name>.</p>
                         </provenance>
                         <acquisition>
                             <p>On f. 1r below the text <name type="person" key="ArnMag001">Árni
                                     Magnússon</name> has written: <q xml:lang="is">Fra Sr Snorra
                                     Jons syni 1721</q>. The AM-slip, possibly concerning f. 2-3,
-                                reads: <q xml:lang="is">Þesse .2. blohald hefi eg feinged af Jone
-                                    Sal. Eggertssyne, og voru þä utan um Jardabok Jens
-                                    Sohalfrenssonar, fogeta ä Islande</q>.</p>
+                                reads: <q xml:lang="is">Þeſſe .2. bl&#xE7D3;d hefi eg feinged af
+                                        <name type="person" key="JonEgg001">Jone Sal.
+                                        Eggertsſyne</name>, og voru þä utan um Jardabok <name
+                                        type="person" key="JenSor001">Jens
+                                        S&#xE7D3;frenssonar</name>, fogeta ä Islande</q>.</p>
                         </acquisition>
                     </history>
                     <additional>
@@ -143,56 +153,70 @@
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
-                                    <p>The manuscript was set on meeting guards and put in a
-                                        cardboard cover <date>02.03.1958-04.04.1959</date>.</p>
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
+                                    <p>The manuscript was put on meeting guards and put in a
+                                        cardboard cover <date from="1958-03-02" to="1959-04-04"
+                                            >02.03.1958-04.04.1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade 37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositives</title>
-                                        <idno>AM 325 VIII 4 a 4to</idno>
-                                        <date>May 1984 (or 1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <date>October 1956</date>
-                                        <idno>AM 325 VIII 4 a 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item n="1">Plate, <idno>plade 37</idno>.</item>
+                                    <item n="2">Diapositives from <date notBefore="1984-05"
+                                            notAfter="1985-05">May 1984 or 1985</date>.
+                                    </item>
+                                    <item n="3">Black and white prints from <date when="1956-10"
+                                            >October 1956</date>.</item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
                             <bibl>
-                                <ref type="secondary" target="FMS8">Fornmanna sögur VIII</ref>
-                                <note>described as fragment 9 and 13</note>
+                                <ref type="secondary" target="FMS8">Fornmanna sögur</ref>
+                                <biblScope unit="volume">VIII</biblScope>
+                                <biblScope unit="page">xxi, xxiv-xxvi</biblScope>
+                                <note>Fragment 9 and 13.</note>
                             </bibl>
                             <bibl>
-                                <ref type="secondary" target="FMS9">Fornmanna sögur IX, p.
-                                    VIII</ref>
-                                <note>described as J</note>
+                                <ref type="secondary" target="FMS9">Fornmanna sögur </ref>
+                                <biblScope unit="volume">IX</biblScope>
+                                <biblScope unit="page">viii</biblScope>
+                                <note>J.</note>
                             </bibl>
-                            <bibl>
-                                <ref target="HandskrWidding1960">Widding 1960</ref>
+                            <bibl><ref type="secondary" target="HelJen0764a">Jensen
+                                1979</ref><biblScope unit="page">63-71</biblScope></bibl>
+                            <bibl><ref target="BiblArn32">Louis-Jensen 1977</ref>
+                                <biblScope unit="page">25-26</biblScope>
                             </bibl>
-                            <bibl>
-                        <ref target="BiblArn32">Louis-Jensen 1977</ref>, pp. 25-26</bibl>
-                            <bibl>
-                        <ref target="EIMF3">Holm-Olsen 1961</ref>, p. 8</bibl>
-                            <bibl>
-                        <ref target="EIMF7">Stefán Karlsson</ref>, p. 59</bibl>
+                            <bibl><ref target="EIMF3">Holm-Olsen 1961</ref>
+                                <biblScope unit="page">8</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary-1" target="KKKat">Kålund Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">561</biblScope>
+                            </bibl>
+                            <bibl><ref target="NT5">Magerøy 1988</ref><biblScope
+                                unit="volume">I</biblScope>
+                                <biblScope unit="page">15, 19-20, 215-216</biblScope></bibl>
+                            <bibl><ref target="EIMF7">Stefán Karlsson 1967</ref>
+                                <biblScope unit="volume">VII</biblScope>
+                                <biblScope unit="page">59</biblScope>
+                            </bibl>
+                            <bibl><ref target="HandskrWidding1960">Widding 1960</ref>
+                                <biblScope unit="page">81-93</biblScope>
+                            </bibl>
                         </listBibl>
                     </additional>
-                </msDesc>
+                    </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-11-09" who="EvaWed001">Updated markup and amended language and
+                corrupted transcriptions.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

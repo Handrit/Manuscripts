@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,14 +22,9 @@
                      <idno>1889</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Grænlands annáll i tre eksemplarer</title>;
-                     <origPlace>Island</origPlace>, <origDate notBefore="1600" notAfter="1725">I: s.
-                     XVIII 1/4; II og III: s. XVII</origDate>.</head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
-                  </msItem>
+                 <msContents>
+                  <summary><title type="supplied">Grænlands annáll i tre eksemplarer</title></summary>
+                    <textLang mainLang="is">Islandsk</textLang>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -39,8 +34,8 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>66. <dimensions type="leaf" scope="all">
-                              <height>212</height>
-                              <width>167</width>
+                              <height unit="mm">212</height>
+                              <width unit="mm">167</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
@@ -49,7 +44,7 @@
                         der: <q>Þetta er mitt, komid fra <name type="person" key="BjaSig001">Biarna
                               Sigurdz ſyne</name> ä <name type="place" key="HeyInn01">Heyneſe</name>
                            <date when="1708">1708</date> i Majo</q>. Den anden indeholder kopi af en
-                        revers fra <name type="person" key="ArnMag001">Arne Magnusson</name> til
+                        låneseddel fra <name type="person" key="ArnMag001">Arne Magnusson</name> til
                            <name type="person" key="ThoTor001">Torfæus</name> af år <date when="1713">1713</date>, ifg. hvilken han af denne havde lånt et
                         papirhåndskrift, der omfattede biskopperne Jon Ögmundssons og Guðmundr
                         Arasons saga <q>Item <name type="person" key="BjoJon006">Biörn
@@ -68,27 +63,31 @@
                            Originali.</q></p>
                   </accMat>
                </physDesc>
+               <history><origin><origPlace>Island</origPlace>, <origDate notBefore="1600" notAfter="1725">I: s.
+                  XVIII<hi rend="sup">1/4</hi>; II og III: s. XVII</origDate>.</origin></history>
                <additional>
                   <listBibl>
                      <bibl>
                         <ref target="GHM">Grönlands historiske Mindesmærker</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">84, 348</biblScope>
-                        <biblScope unit="volume">III</biblScope>
-                        <biblScope unit="pages">234</biblScope>
+                        <biblScope unit="page">84, 348</biblScope>
                      </bibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">189</biblScope></bibl>
+                     <bibl><ref target="GHM">Grönlands historiske Mindesmærker</ref>
+                        <biblScope unit="volume">III</biblScope>
+                        <biblScope unit="page">234</biblScope>
+                     </bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="page">189</biblScope></bibl>
                      <bibl>Rafn: <ref target="AntA">Antiqvitates Americanæ</ref>
-                        <biblScope unit="pages">80</biblScope>
+                        <biblScope unit="page">80</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
-               <msPart>
+               <msPart n="1">
                   <msIdentifier><altIdentifier type="partial">
                      <idno>AM 769 I 4to</idno>
                   </altIdentifier></msIdentifier>
                   <msContents>
-                     <msItem>
+                     <msItem n="1">
                         <locus from="1r" to="30v">1r-30v</locus>
                         <title type="uniform">Grænlands annáll</title>
                         <textLang mainLang="is">Islandsk</textLang>
@@ -115,12 +114,12 @@
                      </origin>
                   </history>
                </msPart>
-               <msPart>
+               <msPart n="2">
                   <msIdentifier><altIdentifier type="partial">
                      <idno>AM 769 II 4to</idno>
                   </altIdentifier></msIdentifier>
                   <msContents>
-                     <msItem>
+                     <msItem n="2">
                         <locus from="31r" to="44r">31r-44r</locus>
                         <title type="uniform">Grænlands annáll</title>
                         <textLang mainLang="is">Islandsk</textLang>
@@ -148,12 +147,12 @@
                      </origin>
                   </history>
                </msPart>
-               <msPart>
+               <msPart n="3">
                   <msIdentifier><altIdentifier type="partial">
                      <idno>AM 769 III 4to</idno>
                   </altIdentifier></msIdentifier>
                   <msContents>
-                     <msItem>
+                     <msItem n="3">
                         <locus from="44r" to="66r">44r-66r</locus>
                         <title type="uniform">Grænlands annáll</title>
                         <textLang mainLang="is">Islandsk</textLang>

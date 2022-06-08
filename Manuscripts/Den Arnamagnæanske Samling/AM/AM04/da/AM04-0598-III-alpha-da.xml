@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,16 +22,12 @@
                             <idno>1512</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform">Rómverja saga</title>;
-                        <origPlace>Island</origPlace>,
-                        <origDate notBefore="1525" notAfter="1575">ca. 1550</origDate>
-                    </head>
-                    <msContents>
-                        <msItem>
+                     <msContents>
+                        <summary> <title type="uniform">Rómverja saga</title></summary>
+                        <msItem n="1" class="sagnps">
                             <locus from="1r" to="1v">1r-v</locus>
                             <title type="uniform">Rómverja saga</title>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                            <textLang mainLang="non">Norrønt/Islandsk</textLang>
                             <incipit defective="true">til b<ex>or</ex>garen<ex>n</ex>ar s<ex>va</ex>
                                     mælan<ex>n</ex>di</incipit>
                             <explicit defective="true">Mier u<ex>ar</ex>
@@ -41,7 +37,7 @@
                                 <ref type="primary" target="KGProver">Fire og Fyrretyve for en stor
                                     Deel forhen utrykte Prøver af oldnordisk Sprog og
                                     Litteratur</ref>
-                        <biblScope unit="pages">128-32</biblScope>
+                        <biblScope unit="page">128-32</biblScope>
                      </bibl>
                         </msItem>
                     </msContents>
@@ -49,15 +45,15 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Pergament.</p>
+                                    <p><material>Pergament</material>.</p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>102</height>
-                                        <width>167</width>
+                                        <height unit="mm">102</height>
+                                        <width unit="mm">167</width>
                                     </dimensions>
                                 </extent>
                                 <condition>
-                                    <p>De øverste 2/3 af bladet og en tynd strimmel af den yderste margen er bortskåret.</p>
+                                    <p>De øverste 2/3 af bladet og en tynd strimmel af den yderste margin er bortskåret.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -74,13 +70,15 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> har dateret det til <origDate>ca.
-                                    1500</origDate> (<bibl>
+                            <p>Skrevet i <origPlace>Island</origPlace>,
+                                <origDate notBefore="1540" notAfter="1560" resp="ONP">ca. 1550</origDate> <name type="person" key="SteKar001">Stefán
+                                    Karlsson</name> (pers. 1988). 
+                                Kålunds datering: <date>ca.
+                                    1500</date> (<bibl>
                                     <ref type="secondary-1" target="KKKat">Katalog</ref>
                            <biblScope unit="volume">I</biblScope>
-                                        <biblScope unit="pages">767</biblScope>
-                                </bibl>). Senere har <name type="person" key="SteKar001">Stefán
-                                    Karlsson</name> (pers. 1988) har dateret det til <origDate notBefore="1525" notAfter="1575" evidence="conjecture">ca. 1550</origDate>.</p>
+                                        <biblScope unit="page">767</biblScope>
+                                </bibl>).</p>
                         </origin>
                     </history>
                     <additional>
@@ -101,30 +99,19 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <bibl>
-                                    <title type="gmd">mikrofilm</title>
-                                    <idno>?</idno>
-                                    <date when="1991-06-27">27. juni 1991</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">diapositiv</title>
-                                    <idno>AM 598 III alfa 4to</idno> s.d. </bibl>
-                                <bibl>
-                                    <title type="gmd">s/h fotografier</title>
-                                    <idno>AM 598 III alfa 4to</idno>
-                                    <date when="1961-08">August 1961</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">s/h fotografier</title>
-                                    <idno>AM 598 III alfa 4to</idno>
-                                    <date when="1961-11">November 1961</date>
-                                </bibl>
-                            </p>
+                                <list>
+                                    <item>Mikrofilm fra <date when="1991-06-27">27. juni 1991</date>.</item>
+                                    <item>Diapositiver, s.d. </item>
+                                    <item>Sort-hvid fotografier fra <date when="1961-08">august 1961</date>.</item>
+                                    <item>Sort-hvid fotografier fra <date when="1961-11">november 1961</date>.</item>
+                                </list>
+                                
+                                    </p>
                         </surrogates>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                                 <biblScope unit="volume">I</biblScope>
-                                <biblScope unit="pages">767</biblScope>
+                                <biblScope unit="page">767</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

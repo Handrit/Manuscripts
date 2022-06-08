@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,12 +24,8 @@
                         </altIdentifier>
                         <msName type="nickname">The Sorø Book</msName>
                     </msIdentifier>
-                    <head>
-                        <title xml:lang="en">Cartulary for St. Maria Abbey in Sorø</title>;
-                        <origPlace>Denmark</origPlace>,
-                    	<origDate notBefore="1484" notAfter="1504">c. 1494</origDate>.
-                    </head>
-                    <msContents>
+                      <msContents>
+                    	<summary><title type="supplied" xml:lang="en">Cartulary for St. Maria Abbey in Sorø</title></summary>
                     	<titlePage type="MS">
                     		<docAuthor key="SteSte001">Stephanius</docAuthor>
                     		<docTitle>
@@ -65,12 +62,11 @@
                     			</titlePart>
                     		</docTitle>
                     	</titlePage>
-                    	<msItem class="brefab">
-                    		<title xml:lang="en">Cartulary for St. Maria Abbey in Sorø</title>
+                      	<msItem n="1" class="fornb">
+                    		<title type="supplied" xml:lang="en">Cartulary for St. Maria Abbey in Sorø</title>
                             <textLang mainLang="la" otherLangs="da"/>
-                        </msItem>
-                    	<msItem class="sendbr">
-                    		<locus from="2r" to="2v">2</locus>
+                     	<msItem n="1.1" class="sendbr">
+                    		<locus from="2r" facs="#AM02-0290-0002r" to="2v">2r-v</locus>
                     		<respStmt>
                     			<resp key="crp"/>
                     			<name type="person" key="JesBro002">Johannes Brostrup</name>
@@ -78,7 +74,7 @@
                     		<title type="supplied">Letter</title>
                     		<textLang mainLang="la"/>
                     	</msItem>
-                    	
+                      	</msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
@@ -89,12 +85,14 @@
                                     </p>
                                 </support>
                             	<extent>44. <dimensions type="leaf" scope="all" unit="mm">
-                            		<height>320</height>
-                            		<width>230</width>
+                            		<height unit="mm">320</height>
+                            		<width unit="mm">230</width>
                             	</dimensions>.</extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
+                	<history><origin> <origPlace>Denmark</origPlace>,
+                		<origDate notBefore="1484" notAfter="1504">c. 1494</origDate>.</origin></history>
                 	<additional>
                 		<listBibl>
                 			<bibl>Erslev et al., <ref type="secondary-1" target="KriErs1894-1912">Repertorium Diplomaticum Regni Danici Mediævalis</ref>
@@ -124,6 +122,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+    	<revisionDesc><change when="2021-11-05" who="EvaWed001">Amended markup.</change></revisionDesc>
     </teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM02-0290-0000v-FB" n="0">

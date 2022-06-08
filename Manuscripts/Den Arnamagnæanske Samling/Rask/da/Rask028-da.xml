@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -23,33 +23,28 @@
                             <idno>2599</idno>
                         </altIdentifier>
                     </msIdentifier>
-
-                    <head>
-                        <title type="supplied">Sagabog</title>; <origPlace>Island</origPlace>, <origDate notBefore="1750" notAfter="1800">s. XVIII 2/4</origDate>.</head>
-
                     <msContents>
-                        <msItem n="1">
+                        <summary><title type="supplied">Islændingesagaer</title></summary>
+                        <textLang mainLang="is">Islandsk</textLang>
+                        <msItem n="1" class="isl">
                             <locus from="1r" to="65v">1r-65v</locus>
                             <title type="uniform">Vatnsdæla saga</title>
-                            <textLang mainLang="is">Islandsk</textLang>
                             <rubric>Vatns-dæla</rubric>
                         </msItem>
-                        <msItem n="2" defective="true">
+                        <msItem n="2" class="isl" defective="true">
                             <locus from="67r" to="89r">67r-89r</locus>
                             <title type="uniform">Vápnfirðinga saga</title>
                             <title type="parallel">Brodd-Helga saga</title>
-                            <textLang mainLang="is">Islandsk</textLang>
                             <rubric>Sagan<ex>n</ex> af Broddhelga <lb/> audru Nafne <lb/>
                                 Vopnfyrdinga Saga</rubric>
-                            <note>Med åben plads til betegnelse af lakunen.</note>
+                            <note>Med åben plads til betegnelse af en lakun.</note>
                         </msItem>
-                        <msItem n="3">
+                        <msItem n="3" class="isl">
                             <locus from="91r" to="129v">91r-129v</locus>
                             <title type="uniform">Vilhjálms saga sjóðs</title>
-                            <textLang mainLang="is">Islandsk</textLang>
                             <rubric>Hier byriar Sgu af <lb/> VILHIALME SIÖD</rubric>
                         </msItem>
-                        <msItem n="4">
+                        <msItem n="4" class="isl">
                             <locus from="131r" to="170r">131r-170r</locus>
                             <title type="uniform">Bjarnar saga Hítdælakappa</title>
                             <textLang mainLang="is">Islandsk</textLang>
@@ -58,7 +53,7 @@
                                     <corr>t</corr>
                                 </choice>dæla Kappa</rubric>
                         </msItem>
-                        <msItem n="5">
+                        <msItem n="5" class="isl">
                             <locus from="171r" to="193v">171r-193v</locus>
                             <title type="uniform">Hrafnkels saga Freysgoða</title>
                             <rubric>Sagan<ex>n</ex> af <lb/> Rafnkeli Freis-Goda</rubric>
@@ -72,35 +67,42 @@
                                         <material>Papir.</material>
                                     </p>
                                 </support>
-                                <extent>193. Bl 66, 78v-82v, 89v-90v, 130 og 169v er ubeskrevet.
+                                <extent>193. Bl 66, 78v-82v, 89v-90v, 130 og 169v er ubeskrevne.
                                         <dimensions type="leaf" scope="all">
-                                        <height>195</height>
-                                        <width>160</width>
+                                        <height unit="mm">195</height>
+                                        <width unit="mm">160</width>
                                     </dimensions>.</extent>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1">Stykke 2 (bl. 67-89r) har åben plads til
-                                    betegnelse af lakunen.</layout>
+                                    betegnelse af en lakune.</layout>
                             </layoutDesc>
                         </objectDesc>
+                        <handDesc n="9">
+                            <handNote script="unknown">Forskellige hænder.</handNote>
+                        </handDesc>
                         <bindingDesc>
                             <binding>
                                 <p>Brydstykker af islandske privatbreve fra ca. 1800 er brugt som
                                     betræk af bindets inderside samt som smudsblad I-IV, henholdsvis
-                                    foran og bag i bogen. Det anvendte sprog er tildels islandsk og
-                                    tildels en art dansk-islandsk blandingssprog.</p>
+                                    foran og bag i bogen. Sprogformen er delvist islandsk, delvist
+                                    et dansk-islandsk blandingssprog.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin notBefore="1750" notAfter="1799" cert="high" evidence="conjecture">
-                            <p>Skrevet i Island i anden halvdel af det 18. århundrede.</p>
+                            <p>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1750"
+                                    notAfter="1799">1700-tallets anden halvdel</origDate>.</p>
                         </origin>
                         <acquisition>
-                            <p>Bl. IIv indeholder følgende meddelelse: <q xml:lang="is">Þeſsi Bók <gap reason="irrelevant"/> er af mér
-                                    underſkrifudum med verdi keypt. Holti þann <date when="1811-09-17">17. Augusti 1811</date>. <name type="person" key="ThoBod001">Th.
-                                        Bödvarsſon</name>
-                                </q>.</p>
+                            <p>Ifølge en notits på bl. IIv købte <name type="person" key="RasRas001"
+                                    >Rasmus Rask</name> håndskriftet af <name type="person"
+                                    key="ThoBod001">Þorvaldur Böðvarsson</name> den <date
+                                    when="1811-09-17">17. august 1811</date>: <q xml:lang="is">Þeſsi
+                                    Bók <gap reason="irrelevant"/> er af mér underſkrifudum med
+                                    verdi keypt. Holti þann 17. Augusti 1811. Th.
+                                Bödvarsſon</q>.</p>
                         </acquisition>
                     </history>
                     <additional>
@@ -114,6 +116,9 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-10-11" who="EvaWed001">Tjekket og opdateret.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

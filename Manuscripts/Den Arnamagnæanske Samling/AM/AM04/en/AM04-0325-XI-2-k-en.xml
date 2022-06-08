@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,44 +23,38 @@
                             <idno>1069</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Ólafs saga helga</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate cert="high" evidence="conjecture" notBefore="1340" notAfter="1360">s. XIV med</origDate>
-                    </head>
-                    <msContents>
-                        <msItem class="kon" defective="true">
+                      <msContents>
+                        <summary><title type="uniform">Ólafs saga helga</title></summary>
+                        <msItem n="1" class="kon" defective="true">
                             <locus from="1r" to="2v">1r-2v</locus>
                             <title type="uniform">Ólafs saga helga</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <textLang mainLang="non"/>
                             <incipit defective="true">eignin er h<expan>ann</expan> skylldi þan
                                     s<expan>on</expan> geta</incipit>
                             <explicit defective="true">ok ætla ek h<expan>ann</expan> o
                                     alloþar<supplied reason="unknown">fan</supplied>
-                     </explicit>
-                            <listBibl>
-                                <bibl>
-                           <ref type="primary-3" target="OlHMU">Saga Ólafs konungs ens
-                                        helga</ref>, pp. 145-49</bibl>
-                                <bibl>
-                           <ref type="primary-3" target="OlHJH">Den store saga om Olav
-                                        den Hellige</ref>, pp. 381:3-388:5 <note>Ed. 325 XI
-                                        2k</note>
-                        </bibl>
-                            </listBibl>
+                            </explicit>
+                            <bibl>
+                                <ref type="primary-3" target="OlHMU">Saga Ólafs konungs ens
+                                    helga</ref><biblScope unit="page">145-49</biblScope></bibl>
+                            <bibl>
+                                <ref type="primary-3" target="OlHJH">Den store saga om Olav den
+                                    Hellige</ref><biblScope unit="page">381:3-388:5</biblScope>
+                                <note>Ed. 325 XI 2k</note>
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
                                 <extent>2. <dimensions type="leaf" scope="all">
-                                        <height>209</height>
-                                        <width>160</width>
+                                        <height unit="mm">209</height>
+                                        <width unit="mm">160</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
                                     <p>The outer part of fol. 1 is cut away causing a loss of at
                                         least a third of the text. The text on fol. 2 is defect too
@@ -69,67 +64,76 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1" writtenLines="29">
-                                    <p>The fragment is written in long lines with 29 lines per
+                                    <p>The fragment is written in one column with 29 lines per
                                         page.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <bindingDesc>
                             <binding notBefore="1959" notAfter="1959" contemporary="false">
-                                <p>Bound in a cardboard cover from 1959.</p>
+                                <p>Bound in a cardboard cover from <date when="1959"
+                                    >1959</date>.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
-                        <origin notBefore="1335" notAfter="1365" cert="high" evidence="conjecture">
-                            <p>The fragment is written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> once dated
-                                it <origDate>the fourteenth century</origDate> (<bibl>
-                                    <ref type="secondary-1" target="KKKat">KKKat</ref>
-                                </bibl>), whereas <name type="person" key="OscJoh001">Oscar Albert
-                                    Johnsen</name> and <name type="person" key="JonHel003">Jón
-                                    Helgason</name> later dated it more precisely to <origDate cert="high" evidence="conjecture">c. 1350</origDate> (<bibl>
-                           <ref type="secondary-1" target="OlHJH">Johnsen &amp; Jón
-                                        Helgason 1941</ref>, p. 961</bibl>).</p>
+                        <origin notBefore="1340" notAfter="1360" cert="high" evidence="conjecture">
+                            <p>Fragmentet er skrevet i <origPlace>Iceland</origPlace>
+                                <origDate notBefore="1340" notAfter="1360" evidence="conjecture">c.
+                                    1350</origDate> (<bibl><ref type="secondary-1" target="OlHJH"
+                                        >Johnsen &amp; Jón Helgason 1941</ref>
+                                    <biblScope unit="page">961</biblScope>
+                                </bibl>). Kålund's dating: <date notBefore="1300" notAfter="1399"
+                                    >1300-tallet</date> (<bibl>Kålund: <ref type="secondary-1"
+                                        target="KKKat">Katalog</ref>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="page">567-568</biblScope>
+                                </bibl>).</p>
                         </origin>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date>20.09.2000</date> by <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                    <p>Catalogued <date>20.09.2000</date> by <name type="person"
+                                            key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation">
-                                    <p>The MS was set on meeting guards and bound in a cardboard
-                                        cover <date>09.06.1959-15.08.1959</date>.</p>
+                                    <p>The MS was put on meeting-guards and bound in a cardboard
+                                        cover <date from="1959-06-09" to="1959-08-15">09.06.1959-15.08.1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
-                            <p>The AMI has the following surrogates: <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade 37</idno>
-                                        <date>n.d.</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositive</title>
-                                        <idno>AM 325 XI 2k 4to</idno>
-                                        <date>May 1984 (1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <idno>AM 325 XI 2k 4to</idno>
-                                        <date>August 1959</date>
-                                    </bibl>
-                                </listBibl>
-                     </p>
+                            <p><list>
+                                <item n="1">Plate, <idno>plade 37</idno>, s.d.</item>
+                                <item n="2">Diapositives from <date notBefore="1984-05"
+                                    notAfter="1985-05">May 1984 or 1985</date>.
+                                </item>
+                                <item n="3">Black and white prints from <date when="1956-08"
+                                    >August 1956</date>.</item>
+                            </list>
+                            </p>
                         </surrogates>
+                        <listBibl>
+                            <bibl><ref type="secondary-1" target="OlHJH"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">961</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">567-568</biblScope>
+                            </bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-12-02" who="EvaWed001">Updated.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

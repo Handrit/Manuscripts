@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,7 +22,10 @@
                             <idno>268</idno>
                         </altIdentifier>
                     </msIdentifier>
-                        <msContents>
+                    <msContents>
+                        <summary>
+                            <title type="uniform" xml:lang="is">Karlamagnús saga</title>
+                        </summary>
                         <msItem n="1" class="ridd">
                             <locus from="1ra" to="73vb">1ra-73vb</locus>
                             <title type="uniform" xml:lang="is">Karlamagnús saga</title>
@@ -30,7 +33,6 @@
                             <incipit defective="true">til balldvina</incipit>
                             <explicit defective="true">þa su<ex>arar</ex> hugon
                                 k<ex>onun</ex>gr</explicit>
-                            <listBibl>
                                 <bibl>Konráð Gíslason, <ref type="primary" target="KGProver">Fire og
                                         Fyrretyve for en stor Deel forhen utrykte Prøver af
                                         oldnordisk Sprog og Litteratur</ref>
@@ -45,7 +47,6 @@
                                         saga ok kappa hans</ref>
                                     <biblScope unit="pages">15-280, 302-480</biblScope>
                                 </bibl>
-                            </listBibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -57,8 +58,8 @@
                                     </p>
                                 </support>
                                 <extent>73. <dimensions type="leaf" scope="all">
-                                        <height>300</height>
-                                        <width>215</width>
+                                        <height unit="mm">300</height>
+                                        <width unit="mm">215</width>
                                     </dimensions>
                                 </extent>
                                 <foliation>Foliated 1-73 in black ink.</foliation>
@@ -93,22 +94,23 @@
                                     put on by <name type="person" key="CarLun001">Carl Lund</name>.
                                     It has a brown leather spine and corners and has an olive cover.
                                     Size of binding: <dimensions type="binding" unit="mm">
-                                        <height>315</height>
-                                        <width>229</width>
-                                        <depth>39</depth>
+                                        <height unit="mm">315</height>
+                                        <width unit="mm">229</width>
+                                        <depth unit="mm">39</depth>
                                     </dimensions>.</p>
                             </binding>
                         </bindingDesc>
                         <accMat>
                             <p>There is an AM-slip on which <name type="person" key="ArnMag001">Árni
-                                    Magnússon</name> wrote: <q xml:lang="is">Karla Magnúss Saga
+                                    Magnússon</name> wrote: <q xml:lang="is">Karla Magnús saga
                                     komin til min fra Monsr (Bessa Gúdmúndssynr 1704</q>.</p>
                         </accMat>
                     </physDesc>
                     <history>
                         <origin>
                             <p>Written in <origPlace>Iceland</origPlace>
-                                <origDate notBefore="1390" notAfter="1410" evidence="conjecture" resp="ONP">c. 1400</origDate>.</p>
+                                <origDate notBefore="1390" notAfter="1410" evidence="conjecture"
+                                    resp="ONP">c. 1400</origDate>.</p>
                         </origin>
                         <provenance>
                             <p>Acording to <name type="person" key="JonSig004">Jón Sigurðsson</name>
@@ -117,8 +119,12 @@
                         </provenance>
                         <acquisition>
                             <p><name type="person" key="ArnMag001">Árni Magnússon</name> noted on an
-                                AM-slip that the acquired the manuscript from <name type="person" key="BesGud001">Bessi Guðmundsson</name> in <date when="1704">1704</date>. A similar account is found on f. 140v in his
-                                catalogue of Icelandic parchment manuscripts, <ref type="ms" target="AM02-435-a-en">AM 435 a 4to</ref>: <q xml:lang="is">Karla Magnuss Saga, vantar framanvid og vida i. Folio. hana
+                                AM-slip that the acquired the manuscript from <name type="person"
+                                    key="BesGud001">Bessi Guðmundsson</name> in <date when="1704"
+                                    >1704</date>. A similar account is found on f. 140v in his
+                                catalogue of Icelandic parchment manuscripts, <ref type="ms"
+                                    target="AM02-435-a-en">AM 435 a 4to</ref>: <q xml:lang="is"
+                                    >Karla Magnuss Saga, vantar framanvid og vida i. Folio. hana
                                     feck eg 1704 af Bessa Gudmundzsyne</q>.</p>
                         </acquisition>
                     </history>
@@ -126,29 +132,25 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date when="2000-05-03"/> by <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                    <p>Catalogued <date when="2000-05-03"/> by <name type="person"
+                                            key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="photography">
-                                    <p>The manuscript was photographed in <date when="1963">1963</date>.</p>
+                                    <p>The manuscript was photographed in <date when="1963"
+                                            >1963</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">70 mm</title>
-                                        <idno>70mm16</idno>
-                                        <date when="1963">1963</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w photographs</title>
-                                        <idno>AM 180 c fol.</idno>
-                                        <date when="1963-11">September 1963</date>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item> 70 mm, <idno>70mm16</idno>, from <date when="1963"
+                                            >1963</date>. </item>
+                                    <item> Black and white prints from <date when="1963-11"
+                                            >September 1963</date>. </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>

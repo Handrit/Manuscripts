@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,24 +23,23 @@
                             <idno>1664</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title xml:lang="la">Dialogi Gregori</title>,
-                        <origPlace>Iceland</origPlace>; <origDate notBefore="1390" notAfter="1410">c. 1400</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
-                            <locus from="1r" to="2v">1r-2v</locus>
-                            <title xml:lang="la">Dialogi Gregori</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                        <summary><title xml:lang="en">Gregory the Great's
+                            Dialogues</title></summary>
+                        <msItem n="1">
+                            <locus from="1r" facs="#AM04-0667-XIV-0001r" to="2v">1r-2v</locus>
+                            <title type="uniform" xml:lang="la">Dialogi Gregori</title>
+                            <title type="uniform" xml:lang="is">Díalógar Gregors páfa</title>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <msItem n="1.1">
-                                <locus> 1</locus>
+                                <locus from="1r" facs="#AM04-0667-XIV-0001r" to="1v">1r-v</locus>
                                 <incipit defective="true">hlo h<expan>an</expan>n ath aullv athæfi
                                         m<expan>un</expan>ka</incipit>
                                 <explicit defective="true">i<expan>ar</expan>n e<expan>da</expan>
                                     eir e<expan>da</expan> bly</explicit>
                             </msItem>
                             <msItem n="1.2">
-                                <locus> 2</locus>
+                                <locus from="2r" facs="#AM04-0667-XIV-0002r" to="2v">2r-v</locus>
                                 <incipit defective="true">sinv<expan>m</expan> j
                                         svef<expan>n</expan>i</incipit>
                                 <explicit defective="true">hvg v<expan>or</expan>n
@@ -51,13 +51,13 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
                                 <extent>2. <dimensions type="leaf" scope="all">
-                                        <height>194</height>
-                                        <width>158</width>
+                                        <height unit="mm">194</height>
+                                        <width unit="mm">158</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <bindingDesc>
@@ -67,41 +67,45 @@
                         </bindingDesc>
                     </physDesc>
                     <history>
-                        <origin notBefore="1375" notAfter="1425" cert="high" evidence="conjecture">
-                            <p>The MS is written in <origPlace>Iceland</origPlace>
-                                <origDate>c. 1400</origDate>.</p>
+                        <origin notBefore="1390" notAfter="1410" cert="high" evidence="conjecture">
+                            <p>Written in <origPlace>Iceland</origPlace>
+                                <origDate notBefore="1390" notAfter="1410">c. 1400</origDate>.</p>
                         </origin>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date>18.07.2000</date> by <name type="person" key="EvaWed001">EW-J</name>. (Parsed
-                                            <date>18.07.2000</date>).</p>
+                                    <p>Catalogued <date when="2000-07-18">18.07.2000</date> by <name type="person" key="EvaWed001">EW-J</name>. </p>
                                 </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation">
                                     <p>During the restoration <date from="1963-04-02" to="1965-11-11">2 April 1963-11 November 1965</date> the
-                                        leaves were restored, set on meeting guards and put in a
+                                        leaves were restored, put on meeting guards and put into a
                                         cardboard cover.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <bibl>
-                                    <title type="gmd">70 mm</title>
-                                    <idno>?</idno>
-                                    <date>1963</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">b/w prints</title>
-                                    <idno>AM 667 XIV 4to</idno>
-                                    <date>March 1963</date>
-                                </bibl>
+                                <list>
+                                    <item> 70 mm from <date when="1963">1963</date>.
+                                    </item>
+                                    <item> Black and white prints form <date when="1963-03">March
+                                            1963</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
+                        <listBibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">80</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary" target="Wolf2013"/>
+                                <biblScope unit="page">123</biblScope></bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

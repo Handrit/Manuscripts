@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,28 +22,25 @@
                      <idno>2677</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Tre skuespil</title>; <origPlace>Island?</origPlace> 
-                  <origDate notBefore="1800" notAfter="1832">s. XIX 1/4</origDate>.</head>
                <msContents>
-                  <msItem n="1">
-                     <locus from="1" to="33r">1-33r</locus>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Tre skuespil</title>.</summary>
+                  <textLang mainLang="is">Islandsk</textLang>
+                  <msItem n="1" class="leikr">
+                     <locus from="1r" to="33r">1r-33r</locus>
+                     <author key="SigPet001">Sigurður Pétursson</author>
+                     <title type="uniform">Narfi</title>
                      <rubric>Narfi <lb/> Sýslumanns Sigurdar Pèturssonar</rubric>
                   </msItem>
-                  <msItem n="2">
-                     <locus from="34" to="39r">34-39r</locus>
-                     <author>Biskop Geir Vídalín</author>
-                     <title type="supplied">Brandur</title>
-                     <textLang mainLang="is">Islandsk</textLang>
-                  </msItem>
-                  <msItem n="3" defective="true">
-                     <locus from="42" to="68r">42-68r</locus>
-                     <author>
-                        <name type="person" key="LudHol01 "/>Ludvig Holberg</author>
-                     <title type="supplied">Jean de France</title>
-                     <textLang mainLang="is">Islandsk</textLang>
-                     <note>Islandsk oversættelse. Standser i IV. akt, 6. scene</note>
+                  <msItem n="2" class="leikr">
+                     <locus from="34r" to="39r">34r-39r</locus>
+                     <author key="GeiVid001">Geir Vídalín</author>
+                     <title type="uniform">Brandur</title>
+                   </msItem>
+                  <msItem n="3" class="leikr tyd" defective="true">
+                     <locus from="42r" to="68r">42r-68r</locus>
+                     <author key="LudHol001">Ludvig Holberg</author>
+                     <title type="uniform">Jean de France</title>
+                     <note>Standser i IV. akt, 6. scene</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -53,21 +50,37 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>68. Nogle ubeskrevne blade og sider. <dimensions type="leaf" scope="all">
-                              <height>177</height>
-                              <width>112</width>
-                           </dimensions>.</extent>
+                        <extent>68. Nogle ubeskrevne blade og sider. <dimensions type="leaf"
+                           scope="all" unit="mm">
+                           <height unit="mm">177</height>
+                           <width unit="mm">112</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="RasRas001" scope="sole" script="unknown">
-                        <p>Skrevet af Rask.</p>
+                        <p>Skrevet af <name type="person" key="RasRas001">Rasmus Rask</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island?</origPlace>
+                     <origDate notBefore="1800" notAfter="1832">s. XIX in</origDate>.</origin>
+                  <acquisition>Den Arnamagnæanske Kommision købte håndskriftet efter Rasks død i
+                     <date when="1832">1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">557</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-06-30" who="EvaWed001">Revideret.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

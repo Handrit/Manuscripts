@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,27 +23,29 @@
                             <idno>1066</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Ólafs saga Tryggvasonar</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1375" notAfter="1399" cert="high" evidence="conjecture">s. XIV 4/4</origDate>
-                        <note>According to <name type="person" key="OlaHal001">Ólafur
-                                Halldórsson</name> AM 325 VIII 2c, 2e, 2f, 2g and 2h 4to once
-                            belonged to the same codex.</note>
-                    </head>
                     <msContents>
-                        <msItem class="kon" defective="true">
+                        <summary><title type="uniform">Ólafs saga Tryggvasonar</title></summary>
+                        <msItem n="1" class="kon" defective="true">
                             <locus from="1ra" to="1vb">1ra-vb</locus>
-                            <title>Ólafs saga Tryggvasonar</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <title type="uniform">Ólafs saga Tryggvasonar</title>
+                            <textLang mainLang="non"/>
                             <incipit defective="true">bæt<supplied reason="damage">a</supplied>
                                     fr<expan>ra</expan>
-                        <supplied reason="damage">m</supplied>aʀ uid gud</incipit>
+                                <supplied reason="damage">m</supplied>aʀ uid gud</incipit>
                             <explicit defective="true">bad kongr h<expan>ann</expan> þa
                                 sua</explicit>
-                            <bibl>
-                        <ref type="primary-1" target="EA-A2">Óláfs saga Tryggvasonar en
-                                    Mesta</ref> II, pp. 168:5-175:6</bibl>
+                            <bibl>Bjarni Einarsson, <ref type="primary" target="STUAGNL64"
+                                    >Hallfreðar saga</ref><note>Var.app. G</note></bibl>
+                            <bibl>Ólafur Halldórsson, <ref type="primary-1" target="EA-A1">Óláfs
+                                    saga Tryggvasonar en Mesta</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <note>Var.app. C<hi rend="sup">5</hi></note>
+                            </bibl>
+                            <bibl>Ólafur Halldórsson, <ref type="primary-1" target="EA-A2">Óláfs
+                                    saga Tryggvasonar en Mesta</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <note>Var.app. C<hi rend="sup">5</hi></note>
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -53,21 +56,22 @@
                                         <material>Parchment</material>.</p>
                                 </support>
                                 <extent>1. <dimensions scope="all" type="leaf">
-                                        <height>258-278</height>
-                                        <width>202-206</width>
+                                        <height unit="mm">258-278</height>
+                                        <width unit="mm">202-206</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
-                                    <p>The leaf is damaged by a few small holes that have resulted
+                                    <p>The leaf is damaged by a few small holes which have resulted
                                         in loss of text.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" writtenLines="41">
                                     <p>The leaf is written in double columns with 41 lines to the
-                                        column. The size of the columns are approx. <dimensions type="written" scope="all">
-                                            <height>225</height>
-                                            <width>170</width>
+                                        column. The size of the columns are approx. <dimensions
+                                            type="written" scope="all">
+                                            <height unit="mm">225</height>
+                                            <width unit="mm">170</width>
                                         </dimensions>.</p>
                                 </layout>
                             </layoutDesc>
@@ -81,21 +85,32 @@
                             <p>An AM-slip reads: <q>Þetta blad feck
                                         lgm<expan>adur</expan>en<expan>n</expan>
                                     <name type="person" key="PalJon005">P. J. W</name> hia
-                                        S<expan>i</expan>r<expan>a</expan> Audun<expan>n</expan>e
-                                        Benedicts<expan>yne</expan> utanum qver</q>.</p>
+                                        S<expan>i</expan>r<expan>a</expan>
+                                    <name type="person" key="AudBen001">Audun<expan>n</expan>e
+                                            Benedicts<expan>yne</expan></name> utanum qver</q>.</p>
                         </accMat>
                     </physDesc>
                     <history>
-                        <origin notBefore="1376" notAfter="1399" cert="high" evidence="conjecture">
-                            <p>The leaf is written in Iceland. <name type="person" key="KriKaa001">Kristian Kålund</name> has dated it to <date>c. 1400</date>
-                                whereas <name type="person" key="OlaHal001">Ólafur Halldórsson</name>
-                                has dated it more precisely to <date>the fourth quarter of the
-                                    fourteenth century</date>.</p>
+                        <origin>
+                            <p>The leaf was written in <origPlace>Iceland</origPlace>
+                                <origDate notBefore="1390" notAfter="1410" cert="high">c.
+                                    1400</origDate>.</p>
+                            <p>Acccording to <bibl>
+                                    <ref type="secondary-1" target="EA-A3">Ólafur Halldórsson
+                                        2000</ref>
+                                    <biblScope unit="page">clv</biblScope>
+                                </bibl> har <ref type="ms" target="AM04-0325-VIII-2-c-en">AM 325
+                                    VIII 2 c 4to</ref>, <ref type="ms"
+                                    target="AM04-0325-VIII-2-e-en">AM 325 VIII 2 e 4to</ref>, AM 325
+                                VIII 2 f 4to, <ref type="ms" target="AM04-0325-VIII-2-g-en">AM 325
+                                    VIII 2 g 4to</ref> and <ref type="ms"
+                                    target="AM04-0325-VIII-2-h-en">AM 325 VIII 2 h 4to</ref>
+                                originally belonged to the same codex.</p>
                         </origin>
                         <provenance>
-                            <p>The Priest <name type="person" key="AudBen001">Auðun
-                                    Benediktsson</name> was the owner of the leaf in that time it
-                                served as binding for a book. He gave it to the <foreign xml:lang="is">lögmaður</foreign>
+                            <p>Rev. <name type="person" key="AudBen001">Auðun Benediktsson</name>
+                                was the owner of the leaf when it served as a binding for a book,
+                                and he gave it to the <foreign xml:lang="is">lögmaður</foreign>
                                 <name type="person" key="PalJon005">Páll Jónsson Vídalín</name>.
                                     <name type="person" key="ArnMag001">Árni Magnússon</name> wrote
                                 the following on an AM-slip: <q>Þetta blad feck
@@ -104,20 +119,21 @@
                                         S<expan>i</expan>r<expan>a</expan> Audun<expan>n</expan>e
                                         Benedicts<expan>yne</expan> utanum qver</q>. Another note by
                                 Árni Magnússon on 1r reads: <q>ut<expan>an</expan> af
-                                        q<expan>v</expan>ere i Saurbæ ä Kialarnese
-                                    <date>1703</date>
-                        </q>.</p>
+                                        q<expan>v</expan>ere i Saurbæ ä Kialarnese <date>1703</date>
+                                </q>.</p>
                         </provenance>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date when="2000-03-01">01.03.2000</date> by <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                    <p>Catalogued <date when="2000-03-01">01.03.2000</date> by <name
+                                            type="person" key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
                                     <p>From the 2 March 1958 to 4 April 1959 the manuscript was set
                                         on meeting guards and put in a cover.</p>
                                 </custEvent>
@@ -125,32 +141,33 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositives</title>
-                                        <idno>AM 325 VIII 2f 4to</idno>
-                                        <date>May 1984 (or 1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <date>October 1956</date>
-                                        <idno>AM 325 VIII 2 f 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item>Plate, <idno>plade37</idno>, s.d.</item>
+                                    <item>Diapositives from <date notBefore="1984-05"
+                                            notAfter="1985-05">May 1984 or 1985</date>.
+                                    </item>
+                                    <item>Black and white prints from <date when="1956-10">October
+                                            1956</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
-                            <bibl>
-                                <ref type="secondary-1" target="EA-A3">Ólafur Halldórsson,
-                                    2000</ref>
+                            <bibl>Bjarni Einarsson, <ref type="secondary" target="Rit15">Hallfreðar
+                                    saga</ref>
+                                <biblScope unit="volume">XV</biblScope>
+                                <biblScope unit="page">xlviii-xlix</biblScope>
                             </bibl>
-                            <bibl>
-                        <ref type="secondary" target="Rit15">Bjarni Einarsson, 1977</ref>,
-                                pp. xlviii-xlix</bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">559</biblScope>
+                            </bibl>
+                            <bibl>Ólafur Halldórsson: <ref type="secondary-1" target="EA-A3">Óláfs
+                                    saga Tryggvasonar en mesta</ref>
+                                <biblScope unit="page">xvii, xix-xxi, clv, clvi-clvii, clviii-clxiii
+                                    pass., clxxix, cxciv, cxcv, ccviii, ccix, ccxvi, ccxvii, cclxv,
+                                    ccxcv, ccxcvi, ccc, ccciii, cccix</biblScope>
+                            </bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

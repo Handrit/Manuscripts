@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,23 +23,49 @@
                      <idno>1685</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Elucidarium</title>
-                  <origDate notBefore="1400" notAfter="1499">s. XV</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <summary><title type="uniform">Elucidarium</title></summary>
+                  <msItem n="1" class="alfr gudfr krsidfr kenb">
+                     <locus from="1ra" to="12vb">1ra-12vb</locus>
+                     <title type="uniform">Elucidarium</title>
+                     <textLang mainLang="la"/>
+                     <explicit defective="true">gaudiu<ex>m</ex> e<ex>st</ex> angelis <lb/> deí
+                           ſup<ex>er</ex> vno p<supplied reason="unknown"
+                        >e</supplied>cc<ex>at</ex>ore</explicit>
+                     <note>Excerpts.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>12. </extent>
+                        <extent>12. <dimensions type="leaf" unit="mm">
+                              <height unit="mm">210</height>
+                              <width unit="mm">147</width>
+                           </dimensions>.</extent>
                      </supportDesc>
-                  </objectDesc>
+                     <layoutDesc>
+                     <layout columns="2">Written in two columns; rubrics in red ink.</layout>
+                  </layoutDesc>
+                 </objectDesc>
                </physDesc>
+               <history>
+                  <origin>Written in <origDate notBefore="1400" notAfter="1499">the fifteenth
+                        century</origDate>. The place of origin is unknown.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref target="Lucidarius1849"/>
+                        <biblScope unit="page">vii, xviii</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">92-93</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

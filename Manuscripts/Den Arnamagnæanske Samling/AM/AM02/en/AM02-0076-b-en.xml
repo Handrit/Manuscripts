@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,13 +23,15 @@
                             <idno>93</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title n="1">Ólafs saga helga</title>
-                        <title n="2">Correpondance between Árni Magnússon and Páll Vídalín</title>
-                        <title n="3">Ólafs saga helga</title>
-                        <origPlace>Iceland, Iceland/Denmark</origPlace>
-                        <origDate notBefore="1720" notAfter="1730">1720-30</origDate>
-                    </head>
+                    <msContents>
+                        <summary><title type="supplied">Ólafs saga helga and Correpondance between Árni
+                                Magnússon and Páll Vídalín</title></summary>
+                        <msItem>
+                            <title type="supplied">Ólafs saga helga and Correpondance between Árni
+                                Magnússon and Páll Vídalín</title>
+                            <textLang mainLang="is"/>
+                        </msItem>
+                    </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
@@ -41,10 +44,24 @@
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 76 b I fol.</idno>
-                        </altIdentifier></msIdentifier>
+                    <history>
+                        <origin><origPlace>Iceland, Iceland/Denmark</origPlace>
+                            <origDate notBefore="1720" notAfter="1730">1720-30</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl><ref type="secondary.1" target="KKKat"/>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">56-57</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 76 b I fol.</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
                                 <locus from="1" to="15">1-15</locus>
@@ -52,7 +69,7 @@
                                 <textLang mainLang="is">Icelandic</textLang>
                                 <incipit>Sagann af ÓlÓfi köngi <lb/> hinum<ex>m</ex> Helga
                                     Haralldssyni</incipit>
-                                <note>Transcript the first seven chapters and the last chapters of
+                                <note>Copy the first seven chapters and the last chapters of
                                     AM 73 b fol (Bæjarbók á Rauðisandi), here CCLII-CCLVII,
                                     containing "ályktan", of which the first has the lacuna
                                     characteristic for Bæjarbók.</note>
@@ -67,57 +84,69 @@
                                         </p>
                                     </support>
                                     <extent>15. <dimensions type="leaf" scope="all">
-                                            <height>210</height>
-                                            <width>164</width>
+                                            <height unit="mm">210</height>
+                                            <width unit="mm">164</width>
                                         </dimensions>
-                           </extent>
+                                    </extent>
                                 </supportDesc>
                             </objectDesc>
                         </physDesc>
                         <history>
-                            <origin notBefore="1726-01-01" notAfter="1726-12-31" cert="high" evidence="internal">
-                                <p>Written in <origPlace>Iceland</origPlace> in
-                                        <origDate>1726</origDate> by <name type="person" key="EyjJon002">Eyjólfur Jónsson</name>.</p>
+                            <origin cert="high" evidence="internal">
+                                <p>Written in <origPlace>Iceland</origPlace> in <origDate
+                                        when="1726">1726</origDate> by <name type="person"
+                                        key="EyjJon002">Eyjólfur Jónsson</name>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 76 b II fol.</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="2">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 76 b II fol.</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <locus from="16" to="30">16-30</locus>
+                            <msItem n="2">
+                                <locus from="16r" to="30v">16r-30v</locus>
                                 <title type="uniform">Correspondance between Árni Magnússon and Páll
-                                    Vídalín Concerning Bæjarbók á Rauðisandi and the
-                                    Transcripts</title>
+                                    Vídalín</title>
+                                <note>Concerning <title type="ms">Bæjarbók á Rauðisandi</title> and
+                                    the copies of this manuscript.</note>
+
                             </msItem>
                         </msContents>
                         <physDesc>
                             <additions>
                                 <p>In the correspondence a lot of confusion has been caused due to
-                                    Árni Magnússon's mistaking of <ref>AM 73 b fol.</ref> for other
-                                    manuscripts, especially AM <ref>325 V 4to</ref>. On f. 30 Árni
-                                    explains the truth of the matter: <q xml:lang="is">Þetta er allt
-                                        oriett, sem eg nu sie <date>1726</date> um hausted. Bok
-                                            <name type="person" key="LauGot001">Laurusar</name>
-                                        lỏgmanns (mater þ<ex>eir</ex>rar er
+                                    Árni Magnússon's mistaking of <ref type="ms"
+                                        target="#AM02-073-b-en">AM 73 b fol.</ref> for other
+                                    manuscripts, especially <ref type="ms" target="#AM04-0325-V-en"
+                                        >AM 325 V 4to</ref>. On f. 30 Árni explains the truth of the
+                                    matter: <q xml:lang="is">Þetta er allt oriett, sem eg nu sie
+                                        1726 um hausted. Bok <name type="person" key="LauGot001"
+                                            >Laurusar</name> lỏgmanns (mater þ<ex>eir</ex>rar er
                                             lỏgman<ex>n</ex>
                                         <name type="person" key="PalJon005">Widalin</name> ä med
                                         hendi Þorsteins Sigurdzsonar, og þ<ex>eir</ex>rar er eg nu
-                                        1726 ä med hende <name type="person" key="MagEin012">M<ex>agnus</ex>ar Einarssonar</name>). er progenies
-                                            þ<ex>eir</ex>rar bokar er eg eignadist fra <name type="person" key="GudEgg001">Gudrunu
+                                        1726 ä med hende <name type="person" key="MagEin012"
+                                                >M<ex>agnus</ex>ar Einarssonar</name>). er progenies
+                                            þ<ex>eir</ex>rar bokar er eg eignadist fra <name
+                                            type="person" key="GudEgg001">Gudrunu
                                             Eggertsdottur</name> ä <name type="place">Bæ</name> ä
                                             <name type="place">Raudasande</name>. Er þar i
                                             þ<ex>eir</ex>re membranå defect i einum stad, og
                                             ligg<ex>ur</ex> in<ex>n</ex>ani pappir med hende Sr
-                                            <name type="person" key="JonOla009">Jons</name> ä <name type="place">Lambavatne</name>. Þ<ex>ad</ex> fyrsta þar
+                                            <name type="person" key="JonOla009">Jons</name> ä <name
+                                            type="place">Lambavatne</name>. Þ<ex>ad</ex> fyrsta þar
                                         af, er translatio ex Danico. hitt er fyllt ur
-                                        ein<ex>n</ex>hverre rettre Olafs sỏgu, forte
-                                            þ<ex>eir</ex>re er um hỏnd hỏfdu:
-                                            <name type="person" key="ArnGud001">Arne
-                                            Gudmundzon</name>, <name type="person" key="JonErl001">Jon Erlendzson</name>, <name type="person" key="TorJon002">Torfe Jonsson</name>, Amtmadur <name type="person" key="ChrMyl001">Müller</name>. id
-                                        postea inpiciam. Nunc inspexi, og er þad so.<pb/>Bok <name type="person" key="SnaPal001">Snæbiarnar</name> (af
+                                        ein<ex>n</ex>hverre rettre Olafs sỏgu, forte þ<ex>eir</ex>re
+                                        er um hỏnd hỏfdu: <name type="person" key="ArnGud001">Arne
+                                            Gudmundzon</name>, <name type="person" key="JonErl001"
+                                            >Jon Erlendzson</name>, <name type="person"
+                                            key="TorJon002">Torfe Jonsson</name>, Amtmadur <name
+                                            type="person" key="ChrMyl001">Müller</name>. id postea
+                                        inpiciam. Nunc inspexi, og er þad so.<pb/>Bok <name
+                                            type="person" key="SnaPal001">Snæbiarnar</name> (af
                                         hverre eg hefi Copie) er af sama slage og þesse med hende
                                             <name type="person" key="ThoSig004">Þorsteins
                                             Sigurdzsonar</name>. Eru badar ur Saurbæjar
@@ -126,26 +155,29 @@
                                         fyrsta er translatio ex Danico, og hitt an<ex>n</ex>ad ur
                                         membranå in 4to <name type="person" key="ArnGud001">Arna
                                                 Gudm<ex>un</ex>dzson<ex>ar</ex>
-                              </name> (Jons
-                                            Ellendzson<ex>ar</ex>, Torfa Jonsson<ex>ar</ex>) og
-                                        synest, ad su bok hafi þä eins mutila vered <ex>og</ex> nu
-                                        er.</q>
-                        </p>
+                                        </name> (Jons Ellendzson<ex>ar</ex>, Torfa
+                                            Jonsson<ex>ar</ex>) og synest, ad su bok hafi þä eins
+                                        mutila vered <ex>og</ex> nu er.</q>
+                                </p>
                             </additions>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 76 b III fol.</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="3">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 76 b III fol.</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <locus from="31" to="40">31-40</locus>
+                            <msItem n="3">
+                                <locus from="31r" to="40v">31r-40v</locus>
                                 <title type="uniform">Ólafs saga helga</title>
-                                <note>Transcript of a fragment of the saga with corrections by Árni
-                                    Magnússon. Most certainly meant as an substitute for the false
-                                    episodes (CCXV etc.) of <ref>AM 73 b fol.</ref> (Bæjarbók) and
-                                    the transcripts.</note>
+                                <textLang mainLang="is">Icelandic</textLang>
+                                <note>Copy of a fragment of the saga containing corrections by <name
+                                        type="person" key="ArnMag001">Árni Magnússon</name>. Most
+                                    certainly meant as an substitute for the false episodes (CCXV
+                                    etc.) of AM 73 b fol. (Bæjarbók) and the
+                                    copies of this.</note>
                             </msItem>
                         </msContents>
                     </msPart>

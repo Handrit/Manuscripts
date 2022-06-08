@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">AM 567 XIV gamma 4to</title>
+            <title type="main">AM 567 XIV γ 4to</title>
          </titleStmt>
          <publicationStmt>
             <authority>Den Arnamagnæanske Samling</authority>
@@ -17,31 +18,55 @@
                   <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
                   <collection key="AM"/>
-                  <idno>AM 567 XIV gamma 4to</idno>
+                  <idno>AM 567 XIV γ 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1415</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Gautreks saga</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1390" notAfter="1410">c. 1400</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="uniform">Gautreks saga</title> and <title type="uniform"
+                        >Hrólfs saga Gautrekssonar</title></summary>
+                  <textLang mainLang="non"/>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="1v">1r-v</locus>
+                     <title type="uniform">Gautreks saga</title>
+                     <bibl>Ranisch, <ref type="primary" target="Ranisch1900">Die Gautrekssaga in
+                           zwei Fassungen</ref>
+                        <biblScope unit="page">52-61: bottom text</biblScope>
+                        <note>Ed. E.</note>
+                     </bibl>
+                  </msItem>
+                  <msItem n="2" class="fas">
+                     <locus from="2r" to="5v">2r-5v</locus>
+                     <title type="uniform">Hrólfs saga Gautrekssonar</title>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>5. </extent>
+                        <extent>5. <dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">200</height>
+                           <width unit="mm">140</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Iceland</origPlace>, <origDate notBefore="1390" notAfter="1410">c.
+                        1400</origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">725</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

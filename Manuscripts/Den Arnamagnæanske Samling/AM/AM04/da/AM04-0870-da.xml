@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,22 +22,27 @@
                             <idno>2001</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform" xml:lang="da">Krøniken om Gråbrødrenes fordrivelse fra
-                            deres klostre i Danmark</title>
-                        <origPlace>Danmark</origPlace>
-                        <origDate notBefore="1680" notAfter="1720">c. 1700</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1">
+                        <summary><title type="uniform" xml:lang="da">Krøniken om Gråbrødrenes
+                                fordrivelse fra deres klostre i Danmark</title><note>Med forudgående
+                                    <q xml:lang="la">oriatio deprecativa</q> og <q xml:lang="la"
+                                    >ordo annorum Conventuum profigatorum</q>
+                            </note></summary>
+                        <msItem n="1" class="sagnfr">
+                            <locus from="1r" to="48v">1r-48v</locus>
                             <title type="uniform" xml:lang="la">Cronica seu brevis processus in
-                                causa Expulsionis Fratrum Minoritarum de suis Cænobiis provinciæ
+                                causa expulsionis fratrum Minoritarum de suis cænobiis provinciæ
                                 Danicæ</title>
                             <title type="uniform" xml:lang="da">Krøniken om Gråbrødrenes fordrivelse
                                 fra deres klostre i Danmark</title>
                             <textLang mainLang="la">Latin</textLang>
-                            <note>Med forudgående <q xml:lang="la">oriatio deprecativa</q> og <q xml:lang="la">ordo annorum Conventuum profigatorum</q>
-                            </note>
+                            <filiation>Afskrift af <ref type="ms">Bartholin K</ref>, som er en
+                                afskrift af <ref type="ms">NKS 185 c 4to</ref>.</filiation>
+                            <bibl>Gertz, <ref type="secondary-1" target="SMHDMAE">Scriptores minores
+                                    historiæ Danicæ medii ævi</ref><biblScope unit="volume"
+                                    >II</biblScope><biblScope unit="page">325-367</biblScope>
+                                <!-- check with book -->
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -49,39 +54,50 @@
                                     </p>
                                 </support>
                                 <extent>48, bl. 36 er blank. <dimensions type="leaf" scope="all">
-                                        <height>205</height>
-                                        <width>160</width>
+                                        <height unit="mm">205</height>
+                                        <width unit="mm">160</width>
                                     </dimensions>
                                 </extent>
                                 <foliation>
-                                    <p>Paginated 1-93.</p>
+                                    <p>Pagineret 1-93.</p>
                                 </foliation>
                                 <condition>Teksten på bl. 37 er overstreget.</condition>
                             </supportDesc>
                         </objectDesc>
                         <additions>
-                            <p>Rettelser og tillæg af <name type="person" key="ArnMag001">Arne
-                                    Magnusson</name>.</p>
+                            <p><name type="person" key="ArnMag001">Arne Magnusson</name> har senere
+                                kollationeret teksten med <ref type="ms">NKS 185 c 4to</ref>.
+                                Yderligere tydede han nogle overstregede passager i NKS 185 c 4to,
+                                sandsynligvis udført af en lutheransk læser, der var blevet stødt
+                                over de katolske fordømmelser i krøniken.</p>
                         </additions>
                         <bindingDesc>
                             <binding>
                                 <p>Tidligere indbundet i et bind betrukket med et dobbeltblad af et
-                                    latinsk <term>psalterium</term> (<title type="uniform">Psalterium V</title>); nu overført til <ref type="ms">Access 7d, Hs 111</ref>, bl. 27 og 30.</p>
+                                    latinsk <term>psalterium</term> (<title type="uniform"
+                                        >Psalterium V</title>); nu overført til <ref type="ms"
+                                        target="#Acc-0007-d-da">Access 7d, Hs 111</ref>, bl. 27 og
+                                    30.</p>
                             </binding>
                         </bindingDesc>
                         <accMat>
-                            <p>Foran er indklæbet to seddelnotitser af <name type="person" key="ArnMag001">Arne Magnússon</name>. Den ene giver nogle
-                                læsemåder til overstregede steder i håndskriftet, den anden
+                            <p>Foran er indklæbet to seddelnotitser af <name type="person"
+                                    key="ArnMag001">Arne Magnússon</name>. Den ene giver nogle
+                                læsemåder til overstregede steder i originalteksten, den anden
                                 meddeler: <q xml:lang="la">Ex Tomo K. Bartholiniano, illic vero manu
-                                    meâ Arnæ Magnæi, ex manuscripto chartaceo apud <name type="person" key="MatWor001">Matthiam Wormium</name>,
-                                    præsidem Ripenſem [<ref type="ms">Ny kgl. sml. 185 c
-                                        4to</ref>]. accuratè collatum cum Bartholiniano.
-                                    — Nunc [<date when="1726">1726</date>].
-                                    accuratiſſimè collatum cum originali in 8vo,
+                                    meâ Arnæ Magnæi, ex manuscripto chartaceo apud <name
+                                        type="person" key="MatWor001">Matthiam Wormium</name>,
+                                    præsidem Ripenſem [<ref type="ms">NKS 185 c 4to</ref>]. accuratè
+                                    collatum cum Bartholiniano. — Nunc [<date when="1726"
+                                        >1726</date>]. accuratiſſimè collatum cum originali in 8vo,
                                     qui pertinet ad Bibliothecam Regiam.</q>
                             </p>
                         </accMat>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Danmark</origPlace>, <origDate notBefore="1690"
+                                notAfter="1710">c. 1700</origDate>.</origin>
+                    </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
@@ -93,29 +109,31 @@
                         </adminInfo>
                         <listBibl>
                             <bibl>Gertz: <ref type="secondary-1" target="SMHDMAE">Scriptores minores
-                                    historiæ Danicæ medii ævi</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">328-329</biblScope>
+                                    historiæ Danicæ medii ævi</ref><biblScope unit="volume"
+                                    >II</biblScope><biblScope unit="page">328-329</biblScope>
+                            </bibl>
+                            <bibl>Knudsen: <ref type="secondary-1" target="Knudsen1850">En gammel
+                                    Krönike om Graabrödrenes Udjagelse af deres Klostre i
+                                    Danmark</ref>
+                                <biblScope unit="page">330-331</biblScope>
                             </bibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                                 <biblScope unit="volume">II</biblScope>
-                                <biblScope unit="pages">239-240</biblScope>
+                                <biblScope unit="page">239-240</biblScope>
                             </bibl>
                             <bibl>Langebek: <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
                                     Aevi</ref>
                                 <biblScope unit="volume">V</biblScope>
                             </bibl>
-                            <bibl>
-                                <ref type="secondary-1" target="NKirS1">Ny kirkehistoriske
-                                    Samlinger</ref>
-                                <biblScope unit="volume">I</biblScope>
-                                <biblScope unit="pages">330-331</biblScope>
-                            </bibl>
-
                         </listBibl>
                     </additional>
-
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2022-03-23" who="EvaWed001">Opdateret filiation, additions og
+                bibliography.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

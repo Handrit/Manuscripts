@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -19,15 +19,11 @@
                   <collection key="Acc"/>
                   <idno>Acc. 12</idno>
                   <altIdentifier type="internal" subtype="KKKat">
-                     <idno/>
+                     <idno>2835</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Dansk lovhåndskrift</title>;
-                  <origPlace key="DK">Danmark</origPlace>,
-                  <origDate notBefore="1500" notAfter="1599">s. XVI</origDate>. Dansk.
-               </head>
                <msContents>
+                  <summary><title type="supplied">Dansk lovhåndskrift</title></summary>
                   <msItem n="1" class="regist formal">
                      <locus from="1r" to="2v">1r-2v</locus>
                      <textLang mainLang="da"/>
@@ -49,12 +45,15 @@
                   </msItem>
                   <msItem n="4" class="log">
                      <locus from="142r" to="156v">142r-156v</locus>
+                     <title type="uniform">Rigens ret</title>
                      <textLang mainLang="da"/>
                      <rubric>Riigh<ex>e</ex>ns Retth</rubric>
                      <msItem n="4.1" class="dom">
                         <locus from="156v" to="156v">156v</locus>
+                        <title type="supplied">Faldsmål for rigets breve</title>
                         <rubric>Faldtzmaell for Righens Breffue</rubric>
-                        <note>Senere tilføjelse fra <date notBefore="1600" notAfter="1699">1600-tallet</date>.</note>
+                        <note>Senere tilføjelse fra <date notBefore="1600" notAfter="1699"
+                              >1600-tallet</date>.</note>
                      </msItem>
                   </msItem>
                   <msItem n="5" class="log">
@@ -73,23 +72,25 @@
                   <msItem n="7" class="log">
                      <locus from="190r" to="190v">190r-v</locus>
                      <textLang mainLang="da"/>
+                     <title type="supplied">Forklaring på bøder i loven</title>
                      <rubric>Forklaring paa Bödder i Loughen</rubric>
                      <note>Særlig hånd?</note>
                   </msItem>
                   <msItem n="8" class="log">
                      <locus from="191r" to="215r">191r-215r</locus>
                      <textLang mainLang="da"/>
-                     <title type="uniform">Ribes stadret</title>
-                     <note>Senere tilføjelse fra <date notBefore="1600" notAfter="1699">1600-tallet</date>; med forudskikket <title>Kong
-                           Kristoffers privilegium</title> (dateret <date when="1241">1241</date>)
-                        og efterfølgende register.</note>
+                     <title type="uniform">Ribes stadsret</title>
+                     <note>Senere tilføjelse fra <date notBefore="1600" notAfter="1699"
+                           >1600-tallet</date>; med forudskikket <title type="uniform">Kong Kristoffers
+                           privilegium</title> (dateret <date when="1241">1241</date>) og
+                        efterfølgende register.</note>
                   </msItem>
 
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Papir.</support>
+                        <support><material>Papir</material>.</support>
                         <extent>263. <dimensions type="leaf" scope="all">
                               <height>190</height>
                               <width>150</width>
@@ -99,11 +100,12 @@
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="NicBre001" scope="major" script="unknown">
-                        <p> Hovedsagelig skrevet af Nicolaus Bredal.</p>
+                        <p> Hovedsagelig skrevet af <name type="person" key="NicBre001">Nicolaus Bredal</name>.</p>
                      </handNote>
                   </handDesc>
                   <decoDesc>
-                     <decoNote type="initial" subtype="flourished"><p>Ornamenterede initialer.</p></decoNote>
+                     <decoNote type="initial" subtype="flourished"><p>Ornamenterede
+                        initialer.</p></decoNote>
                   </decoDesc>
                   <additions>Bl. <locus from="215v" to="215v">215v</locus> bærer ejernotitser og
                      optegnelser fra <date when="1638">1638</date>. På forsatsbladets inderside ses
@@ -112,11 +114,17 @@
                      anden hånd).</additions>
                </physDesc>
                <history>
-                  <origin notBefore="1500" notAfter="1599"><p>Skrevet i <origPlace key="DK">Danmark</origPlace>, hovedsageligt af <name type="person" key="NicBre001">Nicolaus Bredal</name> i <origDate notBefore="1500" notAfter="1599">1500-tallet</origDate>. </p></origin>
-                  <provenance><p>Håndskriftet har tilhørt <name type="person" key="BolLux001">Luxdorph</name>. På forsatsbladets inderside har han skrevet sit navn,
+                  <origin notBefore="1500" notAfter="1599"><p>Skrevet i
+                           <origPlace>Danmark</origPlace>, hovedsageligt af <name type="person"
+                           key="NicBre001">Nicolaus Bredal</name> i <origDate notBefore="1500"
+                           notAfter="1599">1500-tallet</origDate>. </p></origin>
+                  <provenance><p>Håndskriftet har tilhørt <name type="person" key="BolLux001"
+                           >Luxdorph</name>. På forsatsbladets inderside har han skrevet sit navn,
                         og på bindet ses hans ejermærke.</p></provenance>
                   <!-- Bredall eller Bredal? -->
-                  <acquisition><p><ref target="#Acc-0009-da #Acc-0010-da #Acc-0011-da #Acc-0013-da #Acc-0014-da">Accessoria 9-14</ref> er doneret til <name type="org">Den Arnamagnæanske
+                  <acquisition><p><ref
+                           target="#Acc-0009-da #Acc-0010-da #Acc-0011-da #Acc-0013-da #Acc-0014-da"
+                           >Accessoria 9-14</ref> er doneret til <name type="org">Den Arnamagnæanske
                            Samling</name> af cand.mag. <name type="person">M. Lorentzen</name> og
                         dr.jur. <name type="person">V. A. Secher</name>, som havde indkøbt dem til
                         eventuel benyttelse ved en påtænkt udgave af de gamle danske
@@ -125,18 +133,20 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>Katalogiseret <date when="2021-03-11"/> af <name type="person" key="EvaWed001">EW-J</name>. Ufærdig katalogbeskrivelse. Beskrivelsen
+                        <source>Katalogiseret <date when="2021-03-11"/> af <name type="person"
+                              key="EvaWed001">EW-J</name>. Ufærdig katalogbeskrivelse. Beskrivelsen
                            bygger på <bibl>Kålunds <ref target="KatKB">Katalog over de
-                              oldnorsk-islandske Håndskrifter</ref>, s. <biblScope unit="pages">456-57</biblScope></bibl>.
-                        </source>
+                                 oldnorsk-islandske Håndskrifter</ref> <biblScope unit="page"
+                                 >456-57</biblScope></bibl>. </source>
                      </recordHist>
                   </adminInfo>
                </additional>
-               
-
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-11-03" who="EvaWed001">Opdateret opmærkning.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

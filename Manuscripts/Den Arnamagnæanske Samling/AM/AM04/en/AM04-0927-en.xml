@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,47 @@
                      <idno>2059</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Beskrivelse over de islandske håndskrifter i det kgl. bibliothek i Stockholm og Universitetsbiblioteket i Uppsala</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1800" notAfter="1900">s. XIX</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="da">Danish</textLang>
+                  <summary><title type="supplied">Catalogue of Icelandic Manuscripts Kept in The
+                        Royal Library of Sweden and Uppsala University Library</title><note>Prefaced
+                        by a concise account of the results from a study of the
+                     manuscripts.</note></summary>
+                  <msItem n="1" class="hdrskr">
+                     <locus from="1r" to="385v">1r-185v</locus>
+                     <title type="supplied">Catalogue of Icelandic Manuscripts Kept in The Royal
+                        Library of Sweden and Uppsala University Library</title>
+                     <textLang mainLang="da"/>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>385. 
-<dimensions type="leaf" scope="all">
-                              <height>260</height>
-                              <width>200</width>
-                           </dimensions>
-                        </extent>
+                        <extent>385. <dimensions type="leaf" scope="all">
+                              <height unit="mm">260</height>
+                              <width unit="mm">200</width>
+                           </dimensions>. </extent>
                      </supportDesc>
                   </objectDesc>
+                  <accMat>
+                     <p>Four folio leaves containing a younger register of <q xml:lang="sv"
+                           >Isländska handskrifter</q> (Icelandic manuscripts) kept in <name
+                           type="org" key="UUB">Uppsala University Library</name> are enclosed.</p>
+                  </accMat>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Iceland?</origPlace>
+                     <origDate notBefore="1800" notAfter="1899">s. XIX</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">265</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

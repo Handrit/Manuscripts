@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,38 +22,69 @@
                      <idno>2659</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Kvæði eptir Sera Jón Þorláksson</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1815-01-01" notAfter="1815-12-31">1815</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Kvæði Jóns Þorlákssonar II</title>. Part I: <ref
+                     type="ms" target="#Rask084-en">Rask 84</ref>.</summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main"><locus>1r</locus> Kvædi <lb/> eptir <lb/> Sra. Jón
+                           Þorláks&#x017F;on <lb/> frumkvedin og útlögd</titlePart>
+                        <titlePart type="sub">Uppſkrifud á Bessastödum <lb/> 1815 <lb/> af Jóhann Bjarnaſyni
+                           ſkolapilti <lb/> 2<hi rend="sup">nad</hi> ſafn</titlePart>
+                        <note>Added by <name type="person" key="RasRas001">Rask</name>.</note>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="kvad">
+                     <locus from="1r" to="73v">1r-73v</locus>
+                     <author key="JonTho011">Jón Þorláksson</author>
+                     <title type="supplied">Kvæði Jóns Þorlákssonar</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <msItem n="1.1" class="regist">
+                        <locus from="2r" to="2v">2r-v</locus>
+                        <title type="supplied">Table of Contents</title>
+                        <rubric>Innihald bókarinnar</rubric>
+                        <note>Added by <name type="person" key="RasRas001">Rask</name>.</note>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>58. 
-<dimensions type="leaf" scope="all">
-                              <height>170</height>
-                              <width>108</width>
-                           </dimensions>
-                        </extent>
+                        <support>
+                           <p>
+                              <material>Paper</material>.</p>
+                        </support>
+                        <extent>58. Fols 1v, 2v-4v are blank. <dimensions type="leaf" scope="all">
+                           <height unit="mm">170</height>
+                           <width unit="mm">108</width>
+                        </dimensions>.</extent>
+                        <foliation>
+                           <p>Paginated 1-107.</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
-                  <handDesc hands="1">
-                     <handNote scribe="JohBja01" scope="sole" script="unknown">
-                        <p>
-Written by Jóhann Bjarnason.</p>
+                  <handDesc hands="2">
+                     <handNote scribe="JohBja001" scope="major" script="unknown">
+                        <p>Written by <name type="person" key="JonBja001">Jóhann Bjarnason</name>.</p>
+                     </handNote>
+                     <handNote scribe="RasRas001" scope="minor" script="unknown">
+                        <p>The last leaf is written by <name type="person" key="RasRas001">Rasmus Rask</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>, 
+                  <origDate when="1815">1815</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >548</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-29" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

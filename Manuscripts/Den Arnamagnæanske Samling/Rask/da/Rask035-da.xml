@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,12 +23,9 @@
                      <idno>2606</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="en">Sagahåndskrift</title>;
-                     <origPlace>Island</origPlace>, <origDate notBefore="1700" notAfter="1799">s.
-                     XVIII</origDate>.</head>
                <msContents>
-                  <msItem n="1" class="forn">
+                  <summary><title type="supplied">Sagahåndskrift</title></summary>
+                  <msItem n="1" class="fas">
                      <locus from="1r:1" to="24r:16">1r-24r</locus>
                      <title type="uniform">Egils saga einhenda ok Ásmundar berserkjabana</title>
                      <textLang mainLang="is">Islandsk</textLang>
@@ -39,7 +37,7 @@
                            s<ex>e</ex>m A Var <lb/> Lukum<ex>m</ex> Vier so = <lb/> þeýare
                         Sßgu</explicit>
                   </msItem>
-                  <msItem n="2" class="forn">
+                  <msItem n="2" class="fas">
                      <locus from="25r:1" to="32r:13">25r-32r</locus>
                      <title type="uniform">Illuga saga Gríðarfóstra</title>
                      <textLang mainLang="is">Islandsk</textLang>
@@ -111,7 +109,7 @@
                            <ex>og</ex> lykur so Sógú þ<ex>ess</ex>are m<ex>ed</ex> so ordnu <lb/>
                         nidur læge</explicit>
                   </msItem>
-                  <msItem n="7" class="forn">
+                  <msItem n="7" class="fas">
                      <locus from="109r:1" to="121v:8">109r-121v</locus>
                      <title type="uniform">Þorsteins þáttr bæjarmagns</title>
                      <title type="parallel">Þorsteins þáttr bæjarbarns</title>
@@ -152,7 +150,7 @@
                         <supplied reason="damage">Fer</supplied>trams Sogu <lb/> ZELOS
                         [?]</explicit>
                   </msItem>
-                  <msItem n="10" class="forn" defective="true">
+                  <msItem n="10" class="fas" defective="true">
                      <locus from="168r:1" to="230v:18">168r-230v</locus>
                      <title type="uniform">Göngu-Hrólfs saga</title>
                      <rubric>Hier Biriar Sgu af Hrolfe <lb/> Sturlaugs Syne</rubric>
@@ -185,14 +183,14 @@
                         </support>
                         <extent>i+237+i. Bl. <locus>37v og 65v</locus> er blanke, bl. <locus>24v og
                               141</locus> var opr. blanke. <dimensions type="leaf" scope="all">
-                              <height>213</height>
-                              <width>168</width>
+                              <height unit="mm">213</height>
+                              <width unit="mm">168</width>
                            </dimensions>.</extent>
                         <foliation>
-                           <p>Folieret med blyant yderst i nederste hjørne på hver tiende
-                                 side og i slutningen af hver saga, samt på bl. <locus>207</locus>
-                                 og <locus>211</locus>. Ukorrekt paginering på hver tiende side, starter
-                              på bl. <locus>31</locus>; er senere rettet.</p>
+                           <p>Folieret med blyant yderst i nederste hjørne på hver tiende side og i
+                              slutningen af hver saga, samt på bl. <locus>207</locus> og
+                                 <locus>211</locus>. Ukorrekt paginering på hver tiende side
+                              (starter på bl. <locus>31</locus>) der senere er blevet rettet.</p>
                         </foliation>
                         <collation>
                            <p>
@@ -209,14 +207,15 @@
                      </layoutDesc>
                   </objectDesc>
                   <additions>
-                     <p>Bl. <locus>24r</locus> har dateringen: <q xml:lang="is">
+                     <p>Bl. 24r indeholder dateringen: <q xml:lang="is">
                            <date when="1743-02-21">21 februarij An<ex>n</ex>o 1743</date>
-                        </q>. På bl. <locus>24v</locus> er påtegnet forskellige navne: <q xml:lang="is">Einar Magnus Son</q>, <q xml:lang="is">Bæring Biarnar
+                        </q>. På bl. <locus>24v</locus> er der påtegnet forskellige navne: <q
+                           xml:lang="is">Einar Magnus Son</q>, <q xml:lang="is">Bæring Biarnar
                            Son</q>, <q xml:lang="is">Jon Haldors</q> og <q xml:lang="is">Gudmundur
                            <lb/> Jons Syne</q>, og sætningen <q xml:lang="is">Ærupriddum vegum
                            manne</q>. På bl. <locus>65r</locus> er navnene <q xml:lang="is">Jon
                            Haldorsson</q> og <q xml:lang="is">Bæring Biarna son</q> overstreget. På
-                        bl. <locus>141v</locus> er skrevet: <q xml:lang="is">þa bok a Jon Haldors
+                        bl. <locus>141v</locus> er der skrevet: <q xml:lang="is">þa bok a Jon Haldors
                            Son <lb/> Virduglugum heidurs manne</q>, <q xml:lang="is">Vid for neme
                            <lb/> Herra Gull smids</q>, <q xml:lang="is">Jone Sygurd Sin Voge</q> og
                            <q xml:lang="is">Hiol</q>. I nederste margen på bl. <locus>237v</locus>
@@ -225,20 +224,23 @@
                   </additions>
                   <bindingDesc>
                      <binding contemporary="false">
-                        <p>Bindet er fra ca. <date notBefore="1880" notAfter="1920">1880-1920</date>.</p>
+                        <p>Bindet er fra ca. <date notBefore="1880" notAfter="1920"
+                           >1880-1920</date>.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin notBefore="1700" notAfter="1799">
-                     <p>Skrevet i <origPlace>Island</origPlace> i <origDate>1700-tallet</origDate>.
-                        Datering på bl. 24r: <date when="1743">1743</date>.</p>
+                     <p>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1700"
+                           notAfter="1799">1700-tallet</origDate>. Datering på bl. 24r: <date
+                           when="1743">1743</date>.</p>
                   </origin>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <p>Katalogiseret <date when="2008-03-18">18. marts 2008</date> af <name type="person" key="SilHuf001">Silvia Hufnagel</name>.</p>
+                        <p>Katalogiseret <date when="2008-03-18">18. marts 2008</date> af <name
+                              type="person" key="SilHuf001">Silvia Hufnagel</name>.</p>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
@@ -251,6 +253,9 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-06-20" who="EvaWed001">Opdateret @class.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

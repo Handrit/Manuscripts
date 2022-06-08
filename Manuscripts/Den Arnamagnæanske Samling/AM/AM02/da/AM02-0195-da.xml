@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,14 +22,11 @@
                             <idno>302</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Olai Petri Svenska Krönika</title>, <origPlace>Danmark</origPlace>;
-                            <origDate notBefore="1619" notAfter="1619">1619</origDate>
-                    </head>
-                    <msContents>
-                        <msItem>
+                     <msContents>
+                    	<summary> <title type="uniform">Olai Petri Svenska Krönika</title></summary>
+                        <msItem n="1" class="sagnfr">
                             <author key="OlaPet001">Olaus Petri</author>
-                            <title type="uniform">Olai Petri Svenska Krönika</title>
+                            <title type="uniform">Svenska Krönika</title>
                             <textLang mainLang="da" otherLangs="de la">Dansk med tysk og
                                 latin</textLang>
                             <note>Bl. 1r indeholder forfatterens hilsen til læserne samt afskriver
@@ -45,8 +42,8 @@
                                     </p>
                                 </support>
                                 <extent>168 + 7 ubeskrevne. Bl. 1v ubeskrevet. <dimensions type="leaf" scope="all">
-                                        <height>320</height>
-                                        <width>202</width>
+                                        <height unit="mm">320</height>
+                                        <width unit="mm">202</width>
                                     </dimensions>
                         </extent>
                                 <foliation>Samtidig foliering.</foliation>
@@ -72,14 +69,24 @@
                         <bindingDesc>
                             <binding>
                                 <p>Orange helbind i tyndt blødt skind. <dimensions type="binding" unit="mm">
-                                        <height>322</height>
-                                        <width>200</width>
-                                        <depth>35</depth>
+                                        <height unit="mm">322</height>
+                                        <width unit="mm">200</width>
+                                        <depth unit="mm">35</depth>
                                     </dimensions>
                         </p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
+                	<history><origin><origPlace>Danmark</origPlace>;
+                		<origDate notBefore="1619" notAfter="1619">1619</origDate>.</origin></history>
+                	<additional>
+                		<listBibl>
+                			<bibl><ref type="secondary-1" target="KKKat"/>
+                			<biblScope unit="volume">I</biblScope>
+                				<biblScope unit="page">161-162</biblScope>
+                			</bibl>
+                		</listBibl>
+                	</additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

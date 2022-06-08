@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,16 +23,12 @@
                             <idno>2599</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Saga bók</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1750" notAfter="1799">s. XVIII 2/4</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="supplied">Sagas of Icelanders</title></summary>
+                        <textLang mainLang="is">Icelandic</textLang>
                         <msItem n="1">
                             <locus from="1r" to="65v">1r-65v</locus>
                             <title type="uniform">Vatnsdæla saga</title>
-                            <textLang mainLang="is">Icelandic</textLang>
                             <rubric>Vatns-dæla</rubric>
                         </msItem>
                         <msItem n="2" defective="true">
@@ -41,7 +38,7 @@
                             <textLang mainLang="is">Icelandic</textLang>
                             <rubric>Sagann af Broddhelga <lb/> audru Nafne <lb/> Vopnfyrdinga
                                 saga</rubric>
-                            <note>Space left empty for indicating the lacuna.</note>
+                            <note>Space left empty to indicate a lacuna.</note>
                         </msItem>
                         <msItem n="3">
                             <locus from="91r" to="129v">91r-129v</locus>
@@ -66,19 +63,22 @@
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
-                                    <p>Paper</p>
+                                    <p><material>Paper</material>.</p>
                                 </support>
-                                <extent>193, fols 66, 78v-82v, 89v-90v, 130, and 169v are blank.
+                                <extent>193, fols 66, 78v-82v, 89v-90v, 130 and 169v are blank.
                                         <dimensions type="leaf" scope="all">
-                                        <height>195</height>
-                                        <width>160</width>
+                                        <height unit="mm">195</height>
+                                        <width unit="mm">160</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
+                        <handDesc n="9">
+                            <handNote script="unknown">Various hands.</handNote>
+                        </handDesc>
                         <bindingDesc>
                             <binding>
-                                <p>Fragments of private letters from c. 1800 are used for the
+                                <p>Fragments of private letters from c. 1800 are used as material for the
                                     pastedown and for the fly-leaves I-IV, at the beginning and the
                                     ending of the codex, respectively. The letters are partly
                                     written in Icelandic, partly in a Danish-Icelandic mixed
@@ -88,19 +88,23 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1750" notAfter="1799" cert="high" evidence="conjecture">
-                            <p>Written in Iceland in the second half of the eighteenth century.</p>
+                            <p>Written in <origPlace>Iceland</origPlace> in <origDate
+                                    notBefore="1750" notAfter="1799">the second half of the
+                                    eighteenth century</origDate>.</p>
                         </origin>
                         <acquisition>
-                            <p>Fol. IIv has the following account: <q xml:lang="is">Þessi Bók <gap reason="irrelevant"/> er mér underskrifudum med verdi keypt.
-                                    Holti þann <date when="1811-09-17">17. Augusti 1811</date>.
-                                        <name type="person" key="ThoBod001">Th.
-                                    Bödvarsson</name>
-                        </q>.</p>
+                            <p>According to a note on IIv <name type="person" key="RasRas001">Rasmus
+                                    Rask</name> bought the codex from <name type="person"
+                                    key="ThoBod001">Þorvaldur Böðvarsson</name>
+                                <date when="1811-09-17">17 August 1811</date>: <q xml:lang="is"
+                                    >Þessi Bók <gap reason="irrelevant"/> er mér underskrifudum med
+                                    verdi keypt. Holti þann 17. Augusti 1811. Th. Bödvarsson</q>.</p>
                         </acquisition>
                     </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2021-10-11" who="EvaWed001">Checked and updated.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

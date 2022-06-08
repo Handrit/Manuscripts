@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,13 +23,14 @@
                      <idno>707</idno>
                   </altIdentifier>
                </msIdentifier>
-<head><title>Norwegian Legal Manuscript</title></head>
-
                <msContents>
+                  <summary><title type="supplied">Norwegian Legal Manuscript</title></summary>
                   <msItem n="1" class="log">
                      <locus from="1r" to="82r">1r-82r</locus>
+                     <title type="uniform" xml:lang="en">King Magnus the Lawmender’s National
+                        Law of Norway</title>
                      <title type="uniform" key="non">Landslǫg</title>
-                     <textLang mainLang="no">Old Norse/Norwegian</textLang>
+                     <textLang mainLang="non">Old Norse/Norwegian</textLang>
                      <bibl>
                         <ref type="primary-2" target="NgL2">Norges gamle Love</ref>
                         <biblScope unit="volume">II</biblScope>
@@ -39,10 +40,11 @@
                   </msItem>
                   <msItem n="2" class="log">
                      <locus from="82r" to="90v">82r-90v</locus>
-                     <title>Den Nyere Gulatings Kristenret</title>
-                     <textLang mainLang="no">Old Norse/Norwegian</textLang>
+                     <title type="uniform">Gulaþingslǫg (Kristinn réttr hinn nýi)</title>
+                     <textLang mainLang="non">Old Norse/Norwegian</textLang>
                      <bibl>
-                        <ref type="primary-2" target="NgL2">Norges gamle Love</ref><biblScope unit="volume">II</biblScope>
+                        <ref type="primary-2" target="NgL2">Norges gamle Love</ref><biblScope
+                           unit="volume">II</biblScope>
                         <biblScope unit="pages">306-23, 326-35</biblScope><note>Ed. B</note>
                      </bibl>
                   </msItem>
@@ -54,17 +56,17 @@
                            <p><material>Parchment</material>.</p>
                         </support>
                         <extent>90. <dimensions type="leaf" scope="all">
-                              <height>243</height>
-                              <width>170</width>
+                              <height unit="mm">243</height>
+                              <width unit="mm">170</width>
                            </dimensions>
                         </extent>
                         <collation>
-                           <p>There are 11 gatherings consisting of eight leaves each; the last
-                              quire consists of two leaves.</p>
+                           <p>11 gatherings consisting of 8 leaves; the last
+                              quire, however, consists of two leaves.</p>
                         </collation>
                         <condition>
                            <p>The first and the last leaves show traces of exposure to damp, and the
-                              lower margin of f. 76 is torn. According to the AM-slips, the
+                              bottom margin of f. 76 is torn. According to the AM-slips, the
                               manuscript once contained four leaves comprising a list of bishops for
                                  <name type="place" key="Nidar01">Nidaros</name> and short pieces
                               concerning ecclesiastical affairs. These were, however, damaged due to
@@ -73,7 +75,7 @@
                               damaged leaves. (Árni Magnússon's transcriptions are now catalogued as
                                  <ref type="ms" target="AM04-0683-b-en">AM 683 b 4to</ref> and Addit
                               7 e 8vo).</p>
-                         </condition>
+                        </condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="27">
@@ -166,7 +168,8 @@
                      <p>On fol. 1r is written the name <name type="person" key="ThoTor001">Th.
                            Torfæus</name> and according to the AM-slips a goldbeater bought the
                         manuscript at the auction of <name type="person" key="RasRas002">Rasmus
-                           Rasmussen</name>and in <date>1707</date> he sold it to <name type="person" key="ThoTor001">Torfæus</name>.</p>
+                           Rasmussen</name>and in <date>1707</date> he sold it to <name
+                           type="person" key="ThoTor001">Torfæus</name>.</p>
                   </provenance>
                </history>
                <additional>
@@ -177,10 +180,7 @@
                         </source>
                      </recordHist>
                      <custodialHist>
-                        <custEvent type="photography">
-                           <p>The manuscript was photographed 1991</p>
-                        </custEvent>
-                        <custEvent type="conservation">
+                          <custEvent type="conservation">
                            <p>The manuscript was bound in a modern standard half binding during the
                               period 06.30.1981-04.20.1982.</p>
                         </custEvent>
@@ -188,32 +188,20 @@
                   </adminInfo>
                   <surrogates>
                      <p>
-                        <bibl>
-                           <title type="gmd">microfilm</title>
-                           <idno>Pos. 570 (archive)</idno>
-                           <date>1981</date>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">microfilm</title>
-                           <idno>Neg. 619 (master)</idno>
-                           <date>1981</date>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">diapositive</title>
-                           <idno>AM 62 4to</idno>
-                           <date>March 1984</date>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">70 mm</title>
-                           <idno>67</idno>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">b/w prints</title>
-                           <idno>AM 62 4to</idno>
-                           <date>March 1981</date>
-                           <note>There are supplementary prints from <date>November 1981</date>
-                           </note>
-                        </bibl>
+                        <list>
+                           <item> Microfilm, <idno>Pos. 570 (archive)</idno>, from <date when="1981"
+                                 >1981</date>
+                           </item>
+                           <item> Microfilm <idno>Neg. 619 (master)</idno>, from <date when="1981"
+                                 >1981</date>
+                           </item>
+                           <item> Diapositives from <date when="1984-03">March 1984</date>
+                           </item>
+                           <item> 70 mm, <idno>67</idno>, s.d.</item>
+                           <item> Black and white prints from <date when="1981-03">March 1981</date>
+                              (supplementary prints from <date when="1981-11">November 1981</date>
+                              exist).</item>
+                        </list>
                      </p>
                   </surrogates>
                </additional>

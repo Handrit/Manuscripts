@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,50 @@
                      <idno>2229</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Norwegian Legal Manuscript</title>
-                  <origPlace>Norway</origPlace>
-                  <origDate notBefore="1601-01-01" notAfter="1601-12-31">1601</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Norwegian Legal Manuscript</title></summary>
                   <textLang mainLang="da">Danish</textLang>
-               </msContents>
+                  <titlePage type="MS">
+                     <titlePart type="main"> Den No<lb/>rſke Lo<lb/>ugbog
+                        Vdſkre<lb/>ffuen aff Baltzer <lb/> Cafperren Paa <lb/>
+                        Danſke: <lb/> Anno Domini . <lb/> . <date when="1601">1601</date>
+                     </titlePart>
+                  </titlePage>
+                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>326. 
-<dimensions type="leaf" scope="all">
-                              <height>146</height>
-                              <width>95</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>326. <dimensions type="leaf" scope="all">
+                              <height unit="mm">146</height>
+                              <width unit="mm">95</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Norway</origPlace>,
+                     <origDate when="1601">1601</origDate>.
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">347-348</biblScope>
+                     </bibl>
+                     <bibl><ref target="ChrVidSkFor14"/>
+                        <biblScope unit="pages">14</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="NgL4"/>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="pages">611-612</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,12 +22,11 @@
                      <idno>687</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="da">Magnus Erikssons svenske stadslov</title>;
-                     <origPlace>Sverige</origPlace>, <origDate notBefore="1550" notAfter="1599" evidence="conjecture" resp="KKKat">s.
-                     XVI 2/2</origDate>. </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform" xml:lang="da">Magnus Erikssons svenske
+                        stadslov</title></summary>
+                  <msItem n="1" class="log">
+                     <locus from="2r" to="100v">2r-100v</locus>
                      <title type="uniform" xml:lang="da">Magnus Erikssons svenske stadslov</title>
                      <textLang mainLang="sv">Svensk</textLang>
                   </msItem>
@@ -36,15 +36,16 @@
                      <supportDesc material="chart">
                         <support>
                            <p>
-                              <material>Papir</material>. Bl. 1 er et opr. ubeskrevet friblad,
-                              der bærer dansk titel og enkelte andre, ligegyldige ord.</p>
+                              <material>Papir</material>.</p>
                         </support>
-                        <extent>101 (100 + 1<hi rend="sup">bis</hi>). <dimensions type="leaf" scope="all">
-                              <height>194</height>
-                              <width>150</width>
+                        <extent>101. Bl. 1 er et opr. ubeskrevet friblad. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">194</height>
+                              <width unit="mm">150</width>
                            </dimensions>.</extent>
+                        <foliation>Folieret 1-100 (inkl. 1<hi rend="sup">bis</hi>).</foliation>
                         <condition>
-                           <p>Bladene langs den ydre margen er medtagne af fugtighed og slid.</p>
+                           <p>Bladene langs den ydre margin er medtagne af fugtighed og slid.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -58,29 +59,37 @@
                            <ref type="secondary-1" target="CorpJur9">Corpus juris Sueo-Gotorum
                               antiqui</ref>
                            <biblScope unit="volume">IX</biblScope>
-                           <biblScope unit="pages">xxxiv</biblScope>
-                        </bibl>) er håndskriftet skrevet af stadsskriveren <name type="person" key="JacIll001">Jacob Iller</name> i <name type="place">Mariestad</name>
+                           <biblScope unit="page">xxxiv</biblScope>
+                        </bibl>) er håndskriftet skrevet af stadsskriveren <name type="person"
+                           key="JacIll001">Jacob Iller</name> i <name type="place">Mariestad</name>
                      </handNote>
                   </handDesc>
                   <decoDesc>
-                     <decoNote type="initial">
+                     <decoNote type="initial" subtype="flourished">
                         <p>Flere af initialerne er forholdsvis stærkt forsirede.</p>
                      </decoNote>
                   </decoDesc>
-                  <accMat>Der er to AM-sedler. På den ene har <name type="person" key="ArnMag001">Arne Magnusson</name> noteret: <q>Ex auctionen <name type="person" key="FreRos01">Rostgardiana</name> Num. 457</q>. På den anden har en
-                     hånd fra <date notBefore="1600" notAfter="1699">1600-tallet</date> skrevet
+                  <accMat>Der er to AM-sedler. På den ene har <name type="person" key="ArnMag001"
+                        >Arne Magnusson</name> noteret: <q>Ex auctione Rostgardiana Num. 457</q>. På den anden har en hånd
+                     fra <date notBefore="1600" notAfter="1699">1600-tallet</date> skrevet
                      henvisninger til lovens indhold.</accMat>
                </physDesc>
+               <history>
+                  <origin><origPlace>Sverige</origPlace>, <origDate notBefore="1550" notAfter="1599"
+                        evidence="conjecture" resp="KKKat">s. XVI<hi rend="sup">2</hi></origDate>.</origin>
+                  <acquisition><name type="person" key="ArnMag001">Arne Magnusson</name> købte håndskriftet på <name type="person"
+                     key="FreRos001">Rostgaard</name>s auktion i <date when="1726">1726</date>.</acquisition>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">369</biblScope>
+                        <biblScope unit="page">369</biblScope>
                      </bibl>
                      <bibl>Schlyter og Collin: <ref type="secondary-1" target="CorpJur9">Corpus
-                        juris Sueo-Gotorum antiqui</ref>
+                           juris Sueo-Gotorum antiqui</ref>
                         <biblScope unit="volume">IX</biblScope>
-                        <biblScope unit="pages">xxxiv</biblScope>
+                        <biblScope unit="page">xxxiv</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

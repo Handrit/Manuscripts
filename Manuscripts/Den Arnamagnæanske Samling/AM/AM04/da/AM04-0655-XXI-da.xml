@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,22 +27,19 @@
                             <note>Bl. 1 og 4</note>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Brudstykker af et Islandsk breviarium</title>;
-                            <origPlace>Island</origPlace>, <origDate notBefore="1200" notAfter="1249">s. XIII 1/2</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="supplied">Brudstykker af et Islandsk
+                                breviarium</title></summary>
                         <msItem n="1" defective="true">
+                            <locus from="1r" facs="#AM04-0655-XXI-0001r" to="4v"/>
                             <title type="supplied">Brudstykker af et Islandsk breviarium</title>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                            <textLang mainLang="non">Norrønt/Islandsk</textLang>
                             <incipit defective="true">h<ex>ann</ex> þar mrg</incipit>
                             <explicit defective="true">en er lyþr</explicit>
                             <note>Lakune efter bl 2 og 1?</note>
-                            <listBibl>
                                 <bibl>Þorvaldur Bjarnason: <ref type="primary-1" target="Leifar1878">Leifar fornra kristinna fræða íslenzkra</ref>
-                                    <biblScope unit="pages">167-72</biblScope>
+                                    <biblScope unit="page">167-72</biblScope>
                                 </bibl>
-                            </listBibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -51,14 +49,16 @@
                                     <p>Pergament.</p>
                                 </support>
                                 <extent>4. <dimensions type="leaf" scope="all">
-                                        <height>200</height>
-                                        <width>141</width>
+                                        <height unit="mm">200</height>
+                                        <width unit="mm">141</width>
                                     </dimensions>
                                 </extent>
                                 <condition>
-                                    <p>Af de to sammenhængende blade, 1+4, som engang var indsat i <ref type="ms" target="AM04-0686-b-da">AM 686 b 4to</ref>, er
-                                        kun sidens øverste 8 linjer bevarede, idet resten er
-                                        bortskåren. Bl. 2 og 3 har mindre beskadigelser forneden.</p>
+                                    <p>Af de to sammenhængende blade, 1+4, som engang var indsat i
+                                            <ref type="ms" target="AM04-0686-b-da">AM 686 b
+                                            4to</ref>, er kun sidens øverste 8 linjer bevarede, idet
+                                        resten er bortskåren. Bl. 2 og 3 har mindre beskadigelser
+                                        forneden.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -71,16 +71,14 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl>
+                            <p>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1200" notAfter="1250" evidence="conjecture" resp="IHFol2 ONP">1200-tallets første halvdel</origDate> (<bibl>
+                                    <ref type="secondary-1" target="IHFol2">Hreinn Benediktsson 1965</ref>
+                                    <biblScope unit="page">xxix</biblScope>
+                                </bibl>). <name type="person" key="KriKaa001">Kålund</name>s datering: 1200-tallet (<bibl>
                                     <ref type="secondary-1" target="KKKat">Katalog</ref>
                                     <biblScope unit="volume">II</biblScope>
-                                    <biblScope unit="pages">64</biblScope>
-                                </bibl>) har dateret det til <origDate notBefore="1200" notAfter="1299" cert="medium" evidence="conjecture" resp="KKKat">1200-tallet</origDate>. Senere har <name type="person" key="HreBen001">Hreinn Benediktsson</name> (<bibl>
-                                    <ref type="secondary-1" target="IHFol2">Early Icelandic
-                                        Script</ref>
-                                    <biblScope unit="pages">xxix</biblScope>
-                                </bibl>) dateret det mere præcist til <origDate notBefore="1200" notAfter="1249" evidence="conjecture" resp="IHFol2 ONP">1200-tallets
-                                    første halvdel</origDate>.</p>
+                                    <biblScope unit="page">64</biblScope>
+                                </bibl>).</p>
                         </origin>
                     </history>
                     <additional>
@@ -94,11 +92,11 @@
                         </adminInfo>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">64</biblScope>
-                     </bibl>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">64</biblScope>
+                            </bibl>
                             <bibl>Widding og Bekker-Nielsen: <ref type="primary-2" target="OrdbogBNW">Fra ordbogens værksted</ref>
-                                <biblScope unit="pages">343-44</biblScope>
+                                <biblScope unit="page">343-44</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

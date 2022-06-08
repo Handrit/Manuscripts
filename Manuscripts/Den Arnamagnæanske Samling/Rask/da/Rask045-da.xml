@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,15 +22,14 @@
                      <idno>2616</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Kvæði Sigurðar Péturssonar sýslumanns</title>; 
-        <origPlace>Island?</origPlace> 
-                  <origDate notBefore="1800" notAfter="1815">s. XIX in</origDate>.
-    </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="supplied" xml:lang="is">Kvæði Sigurðar Péturssonar sýslumanns</title></summary>
+                  <msItem n="1" class="kvad">
+                     <author key="SigPet001">Sigurður Pétursson</author>
+                     <title type="supplied">Kvæði</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <note>Titel, register og sidste vise tilføjet af Rasmus Rask.</note>
+                     <note>Titel, register og sidste vise tilføjet af <name type="person"
+                        key="RasRas001">Rasmus Rask</name>.</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -38,19 +37,40 @@
                      <supportDesc material="chart">
                         <support>
                            <p>
-                              <material>Papir</material>.</p>
+                              <material>Papir.</material></p>
                         </support>
-                        <extent>24. Bl. 24v ff ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>184</height>
-                              <width>148</width>
-                           </dimensions>.</extent>
+                        <extent>24. Bl. 24v ff. ubeskrevne. <dimensions type="leaf" scope="all">
+                           <height unit="mm">184</height>
+                           <width unit="mm">148</width>
+                        </dimensions>.</extent>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2"><p>Tospaltet.</p></layout>
+                     </layoutDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island?</origPlace>, <origDate notBefore="1800" notAfter="1815">s. XIX
+                     in</origDate>.</origin>
+                  <acquisition><name type="org">Den Arnamagnæanske Kommision</name> købte <name
+                     type="person" key="RasRas001">Rasks</name> håndskrifter efter hans død i
+                     <date when="1832">1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">531</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+      <revisionDesc>
+         <change when="2021-06-22" who="EvaWed001">Tjekket og revideret.</change>
+      </revisionDesc>
+      </teiHeader>
    <facsimile>
       <surface/>
    </facsimile>

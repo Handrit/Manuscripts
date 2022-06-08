@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,42 +23,45 @@
                      <idno>460</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Norsk lovhåndskrift</title>; <origPlace key="NO">Norge</origPlace>, <origDate notBefore="1290" notAfter="1460">ca. 1300 (bl. 1r-76r); ca. 1350 (bl. 76v-78v);
-                        s. XIV (bl. 79r); ca. 1450 (bl. 80r-100v)</origDate>.</head>
                <msContents>
+                  <summary><title type="supplied" xml:lang="da">Norsk
+                     lovhåndskrift</title></summary>
+                  <textLang mainLang="non">Norrønt/norsk</textLang>
                   <msItem n="1" class="log">
-                     <locus from="1r" to="76v">1r-76r</locus>
-                     <title type="supplied" xml:lang="da">Magnus lagabøters norske landslov</title>
-                     <textLang mainLang="no">Norrønt/norsk</textLang>
-                     <note>Med slutnings-retterbøder og epilog til <title type="uniform">Gulaþingslǫg</title>.</note>
+                     <locus from="1ra" to="76rb">1ra-76rb</locus>
+                     <title type="uniform" xml:lang="da">Magnus lagabøters norske landslov</title>
+                     <title type="uniform" xml:lang="non">Landslǫg</title>
+                     <note>Med slutnings-retterbøder og epilog til <title type="uniform"
+                           >Gulaþingslǫg</title>.</note>
+                     <bibl>Horn: <ref target="AnnHorMenota-02-305">Landslǫg Magnúss
+                           Hákonarsonar</ref>
+                        <note>Fra <ref type="url" target="http://clarino.uib.no/menota/catalogue"
+                              >Menota</ref>.</note></bibl>
                   </msItem>
                   <msItem n="2" class="log">
-                     <locus from="76r" to="84v">76v-84v</locus>
+                     <locus from="76va" to="84vb">76v-84vb</locus>
                      <title type="supplied" xml:lang="da">Retterbøder</title>
-                     <textLang mainLang="no">Norrønt/norsk</textLang>
-                     <note>Af Erik Magnusson og Håkon Magnusson; endvidere dom om kongens visøre og
-                        leding (<date when="1348">1348</date>).</note>
-                     <bibl>Storm: <ref type="primary" target="NgL4">Norges gamle Love</ref>
-                        <biblScope unit="volume">IV</biblScope>
-                        <biblScope unit="pages">479 nr. 2</biblScope>
-                        <note>Bl. 80ra-81rb: <title type="uniform">Réttarbótr Hákonar Magnússonar
-                              hins yngra</title>
-                        </note>
-                     </bibl>
+                     <msItem n="2.1">
+                        <locus from="76v" to="78rb">76va-78rb</locus>
+                        <title type="uniform">Réttarbœtr Eiríks Magnússonar</title>
+                     </msItem>
+                     <msItem n="2.2">
+                        <locus from="78rb" to="83vb">78rb-83vb</locus>
+                        <title type="uniform">Réttarbœtr Hákonar Magnússonar</title>
+                        <bibl>Storm: <ref target="NgL4">Norges gamle Love</ref>
+                           <biblScope unit="volume">IV</biblScope>
+                           <biblScope unit="page">479-480</biblScope><note>Bl. 80ra-81rb, Fodnote 2.
+                           </note></bibl>
+                     </msItem>
+                     <msItem n="2.3">
+                        <locus from="84va" to="84vb">84va-84vb</locus>
+                        <title type="uniform">Réttarbœtr Magnús Eiríkssonar</title>
+                     </msItem>
                   </msItem>
                   <msItem n="3" class="log">
-                     <locus from="85r" to="91v">85-91v</locus>
-                     <title type="uniform" xml:lang="da">Farmannalov</title>
-                     <textLang mainLang="no">Norrønt/norsk</textLang>
-                  </msItem>
-                  <msItem n="4" class="log">
                      <locus from="91v" to="100v">91v-100v</locus>
-                     <title type="uniform" xml:lang="da">Oslo bylov</title>
-                     <textLang mainLang="no">Norrønt/norsk</textLang>
-                     <note>Af Håkon Håkonsson, Magnus Håkonsson, Erik Magnusson, Håkon Magnusson;
-                        endvidere Magnus epilog for <title type="uniform">Gulaþingslǫg</title>, samt
-                        om gejstlighedens ret og skyldighed.</note>
+                     <title type="uniform" xml:lang="non">Bœjarlǫg</title>
+                     <title type="uniform" xml:lang="da">Bergens bylov</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -70,14 +73,17 @@
                            </p>
                         </support>
                         <extent>100. Bl. 79v er blank. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>307</height>
-                              <width>214</width>
+                              <height unit="mm">307</height>
+                              <width unit="mm">214</width>
                            </dimensions>.</extent>
+                        <collation>Håndskriftet består af 10 læg + et enkeltblad.</collation>
                         <condition>I codex forekommer flere defekter; disse er fremhævede af Arne
                            Magnusson ved påtegning på det nærmest foregående blad.</condition>
+                        <!-- "Two leaves are missing in quire 1, two leaves
+in quire 6 and one leaf in quire 10." -->
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="2">Håndskriftet er dobbeltspaltet, med undtagelse af bl. 79
+                        <layout columns="2">Håndskriftet er tospaltet, med undtagelse af bl. 79
                            - et særlig indhæftet blad, som indeholder Håkon Magnussons almene
                            retterbod, som er enspaltet. Håndskriftets hoveddel (bl. 1-76r) er smukt
                            udstyret med flerfarvede initialer, stærkt forsirede afsnits-begyndelser
@@ -88,58 +94,69 @@
                      <handNote scope="minor" script="unknown">
                         <p>Forskellige hænder.</p>
                      </handNote>
-                     <handNote scribe="ThoHak001" scope="major" script="unknown">
+                     <handNote scribe="ThoHak001" scope="major" script="textualis">
                         <p>Håndskriftet er skrevet med tre forskellige hænder. Hoveddelen (bl.
-                           1-76a) er skrevet af Thorgerus Haquini. Han har også skrevet <ref type="ms" target="AM02-302-da">AM 302 fol.</ref>
+                           1-76a) er skrevet af Thorgerus Haquini, som også har skrevet <ref
+                              type="ms" target="AM02-302-da">AM 302 fol.</ref>
                         </p>
                      </handNote>
-                     <handNote scope="minor" script="other">
+                     <handNote scope="minor" script="textualis">
                         <p>Bl. 76b-78b er skrevet med en smuk frakturhånd med god ortografi og er
                            fra midten eller anden halvdel af det 14. århundrede.</p>
                      </handNote>
-                     <handNote scope="minor" script="other">
+                     <handNote scope="minor" script="textualis">
                         <p>Bl. 79-99 er skrevet med en god frakturhånd fra midten af det 15.
                            århundrede. Ortografien og sproget er ikke konsekvent.</p>
                      </handNote>
                   </handDesc>
+                  <decoDesc>
+                     <decoNote><p></p></decoNote>
+                  </decoDesc>
                   <additions>
                      <p>Adskillige senere marginal-antegnelser fra forskellig tid, der tildels har
                         lidt under beskæring. På bl. 24r er der en længere latinsk
                         notits.<!-- Se i NgL4! --></p>
                   </additions>
-                  <accMat>Der er to AM-sedler; den ene er skrevet af <name type="person" key="ArnMag001">Arne Magnusson</name>, den anden er skrevet for
+                  <accMat>Der er to AM-sedler; den ene er skrevet af <name type="person"
+                        key="ArnMag001">Arne Magnusson</name>, den anden er skrevet for
                      ham.</accMat>
                </physDesc>
                <history>
                   <origin notBefore="1290" notAfter="1460">
-                     <p>Skrevet i <origPlace>Norge</origPlace>. Kålund (<bibl><ref target="KKKat"/></bibl>) daterede det overordnet til <origDate notBefore="1300" notAfter="1499">14. til 15. århundrede</origDate>, mens
-                        enkelte dele senere er blevet dateret mere præcist. <list>
-                           <item>Bl. 1r-76r: <origDate notBefore="1290" notAfter="1310">ca.
-                                 1300</origDate> (bl.a. <bibl><ref target="DidSei9999a">Seip
-                                    1950</ref><biblScope unit="pages">16</biblScope></bibl>)</item>
-                           <item>Bl. 76v-78v: <origDate notBefore="1340" notAfter="1360">ca.
-                                 1350</origDate> (<bibl><ref target="DidSei9999a">Seip 1950</ref>,
-                                 ibid.</bibl>)</item>
-                           <item>Bl 79r: <origDate notBefore="1300" notAfter="1399">1300-tallet</origDate> (Magnus Rindal pers. 1988)</item>
-                           <item>Bl. 80r-100v: <origDate notBefore="1440" notAfter="1460">ca.
-                                 1450</origDate> (bl.a. <bibl><ref target="DidSei9999a">Seip
-                                    1950</ref><biblScope unit="pages">ibid.</biblScope></bibl>
-                              )</item>
-                        </list>
-                     </p>
+                     <p>Skrevet i <origPlace>Norge</origPlace>, <origDate notBefore="1290"
+                           notAfter="1460">ca. 1300, s. XIV med, s. XIV og s. XV med</origDate>
+                              (<bibl><ref target="ONPregistre">ONP</ref></bibl>): <list>
+                           <item>Bl. 1r-76r: ca. 1300 (bl.a. <bibl><ref target="DidSei9999a">Seip
+                                    1950</ref><biblScope unit="page">16</biblScope></bibl>)</item>
+                           <item>Bl. 76v-78v: ca. 1350 (<bibl><ref target="DidSei9999a"
+                                 >ibid.</ref>.</bibl>)</item>
+                           <item>Bl 79r: 1300-tallet (Magnus Rindal, pers. 1988)</item>
+                           <item>Bl. 80r-100v: ca. 1450 (bl.a. <bibl><ref target="DidSei9999a">Seip
+                                    1950</ref>, ibid.</bibl>).</item>
+                        </list></p>
+                     <p>Kålund (<bibl><ref target="KKKat">Katalog</ref></bibl>) daterede det
+                        overordnet til <origDate notBefore="1300" notAfter="1499"
+                           >1300-1400-tallet</origDate>. </p>
                   </origin>
                   <provenance>
-                     <p>Ifølge AM-sedlerne er håndskriftet erhvervet i Norge af justitsråd <name type="person" key="PetAga001">Aagaard</name>, som gav den til gehejmeråd
+                     <p>Ifølge AM-sedlerne er håndskriftet erhvervet i Norge af justitsråd <name
+                           type="person" key="PetAga001">Aagaard</name>, som gav den til gehejmeråd
                            <name type="person" key="MatMot001">Moth</name>.</p>
                   </provenance>
                   <acquisition>
-                     <name type="person" key="MatMot001">Moth</name> skænkede håndskriftet til <name type="person" key="ArnMag001">Arne Magnusson</name>.</acquisition>
+                     <name type="person" key="MatMot001">Moth</name> skænkede håndskriftet til <name
+                        type="person" key="ArnMag001">Arne Magnusson</name>.</acquisition>
                </history>
                <additional>
                   <listBibl>
+                     <bibl>Grøtvedt: <ref target="PerGrø1939"/>
+                     <biblScope unit="page">7<!-- og? --></biblScope></bibl>
+                     <bibl>Horn: <ref target="AnnHor2009a"/></bibl>
+                     <bibl>Horn: <ref target="AnnHor2014a"/>
+                     <biblScope unit="page">68-70, 74-81</biblScope></bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">257-258</biblScope>
+                        <biblScope unit="page">257-258</biblScope>
                      </bibl>
                      <bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium Islandicum</ref>
                         <biblScope unit="volume">I</biblScope>
@@ -152,9 +169,11 @@
                         <ref target="Gthl">Magnus Konongs Laga-Bæters Gula-things-laug</ref>
                         <!-- primær eller sekundær litteratur? -->
                      </bibl>
+                     <bibl>Seip: <ref target="DidSei9999a"/><biblScope unit="page">16<!-- og? --></biblScope></bibl>
+                     <bibl>Steinnes: <ref target="Steinnes1964"/><!-- biblScope? --></bibl>
                      <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
                         <biblScope unit="volume">IV</biblScope>
-                        <biblScope unit="pages">477-82</biblScope>
+                        <biblScope unit="page">477-82</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

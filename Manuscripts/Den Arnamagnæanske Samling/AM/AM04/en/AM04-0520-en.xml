@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -38,8 +38,8 @@
                      <supportDesc material="chart">
                         <support><p><material>Paper</material>.</p></support>
                         <extent>248. <dimensions type="leaf" scope="all">
-                              <height>208</height>
-                              <width>160</width>
+                              <height unit="mm">208</height>
+                              <width unit="mm">160</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -68,7 +68,13 @@
       </fileDesc>
       <revisionDesc><change when="2021-09-24" who="EvaWed001">Updated markup and added text to match the Danish description.</change></revisionDesc>
    </teiHeader>
-   <facsimile>
-      <surface/>
-   </facsimile>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+		<surface xml:id="AM04-0520-addMat01r" n="0">
+			<desc>addMat01r</desc>
+			<graphic mimeType="pdf" url="AM%20520%204to/0/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20520%204to/0/THUMBNAIL" width="200px" height="138px"/>
+			<graphic mimeType="jpg" url="AM%20520%204to/0/SECONDARY_DISPLAY" width="10032px" height="6950px"/>
+			<graphic mimeType="pdf" url="AM%20520%204to/0/WEB_DISPLAY"/>
+		</surface>
+	</facsimile>
 </TEI>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,14 +23,16 @@
                             <idno>1066</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform" xml:lang="is">Hákonar saga Hákonarsonar</title>;
-                            <origPlace>Island</origPlace>, <origDate notBefore="1325" notAfter="1375" evidence="conjecture" resp="ONP">ca. 1350</origDate>.</head>
                     <msContents>
-                        <msItem class="kon" defective="true">
+                        <summary><title type="uniform" xml:lang="is">Hákonar saga
+                                Hákonarsonar</title>.</summary>
+                        <msItem n="1" class="kon" defective="true">
                             <locus from="1r" to="1v">1r-3v</locus>
                             <title type="uniform" xml:lang="is">Hákonar saga Hákonarsonar</title>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                            <textLang mainLang="non"/>
+                            <filiation>De tre blade har oprindelig hørt til en codex, hvoraf halvdelen nu er
+                                bevaret som <ref type="ms">Holm perg 8 fol.</ref> i <name type="org"
+                                    key="KungBib">Kungliga Biblioteket</name> i <name type="place" key="Stock01">Stockholm</name>.</filiation>
                             <msItem n="1.1">
                                 <locus from="1r" to="1v">1r-1v</locus>
                                 <incipit defective="true">fyrst s<ex>va</ex> at all<ex>ir</ex>
@@ -38,8 +41,11 @@
                                 <bibl>
                                     <ref target="FMS9">Fornmanna sögur</ref>
                                     <biblScope unit="volume">IX</biblScope>
-                                    <biblScope unit="pages">261-66</biblScope>
+                                    <biblScope unit="page">261-66</biblScope>
                                 </bibl>
+                                <bibl>Mundt: <ref type="primary-1" target="NT2">Hákonar saga
+                                        Hákonarsonar etter Sth. 8 fol., AM 325 VIII, 4o og AM 304,
+                                        4o</ref><biblScope unit="page">19-21</biblScope></bibl>
                             </msItem>
                             <msItem n="1.2">
                                 <locus from="2r" to="3v">2r-3v</locus>
@@ -52,8 +58,11 @@
                                 <bibl>
                                     <ref target="FMS9">Fornmanna sögur</ref>
                                     <biblScope unit="volume">IX</biblScope>
-                                    <biblScope unit="pages">325-33</biblScope>
+                                    <biblScope unit="page">325-33</biblScope>
                                 </bibl>
+                                <bibl>Mundt: <ref type="primary-1" target="NT2">Hákonar saga
+                                        Hákonarsonar etter Sth. 8 fol., AM 325 VIII, 4o og AM 304,
+                                        4o</ref><biblScope unit="page">52-56</biblScope></bibl>
                             </msItem>
                         </msItem>
                     </msContents>
@@ -65,11 +74,11 @@
                                         <material>Pergament</material>.</p>
                                 </support>
                                 <extent>3. <dimensions scope="all" type="leaf">
-                                        <height>276</height>
-                                        <width>223</width>
+                                        <height unit="mm">276</height>
+                                        <width unit="mm">223</width>
                                     </dimensions>.</extent>
                                 <condition>
-                                    <p>Den nedre margen på bl. 1 og 3 er bortskåret.</p>
+                                    <p>Den nedre margin på bl. 1 og 3 er bortskåret.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -82,30 +91,38 @@
                         </objectDesc>
                         <accMat>
                             <p>På en AM-seddel vedlagt bl. 1r står der: <q xml:lang="is">Ur Sgu
-                                    Hakonar k<ex>onung</ex>s Hakonarſonar. Feinged <date when="1716-02">1716. i Februario</date> hia Lgmannenum <name type="person" key="OddSig001">Odde
-                                    Sigurdzſyne</name>
-                        </q>.</p>
+                                    Hakonar k<ex>onung</ex>s Hakonarſonar. Feinged <date
+                                        when="1726-02">1726. i Februario</date> hia Lgmannenum
+                                        <name type="person" key="OddSig001">Odde Sigurdzſyne</name>
+                                </q>.</p>
                         </accMat>
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> har dateret det til
-                                    <origDate notBefore="1300" notAfter="1399" cert="medium" evidence="conjecture" resp="KKKat">1300-tallet</origDate>
-                                    (<bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                            <p>Skrevet i <origPlace>Island</origPlace>
+                                <origDate notBefore="1300" notAfter="1350" cert="high"
+                                    evidence="conjecture">1300-tallets første halvdel</origDate> (<bibl><ref
+                                        type="secondary-1" target="JónHel0827a">Jón Helgason
+                                        1970</ref><biblScope unit="page">1, 17</biblScope></bibl>).
+                                Kålunds datering: <date notBefore="1300" notAfter="1399"
+                                    >1300-tallet</date> (<bibl>Kålund: <ref type="secondary-1"
+                                        target="KKKat">Katalog</ref>
                                     <biblScope unit="volume">I</biblScope>
-                                    <biblScope unit="pages">562</biblScope>
-                                </bibl>), mens <name type="person" key="JonHel003">Jón
-                                    Helgason</name> har dateret det mere præcist til <origDate notBefore="1325" notAfter="1375" evidence="conjecture">ca. 1350</origDate>.</p>
+                                    <biblScope unit="page">562</biblScope>
+                                </bibl>).</p>
                         </origin>
                         <provenance>
-                            <p>I øvre margen bl. 1r finder vi navnet <q xml:lang="is">
-                                    <name type="person" key="JonEgg001">Jon
-                                        Eggerſſon</name>
-                                </q>. Fragmentet har også tilhørt <foreign xml:lang="is">lögmaður</foreign>
+                            <p>I bl. 1rs øvre margin ses navnet <q xml:lang="is">
+                                    <name type="person" key="JonEgg001">Jon Eggerſſon</name>
+                                </q>. De tre blade har også tilhørt <foreign xml:lang="is"
+                                    >lögmaður</foreign>
                                 <name type="person" key="OddSig001">Oddur Sigurðsson</name>.</p>
                         </provenance>
                         <acquisition>
-                            <p>Ifølge AM-sedlen fik <name type="person" key="ArnMag001">Arne Magnusson</name> håndskriftet i <date when="1716-02">februar 1716</date> af <name type="person" key="OddSig001">Oddur Sigurðsson</name>.</p>
+                            <p>Ifølge AM-sedlen fik <name type="person" key="ArnMag001">Arne
+                                    Magnusson</name> håndskriftet i <date when="1726-02">februar
+                                    1726</date> af <name type="person" key="OddSig001">Oddur
+                                    Sigurðsson</name>.</p>
                         </acquisition>
                     </history>
                     <additional>
@@ -117,13 +134,15 @@
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
-                                    <p>Sat på knækfalse og lagt i et papomslag <date from="1958-03-02" to="1959-04-04">2. marts 1958 - 4.
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
+                                    <p>Sat på knækfalse og lagt i et papomslag <date
+                                            from="1958-03-02" to="1959-04-04">2. marts 1958 - 4.
                                             april 1959</date>.</p>
                                 </custEvent>
                                 <custEvent type="loan">
-                                    <p>Udlånt til <name type="place">Universitetsbiblioteket</name>
-                                        i <name type="place">Bergen</name>
+                                    <p>Udlånt til <name type="org" key="UiBBib"
+                                            >Universitetsbiblioteket i Bergen</name>
                                         <date from="1977-11-25">25. 1977-21. december 1977</date>
                                         til <name type="person" key="Munooo002">M. Mundt</name>.</p>
                                 </custEvent>
@@ -131,46 +150,43 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plade</title>
-                                        <idno>plate 37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositiv</title>
-                                        <idno>AM 325 VIII 5 a 4to</idno>
-                                        <date notBefore="1984-05" notAfter="1985-05">Maj 1984 eller
-                                            1985</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">s/h fotografier</title>
-                                        <date when="1956-10">Oktober 1956</date>
-                                        <idno>AM 325 VIII 5 a 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item n="1">Plade, <idno>plade 37</idno>. </item>
+                                    <item n="2">Diapositiver fra <date notBefore="1984-05"
+                                            notAfter="1985-05">maj 1984 eller 1985</date>.
+                                    </item>
+                                    <item n="3">Sort-hvid fotografier fra <date when="1956-10"
+                                            >oktober 1956</date>. </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
                             <bibl>
                                 <ref type="secondary" target="FMS9">Fornmanna sögur</ref>
                                 <biblScope unit="volume">IX</biblScope>
-                                <biblScope unit="pages">XVI-XVII</biblScope>
+                                <biblScope unit="page">xvi-xvii</biblScope>
                                 <note>Beskrevet som fragmenterne 1-2</note>
                             </bibl>
-                            <bibl>Guðbrandur Vigfússon <ref type="secondary" target="IslSGV1887-1">Orkneyinga Saga and Magnus Saga with Appendices
-                                    </ref>
-                        <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">xix-xx</biblScope>
-                     </bibl>
+                            <bibl>
+                                <ref type="secondary" target="IslSGV1887-1">Guðbrandur Vigfússon
+                                    1887</ref>
+                                <biblScope unit="page">xix-xx</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary-1" target="JónHel0827a">Jón Helgason
+                                    1970</ref><biblScope unit="page">7, 11, 15-16, 17</biblScope></bibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">562</biblScope>
-                     </bibl>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">562</biblScope>
+                            </bibl>
+                            <bibl><ref type="primary-1" target="NT2">Mundt 1972</ref><biblScope unit="page">xi</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-11-09" who="EvaWed001">Opdateret opmærkning og bibliografi.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

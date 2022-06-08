@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,44 @@
                      <idno>2665</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Þorsteins rímur bæjarbarns</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="uniform">Rímur af Þorsteini bæjarmagni</title></summary>
+                  <msItem n="1" class="rimur">
+                     <title type="uniform">Rímur af Þorsteini bæjarmagni</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Rymur Af <lb/> Thorsteíne Bæar Barne</rubric>
+                     <note>Three <q xml:lang="is">rímur</q> cantos.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>6. 
-<dimensions type="leaf" scope="all">
-                              <height>212</height>
-                              <width>175</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>6. <dimensions type="leaf" scope="all">
+                              <height unit="mm">212</height>
+                              <width unit="mm">175</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland?</origPlace> 
+                  <origDate notBefore="1700" notAfter="1799">s.
+                     XVIII</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >553</biblScope></bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-11-01" who="EvaWed001">Updated markup.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

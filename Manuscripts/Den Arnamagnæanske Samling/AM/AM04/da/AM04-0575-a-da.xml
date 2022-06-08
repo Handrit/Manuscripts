@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -12,7 +13,7 @@
          <sourceDesc>
             <msDesc xml:id="AM04-0575-a-da" xml:lang="da">
                <msIdentifier>
-                  <country>Danmark</country>
+                  <country>Denmark</country>
                   <settlement>København</settlement>
                   <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
@@ -22,53 +23,45 @@
                      <idno>1430</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">To romantiske sagaer</title>;
-                  <origPlace>Island</origPlace>, <origDate notBefore="1400" notAfter="1499" cert="medium" resp="KKKat">s. XV</origDate>
-                  <origDate notBefore="1475" notAfter="1499" cert="high" resp="ONP">s. XIV
-                     4/4</origDate>
-               </head>
                <msContents>
-                  <msItem defective="true">
+                  <summary><title type="supplied">To riddersagaer</title></summary>
+                  <textLang mainLang="non">Norrønt/Islandsk</textLang>
+                  <msItem n="1" class="ridd" defective="true">
                      <locus from="1r" to="8v">1r-8v</locus>
                      <title type="uniform">Dinus saga drambláta</title>
-                     <textLang mainLang="is">Norrønt/Islandsk</textLang>
-                     <incipit defective="true">Ek man litla hrid þ<ex>ar</ex> du<supplied reason="unknown">eliazt</supplied>
+                     <incipit defective="true">Ek man litla hrid þ<ex>ar</ex> du<supplied
+                           reason="unknown">eliazt</supplied>
                      </incipit>
-                     <bibl xml:id="Ridd1">Jónas Kristjánsson
-                        <ref type="primary-1" target="Ridd1">Dínus saga drambláta</ref>
-                        <biblScope unit="pages">37:5-45:12, 86:3-94</biblScope>
+                     <bibl xml:id="Ridd1">Jónas Kristjánsson <ref type="primary-1" target="Ridd1"
+                           >Dínus saga drambláta</ref>
+                        <biblScope unit="page">37:5-45:12, 86:3-94</biblScope>
                         <note>Udg. S</note>
-                        </bibl>
+                     </bibl>
                   </msItem>
-                  <msItem defective="true">
+                  <msItem n="2" defective="true">
                      <locus from="9r" to="16v">9r-16v</locus>
                      <title type="uniform">Flóres saga ok Blankiflúr</title>
-                     <textLang mainLang="is">Norrønt/Islandsk</textLang>
-                     <explicit defective="true">sua at allt rikifolk ſk<ex>al</ex> jhia
-                           v<ex>er</ex>a en<ex>n</ex>
+                      <explicit defective="true">sua at allt rikifolk ſk<ex>al</ex> jhia
+                        v<ex>er</ex>a en<ex>n</ex>
                      </explicit>
-                     <listBibl>
-                        <bibl>Brynjolf Snorrason: <ref type="primary" target="BrySno1850">Saga af
-                              Flóres og Blankiflúr</ref>
-                           <biblScope unit="pages">1-23:5, 26:7-34:12,
-                              41:14-50:14</biblScope>
-                           <note>Udg. N</note>
-                        </bibl>
-                        <bibl>Kölbing: <ref target="ASB5">Flóres saga ok Blankiflór</ref>
-                        </bibl>
-                     </listBibl>
+                     <bibl>Brynjolf Snorrason: <ref type="primary" target="BrySno1850">Saga af
+                           Flóres og Blankiflúr</ref>
+                        <biblScope unit="page">1-23:5, 26:7-34:12, 41:14-50:14</biblScope>
+                        <note>Udg. N</note>
+                     </bibl>
+                     <bibl>Kölbing: <ref target="ASB5">Flóres saga ok Blankiflór</ref>
+                     </bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Pergament</p>
+                           <p><material>Pergament</material>.</p>
                         </support>
                         <extent>16. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>178</height>
-                              <width>135</width>
+                              <height unit="mm">178</height>
+                              <width unit="mm">135</width>
                            </dimensions>
                         </extent>
                         <condition>Bladene, af hvilke adskillige have mindre beskadigelser, er
@@ -78,17 +71,22 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1475" notAfter="1499"
+                        cert="high" resp="ONP">s. XIV<hi rend="sup">4/4</hi></origDate></origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">736-737</biblScope>
+                        <biblScope unit="page">736-737</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-10" who="EvaWed001">Opdateret opmærkning.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

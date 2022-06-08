@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -23,12 +23,9 @@
                   </altIdentifier>
                </msIdentifier>
 
-               <head>
-                  <title type="supplied">Uddrag af hansestæders privilegier</title>;
-                     <origPlace>Tyskland?</origPlace>, <origDate notBefore="1600" notAfter="1625" evidence="conjecture" resp="KKKat">s.
-                     XVII 1/4</origDate>.</head>
-
                <msContents>
+                  <summary><title type="supplied">Uddrag af hansestæders
+                     privilegier</title></summary>
                   <titlePage type="MS">
                      <docTitle>
                         <titlePart type="main">EXTRACTA <lb/> Der Wenndiſchenn Vnnd Hannſe <lb/>
@@ -40,23 +37,20 @@
                            wordenn Geſetzet.</titlePart>
                      </docTitle>
                   </titlePage>
-                  <msItem n="1">
-                     <locus from="1" to="99">1-99</locus>
-                     <title type="supplied" xml:lang="da">Ekstrakt af hansestæders
-                        privilegier</title>
+                  <msItem n="1" class="log">
+                     <locus from="1r" to="99v">1r-99v</locus>
+                     <title type="supplied" xml:lang="da">Uddrag af hansestæders privilegier</title>
                      <textLang mainLang="de">Tysk</textLang>
-                  </msItem>
-
-                  <msItem n="2">
-                     <locus from="102" to="104">102-104</locus>
-                     <title type="supplied" xml:lang="la">Index Privilegiorum</title>
-                     <textLang mainLang="la">Latin</textLang>
-                     <rubric>Index Privilegiorum</rubric>
-                     <note>Et register, udarbejdet af <name type="person" key="ArnMag001">Arne
-                           Magnusson</name>.</note>
+                     <msItem n="1.1" class="regist">
+                        <locus from="102r" to="104v">102r-104v</locus>
+                        <title type="supplied" xml:lang="la">Index Privilegiorum</title>
+                        <textLang mainLang="la">Latin</textLang>
+                        <rubric>Index Privilegiorum</rubric>
+                        <note>Et register, udarbejdet af <name type="person" key="ArnMag001">Arne
+                              Magnusson</name>.</note>
+                     </msItem>
                   </msItem>
                </msContents>
-
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
@@ -64,25 +58,31 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>104. Bl. 100v-101 er ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>160</height>
-                              <width>210</width>
+                        <extent>104. Bl. 100v-101v er ubeskrevne. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">160</height>
+                              <width unit="mm">210</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <bindingDesc>
                      <binding contemporary="unknown">
                         <p>Bindet var opr. betrukket med beskrevet pergament fra et latinsk
-                              <term>missale</term>, dette er nu overført til <ref type="ms">Access.
-                              7c, Tryk 2 og 5</ref>.</p>
+                              <term>missale</term>, dette er nu overført til <ref type="ms"
+                              target="#Acc-0007-c-da">Access. 7c, Tryk 2 og 5</ref>.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Tyskland?</origPlace>, <origDate notBefore="1600"
+                        notAfter="1625" evidence="conjecture" resp="KKKat">s. XVII<hi rend="sup"
+                           >1/4</hi></origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">247</biblScope></bibl>
+                        <biblScope unit="page">247</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -30,24 +30,24 @@
                         <objectDesc form="codex">
                             <supportDesc material="mixed">
                                 <support>
-                                    <p><material>Pergament og papir</material>.</p>
+                                    <p><material>Pergament (bl. 1-2) og papir</material>.</p>
                                 </support>
-                                <extent>7, bl. 1v, 2v, 3v er blanke. De to første blade er
+                                <extent>7 blade. Bl. 1v, 2v, 3v er blanke. Bl. 1-2:
                                     pergamentblade, de sidste 5 blade er af papir: <dimensions
                                         type="leaf" scope="most" unit="mm">
-                                        <height>210</height>
-                                        <width>170</width>
-                                    </dimensions>. Bl. 1 (pergamentblad) er bøjet; den virkelige
+                                        <height unit="mm">210</height>
+                                        <width unit="mm">170</width>
+                                    </dimensions>. Bl. 1 er foldet. Dets virkelige
                                     størrelse er <dimensions type="leaf" unit="mm">
-                                        <height>210</height>
-                                        <width>277</width>
+                                        <height unit="mm">210</height>
+                                        <width unit="mm">277</width>
                                     </dimensions>; bl. 2 er <dimensions type="leaf" unit="mm">
-                                        <height>210</height>
-                                        <width>235</width>
+                                        <height unit="mm">210</height>
+                                        <width unit="mm">235</width>
                                     </dimensions>; bl. 3 er <dimensions type="leaf" unit="mm">
-                                        <height>320</height>
-                                        <width>210</width>
-                                    </dimensions>
+                                        <height unit="mm">320</height>
+                                        <width unit="mm">210</width>
+                                    </dimensions>.
                                 </extent>
                             </supportDesc>
                         </objectDesc>
@@ -63,12 +63,12 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1515" notAfter="1710">
-                            <p>Håndskriftet, der er skrevet i <origPlace>Island</origPlace>, består
-                                af to dele; den ene del er fra <origDate notBefore="1515"
-                                    notAfter="1535">ca. 1525</origDate>; den anden del, skrevet af
+                            <p>Håndskriftet er skrevet i <origPlace>Island</origPlace>, 
+                                <origDate notBefore="1515"
+                                    notAfter="1710">ca. 1525 og ca. 1710</origDate>. Det består
+                                af to dele, hvoraf de første to blade er fra ca. 1525; mens den anden del, skrevet af
                                     <name type="person" key="ArnMag001">Arne Magnusson</name>, er
-                                fra <origDate notBefore="1690" notAfter="1710">ca. 1700</origDate>
-                            </p>
+                                fra ca. 1700.</p>
                         </origin>
                         <acquisition>
                             <p>Bl. 4r-v har en notits af <name type="person" key="ArnMag001">Arne
@@ -102,37 +102,23 @@
                         </adminInfo>
                         <surrogates>
                             <p>Fotograferet i <date when="1988">1988</date>; <name type="org"
-                                    key="AMS">AMS</name> har følgende kopier: <bibl>
-                                    <title type="gmd">mikrofilm (originaler)</title>
-                                    <idno>Neg. 782</idno>
-                                    <date when="1988">1988</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">mikrofilm (arkiv)</title>
-                                    <idno>Pos. 717</idno>
-                                    <date when="1988">1988</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">mikrofilm (originaler)</title>
-                                    <idno>Neg. 782</idno>
-                                    <date when="1988">1988</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">mikrofilm (arkiv)</title>
-                                    <idno>Pos. 782</idno>
-                                    <date when="1988">1988</date>
-                                </bibl>
+                                    key="AMS">Den Arnamagnæanske Samling</name> har følgende kopier: <list>
+                                    <item> Mikrofilm (originaler), <idno>Neg. 782</idno>, fra <date
+                                            when="1988">1988</date>.</item>
+                                    <item>Mikrofilm (arkiv), <idno>Pos. 717</idno>, <date
+                                            when="1988">1988</date>.</item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                                 <biblScope unit="volume">I</biblScope>
-                                <biblScope unit="pages">360</biblScope>
+                                <biblScope unit="page">360</biblScope>
                             </bibl>
                             <bibl>Storm: <ref type="primary-2" target="NgL4">Norges gamle Love
                                     indtil 1387</ref>
                                 <biblScope unit="volume">IV</biblScope>
-                                <biblScope unit="pages">474-76, 539</biblScope>
+                                <biblScope unit="page">474-76, 539</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>
@@ -143,6 +129,7 @@
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
+                            <textLang mainLang="non"/>
                             <msItem n="1" class="kont">
                                 <locus from="1r" to="1r">1r</locus>
                                 <title type="supplied">Stamtavle fra Kong Hans til Magnus
@@ -177,6 +164,7 @@
                                 <locus from="4r" to="4v">4r-v</locus>
                                 <title type="supplied">Arne Magnussons noter om de to
                                     pergamentblade</title>
+                                <note>Bl. 1-2.</note>
                             </msItem>
                             <msItem n="5" class="kont sagnfr">
                                 <locus from="5r" to="7v">5r-7v</locus>
@@ -188,11 +176,10 @@
                             </msItem>
                         </msContents>
                         <history>
-                            <origin notBefore="1690" notAfter="1710">
-                                Skrevet i <origPlace>Island</origPlace> af <name type="person" key="ArnMag001"
-                                        >Arne Magnusson</name> <origDate notBefore="1690"
-                                        notAfter="1710">ca. 1700</origDate>.
-                                
+                            <origin notBefore="1690" notAfter="1710"> Skrevet i
+                                    <origPlace>Island</origPlace> af <name type="person"
+                                    key="ArnMag001">Arne Magnusson</name>
+                                <origDate notBefore="1690" notAfter="1710">ca. 1700</origDate>.
                             </origin>
                         </history>
 
@@ -201,7 +188,8 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
-            <change when="2021-10-05" who="EvaWed001">Flyttet information fra @head til @summary og @history.</change>
+            <change when="2021-10-05" who="EvaWed001">Flyttet information fra @head til @summary og
+                @history.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>

@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,14 +22,11 @@
                      <idno>1671</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">De S. Kanuto Duce</title>; <origPlace>Danmark?</origPlace>,
-                     <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s. XVII 1/4</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform">Legende om Sankt Knud Lavard</title></summary>
+                  <msItem n="1" class="hels">
                      <locus from="1r" to="4r">1r-4r</locus>
-                     <title type="uniform">De S. Kanuto Duce</title>
+                     <title type="uniform">De St. Kanuto Duce</title>
                      <textLang mainLang="la">Latin</textLang>
                   </msItem>
                </msContents>
@@ -40,28 +38,42 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>4. Bl. 4v ubeskrevet. <dimensions type="leaf" scope="all">
-                              <height>213</height>
-                              <width>166</width>
+                              <height unit="mm">213</height>
+                              <width unit="mm">166</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="unknown">Samme hånd som <ref type="ms" target="AM04-0670-a-da">AM 670 a 4to</ref> og <ref type="ms" target="AM04-0670-b-da">AM 670 b 4to</ref>.</handNote>
+                     <handNote scope="sole" script="unknown">Samme hånd som <ref type="ms"
+                           target="#AM04-0670-a-da #AM04-0670-b-da">AM 670 a-b 4to</ref>, <ref
+                           type="ms" target="#AM04-0670-d-da">AM 670 d 4to</ref>, de første 8 blade
+                        af <ref type="ms" target="#AM04-0670-e-da">AM 670 e 4to</ref>, bl. 3r-7r af
+                           <ref type="ms" target="#AM04-0670-f-en">AM 670 f 4to</ref> og <ref
+                           type="ms" target="#AM04-0670-g-en">AM 670 g 4to</ref>.</handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Danmark?</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup"
+                           >1/4</hi></origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Langebek:
-                        <ref target="SRDMAE">Scriptores Rerum Danicarum Medii Aevi</ref>
+                     <bibl>Langebek: <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
+                           Aevi</ref>
                         <biblScope unit="volume">IV</biblScope>
-                        <biblScope unit="pages">261</biblScope>
+                        <biblScope unit="page">261</biblScope>
                      </bibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">83</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">83</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2022-02-02" who="EvaWed001">Opdateret opmærkning og handDesc.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

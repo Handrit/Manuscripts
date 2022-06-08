@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,35 +23,58 @@
                      <idno>1658</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Játvarðar saga</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1650">s. XVII 1/2</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="uniform">Játvarðar saga</title></summary>
+                  <msItem n="1" class="hels">
+                     <locus from="1r" to="7v">1r-7v</locus>
+                     <title type="uniform">Játvarðar saga</title>
+                     <title type="parallel">Saga Játvarðs konungs hins helga</title>
+                     <textLang mainLang="is">Islandsk</textLang>
+                     <rubric>Lytill þättur af Jatuarde Konge</rubric>
+                  </msItem>
+                  <msItem n="2" defective="true" class="ridd">
+                     <locus from="7v" to="7v">7v</locus>
+                     <title type="uniform">Vilkins saga riddara</title>
+                     <rubric>Saga lytel af Riddara Vilkim og h<ex>a</ex>ns syne</rubric>
+                     <note>Crossed out; the rest of the saga is missing.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>7. 
-<dimensions type="leaf" scope="all">
-                              <height>299</height>
-                              <width>192</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>7. <dimensions type="leaf" scope="all">
+                              <height unit="mm">299</height>
+                              <width unit="mm">192</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="JonGis003" scope="sole" script="unknown">
-                        <p>
-Written by Jón Gissursson.</p>
+                        <p> Written by <name type="person" key="JonGis003">Jón
+                           Gissursson</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Iceland</origPlace>, <origDate notBefore="1600" notAfter="1650"
+                        resp="KKKat">s. XVII<hi rend="sup">1</hi></origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">75-76</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="CarRaf1852"/>
+                        <biblScope unit="page">8-9</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="Wolf2013"/>
+                     <biblScope unit="page">96</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

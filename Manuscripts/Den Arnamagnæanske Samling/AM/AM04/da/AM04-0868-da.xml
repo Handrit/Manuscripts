@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,17 +23,22 @@
                      <idno>1999</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="da">Løgumklosters dødebog</title>
-                  <title type="uniform" xml:lang="la">Necrologium monasterii Loci dei</title>;
-                     <origPlace>Sorø, Danmark</origPlace>, <origDate when="1518">1518</origDate>. </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform" xml:lang="da">Løgumklosters dødebog</title>
+                     <title type="uniform" xml:lang="la">Necrologium monasterii Loci
+                     dei</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="43r">1r-43r</locus>
                      <title type="uniform" xml:lang="da">Løgumklosters dødebog</title>
                      <title type="uniform" xml:lang="la">Necrologium monasterii Loci dei</title>
                      <textLang mainLang="la">Latin</textLang>
-                     <note>Bl 1r optages af en indledningsmeddelelse, der oplyser om håndskriftets
+                     <note>Bl. 1r optages af en indledningsmeddelelse, der oplyser om håndskriftets
                         herkomst.</note>
+                     <bibl>Langebek: <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
+                        Aevi</ref>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="page">575-587</biblScope>
+                     </bibl>
                   </msItem>
                </msContents>
                <physDesc>
@@ -43,8 +49,8 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>43. <dimensions type="leaf" scope="all">
-                              <height>190</height>
-                              <width>132</width>
+                              <height unit="mm">190</height>
+                              <width unit="mm">132</width>
                            </dimensions>.</extent>
                         <foliation>Folieret i rectosidernes øverste højre hjørne.</foliation>
                         <collation>Håndskriftet består af seks læg: <list>
@@ -53,7 +59,7 @@
                               <item>III: 17+ 24, 18+23, 19+ 22, 20+ 21</item>
                               <item>IV: 25+32, 26+31, 27+30, 28+29</item>
                               <item>V: 32+39, 34+38, 37, 35+36</item>
-                              <item>VI: 40+43 (40 er klæbet på falsen fra 43), 41+ 42 (41 er klæbet
+                              <item>VI: 40+43 (40 er klæbet på falsen fra 43), 41+42 (41 er klæbet
                                  på falsen fra 42)</item>
                            </list>
                         </collation>
@@ -64,47 +70,51 @@
                         </layout>
                      </layoutDesc>
                   </objectDesc>
-                  <additions>Enkelte navne er senere tilføjede; det yngste årstal, <date when="1520">1520</date>, forekommer på bl. 12v. På det ellers ubeskrevne bl. 43v
-                     anmoder abbed <name type="person" key="Henooo003">Henrik</name> i <name type="place">Sorø
-                        kloster</name> om selv at blive indskrevet i bogen efter sin
-                     død.</additions>
+                  <additions>Enkelte navne er senere tilføjede; det yngste årstal, <date when="1520"
+                        >1520</date>, forekommer på bl. 12v. På det ellers ubeskrevne bl. 43v
+                     anmoder abbed <name type="person" key="Henooo003">Henrik</name> i <name
+                        type="place">Sorø kloster</name> om selv at blive indskrevet i bogen efter
+                     sin død.</additions>
                   <bindingDesc>
                      <binding contemporary="false">
                         <p>Brunt helbind af kalveskind (<term type="binding">Holbergbind</term>) med
                            marmoreret udvendig ramme og midterfelt. <dimensions type="binding">
-                              <height>194</height>
-                              <width>140</width>
-                              <depth>23</depth>
+                              <height unit="mm">194</height>
+                              <width unit="mm">140</width>
+                              <depth unit="mm">23</depth>
                            </dimensions>
                         </p>
                         <decoNote>Marmoreret spejlbind: Et udvendigt marmoreret rammefelt. Ved hvert
-                           hjørne er der en dekoration, yderst en blomstervase, der
-                           forbindes til midterspejlet med en prikket linje.</decoNote>
+                           hjørne er der en dekoration, yderst en blomstervase, der forbindes til
+                           midterspejlet med en prikket linje.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
-                  <origin>Skrevet <origDate evidence="internal" cert="high">1518</origDate> i
-                     <origPlace>Sorø i Danmark</origPlace> under den daværende abbed <name type="person" key="Henooo003">Henrik</name>s
-                     ledelse, på bestilling af <name type="person" key="Henooo001">Henichinus</name>
-                     i <name type="place">Løgumkloster</name>
-                  </origin>
+                  <origin>Skrevet <origDate when="1518" evidence="internal" cert="high">1518</origDate> i
+                        <origPlace>Sorø, Danmark</origPlace> under den daværende abbed <name
+                        type="person" key="Henooo003">Henrik</name>s ledelse på bestilling af abbed
+                        <name type="person" key="Henooo001">Henichinus</name> i <name type="place"
+                        >Løgumkloster</name>. </origin>
                </history>
                <additional>
                   <listBibl>
-                       <bibl>Langebek:
-                        <ref target="SRDMAE">Scriptores Rerum Danicarum Medii Aevi</ref>
+                     <bibl>Langebek: <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
+                           Aevi</ref>
                         <biblScope unit="volume">IV</biblScope>
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">239</biblScope>
+                        <biblScope unit="page">239</biblScope>
                      </bibl>
+                     <bibl><ref target="McGBri1982">McGuire</ref>
+                        <biblScope unit="page">27</biblScope></bibl>
                      <bibl>Nielsen: <ref type="secondary-1" target="LNHaandskrifter">Danmarks
                            middelalderlige Haandskrifter</ref>
                      </bibl>
                      <bibl>Petersen: <ref type="secondary-1" target="EriPet1999">Levende ord og
                            lysende billeder</ref>
+                        <note>Nr. 45</note>
                      </bibl>
                   </listBibl>
                </additional>

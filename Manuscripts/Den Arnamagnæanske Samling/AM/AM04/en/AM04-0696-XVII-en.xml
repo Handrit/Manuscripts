@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,14 +23,21 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Píslarsaga Krists</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1400" notAfter="1499">s. XVI; 1520-1540 (ONP)</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="uniform" xml:lang="is">Jartegnapostilla Christiern
+                        Pedersen</title></summary>
+                  <msItem defective="true">
+                     <locus from="1r" to="7v">1r-7v</locus>
+                     <title type="uniform" xml:lang="is">Jartegnapostilla Christiern
+                        Pedersen</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">kæ<ex>ra</ex> h<ex>ann</ex> firi
+                           keiſa<ex>ra</ex>nu<ex>m</ex></incipit>
+                     <explicit defective="true">þo h<ex>ann</ex> faſt<ex>ad</ex>e med
+                        b<ex>ra</ex>v</explicit>
+                     <note>Various lacunae.</note>
+                     <bibl>Stefán Karlsson, <ref type="primary-1" target="SteKar1554a">Helgafellsbók í Noregi</ref>
+                        <biblScope unit="page">238-256</biblScope></bibl>
                   </msItem>
                </msContents>
                <physDesc>
@@ -38,10 +46,31 @@
                         <support>
                            <p>Parchment.</p>
                         </support>
-                        <extent>7. </extent>
+                        <extent>7. <dimensions type="leaf" unit="mm">
+                              <height unit="mm">112</height>
+                              <width unit="mm">98</width>
+                           </dimensions>.</extent>
+                        <condition>Especially fols 2r and 3v are badly worn.</condition>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">Written in one column. Faint rubrics and initials in red
+                           ink.</layout>
+                     </layoutDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>Written in <origPlace>Iceland</origPlace>, <origDate notBefore="1520"
+                        notAfter="1540" evidence="conjecture" resp="ONP">ca. 1520-1540</origDate> (<bibl>
+                        <ref type="secondary-1" target="StefKarl15">Stefán Karlsson 1970</ref>
+                        <biblScope unit="page">230</biblScope>
+                     </bibl>). <name type="person" key="KriKaa001">Kålund</name>'s dating: The
+                     sixteenth century (<bibl>
+                        <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">115</biblScope>
+                     </bibl>).</origin>
+               </history>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

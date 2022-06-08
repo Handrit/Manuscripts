@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -23,12 +23,13 @@
 							<idno>272</idno>
 						</altIdentifier>
 					</msIdentifier>
-					<head>
-						<title type="supplied" xml:lang="is">Riddarasögur</title>.</head>
-					<msContents>
-						<msItem class="ridd">
+						<msContents>
+						<summary><title type="supplied">Riddarasögur</title>.</summary>
+						<msItem n="1" class="ridd">
+							<title type="supplied">Riddarasögur</title>
 							<filiation>
-								<p><ref target="#AM02-0181-a-da #AM02-0181-c-da #AM02-0181d-is #AM02-0181-e-da #AM02-0181-f-da #AM02-0181g-is         #AM02-0181h-is #AM02-0181i-is #AM02-0181k-is #AM02-0181l-is">AM 181 a-l</ref> tilhørte oprindelig samme papirhåndskrift,
+								<p><ref target="#AM02-0181-a-da #AM02-0181-c-da #AM02-0181d-is #AM02-0181-e-da #AM02-0181-f-da #AM02-0181g-is 
+									#AM02-0181h-is #AM02-0181i-is #AM02-0181k-is #AM02-0181l-is">AM 181 a-l</ref> tilhørte oprindelig samme papirhåndskrift,
 									som indeholdt riddersagaer. Dette bind blev til på foranledning
 										af<name type="person" key="ThoBjo003">Þorsteinn
 										Björnsson</name> der havde sit virke som præst i Útskálar på
@@ -36,38 +37,34 @@
 									fik han afskrevet en stor mængde islandsk middelalderlitteratur,
 									og hans forlæg for riddersagaerne, nu AM 181 fol, var <ref type="ms">Stockholm Perg. 4to nr. 6</ref>.</p>
 							</filiation>
-							<msItem n="1" class="ridd">
-								<msItem n="1" class="ridd">
-									<locus from="1r" to="6v">1r-6v</locus>
-									<title type="uniform" xml:lang="is">Erex saga</title>
-									<textLang mainLang="is"/>
-									<rubric>Hier hefst <lb/> saga af Erex <lb/> Artus kappa</rubric>
-									<listBibl>
-										<bibl>Blaisdell: <ref type="primary-1" target="EA-B19">Erex
-												saga Artuskappa</ref>
-										</bibl>
-									</listBibl>
-								</msItem>
-								<msItem n="2" class="ridd">
-									<locus from="6v" to="13v">6v-13v</locus>
-									<title type="uniform" xml:lang="is">Samsonar saga fagra</title>
-									<rubric>Hier hef<ex>ur</ex>
-										<lb/> saga af Sam<lb/>sone fagra</rubric>
-								</msItem>
-								<msItem n="3" class="ridd">
-									<locus from="14r" to="17r">14-17r</locus>
-									<title type="uniform" xml:lang="is">Mǫttuls saga</title>
-									<rubric>Hier byriar mǫ<lb/>ttulz Søgu</rubric>
-									<bibl>Kalinke: <ref type="primary-1" target="EA-B30">Mǫttuls
-											saga</ref>
+							<msItem n="1.1" class="ridd">
+								<locus from="1r" facs="#AM02-0181-b-0001r" to="6v">1r-6v</locus>
+								<title type="uniform">Erex saga</title>
+								<textLang mainLang="is"/>
+								<rubric>Hier hefst <lb/> saga af Erex <lb/> Artus kappa</rubric>
+									<bibl>Blaisdell: <ref type="primary-1" target="EA-B19">Erex saga
+											Artuskappa</ref>
 									</bibl>
-								</msItem>
-								<msItem n="4" class="spa">
-									<locus from="17v" to="17v">17v</locus>
-									<title type="uniform" xml:lang="is">Krukkspá</title>
-									<note>Teksten er blevet overstreget, så den er nlæsten
-										ulæselig.</note>
-								</msItem>
+							</msItem>
+							<msItem n="1.2" class="ridd">
+								<locus from="6v" facs="#AM02-0181-b-0006v" to="13v">6v-13v</locus>
+								<title type="uniform">Samsonar saga fagra</title>
+								<rubric>Hier hef<ex>ur</ex>
+									<lb/> saga af Sam<lb/>sone fagra</rubric>
+							</msItem>
+							<msItem n="1.3" class="ridd">
+								<locus from="14r" facs="#AM02-0181-b-0014r" to="17r">14-17r</locus>
+								<title type="uniform">Mǫttuls saga</title>
+								<rubric>Hier byriar mǫ<lb/>ttulz Søgu</rubric>
+								<bibl>Kalinke: <ref type="primary-1" target="EA-B30">Mǫttuls
+										saga</ref>
+								</bibl>
+							</msItem>
+							<msItem n="1.4" class="spa">
+								<locus from="17v" facs="#AM02-0181-b-0017v" to="17v">17v</locus>
+								<title type="uniform">Krukkspá</title>
+								<note>Teksten er overstreget, så den er næsten
+									ulæselig.</note>
 							</msItem>
 						</msItem>
 					</msContents>
@@ -80,8 +77,8 @@
 									</p>
 								</support>
 								<extent>17. <dimensions type="leaf" scope="all">
-										<height>294</height>
-										<width>193</width>
+										<height unit="mm">294</height>
+										<width unit="mm">193</width>
 									</dimensions>.</extent>
 								<foliation>
 									<p>Oprindelig foliering 532-548 i øverste højre hjørne.
@@ -120,28 +117,30 @@
 											Odin og den Hedniske Gudelære og Gudstieneste udi
 											Norden</ref>
 									</bibl>, titelbladet ses her). Størrelse: <dimensions type="binding">
-										<height>295</height>
-										<width>195</width>
-										<depth>16</depth>
+										<height unit="mm">295</height>
+										<width unit="mm">195</width>
+										<depth unit="mm">16</depth>
 									</dimensions>.</p>
 							</binding>
 						</bindingDesc>
 					</physDesc>
 					<history>
 						<origin notBefore="1638" notAfter="1652" evidence="conjecture" resp="EIMF10">
-							<p>AM 181 fol er skrevet på <origPlace>Útskálar,
-									Island</origPlace>. <name type="person" key="KriKaa001">Kålund</name> daterede det til <origDate notBefore="1625" notAfter="1675">ca. 1650</origDate>(<bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
-								</bibl>), mens <name type="person" key="DesSla001">Slay</name>
-								argumenterer for at det formodentlig er skrevet <origDate notBefore="1638" notAfter="1652" evidence="conjecture">mellem
-									1638 og 1652</origDate> (<bibl>Slay: <ref type="secondary-1" target="EIMF10">Romances</ref>
-									<biblScope unit="pages">23a</biblScope>
-								</bibl>). <name type="person" key="PetSpr001">Peter
-									Springborg</name> mener dog, at håndskriftet hovedsageligt blev
-								skrevet i <origDate notBefore="1640" notAfter="1650" evidence="conjecture">1640'erne</origDate> (<bibl>Springborg:
-										<ref type="secondary-1" target="Springborg1977">Antiqvæ
-										Historiæ Lepores</ref>
-									<biblScope unit="pages">81-86</biblScope>
-								</bibl>).</p>
+							<p>AM 181 fol er skrevet på <origPlace>Útskálar, Island</origPlace>.
+								<origDate notBefore="1638" notAfter="1652" evidence="conjecture"
+									>mellem 1638 og 1652</origDate> (<bibl><ref type="secondary-1"
+										target="EIMF10">Slay 1972</ref>
+										<biblScope unit="page">23a</biblScope>
+									</bibl>).</p>
+							<p>Andre dateringer: <list>
+								<item>ca. 1650: (<bibl>Kålund: <ref type="secondary-1"
+									target="KKKat">Katalog</ref>
+								</bibl>)</item>
+								<item>Hovedsageligt 1640'erne (<bibl><ref type="secondary-1"
+									target="Springborg1977">Springborg 1977</ref>
+									<biblScope unit="page">81-86</biblScope>
+								</bibl>).</item>
+							</list></p>
 						</origin>
 						<provenance>
 							<p>AM 181 fol. har tilhørt <name type="person" key="ThoBjo003">Þorsteinn
@@ -166,14 +165,13 @@
 						<listBibl>
 							<bibl>Blaisdell: <ref type="secondary-1" target="EA-B19">Erex saga
 									Artuskappa</ref>
-								<biblScope unit="pages">xv-xxiv</biblScope>
+								<biblScope unit="page">xv-xxiv</biblScope>
 							</bibl>
-							<!-- ChrFel1963a -->
 							<bibl>Halvorsen, <ref type="secondary-1" target="E__Hal1989a">Karlamagnus saga and some religious texts AM 180 a and b
 									fol</ref><!-- biblScope? --></bibl>
 							<bibl>Kålund, <ref type="secondary-1" target="KKKat"/>
 								<biblScope unit="volume">I</biblScope>
-								<biblScope unit="pages">150-51</biblScope>
+								<biblScope unit="page">150-51</biblScope>
 							</bibl>
 							<bibl>Loth, <ref type="secondary-1" target="AgnLot1093a">Sønderdelte
 									arnamagnæanske
@@ -184,9 +182,9 @@
 							</bibl> -->
 							<bibl>Slay, <ref type="secondary-1" target="EIMF10">Romances: Perg. 4:o
 									Nr. 6 in The Royal Library, Stockholm</ref>
-								<biblScope unit="pages">23a <!-- more pages? --></biblScope></bibl>
+								<biblScope unit="page">23a <!-- more pages? --></biblScope></bibl>
 							<bibl>Springborg, <ref type="secondary-1" target="Springborg1977">Antiqvæ Historiæ Lepores</ref>
-								<biblScope unit="pages">81-86</biblScope>
+								<biblScope unit="page">81-86</biblScope>
 							</bibl>
 						</listBibl>
 

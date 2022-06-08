@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,26 +23,31 @@
                             <idno>1695</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="en">Legends of Saints</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1490" notAfter="1510">c. 1500; s. XV med
-                            (ONP)</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1">
+                        <summary><title type="supplied" xml:lang="en">Religious
+                            Texts</title></summary>
+                        <msItem n="1" class="leid">
                             <locus from="1r" to="8v">1r-8v</locus>
                             <title xml:lang="is">Duggals leiðsla</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
+                            <note>Only a fragment of the bottom part of the leaf following fol. 8 is
+                                extant.</note>
+                            <bibl>Cahill, <ref type="primary-1" target="Rit25">Duggals
+                                    leiðsla</ref><biblScope unit="page">1-104</biblScope></bibl>
                         </msItem>
-                        <msItem n="2">
+                        <msItem n="2" class="pred">
                             <locus from="9r" to="9v">9r-9v</locus>
-                            <title type="supplied">Latin sermon</title>
+                            <title type="supplied">Sermon</title>
                             <textLang mainLang="la">Latin</textLang>
+                            <note>Fragment. Fol. 9v is illegible.</note>
                         </msItem>
-                        <msItem n="3">
+                        <msItem n="3" class="jarteikn">
                             <locus from="10r" to="10v">10r-10v</locus>
-                            <title>Maríu saga</title>
+                            <title type="uniform">Maríu jartegnir</title>
+                            <incipit defective="true">halldn<ex>er</ex> j daudl<ex>igu</ex>m
+                                    lika<ex>m</ex></incipit>
+                            <explicit defective="true">ſe<ex>m</ex> hi<ex>n</ex> andada kona hapdi
+                                    h<ex>onu</ex>m ſagt</explicit>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -52,13 +58,62 @@
                                         <material>Parchment.</material>
                                     </p>
                                 </support>
-                                <extent>10. </extent>
+                                <extent>10. <dimensions type="leaf" unit="mm">
+                                        <height unit="mm">210</height>
+                                        <width unit="mm">165</width>
+                                    </dimensions></extent>
                             </supportDesc>
                         </objectDesc>
+                        <accMat>An AM-slip in <name type="person" key="ArnMag001">Árni
+                                Magnússon</name>'s hand reads: <q xml:lang="is">Þetta feck eg 1708.
+                                af Eiriki Biarnaſyne, en<ex>n</ex> han<ex>n</ex> hafde þad feinged
+                                hia mäge ſinum S<ex>era</ex>
+                                <name type="person" key="ThoGud007">Þorleifi Gudmundz ſyne</name> ä
+                                Hallorms ſtad fyrer nockrum ärum</q>.</accMat>
                     </physDesc>
+                    <history>
+                        <origin>Written in <origPlace>Iceland</origPlace>, <origDate
+                                notBefore="1440" notAfter="1460" evidence="conjecture" resp="Rit25"
+                                >c. 1450</origDate> (<bibl>
+                                <ref type="secondary-1" target="Rit25">Cahill 1983</ref>
+                                <biblScope unit="page">xxi</biblScope>
+                            </bibl>). <name type="person" key="KriKaa001">Kålund</name>'s dating: c.
+                            1500 (<bibl>
+                                <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">97</biblScope>
+                            </bibl>).</origin>
+                        <provenance>According to the account on the AM-slip <name type="person"
+                                key="ThoGud007">Þorleifur Guðmundsson</name> owned the manuscript before he gave it to
+                            his brother-in-law, the <foreign xml:lang="is">lögréttumaður</foreign>
+                            <name type="person" key="EirBja001">Eiríkur
+                            Bjarnason</name>.</provenance>
+                        <acquisition>Árni Magnússon acquired the manuscript from Eiríkur Bjarnason
+                            in <date when="1708">1708</date>. The text of <ref type="ms"
+                                target="AM04-0435-a-en">AM 435 a 4to</ref>, fol. 21v, is similar to
+                            the one on the AM-slip. Here, however, <q>lgrettumanni ur
+                                Auſtfiordum</q> is added to the name Eiríkur
+                            Bjarnason.</acquisition>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl><ref type="secondary-1" target="Rit25"/>
+                                <biblScope unit="page">ix, xxxvii-xlviii</biblScope></bibl>
+                            <bibl><ref target="KGProver"/></bibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">97</biblScope>
+                            </bibl>
+                            <bibl><ref target="HMS1877"/>
+                                <biblScope unit="page">xii</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2022-02-10" who="EvaWed001">Updated markup and content.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

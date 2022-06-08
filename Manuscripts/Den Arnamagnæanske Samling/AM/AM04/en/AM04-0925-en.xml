@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,54 @@
                      <idno>2057</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Catalogus amplae Manuscriptorum Collectionis adhuc Hafniae servatae Museo Britannico mittendae auctore Finn Magnusson huc usqve hujus collectionis possessore Coeptus 1830 finitus 1835 recensitius 1837</title>
-                  <!--origPlace>Iceland</origPlace-->
-<origDate notBefore="1800" notAfter="1900">s. XIX</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
-                     <author>
-                        <name type="person" key="FinMag001">Finnur Magnússon</name>
-                     </author>
+                  <summary><title type="supplied">Catalogue of the Manuscripts Finnur Magnússon Sold
+                     to British Museum</title><note>Including an additional register composed by <name type="person" key="JonTho010">Jón
+                        Þorkelsson</name>.</note></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">Catalogus <lb/> amplae Manuscriptorum <lb/>
+                           Collectionis <lb/> adhuc Hafniae servatae <lb/> Museo Britannico <lb/>
+                           mittendae <lb/> auctore <lb/> Finn Magnusson <lb/> huc usqve hujus
+                           collectionis possessore <lb/> Coeptus 1830 <lb/> finitus 1835 <lb/>
+                           recensitus <date when="1837">1837</date></titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="hdrskr">
+                     <locus from="1r" to="102v">1r-102v</locus>
+                     <author key="FinMag001">Finnur Magnússon</author>
+                     <title type="supplied">Catalogue of Manuscripts Sold to British
+                        Museum</title>
                      <textLang mainLang="la">Latin</textLang>
+                     <filiation>Copy of <name type="person" key="JonSig004">Jón Sigurðsson</name>'s
+                        copy.</filiation>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>102. 
-<dimensions type="leaf" scope="all">
-                              <height>230</height>
-                              <width>180</width>
+                        <extent>102. <dimensions type="leaf" scope="all">
+                              <height unit="mm">230</height>
+                              <width unit="mm">180</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark</origPlace>
+                     <origDate notBefore="1837" notAfter="1899">s. XIX (not before
+                     1837)</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">264-265</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

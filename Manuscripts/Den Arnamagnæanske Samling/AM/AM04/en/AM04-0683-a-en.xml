@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,72 @@
                      <idno>1701</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Formulas of exorcism and benediction</title>
-                  <origPlace>Norway</origPlace>
-                  <origDate notBefore="1490" notAfter="1510">c. 1500</origDate>
-               </head>
-               <msContents>
-                  <textLang mainLang="la" otherLangs="nor dan">Latin and Danish</textLang>
+                  <msContents>
+                  <summary>
+                     <title type="supplied">Formulas of Exorcism and Benediction and Canon Law</title>
+                  </summary>
+                  <textLang mainLang="la" otherLangs="da">Latin and Danish</textLang>
+                  <msItem n="1" class="krist">
+                     <locus from="1r" to="3v">1r-3v</locus>
+                     <title type="supplied">Formulas of Exorcism and Benediction</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem n="1.1">
+                        <title type="uniform">Consecratio salis et aqvæ</title>
+                     </msItem>
+                     <msItem n="1.2">
+                        <title type="uniform">Conjuratio contra dæmones</title>
+                     </msItem>
+                     <msItem n="1.3">
+                        <title type="uniform">Benedictio carnium ceterorumqve alimentorum</title>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2" class="klog">
+                     <locus from="3v" to="3v">3v</locus>
+                     <title type="uniform">Whom are Denied Protection from the Church</title>
+                     <textLang mainLang="da">Danish</textLang>
+                     <rubric>Teſſe efft<ex>er</ex>sch<ex>re</ex>ffne forbywd<ex>er</ex>
+                        th<ex>e</ex>n helghe <lb/> kerke ſyn hegn oc beſkermelſe</rubric>
+                     <bibl>Diderichsen, <ref type="primary" target="FragmPD">Fragmenter af
+                           gammeldanske Haandskrifter</ref><biblScope unit="pages"
+                        >179</biblScope></bibl>
+                  </msItem>
+
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>3. </extent>
+                        <extent>3. <dimensions type="leaf" unit="mm">
+                           <height unit="mm">240</height>
+                           <width unit="mm">180</width>
+                        </dimensions></extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Norway</origPlace>, <origDate notBefore="1390" notAfter="1510"
+                        >c. 1400 and c. 1500 (f. 3v)</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">98</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="NgL4">Norges gamle
+                        Love</ref><biblScope unit="volume">IV</biblScope><biblScope unit="pages"
+                           >553-56</biblScope><note>Treated as a part of <ref
+                              type="ms" target="AM04-00062-da">AM 62 4to</ref> to which these leaves belonged.</note></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-11-12" who="EvaWed001">Updated markup and content.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

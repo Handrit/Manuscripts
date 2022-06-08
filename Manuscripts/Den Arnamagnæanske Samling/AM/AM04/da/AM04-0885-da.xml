@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,11 +22,11 @@
                      <idno>2016</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Absalon Pederssøns Norges
-                  beskrivelse</title>; <origPlace>Danmark</origPlace>, <origDate notBefore="1600" notAfter="1625" evidence="conjecture" resp="KKKat">s. XVII 1/4</origDate>.</head>
                <msContents>
-                  <msItem>
+                  <summary><title type="supplied" xml:lang="da">Absalon Pederssøns Norges
+                        beskrivelse</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="129v">1r-129v</locus>
                      <author key="AbsPed001">Absalon Pederssøn</author>
                      <title type="supplied" xml:lang="da">Absalon Pederssøns Norges
                         beskrivelse</title>
@@ -41,20 +41,19 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>129. <dimensions type="leaf" scope="all">
-                              <height>205</height>
-                              <width>161</width>
+                              <height unit="mm">205</height>
+                              <width unit="mm">161</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc n="9">
-                     <handNote scope="minor" script="unknown">
-                        <p>Bl. 13, 24 og 102-103 er
-                           skrevet af Hans Becker.</p>
+                     <handNote scope="minor" scribe="HanBec001" script="unknown">
+                        <p>Bl. 13, 24 og 102-103 er skrevet af <name type="person" key="HanBec001">Hans Becker</name>.</p>
                      </handNote>
                   </handDesc>
                   <additions>
-                     <p>Hist og her i marginen findes aftegnet våbenmærker o.l. (bl.
-                           62r: Islands).</p>
+                     <p>Hist og her i marginen findes aftegnet våbenmærker o.l. (bl. 62r:
+                        Islands).</p>
                   </additions>
                   <bindingDesc>
                      <binding contemporary="unknown">
@@ -62,28 +61,34 @@
                      </binding>
                   </bindingDesc>
                   <accMat>
-                     <p>Bl. 13, 24 og 102-103 er
-                        indsatte for <name type="person" key="ArnMag001">Arne Magnusson</name> til
-                        udfyldning af lakuner. 
-                        Foran er indsat et dobbeltblad med påtegning af <name type="person" key="ArnMag001">Arne Magnusson</name>, der oplyser om
-                        lakunernes udfyldning, skriftets forfatter og tillægger: <q xml:lang="da">Dette mit
-                           Exemplar kiöbte ieg paa Geheime Raad og Vice Stadtholder <name type="person" key="FreGab001">Gabel</name>s auction.
-                           Var det da i Saphian [<ex>rettet for</ex> rödt bind], ſom hafde veret
-                           ſkiönt beredt, men var fordervet. uden paa ſam<ex>m</ex>e bind ſtoed med
-                           ſölf [<ex>rettet for</ex> forgyldte] bogstaver. <name type="person" key="ChrUrn001">CHRISTOFFER <lb/> WRNE</name>
-                           <lb/> <date when="1630">M.DC.XXX</date></q>.</p>
+                     <p>Bl. 13, 24 og 102-103 er indsatte for <name type="person" key="ArnMag001"
+                           >Arne Magnusson</name> til udfyldning af lakuner. Foran er indsat et
+                        dobbeltblad med påtegning af <name type="person" key="ArnMag001">Arne
+                           Magnusson</name>, der oplyser om lakunernes udfyldning, skriftets
+                        forfatter og tillægger: <q xml:lang="da">Dette mit Exemplar kiöbte ieg paa
+                           Geheime Raad og Vice Stadtholder <name type="person" key="FreGab001"
+                              >Gabel</name>s auction. Var det da i Saphian [<ex>rettet for</ex> rödt
+                           bind], ſom hafde veret ſkiönt beredt, men var fordervet. uden paa
+                              ſam<ex>m</ex>e bind ſtoed med ſölf [<ex>rettet for</ex> forgyldte]
+                           bogstaver. <name type="person" key="ChrUrn001">CHRISTOFFER <lb/>
+                              WRNE</name>
+                           <lb/>
+                           <date when="1630">M.DC.XXX</date></q>.</p>
                   </accMat>
                </physDesc>
+               <history>
+                  <origin><origPlace>Danmark</origPlace>, <origDate notBefore="1600" notAfter="1630"
+                        evidence="conjecture" resp="KKKat">s. XVII in</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">245-246</biblScope></bibl>
-                     <bibl>Suhm:
-                        <ref target="PetSuh1771-1776">Samlinger</ref>
+                        <biblScope unit="page">245-246</biblScope></bibl>
+                     <bibl>Suhm: <ref target="PetSuh1771-1776">Samlinger</ref>
                         <biblScope unit="volume">III</biblScope>
-                        <biblScope unit="pages">33 ff.</biblScope>
-                       </bibl>
+                        <biblScope unit="page">33 ff.</biblScope>
+                     </bibl>
                   </listBibl>
                </additional>
             </msDesc>

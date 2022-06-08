@@ -1,172 +1,246 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 733 4to</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM04-0733-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 733 4to</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>1842</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title type="supplied">Calendarium and Missale</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1300" notAfter="1350">s. XIV 1/2; s. XIV (ONP)</origDate>
-               </head>
-               <msContents>
-                  <textLang mainLang="la" otherLangs="da">Latin and Danish</textLang>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>
-                           <p>Parchment.</p>
-                        </support>
-                        <extent>6. </extent>
-                     </supportDesc>
-                  </objectDesc>
-                  <decoDesc>
-                     <decoNote type="miniature">
-                        <p>Representation of the Crucifixion on <locus>5va</locus>. The Virgin Mary is standing on the right-hand side, St John on the left.</p>
-                     </decoNote>
-                     <decoNote type="initial">
-                        <p>
-                           <list>
-                              <item n="1">
-                                 <locus facs="#AM04-0733-0005v">5v</locus>Blue initial ending in a hare in the left margin</item>
-                              <item n="2">
-                                 <locus facs="#AM04-0733-0006v">6v</locus>Blue initial ending in a man's head in the left margin</item>
-                           </list>
-                        </p>
-                     </decoNote>
-                     <decoNote type="marginal">
-                        <p>
-                           <list>
-                              <item n="1">
-                                 <locus facs="#AM04-0733-0006r">6r</locus>Peacock</item>
-                              <item n="2">
-                                 <locus facs="#AM04-0733-0006r">6r</locus>Woman's head</item>
-                           </list>
-                        </p>
-                     </decoNote>
-                  </decoDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 733 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0733-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 733 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>1842</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="supplied">Calendarium Romanum and Missal</title>
+							<note>Originally belonged to the same manuscript as <ref type="ms" target="#AM02-0322-en">AM 322
+							fol</ref> and <ref type="ms" target="#AM04-0114-a-en">AM 114 a
+								4to</ref>.</note></summary>
+						<msItem n="1">
+							<locus from="1r" facs="#AM04-0733-0001r" to="3v">1r-3v</locus>
+							<title type="supplied" xml:lang="la">Calendarium Romanum</title>
+							<textLang mainLang="la">Latin</textLang>
+							<bibl>Unger, <ref type="primary" target="NgL4">Norges gamle
+								Love</ref>
+								<biblScope unit="volume">IV</biblScope>
+								<biblScope unit="page">507-509</biblScope>
+								<note>The footnote.</note></bibl>
+						</msItem>
+						<msItem n="2">
+							<locus from="4r" facs="#AM04-0733-0004r" to="6v">4r-6v</locus>
+							<title type="suuplied" xml:lang="la">Missal</title>
+							<textLang mainLang="la" otherLangs="da">Latin</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p><material>Parchment</material>.</p>
+								</support>
+								<extent>6. <dimensions type="leaf" unit="mm">
+									<height unit="mm">260</height>
+									<width unit="mm">174</width>
+								</dimensions>.
+								</extent>
+								<condition>The bottom margin of fol. 4 was excised.</condition>
+							</supportDesc>
+						</objectDesc>
+						<decoDesc>
+							<decoNote type="miniature">
+								<p>Representation of the Crucifixion on <locus facs="#AM04-0733-0005v">5va</locus>. The
+									Virgin Mary is standing on the right-hand side, St John on the
+									left.</p>
+							</decoNote>
+							<decoNote type="initial">
+								<p>
+									<list>
+										<item n="1">
+											<locus facs="#AM04-0733-0005v">5v</locus> Blue initial
+											ending in a hare in the left margin.</item>
+										<item n="2">
+											<locus facs="#AM04-0733-0006v">6v</locus> Blue initial
+											ending in a man's head in the left margin.</item>
+									</list>
+								</p>
+							</decoNote>
+							<decoNote type="marginal">
+								<p>
+									<list>
+										<item n="1">On fol. 
+											<locus facs="#AM04-0733-0006r">6r</locus> a peacock is found.</item>
+										<item n="2">On ol. 6r a 
+											<locus facs="#AM04-0733-0006r">6r</locus> a woman's
+											head is found.</item>
+									</list>
+								</p>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin><origPlace>Iceland</origPlace>,
+							<origDate notBefore="1300" notAfter="1350">s. XIV<hi rend="sup">1</hi></origDate>.</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<!-- Tjek Gjerløw -->
+							<bibl>Claussøn Friis: <ref type="secondary" target="FriisSmlSkrifter">Samlede
+								Skrifter</ref>
+								<biblScope unit="page">lvi</biblScope>
+							</bibl>
+							<bibl>Jón Sigurðsson: <ref type="secondary" target="DiplIsl">Diplomatarium
+								Islandicum</ref>
+								<biblScope unit="volume">I</biblScope>
+							</bibl>
+							<bibl>Jón Þorkelsson: <ref type="secondary" target="IsArt">Íslenzkar
+								ártidaskrár eða Obituaria Islandica með athugasemdum</ref>
+								<biblScope unit="page">23</biblScope>
+							</bibl>
+							<bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="page">162-163</biblScope>
+							</bibl>
+							<bibl>Storm: <ref type="secondary" target="MhN">Monumenta historica
+								Norvegiae</ref>
+								<biblScope unit="page">lix</biblScope>
+							</bibl>
+							<bibl>Storm: <ref type="secondary" target="NgL4">Norges gamle Love</ref>
+								<biblScope unit="volume">IV</biblScope>
+								<biblScope unit="page">506-10</biblScope>
+							</bibl>
+							<bibl>Storm: <ref type="secondary" target="TaleModBiskoperne">En Tale mod
+								Biskoperne</ref>
+							</bibl>
+						</listBibl>
+					</additional>
+					
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0733-accMat01r" n="0">
 			<desc>accMat01r</desc>
 			<graphic mimeType="pdf" url="AM%20733%204to/0/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20733%204to/0/THUMBNAIL" width="200px" height="279px"/>
-			<graphic mimeType="jpg" url="AM%20733%204to/0/SECONDARY_DISPLAY" width="1449px" height="2019px"/>
+			<graphic mimeType="jpg" url="AM%20733%204to/0/SECONDARY_DISPLAY" width="1449px"
+				height="2019px"/>
 			<graphic mimeType="pdf" url="AM%20733%204to/0/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM04-0733-accMat01v" n="1">
 			<desc>accMat01v</desc>
 			<graphic mimeType="pdf" url="AM%20733%204to/1/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20733%204to/1/THUMBNAIL" width="200px" height="221px"/>
-			<graphic mimeType="jpg" url="AM%20733%204to/1/SECONDARY_DISPLAY" width="1803px" height="1996px"/>
+			<graphic mimeType="jpg" url="AM%20733%204to/1/SECONDARY_DISPLAY" width="1803px"
+				height="1996px"/>
 			<graphic mimeType="pdf" url="AM%20733%204to/1/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM04-0733-0001r" n="2">
 			<desc>0001r</desc>
 			<graphic mimeType="pdf" url="AM%20733%204to/2/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20733%204to/2/THUMBNAIL" width="200px" height="278px"/>
-			<graphic mimeType="jpg" url="AM%20733%204to/2/SECONDARY_DISPLAY" width="1439px" height="2003px"/>
+			<graphic mimeType="jpg" url="AM%20733%204to/2/SECONDARY_DISPLAY" width="1439px"
+				height="2003px"/>
 			<graphic mimeType="pdf" url="AM%20733%204to/2/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM04-0733-0001v" n="3">
 			<desc>0001v</desc>
 			<graphic mimeType="pdf" url="AM%20733%204to/3/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20733%204to/3/THUMBNAIL" width="200px" height="282px"/>
-			<graphic mimeType="jpg" url="AM%20733%204to/3/SECONDARY_DISPLAY" width="1418px" height="2001px"/>
+			<graphic mimeType="jpg" url="AM%20733%204to/3/SECONDARY_DISPLAY" width="1418px"
+				height="2001px"/>
 			<graphic mimeType="pdf" url="AM%20733%204to/3/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM04-0733-0002r" n="4">
 			<desc>0002r</desc>
 			<graphic mimeType="pdf" url="AM%20733%204to/4/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20733%204to/4/THUMBNAIL" width="200px" height="282px"/>
-			<graphic mimeType="jpg" url="AM%20733%204to/4/SECONDARY_DISPLAY" width="1430px" height="2015px"/>
+			<graphic mimeType="jpg" url="AM%20733%204to/4/SECONDARY_DISPLAY" width="1430px"
+				height="2015px"/>
 			<graphic mimeType="pdf" url="AM%20733%204to/4/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM04-0733-0002v" n="5">
 			<desc>0002v</desc>
 			<graphic mimeType="pdf" url="AM%20733%204to/5/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20733%204to/5/THUMBNAIL" width="200px" height="276px"/>
-			<graphic mimeType="jpg" url="AM%20733%204to/5/SECONDARY_DISPLAY" width="1460px" height="2017px"/>
+			<graphic mimeType="jpg" url="AM%20733%204to/5/SECONDARY_DISPLAY" width="1460px"
+				height="2017px"/>
 			<graphic mimeType="pdf" url="AM%20733%204to/5/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM04-0733-0003r" n="6">
 			<desc>0003r</desc>
 			<graphic mimeType="pdf" url="AM%20733%204to/6/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20733%204to/6/THUMBNAIL" width="200px" height="274px"/>
-			<graphic mimeType="jpg" url="AM%20733%204to/6/SECONDARY_DISPLAY" width="1465px" height="2005px"/>
+			<graphic mimeType="jpg" url="AM%20733%204to/6/SECONDARY_DISPLAY" width="1465px"
+				height="2005px"/>
 			<graphic mimeType="pdf" url="AM%20733%204to/6/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM04-0733-0003v" n="7">
 			<desc>0003v</desc>
 			<graphic mimeType="pdf" url="AM%20733%204to/7/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20733%204to/7/THUMBNAIL" width="200px" height="276px"/>
-			<graphic mimeType="jpg" url="AM%20733%204to/7/SECONDARY_DISPLAY" width="1460px" height="2017px"/>
+			<graphic mimeType="jpg" url="AM%20733%204to/7/SECONDARY_DISPLAY" width="1460px"
+				height="2017px"/>
 			<graphic mimeType="pdf" url="AM%20733%204to/7/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM04-0733-0004r" n="8">
 			<desc>0004r</desc>
 			<graphic mimeType="pdf" url="AM%20733%204to/8/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20733%204to/8/THUMBNAIL" width="200px" height="267px"/>
-			<graphic mimeType="jpg" url="AM%20733%204to/8/SECONDARY_DISPLAY" width="1507px" height="2010px"/>
+			<graphic mimeType="jpg" url="AM%20733%204to/8/SECONDARY_DISPLAY" width="1507px"
+				height="2010px"/>
 			<graphic mimeType="pdf" url="AM%20733%204to/8/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM04-0733-0004v" n="9">
 			<desc>0004v</desc>
 			<graphic mimeType="pdf" url="AM%20733%204to/9/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20733%204to/9/THUMBNAIL" width="200px" height="276px"/>
-			<graphic mimeType="jpg" url="AM%20733%204to/9/SECONDARY_DISPLAY" width="1460px" height="2017px"/>
+			<graphic mimeType="jpg" url="AM%20733%204to/9/SECONDARY_DISPLAY" width="1460px"
+				height="2017px"/>
 			<graphic mimeType="pdf" url="AM%20733%204to/9/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM04-0733-0005r" n="10">
 			<desc>0005r</desc>
 			<graphic mimeType="pdf" url="AM%20733%204to/10/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20733%204to/10/THUMBNAIL" width="200px" height="274px"/>
-			<graphic mimeType="jpg" url="AM%20733%204to/10/SECONDARY_DISPLAY" width="1471px" height="2017px"/>
+			<graphic mimeType="jpg" url="AM%20733%204to/10/SECONDARY_DISPLAY" width="1471px"
+				height="2017px"/>
 			<graphic mimeType="pdf" url="AM%20733%204to/10/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM04-0733-0005v" n="11">
 			<desc>0005v</desc>
 			<graphic mimeType="pdf" url="AM%20733%204to/11/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20733%204to/11/THUMBNAIL" width="200px" height="280px"/>
-			<graphic mimeType="jpg" url="AM%20733%204to/11/SECONDARY_DISPLAY" width="1432px" height="2003px"/>
+			<graphic mimeType="jpg" url="AM%20733%204to/11/SECONDARY_DISPLAY" width="1432px"
+				height="2003px"/>
 			<graphic mimeType="pdf" url="AM%20733%204to/11/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM04-0733-0006r" n="12">
 			<desc>0006r</desc>
 			<graphic mimeType="pdf" url="AM%20733%204to/12/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20733%204to/12/THUMBNAIL" width="200px" height="277px"/>
-			<graphic mimeType="jpg" url="AM%20733%204to/12/SECONDARY_DISPLAY" width="1446px" height="2001px"/>
+			<graphic mimeType="jpg" url="AM%20733%204to/12/SECONDARY_DISPLAY" width="1446px"
+				height="2001px"/>
 			<graphic mimeType="pdf" url="AM%20733%204to/12/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM04-0733-0006v" n="13">
 			<desc>0006v</desc>
 			<graphic mimeType="pdf" url="AM%20733%204to/13/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20733%204to/13/THUMBNAIL" width="200px" height="280px"/>
-			<graphic mimeType="jpg" url="AM%20733%204to/13/SECONDARY_DISPLAY" width="1432px" height="2003px"/>
+			<graphic mimeType="jpg" url="AM%20733%204to/13/SECONDARY_DISPLAY" width="1432px"
+				height="2003px"/>
 			<graphic mimeType="pdf" url="AM%20733%204to/13/WEB_DISPLAY"/>
 		</surface>
 	</facsimile>

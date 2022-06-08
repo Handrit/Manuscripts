@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,12 +23,11 @@
                      <idno>1823</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="la">Calendarium Romanum</title>
-                  <origDate notBefore="1200" notAfter="1299" evidence="conjecture" resp="KKKat">s. XIII</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
+                  <summary><title type="supplied" xml:lang="la">Calendarium
+                     Romanum</title></summary>
+                  <msItem n="1" class="timat">
+                     <locus from="1r" to="6v">1r-6v</locus>
                      <title type="supplied" xml:lang="la">Calendarium Romanum</title>
                      <textLang mainLang="la">Latin</textLang>
                   </msItem>
@@ -41,9 +40,9 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>6. <dimensions type="leaf" scope="all">
-                              <height>203</height>
-                              <width>142</width>
-                           </dimensions>
+                              <height unit="mm">203</height>
+                              <width unit="mm">142</width>
+                           </dimensions>.
                         </extent>
                      </supportDesc>
                      <layoutDesc>
@@ -53,20 +52,26 @@
                   <bindingDesc>
                      <binding>
                         <p>På Kålunds tid var håndskriftet betrukket med et tospaltet, kirkeligt
-                           håndskrift skrevet på latin, nu overført til <ref type="ms">Acc 7e Hs
-                              123</ref>.</p>
+                           håndskrift skrevet på latin, nu overført til <ref type="ms"
+                              target="#Acc-0007-e-da">Acc. 7e Hs 123</ref>.</p>
                      </binding>
                   </bindingDesc>
                   <accMat>På en tilhørende seddel har <name type="person" key="ArnMag001">Arne
-                        Magnusson</name> noteret: <q>Framanvid Latinſka Bibliu
-                        Verſionis Hieronymi. hveria eg hafdi feinged epter Etats Raad
-                           <name type="person" key="JenRos001">Roſencrantz</name></q>.</accMat>
+                        Magnusson</name> noteret: <q>Framanvid Latinſka Bibliu Verſionis Hieronymi.
+                        hveria eg hafdi feinged epter Etats Raad Roſencrantz</q>.</accMat>
                </physDesc>
+               <history>
+                  <origin>Skrevet i <origDate notBefore="1200" notAfter="1299" evidence="conjecture"
+                        resp="KKKat">1200-tallet</origDate>. Oprindelseslandet er ukendt.</origin>
+                  <acquisition>På AM-sedlen meddeler Arne Magnusson at han købte håndskriftet efter
+                     <name type="person" key="JenRos001"
+                        >Jens Rosenkrantz'</name> død.</acquisition>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">154</biblScope>
+                        <biblScope unit="page">154</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

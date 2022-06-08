@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,13 +23,10 @@
                      <idno>1322</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Trójumanna saga</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1697-01-01" notAfter="1697-12-31">1697</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform">Trójumanna saga</title></summary>
+                  <msItem n="1" class="sagnps">
+                     <title type="uniform">Trójumanna saga</title>
                      <textLang mainLang="is">Icelandic</textLang>
                   </msItem>
                </msContents>
@@ -36,15 +34,19 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>100. 
-<dimensions type="leaf" scope="all">
-                              <height>208</height>
-                              <width>163</width>
+                        <extent>100. <dimensions type="leaf" scope="all">
+                              <height unit="mm">208</height>
+                              <width unit="mm">163</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Iceland</origPlace>
+                     <origDate when="1697">1697</origDate>. </origin>
+               </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,22 +23,87 @@
                      <idno>2002</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">On Bishops of Ribe</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1590" notAfter="1610">c. 1600</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">On Bishops of Ribe</title></summary>
                   <textLang mainLang="la">Latin</textLang>
                </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>
+                           <p>
+                              <material>Papir</material>.</p>
+                        </support>
+                        <extent>47 + 15 enclosed printed leaves. Fols 36, 43r, 44v and 46v are
+                           blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">201</height>
+                              <width unit="mm">153</width>
+                           </dimensions>.</extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <additions>
+                     <p>Fol. 1v has a pen-drawn (<heraldry>coat of arms</heraldry>).</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="unknown">
+                        <p>White, stamped leather binding.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin><origPlace>Denmark</origPlace>, <origDate notBefore="1590" notAfter="1610"
+                        evidence="conjecture" resp="KKKat">ca. 1600</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">240</biblScope>
+                     </bibl>
+                     <bibl>Langebek: <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
+                           Aevi</ref>
+                        <biblScope unit="volume">VII</biblScope><note>Med afbildning af
+                           våbenskjoldet</note>
+                     </bibl>
+                     <bibl>Smith <ref type="secondary-1" target="BirSmi1882">Om Københavns
+                           Universitetsbibliothek før 1728</ref>
+                     </bibl>
+                     <bibl>Rørdam: <ref target="HHDNSR">Historieskrivningen og Historieskriverne i
+                           Danmark og Norge siden Reformationen</ref>
+                        <biblScope unit="page">90</biblScope>
+                     </bibl>
+                     <bibl>Rørdam: <ref target="HolRør1873-1875">Historiske Kildeskrifter og
+                           Bearbejdelser af dansk Historie</ref>
+                        <biblScope unit="volume">I:1</biblScope>
+                        <biblScope unit="page">693</biblScope>
+                        <biblScope unit="volume">I:2</biblScope>
+                        <biblScope unit="page">741</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+
                <msPart n="1">
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>1</idno>
-                  </altIdentifier></msIdentifier>
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 871 I 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
+                     <titlePage type="MS">
+                        <docTitle>
+                           <titlePart type="sub">RIPENSIUM<lb/></titlePart>
+                           <titlePart type="main">EPISCO<lb/></titlePart>
+                           <titlePart type="sub">ORUM SERIES <lb/> et Vita. <lb/> Tetrastichis
+                              compræhenſa. <lb/> Per Iohannem Laurentium Ripenſem <gap
+                                 reason="irrelevant"/>
+                              <name type="place" key="Copen01">Hafniæ</name>
+                              <date when="1591">1591</date></titlePart>
+                        </docTitle>
+                     </titlePage>
                      <msItem n="1">
-                        <author>Johannes Laurentius Ripensis</author>
-                        <title>Ripensium Episcoporum series et vita. Tetrastichis comprehensa, Hafniæ 1591</title>
+                        <author key="JohLau002">Johannes Laurentius Ripensis</author>
+                        <title type="supplied">Ripensium Episcoporum series et vita tetrastichis
+                           compræhensa</title>
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -47,27 +113,37 @@
                            <extent>15 (printed).</extent>
                         </supportDesc>
                      </objectDesc>
+                     <additions>On the foot of the title page, the author added a dedication in
+                        Latin to <name type="person" key="CorHam001">C. Hamsfort</name>.
+                     </additions>
                   </physDesc>
+                  <history>
+                     <origin>Printed in <origPlace>Copenhagen, Denmark</origPlace>, <origDate
+                           when="1591" cert="high">1591</origDate>.</origin>
+                  </history>
                </msPart>
                <msPart n="2">
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>2</idno>
-                  </altIdentifier></msIdentifier>
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 871 II 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
                      <msItem n="1">
-                        <title>Annales Ecclesiae Ripensis seu series episcoporum Ripensium una cum Epitaphiis quatuor regum Danorum</title>
+                        <title type="supplied">Annales Ecclesiae Ripensis</title>
+                        <bibl><ref target="DiplDan4-3">Diplomatarium Danicorum</ref>
+                           <biblScope unit="page">465</biblScope>
+                           <note>Fol. 21r, Ed. Aa2.</note></bibl>
                      </msItem>
                   </msContents>
                   <physDesc>
                      <objectDesc form="codex">
                         <supportDesc material="chart">
                            <support>Paper.</support>
-                           <extent>47. 
-<dimensions type="leaf" scope="all">
-                                 <height>201</height>
-                                 <width>153</width>
-                              </dimensions>
-                           </extent>
+                           <extent>47. <dimensions type="leaf" scope="all">
+                                 <height unit="mm">201</height>
+                                 <width unit="mm">153</width>
+                              </dimensions>. </extent>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>

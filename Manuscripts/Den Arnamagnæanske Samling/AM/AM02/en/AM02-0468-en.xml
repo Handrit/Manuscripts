@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,15 +26,14 @@
                             <idno>Addit. 48 o fol.</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="da">Manorial court rolls</title>
-                        <origPlace>Denmark</origPlace>
-                        <origDate notBefore="1700" notAfter="1800">s. XVIII</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
-                            <author>Árni Magnússon</author>
-                            <author>Páll Vídalín</author>
+                        <summary>
+                            <title type="supplied">Land Registers</title>
+                        </summary>
+                        <msItem n="1" class="jarb">
+                            <author key="ArnMag001">Arne Magnusson</author>
+                            <author key="PalJon005">Páll Vídalín</author>
+                            <title type="supplied">Land Registers</title>
                             <textLang mainLang="da">Danish</textLang>
                         </msItem>
                     </msContents>
@@ -46,22 +46,37 @@
                                     </p>
                                 </support>
                                 <extent>341. <dimensions type="leaf" scope="all">
-                                        <height>340</height>
-                                        <width>220</width>
+                                        <height unit="mm">340</height>
+                                        <width unit="mm">220</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 468 I fol.</idno>
-                        </altIdentifier></msIdentifier>
+                    <history>
+                        <origin><origPlace>Denmark</origPlace>, <origDate notBefore="1700"
+                                notAfter="1799">s. XVIII</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>
+                                <ref target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">331</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 468 I fol.</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="uniform">Jordebog over Snæfellsnessýsla</title>
-                                <rubric>Jorde-Bog <lb/>over <lb/>Snæfells Syssel <lb/>udi
-                                    <lb/>Jisland</rubric>
+                            <msItem n="1" class="jarb">
+                                <title type="uniform">Land Register for Snæfellsnessýsla</title>
+                                <rubric>Jorde-Bog <lb/> over <lb/> Snæfells Syſſel <lb/>udi
+                                    <lb/>Jiſsland</rubric>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -77,13 +92,15 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 468 II fol.</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="2">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 468 II fol.</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="uniform">Jordebog over Dalasýsla</title>
+                            <msItem n="2">
+                                <title type="uniform">Land Register for Dalasýsla</title>
                                 <rubric>Jorde-Bog <lb/>over <lb/>Dale-Syssel <lb/>udi
                                     Iss-land</rubric>
                             </msItem>

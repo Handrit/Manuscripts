@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,22 +23,21 @@
                             <idno>1066</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Sverris saga</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1300" notAfter="1325" cert="high" evidence="conjecture">s. XIV 1/4</origDate>
-                        <note>According to <name type="person" key="OleWid001">Ole Widding</name> AM
-                            325 VIII 3c and 4a 4to probably belonged to a single codex.</note>
-                    </head>
-                    <msContents>
-                        <msItem class="kon" defective="true">
+                     <msContents>
+                        <summary><title type="uniform">Sverris saga</title></summary>
+                        <msItem n="1" class="kon" defective="true">
                             <locus from="1ra" to="1vb">1ra-1vb</locus>
-                            <title>Sverris saga</title>
-                            <textLang mainLang="is">Icelandic</textLang>
+                            <title type="uniform">Sverris saga</title>
+                            <textLang mainLang="non"/>
                             <incipit defective="true">austr agaut l<expan>an</expan>d</incipit>
+                            <note>Ends fifteen lines into a chapter, opening with <q xml:lang="is"
+                                        >Sver<ex>rer</ex> k<ex>onung</ex>r let grafa</q>
+                            </note>
                             <bibl>
-                        <ref type="primary-2" target="FMS8">Fornmanna sögur VIII</ref>,
-                                pp. 186-197</bibl>
+                                <ref type="primary-2" target="FMS8">Fornmanna sögur</ref>
+                                <biblScope unit="volume">VIII</biblScope>
+                                <biblScope unit="page">186-197</biblScope>
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -48,96 +48,112 @@
                                         <material>Parchment</material>.</p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>260</height>
-                                        <width>224</width>
+                                        <height unit="mm">260</height>
+                                        <width unit="mm">224</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
-                                    <p>The lower margin is for the most part torn or crumbled away
-                                        and two of the majuscules has had a copper connection that
-                                        has corroded the vellum in an Þ and S shape. In some places
-                                        of f. 1v, most probably because of a former use as binding,
-                                        the parchment has become so dark or the writing so
-                                        indistinct that reading is difficult.</p>
+                                    <p>Most of the bottom margin is torn or crumbled away and the
+                                        ink of two of the majuscules contained a copper concoction
+                                        corroding the vellum into a Þ and a S shape, respectively.
+                                        Due to its former use as binding material, the parchment of
+                                        fol. 1v has, in some places, become so or the writing so
+                                        indistinct that reading is made difficult.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" writtenLines="39">
-                                    <p>Written in double columns with 39 lines per column.</p>
+                                    <p>Written in two columns with 39 lines per column.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote script="textualis" scope="sole">
-                                <p>A skilled Icelandic Gothic bookhand.</p>
+                                <p>Written by a skilled Icelandic Gothic bookhand.</p>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
-                        <origin notBefore="1301" notAfter="1325" cert="high" evidence="conjecture">
-                            <p>The manuscript is written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
+                        <origin notBefore="1300" notAfter="1325" cert="high" evidence="conjecture">
+                            <p>The manuscript is written in <origPlace>Iceland</origPlace> in
+                                    <origDate notBefore="1300" notAfter="1325" cert="high"
+                                    evidence="conjecture">first quarter of the fourteenth
+                                    century</origDate> (<bibl><ref type="secondary"
+                                        target="HandskrWidding1960">Widding 1960</ref>
+                                    <biblScope unit="page">91</biblScope>
+                                </bibl> og <bibl><ref type="secondary" target="EIMF7">Karlsson
+                                        1967</ref>
+                                    <biblScope unit="page">59</biblScope>
+                                </bibl>). Kålund's dating: <date notBefore="1300" notAfter="1399"
+                                    cert="medium" resp="KKKat">the fourteenth century</date> (<bibl>
                                     <ref type="secondary-1" target="KKKat">KKKat</ref>
-                                </bibl>)has dated it to <origDate>the fourteenth century</origDate>,
-                                whereas <name type="person" key="OleWid001">Ole Widding</name>
-                                        (<bibl>
-                           <ref type="secondary" target="HandskrWidding1960">Widding 1960</ref>, p. 91</bibl>) and <name type="person" key="SteKar001">Stefán Karlsson</name> (<bibl>
-                           <ref type="secondary" target="EIMF7">Stéfan Karlsson 1967</ref>,
-                                    p. 59</bibl>) respectively, have dated it more precisely to
-                                    <origDate notBefore="1300" notAfter="1325" cert="high" evidence="conjecture">first quarter of the fourteenth
-                                    century</origDate>.</p>
+                                </bibl>).</p>
                         </origin>
                         <provenance>
-                            <p>The only known owner of the leaf is the Priest <name type="person" key="MagMar001">Magnús Markússon</name>
-                     </p>
+                            <p>The only known owner of the leaf is the Rev. <name type="person"
+                                    key="MagMar001">Magnús Markússon</name>
+                            </p>
                         </provenance>
                         <acquisition>
-                            <p>On the top margin of f. 1r Árni Magnússon has written: <q>frä Sr
-                                    Magnuse Markussyne 1725</q>.</p>
+                            <p>In the top margin of fol. 1r Árni Magnússon wrote: <q>frä Sr Magnuse
+                                    Markussyne <date when="1725">1725</date></q>.</p>
                         </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date>02.03.2000</date> by <name type="person" key="EvaWed001">EW-J</name>. (Parsed
+                                    <p>Catalogued <date>02.03.2000</date> by <name type="person"
+                                            key="EvaWed001">EW-J</name>. (Parsed
                                             <date>10.07.2000</date>).</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
-                                    <p>The manuscript was set on meeting guards and put in a
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
+                                    <p>The manuscript was put on meeting guards and put in a
                                         cardboard cover <date>02.03.1958-04.04.1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade 37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositives</title>
-                                        <idno>AM 325 VIII 3 c 4to</idno>
-                                        <date>May 1984 (or 1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <date>October 1956</date>
-                                        <idno>AM 325 VIII 3 c 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item>Plate, <idno>plade37</idno>, s.d.</item>
+                                    <item>Diapositives from <date notBefore="1984-05"
+                                            notAfter="1985-05">May 1984 or 1985</date>.
+                                    </item>
+                                    <item>Black and white prints from <date when="1956-10">October
+                                            1956</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
                             <bibl>
-                        <ref type="secondary" target="FMS8">Fornmanna sögur VIII</ref>,
-                                pp. XIX-XX <note>Described as fragment 6</note>
-                     </bibl>
+                                <ref type="secondary" target="FMS8">Fornmanna sögur</ref><biblScope
+                                    unit="volume">VIII</biblScope><biblScope></biblScope>
+                                <biblScope unit="page">xix-xx</biblScope><note>Fragment 6</note>
+                            </bibl>
                             <bibl>
-                        <ref type="secondary" target="FragmHelleJensen">Helle Jensen,
-                                    1979</ref>, pp. 17-73</bibl>
+                                <ref type="secondary" target="FragmHelleJensen">Jensen,
+                                    1979</ref><biblScope unit="page">17-73</biblScope></bibl>
+                            <bibl><ref type="secondary" target="EIMF7">Karlsson
+                                1967</ref>
+                                <biblScope unit="page">59</biblScope>
+                            </bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">560</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary" target="EIMF7">Stefán Karlsson
+                                1967</ref>
+                                <biblScope unit="page">59</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary"
+                                target="HandskrWidding1960">Widding 1960</ref>
+                                <biblScope unit="page">91</biblScope>
+                            </bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

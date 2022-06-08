@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,51 @@
                      <idno>2672</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Stellurímur</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1800" notAfter="1832">s. XIX in.</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Stellurímur</title></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="part">Stellurímur <lb/> Sýslumanns Sigurðar
+                           Péturs&#x017F;onar</titlePart>
+                        <note>Added by <name type="person" key="RasRas001">Rasmus Rask</name> on the
+                           first flyleaf.</note>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="rimur">
+                     <author key="SigPet001">Sigurður Pétursson</author>
+                     <title type="supplied" xml:lang="is">Stellurímur</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <note>Eight <foreign xml:lang="is">rímur</foreign> cantos.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>108. 
-<dimensions type="leaf" scope="all">
-                              <height>170</height>
-                              <width>105</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>108. <dimensions type="leaf" scope="all">
+                              <height unit="mm">170</height>
+                              <width unit="mm">105</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland?</origPlace>
+                     <origDate notBefore="1800" notAfter="1815">s. XIX in</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">556</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-11-02" who="EvaWed001">Updated markup.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,40 +23,41 @@
                      <idno>2667</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">Hemings rímur</title>, <title n="2">Eiríks rímur
-            víðförla</title> og <title n="3">Fjandafæla</title>;
-            <origPlace>Island?</origPlace> 
-                  <origDate notBefore="1700" notAfter="1799">s.
-        XVIII</origDate>.</head>
                <msContents>
-                  <msItem n="1">
-                     <locus from="1" to="40">1-40</locus>
-                     <author>Benedikt Sigurðsson</author>
-                     <title type="uniform">Hemings rímur</title>
-                     <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Hier <lb/> Skrifast <lb/> Rymur Af <lb/> Hemynge Asláchs Syne <lb/> Giørdar
-                    An<ex>n</ex>o 1729</rubric>
-                     <note>I alt 7 <quote xml:lang="is">rímur</quote>
-                     </note>
+                  <summary><title>Samling af poetiske tekster</title></summary>
+                  <textLang mainLang="is">Islandsk</textLang>
+                  <msItem n="1" class="rimur">
+                     <locus from="1r" to="40v">1r-40v</locus>
+                     <author key="BenSig001">Benedikt Sigurðsson</author>
+                     <title type="uniform">Hemingsrimur</title>
+                     <rubric>Hier <lb/> Skrifast <lb/> Rymur Af <lb/> Hemynge Asláchs Syne <lb/>
+                        Giørdar An<ex>n</ex>o 1729</rubric>
+                     <note>I alt 7 <foreign xml:lang="is">rímur</foreign>. Titlen er skrevet på et
+                        tilføjet bl. 1.</note>
+                     <!-- check with  EdArn B, 3. (er ikke på biblioteket) -->
+                     <msItem n="1.1" class="kvad">
+                        <locus from="40v" to="40v">40v</locus>
+                        <title type="supplied">Digte</title>
+                        <note>Af skriveren, undertegnet <q>ESSon</q>.</note>
+                     </msItem>
                   </msItem>
-                  <msItem n="2">
-                     <locus from="41" to="56r">41-56r</locus>
-                     <author>Guðmundur Bergþórsson</author>
-                     <title type="uniform">Eiríks rímur víðförla</title>
-                     <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Rímur af <lb/> Eirike Vijdførula <lb/> kvednar af Gudmundi
-                    Bergþorss<ex>yni</ex>
-                     </rubric>
-                     <note>I alt 4 <quote xml:lang="is">rímur</quote>
-                     </note>
+                  <msItem n="2" class="rimur">
+                     <locus from="41r" to="56r">41r-56r</locus>
+                     <author key="GudBer001">Guðmundur Bergþórsson</author>
+                     <title type="uniform">Rímur af Eiríki víðförla</title>
+                     <quote>Rímur af <lb/> Eirike Vijdførula <lb/> kvednar af Gudmundi
+                           Bergþorss<ex>yni</ex>
+                     </quote>
+                     <note>I alt 4 <foreign xml:lang="is">rímur</foreign>. Denne titel er skrevet på
+                        to tilføjede blade forrest i håndskriftet.</note>
                   </msItem>
-                  <msItem n="3">
-                     <locus from="58" to="67">58-67</locus>
-                     <title type="supplied">Digt om djævlen</title>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <msItem n="3" class="kvad gald" defective="true">
+                     <locus from="58r" to="67v">58r-67v</locus>
+                     <author key="JonGud003">Jón Guðmundsson</author>
+                     <title type="supplied">Fjandafæla</title>
                      <rubric>Fjandafæla</rubric>
-                     <note>Defekt ved begyndelsen. På 67v nogle småvers.</note>
+                     <note>Et digt i tre dele, defekt ved begyndelsen. På 67v ses nogle
+                        småvers.</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -66,20 +68,37 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>67. Bl. 56v og 57 er ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>177</height>
-                              <width>110</width>
+                              <height unit="mm">177</height>
+                              <width unit="mm">110</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="minor" scribe="RasRas001" script="unknown">
-                        <p>Bl. 56r skrevet af Rask.</p>
+                     <summary>Forskellige hænder.</summary>
+                     <handNote script="unknown" scribe="RasRas001">
+                        <p>Bl. 56r skrevet af <name type="person" key="RasRas001">Rask</name>.</p>
                      </handNote>
+                     <handNote script="unknown"><p>Bl. 58r-67v er ifølge en notits på bl. 67r
+                           skrevet <date when="1759-01-20">den 20. januar 1759</date> af en
+                              <q>Erlendur Magnusson</q>.</p></handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island?</origPlace>
+                     <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat"/><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">553-54</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-11-01" who="EvaWed001">Opdateret opmærkning.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

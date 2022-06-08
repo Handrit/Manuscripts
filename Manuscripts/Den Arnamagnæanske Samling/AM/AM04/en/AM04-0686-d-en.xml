@@ -1,54 +1,69 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 686 d 4to</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM04-0686-d-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 686 d 4to</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>1713</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title type="supplied">Homily</title>
-                  <origPlace>Iceland or Denmark</origPlace>
-                  <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>3. 
-<dimensions type="leaf" scope="all">
-                              <height>211</height>
-                              <width>165</width>
-                           </dimensions>
-                        </extent>
-                     </supportDesc>
-                  </objectDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 686 d 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0686-d-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 686 d 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>1713</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="supplied">Homily</title></summary>
+						<msItem n="1" class="hom" defective="inapplicable">
+							<locus from="1r" facs="#AM04-0686-d-0001r" to="3r">1r-3r</locus>
+							<title type="supplied">Homily</title>
+							<textLang mainLang="is"/>
+							<filiation>Two copies of <ref target="#AM04-0686-c-en">AM 686 c
+									4to</ref> i to eksemplarer.</filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support><material>Paper</material>.</support>
+								<extent>3. Fol. 3v is coved with another piece of paper. <dimensions type="leaf" scope="all">
+										<height unit="mm">211</height>
+										<width unit="mm">165</width>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote scope="sole" scribe="ArnMag001" script="unknown">Written by
+								Árni Magnússon.</handNote>
+						</handDesc>
+					</physDesc>
+					<history>
+						<origin><origPlace>Iceland or Denmark</origPlace>, <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>.</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<bibl><ref type="secondary-1" target="KKKat"/>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="page">102</biblScope>
+							</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0686-d-0000r-FB" n="0">
 			<desc>0000r-FB</desc>

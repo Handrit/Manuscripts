@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,19 +32,23 @@
                             <idno>AM Access 7 d, psalter I</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="la">Psalterium</title>; <origPlace>Island</origPlace>,
-                            <origDate notBefore="1315" notAfter="1335">ca. 1325</origDate>
-                        <note>I <date when="1996">1996</date> blev dette hånndskrift rekonstueret
-                            fra blade fra tre forskellige håndskrifter: bl. 7-15, 18-19, 24, 26-27
-                            og 30-42 stammer fra AM 241 a fol. Bl. 1-6 stammer fra AM 249 p fol., og
-                            bl. 16-17, 20-23, 25 og 28-29 fra Access. 7 d, psalter I.</note>
-                    </head>
-                    <msContents>
-                        <msItem>
-                            <title type="supplied" xml:lang="la">Psalterium</title>
-                            <textLang mainLang="la" otherLangs="non">Latin og
-                            norrønt/Islandsk</textLang>
+                        <msContents>
+                        <summary><title type="uniform">Vatnsfjörður-psalteren</title>. AM 241 a I
+                            fol. er et nyt katalognummer. I <date when="1996">1996</date> blev AM
+                            241 a fol. opdelt i AM 241 a I fol. og <ref type="ms"
+                                target="AM02-0241-a-II-en">AM 241 a II fol.</ref>, og dette
+                            håndskrift blev rekonstrueret ved en sammenføring af blade fra tre
+                            forskellige håndskrifter: AM 241 a fol. (bl. 7-15, 18-19, 24, 26-27 og
+                            30-42), AM 249 p fol. (bl. 1-6), og <ref type="ms">Access. 7 d, Hs
+                                106</ref> (bl. 16-17, 20-23, 25 og 28-29).</summary>
+                        <msItem n="1" class="salm bibls">
+                            <title type="uniform">Vatnsfjörður-psalteren</title>
+                            <textLang mainLang="la" otherLangs="is">Latin og
+                                norrønt/islandsk</textLang>
+                            <bibl>Gjerløw: <ref target="BiblArn35">Liturgica Islandica I:
+                                    Text</ref><biblScope unit="pages">146-47, 149,
+                                    152</biblScope><note>Beskrivelse af det tidligere Accessoria 7,
+                                    Hs 106</note></bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -61,7 +66,40 @@
                                 </foliation>
                             </supportDesc>
                         </objectDesc>
+                        <handDesc>
+                            <handNote scope="sole" script="unknown"><p>Hånden er blevet
+                                    identificeret som den samme som i <ref type="ms"
+                                        target="AM02-0045-en">AM 45 fol.</ref>.</p></handNote>
+                        </handDesc>
                     </physDesc>
+                    <history>
+                        <origin>Skrevet i <origPlace>Island</origPlace>
+                            <origDate notBefore="1315" notAfter="1335">c. 1325</origDate>. Det er
+                            muligt, at illuminationerne blev udført i Norge. <title type="uniform"
+                                >Vatnsfjörður-psalteren</title> bestod oprindeligt af 88 blade,
+                            hvoraf kun 35 er bevarede, og 10 af disse har været benyttet til
+                            indbinding af andre håndskrifter.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Andersen: <ref target="BiblArn46">Katalog over AM Accessoria 7. De
+                                    latinske fragmenter</ref>
+                                <biblScope unit="pages">94-95</biblScope></bibl>
+                            <bibl>Gjerløw: <ref target="BiblArn36">Liturgica Islandica II:
+                                    Facsimiles</ref><biblScope unit="pages">facs.
+                                70-89</biblScope></bibl>
+                            <bibl>Halldór Hermannsson: <ref target="CCIsl7">Icelandic Illuminated
+                                    Manuscripts of the Middle Ages</ref><biblScope unit="pages"
+                                    >Plate 14</biblScope><note>The crucifiction picture from the
+                                    previous AM 249 p fol.</note></bibl>
+                            <bibl>Louis-Jensen: <ref target="BiblArn32"
+                                    >Kongesagastudier</ref><biblScope unit="pages"
+                                >19-21</biblScope></bibl>
+                            <bibl>Louis-Jensen: <ref target="JonLou2006">Fra skriptoriet i
+                                    Vatnsfjörður i Eiríkr Sveinbjarnarsons tid</ref><biblScope
+                                    unit="pages">127-40</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

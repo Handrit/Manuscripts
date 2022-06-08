@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,10 +22,8 @@
                      <idno>468</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Norwegian Legal Manuscript</title>; <origPlace>Norway</origPlace>, <origDate notBefore="1575" notAfter="1610" evidence="conjecture" resp="KKKat">s. XVI<hi rend="sup">4/4</hi>; ff. 160-61:
-                     1610</origDate>. </head>
                <msContents>
+                  <summary><title type="supplied">Norwegian Legal Manuscript</title></summary>
                   <msItem n="1" class="log">
                      <locus from="2r" to="135v">2r-135v</locus>
                      <title type="uniform" xml:lang="is">Frostuþingslǫg</title>
@@ -33,7 +31,8 @@
                         Danish</textLang>
                      <note>Including amendments to the law and epilogue together with a translation
                         into Danish in the second columns.</note>
-                     <bibl>Storm, <ref target="NgL4"/><biblScope unit="pages">136-59</biblScope></bibl>
+                     <bibl>Storm, <ref target="NgL4"/><biblScope unit="pages"
+                        >136-59</biblScope></bibl>
                   </msItem>
                   <msItem n="2" class="log">
                      <locus from="136r" to="159v">136r-159v</locus>
@@ -57,8 +56,8 @@
                               <material>Paper.</material></p>
                         </support>
                         <extent>161. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>310</height>
-                              <width>210</width>
+                              <height unit="mm">310</height>
+                              <width unit="mm">210</width>
                            </dimensions>.</extent>
                      </supportDesc>
                      <layoutDesc>
@@ -69,10 +68,16 @@
                      </layoutDesc>
                   </objectDesc>
                   <additions>
-                     <p>The original flyleaf (now pasted to the pastedown) on which the owner wrote his name, some Bible passages
-                        etc. together with the date <date when="1598">1598</date> is lavishly illuminated in red and green.</p>
+                     <p>The original flyleaf (now pasted to the pastedown) on which the owner wrote
+                        his name, some Bible passages etc. together with the date <date when="1598"
+                           >1598</date> is lavishly illuminated in red and green.</p>
                   </additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Norway</origPlace>, <origDate notBefore="1575" notAfter="1610"
+                        evidence="conjecture" resp="KKKat">s. XVI<hi rend="sup">4/4</hi>; ff.
+                        160-61: 1610</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>

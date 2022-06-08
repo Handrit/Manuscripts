@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,14 +22,12 @@
                      <idno>1675</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">De Sancto Lucio</title>; <origPlace>Danmark?</origPlace>,
-                     <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s. XVII 1/4</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary>
+                     <title type="uniform">De Sancto Lucio</title></summary>
+                  <msItem n="1" class="helgiso">
                      <locus from="1r" to="2r">1r-2r</locus>
-                     <title type="supplied">De Sancto Lucio</title>
+                     <title type="uniform">De Sancto Lucio</title>
                      <textLang mainLang="la">Latin</textLang>
                      <rubric>De Sancto Lucio in translatio<lb/>ne capitis sui</rubric>
                   </msItem>
@@ -41,24 +40,32 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>2. Bl. 2v ubeskrevet. <dimensions type="leaf" scope="all">
-                              <height>212</height>
-                              <width>163</width>
+                              <height unit="mm">212</height>
+                              <width unit="mm">163</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="unknown">Bl. 3-7 er skrevet af samme hånd som
-                           <ref type="ms" target="AM04-0670-a-da">AM 670 a 4to</ref>, <ref type="ms" target="AM04-0670-b-da">AM 670 b to</ref>, <ref type="ms" target="AM04-0670-c-da">AM 670 c 4to</ref>, <ref type="ms" target="AM04-0670-d-da">AM 670 d 4to</ref>, <ref type="ms" target="AM04-0670-e-da">AM 670 e 4to</ref> (bl. 1-8) og <ref type="ms" target="AM04-0670-f-da">AM 670 f 4to</ref> (bl. 3-7).</handNote>
+                     <handNote scope="sole" script="unknown">Samme hånd som
+                           <ref type="ms" target="#AM04-0670-a-da #AM04-0670-b-da #AM04-0670-c-da #AM04-0670-d-da">AM 670 a-d 4to</ref>, 
+                           de første otte blade af <ref target="#AM04-0670-e-da">AM 670 e 4to</ref> og bl. 3r-7r af <ref type="ms"
+                           target="#AM04-0670-f-da">AM 670 f 4to</ref>.</handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Danmark?</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup"
+                           >1/4</hi></origDate></origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Langebek: <ref type="secondary" target="SRDMAE">Scriptores Rerum
-                        Danicarum Medii Aevi</ref>
+                     <bibl><ref type="secondary" target="SRDMAE"/>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">607-609</biblScope>
+                        <biblScope unit="page">607-609</biblScope>
                      </bibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">85</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">85</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

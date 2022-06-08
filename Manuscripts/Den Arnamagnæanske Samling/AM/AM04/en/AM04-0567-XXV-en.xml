@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,52 @@
                      <idno>1415</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Af þrimur þjófum í Danmörk</title>
-                  <title type="alternative">Af Ill, Verra og Versta</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1400" notAfter="1499">s. XV</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary>
+                     <title type="supplied">Af þremur þjófum í Danmörk</title>
+                     <title type="parallel">Af Ill, Verra og Versta</title></summary>
+                  <msItem n="1" class="avint">
+                     <locus from="1r" to="2v">1r-2v</locus>
+                     <title type="uniform">Af þremur þjófum í Danmörk</title>
+                     <title type="parallel">Af Ill, Verra og Versta</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">
+                        <supplied reason="unknown">L</supplied>ítlo ſid<ex>ar</ex> kom
+                        bo<ex>n</ex>di t<ex>il</ex> h<ex>us</ex>p<ex>re</ex>iv</incipit>
+                     <explicit defective="true">v<ex>id</ex> m<ex>ic</ex>
+                        <supplied reason="unknown">en</supplied> þ<ex>id</ex> leitud</explicit>
+                     <bibl>Gering, <ref type="primary" target="IslAEv">Íslendzk æventýri</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">280-285</biblScope>
+                     </bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>2. </extent>
+                        <extent>2. <dimensions type="leaf" scope="all" unit="mm">
+                              <height unit="mm">186</height>
+                              <width unit="mm">150</width>
+                           </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Iceland</origPlace>, <origDate notBefore="1400" notAfter="1499">s.
+                        XV</origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">728</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

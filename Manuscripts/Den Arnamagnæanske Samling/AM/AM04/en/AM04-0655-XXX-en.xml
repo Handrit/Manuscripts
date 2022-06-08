@@ -1,51 +1,81 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 655 XXX 4to</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM04-0655-XXX-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 655 XXX 4to</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>1646</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="is">Lækningabók</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1250" notAfter="1300">s. XIII 2/2</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>
-                           <p>Parchment.</p>
-                        </support>
-                        <extent>4. </extent>
-                     </supportDesc>
-                  </objectDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 655 XXX 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0655-XXX-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 655 XXX 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>1646</idno>
+						</altIdentifier>
+					</msIdentifier>
+						<msContents>
+						<summary><title type="supplied">Leechbook</title></summary>
+						<msItem n="1" defective="true">
+							<locus from="1r" facs="#AM04-0655-XXX-0001r" to="4v">1r-4v</locus>
+							<title type="supplied">Leechbook</title>
+							<textLang mainLang="non"/>
+							<incipit defective="true">
+								<supplied reason="omitted">V</supplied>ið ſvefnleyſi</incipit>
+							<explicit defective="true">oc ſpyt t fl</explicit>
+								<bibl>Konráð Gíslason, <ref type="primary" target="KGProver">Fire og
+										Fyrretyve for en stor Deel forhen utrykte Prøver af
+										oldnordisk Sprog og Litteratur</ref>
+									<biblScope unit="page">470-75</biblScope>
+								</bibl>
+								<bibl>Kålund, <ref type="primary" target="KriKal1907a">Den islandske lægebog</ref><note>Var.app. 655</note></bibl>
+								<bibl>Schwabe, <ref type="primary-1" target="FabSch_Lakn">Ór
+										læknisbók</ref>
+									<note>From <ref type="url" target="http://clarino.uib.no/menota/catalogue"
+										>Menota</ref>.</note>
+								</bibl>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p><material>Parchment</material>.</p>
+								</support>
+								<extent>4. <dimensions type="leaf" scope="all" unit="mm">
+									<height unit="mm">157</height>
+									<width unit="mm">123</width>
+								</dimensions>.</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history><origin><origPlace>Iceland</origPlace>,
+						<origDate notBefore="1250" notAfter="1299">s. XIII<hi rend="sup">2</hi></origDate>.</origin></history>
+					<additional>
+						<listBibl>
+							<bibl><ref type="secondary-1" target="HreBen1965a"/>
+								<biblScope unit="page">xlix</biblScope></bibl>
+							<bibl><ref type="secondary-1" target="KGFrumparta"/>
+								<biblScope unit="page">lxxxv</biblScope></bibl>
+							<bibl><ref type="secondary-1" target="KKKat"/>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="page">66</biblScope>
+							</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0655-XXX-0001r" n="0">
 			<desc>0001r</desc>

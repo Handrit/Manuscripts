@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,26 +23,44 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="is">Syndajátning</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1400" notAfter="1499">s. XVI</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="supplied" xml:lang="is">Syndajátning</title></summary>
+                  <msItem n="1" defective="true">
+                     <locus from="1r" to="2v">1r-2v</locus>
+                     <title type="supplied" xml:lang="is">Syndajátning</title>
                      <textLang mainLang="is">Icelandic</textLang>
+                     <incipit>ſan<ex>n</ex>arlega ſæia eg giarnan</incipit>
+                     <explicit>h<ex>an</ex>n tek<ex>ur</ex> miog gra<ex>n</ex>
+                        <lb/>l<ex>e</ex>ga v<ex>ar</ex>a</explicit>
+                     <note>Seems to contain a portrayal of a sinful life.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>2. </extent>
+                        <extent>2. <dimensions type="leaf" unit="mm" extent="all">
+                           <height unit="mm">192</height>
+                           <width unit="mm">152</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1500" notAfter="1599"
+                        >s. XVI</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">114</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>

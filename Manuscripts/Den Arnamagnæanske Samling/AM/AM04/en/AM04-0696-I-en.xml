@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,29 +23,81 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">The medical book of the Danish physician Henrik Harpestræng</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1350" notAfter="1399">s. XIV 2/2</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                 <msContents>
+                  <summary><title type="supplied">Henrik Harpestreng's Leechbook</title></summary>
+                  <msItem n="1" defective="true" class="lakn tyd">
+                     <author key="HenHar001">Henrik Harpestreng</author>
+                     <title type="uniform">Lækningabók</title>
+                     <textLang mainLang="non">Norrønt/norsk</textLang>
+                     <note>Translation.</note>
+                     <msItem n="1.1">
+                        <locus from="1r" to="1v">1r-v</locus>
+                        <incipit defective="true">ho<ex>n</ex> e<ex>r</ex>
+                           <ex>ok</ex> god uid blodraſ</incipit>
+                        <explicit defective="true">þat ſem ſtirt er</explicit>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="2r" to="2v">2r-v</locus>
+                        <incipit defective="true">du vedri <ex>ok</ex> mellt<ex>er</ex>
+                           mat</incipit>
+                        <explicit defective="true">þat dug<ex>er</ex>
+                           <ex>ok</ex></explicit>
+                     </msItem>
                   </msItem>
                </msContents>
+
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>2. </extent>
+                        <extent>2. <dimensions type="leaf" unit="mm">
+                           <height unit="mm">198</height>
+                           <width unit="mm">127</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
+                  <additions>
+                     <p>In the bottom margin of fol. 1r a contemporary hand wrote a formula for haemostatis.</p>
+                     <p>In the bottom margin o fol. 2r the following is written upside down: <q xml:lang="is">Þetta kuer
+                        a eg <name type="person" key="BjoPet001">Biorn pettuʀ <lb/>
+                           Son</name> m<ex>ed</ex> ʀiettu <lb/> An<ex>n</ex>o <date when="1692">1692</date>.</q></p>
+                  </additions>
+                  
                </physDesc>
+               <history>
+                  <origin>Written in <origPlace>Iceland</origPlace>, <origDate notBefore="1340"
+                        notAfter="1360" evidence="conjecture" resp="ONP">c. 1350</origDate>
+                           (<bibl><ref type="secondary-1" target="KriKal1907a">Kålund 1907</ref>
+                        <biblScope unit="page">4</biblScope>
+                     </bibl> and <bibl>
+                        <ref type="secondary-1" target="EIMF7">Stefán Karlsson 1967</ref>
+                        <biblScope unit="page">52</biblScope><note>no. 24</note>
+                     </bibl>). Kålund's original dating: The second half of the fourteenth century (<bibl>
+                        <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">110</biblScope>
+                     </bibl>).</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">110</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="KriKal1907a"/>
+                        <biblScope unit="page">4</biblScope><!-- and more! -->
+                     </bibl>
+                     <bibl>
+                        <ref type="secondary-1" target="EIMF7">Stefán Karlsson 1967</ref>
+                        <biblScope unit="page">52</biblScope><note>no. 24</note>
+                     </bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-12-09" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

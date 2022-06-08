@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,15 +23,12 @@
                      <idno>1020</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Böðvars saga bjarka, two copies</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
-                  </msItem>
+                   <msContents>
+               	<summary><title type="supplied">Böðvars saga bjarka</title>, two copies.</summary>
+                  	<msItem class="fornth">
+                  		<title type="uniform" xml:lang="is">Böðvars þáttr bjarka</title>
+                  		<textLang mainLang="is"/>
+                  	</msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -39,16 +36,71 @@
                         <support>Paper.</support>
                         <extent>26 (12 + 14). 
 <dimensions type="leaf" scope="all">
-                              <height>209</height>
-                              <width>168</width>
+                              <height unit="mm">209</height>
+                              <width unit="mm">168</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+            	<history><origin><origPlace>Iceland</origPlace>
+            		<origDate notBefore="1600" notAfter="1699">s. XVII</origDate></origin></history>
+            	<additional>
+            		<listBibl>
+            			<bibl><ref type="secondary-1" target="KKKat"/>
+            				<biblScope unit="volume">I</biblScope>
+            				<biblScope unit="page">537</biblScope>
+            			</bibl>
+            		</listBibl>
+            	</additional>
+            	<msPart n="1">
+            		<msIdentifier>
+            			<altIdentifier type="partial">
+            				<idno>AM 287 I 4to</idno>
+            			</altIdentifier>
+            		</msIdentifier>
+            		<msContents>
+            			<msItem n="1" class="fornth">
+            				<locus from="1r" facs="#AM04-0287-0001r" to="12v">1r-12v</locus>
+            				<title type="uniform" xml:lang="da">Böðvars þáttr bjarka</title>
+            				<textLang mainLang="is"/>
+            				<rubric>Hier Byriar søguna af Bødvare Biarka</rubric>
+            			</msItem>
+            		</msContents>
+            		<physDesc>
+            			<additions>In the top margin of fol. 1r <name type="person" key="Rafooo001"
+            				>Rafn</name> added: <q>
+            					<lb/> manu AM <lb/> Böðvars Bjarka Saga frá Monsr <name
+            						type="person" key="OddJon002">Odde Jonssyni</name>
+            				</q>, undoubtedly a copy of a lost AM-slip.</additions>
+            		</physDesc>
+            	</msPart>
+            	<msPart n="2">
+            		<msIdentifier>
+            			<altIdentifier type="partial">
+            				<idno>AM 287 II 4to</idno>
+            			</altIdentifier>
+            		</msIdentifier>
+            		<msContents>
+            			<msItem n="2" class="fornth">
+            				<locus from="13r" facs="#AM04-0287-0013r" to="26v">13r-26v</locus>
+            				<title type="uniform" xml:lang="is">Böðvars þáttr bjarka</title>
+            				<textLang mainLang="is"/>
+            				<rubric>Hier Biriar sogu af Boduari Biarka</rubric>
+            				<colophon>Eyolfur Grimolfzson myn Eigin<ex>n</ex> Hand</colophon>
+            			</msItem>
+            		</msContents>
+            		<physDesc>
+            			<handDesc>
+            				<handNote scope="sole" scribe="EyjGri001" script="unknown">Written by
+            					 <name type="person" key="EyjGri001">Eyjólfur Grímólfsson</name>.</handNote>
+            			</handDesc>
+            		</physDesc>
+            	</msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+   	<revisionDesc><change when="2021-12-13" who="EvaWed001">Updated markup and added content.</change></revisionDesc>
    </teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0287-0000v-FB" n="0">

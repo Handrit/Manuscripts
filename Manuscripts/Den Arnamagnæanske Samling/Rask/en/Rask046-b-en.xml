@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,34 +22,70 @@
                      <idno>2618</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Þridia bók Paradísar missirs</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1790" notAfter="1819">c. 1800</origDate>
-                  <note>
-                     <name type="person" key="JonTho011">Jón Þorláksson</name>'s translation of Milton's <title>Paradise Lost</title> into Icelandic.</note>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Þridia bók Paradísar missirs</title>. <name
+                     type="person" key="JonTho011">Jón Þorláksson</name>'s translation of
+                     Milton's <title>Paradise Lost</title> into Icelandic.</summary>
+                  <msItem n="1" class="kvad">
+                     <author key="JohMil001">John Milton</author>
+                     <title type="uniform" xml:lang="is">Paradísar missir</title>
+                     <title type="uniform" xml:lang="en">Paradise Lost</title>
+                     <respStmt>
+                        <resp key="trl"/>
+                        <name type="person" key="JonTho011">Jón Þorláksson</name>
+                     </respStmt>
+                     <textLang mainLang="is"/>
+                     <rubric>Þridia Bók <lb/> Paradísar Missirs <lb/> snúin<ex>n</ex> á
+                        Islendsku</rubric>
+                     <note>Translation of the third book. Occasional variants in <name type="person"
+                        key="RasRas001">Rasmus Rask's</name> hand.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>17. 
-<dimensions type="leaf" scope="all">
-                              <height>193</height>
-                              <width>157</width>
-                           </dimensions>
+                        <support><material>Paper</material>.</support>
+                        <extent>17. <dimensions type="leaf" scope="all">
+                           <height unit="mm">193</height>
+                           <width unit="mm">157</width>
+                        </dimensions>
                         </extent>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2">
+                           <p>Written in two columns, except from f. 1r.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1790" notAfter="1819"
+                     >c. 1800</origDate>
+                  </origin>
+                  <provenance>Jón Þorláksson sent <name type="person" key="RasRas001">Rasmus
+                     Rask</name> parts of his translation of <title type="uniform">Paradise Lost</title> (cf.
+                     e.g. <bibl><ref target="SilHuf2006"/><biblScope unit="page"
+                        >313</biblScope></bibl>).</provenance>
+                  <acquisition><name type="org">The Arnamagnæan Commission</name> in Copenhagen
+                     bought Rask's Old Norse-Icelandic manuscript collection after his death in
+                     <date when="1832">1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Hufnagel: <ref target="SilHuf2006"/><biblScope unit="page"
+                        >313</biblScope></bibl>
+                     <bibl>Jón Þorláksson: <ref target="JonTho1828"/><biblScope unit="page"
+                        >7</biblScope></bibl>
+                     <bibl>Kålund, <ref type="secondary" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">532</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-14" who="EvaWed001">Updated markup and added information.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

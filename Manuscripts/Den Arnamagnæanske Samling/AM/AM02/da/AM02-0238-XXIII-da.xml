@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -23,14 +23,12 @@
                             <idno>360</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Religiøse tekster</title>; <origPlace>Island</origPlace>, <origDate notBefore="1400" notAfter="1499" evidence="conjecture" resp="KKKat">s. XV</origDate>
-                    </head>
-                    <msContents>
+                      <msContents>
+                        <summary><title type="supplied">Religiøse tekster</title>.</summary>
                         <msItem n="1" class="hels" defective="true">
                             <locus from="1r:1" to="1r:31">1r:1-31</locus>
                             <title type="uniform">Maríu saga</title>
-                            <textLang mainLang="is">Norrønt/islandsk</textLang>
+                            <textLang mainLang="non">Norrønt/islandsk</textLang>
                             <incipit defective="true">rta m<ex>ed</ex> ſorg <ex>ok</ex> idran
                                     <ex>ok</ex> vthellin<ex>n</ex>g tara</incipit>
                             <explicit defective="true">sijn</explicit>
@@ -38,21 +36,21 @@
                         <msItem n="2" class="tid" defective="true">
                             <locus from="1r:32" to="1v">1r:32-1v</locus>
                             <title type="supplied">Vígslupallar: Ordines</title>
-                            <textLang mainLang="is">Norrønt/islandsk</textLang>
+                            <textLang mainLang="non">Norrønt/islandsk</textLang>
                             <incipit defective="true"><supplied reason="damage">K</supplied>rvn<ex>n</ex>v vígſlv ſk<ex>al</ex> m<ex>adur</ex>
                                 ꝼyſt taka</incipit>
                             <explicit defective="true">en ſid<ex>an</ex> jgnaci<ex>us</ex>
                                     m<ex>agiste</ex>r. En þ<ex>ri</ex>di</explicit>
-                            <bibl>Kolsrud: <ref target="messuOK">Messuskýringar</ref><biblScope unit="pages">108-112</biblScope><note>Udg. A.</note></bibl>
+                            <bibl>Kolsrud: <ref target="messuOK">Messuskýringar</ref><biblScope unit="page">108-112</biblScope><note>Udg. A.</note></bibl>
                         </msItem>
                         <msItem n="3" class="tid" defective="true">
                             <locus from="2r" to="2v">2r-2v</locus>
-                            <title xml:lang="is">Messuskýringar</title>
-                            <textLang mainLang="is">Norrønt/islandsk</textLang>
+                            <title xml:lang="da">Messuskýringar</title>
+                            <textLang mainLang="non">Norrønt/islandsk</textLang>
                             <incipit defective="true">ſem d<ex>ro</ex>ttín<ex>n</ex> giordi ſkírdagſ
                                     apt<ex>an</ex>
                             </incipit>
-                            <bibl>Kolsrud: <ref target="messuOK">Messuskýringar</ref><biblScope unit="pages">65-72</biblScope><note>*</note></bibl>
+                            <bibl>Kolsrud: <ref target="messuOK">Messuskýringar</ref><biblScope unit="page">65-72</biblScope><note>*</note></bibl>
                             <!-- tjek med bogen når på instituttet -->
                         </msItem>
                     </msContents>
@@ -65,8 +63,8 @@
                                     </p>
                                 </support>
                                 <extent>2. <dimensions type="leaf" scope="all">
-                                        <height>250</height>
-                                        <width>168</width>
+                                        <height unit="mm">250</height>
+                                        <width unit="mm">168</width>
                                     </dimensions>
                                 </extent>
                                 <condition>Første blad er beskadiget ved beskæring langs
@@ -76,12 +74,15 @@
                         <bindingDesc>
                             <binding notBefore="1958" notAfter="1961" contemporary="false">
                                 <p>Indbundet i et gråt papomslag: <dimensions type="binding" unit="mm">
-                                        <height>296</height>
-                                        <width>249</width>
+                                        <height unit="mm">296</height>
+                                        <width unit="mm">249</width>
                                     </dimensions>.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
+                    <history>
+                       <origin><origPlace>Island</origPlace>, <origDate notBefore="1400" notAfter="1499" evidence="conjecture" resp="KKKat">s. XV</origDate></origin>
+                    </history>
                     <additional>
                         <listBibl>
                             <bibl>Kirby: <ref target="IanKir1976a">Biblical Quotation in Old
@@ -89,7 +90,7 @@
                                 Literature</ref><!-- biblScope???? --></bibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat"/>
                                 <biblScope unit="volume">I</biblScope>
-                                <biblScope unit="pages">204</biblScope>
+                                <biblScope unit="page">204</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

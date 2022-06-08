@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -23,17 +23,13 @@
                             <idno>1695</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform" xml:lang="en">The Psalms</title>
-                        <origPlace>?</origPlace>
-                        <origDate notBefore="1390" notAfter="1410">c. 1400</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="uniform" xml:lang="en">The Psalms</title></summary>
                         <msItem n="1">
                             <locus from="1r" facs="#AM04-0680-c-0001r" to="1r">1r</locus>
                             <title type="uniform">Psalm 63</title>
                             <textLang mainLang="la">Latin</textLang>
-                            <note>from verse 3</note>
+                            <note>from 3</note>
                         </msItem>
                         <msItem n="2">
                             <locus from="1r" facs="#AM04-0680-c-0001r" to="1v">1r-1v</locus>
@@ -44,13 +40,13 @@
                             <locus from="1v" facs="#AM04-0680-c-0001v" to="1v">1v</locus>
                             <title type="uniform">Psalm 65</title>
                             <textLang mainLang="la">Latin</textLang>
-                            <note>from verse 1 to 12</note>
+                            <note>1-12</note>
                         </msItem>
                         <msItem n="4">
                             <locus from="2r" facs="#AM04-0680-c-0002r" to="2r">2r</locus>
                             <title type="uniform">Psalm 71</title>
                             <textLang mainLang="la">Latin</textLang>
-                            <note>from verse 16</note>
+                            <note>from 16</note>
                         </msItem>
                         <msItem n="5">
                             <locus from="2r" facs="#AM04-0680-c-0002r" to="2v">2r-2v</locus>
@@ -61,7 +57,7 @@
                             <locus from="2v" facs="#AM04-0680-c-0002v" to="2v">2v</locus>
                             <title type="uniform">Psalm 73</title>
                             <textLang mainLang="la">Latin</textLang>
-                            <note>from verse 1 to the beginning of verse 12</note>
+                            <note>1 to the beginning of 12</note>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -69,50 +65,73 @@
                             <supportDesc material="perg">
                                 <support>
                                     <p>
-                                        <material>Parchment.</material>
+                                        <material>Parchment</material>.
                                     </p>
                                 </support>
-                                <extent>2. </extent>
+                                <extent>2. <dimensions type="leaf" unit="mm">
+                                    <height unit="mm">252</height>
+                                    <width unit="mm">160</width>
+                                </dimensions>.</extent>
                                 <condition>
-                                    <p>Four leaves are missing between f.1 and f. 2, to judge from
-                                        the amount of material between psalm 65.12 and psalm
-                                        71.20</p>
+                                    <p>To judge from the amount of text missing between psalm 65.12 and psalm
+                                        71.20, it appears as if four leaves are missing between fols
+                                        1 and 2.</p>
                                 </condition>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1390" notAfter="1410">c.
+                            1400</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">96</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
-		<surface xml:id="AM04-0680-c-0001r" n="0">
-			<desc>0001r</desc>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/0/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/0/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/0/SECONDARY_DISPLAY" width="3226px" height="4205px"/>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/0/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0680-c-0001v" n="1">
-			<desc>0001v</desc>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/1/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/1/THUMBNAIL" width="200px" height="273px"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/1/SECONDARY_DISPLAY" width="3062px" height="4185px"/>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/1/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0680-c-0002r" n="2">
-			<desc>0002r</desc>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/2/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/2/THUMBNAIL" width="200px" height="265px"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/2/SECONDARY_DISPLAY" width="3210px" height="4251px"/>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/2/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0680-c-0002v" n="3">
-			<desc>0002v</desc>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/3/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/3/THUMBNAIL" width="200px" height="274px"/>
-			<graphic mimeType="jpg" url="AM%20680%20c%204to/3/SECONDARY_DISPLAY" width="3062px" height="4200px"/>
-			<graphic mimeType="pdf" url="AM%20680%20c%204to/3/WEB_DISPLAY"/>
-		</surface>
-	</facsimile>
+    <facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+        <surface xml:id="AM04-0680-c-0001r" n="0">
+            <desc>0001r</desc>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/0/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/0/THUMBNAIL" width="200px"
+                height="261px"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/0/SECONDARY_DISPLAY" width="3226px"
+                height="4205px"/>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/0/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0680-c-0001v" n="1">
+            <desc>0001v</desc>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/1/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/1/THUMBNAIL" width="200px"
+                height="273px"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/1/SECONDARY_DISPLAY" width="3062px"
+                height="4185px"/>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/1/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0680-c-0002r" n="2">
+            <desc>0002r</desc>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/2/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/2/THUMBNAIL" width="200px"
+                height="265px"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/2/SECONDARY_DISPLAY" width="3210px"
+                height="4251px"/>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/2/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0680-c-0002v" n="3">
+            <desc>0002v</desc>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/3/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/3/THUMBNAIL" width="200px"
+                height="274px"/>
+            <graphic mimeType="jpg" url="AM%20680%20c%204to/3/SECONDARY_DISPLAY" width="3062px"
+                height="4200px"/>
+            <graphic mimeType="pdf" url="AM%20680%20c%204to/3/WEB_DISPLAY"/>
+        </surface>
+    </facsimile>
 </TEI>

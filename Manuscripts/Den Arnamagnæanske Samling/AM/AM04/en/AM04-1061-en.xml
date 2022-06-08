@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,17 +23,15 @@
                      <idno>2193</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Nöfn manna sem skrifað hafa handrit í Árna Magnússonar safni</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1883-01-01" notAfter="1883-12-31">1883</origDate>
-                  <note>Unfinished.</note>
-               </head>
                <msContents>
+                  <summary><title type="uniform">Nöfn manna sem skrifað hafa handrit í Árna
+                        Magnússonar safni</title>
+                     <note>Unfinished. Meant to be completed eventually.</note></summary>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="GudTho005">Guðmundur Þorláksson</name>
-                     </author>
+                     <locus from="1r" to="55v">1r-55v</locus>
+                     <author key="GudTho005">Guðmundur Þorláksson</author>
+                     <title type="uniform">Nöfn manna sem skrifað hafa handrit í Árna Magnússonar
+                        safni</title>
                      <textLang mainLang="is">Icelandic</textLang>
                   </msItem>
                </msContents>
@@ -40,15 +39,32 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>55. 
-<dimensions type="leaf" scope="all">
-                              <height>230</height>
-                              <width>187</width>
+                        <extent>55. <dimensions type="leaf" scope="all">
+                              <height unit="mm">230</height>
+                              <width unit="mm">187</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribe="GudTho005" script="unknown">
+                        <p>In the Arnamagnæan bursar, <name type="person" key="GudTho005">Guðmundur
+                              Þorláksson</name>'s hand.</p>
+                     </handNote>
+                  </handDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Denmark</origPlace>, <origDate when="1883">1883</origDate>.
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">320</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,24 +23,85 @@
                      <idno>1921</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title xml:lang="la">Lectionarum Romanum</title>
-                  <origPlace>Unknown</origPlace>
-                  <origDate notBefore="1100" notAfter="1200">s. XII</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <summary><title xml:lang="la">Lectionarum Romanum</title><note>Mainly containing
+                        the Psalms.</note></summary>
+                  <msItem n="1">
+                     <locus from="1v" to="118v">1v-118v</locus>
+                     <title type="uniform">Lectionarium Romanum</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <explicit defective="true">benedictiones ignis et cerei</explicit>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>i + 118.</extent>
+                        <extent>i + 118. Fol. 1r originally blank. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">217</height>
+                              <width unit="mm">154</width>
+                           </dimensions>.</extent>
+                        <foliation>
+                           <p>Foliated 1-116, including 40<hi rend="sup">bis</hi> and 51<hi
+                                 rend="sup">bis</hi>.</p>
+                        </foliation>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>Rubrics and initials in red ink.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <musicNotation>
+                     <p>Several parts have indication of music given in neumes. These consisted of a
+                        series of symbols drawn above the text, showing pitch direction and vocal
+                        ornament. Neumes was used in the early Middle Ages and preceded the present
+                        musical notation.</p>
+                  </musicNotation>
+                  <additions>
+                     <p>A parchment flyleaf added subsequently to the text carries a four-line
+                        erotic poem in Latin (from the <date notBefore="1600" notAfter="1699"
+                           >seventeenth century</date>).</p>
+                     <p>Marginalia in Icelandic occur on fols 1r, 15v, 16r and 115v; marginalia in
+                        Latin occur on fols 40r, 54r, 97r and 106v.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="unknown">
+                        <p>Full binding in bround leather, originally with clasps.</p>
+                     </binding>
+                  </bindingDesc>
+                  <accMat>The AM-slip written by one of <name type="person" key="ArnMag001">Árni
+                        Magnússon</name>'s scribes, reads: <q xml:lang="da">Jeg kaſta þeſsare bok
+                        med j bland ef min<ex>n</ex> Hr Aſseſsor Arne villde hana ſiä, edur eiga,
+                        hefur fylgt þeſsu heimile, af llum foröcktud og af mier fundin<ex>n</ex>
+                        1727. j. briefaruſle. Teſtor Ormur Dadaſon</q></accMat>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1100" notAfter="1199"
+                        >s. XII</origDate>.</origin>
+                  <provenance>
+                     <p>The manuscript bear several witnesses of Icelandic provenance; for instance,
+                        the same hand (from the <date notBefore="1500" notAfter="1599"
+                           >sisteenth century</date>) added the following on the originally blank fol. 1r and at the bottom on fol.
+                        115v, respectively: <q>her ſk<ex>ul</ex>v
+                              bí<ex>n</ex>dazt vid .íííj blaud m<ex>ed</ex> bokfell.
+                           ſ<ex>ri</ex>fud</q> and <q>her ſk<ex>ul</ex>u bi<ex>n</ex>dazt vid .úííj
+                           blaud oſk<ex>ri</ex>fud m<ex>ed</ex> bok fell</q>.</p>
+                  </provenance>
+                  <acquisition>From <name type="person" key="OrmDad001">Ormur Daðason</name>
+                        <date when="1727">1727</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">204-205</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

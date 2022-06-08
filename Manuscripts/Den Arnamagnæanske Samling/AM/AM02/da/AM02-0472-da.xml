@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,18 +26,16 @@
                             <idno>Addit. 48 s fol.</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform">Jordebog over Skagafjarðarsýsla</title>;
-                        <origPlace>Danmark</origPlace>,
-                        <origDate notBefore="1700" notAfter="1800">s. XVIII</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1">
+                        <summary><title type="uniform">Jordebog over
+                            Skagafjarðarsýsla</title></summary>
+                        <msItem n="1" class="jarb">
                             <author key="ArnMag001">Arne Magnusson</author>
                             <author key="PalJon005">Páll Vídalín</author>
                             <title type="uniform" xml:lang="is">Jarðabók yfir
                                 Skagafjarðarsýsla</title>
-                     <title type="uniform" xml:lang="da">Jordebog over Skagafjarðarsýsla</title>
+                            <title type="uniform" xml:lang="da">Jordebog over
+                                Skagafjarðarsýsla</title>
                             <textLang mainLang="da">Dansk</textLang>
                             <rubric>Jorde-Bog <lb/> over <lb/> Hegraneſs Thing. <lb/> ellers kaldet
                                 <lb/>Skagefiords-Syſſel. <lb/> udi. <lb/> Island</rubric>
@@ -51,13 +50,24 @@
                                     </p>
                                 </support>
                                 <extent>314. <dimensions type="leaf" scope="all">
-                                        <height>330</height>
-                                        <width>212</width>
+                                        <height unit="mm">330</height>
+                                        <width unit="mm">212</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Danmark</origPlace>, <origDate notBefore="1700"
+                                notAfter="1799">s. XVIII</origDate></origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund: <ref target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">332</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

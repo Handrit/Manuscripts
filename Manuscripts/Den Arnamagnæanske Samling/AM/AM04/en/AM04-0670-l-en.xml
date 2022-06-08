@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,79 @@
                      <idno>1679</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Legends of St. Hallvard</title>
-                  <origPlace>Iceland or Denmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1725">s. XVIII 1/4</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Texts Concerning St. Hallvard</title></summary>
                   <textLang mainLang="la">Latin</textLang>
+                  <msItem n="1" class="helgiso">
+                     <locus from="1r" to="3r">1r-3r</locus>
+                     <title type="supplied">De sancto halvardo</title>
+                     <rubric>De Sancto Halvardo</rubric>
+                     <textLang mainLang="la"/>
+                     <filiation><q>Ex breviario Nidrosiensi</q>.</filiation>
+                  </msItem>
+                  <msItem n="2" class="hels" defective="true">
+                     <locus from="6r" to="6v">6r-v</locus>
+                     <title type="uniform">Hallvarðs saga</title>
+                     <textLang mainLang="is"/>
+                     <note>The beginning. Fol. 5r contains a note in <name type="person"
+                           key="ArnMag001">Árni Magnússon</name>'s hand on the nature of the
+                        copy.</note>
+                     <filiation>Copy of <ref type="ms" target="#AM02-0238-VIII-en">AM 238 VIII
+                           fol</ref>.</filiation>
+                  </msItem>
+                  <msItem n="3" class="helgiso">
+                     <locus from="10r" to="13v">10r-13v</locus>
+                     <title type="supplied">Excerpta e missali: De Johanne episcopo et confessore,
+                        De Sto Halvardo, De Augustino episcopo</title>
+                     <filiation>According to notes on fol. 9r, the text is a copy of two parchment
+                        leaves in 4to format from Iceland.</filiation>
+                  </msItem>
+                  <msItem n="4" class="kvad">
+                     <locus from="17r" to="19v">17r-19v</locus>
+                     <title type="supplied">Stanza on St. Hallvard</title>
+                     <rubric>Gamallt Kvæde um S<ex>anc</ex>te Hallvard</rubric>
+                  </msItem>
+                  <msItem n="5" class="notes">
+                     <locus from="20r" to="22r">20r-22r</locus>
+                     <author key="ArnMag001">Arne Magnusson</author>
+                     <title type="supplied">Notes on the Stanza on St. Hallvard</title>
+                     <note>Fols 21-22 are slips.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>22. 
-<dimensions type="leaf" scope="all">
-                              <height>312</height>
-                              <width>166</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>22. Fols 3v-4, 5v, 7-8, 9v, 14-16, 20v, 21v and 22v are blank.
+                              <dimensions type="leaf" scope="all">
+                              <height unit="mm">312</height>
+                              <width unit="mm">166</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland or Denmark</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup"
+                           >1/4</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary" target="JonThork1888"/>
+                        <biblScope unit="page">31-33</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="SRDMAE"/>
+                        <biblScope unit="volume">III</biblScope>
+                        <biblScope unit="page">601 ff.</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >86-87</biblScope></bibl>
+                     <bibl><ref type="secondary" target="Wolf2013"/>
+                        <biblScope unit="page">149</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

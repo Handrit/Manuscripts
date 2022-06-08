@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,16 +23,23 @@
                      <idno>1986</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Regum Daniæ Series</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1646-01-01" notAfter="1646-12-31">1646</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
-                     <author>
-                        <name type="person" key="MagMat001">Magnus Mathias</name>
-                     </author>
+                  <summary><title type="supplied">Regum Daniæ Series</title></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">REGVM DANIÆ SERIES <lb/></titlePart>
+                        <titlePart type="sub">una cum notatione ſuccincta Temporum et Rerum <lb/>
+                           maximè memorabilium, quæ ſingulis regnatibus <lb/> per Daniam et in
+                           vicinia acciderunt, <lb/> Collectore <name type="person" key="MagMat001"
+                              >Magno Matthia</name> Th. Lectore et Canonico <name type="place"
+                              key="Lund01">Lundenſi</name>, postea Schaniæ <lb/>
+                           Superintendente</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="sagnfr">
+                     <locus from="2r" to="134v">2r-124v</locus>
+                     <author key="MagMat001">Magnus Mathias</author>
+                     <title type="supplied">Regum Daniæ Series</title>
                      <textLang mainLang="la">Latin</textLang>
                   </msItem>
                </msContents>
@@ -39,15 +47,40 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>134. 
-<dimensions type="leaf" scope="all">
-                              <height>200</height>
-                              <width>143</width>
+                        <extent>134. <dimensions type="leaf" scope="all">
+                              <height unit="mm">200</height>
+                              <width unit="mm">143</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scribe="AndHeg001" script="unknown"><p>Written by <name type="person"
+                              key="AndHeg001">Andreas Hegelund</name>.</p></handNote>
+                  </handDesc>
+                  <additions>On fol. 1r the following note is found: <q>Hanc Eegum DANIÆ ſeriem
+                        Hafniæ ſibi transcribi curavit Anno 1646 Andr. J. Hegelund</q>. </additions>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Copenhagen, Denmark</origPlace>, <origDate when="1646"
+                        evidence="internal">1646</origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">235</biblScope></bibl>
+                     <bibl><ref target="HHDNSR"/>
+                        <biblScope unit="page">58</biblScope>
+                     </bibl>
+                     <bibl><ref target="HolRør1873-1875"/>
+                        <biblScope unit="volume">I:2</biblScope>
+                        <biblScope unit="page">81 ff.</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

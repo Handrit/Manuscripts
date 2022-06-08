@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,38 +23,32 @@
                      <idno>1751</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Spegill þeirrar sönnu rhetorica</title>
-                  <origPlace>Island?</origPlace>
-                  <origDate when="1589">1589</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Spegill þeirrar sönnu rhetorica</title></summary>
                   <titlePage>
                      <docTitle>
-                        <titlePart type="main">Speigill þ<ex>eir</ex>rar ſaun<ex>n</ex>u
-                           Rethorica</titlePart>
+                        <titlePart type="main"><locus from="1v" to="1v">1v</locus> Speigill
+                              þ<ex>eir</ex>rar ſaun<ex>n</ex>u Rethorica</titlePart>
                         <titlePart type="sub">vt af Marco Tullio Cicerone og audru<ex>m</ex> til
                            ſamans tekin<ex>n</ex>
                            <gap reason="irrelevant"/> af meistara Fridrich Riedrer af Friborg J
                            Briſgau, en<ex>n</ex> Jſlenskud af mier magnuſi Jonſſ<ex>yn</ex>i at Haga
-                            Bardaſtrond og Rauda ſandi <gap reason="irrelevant"/> Anno
-                           <date when="1589">1589</date></titlePart>
+                            Bardaſtrond og Rauda ſandi <gap reason="irrelevant"/> Anno <date
+                              when="1589">1589</date></titlePart>
                      </docTitle>
                   </titlePage>
-                  <msItem n="1">
-                     <locus>1r</locus>
-                     <title>Annalistisk notits.</title>
-                  </msItem>
-                  <msItem>
+                  <msItem n="1" class="malskfr">
                      <locus from="2r" to="71r">1v-71r</locus>
                      <author key="FriRie001">Friedrich Riedrer</author>
-                     <title type="uniform">Spiegel der wahren Rhetorik</title>
+                     <title type="uniform">Spiegel der waren Rhetoric</title>
                      <respStmt>
-                        <resp>Oversat af</resp>
+                        <resp key="trl"/>
                         <name type="person" key="MagJon006">Magnús Jónsson</name>
                      </respStmt>
                      <title type="supplied" xml:lang="is">Spegill þeirrar sönnu rhetorica</title>
-                     <textLang mainLang="is">Islandsk</textLang>
+                     <textLang mainLang="is"/>
+                     <note>Inkorporerer en oversættelse af <name type="person" key="Cicooo001"
+                           >Cicero</name>s <title type="uniform">De inventione</title>.</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -64,9 +58,10 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>72 (fol. 1-71 + 1<hi rend="sup">bis</hi>). <dimensions type="leaf" scope="all">
-                              <height>196</height>
-                              <width>162</width>
+                        <extent>72 (bl. 1-71 + 1<hi rend="sup">bis</hi>). <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">196</height>
+                              <width unit="mm">162</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
@@ -74,7 +69,7 @@
                      <handNote scope="major" script="unknown" scribe="MagJon006">Skrevet af Magnús
                         Jónsson gamli.</handNote>
                   </handDesc>
-                  <additions>Under den annalistiske notits på bl 1r er der senere skrevet
+                  <additions>På bl 1r ses en annalistisk notits. Under denne er der senere skrevet
                      annal-notitser for årene <date from="1394" to="1406">1394-1406</date>;
                      fortsatte for år <date when="1407">1407</date> i bl. 2r's margin. Bl. 71v,
                      oprindeligt ubeskrevet, er udfyldt med <title type="supplied" xml:lang="is">
@@ -82,21 +77,27 @@
                      </title>, der dog allerede standser ved år <date when="1120">1120</date>
                      <note>fejlskrevet 1020</note>.</additions>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Island</origPlace>,
+                     <origDate when="1589">1589</origDate>. </origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Jón Þorkelsson: <ref type="secondary" target="JonThork1888">Om digtningen
                            på Island i det 15. og 16. Århundrede</ref>
-                        <biblScope unit="pages">380</biblScope>
+                        <biblScope unit="page">380</biblScope>
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">119</biblScope>
+                        <biblScope unit="page">119</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-12" who="EvaWed001">Opdateret opmærkning.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,30 +22,43 @@
                             <idno>1982</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title n="1">Fred udi det hedenske Norden</title>
-                        <title n="2">Holger Danske</title>
-                        <origPlace>Danmark</origPlace>
-                        <origDate notBefore="1690" notAfter="1710" evidence="conjecture" resp="KKKat">ca. 1700</origDate>
-               </head>
                     <msContents>
-                        <titlePage type="MS"><docTitle><titlePart>FRED <lb/> udi <lb/> HEDENSKE NOR<lb/>den <lb/> Dett er <lb/>
-                                Förste og Ældste <lb/> NORDISKE HERRERS oc KONGERS <lb/> Nye Orden
-                                <lb/> oc <lb/> VISSERE REGIERINGER <lb/></titlePart><titlePart type="sub">Paa <lb/> Tuſind Aar og
-                                derofver, <lb/> Fra <lb/> ODIN <lb/> indtil <lb/> CHRISTENDOMENS
-                                    <lb/> anfang udi Norden, <lb/> udaf <lb/> Islændiſke Antiqviteter
-                                    <lb/> Harmonicè eller Sam<ex>m</ex>enſtem<ex>m</ex>ing
-                                    <lb/> foreſtillett <lb/> ved <lb/> Frantz Michelſön Wgilt</titlePart></docTitle></titlePage>
-                        <msItem n="1">
-                            <author key="FraUgi001">Frants Mikkelsen Vogelius</author>
+                        <summary><title type="supplied">Fred udi det hedenske Norden og Holger Danske</title>.</summary>
+                        <titlePage type="MS">
+                            <docTitle>
+                                <titlePart type="main">FRED <lb/> udi <lb/> HEDENSKE NOR<lb/>den <lb/> Dett er
+                                    <lb/> Förste og Ældste <lb/> NORDISKE HERRERS oc KONGERS <lb/>
+                                    Nye Orden <lb/> oc <lb/> VISSERE REGIERINGER <lb/></titlePart>
+                                <titlePart type="sub">Paa <lb/> Tuſind Aar og derofver, <lb/> Fra
+                                    <lb/> ODIN <lb/> indtil <lb/> CHRISTENDOMENS <lb/> anfang udi
+                                    Norden, <lb/> udaf <lb/> Islændiſke Antiqviteter <lb/> Harmonicè
+                                    eller Sam<ex>m</ex>enſtem<ex>m</ex>ing <lb/> foreſtillett <lb/>
+                                    ved <lb/> Frantz Michelſön Wgilt</titlePart>
+                            </docTitle>
+                        </titlePage>
+                        <msItem n="1" class="sagnfr">
+                            <author key="ThoTor001">Torfæus</author>
+                            <respStmt>
+                                <resp key="trl"/>
+                                <name type="person" key="FraUgi001">Frants Mikkelsen Vogelius</name>
+                            </respStmt>
                             <title type="uniform">Fred udi det hedenske Norden</title>
-                            <textLang mainLang="da">Dansk</textLang>
+                            <textLang mainLang="da"/>
+                            <note>Ifølge Suhm (<bibl><ref target="PetSuh1788-98">Suhm 1798</ref>
+                                    <biblScope unit="volume">XV</biblScope>
+                                    <biblScope unit="page">313</biblScope></bibl>) er titlen en
+                                oversættelse af en del af Torfæus <title type="uniform">Series dynastarum et regum
+                                Daniæ</title>.</note>
                         </msItem>
                         <msItem n="2">
-                            <author key="FraUgi001">Frants Mikkelsen Vogelius</author>
+                            <respStmt>
+                                <resp key="trl"/>
+                                <name type="person" key="FraUgi001">Frants Mikkelsen Vogelius</name>
+                            </respStmt>
                             <title type="uniform">Holger Danske</title>
-                            <rubric>DEN NYE FOR<lb/>DANSKEDE HOLGER DANSKE. <lb/> Anno <date when="1679">1679</date>, <lb/>
-                                Ved <lb/> Franc. Mich. Ugilt</rubric>
+                            <rubric>DEN NYE FOR<lb/>DANSKEDE HOLGER DANSKE. <lb/> Anno <date
+                                    when="1679">1679</date>, <lb/> Ved <lb/> Franc. Mich.
+                                Ugilt</rubric>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -55,9 +69,10 @@
                                         <material>Papir.</material>
                                     </p>
                                 </support>
-                                <extent>246, bl. 209-10 er ubeskrevne. <dimensions type="leaf" scope="all">
-                                        <height>202</height>
-                                        <width>158</width>
+                                <extent>246, bl. 209-10 er ubeskrevne. <dimensions type="leaf"
+                                        scope="all">
+                                        <height unit="mm">202</height>
+                                        <width unit="mm">158</width>
                                     </dimensions> (bl. 188 er i folio)</extent>
                             </supportDesc>
                         </objectDesc>
@@ -67,14 +82,20 @@
                             </decoNote>
                         </decoDesc>
                     </physDesc>
+                    <history><origin><origPlace>Danmark</origPlace>
+                        <origDate notBefore="1690" notAfter="1710" evidence="conjecture"
+                            resp="KKKat">ca. 1700</origDate>.</origin></history>
                     <additional>
                         <listBibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">233</biblScope></bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat"
+                                    >Katalog</ref><biblScope unit="volume">II</biblScope><biblScope
+                                    unit="page">233</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2021-11-26" who="EvaWed001">Opdateret og rettet.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

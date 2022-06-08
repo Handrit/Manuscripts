@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,26 +22,27 @@
                      <idno>2682</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Guðfræðisrit Páls prófasts
-            Björnssonar í Selárdal, I</title>; <origPlace>Island</origPlace>,
-            <origDate notBefore="1715" notAfter="1772">s. XVIII</origDate>.</head>
                <msContents>
-                  <msItem n="1">
+                  <summary><title type="supplied">Guðfræðisrit Páls prófasts Björnssonar í Selárdal,
+                     I</title></summary>
+                  <msItem n="1" class="gudfr">
                      <locus from="1v" to="18">1v-18</locus>
-                     <textLang mainLang="is">Islandsk</textLang>
+                     <author key="PalBjo001">Páll Björnsson</author>
+                     <title type="supplied">Kross, krossfesting og krossmark</title>
                      <rubric>Um Kross, krossfesting, Krossmark Spicilegium</rubric>
-                     <note>Dateret 1690</note>
+                     <textLang mainLang="is"/>
+                     <note>Dateret <date when="1690">1690</date></note>
                   </msItem>
-                  <msItem n="2">
+                  <msItem n="2" class="gudfr">
                      <locus from="20" to="136r">20-136r</locus>
-                     <textLang mainLang="la">Latin</textLang>
-                     <rubric>ϓΠΟϺΝΗϺΑΤΛ Resurrectionis
-                Domini nostri Iesu Christi</rubric>
+                     <textLang mainLang="is"/>
+                     <rubric>'ϓΠΟϺΝΗϺΑΤΑ Resurrectionis Domini nostri Iesu Christi</rubric>
                   </msItem>
-                  <msItem n="3">
+                  <msItem n="3" class="gudfr">
                      <locus from="137" to="218">137-218</locus>
-                     <textLang mainLang="is">Islandsk</textLang>
+                     <author key="PalBjo001">Páll Björnsson</author>
+                     <title type="uniform">Lilja meðal þyrna</title>
+                     <textLang mainLang="is"/>
                      <rubric>Lilia medal þyrna</rubric>
                      <note/>
                   </msItem>
@@ -53,21 +54,45 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>218. Bl. 1r, 19, 136v ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>162</height>
-                              <width>105</width>
-                           </dimensions>.</extent>
+                        <extent>218. Bl. 1r, 19, 136v ubeskrevne. <dimensions type="leaf"
+                           scope="all" unit="mm">
+                           <height unit="mm">162</height>
+                           <width unit="mm">105</width>
+                        </dimensions>.</extent>
                      </supportDesc>
-                    </objectDesc> 
+                  </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="AsgBja01" scope="sole" script="unknown">
-                        <p>Skrevet af præsten Ásgeir Bjarnason.</p>
+                     <handNote scribe="AsgBja001" scope="sole" script="unknown">
+                        <p>Skrevet af præsten <name type="person" key="AsgBja001">Ásgeir
+                           Bjarnason</name>.</p>
                      </handNote>
                   </handDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Indbundet i et helbind af læder. Bindet er betrukket med stumper af
+                           privatbreve og andre skrivelser, angående dette (og det foregående
+                           nummer) giver arkivar Jón Sigurðsson følgende vedtegning: <q>með hendi
+                              S<hi rend="sup">r</hi> Asgeirs Bjarnasonar i Ögum þingum.
+                              mestpart</q></p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
+               <history>
+                  <origin>Skrevet i <origPlace>Island</origPlace> i <origDate
+                     notBefore="1723" notAfter="1772">1700-tallet</origDate>. Dog er Ásgeir Bjarnasons
+                     død i <date when="1722">1772</date> et <foreign xml:lang="la">terminus ante
+                        quem</foreign> for håndskriftet.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">559</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-07-02" who="EvaWed001">Opdateret opmærkning og indhold.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

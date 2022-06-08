@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,28 +23,96 @@
                      <idno>1877</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Snorra Edda</title>
-                  <origPlace>Norway?</origPlace>
-                  <origDate notBefore="1650" notAfter="1699">s. XVII 2/2</origDate>
-                  <note>Translated into Danish by Þormóður Torfason (Torfæus).</note>
-               </head>
                <msContents>
-                  <textLang mainLang="da">Danish</textLang>
+                  <summary><title type="uniform">Snorra Edda</title><note>Items 3-5 (<title
+                           type="uniform">Vǫluspá</title> and <title type="uniform">Hávamál</title>)
+                        are provided with a translation into Latin and comments from Resen's <title
+                           type="uniform">Edda Islandorum</title>. </note></summary>
+                  <msItem n="1">
+                     <locus from="2r" to="48r">2r-48r</locus>
+                     <title type="supplied" xml:lang="da">Snorra Edda, Part I</title>
+                     <textLang mainLang="da"/>
+                     <respStmt>
+                        <resp key="trl"/>
+                        <name type="person" key="ThoTor001">Þormóður Torfason</name>
+                     </respStmt>
+                     <!--  Kålund: <note>71 fabler i dansk oversættelse.</note> fabler? -->
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="50r" to="67r">50r-67r</locus>
+                     <title type="supplied" xml:lang="da">Snorra Edda, Part II</title>
+                     <rubric>Secunda pars Eddæ <lb/> de <lb/> variis appellationibus rerum</rubric>
+                     <textLang mainLang="la"/>
+                     <filiation>Copy of Resen's translation of <q xml:lang="la">Annar partur
+                           Eddu</q> in his <title type="uniform">Edda
+                        Islandorum</title>.</filiation>
+                  </msItem>
+                  <msItem n="3">
+                     <locus from="68r" to="78r">68r-78r</locus>
+                     <title type="uniform" xml:lang="is">Vǫluspá</title>
+                     <textLang mainLang="is" otherLangs="la"/>
+                     <rubric>Vaticinium Volæ Latine qvodammodo reditum</rubric>
+                  </msItem>
+                  <msItem n="4">
+                     <locus from="78v" to="88r">78v-88r</locus>
+                     <title type="uniform" xml:lang="is">Vǫluspá</title>
+                     <textLang mainLang="is" otherLangs="la"/>
+                     <rubric>Notæ sev <lb/> Levis PARAGRAPHUS IN EXPLICATIONEM SUPER <lb/> verſus
+                        Sybillinos ſeu philoſophiam [Wolu Spä] <lb/> Norvego-Danicam</rubric>
+                  </msItem>
+                  <msItem n="5">
+                     <locus from="88v" to="102r">88v-102r</locus>
+                     <title type="uniform" xml:lang="is">Hávamál</title>
+                     <rubric>Häva mäl en gǫmlu</rubric>
+                     <textLang mainLang="is" otherLangs="la"/>
+                     <note>Including the <q xml:lang="la">Runa capitule</q>.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>102. 
-<dimensions type="leaf" scope="all">
-                              <height>212</height>
-                              <width>168</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>102. 102 + i. Fols 48v-49, 67v and 102v are blank. <dimensions
+                              type="leaf" scope="all">
+                              <height unit="mm">212</height>
+                              <width unit="mm">168</width>
                            </dimensions>
                         </extent>
+                        <foliation>Fols. 68-102 are paginated.</foliation>
                      </supportDesc>
                   </objectDesc>
+                  <additions>
+                     <p>Some slips are attached to fols 8v, 1v, 13v and 28v. Several corrections
+                        occur in the margin and between the lines, especially at the beginning of
+                        the manuscript.</p>
+                     <p>A note on the first flyleaf (fol. 1) reads <q>Edda Iſlandorum. udſkreven
+                              <date when="1662">1662</date> af <name type="person" key="ThoTor001"
+                              >Tormud Torfæi</name>, Interpretis Regii, men nu Hiſtorici Regii Regni
+                           Norv : og af Velb. nu sl. Jomfru <name type="person" key="AnnGoy001">Anne
+                              Göjes</name> Danſke Edda, hvilken hun havde faaed af ſin broder <name
+                              type="person" key="FalGoy001">Falk Göje</name>, Hofmeſter paa Soor,
+                           men hand af M. Stefan, Hiſtorico Regio. Jeg havde da i ſinde at vilde
+                           ladet den paa Danſke udgaa i trykken men (sål.) Antegnelser hoos, men D.
+                              <name type="person" key="PedRes001">Peder Reſen</name> kom mig
+                           tilforn. <name type="person" key="PedSyv001">PPSyv</name></q>.</p>
+                  </additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Norway?</origPlace>, <origDate notBefore="1665" notAfter="1699"
+                        >s. XVII<hi rend="sup">2</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>
+                        <ref type="secondary" target="Edda1848-87">Edda Snorra Sturlusonar</ref>
+                        <biblScope unit="volume">III</biblScope>
+                        <biblScope unit="page">cxi</biblScope>
+                     </bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">181</biblScope></bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

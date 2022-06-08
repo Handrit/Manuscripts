@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,13 +22,11 @@
                      <idno>1669</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">De Sancto Ansgario</title>; <origPlace>Danmark?</origPlace>,
-                     <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s. XVII 1/4</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
-                     <title type="uniform">De Sancto Ansgario</title>
+                  <summary><title type="uniform">Legende om Sankt Ansgar</title></summary>
+                  <msItem n="1" class="hels">
+                     <locus from="1r" to="9v">1r-9v</locus>
+                     <title type="uniform" xml:lang="la">De Sancto Ansgario</title>
                      <textLang mainLang="la">Latin</textLang>
                   </msItem>
                </msContents>
@@ -39,24 +38,38 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>9. <dimensions type="leaf" scope="all">
-                              <height>214</height>
-                              <width>167</width>
+                              <height unit="mm">214</height>
+                              <width unit="mm">167</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="unknown">Samme hånd som <ref type="ms"
+                        target="#AM04-0670-b-da #AM04-0670-c-da #AM04-0670-d-da">AM 670 b-d 4to</ref>, de første 8 blade af <ref type="ms"
+                           target="#AM04-0670-e-da">AM 670 e 4to</ref>, bl. 3r-7r af <ref type="ms"
+                              target="#AM04-0670-f-en">AM 670 f 4to</ref> og <ref type="ms" target="#AM04-0670-g-en">AM 670 g 4to</ref>.</handNote>
+                  </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Danmark?</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup"
+                           >1/4</hi></origDate></origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Langebek:
-                        <ref target="SRDMAE">Scriptores Rerum Danicarum Medii Aevi</ref>
+                     <bibl>Langebek: <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
+                           Aevi</ref>
                         <biblScope unit="volume">I</biblScope>
-                        </bibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">83</biblScope></bibl>
+                     </bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">83</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2022-02-02" who="EvaWed001">Opdateret opmærkning og handDesc.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

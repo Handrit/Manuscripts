@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,16 +23,28 @@
                      <idno>2022</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Bergens Fundats</title>
-                  <origPlace>Germany?</origPlace>
-                  <origDate notBefore="1650" notAfter="1699">s. XVII 2/2</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
-                     <author>
-                        <name type="person" key="HerLau001">Herluf Lauritssøn</name>
-                     </author>
+                  <summary><title type="uniform">The Origin of Bergen</title><note>Containing a
+                        translation into German of Herluf Lauritssøn's <title type="uniform">Bergens
+                           Fundas</title> (<title type="uniform">The Origin of Bergen</title>)
+                        including <name type="person" key="MikHof001">Michael Hofnagel</name>'s
+                        diary entries, the youngest of these dates to <date when="1676"
+                        >1676</date>.</note></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">Cronica, <lb/> Oder <lb/> Kurtze Historiſche
+                           auff<lb/>zeichnung vnd Bericht, <lb/> Von Erbawung, Item von ab vnd
+                           zunehmung, der Stadt Bergen <lb/> in Norwegen,</titlePart>
+                        <titlePart type="sub">Darbei den verner <lb/> Meldung, vnd Bericht, von
+                           Anfang <lb/> vnd zuwachſung, Des Itzo stehndenn <lb/> Teutschen Contors,
+                           stuck<lb/>weise Geschen Soll, <lb/> Vnd wass Sonderliches Iahrlichs
+                           passeret ist, <lb/> Biss Anno: 1670:</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="sagnfr">
+                     <locus from="1r" to="91v">1r-91v</locus>
+                     <author key="HerLau001">Herluf Lauritssøn</author>
+                     <title type="uniform">Bergens Fundas</title>
                      <textLang mainLang="de">German</textLang>
                   </msItem>
                </msContents>
@@ -41,13 +53,29 @@
                      <supportDesc material="chart">
                         <support>Paper.</support>
                         <extent>91. <dimensions type="leaf" scope="all">
-                              <height>204</height>
-                              <width>159</width>
+                              <height unit="mm">204</height>
+                              <width unit="mm">159</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Germany?</origPlace>
+                     <origDate notBefore="1650" notAfter="1699">s. XVII<hi rend="sup"
+                        >2</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">247-248</biblScope></bibl>
+                     <bibl>Suhm: <ref target="PetSuh1771-1776">Samlinger</ref>
+                        <biblScope unit="volume">II:2</biblScope>
+                        <biblScope unit="page">126 ff.</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

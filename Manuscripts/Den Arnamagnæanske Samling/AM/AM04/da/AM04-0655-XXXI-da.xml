@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,18 +23,16 @@
                      <idno>1646</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Martinus saga biskups</title>;
-                     <origPlace>Island</origPlace>, <origDate notBefore="1300" notAfter="1325">s.
-                     XIV 1/4</origDate>
-               </head>
                <msContents>
-                  <msItem defective="true">
-                     <title type="uniform" xml:lang="is">Martinus saga biskups</title>
-                     <textLang mainLang="is">Norrønt/Islandsk</textLang>
-                     <incipit defective="true">þ<ex>via</ex>t þ<ex>at</ex> v<ex>ar</ex>
-                        fyʀ en ek kæma til h<ex>an</ex>ſ</incipit>
-                     <explicit defective="true">heilagr domr hinſ <supplied reason="damage">ſæla M<ex>ar</ex>tini</supplied>
+                  <summary><title type="uniform" xml:lang="is">Marteins saga biskups</title></summary>
+                  <msItem n="1" defective="true">
+                     <locus from="1r" to="3v">1r-3v</locus>
+                     <title type="uniform" xml:lang="is">Marteins saga biskups</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">þ<ex>via</ex>t þ<ex>at</ex> v<ex>ar</ex> fyʀ en ek
+                        kæma til h<ex>an</ex>ſ</incipit>
+                     <explicit defective="true">heilagr domr hinſ <supplied reason="damage">ſæla
+                              M<ex>ar</ex>tini</supplied>
                         <gap reason="damage"/>
                      </explicit>
                   </msItem>
@@ -46,9 +45,9 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>3. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>195</height>
-                              <width>136</width>
-                           </dimensions>
+                              <height unit="mm">195</height>
+                              <width unit="mm">136</width>
+                           </dimensions>.
                         </extent>
                         <condition>Bl. 3, der er beskadiget på flere måder, har navnlig mistet en
                            større del ved øvre indre hjørne. Bl. 1-2 har været andvendt til
@@ -61,14 +60,24 @@
                   <accMat>Der er en AM-seddel.</accMat>
                </physDesc>
                <history>
-                  <acquisition>AM-sedlen meddeler, at dette fragment er sendt <name type="person" key="ArnMag001">Arne Magnusson</name> af kaptajn <name type="person" key="MagAra001">Magnus Arason</name> fra <name type="place" key="HagBar01">Hagi på Barðaströnd</name> gennem <name type="person" key="OrmDad001">Ormur Dadason</name> år <date when="1722">1722</date>.</acquisition>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1300" notAfter="1325"
+                        >s. XIV<hi rend="sup">1/4</hi></origDate>.</origin>
+                  <acquisition>AM-sedlen meddeler, at dette fragment er sendt <name type="person"
+                        key="ArnMag001">Arne Magnusson</name> af kaptajn <name type="person"
+                        key="MagAra001">Magnús Arason</name> fra <name type="place" key="HagBar01"
+                        >Hagi på Barðaströnd</name> gennem <name type="person" key="OrmDad001">Ormur
+                        Dadason</name> år <date when="1722">1722</date>.</acquisition>
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     <bibl><ref type="secondary-1" target="EIMF4"/>
+                        <biblScope unit="page">20</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">66</biblScope>
+                        <biblScope unit="page">66</biblScope>
                      </bibl>
+                     <bibl><ref type="secndary" target="Wolf2013"/>
+                     <biblScope unit="page">230</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

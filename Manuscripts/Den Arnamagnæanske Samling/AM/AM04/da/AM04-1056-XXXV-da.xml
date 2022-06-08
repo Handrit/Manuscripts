@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -23,12 +23,11 @@
                   </altIdentifier>
                </msIdentifier>
 
-          
-        
                <msContents>
                   <summary><title type="supplied">Bønnebog</title></summary>
                   <msItem defective="true" class="banb">
-                     <title type="supplied">Bønner til Skt. Anna og jomfru Maria</title>
+                     <locus from="1r" to="2v">1r-2v</locus>
+                     <title type="supplied">Bønner til Skt. Anna og Jomfru Maria</title>
                      <textLang mainLang="da">Gammeldansk</textLang>
                   </msItem>
                </msContents>
@@ -40,31 +39,47 @@
                            <p>
                               <material>Pergament</material>.</p>
                         </support>
-                        <extent>2 bladfragmenter. <dimensions type="leaf" scope="all">
-                              <height>64</height>
-                              <width>101</width>
+                        <extent>2 bladfragmenter. Bl. 1 måler <dimensions type="leaf" scope="all">
+                              <height unit="mm">62</height>
+                              <width unit="mm">96</width>
+                           </dimensions>; bl. 2 måler <dimensions type="leaf" scope="all">
+                              <height unit="mm">62</height>
+                              <width unit="mm">100</width>
                            </dimensions>.</extent>
+                        <condition>Den øverste del af bl. 1 er afskåret i begge sider, så der kun er
+                           9 bevarede linjer tilbage. Blad 2 er afskåret foroven og forneden samt i
+                           den ene side, så der kun er 13 bevarede linjer tilbage. 1r mangler
+                           enkelte bogstaver i slutningen af linjerne; bl. 2r mangler 2-3 bogstaver
+                           i slutningen af linjerne, 2v mangler 2-3 bogstaver ved linjernes
+                           begyndelse.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1">
-                           <p>Røde initialer.</p>
+                           <p>Rødt initial.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                </physDesc>
                <history>
-                  <origin notBefore="1490" notAfter="1510" evidence="conjecture" resp="KKKat"><origPlace>Danmark</origPlace>, <origDate>ca. 1500</origDate>.</origin>
+                  <origin notBefore="1490" notAfter="1510" evidence="conjecture" resp="KKKat"
+                        ><origPlace>Danmark</origPlace>, <origDate notBefore="1490" notAfter="1510"
+                        >ca. 1500</origDate>.</origin>
                   <provenance>
                      <p>Fra Visborg <date when="1644">1644</date>.</p>
                   </provenance>
                   <acquisition>
-                     <p>Skænket til <name type="org">Den Arnamagnæanske Samling</name> fra <name type="org">Rigsarkivet</name>.</p>
+                     <p>Skænket til <name type="org">Den Arnamagnæanske Samling</name> fra <name
+                           type="org">Rigsarkivet</name>.</p>
                   </acquisition>
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">308,
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">308,
                         314</biblScope></bibl>
+                     <bibl><ref target="MDB">Nielsen 1982</ref>
+                        <biblScope unit="volume">V</biblScope>
+                        <biblScope unit="page">10</biblScope></bibl>
                   </listBibl>
                </additional>
 

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,14 +23,10 @@
                      <idno>317</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="en">Norna-Gests þáttr</title>;
-        <origPlace>Iceland</origPlace>, <origDate notBefore="1600" notAfter="1699">s.
-        XVII</origDate>. <note>Fragments from two different manuscripts.</note>
-               </head>
-               <msContents>
-                  <msItem n="1" class="forn">
-                     <locus from="1r:1" to="8">1r-8</locus>
+                   <msContents>
+               	<summary><title type="supplied" xml:lang="en">Norna-Gests þáttr</title><note>Fragments from two different manuscripts.</note></summary>
+                  <msItem n="1" class="fas">
+                     <locus from="1r:1" facs="#AM02-0202-i-1r:1" to="8">1r-8</locus>
                      <title type="uniform" xml:lang="is">Norna-Gests þáttr</title>
                      <textLang mainLang="is">Icelandic</textLang>
                      <rubric>Søgu þättur af norna Gest.</rubric>
@@ -45,8 +42,8 @@
                         <note>Ed. G</note>
                      </bibl>
                   </msItem>
-                  <msItem n="2" class="forn">
-                     <locus from="9r:1" to="12v:15">9r-12v</locus>
+                  <msItem n="2" class="fas">
+                     <locus from="9r:1" facs="#AM02-0202-i-9r:1" to="12v:15">9r-12v</locus>
                      <title type="uniform" xml:lang="is">Norna-Gests þáttr</title>
                      <textLang mainLang="is">Icelandic</textLang>
                      <rubric>SØGU ÞATTUR AF <lb/> Norna Gesti.</rubric>
@@ -59,8 +56,8 @@
                     h<ex>an</ex>z s<ex>e</ex>m h<ex>ann</ex> sagde, <ex>og</ex> lijkur her
                 f<ex>ra</ex> Norna Gest ad seigia</explicit>
                      <note>The beginning of <title type="uniform" xml:lang="is">Hálfs saga og
-                Hálfsrekka</title> on fol. <locus>12v</locus> is heavily crossed out and the rest of
-                the story was transferred to <ref type="ms">AM 202 e fol.</ref>
+                Hálfsrekka</title> on fol. <locus facs="#AM02-0202-i-0012v">12v</locus> is heavily crossed out and the rest of
+                     	the story was transferred to <ref type="ms" target="#AM02-0202e-is">AM 202 e fol.</ref>.
                      </note>
                   </msItem>
                </msContents>
@@ -73,8 +70,8 @@
                            </p>
                         </support>
                         <extent>12. <dimensions type="leaf" scope="all">
-                              <height>300</height>
-                              <width>190</width>
+                              <height unit="mm">300</height>
+                              <width unit="mm">190</width>
                            </dimensions>. </extent>
                         <foliation>
                            <p>Foliated on top right-hand corners of recto pages.</p>
@@ -89,7 +86,7 @@
                      <layoutDesc>
                         <layout columns="1" writtenLines="38 40">
                            <p>Written in one column with 38 to 40 lines per page. Running titles are on
-                        fols <locus from="9v" to="12v">9v-12v</locus>. On fol. <locus>5r</locus>
+                        fols <locus from="9v" facs="#AM02-0202-i-0009v" to="12v">9v-12v</locus>. On fol. <locus facs="#AM02-0202-i-0005r">5r</locus>
                         space is left blank to indicate a lacuna.</p>
                         </layout>
                      </layoutDesc>
@@ -97,14 +94,14 @@
                   <handDesc hands="3">
                      <handNote scribe="JonGis003" scope="major" script="unknown">
                         <p>
-                           <name type="person" key="JonGis003">Jón Gissurarson</name> wrote fols <locus from="1" to="7">1-7</locus>.</p>
+                           <name type="person" key="JonGis003">Jón Gissurarson</name> wrote fols <locus from="1" facs="#AM02-0202-i-0001r" to="7">1-7</locus>.</p>
                      </handNote>
                   </handDesc>
                   <additions>
-                     <p>On fol. <locus>1r</locus>
+                     <p>On fol. <locus facs="#AM02-0202-i-0001r">1r</locus>
                         <name type="person" key="ArnMag001">Árni Magnússon</name> added in the top right
                 corner: <q xml:lang="is">Med hendi Jóns Gissurs <lb/> sonar</q>, referring to fols
-                    <locus from="1r" to="8v">1-7</locus>. Fol. <locus>8</locus> was later added for
+                    <locus from="1r" facs="#AM02-0202-i-0001r" to="8v">1-7</locus>. Fol. <locus facs="#AM02-0202-i-0008r">8</locus> was later added for
                 Árni Magnússon by one of his scribes.</p>
                   </additions>
                   <bindingDesc>
@@ -123,12 +120,12 @@
                </physDesc>
                <history>
                   <origin notBefore="1600" notAfter="1699">
-                     <p>Written in <origPlace>Iceland</origPlace> in the <origDate>seventeenth
+                  	<p>Written in <origPlace>Iceland</origPlace> in the <origDate notBefore="1600" notAfter="1699">seventeenth
                 century</origDate>. The two items belonged originally to different manuscripts.</p>
                   </origin>
                   <acquisition>
                      <p>According to the AM-slip, <name type="person" key="ArnMag001">Árni Magnússon</name>
-                got the manuscript to which fols <locus from="1" to="7">1-7</locus> originally
+                got the manuscript to which fols <locus from="1" facs="#AM02-0202-i-0001r" to="7">1-7</locus> originally
                 belonged from sr. <name type="person" key="HogAmu001">Högni Ámundason</name>.</p>
                   </acquisition>
                </history>

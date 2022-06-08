@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,15 +22,12 @@
                      <idno>1701</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Kirkelige skrifter</title>; <origPlace>Norge</origPlace>,
-                     <origDate notBefore="1490" notAfter="1510">ca. 1400 og ca. 1500 (bl.
-                     3v)</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
+                  <summary><title type="supplied">Besværgelsesformularer og velsignelser og
+                        kirkeret</title></summary>
+                  <msItem n="1" class="krist">
                      <locus from="1r" to="3v">1r-3v</locus>
-                     <title type="supplied">Exorcismi et benedictiones</title>
+                     <title type="supplied">Besværgelsesformularer og velsignelser</title>
                      <textLang mainLang="la">Latin</textLang>
                      <msItem n="1.1">
                         <title type="uniform">Consecratio salis et aqvæ</title>
@@ -42,15 +39,15 @@
                         <title type="uniform">Benedictio carnium ceterorumqve alimentorum</title>
                      </msItem>
                   </msItem>
-                  <msItem>
-                     <locus>3v</locus>
+                  <msItem n="2" class="klog">
+                     <locus from="3v" to="3v">3v</locus>
                      <title type="uniform">Hvem kirken nægter sin beskærmelse</title>
                      <textLang mainLang="da">Dansk</textLang>
-                     <rubric>Teſſe efft<ex>er</ex>sch<ex>re</ex>ffne
-                           forbywd<ex>er</ex> th<ex>e</ex>n helghe <lb/> kerke ſyn hegn oc
-                        beſkermelſe</rubric>
+                     <rubric>Teſſe efft<ex>er</ex>sch<ex>re</ex>ffne forbywd<ex>er</ex>
+                        th<ex>e</ex>n helghe <lb/> kerke ſyn hegn oc beſkermelſe</rubric>
                      <bibl>Diderichsen: <ref type="primary" target="FragmPD">Fragmenter af
-                           gammeldanske Haandskrifter</ref><biblScope unit="pages">179</biblScope></bibl>
+                           gammeldanske Haandskrifter</ref><biblScope unit="page"
+                        >179</biblScope></bibl>
                   </msItem>
                </msContents>
                <physDesc>
@@ -61,8 +58,8 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>3. <dimensions type="leaf" unit="mm">
-                              <height>240</height>
-                              <width>180</width>
+                              <height unit="mm">240</height>
+                              <width unit="mm">180</width>
                            </dimensions></extent>
                         <condition>Alle bladene er beskadigede, af bl. 1 er et større hjørne
                            forneden afskåret.</condition>
@@ -72,20 +69,26 @@
                      </layoutDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Norge</origPlace>, <origDate notBefore="1390" notAfter="1510"
+                        >ca. 1400 og ca. 1500 (bl. 3v)</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">98</biblScope>
+                        <biblScope unit="page">98</biblScope>
                      </bibl>
-                     <bibl>Unger: <ref type="secondary-1" target="NgL4">Norges gamle
-                           Love</ref><biblScope unit="volume">IV</biblScope><biblScope unit="pages">553-56</biblScope><note>Behandlet som oprindelig en del af <ref type="ms" target="AM04-00062-da">AM 62 4to</ref></note></bibl>
+                     <bibl><ref type="secondary-1" target="NgL4">Norges gamle
+                           Love</ref><biblScope unit="volume">IV</biblScope><biblScope unit="page"
+                           >553-56</biblScope><note>Behandlet som oprindelig en del af <ref
+                              type="ms" target="AM04-00062-da">AM 62 4to</ref></note></bibl>
                   </listBibl>
                </additional>
-
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-12" who="EvaWed001">Opdateret opmærkning.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,29 +23,44 @@
                      <idno>1445</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Æfintýri</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                 <msContents>
+                  <summary><title type="uniform">Af ágirnd Absalons erkibiskups ok af einum
+                        bónda</title></summary>
+                  <msItem n="1" class="avint">
+                     <locus from="1r" to="4v">1r-4v</locus>
+                     <title type="uniform">Af ágirnd Absalons erkibiskups ok af einum bónda</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Af ägyrnd Abſalons Erche Byſkups, og <lb/> af Einum Bönda</rubric>
+                     <note>Cf. <bibl>Gering, <ref target="IslAEv">Íslendzk æventýri</ref><biblScope unit="volume">I</biblScope></bibl>, no. XIX.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>4. 
-<dimensions type="leaf" scope="all">
-                              <height>210</height>
-                              <width>160</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>4. fol. 4v is blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">210</height>
+                              <width unit="mm">160</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland?</origPlace>,
+                  <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">742</biblScope>
+                     </bibl>
+                     <bibl>
+                        <ref target="FMS11"/>
+                        <biblScope unit="volume">IX</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="JefLov2016a"/><biblScope unit="page">33</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

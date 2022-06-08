@@ -1,100 +1,292 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="main">AM 732 b 4to</title>
-            </titleStmt>
-            <publicationStmt>
-                <authority>Den Arnamagnæanske Samling</authority>
-                <pubPlace>København</pubPlace>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="AM04-0732-b-en" xml:lang="en">
-                    <msIdentifier>
-                        <country>Denmark</country>
-                        <settlement>København</settlement>
-                        <institution key="AMS"/>
-                        <repository>Den Arnamagnæanske Samling</repository>
-                        <collection key="AM"/>
-                        <idno>AM 732 b 4to</idno>
-                        <altIdentifier type="internal" subtype="KKKat">
-                            <idno>1741</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="is">Alfræði</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1300" notAfter="1399">s. XIV in</origDate>
-                    </head>
-                    <msContents>
-                        <textLang mainLang="la" otherLangs="non">Latin and Old
-                            Norse/Icelandic</textLang>
-                    </msContents>
-                    <physDesc>
-                        <objectDesc form="codex">
-                            <supportDesc material="perg">
-                                <support>
-                                    <p>
-                                        <material>Parchment.</material>
-                                    </p>
-                                </support>
-                                <extent>9. </extent>
-                            </supportDesc>
-                        </objectDesc>
-                        <decoDesc>
-                            <decoNote type="diagram" subtype="astonomical">
-                                <p>
-                                    <list>
-                                        <item n="1">
-                                 <locus facs="#AM04-0732-b-0002r">2r</locus>The wind rose.</item>
-                                        <item n="2">
-                                 <locus facs="#AM04-0732-b-0003r">3r</locus>Circular depiction of the
-                                            constellations of the sun, the moon and the earth along
-                                            with the position of the continents.</item>
-                                        <item n="3">
-                                 <locus facs="#AM04-0732-b-0003v">3v</locus>The astronomical system shown
-                                            in a figure formed by concentric circles into which the
-                                            four elements, the seven heavens and the planets are
-                                            inscribed.</item>
-                                        <item n="4">
-                                 <locus facs="#AM04-0732-b-0006r">6r</locus>A drawing of the zodiac as a
-                                            twelve-partite system of concentric circles along with
-                                            superscriptions and a written explanation.</item>
-                                        <item n="5">
-                                 <locus facs="#AM04-0732-b-0007v">7v</locus>A system of circles
-                                            illustrating the lunar circle during a lunar year. Below
-                                            four minor circles and a square indicating the numbering
-                                            of days of each month.</item>
-                                    </list>
-                                </p>
-                            </decoNote>
-                            <decoNote type="diagram" subtype="map">
-                                <p>
-                                    <list>
-                                        <item n="1">
-                                 <locus facs="#AM04-0732-b-0007r">7r</locus>Circular ground-plan of the
-                                            labyrinth called <q xml:lang="is">vlundar
-                                                hűs</q>.</item>
-                                        <item n="2">
-                                 <locus facs="#AM04-0732-b-0008v">8v</locus>Circular ground-plan of
-                                            Jerusalem with drawings of the main buildings and
-                                            monuments and superscriptions in Latin.</item>
-                                    </list>
-                                </p>
-                            </decoNote>
-                            <decoNote type="diagram" subtype="computistic">
-                                <p>
-                           <locus facs="#AM04-0732-b-0008r">8r</locus>A human hand illustrating computistic rules
-                                    finger counting.</p>
-                            </decoNote>
-                        </decoDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 732 b 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0732-b-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 732 b 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>1842</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="supplied">Encyclopedia</title><note>Illustrated.<!-- The manuscript contains
+						texts, written in Old Norse and Latin, on computus, cosmography, and
+						astronomy --></note>
+							<!-- AM 732b 4to is notable for preserving the only two known examples of Latin
+						poetry composed in skaldic meters. The most up-to-date general description
+						of this manuscript accompanies the edition of these verses. See Jonathan
+						Grove, ed., ‘Anonymous, stanzas addressed to fellow ecclesiastics 1 & 2 (Anon
+						Eccl 1-2)’, in Poetry on Christian Subjects, Part 2: The Fourteenth Century, ed.
+						Margaret Clunies Ross (Turnhout: Brepols, 2007), pp. 471–75, p. 471. --></summary>
+						<textLang mainLang="non" otherLangs="la"/>
+						<msItem n="1" defective="true" class="stjofr">
+							<locus facs="#AM04-0732-b-0001r">1r</locus>
+							<title type="supplied">Treatise on the Tides</title>
+							<note>Explaining how the motions of the sun and the moon cause the
+								tides.</note>
+							<textLang mainLang="non"/>
+							<incipit defective="true">vatní en<ex>n</ex> aðrar planete ſe<ex>m</ex>
+								alt þ<ex>at</ex> e<ex>r</ex> ſi<supplied reason="damage">a</supplied>
+								<supplied reason="damage">m</supplied>a</incipit>
+							<explicit>þa e<ex>r</ex> fiara i miðian .d<ex>ag</ex>. <ex>ok</ex> i
+								miðia nott</explicit>
+							<filiation>Copy of a part of the computistic notes found in <ref type="ms" target="#AM04-0415-is">AM 415 4to</ref>.</filiation>
+							<!-- The younger map’s companion texts mostly pertain to calendar
+								construction and the seasonal variation of the tides. The Old Norse text
+								that begins in medias res on folio 1r describes how conjunctions of the sun
+								and moon produce the tides -->
+						</msItem>
+
+						<msItem n="2" class="alf">
+							<locus facs="#AM04-0732-b-0001v">1v</locus>
+							<title type="supplied">Mnemonics and Computistic Notes</title>
+							<textLang mainLang="la"/>
+							<incipit xml:lang="la">Legim<ex>us</ex> i<ex>n</ex> ep<ex>isto</ex>lis
+									grecor<ex>um</ex> q<ex>uod</ex> post
+								passione<ex>m</ex></incipit>
+							<explicit xml:lang="is">en<ex>n</ex> nu e<ex>r</ex> id<ex>us</ex>
+								junij</explicit>
+							<note>Comprising e.g. a note on how to determine the date of the Paschal
+								full moon and an alliterative mnemonic poem on how to memorise the
+								dates of the same moon. Provided with explanations in Old Norse on
+								the error in the Julian calendar.</note>
+							<bibl>Kålund: <ref target="STUAGNL41">Alfræði Íslenzk: Islandsk
+									encyklopædisk Litteratur</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">235-239</biblScope></bibl>
+						</msItem>
+
+						<msItem n="3" class="vedfr stafr">
+							<locus from="2r" facs="#AM04-0732-b-0002r" to="2v:21">2r-v:21</locus>
+							<title type="supplied">Text about the Winds</title>
+							<textLang mainLang="la"/>
+							<note>Connected to a diagram of the wind rose. According to <bibl><ref target="DalKed2020a">Kedwards 2020</ref>, <biblScope unit="page">57</biblScope></bibl> the text is excerpted from
+								Isidore’s <title type="uniform">Etymologies</title>.</note>
+						</msItem>
+
+						<msItem n="4" class="stjofr">
+							<locus from="2v:22" facs="#AM04-0732-b-2v:22" to="3r:1">2v:22-3r:1</locus>
+							<title type="supplied">Tidal Note</title>
+							<!-- a note on the error in the Julian calendar, and a note on the ebb and flow of the tides and the influences of the sun and moon upon them -->
+							<textLang mainLang="non"/>
+							<incipit>ÞA er tungl i ſaumu ætt af iordo at lita ok sol</incipit>
+							<explicit>þessa hluti máttu giǫr prófa í þessi figuru</explicit>
+							<explicit>109 lofar 820 fingr 389 mundar</explicit>
+							<bibl>Kålund: <ref target="STUAGNL41">Alfræði Íslenzk: Islandsk
+									encyklopædisk Litteratur</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">239</biblScope></bibl>
+						</msItem>
+						<msItem n="5" class="stjofr">
+							<locus from="3r:2" facs="#AM04-0732-b-3r:2" to="3r:5">3r:2-5 (below the diagram of the wind
+								rose)</locus>
+							<title type="supplied">Note on the Distances between the Earth and the
+								Moon and the Moon and the Sun</title>
+							<textLang mainLang="non"/>
+							<bibl>Kålund: <ref target="STUAGNL41">Alfræði Íslenzk: Islandsk
+									encyklopædisk Litteratur</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">239</biblScope></bibl>
+						</msItem>
+						<msItem n="6" class="stjofr">
+							<locus from="3r:6" facs="#AM04-0732-b-3r:6" to="3r:8">3r:6-8</locus>
+							<title type="supplied">Note on the Diameter of the Sun</title>
+							<textLang mainLang="non"/>
+						</msItem>
+
+						<msItem n="7" class="alf">
+							<locus from="3v" facs="#AM04-0732-b-0003v" to="4v:35">3v-4v:35</locus>
+							<title type="supplied">On the Lenght of the Day and the Course of the
+								Sun</title>
+							<textLang mainLang="non" otherLangs="la"/>
+							<note>In the top and bottom of fol. 3v, a later hand added the Latin
+								names of the seven heavens.</note>
+						</msItem>
+
+						<msItem n="8" class="malfr kvad">
+							<locus from="4v:36" facs="#AM04-0732-b-0004v" to="5v">4v:36-5v</locus>
+							<title type="supplied">Grammatical Notes</title>
+							<textLang mainLang="la"/>
+							<note>Mostly mnemonics. After the first half of fol. 5v, a Latin verse
+								in <term>drottkvætt</term> is found. In the bottom of fol. 5v, two
+								prohibitions against stealing the codex in Latin and heksameter with
+								a translation into Latin, are found.</note>
+						</msItem>
+
+						<msItem n="9" class="stjors">
+							<locus facs="#AM04-0732-b-0006r">6r</locus>
+							<title type="supplied">The Zodiac</title>
+							<textLang mainLang="la" otherLangs="non"/>
+							<rubric>MACROBIUS DIOCENS</rubric>
+							<incipit>Sva telr makrobiuſ at planetur v<ex>oro</ex> und<ex>ir</ex>
+								þessum ſtiornu<ex>m</ex></incipit>
+							<explicit>þa hafa þ<ex>eir</ex> gengit 600 daga af ſinu<ex>m</ex>
+									h<ex>ri</ex>ngum</explicit>
+							<note>Illustrated by concentric circles ved et system af koncentriske
+								cirkler med påskrift og tilhørende forklaring.</note>
+							<bibl>Kålund: <ref target="STUAGNL41">Alfræði Íslenzk: Islandsk
+									encyklopædisk Litteratur</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">239-242</biblScope></bibl>
+						</msItem>
+
+						<msItem n="10" class="gudfr">
+							<locus facs="#AM04-0732-b-0006v">6v</locus>
+							<title type="supplied">The Signs before Doomsday and the Hebrew
+								Alphabet</title>
+							<textLang mainLang="la">Latin</textLang>
+							<incipit>eronimus in annalibus</incipit>
+							<note>Containing a note on <q>canonicæ horæ</q>.</note>
+						</msItem>
+
+						<msItem n="11" class="alf">
+							<locus facs="#AM04-0732-b-0007r" to="8r">7r-8r</locus>
+							<title type="supplied">Short Pieces</title>
+							<bibl>Kålund: <ref target="STUAGNL45">Alfræði Íslenzk</ref><biblScope unit="volume">III</biblScope>
+								<biblScope unit="page">64-66</biblScope></bibl>
+							<msItem n="11.1" class="dyrl">
+								<title type="supplied">Note on St. Klinianus Martyrdom</title>
+								<!-- who is this person? -->
+								<textLang mainLang="non">Norrønt/Islandsk</textLang>
+							</msItem>
+							<msItem n="11.2">
+								<title type="supplied">Note on 1/16 of the Heighth of Christ</title>
+								<textLang mainLang="non" otherLangs="la"/>
+								<note>Including an explanation in Icelandic and Latin on how to use
+									this sign as an amulet.</note>
+							</msItem>
+							<msItem n="11.3" class="sidfr">
+								<title type="supplied">Moral Notes</title>
+								<textLang mainLang="la">Latin</textLang>
+							</msItem>
+						</msItem>
+
+						<msItem n="12">
+							<locus from="8r" facs="#AM04-0732-b-0008r" to="8r">8r</locus>
+							<title type="supplied">Computistic Rule Using Finger Calculation</title>
+							<textLang mainLang="la" otherLangs="non"/>
+							<note>Below this a note on Orosius in Icelandic and three philological
+								notes, partly in cipher.</note>
+							<bibl>Kålund: <ref target="STUAGNL45">Alfræði Íslenzk</ref><biblScope unit="volume">III</biblScope>
+								<biblScope unit="page">66?</biblScope></bibl>
+						</msItem>
+
+						<msItem n="13" class="hagfr">
+							<locus from="8v:1" facs="#AM04-0732-b-0008v" to="8v:9">8v:1-9</locus>
+							<title type="supplied">Calculations of Money and Weight</title>
+							<textLang mainLang="non"/>
+							<note>Partly in cipher.</note>
+							<bibl>Finnur Jónsson: <ref target="FinJon1884-1891">Lønskrift og
+									lejlighedsoptegnelser fra et par islandske
+									håndskrifter</ref><biblScope>190</biblScope></bibl>
+						</msItem>
+
+						<msItem n="14" class="laus">
+							<locus from="8v:10" facs="#AM04-0732-b-0008v" to="8v:14">8v:10-14</locus>
+							<title type="supplied">Two Lausavísur</title>
+							<textLang mainLang="non"/>
+							<note>One lausavísa (<q>Meyiar bad</q>) in cipher and another lausavísa
+								beginning <q>p<ex>ate</ex>r e<ex>r</ex>tu</q>.</note>
+							<bibl>Finnur Jónsson: <ref target="FinJon1884-1891">Lønskrift og
+									lejlighedsoptegnelser fra et par islandske
+									håndskrifter</ref><biblScope>190</biblScope></bibl>
+						</msItem>
+
+						<msItem n="15" class="stjors">
+							<locus from="9r" facs="#AM04-0732-b-0009r" to="9v">9r-v</locus>
+							<title type="supplied">The Signs of the Zodiac</title>
+							<textLang mainLang="is"/>
+							<rubric>.a. .p. .a. .t. .G. .c. .L. .v. .L. .S. .S. .c.</rubric>
+							<incipit><supplied reason="omitted">H</supplied>it f<ex>yr</ex>sta efni
+									m<ex>ar</ex>k j zodiako heit<ex>ir</ex> arieſ</incipit>
+							<explicit defective="true">En ept<ex>ri</ex> lutr ſteíng</explicit>
+							<note>Concerning the constellations of the zodiac given abbreviated
+								names and starting with Aquarius. Stops abruptly in the middle of
+								fol. 9v; the rest of the page is filled in with rows of Arabic
+								numeral characters.</note>
+							<bibl>Kålund: <ref target="STUAGNL41">Alfræði Íslenzk: Islandsk
+									encyklopædisk Litteratur</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">243-246</biblScope><note>Ed. D</note></bibl>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="perg">
+								<support>
+									<p>
+										<material>Parchment.</material>
+									</p>
+								</support>
+								<extent>9. </extent>
+								<!-- Like the stray
+						bifolium AM 736 I 4to, this manuscript is also fragmentary. At least one
+						quire is missing from the beginning of the manuscript: the text on folio 1r
+						begins more than one page into an Old Norse account of the movement
+						of the planets, an account that begins, in a fuller witness, ‘[s]vo seiger
+						Beda prestur’ (AM 624 4to). -->
+							</supportDesc>
+						</objectDesc>
+						<decoDesc>
+							<decoNote type="diagram" subtype="astronomical"><p><locus facs="#AM04-0732-b-0002r">2r</locus>: The wind rose showing
+									the twelve winds and their directions.</p></decoNote>
+							<decoNote type="diagram" subtype="astronomical"><p><locus facs="#AM04-0732-b-0003r">3r</locus>: Hemispherical world
+									map (a <foreign xml:lang="la">mappa mundi</foreign>). A circular
+									depiction of the constellations of the sun, the moon and the
+									earth along with the position of the continents. <!-- 
+											According to kedwards 2020: 33 the hemispheral map contains a number of minor errors and omissions, 
+											lacking the line that separates Africa and Europe, as well as that which marks the limit of the
+											temperate region in the southern hemisphere
+											-->
+									<!-- Previous editions and commentaries: Rafn, Antiquit s Russes, vol. 2, p.
+								391; Miller, Mappaemundi, vol. 3, p. 125; A  II, pp. 118–19; Destombes,
+								Mappemondes, p. 175; Simek, Altnordische Kosmographie, p. 410. -->
+									The text inside the <foreign xml:lang="la">mappa mundi</foreign>
+									was published in <bibl><ref target="RudSim2012a">Altnordische
+											Kosmographie</ref>, <biblScope unit="page">407</biblScope></bibl> . A translation into German is
+									added below the Old Norse text.</p></decoNote>
+							<decoNote type="diagram" subtype="astronomical"><p><locus facs="#AM04-0732-b-0003v">3v</locus>: The astronomical
+									system shown in a figure formed by concentric circles into which
+									the four elements, the seven heavens and the planets are
+									inscribed.</p></decoNote>
+							<decoNote type="diagram" subtype="astronomical"><p><locus facs="#AM04-0732-b-0006r">6r</locus>: A drawing of the
+									zodiac as a twelve-partite system of concentric circles along
+									with superscriptions and a written explanation.</p></decoNote>
+							<decoNote type="diagram" subtype="astronomical"><p><locus facs="#AM04-0732-b-0007v">7v</locus>: A system of circles
+									illustrating the lunar circle during a lunar year. Below four
+									minor circles and a square indicating the numbering of days of
+									each month.</p></decoNote>
+							<decoNote type="diagram" subtype="map"><p><locus facs="#AM04-0732-b-0007r">7r</locus> A map of the labyrinth
+										(<q xml:lang="is">vlundar hűs</q>).</p></decoNote>
+							<decoNote type="diagram" subtype="map">
+								<p><locus facs="#AM04-0732-b-0008v">8v</locus> A map of Jerusalem
+									with drawings of the main buildings and monuments and
+									superscriptions in Latin. The map is similar to the one found in
+									Hauksbók. (<ref target="#AM04-0455-da">AM 455 4to</ref>). Most
+									recently edited in <bibl><ref target="DalKed2020a">Kedwards
+											2020</ref><biblScope unit="page">51</biblScope><note>Fig. 7.</note></bibl>.</p>
+								<p>The map is similar to the ones in <ref type="ms" target="#AM04-0736-I-en">AM 736 I 4to</ref> (fol. 2v) and
+										<title type="ms">Hauksbók</title> (<ref type="ms" target="#AM04-0544-en">AM 544 4to</ref>, fol. 19r) and they
+									are most possibly copied from the same exemplar.</p>
+							</decoNote>
+							<decoNote type="diagram" subtype="computistic">
+								<p><locus facs="#AM04-0732-b-0008r">8r</locus>: A human hand
+									illustrating computistic rules finger counting.</p>
+							</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin><origPlace>Iceland</origPlace>, <origDate notBefore="1300" notAfter="1399">s. XIV</origDate>. Fols 1r-8v are written <origDate notBefore="1300" notAfter="1325">s. XIV<hi rend="sup">1/4</hi></origDate> and fol. 9 is written <origDate notBefore="1350" notAfter="1399">s. XIV<hi rend="sup">2</hi></origDate>. </origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0732-b-0001r-FFl" n="0">
 			<desc>0001r-FFl</desc>

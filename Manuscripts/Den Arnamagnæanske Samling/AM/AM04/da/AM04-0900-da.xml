@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,20 +22,16 @@
                      <idno>2030</idno>
                   </altIdentifier>
                </msIdentifier>
-
-               <head>
-                  <title type="supplied">Kataloger</title>; <origPlace>Danmark</origPlace>,
-                     <origDate notBefore="1690" notAfter="1710" evidence="conjecture" resp="KKKat">ca. 1700</origDate>.</head>
-
                <msContents>
-                  <msItem n="1">
+                  <summary><title type="supplied">Kataloger</title></summary>
+                  <msItem n="1" class="hdrskr">
                      <locus from="1r" target="56v">1r-56v</locus>
-                     <title type="supplied" xml:lang="da">Fortegnelse over de tilhørende trykte
-                        bøger år <date when="1603">1603</date> fra Det gamle Universitetsbibliotek </title>
+                     <title type="supplied" xml:lang="da">Fortegnelse over trykte
+                        bøger i Universitetsbiblioteket 1603</title>
                      <textLang mainLang="la">Latin</textLang>
                      <rubric>Catalogus veteris bibliotecæ</rubric>
                   </msItem>
-                  <msItem n="2">
+                  <msItem n="2" class="hdrskr">
                      <locus from="57r" to="161v">57r-161v</locus>
                      <title type="supplied">Katalog</title>
                      <textLang mainLang="la">Latin</textLang>
@@ -51,21 +47,25 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>161. Bl. 48 og 103 samt en del enkelte sider er
-                           ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>213</height>
-                              <width>170</width>
+                        <extent>161. Bl. 48 og 103 samt en del enkelte sider er ubeskrevne.
+                              <dimensions type="leaf" scope="all">
+                              <height unit="mm">213</height>
+                              <width unit="mm">170</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Danmark</origPlace>, <origDate notBefore="1690" notAfter="1710"
+                        evidence="conjecture" resp="KKKat">ca. 1700</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">251</biblScope></bibl>
+                        <biblScope unit="page">251</biblScope></bibl>
                      <bibl>Smith: <ref target="BirSmi1882">Om Kjøbenhavns Universitetsbibliothek før
-                           1728</ref><biblScope unit="pages">10, 18, 85, 98</biblScope></bibl>
+                           1728</ref><biblScope unit="page">10, 18, 85, 98</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

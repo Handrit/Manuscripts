@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,66 @@
                      <idno>1940</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Kortvending</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1585" notAfter="1599">s. XVI ex</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
-                     <author>
-                        <name type="person" key="HanSte002">Hans Christensen Sthen</name>
-                     </author>
+                  <summary><title type="uniform">Kort Vending</title></summary>
+                  <msItem n="1" class="leikr">
+                     <locus from="1r" to="75v">1r-75v</locus>
+                     <author key="HanSte002">Hans Christensen Sthen</author>
+                     <title type="uniform">Kort Vending</title>
                      <textLang mainLang="da">Danish</textLang>
+                     <rubric>Kortt wendigh</rubric>
+                     <note>Fol. 1 is a title page.</note>
+                     <bibl>Smith, <ref target="SopSmi1866">Kortvending</ref>
+                     </bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>75. 
-<dimensions type="leaf" scope="all">
-                              <height>216</height>
-                              <width>155</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>75. <dimensions type="leaf" scope="all">
+                              <height unit="mm">216</height>
+                              <width unit="mm">155</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <musicNotation>The tune to a ditty is found on fol. 73r.</musicNotation>
+                  <bindingDesc>
+                     <binding contemporary="false">
+                        <p>Originally bound in a parchment cover made from two conjoint leaves
+                           containing a Summa theologiae in Latin from <date notBefore="1200"
+                              notAfter="1299">the thirteenth century</date>; now transferred to <ref
+                              type="ms" target="#Acc-0007-c-da">Acess 7c, Hs 103</ref>.</p>
+                     </binding>
+                  </bindingDesc>
+                  <accMat>An enclosed slip contains a note written by the professor <name
+                        type="person" key="ThoBan001">Thomas Bang</name> concerning a copy of the
+                     play, <title type="uniform">Kort Vending</title>, belongng to him.</accMat>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Denmark</origPlace>, <origDate notBefore="1585" notAfter="1599">s.
+                        XVI ex</origDate>
+                  </origin>
+                  <provenance>
+                     <p>Listed as manuscript no 913 in <name type="person" key="FreRos001"
+                           >Rostgaards</name>'s library.</p>
+                     <p>According to a note in <ref type="ms" target="#AM04-0435-b-da">AM 435 b
+                           4to</ref>, the manuscript has been erroneously transferred to <name
+                           type="org" key="KB">The Royal Library</name> and included in The former
+                        Collection of Count Otto Thott.</p>
+                  </provenance>
+
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">215</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

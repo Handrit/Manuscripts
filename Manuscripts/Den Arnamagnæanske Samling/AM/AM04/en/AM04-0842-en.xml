@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,83 @@
                      <idno>1974</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Miscellaneous: medical advice, annals 1158-1560 etc.</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1590" notAfter="1610">c. 1600</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="da" otherLangs="la">Danish and Latin</textLang>
+                  <summary><title type="supplied">Miscellaneous</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="1v">1r-v</locus>
+                     <title type="supplied">Remedies</title>
+                     <textLang mainLang="da" otherLangs="la">Dansk og latin</textLang>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="2r" to="80r">2r-80r</locus>
+                     <title type="supplied">Danish Annal, 1158-1560</title>
+                     <textLang mainLang="da"/>
+                     <note>Including some additions concerning <date from="1562" to="1571"
+                           >1562-1571</date>.</note>
+                  </msItem>
+                  <msItem n="3">
+                     <locus from="80v" to="81v">80v-81v</locus>
+                     <title type="supplied">Aristocratic Families in Denmark, 1536</title>
+                     <note>Subsequently(?) corrected from 1636 to 1536. Put into verse.</note>
+                     <textLang mainLang="da"/>
+                     <rubric>Gammill Adels Slegtt wdi Danmarch</rubric>
+                  </msItem>
+                  <msItem n="4">
+                     <locus from="81v" to="83r">81v-83r</locus>
+                     <title type="supplied">On St. Martin of Tours</title>
+                     <textLang mainLang="da"/>
+                     <rubric>Om S: Morttenn</rubric>
+                  </msItem>
+                  <msItem n="5">
+                     <locus from="83r" to="84r">83r-84r</locus>
+                     <title type="supplied">On St. Christopher</title>
+                     <textLang mainLang="da"/>
+                     <rubric>Om Chriſtophrus</rubric>
+                  </msItem>
+
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>85. 
-<dimensions type="leaf" scope="all">
-                              <height>307</height>
-                              <width>163</width>
+                        <extent>85. <dimensions type="leaf" scope="all">
+                              <height unit="mm">307</height>
+                              <width unit="mm">163</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <additions>
+                     <p>On the pastedowns and fols 84v-85v annalistic notes from <date
+                           notBefore="1600" notAfter="1699">the seventeenth century</date>,
+                        biographic notes, stanzas etc. are crammed in; marginal notes also occur on
+                        fols 1v, 2r, 79v and 80.</p>
+                  </additions>
+                  <accMat>AN AM-slip in <name type="person" key="ArnMag001">Árni Magnússon</name>'s
+                     hand reads: <q xml:lang="da">af EtatsRaadinde <name type="person"
+                           key="AnnMul001">Muules</name> auction</q>.</accMat>
+
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark</origPlace>, <origDate notBefore="1590" notAfter="1699"
+                        >c. 1600 and s. XVII</origDate>. Fols 2r-80r were written c. 1600, while
+                     fols 1r-v and 80v-85v were written in the seventeenth century.</origin>
+                  <provenance>In <date when="1632">1632</date> the manuscript belonged to <q><name
+                           type="person" key="KriRas001">Chriſtenn Raſsmuſsen</name>,
+                        Barſsebeckgaard</q> in Scania, southernmost Sweden. This man also had the
+                     manuscript bound and wrote almost all of the marginalia.</provenance>
+                  <acquisition><name type="person" key="ArnMag001">Árni Magnússon</name> purchased
+                     the manuscript on håndskriftet på wife of the titular Councillor of State,
+                        <name type="person" key="AnnMul001">Anna Mule's</name>, auction <date
+                        when="1719-07">July 1719</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page"
+                        >230-231</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

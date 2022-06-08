@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,19 +23,16 @@
                      <idno>360</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Maríu saga</title>;
-                     <origPlace>Island</origPlace>, <origDate notBefore="1390" notAfter="1410" evidence="conjecture">ca.
-                     1400</origDate>. </head>
                <msContents>
-                  <msItem class="hels">
-                     <title type="uniform" xml:lang="is">Maríu saga</title>
-                     <textLang mainLang="is">Norrønt/islandsk</textLang>
+                  <summary><title type="uniform">Maríu saga</title></summary>
+                  <msItem n="1" class="hels">
+                     <title type="uniform">Maríu saga</title>
+                     <textLang mainLang="non">Norrønt/islandsk</textLang>
                      <incipit defective="true">
-                        <supplied reason="damage">same</supplied>igínligan <choice><sic>ak</sic></choice> m<ex>ed</ex> þvi
-                        at v<ex>er</ex> þion<ex>u</ex>m</incipit>
-                     <explicit defective="true">e<ex>r</ex> niddiz ꜳ G<ex>ud</ex>
-                           ſinv<ex>m</ex>
+                        <supplied reason="damage">same</supplied>igínligan <choice>
+                           <sic>ak</sic>
+                        </choice> m<ex>ed</ex> þvi at v<ex>er</ex> þion<ex>u</ex>m</incipit>
+                     <explicit defective="true">e<ex>r</ex> niddiz ꜳ G<ex>ud</ex> ſinv<ex>m</ex>
                      </explicit>
                   </msItem>
                </msContents>
@@ -46,8 +44,8 @@
                               <material>Pergament.</material></p>
                         </support>
                         <extent>2. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>220</height>
-                              <width>155</width>
+                              <height unit="mm">220</height>
+                              <width unit="mm">155</width>
                            </dimensions>.</extent>
                         <collation>De to blade er sammenhængende.</collation>
                      </supportDesc>
@@ -55,17 +53,24 @@
                   <bindingDesc>
                      <binding notBefore="1958" notAfter="1961" contemporary="false">
                         <p>Indbundet i et gråt papomslag: <dimensions type="binding" unit="mm">
-                              <height>296</height>
-                              <width>249</width>
+                              <height unit="mm">296</height>
+                              <width unit="mm">249</width>
                            </dimensions>.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1390" notAfter="1410"
+                        evidence="conjecture">ca. 1400</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">200</biblScope>
+                        <biblScope unit="page">200</biblScope>
+                     </bibl>
+                     <bibl>Wolf, <ref type="secondary" target="Wolf2013"/>
+                        <biblScope unit="page">236</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

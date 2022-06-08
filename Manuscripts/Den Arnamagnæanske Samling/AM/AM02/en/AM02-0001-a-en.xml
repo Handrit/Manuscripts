@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -78,12 +78,11 @@
                                 </explicit>
                             </msItem>
                             <filiation>
-                                <p> This is a copy of the defective manuscript <ref type="ms">AM 1 e
-                                        β fol.</ref> made by <name type="person" key="JonErl001">Sr.
-                                        Jón Erlendsson í Villingaholti</name> . </p>
+                                <p> This is a copy of the defective manuscript <ref type="ms" target="#AM02-0001-e-beta-I-en">AM 1 e
+                                        β I fol.</ref> made by <name type="person" key="JonErl001">Sr.
+                                        Jón Erlendsson í Villingaholti</name>.</p>
                             </filiation>
-                            <listBibl>
-                                <bibl> Rafn, <ref type="primary-3" target="AntR">Antiquités
+                                 <bibl> Rafn, <ref type="primary-3" target="AntR">Antiquités
                                         Russes</ref>
                                     <biblScope unit="volume">I</biblScope>
                                     <biblScope unit="pages">67-86</biblScope>
@@ -95,7 +94,6 @@
                                     <biblScope unit="pages">361-388</biblScope>
                                     <note>Ed. B</note>
                                 </bibl>
-                            </listBibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -106,8 +104,8 @@
                                         <material>Paper</material> . </p>
                                 </support>
                                 <extent> ii + 19 (last 5 blank) + i. <dimensions type="leaf" scope="all">
-                                        <height>305</height>
-                                        <width>190</width>
+                                        <height unit="mm">305</height>
+                                        <width unit="mm">190</width>
                                     </dimensions> . </extent>
                                 <foliation>
                                     <p> The entire manuscript has been paginated in black ink on the
@@ -153,17 +151,17 @@
                                 <p> Bound in <name type="person" key="ArnMag001">Árni
                                         Magnússon</name> 's time in parchment on cardboard,
                                         <dimensions type="binding">
-                                        <height>310</height>
-                                        <width>196</width>
-                                        <depth>6</depth>
+                                        <height unit="mm">310</height>
+                                        <width unit="mm">196</width>
+                                        <depth unit="mm">6</depth>
                                     </dimensions>
                                 </p>
                             </binding>
                         </bindingDesc>
                         <accMat>
                             <p> There is a slip ( <dimensions type="slip">
-                                    <height>152</height>
-                                    <width>140</width>
+                                    <height unit="mm">152</height>
+                                    <width unit="mm">140</width>
                                 </dimensions> ) in Árni Magnússon's hand; the text reads: <q xml:lang="is"> Fragment um Bravallar bardaga. Feinged til lans
                                     af Jone Þorlaks syne 1709. Sidan til kaups 1710. Er med hendi Sr
                                     Jons i Villinga hollte, og var in <ex>n</ex> bunded i bok med
@@ -174,7 +172,7 @@
                     <history>
                         <origin notBefore="1640" notAfter="1660">
                             <p> The manuscript was written in <origPlace>Villingaholt in southern
-                                    Iceland</origPlace> , in the <origDate>mid-seventeenth
+                                Iceland</origPlace> , in the <origDate notBefore="1640" notAfter="1660">mid-seventeenth
                                     century</origDate> by <name type="person" key="JonErl001">Sr.
                                     Jón Erlendsson</name> . </p>
                         </origin>
@@ -219,25 +217,14 @@
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
-                            <p> AMI has the following surrogates: <listBibl>
-                                    <bibl>
-                                        <title type="gmd">microfilm</title>
-                                        <idno>Gneg. 1</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">microfilm</title>
-                                        <idno>Neg. 924</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">microfilm</title>
-                                        <idno>(Gl.) Neg. TS 1</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">prints</title>
-                                        <idno>AM 1 a fol.</idno>
-                                    </bibl>
-                                </listBibl>
-                            </p>
+                            <p> 
+                                <list>
+                                    <item>Microfilm, <idno>Gneg. 1</idno>, s.d.</item>
+                                    <item>Microfilm, <idno>Neg. 924</idno>, s.d.</item>
+                                    <item>Microfilm, <idno>(Gl.) Neg. TS 1</idno>, s.d.</item>
+                                    <item>Prints, s.d.</item>
+                                </list>
+                                  </p>
                         </surrogates>
                         <listBibl>
                             <bibl> Kålund, <ref target="KKKat">Katalog</ref>

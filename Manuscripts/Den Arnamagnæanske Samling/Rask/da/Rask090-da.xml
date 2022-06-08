@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,14 +23,14 @@
                      <idno>2666</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Skáld-Helga rímur</title>; <origPlace>Island?</origPlace>,
-            <origDate notBefore="1790" notAfter="1810">ca. 1800</origDate>.</head>
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform">Skáld-Helga rímur</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="22v">1r-22v</locus>
+                     <title type="uniform">Skáld-Helga rímur</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <rubric>Rímur af <lb/> Skáld-Helga</rubric>
-                     <note>I alt 7 <q xml:lang="is">rímur</q>.</note>
+                     <note>I alt 7 <foreign xml:lang="is">rímur</foreign>.</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -40,12 +41,24 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>22. <dimensions type="leaf" scope="all">
-                              <height>173</height>
-                              <width>106</width>
+                              <height unit="mm">173</height>
+                              <width unit="mm">106</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island?</origPlace>, <origDate notBefore="1790" notAfter="1810"
+                        >ca. 1800</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">553</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

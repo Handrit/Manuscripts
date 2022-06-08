@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,53 +23,42 @@
                             <idno>1646</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Heilagra manna sögur</title>
-                        <origPlace>Island</origPlace>
-                        <origDate notBefore="1200" notAfter="1299" cert="medium" evidence="conjecture" resp="KKKat">s. XIII</origDate>
-                        <origDate notBefore="1250" notAfter="1274" evidence="conjecture" resp="ONP">s. XIII 3/4</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1" defective="true">
-                            <locus from="1r" to="1v">1r-1v</locus>
+                        <summary><title type="supplied">Helgensagaer</title><note>Størstedelen af
+                                Stefáns saga er paralleltekst til Homilien om Stephanus i den
+                                stockholmske homiliebog (<ref type="ms" target="#HolmPerg04-0015-is"
+                                    >Holm perg. 15 4to</ref>, ca. 1200).</note></summary>
+                        <textLang mainLang="non">Norrønt/Islandsk</textLang>
+                        <msItem n="1" defective="true" class="hels">
+                            <locus from="1r" facs="#AM04-0655-XIV-0001r" to="1v">1r-1v</locus>
                             <title type="uniform" xml:lang="is">Jóns saga postola;</title>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
-                            <incipit defective="true">uar ſkirþr oc ken<ex>n</ex>t
-                                    þ<ex>at</ex> allt</incipit>
-                            <explicit defective="true">lvttacarar eilifſ lifſ.
-                                    kan<ex>n</ex>
+                            <incipit defective="true">uar ſkirþr oc ken<ex>n</ex>t þ<ex>at</ex>
+                                allt</incipit>
+                            <explicit defective="true">lvttacarar eilifſ lifſ. kan<ex>n</ex>
                             </explicit>
                         </msItem>
-                        <msItem n="2" defective="true">
-                            <locus from="2r" to="2v">2r-2v</locus>
+                        <msItem n="2" defective="true" class="hels">
+                            <locus from="2r" facs="#AM04-0655-XIV-0002r" to="2v">2r-2v</locus>
                             <title type="uniform" xml:lang="is">Stefáns saga</title>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
-                            <incipit defective="true">þui at ſua uar
-                                h<ex>an</ex>ſ aſiona</incipit>
-                            <explicit defective="true">Þa er p<ex>re</ex>iectuſ
-                                    b<ex>ys</ex>cup for m<ex>eð</ex> helg<supplied reason="damage">an</supplied>
+                            <incipit defective="true">þui at ſua uar h<ex>an</ex>ſ aſiona</incipit>
+                            <explicit defective="true">Þa er p<ex>re</ex>iectuſ b<ex>ys</ex>cup for
+                                    m<ex>eð</ex> helg<supplied reason="damage">an</supplied>
                             </explicit>
-                            <note>Størstedelen af Stefáns saga er paralleltekst til Homilien om
-                                Stephanus i den stockholmske homiliebog (<ref type="ms">Holm 15
-                                    4to</ref>, ca. 1200).</note>
-                            <listBibl>
-                                <bibl>Widding: <ref type="primary-1" target="Widding655">Et fragment
-                                        af Stephanus saga</ref>
-                                    <biblScope unit="pages">144-48</biblScope>
-                                </bibl>
-                            </listBibl>
+                            <bibl>Widding: <ref type="primary-1" target="Widding655">Et fragment af
+                                    Stephanus saga</ref>
+                                <biblScope unit="page">144-48</biblScope>
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Pergament.</p>
+                                    <p><material>Pergament</material>.</p>
                                 </support>
                                 <extent>2. <dimensions type="leaf">
-                                        <height>245</height>
-                                    </dimensions>
-                        </extent>
+                                        <height unit="mm">245</height>
+                                    </dimensions>. </extent>
                                 <condition>
                                     <p>Bladene er beskadigede, da de tidligere har været brugt som
                                         indbinding, og teksten er på steder næsten ulæselig. Bl. 1
@@ -85,20 +75,19 @@
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Skrevet i <origPlace>Island</origPlace> formodentlig af en norsk
-                                skriver eller en skriver, der er blevet uddannet i et norsk
-                                skriptorium, da skriverstilen og sprogformen primært er brugt i
-                                norske håndskrifter. <name type="person" key="KriKaa001">Kristian
-                                    Kålund</name> har dateret det til <origDate notBefore="1200" notAfter="1299" cert="medium" evidence="conjecture" resp="KKKat">1200-tallet</origDate>; senere har Ole Widding (<bibl>
-                                    <ref type="secondary-1" target="Widding655">Et fragment af
-                                        Stephanus saga</ref>
-                                    <biblScope unit="pages">171</biblScope>
-                                </bibl>) dateret det mere præcist til <origDate notBefore="1275" notAfter="1299" cert="high" resp="ONP">1200-tallets sidste
-                                    fjerdedel</origDate>, en datering, der senere blev bekræftet af
-                                    <name type="person" key="SteKar001">Stéfan Karlsson</name> (<bibl>
-                                    <ref type="secondary-1" target="StefKarl44">Om norvagismer i
-                                        islandske håndskrifter</ref>
-                                    <biblScope unit="pages">94-95</biblScope>
+                            <p>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1250"
+                                    notAfter="1275" cert="high" resp="ONP">1200-tallets tredje
+                                    fjerdedel</origDate> (<bibl><ref target="Widding655">Widding
+                                        1952</ref><biblScope unit="page">171</biblScope></bibl> og
+                                        <bibl><ref target="SteKar1978a">Stéfan Karlsson
+                                        1978</ref><biblScope unit="page">94-95</biblScope></bibl>),
+                                formodentlig af en norsk skriver eller en skriver, der er blevet
+                                uddannet i et norsk skriptorium, da skriverstilen og sprogformen
+                                primært er brugt i norske håndskrifter. <name type="person"
+                                    key="KriKaa001">Kålund</name>s datering: 1200-tallet (<bibl><ref
+                                        type="secondary-1" target="KKKat">Katalog</ref>
+                                    <biblScope unit="volume">II</biblScope>
+                                    <biblScope unit="page">62</biblScope>
                                 </bibl>).</p>
                         </origin>
                     </history>
@@ -112,50 +101,59 @@
                             </recordHist>
                         </adminInfo>
                         <listBibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">62</biblScope>
-                     </bibl>
-                            <bibl>Widding: <ref type="secondary-1" target="Widding655">Et fragment
-                                    af Stephanus saga</ref>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">62</biblScope>
                             </bibl>
-                            <bibl>Stéfan Karlsson: <ref type="secondary-1" target="StefKarl44">Om
-                                    norvagismer i islandske håndskrifter</ref>
+                            <bibl>
+                                <ref type="secondary-1" target="StefKarl44"/>
                             </bibl>
+                            <bibl><ref type="secondary-1" target="Widding655"/>
+                            </bibl>
+                            <bibl><ref type="secondary-1" target="Wolf2013"/>
+                                <biblScope unit="page">175, 338</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
-		<surface xml:id="AM04-0655-XIV-0001r" n="0">
-			<desc>0001r</desc>
-			<graphic mimeType="pdf" url="AM%20655%20XIV%204to/0/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20XIV%204to/0/THUMBNAIL" width="200px" height="273px"/>
-			<graphic mimeType="jpg" url="AM%20655%20XIV%204to/0/SECONDARY_DISPLAY" width="4192px" height="5729px"/>
-			<graphic mimeType="pdf" url="AM%20655%20XIV%204to/0/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0655-XIV-0001v" n="1">
-			<desc>0001v</desc>
-			<graphic mimeType="pdf" url="AM%20655%20XIV%204to/1/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20XIV%204to/1/THUMBNAIL" width="200px" height="273px"/>
-			<graphic mimeType="jpg" url="AM%20655%20XIV%204to/1/SECONDARY_DISPLAY" width="4208px" height="5751px"/>
-			<graphic mimeType="pdf" url="AM%20655%20XIV%204to/1/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0655-XIV-0002r" n="2">
-			<desc>0002r</desc>
-			<graphic mimeType="pdf" url="AM%20655%20XIV%204to/2/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20XIV%204to/2/THUMBNAIL" width="200px" height="271px"/>
-			<graphic mimeType="jpg" url="AM%20655%20XIV%204to/2/SECONDARY_DISPLAY" width="4240px" height="5743px"/>
-			<graphic mimeType="pdf" url="AM%20655%20XIV%204to/2/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0655-XIV-0002v" n="3">
-			<desc>0002v</desc>
-			<graphic mimeType="pdf" url="AM%20655%20XIV%204to/3/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20XIV%204to/3/THUMBNAIL" width="200px" height="271px"/>
-			<graphic mimeType="jpg" url="AM%20655%20XIV%204to/3/SECONDARY_DISPLAY" width="4240px" height="5736px"/>
-			<graphic mimeType="pdf" url="AM%20655%20XIV%204to/3/WEB_DISPLAY"/>
-		</surface>
-	</facsimile>
+    <facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+        <surface xml:id="AM04-0655-XIV-0001r" n="0">
+            <desc>0001r</desc>
+            <graphic mimeType="pdf" url="AM%20655%20XIV%204to/0/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20655%20XIV%204to/0/THUMBNAIL" width="200px"
+                height="273px"/>
+            <graphic mimeType="jpg" url="AM%20655%20XIV%204to/0/SECONDARY_DISPLAY" width="4192px"
+                height="5729px"/>
+            <graphic mimeType="pdf" url="AM%20655%20XIV%204to/0/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0655-XIV-0001v" n="1">
+            <desc>0001v</desc>
+            <graphic mimeType="pdf" url="AM%20655%20XIV%204to/1/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20655%20XIV%204to/1/THUMBNAIL" width="200px"
+                height="273px"/>
+            <graphic mimeType="jpg" url="AM%20655%20XIV%204to/1/SECONDARY_DISPLAY" width="4208px"
+                height="5751px"/>
+            <graphic mimeType="pdf" url="AM%20655%20XIV%204to/1/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0655-XIV-0002r" n="2">
+            <desc>0002r</desc>
+            <graphic mimeType="pdf" url="AM%20655%20XIV%204to/2/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20655%20XIV%204to/2/THUMBNAIL" width="200px"
+                height="271px"/>
+            <graphic mimeType="jpg" url="AM%20655%20XIV%204to/2/SECONDARY_DISPLAY" width="4240px"
+                height="5743px"/>
+            <graphic mimeType="pdf" url="AM%20655%20XIV%204to/2/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0655-XIV-0002v" n="3">
+            <desc>0002v</desc>
+            <graphic mimeType="pdf" url="AM%20655%20XIV%204to/3/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20655%20XIV%204to/3/THUMBNAIL" width="200px"
+                height="271px"/>
+            <graphic mimeType="jpg" url="AM%20655%20XIV%204to/3/SECONDARY_DISPLAY" width="4240px"
+                height="5736px"/>
+            <graphic mimeType="pdf" url="AM%20655%20XIV%204to/3/WEB_DISPLAY"/>
+        </surface>
+    </facsimile>
 </TEI>

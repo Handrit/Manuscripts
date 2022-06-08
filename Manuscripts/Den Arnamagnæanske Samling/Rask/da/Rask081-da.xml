@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,14 +23,14 @@
                      <idno>2655</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Kvæða-samling</title>; 
-        <origPlace>Island/Danmark?</origPlace> 
-                  <origDate notBefore="1800" notAfter="1815">s. XiX in</origDate>.</head>
                <msContents>
-                  <msItem>
+                  <summary><title type="supplied">Samling af digte</title></summary>
+                  <msItem n="1" class="kvad">
+                     <note>bl.a.</note>
+                     <author key="PalJon005">Páll Vídalín</author>
+                     <author key="MagEin008">Magnús Einarsson</author>
+                     <title type="supplied">Samling af digte</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <note>Indeholder bl.a. smådigte af lagmand Páll Vídalín og præsten Magnús (Einarsson) á Tjörn.</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -39,21 +40,35 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>40. Bl. 1v-4, 23v-28, 33-34, 40v ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>170</height>
-                              <width>104</width>
+                        <extent>40. Bl. 1v-4v, 23v-28v, 33r-34v og 40v ubeskrevne. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">170</height>
+                              <width unit="mm">104</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="RasRas001" scope="sole" script="unknown">
-                        <p>Skrevet af Rasmus Rask.</p>
+                        <p>Skrevet af <name type="person" key="RasRas001">Rasmus Rask</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island eller Danmark</origPlace>, <origDate notBefore="1800"
+                        notAfter="1832">s. XIX in</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >547</biblScope></bibl>
+                     <bibl><ref target="unknown14">[Vísur]</ref><biblScope unit="page">74, 76</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-29" who="EvaWed001">Ændret titel.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

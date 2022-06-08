@@ -1,1983 +1,2276 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 242 fol.</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM02-0242-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Danmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 242 fol.</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>365</idno>
-                  </altIdentifier>
-                  <msName type="nickname" xml:lang="la">Codex Wormianus</msName>
-                  <msName type="nickname" xml:lang="is">Ormsbók</msName>
-               </msIdentifier>
-               
-               <head>
-                  <title type="supplied" xml:lang="en">Codex Wormianus (Snorra Edda with additions)</title>;
-                     <origPlace key="IS">Iceland</origPlace>, <origDate notBefore="1340" notAfter="1670">1340-1370</origDate>. </head>
-               <msContents>
-                  <msItem n="1" class="edd">
-                     <locus from="2" facs="#AM02-242-0002r" to="82">pp. 2-82</locus>
-                     <title type="uniform" xml:lang="is">Snorra Edda</title>
-                     <textLang mainLang="is">Old Norse/Icelandic</textLang>
-                     <listBibl>
-                        <bibl>Rask, <ref type="primary-3" target="Edda1818">Snorra-Edda 1818</ref>
-                           <biblScope unit="pages">1-174</biblScope>
-                           <note>Used to fill the lacuna of the prologue in <ref type="ms">Codex
-                                 Regius</ref>, then ed. O.</note>
-                        </bibl>
-                        <bibl>
-                           <ref type="primary-3" target="Edda1848-87">Edda Snorra Sturlusonar
-                              1848-87</ref>
-                           <biblScope unit="volume">I</biblScope>
-                           <biblScope unit="pages">1-464</biblScope>
-                           <note>Ed. W</note>
-                        </bibl>
-                        <bibl>Finnur Jónsson, <ref type="primary-1" target="Edda1924">Edda Snorra
-                              Sturlusonar 1924</ref>
-                           <biblScope unit="pages">1-88</biblScope>
-                        </bibl>
-                        <bibl>Finnur Jónsson, <ref type="primary-3">Edda Snorra Sturlusonar 1931</ref>
-                           <biblScope unit="pages">1-164:17</biblScope>
-                           <note>Ed. W</note>
-                        </bibl>
-                     </listBibl>
-                     <msItem n="1.1">
-                        <locus from="2:1" facs="#AM02-242-0002r" to="8:19">pp. 2-8:19</locus>
-                        <title type="supplied" xml:lang="en">Prologue</title>
-                        <incipit>ALmattigr guð skapaði i vpphafí himín <ex>ok</ex> iorð</incipit>
-                        <explicit>af annaí túngu eru gefen en þessi.</explicit>
-                        <listBibl>
-                           <bibl>Sveinbjörn Egilsson, <ref type="primary-3" target="Edda1848">Edda
-                                 Snorra Sturlusonar 1848</ref>
-                              <biblScope unit="pages">144-153</biblScope>
-                              <note>Ed. Ob</note>
-                           </bibl>
-                           <bibl>Rafn, <ref type="primary-3" target="AntR">Antiquités Russes</ref>
-                              <biblScope unit="volume">I</biblScope>
-                              <biblScope unit="pages">43 (P. 6:20-21. Ed. W), 44-49 (Pp. 6:26-8:19.
-                                 Ed. W)</biblScope>
-                           </bibl>
-                           <bibl>Finnur Jónsson, <ref type="primary-3" target="Edda1926">Edda 1926</ref>
-                              <biblScope unit="pages">3-8</biblScope>
-                              <note>Ed. W</note>
-                           </bibl>
-                           <bibl>Faulkes, <ref type="primary-3" target="SnEdda1982">Edda: Prologue
-                                 and Gylfaginning</ref>
-                              <biblScope unit="pages">3-6</biblScope>
-                              <note>Ed. W</note>
-                           </bibl>
-                           <bibl>Árni Björnsson, <ref type="primary-1" target="Edda1975">Snorra Edda
-                                 1975</ref>
-                              <biblScope unit="pages">3-9</biblScope>
-                           </bibl>
-                           <bibl>Lorenz, <ref type="primary-1" target="Edda1984">Gylfaginning</ref>
-                              <biblScope unit="pages">43-46</biblScope>
-                           </bibl>
-                        </listBibl>
-                     </msItem>
-                     <msItem n="1.2">
-                        <locus from="8:20" facs="#AM02-242-0008r" to="39:31">pp. 8:20-39</locus>
-                        <title type="uniform" xml:lang="is">Gylafginning</title>
-                        <incipit>Gylfi k<ex>onun</ex>gr reð þar londum er nu heit<ex>er</ex> suiþioð</incipit>
-                        <explicit>þui at tyrke<supplied reason="omitted">r</supplied> voru hans ener
-                           mestu v uínír.,.</explicit>
-                        <listBibl>
-                           <bibl>Sveinbjörn Egilsson, <ref type="primary-3" target="Edda1848">Edda
-                                 Snorra Sturlusonar 1848</ref>
-                              <biblScope unit="pages">1-44</biblScope>
-                              <note>Ed. Ob</note>
-                           </bibl>
-                           <bibl>Finnur Jónsson, <ref type="primary-3" target="Edda1926">Edda 1926</ref>
-                              <biblScope unit="pages">9-67</biblScope>
-                              <note>Ed. W</note>
-                           </bibl>
-                           <bibl>Faulkes, <ref type="primary-3" target="SnEdda1982">Edda: Prologue
-                                 and Gylfaginning</ref>
-                              <biblScope unit="pages">7-55</biblScope>
-                              <note>Ed. W</note>
-                           </bibl>
-                        </listBibl>
-                     </msItem>
-                     <msItem n="1.3">
-                        <locus from="40:1" facs="#AM02-242-0040r" to="43:29">pp. 40-43:29</locus>
-                        <title type="uniform" xml:lang="is">Bragaræður</title>
-                        <incipit>Ein<ex>n</ex> maðr er nefndr æg<ex>er</ex> e<ex>ða</ex> hler</incipit>
-                        <explicit>Sua <ex>ok</ex> at kalla reiðar ty.</explicit>
-                        <listBibl>
-                           <bibl>Sveinbjörn Egilsson, <ref type="primary-3" target="Edda1848">Edda
-                                 Snorra Sturlusonar 1848</ref>
-                              <biblScope unit="pages">45-49</biblScope>
-                              <note>Ed. Ob</note>
-                           </bibl>
-                           <bibl>Finnur Jónsson, <ref type="primary-3" target="Edda1926">Edda 1926</ref>
-                              <biblScope unit="pages">68-74:26</biblScope>
-                              <note>Ed. W</note>
-                           </bibl>
-                        </listBibl>
-                     </msItem>
-                     <msItem n="1.4">
-                        <locus from="43:29" facs="#AM02-242-0043r" to="44:31">pp. 43:29-44:31</locus>
-                        <title type="supplied" xml:lang="en">Epilogue</title>
-                        <incipit>
-                           <supplied reason="omitted">E</supplied>n<ex>n</ex> þetta er nu at segia
-                           <lb/> vngu<ex>m</ex> skalldu<ex>m</ex>
-                        </incipit>
-                        <explicit>en<ex>n</ex>
-                           <lb/> raku brott elenu<ex>m</ex>
-                        </explicit>
-                        <listBibl>
-                           <bibl>Sveinbjörn Egilsson, <ref type="primary-3" target="Edda1848">Edda
-                                 Snorra Sturlusonar 1848</ref>
-                              <biblScope unit="pages">154-155</biblScope>
-                              <note>Ed. Ob</note>
-                           </bibl>
-                        </listBibl>
-                     </msItem>
-                     <msItem n="1.5">
-                        <locus from="44:31" facs="#AM02-242-0044r" to="82:33">pp. 44:31-82</locus>
-                        <title type="uniform" xml:lang="en">Skáldskaparmál, Part 1</title>
-                        <incipit>
-                           <supplied reason="omitted">N</supplied>v sk<ex>al</ex> lta hæyra dæmí
-                           til hu<ex>er</ex>nueg <lb/> hofuð skalldín hafa ltið s<ex>er</ex> lika</incipit>
-                        <explicit defective="true">at hallda hillditan<ex>n</ex>z <lb/>
-                           hin<ex>n</ex> milldí</explicit>
-                        <note>Skáldskaparmál continues on p. 121.</note>
-                        <listBibl>
-                           <bibl>Sveinbjörn Egilsson, <ref type="primary-3" target="Edda1848">Edda
-                                 Snorra Sturlusonar 1848</ref>
-                              <biblScope unit="pages">49-95</biblScope>
-                              <note>Ed. Ob</note>
-                           </bibl>
-                           <bibl>Rafn, <ref type="primary-3" target="AntR">Antiquités Russes</ref>
-                              <biblScope unit="volume">I</biblScope>
-                              <biblScope unit="pages">49-51 (Pp. 61-62:14. Ed. W/Wchart), 51-53 (Pp.
-                                 62:17-63:22. Ed. W/Wchart), 54-60 (Pp. 63:24-68:11. Ed. W/Wchart),
-                                 60 (P. 82:24-26. Ed. W/Wchart)</biblScope>
-                           </bibl>
-                           <bibl>Finnur Jónsson, <ref type="primary-3" target="Edda1926">Edda 1926</ref>
-                              <biblScope unit="pages">74:27-126:21</biblScope>
-                              <note>Ed. W</note>
-                           </bibl>
-                        </listBibl>
-                     </msItem>
-                  </msItem>
-                  <msItem n="2" class="sci">
-                     <locus from="83" facs="#AM02-242-0083r" to="119">pp. 83-119</locus>
-                     <title type="uniform" xml:lang="da">The four Grammatical Treatises</title>
-                     <textLang mainLang="non">Old Norse/Icelandic</textLang>
-                     <listBibl>
-                        <bibl>Rask, <ref type="primary-1" target="Edda1818">Snorra-Edda 1818</ref>
-                           <biblScope unit="pages">273-353</biblScope>
-                        </bibl>
-                        <bibl>Sveinbjörn Egilsson, <ref type="primary-1" target="Edda1848">Edda
-                              Snorra Sturlusonar 1848</ref>
-                           <biblScope unit="pages">159-212</biblScope>
-                        </bibl>
-                        <bibl>
-                           <ref type="primary-3" target="Edda1848-87">Edda Snorra Sturlusonar
-                              1848-87</ref>
-                           <biblScope unit="volume">II</biblScope>
-                           <biblScope unit="pages">1-248</biblScope>
-                           <note>Ed. W</note>
-                        </bibl>
-                     </listBibl>
-                     <msItem n="2.1">
-                        <locus from="83:1" facs="#AM02-242-0083r" to="83:32">p. 83</locus>
-                        <title type="supplied" xml:lang="en">Prologue</title>
-                        <incipit>
-                           <supplied reason="omitted">N</supplied>v um hrið hef<ex>r</ex> sagt
-                              u<ex>er</ex>it hu<ex>er</ex>su ken<ex>n</ex>a sk<ex>al</ex> þa luti
-                           sem f<ex>ra</ex>m<ex>m</ex>i standa</incipit>
-                        <explicit>að sia huað yðr er nu synt i þessum frasǫgnum.</explicit>
-                        <bibl>Ólsen, <ref type="primary-1" target="STUAGNL12">Den tredje og fjærde
-                              grammatiske Afhandling i Snorres Edda</ref>
-                           <biblScope unit="pages">152-155</biblScope>
-                        </bibl>
-                     </msItem>
-                     <msItem n="2.2">
-                        <locus from="84:1" facs="#AM02-242-0084r" to="90:32">pp. 84-90</locus>
-                        <title type="uniform" xml:lang="en">The First Grammatical Treatise</title>
-                        <incipit>
-                           <supplied reason="omitted">J</supplied> flestu<ex>m</ex> landu<ex>m</ex>
-                           setia m<ex>en</ex>n a bækr an<ex>n</ex>at tueggia þan<ex>n</ex> froðleik</incipit>
-                        <explicit>þ<ex>at</ex> er <lb/> h<ex>onu</ex>m likar betr. [followed by the
-                           alphabet]</explicit>
-                        <listBibl>
-                           <bibl>Dahlerup and Finnur Jónsson, <ref type="primary-1" target="STUAGNL16">Den første og anden grammatiske Afhandling i
-                                 Snorres Edda</ref>
-                              <biblScope unit="pages">1-16</biblScope>
-                           </bibl>
-                           <bibl>Haugen, <ref type="primary-1" target="FGT1972">First Grammatical
-                                 Treatise</ref>
-                              <note>With facs. of pp. 84-90</note>
-                           </bibl>
-                           <bibl>Hreinn Benediktsson, <ref type="primary-1" target="HrBen1972">The
-                                 First Grammatical Treatise</ref>
-                              <biblScope unit="pages">206-246</biblScope>
-                              <note>With facs. of pp. 84-90</note>
-                           </bibl>
-                           <bibl>Leoni, <ref type="primary-1" target="FGT1975">Il primo trattato
-                                 grammaticale islandese</ref>
-                              <biblScope unit="pages">80-100</biblScope>
-                              <note>Text on verso pages</note>
-                           </bibl>
-                        </listBibl>
-                     </msItem>
-                     <msItem n="2.3">
-                        <locus from="91:7" facs="#AM02-242-0091r" to="94:7">pp. 91:7-94:7</locus>
-                        <title type="uniform" xml:lang="en">The Second Grammatical Treatise</title>
-                        <incipit>
-                           <supplied reason="omitted">N</supplied>v f<ex>iri</ex> þuî at
-                           maðrin<ex>n</ex> se skynsamlegu<ex>m</ex> anda skryddr</incipit>
-                        <explicit>sa er lif<ex>er</ex>
-                           <ex>ok</ex> rik<ex>er</ex>
-                           <lb/> æin<ex>n</ex> guð of allar alld<ex>er</ex> v<ex>er</ex>allda
-                              am<ex>en</ex>.</explicit>
-                        <note>The first six lines of the page are left blank.</note>
-                        <listBibl>
-                           <bibl>Dahlerup and Finnur Jónsson, <ref type="primary-1" target="STUAGNL16">Den første og anden grammatiske Afhandling i
-                                 Snorres Edda</ref>
-                              <biblScope unit="pages">50-55</biblScope>
-                           </bibl>
-                           <bibl>Mogk, <ref type="primary-3" target="SGT1889">Der sogenante zweite
-                                 grammatische traktat</ref>
-                              <biblScope unit="pages">31-36</biblScope>
-                              <note>Ed. W</note>
-                           </bibl>
-                           <bibl>Raschellà, <ref type="primary-1" target="SGT1982">The So-called
-                                 Second Grammatical Treatise</ref>
-                              <biblScope unit="pages">27-47 and 161-164</biblScope>
-                              <note>Text on recto pages. With facs. of pp. 91-94</note>
-                           </bibl>
-                        </listBibl>
-                     </msItem>
-                     <msItem n="2.4">
-                        <locus from="94:8" facs="#AM02-242-0094r" to="111:17">pp. 94:8-111:17</locus>
-                        <title type="uniform" xml:lang="en">The Third Grammatical Treatise</title>
-                        <incipit>Hlioð er allt þ<ex>at</ex> er vm kuikendis æyru ma hæyra.</incipit>
-                        <explicit>þau er vitr<ex>er</ex> m<ex>en</ex>n hafua forðv<ex>m</ex> saman
-                           sett</explicit>
-                        <listBibl>
-                           <bibl>Björn Magnússon Ólsen, <ref type="primary-1" target="STUAGNL12">Den
-                                 tredje og fjærde grammatiske Afhandling i Snorres Edda</ref>
-                              <biblScope unit="pages">1-32</biblScope>
-                           </bibl>
-                           <bibl>Finnur Jónsson, <ref type="primary-3" target="TGT1927">Málhljóða-
-                                 og Málskrúðsrit</ref>
-                              <note>Ed. W</note>
-                           </bibl>
-                           <bibl>Wills, <ref type="primary-1" target="FGT2001">The Foundation of
-                                 Grammar</ref>
-                              <biblScope unit="pages">172-191 and 207-219</biblScope>
-                              <note>Text in central column. Pp. 94-99 only. With facs.</note>
-                           </bibl>
-                        </listBibl>
-                     </msItem>
-                     <msItem n="2.5">
-                        <locus from="111:18" facs="#AM02-242-0111r" to="119:32">pp. 111:18-119</locus>
-                        <title type="uniform" xml:lang="en">The Fourth Grammatical Treatise</title>
-                        <incipit>
-                           <supplied reason="omitted">P</supplied>rotheseos paraloge v<ex>er</ex>ðr
-                           þa er ǫn<ex>n</ex>ur p<ex>re</ex>p<ex>oisiti</ex>o stendr</incipit>
-                        <explicit>huat nytr heilsa bǫtnut huat syt<ex>r</ex> fira lyti.</explicit>
-                        <bibl>Björn Magnússon Ólsen, <ref type="primary-1" target="STUAGNL12">Den
-                              tredje og fjærde grammatiske Afhandling i Snorres Edda</ref>
-                           <biblScope unit="pages">120-151</biblScope>
-                        </bibl>
-                     </msItem>
-                  </msItem>
-                  <msItem n="1.6">
-                     <locus from="121a:1" facs="#AM02-242-0121r" to="136a:31">pp. 121a-136a:31</locus>
-                     <title type="uniform" xml:lang="en">Skáldskarpamál, Part 2</title>
-                     <incipit defective="true">De synonymis simplicibus</incipit>
-                     <incipit>Hüernig er o kend setning skalldskapar? Süa <lb/> ad nefna hüern hlüt
-                        sem heiter.</incipit>
-                     <explicit>drifandi alf rød<lb/>øll oc düalins leica</explicit>
-                     <note>This is the continuation of p. 82.</note>
-                     <listBibl>
-                        <bibl>Sveinbjörn Egilsson, <ref type="primary-3" target="Edda1848">Edda
-                              Snorra Sturlusonar</ref>
-                           <biblScope unit="pages">95-120</biblScope>
-                           <note>Ed. Ob</note>
-                        </bibl>
-                        <bibl>Rafn, <ref type="primary-3" target="AntR">Antiquités Russes</ref>
-                           <biblScope unit="volume">I</biblScope>
-                           <biblScope unit="pages">61 (Pp. 125b:44-126a:29. Ed. W/Wchart), 61-62
-                              (Pp. 126b:13-127a:3. Ed. W/Wchart), 63-64 (P. 127b:23-33. Ed.
-                              W/Wchart)</biblScope>
-                        </bibl>
-                        <bibl>
-                           <ref type="primary-3" target="Edda1848-87">Edda Snorra Sturlusonar
-                              1848-87</ref>
-                           <biblScope unit="volume">I</biblScope>
-                           <biblScope unit="pages">464-593</biblScope>
-                           <note>Ed. Wchart</note>
-                        </bibl>
-                     </listBibl>
-                  </msItem>
-                  <msItem n="3" class="edd">
-                     <locus from="136a:32" facs="#AM02-242-0136r" to="152:26">pp. 136a:32-152</locus>
-                     <title type="uniform" xml:lang="is">Háttatal</title>
-                     <textLang mainLang="non">Old Norse/Icelandic</textLang>
-                     <rubric>DE NÜMERO Pöe<lb/>tico.</rubric>
-                     <incipit>Hüad ero hettir scalld<lb/>scapar? þrent</incipit>
-                     <explicit>steine <lb/> studd enn stillis lof.</explicit>
-                     <finalRubric>FINIS</finalRubric>
-                     <listBibl>
-                        <bibl>Rask, <ref type="primary-3" target="Edda1818">Snorra-Edda 1818</ref>
-                           <biblScope unit="pages">1-174</biblScope>
-                           <note>Ed. O.</note>
-                        </bibl>
-                        <bibl>Sveinbjörn Egilsson, <ref type="primary-3" target="Edda1848">Edda
-                              Snorra Sturlusonar 1848</ref>
-                           <biblScope unit="pages">120-143</biblScope>
-                           <note>Ed. Ob</note>
-                        </bibl>
-                        <bibl>
-                           <ref type="primary-3" target="Edda1848-87">Edda Snorra Sturlusonar
-                              1848-87</ref>
-                           <biblScope unit="volume">I</biblScope>
-                           <biblScope unit="pages">594-716</biblScope>
-                           <note>Ed. Wchart/W</note>
-                        </bibl>
-                        <bibl>Möbius, <ref type="primary-3" target="Mobius1879-81">Hattatal Snorra
-                              Sturlusonar</ref>
-                           <biblScope unit="volume">I</biblScope>
-                           <biblScope unit="pages">1-16</biblScope>
-                           <note>Verses only. Ed. W/Wch</note>
-                           <biblScope unit="volume">II</biblScope>
-                           <biblScope unit="pages">1-34</biblScope>
-                           <note>Ed. W/Wch</note>
-                        </bibl>
-                        <bibl>Finnur Jónsson, <ref type="primary-1" target="Edda1924">Edda Snorra
-                              Sturlusonar 1924</ref>
-                           <biblScope unit="pages">88-103</biblScope>
-                           <note>Pp. 139-150</note>
-                        </bibl>
-                        <bibl>Finnur Jónsson, <ref type="primary-3" target="Edda1926">Edda 1926</ref>
-                           <biblScope unit="pages">152:2-177:22</biblScope>
-                           <note>Pp. 139-150. Ed. W</note>
-                        </bibl>
-                        <bibl>Finnur Jónsson, <ref type="primary-3" target="Edda1931">Edda Snorra
-                              Sturlusonar 1931</ref>
-                           <biblScope unit="pages">217:18-252</biblScope>
-                           <note>Ed. W</note>
-                        </bibl>
-                        <bibl>Faulkes, <ref type="primary-3" target="Edda1999">Edda: Háttatal</ref>
-                           <biblScope unit="pages">7:10-35:15</biblScope>
-                           <note>Pp. 139-150. Ed. W</note>
-                        </bibl>
-                     </listBibl>
-                  </msItem>
-                  <msItem n="4" class="edd">
-                     <locus from="155:1" facs="#AM02-242-0155r" to="156:32">pp. 155-156</locus>
-                     <title type="uniform" xml:lang="is">Rígsþula</title>
-                     <textLang mainLang="non">Old Norse/Icelandic</textLang>
-                     <incipit>Sua segia m<ex>en</ex>n í fornu<ex>m</ex> sǫgu<ex>m</ex> at
-                        ein<ex>n</ex> hu<ex>er</ex>r af áásu</incipit>
-                     <explicit defective="true">at riða egg at ken<ex>n</ex>a und<ex>er</ex> riufa.</explicit>
-                     <listBibl>
-                        <bibl>Finnur Magnússon, <ref type="primary-1" target="Edda1828">Edda 1828</ref>
-                           <biblScope unit="pages">170-190</biblScope>
-                        </bibl>
-                        <bibl>Munch, <ref type="primary-1" target="Edda1847">Edda 1847</ref>
-                           <biblScope unit="pages">62-66</biblScope>
-                        </bibl>
-                        <bibl>Lüning, <ref type="primary-1" target="Edda1859">Die Edda 1859</ref>
-                           <biblScope unit="pages">239-249</biblScope>
-                        </bibl>
-                        <bibl>Bugge, <ref type="primary-1" target="NFBugge">Norræn Fornkvæði</ref>
-                           <biblScope unit="pages">141-149</biblScope>
-                        </bibl>
-                        <bibl>Grundtvig, <ref type="primary-1" target="Edda1874">Sæmundar Edda 1874</ref>
-                           <biblScope unit="pages">62-67</biblScope>
-                        </bibl>
-                        <bibl>Detter and Heinzel, <ref type="primary-1" target="Edda1903">Sæmundar
-                              Edda 1903</ref>
-                           <biblScope unit="pages">169-174</biblScope>
-                        </bibl>
-                        <bibl>Gering, <ref type="primary-1" target="Edda1904">Die Lieder der Älteren
-                              Edda 1904</ref>
-                           <biblScope unit="pages">166-178</biblScope>
-                        </bibl>
-                        <bibl>Boer, <ref type="primary-2" target="Edda1922">Die Edda 1922</ref>
-                           <biblScope unit="volume">I: Einleitung und Text</biblScope>
-                           <biblScope unit="pages">276-282</biblScope>
-                        </bibl>
-                        <bibl>Dronke, <ref type="primary-1" target="Edda1969-97">The Poetic Edda
-                              1969-97</ref>
-                           <biblScope unit="volume">II: Mythological Poems</biblScope>
-                           <biblScope unit="pages">162-173</biblScope>
-                        </bibl>
-                        <bibl>Kuhn, <ref type="primary-1" target="Edda1983">Edda 1983</ref>
-                           <biblScope unit="volume">I: Text</biblScope>
-                           <biblScope unit="pages">280-287</biblScope>
-                        </bibl>
-                     </listBibl>
-                  </msItem>
-                  <msItem n="5" class="edd">
-                     <locus from="167:1" facs="#AM02-242-0167r" to="169:31">pp. 167-169</locus>
-                     <title type="supplied" xml:lang="is">Orms-Eddu-brot</title>
-                     <textLang mainLang="non">Old Norse/Icelandic</textLang>
-                     <incipit defective="true">nar hetu þ<ex>ei</ex>r m<ex>en</ex>n er fylgðu braga
-                           k<ex>onun</ex>gi hinu<ex>m</ex> gamla.</incipit>
-                     <explicit defective="true">ofan lausa strind aurriða strandar stallz af</explicit>
-                     <listBibl>
-                        <bibl>
-                           <ref type="primary-1" target="Edda1848-87">Edda Snorra Sturlusonar
-                              1848-87</ref>
-                           <biblScope unit="volume">II</biblScope>
-                           <biblScope unit="pages">495-500</biblScope>
-                        </bibl>
-                        <bibl>Finnur Jónsson, <ref type="primary-1" target="Edda1924">Edda Snorra
-                              Sturlusonar</ref>
-                           <biblScope unit="pages">103-112</biblScope>
-                        </bibl>
-                     </listBibl>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="mixed">
-                        <support>
-                           <p>
-                              <material>Parchment and paper.</material>
-                           </p>
-                        </support>
-                        <extent>i + i + i + 89 (63 parchment, 26 paper). Pp. <locus facs="#AM02-242-0001r">1, 72, 153-154, 157-166 and 171-176</locus> are
-                           blank. <dimensions type="leaf" scope="all">
-                              <height>280</height>
-                              <width>202</width>
-                           </dimensions>. </extent>
-                        <foliation>
-                           <p>All uneven pages are paginated, in addition the even pages <locus facs="#AM02-242-0002r">2, 76, 82-100, 106-112, 120, 128-130 and
-                                 136-152</locus>. The pagination probably was done in <date notBefore="1700" notAfter="1799">the eighteenth century</date>.</p>
-                        </foliation>
-                        <collation>
-                           <p>The manuscript consists of ten gatherings: <list>
-                                 <item>I: 8 leaves (pp. <locus facs="#AM02-242-0001r">1-16</locus>),
-                                    bifolios, complete.</item>
-                                 <item>II: 8 leaves (pp. <locus facs="#AM02-242-0017r">17-32</locus>), bifolios, complete.</item>
-                                 <item>III: 8 leaves (pp. <locus facs="#AM02-242-0033r">33-48</locus>), bifolios, complete.</item>
-                                 <item>IV: 8 leaves orginally (pp. <locus facs="#AM02-242-0049r">49-60 and 73-76</locus>, bifolios, six inserted paper leaves
-                                    (pp. <locus facs="#AM02-242-0061r">61-72</locus>) between the
-                                    sixth and seventh parchment leaves of the original gathering.</item>
-                                 <item>V: 8 leaves (pp. <locus facs="#AM02-242-0077r">77-92</locus>), bifolios, complete.</item>
-                                 <item>VI: 7 leaves (pp. <locus facs="#AM02-242-0093r">93-106</locus>), the fourth leaf is a singleton, the others are
-                                    bifolios, complete.</item>
-                                 <item>VII: 7 leaves originally (pp. <locus facs="#AM02-242-0107r">107-120</locus>), the first is a singleton, the others are
-                                    bifolios, nine inserted paper leaves (pp. <locus facs="#AM02-242-0121r">121-138</locus>) after the last
-                                    parchment leaf. Karl G. Johansson (<bibl>
-                                       <ref type="secondary" target="Johansson1997">Studier i Codex
-                                          Wormianus</ref>
-                                       <biblScope unit="pages">26-27</biblScope>
-                                    </bibl>) doubts the gathering has ever consisted of 8 leaves
-                                    instead of 7.</item>
-                                 <item>VIII: 6 leaves (pp. <locus facs="#AM02-242-0139r">139-150</locus>), bifolios, complete. Tarrin Wills, however,
-                                    states that the gathering originally consisted of 8 leaves and
-                                    that 2 leaves are therefore missing now (<bibl>
-                                       <ref type="secondary" target="FGT2001">The Foundation of
-                                          Grammar</ref>
-                                       <biblScope unit="pages">44, table 3</biblScope>
-                                    </bibl>).</item>
-                                 <item>IX: 1 leaf originally (?) (pp. <locus facs="#AM02-242-0155r">155-156</locus>), two inserted paper leaves (pp. <locus facs="#AM02-242-0151r">151-154</locus>) before the parchment
-                                    leaf, and five (pp. <locus facs="#AM02-242-0157r">157-166</locus>) after it.</item>
-                                 <item>X: 2 leaves originally (?) (pp. <locus facs="#AM02-242-0167r">167-170</locus>), bifolio, four inserted paper leaves (pp.
-                                       <locus facs="#AM02-242-0171r">171-178</locus>) after the
-                                    parchment bifolio. Sigurður Nordal (<bibl>
-                                       <ref type="secondary" target="CCIsl2">Codex Wormianus 1931</ref>
-                                       <biblScope unit="pages">5</biblScope>
-                                    </bibl>) supposes that the three last parchment leaves (pp.
-                                       <locus facs="#AM02-242-0155r">155-156 and 167-170</locus>)
-                                    were part of one gathering of 8 leaves, five of them now
-                                    missing.</item>
-                              </list>
-                           </p>
-                        </collation>
-                        <condition>
-                           <p>Many of the folios have holes in them, but usually with little loss of
-                              text. On some folios there are tears, e.g. p. <locus facs="#AM02-242-0023r">23/24</locus>. On p. <locus facs="#AM02-242-0085r">85/86</locus> the outer bottom corner is cut
-                              away.</p>
-                           <p>
-                              <name type="person" key="SveJon001">Sveinn Jónsson</name> (<date from="1603" to="1687">1603-87</date>) cleaned the manuscript with
-                              urine, with the result that the chapter headings and many marginalia
-                              and initials vanished or became illegible.</p>
-                           <p>On p. <locus facs="#AM02-0242-0120r">120</locus> the left half of lines
-                              1-23 are now illegible, due to the glue of a piece of paper that once
-                              was pasted over them.</p>
-                        </condition>
-                     </supportDesc>
-                     <layoutDesc>
-                        <layout columns="1" writtenLines="31 32">
-                           <p>The original part of the manuscript, pp. <locus from="2" facs="#AM02-242-0002r" to="60">2-60</locus>, <locus from="73" facs="#AM02-242-0073r" to="76">73-76</locus>, <locus from="77" facs="#AM02-242-0077r" to="120">77-120</locus>, <locus from="139" facs="#AM02-242-0139r" to="150">139-150</locus>, <locus from="155" facs="#AM02-242-0155r" to="156">155-156</locus> and <locus from="167" facs="#AM02-242-0167r" to="170">167-170</locus>, is
-                              written in long lines throughout with 31 to 32 lines to the page. The
-                              later inserted paper leaves pp. <locus from="121" facs="#AM02-242-0121r" to="138">121-138</locus>, however, are
-                              written in two columns with 39 to 47 lines per column, except for pp.
-                                 <locus from="151" facs="#AM02-242-0151r" to="152">151-152</locus>
-                              which are written in one column with 26 lines to the page.</p>
-                           <p>In the original part of the manuscript spaces for chapter headings and
-                              initials have been left blank, and not all of them have been filled in
-                              by a contemporary scribe. Initials are red or red and green. <name type="person" key="SveJon001">Sveinn Jónsson</name> filled in Latin
-                              chapter headings with black ink.</p>
-                        </layout>
-                     </layoutDesc>
-                  </objectDesc>
-                  <handDesc hands="1">
-                     <handNote scribe="AM02-242-H1" scope="major" script="textualis">
-                        <p>The hand of the original part of the manuscript is identical with the
-                          hand of <title type="uniform" xml:lang="is">Vǫluspá</title> on fols 20r-21r in <ref type="ms" target="AM04-0554-da.xml">AM 544 4to (Hauksbók)</ref>, <title type="uniform">Egils saga</title>
-                           in <ref type="ms">AM 162 a β fol.</ref> and some other manuscripts.</p>
-                     </handNote>
-                     <handNote scribe="AM02-242-H2" scope="minor" script="humbook">
-                        <p>
-                           <name type="person" key="SveJon001">Sveinn Jónsson</name> (or <name type="person" key="MagOla002">Magnús Ólafsson</name>?) wrote pp.
-                              <locus from="121" facs="#AM02-242-0121r" to="138">121-138</locus> in
-                              <date from="1635" to="1637">1635-37</date>.</p>
-                     </handNote>
-                     <handNote scribe="AM02-242-H3" scope="minor" script="humbook">
-                        <p>
-                           <name type="person" key="OleWor001">Ole Worm</name> may have written pp.
-                              <locus from="61" facs="#AM02-242-0061r" to="71">61-71</locus> and
-                              <locus from="151" facs="#AM02-242-0151r" to="152">151-152</locus>.</p>
-                     </handNote>
-                  </handDesc>
-                  <decoDesc>
-                     <decoNote type="initial" subtype="litteraflorissa">
-                        <p>There are five large initials. On p. <locus facs="#AM02-0242-0002r">2</locus> the beginning of <title type="uniform">Snorra Edda</title> is
-                           marked with a large <hi rend="bold">A</hi>, a <term>littera
-                           florissa</term> with a descender running down the whole left margin to
-                           the bottom margin. On p. <locus facs="#AM02-0242-0017r">17</locus> there
-                           is another <term>littera florissa</term> with a long, but now faded
-                           descender. There are <term>litterae florissae</term> on pp. <locus facs="#AM02-0242-0040r">40</locus>, <locus facs="#AM02-0242-0094r">94</locus>94 <locus facs="#AM02-0242-0155r">155</locus>, but without
-                           descenders.</p>
-                     </decoNote>
-                  </decoDesc>
-                  <additions>
-                     <p>There are many marginalia and additions, the earliest of them dating from
-                        the <date from="1400" to="1499">fifteenth century</date>.</p>
-                     <p>The inserted paper leaves pp. <locus from="121" facs="#AM02-242-0121r" to="138">121-138</locus> were written in <date from="1635" to="1637">1635-37</date> by <name type="person" key="SveJon001">Sveinn
-                        Jónsson</name> (<date from="1603" to="1687">1603-87</date>) who also wrote
-                        some lines on p. <locus facs="#AM02-0242-0056r">56</locus> and added chapter
-                        headings in Latin. <name type="person" key="JonOla003">Jón Ólafsson</name>
-                        frá Grunnavík added numerous chapter headings, glosses, summaries, etc. in
-                        the part of the manuscript concerning the Grammatical Treatises. On p.
-                           <locus facs="#AM02-0242-0099r">99</locus> a correction of the text was
-                        done by <name type="person" key="ArnMag001">Árni Magnússon</name>.</p>
-                     <p>On the originally blank p. <locus facs="#AM02-0242-0120r">120</locus> (lines
-                        1-23) we find a a poem to the Virgin Mary (lines 1-23). The left half of the
-                        lines are now illegible, because a sheet of paper once glued over the lines
-                        destroyed the ink. Below the poem there are verses, one of them from <title type="uniform">Hávamál</title>, and glossars. On p. <locus facs="#AM02-0242-0170r">170</locus> (lines 1-23) we find another poem to
-                        the Virgin Mary , from <date notBefore="1340" notAfter="1360">the middle of
-                           the fourtheenth century</date>, written by the scribe of the other poem
-                        to the Virgin (<bibl>
-                           <ref type="secondary" target="Edda1848-87">Edda Snorra Sturlusonar
-                              1848-87</ref>
-                           <biblScope unit="volume">III.2</biblScope>
-                           <biblScope unit="pages">xlviii-xlix</biblScope>
-                        </bibl>). There verse underneath the poem to the Virgin was printed in <bibl>
-                           <ref type="primary-1" target="CPBor">Corpvs Poeticvm Boreale</ref>
-                           <biblScope unit="volume">I</biblScope>
-                           <biblScope unit="pages">xlv, footnote 1</biblScope>
-                        </bibl>. It was, however, written by a different hand. On the same page <q xml:lang="is">þetta er edda</q> is written in the bottom, and also <title type="uniform">Edda</title> is written a couple of times.</p>
-                     <p>Beside a lot of (rather coarsely drawn) ornaments, there are many doodlings,
-                        scribbles and single letters or words found in the marginalia. A man in a
-                        short cloak and with a sword is drawn on p. <locus facs="#AM02-0242-0060r">60</locus>. On every parchment page every fifth line is numbered, and often
-                        there are chapter numbers.</p>
-                     <p>On p. <locus facs="#AM02-0242-0147r">147</locus> in the bottom margin there
-                        is the monogram of bishop <name type="person" key="GudTho001">Guðbrandur
-                           Þorláksson</name>, and above it has been read by Finnur Jónsson (<bibl>
-                           <ref type="secondary" target="Edda1924">Edda Snorra Sturlusonar 1924</ref>
-                           <biblScope unit="pages">i-ii</biblScope>
-                        </bibl>) <q xml:lang="is">Jon Sigm</q>, <name type="person" key="JonSig001">Jón Sigmundsson</name>, the bishop's grandfather. On p. <locus facs="#AM02-0242-0076r">76</locus> in the bottom margin <q xml:lang="is">gunlaug<ex>r</ex> ormss<ex>on</ex> m<ex>ed</ex> eigin hand</q> is
-                        written. A Gunnlaugur Ormsson is a distant relative of <name type="person" key="ArnJon001">Arngrímur Jónsson</name>. On p. <locus facs="#AM02-0242-0001r">1</locus>
-                        <name type="person" key="OleWor001">Ole Worm</name> (<date from="1588" to="1654">1588-1654</date>) wrote <q xml:lang="la">Olai Wormii <lb/> Dono
-                           Arngrime jonæ <lb/> Islandi</q> in the bottom margin.</p>
-                  </additions>
-                  <bindingDesc>
-                     <binding contemporary="unknown">
-                        <p>The book was probably rebound by the ammanuensis of <name type="person" key="OleWor001">Ole Worm</name>, <name type="person" key="SveJon001">Sveinn Jónsson</name> in <date from="1635" to="1637">1635-37</date>,
-                           when he washed the manuscript and filled in some lacunae with paper
-                           leaves. The parchment binding measures: <dimensions type="binding">
-                              <height>288</height>
-                              <width>207</width>
-                              <depth>50</depth>
-                           </dimensions>.</p>
-                     </binding>
-                  </bindingDesc>
-               </physDesc>
-               <history>
-                  <origin notBefore="1340" notAfter="1370">
-                     <p>Karl G. Johansson (<bibl>
-                           <ref type="secondary" target="Johansson1997">Studier i Codex Wormianus</ref>
-                           <biblScope unit="pages">11-18</biblScope>
-                        </bibl>) argues that the main part of the manuscript was written in the scriptorum of the
-                        monastery at Þingeyrar in <origPlace key="IS">Húnavatnssýsla, Northern Iceland</origPlace>
-                        <origDate notBefore="1340" notAfter="1370">between 1340 and 1370</origDate>. 
-                     	Pp. <locus from="121" facs="#AM02-242-0121r" to="138">121-138</locus> were written in
-                           <date notBefore="1635" notAfter="1637">1635-37</date> by <name type="person" key="SveJon001">Sveinn Jónsson</name>, one of the owners of the codex.</p>
-                  </origin>
-                  <provenance>
-                     <p>There are many speculations about the provenance of the manuscript until
-                           <date notBefore="1490" notAfter="1510">c. 1500</date>. <name type="person" key="JonSig001">Jón Sigmundsson</name>, (<date from="1460" to="1520">c. 1460-1520</date>), <foreign xml:lang="is">lögmaður</foreign>
-                        of Northern and Western Iceland (<date from="1509" to="1518">1509-18</date>), who wrote his name on p. <locus facs="#AM02-0242-0147r">147</locus>.</p>
-                     <p>Finnur Jónsson (<bibl>
-                           <ref type="secondary" target="Edda1924">Edda Snorra Sturlusonar 1924</ref>
-                           <biblScope unit="pages">i-ii</biblScope>
-                        </bibl>) assumes that Jón Sigmundsson whose name he reads on p. <locus facs="#AM02-0242-0147r">147</locus>, got the manuscript from <name type="person" key="JonTho016">Jón Þorvaldsson</name>, abbot of <name type="place" key="Þing01" xml:lang="is">Þingeyrar</name> and his second
-                        wife's brother. Bishop <name type="person" key="GudTho001">Guðbrandur
-                           þorláksson</name> (<date from="1541" to="1627">1541/42-1627</date>)
-                        inherited the codex then from Jón, his grandfather.</p>
-                     <p>Sigurður Nordal (<bibl>
-                           <ref type="secondary" target="CCIsl2">Codex Wormianus</ref>
-                           <biblScope unit="pages">18-19</biblScope>
-                        </bibl>), however, provides two alternative hypotheses on the early
-                        provenance of the manuscript. The first is connected to two large book
-                        collections on Iceland, these belonging to <foreign xml:lang="is">síra</foreign>
-                        <name type="person" key="EinHaf001">Einar Hafliðason</name> (<name type="place" key="BreSve01">Breiðabólsstaður</name> in <name type="place" key="Vest01">Vesturhóp</name>, <date from="1307" to="1393">1307-93</date>) and <name type="person" key="JonHak002">Jón
-                        Hákonarson</name>of <name type="place" key="Víðid01" xml:lang="is">Víðidalstunga</name> (<date from="1350" to="1410">c. 1350-1410</date>,
-                        owner of <title type="supplied">Flateyjarbók</title>). Both assumptions
-                        presuppose that Solveig Þorlefsdóttir (d. <date when="1479">1479</date>) was
-                        in possession of the book and later handed it on to her son Jón Sigmundsson,
-                        the man who wrote his name on p. 147.</p>
-                     <p>The first hypotesis presupposes that Einar Hafliðason gave the manuscript to
-                        his friend Jón Hákonarson of Víðidalstunga. All the literary treasures
-                        accumulated at Jón Hákonarson's house were then inherited together with the
-                        farm Víðidalstunga by his sister Guðný and left by to her son <name type="person" key="ThoArn002">Þórleifur</name> (d. <date when="1433">1433</date>) who should also have had inherited Einar Hafliðason's libary
-                        through his father <name type="person" key="ArnEin002">Árni</name> (d. <date when="1404">1404</date>). (Guðný was also married to Einar Hafliðason's
-                        son Árni Einarsson). After Þorleifur's death, this imposing collection of
-                        books was divided among his two children, Björn and Solveig.</p>
-                     <p>The second hypothesis is connected with <name type="person" key="LofGut001">Loptur Guttormsson</name> (d. <date when="1432">1432</date>), to whom
-                        the two poems to the Virgin Mary on p. <locus facs="#AM02-0242-0120r">120</locus> and the last page have been ascribed (without valid proof).
-                        Solveig Þorleifsdóttir was married twice, first to <name type="person" key="OrmLop001">Ormur Loptsson</name>, son Loptur Guttormsson, and later
-                        to <name type="person" key="SigSte003">Sigmundur Steinþórsson</name> (d.
-                           <date when="1502">1502</date>). By him she had a son, Jón Sigmundsson,
-                        who inherited Víðidalstunga from his mother.</p>
-                     <p>After Guðbrandur Þorláksson, his relative <name type="person" key="ArnJon001">Arngrímur Jónsson</name> (<date from="1568" to="1648">1568-1648</date>) owned the manuscript from at least <date when="1609">1609</date> onwards. He used it for his <title type="uniform">Crymogæa</title> and lent it to <name type="person" key="MagOla002">Magnús
-                           Ólafsson</name> (<date from="1573" to="1636">1573-1636</date>) who used
-                        the book for his version of the Edda, the so-called <title type="supplied" xml:lang="is">Laufás Edda</title>; the first edition of the Edda (<title type="supplied">Resens Edda</title>) is based on this copy. In <date when="1628">1628</date> Arngrímur sent AM 242 fol. to <name type="person" key="OleWor001">Ole Worm</name> who then considered the book his own (cf.
-                        p. <locus facs="#AM02-0242-0001r">1</locus>, nederste margin: <q xml:lang="la">Olai Wormii <lb/> Dono Arngrime jonæ <lb/> Islandi</q>).
-                        The codex is named <ref type="ms">Codex Wormensis</ref> or <ref type="ms">Ormsbók</ref> after him. <name type="person" key="WilWor001">Willum Worm</name> inherited it from his father, Ole, and entailed it on
-                        his own son, <name type="person" key="ChrWor001">Christen</name>.</p>
-                  </provenance>
-                  <acquisition>
-                     <p>
-                        <name type="person" key="ArnMag001">Árni Magnússon</name> got the codex from
-                           <name type="person" key="ChrWor001">Christen Worm</name> in <date when="1706">1706</date>.</p>
-                  </acquisition>
-               </history>
-               <additional>
-                  <adminInfo>
-                     <recordHist>
-                        <source>
-                           <p>Catalogued <date when="2007-07-28">18 July 2007</date> by <name type="person" key="SilHuf001">SH</name>.</p>
-                        </source>
-                     </recordHist>
-                     <custodialHist>
-                        <custEvent type="conservation">
-                           <p>Washed with urine and maybe rebound by <name type="person" key="ArnJon001">Arngrímur Jónsson</name> in <date from="1635" to="1637">1635-37</date>.</p>
-                           <p>Bookbind and -block drycleaned by <name type="person" key="NatFaz001">Natasha Fazlić</name>
-                              <date from="2005-08-08" to="2005-09-05">8 August to 5 September
-                              2005</date>.</p>
-                        </custEvent>
-                     </custodialHist>
-                  </adminInfo>
-                  <surrogates>
-                     <p>
-                        <listBibl>
-                           <bibl>
-                              <title type="gmd">microfilm (master)</title>
-                              <idno>Neg. 508</idno>
-                              <date when="1975">1975</date>
-                              <note>only paper leaves, before restauration</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">microfilm (archive)</title>
-                              <idno>Pos. 508</idno>
-                              <date when="1975">1975</date>
-                              <note>before restauration</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">b/w prints</title>
-                              <date when="1980-02">February 1980</date>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">microfilm (master)</title>
-                              <idno>Neg. 593</idno>
-                              <date when="1979">1979</date>
-                              <note>supplied, during restauration</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">b/w prints</title>
-                              <date when="1980-02">February 1980</date>
-                              <note>during restauration</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">microfilm (archive)</title>
-                              <idno>Neg. 972</idno>
-                              <date when="2007-02-20">20 February 2007</date>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">plate</title>
-                              <idno>11</idno>
-                              <date when="1973">1973?</date>
-                              <note>before restauration</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">plate</title>
-                              <idno>138</idno>s.d.<note>supplied photographies</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">microfilm (master)</title>
-                              <idno>Neg. 599</idno>
-                              <date when="1980">1980</date>
-                              <note>during restauration</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">b/w prints</title>
-                              <date when="1980-09">September 1980</date>
-                              <note>during restauration</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">microfilm (archive)</title>
-                              <idno>Pos. 949</idno>
-                              <date when="2006-12-18">18 December 2006</date>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">plate</title>
-                              <idno>110</idno>s.d.<note>before restauration</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">diapositive</title>
-                              <idno>pocket 17</idno>
-                              <date when="1998-01-08">8 January 1998</date>
-                              <note>coloured, 4x5", s. 18, 23, 73, 90, 95, 139</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">pocket</title>
-                              <idno>17</idno>
-                              <date when="2003-07-24">24 July 2003</date>
-                              <note>s. 2, 84, 85, 57, 60-61, 91, 97</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">b/w diapositive portraits</title>
-                              <idno>lomme 204/TS 204</idno>
-                              <date when="2004-10-27">27 October 2004</date>
-                              <note>6x6 b/w portraits</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">b/w diapositive portraits</title>
-                              <idno>lomme 241/TS 241</idno>
-                              <date when="2006-04-24">24 April 2006</date>
-                              <note>6x6 supplied portraits</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">digital</title>
-                              <idno>CD 7/Harddisk 1</idno>
-                              <date when="2005-02-22">22 February 2005</date>
-                              <note>S. 33, 34, 35, 36</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">digtal</title>
-                              <idno>CD 13 and 14/Harddisk 1</idno>
-                              <date when="2005-05-17">17 May 2005</date>
-                              <note>S. 2, 8,9, 19, 33, 34, 60 ,61, 73, 84-85, 93, 120-121, 155,
-                              156</note>
-                           </bibl>
-                        </listBibl>
-                     </p>
-                  </surrogates>
-                  <listBibl>
-                     <bibl>
-                        <ref type="secondary" target="Edda1848-87">Edda Snorra Sturlusonar 1848-87</ref>
-                        <biblScope unit="volume">III.1</biblScope>
-                        <biblScope unit="pages">Tab. II</biblScope>
-                        <note>Facs. of p. 97:1-17</note>
-                     </bibl>
-                     <bibl>Guðbrandur Vigfússon and Powell, <ref type="secondary" target="CPBor">Corpvs Poeticvm Boreale</ref>
-                        <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">xliv-xlvi</biblScope>
-                     </bibl>
-                     <bibl>Hreinn Benediktsson, <ref type="primary-1" target="FGT1960">Fyrsta
-                           Málfræðiritgerðin</ref>
-                        <note>Facs. of pp. 84-90</note>
-                     </bibl>
-                     <bibl>Johansson, <ref type="secondary" target="Johansson1997">Studier i Codex
-                           Wormianus</ref>
-                     </bibl>
-                     <bibl>Kålund, <ref type="secondary" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">213-215</biblScope>
-                     </bibl>
-                     <bibl>Nordal, <ref type="secondary" target="CCI">Codex Wormianus 1931</ref>
-                        <biblScope unit="pages">5-20</biblScope>
-                        <note>Facsimile-edition</note>
-                     </bibl>
-                     <bibl>von See <foreign xml:lang="la">et al.</foreign>, <ref type="secondary" target="EddaKomm">Kommentar zu den Liedern der Edda</ref>
-                        <biblScope unit="volume">3: Götterlieder</biblScope>
-                        <biblScope unit="pages">478-479</biblScope>
-                     </bibl>
-                     <bibl>Wills, <ref type="secondary" target="FGT2001">The Foundation of
-                        Grammar</ref>
-                     </bibl>
-                  </listBibl>
-               </additional>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <revisionDesc>
-         <change>
-            <date when="2007-07-28">28 July 2007</date>
-            <name type="person" key="EvaWed001">EW-J</name> Checked and parsed</change>
-      </revisionDesc>
-   </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 242 fol.</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM02-0242-en" xml:lang="en">
+					<msIdentifier>
+						<country>Danmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 242 fol.</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>365</idno>
+						</altIdentifier>
+						<msName type="nickname" xml:lang="la">Codex Wormianus</msName>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							<title type="supplied" xml:lang="en">Codex Wormianus</title><note>Snorra
+								Edda with additions. An electronic, diplomatic edition of the entire
+								manuscript can be accessed on <ref type="url"
+									target="http://clarino.uib.no/menota/catalogue">Menota's
+									website</ref>.</note></summary>
+						<msItem n="1" class="edd">
+							<locus from="1v" facs="#AM02-242-0001v" to="41v">1v-41v (pp.
+								2-82)</locus>
+							<title type="uniform" xml:lang="is">Snorra Edda</title>
+							<textLang mainLang="non">Old Norse/Icelandic</textLang>
+							<bibl>Rask, <ref type="primary-3" target="Edda1818">Snorra-Edda
+									1818</ref>
+								<biblScope unit="pages">1-174</biblScope>
+								<note>Used to fill the lacuna of the prologue in <ref type="ms"
+										>Codex Regius</ref>, then ed. O.</note>
+							</bibl>
+							<bibl>
+								<ref type="primary-3" target="Edda1848-87">Edda Snorra Sturlusonar
+									1848-87</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">1-464</biblScope>
+								<note>Ed. W</note>
+							</bibl>
+							<bibl>Finnur Jónsson, <ref type="primary-1" target="Edda1924">Edda
+									Snorra Sturlusonar 1924</ref>
+								<biblScope unit="pages">1-88</biblScope>
+							</bibl>
+							<bibl>Finnur Jónsson, <ref type="primary-3" target="Edda1931">Edda
+									Snorra Sturlusonar 1931</ref>
+								<biblScope unit="pages">1-164:17</biblScope>
+								<note>Ed. W</note>
+							</bibl>
+							<msItem n="1.1" class="formal edd">
+								<locus from="1v" facs="#AM02-242-0001v" to="4v:19">1v-4v:19 (pp.
+									2-8:19)</locus>
+								<title type="supplied" xml:lang="en">Prologue</title>
+								<incipit>AL mattigr guð ſkapaði i upphaꝼi himín <ex>ok</ex>
+									ioꝛð</incipit>
+								<explicit>aꝼ annaí tungu eru geꝼen en þeſſi.</explicit>
+								<bibl>Sveinbjörn Egilsson, <ref type="primary-3" target="Edda1848"
+										>Edda Snorra Sturlusonar 1848</ref>
+									<biblScope unit="pages">144-153</biblScope>
+									<note>Ed. Ob</note>
+								</bibl>
+								<bibl>Rafn, <ref type="primary-3" target="AntR">Antiquités
+										Russes</ref>
+									<biblScope unit="volume">I</biblScope>
+									<biblScope unit="pages">43 (p. 6:20-21. Ed. W), 44-49 (Pp.
+										6:26-8:19. Ed. W)</biblScope>
+								</bibl>
+								<bibl>Finnur Jónsson, <ref type="primary-3" target="Edda1926">Edda
+										1926</ref>
+									<biblScope unit="pages">3-8</biblScope>
+									<note>Ed. W</note>
+								</bibl>
+								<bibl>Faulkes, <ref type="primary-3" target="SnEdda1982">Edda:
+										Prologue and Gylfaginning</ref>
+									<biblScope unit="pages">3-6</biblScope>
+									<note>Ed. W</note>
+								</bibl>
+								<bibl>Faulkes, <ref target="AntFau1979a">The prologue to Snorra
+										Edda</ref>
+									<biblScope unit="page">209-213</biblScope>
+									<note>Var.app. W</note></bibl>
+								<bibl>Árni Björnsson, <ref type="primary-1" target="Edda1975">Snorra
+										Edda 1975</ref>
+									<biblScope unit="pages">3-9</biblScope>
+								</bibl>
+								<bibl>Lorenz, <ref type="primary-1" target="Edda1984"
+										>Gylfaginning</ref>
+									<biblScope unit="pages">43-46</biblScope>
+								</bibl>
+							</msItem>
+							<msItem n="1.2" class="skaldskfr godfrn">
+								<locus from="4v:20" facs="#AM02-242-0004v" to="20r">4v:20-20r (pp.
+									8:20-39)</locus>
+								<title type="uniform" xml:lang="is">Gylafginning</title>
+								<incipit><supplied reason="omitted">G</supplied>ylfi
+									k<ex>onun</ex>gr reð þar londum er nu heit<ex>er</ex>
+									ſuiþioð</incipit>
+								<explicit>þui at tyrke<supplied reason="omitted">r</supplied> voꝛu
+									hanſ ener meſtu v uvínír.,.</explicit>
+								<bibl>Sveinbjörn Egilsson, <ref type="primary-3" target="Edda1848"
+										>Edda Snorra Sturlusonar 1848</ref>
+									<biblScope unit="pages">1-44</biblScope>
+									<note>Ed. Ob</note>
+								</bibl>
+								<bibl>Finnur Jónsson, <ref type="primary-3" target="Edda1926">Edda
+										1926</ref>
+									<biblScope unit="pages">9-67</biblScope>
+									<note>Ed. W</note>
+								</bibl>
+								<bibl>Faulkes, <ref type="primary-3" target="SnEdda1982">Edda:
+										Prologue and Gylfaginning</ref>
+									<biblScope unit="pages">7-55</biblScope>
+									<note>Ed. W</note>
+								</bibl>
+							</msItem>
+							<msItem n="1.3" class="edd skaldskfr godfrn bokmfr">
+								<locus from="20v" facs="#AM02-242-0020v" to="22r:29">20v-22r:29 (pp.
+									40-43:29)</locus>
+								<title type="uniform" xml:lang="is">Bragaræður</title>
+								<incipit>Ein<ex>n</ex> maðꝛ er neꝼnꝺꝛ æg<ex>er</ex> e<ex>ða</ex>
+									hler</incipit>
+								<explicit>Sua <ex>ok</ex> at kalla reiðar tẏ.</explicit>
+								<bibl>Sveinbjörn Egilsson, <ref type="primary-3" target="Edda1848"
+										>Edda Snorra Sturlusonar 1848</ref>
+									<biblScope unit="pages">45-49</biblScope>
+									<note>Ed. Ob</note>
+								</bibl>
+								<bibl>Finnur Jónsson, <ref type="primary-3" target="Edda1926">Edda
+										1926</ref>
+									<biblScope unit="pages">68-74:26</biblScope>
+									<note>Ed. W</note>
+								</bibl>
+							</msItem>
+							<msItem n="1.4">
+								<locus from="22r:29" facs="#AM02-242-0022r" to="22v:31"
+									>22r:29-22v:31 (pp. 43:29-44:31)</locus>
+								<title type="supplied" xml:lang="en">Epilogue</title>
+								<incipit>
+									<supplied reason="omitted">E</supplied>n<ex>n</ex> þetta er nu
+									at ſegia <lb/> ungu<ex>m</ex> ſkallꝺu<ex>m</ex>
+								</incipit>
+								<explicit>en<ex>n</ex>
+									<lb/> raku brott elenu<ex>m</ex>
+								</explicit>
+								<bibl>Sveinbjörn Egilsson, <ref type="primary-3" target="Edda1848"
+										>Edda Snorra Sturlusonar 1848</ref>
+									<biblScope unit="pages">154-155</biblScope>
+									<note>Ed. Ob</note>
+								</bibl>
+							</msItem>
+							<msItem n="1.5" class="skaldskfr bragfr godfrn edd">
+								<locus from="22v:31" facs="#AM02-242-0022v" to="41v:33">22v:31-41v
+									(pp. 44:31-82)</locus>
+								<title type="uniform" xml:lang="en">Skáldskaparmál, Part 1</title>
+								<incipit>
+									<supplied reason="omitted">N</supplied>u sk<ex>al</ex> lta
+									hæyra ꝺæmí til hu<ex>er</ex>nueg <lb/> hoꝼuð ſkallꝺín haꝼa ltið
+										s<ex>er</ex> lika</incipit>
+								<explicit defective="true">at hallꝺa hillꝺitan<ex>n</ex>z <lb/>
+										hin<ex>n</ex> millꝺí</explicit>
+								<note><title type="uniform">Skáldskaparmál</title> continues on p.
+									121.</note>
+								<bibl>Sveinbjörn Egilsson, <ref type="primary-3" target="Edda1848"
+										>Edda Snorra Sturlusonar 1848</ref>
+									<biblScope unit="pages">49-95</biblScope>
+									<note>Ed. Ob</note>
+								</bibl>
+								<bibl>Rafn, <ref type="primary-3" target="AntR">Antiquités
+										Russes</ref>
+									<biblScope unit="volume">I</biblScope>
+									<biblScope unit="pages">49-51 (Pp. 61-62:14. Ed. W/Wchart),
+										51-53 (Pp. 62:17-63:22. Ed. W/Wchart), 54-60 (Pp.
+										63:24-68:11. Ed. W/Wchart), 60 (P. 82:24-26. Ed.
+										W/Wchart)</biblScope>
+								</bibl>
+								<bibl>Finnur Jónsson, <ref type="primary-3" target="Edda1926">Edda
+										1926</ref>
+									<biblScope unit="pages">74:27-126:21</biblScope>
+									<note>Ed. W</note>
+								</bibl>
+							</msItem>
+						</msItem>
+						<msItem n="2" class="malfr skaldskfr bragfr godfrn edd">
+							<locus from="42r" facs="#AM02-242-0042r" to="60r">42r-60r (pp.
+								83-119)</locus>
+							<title type="uniform" xml:lang="da">The four Grammatical
+								Treatises</title>
+							<textLang mainLang="non">Old Norse/Icelandic</textLang>
+							<bibl>Rask, <ref type="primary-1" target="Edda1818">Snorra-Edda
+									1818</ref>
+								<biblScope unit="pages">273-353</biblScope>
+							</bibl>
+							<bibl>Sveinbjörn Egilsson, <ref type="primary-1" target="Edda1848">Edda
+									Snorra Sturlusonar 1848</ref>
+								<biblScope unit="pages">159-212</biblScope>
+							</bibl>
+							<bibl>
+								<ref type="primary-3" target="Edda1848-87">Edda Snorra Sturlusonar
+									1848-87</ref>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="pages">1-248</biblScope>
+								<note>Ed. W</note>
+							</bibl>
+							<msItem n="2.1" class="formal edd">
+								<locus from="42r" facs="#AM02-242-0042r" to="42r">42r (p.
+									83)</locus>
+								<title type="supplied" xml:lang="en">Prologue</title>
+								<incipit>
+									<supplied reason="damage">Nu</supplied>v um hrið heꝼ<ex>r</ex>
+									ſagt u<ex>er</ex>it hu<ex>er</ex>ſu ken<ex>n</ex>a ſk<ex>al</ex>
+									þa luti ſem ꝼ<ex>ra</ex>m<ex>m</ex>i ſtanꝺa</incipit>
+								<explicit>að ſia huað ẏðꝛ er nu ſẏnt i þeſſum ꝼraſǫgnum.</explicit>
+								<bibl>Ólsen, <ref type="primary-1" target="STUAGNL12">Den tredje og
+										fjærde grammatiske Afhandling i Snorres Edda</ref>
+									<biblScope unit="pages">152-155</biblScope>
+								</bibl>
+							</msItem>
+							<msItem n="2.2" class="malfr edd">
+								<locus from="42v" facs="#AM02-242-0042v" to="45v">42v-45v (pp.
+									84-90)</locus>
+								<title type="uniform" xml:lang="en">The First Grammatical
+									Treatise</title>
+								<incipit>
+									<supplied reason="omitted">J</supplied> ꝼleſtu<ex>m</ex>
+										lonꝺ<ex>m</ex> ſetia m<ex>en</ex>n a bækr an<ex>n</ex>at
+									tueggia þan<ex>n</ex> ꝼroðleik</incipit>
+								<explicit>þ<ex>at</ex> er <lb/> h<ex>onu</ex>m likar
+									betr.</explicit>
+								<note>Followed by the alphabet.</note>
+								<bibl>Dahlerup and Finnur Jónsson, <ref type="primary-1"
+										target="STUAGNL16">Den første og anden grammatiske
+										Afhandling i Snorres Edda</ref>
+									<biblScope unit="pages">1-16</biblScope>
+								</bibl>
+								<bibl>Haugen, <ref type="primary-1" target="FGT1972">First
+										Grammatical Treatise</ref>
+									<note>With facs. of pp. 84-90</note>
+								</bibl>
+								<bibl>Hreinn Benediktsson, <ref type="primary-1" target="HrBen1972"
+										>The First Grammatical Treatise</ref>
+									<biblScope unit="pages">206-246</biblScope>
+									<note>With facs. of pp. 84-90</note>
+								</bibl>
+								<bibl>Leoni, <ref type="primary-1" target="FGT1975">Il primo
+										trattato grammaticale islandese</ref>
+									<biblScope unit="pages">80-100</biblScope>
+									<note>Text on verso pages</note>
+								</bibl>
+							</msItem>
+							<msItem n="2.3" class="malfr edd">
+								<locus from="46r:7" facs="#AM02-242-0046r" to="47v:7">16r:7-47v:7
+									(pp. 91:7-94:7)</locus>
+								<title type="uniform" xml:lang="en">The Second Grammatical
+									Treatise</title>
+								<incipit>
+									<supplied reason="omitted">N</supplied>u ꝼ<ex>yrir</ex> þuí at
+										maðꝛin<ex>n</ex> ſe ſkẏnſamlegu<ex>m</ex> anꝺa
+									ſkrẏꝺꝺꝛ</incipit>
+								<explicit>ſa er liꝼ<ex>er</ex>
+									<ex>ok</ex> rik<ex>er</ex>
+									<lb/> æin<ex>n</ex> guð oꝼ allar allꝺ<ex>er</ex>
+									v<ex>er</ex>allꝺa am<ex>en</ex>.</explicit>
+								<note>The first six lines of p. 91 are left blank.</note>
+								<bibl>Dahlerup and Finnur Jónsson, <ref type="primary-1"
+										target="STUAGNL16">Den første og anden grammatiske
+										Afhandling i Snorres Edda</ref>
+									<biblScope unit="pages">50-55</biblScope>
+								</bibl>
+								<bibl>Mogk, <ref type="primary-3" target="SGT1889">Der sogenante
+										zweite grammatische traktat</ref>
+									<biblScope unit="pages">31-36</biblScope>
+									<note>Ed. W</note>
+								</bibl>
+								<bibl>Raschellà, <ref type="primary-1" target="SGT1982">The
+										So-called Second Grammatical Treatise</ref>
+									<biblScope unit="pages">27-47 and 161-164</biblScope>
+									<note>Text on recto pages. With facs. of pp. 91-94</note>
+								</bibl>
+							</msItem>
+							<msItem n="2.4" class="malfr edd">
+								<locus from="47v:8" facs="#AM02-242-0047v" to="56r:17">47v:8-56r:17
+									(pp. 94:8-111:17)</locus>
+								<title type="uniform" xml:lang="en">The Third Grammatical
+									Treatise</title>
+								<incipit>Hlioð er allt þ<ex>at</ex> er um kuikenꝺis æẏru ma
+									hæẏra.</incipit>
+								<explicit>þau er vitr<ex>er</ex> m<ex>en</ex>n haꝼua ꝼoꝛðu<ex>m</ex>
+									ſaman ſett.</explicit>
+								<bibl>Björn Magnússon Ólsen, <ref type="primary-1"
+										target="STUAGNL12">Den tredje og fjærde grammatiske
+										Afhandling i Snorres Edda</ref>
+									<biblScope unit="pages">1-32</biblScope>
+								</bibl>
+								<bibl>Finnur Jónsson, <ref type="primary-3" target="TGT1927"
+										>Málhljóða- og Málskrúðsrit</ref>
+									<note>Ed. W</note>
+								</bibl>
+								<bibl>Wills, <ref type="primary-1" target="FGT2001">The Foundation
+										of Grammar</ref>
+									<biblScope unit="pages">172-191 and 207-219</biblScope>
+									<note>Text in central column. Pp. 94-99 only. With facs.</note>
+								</bibl>
+							</msItem>
+							<msItem n="2.5" class="malfr edd">
+								<locus from="56r:18" facs="#AM02-242-0056r" to="60r">56r:18-60r (pp.
+									111:18-119)</locus>
+								<title type="uniform" xml:lang="en">The Fourth Grammatical
+									Treatise</title>
+								<incipit>
+									<supplied reason="omitted">P</supplied>rotheſeoſ paraloge
+										v<ex>er</ex>ðꝛ þa er ǫn<ex>n</ex>ur
+										p<ex>re</ex>p<ex>oisiti</ex>o ſtenꝺꝛ</incipit>
+								<explicit>huat nẏtr heilſa bǫtnut huat ſẏt<ex>r</ex> ꝼira
+									lẏti.</explicit>
+								<bibl>Björn Magnússon Ólsen, <ref type="primary-1"
+										target="STUAGNL12">Den tredje og fjærde grammatiske
+										Afhandling i Snorres Edda</ref>
+									<biblScope unit="pages">120-151</biblScope>
+								</bibl>
+							</msItem>
+						</msItem>
+						<msItem n="3" class="skaldskfr bragfr godfrn edd">
+							<locus from="61ra" facs="#AM02-242-0061r" to="68va:31">61ra-68va:31 (pp.
+								121a-136a:31)</locus>
+							<title type="uniform" xml:lang="en">Skáldskarpamál, Part 2</title>
+							<rubric>De synonymis simplicibus</rubric>
+							<incipit>Hüeꝛnig eꝛ o kend setning skallꝺskapaꝛ? Süa <lb/> aꝺ nefna
+								hüeꝛn hlüt sem heiteꝛ.</incipit>
+							<explicit>ꝺrifanꝺi alf ꝛød<lb/>øll oc ꝺüalins leica</explicit>
+							<note>This is the continuation of p. 82.</note>
+							<bibl>Sveinbjörn Egilsson, <ref type="primary-3" target="Edda1848">Edda
+									Snorra Sturlusonar</ref>
+								<biblScope unit="pages">95-120</biblScope>
+								<note>Ed. Ob</note>
+							</bibl>
+							<bibl>Rafn, <ref type="primary-3" target="AntR">Antiquités Russes</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">61 (Pp. 125b:44-126a:29. Ed. W/Wchart),
+									61-62 (Pp. 126b:13-127a:3. Ed. W/Wchart), 63-64 (P. 127b:23-33.
+									Ed. W/Wchart)</biblScope>
+							</bibl>
+							<bibl>
+								<ref type="primary-3" target="Edda1848-87">Edda Snorra Sturlusonar
+									1848-87</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">464-593</biblScope>
+								<note>Ed. Wchart</note>
+							</bibl>
+						</msItem>
+						<msItem n="4" class="hattal edd">
+							<locus from="136a:32" facs="#AM02-242-0o68v" to="76v">68va:32-76v (pp.
+								136a:32-152)</locus>
+							<title type="uniform" xml:lang="is">Háttatal</title>
+							<textLang mainLang="non">Old Norse/Icelandic</textLang>
+							<rubric>DE NÜMERO Pöe<lb/>tico.</rubric>
+							<incipit>Hüaꝺ eꝛo hettiꝛ scallꝺ<lb/>scapaꝛ? þꝛent</incipit>
+							<explicit>steine <lb/> studd enn stillis lof.</explicit>
+							<finalRubric>FINIS</finalRubric>
+							<bibl>Rask, <ref type="primary-3" target="Edda1818">Snorra-Edda
+									1818</ref>
+								<biblScope unit="pages">1-174</biblScope>
+								<note>Ed. O.</note>
+							</bibl>
+							<bibl>Sveinbjörn Egilsson, <ref type="primary-3" target="Edda1848">Edda
+									Snorra Sturlusonar 1848</ref>
+								<biblScope unit="pages">120-143</biblScope>
+								<note>Ed. Ob</note>
+							</bibl>
+							<bibl>
+								<ref type="primary-3" target="Edda1848-87">Edda Snorra Sturlusonar
+									1848-87</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">594-716</biblScope>
+								<note>Ed. Wchart/W</note>
+							</bibl>
+							<bibl>Möbius, <ref type="primary-3" target="Mobius1879-81">Hattatal
+									Snorra Sturlusonar</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">1-16</biblScope>
+								<note>Verses only. Ed. W/Wch</note>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="pages">1-34</biblScope>
+								<note>Ed. W/Wch</note>
+							</bibl>
+							<bibl>Finnur Jónsson, <ref type="primary-1" target="Edda1924">Edda
+									Snorra Sturlusonar 1924</ref>
+								<biblScope unit="pages">88-103</biblScope>
+								<note>Pp. 139-150</note>
+							</bibl>
+							<bibl>Finnur Jónsson, <ref type="primary-3" target="Edda1926">Edda
+									1926</ref>
+								<biblScope unit="pages">152:2-177:22</biblScope>
+								<note>Pp. 139-150. Ed. W</note>
+							</bibl>
+							<bibl>Finnur Jónsson, <ref type="primary-3" target="Edda1931">Edda
+									Snorra Sturlusonar 1931</ref>
+								<biblScope unit="pages">217:18-252</biblScope>
+								<note>Ed. W</note>
+							</bibl>
+							<bibl>Faulkes, <ref type="primary-3" target="Edda1999">Edda:
+									Háttatal</ref>
+								<biblScope unit="pages">7:10-35:15</biblScope>
+								<note>Pp. 139-150. Ed. W</note>
+							</bibl>
+						</msItem>
+						<msItem n="5" class="edd">
+							<locus from="78r" facs="#AM02-242-0078r" to="78v">78r-v (pp.
+								155-156)</locus>
+							<title type="uniform" xml:lang="is">Rígsþula</title>
+							<textLang mainLang="non">Old Norse/Icelandic</textLang>
+							<incipit>Sua ſegia m<ex>en</ex>n í ꝼoꝛn<ex>m</ex> ſǫgu<ex>m</ex> at
+									ein<ex>n</ex> hu<ex>er</ex>r aꝼ ááſu<ex>m</ex></incipit>
+							<explicit defective="true">at riða egg at ken<ex>n</ex>a unꝺ<ex>er</ex>
+								riuꝼa.</explicit>
+							<bibl>Finnur Magnússon, <ref type="primary-1" target="Edda1828">Edda
+									1828</ref>
+								<biblScope unit="pages">170-190</biblScope>
+							</bibl>
+							<bibl>Munch, <ref type="primary-1" target="Edda1847">Edda 1847</ref>
+								<biblScope unit="pages">62-66</biblScope>
+							</bibl>
+							<bibl>Lüning, <ref type="primary-1" target="Edda1859">Die Edda
+									1859</ref>
+								<biblScope unit="pages">239-249</biblScope>
+							</bibl>
+							<bibl>Bugge, <ref type="primary-1" target="NFBugge">Norræn
+									Fornkvæði</ref>
+								<biblScope unit="pages">141-149</biblScope>
+							</bibl>
+							<bibl>Grundtvig, <ref type="primary-1" target="Edda1874">Sæmundar Edda
+									1874</ref>
+								<biblScope unit="pages">62-67</biblScope>
+							</bibl>
+							<bibl>Detter and Heinzel, <ref type="primary-1" target="Edda1903"
+									>Sæmundar Edda 1903</ref>
+								<biblScope unit="pages">169-174</biblScope>
+							</bibl>
+							<bibl>Gering, <ref type="primary-1" target="Edda1904">Die Lieder der
+									Älteren Edda 1904</ref>
+								<biblScope unit="pages">166-178</biblScope>
+							</bibl>
+							<bibl>Boer, <ref type="primary-2" target="Edda1922">Die Edda 1922</ref>
+								<biblScope unit="volume">I: Einleitung und Text</biblScope>
+								<biblScope unit="pages">276-282</biblScope>
+							</bibl>
+							<bibl>Dronke, <ref type="primary-1" target="Edda1969-97">The Poetic Edda
+									1969-97</ref>
+								<biblScope unit="volume">II: Mythological Poems</biblScope>
+								<biblScope unit="pages">162-173</biblScope>
+							</bibl>
+							<bibl>Kuhn, <ref type="primary-1" target="Edda1983">Edda 1983</ref>
+								<biblScope unit="volume">I: Text</biblScope>
+								<biblScope unit="pages">280-287</biblScope>
+							</bibl>
+						</msItem>
+						<msItem n="6" class="edd">
+							<locus from="79r" facs="#AM02-242-0079r" to="85r">79r-85r (pp.
+								167-169)</locus>
+							<title type="supplied" xml:lang="is">Orms-Eddu-brot</title>
+							<textLang mainLang="non">Old Norse/Icelandic</textLang>
+							<incipit defective="true">nar hetu þ<ex>ei</ex>r m<ex>en</ex>n er ꝼẏlgðu
+								bꝛaga k<ex>onun</ex>gi hinu<ex>m</ex> gamla.</incipit>
+							<explicit defective="true">oꝼan laúſa ſtrinꝺ aurriða ſtranꝺar ſtallz
+								aꝼ</explicit>
+							<bibl>
+								<ref type="primary-1" target="Edda1848-87">Edda Snorra Sturlusonar
+									1848-87</ref>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="pages">495-500</biblScope>
+							</bibl>
+							<bibl>Finnur Jónsson, <ref type="primary-1" target="Edda1924">Edda
+									Snorra Sturlusonar</ref>
+								<biblScope unit="pages">103-112</biblScope>
+							</bibl>
+						</msItem>
+						<!-- what is on p. 170? -->
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="mixed">
+								<support>
+									<p>
+										<material>Parchment and paper.</material>
+									</p>
+								</support>
+								<extent>i + i + i + 89 (63 parchment leaves, 26 paper leaves). Pp.
+									1, 72, 153-154, 157-166 and 171-176 are blank. <dimensions
+										type="leaf" scope="all">
+										<height unit="mm">280</height>
+										<width unit="mm">202</width>
+									</dimensions>. </extent>
+								<foliation>
+									<p>All uneven pages and pp. 2, 76, 82-100, 106-112, 120, 128-130
+										and 136-152 are paginated. The pagination was probably done
+										in <date notBefore="1700" notAfter="1799">the eighteenth
+											century</date>.</p>
+								</foliation>
+								<collation>
+									<p>The manuscript consists of ten gatherings: <list>
+											<item>I: 8 leaves (pp. 1-16), bifolios, complete.</item>
+											<item>II: 8 leaves (pp. 17-32), bifolios,
+												complete.</item>
+											<item>III: 8 leaves (pp. 33-48), bifolios,
+												complete.</item>
+											<item>IV: 8 parchment leaves (pp. 49-60 and 73-76),
+												bifolios, and six paper leaves (pp. 61-72) inserted
+												between the sixth and seventh parchment leaves of
+												the original gathering.</item>
+											<item>V: 8 leaves (pp. 77-92), bifolios,
+												complete.</item>
+											<item>VI: 7 leaves (pp. 93-106), the fourth leaf is a
+												singleton, the others are bifolios, complete.</item>
+											<item>VII: 7 parchment leaves (pp. 107-120), the first
+												is a singleton, the others are bifolios; nine added
+												paper leaves (pp. 121-138) after the last parchment
+												leaf. Karl G. Johansson (<bibl>
+												<ref type="secondary" target="Johansson1997"
+												>Johansson 1997</ref>
+												<biblScope unit="pages">26-27</biblScope>
+												</bibl>) doubts the gathering has ever consisted of
+												8 leaves instead of 7.</item>
+											<item>VIII: 6 leaves (pp. 139-150), bifolios, complete.
+												Wills (<bibl>
+												<ref type="secondary" target="FGT2001">Wills
+												2001</ref>
+												<biblScope unit="pages">44, table 3</biblScope>
+												</bibl>) suggests that the gathering originally
+												consisted of eight leaves.</item>
+											<item>IX: 1 parchment leaf (pp. 155-156), two paper
+												leaves (pp. 151-154) inserted before the parchment
+												leaf, and five (pp. 157-166) after.</item>
+											<item>X: 2 parchment leaves (pp. 167-170), bifolio, four
+												paper leaves (pp. 171-178) inserted after the
+												parchment bifolio. Sigurður Nordal (<bibl>
+												<ref type="secondary" target="CCIsl2">Sigurður
+												Nordal 1931</ref>
+												<biblScope unit="pages">5</biblScope>
+												</bibl>) supposes that the last three parchment
+												leaves (pp. 155-156 and 167-170) were part of one
+												gathering of 8 leaves, five of them now
+												missing.</item>
+										</list>
+									</p>
+								</collation>
+								<condition>
+									<p>Many of the folios have holes in them, but usually with
+										little loss of text. Some folios have tears, e.g. p. 23/24.
+										On p. 85/86 the outer bottom corner is excised.</p>
+									<p>
+										<name type="person" key="SveJon001">Sveinn Jónsson</name>
+										washed the manuscript with urine, with the result that the
+										chapter headings and many marginalia and initials vanished
+										or became illegible.</p>
+									<p>On p. 120 the left half of lines 1-23 are now illegible, due
+										to the glue of a piece of paper that once was pasted over
+										them.</p>
+								</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1" writtenLines="31 32">
+									<p>The original part of the manuscript (pp. 2-60, 73-76, 77-120,
+										139-150, 155-156 and 167-170) is written in long lines
+										throughout with 31-32 lines to the page. The later inserted
+										paper leaves pp. 121-138 are, however, written in two
+										columns with 39 to 47 lines per column, except for pp.
+										151-152 which are written in one column with 26 lines to the
+										page.</p>
+									<p>In the original part of the manuscript spaces for chapter
+										headings and initials have been left blank, and not all of
+										them have been filled in. Initials are red or red and green.
+											<name type="person" key="SveJon001">Sveinn
+											Jónsson</name> filled in chapter headings in Latin in
+										black ink.</p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<handNote scope="major" script="textualis">
+								<p>The hand of the original part of the manuscript is identical with
+									the hand of <title type="uniform" xml:lang="is">Vǫluspá</title>
+									on fols 20r-21r in <ref type="ms" target="AM04-0554-da.xml">AM
+										544 4to (Hauksbók)</ref>, <title type="uniform">Egils
+										saga</title> in <ref type="ms" target="#AM02-0162A-beta-is"
+										>AM 162 A β fol.</ref> and other manuscripts. For a full
+									list, see <bibl><ref target="JakBen1980b">Jakob Benediktsson
+											1980</ref>
+										<biblScope unit="page">11</biblScope></bibl>.</p>
+							</handNote>
+							<handNote scope="minor" script="humbook">
+								<p>
+									<name type="person" key="SveJon001">Sveinn Jónsson</name> (or
+										<name type="person" key="MagOla002">Magnús Ólafsson</name>?)
+									wrote pp. 121-138 in <date from="1635" to="1637"
+									>1635-37</date>.</p>
+							</handNote>
+							<handNote scope="minor" script="humbook">
+								<p>
+									<name type="person" key="OleWor001">Ole Worm</name> may have
+									written pp. 61-71 and 151-152.</p>
+							</handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote type="initial" subtype="litteraflorissa">
+								<p>There are five large initials. On p. 2 the beginning of <title
+										type="uniform">Snorra Edda</title> is opening with a large
+										<hi rend="bold">A</hi>, a <term>littera florissa</term> with
+									a descender running down the left margin to the bottom margin.
+									On p. 17 there is another <term>littera florissa</term> with a
+									long, now faded, descender. There are <term>litterae
+										florissae</term> on pp. 40, 94 and 155, but without
+									descenders.</p>
+							</decoNote>
+						</decoDesc>
+						<additions>
+							<p>There are many marginalia and additions, the earliest of them dating
+								from the <date from="1300" to="1399">fourteenth century</date>.</p>
+							<p>On the originally blank p. 120:1-23 and on 170:1-23, respectively,
+								two poems to the Virgin Mary, added by the same hand in the middle
+								of the fourteenth century (<bibl>
+									<ref type="secondary" target="Edda1848-87">Edda Snorra
+										Sturlusonar 1848-87</ref>
+									<biblScope unit="volume">III.2</biblScope>
+									<biblScope unit="pages">xlviii-xlix</biblScope>
+								</bibl>) are found.The left half of the lines on p. 120 are now
+								illegible, because a sheet of paper once glued over the lines
+								destroyed the ink. Below the poem on p. 120 stanzas – one of them
+								from Hávamál – and glosses are found.</p>
+							<p>Below the poem to the Virgin on p. 170 more stanzas are found; the
+								first of these was printed in <bibl>
+									<ref type="primary-1" target="CPBor">Corpvs Poeticvm
+										Boreale</ref>
+									<biblScope unit="volume">I</biblScope>
+									<biblScope unit="pages">xlv, footnote 1</biblScope>
+								</bibl>. It was, however, written by a different hand. On the same
+								page <q>þetta er edda</q> is written in the bottom margin, and
+									<q>Edda</q> was added more than once.</p>
+							<p>The inserted paper leaves pp. 121-138 were written in <date
+									from="1635" to="1637">1635-37</date> by <name type="person"
+									key="SveJon001">Sveinn Jónsson</name> who also wrote some lines
+								on p. 56 and added the chapter headings in Latin. <name
+									type="person" key="JonOla003">Jón Ólafsson frá Grunnavík</name>
+								added numerous chapter headings, glosses, summaries, etc. in the
+								part of the manuscript containing the Grammatical Treatises. On p.
+								99 a correction of the text was done by <name type="person"
+									key="ArnMag001">Árni Magnússon</name>.</p>
+							<p>Beside a lot of (rather coarsely drawn) ornaments, there are many
+								doodlings, scribbles and single letters or words found in the
+								marginalia. A pen-drawn man in a short cloak, holding a sword, is
+								found on p. 60. On every parchment page every fifth line is
+								numbered, and often chapter numbers are added too.</p>
+							<p>On p. 147 in the bottom margin the monogram of bishop <name
+									type="person" key="GudTho001">Guðbrandur Þorláksson</name> was
+								found, and above this Finnur Jónsson (<bibl>
+									<ref type="secondary" target="Edda1924">Edda Snorra Sturlusonar
+										1924</ref>
+									<biblScope unit="pages">i-ii</biblScope>
+								</bibl>) read <q xml:lang="is">Jon Sigm</q> (<name type="person"
+									key="JonSig001">Jón Sigmundsson</name>, the bishop's
+								grandfather). In the bottom margin of p. 76: <q xml:lang="is"
+										>gunlaug<ex>r</ex> ormss<ex>on</ex> m<ex>ed</ex> eigin
+									hand</q> is written. A Gunnlaugur Ormsson was a distant relative
+								of <name type="person" key="ArnJon001">Arngrímur Jónsson</name>. On
+								p. 1 <name type="person" key="OleWor001">Ole Worm</name> (<date
+									from="1588" to="1654">1588-1654</date>) wrote: <q xml:lang="la"
+									>Olai Wormii <lb/> Dono Arngrime jonæ <lb/> Islandi</q> in the
+								bottom margin.</p>
+						</additions>
+						<bindingDesc>
+							<binding contemporary="unknown">
+								<p>The book was probably rebound by <name type="person"
+										key="OleWor001">Ole Worm</name>'s amanuensis, <name
+										type="person" key="SveJon001">Sveinn Jónsson</name> in <date
+										from="1635" to="1637">1635-37</date>, which was when he
+									urine washed the manuscript and filled in some lacunae with
+									paper leaves. The parchment binding measures: <dimensions
+										type="binding">
+										<height unit="mm">288</height>
+										<width unit="mm">207</width>
+										<depth unit="mm">50</depth>
+									</dimensions>.</p>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin notBefore="1340" notAfter="1370">
+							<p>Written in <origPlace>Iceland</origPlace>
+								<origDate notBefore="1340" notAfter="1370">between 1340 and
+									1370</origDate> (<bibl>
+									<ref type="secondary" target="Johansson1997">Johansson
+										1997</ref>
+									<biblScope unit="pages">11-18</biblScope>
+								</bibl>). Pp. 121-138 were written in <date notBefore="1635"
+									notAfter="1637">1635-37</date> by <name type="person"
+									key="SveJon001">Sveinn Jónsson</name>, one of the owners of the
+								codex).</p>
+							<p>Johansson (<bibl>
+									<ref type="secondary" target="Johansson1997">ibid.</ref>
+								</bibl>) suggests that the main part of the manuscript was written
+								in the scriptorum of the monastery of Þingeyrar in Húnavatnssýsla,
+								Northern Iceland.</p>
+						</origin>
+						<provenance>
+							<p>There are many speculations about the provenance of the manuscript
+								until <date notBefore="1490" notAfter="1510">c. 1500</date> when
+									<name type="person" key="JonSig001">Jón Sigmundsson</name>,
+									<foreign xml:lang="is">lögmaður</foreign> of Northern and
+								Western Iceland (<date from="1509" to="1518">1509-18</date>) wrote
+								his name on p. 147.</p>
+							<p>Finnur Jónsson (<bibl>
+									<ref type="secondary" target="Edda1924">Finnur Jónsson
+										1924</ref>
+									<biblScope unit="pages">i-ii</biblScope>
+								</bibl>) assumes that Jón Sigmundsson got the manuscript from <name
+									type="person" key="JonTho016">Jón Þorvaldsson</name>, abbot of
+									<name type="place" key="ÞinSve01" xml:lang="is">Þingeyrar</name>
+								and his second wife's brother. Bishop <name type="person"
+									key="GudTho001">Guðbrandur þorláksson</name> subsequently
+								inherited the codex from Jón, his grandfather.</p>
+							<p>Sigurður Nordal (<bibl>
+									<ref type="secondary" target="CCIsl2">Sigurður Nordal 1931</ref>
+									<biblScope unit="pages">18-19</biblScope>
+								</bibl>), however, provides two alternative hypotheses on the early
+								provenance of the manuscript. The first is connected to two large
+								book collections on Iceland, those belonging to <foreign
+									xml:lang="is">síra</foreign>
+								<name type="person" key="EinHaf001">Einar Hafliðason</name> (<name
+									type="place" key="BreSve01">Breiðabólsstaður</name> in
+								Vesturhóp, <date from="1307" to="1393">1307-93</date>) and <name
+									type="person" key="JonHak002">Jón Hákonarson</name> of <name
+									type="place" key="VíðÞor01" xml:lang="is">Víðidalstunga</name>,
+								owner of <title type="supplied">Flateyjarbók</title>). Both
+								assumptions presuppose that Solveig Þorlefsdóttir (d. <date
+									when="1479">1479</date>) was in possession of the book and later
+								handed it on to her son Jón Sigmundsson, the man who wrote his name
+								on p. 147.</p>
+							<p>The first hypotesis presupposes that Einar Hafliðason gave the
+								manuscript to his friend Jón Hákonarson of Víðidalstunga. All the
+								literary treasures accumulated at Jón Hákonarson's house were then
+								inherited together with the farm Víðidalstunga by his sister Guðný
+								and given to her son <name type="person" key="ThoArn002"
+									>Þórleifur</name> who should also have had inherited Einar
+								Hafliðason's libary through his father <name type="person"
+									key="ArnEin002">Árni</name>. (Guðný was also married to Einar
+								Hafliðason's son Árni Einarsson). After Þorleifur's death, this
+								imposing collection of books was divided among his two children,
+								Björn and Solveig.</p>
+							<p>The second hypothesis is connected with <name type="person"
+									key="LofGut001">Loptur Guttormsson</name>, to whom the two poems
+								to the Virgin Mary on p. 120 and the last page have been ascribed
+								(without valid proof). Solveig Þorleifsdóttir was married twice,
+								first to <name type="person" key="OrmLop001">Ormur Loptsson</name>,
+								son of Loptur Guttormsson, and later to <name type="person"
+									key="SigSte003">Sigmundur Steinþórsson</name>. They had a son,
+								Jón Sigmundsson, who inherited Víðidalstunga from his mother.</p>
+							<p>After Guðbrandur Þorláksson, his relative <name type="person"
+									key="ArnJon001">Arngrímur Jónsson</name> owned the manuscript
+								from at least <date when="1609">1609</date> onwards. He used it for
+								his <title type="uniform">Crymogæa</title> and lent it to <name
+									type="person" key="MagOla002">Magnús Ólafsson</name> who used
+								the book for his version of the Edda, the so-called <title
+									type="supplied" xml:lang="is">Laufás Edda</title>; the first
+								edition of the Edda (<title type="supplied">Resens Edda</title>) is
+								based on this copy. In <date when="1628">1628</date> Arngrímur sent
+								AM 242 fol. to <name type="person" key="OleWor001">Ole Worm</name>
+								who then considered the book his own (see p. 1, bottom margin: <q
+									xml:lang="la">Olai Wormii <lb/> Dono Arngrime jonæ <lb/>
+									Islandi</q>). The codex is named <title type="ms">Codex
+									Wormensis</title> or <title type="ms">Ormsbók</title> after him.
+									<name type="person" key="WilWor001">Willum Worm</name> inherited
+								it from his father, Ole, and entailed it on his own son, <name
+									type="person" key="ChrWor001">Christen</name>.</p>
+						</provenance>
+						<acquisition>
+							<p>
+								<name type="person" key="ArnMag001">Árni Magnússon</name> got the
+								codex from <name type="person" key="ChrWor001">Christen Worm</name>
+								in <date when="1706">1706</date>.</p>
+						</acquisition>
+					</history>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<source>
+									<p>Catalogued <date when="2007-07-28">18 July 2007</date> by
+											<name type="person" key="SilHuf001">SH</name>.</p>
+								</source>
+							</recordHist>
+							<custodialHist>
+								<custEvent type="conservation">
+									<p>Washed with urine and maybe rebound by <name type="person"
+											key="SveJon001">Sveinn Jónsson</name> in <date
+											from="1635" to="1637">1635-37</date>.</p>
+									<p>Binding and bookblock dry cleaned by <name type="person"
+											key="NatFaz001">Natasha Fazlić</name>
+										<date from="2005-08-08" to="2005-09-05">8 August to 5
+											September 2005</date>.</p>
+								</custEvent>
+							</custodialHist>
+						</adminInfo>
+						<surrogates>
+							<p>
+								<list>
+									<item>Microfilm (master), <idno>Neg. 508</idno>, from <date
+											when="1975">1975</date> (only the paper leaves, before
+										restoration). </item>
+									<item>Microfilm (archive), <idno>Pos. 508</idno>, from <date
+											when="1975">1975</date> (before restoration). </item>
+									<item>Black and white prints from <date when="1980-02">February
+											1980</date>. </item>
+									<item>Microfilm (master), <idno>Neg. 593</idno>, from <date
+											when="1979">1979</date> (supplementary photographs,
+										during restoration) </item>
+									<item>Microfilm (archive), <idno>Neg. 972</idno>, from <date
+											when="2007-02-20">20 February 2007</date></item>
+									<item>Plate 11 from <date when="1973">1973?</date> (before
+										restoration).</item>
+									<item>Plkate 138, s.d., supplementary photographs.</item>
+									<item>Microfilm (master), <idno>Neg. 599</idno>, from <date
+											when="1980">1980</date> (during restoration).</item>
+									<item>Black and white prints from <date when="1980-09">September
+											1980</date> (during restoration). </item>
+									<item>Microfilm (archive), <idno>Pos. 949</idno>, from <date
+											when="2006-12-18">18 December 2006</date>.</item>
+									<item>Plate 110, s.d. (before restoration).</item>
+									<item>Diapositives, <idno>pocket 17</idno>, from <date
+											when="1998-01-08">8 January 1998</date> (coloured
+										diapositives, 4x5", s. 18, 23, 73, 90, 95, 139).</item>
+									<item>Pocket 17, <date when="2003-07-24">24 July 2003</date>
+										(pp. 2, 84, 85, 57, 60-61, 91, 97).</item>
+									<item>Black and white diapositive portraits, <idno>lomme 204/TS
+											204</idno>, from <date when="2004-10-27">27 October
+											2004</date> (6x6 portraits)</item>
+									<item>Black and white diapositive portraits, <idno>lomme 241/TS
+											241</idno>, from <date when="2006-04-24">24 April
+											2006</date> (6x6 supplemetary portraits).</item>
+									<item>Digital photographs, <idno>CD 7/Harddisk 1</idno> from
+											<date when="2005-02-22">22 February 2005</date> (pp. 33,
+										34, 35, 36).</item>
+									<item>Digital photographs, <idno>CD 13 and 14/Harddisk 1</idno>,
+										from <date when="2005-05-17">17 May 2005</date> (pp. 2, 8,9,
+										19, 33, 34, 60 ,61, 73, 84-85, 93, 120-121, 155,
+										156).</item>
+								</list>
+							</p>
+						</surrogates>
+						<listBibl>
+							<bibl>Abram, <ref target="ChrAbr2001a"/><biblScope unit="page"
+									>7-8</biblScope></bibl>
+							<bibl>Beck, <ref target="HauÞor2008a"/></bibl>
+							<bibl>Bjarni Einarsson, <ref target="BjaEin2001a"
+								/><!-- biblScope? --></bibl>
+							<bibl>Björn M. Ólsen et al, <ref target="BjöÓls1881b"/>
+								<!-- biblScope? --></bibl>
+							<bibl>Boer, <ref target="R__Boe1924a"/>
+								<!-- biblScope? --></bibl>
+							<bibl>Drechsler, <ref target="SteDre2021a"/>
+								<biblScope unit="page">36-37, 58</biblScope></bibl>
+							<bibl>
+								<ref type="secondary" target="Edda1848-87">Edda Snorra Sturlusonar
+									1848-87</ref>
+								<biblScope unit="volume">III.1</biblScope>
+								<biblScope unit="pages">Tab. II</biblScope>
+								<note>Facs. of p. 97:1-17</note>
+							</bibl>
+							<bibl>Einar G. Pétursson, <ref target="EinPét0276a"/>
+								<!-- biblScope? --></bibl>
+							<bibl>Faulkes, <ref target="AntFau1977a"/>
+								<biblScope unit="page">33</biblScope></bibl>
+							<bibl>Faulkes, <ref target="AntFau1979a"/>
+								<biblScope unit="page">204, 206-209</biblScope></bibl>
+							<bibl>Faulkes, <ref target="AntFau1993a"/><!-- biblScope? --></bibl>
+							<bibl>Faulkes &amp; Resen, <ref target="AntFau1977c"/>
+								<!-- biblScope? --></bibl>
+							<bibl>Finnur Jónsson, <ref target="FinJón1898a"/>
+								<!-- biblScope? --></bibl>
+							<bibl>Finnur Jónsson, <ref target="Edda1924"/>
+								<!-- biblScope? --></bibl>
+							<bibl>Gottskálk Jensson, <ref target="GotJen2014a"/></bibl>
+							<bibl>Gunnar Ágúst Harðarson, <ref target="GunHar2016a"/>
+								<biblScope unit="page">141, 146</biblScope></bibl>
+							<bibl>Guðbrandur Vigfússon &amp; Powell, <ref type="secondary"
+									target="CPBor">Corpvs Poeticvm Boreale</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">xliv-xlvi</biblScope>
+							</bibl>
+							<bibl>Guðvarður Már Gunnlaugsson, <ref target="GuðGun2012a"/></bibl>
+							<bibl>Haukur Þorgeirsson, <ref target="HauÞor2008a"/></bibl>
+							<bibl>Hreinn Benediktsson, <ref type="primary-1" target="FGT1960">Fyrsta
+									Málfræðiritgerðin</ref>
+								<note>Facs. of pp. 84-90</note>
+							</bibl>
+							<!-- <bibl><ref target="HrBen1972"/>?</bibl> -->
+							<bibl>Jakob Benediktsson, <ref target="JakBen0722a"/>
+								<!-- biblSCope? --></bibl>
+							<bibl>Jakob Benediktsson, <ref target="JakBen1980b"/>
+								<biblScope unit="page">11</biblScope></bibl>
+							<bibl>Jesch, <ref target="JudJes2014a"/>
+								<biblScope unit="page">86</biblScope></bibl>
+							<bibl>Johansson, <ref type="secondary" target="Johansson1997">Studier i
+									Codex Wormianus</ref>
+							</bibl>
+							<bibl>Johansson, <ref target="KarJoh1998a"/></bibl>
+							<bibl>Johansson, <ref target="KarJoh2000a"/></bibl>
+							<bibl>Jón Axel Harðarson, <ref target="JónHar2011a"/>
+								<biblScope unit="page">93-103</biblScope></bibl>
+							<bibl>Jón Helgason, <ref target="JónHel1960a"/>
+								<!-- biblScope? --></bibl>
+							<bibl>Kålund, <ref type="secondary" target="KKKat">Katalog</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">213-215</biblScope>
+							</bibl>
+								<bibl>Lindblad, <ref target="GusLin1954a"/>
+								<!-- biblScope? --></bibl>
+							<bibl>Magerøy, <ref target="HalMag1976a"/>
+								<!-- biblScope? --></bibl>
+							<bibl>Males, <ref target="MikMal2017a"/>
+								<!-- biblScope? --></bibl>
+							<bibl>Nordal, <ref type="secondary" target="CCI">Codex Wormianus
+									1931</ref>
+								<biblScope unit="pages">5-20</biblScope>
+								<note>Facsimile-edition</note>
+							</bibl>
+							<bibl>Ólafur Halldórsson, <ref target="ÓlaHal1979c"/>
+								<!-- biblScope? --></bibl>
+							<bibl>von See <foreign xml:lang="la">et al.</foreign>, <ref
+									type="secondary" target="EddaKomm">Kommentar zu den Liedern der
+									Edda</ref>
+								<biblScope unit="volume">3: Götterlieder</biblScope>
+								<biblScope unit="pages">478-479</biblScope>
+							</bibl>
+							<!-- 	<bibl>Sanders, <ref target="ChrSan2001a"/> biblScope? </bibl>  -->
+							<bibl>Sigurður Nordal, <ref target="CCIsl2"/>
+								<!-- introduction biblscpe?  -->
+								<note>Facsimile edition</note></bibl>
+							<bibl>Seip, <ref target="DidSei1951a"/></bibl>
+							<bibl>Seip, <ref target="DidSei1957a"/></bibl>
+							<bibl>Springborg, <ref target="PetSpr1977a"/>
+								<!-- biblScope? --></bibl>
+							<!-- 	<bibl>Stefán Karlsson, <ref target="SteKar1967c"/>Biblscope?</bibl>  -->
+							<bibl>Stefán Karlsson, <ref target="SteKar1993b"/></bibl>
+							<bibl>Stefán Karlsson, <ref target="SteKar1994b"/></bibl>
+							<bibl>Svavar Sigmundsson, <ref target="SvaSig2018b"/>
+								<!-- biblScope? --></bibl>
+							<bibl>Sveinbjörn Egilsson, <ref target="SveEgi1994a"/>
+								<!-- biblScope? --></bibl>
+							<bibl>Sverrir Jakobsson, <ref target="SveJak2017a"
+								/><!-- biblScope? --></bibl>
+							<bibl>Strömbäck, <ref target="DagStr1935a"/></bibl>
+
+							<bibl>Wills, <ref type="secondary" target="FGT2001">The Foundation of
+									Grammar</ref>
+								<!-- biblScope? -->
+							</bibl>
+							<bibl>Wright, <ref target="JonWri2019b"/>
+								<!-- biblScope? --></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change>
+				<date when="2007-07-28">28 July 2007</date>
+				<name type="person" key="EvaWed001">EW-J</name> Checked and parsed</change>
+			<change when="2021-12-13" who="EvaWed001">Updated markup.</change>
+		</revisionDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM02-0242-0000v-FB" n="0">
 			<desc>0000v-FB</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./0/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./0/THUMBNAIL" width="200px" height="254px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./0/SECONDARY_DISPLAY" width="1600px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./0/SECONDARY_DISPLAY" width="1600px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./0/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0001r" n="1">
 			<desc>0001r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./1/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./1/THUMBNAIL" width="200px" height="246px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./1/SECONDARY_DISPLAY" width="1656px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./1/SECONDARY_DISPLAY" width="1656px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./1/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0001v" n="2">
 			<desc>0001v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./2/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./2/THUMBNAIL" width="200px" height="259px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./2/SECONDARY_DISPLAY" width="1570px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./2/SECONDARY_DISPLAY" width="1570px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./2/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0002r" n="3">
 			<desc>0002r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./3/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./3/THUMBNAIL" width="200px" height="246px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./3/SECONDARY_DISPLAY" width="1656px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./3/SECONDARY_DISPLAY" width="1656px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./3/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0002v" n="4">
 			<desc>0002v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./4/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./4/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./4/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./4/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./4/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0003r" n="5">
 			<desc>0003r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./5/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./5/THUMBNAIL" width="200px" height="251px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./5/SECONDARY_DISPLAY" width="1624px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./5/SECONDARY_DISPLAY" width="1624px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./5/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0003v" n="6">
 			<desc>0003v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./6/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./6/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./6/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./6/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./6/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0004r" n="7">
 			<desc>0004r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./7/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./7/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./7/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./7/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./7/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0004v" n="8">
 			<desc>0004v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./8/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./8/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./8/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./8/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./8/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0005r" n="9">
 			<desc>0005r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./9/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./9/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./9/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./9/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./9/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0005v" n="10">
 			<desc>0005v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./10/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./10/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./10/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./10/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./10/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0006r" n="11">
 			<desc>0006r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./11/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./11/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./11/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./11/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./11/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0006v" n="12">
 			<desc>0006v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./12/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./12/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./12/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./12/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./12/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0007r" n="13">
 			<desc>0007r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./13/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./13/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./13/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./13/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./13/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0007v" n="14">
 			<desc>0007v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./14/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./14/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./14/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./14/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./14/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0008r" n="15">
 			<desc>0008r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./15/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./15/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./15/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./15/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./15/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0008v" n="16">
 			<desc>0008v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./16/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./16/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./16/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./16/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./16/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0009r" n="17">
 			<desc>0009r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./17/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./17/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./17/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./17/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./17/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0009v" n="18">
 			<desc>0009v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./18/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./18/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./18/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./18/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./18/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0010r" n="19">
 			<desc>0010r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./19/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./19/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./19/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./19/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./19/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0010v" n="20">
 			<desc>0010v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./20/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./20/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./20/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./20/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./20/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0011r" n="21">
 			<desc>0011r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./21/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./21/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./21/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./21/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./21/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0011v" n="22">
 			<desc>0011v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./22/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./22/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./22/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./22/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./22/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0012r" n="23">
 			<desc>0012r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./23/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./23/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./23/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./23/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./23/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0012v" n="24">
 			<desc>0012v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./24/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./24/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./24/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./24/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./24/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0013r" n="25">
 			<desc>0013r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./25/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./25/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./25/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./25/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./25/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0013v" n="26">
 			<desc>0013v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./26/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./26/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./26/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./26/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./26/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0014r" n="27">
 			<desc>0014r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./27/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./27/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./27/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./27/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./27/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0014v" n="28">
 			<desc>0014v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./28/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./28/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./28/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./28/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./28/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0015r" n="29">
 			<desc>0015r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./29/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./29/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./29/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./29/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./29/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0015v" n="30">
 			<desc>0015v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./30/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./30/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./30/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./30/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./30/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0016r" n="31">
 			<desc>0016r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./31/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./31/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./31/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./31/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./31/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0016v" n="32">
 			<desc>0016v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./32/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./32/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./32/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./32/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./32/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0017r" n="33">
 			<desc>0017r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./33/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./33/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./33/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./33/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./33/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0017v" n="34">
 			<desc>0017v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./34/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./34/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./34/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./34/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./34/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0018r" n="35">
 			<desc>0018r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./35/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./35/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./35/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./35/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./35/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0018v" n="36">
 			<desc>0018v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./36/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./36/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./36/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./36/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./36/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0019r" n="37">
 			<desc>0019r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./37/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./37/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./37/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./37/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./37/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0019v" n="38">
 			<desc>0019v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./38/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./38/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./38/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./38/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./38/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0020r" n="39">
 			<desc>0020r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./39/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./39/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./39/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./39/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./39/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0020v" n="40">
 			<desc>0020v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./40/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./40/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./40/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./40/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./40/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0021r" n="41">
 			<desc>0021r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./41/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./41/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./41/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./41/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./41/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0021v" n="42">
 			<desc>0021v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./42/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./42/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./42/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./42/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./42/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0022r" n="43">
 			<desc>0022r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./43/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./43/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./43/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./43/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./43/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0022v" n="44">
 			<desc>0022v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./44/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./44/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./44/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./44/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./44/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0023r" n="45">
 			<desc>0023r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./45/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./45/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./45/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./45/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./45/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0023v" n="46">
 			<desc>0023v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./46/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./46/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./46/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./46/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./46/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0024r" n="47">
 			<desc>0024r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./47/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./47/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./47/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./47/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./47/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0024v" n="48">
 			<desc>0024v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./48/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./48/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./48/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./48/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./48/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0025r" n="49">
 			<desc>0025r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./49/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./49/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./49/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./49/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./49/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0025v" n="50">
 			<desc>0025v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./50/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./50/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./50/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./50/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./50/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0026r" n="51">
 			<desc>0026r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./51/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./51/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./51/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./51/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./51/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0026v" n="52">
 			<desc>0026v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./52/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./52/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./52/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./52/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./52/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0027r" n="53">
 			<desc>0027r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./53/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./53/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./53/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./53/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./53/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0027v" n="54">
 			<desc>0027v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./54/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./54/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./54/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./54/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./54/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0028r" n="55">
 			<desc>0028r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./55/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./55/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./55/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./55/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./55/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0028v" n="56">
 			<desc>0028v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./56/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./56/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./56/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./56/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./56/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0029r" n="57">
 			<desc>0029r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./57/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./57/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./57/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./57/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./57/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0029v" n="58">
 			<desc>0029v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./58/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./58/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./58/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./58/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./58/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0030r" n="59">
 			<desc>0030r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./59/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./59/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./59/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./59/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./59/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0030v" n="60">
 			<desc>0030v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./60/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./60/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./60/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./60/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./60/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0031r" n="61">
 			<desc>0031r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./61/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./61/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./61/SECONDARY_DISPLAY" width="1552px" height="2022px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./61/SECONDARY_DISPLAY" width="1552px"
+				height="2022px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./61/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0031v" n="62">
 			<desc>0031v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./62/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./62/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./62/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./62/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./62/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0032r" n="63">
 			<desc>0032r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./63/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./63/THUMBNAIL" width="200px" height="263px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./63/SECONDARY_DISPLAY" width="1536px" height="2018px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./63/SECONDARY_DISPLAY" width="1536px"
+				height="2018px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./63/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0032v" n="64">
 			<desc>0032v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./64/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./64/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./64/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./64/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./64/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0033r" n="65">
 			<desc>0033r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./65/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./65/THUMBNAIL" width="200px" height="263px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./65/SECONDARY_DISPLAY" width="1536px" height="2018px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./65/SECONDARY_DISPLAY" width="1536px"
+				height="2018px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./65/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0033v" n="66">
 			<desc>0033v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./66/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./66/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./66/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./66/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./66/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0034r" n="67">
 			<desc>0034r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./67/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./67/THUMBNAIL" width="200px" height="264px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./67/SECONDARY_DISPLAY" width="1530px" height="2020px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./67/SECONDARY_DISPLAY" width="1530px"
+				height="2020px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./67/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0034v" n="68">
 			<desc>0034v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./68/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./68/THUMBNAIL" width="200px" height="254px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./68/SECONDARY_DISPLAY" width="1592px" height="2024px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./68/SECONDARY_DISPLAY" width="1592px"
+				height="2024px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./68/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0035r" n="69">
 			<desc>0035r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./69/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./69/THUMBNAIL" width="200px" height="266px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./69/SECONDARY_DISPLAY" width="1506px" height="2006px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./69/SECONDARY_DISPLAY" width="1506px"
+				height="2006px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./69/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0035v" n="70">
 			<desc>0035v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./70/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./70/THUMBNAIL" width="200px" height="253px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./70/SECONDARY_DISPLAY" width="1592px" height="2013px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./70/SECONDARY_DISPLAY" width="1592px"
+				height="2013px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./70/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0036r" n="71">
 			<desc>0036r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./71/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./71/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./71/SECONDARY_DISPLAY" width="1538px" height="2008px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./71/SECONDARY_DISPLAY" width="1538px"
+				height="2008px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./71/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0036v" n="72">
 			<desc>0036v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./72/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./72/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./72/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./72/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./72/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0037r" n="73">
 			<desc>0037r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./73/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./73/THUMBNAIL" width="200px" height="252px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./73/SECONDARY_DISPLAY" width="1602px" height="2016px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./73/SECONDARY_DISPLAY" width="1602px"
+				height="2016px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./73/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0037v" n="74">
 			<desc>0037v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./74/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./74/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./74/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./74/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./74/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0038r" n="75">
 			<desc>0038r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./75/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./75/THUMBNAIL" width="200px" height="252px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./75/SECONDARY_DISPLAY" width="1602px" height="2016px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./75/SECONDARY_DISPLAY" width="1602px"
+				height="2016px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./75/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0038v" n="76">
 			<desc>0038v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./76/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./76/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./76/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./76/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./76/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0039r" n="77">
 			<desc>0039r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./77/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./77/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./77/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./77/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./77/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0039v" n="78">
 			<desc>0039v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./78/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./78/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./78/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./78/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./78/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0040r" n="79">
 			<desc>0040r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./79/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./79/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./79/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./79/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./79/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0040v" n="80">
 			<desc>0040v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./80/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./80/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./80/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./80/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./80/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0041r" n="81">
 			<desc>0041r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./81/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./81/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./81/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./81/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./81/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0041v" n="82">
 			<desc>0041v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./82/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./82/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./82/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./82/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./82/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0042r" n="83">
 			<desc>0042r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./83/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./83/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./83/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./83/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./83/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0042v" n="84">
 			<desc>0042v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./84/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./84/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./84/SECONDARY_DISPLAY" width="1592px" height="2030px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./84/SECONDARY_DISPLAY" width="1592px"
+				height="2030px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./84/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0043r" n="85">
 			<desc>0043r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./85/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./85/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./85/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./85/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./85/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0043v" n="86">
 			<desc>0043v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./86/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./86/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./86/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./86/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./86/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0044r" n="87">
 			<desc>0044r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./87/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./87/THUMBNAIL" width="200px" height="251px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./87/SECONDARY_DISPLAY" width="1602px" height="2013px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./87/SECONDARY_DISPLAY" width="1602px"
+				height="2013px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./87/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0044v" n="88">
 			<desc>0044v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./88/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./88/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./88/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./88/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./88/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0045r" n="89">
 			<desc>0045r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./89/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./89/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./89/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./89/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./89/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0045v" n="90">
 			<desc>0045v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./90/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./90/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./90/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./90/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./90/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0046r" n="91">
 			<desc>0046r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./91/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./91/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./91/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./91/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./91/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0046v" n="92">
 			<desc>0046v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./92/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./92/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./92/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./92/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./92/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0047r" n="93">
 			<desc>0047r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./93/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./93/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./93/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./93/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./93/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0047v" n="94">
 			<desc>0047v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./94/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./94/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./94/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./94/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./94/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0048r" n="95">
 			<desc>0048r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./95/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./95/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./95/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./95/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./95/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0048v" n="96">
 			<desc>0048v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./96/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./96/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./96/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./96/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./96/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0049r" n="97">
 			<desc>0049r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./97/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./97/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./97/SECONDARY_DISPLAY" width="1602px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./97/SECONDARY_DISPLAY" width="1602px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./97/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0049v" n="98">
 			<desc>0049v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./98/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./98/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./98/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./98/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./98/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0050r" n="99">
 			<desc>0050r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./99/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./99/THUMBNAIL" width="200px" height="251px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./99/SECONDARY_DISPLAY" width="1602px" height="2013px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./99/SECONDARY_DISPLAY" width="1602px"
+				height="2013px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./99/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0050v" n="100">
 			<desc>0050v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./100/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./100/THUMBNAIL" width="200px" height="254px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./100/SECONDARY_DISPLAY" width="1592px" height="2026px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./100/SECONDARY_DISPLAY" width="1592px"
+				height="2026px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./100/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0051r" n="101">
 			<desc>0051r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./101/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./101/THUMBNAIL" width="200px" height="249px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./101/SECONDARY_DISPLAY" width="1602px" height="1998px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./101/SECONDARY_DISPLAY" width="1602px"
+				height="1998px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./101/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0051v" n="102">
 			<desc>0051v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./102/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./102/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./102/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./102/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./102/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0052r" n="103">
 			<desc>0052r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./103/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./103/THUMBNAIL" width="200px" height="258px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./103/SECONDARY_DISPLAY" width="1556px" height="2010px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./103/SECONDARY_DISPLAY" width="1556px"
+				height="2010px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./103/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0052v" n="104">
 			<desc>0052v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./104/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./104/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./104/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./104/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./104/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0053r" n="105">
 			<desc>0053r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./105/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./105/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./105/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./105/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./105/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0053v" n="106">
 			<desc>0053v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./106/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./106/THUMBNAIL" width="200px" height="255px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./106/SECONDARY_DISPLAY" width="1592px" height="2030px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./106/SECONDARY_DISPLAY" width="1592px"
+				height="2030px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./106/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0054r" n="107">
 			<desc>0054r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./107/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./107/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./107/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./107/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./107/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0054v" n="108">
 			<desc>0054v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./108/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./108/THUMBNAIL" width="200px" height="263px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./108/SECONDARY_DISPLAY" width="1536px" height="2022px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./108/SECONDARY_DISPLAY" width="1536px"
+				height="2022px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./108/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0055r" n="109">
 			<desc>0055r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./109/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./109/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./109/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./109/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./109/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0055v" n="110">
 			<desc>0055v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./110/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./110/THUMBNAIL" width="200px" height="254px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./110/SECONDARY_DISPLAY" width="1592px" height="2026px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./110/SECONDARY_DISPLAY" width="1592px"
+				height="2026px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./110/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0056r" n="111">
 			<desc>0056r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./111/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./111/THUMBNAIL" width="200px" height="258px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./111/SECONDARY_DISPLAY" width="1556px" height="2010px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./111/SECONDARY_DISPLAY" width="1556px"
+				height="2010px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./111/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0056v" n="112">
 			<desc>0056v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./112/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./112/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./112/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./112/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./112/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0057r" n="113">
 			<desc>0057r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./113/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./113/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./113/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./113/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./113/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0057v" n="114">
 			<desc>0057v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./114/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./114/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./114/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./114/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./114/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0058r" n="115">
 			<desc>0058r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./115/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./115/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./115/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./115/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./115/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0058v" n="116">
 			<desc>0058v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./116/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./116/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./116/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./116/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./116/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0059r" n="117">
 			<desc>0059r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./117/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./117/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./117/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./117/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./117/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0059v" n="118">
 			<desc>0059v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./118/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./118/THUMBNAIL" width="200px" height="253px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./118/SECONDARY_DISPLAY" width="1592px" height="2016px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./118/SECONDARY_DISPLAY" width="1592px"
+				height="2016px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./118/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0060r" n="119">
 			<desc>0060r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./119/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./119/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./119/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./119/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./119/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0060v" n="120">
 			<desc>0060v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./120/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./120/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./120/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./120/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./120/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0061r" n="121">
 			<desc>0061r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./121/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./121/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./121/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./121/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./121/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0061v" n="122">
 			<desc>0061v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./122/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./122/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./122/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./122/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./122/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0062r" n="123">
 			<desc>0062r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./123/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./123/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./123/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./123/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./123/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0062v" n="124">
 			<desc>0062v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./124/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./124/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./124/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./124/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./124/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0063r" n="125">
 			<desc>0063r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./125/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./125/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./125/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./125/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./125/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0063v" n="126">
 			<desc>0063v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./126/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./126/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./126/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./126/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./126/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0064r" n="127">
 			<desc>0064r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./127/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./127/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./127/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./127/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./127/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0064v" n="128">
 			<desc>0064v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./128/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./128/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./128/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./128/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./128/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0065r" n="129">
 			<desc>0065r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./129/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./129/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./129/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./129/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./129/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0065v" n="130">
 			<desc>0065v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./130/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./130/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./130/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./130/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./130/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0066r" n="131">
 			<desc>0066r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./131/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./131/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./131/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./131/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./131/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0066v" n="132">
 			<desc>0066v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./132/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./132/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./132/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./132/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./132/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0067r" n="133">
 			<desc>0067r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./133/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./133/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./133/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./133/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./133/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0067v" n="134">
 			<desc>0067v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./134/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./134/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./134/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./134/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./134/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0068r" n="135">
 			<desc>0068r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./135/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./135/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./135/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./135/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./135/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0068v" n="136">
 			<desc>0068v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./136/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./136/THUMBNAIL" width="200px" height="257px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./136/SECONDARY_DISPLAY" width="1582px" height="2030px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./136/SECONDARY_DISPLAY" width="1582px"
+				height="2030px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./136/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0069r" n="137">
 			<desc>0069r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./137/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./137/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./137/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./137/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./137/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0069v" n="138">
 			<desc>0069v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./138/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./138/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./138/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./138/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./138/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0070r" n="139">
 			<desc>0070r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./139/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./139/THUMBNAIL" width="200px" height="258px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./139/SECONDARY_DISPLAY" width="1556px" height="2010px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./139/SECONDARY_DISPLAY" width="1556px"
+				height="2010px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./139/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0070v" n="140">
 			<desc>0070v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./140/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./140/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./140/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./140/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./140/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0071r" n="141">
 			<desc>0071r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./141/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./141/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./141/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./141/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./141/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0071v" n="142">
 			<desc>0071v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./142/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./142/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./142/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./142/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./142/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0072r" n="143">
 			<desc>0072r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./143/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./143/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./143/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./143/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./143/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0072v" n="144">
 			<desc>0072v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./144/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./144/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./144/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./144/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./144/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0073r" n="145">
 			<desc>0073r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./145/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./145/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./145/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./145/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./145/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0073v" n="146">
 			<desc>0073v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./146/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./146/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./146/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./146/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./146/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0074r" n="147">
 			<desc>0074r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./147/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./147/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./147/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./147/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./147/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0074v" n="148">
 			<desc>0074v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./148/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./148/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./148/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./148/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./148/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0075r" n="149">
 			<desc>0075r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./149/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./149/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./149/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./149/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./149/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0075v" n="150">
 			<desc>0075v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./150/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./150/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./150/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./150/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./150/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0076r" n="151">
 			<desc>0076r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./151/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./151/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./151/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./151/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./151/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0076v" n="152">
 			<desc>0076v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./152/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./152/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./152/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./152/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./152/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0077r" n="153">
 			<desc>0077r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./153/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./153/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./153/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./153/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./153/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0077v" n="154">
 			<desc>0077v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./154/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./154/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./154/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./154/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./154/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0078r" n="155">
 			<desc>0078r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./155/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./155/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./155/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./155/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./155/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0078v" n="156">
 			<desc>0078v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./156/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./156/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./156/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./156/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./156/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0084r" n="157">
 			<desc>0084r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./157/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./157/THUMBNAIL" width="200px" height="260px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./157/SECONDARY_DISPLAY" width="1568px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./157/SECONDARY_DISPLAY" width="1568px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./157/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0084v" n="158">
 			<desc>0084v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./158/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./158/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./158/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./158/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./158/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0085r" n="159">
 			<desc>0085r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./159/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./159/THUMBNAIL" width="200px" height="261px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./159/SECONDARY_DISPLAY" width="1556px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./159/SECONDARY_DISPLAY" width="1556px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./159/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-0085v" n="160">
 			<desc>0085v</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./160/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./160/THUMBNAIL" width="200px" height="256px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./160/SECONDARY_DISPLAY" width="1592px" height="2040px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./160/SECONDARY_DISPLAY" width="1592px"
+				height="2040px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./160/WEB_DISPLAY"/>
 		</surface>
 		<surface xml:id="AM02-0242-accMat01r" n="161">
 			<desc>accMat01r</desc>
 			<graphic mimeType="pdf" url="AM%20242%20fol./161/HIGH_QUALITY_DISPLAY"/>
 			<graphic mimeType="jpg" url="AM%20242%20fol./161/THUMBNAIL" width="200px" height="252px"/>
-			<graphic mimeType="jpg" url="AM%20242%20fol./161/SECONDARY_DISPLAY" width="1612px" height="2034px"/>
+			<graphic mimeType="jpg" url="AM%20242%20fol./161/SECONDARY_DISPLAY" width="1612px"
+				height="2034px"/>
 			<graphic mimeType="pdf" url="AM%20242%20fol./161/WEB_DISPLAY"/>
 		</surface>
 	</facsimile>

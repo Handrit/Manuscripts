@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,15 +23,15 @@
                             <idno>98</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Sverris saga</title>
-                        <origPlace>Iceland/Norway?</origPlace>
-                        <origDate notBefore="1688" notAfter="1707">s. XVII ex</origDate>
-                        <note>Copy of <ref>AM 327 4to</ref> (<title>Codex optimus</title>).</note>
-                    </head>
                     <msContents>
-                        <msItem defective="true">
+                        <summary><title type="uniform">Sverris saga</title></summary>
+                        <msItem n="1" class="kon" defective="true">
+                            <title type="uniform">Sverris saga</title>
                             <textLang mainLang="is">Icelandic</textLang>
+                            <filiation>Copy of <ref type="ms" target="AM04-0327-en">AM 327 4to</ref>
+                                    (<title>Codex optimus</title>). The lacunae are filled in from
+                                    <title type="ms">Flateyarbók</title> (<ref type="ms">GKS 1005
+                                    fol.</ref>).</filiation>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -42,18 +43,94 @@
                                     </p>
                                 </support>
                                 <extent>249. <dimensions type="leaf" scope="all">
-                                        <height>313</height>
-                                        <width>205</width>
+                                        <height unit="mm">313</height>
+                                        <width unit="mm">205</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
+                                <condition>The manuscript seems to have been exposed to moist
+                                    conditions.</condition>
                             </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2">
+                                    <p>Written in the inner columns of folded leaves.</p>
+                                </layout>
+                            </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
                             <handNote scribe="AsgJon001" scope="sole" script="unknown">
                                 <p> Written by Ásgeir Jónsson.</p>
                             </handNote>
                         </handDesc>
+                        <additions>Corrections on fol. 1r (according to the examplar) are added in 
+                            <name type="person" key="ArnMag001">Árni Magnússon</name>'s hand.</additions>
+                        <bindingDesc>
+                            <!--   <binding contemporary="false">
+                                <p>Binding from  perioden <date notBefore="1700" notAfter="1724">1700-1730</date> og <date notBefore="1880" notAfter="                                                                          1920">1880-1920</date>. Halvbind med pergamentryg og overtræk af
+                                    blankt Gustavmarmor. På spejlet foran har <name type="person" key="KriKaa001">Kålund</name> skrevet 8/8 11
+                                    (1911).</p>
+                            </binding>  -->
+                            <binding>
+                                <p>The boards were originally covered with parchment from a
+                                    Liturgical manuscript in Latin containing Petrus de Herental's
+                                    hymn commentary. This was removed in the summer of <date when="1911"
+                                        >1911</date> and transferred to <ref type="ms"
+                                        target="#Acc-0007-e-da">Access. 7 e, hs. 123</ref> fols
+                                    49-52.</p>
+                            </binding>
+                        </bindingDesc>
+
+                        <accMat>
+                            <p>There are three AM-slips in <name type="person" key="ArnMag001">Árni
+                                    Magnússon</name>'s hand at the beginning of the codex containing
+                                partly an list of manuscripts containing <title type="uniform"
+                                    >Sverris saga</title>, seemingly ranked in order of importance,
+                                partly information pertaining to this copy together with notes on a
+                                translation into Swedish by Rugmann. The list of codices is as
+                                follows: <list>
+                                    <item>
+                                        <p>Sverris Saga.<lb/>
+                                        </p>
+                                        <p> 1. Codex meus in 4<hi rend="sup">to</hi>, optimus ille
+                                            <lb/> in calce trunctatus.<lb/>
+                                        </p>
+                                        <p>2. Codex Academiæ Hafnienſis in 4<hi rend="sup">to</hi>
+                                            <lb/> mutilus qvidem paſſim, at egregius.<lb/>
+                                        </p>
+                                        <p>3. Codex alter Academiæ Hafnienſis <lb/> in 4<hi
+                                                rend="sup">to</hi>. et ille qvidem ſatis bonus <lb/>
+                                        </p>
+                                        <p>4. Codex meus in folio, poſt partem <lb/> ultimam
+                                            Snorronis Sturlæi. nec <lb/> ille qvidem malus.<lb/>
+                                        </p>
+                                        <p>o-------------</p>
+                                        <p>6. Codex Flateyenſis, ubi Sveri vi<lb rend="hyphenated"
+                                            />ta habetur, verboſior aliis.</p>
+                                        <p>7. Codex meus, olim (ut videtur) Eccleſiæ Scalholtenſis
+                                            in Islan<pb/>
+                                        </p>
+                                    </item>
+                                    <item>
+                                        <p>diâ. nulli priorum comparand<lb/>us, nec magnæ ætatis,
+                                            nec <lb/> bonitate præſtans</p>
+                                        <p>8. Brevis hiſtoria Sveri Regis in <lb/> Codice Academiæ
+                                            Hafniensis. </p>
+                                        <p>9. Variorum Codicum fragmenta <lb/> penes me</p>
+                                        <p>o-------------</p>
+                                        <p>5. Vita Sveri Regis in Codece Academiæ Hafnienſis in
+                                            folio, poſt Snorronis Sturlæi Hiſtoriam Norvegicam, ſi
+                                            rectè memini, mutila erat in calce. Codex nunc flammis
+                                            abſsumptus eſt. Torfæus hunc codicem <hi
+                                                rend="underline">Jofraskin<ex>n</ex>am</hi>
+                                            appellavit. Scriptura erat minutâ</p>
+                                    </item>
+                                </list>
+                            </p>
+                        </accMat>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Iceland/Norway?</origPlace>
+                            <origDate notBefore="1688" notAfter="1707">c. 1700</origDate>.</origin>
+                    </history>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

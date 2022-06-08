@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,20 +23,19 @@
                      <idno>2648</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Jónsbók</title>; 
-        <origPlace>Island</origPlace>, 
-        <origDate notBefore="1590" notAfter="1610">ca. 1600</origDate>.</head>
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform">Jónsbók</title></summary>
+                  <msItem n="1" class="log">
                      <textLang mainLang="is">Islandsk</textLang>
+                     <title type="uniform">Jónsbók</title>
                      <incipit defective="true">
-                        <supplied reason="damage">log</supplied>riettu m<ex>onnum</ex> þikier f<ex>iri</ex> bijta
-                        <note>Þingfararbók kap. 9</note>
+                        <supplied reason="damage">log</supplied>&#xA75B;iettu m<ex>onnum</ex>
+                        þikie&#xA75B; &#xA77C;<ex>iri</ex> bijta <note><title type="uniform"
+                              >Þingfararb&#x01EB;lkr</title> kap. 9</note>
                      </incipit>
                      <explicit defective="true">
-                        <supplied reason="damage">uppnæ<ex>m</ex>t. þ skal
-                        <note>Þjófabók kap. 4</note>
+                        <supplied reason="damage">uppnæ<ex>m</ex>t. þ&#xA733; skal <note><title
+                                 type="uniform">Þjófab&#x01EB;lkr</title> kap. 4</note>
                         </supplied>
                      </explicit>
                   </msItem>
@@ -48,14 +48,15 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>149. <dimensions type="leaf" scope="all">
-                              <height>130</height>
-                              <width>87</width>
+                              <height unit="mm">130</height>
+                              <width unit="mm">87</width>
                            </dimensions>.</extent>
                         <foliation>
                            <p>Spor til oprindelig foliering.</p>
                         </foliation>
                         <condition>
-                           <p>Lakuner efter bl. 4, 141, 145 og 148.</p>
+                           <p>Lakuner efter bl. 4, 141, 145 og 148. Beskadiget ved begyndelsen og
+                              slutningen.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -65,9 +66,21 @@
                      </layoutDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1590" notAfter="1610"
+                        >ca. 1600</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >544</biblScope></bibl>
+                      </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-26" who="EvaWed001">Opdateret opmærkning</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,24 +23,53 @@
                      <idno>450</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title xml:lang="dan">Hollandsk lovsamling</title>
-                  <origPlace>The Netherlands</origPlace>
-                  <origDate notBefore="1535" notAfter="1535">1535</origDate>
-               </head>
                <msContents>
+                  <summary><title xml:lang="da">Dutch Legal Manuscript</title><note>Containing
+                        treatises, laws, regulations for Holland, Zeeland and Friesland - partly
+                        relating to the Nordic countries and the towns of the Hanseatic League.
+                        Including e.g. the maritime law of Amsterdam and Flanders.</note>
+                  </summary>
                   <textLang mainLang="dum">Middle Dutch</textLang>
+                  <msItem n="1" class="regist">
+                     <locus from="1r" to="3r">1r-3r</locus>
+                     <title type="supplied">Index</title>
+                  </msItem>
+                  <msItem n="2" class="log">
+                     <locus from="3v" to="160v">3v-160v</locus>
+                     <title type="supplied">Collection of Legal Texts</title>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Paper</p>
+                           <p><material>Paper</material>.</p>
                         </support>
                         <extent>163.</extent>
                      </supportDesc>
                   </objectDesc>
+                  <accMat>There is an AM-slip in <name type="person" key="ArnMag001">Árni
+                        Magnússon</name>'s hand.</accMat>
                </physDesc>
+               <history>
+                  <origin><origPlace>Holland</origPlace>, <origDate when="1535"
+                     >1535</origDate>.</origin>
+                  <acquisition>Accodring to the AM-slip, Árni Magnússon purchased the manuscript at <name type="person"
+                        key="FreRos001">Rostgaard</name>'s auction in <date when="1726">1726</date>.
+                     The manuscript was listed as no 679.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">253-254</biblScope>
+                     </bibl>
+                     <bibl>Schlyter: <ref type="secondary-1" target="CorpJur8">Corpus juris
+                           Sueo-Gotorum antiqui</ref>
+                        <biblScope unit="page">li</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

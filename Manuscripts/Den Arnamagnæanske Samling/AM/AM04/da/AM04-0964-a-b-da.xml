@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,17 +20,15 @@
                   <collection key="AM"/>
                   <idno>AM 964 a-b 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
-                     <idno>096</idno>
+                     <idno>2096</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Optegnelser om Island</title>;
-        <origPlace>Danmark?</origPlace> 
-                  <origDate notBefore="1800" notAfter="1899">s.
-        XIX</origDate>. </head>
                <msContents>
+                  <summary><title type="supplied" xml:lang="da">Optegnelser om
+                     Island</title></summary>
                   <msItem>
-                     <author key="NiePet001">Niels Matthias Petersen</author>
+                     <author key="NiePet001">N.M. Petersen</author>
+                     <title type="supplied" xml:lang="da">Optegnelser om Island</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -43,16 +42,32 @@
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scope="sole" scribe="NiePet001" script="unknown">
-                        <p>Skrevet af Niels Matthias Petersen.</p>
+                        <p>Forfatterens autograf.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>a</idno>
-                  </altIdentifier></msIdentifier>
+               <history>
+                  <origin><origPlace>Danmark</origPlace>,
+                     <origDate notBefore="1800" notAfter="1899">s. XIX</origDate>.</origin>
+                  <acquisition>Modtaget fra <name type="org" key="KglNordOld">Det kongelige nordiske
+                        Oldskriftselskab</name>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">280</biblScope></bibl>
+                  </listBibl>
+               </additional>
+               <msPart n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 964 a 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem>
+                     <msItem n="1">
+                        <author key="NiePet001">N.M. Petersen</author>
                         <title type="uniform">Optegnelser til Islands ældre Beskrivelse</title>
                         <textLang mainLang="da">Ældre nydansk</textLang>
                      </msItem>
@@ -65,8 +80,8 @@
                                  <material>Papir</material>.</p>
                            </support>
                            <extent>183. <dimensions type="leaf" scope="all">
-                                 <height>220</height>
-                                 <width>166</width>
+                                 <height unit="mm">220</height>
+                                 <width unit="mm">166</width>
                               </dimensions>.</extent>
                            <foliation>
                               <p>Pagineret 1-365.</p>
@@ -75,12 +90,15 @@
                      </objectDesc>
                   </physDesc>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>b</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 964 b 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem>
+                     <msItem n="2">
+                        <author key="NiePet001">N.M. Petersen</author>
                         <title type="uniform">Optegnelser til Islands ældre Historie</title>
                         <textLang mainLang="da">Ældre nydansk</textLang>
                      </msItem>
@@ -88,12 +106,13 @@
                   <physDesc>
                      <objectDesc form="codex">
                         <supportDesc material="chart">
-                           <extent>367 og nogle indskudte sedler. <dimensions type="leaf" scope="all">
-                                 <height>225</height>
-                                 <width>177</width>
+                           <extent>367 + nogle indskudte sedler. <dimensions type="leaf"
+                                 scope="all">
+                                 <height unit="mm">225</height>
+                                 <width unit="mm">177</width>
                               </dimensions>.</extent>
                            <foliation>
-                              <p>Pagineret 1-735, tallene 562-566 oversprungne.</p>
+                              <p>Pagineret 1-735, tallene 562-566 er sprunget over.</p>
                            </foliation>
                         </supportDesc>
                      </objectDesc>
@@ -102,7 +121,7 @@
                      <listBibl>
                         <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                            <biblScope unit="volume">II</biblScope>
-                           <biblScope unit="pages">280</biblScope>
+                           <biblScope unit="page">280</biblScope>
                         </bibl>
                      </listBibl>
                   </additional>

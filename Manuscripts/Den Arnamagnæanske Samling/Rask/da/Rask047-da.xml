@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,34 +22,37 @@
                      <idno>2620</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Annaler</title>; <origPlace>Island</origPlace>, <origDate notBefore="1650" notAfter="1699">s. XVII 2/2</origDate>.</head>
                <msContents>
-                  <msItem n="1">
-                     <locus>1r</locus>
-                        <title type="supplied">Annalnotits for 1681</title>
-                     <textLang mainLang="is">Islandsk</textLang>
-                    </msItem>
-                  <msItem n="2">
-                     <locus from="2" to="76">2-76</locus>
-                     <title type="supplied">Annaler fra Flatey</title>
+                  <summary><title type="supplied">Annaler</title></summary>
+                  <msItem n="1" class="annal">
+                     <locus from="1r" to="1r">1r</locus>
+                     <title type="supplied">Annalnotits for 1681</title>
                      <textLang mainLang="is">Islandsk</textLang>
                   </msItem>
-                  <msItem n="3">
+                  <msItem n="2" class="annal">
+                     <locus from="2r" to="76v">2r-76v</locus>
+                     <title type="uniform">Flateyarannál</title>
+                     <textLang mainLang="is">Islandsk</textLang>
+                  </msItem>
+                  <msItem n="3" class="annal">
                      <locus from="77" to="177r">77-177r</locus>
-                     <title type="supplied">Annaler Björn Jónssons fra Skarðsá</title>
+                     <author key="BjoJon006">Björn Jónsson</author>
+                     <title type="uniform">Annálar Björn Jónssonar á Skarðsá</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <note>1400-1642</note>
+                     <note><date from="1400" to="1642">1400-1642</date>. Noget afvigende fra Storms
+                        udgave (<bibl><ref target="GusSto1888a"/></bibl>).</note>
                   </msItem>
-                  <msItem n="4">
+                  <msItem n="4" class="annal">
                      <locus from="177v" to="241r">177v-241r</locus>
-                                        <title type="supplied">Annaler Magnús Magnússons fra <q xml:lang="is">Ísafjarðarsýsla</q>
-                     </title>
+                     <author key="MagMag007">Magnús Magnússon</author>
+                     <title type="uniform">Annálar Magnúsar Magnússonar sýslumanns í
+                        Ísafjarðarsýsla</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <note>1843-84. Hist og her marginaltillæg.</note>
+                     <note><date from="1843" to="1884">1843-84</date>. Hist og her
+                        marginaltillæg.</note>
                   </msItem>
-                  <msItem n="5">
-                     <title type="supplied">En annalnotits for 1731</title>
+                  <msItem n="5" class="annal">
+                     <title type="supplied">Annalnotits for 1731</title>
                      <textLang mainLang="is">Islandsk</textLang>
                   </msItem>
                </msContents>
@@ -57,29 +60,56 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Papir.</p>
+                           <p><material>Papir</material>.</p>
                         </support>
-                        <extent>242. Bl. 188v-189r (sammenklæbede), 232v-233r samt 241v ubeskrevne.
-                        <dimensions type="leaf" scope="all">
-                              <height>237</height>
-                              <width>190</width>
-                           </dimensions>.</extent>
+                        <extent>i + 242 + i. Bl. 232v-233r samt 241v ubeskrevne. <dimensions
+                           type="leaf" scope="all" unit="mm">
+                           <height unit="mm">237</height>
+                           <width unit="mm">190</width>
+                        </dimensions>.</extent>
+                        <condition>Bl. 188v-189r (sammenklæbede)</condition>
                      </supportDesc>
                   </objectDesc>
-                  <handDesc hands="3">
-                     <handNote scribe="TorJon02" scope="minor" script="unknown">
-                        <p>Bl. 1 skrevet af Torfi Jónsson fra Gaulverjabær.</p>
+                  <handDesc hands="2">
+                     <handNote scribe="TorJon002" scope="minor" script="unknown">
+                        <p>Bl. 2r-177r er skrevet af <name type="person" key="TorJon002">Torfi
+                           Jónsson</name> fra Gaulverjabær.</p>
                      </handNote>
-                     <handNote scribe="JonOla09" scope="minor" script="unknown">
-                        <p>Bl. 2-177r skrevet af Jon Ólafsson fra Lambavatn.</p>
-                     </handNote>
-                     <handNote scribe="MagMag02" scope="minor" script="unknown">
-                        <p>Bl. 177v-241r skrevet af Magnús Magnússon fra Eyri.</p>
+                     <!--      <handNote scribe="JonOla009" scope="minor" script="unknown">
+                        <p>Bl. 2-177r skrevet af <name type="person" key="JonOla009">Jon
+                              Ólafsson</name> fra Lambavatn.</p>
+                     </handNote> nyere information - og hvorfra? der står ikke noget om en tredje skriver i Kålunds katalog -->
+                     <handNote scribe="MagMag007" scope="minor" script="unknown">
+                        <p>Bl. 177v-241r skrevet af <name type="person" key="MagMag007">Magnús
+                           Magnússon</name> fra Eyri.</p>
                      </handNote>
                   </handDesc>
-                  <accMat>Indlagt er en lovbestemmelse for Þverárdalur i Eyjafjord syssel
-            (1666-67)</accMat>
+                  <additions><p>Indlagt er en lovbestemmelse for Þverárdalur i <name type="place"
+                     key="Eyjafj02">Eyjafjord syssel</name> (<date from="1666" to="1667"
+                        >1666-67</date>)</p>
+                     <p>På bl. 1 og 242, som oprindeligt var brugt som materiale for spejlet bærer
+                        nogle få notitser. På bl. 1v ses en annalnotits for <date when="1668"
+                           >1668</date> i Torfi Jónssons hånd samt en ejernotits: <q>Hr Biskop
+                              Harboe tilhørende</q>. På bl. 242r er der tilføjet en annalnotits for
+                        <date when="1731">1731</date> (delvist med lønskrift).</p></additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1650" notAfter="1699"
+                     >s. XVII<hi rend="sup">2</hi></origDate>.</origin>
+                  <provenance>Håndskriftet har tilhørt den danske biskop <name type="person"
+                     key="LudHar001">Ludvig Harboe</name>.</provenance>
+                  <acquisition><name type="org">Den Arnamagnæanske Kommision</name> købte <name
+                     type="person" key="RasRas001">Rask</name>s norrøne og islandske
+                     håndskriftsamling efter hans død i <date when="1832">1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">532-33</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

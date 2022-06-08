@@ -1,92 +1,100 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 647 4to</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM04-0647-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Danmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 647 4to</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>1635</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Andreas saga postola</title>;
-                     <origPlace>Iceland</origPlace>, <origDate notBefore="1400" notAfter="1499">s.
-                     XV</origDate>
-               </head>
-               <msContents>
-                  <msItem defective="true">
-                     <title type="uniform" xml:lang="is">Andreas saga postola</title>
-                     <textLang mainLang="is">Old Norse/Icelandic</textLang>
-                     <note>Without miracles.</note>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="perg">
-                        <support>
-                           <p>
-                              <material>Parchment</material>. </p>
-                        </support>
-                        <extent>14. <dimensions type="leaf" scope="most">
-                              <height>183</height>
-                              <width>155</width>
-                           </dimensions>. Fol 10 is, however, disproportionate and of smaller size
-                           than the rest of the leaves.</extent>
-                        <foliation>
-                           <p>Foliated 1-14 with black ink in the upper right-hand corners</p>
-                        </foliation>
-                        <condition>
-                           <p>There are lacunae after fols <locus>6</locus> and
-                              <locus>10</locus>.</p>
-                        </condition>
-                     </supportDesc>
-                     <layoutDesc>
-                        <layout columns="1">
-                           <p>Open space for headings and initials.</p>
-                        </layout>
-                     </layoutDesc>
-                  </objectDesc>
-                  <bindingDesc>
-                     <binding contemporary="false">
-                        <p>Bound in a standard AM-binding; <q>Gustav</q>-marbled boards with leather
-                           spine and corners: <dimensions type="binding">
-                              <height>196</height>
-                              <width>168</width>
-                              <depth>18</depth>
-                           </dimensions>. On the paste-down <name type="person" key="KriKaa001">Kålund</name> wrote the date <date when="1888-05-02">02-05-88</date>.</p>
-                     </binding>
-                  </bindingDesc>
-               </physDesc>
-               <additional>
-                  <listBibl>
-                     <bibl>Kålund, <ref type="secondary" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">53</biblScope>
-                     </bibl>
-                     <bibl>Unger, <ref type="secondary" target="Postola1874">Postola
-                           sögur</ref>
-                        <biblScope unit="pages">xxi</biblScope>
-                     </bibl>
-                  </listBibl>
-               </additional>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 647 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0647-en" xml:lang="en">
+					<msIdentifier>
+						<country>Danmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 647 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>1635</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="uniform" xml:lang="is">Andreas saga
+							postola</title></summary>
+						<msItem n="1" class="post" defective="true">
+							<locus from="1r" facs="#AM04-0647-0001r" to="14r">1r-14r</locus>
+							<title type="uniform" xml:lang="is">Andreas saga postola</title>
+							<textLang mainLang="non"/>
+							<note>Without the appended miracles.</note>
+							<bibl>Unger, <ref type="secondary" target="Postola1874">Postola
+								sögur</ref>
+								<biblScope unit="pages">370-71 (Ed. B). 354–363, 365–370, 376–383 (var.app. B)</biblScope>
+							</bibl>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="perg">
+								<support>
+									<p>
+										<material>Parchment</material>. </p>
+								</support>
+								<extent>14. <dimensions type="leaf" scope="most">
+										<height unit="mm">183</height>
+										<width unit="mm">155</width>
+									</dimensions>. Fol 10 is, however, disproportionate and of a
+									smaller size than the rest of the leaves.</extent>
+								<foliation>
+									<p>Foliated 1-14 with black ink in the upper right-hand
+										corners</p>
+								</foliation>
+								<condition>
+									<p>There are lacunae after fols <locus facs="#AM04-0647-0006r">6</locus> and <locus facs="#AM04-0647-0010r">10</locus>.</p>
+								</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1">
+									<p>Spaces left blank for initials and rubrics.</p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<bindingDesc>
+							<binding contemporary="false">
+								<p>Bound in a standard AM half binding with leather spine and
+									corners; the boards are covered with marbled paper. Size of
+									binding: <dimensions type="binding">
+										<height unit="mm">196</height>
+										<width unit="mm">168</width>
+										<depth unit="mm">18</depth>
+									</dimensions>. On the paste-down <name type="person" key="KriKaa001">Kålund</name> added the date <date when="1888-05-02">02-05-88</date>.</p>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin><origPlace>Iceland</origPlace>, <origDate notBefore="1400" notAfter="1499">s. XV</origDate></origin>
+					</history>
+					<additional>
+						<listBibl>
+							<bibl>Kålund, <ref type="secondary" target="KKKat">Katalog</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">53</biblScope>
+							</bibl>
+							<bibl>Unger, <ref type="secondary" target="Postola1874">Postola
+									sögur</ref>
+								<biblScope unit="pages">xxi</biblScope>
+							</bibl>
+							<bibl><ref type="secondary-1" target="Wolf2013"/><biblScope unit="page">31, 32</biblScope></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0647-0000v-FB" n="0">
 			<desc>0000v-FB</desc>

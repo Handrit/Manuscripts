@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,42 +23,66 @@
                      <idno>2685</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">Prayers</title>
-                  <title n="2">Calendarium Gregorianum</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>
-               </head>
-               <msContents>
-                  <msItem n="1">
-                     <author>
-                        <name type="person" key="JohLas001">Johan Lassen</name>
-                     </author>
-                     <textLang mainLang="is">Islandsk</textLang>
+                <msContents>
+                  <summary><title type="supplied">Prayer Book and a Calendar</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <msItem n="1" class="kvoldb">
+                     <locus from="2r" to="43v">2r-43v</locus>
+                     <author key="JohLas001">Johan Lassen</author>
+                     <respStmt>
+                        <resp key="trl"/>
+                        <name type="person" key="ThoGun004">Þorsteinn Gunnarsson</name>
+                     </respStmt>
+                     <title type="supplied">Evening Prayers</title>
+                     <rubric>Nyt&#x017F;amlegar Bæner &#x017F;em le&#x017F;a maa Sier hvørn Dag,
+                        Saman Skri&#xA77C;adar i þy&#x017F;ku a&#xA77C; M. Johan La&#x017F;sen,
+                        utlagdar A&#xA77C; S. Thorsteini Gunnars Syni, Kirkiu Pre&#x017F;ti ä Hölum
+                        1681</rubric>
+                     <note>On ff. 36-43 various evening prayers for weekdays are repeated.</note>
                   </msItem>
-                  <msItem n="2">
-                     <author>
-                        <name type="person" key="JonArn003">Jón Árnason</name>
-                     </author>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <msItem n="2" class="malvg">
+                     <locus from="45r" to="77v">45r-77v</locus>
+                     <author key="JonArn003">Jón Árnason</author>
+                     <title type="uniform" xml:lang="la">Calendarium Gregorianum</title>
+                     <rubric>Calendarium Gregorianum Edur S&#xA733; Nie Still, Hvar med og
+                        &#xA77C;ylgia Islend&#x017F;k Mi&#x017F;&#x017F;era &#x017F;kipte</rubric>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>79. 
-<dimensions type="leaf" scope="all">
-                              <height>165</height>
-                              <width>101</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>79. (including fly-leaves). Fols 35v, 44r-v and 78v-79r are blank.
+                              <dimensions type="leaf" scope="all">
+                              <height unit="mm">165</height>
+                              <width unit="mm">101</width>
                            </dimensions>
                         </extent>
+                        <condition>A leaf seems cut out after fol. 35.</condition>
                      </supportDesc>
                   </objectDesc>
+                  <additions>Fol. 1 contains provenance notes, fol. 78 only has a note by <name
+                        type="person" key="RasRas001">Rask</name> concerning the author of the
+                     calendar, fol. 79v contains pen trials put into verse etc.</additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1700" notAfter="1799"
+                     >s. XVIII</origDate>.</origin>
+                  <provenance>Among the provenance notes on fol. 1 the names <name
+                     type="person" key="ThoJon104">Þorvaldur Jónsson</name> and <name
+                        type="person" key="OlaSig001">Ólafur Sigurðsson</name> (<date from="1806"
+                           to="1807">1806-7</date>) can be noted.</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">560</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-18" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

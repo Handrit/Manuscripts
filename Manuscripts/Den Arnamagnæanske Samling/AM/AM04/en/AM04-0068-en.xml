@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -23,8 +24,9 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary><title type="supplied" xml:lang="en">Norwegian Legal Manuscript</title></summary>
-                  <textLang mainLang="no">Old Norse/Norwegian</textLang>
+                  <summary><title type="supplied" xml:lang="en">Norwegian Legal
+                     Manuscript</title></summary>
+                  <textLang mainLang="non">Old Norse/Norwegian</textLang>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -32,12 +34,75 @@
                         <support>
                            <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>66. </extent>
+                        <extent>66. <dimensions type="leaf" scope="all">
+                              <height unit="mm">195</height>
+                              <width unit="mm">145</width>
+                           </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
+                  <!-- Its writing falls into two columns and it has been rubricated,
+with some of the initials highly ornamented and coloured red, blue, and green;
+in other words, it contains a level of decoration similar to that found in the three
+other manuscripts of which Þorgeirr Hákonarson seems to have been amongst the
+scribes. -->
                </physDesc>
-               <history><origin><origPlace>Norway</origPlace>
-                  <origDate notBefore="1300" notAfter="1399">s. XIV in</origDate></origin></history>
+
+               <history>
+                  <origin notBefore="1300" notAfter="1399">Written in <origPlace>Norway</origPlace>.
+                     Accoring to <bibl><ref target="ONPindices">ONP</ref></bibl> the manuscript can
+                     be dated to <origDate notBefore="1300" notAfter="1399">s. XIV in, s. XIV ex and
+                        s. XIV med</origDate>. <list>
+                        <item>Fols 1r-11v og 13r-64v: The beginning of the fourteenth century (<bibl>
+                              <ref type="secondary-1" target="KKKat">Katalog</ref>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="page">383</biblScope>
+                           </bibl> and <bibl>
+                              <ref type="secondary-1" target="NgL4">Storm 1885</ref>
+                              <biblScope unit="page">562</biblScope>
+                           </bibl>).</item>
+                           <item>Fol. 12 was inserted later and dates from the end of the
+                           fourteenth century (<bibl>
+                              <ref type="secondary-1" target="KKKat">Katalog</ref>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="page">384</biblScope>
+                           </bibl> and <bibl>
+                              <ref type="secondary-1" target="NgL4">Storm 1885</ref>,
+                           ibid.</bibl>).</item>
+                        <item>Fols 65-66: c. 1350 (<bibl>
+                              <ref type="secondary-1" target="NgL4">Storm 1885</ref>, ibid. </bibl>
+                           and <bibl>
+                              <ref target="Seip1955">Seip 1955</ref>
+                              <biblScope unit="page">229</biblScope>
+                           </bibl>). <name type="person" key="KriKaa001">Kålund</name>'s (<bibl>
+                              <ref type="secondary-1" target="KKKat">Katalog</ref>
+                           </bibl>) dating of this part is uncertain as he calls it "en noget yngre
+                           hånd end det foregående". ("a somewhat younger hand than the previous"
+                           e.g. fols 1r-11v and 13r-64v).</item>
+                     </list>
+                  </origin>
+      </history>
+               <additional>
+                  <listBibl>
+                     <bibl>
+                        <ref target="Gthl">Gulaþingslǫg</ref>
+                     </bibl>
+                     <bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium Islandicum</ref>
+                        <biblScope unit="volume">I</biblScope>
+                     </bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">383-384</biblScope>
+                     </bibl>
+                     <bibl>Storm: <ref target="ChrVidSkFor14">Om Haandskrifter og Oversættelser af
+                           Magnus Lagaböters Love</ref>
+                        <biblScope unit="page">5</biblScope>
+                     </bibl>
+                     <bibl>Storm: <ref type="secondary" target="NgL4">Norges gamle Love</ref>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="page">561-563</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

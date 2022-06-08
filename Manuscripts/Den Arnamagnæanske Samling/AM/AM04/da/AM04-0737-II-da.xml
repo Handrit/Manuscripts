@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">AM 737 II 4to</title>
+            <title type="main">AM 737 II alfa-beta 4to</title>
          </titleStmt>
          <publicationStmt>
             <authority>Den Arnamagnæanske Samling</authority>
@@ -21,52 +22,61 @@
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1852</idno>
                   </altIdentifier>
-                  <altIdentifier type="partial">
+               <altIdentifier type="partial">
                      <idno>AM 737 II alfa 4to</idno>
                   </altIdentifier>
                   <altIdentifier type="partial">
                      <idno>AM 737 II beta 4to</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Jólaskrá og to annal-notitser om Oslo brand 1352 og
-                     1515</title>
-                  <origPlace>Island eller Danmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s.
-                     XVIII 1/4</origDate>
-                  <origDate notBefore="1325" notAfter="1375" evidence="conjecture" resp="STUAGNL41 ONP">s. XIV med.</origDate>
-               </head>
+               <msContents>
+                  <summary><title type="supplied">En jólaskrá og to annal-notitser om Oslo brand
+                        1352 og 1515</title></summary>
+                      <textLang mainLang="is" otherLangs="la non"/>
+               </msContents>
                <physDesc>
                   <handDesc>
-                     <handNote scope="major" script="unknown" scribe="ArnMag0001">Skrevet af Arne
-                        Magnusson (bortset fra pergament-fragmentet).</handNote>
+                     <handNote scope="major" script="unknown" scribe="ArnMag0001">Skrevet af <name type="person" key="ArnMag001">Arne
+                        Magnusson</name> (bortset fra pergament-fragmentet).</handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island eller Danmark</origPlace> i <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">begyndelsen af
+                        1700-tallet</origDate>, pergamentfragmentet er dog fra <origDate
+                        notBefore="1340" notAfter="1360" evidence="conjecture" resp="STUAGNL41">ca.
+                        1350</origDate> (<bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">167</biblScope></bibl>: 1300-tallet).</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">167</biblScope>
+                        <biblScope unit="page">167</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 737 II alfa 4to</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 737 II alfa 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem n="1">
+                     <msItem n="1" class="notes">
                         <locus from="1r" to="1v">1r-v</locus>
                         <author key="ArnMag001">Arne Magnusson</author>
                         <title type="uniform">Bemærkninger til originalen.</title>
                      </msItem>
-                     <msItem n="2">
+                     <msItem n="2" class="jola">
                         <locus from="2r" to="3r">2r-3r</locus>
                         <title type="uniform">Jólaskrá</title>
                         <textLang mainLang="is">Islandsk</textLang>
-                        <rubric>Jola-ſkra</rubric>
-                        <filiation>Askrift af et brudstykke, der oprindelig hørte til <ref type="ms" target="AM02-309-da">AM 309 fol.</ref></filiation>
+                        <rubric>Jola-ſkrä</rubric>
+                        <filiation>Askrift af et brudstykke, der oprindelig hørte til <ref type="ms"
+                              target="AM02-309-da">AM 309 fol.</ref></filiation>
                      </msItem>
+                     <!-- ONP citerer bl. 1r som kilde, som er udgivet i NgL 4, p. 489 og Alfræði Íslenzk, var.app. II. Tjekt med håndskrift   -->
                   </msContents>
                   <physDesc>
                      <objectDesc form="codex">
@@ -77,8 +87,8 @@
                               </p>
                            </support>
                            <extent>3, bl 3v er ubeskrevet. <dimensions type="leaf" scope="all">
-                                 <height>215</height>
-                                 <width>166</width>
+                                 <height unit="mm">215</height>
+                                 <width unit="mm">166</width>
                               </dimensions>
                            </extent>
                         </supportDesc>
@@ -88,32 +98,38 @@
                               Magnusson</name>s bemærkninger til originalen</p>
                         <p>Vedlagt er originalen til afskriften, et brudstykke af et pergamentblad
                               (<dimensions type="leaf">
-                              <height>135</height>
-                              <width>175</width>
+                              <height unit="mm">135</height>
+                              <width unit="mm">175</width>
                            </dimensions>) hvis ene side er ubeskrevet.</p>
                      </additions>
                   </physDesc>
                   <history>
-                     <origin>Skrevet i <origPlace>Island eller Danmark</origPlace> i <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">begyndelsen af 1700-tallet</origDate>. Pergamentbrudstykket er dog
+                     <origin>Skrevet i <origPlace>Island eller Danmark</origPlace> i <origDate
+                           notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat"
+                           >begyndelsen af 1700-tallet</origDate>. Pergamentbrudstykket er dog
                         skrevet i <origPlace>Island</origPlace>
-                        <origDate notBefore="1325" notAfter="1375" evidence="conjecture" resp="STUAGNL41 ONP">ca. 1500</origDate>.</origin>
+                        <origDate notBefore="1340" notAfter="1360" evidence="conjecture"
+                           resp="STUAGNL41 ONP">ca. 1350</origDate> (KKKat: 1300-tallet).</origin>
                   </history>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 737 II beta 4to</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 737 II beta 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem n="1">
+                     <msItem n="3" class="annal">
                         <locus from="1r" to="2v">1r-2v</locus>
-                        <title type="supplied">To annal-notitser om Oslo brand 1352 og 1515</title>
-                        <textLang mainLang="la">Latin</textLang>
-                        <bibl>Storm: <ref type="primary" target="NgL4">Norges gamle Love</ref>
+                        <title type="supplied">To annalnotitser om Oslo brand 1352 og 1515</title>
+                        <textLang mainLang="la"/>
+                        <!-- Er dette virkelig rigtigt? <bibl>Storm: <ref type="primary" target="NgL4">Norges gamle Love</ref>
                            <biblScope unit="volume">IV</biblScope>
-                           <biblScope unit="pages">488-89</biblScope>
-                        </bibl>
-                        <note>Ifølge en påtegning af <name type="person" key="ArnMag001">Arne Magnusson</name> på bl. 1r stod disse notitser
-                           på samme blad som juleskråen, neden for denne.</note>
+                           <biblScope unit="page">488-89</biblScope>
+                        </bibl>  -->
+                        <note>Ifølge en påtegning af <name type="person" key="ArnMag001">Arne
+                              Magnusson</name> på bl. 1r stod disse notitser på samme blad som
+                           juleskråen, neden for denne.</note>
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -125,13 +141,20 @@
                               </p>
                            </support>
                            <extent>2. Bl. 1v er ubeskrevet. <dimensions type="leaf" scope="all">
-                                 <height>165</height>
-                                 <width>106</width>
+                                 <height unit="mm">165</height>
+                                 <width unit="mm">106</width>
                               </dimensions>
                            </extent>
                         </supportDesc>
                      </objectDesc>
-                    </physDesc>
+                  </physDesc>
+                  <history><origin>Skrevet i <origPlace>Island eller Danmark</origPlace> i <origDate
+                     notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat"
+                     >begyndelsen af 1700-tallet</origDate>.</origin></history>
+                  <additional>
+                     <listBibl><bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope
+                        unit="volume">II</biblScope><biblScope unit="page">167</biblScope></bibl></listBibl>
+                  </additional>
                </msPart>
             </msDesc>
          </sourceDesc>

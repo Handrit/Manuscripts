@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,31 +23,86 @@
                      <idno>2668</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">Árnljóts rímur Upplendinga-kappa</title>
-                  <title n="2">Hallvarðs rímur lestamanns</title>
-                  <title n="3">Stríðstilburðir millum Danskra og Engelskra</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1790" notAfter="1810">c. 1800</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Miscellany</title></summary>
+                  <msItem n="1" class="rimur">
+                     <locus from="1r" to="32v">1r-32v</locus>
+                     <author key="SnoBjo001">Snorri Björnsson på Húsafell</author>
+                     <title type="uniform">Rímur af Arnljóti upplendingakappa</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <rubric>Rymur Af Søgu þætte <lb/> Arnlióts Upplendinga Kappa</rubric>
+                     <note>Consisting of eleven <foreign xml:lang="is">rímur</foreign>
+                        cantos.</note>
+                  </msItem>
+                  <msItem n="2" class="rimur">
+                     <locus from="33" to="37">33-37</locus>
+                     <author key="GudSig003">Guðni Sigurðsson</author>
+                     <title type="uniform">Ríma af Hallvarði Lestamanni</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <rubric>Af <lb/> Hallvarde Lestaman<ex>n</ex>e</rubric>
+                     <note>Consisting of one <foreign xml:lang="is">ríma</foreign> authored <date
+                           when="1783">1783</date> in Eyjafjarðarsýsla. The name of the poet is
+                        written in runes.</note>
+                  </msItem>
+                  <msItem n="3" class="sagnfr">
+                     <locus from="38r" to="38r">38r</locus>
+                     <title type="supplied">Note on the Character of the English Nation</title>
+                     <textLang mainLang="da">Danish?</textLang>
+                     <rubric>anekdote</rubric>
+                     <respStmt>
+                        <resp key="rcp"/>
+                        <name type="person" key="PetSuh001">Suhm</name>
+                     </respStmt>
+                  </msItem>
+                  <msItem n="4" class="sagnfr tyd">
+                     <locus from="39" to="49">39-49</locus>
+                     <author key="KlaSei001">Klaus Henrik Seidelin</author>
+                     <title type="uniform" xml:lang="is">Striðstilburðir mellum Danskra og
+                        Englelskra 1801</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <rubric>Stríds-Tilburder millum Danskra og Engelskra 1801 vid K. H.
+                        Seidelin</rubric>
+                     <note>Translated from the Danish printed book <title type="uniform">Krigstildragelser imellem
+                           Danmark og England fra d. 30 Marts 1801 til Begyndelsen af Stilstands
+                           Underhandlingerne den 2den April s. A.</title>. Includes an added <q>Plan
+                           over Slaget i Kongedybet</q> (Plan of the Battle of Copenhagen) and an
+                        list of the Danish and English battleships.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>49. 
-<dimensions type="leaf" scope="all">
+                        <support><material>Paper</material>.</support>
+                        <extent>i+49+i. A few blank pages. <dimensions type="leaf" scope="all">
                               <height>172</height>
                               <width>107</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Parts of a discarded letter in Icelandic was used as material for the
+                           last flyleaf and the lower pastedown.</p>
+                        <!-- KKKat "Endv. forangående og efterfølgende smudsblad" ?  -->
+                     </binding>
+                  </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1790"
+                        notAfter="1810">c. 1800</origDate>.</origin>
+                  <provenance><p>Before the manuscript came into possession of <name type="person"
+                           key="RasRas001">Rask</name> it belonged to <foreign xml:lang="is"
+                           >hreppstjóri</foreign>
+                        <name type="person" key="ThoGis005">Þorsteinn
+                     Gíslason</name>.</p></provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">554</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

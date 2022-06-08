@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,15 +22,12 @@
                             <idno>360</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Eventyr og dyrefabler</title>;
-                            <origPlace>Island</origPlace>, <origDate notBefore="1490" notAfter="1510" evidence="conjecture">ca. 1500</origDate>
-                    </head>
-                    <msContents>
+                      <msContents>
+                        <summary><title type="supplied">Eventyr og dyrefabler</title></summary>
                         <msItem n="1" class="avint damis">
                             <locus from="1r" to="1v">1</locus>
                             <title type="supplied">Seks eventyr</title>
-                            <textLang mainLang="is">Norrønt/islandsk</textLang>
+                            <textLang mainLang="non">Norrønt/islandsk</textLang>
                             <incipit defective="true">en<ex>n</ex> men<ex>n</ex> þickezt hafa ſed
                                     þin<ex>n</ex> faud<ex>ur</ex>
                             </incipit>
@@ -56,8 +53,8 @@
                                     </p>
                                 </support>
                                 <extent>2. <dimensions type="leaf" scope="all">
-                                        <height>210</height>
-                                        <width>155</width>
+                                        <height unit="mm">210</height>
+                                        <width unit="mm">155</width>
                                     </dimensions>
                                 </extent>
                                 <condition>
@@ -76,8 +73,8 @@
                         <bindingDesc>
                             <binding notBefore="1958" notAfter="1961" contemporary="false">
                                 <p>Indbundet i et gråt papomslag: <dimensions type="binding" unit="mm">
-                                        <height>296</height>
-                                        <width>249</width>
+                                        <height unit="mm">296</height>
+                                        <width unit="mm">249</width>
                                     </dimensions>.</p>
                             </binding>
                         </bindingDesc>
@@ -86,11 +83,11 @@
                         <origin>
                             <p>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
                                     <ref type="secondary-1" target="KKKat"/>
-                                </bibl>) har dateret fragmentet til <date notBefore="1400" notAfter="1499">1400-tallet</date>, mens <name type="person" key="PetJor001">Peter A. Jorgensen</name> har dateret det til
+                                </bibl>) har dateret fragmentet til 1400-tallet, mens <name type="person" key="PetJor001">Peter A. Jorgensen</name> har dateret det til
                                     <origDate notBefore="1490" notAfter="1510" evidence="conjecture" resp="ONP">ca. 1500</origDate> (<bibl>
                                     <ref type="secondary" target="BiblArn31">Ten Icelandic Exempla
                                         and Their Middle English Source</ref>
-                                    <biblScope unit="pages">295</biblScope>
+                                    <biblScope unit="page">295</biblScope>
                                 </bibl>).</p>
                         </origin>
                     </history>
@@ -108,7 +105,7 @@
                                     </p>
                                 </custEvent>
                                 <custEvent type="photography">
-                                    <p>Supplerende fotografier af AM 238 I-XXIXs AM-sedler blev
+                                    <p>supplerende optagelser af AM 238 I-XXIXs AM-sedler blev
                                         taget i <date when="1981">1981</date>.</p>
                                 </custEvent>
                                 <custEvent type="conservation">
@@ -120,46 +117,27 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plade</title>
-                                        <idno>plade38</idno>
-                                        <date when="1956">1956</date>
-                                        <note>UV-optagelser.</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">mikrofilm (originaler)</title>
-                                        <idno>Neg 620</idno>
-                                        <date when="1981">1981</date>
-                                        <note>Supplerende fotografier af AM-sedlerne til AM 238
-                                            I-XXIX fol.</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">mikrofilm (arkiv)</title>
-                                        <idno>Pos571</idno>
-                                        <date when="1981">1981</date>
-                                        <note>Supplerende fotografier af AM-sedlerne til AM 238
-                                            I-XXIX fol.</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">s/h fotografier</title>
-                                        <idno>AM 238 XI fol.</idno>
-                                        <date when="1963">1963</date>
-                                        <note>Kopier af UV-optagelserne.</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">farvefotografier</title>
-                                        <idno>AM 238 XI fol.</idno>
-                                        <date when="1983">1983</date>
-                                        <note>Supplerende fotografi af bl. 1v-2r.</note>
-                                    </bibl>
-                                </listBibl>
-                            </p>
+                                <list>
+                                    <item> Plade, <idno>plade 38</idno>, fra <date when="1956"
+                                        >1956</date> (UV-optagelser). </item>
+                                    <item> Mikrofilm (originaler), <idno>Neg 620</idno>, fra <date
+                                        when="1981">1981</date> (supplerende optagelser af
+                                        AM-sedlerne til AM 238 I-XXIX fol.). </item>
+                                    <item> Mikrofilm (arkiv), <idno>Pos571</idno>, fra <date
+                                        when="1981">1981</date> (supplerende optagelser af
+                                        AM-sedlerne til AM 238 I-XXIX fol.). </item>
+                                    <item>Sort-hvid fotografier fra <date when="1963">1963</date>
+                                        (UV-fotografier). </item>
+                                    <item> Farvefotografi fra <date when="1983"
+                                        >1983</date> (supplerende fotografi af bl. 1v-2r).</item>
+                                </list>
+                                
+                                          </p>
                         </surrogates>
                         <listBibl>
                              <bibl>Kålund: <ref type="secondary-1" target="KKKat"/>
                                 <biblScope unit="volume">I</biblScope>
-                                <biblScope unit="pages">203-204</biblScope>
+                                <biblScope unit="page">203-204</biblScope>
                             </bibl>
                         </listBibl>
 

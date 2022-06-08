@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,10 +23,12 @@
                      <idno>2081</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Sagahåndskrift</title>; <origPlace>København,
-                     Danmark</origPlace>, <origDate notBefore="1800" notAfter="1849">s. XIX
-                     1/2</origDate>.</head>
+               <msContents>
+                  <summary><title type="supplied" xml:lang="da">Sagahåndskrift</title></summary>
+                  <msItem>
+                     <textLang mainLang="is"/>
+                  </msItem>
+               </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
@@ -34,28 +37,32 @@
                               <material>Papir</material>. </p>
                         </support>
                         <extent>372. <dimensions type="leaf" scope="all">
-                              <height>220</height>
-                              <width>180</width>
+                              <height unit="mm">220</height>
+                              <width unit="mm">180</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
                <history>
                   <origin>
-                     <p>Skrevet i <origPlace>København, Danmark</origPlace>, i
-                           <origDate notBefore="1800" notAfter="1849" evidence="external" cert="high">1800-tallets første halvdel</origDate>.</p>
+                     <p>Skrevet i <origPlace>København, Danmark</origPlace>, i <origDate
+                           notBefore="1800" notAfter="1850" evidence="external" cert="high"
+                           >1800-tallets første halvdel</origDate>.</p>
                   </origin>
                   <acquisition>
-                     <p>Hele håndskriftet var erhvervet fra <name type="org" xml:lang="da" key="KglNordOld">Det
-                           kongelige nordiske Oldskriftselskab</name> i <date when="1883">1883</date>.</p>
+                     <p>Hele håndskriftet var erhvervet fra <name type="org" xml:lang="da"
+                           key="KglNordOld">Det kongelige nordiske Oldskriftselskab</name> i <date
+                           when="1883">1883</date>.</p>
                   </acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Katalogiseret <date when="2007-10-01">1. oktober 2007</date> af <name type="person" key="EvaWed001">EW-J</name>.</p>
-                           <p>Opdateret <date when="2008-01-23">23. januar 2008</date> af <name type="person" key="SilHuf001">Silvia Hufnagel</name>.</p>
+                           <p>Katalogiseret <date when="2007-10-01">1. oktober 2007</date> af <name
+                                 type="person" key="EvaWed001">EW-J</name>.</p>
+                           <p>Opdateret <date when="2008-01-23">23. januar 2008</date> af <name
+                                 type="person" key="SilHuf001">Silvia Hufnagel</name>.</p>
                         </source>
                      </recordHist>
                      <availability status="free">
@@ -64,40 +71,33 @@
                   </adminInfo>
                   <surrogates>
                      <p>
-                        <listBibl>
-                           <bibl>
-                              <title type="gmd">mikrofilm (originaler)</title>
-                              <idno>neg 793</idno>
-                              <date when="1988">1988</date>
-                              <note>før konservering</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">mikrofilm (arkiv)</title>
-                              <idno>pos 782</idno> s.d.</bibl>
-                           <bibl>
-                              <title type="gmd">mikrofilm (back-up)</title>
-                              <idno>TS 1004</idno>
-                              <date when="2006-02-15">15 Feburary 2006</date>
-                              <note>back-up af neg. 793</note>
-                           </bibl>
-                        </listBibl>
+                        <list>
+                           <item> Mikrofilm (originaler), <idno>neg 793</idno>, fra <date
+                                 when="1988">1988</date> (før konservering). </item>
+                           <item> Mikrofilm (arkiv), <idno>pos 782</idno>, s.d.</item>
+                           <item> Mikrofilm (back-up), <idno>TS 1004</idno>, fra <date
+                                 when="2006-02-15">15. februar 2006</date> (back-up af neg. 793).
+                           </item>
+                        </list>
                      </p>
                   </surrogates>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">275-276</biblScope>
+                        <biblScope unit="page">275-276</biblScope>
                      </bibl>
                      <bibl>Olson: <ref type="secondary" target="STUAGNL39">Yngvars saga
                            víðförla</ref>
-                        <biblScope unit="pages">xvii-xviii</biblScope>
+                        <biblScope unit="page">xvii-xviii</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
                <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 949 a 4to</idno>
-                  </altIdentifier></msIdentifier>
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 949 a 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
                      <msItem n="1" class="fas">
                         <locus from="1:1" to="9:15">1-9</locus>
@@ -107,7 +107,8 @@
                         <incipit>1. K. Buðli er k<ex>onon</ex>gr nefndr, h<ex>ann</ex> réð
                               f<ex>irer</ex> Svíþjóðu, ríkr ok ágætr;</incipit>
                         <explicit>ok er sá eigi nefndr. <lb/> Siðan gőrðist A<ex>smundr</ex>
-                              k<ex>appa</ex>b<ex>ana</ex> víðfrægr ok . . . 2/ <add place="margin-right">2/ máð út i <lb/> codex</add> ok lýkr <lb/> þar
+                              k<ex>appa</ex>b<ex>ana</ex> víðfrægr ok . . . 2/ <add
+                              place="margin-right">2/ máð út i <lb/> codex</add> ok lýkr <lb/> þar
                            þessari sőgu.</explicit>
                         <filiation>
                            <p>Afskrift af <ref type="ms">Stock. perg. 7 4to</ref>.</p>
@@ -133,15 +134,18 @@
                         </layoutDesc>
                      </objectDesc>
                      <additions>
-                        <p>I marginen, ved siden af rubrikken, har skriveren tilføjet: <q xml:lang="la">ex codice membranae. N<hi rend="sup">o</hi> 7 <lb/> 4.
+                        <p>I marginen, ved siden af rubrikken, har skriveren tilføjet: <q
+                              xml:lang="la">ex codice membranae. N<hi rend="sup">o</hi> 7 <lb/> 4.
                               p. 104</q>. På flere steder har skriveren lavet nogle rettelser.</p>
                      </additions>
                   </physDesc>
                </msPart>
                <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 949 b 4to</idno>
-                  </altIdentifier></msIdentifier>
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 949 b 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
                      <msItem n="1" class="ridd">
                         <locus from="1:1" to="264">1-264</locus>
@@ -190,9 +194,11 @@
                   </physDesc>
                </msPart>
                <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 949 c 4to</idno>
-                  </altIdentifier></msIdentifier>
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 949 c 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
                      <msItem n="1" defective="true" class="fas">
                         <locus from="1:1" to="78:23">1-78</locus>
@@ -233,21 +239,24 @@
                   </physDesc>
                </msPart>
                <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 949 d 4to</idno>
-                  </altIdentifier></msIdentifier>
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 949 d 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
                      <msItem n="1" class="fas">
                         <locus from="1:1" to="70:23">1-70</locus>
                         <title type="uniform">Gautreks saga</title>
                         <textLang mainLang="is">Islandsk</textLang>
-                        <incipit>1. Þar hefjum vér eina frásőgu af einum konún<lb rend="hyphenated"/>gi þeim, er Gauti hét, hann var vitr maðr ok <lb/> vel stiltr, mildr ok
+                        <incipit>1. Þar hefjum vér eina frásőgu af einum konún<lb rend="hyphenated"
+                           />gi þeim, er Gauti hét, hann var vitr maðr ok <lb/> vel stiltr, mildr ok
                            máldiarfr.</incipit>
-                        <explicit>en þó var hann vinsæll ok <lb/> stórgjöfull, ok inn hæversklig<add place="supralinear">a</add>sti at <lb/> siá, ok lýkr hér Gjafa-Refs
+                        <explicit>en þó var hann vinsæll ok <lb/> stórgjöfull, ok inn hæversklig<add
+                              place="supralinear">a</add>sti at <lb/> siá, ok lýkr hér Gjafa-Refs
                            sögu.</explicit>
-                        <filiation>
-                           <p>Afskrift af <ref type="ms">AM 152 fol</ref>.</p>
-                        </filiation>
+                        <filiation>Afskrift af <ref type="ms" target="#AM02-0152-1-2-is">AM 152
+                              fol</ref>.</filiation>
                      </msItem>
                      <msItem n="2" class="fas">
                         <locus from="75:1" to="284:6">75-284</locus>
@@ -267,7 +276,7 @@
                               <p>
                                  <material>Papir</material>. </p>
                            </support>
-                           <extent>141. s. <locus from="71" to="74">71-74</locus> er ubeskrevne.
+                           <extent>141. s. 71-74 er ubeskrevne.
                            </extent>
                         </supportDesc>
                         <layoutDesc>
@@ -286,16 +295,19 @@
                   </physDesc>
                </msPart>
                <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 949 e 4to</idno>
-                  </altIdentifier></msIdentifier>
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 949 e 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
                      <msItem n="1" class="sagnt">
                         <locus from="1:1" to="16:16">1-16</locus>
                         <title type="uniform">Illuga saga Gríðarfóstra</title>
                         <textLang mainLang="is">Islandsk</textLang>
                         <rubric>Söguþáttr af Ílluga Gríðarfóstra.</rubric>
-                        <incipit>1. Þat er upphaf þessarrar sögu at sá kon<lb rend="hyphenated"/>ungr réði fyr<del rend="overstrike">r</del>i Danmörk er Hríngr
+                        <incipit>1. Þat er upphaf þessarrar sögu at sá kon<lb rend="hyphenated"
+                           />ungr réði fyr<del rend="overstrike">r</del>i Danmörk er Hríngr
                            hét;</incipit>
                         <explicit>en eptir dauða hennar <lb/> varð Íllugi fóstbróðir Gnoðar-Asmundar
                            <lb/> ok lýkr hér sögu Ílluga gríðarfóstra.</explicit>
@@ -321,9 +333,11 @@
                   </physDesc>
                </msPart>
                <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 949 f 4to</idno>
-                  </altIdentifier></msIdentifier>
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 949 f 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
                      <msItem n="1" class="fas">
                         <locus from="1r:1" to="23r:13">1r-23r</locus>
@@ -345,8 +359,8 @@
                                  <material>Papir.</material>
                               </p>
                            </support>
-                           <extent>24. Bl. <locus>23v</locus> og <locus>24</locus> er ubeskrevne
-                              og hænger stadig sammen øverst på siderne.</extent>
+                           <extent>24. Bl. <locus>23v</locus> og <locus>24</locus> er ubeskrevne og
+                              hænger stadig sammen øverst på siderne.</extent>
                            <collation>
                               <p>Begyndelsen af hvert læg er markeret med arabiske tal.</p>
                            </collation>
@@ -363,9 +377,11 @@
                   </physDesc>
                </msPart>
                <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 949 g 4to</idno>
-                  </altIdentifier></msIdentifier>
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 949 g 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
                      <msItem n="1" class="kon">
                         <locus from="1" to="26v">1r-26v</locus>
@@ -377,7 +393,7 @@
                         <explicit>þó at fyrir man<ex>n</ex>dóms-sakir góðra höfdíng<lb/>ja væra ek
                            vel halldin<ex>n</ex>._</explicit>
                         <filiation>
-                           <p>Afskrift af Skálholt-udgaven af <ref type="ms">GKS 1005 fol. </ref>
+                           <p>Afskrift af Skálholt-udgaven af <ref type="ms" target="#GKS02-1005-is">GKS 1005 fol.</ref>
                                  (<title type="ms">Flateyarbók</title>).</p>
                         </filiation>
                      </msItem>

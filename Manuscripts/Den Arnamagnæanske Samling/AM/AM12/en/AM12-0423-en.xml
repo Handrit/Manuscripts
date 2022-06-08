@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -24,12 +24,20 @@
 						</altIdentifier>
 					</msIdentifier>
 					<msContents>
-						<summary><title type="parallel" xml:lang="en">Danish Prayer Book</title>.
-							This prayer book mainly contains catholic prayers with the exception of a
-							protestant supplement.</summary>
+						<summary><title type="parallel" xml:lang="en">Marine Lauridsdatter's Prayer
+								Book</title>. <note>This prayer book originate from around the
+								Reformation. Fols 1r-152v contain Catholic prayers and fols
+								153v-183v contain Protestant prayers.</note></summary>
 						<msItem n="1" class="banb">
-							<title type="parallel" xml:lang="en">Danish Prayer Book</title>
+							<locus from="1r" facs="#AM12-0423-0001r" to="183v">1r-183v</locus>
+							<title type="parallel" xml:lang="en">Marine Lauridsdatter's Prayer
+								Book</title>
 							<textLang mainLang="da">Danish</textLang>
+							<note>Prayers to the Virgin (fols 53v-54v and 55v-58v) and a prayer to
+								St. Erasmus (fols 63v-66v) were subsequently crossed out.</note>
+							<bibl>Nielsen, <ref target="MDB">Middelalderens danske bønnebøger</ref>
+								<biblScope unit="volume">IV</biblScope>
+								<biblScope unit="page">242-281</biblScope></bibl>
 						</msItem>
 					</msContents>
 					<physDesc>
@@ -39,29 +47,26 @@
 									<p>
 										<material>Paper and parchment</material>.</p>
 								</support>
-								<extent>186. Fols 8v-9r, 41v-42v, 85v, 90r-94v and 184r-v are blank.
-										<dimensions type="leaf" scope="all">
-										<height>98</height>
-										<width>74</width>
+								<extent>187 (including two strips: fols 85<hi rend="sup">bis</hi>
+									and 94<hi rend="sup">bis</hi>). Fols 8v-9r, 34v, 41v-42v,
+										85v-85<hi rend="sup">bis</hi>v, 90r-94v and 184r-v are
+									blank. <dimensions type="leaf" scope="all">
+										<height unit="mm">98</height>
+										<width unit="mm">74</width>
 									</dimensions>
 								</extent>
 							</supportDesc>
 						</objectDesc>
-						<additions>
-							<p>Paper (a strip of parchment was inserted between fol. 94 and
-								fol. 95)</p>
-						</additions>
-					</physDesc>
+							</physDesc>
 					<history>
 						<origin notBefore="1500" notAfter="1599" cert="high" evidence="conjecture">
-							<p>Written in <origPlace>Denmark</origPlace> in <origDate>the sixteenth
+							<p>Written in <origPlace>Denmark</origPlace> in <origDate notBefore="1500" notAfter="1599">the sixteenth
 									century</origDate>.</p>
 						</origin>
 						<provenance>
-							<p>A note has been written on f. 185v: <q xml:lang="da">thenne bog hör
-									fru Marine Erick skrams till</q>. On 185r an inserted slip is to
-								be found: <q xml:lang="da">Bönnebog fru Marine Louenbach M
-								S</q>.</p>
+							<p>A note has been written on fol. 185v: <q xml:lang="da">thenne bog hör
+									fru <name type="person" key="MarEri001">Marine</name> Erick
+									skrams till</q>. On 185r an inserted slip is found: <q xml:lang="da">Bönnebog fru Marine Louenbach M S</q>.</p>
 						</provenance>
 					</history>
 					<additional>
@@ -80,15 +85,10 @@
 						</adminInfo>
 						<surrogates>
 							<p>
-								<bibl>
-									<title type="gmd">microfilm (master)</title>
-									<idno>Neg. 832</idno>
-								</bibl>
-								<bibl>
-									<title type="gmd">microfilm (archive)</title>
-									<idno>Pos. 757 </idno>
-									<date when="1989">1989</date>
-								</bibl>.</p>
+								<list>
+									<item> Microfilm (master), <idno>Neg. 832</idno> from <date when="1989">1989</date>. </item>
+									<item> Microfilm (archive), <idno>Pos. 757 </idno>, from <date when="1989">1989</date>. </item>
+								</list>.</p>
 						</surrogates>
 						<listBibl>
 							<bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
@@ -97,10 +97,12 @@
 							</bibl>
 						</listBibl>
 					</additional>
-					</msDesc>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
-		<revisionDesc><change when="2021-09-07" who="EvaWed001">Updated markup.</change></revisionDesc>
+		<revisionDesc>
+			<change when="2021-09-07" who="EvaWed001">Updated markup.</change>
+		</revisionDesc>
 	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM12-0423-0000r-FB" n="0">

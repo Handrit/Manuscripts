@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,70 @@
                      <idno>1902</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Enarrationum Historicarum de Gronlandia</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1730">s. XVIII in</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
-                     <author>
-                        <name type="person" key="MatSch001">Matthias Henriksen Schacht</name>
-                     </author>
+                  <summary>
+                     <title type="supplied">History of Greenland</title>
+                     <note>Containing Schachts History of Greenland known from <ref type="ms"
+                           target="#AM02-0364-da">AM 364 fol.</ref>. However, comprising neither
+                        illustrations nor maps.</note>
+                  </summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">Enarrationum Historicarum de GRÖNLANDIA, tam VETERI,
+                           qvam NOVA Collectanea <gap reason="irrelevant"/> Operâ et studiis MATTHIÆ
+                           HENRICI SCHATCHTII</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" defective="true">
+                     <locus from="1r" to="80v">1r-80v</locus>
+                     <author key="MatSch001">Matthias Henriksen Schacht</author>
+                     <title type="uniform">Enarrationum Historicarum de Gronlandia</title>
                      <textLang mainLang="la">Latin</textLang>
+                     <note>Defective, ending in the twenty-second chapter.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>80. 
-<dimensions type="leaf" scope="all">
-                              <height>210</height>
-                              <width>167</width>
-                           </dimensions>
-                        </extent>
+                        <support><material>Paper</material>.</support>
+                        <extent>80 (+ 1<hi rend="sup">bis</hi>, including a map). <dimensions
+                              type="leaf" scope="all">
+                              <height unit="mm">210</height>
+                              <width unit="mm">167</width>
+                           </dimensions>. </extent>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">Fols 11v-14v are left blank for a list of sources.</layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <additions>
+                     <p>A map transferred from <ref type="ms">KB Add. 39 4to</ref>
+                        (<name type="org" key="KB">The Royal Library</name>) is enclosed.</p>
+                  </additions>
                </physDesc>
+               <history>
+                  <origin><p><origPlace>Denmark</origPlace>, <origDate notBefore="1700"
+                           notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup"
+                              >1/4</hi></origDate>.</p>
+                     <p>In his catalogue, Jón Sigurðsson refers to three letters concerning this
+                        manuscript: <q>Nor&#x017F;kt Bref Dat. Bergen 1389 um nockra er keypt og
+                           sellt hefdu i Kongs Forbode i Grænlande. Nockur Grænlend&#x017F;k Bref,
+                           edur Grænlande adlutande, hverra (1) er Dat. &#xE3D3;krum i Skagafyrde
+                           1424, (2) Dat. Gördum ä Grænlande 1409, (3) dat. &#xE3D3;krum i
+                           Skagafyrde 1414. Copie af A&#x017F;&#x017F;e&#x017F;s. AMagnus&#x017F;ens
+                           Brefe i Þy&#x017F;ku Dat. Kyrkiubæar Claustre 25 Septembr. 1704 til
+                           Geheime-Raad Ahlefeld. Fra&#x017F;&#xE7D3;gn af uphlaupe Grænlindinga vid
+                           Fran&#x017F;ka Hvalamenn 1688</q>. These letters have been transferred to
+                           <name type="org" key="SA-Rigs">The Danish National Archives</name>.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                        unit="volume">II</biblScope><biblScope unit="page"
+                           >195-196</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

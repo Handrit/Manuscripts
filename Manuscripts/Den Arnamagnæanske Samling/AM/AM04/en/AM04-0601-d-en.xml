@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,35 +23,62 @@
                      <idno>1521</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Skjaldar þáttr Danakonungs</title>
-                  <origPlace>Iceland or Denmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1715">s. XVIII in.</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform">Skjaldar þáttr Danakonungs</title><note>This short
+                        narrative on Skjöldr, king of the Danes, and his enemy, Hermann, existing
+                        only in this manuscript, seem to be based on some <foreign xml:lang="is"
+                           >rímur</foreign> composed by a Magnús Jónsson (see <bibl><ref
+                              type="primary-1" target="PhiLav2016">Lavender
+                        2016</ref></bibl>).</note></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="5v">1r-5v</locus>
+                     <title type="uniform">Skjaldar þáttr Danakonungs</title>
                      <textLang mainLang="is">Icelandic</textLang>
+                     <rubric>Innehald þattar af Skillde <lb/> Dana konge</rubric>
+                     <bibl>Lavender: <ref type="primary-1" target="PhiLav2016">Skjaldar þáttr
+                           Danakonungs. A lost fornaldarsaga?</ref>
+                        <biblScope unit="page">97-101</biblScope></bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>5. 
-<dimensions type="leaf" scope="all">
-                              <height>213</height>
-                              <width>164</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>5. <dimensions type="leaf" scope="all">
+                              <height unit="mm">213</height>
+                              <width unit="mm">164</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="ArnMag001" scope="sole" script="unknown">
-                        <p>
-Written by Árni Magnússon.</p>
+                        <p> Written by Árni Magnússon.</p>
                      </handNote>
                   </handDesc>
+                  <additions><name type="person" key="ArnMag001">Árni Magnússon</name> added the
+                     following below the title <q xml:lang="la">com<ex>m</ex>unicerad mier af <name
+                           type="person" key="MagJon004">M<ex>agnus</ex>e J. ſ.</name> fra
+                        Leyraa</q> and further on the fol. 2, which was added later: <q
+                        xml:lang="is">þetta efne mun vera diktad af ſialfum Magnuſe Jonsſyne, er
+                        Rïmurnar girt hefur, hvar ur þetta teked er</q>. After this, a note on <q
+                        xml:lang="is">Raudur Radgiafe</q> is added. </additions>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Iceland or Denmark</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725">s. XVIII<hi rend="sup">1/4</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">770</biblScope>
+                     </bibl>
+                     <bibl><ref type="primary-1" target="PhiLav2016"/>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

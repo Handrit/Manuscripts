@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,30 +23,78 @@
                             <idno>2811</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Brudstykker af Wulfilas gotiske
-                            bibeloversættelse</title>; <origPlace>Danmark?</origPlace>, <origDate notBefore="1800" notAfter="1899">1800-tallet</origDate>
-                        <note>Afskrift med tilhørende noter.</note>
-                    </head>
+
+                    <msContents>
+                        <summary>
+                            <title type="supplied">Uddrag af Wulfilas gotiske
+                                bibeloversættelse</title>
+                            <note>Afskrift med tilhørende noter. Afskrifterne er på gotisk, noter på
+                                latin.</note>
+                        </summary>
+                        <textLang mainLang="got" otherLangs="la"/>
+                    </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
                                     <p>
-                                        <material>Papir</material> .</p>
+                                        <material>Blåt papir</material> .</p>
                                 </support>
-                                <extent>16. <dimensions type="leaf" scope="all" unit="mm">
-                                        <height>343</height>
-                                        <width>213</width>
+                                <extent>16. Bl. 2v, 5v, 6r, 15v, 16v er blanke. <dimensions
+                                        type="leaf" scope="all" unit="mm">
+                                        <height unit="mm">343</height>
+                                        <width unit="mm">213</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
+                                <foliation>Blyantsfoliering i recto-sidernes øverste højre hjørne.
+                                    Derudover paginering med sort blæk: 1-2, 4-10. </foliation>
+                                <collation>Rækkefølgen jf. titelpapir (se nedenfor) samt blandingen
+                                    af paginering og foliering tyder på, at der er blevet arbejdet
+                                    med håndskriftet ad flere omgange, hvorefter det er blevet
+                                    samlet.</collation>
+
                             </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1">
+                                    <p>Afskrivningen af biblen er enspaltet. Variantapparater er
+                                        noteret i tre kolonner under hovedteksterne. </p>
+                                </layout>
+                            </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote scribe="KonGis001" scope="sole" script="unknown">Skrevet af
-                                Konrad Gislason (med hans autograf).</handNote>
+                                Konráð Gíslason.</handNote>
                         </handDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p>Marmoreret sort-grønt halvbind i pap med læderryg. Påklistret
+                                    titelpapir på forperm: <q>
+                                        <lb/>1. <q>Yfirlit</q>. <lb/>2. Skammstafanir. <lb/>3. Orðin
+                                        úr MA og MN.<lb/> 4.Esdras. <lb/> 5. Nehemias. <lb/>6.
+                                        Aivaggeljo &#x00DE;airh ma&#x00FE;&#x00FE;aiu <lb/> I
+                                        &#x00FE;essan röð 4, 5, 1, 2, 3, 6.</q></p>
+                            </binding>
+                        </bindingDesc>
                     </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Danmark?</origPlace>, <origDate notBefore="1800"
+                                notAfter="1899">1800-tallet</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <custodialHist>
+                                <p>Katalogiseret <date when="2021-11-04"/> af <name type="person"
+                                        key="AnnChr001">Annika Christensen</name> efter
+                                    håndskriftet.</p>
+                            </custodialHist>
+                        </adminInfo>
+                        <listBibl>
+                            <bibl>Kålund <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                                    >II</biblScope>
+                                <biblScope unit="page">602</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -31,7 +31,7 @@
                         <msItem n="1" defective="false" class="sagnfr">
                             <locus from="2r" to="10v">2r-10v</locus>
                             <author key="Einooo003">Einhardus</author>
-                            <title type="uniform">Vita Karoli magni</title>
+                            <title type="uniform">Vita Caroli magni</title>
                             <textLang mainLang="la">Latin</textLang>
                             <rubric>ADHEMARI MONACHI <lb/> de rebus domi forisq<ex>ue</ex>
                                 <lb/> a Carolo Magno <lb/> gestis Liber, que<ex>m</ex>
@@ -58,7 +58,9 @@
                                 <lb/>ei<ex>us</ex> condita erat nobiliter sepeliuit</explicit>
                             <note><bibl>
                                     <ref type="primary" target="MGHSRG064">Tremp</ref>
-                                </bibl> siglum K. </note>
+                                </bibl>
+                                <note>siglum K.</note>
+                            </note>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -69,9 +71,10 @@
                                         <material>Parchment.</material>
                                     </p>
                                 </support>
-                                <extent>i + 34 + i. Size of leaves: <dimensions type="leaf" scope="all" unit="mm">
-                                        <height>250</height>
-                                        <width>190</width>
+                                <extent>i + 34 + i. Size of leaves: <dimensions type="leaf"
+                                        scope="all" unit="mm">
+                                        <height unit="mm">250</height>
+                                        <width unit="mm">190</width>
                                     </dimensions>.</extent>
                                 <foliation>Foliated 1-36, including the front and end
                                     flyleaves.</foliation>
@@ -80,15 +83,15 @@
                                 <layout columns="1" writtenLines="36">
                                     <p> Written in one column throughout; 36 lines per page.</p>
                                     <p> Size of written area: <dimensions type="written" unit="mm">
-                                            <height>210</height>
-                                            <width>135</width>
+                                            <height unit="mm">210</height>
+                                            <width unit="mm">135</width>
                                         </dimensions>.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <summary>Written in one hand, in Gothic script.</summary>
-                            <handNote scope="sole" script="unknown"/>
+                            <handNote scope="sole" script="textualis">Written in one hand, in Gothic
+                                script.</handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote type="miniature" subtype="historiated">
@@ -97,37 +100,49 @@
                                     a later hand on fol. <locus from="2r" to="2r">2r</locus>.</p>
                             </decoNote>
                             <decoNote type="initial" subtype="plain">
-                                <p>There are three- to six-line initials in red ink on fol. <locus from="2r" to="2r">2r</locus>, fol. <locus from="2v" to="2v">2v</locus>, fol. <locus from="6r" to="6r">6r</locus>, fol.
-                                        <locus from="10v" to="10v">10v</locus>, fol. <locus from="11r" to="11r">11r</locus> and fol. <locus from="27r" to="27r">27r</locus>.</p>
+                                <p>There are three- to six-line initials in red ink on fols <locus
+                                        from="2r" to="2r">2r</locus>, <locus from="2v" to="2v"
+                                        >2v</locus>, <locus from="6r" to="6r">6r</locus>, <locus
+                                        from="10v" to="10v">10v</locus>, <locus from="11r" to="11r"
+                                        >11r</locus> and <locus from="27r" to="27r">27r</locus>.</p>
                             </decoNote>
                         </decoDesc>
-                        <additions>Notes and ownership marks on the front and back flyleaves (fol.
-                                <locus from="1v" to="1v">1v</locus> and fol. <locus from="36r" to="36r">36r</locus>) as well as on fol. <locus from="1r" to="1r">1r</locus> by <name type="person" key="JacVas001">Jacobus
+                        <additions>Notes and provenenance notes on the front and back flyleaves (fol.
+                                <locus from="1v" to="1v">1v</locus> and fol. <locus from="36r"
+                                to="36r">36r</locus>) as well as on fol. <locus from="1r" to="1r"
+                                >1r</locus> by <name type="person" key="JacVas001">Jacobus
                                 Marande</name>. This hand is also responsible for the rubrics on
-                            fol. <locus from="2r" to="2r">2r</locus> and fol. <locus from="10v" to="10v">10v</locus> in addition to other marginal notes. There are
+                            fol. <locus from="2r" to="2r">2r</locus> and fol. <locus from="10v"
+                                to="10v">10v</locus> in addition to other marginal notes. There are
                             notes by at least one more later hand throughout the
                             manuscript.</additions>
                     </physDesc>
                     <history>
                         <origin notBefore="1150" notAfter="1199"><p>Written in the <origPlace>Loire
-                                    region</origPlace>, France during <origDate>the second half of the
-                                    twelfth century</origDate> (See: <bibl><ref type="secondary-2" target="MatTis2001a">Tischler, Einharts "Vita
-                                    Karoli"</ref></bibl>).</p></origin>
+                                    region, France</origPlace> during <origDate notBefore="1150"
+                                    notAfter="1199">the second half of the twelfth
+                                    century</origDate> (<bibl><ref type="secondary-2"
+                                        target="MatTis2001a">Tischler
+                                    2001</ref><!-- biblScope? --></bibl>).</p></origin>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>Catalogued on <date when="2018-10-16"/> by <name type="person" key="KivYav001">N. Kıvılcım Yavuz</name>. Last
-                                    updated on <date when="2019-04-01"/> by <name type="person" key="KivYav001">N. Kıvılcım Yavuz</name>.</source>
+                                <source>Catalogued on <date when="2018-10-16"/> by <name
+                                        type="person" key="KivYav001">N. Kıvılcım Yavuz</name>. Last
+                                    updated on <date when="2019-04-01"/> by <name type="person"
+                                        key="KivYav001">N. Kıvılcım Yavuz</name>.</source>
                             </recordHist>
                         </adminInfo>
                         <listBibl>
                             <bibl> Vita Karoli magni <ref type="primary-1" target="MGHSRG025"/>
                             </bibl>
-                            <bibl> Vita Hludowici imperatoris <ref type="primary-2" target="MGHSRG064"/>
+                            <bibl> Vita Hludowici imperatoris <ref type="primary-2"
+                                    target="MGHSRG064"/>
                                 <biblScope unit="pages">278-555</biblScope>
                             </bibl>
-                            <bibl> The Life of Charles the Emperor <ref type="primary-3" target="Einooo2009a"/>
+                            <bibl> The Life of Charles the Emperor <ref type="primary-3"
+                                    target="Einooo2009a"/>
                             </bibl>
                             <bibl> Kålund <ref type="secondary-1" target="KKKat"/>
                                 <biblScope unit="volume">II</biblScope>

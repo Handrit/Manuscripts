@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -45,19 +45,18 @@
                         <msItem n="1" class="salm rimur gamkv">
                             <author key="OlaJon007">Ólafur Jónnson</author>
                             <title type="supplied">Kvæði</title>
-                            <msItem n="1.1">
-                                <title type="supplied">Kvæði, del I: opbyggelige digte</title>
+                            <msItem n="1.1" class="salm">
+                                <title type="supplied">Kvæði, del I: Opbyggelige digte</title>
                             </msItem>
                             <msItem n="1.2">
-                                <title type="supplied">Kvæði, del II: forskellige digte</title>
-                                <note>Among those <title>Jórsala rímur</title> in 6
-                                        <foreign>rímur</foreign> items</note>
+                                <title type="supplied">Kvæði, del II: Forskellige digte</title>
+                                <note>Heri <title type="uniorm">Jórsala rímur</title>, i alt 6.</note>
                             </msItem>
-                            <msItem n="1.3">
+                            <msItem n="1.3" class="regist">
                                 <locus from="228r" to="232v">228r-232v</locus>
-                                <title type="supplied">Epilog og register</title>
+                                <title type="supplied">Eterskrift og register</title>
                             </msItem>
-                            <msItem n="1.5" class="gamkv">
+                            <msItem n="1.4" class="gamkv">
                                 <locus from="232v" to="232v">232v</locus>
                                 <title type="uniform">To gamankvæði</title>
                             </msItem>
@@ -71,8 +70,8 @@
                                 </support>
                                 <extent>ii + 232. Bl. 2v og verso-siden af titelbladet efter s. 256
                                     er blanke. <dimensions type="leaf" scope="all">
-                                        <height>202</height>
-                                        <width>160</width>
+                                        <height unit="mm">202</height>
+                                        <width unit="mm">160</width>
                                     </dimensions>
                                 </extent>
                                 <foliation>
@@ -88,23 +87,23 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="2">
-                            <handNote scribe="BjoJon003">
+                            <handNote scribe="BjoJon003" script="unknown" scope="major">
                                 <p>Påbegyndt af <name type="person" key="BjoBjo003">Björn
                                     Jónsson</name>, som var søn af <name type="person"
                                         key="JonBja002">Jón Bjarnason</name>, som håndskriftet blev afskrevet for.</p>
                             </handNote>
-                            <handNote scribe="MagMag009">
+                            <handNote scribe="MagMag009" script="unknown" scope="minor">
                                 <p>Björns fætter <name
                                     type="person" key="MagMag009">Magnús Magnússon</name>, overtog dog skriverarbejdet, da Björn døde.</p>
                             </handNote>
                         </handDesc>
                         <additions>
-                            <p>Bl 1v, titelbladets bagside, indeholder to bibelcitater, og bl. 2r en
+                            <p>Bl. 1v, titelbladets bagside, indeholder to bibelcitater, og bl. 2r en
                                 kort meddelelse om samlingens to dele <q>Ad Lectorem</q>.</p>
                             <p>Det første friblad bærer et personnavn med dateringen <date
                                 when="1792">1792</date>.</p></additions>
                         <bindingDesc>
-                            <p>Bindets forreste inderside er beklædt med en konvolut, adresseret til
+                            <p>Bindets forreste inderside er beklædt med et brevomslag, adresseret til
                                 <name type="person" key="JonBja002">Jón Bjarnason</name> på
                                 <name type="place">Ballará</name>.</p>
                         </bindingDesc>
@@ -117,12 +116,13 @@
                                     Núpi 1787</q> meddeler <name type="person" key="MagMag009"
                                         >Magnús Magnússon</name> at håndskriftet er afskrevet for hans
                                 farbror, <name type="person" key="JonBjo005">Jón
-                                    Björnsson</name>.</p>
+                                    Björnsson</name> og at det er skrevet delvist af Jóns søn <name type="person" key="BjoJon003"
+                                        >Björn</name> og dels - efter Björns død - af Magnús selv.</p>
                         </origin>
                     </history>
                     <additional>
                         <listBibl>
-                            <bibl>Kålund, <ref target="KKKat"/><biblScope unit="volume"
+                            <bibl>Kålund: <ref target="KKKat"/><biblScope unit="volume"
                                 >II</biblScope><biblScope unit="page">529-30</biblScope></bibl>
                         </listBibl>
                     </additional>
@@ -131,7 +131,7 @@
         </fileDesc>
         <revisionDesc>
             <change when="2021-06-21" who="EvaWed001">Oversat til dansk.</change>
-            <change when="2021-10-11" who="EvaWed001">Opdateret markup.</change>
+            <change when="2021-10-14" who="EvaWed001">Opdateret opmærkning.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>

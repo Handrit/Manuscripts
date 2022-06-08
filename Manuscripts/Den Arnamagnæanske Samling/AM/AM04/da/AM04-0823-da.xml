@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,11 +23,13 @@
                      <idno>1955</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Commentarius in historiam Flavii Lucii Dextri</title>;
-                     <origPlace>Spanien</origPlace>, <origDate when="1628" evidence="internal">1628</origDate>. </head>
                <msContents>
-                  <msItem>
+                  <summary>
+                     <title type="supplied">Kommentar til Omnimoda historia, tilskrevet Flavius
+                        Lucius Dexter</title>
+                  </summary>
+                  <msItem n="1">
+                     <locus from="1r" to="253r">1r-253r</locus>
                      <title type="supplied">Commentarius in historiam Flavii Lucii Dextri</title>
                      <textLang mainLang="la">Latin</textLang>
                      <note>Fortsættelse af <ref type="ms" target="AM04-0822-da">AM 822
@@ -41,37 +43,63 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>253. Bl. 253v er ubeskrevet. <dimensions type="leaf" scope="all">
-                              <height>242</height>
-                              <width>173</width>
+                        <extent>i + 255. <dimensions type="leaf" scope="all">
+                              <height unit="mm">242</height>
+                              <width unit="mm">173</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc n="1">
-                     <handNote scribe="JoaCor001" scope="sole" script="unknown">
-                        <p>Skrevet af Joannes de Corres.</p>
+                     <handNote scribe="JoaTor001" scope="sole" script="unknown">
+                        <p>Skrevet af <name type="person" key="JoaTor001">Joannes de Torres</name>
+                           (I <bibl><ref type="secondary-1" target="KKKat">Kålunds
+                              Katalog</ref></bibl> angivet som <q>Corres</q>).</p>
                      </handNote>
                   </handDesc>
+                  <additions>
+                     <p>Nu kun ulæselige spor af skrift på ryggen af bindet.</p>
+                  </additions>
                   <bindingDesc>
                      <binding>
-                        <p>Rygtitel: <q xml:lang="la">Flauij Lucij dextri pars 2<hi rend="sup">a</hi>
+                        <p>Blødt bind med pergamentomslag og formering. Rygtitel: <q xml:lang="la"
+                              >Flauij Lucij dextri pars 2<hi rend="sup">a</hi>
                            </q>.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Spanien</origPlace>, <origDate when="1628" evidence="internal"
+                        >1628</origDate>.</origin>
+                  <provenance>
+                     <p>Håndskriftet har tilhørt <name type="person" key="CorLer001">Cornelius
+                           Pedersen Lerche</name>, og i hans auktionskatalog fra 1682 er det optegnet
+                        under kvarto-håndskrifterne som nr. 5 (jf. <bibl><ref type="secondary-2"
+                              target="CPLKat">Catalogus</ref>
+                           <biblScope unit="page">166</biblScope></bibl>).</p>
+                  </provenance>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source><p>Nærværende håndskriftbeskrivelsen er lavet udelukkende på
-                           basis af <bibl><ref target="KKKat">Kålunds katalog</ref></bibl>. </p><p>For yderligere
-                              oplysninger se den engelske beskrivelse: <ref type="url" target="https://handrit.is/manuscript/view/en/AM04-0823">https://handrit.is/manuscript/view/en/AM04-0823</ref>.</p>
+                        <source>
+                           <p>Håndskriftbeskrivelsen er baseret på <bibl><ref target="KKKat">Kålunds
+                                    katalog</ref></bibl>.</p>
                         </source>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">221</biblScope>
+                        <biblScope unit="page">221</biblScope>
+                     </bibl>
+                     <bibl>
+                        <ref type="secondary-2" target="CPLKat"/>
+                        <biblScope unit="pages">164-167</biblScope>
+                     </bibl>
+                     <bibl>
+                        <ref type="secondary-4" target="HarIls1999"/>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">360-364</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

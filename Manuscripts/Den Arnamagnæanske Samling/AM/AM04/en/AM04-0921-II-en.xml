@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,13 +23,14 @@
                      <idno>2053</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Ólafs saga helga</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1350" notAfter="1399">s. XIV 2/2</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                  <summary><title type="uniform">Ólafs saga helga</title><note>A part of
+                    the prologue.</note></summary>
+                  <msItem n="1" class="kon">
+                     <locus from="1va" to="1vb">1va-vb</locus>
+                     <title type="uniform">Ólafs saga helga</title>
+                     <textLang mainLang="non">Old Norse/Icelandic</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -36,15 +38,65 @@
                         <support>
                            <p>Parchment.</p>
                         </support>
-                        <extent>1. 
-<dimensions type="leaf" scope="all">
-                              <height>250</height>
-                              <width>80</width>
-                           </dimensions>
+                        <extent>1. Fol. 1r originally blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">250</height>
+                              <width unit="mm">80</width>
+                           </dimensions>.
                         </extent>
+                        <condition>
+                           <p>The first column is almost cut off completely and fol. 1r only
+                              show faint traces of later additions.</p>
+                        </condition>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2">Written in two columns.</layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <additions>
+                     <p>A few lines written in red ink follow the prologue. Below <name
+                           type="person" key="ArnMag001">Árni Magnússon</name> has made an attempt
+                        to copy these.</p>
+                     <p>On the originally blank fol. 1r, a hand from <date notBefore="1500"
+                           notAfter="1599">the sixteenth century</date> wrote a love poem in six
+                        lines. Due to excising of the leaf, the last part of each line is missing.
+                        The poem is published in <bibl>Johnsen &amp; Jón Helgason, <ref
+                              type="primary" target="OlHJH">Den store saga om Olav den
+                              hellige</ref><biblScope unit="volume">II</biblScope><biblScope
+                              unit="page">953</biblScope></bibl> and <bibl>Louis-Jensen, <ref
+                              type="primary" target="JonLou1996">Marginalia poetica</ref><biblScope
+                                 unit="page">257</biblScope></bibl>. In the latter, an attempt to reconstruct the text has been made.</p> 
+                     <p>Further benath a single line reads: <q>Gud v<ex>er</ex>e m<ex>ed</ex> þi<ex>er</ex> baudvar(?)</q></p>
+                  </additions>
                </physDesc>
+               <history>
+                  <origin>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1350"
+                        notAfter="1399" evidence="conjecture" resp="ONP">the last half of the
+                        fourteenth century</origDate> (<bibl><ref type="secondary-1" target="OlHJH"
+                           >Johnsen &amp; Jón Helgason 1941</ref><biblScope unit="page"
+                           >956</biblScope></bibl>). <name type="person" key="KriKaa001"
+                        >Kålund</name>'s dating: c. 1400 (<bibl><ref type="secondary-1"
+                           target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">263</biblScope></bibl>).</origin>
+                  <acquisition><name type="person" key="ArnMag001">Árni Magnússon</name> got the
+                     leaf in <date when="1704">1704</date>
+                     <q>af Monſr. <name type="person" key="MagBjo004">Magnuſe Birnsſyne</name> ä
+                           <name type="place" key="EspHra01">Störa höle</name></q>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="primary" target="OlHJH">Johnsen &amp; Jón Helgason 1941</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">952-954</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat">Kålund, Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">262, 263</biblScope>
+                     </bibl>
+                     <bibl><ref type="primary" target="JonLou1996">Louis-Jensen 1996</ref>
+                        <biblScope unit="page">256-258</biblScope></bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

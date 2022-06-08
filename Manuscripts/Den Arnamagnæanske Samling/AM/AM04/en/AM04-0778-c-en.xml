@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,30 +23,58 @@
                      <idno>1908</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Nye forslag till Coloniers oprettelse udi Grønland</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1730">s. XVIII in</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="da">Danish</textLang>
+                  <summary><title type="supplied">Proposition for Establishing Colonies in
+                        Greenland</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="7r">1r-7r</locus>
+                     <title type="supplied">Proposition for Establishing Colonies in
+                        Greenland</title>
+                     <textLang mainLang="da"/>
+                     <rubric>Nye forſlag till Coloniers oprettelse <lb/> udi Grönland</rubric>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>7. 
-<dimensions type="leaf" scope="all">
-                              <height>203</height>
-                              <width>161</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>7. Fol. 7v is blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">203</height>
+                              <width unit="mm">161</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <additions>
+                     <p><name type="person" key="ArnMag001">Árni Magnússon</name> added the date
+                           <date when="1727">1727</date> above the title on fol. 1r.</p>
+                  </additions>
+                  <accMat>
+                     <p>A map of the area around Nuuk is enclosed; this is transferred from <ref
+                           type="ms">Addit 39 4to</ref> (<name type="org" key="KB">The Royal
+                           Library</name>).</p>
+                  </accMat>
+
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark</origPlace>, <origDate notBefore="1700" notAfter="1730"
+                        evidence="conjecture" resp="KKKat">s. XVIII in</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">199</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2022-03-01" who="EvaWed001">Updated markup and transated the title.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

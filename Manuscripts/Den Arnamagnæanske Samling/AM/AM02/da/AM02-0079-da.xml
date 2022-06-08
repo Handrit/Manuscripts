@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,20 +22,14 @@
                             <idno>98</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Sverris saga</title>
-                        <origPlace>Island/Norge?</origPlace>
-                        <origDate notBefore="1688" notAfter="1707">s. XVII ex</origDate>
-                    </head>
-                    <msContents>
+                      <msContents>
+                        <summary><title type="uniform">Sverris saga</title></summary>
                         <msItem defective="true" class="kon">
-                            <title>Sverris saga</title>
+                            <title type="uniform">Sverris saga</title>
                             <textLang mainLang="is">Islandsk</textLang>
-                            <filiation>
-                                <p>Afskrift af <ref type="ms" target="AM04-0327-da">AM 327 4to</ref>
+                            <filiation>Afskrift af <ref type="ms" target="AM04-0327-da">AM 327 4to</ref>
                                         (<title type="ms">Codex optimus</title>) med lakunerne
-                                    udfyldte efter <title type="ms">Flateyarbók</title>.</p>
-                            </filiation>
+                                udfyldte efter <title type="ms">Flateyarbók</title> (<ref type="ms">GKS 1005 fol.</ref>).</filiation>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -47,11 +41,11 @@
                                     </p>
                                 </support>
                                 <extent>249. <dimensions type="leaf" scope="all" unit="mm">
-                                        <height>313</height>
-                                        <width>205</width>
+                                        <height unit="mm">313</height>
+                                        <width unit="mm">205</width>
                                     </dimensions>
                         </extent>
-                                <condition>Håndskriftet bærer spor af fugtighed.</condition>
+                                <condition>Håndskriftet bærer spor af fugt.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2">
@@ -65,26 +59,26 @@
                             </handNote>
                         </handDesc>
                         <additions>
-                     <name type="person" key="ArnMag001">Arne Magnusson</name> har lavet rettelser på bl 1r efter
+                     <name type="person" key="ArnMag001">Arne Magnusson</name> har tilføjet rettelser på bl. 1r efter
                             originalen.</additions>
                         <bindingDesc>
-                            <binding contemporary="false">
-                                <p>Fra perioden <date notBefore="1700" notAfter="1724">1700-1730</date> og <date notBefore="1880" notAfter="                                                                          1920">1880-1920</date>. Halvbind med pergamentryg og overtræk af
+                            <!--   <binding contemporary="false">
+                                <p>Binding from  perioden <date notBefore="1700" notAfter="1724">1700-1730</date> og <date notBefore="1880" notAfter="                                                                          1920">1880-1920</date>. Halvbind med pergamentryg og overtræk af
                                     blankt Gustavmarmor. På spejlet foran har <name type="person" key="KriKaa001">Kålund</name> skrevet 8/8 11
                                     (1911).</p>
-                            </binding>
+                            </binding>  -->
                             <binding>
                                 <p>Oprindeligt bestod overtrækket af pergament fra et latinsk
                                     liturgisk håndskrift med Petrus de Herentals psalmekommentar;
                                     dette blev aftaget i sommeren <date when="1911">1911</date> og
-                                    overført til <ref type="ms">Access. 7 e, hs. 123</ref> bl.
+                                    overført til <ref type="ms" target="#Acc-0007-e-da">Access. 7 e, hs. 123</ref> bl.
                                     49-52.</p>
                             </binding>
                         </bindingDesc>
                         <accMat>
-                            <p>Der er tre AM-sedler forrest i bogen, hvor <name type="person" key="ArnMag001">Arne Magnusson</name> giver en
-                                fortegnelse over Sverris saga, tilsyneladende i prioriteret
-                                rækkefølge, dels oplysning om denne afskrift, samt endelig oplysning
+                            <p>Der er tre AM-sedler forrest i bogen, hvor <name type="person" key="ArnMag001">Arne Magnusson</name> dels giver en
+                                fortegnelse over håndskrifter, der indeholder Sverris saga, tilsyneladende i prioriteret
+                                rækkefølge, dels oplysning om denne afskrift, og til soidst oplysninger
                                 om en svensk oversættelse af Rugmann. Fortegnelsen over codices
                                 lyder: <list>
                                     <item>
@@ -131,6 +125,15 @@
                      </p>
                         </accMat>
                     </physDesc>
+                    <history><origin> <origPlace>Island/Norge?</origPlace>
+                        <origDate notBefore="1688" notAfter="1707">c. 1700</origDate>.</origin></history>
+                    <!-- ??? -->
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                                >I</biblScope><biblScope unit="page">59-60</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

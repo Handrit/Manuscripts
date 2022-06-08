@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -24,29 +24,38 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary><title>Norwegian Legal Manuscript</title></summary>
+                        <summary><title type="supplied">Norwegian Legal Manuscript</title></summary>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="mixed">
                                 <support>
-                                    <p><material>Parchment and paper</material>.</p>
+                                    <p><material>Parchment (fols 1-2) and paper</material>.</p>
                                 </support>
-                                <extent>7, fols 1v, 2v, 3v are blank. Fol. 1 which is of parchment
-                                    has been folded and therefore its real length is 277 mm. The
-                                    length of fol. 2 is 135 mm. While the first two folios are
-                                    parchment and from the fourteenth century, the last three paper
-                                    leaves are from sixteenth century and are written by Árni
-                                        Magnússon.<dimensions type="leaf" scope="all">
-                                        <height>210</height>
-                                        <width>170</width>
-                                    </dimensions>
-                                </extent>
+                                <extent>7 leaves. Fols 1v, 2v, 3v are blank.<dimensions type="leaf"
+                                        scope="all">
+                                        <height unit="mm">210</height>
+                                        <width unit="mm">170</width>
+                                    </dimensions>. Fol. 1 was folded; undfolded it measures
+                                        <dimensions type="leaf" unit="mm">
+                                        <height unit="mm">210</height>
+                                        <width unit="mm">277</width>
+                                    </dimensions>; fol. 2 measures <dimensions type="leaf" unit="mm">
+                                        <height unit="mm">210</height>
+                                        <width unit="mm">235</width>
+                                    </dimensions>; fol. 3 measures <dimensions type="leaf" unit="mm">
+                                        <height unit="mm">320</height>
+                                        <width unit="mm">210</width>
+                                    </dimensions>. </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="2">
-                            <handNote scope="major" script="unknown">
-                                <p>Fols 4-7 written by <name type="person" key="ArnMag001">Árni
+                            <handNote script="unknown" medium="ink" scope="minor" scribe="ThoHak001">
+                                <p>According to the AM-slip, fols 1-2 are written by <name
+                                        type="person" key="ThoHak001">Þorgeir Hákonarson</name>.</p>
+                            </handNote>
+                            <handNote scope="major" script="unknown" scribe="ArnMag001">
+                                <p>Fols 4-7 ae written by <name type="person" key="ArnMag001">Árni
                                         Magnússon</name>.</p>
                             </handNote>
                         </handDesc>
@@ -54,15 +63,14 @@
                     <history>
                         <origin notBefore="1515" notAfter="1710" cert="medium" evidence="conjecture">
                             <p>The manuscript, which is written in <origPlace>Iceland</origPlace>,
-                                consists of two parts; One is from <origDate notBefore="1515"
-                                    notAfter="1535">c. 1525</origDate> and the other, written by
-                                    <name type="person" key="ArnMag001">Árni Magnússon</name>, is
-                                from <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>.
-                            </p>
+                                    <origDate notBefore="1515" notAfter="1710">c. 1525 and c.
+                                    1700</origDate>. It of two parts; the first two leaves originate
+                                from c. 1525 and the rest, written by <name type="person"
+                                    key="ArnMag001">Árni Magnússon</name>, is from c. 1700.</p>
                         </origin>
                         <provenance>
                             <p>4r-v contains a note from Árni Magnússon about the provenance of the
-                                parchment leaves 1r-v and 2r-v. <q>aptan vid Noregs lògbok Magnuff
+                                parchment leaves 1 and 2. <q>aptan vid Noregs lògbok Magnuff
                                         k<expan>onun</expan>gs lagabæters, þä sem Þorgeir Hakonar
                                     son hefur ritad, og eg feck af Capitain Jul</q>.</p>
                         </provenance>
@@ -71,64 +79,58 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date>09-11-1999</date> by AWS (parsed
-                                        21-06-2000).</p>
+                                    <p>Catalogued <date when="1999-11-09">09-11-1999</date> by
+                                        AWS.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="photography">
-                                    <p>The manuscript was photographed in 1988.</p>
+                                    <p>The manuscript was photographed in <date when="1988"
+                                            >1988</date>.</p>
                                 </custEvent>
                                 <custEvent type="loan">
-                                    <p>The manuscript was lent to the Royal Library from
-                                            <date>25.04.1966</date> to <date>23.05.1967</date> for
-                                        the use of Harald Ilsøe.</p>
+                                    <p>The manuscript was lent to <name type="org" key="KB">the
+                                            Royal Library</name> from <date from="1966-04-25"
+                                            to="1967-05-23">25.04.1966 to 23.05.1967</date> for the
+                                        use of Harald Ilsøe.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
-                            <p>The manuscript was photographed in 1988 and AMI has the following
-                                copies: <bibl>
-                                    <title type="gmd">microfilm (master)</title>
-                                    <idno>Neg. 782</idno>
-                                    <date>1988</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">microfilm (archive)</title>
-                                    <idno>Pos. 717</idno>
-                                    <date>1988</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">microfilm (master)</title>
-                                    <idno>Neg. 782</idno>
-                                    <date>1988</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">microfilm (archive)</title>
-                                    <idno>Pos. 782</idno>
-                                    <date>1988</date>
-                                </bibl>
+                            <p>The manuscript was photographed in <date when="1988">1988</date>. The
+                                following copies are kept at <name type="org" key="AMS">The
+                                    Arnamagnæan Collection</name> in <name type="place"
+                                    key="Copen01">Copenhagen</name>: <list>
+                                    <item>Microfilm (master), <idno>Neg. 782</idno></item>
+                                    <item>Microfilm (archive), <idno>Pos. 717</idno>.</item>
+                                    <item>Microfilm (master), <idno>Neg. 782</idno>.</item>
+                                    <item>Microfilm (archive), <idno>Pos. 782</idno>.</item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
-                            <bibl>
-                                <ref type="primary-2" target="NgL4">Norges gamle Love indtil
-                                    1387</ref><biblScope unit="volume">IV</biblScope><biblScope
-                                    unit="page">474-76, 539</biblScope></bibl>
+                            <bibl><ref type="secondary" target="KKKat"/>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">360</biblScope></bibl>
+                            <bibl>Storm, <ref type="secondary" target="NgL4">Norges gamle Love
+                                    indtil 1387</ref><biblScope unit="volume"
+                                    >IV</biblScope><biblScope unit="page">474-76,
+                                539</biblScope></bibl>
                         </listBibl>
                     </additional>
                     <msPart n="1">
                         <msIdentifier>
                             <altIdentifier type="partial">
-                                <idno>AM 32 a 4to I</idno>
+                                <idno>AM 32 a I 4to</idno>
                             </altIdentifier>
                         </msIdentifier>
                         <msContents>
-                            <textLang mainLang="is">Icelandic</textLang>
+                            <textLang mainLang="non">Old Norse/Norse</textLang>
                             <msItem n="1" class="kont">
                                 <locus from="1r" to="1r">1r</locus>
-                                <title type="supplied">Royal Genealogy from King Hans to Magnus Minnisköld</title>
-                               </msItem>
+                                <title type="supplied">Royal Genealogy from King Hans to Magnus
+                                    Minnisköld</title>
+                            </msItem>
                             <msItem n="2" class="sagnfr">
                                 <locus from="2r" to="2r">2r</locus>
                                 <title type="supplied">Account of the Coronation of King Hans,
@@ -154,25 +156,27 @@
                             <msItem n="3" class="kont">
                                 <locus from="3r" to="3r">3r</locus>
                                 <title type="supplied">Royal Genealogy</title>
-                                <filiation>A copy of f. 1r.</filiation>
+                                <filiation>A copy of fol. 1r.</filiation>
                             </msItem>
                             <msItem n="4" class="notes">
                                 <locus from="4r" to="4v">4r-v</locus>
-                                <title type="supplied">Árni Magnússon's Notes Concerning the Two Parchment Leaves</title>
+                                <title type="supplied">Árni Magnússon's Notes</title>
+                                <note>Concerning the two parchment leaves (fols 1-2).</note>
                             </msItem>
                             <msItem n="5" class="kont sagnfr">
                                 <locus from="5r" to="7v">5r-7v</locus>
-                                <title type="supplied">Royal Genealogy and Account of the Coronation of King Hans,
-                                    1483</title>
-                                <filiation><name type="person" key="ArnMag001">Árni Magnússon</name>'s
-                                    copy of the two parchment leaves</filiation>
+                                <title type="supplied">Royal Genealogy and Account of the Coronation
+                                    of King Hans, 1483</title>
+                                <filiation><name type="person" key="ArnMag001">Árni
+                                    Magnússon</name>'s copy of the two parchment leaves</filiation>
                             </msItem>
                         </msContents>
                         <history>
                             <origin notBefore="1690" notAfter="1710" cert="medium"
                                 evidence="conjecture">
-                                <p>This part is written in <origPlace>Iceland</origPlace> <origDate notBefore="1690"
-                                        notAfter="1710">c. 1700</origDate>. </p>
+                                <p>This part is written in <origPlace>Iceland</origPlace>
+                                    <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>.
+                                </p>
                             </origin>
                         </history>
 
@@ -180,8 +184,12 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2021-10-06">Information moved from head to @summary and @origin. Translated the titles into English.</change></revisionDesc>
-        
+        <revisionDesc>
+            <change when="2021-10-06" who="EvaWed001">Information moved from head to @summary and
+                @origin. Translated the titles into English.</change>
+            <change when="2022-04-28" who="EvaWed001">Proofread.</change>
+        </revisionDesc>
+
     </teiHeader>
     <facsimile>
         <surface/>

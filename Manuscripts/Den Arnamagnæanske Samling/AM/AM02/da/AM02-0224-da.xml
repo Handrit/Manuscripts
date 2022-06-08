@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -23,14 +23,10 @@
                             <idno>344</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Thómas saga erkibiskups</title>
-                        <origPlace>Norge?</origPlace>
-                        <origDate notBefore="1690" notAfter="1707">c. 1700</origDate>
-                    </head>
-                    <msContents>
-                        <msItem n="1">
-                            <locus from="1r" to="139v"/>  		
+                       <msContents>
+                    	<summary><title type="uniform">Thómas saga erkibiskups</title></summary>
+                        <msItem n="1" class="hels">
+                            <locus from="1r" facs="#AM02-0224-0001r" to="139v"/>  		
                             <title type="uniform">Thómas saga erkibiskups</title>
                             <rubric>Saga Thomæ Erkib<ex>isku</ex>ps</rubric>
                             <incipit>Liost er orþit af</incipit>
@@ -77,8 +73,8 @@
                                 </list>
                                 </p>
                                     <signatures>Der er ingen lægsignaturer.</signatures>
-                                    <catchwords>Der er kustoder på hvert åttende blad, dvs. bl. <locus>8v</locus>, <locus>16v</locus>,
-                                        <locus>24v</locus>, <locus>32v</locus>, <locus>40v</locus> osv. til og med <locus>136v</locus>.</catchwords> 
+                                    <catchwords>Der er kustoder på hvert ottende blad, dvs. bl. <locus facs="#AM02-0224-0008v">8v</locus>, <locus facs="#AM02-0224-0016v">16v</locus>,
+                                        <locus facs="#AM02-0224-0024v">24v</locus>, <locus facs="#AM02-0224-0032v">32v</locus>, <locus facs="#AM02-0224-0040v">40v</locus> osv. til og med <locus facs="#AM02-0224-0136v">136v</locus>.</catchwords> 
                                 </collation>
                                 <condition><p>Bladene er i godt tilstand og ret rene. De er kun lidt mørkere ved snittet.</p>
                                 </condition>
@@ -106,10 +102,10 @@
                         </handDesc>
                         <decoDesc><decoNote type="initial">Den første initial er på samme højde med 3 linjer og er dekoreret med hjælp af adskillige streger.</decoNote>
                             <decoNote type="initial">De fleste initialer er kun lidt større end teksten (1-2 linjer) og er let ornamenterede.</decoNote>
-                            <decoNote type="frieze">Der er et mellemstort slutningsvignet på bl. <locus>139v</locus>,
+                            <decoNote type="frieze">Der er et mellemstort slutningsvignet på bl. <locus facs="#AM02-0224-0139v">139v</locus>,
                                 der ligner et uendelighedstegn med en ekstra bue.</decoNote>
                             <decoNote type="other">Snittet er sprængt med rød farve.</decoNote></decoDesc>
-                        <additions><p>Der er få tilføjelser i margen (fx på bl. <locus>4r</locus>), nogle af dem er varianter (fx på bl. <locus>31r</locus> og <locus>33r</locus>).</p></additions> 
+                        <additions><p>Der er få tilføjelser i margin (fx på bl. <locus facs="#AM02-0224-0004r">4r</locus>), nogle af dem er varianter (fx på bl. <locus facs="#AM02-0224-0031r">31r</locus> og <locus facs="#AM02-0224-0033r">33r</locus>).</p></additions> 
                         
                         <bindingDesc><binding><p>Helbind i pergament med gennemtrukne pergamentstropper. Pergamentet har tidligere været anvendt til et andet bogbind
                             og har været for lille til det nuværende bind, da det nederste hjørne er øget med et ekstrastykke pergament. Bogblokken er hæftet på fire pergamentstropper, som er trukket
@@ -119,8 +115,8 @@
                       Spejlet foran er sat sammen af to stykker forskellt papir (blankt).</p></binding></bindingDesc> 
                         
                         <accMat>
-                            <p>En <locus from="accMat01r" to="accMat01v">AM-seddel</locus> 
-                                (<dimensions type="slip" unit="mm"><height>157</height><width>112</width></dimensions>) 
+                            <p>En <locus from="accMat01r" facs="#AM02-0224-accMat01r" to="accMat01v">AM-seddel</locus> 
+                                (<dimensions type="slip" unit="mm"><height unit="mm">157</height><width unit="mm">112</width></dimensions>) 
                                 befinder sig foran i håndskriftet.
                                 En af <name key="ArnMag001" type="person">Arne Magnussons</name> skrivere skrev på den:
                                 <q>Fra Sal. Assessor Thormod Toruesens Enke 1720.</q> Og en anden hånd tiljøjede <q>Num. 1</q>. 
@@ -129,14 +125,13 @@
                     </physDesc>
                     
                     <history>
-                        <origin>
+                         <origin>
                             <p>Håndskriftet er skrevet i <origPlace key="NO">Norge</origPlace>.
                                 <name type="person" key="ThoTor001">Torfæus</name> lad sin skrivere
                                 <name type="person" key="AsgJon001">Ásgeir Jónsson</name> skrive det i perioden
                                 <origDate notBefore="1690" notAfter="1697">1690-1697</origDate>
-                                <bibl>Már Jónsson: <ref type="secondary-1" target="MárJón2009">Skrifarinn 
-                                    Ásgeir Jónsson frá Gullberaströnd í Lundarreykjadal</ref>
-                                    <biblScope unit="pages">285</biblScope></bibl>.</p>
+                            	(<bibl><ref type="secondary-1" target="MárJón2009">Már Jónsson 2009</ref>
+                                    <biblScope unit="page">285</biblScope></bibl>).</p>
                         </origin>
                         <provenance>
                             <p><name type="person" key="ArnMag001">Arne Magnusson</name> har fået håndskriftet som gave af
@@ -159,9 +154,9 @@
                         </list>
                         </p></surrogates>
                         <listBibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">I</biblScope><biblScope unit="pages">181</biblScope></bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">I</biblScope><biblScope unit="page">181</biblScope></bibl>
                             <bibl>Már Jónsson: <ref type="secondary-1" target="MárJón2009">Skrifarinn Ásgeir Jónsson frá Gullberaströnd í Lundarreykjadal</ref>
-                                <biblScope unit="pages">285</biblScope></bibl>
+                                <biblScope unit="page">285</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

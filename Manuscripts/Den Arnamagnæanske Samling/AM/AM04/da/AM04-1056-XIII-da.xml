@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -29,7 +29,8 @@
                      <locus from="1r" to="2v">1r-2v</locus>
                      <title type="supplied" xml:lang="da">Tidebog</title>
                      <bibl>Nielsen: <ref target="NKirS3">Levninger af danske håndskrifter fra
-                           Middelalderen</ref><biblScope unit="pages">442-443</biblScope></bibl>
+                           Middelalderen</ref><biblScope unit="page">442-443</biblScope><note>Bl.
+                           1r.</note></bibl>
                   </msItem>
                </msContents>
 
@@ -41,19 +42,24 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>2 halve blade. <dimensions type="leaf" scope="all">
-                              <height>85</height>
-                              <width>119</width>
+                              <height unit="mm">85</height>
+                              <width unit="mm">119</width>
                            </dimensions>.</extent>
+                        <condition>Af bl. 1 er de øverste 16 linjer bevarede, af bl. 2 er de
+                           nederste 10 linjer bevarede. De to brudstykker tilhørte oprindeligt samme
+                           blad. Ved overskæringen er der forekommet mindre lakuner.</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1">
-                           <p>Røde overskrifter, røde og blå initialer.</p>
+                           <p>Røde rubrikker; røde og blå initialer.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                </physDesc>
                <history>
-                  <origin notBefore="1450" notAfter="1499" evidence="conjecture" resp="KKKat"><origPlace>Danmark</origPlace>, <origDate notBefore="1450" notAfter="1499">s. XV<hi rend="sup">2</hi></origDate>.</origin>
+                  <origin notBefore="1450" notAfter="1499" evidence="conjecture" resp="KKKat"
+                        ><origPlace>Danmark</origPlace>, <origDate notBefore="1450" notAfter="1499"
+                        >s. XV<hi rend="sup">2</hi></origDate>.</origin>
                   <provenance>Fra Åstrup lensregnskab <date from="1631" to="1632">1631-1632</date>,
                      fundet i <name type="org" key="SA-Rigs">Rigsarkivet</name>.</provenance>
                   <acquisition>Skænket til <name type="org">Den Arnamagnæanske Samling</name> fra
@@ -61,8 +67,12 @@
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">308,
-                        311</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">308, 311</biblScope></bibl>
+                     <bibl><ref target="MDB">Nielsen 1982</ref>
+                        <biblScope unit="volume">V</biblScope>
+                        <biblScope unit="page">10</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

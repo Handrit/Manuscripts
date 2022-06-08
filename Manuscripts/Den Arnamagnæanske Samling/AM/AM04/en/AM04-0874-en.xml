@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,49 @@
                      <idno>2005</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">German Legal Manuscript</title>
-                  <origPlace>Germany or Denmark</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="ger" otherLangs="la">German and Latin</textLang>
+                  <summary><title type="supplied">German Legal Manuscript</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="83v">1r-83v</locus>
+                     <title type="supplied">Documents Concerning the Duchys Schleswig and
+                        Holstein</title>
+                     <textLang mainLang="de" otherLangs="la">German and Latin</textLang>
+                     <note>Mainly exchanged between the Danish kings on one side and the earls of Holstein
+                        and dukes of Gottorp on the other. The first document is concerning the
+                        enfeoffment of the Duchy of Schleswig to earl Gerhard of Holstein <date when="1326">1326</date>. The
+                        last document is dated <date when="1587">1587</date> but the previous documents end in <date notBefore="1640" notAfter="1660">the middle of
+                        the seventeenth century</date>.</note>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="85r" to="91v">85r-91v</locus>
+                     <title type="supplied">Household Remedies</title>
+                     <textLang mainLang="de">German</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>153. 
-<dimensions type="leaf" scope="all">
-                              <height>203</height>
-                              <width>160</width>
-                           </dimensions>
+                        <support><material>Paper</material>.</support>
+                        <extent>153. Fol. 84 is blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">203</height>
+                              <width unit="mm">160</width>
+                           </dimensions>.
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Germany or Denmark</origPlace>, <origDate notBefore="1600"
+                        notAfter="1699">s. XVII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">241</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

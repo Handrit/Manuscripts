@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,40 +23,75 @@
                             <idno>1971</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="da" n="1">Krønike fra Erik af Pommern til
-                            Christian III's død</title>
-                        <title type="supplied" xml:lang="da" n="2">Årbog fra 1158-1560</title>
-                        <origPlace>Denmark</origPlace>
-                        <origDate notBefore="1765" notAfter="1785">c. 1775</origDate>
-                    </head>
                     <msContents>
-                        <textLang mainLang="da">Danish</textLang>
+                        <summary><title type="supplied" xml:lang="da" n="1">Historical
+                            Texts</title>. In Jón Sigurðsson's catalogue (<ref type=",s"
+                                target="#AM04-1059-da">AM 1059 4to.</ref>) this shelfmark is
+                            provided with the following title: "Annales Danici begyndes ved Kong
+                            Voldemar, endes 1565. har pagg. 252" to which has been added: "er
+                            en Copie nylig indleveret for et ſiden forkommet N<hi rend="sup">o</hi>
+                            hvoreffter denne er ſkreven".</summary>
+                        <textLang mainLang="da"/>
+                        <msItem n="1" class="sagnfr">
+                            <locus from="2r" to="77r">2r-77r</locus>
+                            <title type="supplied">Chronicle from Eric of Pomerania to the Death of
+                                Christian III</title>
+                        </msItem>
+                        <msItem n="2" class="annal">
+                            <locus from="78r" to="188v">78r-188v</locus>
+                            <title type="supplied">Annals from 1158-1560</title>
+                        </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
                                     <p>
-                                        <material>Papir.</material>
+                                        <material>Paper.</material>
                                     </p>
                                 </support>
                                 <extent>188. <dimensions type="leaf" scope="all">
-                                        <height>186</height>
-                                        <width>149</width>
+                                        <height unit="mm">186</height>
+                                        <width unit="mm">149</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scribe="ThorAde01" scope="sole" script="unknown">
-                                <p>Written by Þorleifur Adeldahl (Arason).</p>
+                            <handNote scribe="ThoAra005" scope="sole" script="unknown">
+                                <p>Written by <name type="person" key="ThoAra005">Þorleifur Adeldahl
+                                        (Arason)</name>.</p>
                             </handNote>
                         </handDesc>
+                        <additions><q>Chronica <lb/> N<hi rend="sup"
+                            >o</hi> 839 <lb/>
+                            <name type="person" key="ThoAra005">Adeldahl</name></q>.was added to the title page.</additions>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Denmark</origPlace>, <origDate notBefore="1765"
+                                notAfter="1785">c. 1775</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund <ref type="secondary-1" target="KKKat"
+                                    >Katalog</ref><biblScope unit="volume">II</biblScope><biblScope
+                                    unit="page">229</biblScope></bibl>
+                            <bibl>Rørdam <ref target="HHDNSR">Historieskrivningen og
+                                    Historieskriverne i Danmark og Norge siden Reformationen</ref>
+                                <biblScope unit="page">30</biblScope>
+                            </bibl>
+                            <bibl>Rørdam <ref target="HolRør1873-1875">Historiske Kildeskrifter og
+                                    Bearbejdelser af dansk Historie især fra det 16
+                                    Aarhundrede</ref>
+                                <biblScope unit="volume">I:1</biblScope>
+                                <biblScope unit="page">560</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2021-11-26" who="EvaWed001">Updated.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

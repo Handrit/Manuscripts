@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">AM 567 XVII alfa 4to</title>
+            <title type="main">AM 567 XVII a 4to</title>
          </titleStmt>
          <publicationStmt>
             <authority>Den Arnamagnæanske Samling</authority>
@@ -17,32 +18,75 @@
                   <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
                   <collection key="AM"/>
-                  <idno>AM 567 XVII alfa 4to</idno>
+                  <idno>AM 567 XVII a 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1415</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Mágus saga</title>;
-                  <origPlace>Iceland</origPlace>,
-                  <origDate notBefore="1500" notAfter="1599" resp="ONP">s. XVI</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="uniform">Mágus saga</title></summary>
+                  <textLang mainLang="non"/>
+                  <msItem n="1" class="ridd" defective="true">
+                     <locus from="1r" to="4v">1r-4v</locus>
+                     <title type="uniform">Mágus saga</title>
+                     <msItem n="1.1">
+                        <locus from="1r" to="2v">1r-2v</locus>
+                        <incipit defective="true">
+                           <ex>ok</ex> kona all væn</incipit>
+                        <explicit defective="true">
+                           <ex>ok</ex> ſuar<ex>ar</ex> onguo Ein<ex>ar</ex>
+                        </explicit>
+                        <bibl>Cederschiöld, <ref type="primary" target="FSSCed">Fornsögur
+                              Suðrlanda</ref>
+                           <biblScope unit="page">5:50-8:35</biblScope>
+                        </bibl>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="3r" to="4v">3r-24</locus>
+                        <incipit defective="true">f<ex>ra</ex>m f<ex>ar</ex>a ef h<ex>ann</ex>
+                              fei<ex>n</ex>gi</incipit>
+                        <explicit defective="true">huort h<ex>ann</ex> ſkylldi ſta<supplied
+                              reason="unknown">
+                              <ex>n</ex>
+                           </supplied>da<lb/>zt</explicit>
+                        <bibl>Cederschiöld, <ref type="primary" target="FSSCed">Fornsögur
+                              Suðrlanda</ref>
+                           <biblScope unit="page">29:42-32:31</biblScope>
+                        </bibl>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>4. </extent>
+                        <extent>4. <dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">180</height>
+                           <width unit="mm">128</width>
+                        </dimensions></extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
-            </msDesc>
+               <history>
+                  <origin>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1500"
+                        notAfter="1599" cert="high" resp="ONP">the sixteenth century</origDate>
+                     (Dodsworth pers. <date when="1985">1985</date>). <name type="person"
+                        key="KriKaa001">Kålund</name>'s date: The fifteenth century (<bibl>
+                        <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">725</biblScope>
+                     </bibl>). </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">725</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional> </msDesc>
          </sourceDesc>
       </fileDesc>
    </teiHeader>

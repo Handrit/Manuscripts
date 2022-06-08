@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,38 +23,60 @@
                      <idno>1898</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Gronlandia</title>
-                  <origPlace>Norway?</origPlace>
-                  <origDate notBefore="1688" notAfter="1699">s. XVII ex</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Gronlandia, Navigation Routes to Greenland and Bishops of Greenland</title></summary>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="ArnJon001">Arngrímur Jónsson</name>
-                     </author>
-                     <textLang mainLang="la">Latin</textLang>
+                     <locus from="1r" to="29v">1r-29v</locus>
+                     <author key="ArnJon001">Arngrímur Jónsson</author>
+                     <title type="uniform">Gronlandia</title>
+                     <textLang mainLang="la"/>
+                     <rubric>GRONLANDIA</rubric>
+                     <filiation>Cognate to <ref type="ms" target="AM04-0773-a-da">AM 773 a
+                        4to</ref>.</filiation>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="30r" to="31r">30r-31r</locus>
+                     <title type="supplied">Navigation Routes to Greenland</title>
+                     <textLang mainLang="da"/>
+                     <rubric>Om Gronlands Siegling</rubric>
+                     <filiation>Cognate to <ref type="ms" target="AM04-0773-a-da">AM 773 a
+                        4to</ref>.</filiation>
+                     <note>A translation of three well known sea routes.</note>
+                  </msItem>
+                  <msItem n="3">
+                     <locus from="31v" to="31v">31v</locus>
+                     <title type="supplied">Bishops of Greenland</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Biskupar á Grænlandi</rubric>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>31. 
-<dimensions type="leaf" scope="all">
-                              <height>200</height>
-                              <width>160</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>31. <dimensions type="leaf" scope="all">
+                              <height unit="mm">200</height>
+                              <width unit="mm">160</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="AsgJon001" scope="sole" script="unknown">
-                        <p>
-Written by Ásgeir Jónsson.</p>
+                        <p> Written by Ásgeir Jónsson.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Copenhagen, Denmark</origPlace>, <origDate notBefore="1686"
+                        notAfter="1694">c. 1686-1888 or 1694</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">194</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

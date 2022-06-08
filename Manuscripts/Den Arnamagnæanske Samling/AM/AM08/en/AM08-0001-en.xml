@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,42 @@
                      <idno>2196</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Digestorum libri L</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <summary><title type="uniform" xml:lang="la">Digestorum seu Pandectarum iuris
+                        ciuilis partitio et methodus</title></summary>
+                  <msItem n="1" class="logfr">
+                     <locus from="1r" to="160v">1r-160v</locus>
+                     <author>Guilielmus Cornhuysius</author>
+                     <title type="uniform" xml:lang="la">Digestorum seu Pandectarum iuris ciuilis
+                        partitio et methodus</title>
+                     <textLang mainLang="la">Latin</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>160. 
-<dimensions type="leaf" scope="all">
-                              <height>135</height>
-                              <width>86</width>
+                        <extent>160. <dimensions type="leaf" scope="all">
+                              <height unit="mm">135</height>
+                              <width unit="mm">86</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark</origPlace>
+                     <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">323</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,29 +23,62 @@
                      <idno>2037</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" n="1">Catalogue of the Manuscripts N. Krag Bequeathed to the University Library</title>
-                  <title type="uniform" n="2">Catalogus librorum Manuscriptorum Domini Christiani Wormi, Sælandi Episcopi</title>
-                  <title type="uniform" n="3">Tractatus Msti in bibliotheca W. Wormii</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1690" notAfter="1720">c. 1700</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Catalogues and a Treaty</title></summary>
                   <textLang mainLang="la">Latin</textLang>
+                  <msItem n="1">
+                     <locus from="1r" to="13v">1r-13v</locus>
+                     <title type="supplied">Catalogue of the Manuscripts N. Krag Bequeathed to the
+                        University Library</title>
+                     <note>Given by his widow in <date when="1602">1602</date>.</note>
+                     <textLang mainLang="la">Latin</textLang>
+                     <bibl>Smith <ref target="BirSmi1882">Om Kjøbenhavns Universitetsbibliothek før
+                           1728, især dets Håndskriftsamlinger</ref>
+                        <biblScope unit="page">112-121</biblScope></bibl>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="14r" to="41v">14r-41v</locus>
+                     <title type="supplied">Catalogue of Christen Worm's Manuscripts</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <rubric>Catalogus <lb/> librorum Manuscriptorum <lb/> D<ex>omi</ex>ni
+                        Christiani Wormii, <lb/> Sælandiæ Episcopi</rubric>
+                  </msItem>
+                  <msItem n="3">
+                     <locus from="42r" to="42v">42r-v</locus>
+                     <title type="supplied">Treaty</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <rubric>Tractatus Msti in bibliotheca W. Wormii</rubric>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>42. 
-<dimensions type="leaf" scope="all">
-                              <height>212</height>
-                              <width>167</width>
+                        <extent>42. <dimensions type="leaf" scope="all">
+                              <height unit="mm">212</height>
+                              <width unit="mm">167</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribe="ArnMag001" scope="sole" script="unknown">
+                        <p>Written by <name type="person" key="ArnMag001">Árni Magnússon</name> or one of his scribes.</p>
+                     </handNote>
+                  </handDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Denmark</origPlace>,
+                     <origDate notBefore="1690" notAfter="1720">c. 1700</origDate></origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">254</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

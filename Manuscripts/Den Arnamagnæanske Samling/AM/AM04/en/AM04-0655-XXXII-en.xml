@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,26 +23,68 @@
                      <idno>1646</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Maríu saga</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1290" notAfter="1310">c. 1300</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="uniform" xml:lang="is">Maríu saga</title></summary>
+                  <msItem n="1" class="hels jarteikn" defective="true">
+                     <locus from="1r" to="14v">1r-14v</locus>
+                     <title type="uniform" xml:lang="is">Maríu saga</title>
+                     <textLang mainLang="non"/>
+                     <bibl>Unger: <ref type="primary" target="Mariu1871">Maríu saga</ref>
+                        <biblScope unit="page">430-629</biblScope>
+                     </bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>14. </extent>
+                        <extent>14 (including fragments). <dimensions type="leaf" scope="all"
+                              unit="mm">
+                              <height unit="mm">235</height>
+                              <width unit="mm">156</width>
+                           </dimensions>.</extent>
+                        <condition>All the leaves are badly worn due to their former use as binding
+                           material. Only two vertical strips of the inner half of fol. 10 are
+                           extant; only a thin strip near the spine survives of fol. 11 and fol. 13
+                           consists of four small fragments.</condition>
                      </supportDesc>
                   </objectDesc>
+                  <additions>On fol. 6r a note in <name type="person" key="ArnMag001"
+                     >Árni Magnússon</name>'s hand reads: <q xml:lang="is">Fra Magnuſe Araſyne 1704
+                     </q>. He also added the following about the fragmantary leaves: <q
+                        xml:lang="is">Utan af Compendio Sturlunga Sgu Birns ä
+                        Skardzaa</q>.</additions>
+                  
                </physDesc>
+               <history>
+                  <origin>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1300"
+                        notAfter="1399" evidence="conjecture" resp="ONP">the fourteenth
+                        century</origDate> (<name type="person" key="SteKar001">Stefán
+                        Karlsson</name> pers. 1985, cf. <bibl><ref target="ONPindices"
+                        >ONP</ref></bibl>). <name type="person" key="KriKaa001">Kålund</name>s
+                     dating: c. 1300 (<bibl>
+                        <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">66</biblScope>
+                     </bibl>).</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="primary" target="WilHei2010a"/><biblScope unit="page"
+                           >61-62</biblScope><note>Page 63: Facsimile of fol. 5r.</note></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">66-67</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="Mariu1871"/>
+                        <biblScope unit="page">xxix-xxx</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="Wolf2013"/><biblScope unit="page"
+                           >236</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

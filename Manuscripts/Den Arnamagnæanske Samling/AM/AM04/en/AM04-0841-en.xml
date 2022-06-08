@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,96 @@
                      <idno>1973</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="la">Annales Lundenses</title>
-                  <title type="uniform" xml:lang="da">Lundeårbogen</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1390" notAfter="1410">s. XIV/XV</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <summary><title type="uniform" xml:lang="la">Annales Lundenses</title>
+                     <title type="uniform" xml:lang="da">Lundeårbogen</title>
+                  </summary>
+                  <msItem n="1" class="annal">
+                     <locus from="1r" to="41v">1r-41v</locus>
+                     <title type="uniform" xml:lang="la">Annales Lundenses</title>
+                     <title type="uniform" xml:lang="da">Lundeårbogen</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <note>From the creation of the world to <date when="1307">1307</date>.</note>
+                     <bibl>Kroman, <ref target="Kroman1980">Danmarks middelalderlige annaler</ref>
+                        <biblScope unit="pages">22-70</biblScope>
+                        <note>Var.app. Aa2a</note></bibl>
+                     <bibl>Langebek, <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
+                           Aevi</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">212 ff.</biblScope>
+                     </bibl>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>41. <dimensions type="leaf" scope="all">
-                              <height>227</height>
-                              <width>165</width>
+                        <extent>50. Fols 42-50 are blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">227</height>
+                              <width unit="mm">165</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Paginated 1-82.</p>
+                        </foliation>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1 2">
+                           <p>Partly written in two columns. Red rubrics and initials; a few
+                              initials on fol. 1r are, however, blue.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <additions>
+                     <p>Occasional marginalia and highlighting of text in a younger hand. On the
+                        pastedown a hand from the <date notBefore="1500" notAfter="1599">sixteenth
+                           century</date> added some historical notes on the implementation of the
+                        Danish dioceses, <name type="place">Dalby church</name> and the battle of
+                           <name type="place">Fodevig</name>.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Full leather binding with parchment pastedowns.</p>
+                     </binding>
+                  </bindingDesc>
+
                </physDesc>
+               <history>
+                  <origin>Written in <origPlace>Denmark</origPlace> in <origDate notBefore="1400"
+                        notAfter="1450">the first half of the fifteenth century</origDate>
+                           (<bibl><ref target="Kroman1980">Kroman 1980</ref>
+                        <biblScope unit="pages">21</biblScope></bibl>). Kålund's dating: c. 1400
+                     <bibl><ref type="secondary-1" target="KKKat">Katalog</ref></bibl>).</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">230</biblScope></bibl>
+                     <bibl>Langebek, <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
+                           Aevi</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">210-50</biblScope>
+                        <note>With a facsimile.</note>
+                     </bibl>
+                     <bibl>Rørdam, <ref target="HolRør1873-1875">Historiske Kildeskrifter</ref>
+                        <biblScope unit="volume">I:1</biblScope>
+                        <biblScope unit="page">264</biblScope>
+                     </bibl>
+                     <bibl>Suhm, <ref target="PetSuh1771-1776">Samlinger</ref>
+                        <biblScope unit="volume">II:3</biblScope>
+                        <biblScope unit="page">1 ff.</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2022-03-22" who="EvaWed001">Updated markup and content.</change>
+       </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

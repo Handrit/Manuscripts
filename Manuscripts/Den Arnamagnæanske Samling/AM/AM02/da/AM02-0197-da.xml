@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,11 +23,9 @@
                      <idno>304</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Historiebog</title>; <origPlace>Sverige</origPlace>,
-                     <origDate notBefore="1550" notAfter="1599" evidence="conjecture" resp="KKKat">s. XVI 2/2</origDate>. </head>
-               <msContents>
-                  <msItem n="1" class="chron">
+                  <msContents>
+                  <summary><title type="supplied" xml:lang="da">Historiebog</title></summary>
+                  <msItem n="1" class="sagnfr">
                      <locus from="1r:1" to="177v:32">1r-177v</locus>
                      <author key="OlaPet001">Olaus Petri</author>
                      <title type="uniform" xml:lang="sv">Svenska krönika</title>
@@ -44,7 +43,7 @@
                         haffwer Besckrifwas <lb/> sckulle</incipit>
                      <explicit>hwilke woro till gannska <lb/> mång hunndratt.</explicit>
                   </msItem>
-                  <msItem n="2" class="law">
+                  <msItem n="2" class="log">
                      <locus from="178r:1" to="181v:26">178r-181v</locus>
                      <title type="supplied" xml:lang="da">Dokumenter vedrørende Christian II</title>
                      <textLang mainLang="sv">Svensk</textLang>
@@ -52,7 +51,8 @@
                         <locus from="178r:1" to="179v:9">178r-179v:9</locus>
                         <title type="uniform" xml:lang="sv">Christian IIs dagtingan och
                            welkor</title>
-                        <note>Efter hvilke Christian II erkendtes Sveriges konge fra <date when="1520">1520</date>
+                        <note>Efter hvilke Christian II erkendtes Sveriges konge fra <date
+                              when="1520">1520</date>
                         </note>
                      </msItem>
                      <msItem n="2.2">
@@ -63,7 +63,7 @@
                         <locus from="180v:3" to="181v:14">180r:3-181v:14</locus>
                         <title type="uniform" xml:lang="da">Christian IIs overenskomst med Sten
                            Stures enke, fru Kirstin</title>
-                        <note>
+                        <note>Vadmarssjön, i nærheden af <name type="place" key="Stock01">Stockholm</name>,
                            <date when="1520">1520</date>
                         </note>
                      </msItem>
@@ -72,7 +72,7 @@
                         <title type="uniform">Vers om kongens falskhed</title>
                      </msItem>
                   </msItem>
-                  <msItem n="3" class="chron">
+                  <msItem n="3" class="sagnfr">
                      <locus from="183r:1" to="218v:33">183r-218v</locus>
                      <title type="uniform" xml:lang="da">Krønike om Gustav Wasa </title>
                      <textLang mainLang="sv">Svensk</textLang>
@@ -80,7 +80,8 @@
                         Furstes Och herres</incipit>
                      <explicit defective="true">och likwäll behagade samma stycken <lb/> wäl
                         befrågade</explicit>
-                     <note>Standser afbrudt ved år <date from="1523" to="1524">1523/24</date>.</note>
+                     <note>Standser afbrudt ved år <date from="1523" to="1524"
+                        >1523/24</date>.</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -92,8 +93,8 @@
                         </support>
                         <extent>218 (+ 11 ubeskrevne blade). Bl. <locus>182</locus> er ubeskreven.
                               <dimensions type="leaf" scope="all" unit="mm">
-                              <height>317</height>
-                              <width>202</width>
+                              <height unit="mm">317</height>
+                              <width unit="mm">202</width>
                            </dimensions>.</extent>
                         <foliation>
                            <p>Folieret i det øverste højre hjørne (1-218).</p>
@@ -116,26 +117,30 @@
                      </handNote>
                   </handDesc>
                   <additions>
-                     <p>I <locus>bl. 218v</locus>s nederste margen har <name type="person" key="ArnMag001">Arne Magnusson</name> skrevet: <q xml:lang="la">desunt
+                     <p>I <locus>bl. 218v</locus>s nederste margin har <name type="person"
+                           key="ArnMag001">Arne Magnusson</name> skrevet: <q xml:lang="la">desunt
                            multa</q>.</p>
                   </additions>
                   <bindingDesc>
                      <binding contemporary="false">
                         <p>Indbundet i en pergamentindbinding, der tidligere var et diplom;
                               <dimensions type="binding" unit="mm">
-                              <height>399</height>
-                              <width>462</width>
-                              <depth>51</depth>
+                              <height unit="mm">399</height>
+                              <width unit="mm">462</width>
+                              <depth unit="mm">51</depth>
                            </dimensions>.</p>
                      </binding>
                   </bindingDesc>
                   <accMat>
                      <p>Der er en AM-seddel, hvorpå <name type="person" key="ArnMag001">Arne
-                           Magnusson</name> har skrevet: <q xml:lang="da">Dette <add place="above">Oluf Pedersens histories</add> Exemplar bekom ieg <lb/> Anno 1716.
-                           fra Mag. Jo<lb rend="hyphenated"/>nas Ramus paa Nórre<lb rend="hyphenated"/>houg paa Ringerige <lb/> i Norge, til foræring. <lb/>
+                           Magnusson</name> har skrevet: <q xml:lang="da">Dette <add place="above"
+                              >Oluf Pedersens histories</add> Exemplar bekom ieg <lb/> Anno 1716.
+                           fra Mag. Jo<lb rend="hyphenated"/>nas Ramus paa Nórre<lb
+                              rend="hyphenated"/>houg paa Ringerige <lb/> i Norge, til foræring. <lb/>
                            <hi rend="underline">Arffue Scaryn <lb/> Suenson p<ex>ro</ex>pria</hi>
                            <lb/> stod paa brettet indentil <lb/> syntes at vere gam<ex>m</ex>el
-                           <lb/> haand. <pb n="verso"/> Det som fattes ved enden <add place="bottom" hand="scribe">i dette Exemplar.</add>
+                           <lb/> haand. <pb n="verso"/> Det som fattes ved enden <add place="bottom"
+                              hand="scribe">i dette Exemplar.</add>
                            <lb/> har til visse været 1. sæt, <lb/> og icke meere end 2. sæt. <lb/>
                            Det kunde mand see af <lb/> traadene som sade til<lb/>bage af det eller
                            de <lb/> sæt som vare udryckte <lb/> og bortrefne.</q>
@@ -144,88 +149,67 @@
                </physDesc>
                <history>
                   <origin>
-                     <p>Skrevet i <origPlace>Sverige</origPlace> i <origDate notBefore="1550" notAfter="1599" evidence="conjecture">1500-tallets sidste
+                     <p>Skrevet i <origPlace>Sverige</origPlace> i <origDate notBefore="1550"
+                           notAfter="1599" evidence="conjecture">1500-tallets sidste
                            halvdel</origDate>.</p>
                   </origin>
                   <provenance>
-                     <p>Man ved ikke meget om håndskriftets historie. Ifølge <name type="person" key="ArnMag001">Arne Magnusson</name>s beretning på AM-sedlen har det
+                     <p>Man ved ikke meget om håndskriftets historie. Ifølge <name type="person"
+                           key="ArnMag001">Arne Magnusson</name>s beretning på AM-sedlen har det
                         tilhørt en <q>Arffue Scaryn Suenson</q>, som ikke kan identificeres. Senere
-                        har håndskriftet tilhørt nordmanden <name type="person" key="JonRam001">Jonas Ramus</name> (<date from="1649" to="1718">1649-1718</date>).</p>
+                        har håndskriftet tilhørt nordmanden <name type="person" key="JonRam001"
+                           >Jonas Ramus</name> (<date from="1649" to="1718">1649-1718</date>).</p>
                   </provenance>
                   <acquisition>
                      <p>
-                        <name type="person" key="ArnMag001">Arne Magnusson</name> erhvervede håndskriftet af <name type="person" key="JonRam001">Jonas Ramus</name> i <date when="1716">1716</date>.</p>
+                        <name type="person" key="ArnMag001">Arne Magnusson</name> erhvervede
+                        håndskriftet af <name type="person" key="JonRam001">Jonas Ramus</name> i
+                           <date when="1716">1716</date>.</p>
                   </acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Katalogiseret <date when="2002-02-25">25. februar 2002</date> af <name type="person" key="EvaWed001">EW-J</name>
+                           <p>Katalogiseret <date when="2002-02-25">25. februar 2002</date> af <name
+                                 type="person" key="EvaWed001">EW-J</name>
                            </p>
                         </source>
                      </recordHist>
                   </adminInfo>
                   <surrogates>
                      <p>
-                        <bibl>
-                           <title type="gmd">mikrofilm (originaler)</title>
-                           <idno>Gl.neg 39</idno>s.d.<note>Før restaurering; der er 13 ubeskrevne
-                              blade i slutningen af kodeksen, som ikke er blevet
-                              fotograferet.</note>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">mikrofilm (arkiv)</title>
-                           <idno>Gl.pos 48</idno>s.d.</bibl>
-                        <bibl>
-                           <title type="gmd">s/h fotografier</title>
-                           <idno>AM 197 fol.</idno>
-                           <date when="2002-04-17">17. april 2002</date>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">mikrofilm</title>
-                           <idno>Neg. 1038</idno>
-                           <date when="2005-07-03">3 JUly 2005</date>
-                           <note>Supplerende foto før restaurering af bl. 1r-v, 53v, 79v, 92r, 122r,
-                              134r, 135v, 148r, 149v, 162r, 177v, 188r, 189v og 218r.</note>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">lomme</title>
-                           <idno>lomme nr 109</idno>
-                           <date when="2005-03-10">10 marts 2005</date>
-                           <note>Efter restaurering: ryg, indvendig bagperm.</note>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">s/h fotografier</title>
-                           <idno>AM 197 fol.</idno>
-                           <date when="2005-03-14">14 march 2005</date>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">lomme</title>
-                           <idno>lomme 146</idno>
-                           <date when="2002-03-04">4 marts 2003</date>
-                           <note>Før restaurering: Forside, ryg, bagside, opslag, nederste
-                              snit.</note>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">s/h fotografier</title>
-                           <idno>AM 197 fol.</idno>
-                           <date when="2002-04-05">5. april 2005</date>
-                           <note/>
-                        </bibl>
-                        <bibl>
-                           <title type="gmd">4x5 s/h </title>
-                           <idno>140</idno>
-                           <date when="2005-02-15">15 februar 2005</date>
-                           <note>Under restaurering: Indvendig bagperm, indvendig ryg, øverste og
-                              nederste kapitaler indvendig.</note>
-                        </bibl>
-                     </p>
+                        <list>
+                           <item>Mikrofilm (originaler), <idno>Gl.neg 39</idno>, s.d. (før
+                              konservering; der er 13 ubeskrevne blade i slutningen af codex, som
+                              ikke er blevet fotograferet). </item>
+                           <item>Mikrofilm (arkiv), <idno>Gl.pos 48</idno>, s.d.</item>
+                           <item>Sort-hvid fotografier fra <date when="2002-04-17">17. april
+                                 2002</date>.
+                           </item>
+                           <item>Mikrofilm, <idno>Neg. 1038</idno>, fra <date when="2005-07-03">3
+                                 juli 2005</date> (supplerende foto før konservering af bl. 1r-v,
+                              53v, 79v, 92r, 122r, 134r, 135v, 148r, 149v, 162r, 177v, 188r, 189v og
+                              218r). </item>
+                           <item>Lomme, <idno>lomme nr 109</idno>, fra <date when="2005-03-10">10
+                                 marts 2005</date> (efter konservering: ryg, indvendig bagperm). </item>
+                           <item>Sort-hvid fotografier fra <date when="2005-03-14">14. marts
+                                 2005</date>.
+                           </item>
+                           <item>Lomme, <idno>lomme 146</idno>, fra <date when="2002-03-04">4. marts
+                                 2003</date> (før konservering: Forside, ryg, bagside, opslag,
+                              nederste snit). </item>
+                           <item>Sort-hvid fotografier fra <date when="2002-04-05">5. april
+                                 2005</date>. </item>
+                           <item>4x5 s/h, <idno>140</idno>, fra <date when="2005-02-15">15. februar
+                                 2005</date> (under konservering: Indvendig bagperm, indvendig ryg,
+                              øverste og nederste kapitæler indvendig). </item>
+                        </list></p>
                   </surrogates>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">162-163</biblScope>
+                        <biblScope unit="page">162-163</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

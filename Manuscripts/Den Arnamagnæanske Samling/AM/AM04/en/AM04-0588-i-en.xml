@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,34 +23,198 @@
                      <idno>1474</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Möttuls saga</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1685" notAfter="1699">s. XVII ex.</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <msContents>
+                  <summary><title type="uniform">Mǫttuls saga</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" facs="#AM04-0588-i-0001r" to="5r">1r-5r</locus>
+                     <title type="uniform">Mǫttuls saga</title>
+                     <incipit>Hier hefur Mottuls þätt</incipit>
+                     <bibl>Kalinke, <ref type="primary-1" target="EA-B30">Mǫttuls saga</ref>
+                        <biblScope unit="pages">3-69: højresiderne, nederste tekst</biblScope>
+                        <note>Ed. A3</note>
+                     </bibl>
+                  </msItem>
+                  <msItem n="2" class="laus">
+                     <locus from="5v" facs="#AM04-0588-i-0005v" to="5v">5v</locus>
+                     <title type="supplied">Stanza on Mǫttuls þáttr</title>
+                     <note>Four lines.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>5. 
-<dimensions type="leaf" scope="all">
-                              <height>208</height>
-                              <width>166</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>5. <dimensions type="leaf" scope="all">
+                              <height unit="mm">208</height>
+                              <width unit="mm">166</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scribe="MagOla001" scope="sole" script="unknown">Written by <name type="person" key="MagOla001">Magnús Ólafsson</name> fra <name type="place" key="BrúHof01">Brúarland</name>.</handNote>
+                  </handDesc>
+                  <additions>The flyleaf contains a note written by <name type="person" key="ArnMag001">Árni Magnússon</name>, as the note in <ref type="ms" target="AM04-0588-a-da">AM 588 a 4to</ref> it is concerning the scribe and
+                     his source text, which was also copied <q xml:lang="is">ordrett epter rotnu pappirs
+                        exemplare, hvert ſidan<ex>n</ex> meinaſt interciderad hafa</q>.</additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1675" notAfter="1699">s. XVII<hi rend="sup">4/4</hi></origDate></origin>
+                  <acquisition>Like <ref type="ms" target="AM04-0588-a-da">AM 588 a 4to</ref>, Árni
+                     Magnússon purchased the manuscript in <date when="1703">1703</date> of <name type="person" key="MagMar001">Magnús Markusson</name>
+                     <q xml:lang="la">Aliis Skickiu Saga dicitur</q>.
+                  </acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Cederschiöld og Wulff, <ref target="Mottul1877">Möttuls saga</ref>
+                        <biblScope unit="pages">39</biblScope>
+                     </bibl>
+                     <bibl>Gísli Brynjólfsson, <ref target="Trist1878">Saga af Tristram ok Ísönd
+                           samt Möttuls saga</ref>
+                        <biblScope unit="pages">418</biblScope>
+                     </bibl>
+                     <bibl>Kalinke, <ref type="secondary-1" target="EA-B30">Mǫttuls saga</ref>
+                        <biblScope unit="pages">lxxxv, xcii, cxii-cxx, cxl, cxliii, cxlvi, cxlvii</biblScope>
+                     </bibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">751</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-10" who="EvaWed001">Updated markup.</change></revisionDesc>
    </teiHeader>
-   <facsimile>
-      <surface/>
-   </facsimile>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+		<surface xml:id="AM04-0588-i-0000r-FB" n="0">
+			<desc>0000r-FB</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/0/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/0/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/0/SECONDARY_DISPLAY" width="4768px" height="6043px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/0/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-0000v-FB" n="1">
+			<desc>0000v-FB</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/1/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/1/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/1/SECONDARY_DISPLAY" width="4768px" height="6034px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/1/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-accMat01r" n="2">
+			<desc>accMat01r</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/2/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/2/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/2/SECONDARY_DISPLAY" width="4768px" height="6036px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/2/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-accMat01v" n="3">
+			<desc>accMat01v</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/3/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/3/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/3/SECONDARY_DISPLAY" width="4768px" height="6036px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/3/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-0001r" n="4">
+			<desc>0001r</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/4/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/4/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/4/SECONDARY_DISPLAY" width="4768px" height="6030px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/4/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-0001v" n="5">
+			<desc>0001v</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/5/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/5/THUMBNAIL" width="200px" height="252px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/5/SECONDARY_DISPLAY" width="4768px" height="6024px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/5/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-0002r" n="6">
+			<desc>0002r</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/6/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/6/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/6/SECONDARY_DISPLAY" width="4768px" height="6032px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/6/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-0002v" n="7">
+			<desc>0002v</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/7/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/7/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/7/SECONDARY_DISPLAY" width="4768px" height="6034px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/7/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-0003r" n="8">
+			<desc>0003r</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/8/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/8/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/8/SECONDARY_DISPLAY" width="4768px" height="6036px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/8/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-0003v" n="9">
+			<desc>0003v</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/9/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/9/THUMBNAIL" width="200px" height="252px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/9/SECONDARY_DISPLAY" width="4768px" height="6023px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/9/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-0004r" n="10">
+			<desc>0004r</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/10/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/10/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/10/SECONDARY_DISPLAY" width="4768px" height="6032px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/10/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-0004v" n="11">
+			<desc>0004v</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/11/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/11/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/11/SECONDARY_DISPLAY" width="4768px" height="6038px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/11/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-0005r" n="12">
+			<desc>0005r</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/12/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/12/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/12/SECONDARY_DISPLAY" width="4768px" height="6041px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/12/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-0005v" n="13">
+			<desc>0005v</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/13/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/13/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/13/SECONDARY_DISPLAY" width="4768px" height="6038px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/13/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-9901r-RFl" n="14">
+			<desc>9901r-RFl</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/14/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/14/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/14/SECONDARY_DISPLAY" width="4768px" height="6039px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/14/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-9901v-RFl" n="15">
+			<desc>9901v-RFl</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/15/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/15/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/15/SECONDARY_DISPLAY" width="4768px" height="6040px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/15/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-9999r-RB" n="16">
+			<desc>9999r-RB</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/16/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/16/THUMBNAIL" width="200px" height="253px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/16/SECONDARY_DISPLAY" width="4768px" height="6041px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/16/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0588-i-9999v-RB" n="17">
+			<desc>9999v-RB</desc>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/17/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/17/THUMBNAIL" width="200px" height="251px"/>
+			<graphic mimeType="jpg" url="AM%20588%20i%204to/17/SECONDARY_DISPLAY" width="4784px" height="6016px"/>
+			<graphic mimeType="pdf" url="AM%20588%20i%204to/17/WEB_DISPLAY"/>
+		</surface>
+	</facsimile>
 </TEI>

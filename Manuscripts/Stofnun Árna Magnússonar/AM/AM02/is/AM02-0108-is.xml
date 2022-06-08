@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -10,7 +10,7 @@
 				<p>Tilraunaútgáfa</p>
 			</publicationStmt>
 			<sourceDesc>
-				<msDesc xml:lang="is" xml:id="AM02-0108-is">
+				<msDesc xml:lang="is" xml:id="AM02-0108-is" status="extensive">
 					<msIdentifier>
 						<country key="IS">Ísland</country>
 						<settlement>Reykjavík</settlement>
@@ -42,7 +42,7 @@
 							</msItem>
 
 							<msItem n="1.2" defective="false" class="forn landn">
-								<locus from="1r" facs="#AM02-0108-0001r" to="7r">1r-7r (bls. 1-13).</locus>
+								<locus from="1r" facs="#AM02-0108-0001r" to="7r">1r-7r (bls. 1-13)</locus>
 								<rubric>Hér hefur Landnámabók Íslandsbyggðar og segir í hinum fyrsta
 									kapitula hvort skemmst er frá Íslandi og hverjir herrar ríktu á
 									Norðurlöndum í þann tíma.</rubric>
@@ -53,7 +53,7 @@
 
 							<msItem n="1.3" defective="false" class="forn landn">
 								<locus from="7r" facs="#AM02-0108-0007r" to="20r">7r-20r (bls.
-									13-40).</locus>
+									13-40)</locus>
 								<rubric>Hér hefur upp landnám í Vestfirðingafjórðungi er margt
 									stórmenni hefur byggðan.</rubric>
 								<incipit>Maður hét Kalman, suðureyskur að ætt …</incipit>
@@ -62,7 +62,7 @@
 
 							<msItem n="1.4" defective="false" class="forn landn">
 								<locus from="20r" facs="#AM02-0108-0020r" to="29r">20r-29r (bls.
-									40-57).</locus>
+									40-57)</locus>
 								<rubric>Nú hefur upp landnám í Norðlendingafjórðungi er
 									fjölbyggðastur hefur verið af öllu Íslandi og stærstar sögur
 									hafa gerst bæði að fornu og nýju, sem enn mun ritað verða og
@@ -73,7 +73,7 @@
 
 							<msItem n="1.5" defective="false" class="forn landn">
 								<locus from="29r" facs="#AM02-0108-0029r" to="33v">29r-33v (bls.
-									57-66).</locus>
+									57-66)</locus>
 								<rubric>Þessir menn hafa land numið í Austfirðingafjórðungi er nú
 									munu upp taldir og fer hvað af hendi norðan til fjórðungamóts
 									frá Langanesi á Sólheimasand og er það sögn manna að þessi
@@ -85,7 +85,7 @@
 
 							<msItem n="1.6" defective="false" class="forn landn">
 								<locus from="33v" facs="#AM02-0108-0033v" to="39v">33v-39v (bls.
-									66-78).</locus>
+									66-78)</locus>
 								<rubric>Hér hefur upp landnám í Sunnlendingafjórðungi er með mestum
 									blóma er alls Íslands fyrir landskosta sakir og höfðingja þeirra
 									er þar hafa byggt, bæði lærðir og ólærðir.</rubric>
@@ -94,6 +94,7 @@
 								<explicit>… þó að synir þeirra sumir reistu hof og blótuðu, en
 									landið var alheiðið nær C vetra.</explicit>
 
+								<!--<listBibl>-->
 								<bibl>Hannes Finnsson 1774, <ref type="primary-2">Landnámabók</ref>;</bibl>
 								<!-- ekki í ami-bibl.-->
 
@@ -107,7 +108,7 @@
 
 								<bibl>Þorgeir Guðmundsson og Þorsteinn Helgason 1829, <ref type="primary-2" target="IslS1829">Íslendinga sögur</ref>
 									<biblScope unit="volume">I</biblScope>
-									<biblScope unit="pages">9-10</biblScope>;</bibl>
+									<biblScope unit="pages">9-10</biblScope>;</bibl><!--</listBibl>-->
 							</msItem>
 						</msItem>
 
@@ -137,50 +138,32 @@
 										<watermark n="1">
 											Vatnsmerki 1. Aðalmerki:
 											<ref target="watermark:B">Dárahöfuð með 7 litlum bjöllum á kraga, 3 litlir hringir</ref>
-											// Ekkert mótmerki (
-											<locus from="1r" to="1v">1</locus>
-											,
-											<locus from="2r" to="2v">2</locus>
-											,
-											<locus from="3r" to="3v">3</locus>
-											,
-											<locus from="4r" to="4v">4</locus>
-											).
+											// Ekkert mótmerki 
+											(bl. <locus from="1r" facs="#AM02-0108-0001r" to="1v">1</locus>,
+											<locus from="2r" facs="#AM02-0108-0002r" to="2v">2</locus>,
+											<locus from="3r" facs="#AM02-0108-0003r" to="3v">3</locus>,
+											<locus from="4r" facs="#AM02-0108-0004r" to="4v">4</locus>).
 										</watermark>
 									</p>
 									<p>
 										<watermark n="2">
 											Vatnsmerki 2. Aðalmerki:
-											<ref target="watermark:B">Dárahöfuð með 4 bjöllum (vatnsmerki 3, 4 og 5)</ref>
+											<ref target="watermark:B">Dárahöfuð með 4 bjöllum á kraga (sjá líka vatnsmerki 3, 4 og 5)</ref>
 											// Mótmerki:
 											<ref target="watermark:X2">Fangamark GM</ref>
-											(
-											<locus from="5r" to="5v">5</locus>
-											,
-											<locus from="7r" to="7v">7</locus>
-											,
-											<locus from="9r" to="9v">9</locus>
-											,
-											<locus from="13r" to="14v">13-14</locus>
-											,
-											<locus from="17r" to="17v">17</locus>
-											,
-											<locus from="19r" to="19v">19</locus>
-											,
-											<locus from="20r" to="20v">20</locus>
-											,
-											<locus from="26r" to="26v">26</locus>
-											,
-											<locus from="28r" to="30v">28-30</locus>
-											,
-											<locus from="32r" to="32v">32</locus>
-											,
-											<locus from="34r" to="34v">34</locus>
-											,
-											<locus from="36r" to="36v">36</locus>
-											,
-											<locus from="38r" to="38v">38</locus>
-											,
+											(bl. <locus from="5r" facs="#AM02-0108-0005r" to="5v">5</locus>,
+											<locus from="7r" facs="#AM02-0108-0007r" to="7v">7</locus>,
+											<locus from="9r" facs="#AM02-0108-0009r" to="9v">9</locus>,
+											<locus from="13r" facs="#AM02-0108-0013r" to="14v">13-14</locus>,
+											<locus from="17r" facs="#AM02-0108-0017r" to="17v">17</locus>,
+											<locus from="19r" facs="#AM02-0108-0019r" to="19v">19</locus>,
+											<locus from="20r" facs="#AM02-0108-0020r" to="20v">20</locus>,
+											<locus from="26r" facs="#AM02-0108-0026r" to="26v">26</locus>,
+											<locus from="28r" facs="#AM02-0108-0028r" to="30v">28-30</locus>,
+											<locus from="32r" facs="#AM02-0108-0032r" to="32v">32</locus>,
+											<locus from="34r" facs="#AM02-0108-0034r" to="34v">34</locus>,
+											<locus from="36r" facs="#AM02-0108-0036r" to="36v">36</locus>,
+											<locus from="38r" facs="#AM02-0108-0038r" to="38v">38</locus>;
 											Sum fangamörkin eru í beinni línu á meðan önnur eru örlítið ójöfn).
 										</watermark>
 									</p>
@@ -188,19 +171,12 @@
 										<watermark n="3">
 											Vatnsmerki 3. Aðalmerki:
 											<ref target="watermark:B">Dárahöfuð með 4 litlum bjöllum á kraga, 3 stórir hringir og stafur</ref>
-											(
-											<locus from="6r" to="6v">6</locus>
-											,
-											<locus from="8r" to="8v">8</locus>
-											,
-											<locus from="10r" to="10v">10</locus>
-											,
-											<locus from="15r" to="15v">15</locus>
-											,
-											<locus from="18r" to="18v">18</locus>
-											,
-											<locus from="31r" to="31v">31</locus>
-											,
+											(bl. <locus from="6r" facs="#AM02-0108-0006r" to="6v">6</locus>,
+											<locus from="8r" facs="#AM02-0108-0008r" to="8v">8</locus>,
+											<locus from="10r" facs="#AM02-0108-0010r" to="10v">10</locus>,
+											<locus from="15r" facs="#AM02-0108-0015r" to="15v">15</locus>,
+											<locus from="18r" facs="#AM02-0108-0018r" to="18v">18</locus>,
+											<locus from="31r" facs="#AM02-0108-0031r" to="31v">31</locus>;
 											Dárahöfuðið á blaði 6 er skýrast á meðan hin eru örlítið daufari)
 											// Mótmerki: Vatnsmerki 2.
 										</watermark>
@@ -209,9 +185,7 @@
 										<watermark n="4">
 											Vatnsmerki 4. Aðalmerki:
 											<ref target="watermark:B">Dárahöfuð með 4 litlum bjöllum á kraga, 3 stórir hringir og stafur</ref>
-											(
-											<locus from="16r" to="16v">16</locus>
-											,
+											(bl. <locus from="16r" facs="#AM02-0108-0016r" to="16v">16</locus>.
 											Dárahöfuðið virðist vera samstæða vatnsmerkis 3 á blaði 6)
 											// Mótmerki: Vatnsmerki 2.
 										</watermark>
@@ -220,19 +194,12 @@
 									<watermark n="5">
 										Vatnsmerki 5. Aðalmerki:
 										<ref target="watermark:B">Dárahöfuð með 4 litlum bjöllum á kraga, 3 stórir hringir og stafur</ref>
-										(
-										<locus from="12r" to="12v">12</locus>
-										,
-										<locus from="21r" to="25v">21-25</locus>
-										,
-										<locus from="27r" to="27v">27</locus>
-										,
-										<locus from="33r" to="33v">33</locus>
-										,
-										<locus from="35r" to="35v">35</locus>
-										,
-										<locus from="37r" to="37v">37</locus>
-										,
+										(bl. <locus from="12r" facs="#AM02-0108-0012r" to="12v">12</locus>,
+										<locus from="21r" facs="#AM02-0108-0021r" to="25v">21-25</locus>,
+										<locus from="27r" facs="#AM02-0108-0027r" to="27v">27</locus>,
+										<locus from="33r" facs="#AM02-0108-0033r" to="33v">33</locus>,
+										<locus from="35r" facs="#AM02-0108-0035r" to="35v">35</locus>,
+										<locus from="37r" facs="#AM02-0108-0037r" to="37v">37</locus>;
 										Líklegt er að dárahöfuðið sé samstæða vatnsmerkis 3 á blaði 6 eða uppruni þeirra sé frá sömu pappírsverksmiðjunni. Hringirnir 3 á eftirfarandi dárahöfði eru ekki eins kringlóttir og hjá hinum)
 										// Mótmerki: Vatnsmerki 2. 
 									</watermark>
@@ -241,11 +208,8 @@
 										<watermark n="6">
 											Vatnsmerki 6. Aðalmerki:
 											<ref target="watermark:X2">Fangamark PH? </ref>
-											// Ekkert mótmerki (
-											<locus from="39r" to="39v">39</locus>
-											,
-											<locus from="40r" to="40v">40</locus>
-											,
+											// Ekkert mótmerki (Bl. <locus from="39r" facs="#AM02-0108-0039r" to="39v">39</locus>,
+											<locus from="40r" facs="#AM02-0108-0040r" to="40v">40</locus>;
 											Erfitt er að sjá hvaða fangamark um er að ræða, virðist vera PH, en ekki er hægt að fullyrða um það).
 										</watermark>
 									</p>
@@ -253,9 +217,7 @@
 										<watermark n="7">
 											Vatnsmerki 7. Aðalmerki:
 											<ref target="watermark:X2">Fangamark H?</ref>
-											// Ekkert mótmerki (
-											<locus from="41r" to="41v">41</locus>
-											,
+											// Ekkert mótmerki (bl. <locus from="41r" facs="#AM02-0108-0041r" to="41v">41</locus>;
 											Erfitt er að sjá hvaða fangamark um er að ræða, virðist vera H, en ekki er hægt að fullyrða um það).
 										</watermark>
 									</p>	
@@ -268,10 +230,29 @@
 								<foliation>
 									<p>
 										<list>
-											<item>Eldri blaðsíðumerking 1-82.</item>
+											<item>Eldri blaðsíðumerking 1-82. Sumstaðar er nýrri blaðmerking með rauðu bleki.</item>
 										</list>
 									</p>
 								</foliation>
+								
+								<collation>
+									<p>Samtals 6 kver. <list>
+										<item>Kver I: blöð 1-4 (1+4, 2+3) (2 tvinn; ekki upprunaleg). <note>Upphaflega mynduðu blöðin kver ásamt síðustu fjórum blöðum í
+											 <ref target="AM02-0218" type="ms">AM 218 fol.</ref></note></item> 
+										<item>Kver II: blöð 5-12 (5+12, 6+11, 7+10, 8+9) (4 tvinn)</item>
+										<item>Kver III: blöð 13-22 (13+22, 14+21, 15+20, 16+19, 17+18) (5 tvinn)
+										</item>
+										<item>Kver IV: blöð 23-30 (23+30, 24+29, 25+28, 26+27) (4 tvinn)</item>
+										<item>Kver V: blöð 31-37 (31, 32+37, 33+36. 34+35) (1 stakt blað, 3 tvinn) 
+											<note>Bl. 31 myndaði upphaflega tvinn ásamt bl. 38 og þetta tvinn var yst í þessu kveri.</note></item>
+										<item>Kver VI: blöð 38-41 (38+41, 39+40) (2 tvinn; ekki upprunaleg) <note>Bl. 38 var áður hlutur af kveri V en hin þrjú 
+											mynduðu upphaflega kver ásamt fyrstu þremur blöðunum í <ref target="AM02-0113d" type="ms">AM 113 d fol.</ref></note></item>
+									</list>
+									</p>
+									<signatures>Engin kveramerking.</signatures>
+									<catchwords>Griporð eru á öllum blaðsíðum nema þeirri síðustu.</catchwords> 
+									
+								</collation>
 
 
 								<condition>
@@ -281,7 +262,7 @@
 												á blöðum <locus from="5r" facs="#AM02-0108-0005r" to="6v">5r-6v</locus>).</item>
 											<item>Blöð eru skítug og stökk og jaðrar blaða og innri
 												spássíur hafa sums staðar verið styrkt (sjá t.d.
-												blöð <locus from="10r" facs="#AM02-0108-0010r" to="10v">10</locus> og <locus from="12r" facs="#AM02-0108-0012r" to="12v">12</locus>).</item>
+												blöð <locus from="10r" facs="#AM02-0108-0010r" to="10v">10</locus> og <locus from="12r" facs="#AM02-0108-0012r" to="12v">10-12</locus>).</item>
 										</list>
 									</p>
 								</condition>
@@ -293,8 +274,8 @@
 										<list>
 											<item>Eindálka.</item>
 											<item> Leturflötur er ca <dimensions type="written" unit="mm" scope="all">
-												<height>275</height>
-												<width>155-160</width>
+												<height>270</height>
+												<width>160-165</width>
 												</dimensions>. </item>
 											<item>Línufjöldi á blaði er ca 45-48.</item>
 										</list>
@@ -316,31 +297,29 @@
 						</handDesc>
 
 						<decoDesc>
-							<decoNote type="secondary" subtype="display-script">
-								<list>
-									<item>Fyrirsagnir eru víðast með stærra letri en meginmálið (sjá
-										blað <locus from="1r" facs="#AM02-0108-0001r" to="1r">1r</locus> og <locus from="7r" facs="#AM02-0108-0007r" to="7r">7r</locus>). Þar er leturgerðin einnig önnur en
-										á meginmáli.</item>
-								</list>
-							</decoNote>
+							
+							<decoNote type="secondary" subtype="display-script">Fyrirsagnir eru víðast með stærra letri en meginmálið og í kansellískrift (sjá
+										blað <locus from="1r" facs="#AM02-0108-0001r" to="1r">1r</locus> og <locus from="7r" facs="#AM02-0108-0007r" to="7r">7r</locus>).</decoNote>
+							<decoNote type="initial">Skrifarinn skrifaði upphafsstafi með sama bleki og aðaltextann. Þeir eru örlítið skreyttir.</decoNote>
+							<decoNote type="secondary" subtype="paratext">Pennaflúr undir griporðum.</decoNote>
+							
 						</decoDesc>
 
 						<additions>
-							<p>
-								<list>
-									<item>Margar spássíutilvísanir með hendi skrifara (sjá t.d.
-											<locus from="9r" facs="#AM02-0108-0009r" to="12r">9r-12r</locus>).</item>
-								</list>
+							<p>Margar spássíutilvísanir með hendi skrifara (sjá t.d.
+											<locus from="9r" facs="#AM02-0108-0009r" to="12r">9r-12r</locus>).
+								
 							</p>
 						</additions>
 
 						<bindingDesc>
 							<binding when="1974" contemporary="false">
 								<p> Band (<dimensions type="binding">
-										<height>311</height>
-										<width>227</width>
-										<depth>35</depth>
-									</dimensions>) er frá 1974.<list>
+										<height unit="mm">311</height>
+										<width unit="mm">227</width>
+										<depth unit="mm">35</depth>
+								</dimensions>) er frá <date when="1974">1974</date> og var gert af 
+									<name type="person" key="BirDal001">Birgitte Dall</name> (sjá seðil).<list>
 										<item> Spjöld eru klædd fínofnum striga. Grófari strigi er á
 											kili og hornum.</item>
 										<item>Blöð eru saumuð á móttök. Saurblöð tilheyra þessu
@@ -349,12 +328,27 @@
 								</p>
 
 							</binding>
-							<binding notBefore="1700" notAfter="1730" contemporary="unknown">
-								<p> Band frá 1700-1730. <list>
-										<item>Spjöld og kjölur eru klædd bókfelli.</item>
+							<binding notBefore="1889" notAfter="1919" contemporary="false">
+								<p> Eldra band er varðveitt sér. <list>
+									<item> Spjöld eru klædd brúnum marmoreraðum pappír frá tíma <name type="person" key="KriKaa001">
+										Kr. Kålunds</name> (ca <date notBefore="1889" notAfter="1919">1889-1919</date>). Þetta 
+									band var líklega gert þegar gömlu blöðin frá eldra bandinu voru tekin af.</item>
+								</list>
+								</p>
+							</binding>
+							<binding notBefore="1700" notAfter="1730" contemporary="false">
+								<p> Brot af enn eldra bandi eru varðveitt. <list>
+									<item> Bandið virðist hafa verið gert á tíma <name type="person" key="ArnMag001">
+										Árna Magnússonar</name> (ca. <date notBefore="1700" notAfter="1730">1700-1730</date>)
+										og var klætt bókfelli með latneskum texta og nótum 
+										(<bibl><ref target="KKKat">Katalog I,</ref> <biblScope unit="page">72</biblScope></bibl>). 
+										Blöðin af spjöldunum eru varðveitt í <ref target="Acc-007" type="ms">Acc. 7</ref>, og Merete Gert Andersen greindi að blöðin
+										hafi áður tilheyrt Hs 2 (<bibl><ref target="BiblArn46">Katalog over AM Accessoria 7,</ref> 
+											<biblScope unit="page">9-15</biblScope></bibl>).
+										 </item>
 									</list>
 								</p>
-								<!-- eldra band sá ég ekki (vh) -->
+								
 							</binding>
 						</bindingDesc>
 
@@ -363,15 +357,15 @@
 								<list>
 									<item>
 										<locus from="accMat01r" facs="#AM02-0108-accMat01r" to="accMat01v">Seðill</locus> með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name> er
-										á milli <locus from="0001v-FFl" facs="#AM02-0108-0001v-FFl" to="0001v-FFl">fremra saublaðs verso</locus> og blaðs
+										á milli <locus from="0001v-FFl" facs="#AM02-0108-0001v-FFl" to="0001v-FFl">fremra verso saurblaðs</locus> og recto blaðs
 											<locus from="1r" facs="#AM02-0108-0001r" to="1r">1
-										rekto</locus> (<dimensions type="slip" unit="mm">
+										</locus> (<dimensions type="slip" unit="mm">
 											<height>160</height>
 											<width>60</width>
-										</dimensions>): <quote type="AMSlip" xml:lang="is">Landámabók
-											 úr bók þeirri er ég fékk af Jónasi Daðasyni</quote>.</item>
-									<item>Laus seðill frá Kaupmannahöfn með upplýsingum um forvörslu
-										bands.</item>
+										</dimensions>): <quote type="AMSlip" xml:lang="is">Landnámabók úr bók
+											þeirri er ég fékk af Jónasi Daðasyni</quote>.</item>
+									<item>Laus seðill frá Kaupmannahöfn með upplýsingum um forvörslu handritsins og
+										bands undir <name type="person" key="BirDal001">Birgitte Dall</name> <date when="1974">(1974).</date></item>
 								</list>
 							</p>
 						</accMat>
@@ -385,17 +379,21 @@
 										aldar</origDate>, en í <bibl>
 											<ref target="KKKat">Katalog I</ref>
 										</bibl>, bls. 72, til 17. aldar. Það var áður hluti af
-										stærri bók (sbr. <locus from="accMat01r" facs="#AM02-0108-accMat01r" to="accMat01v">seðil</locus>). Í þeirri bók voru einnig <ref target="AM02-0005" type="ms">AM 5 fol.</ref>, <ref target="AM02-0113d" type="ms">AM 113 d fol.</ref>, <ref target="AM02-0129" type="ms">AM 129 fol.</ref>, <ref target="AM02-0163k" type="ms">AM 163 k fol.</ref> og
-											<ref target="AM02-0164c" type="ms">AM 164 c fol.</ref>
-									
+										stærri bók (sbr. <locus from="accMat01r" facs="#AM02-0108-accMat01r" to="accMat01v">seðil</locus>). 
+								Í þeirri bók voru einnig <ref target="AM02-0218" type="ms">AM 218 fol.</ref>, <ref target="AM02-0113d" type="ms">AM 113 d fol.</ref> og
+								<ref target="AM02-0341" type="ms">AM 341 fol.</ref> (Ms94 hjá Beeke Stegmann). <!-- add ref to Beeke Stegmann forthcoming  -->
+								Jakob Benediktsson (<bibl><ref target="RitHI1">1958,</ref> <biblScope unit="page">xviii-xix</biblScope></bibl>) hélt því fram að 
+								<ref target="AM02-0108" type="ms">AM 108 fol.</ref> hafi verið í sömu bók og <ref target="AM02-0129" type="ms">AM 129 fol.</ref>, <ref target="AM02-0163k" type="ms">AM 163 k fol.</ref>
+								og <ref target="AM02-0164c" type="ms">AM 164 c fol.</ref> en Beeke Stegmann telur líklegara að þau 
+								hafi verið í öðru handriti (Ms79) sem <name key="ArnMag001" type="person">Árni Magnússon</name> fékk frá 
+								<name key="JonDad001" type="person">Jónasi Daðasyni Gam</name>. <!-- add ref to Beeke Stegmann forthcoming  -->
 								
 							</p>
 						</origin>
-						<!-- sjá Sagnanet um aldursgreiningu -->
 						<provenance>
 							<p>
 								<name key="ArnMag001" type="person">Árni Magnússon</name> fékk
-								bókina sem handritið tilheyrði frá <name key="JonDad001" type="person">Jóni Daðasyni</name> (sbr. <locus from="accMat01r" facs="#AM02-0108-accMat01r" to="accMat01v">seðil</locus>).</p>
+								bókina sem handritið tilheyrði frá <name key="JonDad001" type="person">Jónasi Daðasyni Gam</name> (sbr. <locus from="accMat01r" facs="#AM02-0108-accMat01r" to="accMat01v">seðil</locus>).</p>
 						</provenance>
 						<acquisition when="1974-04-17">
 							<p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 17. apríl
@@ -417,8 +415,9 @@
 										grunnskráði <date when="2001-11-16">16. nóvember
 											2001</date>,
 												<name type="person" key="ValHil001">VH</name> skráði
-										handritið samkvæmt TEIP5 reglum <date when="2009-01-30">30. janúar 2009</date>; lagfærði í <date when="2010-11">nóv. 2010
-										</date>. <name key="ThuSig002" type="person">ÞÓS</name> skráði vatnsmerki <date when="2020-06-05">5. júní 2020</date></p>
+										handritið samkvæmt TEIP5 reglum <date when="2009-01-30">30. janúar 2009</date>; lagfærði í <date when="2010-11">nóv. 2010</date>. 
+										<name key="ThuSig002" type="person">ÞÓS</name> skráði vatnsmerki <date when="2020-06-05">5. júní 2020</date>. 
+										<name type="person" key="BeeSte001">BS</name> lagfærði og bætti við <date when="2021-11-26">26. nóv. 2021</date>.</p>
 										
 								</source>
 
@@ -427,17 +426,20 @@
 								<custEvent type="conservation" when="1974">
 									<p>Viðgert og bundið af <name type="person" key="BirDal001">Birgitte Dall</name> í mars 1974.</p>
 								</custEvent>
+								<custEvent type="conservation" notBefore="1889" notAfter="1919">
+									<p>Bundið í Kaupmannahöfn 1889-1919. Það band er varðveitt sér.</p>
+								</custEvent>
 								<custEvent type="conservation" notBefore="1700" notAfter="1730">
-									<p>Bundið í Kaupmannahöfn 1700-1730. Það band fylgir.</p>
+									<p>Bundið í Kaupmannahöfn 1700-1730.</p>
 								</custEvent>
 							</custodialHist>
 						</adminInfo>
 						<surrogates>
 							<p>
 								<list>
-									<item>Stafrænar myndir á www.sagnanet.is.</item>
+									<!--<item>Stafrænar myndir á www.sagnanet.is.</item>-->
 									<item>Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
-										Kaupmannahöfn.</item>
+										Kaupmannahöfn; sjá digitalesamlinger.hum.ku.dk.</item>
 								</list>
 							</p>
 						</surrogates>
@@ -473,11 +475,13 @@
 
 						</listBibl>
 					</additional>
+					
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<revisionDesc>
 			<change when="2008-10" who="#EriHas01">Migrated from MASTER to P5</change>
+			
 		</revisionDesc>
 	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">

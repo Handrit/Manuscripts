@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -24,8 +24,10 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary><title>The Provincial Law of Jutland</title></summary>
-                  <textLang mainLang="de">Low German</textLang>
+                  <summary><title type="uniform">The Provincial Law of Jutland</title>
+                     <note>Low German tranlation. The source text is <name type="person" key="EriKra001">Erik Krabbe</name>'s translation into High German
+                        from <date when="1557">1557</date>.</note></summary>
+                  <textLang mainLang="nds">Low German</textLang>
                   <titlePage type="MS">
                      <docTitle>
                         <titlePart type="main">Ein nye Vthgeſettet vnd Tranſsferier<lb/>tes Lowbock,
@@ -38,17 +40,29 @@
                            <lb/> Anno Christi 1579. Den 3 Nouemb.</titlePart>
                      </docTitle>
                   </titlePage>
+                  <msItem n="1" class="log">
+                     <locus from="1r" to="188v">1r-188v</locus>
+                     <title type="uniform">The Provincial Law of Jutland</title>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support><material>Paper</material>.</support>
-                        <extent>188. <dimensions type="leaf" scope="all">
-                              <height>220</height>
-                              <width>172</width>
+                        <extent>188 (including the title page). <dimensions type="leaf" scope="all">
+                              <height unit="mm">220</height>
+                              <width unit="mm">172</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Most of the leaves are foliated in Roman numerals.</p>
+                        </foliation>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>Rubrics and initials in red ink.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
                </physDesc>
                <history>
@@ -63,7 +77,7 @@
                      </bibl>
                   </listBibl>
                </additional>
-               
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

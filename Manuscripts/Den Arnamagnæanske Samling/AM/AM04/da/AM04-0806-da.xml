@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,19 +23,15 @@
                      <idno>1938</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Forum Judicum</title>
-                  <origPlace>Spanien</origPlace>
-                  <origDate notBefore="1290" notAfter="1310" evidence="conjecture" resp="KKKat">ca.
-                     1300</origDate>.</head>
                <msContents>
-                  <msItem>
+                  <summary><title type="supplied">Forum Judicum</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="80v">1r-80v</locus>
                      <title type="supplied">Forum Judicum</title>
                      <textLang mainLang="spa">Spansk</textLang>
-                     <rubric>Fuergo Juzgo de los godos </rubric>
+                     <rubric>Fuergo Juzgo de los godos</rubric>
                      <note>Overskriften er tilføjet senere. Gotisk lovhåndskrift på spansk. Ender i
                         Lib. XII, Tit. III.</note>
-
                   </msItem>
                </msContents>
                <physDesc>
@@ -46,8 +42,8 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>80. <dimensions type="leaf" scope="all">
-                              <height>260</height>
-                              <width>198</width>
+                              <height unit="mm">260</height>
+                              <width unit="mm">198</width>
                            </dimensions>.</extent>
                      </supportDesc>
                      <layoutDesc>
@@ -58,24 +54,44 @@
                   </objectDesc>
                   <bindingDesc>
                      <binding contemporary="unknown">
-                        <p>Pergamentsomslag. Rygtitel: <q>FVERO IVZGO GOTHICO</q></p>
+                        <p>Blødt bind med pergamentsomslag og formering. Rygtitel: <q>FVERO IVZGO GOTHICO</q></p>
                      </binding>
                   </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Spanien</origPlace>, <origDate notBefore="1290" notAfter="1310"
+                        evidence="conjecture" resp="KKKat">ca. 1300</origDate>.</origin>
+                  <provenance>
+                     <p>Håndskriftet har tilhørt <name type="person" key="CorLer001"
+                        >Cornelius Pedersen Lerche</name> og i hans auktionskatalog fra
+                        1682 er det optegnet under kvarto-håndskrifterne som nr. 2 (Jf.
+                        <bibl><ref type="secondary-2" target="CPLKat"
+                           >Catalogus</ref>
+                           <biblScope unit="page">166</biblScope></bibl>).</p>
+                  </provenance>
+                  <acquisition>Der findes ingen oplysninger om, hvordan håndskriftet blev en del
+                     af <name type="org" key="AMS">Den Arnamagnæanske
+                        Samling</name>.</acquisition>
+               </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source><p>Nærværende håndskriftbeskrivelsen er lavet udelukkende på basis
-                              af <bibl><ref target="KKKat">Kålunds katalog</ref></bibl>. </p><p>For
-                              yderligere oplysninger se den engelske beskrivelse: <ref type="url" target="https://handrit.is/manuscript/view/en/AM04-0806">https://handrit.is/manuscript/view/en/AM04-0806</ref>.</p>
+                        <source><p>Håndskriftbeskrivelsen er baseret på 
+                              <bibl><ref target="KKKat">Kålunds katalog</ref></bibl>.</p>
                         </source>
                      </recordHist>
                   </adminInfo>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">214</biblScope>
+                        <biblScope unit="page">214</biblScope>
                      </bibl>
+                     <bibl><ref type="secondary-2" target="CPLKat"/>
+                        <biblScope unit="pages">164-167</biblScope></bibl>
+                     <bibl> <ref type="secondary-3" target="EmiGig1909"/></bibl>
+                     <bibl> <ref type="secondary-4" target="HarIls1999"/>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">360-364</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

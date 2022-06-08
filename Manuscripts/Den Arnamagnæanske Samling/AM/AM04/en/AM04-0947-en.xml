@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,30 +23,43 @@
                      <idno>2079</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Laxdæla saga</title>
-                  <origPlace>Denmark, Copenhagen</origPlace>
-                  <origDate notBefore="1826-01-01" notAfter="1826-12-31">1826</origDate>
-                  <note>Printed edition, corrected according to <ref>AM 132 fol</ref>. Variants from other manuscripts.</note>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform">Laxdæla saga</title><note>Printed edition,
+                        corrected according to <ref type="ms" target="#AM02-0132-is">AM 132
+                           fol</ref> with variants from other manuscripts.</note></summary>
+                  <msItem n="1" class="isl">
+                     <title type="uniform">Laxdæla saga</title>
                      <textLang mainLang="is">Icelandic</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>pp. 2 + xviii + 442. 
-<dimensions type="leaf" scope="all">
-                              <height>280</height>
-                              <width>235</width>
+                        <support><material>Paper</material>. Printed edition.</support>
+                        <extent>442 + xviii + 2 title pages and an index. <dimensions type="leaf" scope="all">
+                              <height unit="mm">280</height>
+                              <width unit="mm">235</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
-               </physDesc>
+                  <accMat>
+                     <p>On two enclosed slips information on the manuscripts consulted etc. is given.</p>
+                  </accMat>
+                  </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Copenhagen, Denmark</origPlace>,
+                     <origDate when="1826">1826</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">273</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

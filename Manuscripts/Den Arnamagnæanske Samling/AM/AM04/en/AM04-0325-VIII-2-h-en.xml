@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,28 +23,30 @@
                             <idno>1066</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Ólafs saga Tryggvasonar</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1376" notAfter="1399" cert="high" evidence="conjecture">s. XIV 4/4</origDate>
-                        <note>According to <name type="person" key="OlaHal001">Ólafur
-                                Halldórsson</name> AM 325 VIII 2c, 2e, 2f, 2g and 2h 4to once
-                            belonged to the same codex.</note>
-                    </head>
                     <msContents>
-                        <msItem>
+                        <summary>
+                            <title type="uniform">Ólafs saga Tryggvasonar</title>
+                        </summary>
+                        <msItem n="1" class="kon">
                             <locus from="1r" to="1v">1r-v</locus>
-                            <title>Ólafs saga Tryggvasonar</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <title type="uniform">Ólafs saga Tryggvasonar</title>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <incipit defective="true">
-                        <supplied reason="damage">mæl</supplied>ti.
-                                    þ<expan>at</expan> hefi ek</incipit>
+                                <supplied reason="damage">mæl</supplied>ti. þ<expan>at</expan> hefi
+                                ek</incipit>
                             <explicit defective="true">þ<expan>ei</expan>r v<expan>oro</expan> badir
                                     ho<supplied reason="damage">fdingiar</supplied>
                             </explicit>
-                            <bibl>
-                        <ref type="primary-1" target="EA-A2">Óláfs saga Tryggvasonar en
-                                    Mesta</ref>, pp. 122:18-123:11 and 127:9-21</bibl>
+                            <bibl>Ólafur Halldórsson, <ref type="primary-1" target="EA-A1">Óláfs
+                                    saga Tryggvasonar en Mesta</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <note>Var.app. C<hi rend="sup">5</hi></note>
+                            </bibl>
+                            <bibl>Ólafur Halldórsson, <ref type="primary-1" target="EA-A2">Óláfs
+                                    saga Tryggvasonar en Mesta</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <note>Var.app. C<hi rend="sup">5</hi></note>
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -53,49 +56,74 @@
                                     <p>
                                         <material>Parchment</material>.</p>
                                 </support>
-                                <extent>1 fragment leaf. <dimensions scope="range" type="leaf">
-                                        <height>142</height>
-                                        <width>69</width>
+                                <extent>1 fragmentary leaf. <dimensions scope="range" type="leaf">
+                                        <height unit="mm">142</height>
+                                        <width unit="mm">69</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
-                                    <p>The extant part is only a little fragment of the inner column
-                                        of the leaf.</p>
+                                    <p>A small fragment from the bottom of the inner column of a
+                                        leaf. The inner margin is excised and both inner corners are
+                                        cut off diagonally. </p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1">
-                                    <p>17 lines on the recto and 18 lines on the verso are what is
-                                        extant of the leaf.</p>
+                                    <p>Originally written in two columns. Remnants of seventeen
+                                        lines, measuring 30-60 mm, are extant, however including a
+                                        part of some letters of an eighteenth line (recto: seventeen
+                                        lines, verso: eighteen lines).</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                     </physDesc>
                     <history>
                         <origin notBefore="1376" notAfter="1399" cert="high" evidence="conjecture">
-                            <p>The fragment leaf is written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> dates it to
-                                    <origDate>the fifteenth century</origDate> whereas <name type="person" key="OlaHal001">Ólafur Halldórsson</name> dates it
-                                more precisely to <origDate notBefore="1375" notAfter="1399" cert="high" evidence="conjecture">the last quarter of the
-                                    fourteenth century</origDate>.</p>
+                            <p>Written in <origPlace>Iceland</origPlace>
+                                <origDate notBefore="1390" notAfter="1410" cert="high"
+                                    evidence="conjecture" resp="EA-A3">ca. 1400</origDate> (<bibl>
+                                    <ref type="secondary-1" target="OlaHal1976">Ólafur Halldórsson
+                                        1976</ref><biblScope unit="page">393</biblScope>
+                                </bibl>). Kålund's dating: <date notBefore="1400" notAfter="1499"
+                                    cert="medium" evidence="conjecture" resp="KKKat"
+                                    >1400-tallet</date> (<bibl><ref type="secondary-1"
+                                        target="KKKat">Katalog</ref><biblScope unit="volume"
+                                        >I</biblScope><biblScope unit="page">560</biblScope>
+                                </bibl>).</p>
+                            <p>According to Ólafur Halldórsson (<bibl>
+                                    <ref type="secondary-1" target="EA-A3">Ólafur Halldórsson
+                                        2000</ref>
+                                    <biblScope unit="page">clv</biblScope>
+                                </bibl>) <ref type="ms" target="AM04-0325-VIII-2-c-en">AM 325 VIII 2
+                                    c 4to</ref>, <ref type="ms" target="AM04-0325-VIII-2-e-en">AM
+                                    325 VIII 2 e 4to</ref>, <ref type="ms"
+                                    target="AM04-0325-VIII-2-f-en">AM 325 VIII 2 f 4to</ref>, <ref
+                                    type="ms" target="AM04-0325-VIII-2-g-en">AM 325 VIII 2 g
+                                    4to</ref> and AM 325 VIII 2 h 4to originally belonged to the
+                                same codex.</p>
                         </origin>
                         <acquisition>
-                            <p>On the inside of the cover <name type="person" key="ArnMag001">Árni
-                                    Magnússon</name> has written: <q xml:lang="is">feinged af <name type="person" key="PalJon005">Päle Jonssyne</name>
-                                        lgman<expan>n</expan>i, i <name type="place" key="Copen01">Kaupenhafn</name>
+                            <p>On the pastedown <name type="person" key="ArnMag001">Árni
+                                    Magnússon</name> wrote: <q xml:lang="is">feinged af <name
+                                        type="person" key="PalJon005">Päle Jonssyne</name>
+                                        lgman<expan>n</expan>i, i <name type="place" key="Copen01"
+                                        >Kaupenhafn</name>
                                     <date when="1715">1715</date>.</q>
-                     </p>
+                            </p>
                         </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date when="2000-03-01">01.03.2000</date> by <name type="person" key="EvaWed001">EW-J</name>. (Parsed
+                                    <p>Catalogued <date when="2000-03-01">01.03.2000</date> by <name
+                                            type="person" key="EvaWed001">EW-J</name>. (Parsed
                                             <date>01.08.2000</date>).</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
                                     <p>From the 2 March 1958 to 4 April 1959 the manuscript was set
                                         on meeting guards and put in a cover.</p>
                                 </custEvent>
@@ -103,29 +131,29 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositives</title>
-                                        <idno>AM 325 VIII 2 h 4to</idno>
-                                        <date>May 1984 (or 1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <date>October 1956</date>
-                                        <idno>AM 325 VIII 2 h 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item>Plate, <idno>plade37</idno>, s.d.</item>
+                                    <item>Diapositives from <date notBefore="1984-05"
+                                            notAfter="1985-05">May 1984 or 1985</date>.
+                                    </item>
+                                    <item>Black and white prints from <date when="1956-10">October
+                                            1956</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
-                            <bibl>
-                                <ref type="secondary-1" target="EA-A3">Ólafur Halldórsson,
-                                    2000</ref>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat"
+                                >Katalog</ref><biblScope unit="volume">II</biblScope><biblScope
+                                    unit="page">560</biblScope></bibl>
+                            <bibl><ref type="secondary-1" target="OlaHal1976">Ólafur Halldórsson
+                                1976</ref><!-- biblScope? -->
                             </bibl>
+                            <bibl><ref type="secondary-1" target="EA-A3">Ólafur Halldórsson,
+                                2000</ref><biblScope unit="volume">III</biblScope><biblScope
+                                    unit="page">xvii, xix-xxi, clv, clvii-clviii, clviii-clxiii
+                                    pass., clxxix, cxciv, cxcv, ccviii, ccxvi, ccxvii, cclxv,
+                                    ccxcv, ccxcvi, ccc, ccciii, cccix</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

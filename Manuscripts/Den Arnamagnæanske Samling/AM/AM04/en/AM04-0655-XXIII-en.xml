@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -23,32 +23,29 @@
                         </altIdentifier>
                         <msName type="nickname" xml:lang="is">Villa</msName>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="en">Devotional Book/Service Book</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1225" notAfter="1250">s. XIII 2/4</origDate>
-                    </head>
-                    <msContents>
-                        <msItem n="1" defective="true">
-                            <locus>1r</locus>
-                            <title type="supplied">Interpretation of David's fourth penitential
-                                psalm, Miserere</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                      <msContents>
+                        <summary><title type="supplied">Missal</title></summary>
+                          <!--Bullitta 2017: the passio of the Forty Armenian
+Martyrs, which is otherwise transmitted only in AM 655 4to fragment XXIII
+4to, dating from the middle of the thirteenth century -->
+                        <msItem n="1" defective="true" class="pred">
+                            <locus from="1r" to="1r">1r</locus>
+                            <title type="supplied">Interpretation of David's Fourth Penitential
+                                Psalm, Miserere</title>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <incipit defective="true">sonar G<expan>uðs</expan>
                      </incipit>
                             <explicit defective="true">ieno<expan>m</expan>
                                 <lb/> forno<expan>m</expan> lavgo<expan>m</expan>
                      </explicit>
-                            <listBibl>
-                                <bibl>
+                            <bibl>Konráð Gíslason,
                                     <ref type="primary-1" target="KGFrumparta">Um frum-parta
                                         íslenzkrar túngu í fornöld</ref>
                                     <biblScope unit="pages">LXXXII-III</biblScope>
                                 </bibl>
-                            </listBibl>
                         </msItem>
-                        <msItem n="2" defective="true">
-                            <locus>1v</locus>
+                        <msItem n="2" defective="true" class="ban">
+                            <locus from="1v" to="1v">1v</locus>
                             <title type="supplied">Prayers</title>
                             <textLang mainLang="la">Latin</textLang>
                         </msItem>
@@ -57,11 +54,11 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>195</height>
-                                        <width>140</width>
+                                        <height unit="mm">195</height>
+                                        <width unit="mm">140</width>
                                     </dimensions>
                         </extent>
                                 <condition>
@@ -77,18 +74,17 @@
                         </accMat>
                     </physDesc>
                     <history>
-                        <origin notBefore="1200" notAfter="1225" cert="high" evidence="conjecture">
+                        <origin notBefore="1225" notAfter="1250" cert="high" evidence="conjecture">
                             <p>The manuscript is written in <origPlace>Örnundarfjörður,
-                                    Iceland</origPlace>. In his catalogue, <name type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
-                                    <ref type="secondary-1" target="KKKat">Katalog over Den
-                                        Arnamagnæanske Håndskriftsamling</ref>
-                                </bibl>) dated it to the first half of the thirteenth century, later
-                                Hreinn Benediktsson (<bibl>
-                                    <ref type="secondary-1" target="IHFol2">Hreinn Benediktsson
-                                        1965</ref>
-                                    <biblScope unit="pages">xxv</biblScope>
-                                </bibl>) dated it more precisely to the second quarter of the
-                                thirteenth century.</p>
+                                Iceland</origPlace> in <origDate notBefore="1225"
+                                    notAfter="1250" evidence="conjecture" resp="IHFol2">the second quarter of the
+                                    thirteenth century</origDate> (<bibl>
+                                        <ref type="secondary-1" target="IHFol2">Hreinn Benediktsson
+                                            1965</ref>
+                                        <biblScope unit="pages">xxv</biblScope>
+                                    </bibl>). <name type="person" key="KriKaa001">Kålund</name>'s dating: The first half of the thirteenth century (<bibl>
+                                    <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                </bibl>).</p>
                         </origin>
                     </history>
                     <additional>
@@ -100,6 +96,10 @@
                             </recordHist>
                         </adminInfo>
                         <listBibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">64</biblScope>
+                            </bibl>
                             <bibl>
                                 <ref type="secondary-1" target="OrdbogBNW">Bekker-Nielsen and
                                     Widding 1960</ref>

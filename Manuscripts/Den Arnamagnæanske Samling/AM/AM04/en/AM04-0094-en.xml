@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,30 +23,58 @@
                      <idno>747</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Norwegian Legal Manuscript</title>
-                  <origPlace>Norway</origPlace>
-                  <origDate notBefore="1590" notAfter="1610">c. 1600</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="da">Danish</textLang>
+                  <summary><title type="supplied">Norwegian Legal Manuscript</title></summary>
+                  <msItem>
+                     <title type="supplied">Norwegian Legal Manuscript</title>
+                     <textLang mainLang="da">Danish</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>107. 
-<dimensions type="leaf" scope="all">
-                              <height>210</height>
-                              <width>165</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>107. <dimensions type="leaf" scope="all">
+                              <height unit="mm">210</height>
+                              <width unit="mm">165</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Norway</origPlace>, <origDate notBefore="1590" notAfter="1610"
+                        >c. 1600</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Friis: <ref type="secondary" target="FriisSmlSkrifter">Samlede
+                           Skrifter</ref>
+                        <biblScope unit="page">lxv</biblScope>
+                     </bibl>
+                     <bibl>Jón Sigurðsson <ref target="DiplIsl">Diplomatarium Islandicum</ref>
+                        <biblScope unit="volume">I</biblScope>
+                     </bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">402</biblScope>
+                     </bibl>
+                     <bibl>Storm: <ref type="secondary" target="ChrVidSkFor14">Om Haandskrifter og
+                           Oversættelser af Magnus Lagaböters Love</ref>
+                        <biblScope unit="page">50</biblScope>
+                     </bibl>
+                     <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="page">588-591</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-12-09" who="EvaWed001">Updated markup and added bibliography.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

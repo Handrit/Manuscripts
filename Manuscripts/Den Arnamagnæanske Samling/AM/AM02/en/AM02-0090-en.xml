@@ -1,61 +1,71 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="main">AM 90 fol.</title>
-            </titleStmt>
-            <publicationStmt>
-                <authority>Den Arnamagnæanske Samling</authority>
-                <pubPlace>København</pubPlace>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:id="AM02-0090-en" xml:lang="en">
-                    <msIdentifier>
-                        <country>Danmark</country>
-                        <settlement>København</settlement>
-                        <institution key="AMS"/>
-                        <repository>Den Arnamagnæanske Samling</repository>
-                        <collection key="AM"/>
-                        <idno>AM 90 fol.</idno>
-                        <altIdentifier type="internal" subtype="KKKat">
-                            <idno>109</idno>
-                        </altIdentifier>
-                    </msIdentifier>
-                    <head>
-                        <title>Hákonar saga Hákonarsonar</title>; <origPlace>Norway</origPlace>,
-                            <origDate notBefore="1685" notAfter="1707">c. 1700</origDate>,
-                            <note>Copy of <title>Flateyarbók</title>.</note>
-                    </head>
-                    <msContents>
-                        <textLang mainLang="is">Icelandic</textLang>
-                    </msContents>
-                    <physDesc>
-                        <objectDesc form="codex">
-                            <supportDesc material="chart">
-                                <support>
-                                    <p>
-                                        <material>Paper.</material>
-                                    </p>
-                                </support>
-                                <extent>181. <dimensions type="leaf" scope="all">
-                                        <height>320</height>
-                                        <width>210</width>
-                                    </dimensions>
-                        </extent>
-                            </supportDesc>
-                        </objectDesc>
-                        <handDesc hands="1">
-                            <handNote scribe="AsgJon001" scope="sole" script="unknown">
-                                <p> Written by Ásgeir Jónsson.</p>
-                            </handNote>
-                        </handDesc>
-                    </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 90 fol.</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM02-0090-en" xml:lang="en">
+					<msIdentifier>
+						<country>Danmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 90 fol.</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>109</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="uniform">Hákonar saga Hákonarsonar</title></summary>
+						<msItem n="1" class="kon">
+							<locus from="1r" facs="#AM02-0090-0001r" to="181v">1r-181v</locus>
+							<title type="uniform">Hákonar saga Hákonarsonar</title>
+							<textLang mainLang="is">Icelandic</textLang>
+							<filiation>Copy of <title type="ms">Flateyarbók</title>.</filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p>
+										<material>Paper.</material>
+									</p>
+								</support>
+								<extent>181. <dimensions type="leaf" scope="all">
+										<height unit="mm">320</height>
+										<width unit="mm">210</width>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<handNote scribe="AsgJon001" scope="sole" script="unknown">
+								<p> Written by Ásgeir Jónsson.</p>
+							</handNote>
+						</handDesc>
+					</physDesc>
+					<history><origin><origPlace>Norway</origPlace>, <origDate notBefore="1685" notAfter="1707">c. 1700</origDate>.</origin></history>
+					<additional>
+						<listBibl>
+							<bibl><ref type="secondary-1" target="KKKat"/>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="pages">64</biblScope>
+							</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM02-0090-0000r-FB" n="0">
 			<desc>0000r-FB</desc>

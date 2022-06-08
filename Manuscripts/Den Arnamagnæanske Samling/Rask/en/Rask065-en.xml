@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,35 +23,53 @@
                      <idno>2639</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Fornyðri Páll Vídalíns</title>
-                  <origPlace>Denmark, Copenhagen</origPlace>
-                  <origDate notBefore="1752-01-01" notAfter="1752-12-31">1752</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Fornyðri lögbókar</title></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">PAULS JÖNSSON<ex>ar</ex>
+                           <lb/> VIDALIN <lb/> Utskiring nockura <lb/> Forn-Yrda <lb/> LØGBÖKAR,
+                           <lb/> mikinpart útskrifud eptir Aucto<lb/>ris Manuscripto, i <lb/>
+                              Kaupm<ex>anna</ex>-Hfn <lb/> af <lb/> H. E. S. <lb/> 1752</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1">
+                     <author key="PalJon005">Páll Vídalín</author>
+                     <title type="supplied">Fornyðri lögbókar</title>
+                     <textLang mainLang="is"/>
+                     <note>Some parts filled in by<name type="person" key="RasRas001">Rask</name>.
+                        Preceded by an index and a flyleaf.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>425. 
-<dimensions type="leaf" scope="all">
-                              <height>200</height>
-                              <width>162</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>i + 425. <dimensions type="leaf" scope="all">
+                              <height unit="mm">200</height>
+                              <width unit="mm">162</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="HalEin01" scope="sole" script="unknown">
-                        <p>
-Written by Hálfdan Einarsson.</p>
+                     <handNote scribe="HalEin001" scope="sole" script="unknown">
+                        <p> Written by Hálfdan Einarsson.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Copenhagen, Denmark</origPlace>
+                     <origDate when="1752">1752</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">541-542</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

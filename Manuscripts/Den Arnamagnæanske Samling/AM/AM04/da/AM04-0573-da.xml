@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,47 +26,54 @@
                      <idno>1428</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" n="1">Trójumanna saga</title>
-                  <title type="uniform" n="2">Breta sögur</title>
-                  <origPlace>Island</origPlace>
-                  <origDate notBefore="1300" notAfter="1399" cert="medium" resp="KKKat">s.
-                     XIV</origDate>
-                  <origDate notBefore="1350" notAfter="1375" cert="high" resp="ONP" scope="range">1r-45v: s. XIV 3/4</origDate>
-                  <origDate notBefore="1325" notAfter="1375" cert="high" resp="ONP" scope="range">46r-63v: ca. 1330-1370</origDate>
-               </head>
-               <msContents>
-                  <msItem defective="true">
+                    <msContents>
+                       <summary><title type="uniform" n="1">Trójumanna saga og Breta sǫgur</title></summary>
+                  <textLang mainLang="non"/>
+                  <msItem n="1" class="sagnps" defective="true">
                      <locus from="1r" to="23v">1r-23v</locus>
                      <title type="uniform">Trójumanna saga</title>
-                     <textLang mainLang="is">Norrønt/Islandsk</textLang>
                      <incipit defective="true">er þv vart m<ex>ed</ex> feþr minv<ex>m</ex>
                      </incipit>
-                     <bibl>Louis-Jensen: <ref type="primary-1" target="EA-A8">Trójumanna
-                           saga</ref>
-                        <biblScope unit="pages">20-36, 51-167, 175-191, 213-238 (94-98,
-                           113-123, 154-162, 191: næstøverste tekst, i øvrigt midterste
-                           tekst)</biblScope>
+                     <bibl>Jón Sigurðsson: <ref target="TrojBretAn1848-49">Trójumanna saga ok Breta
+                           sögur</ref>
+                        <biblScope unit="issue">1848</biblScope>
+                        <biblScope unit="page">28, 34-38, 58-62, 70-86 </biblScope><note>Udg.
+                           B</note></bibl>
+                     <bibl>Louis-Jensen: <ref type="primary-1" target="EA-A8">Trójumanna saga</ref>
+                        <biblScope unit="page">20-36, 51-167, 175-191, 213-238</biblScope>
                         <note>Udg. S</note>
                      </bibl>
                   </msItem>
-                  <msItem>
+                  <msItem n="2" class="sagnps">
                      <locus from="24r" to="63v">24r-63v</locus>
-                     <title type="uniform">Breta sögur</title>
-                     <textLang mainLang="is">Norrønt/Islandsk</textLang>
-                     <note>Ender defekt i <title type="uniform">Valvens þáttr</title>, som følger
-                        efter et slutningskapitel om kong Artus' død.</note>
+                     <title type="uniform">Breta sǫgur</title>
+                     <msItem n="2.1" defective="true">
+                        <locus from="63r" to="63v">63r-v</locus>
+                        <title type="uniform">Valvens þáttr</title>
+                        <bibl>Jón Sigurðsson: <ref target="TrojBretAn1848-49">Trójumanna saga ok
+                              Breta sögur</ref>
+                           <biblScope unit="issue">1848</biblScope>
+                           <biblScope unit="page">110-12, 122-28, 186-90</biblScope>
+                           <biblScope unit="issue">1849</biblScope>
+                           <biblScope unit="page">86-90, 121</biblScope>
+                           <note>Var.app. B.</note>
+                        </bibl>
+                        <bibl>Kölbing, <ref target="Kolbing1880">Ein Bruchstück des Valvers
+                              þáttr</ref>
+                           <biblScope unit="page">385-388</biblScope><note>Udg. B</note></bibl>
+                        <note>Ender defekt.</note>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Pergament</p>
+                           <p><material>Pergament</material>.</p>
                         </support>
                         <extent>63. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>188</height>
-                              <width>137</width>
+                              <height unit="mm">188</height>
+                              <width unit="mm">137</width>
                            </dimensions>
                         </extent>
                         <condition>Håndskriftet er defekt. Lakuner efter bl. 2, 18, 20, 25, 38, 48
@@ -82,55 +90,72 @@
                      erhvervelse.</accMat>
                </physDesc>
                <history>
-                  <origin>Håndskriftet er skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl>
-                        <ref type="secondary-1">Katalog</ref>
-                        <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">735</biblScope>
-                     </bibl>) har dateret den til <origDate notBefore="1300" notAfter="1399" cert="medium" resp="KKKat">1300-tallet</origDate>. Senere har <name type="person" key="JonLou001">Louis-Jensen</name> (<bibl>
-                        <ref type="secondary-1" target="EA-A8">Trójumanna saga</ref>
-                        <biblScope unit="pages">xxxi</biblScope>
-                     </bibl>) dateret bl. 1r-45v til <origDate notBefore="1350" notAfter="1375" cert="high" resp="ONP" scope="range">1300-tallets 3/4</origDate>, mens <name type="person" key="SteKar001">Stéfan Karlsson</name> (<bibl>
-                        <ref type="secondary-1" target="EIMF7">Sagas of Icelandic Bishops</ref>
-                        <biblScope unit="pages">26, 28</biblScope>
-                     </bibl>) har dateret bl. 46r-63v til <origDate notBefore="1325" notAfter="1375" cert="high" resp="ONP" scope="range">ca. 1330-1370</origDate>
+                  <origin>Håndskriftet er skrevet i <origPlace>Island</origPlace> mellem ca.
+                        <origDate notBefore="1330" notAfter="1375">1330-1375</origDate>. <list>
+                        <item>Kålunds datering af hele håndskriftet: <date notBefore="1300"
+                              notAfter="1399" cert="medium" resp="KKKat">1300-tallet</date> (<bibl>
+                              <ref type="secondary-1" target="KKKat">Katalog</ref>
+                              <biblScope unit="volume">I</biblScope>
+                              <biblScope unit="page">735</biblScope>
+                           </bibl>). Det er dog senere dateret mere præcist.</item>
+                        <item>Bl. 1r-45v: <origDate notBefore="1350" notAfter="1375" cert="high"
+                              resp="EA-A8">1350-1375</origDate> (<bibl>
+                              <ref type="secondary-1" target="EA-A8">Louis-Jensen 1963</ref>
+                              <biblScope unit="page">xxxi</biblScope>
+                           </bibl>)</item>
+                        <item>Bl. 46r-63v: <origDate notBefore="1330" notAfter="1370" cert="high"
+                              resp="ONP" scope="range">ca. 1330-1370</origDate> (<bibl>
+                              <ref type="secondary-1" target="EIMF7">Stéfan Karlsson 1967</ref>
+                              <biblScope unit="page">26, 28</biblScope>
+                           </bibl>) </item>
+                     </list>
                   </origin>
                   <provenance>
-                     <p>Bl. 46-63, der er skrevet med en særlig hånd, har en tid været indlemmede i
-                           <name type="org" key="KB">Det Kongelige Bibliotek</name>s Thottske samling som nr
-                        1763 4to.</p>
+                     <p>Bl. 46r-63v, der er skrevet med en særlig hånd, har en tid været indlemmede
+                        i <ref type="ms">Thott 1763 4to</ref> i <name type="org" key="KB">Det
+                           Kongelige Bibliotek</name>.</p>
                   </provenance>
                   <acquisition>I <ref type="ms" target="AM04-0435-a-da">AM 435 a 4to</ref>, bl.
                      144v, angiver <name type="person" key="ArnMag001">Arne Magnusson</name> om
-                     denne codex, som han kalder <q xml:lang="la">mutilus et coufusus</q>, at den er
-                        <q>kominn fra <name type="person" key="BjaBja001">Biarna
-                           Biarnaſyne</name> i <name type="place" key="ArnFel01">Arnarbæle</name>, nockurn part <date when="1699">1699</date>.
+                     denne codex, som han kalder <q xml:lang="la">mutilus et confusus</q>, at den er
+                        <q>kominn fra Biarna Biarnaſyne i <name type="place" key="ArnFel01"
+                           >Arnarbæle</name>, nockurn part <date when="1699">1699</date>.
                            <ex>og</ex> nockud sidan <date when="1703">1703</date>.</q> Af AM-sedlen
-                     ses det, at det er bl. 1-2 og 19-23, som Arne Magnusson har fået fra Bjarni
-                     Bjarnason i 1703: <q>En<ex>n</ex> bokina hafde eg feinged nockrum ärum fyrr, af
-                           <name type="person" key="JacLof001">Jacob Lfberg</name>,
-                           en<ex>n</ex> han<ex>n</ex> af Biarna Bianiaſyne, og hafa þä
-                           þ<ex>ess</ex>e bld hiä Biarna epter orded</q>.</acquisition>
+                     ses det, at det er bl. 1-2 og 19-23, som Arne Magnusson har fået fra <name
+                        type="person" key="BjaBja001">Bjarni Bjarnason</name> i <date when="1703"
+                        >1703</date>: <q>En<ex>n</ex> bokina hafde eg feinged nockrum ärum fyrr, af
+                           <name type="person" key="JacLof001">Jacob Lfberg</name>, en<ex>n</ex>
+                           han<ex>n</ex> af Biarna Bianiaſyne, og hafa þä þ<ex>ess</ex>e bld hiä
+                        Biarna epter orded</q>.</acquisition>
                </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                      <bibl><ref type="secondary-1" target="MatDri1992a"/><!-- biblScope? --></bibl>
+                     <bibl><ref type="secondary-1" target="HarBer2006c"/></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">735-736</biblScope>
+                        <biblScope unit="page">735-736</biblScope>
                      </bibl>
-                     <bibl>Louis-Jensen:
-                        <ref type="secondary-1" target="EA-A8">Trójumanna saga</ref>
-                        <biblScope unit="pages"/>
+                      <bibl><ref type="secondary-1" target="EA-A8"/>
+                        <biblScope unit="page"/>
                      </bibl>
-                     <!-- Kålund skriver "sv"
-                     <bibl>Jón Sigurðsson:
-                        <ref target="TrojBretAn1848-49">Trójumanna saga ok Breta
-                        sögur</ref>
-                        <biblScope type="pages">28, 34-38, 58-62, 70-86 (Trójumanna saga); 110-12, 122-28, 186-90 (1848); s. 86-90, 121 (1849).</biblScope></bibl> -->
-                  </listBibl>
+                     <bibl><ref type="secondary-1" target="JonLou1130a"/>
+                        <biblScope unit="page"/>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="SteKar1552a"/></bibl>
+                     <bibl><ref type="secondary-1" target="SteKar1961a"/></bibl>
+                     <bibl>
+                        <ref type="secondary-1" target="EIMF7"/>
+                        <biblScope unit="page">26, 28</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="SteKar2000q"/></bibl>
+                     <bibl><ref type="secondary-1" target="SteKar2000r"/></bibl>
+                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-10" who="EvaWed001">Opdateret opmærkning.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

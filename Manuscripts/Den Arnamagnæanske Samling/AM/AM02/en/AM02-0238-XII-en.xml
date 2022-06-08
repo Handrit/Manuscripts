@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,15 +22,11 @@
                             <idno>360</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Sebastíanus saga</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1390" notAfter="1410" cert="high" evidence="conjecture">c. 1400</origDate>
-                    </head>
-                    <msContents>
-                        <msItem>
-                            <locus>f. 1</locus>
-                            <title>Sebastíanus saga</title>
+                       <msContents>
+                        <summary><title type="uniform">Sebastíanus saga</title></summary>
+                        <msItem n="1" class="hels">
+                            <locus from="1r" to="1v">1r-v</locus>
+                            <title type="uniform">Sebastíanus saga</title>
                             <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <incipit defective="true">
                         <gap reason="lacuna" extent="3"/>elsekr epa
@@ -39,13 +35,11 @@
                                     selld<ex>ir</ex> eilifu<ex>m</ex> dda</incipit>
                             <explicit defective="true">Þu skallt a uallt m<ex>ed</ex> m<ex>er</ex>
                                     u<ex>er</ex>a</explicit>
-                            <listBibl>
-                                <bibl>
+                                 <bibl>
                                     <ref type="primary-1" target="Sebastianus1975">Til Sebastianus
                                         saga</ref>
                                     <biblScope unit="pages">106-115</biblScope>
                                 </bibl>
-                            </listBibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -57,8 +51,8 @@
                                     </p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>252</height>
-                                        <width>170</width>
+                                        <height unit="mm">252</height>
+                                        <width unit="mm">170</width>
                                     </dimensions>
                         </extent>
                             </supportDesc>
@@ -76,7 +70,7 @@
                         </bindingDesc>
                     </physDesc>
                     <history>
-                        <origin notBefore="1375" notAfter="1425" cert="high" evidence="conjecture">
+                        <origin notBefore="1390" notAfter="1410" cert="high" evidence="conjecture">
                             <p> Written in <origPlace>Iceland</origPlace>
                                 <origDate notBefore="1390" notAfter="1410" cert="high" evidence="conjecture">c. 1400</origDate>.</p>
                         </origin>
@@ -85,21 +79,20 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date>23-05-2000</date> by EW-J. Parsed
-                                            <date>28-03-2000</date>.</p>
+                                    <p>Catalogued <date>23-05-2000</date> by EW-J.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="photography">
-                                    <p>Photographs in uv-light were taken in <date>1956</date>
+                                    <p>Photographs (using UV photography) were taken in <date when="1956">1956</date>
                            </p>
                                 </custEvent>
                                 <custEvent type="photography">
                                     <p>Supplementary photographs of the AM-slips of AM 238 I-XXIX
-                                        fol. were taken in <date>1981</date>.</p>
+                                        fol. were taken in <date when="1981">1981</date>.</p>
                                 </custEvent>
                                 <custEvent type="conservation">
-                                    <p>The MS was set on meeting guards and bound in a grey
+                                    <p>The MS was put on meeting guards and bound in a grey
                                         cardboard cover <date>09-07-1958 to 02-03-1959</date> or
                                             <date>09-1961 to 10-1961</date>.</p>
                                 </custEvent>
@@ -107,44 +100,34 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade38</idno>
-                                        <date>1956</date>
-                                        <note>Taken in uv-light.</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">microfilm (master)</title>
-                                        <idno>Neg 620</idno>
-                                        <date>1981</date>
-                                        <note>Supplementary photographs of the AM-slips of AM 238
-                                            I-XXIX fol.</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">microfilm (archive)</title>
-                                        <idno>Pos571</idno>
-                                        <date>1981</date>
-                                        <note>Supplementary photographs of the AM-slips of AM 238
-                                            I-XXIX fol.</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <idno>AM 238 XI fol.</idno>
-                                        <date>1963</date>
-                                        <note>Copies of the set of photographs taken in
-                                            uv-light.</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">colour prints</title>
-                                        <idno>AM 238 XI fol.</idno>
-                                        <date>1983</date>
-                                        <note>Supplementary photograph of f. 2r.</note>
-                                    </bibl>
-                                </listBibl>
-                            </p>
+                                <list>
+                                    <item>Plate, <idno>plade38</idno>, from <date when="1956"
+                                        >1956</date> (using UV photography). </item>
+                                    <item>Microfilm (master), <idno>Neg 620</idno>, from <date
+                                        when="1981">1981</date> (supplementary photographs of
+                                        the AM-slips of AM 238 I-XXIX fol.).</item>
+                                    <item>Microfilm (archive), <idno>Pos571</idno>, from <date
+                                        when="1981">1981</date> (supplementary photographs of
+                                        the AM-slips of AM 238 I-XXIX fol.). </item>
+                                    <item>Black and white prints from <date when="1963">1963</date>
+                                        (copies of plade38).</item>
+                                    <item>Colour print from <date when="1983">1983</date>
+                                        (supplementary photograph of f. 2r). </item>
+                                </list>
+                               </p>
                         </surrogates>
+                        <listBibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">202</biblScope>
+                            </bibl>
+                            <bibl>Wolf, <ref type="secondary" target="Wolf2013"/>
+                                <biblScope unit="page">326</biblScope>
+                            </bibl>
+                        </listBibl>
+                        
                     </additional>
+                    
                 </msDesc>
             </sourceDesc>
         </fileDesc>

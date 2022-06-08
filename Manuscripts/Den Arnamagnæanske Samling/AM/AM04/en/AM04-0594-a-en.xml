@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,78 @@
                      <idno>1505</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Saga Book</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <msContents>
+                  <summary><title type="supplied">Saga Manuscript</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="66r">1r-66r</locus>
+                     <title type="uniform">Flóres saga ok Leó</title>
+                     <rubric>Hier Hefur Wpp <lb/> SOGV AF OCTAFI<lb/>ANVS KEISARA OG HANS
+                        TV<lb/>EIMVR SONVM LEO OG FLORIS OG <lb/> þeirra Moder vr þyſku
+                        vtløgd</rubric>
+                  </msItem>
+                  <msItem n="2" class="helgiso" defective="true">
+                     <locus from="66v" to="69r">66v-69r</locus>
+                     <title type="uniform" xml:lang="is">Um sjö sofendr</title>
+                     <title type="uniform" xml:lang="la">De septem dormientibus</title>
+                     <rubric>Historian wm siø sofendvr</rubric>
+                     <note>Defective, as fols 67-68 are lost.</note>
+                  </msItem>
+                  <msItem n="3" class="helgiso">
+                     <locus from="69r" to="69v">69r-v</locus>
+                     <title type="uniform">Kristofors saga helga</title>
+                     <rubric>Historian Af Santi <lb/> CHRISTOFOR</rubric>
+                  </msItem>
+                  <msItem n="4" class="helgiso">
+                     <locus from="70r" to="70r">70r</locus>
+                     <title type="supplied">On Saint Nicolaus</title>
+                     <rubric>Historian vm Sa<lb/>nti Nicolavm</rubric>
+                  </msItem>
+                  <msItem n="5" class="dyrl bis">
+                     <locus from="70r" to="71r">70r-71r</locus>
+                     <title type="supplied">On Bishop Martin of Tours</title>
+                     <rubric>Vm S. Martin<lb/>um biskup</rubric>
+                  </msItem>
+                  <msItem n="65" class="vidbs">
+                     <locus from="71r" to="71v">71r-v</locus>
+                     <title type="supplied">Miracles from the Years 864-938</title>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>69. 
-<dimensions type="leaf" scope="all">
-                              <height>190</height>
-                              <width>152</width>
-                           </dimensions>
-                        </extent>
+                        <extent>69. The majority of f. 69v (folated 71) is blank.
+                           <dimensions type="leaf" scope="all">
+                              <height unit="mm">190</height>
+                              <width unit="mm">152</width>
+                           </dimensions>.</extent>
+                        <foliation>Foliated 1-71 (fols 67-68 are missing).</foliation>
                      </supportDesc>
                   </objectDesc>
+                  <decoDesc>
+                     <decoNote type="initial" subtype="flourished">Floruished initials.</decoNote>
+                  </decoDesc>
+                  <accMat>On a slip pasted to the front of the manuscript <name type="person" key="ArnMag001">Árni
+                     Magnússon</name> wrote: <q xml:lang="is">Þetta eignadizt eg ä Beſſaſtdum
+                        <date when="1707">1707</date>. Er komid fra <name type="person"
+                           key="GisTho001">Giſla</name> ä <name type="place" key="SetMið01"
+                              >Setberge</name>.</q>
+                  </accMat>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>, <origDate
+                  notBefore="1600" notAfter="1699" resp="KKKat">s. XVII</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="pages">762</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-10" who="EvaWed001">Updated markup.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

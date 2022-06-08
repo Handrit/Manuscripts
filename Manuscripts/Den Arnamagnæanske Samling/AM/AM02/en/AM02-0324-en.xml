@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,15 +23,13 @@
                             <idno>481</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Den norske hirdskrå</title>
-                        <origPlace>Norway (?)</origPlace>
-                        <origDate notBefore="1688" notAfter="1704">c. 1700</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
-                            <textLang mainLang="is">Icelandic</textLang>
-                            <filiation>Transcript of <ref>350 fol</ref>.</filiation>
+                    	<summary><title type="uniform">Hirðskrá</title></summary>
+                    	<msItem n="1" class="log">
+                    		<locus from="1r" facs="#AM02-0324-0001r" to="24v">1r-24v</locus>
+                        	<title type="uniform">Hirðskrá</title>
+                        	<textLang mainLang="is"/>
+                        	<filiation>Copy of <ref type="ms" target="#AM02-0350-is">350 fol</ref>.</filiation>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -42,8 +41,8 @@
                                     </p>
                                 </support>
                                 <extent>24. <dimensions type="leaf" scope="all">
-                                        <height>298</height>
-                                        <width>196</width>
+                                        <height unit="mm">298</height>
+                                        <width unit="mm">196</width>
                                     </dimensions>
                         </extent>
                             </supportDesc>
@@ -54,6 +53,21 @@
                             </handNote>
                         </handDesc>
                     </physDesc>
+                	<history><origin><origPlace>Norway</origPlace>,
+                		<origDate notBefore="1688" notAfter="1705">c. 1700</origDate>.</origin></history>
+                	<additional>
+                		<listBibl>
+                			<bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                				<biblScope unit="volume">I</biblScope>
+                				<biblScope unit="page">270</biblScope>
+                			</bibl>
+                			<bibl>Storm, <ref type="secondary-1" target="NgL4">Norges gamle
+                				Love</ref>
+                				<biblScope unit="volume">IV</biblScope>
+                				<biblScope unit="page">514</biblScope>
+                			</bibl>
+                		</listBibl>
+                	</additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

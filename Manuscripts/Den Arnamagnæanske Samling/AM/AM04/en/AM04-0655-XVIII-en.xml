@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,44 +23,50 @@
                             <idno>1646</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="is">Prédikan</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1250" notAfter="1300">s. XIII 2/2</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1" defective="true">
-                            <title type="supplied" xml:lang="is">Prédikan</title>
+                        <summary><title type="supplied" xml:lang="is">Sermon</title></summary>
+                        <msItem n="1" defective="true" class="pred">
+                            <title type="supplied" xml:lang="is">Sermon</title>
                             <textLang mainLang="is">Icelandic</textLang>
                             <incipit defective="true">aþat er han<expan>n</expan> hafði</incipit>
                             <explicit defective="true">fyr<expan>r</expan>dæmia oss</explicit>
-                            <listBibl>
-                                <bibl>
-                                    <ref type="primary-1" target="KGFrumparta">Um frum-parta
-                                        íslenzkrar túngu í fornöld</ref>
-                                    <biblScope unit="pages">LXXVIII-LXXXI</biblScope>
-                                </bibl>
-                            </listBibl>
+                            <bibl>
+                                <ref type="primary-1" target="KGFrumparta">Um frum-parta íslenzkrar
+                                    túngu í fornöld</ref>
+                                <biblScope unit="pages">LXXVIII-LXXXI</biblScope>
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>107</height>
-                                        <width>80</width>
+                                        <height unit="mm">107</height>
+                                        <width unit="mm">80</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
-                                    <p>Text is missing as the leaf has been cut at the upper margin,
+                                    <p>Text is missing as the leaf has been cut at the top margin,
                                         the inner and outer margin and have a few tears.</p>
                                 </condition>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1250"
+                                notAfter="1299">s. XIII<hi rend="sup">2</hi></origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">63</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

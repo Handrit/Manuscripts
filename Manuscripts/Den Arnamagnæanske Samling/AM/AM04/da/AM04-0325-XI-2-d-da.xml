@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,38 +23,38 @@
                         </altIdentifier>
                         <msName type="nickname" xml:lang="la">Codex Resenianus</msName>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform" xml:lang="is">Ólafs saga helga</title>;
-                            <origPlace>Island</origPlace>, <origDate notBefore="1375" notAfter="1425" evidence="conjecture">ca.
-                        1400</origDate>.</head>
                     <msContents>
-                        <msItem>
+                        <summary><title type="uniform">Ólafs saga helga</title></summary>
+                        <msItem n="1" class="kon">
                             <locus from="1r" to="1v">1r-v</locus>
                             <title type="uniform">Ólafs saga helga</title>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                            <textLang mainLang="non"/>
                             <incipit defective="true">K<ex>onun</ex>gr vt t<ex>il</ex>
                                     ſiof<ex>ar</ex>
                             </incipit>
-                            <explicit defective="true">ſkipit v<ex>ar</ex> gott
-                                    <ex>ok</ex> miog vandadr</explicit>
-                            <listBibl>
-                                <bibl>Munch og Unger: <ref type="primary-3" target="OlHMU">Saga
-                                        Ólafs konungs ens helga</ref><biblScope unit="pages">110-13</biblScope></bibl>
-                                <bibl>Johnsen og Jón Helgason: <ref type="primary-3" target="OlHJH">Den store saga om Olav den Hellige</ref><biblScope unit="pages">284:13-291:8</biblScope><note>Udg. 325 XI
-                                        2d</note>
-                                </bibl>
-                            </listBibl>
+                            <explicit defective="true">ſkipit v<ex>ar</ex> gott <ex>ok</ex> miog
+                                vandadr</explicit>
+                            <filiation>Afskrifter af <title type="ms">Codex Resenianus</title>
+                                findes i <ref type="ms" target="AM02-0078-a-da">AM 78 a fol.</ref>
+                                og <ref target="AM02-0078-b-da">AM 78 b fol.</ref>.</filiation>
+                            <bibl>Munch og Unger: <ref type="primary-3" target="OlHMU">Saga Ólafs
+                                    konungs ens helga</ref><biblScope unit="page"
+                                >110-13</biblScope></bibl>
+                            <bibl>Johnsen og Jón Helgason: <ref type="primary-3" target="OlHJH">Den
+                                    store saga om Olav den Hellige</ref><biblScope unit="page"
+                                    >284:13-291:8</biblScope><note>Udg. 325 XI 2d</note>
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Pergament.</p>
+                                    <p><material>Pergament</material>.</p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>239</height>
-                                        <width>208</width>
+                                        <height unit="mm">239</height>
+                                        <width unit="mm">208</width>
                                     </dimensions>.</extent>
                             </supportDesc>
                             <layoutDesc>
@@ -65,39 +66,41 @@
                         </objectDesc>
                         <bindingDesc>
                             <binding when="1959" contemporary="false">
-                                <p>I et papomslag fra 1959.</p>
+                                <p>I et papomslag fra <date when="1959">1959</date>.</p>
                             </binding>
                         </bindingDesc>
                         <accMat>På en AM-seddel har <name type="person" key="ArnMag001">Arne
-                                Magnusson</name> skrevet: <q xml:lang="is">Þetta blad ur Olafs
-                                Sgu Helga, virdest mier heima eiga i þ<ex>ei</ex>re bok
-                                sem nu stendur in. Bibliotheca Reseniana, pag. Catalogi 259 Num. 27.
-                                Skriften er hin sama <del hand="ArnMag001" rend="overstrike">
-                                    <add place="supralinear" hand="ArnMag001">eda mig
-                                        lik</add>
-                                </del>, sem mier synest, og gten i kilnum
-                                accordera nærre lage. So hefr þä þetta blad ätt heima i þvi 7da
-                                kvere bokarinnar, sem nu er heillt burtu, og hefur ein hver
-                                    f<ex>yrir</ex> laungu þar skrifad ä bokina: <hi rend="underline">Verdi þeim alldri lid at þvi kveri, sem þeir hafa ur þessari
-                                    bok stolid.</hi> Blad þetta hefi eg feinged i Islande,
-                                    en<ex>n</ex> bokin sialf hefur (ad eg hygg) leinge i Danmork
-                                vered. Hefur so þetta ark leinge vantad i bokina. I bokina vantar
-                                þar f<ex>yrir</ex> utan 2. bld, sitt i hverium stad, og
-                                2. bld midt in<ex>n</ex>an i eitt ark</q>.</accMat>
+                                Magnusson</name> skrevet: <q xml:lang="is">Þetta blad ur Olafs Sgu
+                                Helga, virdest mier heima eiga i þ<ex>ei</ex>re bok sem nu stendur
+                                in. Bibliotheca Reseniana, pag. Catalogi 259 Num. 27. Skriften er
+                                hin sama <del hand="ArnMag001" rend="overstrike">
+                                    <add place="supralinear" hand="ArnMag001">eda mig lik</add>
+                                </del>, sem mier synest, og gten i kilnum accordera nærre lage. So
+                                hefr þä þetta blad ätt heima i þvi 7da kvere bokarinnar, sem nu er
+                                heillt burtu, og hefur ein hver f<ex>yrir</ex> laungu þar skrifad ä
+                                bokina: <hi rend="underline">Verdi þeim alldri lid at þvi kveri, sem
+                                    þeir hafa ur þessari bok stolid.</hi> Blad þetta hefi eg feinged
+                                i Islande, en<ex>n</ex> bokin sialf hefur (ad eg hygg) leinge i
+                                Danmork vered. Hefur so þetta ark leinge vantad i bokina. I bokina
+                                vantar þar f<ex>yrir</ex> utan 2. bld, sitt i hverium stad, og 2.
+                                bld midt in<ex>n</ex>an i eitt ark</q>.</accMat>
                     </physDesc>
                     <history>
                         <origin>
                             <p>Bladet er skrevet i <origPlace>Island</origPlace>
-                                <origDate notBefore="1390" notAfter="1410" cert="high" evidence="conjecture">ca. 1400</origDate>.</p>
+                                <origDate notBefore="1390" notAfter="1410" cert="high"
+                                    evidence="conjecture">ca. 1400</origDate>.</p>
                             <p>Dette blad er det eneste tilbageværende fragment af et håndskrift ved
-                                navn <title type="ms">Codex Resenianus</title>. <name type="person" key="PedRes001">Peder Resen</name> (d. <date when="1688">1688</date>) samlede et antal håndskrifter, som han donerede
+                                navn <title type="ms">Codex Resenianus</title>. <name type="person"
+                                    key="PedRes001">Peder Resen</name> samlede et antal håndskrifter, som han donerede
                                 til <name type="org" key="KB">Københavns
                                     Universitetsbibliotek</name>, og der blev udarbejdet et katalog
                                 over samlingen: <bibl>
                                     <ref type="primary" target="PedRes1685">Petri Johannis Resenii
                                         bibliotheca regi academiæ Hafniensi donata</ref>
                                 </bibl>. Håndskriftet, nu kendt under navnet <title type="ms">Codex
-                                    Resenianus</title>, blev beskrevet i kataloget på s. 259 som <q xml:lang="la">Capsa VIII. Ord. I fol., nr 27</q>. Peder Resens
+                                    Resenianus</title>, blev beskrevet i kataloget på s. 259 som <q
+                                    xml:lang="la">Capsa VIII. Ord. I fol., nr 27</q>. Peder Resens
                                 samling gik til grunde sammen med Universitetsbiblioteket under den
                                 store brand i <name type="place" key="Copen01">København</name> i
                                     <date when="1728">1728</date>.</p>
@@ -105,14 +108,14 @@
                                     Magnusson</name>, at bladet oprindelig tilhørte et læg bestående
                                 af 7 blade, som på hans tid var væk. Han tilføjede, at denne lakune
                                 var gammel, da håndskriftet indeholdt en forbandelse over den
-                                person, som havde stjålet lægget. Før Københavns brand blev <title type="ms">Codex Resenianus</title> afskrevet for <name type="person" key="ArnMag001">Arne Magnusson</name>, og
-                                indholdet af håndskriftet findes nu i <ref type="ms" target="AM02-78-a-da">AM 78 a fol.</ref> og <ref target="AM02-78-b-da">AM 78 b fol.</ref></p>
+                                person, som havde stjålet lægget.</p>
                         </origin>
                         <acquisition>
                             <p>Ifølge en AM-seddel har <name type="person" key="ArnMag001">Arne
-                                    Magnusson</name> fået bladet fra <name type="place">Island</name>. Han nævner ingen dato, men eftersom han
+                                    Magnusson</name> fået bladet fra <name type="place"
+                                    >Island</name>. Han nævner ingen dato, men eftersom han
                                 refererer til <title type="ms">Codex Resenianus</title> som et
-                                eksisterende håndskrift, må det have været før Københavns brand i
+                                eksisterende håndskrift, må det have været før
                                     <date when="1728">1728</date>.</p>
                         </acquisition>
                     </history>
@@ -121,46 +124,47 @@
                             <recordHist>
                                 <source>
                                     <p>Katalogiseret <date from="2000-09-14" to="2000-09-18">14. -
-                                            18. september 2000</date> af <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                            18. september 2000</date> af <name type="person"
+                                            key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation">
-                                    <p>Sat på knækfalse og lagt i et papomslag <date from="1959-06-09" to="1959-08-15">9. juni - 15. august
+                                    <p>Sat på knækfalse og lagt i et papomslag <date
+                                            from="1959-06-09" to="1959-08-15">9. juni - 15. august
                                             1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p><name type="org" key="AMS">Den Arnamagnæanske Samling</name> har
-                                følgende kopier: <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plade</title>
-                                        <idno>plade 37</idno> s.d. </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositiv</title>
-                                        <idno>AM 325 XI 2d 4to</idno>
-                                        <date notBefore="1984-05" notAfter="1985-05">Maj 1984 eller
-                                            1985</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">s/h fotografier</title>
-                                        <idno>AM 325 XI 2d 4to</idno>
-                                        <date when="1959-08">August 1959</date>
-                                    </bibl>
-                                </listBibl>
-                                <listBibl>
-                                    <bibl>Johnsen og Jón Helgason: <ref type="secondary-1" target="OlHJH">Den store Saga om Olav den Hellige</ref>
-                                        <biblScope unit="volume">II</biblScope><biblScope unit="pages">871, 959, 1002-5, 1067,
-                                        1107</biblScope></bibl>
-                                    <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">566</biblScope></bibl>
-                                </listBibl>
+                                følgende kopier: <list>
+                                    <item n="1">Plade, <idno>plade 37</idno>, s.d.</item>
+                                    <item n="2">Diapositiver fra <date notBefore="1984-05"
+                                            notAfter="1985-05">maj 1984 eller 1985</date>.
+                                    </item>
+                                    <item n="3">Sort-hvid fotografier fra <date when="1959-08"
+                                            >august 1959</date>. </item>
+                                </list>
                             </p>
                         </surrogates>
+                        <listBibl>
+                            <bibl><ref type="secondary-1" target="SteDre2021a"/><biblScope
+                                    unit="page">28, 146, 224</biblScope></bibl>
+                            <bibl><ref type="secondary-1" target="OlHJH"/>
+                                <biblScope unit="volume">II</biblScope><biblScope unit="page">871,
+                                    959, 1002-5, 1067, 1107</biblScope></bibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                   <biblScope unit="volume">II</biblScope><biblScope
+                                    unit="page">566</biblScope></bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-12-02" who="EvaWed001">Opdateret.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

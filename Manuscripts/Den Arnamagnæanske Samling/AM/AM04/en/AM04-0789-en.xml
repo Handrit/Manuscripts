@@ -1,70 +1,114 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 789 4to</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM04-0789-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 789 4to</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>1922</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title type="supplied">Prayer book</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1400" notAfter="1499">s. XV</origDate>
-               </head>
-               <msContents>
-                  <textLang mainLang="da" otherLangs="mlg">Danish with some Middle Low German</textLang>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>
-                           <p>Parchment.</p>
-                        </support>
-                        <extent>ii + 10 + i. <dimensions type="leaf" scope="most">
-                              <height>208</height>
-                              <width>140</width>
-                           </dimensions>
-                        </extent>
-                     </supportDesc>
-                  </objectDesc>
-                  <bindingDesc>
-                     <binding contemporary="unknown">
-                        <p>
-                           <dimensions type="binding">
-                              <height>223</height>
-                              <width>163</width>
-                              <depth>8</depth>
-                           </dimensions>
-                        </p>
-                     </binding>
-                  </bindingDesc>
-                  <accMat>
-                     <p>
-                        <q xml:lang="da">fragment af en papistisk Bønnebog <lb/>Ex auctione Rostgardianâ <lb/>Num. Manuscriptorum 360.</q>
-                     </p>
-                  </accMat>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 789 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0789-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 789 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>1922</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary>
+							<title type="supplied">Old Danish Prayer Book</title>
+						</summary>
+						<msItem n="1" class="banb" defective="true">
+							<locus from="1r" facs="#AM04-0789-0001r" to="10v">1r-10v</locus>
+							<title type="supplied">Old Danish Prayer Book</title>
+							<textLang mainLang="da" otherLangs="nds"/>
+							<bibl>Nielsen: <ref type="primary" target="MDB">Middelalderens danske
+								bønnebøger</ref>
+								<biblScope unit="volume">IV</biblScope>
+								<biblScope unit="page">443-444</biblScope>
+								<note>Fols 2v-3r.</note>
+							</bibl>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p><material>Parchment</material>.</p>
+								</support>
+								<extent>ii + 10 + i. <dimensions type="leaf" scope="most">
+										<height unit="mm">208</height>
+										<width unit="mm">140</width>
+									</dimensions>
+								</extent>
+								<foliation>
+									<p>Foliated 1-10 in black ink, probably by <name type="person" key="KriKaa001">Kålund</name>.</p>
+								</foliation>
+								<condition>
+									<p>Begins and ends defectively. Large initials on fols 2, 5, 6
+										and 8 are cut out. The initials on fols 2 and 8 appear to
+										have had extenders down the outer and bottom margins. These
+										have been cut out too.</p>
+								</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1" writtenLines="26 30">
+									<p>Written in one column throughout with 26 to 30 lines per page.</p>
+									<p>Rubrics in red ink.</p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<decoDesc>
+							<decoNote type="initial"><p>Red, blue and guilded initials.</p></decoNote>
+						</decoDesc>
+						<bindingDesc>
+							<binding contemporary="unknown">
+								<p>
+									<dimensions type="binding">
+										<height unit="mm">223</height>
+										<width unit="mm">163</width>
+										<depth unit="mm">8</depth>
+									</dimensions>
+								</p>
+							</binding>
+						</bindingDesc>
+						<accMat>
+							<p>An AM-slip in <name type="person" key="ArnMag001">Árni
+									Magnússon</name>'s hand reads: <q xml:lang="da">fragment af en
+									papistisk Bønnebog <lb/>Ex auctione Rostgardianâ <lb/>Num.
+									Manuscriptorum 360.</q>
+							</p>
+						</accMat>
+					</physDesc>
+					<history>
+						<origin><origPlace>Denmark</origPlace>, <origDate notBefore="1400" notAfter="1499">s. XV</origDate>.</origin>
+						<acquisition>According to the AM-slip Árni Magnússon acquired the manuscript
+							at <name type="person" key="FreRos001">Rostgaard</name>'s
+							auction.</acquisition>
+
+					</history>
+					<additional>
+						<listBibl>
+							<bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="page">205</biblScope>
+							</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc><change when="2022-03-14" who="EvaWed001">Updated.</change></revisionDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0789-accMat01v" n="0">
 			<desc>accMat01v</desc>

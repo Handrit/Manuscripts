@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -25,12 +25,9 @@
                             <idno>Addit. 48 o fol.</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="da">Jordebøger</title>;
-                            <origPlace>Danmark</origPlace>, <origDate notBefore="1700" notAfter="1800">s. XVIII</origDate>
-                    </head>
-                    <msContents>
-                        <msItem>
+                        <msContents>
+                        <summary><title type="supplied" xml:lang="da">Jordebøger</title></summary>
+                        <msItem n="1" class="jarb">
                             <author key="ArnMag001">Arne Magnusson</author>
                             <author key="PalJon005">Páll Vídalín</author>
                             <title type="supplied" xml:lang="da">Jordebøger</title>
@@ -46,19 +43,26 @@
                                     </p>
                                 </support>
                                 <extent>341. <dimensions type="leaf" scope="all">
-                                        <height>340</height>
-                                        <width>220</width>
+                                        <height unit="mm">340</height>
+                                        <width unit="mm">220</width>
                                     </dimensions>
                         </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
+                    <history><origin><origPlace>Danmark</origPlace>, <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>.</origin></history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                                >I</biblScope><biblScope unit="page">331</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                     <msPart>
                         <msIdentifier><altIdentifier type="partial">
                             <idno>AM 468 I fol.</idno>
                         </altIdentifier></msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="1" class="jarb">
                                 <title type="uniform" xml:lang="is">Jarðabók yfir
                                     Snæfellsnessýsla</title>
                                 <title type="uniform" xml:lang="da">Jordebog over
@@ -86,9 +90,9 @@
                             <idno>AM 468 II fol.</idno>
                         </altIdentifier></msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="1" class="jarb">
                                 <title type="uniform" xml:lang="is">Jarðabók yfir Dalasýsla</title>
-                                <title type="uniform">Jordebog over Dalasýsla</title>
+                                <title type="uniform" xml:lang="da">Jordebog over Dalasýsla</title>
                                 <rubric>Jorde-Bog <lb/>over <lb/>Dale-Syſſel
                                     <lb/>udi Iſs-land</rubric>
                             </msItem>

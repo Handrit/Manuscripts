@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,22 +23,21 @@
                             <idno>1646</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform" xml:lang="is">Stefáns saga</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1250" notAfter="1300">s. XIII 2/2</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1" defective="true">
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                        <summary>
+                            <title type="uniform">Stefáns saga</title></summary>
+                        <msItem n="1" defective="true" class="hels">
+                            <locus from="1r" to="2v">1r-2v</locus>
+                            <title type="uniform">Stefáns saga</title>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <incipit defective="true">
-                        <gap reason="lacuna"/>
+                                <gap reason="lacuna"/>
                                 <lb/>En sa var p<expan>re</expan>str avgvstin<expan>us</expan>
                                     b<expan>isku</expan>ps</incipit>
                             <explicit defective="true">
-                        <gap reason="lacuna"/>heil vp<expan>p</expan>
-                                oc lofaði<gap reason="lacuna"/>
-                     </explicit>
+                                <gap reason="lacuna"/>heil vp<expan>p</expan> oc lofaði<gap
+                                    reason="lacuna"/>
+                            </explicit>
                             <note>Lacuna following f. 1.</note>
                         </msItem>
                     </msContents>
@@ -45,17 +45,16 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
                                 <extent>2. <dimensions type="leaf" scope="all">
-                                        <height>185</height>
-                                        <width>153</width>
+                                        <height unit="mm">185</height>
+                                        <width unit="mm">153</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
-                                    <p>Text is missing due to trimming of the upper, lower and outer
-                                        margins; the versos are so worn that some of the text is
-                                        illegible.</p>
+                                    <p>Some text is lost due to trimming of the margins. The
+                                        versos are so worn that some of the text is illegible.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -66,6 +65,26 @@
                             </layoutDesc>
                         </objectDesc>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1250"
+                                notAfter="1299" evidence="conjecture" resp="KKKat ONP">s. XIII<hi
+                                    rend="sup">2</hi></origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl><ref target="HreBen1965a"/><biblScope unit="page"
+                                    >xlvi</biblScope><note>Facsimile of fol. 2r: Plate
+                                68.</note></bibl>
+                            <bibl><ref type="secondary-1" target="KGFrumparta"/><biblScope
+                                    unit="page">lxxxv</biblScope></bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">64</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary" target="Wolf2013"/><biblScope unit="page"
+                                    >339</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

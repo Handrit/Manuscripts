@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,21 +18,26 @@
                         <institution key="AMS"/>
                         <repository>Den Arnamagnæanske Samling</repository>
                         <collection key="Kr"/>
-                        <idno>Kr 3</idno>
+                        <idno>Kr 3.</idno>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>2783</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <head>
-                        <title type="supplied">Alþingsbækur 1661-1675, 1677-1681 og 1690</title>;
-                            <origPlace>Island?</origPlace>, <origDate notBefore="1630" notAfter="1699">s. XVII 1/2</origDate>
-                        <note>Begynder med en alþingsbók <date when="1662">1662</date>, efterfulgt
-                            af <date when="1663">1663</date> (en side); næste læg begynder defekt i
-                            alþingsbók <date when="1661">1661</date>, der umiddelbart fortsættes af
-                                <date when="1663">1663</date>; alþingsbók <date when="1676">1676</date> mangler; alþingsbók <date when="1681">1681</date> ender
-                            defekt, alþingsbók <date when="1690">1690</date> (sidste læg, hvis blade
-                            er hensmuldrende og beskadigede) begynder defekt.</note>
+                        <title type="supplied">Alþingisbækur 1661–75, 1677–81, 1690</title>
                     </head>
+                    <msContents>
+                        <msItem n="1" class="stjornmal">
+                            <locus from="1r" to="148v">1r-148v</locus>
+                            <title type="supplied">Alþingisbækur</title>
+                            <note>Begynder med en alþingisbók 1662, efterfulgt af 1663 (en side);
+                                næste læg begynder defekt i alþingsbók 1661, der umiddelbart
+                                fortsættes af 1663; alþingsbók 1676 mangler; alþingsbók 1681 ender
+                                defekt, alþingsbók 1690 (sidste læg, hvis blade er hensmuldrende og
+                                beskadigede) begynder defekt.</note>
+                        </msItem>
+                    </msContents>
+
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
@@ -40,10 +46,10 @@
                                         <material>Papir</material>.</p>
                                 </support>
                                 <extent>148. <dimensions type="leaf" unit="mm">
-                                        <height>194</height>
-                                        <width>160</width>
+                                        <height unit="mm">194</height>
+                                        <width unit="mm">160</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>Lakuner efter bl. 7, 86 og 141</condition>
                             </supportDesc>
                         </objectDesc>
@@ -52,16 +58,26 @@
                         </handDesc>
                     </physDesc>
                     <history>
-                        <acquisition>Ifølge <name type="person" key="LorKri001">L. Kriegers</name> testamentariske disposition overdraget til
-                            <name type="org" key="AMS">Den Arnamagnæanske Samling</name> i <date when="1839">1839</date>
-                  </acquisition>
+                        <origin><origPlace>Island(?)</origPlace>, <origDate notBefore="1630"
+                            notAfter="1699">s. XVII</origDate>.</origin>
+                        <acquisition>Ifølge <name type="person" key="LorKri001">L. Kriegers</name>
+                            testamentariske disposition overdraget til <name type="org" key="AMS"
+                                >Den Arnamagnæanske Samling</name> i <date when="1839">1839</date>
+                        </acquisition>
                     </history>
                     <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>
+                                    <p>Digitalisering af informationerne i Kålunds katalog.</p>
+                                </source>
+                            </recordHist>
+                        </adminInfo>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="volume">II</biblScope>
                                 <biblScope unit="pages">597</biblScope>
-                     </bibl>
+                            </bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

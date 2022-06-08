@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,47 @@
                      <idno>1913</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Hexaëmeron</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1730">s. XVIII in</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
-                     <author>
-                        <name type="person" key="AndSun001">Anders Sunesen</name>
-                     </author>
+                  <summary>Anders Sunesen's Hexaëmeron</summary>
+                  <msItem n="1" class="bibl kvad">
+                     <locus from="1r" to="448v">1r-448v</locus>
+                     <author key="AndSun001">Anders Sunesen</author>
+                     <title type="uniform">Hexaëmeron</title>
                      <textLang mainLang="la">Latin</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>448. 
-<dimensions type="leaf" scope="all">
-                              <height>200</height>
-                              <width>157</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>448. <dimensions type="leaf" scope="all">
+                              <height unit="mm">200</height>
+                              <width unit="mm">157</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Paginated 3-898 as the title page is missing.</p>
+                        </foliation>
+                        <condition>
+                           <p>The title page is missing. A few leaves are heavily tanned and stained.</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
+                  <additions>
+                     <p><name type="person" key="ArnMag001">Árni Magnússon</name> made corrections to the text up to p. 23.</p>
+                  </additions>
                </physDesc>
+               <history><origin><origPlace>Denmark</origPlace>,
+                  <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup"
+                     >1/4</hi></origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">201</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

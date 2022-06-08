@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,9 +23,9 @@
                      <idno>2081</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="en">Saga Book</title>; <origPlace>Copenhagen,
-        Denmark</origPlace>, <origDate notBefore="1800" notAfter="1849">s. XIX 1/2</origDate>.</head>
+               <msContents>
+                  <summary><title type="supplied" xml:lang="en">Saga Manuscript</title></summary>
+               </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
@@ -33,28 +34,32 @@
                               <material>Paper</material>. </p>
                         </support>
                         <extent>372. <dimensions type="leaf" scope="all">
-                              <height>220</height>
-                              <width>180</width>
+                              <height unit="mm">220</height>
+                              <width unit="mm">180</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
                <history>
-                  <origin notBefore="1800" notAfter="1849" evidence="external" cert="high">
-                     <p>Written in <origPlace>Copenhagen, Denmark</origPlace> in <origDate>the first half of
-                    the nineteenth century</origDate>.</p>
+                  <origin notBefore="1800" notAfter="1850" cert="high">
+                     <p>Written in <origPlace>Copenhagen, Denmark</origPlace> in <origDate
+                           notBefore="1800" notAfter="1850" cert="high">the first half of the
+                           nineteenth century</origDate>.</p>
                   </origin>
                   <acquisition>
-                     <p>The entire manuscript was acquired from <name type="org" xml:lang="da">Det kongelige
-                    nordiske Oldskriftselskab</name> in <date when="1883">1883</date>.</p>
+                     <p>The entire manuscript was acquired from <name type="org" key="KglNordOld"
+                           >The Royal Society for Nordic Antiquaries</name> in <date when="1883"
+                           >1883</date>.</p>
                   </acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Catalogued <date when="2007-10-01">1 October 2007</date> by <name type="person" key="EvaWed001">EW-J</name>.</p>
-                           <p>Updated <date when="2008-01-23">23 January 2008</date> by <name type="person" key="SilHuf001">Silvia Hufnagel</name>.</p>
+                           <p>Catalogued <date when="2007-10-01">1 October 2007</date> by <name
+                                 type="person" key="EvaWed001">EW-J</name>.</p>
+                           <p>Updated <date when="2008-01-23">23 January 2008</date> by <name
+                                 type="person" key="SilHuf001">Silvia Hufnagel</name>.</p>
                         </source>
                      </recordHist>
                      <availability status="free">
@@ -63,23 +68,14 @@
                   </adminInfo>
                   <surrogates>
                      <p>
-                        <listBibl>
-                           <bibl>
-                              <title type="gmd">microfilm (master)</title>
-                              <idno>neg 793</idno>
-                              <date when="1988">1988</date>
-                              <note>before restoration</note>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">microfilm (archive)</title>
-                              <idno>pos 782</idno> s.d.</bibl>
-                           <bibl>
-                              <title type="gmd">microfilm (back-up)</title>
-                              <idno>TS 1004</idno>
-                              <date when="2006-02-15">15 Feburary 2006</date>
-                              <note>back-up of neg. 793</note>
-                           </bibl>
-                        </listBibl>
+                        <list>
+                           <item> Microfilm (master), <idno>neg 793</idno>, from <date when="1988"
+                                 >1988</date> (before restoration).</item>
+                           <item> Microfilm (archive), <idno>pos 782</idno>, s.d.</item>
+                           <item> Microfilm (back-up), <idno>TS 1004</idno>, from <date
+                                 when="2006-02-15">15 Feburary 2006</date> (back-up of neg. 793).
+                           </item>
+                        </list>
                      </p>
                   </surrogates>
                   <listBibl>
@@ -88,27 +84,31 @@
                         <biblScope unit="pages">275-276</biblScope>
                      </bibl>
                      <bibl>Olson, <ref type="secondary" target="STUAGNL39">Yngvars saga
-                    víðförla</ref>
+                           víðförla</ref>
                         <biblScope unit="pages">xvii-xviii</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 949 a 4to</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 949 a 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
                      <msItem n="1" class="fas">
                         <locus from="1:1" to="9:15">1-9</locus>
                         <title type="uniform">Ásmundar saga kappabana</title>
                         <textLang mainLang="is">Icelandic</textLang>
                         <rubric>Hér hefr upp savgo Ásmundar er kalladr er kappabani</rubric>
-                        <incipit>1. K. Buðli er k<ex>onon</ex>gr nefndr, h<ex>ann</ex> réð f<ex>irer</ex>
-                    Svíþjóðu, ríkr ok ágætr;</incipit>
+                        <incipit>1. K. Buðli er k<ex>onon</ex>gr nefndr, h<ex>ann</ex> réð
+                              f<ex>irer</ex> Svíþjóðu, ríkr ok ágætr;</incipit>
                         <explicit>ok er sá eigi nefndr. <lb/> Siðan gőrðist A<ex>smundr</ex>
-                        k<ex>appa</ex>b<ex>ana</ex> víðfrægr ok . . . 2/ <add place="margin-right">2/ máð út i <lb/> codex</add> ok lýkr <lb/> þar þessari sőgu.</explicit>
+                              k<ex>appa</ex>b<ex>ana</ex> víðfrægr ok . . . 2/ <add
+                              place="margin-right">2/ máð út i <lb/> codex</add> ok lýkr <lb/> þar
+                           þessari sőgu.</explicit>
                         <filiation>
-                           <p>Copy of <ref type="ms">Stock. perg. 7 4to</ref>.</p>
+                           <p>Copy of <ref type="ms">Holm perg. 7 4to</ref>.</p>
                         </filiation>
                      </msItem>
                   </msContents>
@@ -121,7 +121,7 @@
                            </support>
                            <extent>6. Pp. <locus>10-12</locus> are blank.</extent>
                            <foliation>Paginated in the top outer corner, probably by the scribe
-                    himself.</foliation>
+                              himself.</foliation>
                         </supportDesc>
                         <layoutDesc>
                            <layout columns="1" writtenLines="34 37">
@@ -130,37 +130,41 @@
                         </layoutDesc>
                      </objectDesc>
                      <additions>
-                        <p>In the margin next to the rubric the scribe wrote: <q xml:lang="la">ex codice
-                        membranae. N<hi rend="sup">o</hi> 7 <lb/> 4. p. 104</q>. Here and
-                    there he added some corrections.</p>
+                        <p>In the margin next to the rubric the scribe wrote: <q xml:lang="la">ex
+                              codice membranae. N<hi rend="sup">o</hi> 7 <lb/> 4. p. 104</q>. Here
+                           and there he added some corrections.</p>
                      </additions>
                   </physDesc>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 949 b 4to</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 949 b 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem n="1" class="ridd">
+                     <msItem n="2" class="ridd">
                         <locus from="1:1" to="264">1-264</locus>
                         <title type="uniform">Þiðreks saga af Bern</title>
                         <textLang mainLang="is">Icelandic</textLang>
-                        <msItem n="1.1">
+                        <msItem n="2.1">
                            <locus from="1:1" to="5:23">1-5</locus>
                            <title type="supplied" xml:lang="en">Preface</title>
                            <incipit>Ef menn vilja gijrnaz ath heyra þan<ex>n</ex>
-                              <lb/> stórtiþindi, er verit hafa í fornum sid, verdur <lb/> hvortvegga ad
-                        gjora,</incipit>
-                           <explicit>ath ei <lb/> mundi almáttigur Gud fá gefit þeim þetta allt <lb/> og
-                        annat hálfa meira ef hann vildi._</explicit>
+                              <lb/> stórtiþindi, er verit hafa í fornum sid, verdur <lb/> hvortvegga
+                              ad gjora,</incipit>
+                           <explicit>ath ei <lb/> mundi almáttigur Gud fá gefit þeim þetta allt
+                              <lb/> og annat hálfa meira ef hann vildi._</explicit>
                         </msItem>
-                        <msItem n="1.2" class="ridd">
+                        <msItem n="2.2" class="ridd">
                            <locus from="6:1" to="264:23">6-264</locus>
                            <title type="uniform" xml:lang="is">Þiðreks saga af Bern</title>
-                           <rubric>Hier hefir upp soghu frá Þid<lb rend="hyphenated"/>reki konúngi</rubric>
-                           <incipit>Hier hefir upp ok seigir frá einum riddara er fæddr <lb/> var i þeim
-                        stad er heitir i Salerni,</incipit>
-                           <explicit defective="true">ok leiðu hann inn fyri konúng ok <lb/> svo gjora þær.</explicit>
+                           <rubric>Hier hefir upp soghu frá Þid<lb rend="hyphenated"/>reki
+                              konúngi</rubric>
+                           <incipit>Hier hefir upp ok seigir frá einum riddara er fæddr <lb/> var i
+                              þeim stad er heitir i Salerni,</incipit>
+                           <explicit defective="true">ok leiðu hann inn fyri konúng ok <lb/> svo
+                              gjora þær.</explicit>
                            <note>Ends with chapter 239</note>
                         </msItem>
                      </msItem>
@@ -171,34 +175,36 @@
                            <support>
                               <p>
                                  <material>Paper. Most of it with the
-                                <watermark>ØRHOLM</watermark>-watermark</material>. </p>
+                                    <watermark>ØRHOLM</watermark>-watermark</material>. </p>
                            </support>
                            <extent>132.</extent>
                            <foliation>Paginated in the top outer corner.</foliation>
                         </supportDesc>
                      </objectDesc>
                      <additions>
-                        <p>On p. <locus>1 and the rubric on p. 6</locus> corrections of  spelling were
-                    made.</p>
+                        <p>On p. <locus>1 and the rubric on p. 6</locus> corrections of spelling
+                           were made.</p>
                      </additions>
                   </physDesc>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 949 c 4to</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="3">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 949 c 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem n="1" defective="true" class="fas">
+                     <msItem n="3" defective="true" class="fas">
                         <locus from="1:1" to="78:23">1-78</locus>
                         <title type="uniform">Hervarar saga ok Heiðrek konungs</title>
                         <textLang mainLang="is">Icelandic</textLang>
                         <rubric>Hér hefr upp Hervarar sögu ok <lb/> Heiðreks konungs</rubric>
                         <incipit>Svâ fin<ex>n</ex>st ritað í fornum bókum <lb/> at Jötunheimar voru
-                    kallaðir <lb/> norðr um Gandvík, en Ýmisland <lb/> fyrir sunnan í millum
-                    Hálogalands</incipit>
-                        <explicit defective="true">ok síðan setti hann <lb/> þar yfir Valðar konúng ok gipti
-                    <lb/> honum Alfhilði dóttr sína. Þeirra</explicit>
-                        <filiation>Copy of <ref type="ms">AM 192 fol</ref>.</filiation>
+                           kallaðir <lb/> norðr um Gandvík, en Ýmisland <lb/> fyrir sunnan í millum
+                           Hálogalands</incipit>
+                        <explicit defective="true">ok síðan setti hann <lb/> þar yfir Valðar konúng
+                           ok gipti <lb/> honum Alfhilði dóttr sína. Þeirra</explicit>
+                        <filiation>Copy of <ref type="ms" target="#AM02-0192-en">AM 192 fol.</ref>.</filiation>
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -208,47 +214,53 @@
                               <p>
                                  <material>Paper</material>. </p>
                            </support>
-                           <extent>38. The lower half of p. <locus>55 and p. 56</locus> are blank.</extent>
+                           <extent>38. The lower half of p. <locus>55 and p. 56</locus> are
+                              blank.</extent>
                            <foliation>Paginated in the upper outer corner.</foliation>
                            <condition>
-                              <p>A lacuna on one leaf following fol. 2; ends defective.</p>
+                              <p>After fol. 2 a lacuna (one leaf) is found; ends defectively.</p>
                            </condition>
                         </supportDesc>
                         <layoutDesc>
                            <layout columns="1" writtenLines="22 24">
-                              <p>Written in one column with 22 to 24 lines per page.</p>
+                              <p>Written in one column with 22-24 lines per page.</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
-                     <additions>Corrections and notes concerning spelling, word order and variant readings
-                were made.</additions>
+                     <additions>Corrections and notes concerning spelling, word order and variant
+                        readings were made.</additions>
                   </physDesc>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 949 d 4to</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="4">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 949 d 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem n="1" class="fas">
+                     <msItem n="4" class="fas">
                         <locus from="1:1" to="70:23">1-70</locus>
                         <title type="uniform">Gautreks saga</title>
                         <textLang mainLang="is">Icelandic</textLang>
-                        <incipit>1. Þar hefjum vér eina frásőgu af einum konún<lb rend="hyphenated"/>gi þeim, er Gauti hét, hann var vitr maðr ok <lb/> vel
-                    stiltr, mildr ok máldiarfr.</incipit>
-                        <explicit>en þó var hann vinsæll ok <lb/> stórgjöfull, ok inn hæversklig<add place="above">a</add>sti at <lb/> siá, ok lýkr hér Gjafa-Refs sögu.</explicit>
+                        <incipit>1. Þar hefjum vér eina frásőgu af einum konún<lb rend="hyphenated"
+                           />gi þeim, er Gauti hét, hann var vitr maðr ok <lb/> vel stiltr, mildr ok
+                           máldiarfr.</incipit>
+                        <explicit>en þó var hann vinsæll ok <lb/> stórgjöfull, ok inn hæversklig<add
+                              place="above">a</add>sti at <lb/> siá, ok lýkr hér Gjafa-Refs
+                           sögu.</explicit>
                         <filiation>
-                           <p>Copy of <ref type="ms">AM 152 fol</ref>.</p>
+                           <p>Copy of <ref type="ms" target="AM02-0152-1-2-is">AM 152 fol.</ref>.</p>
                         </filiation>
                      </msItem>
-                     <msItem n="2" class="fas">
+                     <msItem n="5" class="fas">
                         <locus from="75:1" to="284:6">75-284</locus>
                         <title type="uniform" xml:lang="is">Hrólfs saga Gautrekssonar</title>
                         <textLang mainLang="is">Icelandic</textLang>
-                        <incipit>Þar hefjum vér þessa sögu, er Gautrekr <lb/> hefir konúngr heitit son Gauta
-                    konúngs; hann <lb/> réð fyrir Gautlandi;</incipit>
-                        <explicit>þá kémr þat framm, at þat þik<lb rend="hyphenated"/>ist annar heyra, er
-                    annar heyrir ekki <lb/> í frásögum; ok lýkr hér nú Hrólfs <lb/> sogu Gautreks
-                    sonar.</explicit>
+                        <incipit>Þar hefjum vér þessa sögu, er Gautrekr <lb/> hefir konúngr heitit
+                           son Gauta konúngs; hann <lb/> réð fyrir Gautlandi;</incipit>
+                        <explicit>þá kémr þat framm, at þat þik<lb rend="hyphenated"/>ist annar
+                           heyra, er annar heyrir ekki <lb/> í frásögum; ok lýkr hér nú Hrólfs <lb/>
+                           sogu Gautreks sonar.</explicit>
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -267,28 +279,31 @@
                         </layoutDesc>
                      </objectDesc>
                      <additions>
-                        <p>Corrections and notes concerning spelling, word order and variant readings were
-                    made. At the bottom of the last page, a variant of the last chapter is noted.
-                    Fol. <locus>20</locus>, containing verses missing in the text of the manuscript,
-                    was pasted in and bears the watermark of
-                <watermark>Ørholm</watermark>.</p>
+                        <p>Corrections and notes concerning spelling, word order and variant
+                           readings were made. At the bottom of the last page, a variant of the last
+                           chapter is noted. Fol. <locus>20</locus>, containing verses missing in
+                           the text of the manuscript, was pasted in and bears the watermark of
+                              <watermark>Ørholm</watermark>.</p>
                      </additions>
                   </physDesc>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 949 e 4to</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="5">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 949 e 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem n="1" class="sagnt">
+                     <msItem n="6" class="sagnt">
                         <locus from="1:1" to="16:16">1-16</locus>
                         <title type="uniform">Illuga saga Gríðarfóstra</title>
                         <textLang mainLang="is">Icelandic</textLang>
                         <rubric>Söguþáttr af Ílluga Gríðarfóstra.</rubric>
-                        <incipit>1. Þat er upphaf þessarrar sögu at sá kon<lb rend="hyphenated"/>ungr réði
-                        fyr<del rend="overstrike">r</del>i Danmörk er Hríngr hét;</incipit>
-                        <explicit>en eptir dauða hennar <lb/> varð Íllugi fóstbróðir Gnoðar-Asmundar <lb/>
-                    ok lýkr hér sögu Ílluga gríðarfóstra.</explicit>
+                        <incipit>1. Þat er upphaf þessarrar sögu at sá kon<lb rend="hyphenated"
+                           />ungr réði fyr<del rend="overstrike">r</del>i Danmörk er Hríngr
+                           hét;</incipit>
+                        <explicit>en eptir dauða hennar <lb/> varð Íllugi fóstbróðir Gnoðar-Asmundar
+                           <lb/> ok lýkr hér sögu Ílluga gríðarfóstra.</explicit>
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -297,7 +312,7 @@
                            <support>
                               <p>
                                  <material>Paper with the
-                                <watermark>ØRHOLM</watermark>-watermark</material>. </p>
+                                    <watermark>ØRHOLM</watermark>-watermark</material>. </p>
                            </support>
                            <extent>8.</extent>
                            <foliation>Paginated in the upper outer corner.</foliation>
@@ -310,20 +325,22 @@
                      </objectDesc>
                   </physDesc>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 949 f 4to</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="6">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 949 f 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem n="1" class="fas">
+                     <msItem n="7" class="fas">
                         <locus from="1r:1" to="23r:13">1r-23r</locus>
                         <title type="uniform">Yngvars saga víðförla</title>
                         <textLang mainLang="is">Icelandic</textLang>
-                        <incipit>1. Eirekr hét konúngr er réði fyrir Svíþjóðu. Hann <lb/> var kallaðr Eirekr
-                    hinn sigrsæli.</incipit>
-                        <explicit>en <lb/> Klakka hafði heyrt segja hina fyrri frændr <lb/> sina; ok þar
-                    lyktum vér þessa sögu.</explicit>
-                        <filiation>Copy of <ref type="ms">AM 343 c 4to</ref>.</filiation>
+                        <incipit>1. Eirekr hét konúngr er réði fyrir Svíþjóðu. Hann <lb/> var
+                           kallaðr Eirekr hinn sigrsæli.</incipit>
+                        <explicit>en <lb/> Klakka hafði heyrt segja hina fyrri frændr <lb/> sina; ok
+                           þar lyktum vér þessa sögu.</explicit>
+                        <filiation>Copy of <ref type="ms" target="#AM04-0343-c-en">AM 343 c 4to</ref>.</filiation>
                      </msItem>
                   </msContents>
                   <physDesc>
@@ -331,12 +348,14 @@
                         <supportDesc material="chart">
                            <support>
                               <p>
-                                 <material>Papir.</material>
+                                 <material>Paper.</material>
                               </p>
                            </support>
-                           <extent>24. Fols <locus>23v and 24</locus> are blank and uncut at the top.</extent>
+                           <extent>24. Fols <locus>23v and 24</locus> are blank and uncut at the
+                              top.</extent>
                            <collation>
-                              <p>The beginnings of the gatherings are marked with arabic numbers.</p>
+                              <p>The beginnings of the gatherings are marked with arabic
+                                 numbers.</p>
                            </collation>
                         </supportDesc>
                         <layoutDesc>
@@ -346,27 +365,30 @@
                         </layoutDesc>
                      </objectDesc>
                      <additions>
-                        <p>The scribe noted where a lacuna of one leaf in the master copy occurred.</p>
+                        <p>The scribe noted where a lacuna of one leaf in the master copy
+                           occurred.</p>
                      </additions>
                   </physDesc>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>AM 949 g 4to</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="7">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 949 g 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
-                     <msItem n="1" class="kon">
+                     <msItem n="8" class="kon">
                         <locus from="1" to="26v">1r-26v</locus>
                         <title type="uniform">Ólafs saga Tryggvasonar</title>
                         <textLang mainLang="is">Icelandic</textLang>
                         <rubric>fæddur Olafur Trÿggvason</rubric>
                         <incipit>Ástríður hét kona sú, er átt hafdi Trÿggvi <lb/> kongur sem fyrr
-                    segir,</incipit>
-                        <explicit>þó at fyrir man<ex>n</ex>dóms-sakir góðra höfdíng<lb/>ja væra ek vel
-                        halldin<ex>n</ex>._</explicit>
+                           segir,</incipit>
+                        <explicit>þó at fyrir man<ex>n</ex>dóms-sakir góðra höfdíng<lb/>ja væra ek
+                           vel halldin<ex>n</ex>._</explicit>
                         <filiation>
-                           <p>Transcript of the Skálholt-edition of <ref type="ms">GKS 1005 fol. </ref>
-                            (<title type="ms">Flateyarbók</title>).</p>
+                           <p>Copy of the Skálholt-edition of <ref type="ms">GKS 1005 fol.
+                              </ref> (<title type="ms">Flateyarbók</title>).</p>
                         </filiation>
                      </msItem>
                   </msContents>
@@ -379,15 +401,16 @@
                            </support>
                            <extent>28. Fols <locus>16, 25v and 27-28</locus> are blank.</extent>
                            <foliation>Irregularly paginated with pencil in the top right
-                    corner.</foliation>
+                              corner.</foliation>
                         </supportDesc>
                         <layoutDesc>
                            <layout columns="1" writtenLines="19 25">
-                              <p>Written in long lines with 19 to 25 lines per page.</p>
+                              <p>Written in one column with 19-25 lines per page.</p>
                            </layout>
                         </layoutDesc>
                      </objectDesc>
-                     <additions>Corrections and notes concerning spelling and variants were made.</additions>
+                     <additions>Corrections and notes concerning spelling and variants were
+                        made.</additions>
                   </physDesc>
                </msPart>
             </msDesc>

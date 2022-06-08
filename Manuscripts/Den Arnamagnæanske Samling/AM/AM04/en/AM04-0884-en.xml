@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,28 +23,46 @@
                      <idno>2015</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>De norske kongesagaer</title>
-                  <origPlace>Norway or Denmark</origPlace>
-                  <origDate notBefore="1600" notAfter="1625">s. XVII in</origDate>
-                  <note>Translated by <name type="person" key="MatSto001">Mattis Størssøn</name>, lawman of <name type="place">Bergen</name>.</note>
-               </head>
                <msContents>
-                  <textLang mainLang="da">Danish</textLang>
+                  <summary>
+                     <title type="uniform">The Sagas of the Kings of Norway</title>
+                  </summary>
+                  <textLang mainLang="da"/>
+                  <msItem n="1">
+                     <locus from="1r" to="141r">1r-141r</locus>
+                     <respStmt>
+                        <resp key="trl"/>
+                        <name type="person" key="MatSto001">Mattis Størssøn</name>
+                     </respStmt>
+                     <title type="uniform">The Sagas of the Kings of Norway</title>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>129. 
-<dimensions type="leaf" scope="all">
-                              <height>205</height>
-                              <width>161</width>
-                           </dimensions>
-                        </extent>
+                        <support><material>Paper</material>.</support>
+                        <extent>129. <dimensions type="leaf" scope="all">
+                              <height unit="mm">205</height>
+                              <width unit="mm">161</width>
+                           </dimensions>. </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Norway or Denmark</origPlace>, <origDate notBefore="1585"
+                        notAfter="1599">s. XVI ex</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">245</biblScope></bibl>
+                     <bibl>Storm, <ref target="SnorrHist">Snorre Sturlassöns Historieskrivning</ref>
+                        <biblScope unit="page">266-274</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

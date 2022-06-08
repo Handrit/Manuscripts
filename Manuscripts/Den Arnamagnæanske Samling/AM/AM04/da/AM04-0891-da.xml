@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -23,26 +23,28 @@
                   </altIdentifier>
                </msIdentifier>
 
-               <head>
-                  <title type="supplied" xml:lang="da">Bergens Bykrønike</title>;
-                     <origPlace>Tyskland?</origPlace>, <origDate notBefore="1650" notAfter="1699" evidence="conjecture" resp="KKKat">s.
-                     XVII 2/2</origDate>.</head>
-
                <msContents>
-                  <titlePage type="MS"><docTitle><titlePart type="main">Cronica, <lb/> Oder <lb/> Kurtze Historiſche auff<lb/>zeichnung vnd
-                        Bericht, <lb/> Von Erbawung, Item von ab vnd zunehmung, der Stadt Bergen
-                        <lb/> in Norwegen,</titlePart><titlePart type="sub">Darbei den verner <lb/> Meldung, vnd Bericht, von Anfang
-                           <lb/> vnd zuwachſung, Des Itzo stehndenn <lb/> Teutschen Contors,
-                        stuck<lb/>weise Geschen Soll, <lb/> Vnd wass Sonderliches Iahrlichs passeret
-                        ist, <lb/> Biss Anno: 1670:</titlePart></docTitle></titlePage>
-                  <msItem>
+                  <summary><title type="uniform" xml:lang="da">Bergens
+                        Fundas</title><note>Indeholder en tysk oversættelse af Herluf Lauritssøns
+                        <title type="uniform">Bergens Fundas</title> med tillæg af <name type="person" key="MikHof001">Michael
+                           Hofnagel</name>s dagbogsoptegnelser, hvis yngste notits er fra <date when="1676"
+                           >1676</date>.</note></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">Cronica, <lb/> Oder <lb/> Kurtze Historiſche
+                           auff<lb/>zeichnung vnd Bericht, <lb/> Von Erbawung, Item von ab vnd
+                           zunehmung, der Stadt Bergen <lb/> in Norwegen,</titlePart>
+                        <titlePart type="sub">Darbei den verner <lb/> Meldung, vnd Bericht, von
+                           Anfang <lb/> vnd zuwachſung, Des Itzo stehndenn <lb/> Teutschen Contors,
+                           stuck<lb/>weise Geschen Soll, <lb/> Vnd wass Sonderliches Iahrlichs
+                           passeret ist, <lb/> Biss Anno: 1670:</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="sagnfr">
+                     <locus from="1r" to="91v">1r-91v</locus>
                      <author key="HerLau001">Herluf Lauritssøn</author>
-                     <title type="supplied" xml:lang="da">Bergens Bykrønike</title>
+                     <title type="uniform" xml:lang="da">Bergens Fundas</title>
                      <textLang mainLang="de">Tysk</textLang>
-                     <rubric> </rubric>
-                     <note>Indeholder en tysk oversættelse af Herluf Lauritssøns Bergens Fundats med
-                        tillæg af <name type="person" key="MikHof001">Mikel Hofnagel</name>s
-                        optegnelser, hvis yngste notits er fra <date when="1676">1676</date>.</note>
                   </msItem>
                </msContents>
 
@@ -54,8 +56,8 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>i + 91. <dimensions type="leaf" scope="all">
-                              <height>204</height>
-                              <width>159</width>
+                              <height unit="mm">204</height>
+                              <width unit="mm">159</width>
                            </dimensions>.</extent>
                      </supportDesc>
                      <layoutDesc>
@@ -75,21 +77,25 @@
                   <bindingDesc>
                      <binding contemporary="unknown">
                         <p>Bindet var opr. betrukket med beskrevet pergament fra et latinsk
-                              <term>graduale</term>, dette er nu overført til <ref type="ms">Access.
-                              7b, Hs 23</ref>.</p>
+                              <term>graduale</term>, dette er nu overført til <ref type="ms"
+                              target="#Acc-0007-b-da">Access. 7b, Hs 23</ref>.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Tyskland?</origPlace>, <origDate notBefore="1650"
+                        notAfter="1699" evidence="conjecture" resp="KKKat">s. XVII<hi rend="sup"
+                           >2</hi></origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">247-248</biblScope></bibl>
-                     <bibl>Suhm:
-                        <ref target="PetSuh1771-1776">Samlinger</ref>
+                        <biblScope unit="page">247-248</biblScope></bibl>
+                     <bibl>Suhm: <ref target="PetSuh1771-1776">Samlinger</ref>
                         <biblScope unit="volume">II:2</biblScope>
-                        <biblScope unit="pages">126 ff.</biblScope>
-                         </bibl>
+                        <biblScope unit="page">126 ff.</biblScope>
+                     </bibl>
                   </listBibl>
                </additional>
             </msDesc>

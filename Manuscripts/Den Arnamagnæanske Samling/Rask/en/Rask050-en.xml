@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,64 @@
                      <idno>2623</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Íslenszkur annáll 1740-79</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Icelandic Annal, 1740-79</title>.</summary>
+                  <msItem n="1" class="annal">
+                     <title type="supplied">Icelandic Annal, 1740-79</title> 
+                     <textLang mainLang="is"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>48. 
-<dimensions type="leaf" scope="all">
-                              <height>210</height>
-                              <width>165</width>
-                           </dimensions>
+                        <support><material>Paper</material>.</support>
+                        <extent>48. <dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">210</height>
+                           <width unit="mm">165</width>
+                        </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <additions>
+                     <p>Fol. 48 is a loose leaf in other hands containg some notes regarding the
+                        stanzas of <title type="uniform">Sneglu-Halla þáttr</title> and a draft of an poem in
+                        Icelandic.</p>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>The material used for the pastedown consists of a letter from <foreign
+                           xml:lang="is">lögmaður</foreign>
+                           <name type="person" key="BjoMar001">Björn Markússon</name> to <foreign
+                              xml:lang="is">lögmaður</foreign>
+                           <name type="person" key="SveSol002">Sveinn Sölvason</name>, dated <name
+                              type="place" key="StóAkr01">Akrar</name>
+                           <date when="1751-01-21">21 January 1751</date>.</p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>,
+                     <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>.</origin>
+                  <acquisition><name type="org">The Arnamagnæan Commision</name> bought <name
+                     type="person" key="RasRas001">Rask</name>'s Nordic manuscript collection
+                     after his death in <date when="1832">1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">534</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-06-28" who="EvaWed001">Changed origDate and added information from
+            Kålund's catalogue.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

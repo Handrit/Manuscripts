@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,127 @@
                      <idno>1646</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="en">Icelandic homilies</title>
-                  <title type="supplied" xml:lang="is">Íslenzkar hómiliur</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1290" notAfter="1310">c. 1300;s. XIII (ONP)</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="supplied">A Collection of Homilies</title><note>The
+                        manuscript contains eleven texts, nearly all of which are fragmentary. Five
+                        of them (items 3-4 and 7-9) are excerpted from <title type="uniform">Maríu
+                           saga</title>.</note></summary>
+                  <msItem n="1" class="gudfr">
+                     <locus from="2r" to="2v">2r–2v</locus>
+                     <locus>1r-1v</locus>
+                     <title type="supplied">Enumeration of Christian Virtues</title>
+                     <bibl>Pelle, <ref type="secondary-1" target="StePel2013a"/>
+                        <biblScope unit="page">54-55, 56-57</biblScope><note>excerpts</note></bibl>
+                   </msItem>
+                  <msItem n="2" class="hom">
+                     <locus from="1ar" to="5r">1ar–5r</locus>
+                     <title type="supplied">Homily on Peter and Paul</title>
+                     <note>The ending.</note>
                   </msItem>
-               </msContents>
+                  <msItem n="3" class="hom">
+                     <locus from="5r" to="5v">5r–5v</locus>
+                     <title type="supplied">Homily on the Assumption of Mary</title>
+                     <note>Excerpts.</note>
+                  </msItem>
+                  <msItem n="4" class="hom">
+                     <locus from="3r" to="4v">3r–4v</locus>
+                     <title type="supplied">Eschatological Homily</title>
+                   </msItem>
+                  <msItem n="5" class="apo">
+                     <locus from="6r" to="9v">6r-9v</locus>
+                     <title type="supplied">Part of the Gospel of Nicodemus</title>
+                     <bibl>Bullitta: <ref type="primary-1" target="DarBul2016a">The story of Joseph
+                           of Arimathea in AM 655 XXVII 4to</ref>
+                        <biblScope unit="page">65-70</biblScope></bibl>
+                  </msItem>
+                  <msItem n="6" class="hom">
+                     <locus from="10r" to="10r">10r</locus>
+                     <title type="supplied">Homily on All Saints’ Day</title>
+                     <note>The ending.</note>
+                  </msItem>
+                  <msItem n="7" class="hom">
+                     <locus from="10r" to="11r">10r–11r</locus>
+                     <title type="supplied">Homily on the Nativity</title>
+                  </msItem>
+                  <msItem n="8" class="hom">
+                     <locus from="11v" to="11v">11v</locus>
+                     <title type="supplied">Homily on the Nativity</title>
+                  </msItem>
+                  <msItem n="9" class="hom">
+                     <locus from="11v" to="11v">11v</locus>
+                     <title type="supplied">Exegetical Treatice on Peace</title>
+                  </msItem>
+                  <msItem n="10" class="hom">
+                     <locus from="12r" to="12r">12r</locus>
+                     <title type="supplied">Homily on the Importance of Weeping</title>
+                     <note>The ending.</note>
+                  </msItem>
+                  <msItem n="11" class="hom">
+                     <locus from="12r" to="13v">12r–13v</locus>
+                     <title type="supplied">Homily on the Annunciation</title>
+                     <bibl>Pelle, <ref type="secondary-1" target="StePel2013a"/>
+                        <biblScope unit="page">60-65</biblScope><note>excerpts</note></bibl>
+                  </msItem>
+    </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>14. </extent>
+                        <extent>14. <dimensions type="leaf" scope="all" unit="mm">
+                              <height unit="mm">150</height>
+                              <width unit="mm">110</width>
+                           </dimensions></extent>
+                        <collation>
+                           <list>
+                              <item>I: 2+1+1a+5.</item>
+                              <item>II: 3+4</item>
+                              <item>III: 6+9+7+8.</item>
+                              <item>IV: 10+11+12+13.</item>
+                           </list> The leaves, originally consisting of four quires, were bound in
+                           the wrong sequence.</collation>
+                        <condition>The leaves are all badly worn.</condition>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote script="unknown"><p>Same hand as in <ref type="ms"
+                              target="AM04-0655-XVIII-en">AM 655 XVIII</ref> and the two fragments
+                           may once have been parts of the same manuscript.</p></handNote>
+                  </handDesc>
+                  <accMat>On an AM-slip <name type="person" key="ArnMag001">Árni Magnússon</name>
+                     wrote: <q xml:lang="is">fra Magnuſe Jons ſyne i Snoksdal 1704</q>. </accMat>
                </physDesc>
+               <history>
+                  <origin>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1200"
+                        notAfter="1299">the thirteenth century</origDate> (<bibl><ref
+                           target="OleWid1814a">Widding 1960</ref><biblScope unit="page"
+                           >90</biblScope></bibl>). Kålund's dating: c. 1300 (<bibl><ref
+                           type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">65</biblScope>
+                     </bibl>).</origin>
+                  <acquisition>According to the AM-slip Árni Magnússon acquired the manuscript from
+                        <name type="person" key="MagJon007">Magnús Jónsson</name> of <name
+                        type="place" key="SnoMið01">Snóksdalur</name> in <date when="1704"
+                        >1704</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="primary-1" target="DarBul2016a"/>
+                        <biblScope unit="page">50-65</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">65</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="StePel2013a"/>
+                        <biblScope unit="page">49-70</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="StePel2016a"/>
+                     <biblScope unit="page">273-274</biblScope></bibl>
+                     <bibl><ref target="OleWid1814a"/>
+                        <biblScope unit="page">90</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

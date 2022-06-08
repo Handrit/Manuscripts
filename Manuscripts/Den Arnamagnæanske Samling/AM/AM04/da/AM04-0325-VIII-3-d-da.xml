@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,25 +24,26 @@
                         </altIdentifier>
                         <msName type="nickname" xml:lang="is">Jöfraskinna</msName>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform" xml:lang="is">Sverris saga</title>;
-                            <origPlace>Island</origPlace>, <origDate notBefore="1300" notAfter="1325" evidence="conjecture" resp="ONP">s. XIV 1/4</origDate>.</head>
                     <msContents>
-                        <msItem class="kon" defective="true">
+                        <summary><title type="uniform">Sverris saga</title></summary>
+                        <msItem n="1" class="kon" defective="true">
                             <locus from="1ra" to="1vb">1ra-1vb</locus>
-                            <title>Sverris saga</title>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                            <title type="uniform">Sverris saga</title>
+                            <textLang mainLang="non">Norrønt/Islandsk</textLang>
                             <incipit defective="true">mæla mundi æ<ex>ige</ex> þ<ex>at</ex>
                                 til</incipit>
                             <explicit defective="true">ſva at hvarum tvegium hugnade</explicit>
                             <filiation>Bladet har opr. tilhørt et håndskrift kendt under navnet
-                                    <title type="ms">Jöfraskinna</title>, som nu findes i <name type="place">Det Kongelige Bibliotek</name> i <name type="place">Stockholm</name>, katalogiseret som <ref type="ms">Holm perg 9
-                                    II fol.</ref>
-                     </filiation>
+                                    <title type="ms">Jöfraskinna</title>, hvoraf en anden del er bevaret i
+                                    <name type="org" key="KungBib">Kungliga Biblioteket</name> i
+                                    <name type="place" key="Stock01">Stockholm</name> (<ref
+                                    type="ms">Holm perg 9 II fol.</ref>) og en tredje i <name
+                                    type="org" key="NO-Riks">Riksarkivet</name> i <country key="NO"
+                                    >Norge</country> (<ref type="ms">NRA 55 A</ref>).</filiation>
                             <bibl>
                                 <ref type="primary-2" target="FMS8">Fornmanna sögur</ref>
                                 <biblScope unit="volume">VIII</biblScope>
-                                <biblScope unit="pages">227:17-250:12</biblScope>
+                                <biblScope unit="page">227:17-250:12</biblScope>
                             </bibl>
                         </msItem>
                     </msContents>
@@ -53,8 +55,8 @@
                                         <material>Pergament</material>.</p>
                                 </support>
                                 <extent>1. <dimensions scope="all" type="leaf">
-                                        <height>283</height>
-                                        <width>168</width>
+                                        <height unit="mm">283</height>
+                                        <width unit="mm">168</width>
                                     </dimensions>.</extent>
                                 <condition>
                                     <p>Af ydre spalte er halvdelen bortskåret.</p>
@@ -62,9 +64,9 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" writtenLines="36 37">
-                                    <p>teksten er tospaltet med 37 linjer pr. spalte på
-                                        recto-siden og 36 linjer pr. spalte på verso-siden. Røde
-                                        overskrifter og initialer.</p>
+                                    <p>Teksten er tospaltet med 37 linjer pr. spalte på recto-siden
+                                        og 36 linjer pr. spalte på verso-siden. Røde overskrifter og
+                                        initialer.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -76,28 +78,32 @@
                         </handDesc>
                         <decoDesc>
                             <decoNote type="initial" subtype="litteraflorissa">
-                                <p>Den alleryderste del af en <term>littera
-                                        florissa</term> kan ses på bl. 1va.</p>
+                                <p>Den alleryderste del af en <term>littera florissa</term> kan ses
+                                    på bl. 1va.</p>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Bladet er skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> har dateret
-                                det til <origDate notBefore="1300" notAfter="1399" cert="medium" resp="KKKat">1300-tallet</origDate> (<bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                            <p>Bladet er skrevet i <origPlace>Island</origPlace>. <name
+                                    type="person" key="KriKaa001">Kristian Kålund</name> har dateret
+                                det til <date notBefore="1300" notAfter="1399" cert="medium"
+                                    resp="KKKat">1300-tallet</date> (<bibl>Kålund: <ref
+                                        type="secondary-1" target="KKKat">Katalog</ref>
                                     <biblScope unit="volume">I</biblScope>
-                                    <biblScope unit="pages">560</biblScope>
+                                    <biblScope unit="page">560</biblScope>
                                 </bibl>), mens <name type="person" key="FinJon002">Finnur
                                     Jónsson</name> og <name type="person" key="SteKar001">Stefán
-                                    Karlson</name> har dateret det mere præcist til <origDate notBefore="1300" notAfter="1325" evidence="conjecture" resp="ONP">1300-tallets første fjerdedel</origDate>
-                                    (<bibl>Finnur Jónsson: <ref type="secondary" target="STUAGNL24">De bevarede Brudstykker af Skindbøgerne Kringla og
-                                        Jófraskinna i fototypisk gengivelse</ref>
-                                    <biblScope unit="pages">iii, v</biblScope>
-                        </bibl>,
-                                    <bibl>Karlsson: <ref type="secondary" target="EIMF7">Sagas of
-                                        Icelandic Bishops</ref>
-                           <biblScope unit="pages">59</biblScope>
-                        </bibl>).</p>
+                                    Karlson</name> har dateret det mere præcist til <origDate
+                                    notBefore="1300" notAfter="1325" evidence="conjecture"
+                                    resp="ONP">1300-tallets første fjerdedel</origDate> (<bibl><ref
+                                        type="secondary" target="STUAGNL24">Finnur Jónsson
+                                        1895</ref>
+                                    <biblScope unit="page">iii, v</biblScope>
+                                </bibl>, <bibl><ref type="secondary" target="EIMF7">Stefán Karlsson
+                                        1967</ref>
+                                    <biblScope unit="page">59</biblScope>
+                                </bibl>).</p>
                         </origin>
                     </history>
                     <additional>
@@ -109,71 +115,63 @@
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
-                                    <p>Sat på knækfalse og lagt i et papomslag <date from="1958-03-02" to="1959-04-04">2. marts 1958-4.
-                                            april 1959</date>.</p>
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
+                                    <p>Sat på knækfals og lagt i et papomslag <date
+                                            from="1958-03-02" to="1959-04-04">2. marts 1958-4. april
+                                            1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plade</title>
-                                        <idno>plade 37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositiv</title>
-                                        <idno>AM 325 VIII 3 d 4to</idno>
-                                        <date notBefore="1984-05" notAfter="1985-05">Maj 1984 eller
-                                            1985</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">s/h fotografier</title>
-                                        <date when="1956-10">Oktober 1956</date>
-                                        <idno>AM 325 VIII 3 d 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item>Plade, <idno>plade37</idno>, s.d. </item>
+                                    <item>Diapositiver fra <date notBefore="1984-05"
+                                            notAfter="1985-05">maj 1984 eller 1985</date>.
+                                    </item>
+                                    <item>Sort-hvid fotografier fra <date when="1956-10">oktober
+                                            1956</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
                             <bibl>
                                 <ref type="secondary" target="FMS8">Fornmanna sögur</ref>
-                                <biblScope unit="volume">VIII</biblScope>
-                                <biblScope unit="pages">XX-XXI</biblScope>
-                                <note>Beskrevet som fragment 8</note>
+                                <biblScope unit="volume">VIII</biblScope>, <biblScope unit="page"
+                                    >xx-xxi</biblScope><note>Beskrevet som fragment 8.</note>
                             </bibl>
-                            <bibl>Finnur Jónsson: <ref type="secondary" target="STUAGNL23">Heimskringla</ref>
-                        <biblScope unit="volume">I-IV</biblScope>
-                        <biblScope unit="pages">XXIV-XXV</biblScope>
-                     </bibl>
-                            <bibl>Finnur Jónsson: <ref type="secondary" target="STUAGNL24">De
-                                    bevarede Brudstykker af Skindbøgerne Kringla og Jófraskinna i
-                                    fototypisk gengivelse</ref>
-                        <biblScope unit="pages">III-V,
-                                    XI-XX</biblScope>
-                        <note>Fragmentet er beskrevet som <title type="ms">Jöfraskinna</title> bl. 6, inklusiv
-                                    faksimile</note>
+                            <bibl>
+                                <ref type="secondary" target="STUAGNL23">Finnur Jónsson
+                                    1893-1901</ref><biblScope unit="page"
+                                >xxiv-xxv</biblScope></bibl>
+                            <bibl>
+                                <ref type="secondary" target="STUAGNL24">Finnur Jónsson 1895</ref>,
+                                    <biblScope unit="page">iii-v, xi-xx</biblScope>
+                                <note>Fragmentet er beskrevet som <title type="ms"
+                                        >Jöfraskinna</title> bl. 6, inklusiv faksimile.</note>
                             </bibl>
-                            <bibl>Widding: <ref type="secondary" target="HandskrWidding1960">Håndskriftsanalyser</ref>
-                        <biblScope unit="pages">81-96</biblScope>
-                     </bibl>
-                            <bibl>Karlsson: <ref type="secondary" target="EIMF7">Sagas of Icelandic
-                                    Bishops</ref>
-                                <biblScope unit="pages">59, 60</biblScope>
-                     </bibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">560</biblScope>
-                     </bibl>
-                            <bibl>Louis-Jensen: <ref type="secondary" target="BiblArn32">Kongesagastudier</ref>
-                                <biblScope unit="pages">24</biblScope>
-                     </bibl>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">560</biblScope>
+                            </bibl>
+                            <bibl>
+                                <ref type="secondary" target="HandskrWidding1960">Ole Widding
+                                    1960</ref><biblScope unit="page">81-96</biblScope></bibl>
+                            <bibl>
+                                <ref type="secondary" target="EIMF7">Stefán Karlsson 1967</ref>
+                                <biblScope unit="page">59, 60</biblScope></bibl>
+                            <bibl>
+                                <ref type="secondary" target="BiblArn32">Louis-Jensen 1977</ref>
+                                <biblScope unit="page">24</biblScope></bibl>
+
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2021-12-01" who="EvaWed001">Opdateret.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -23,22 +23,20 @@
 							<idno>106</idno>
 						</altIdentifier>
 					</msIdentifier>
-					<head>
-						<title type="uniform">Kongesagaer</title>; <origPlace>Danmark?</origPlace>
-						<origDate notBefore="1690" notAfter="1710" evidence="conjecture" resp="KKKat">ca. 1700</origDate>. </head>
-					<msContents>
+						<msContents>
+						<summary><title type="uniform">Kongesagaer</title></summary>
 						<msItem n="1" class="kon">
 							<locus from="1" facs="#AM02-0087-0001r" to="117r">1r-117r</locus>
-							<title type="uniform" xml:lang="is">Sverris saga</title>
+							<title type="uniform">Sverris saga</title>
 							<textLang mainLang="is"/>
-							<note>Afskrift af <ref type="ms" target="#AM02-0047-da">AM 47 fol.</ref>
-									(<title type="ms">Eirspennill</title>).</note>
+							<filiation>Afskrift af <ref type="ms" target="#AM02-0047-da">AM 47 fol.</ref>
+									(<title type="ms">Eirspennill</title>).</filiation>
 						</msItem>
 						<msItem n="2" class="kon">
 							<locus from="117v" facs="#AM02-0087-0117v" to="138v">117v-138v</locus>
 							<title type="uniform">Bǫglunga sǫgur</title>
 							<textLang mainLang="is"/>
-							<note>Afskrift af AM 47 fol.</note>
+							<filiation>Afskrift af AM 47 fol.</filiation>
 						</msItem>
 					</msContents>
 					<physDesc>
@@ -49,8 +47,8 @@
 										<material>Papir.</material></p>
 								</support>
 								<extent>138. <dimensions type="leaf" scope="all" unit="mm">
-										<height>324</height>
-										<width>210</width>
+										<height unit="mm">324</height>
+										<width unit="mm">210</width>
 									</dimensions>.</extent>
 								<foliation>Folieret med rødt blæk af <name type="person" key="KriKaa001">Kristian Kålund</name>.</foliation>
 							</supportDesc>
@@ -74,9 +72,9 @@
 							<binding contemporary="false">
 								<p>Helbind af pergament med gennem trukne stropper. Pergamentet er
 									et gammelt søkort. <dimensions type="binding">
-										<height>334</height>
-										<width>211</width>
-										<depth>32</depth>
+										<height unit="mm">334</height>
+										<width unit="mm">211</width>
+										<depth unit="mm">32</depth>
 									</dimensions>
 								</p>
 								<p>
@@ -86,11 +84,13 @@
 							</binding>
 						</bindingDesc>
 					</physDesc>
+					<history><origin><origPlace>Danmark?</origPlace>
+						<origDate notBefore="1690" notAfter="1710" evidence="conjecture" resp="KKKat">ca. 1700</origDate>.</origin></history>
 					<additional>
 						<listBibl>
 							<bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
 								<biblScope unit="volume">I</biblScope>
-								<biblScope unit="pages">63</biblScope>
+								<biblScope unit="page">63</biblScope>
 							</bibl>
 						</listBibl>
 					</additional>

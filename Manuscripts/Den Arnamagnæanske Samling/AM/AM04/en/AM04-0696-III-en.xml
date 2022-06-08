@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,58 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="is">Heilagra manna sögur</title>
-                  <title type="supplied" xml:lang="en">Legends of Saints</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1375" notAfter="1425">s.XIV/XV</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="uniform">Melkólfs saga ok Salomons konungs</title> and
+                        <title type="uniform">Placidus saga</title></summary>
+                  <textLang mainLang="non">Icelandic</textLang>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="1v">1r-v</locus>
+                     <title type="uniform">Melkólfs saga ok Salomons konungs</title>
+                     <incipit defective="true">I þan<ex>n</ex> tíma e<ex>r</ex> ſalomon</incipit>
+                     <explicit defective="true">þa fin<ex>n</ex>r hin<ex>n</ex></explicit>
+                     <bibl>Jackson, <ref type="primary-1" target="JesJac1952">Melkólfs saga ok
+                           Salomons Konungs</ref></bibl>
+                     <bibl>Tucker, <ref type="primary-1" target="JohTuc1996">Melkólfs saga ok
+                           Salomons konungs</ref><biblScope unit="page">210-211</biblScope></bibl>
+                  </msItem>
+                  <msItem n="2" class="hels">
+                     <locus from="2r" to="2v">2r-v</locus>
+                     <title type="uniform">Placidus saga</title>
+                     <bibl>Unger, <ref type="primary" target="HMS1877">Heilagra Manna
+                           Søgur</ref><biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >209-210</biblScope></bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>2. </extent>
+                        <extent>2. <dimensions type="leaf">
+                              <height unit="mm">202</height>
+                              <width unit="mm">142</width>
+                           </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1375" notAfter="1399"
+                           >s.XIV<hi rend="sup">3/4</hi></origDate> (<bibl><ref target="JohTuc1996"
+                           >Tucker 1996</ref></bibl>).</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page"
+                        >110-111</biblScope></bibl>
+                     <bibl>Tucker, <ref type="primary-1" target="JohTuc1996">Melkólfs saga ok
+                           Salomons konungs</ref>
+                        <biblScope unit="page">208-209</biblScope>
+                        <note>Including a facsimily.</note></bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

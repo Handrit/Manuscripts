@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,47 +23,45 @@
                             <idno>1664</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Maríu jartegnir</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1400" notAfter="1499">s. XV</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
-                            <locus from="1r" to="1v">1</locus>
-                            <title>Maríu saga</title>
-                            <title>Af keisara fru</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                        <summary>
+                            <title type="uniform">Maríu jartegnir</title>
+                        </summary>
+                        <msItem n="1" class="jarteikn">
+                            <locus from="1r" facs="#AM04-0667-XIII-0001r" to="1v">1</locus>
+                            <title type="uniform">Maríu jartegnir</title>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <incipit defective="true">
-                        <supplied reason="damage">þ</supplied>ess hins
-                                sama hog<expan>g</expan>ormz</incipit>
+                                <supplied reason="damage">þ</supplied>ess hins sama
+                                    hog<expan>g</expan>ormz</incipit>
                             <explicit defective="true">se<expan>m</expan> flest<expan>er</expan>
                                 aller adr<expan>er</expan>
-                     </explicit>
+                            </explicit>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>205</height>
-                                        <width>145</width>
+                                        <height unit="mm">205</height>
+                                        <width unit="mm">145</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <bindingDesc>
-                            <binding notBefore="1963-04-02" notAfter="1965-11-11" contemporary="false">
+                            <binding notBefore="1963-04-02" notAfter="1965-11-11"
+                                contemporary="false">
                                 <p>Bound in a cardboard cover.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin notBefore="1400" notAfter="1499" cert="high" evidence="conjecture">
-                            <p>Written in <origPlace>Iceland</origPlace> in <origDate>the fifteenth
+                            <p>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1400" notAfter="1499">the fifteenth
                                     century</origDate>.</p>
                         </origin>
                     </history>
@@ -70,51 +69,61 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date>18.07.2000</date> by <name type="person" key="EvaWed001">EW-J</name>. (Parsed
-                                            <date>18.07.2000</date>).</p>
+                                    <p>Catalogued <date>18.07.2000</date> by <name type="person"
+                                            key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation">
-                                    <p>During the restoration <date from="1963-04-02" to="1965-11-11">2 April 1963-11 November 1965</date>the
-                                        leaves were restored, set on meeting guards and put in a
+                                    <p>During the restoration <date from="1963-04-02"
+                                            to="1965-11-11">2 April 1963-11 November 1965</date>the
+                                        leaves were restored, put on meeting guards and put in a
                                         cardboard cover.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <bibl>
-                                    <title type="gmd">70 mm</title>
-                                    <idno>?</idno>
-                                    <date>1963</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">b/w prints</title>
-                                    <idno>AM 667 XIII 4to</idno>
-                                    <date>March 1963</date>
-                                </bibl>
-                            </p>
+                                <list>
+                                    <item> 70 mm from <date when="1963">1963</date>.
+                                    </item>
+                                    <item> Black and white prints from <date when="1963-03">March
+                                        1963</date>.
+                                    </item>
+                                </list>
+                              </p>
                         </surrogates>
+                        <listBibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">80</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary" target="Wolf2013"/>
+                                <biblScope unit="page">236</biblScope></bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
-		<surface xml:id="AM04-0667-XIII-0001r" n="0">
-			<desc>0001r</desc>
-			<graphic mimeType="pdf" url="AM%20667%20XIII%204to/0/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20667%20XIII%204to/0/THUMBNAIL" width="200px" height="270px"/>
-			<graphic mimeType="jpg" url="AM%20667%20XIII%204to/0/SECONDARY_DISPLAY" width="4240px" height="5728px"/>
-			<graphic mimeType="pdf" url="AM%20667%20XIII%204to/0/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0667-XIII-0001v" n="1">
-			<desc>0001v</desc>
-			<graphic mimeType="pdf" url="AM%20667%20XIII%204to/1/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20667%20XIII%204to/1/THUMBNAIL" width="200px" height="273px"/>
-			<graphic mimeType="jpg" url="AM%20667%20XIII%204to/1/SECONDARY_DISPLAY" width="4224px" height="5775px"/>
-			<graphic mimeType="pdf" url="AM%20667%20XIII%204to/1/WEB_DISPLAY"/>
-		</surface>
-	</facsimile>
+    <facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+        <surface xml:id="AM04-0667-XIII-0001r" n="0">
+            <desc>0001r</desc>
+            <graphic mimeType="pdf" url="AM%20667%20XIII%204to/0/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20667%20XIII%204to/0/THUMBNAIL" width="200px"
+                height="270px"/>
+            <graphic mimeType="jpg" url="AM%20667%20XIII%204to/0/SECONDARY_DISPLAY" width="4240px"
+                height="5728px"/>
+            <graphic mimeType="pdf" url="AM%20667%20XIII%204to/0/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0667-XIII-0001v" n="1">
+            <desc>0001v</desc>
+            <graphic mimeType="pdf" url="AM%20667%20XIII%204to/1/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20667%20XIII%204to/1/THUMBNAIL" width="200px"
+                height="273px"/>
+            <graphic mimeType="jpg" url="AM%20667%20XIII%204to/1/SECONDARY_DISPLAY" width="4224px"
+                height="5775px"/>
+            <graphic mimeType="pdf" url="AM%20667%20XIII%204to/1/WEB_DISPLAY"/>
+        </surface>
+    </facsimile>
 </TEI>

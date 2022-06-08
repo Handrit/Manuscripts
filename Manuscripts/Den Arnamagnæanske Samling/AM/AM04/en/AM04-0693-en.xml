@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,33 +23,51 @@
                      <idno>1733</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Esdra, Book 3-4</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                 <msContents>
+                  <summary><title type="uniform">Book of Esdras</title>.</summary>
+                  <textLang mainLang="is"/>
+                  <msItem n="1" class="bibl">
+                     <title type="uniform">Book of Esdras</title>
+                     <msItem n="1.1" class="bibl">
+                        <locus from="1r" to="18r">1r-18r</locus>
+                        <title type="uniform">3. Esdras</title>
+                        <rubric>þridia Bök Esdræ</rubric>
+                     </msItem>
+                     <msItem n="1.2" class="bibl">
+                        <locus from="18v" to="44v">18v-44v</locus>
+                        <title type="uniform">4. Esdras</title>
+                        <rubric>Fiörda Bök Esdræ</rubric>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>44. 
-<dimensions type="leaf" scope="all">
-                              <height>313</height>
-                              <width>167</width>
-                           </dimensions>
-                        </extent>
+                        <support><material>Paper</material>.</support>
+                        <extent>44. <dimensions type="leaf" scope="all">
+                           <height unit="mm">313</height>
+                           <width unit="mm">167</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland?</origPlace>,
+                  <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">108</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+      <revisionDesc>
+         <change when="2021-11-12" who="EvaWed001">Updated markup and content.</change>
+      </revisionDesc>
+     </teiHeader>
    <facsimile>
       <surface/>
    </facsimile>

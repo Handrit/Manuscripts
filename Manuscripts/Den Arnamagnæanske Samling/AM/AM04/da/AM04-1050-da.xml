@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,12 +29,8 @@
                         </altIdentifier>
                     </msIdentifier>
 
-                    <head>
-                        <title type="supplied">Blandet indhold</title>; <origPlace>Danmark og
-                            Norge</origPlace>, <origDate notBefore="1500" notAfter="1730">Hovedsalig
-                            s. XVIII 1/4</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="supplied">Blandingshåndskrift</title></summary>
                         <textLang mainLang="da" otherLangs="la">Dansk og latin</textLang>
                     </msContents>
                     <physDesc>
@@ -45,26 +42,38 @@
                                     </p>
                                 </support>
                                 <extent>95. <dimensions type="leaf" scope="all">
-                                        <height>215</height>
-                                        <width>170</width>
+                                        <height unit="mm">215</height>
+                                        <width unit="mm">170</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1050 I 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <history>
+                        <origin><origPlace>Danmark og Norge</origPlace>, <origDate notBefore="1500"
+                                notAfter="1730">Hovedsalig s. XVIII in</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl><bibl><ref type="secondary" target="KKKat">Katalog</ref>
+                            <biblScope unit="volume">II</biblScope>
+                            <biblScope unit="page">305-307</biblScope></bibl></listBibl>
+                        
+                    </additional>
+                    <msPart n="1">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1050 I 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
                                 <title type="uniform">En ny vise</title>
                                 <textLang mainLang="da">Ældre nydansk</textLang>
                                 <rubric>En ny Wiſe</rubric>
-                                <note>Et opbyggeligt digt <q>skenckt Erlig och velact Mand <name type="person" key="PouHel002">Poul
-                                            Helieſsön</name>
-                           </q>
-                        </note>
+                                <note>Et opbyggeligt digt <q>skenckt Erlig och velact Mand <name
+                                            type="person" key="PouHel002">Poul Helieſsön</name>
+                                    </q>
+                                </note>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -81,16 +90,19 @@
                         </physDesc>
                         <history>
                             <origin>
-                                <p>Skrevet <origDate when="1602" cert="high" evidence="external">1602</origDate>.</p>
+                                <p>Skrevet <origDate when="1602" cert="high" evidence="external"
+                                        >1602</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1050 II 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="2">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1050 II 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="2">
                                 <title type="supplied">Christian IV med følges indskrifter på en
                                     rude i Bergen rådhus, 1599</title>
                                 <textLang mainLang="da">Ældre nydansk</textLang>
@@ -112,32 +124,35 @@
                                         Magnusson</name> skrevet: <q xml:lang="da">Skrevet efter en
                                             gam<ex>m</ex>el haand paa papir, bag i en
                                         gam<ex>m</ex>el loubog</q>
-                        </p>
+                                </p>
                                 <p>På et tilhørende omslag skriver han endvidere om fragment I og
-                                    II, at de <q>vare indbundne bag ved den Gulethings-Loubog,
-                                        ſom ieg bekom <date when="1712-10">1712. in
-                                            Octobri</date> hos Monſr <name type="person" key="ThoTor001">Thormod Torueſen</name>,
-                                        nemlig den som fattedes udi begyndelſen og <name type="person" key="Bra004">P.E. Brandal</name> hafde
-                                        ejet</q>
-                        </p>
+                                    II, at de <q>vare indbundne bag ved den Gulethings-Loubog, ſom
+                                        ieg bekom <date when="1712-10">1712. in Octobri</date> hos
+                                        Monſr <name type="person" key="ThoTor001">Thormod
+                                            Torueſen</name>, nemlig den som fattedes udi begyndelſen
+                                        og <name type="person" key="Bra004">P.E. Brandal</name>
+                                        hafde ejet</q>
+                                </p>
                             </additions>
                         </physDesc>
                         <additional>
                             <listBibl>
                                 <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle Love
                                         indtil 1387</ref>
-                           <biblScope unit="volume">IV</biblScope>
-                           <biblScope unit="pages">560-61</biblScope>
-                        </bibl>
+                                    <biblScope unit="volume">IV</biblScope>
+                                    <biblScope unit="page">560-61</biblScope>
+                                </bibl>
                             </listBibl>
                         </additional>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1050 III 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="3">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1050 III 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="3">
                                 <title type="uniform">Kong Erik glippings Nyborgske forordning
                                     1284</title>
                                 <textLang mainLang="da">Ældre nydansk</textLang>
@@ -154,25 +169,30 @@
                                     <extent>8. Bl. 8v ubeskrevet</extent>
                                 </supportDesc>
                             </objectDesc>
-                            <additions>I bl. 1r's margen har <name type="person" key="ArnMag001">Arne Magnusson</name> tilføjet: <q xml:lang="la">ex libro
-                                    pergameno in 8<hi rend="sup">vo</hi> in Bibliotheca <name type="person" key="OleWor001">O. Wormii</name> ad calcem LL
+                            <additions>I bl. 1r's margin har <name type="person" key="ArnMag001"
+                                    >Arne Magnusson</name> tilføjet: <q xml:lang="la">ex libro
+                                    pergameno in 8<hi rend="sup">vo</hi> in Bibliotheca <name
+                                        type="person" key="OleWor001">O. Wormii</name> ad calcem LL
                                     Cimbricarum Valdemari</q>
-                     </additions>
+                            </additions>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1050 IV 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="4">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1050 IV 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="4">
                                 <title type="supplied">Annal for 1286-1548</title>
                                 <textLang mainLang="da">Ældre nydansk</textLang>
-                                <bibl>Rørdam: <ref type="primary" target="HolRør1873-1875">Historiske Kildeskrifter og Bearbejdelser af dansk Historie
+                                <bibl>Rørdam: <ref type="primary" target="HolRør1873-1875"
+                                        >Historiske Kildeskrifter og Bearbejdelser af dansk Historie
                                         især fra det 16 Aarhundred</ref>
-                           <biblScope unit="volume">I</biblScope>
-                           <biblScope unit="pages">283-96</biblScope>
-                        </bibl>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="page">283-96</biblScope>
+                                </bibl>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -189,21 +209,25 @@
                         </physDesc>
                         <history>
                             <origin>
-                                <p>Skrevet i <origDate notBefore="1500" notAfter="1599" evidence="conjecture" resp="KKKat">1500-tallet</origDate>.</p>
+                                <p>Skrevet i <origDate notBefore="1500" notAfter="1599"
+                                        evidence="conjecture" resp="KKKat"
+                                    >1500-tallet</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1050 V 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="5">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1050 V 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="5">
                                 <title type="supplied">Retterbod for Hr Trond Ulfsstand og Hr Claus
                                     Bille</title>
                                 <rubric>Her Trunt Vlffstanndtz och Her <lb/> Claus Bild<ex>es</ex>
                                     Retteboodt <gap reason="irrelevant"/>
-                        </rubric>
+                                </rubric>
                                 <textLang mainLang="da">Ældre nydansk</textLang>
                             </msItem>
                         </msContents>
@@ -218,30 +242,33 @@
                                     <extent>5.</extent>
                                 </supportDesc>
                             </objectDesc>
-                            <additions>På et tilhørende omslag har <name type="person" key="ArnMag001">Arne Magnusson</name> skrevet: <q>Ex Recenti
-                                    membrana bag ved den Norſke loubog in 4<hi rend="sup">to</hi>, ſom haver allerförſt de .3.
-                                    Norſke Chriſtenretter</q>
-                     </additions>
+                            <additions>På et tilhørende omslag har <name type="person"
+                                    key="ArnMag001">Arne Magnusson</name> skrevet: <q>Ex Recenti
+                                    membrana bag ved den Norſke loubog in 4<hi rend="sup">to</hi>,
+                                    ſom haver allerförſt de .3. Norſke Chriſtenretter</q>
+                            </additions>
                         </physDesc>
                         <additional>
                             <listBibl>
                                 <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle
                                         Love</ref>
-                           <biblScope unit="volume">IV</biblScope>
-                           <biblScope unit="pages">571</biblScope>
-                        </bibl>
+                                    <biblScope unit="volume">IV</biblScope>
+                                    <biblScope unit="page">571</biblScope>
+                                </bibl>
                             </listBibl>
                         </additional>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1050 VI 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="6">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1050 VI 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <rubric>Si qvæstio inter Epiſcopum oritur <lb/> et populum
-                                    de legis diverſitate <gap reason="irrelevant"/>
-                        </rubric>
+                            <msItem n="6">
+                                <rubric>Si qvæstio inter Epiſcopum oritur <lb/> et populum de legis
+                                    diverſitate <gap reason="irrelevant"/>
+                                </rubric>
                                 <textLang mainLang="la">Latin</textLang>
                             </msItem>
                         </msContents>
@@ -263,13 +290,15 @@
                             </handDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1050 VII 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="7">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1050 VII 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
 
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="7">
                                 <rubric>Calendarium vel potius Obituarium Ecclesiæ Beatæ Virginis
                                     Hafnis</rubric>
                                 <textLang mainLang="la">Latin</textLang>
@@ -286,18 +315,22 @@
                                     <extent>3.</extent>
                                 </supportDesc>
                             </objectDesc>
-                            <additions>På det tilhørende omslag bemærker <name type="person" key="ArnMag001">Arne Magnusson</name>: <q>Ex Tomo A.
-                                    Bartholiniano. illic vero ex Membrana in folio Capſâ
-                                    Ambroſii ord. 2. in folio</q>, dvs. fra <name type="person" key="ThoBar001">Thomas Bartholins</name>
-                                bibliotek, Tomus A.</additions>
+                            <additions>På det tilhørende omslag bemærker <name type="person"
+                                    key="ArnMag001">Arne Magnusson</name>: <q>Ex Tomo A.
+                                    Bartholiniano. illic vero ex Membrana in folio Capſâ Ambroſii
+                                    ord. 2. in folio</q>, dvs. fra <name type="person"
+                                    key="ThoBar001">Thomas Bartholins</name> bibliotek, Tomus
+                                A.</additions>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1050 VIII 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="8">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1050 VIII 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="8">
                                 <title type="uniform">Annales Danici Sorani 1202-1347</title>
                                 <textLang mainLang="la">Latin</textLang>
                                 <!-- efter originalerne gengivne i Scriptores rer. Dan. V -->
@@ -314,21 +347,24 @@
                                     <extent>4. Bl. 1r og 4v er ubeskrevne.</extent>
                                 </supportDesc>
                             </objectDesc>
-                            <additions>På det tilhørende omslag henviser <name type="person" key="ArnMag001">Arne Magnusson</name> til <name type="person" key="ThoBar001">Thomas Bartholins</name> bibliotek, Tomus
+                            <additions>På det tilhørende omslag henviser <name type="person"
+                                    key="ArnMag001">Arne Magnusson</name> til <name type="person"
+                                    key="ThoBar001">Thomas Bartholins</name> bibliotek, Tomus
                                 A.</additions>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1050 IX 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="9">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1050 IX 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="9">
                                 <rubric>Catalogus Diplomatum <lb/> veterum, aliarumqve
-                                    li<lb/>terarum aſſervatarum in <lb/>
-                                    Archivis Univerſitatis Hafn<lb/>iensis.
-                                    Exſcriptus ex libro <lb/> in 4<hi rend="sup">to</hi>,
-                                    qvem ſervat Re<lb/> ctor Univerſitatis
+                                    li<lb/>terarum aſſervatarum in <lb/> Archivis Univerſitatis
+                                    Hafn<lb/>iensis. Exſcriptus ex libro <lb/> in 4<hi rend="sup"
+                                        >to</hi>, qvem ſervat Re<lb/> ctor Univerſitatis
                                     Magni<lb/>ficus</rubric>
                                 <textLang mainLang="la">Latin</textLang>
                             </msItem>
@@ -351,16 +387,18 @@
                             </handDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1050 X 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="10">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1050 X 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <rubric>Catalogus MStorum qvæ in Muſéo ſuo
-                                    aſſervat <lb/> Dominus <name type="person" key="PedSyv001">Petrus Septimus</name> Paſtor
-                                        <name type="place">Hellested</name>
-                        </rubric>
+                            <msItem n="10">
+                                <rubric>Catalogus MStorum qvæ in Muſéo ſuo aſſervat <lb/> Dominus
+                                        <name type="person" key="PedSyv001">Petrus Septimus</name>
+                                    Paſtor <name type="place">Hellested</name>
+                                </rubric>
                                 <textLang mainLang="la">Latin</textLang>
                             </msItem>
                         </msContents>
@@ -379,12 +417,14 @@
                                         D<ex>omi</ex>num Septimum</q> er vedlagt.</additions>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1050 XI 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="11">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1050 XI 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="11">
                                 <rubric>Ex reliqviis Wellejanis</rubric>
                                 <textLang mainLang="la">Latin</textLang>
                                 <note>En litteraturfortegnelse.</note>
@@ -403,18 +443,19 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1050 XII 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="12">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1050 XII 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="12">
                                 <title type="supplied">Fortegnelse over de håndskrifter justitsråd
                                     Rømer købte på Parsbergs auktion</title>
-                                <rubric>Fortegnelſe paa de Manuscripter, ſom
-                                    efter <gap reason="irrelevant"/> Juſtits-Raad Römers
-                                    befaling ere blefne kiöbte paa Sal. Etats Raad Parsbiergs
-                                    auction</rubric>
+                                <rubric>Fortegnelſe paa de Manuscripter, ſom efter <gap
+                                        reason="irrelevant"/> Juſtits-Raad Römers befaling ere
+                                    blefne kiöbte paa Sal. Etats Raad Parsbiergs auction</rubric>
                                 <textLang mainLang="da">Ældre nydansk</textLang>
                             </msItem>
                         </msContents>
@@ -430,20 +471,23 @@
                                 </supportDesc>
                             </objectDesc>
                             <handDesc>
-                        <p>Bl. 2 er skrevet af <name type="person" key="ArnMag001">Arne Magnusson</name>.</p>
-                     </handDesc>
+                                <p>Bl. 2 er skrevet af <name type="person" key="ArnMag001">Arne
+                                        Magnusson</name>.</p>
+                            </handDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1050 XIII 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="13">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1050 XIII 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="13">
                                 <title type="supplied">En fortegnelse over islandske sagaer</title>
                                 <textLang mainLang="da">Ældre nydansk</textLang>
                                 <!-- NB! Opuscula III -->
-                              </msItem>
+                            </msItem>
                         </msContents>
                         <physDesc>
                             <objectDesc form="codex">
@@ -456,7 +500,8 @@
                                     <extent>3. Bl. 2v og 3v er ubeskrevne.</extent>
                                 </supportDesc>
                             </objectDesc>
-                            <additions>Rettelser af <name type="person" key="ArnMag001">Arne Magnusson</name>.</additions>
+                            <additions>Rettelser af <name type="person" key="ArnMag001">Arne
+                                    Magnusson</name>.</additions>
                         </physDesc>
                     </msPart>
                 </msDesc>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -23,12 +23,8 @@
                             <idno>97</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform">Ólafs saga helga</title>; <origPlace key="DK">København, Danmark</origPlace>
-                        <origDate notBefore="1690" notAfter="1710" evidence="conjecture" resp="KKKat">ca. 1700</origDate>
-                        <note/>
-                    </head>
-                    <msContents>
+                       <msContents>
+                        <summary><title type="uniform">Ólafs saga helga</title></summary>
                         <msItem n="1" class="formal kon">
                             <title type="uniform">Ólafs saga helga</title>
                             <note>Prologen.</note>
@@ -46,8 +42,8 @@
                                     </p>
                                 </support>
                                 <extent>11 + iii. Bl. 1v, 3, 5, 7-8, 10 er blanke. <dimensions type="leaf" scope="all">
-                                        <height>211</height>
-                                        <width>164</width>
+                                        <height unit="mm">211</height>
+                                        <width unit="mm">164</width>
                                     </dimensions>
                                 </extent>
                                 <foliation>Rød foliering 1-11 ved <name type="person" key="KriKaa001">Kristian Kålund</name>.</foliation>
@@ -74,9 +70,9 @@
                             <binding contemporary="false">
                                 <p>Fra perioden <date notBefore="1880" notAfter="1920">1880-1920</date>. Halvbind med sort lærredsryg og -hjørner,
                                     blankt overtræk af rødt kammarmor: <dimensions type="binding" unit="mm">
-                                        <height>228</height>
-                                        <width>180</width>
-                                        <depth>7</depth>
+                                        <height unit="mm">228</height>
+                                        <width unit="mm">180</width>
+                                        <depth unit="mm">7</depth>
                                     </dimensions>
                                     <name type="person" key="KriKaa001">Kålund</name> har noteret
                                     datoen <date when="1885-10-15">15.10.1885</date> på
@@ -84,11 +80,16 @@
                             </binding>
                         </bindingDesc>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>København, Danmark</origPlace>
+                        <origDate notBefore="1690" notAfter="1710" evidence="conjecture" resp="KKKat">ca. 1700</origDate>
+                     </origin></history>
+                    
                     <additional>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                                 <biblScope unit="volume">I</biblScope>
-                                <biblScope unit="pages">59</biblScope>
+                                <biblScope unit="page">59</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

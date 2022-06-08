@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,12 +23,10 @@
                      <idno>2048</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Adversaria Eddica</title>; <origPlace>Island</origPlace>,
-                     <origDate notBefore="1780" notAfter="1790" evidence="external">ca.
-                     1785</origDate>. </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="supplied">Adversaria Eddica</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="165v">1r-156v</locus>
                      <author key="MagKet001">Magnús Ketilsson</author>
                      <title type="supplied">Adversaria Eddica</title>
                      <textLang mainLang="is">Islandsk</textLang>
@@ -42,35 +40,41 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>165. <dimensions type="leaf" scope="all">
-                              <height>210</height>
-                              <width>166</width>
+                              <height unit="mm">210</height>
+                              <width unit="mm">166</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="MagKet001" scope="sole" script="unknown">
-                        <p>Skrevet af Magnús Ketilsson.</p>
+                        <p>Skrevet af <name type="person" key="MagKet001">Magnús
+                           Ketilsson</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1775" notAfter="1795"
+                        evidence="external">ca. 1785</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>
                         <ref type="secondary" target="Edda1848-87">Edda Snorra Sturlusonar</ref>
                         <biblScope unit="volume">III</biblScope>
-                        <biblScope unit="pages">cx</biblScope>
+                        <biblScope unit="page">cx</biblScope>
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">261</biblScope>
+                        <biblScope unit="page">261</biblScope>
                      </bibl>
-
                   </listBibl>
                </additional>
-
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2022-03-29" who="EvaWed001">Opdateret origDate.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

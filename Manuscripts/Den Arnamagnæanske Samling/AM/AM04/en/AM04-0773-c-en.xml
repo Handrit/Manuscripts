@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,100 @@
                      <idno>1899</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Gronlandia</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1650">s. XVII 1/2</origDate>
-               </head>
                <msContents>
+                  <summary><title type="uniform">Gronlandia</title></summary>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="ArnJon001">Árngrimur Jónsson</name>
-                     </author>
+                     <locus from="1r" to="32v">1r-32v</locus>
+                     <author key="ArnJon001">Árngrimur Jónsson</author>
+                     <title type="uniform">Gronlandia</title>
                      <textLang mainLang="la">Latin</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>32. 
-<dimensions type="leaf" scope="all">
-                              <height>207</height>
-                              <width>170</width>
-                           </dimensions>
-                        </extent>
+                        <support><material>Paper</material>.</support>
+                        <extent>32. <dimensions type="leaf" scope="all">
+                              <height unit="mm">207</height>
+                              <width unit="mm">170</width>
+                           </dimensions>. </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1600" notAfter="1650"
+                        >s. XVII<hi rend="sup">1</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">195</biblScope></bibl>
+                  </listBibl>
+               </additional>
+               <msPart n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 773 c I 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem n="1" defective="true">
+                        <locus from="1r" to="16v">1r-16v</locus>
+                        <author key="ArnJon001">Árngrimur Jónsson</author>
+                        <title type="uniform">Gronlandia</title>
+                        <textLang mainLang="la">Latin</textLang>
+                        <note>Ends defectively in the end of the chapter concerning the discovery of
+                           Vinland.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <p>
+                                 <material>Paper</material>.</p>
+                           </support>
+                           <extent>16.</extent>
+                           <condition>
+                              <p>Fols 1 and 16 are badly worn.</p>
+                           </condition>
+                        </supportDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="sole" scribe="ArnJon001" script="unknown">
+                           <p>Vistnok skrevet af Arngrímur Jónsson.</p>
+                        </handNote>
+                     </handDesc>
+
+                  </physDesc>
+               </msPart>
+               <msPart n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 773 c II 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem n="2" defective="true">
+                        <locus from="1r" to="16v">1r-16v</locus>
+                        <author key="ArnJon001">Árngrimur Jónsson</author>
+                        <title type="uniform">Gronlandia</title>
+                        <textLang mainLang="la">Latin</textLang>
+                        <note>Unconnected fragments.</note>
+                     </msItem>
+                  </msContents>
+                  <physDesc>
+                     <objectDesc form="codex">
+                        <supportDesc material="chart">
+                           <support>
+                              <p>
+                                 <material>Paper</material>.</p>
+                           </support>
+                           <extent>Brudstykker af 16 blade</extent>
+                        </supportDesc>
+                     </objectDesc>
+                  </physDesc>
+               </msPart>
             </msDesc>
          </sourceDesc>
       </fileDesc>

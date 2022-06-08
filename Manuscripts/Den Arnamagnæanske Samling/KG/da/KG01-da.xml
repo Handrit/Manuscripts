@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,13 +23,47 @@
                             <idno>2785</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform">Ólafs saga helga</title>;
-                            <origPlace>Island</origPlace>, <origDate notBefore="1300" notAfter="1324">s. XIV 1/4</origDate>
-                        <note>Nu overført til <ref type="ms" target="#AM04-0325-V-da">AM 325 V
-                        4to</ref>
-                  </note>
-                            </head>
+                    <msContents>
+                        <summary>
+                            <title type="uniform">Ólafs saga helga</title>
+                            <note>Nu overført til <ref type="ms" target="#AM04-0325-V-da">AM 325 V
+                                    4to</ref>
+                            </note>
+                        </summary>
+                        <msItem n="1" class="kon" defective="true">
+                            <locus from="1ra" to="2vb"> 1ra-2vb</locus>
+                            <title type="uniform"> Saga Ólafs konungs hins helga
+                                Haraldssonar</title>
+                            <msItem n="1.1">
+                                <locus from="1ra" to="1vb">1ra-vb</locus>
+                                <incipit defective="true">
+                                    <gap/>
+                                    <lb/> i&#x017F;. eiða &#x017F;koð&#xA75B; aleiðv<ex>m.</ex>
+                                </incipit>
+                                <explicit defective="true"> at ingig <ex>er</ex>ð&#xA75B;
+                                    &#x017F;y&#x017F; <ex>er </ex></explicit>
+                                <note>Svarer til<bibl><ref target="FMS4">Fornmanna sögur</ref>
+                                        <biblScope unit="volume">IV</biblScope>
+                                        <biblScope unit="page"
+                                    >188:8-196:17</biblScope></bibl></note>
+                            </msItem>
+                            <msItem n="1.2" class="kon" defective="true">
+                                <locus from="2ra" to="2vb">2ra-2vb</locus>
+                                <incipit defective="true">
+                                    <gap/>
+                                    <lb/> &#x017F;ka mikill m<ex>aðr</ex>
+                                    <ex>ok</ex> &#x017F;t<ex>er</ex>kr </incipit>
+                                <explicit defective="true"> &#x00DE;o&#xA75B;katli vpp
+                                    re<ex>i</ex>st þa</explicit>
+                                <note>Svarer til <bibl><ref target="FMS4">Fornmanna sögur</ref>
+                                        <biblScope unit="volume">IV</biblScope>
+                                        <biblScope unit="page"> 214:14-218:20</biblScope>
+                                    </bibl></note>
+                            </msItem>
+                        </msItem>
+                    </msContents>
+
+
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
@@ -36,10 +71,46 @@
                                     <p>
                                         <material>Pergament</material>.</p>
                                 </support>
-                                <extent>2.</extent>
+                                <extent>2 sammenhængende blade <dimensions type="leaf" scope="all">
+                                        <height unit="mm">184</height>
+                                        <width unit="mm">157</width>
+                                    </dimensions>.</extent>
+                                <condition>
+                                    <p>Bladende er beskadigede ved beskæring foroven samt ved
+                                        forskellige indsnit og stik.</p>
+                                </condition>
                             </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2">
+                                    <p>Tospaltet. Spor til røde overskrifter og farvede
+                                        initialer.</p>
+                                </layout>
+                            </layoutDesc>
                         </objectDesc>
+                        <additions>Blad 1 bærer følgende påtegninger: <q>Mig foræret af Studiof.
+                                Hogni Einarsson. 1828. Th. Helgason</q>. <q>deinde possessor St.
+                                Th.</q>.</additions>
                     </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Island</origPlace>, <origDate notBefore="1300"
+                                notAfter="1325" resp="KKKat">s. XIV<hi rend="sup"
+                                >1/4</hi></origDate>.s</origin>
+                        <provenance>Præsten <name type="person" key="ThoHel002">Þorsteinn
+                                Helgason</name> fik håndskriftet foræret i det 19. århundrede af
+                            student <name type="person" key="HogEin001">Högni Einarsson</name>. Vi
+                            kan læse på bl. 1 at det før da har været ejet af en Stefán
+                            Þorsteinsson.</provenance>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>
+                                <ref target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">598</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

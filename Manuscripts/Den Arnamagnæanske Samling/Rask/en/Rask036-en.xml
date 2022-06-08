@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,12 +23,12 @@
                             <idno>2607</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Saga Book</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1809-01-01" notAfter="1810-12-31">1809-1810</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="supplied">Saga Manuscript</title>. <note>Most of the
+                                items have a colophon with a date and the scribe's signature. At p.
+                                151 the scribe has written his anagram in runic
+                            letters.</note></summary>
+                        <textLang mainLang="is">Icelandic</textLang>
                         <titlePage type="MS">
                             <docTitle>
                                 <titlePart type="main">Nockrir <lb/> Forn-manna <lb/> SAUGU-ÞÆTTIR
@@ -36,151 +37,175 @@
                                     Vordaga 1810 <lb/> af <lb/> Olafi Sigurdarsyni</titlePart>
                             </docTitle>
                         </titlePage>
-                        <msItem n="1">
-                            <locus>2</locus>
+                        <msItem n="1" class="regist">
+                            <locus from="2r" to="2v">2r-v</locus>
                             <title type="supplied">Index</title>
-                            <textLang mainLang="is">Icelandic</textLang>
                         </msItem>
-                        <msItem n="2">
-                            <locus from="3" to="5">3-5</locus>
+                        <msItem n="2" class="drott">
+                            <locus from="3r" to="5v">3r-5v</locus>
                             <title type="uniform">Vísur úr Kormaks sögu</title>
+                            <quote>Eptir fullkomnara exemplari</quote>
                         </msItem>
-                        <msItem n="3">
-                            <locus from="5" to="30">pp. 5-30</locus>
+                        <msItem n="3" class="isl">
+                            <locus from="5" to="30">5v-30 (ff. 6 etc.)</locus>
                             <title type="uniform">Kormáks saga</title>
                         </msItem>
-                        <msItem n="4">
+                        <msItem n="4" class="samt">
                             <locus from="31" to="41">pp. 31-41</locus>
                             <title type="uniform">Hrafns saga Hrútfirðings</title>
+                            <!-- Hrafns saga Sveinbjarnarsonar -->
                         </msItem>
-                        <msItem n="5">
+                        <msItem n="5" class="isl">
                             <locus from="42" to="72">pp. 42-72 + the later inserted f. 40</locus>
                             <title type="uniform">Gull-Þóris saga</title>
                             <title type="parallel">Þorskfirðinga saga</title>
-                            <note>Fol. 40 is a cover for a letter, on which some fragments <q xml:lang="is">Aptan af Gullþóris Sögu</q> is written
-                                recto.</note>
+                            <note>Fol. 40 is an envelope, on which some excerpts <q xml:lang="is"
+                                    >Aptan af Gullþóris Sögu</q> are written on the recto.</note>
                         </msItem>
-                        <msItem n="6">
+                        <msItem n="6" class="islt">
                             <locus from="73" to="80">pp. 73-80</locus>
                             <title type="uniform">Halldórs þáttr Snorrasonar</title>
                         </msItem>
-                        <msItem n="7">
+                        <msItem n="7" class="islt">
                             <locus from="81" to="92">pp. 81-92</locus>
                             <title type="uniform">Hreiðars þáttr heimska</title>
                         </msItem>
-                        <msItem n="8">
+                        <msItem n="8" class="isl">
                             <locus from="93" to="115">pp. 93-115</locus>
-                            <title type="uniform">Hænsna-Þóris saga</title>
-                            <msItem n="8.1">
+                            <title type="uniform">Hænsa-Þóris saga</title>
+                            <msItem n="8.1" class="drott">
+                                <title type="supplied">Stanza on Hænsna-Þóris</title>
                                 <rubric>Vísa I. I. S. um Hænsna Þórir</rubric>
                             </msItem>
-                            <msItem n="8.2">
+                            <msItem n="8.2" class="attat">
+                                <title type="supplied">Genealogy</title>
                                 <rubric>Ætt Tungu-Odds of<ex>an</ex> t<ex>il</ex> Sturlúnga</rubric>
                             </msItem>
                         </msItem>
-                        <msItem n="9">
+                        <msItem n="9" class="isl">
                             <locus from="116" to="129">pp. 116-129</locus>
                             <title type="uniform">Eiriks saga rauða</title>
                             <rubric>Sagann af <lb/> Eyríke enum Rauda</rubric>
                         </msItem>
-                        <msItem n="10">
+                        <msItem n="10" class="isl">
                             <locus from="130" to="151">pp. 130-151</locus>
                             <title type="uniform">Vápnfirðinga saga</title>
                             <title type="parallel">Brodd-Helga saga</title>
                             <rubric>Sagann Af <lb/> BRODD-HELGA</rubric>
                         </msItem>
-                        <msItem n="11">
+                        <msItem n="11" class="islt">
                             <locus from="151" to="156">pp. 151-156</locus>
-                            <title type="uniform">Þorsteins þáttr stangarhöggs</title>
+                            <title type="uniform">Þorsteins þáttr stangarh&#x01EB;ggs</title>
                             <rubric>Søgoþáttor af THORSTEINI Stángarhøgg</rubric>
+                            <bibl>Jakob Jakobsen, <ref type="primary-1" target="JakJak1902a"
+                                    /><note>Var.app. G.</note></bibl>
                         </msItem>
-                        <msItem n="12">
+                        <msItem n="12" class="isl">
                             <locus from="157" to="178">pp. 157-178</locus>
                             <title type="uniform">Hrafnkels saga Freysgoða</title>
                             <rubric>Sagan<ex>n</ex>
                                 <lb/> af <lb/> Hrafnkéli Freys-Goda</rubric>
                         </msItem>
-                        <msItem n="13">
+                        <msItem n="13" class="isl">
                             <locus from="179" to="200">pp. 179-200</locus>
                             <title type="uniform">Gunnlaugs saga ormstungu</title>
                             <rubric>Sagann <lb/> af <lb/> Gunnlaugi Ormstúngu</rubric>
                         </msItem>
-                        <msItem n="14">
+                        <msItem n="14" class="forns">
                             <locus from="201" to="224">pp. 201-224</locus>
                             <title type="uniform">Ásmundar saga víkings</title>
                             <rubric>Sagann <lb/> Af <lb/> Asmundi Wikíng</rubric>
-                            <note>Followed by a verse.</note>
+                            <note>Followed by a stanza.</note>
                         </msItem>
-                        <msItem n="15">
+                        <msItem n="15" class="islt">
                             <locus from="225" to="227">pp. 225-227</locus>
                             <title type="uniform">Þorsteinns þáttr forvitna</title>
                             <rubric>Þáttur af Þórsteini Forvitna</rubric>
-                            <note>Followed by a verse.</note>
+                            <note>Followed by a stanza.</note>
                         </msItem>
-                        <msItem n="16">
+                        <msItem n="16" class="islt">
                             <locus from="227" to="230">pp. 227-230</locus>
-                            <title type="uniform">Þorgríms þáttr Hallasonar, Kólgrims og
-                                Illuga</title>
+                            <title type="uniform">Þorgríms þáttr Hallasonar</title>
                             <rubric xml:lang="is">Þáttr af Þorgrími Hallasyne, Kolgrími og Illhuga
                                 <lb/> Islendíngum</rubric>
                         </msItem>
-                        <msItem n="17">
+                        <msItem n="17" class="islt draum">
                             <locus from="231" to="233">pp. 231-233</locus>
                             <title type="uniform">Bergbúa þáttr</title>
                         </msItem>
-                        <msItem n="18">
+                        <msItem n="18" class="islt draum">
                             <locus from="233" to="234">pp. 233-234</locus>
-                            <title type="uniform">Kumlbúa þáttr</title>
+                            <title type="uniform">Kumblbúa þáttr</title>
                             <rubric xml:lang="is">Ønnr Vitran, edur Draumur Þorsteins
                                     Þ<ex>or</ex>v<ex>ar</ex>dsson<ex>ar</ex>
-                     </rubric>
+                            </rubric>
                         </msItem>
-                        <msItem n="19">
+                        <msItem n="19" class="islt draum">
                             <locus from="234" to="235">pp. 234-235</locus>
-                            <title type="uniform">Draumr Þorsteins Síðu-Hallssonar</title>
+                            <title type="uniform">Draumr Þorsteins Síðuhallssonar</title>
                             <rubric xml:lang="is">Þridja Draums-vitran, Þorsteins Síduhalls
                                     son<ex>ar</ex>
-                     </rubric>
+                            </rubric>
+                            <bibl>Jakob Jakobsen, <ref type="primary-1" target="JakJak1902a"
+                                    /><note>Var.app. G.</note></bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
-                                    <p>Paper</p>
+                                    <p>Paper.</p>
                                 </support>
-                                <extent>122 (pp. 1-236, with the exception of the later inserted
-                                    fols 3-5, and 40). <dimensions type="leaf" scope="all">
-                                        <height>199</height>
-                                        <width>167</width>
+                                <extent>122. <dimensions type="leaf" scope="all">
+                                        <height unit="mm">199</height>
+                                        <width unit="mm">167</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
+                                <foliation>Paginated 1-236, with the exception of the later inserted
+                                    fols 3-5, and 40.</foliation>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scribe="OlaSig01" scope="sole" script="unknown">
-                                <p> Written by Ólafur Sigurðsson.</p>
+                            <handNote scribe="OlaSig001" scope="sole" script="unknown">
+                                <p>Written by <name type="person" key="OlaSig001">Ólafur
+                                        Sigurðsson</name>.</p>
                             </handNote>
                         </handDesc>
                         <additions>
-                            <p>Dating and the scribe's signature is found below most of the items.
-                                At p. 151 the scribe has written his anagram in runic letters.</p>
+                            <p>On the originally blank p. 236 <name type="person" key="RasRas001"
+                                    >Rasmus Rask</name> wrote: <q xml:lang="is">R. Rask hefir keypt
+                                    þessa bók fyrir fullt verd af uppskrifaranum, hún er í tveimur
+                                    bindum auk þessa</q>.</p>
+                            <p>Fols 3-5 and 40 are later additions; fol. 40 is an envelope with some
+                                excerpts written on the recto.</p>
                         </additions>
                     </physDesc>
                     <history>
                         <origin notBefore="1809" notAfter="1810" cert="high" evidence="internal">
-                            <p>Written in Iceland in 1809-10.</p>
+                            <p>Written in <origPlace>Iceland</origPlace> from <origDate
+                                    notBefore="1809" notAfter="1810">1809-1810</origDate>.</p>
                         </origin>
                         <acquisition>
-                            <p>On the originally blank p. 236 Rasmus Rask has written: <q xml:lang="is">R. Rask hefir keypt þessa bók fyrir fullt verd af
-                                    uppskrifaranum, hún er í tveimur bindum auk þessa</q>.</p>
+                            <p>According to Rasmus Rask's account on p. 236 he bought this volume
+                                together with two other volumes of <name type="person"
+                                    key="OlaSig001">Ólafur Sigurðsson</name>. Of these manuscripts
+                                only vols I and III are known of.</p>
                         </acquisition>
                     </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">523-524</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
             <change when="2018-10-03" who="KatKap001">Updated the uniform title.</change>
+            <change when="2021-10-13" who="EvaWed001">Updated markup.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>

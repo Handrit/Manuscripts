@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,39 +26,43 @@
                             <idno>Addit 75 4to (minus IX)</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Arnamagnæana</title>
-                        <origPlace>Iceland/Denmark</origPlace>
-                        <origDate notBefore="1700" notAfter="1730">s. XVIII in</origDate>
-                    </head>
                     <msContents>
-                        <textLang mainLang="is" otherLangs="da">Icelandic and Danish</textLang>
+                        <summary>
+                            <title type="supplied">Arnamagnæana</title></summary>
+                        <textLang mainLang="is" otherLangs="da"/>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
                                     <p>
-                                        <material>Papir.</material>
+                                        <material>Paper.</material>
                                     </p>
                                 </support>
                                 <extent>258. <dimensions type="leaf" scope="all">
-                                        <height>350</height>
-                                        <width>230</width>
+                                        <height unit="mm">350</height>
+                                        <width unit="mm">230</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 I 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <history>
+                        <origin><origPlace>Iceland/Denmark</origPlace>, <origDate notBefore="1700"
+                                notAfter="1730">s. XVIII in</origDate>.</origin>
+                    </history>
+                    <msPart n="1">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 I 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1">
-                                <title type="supplied">Fra jordebogskommisionens tid</title>
-                                <textLang mainLang="da">Danish</textLang>
-                                <textLang mainLang="is">Icelandic</textLang>
+                                <title type="supplied">Documents</title>
+                                <textLang mainLang="da" otherLangs="is"/>
+                                <note>From when the land register (<foreign xml:lang="is"
+                                        >jarðabók</foreign>) was planned and commissioned.</note>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -65,7 +70,7 @@
                                 <supportDesc material="chart">
                                     <support>
                                         <p>
-                                            <material>Papir.</material>
+                                            <material>Paper.</material>
                                         </p>
                                     </support>
                                     <extent>42.</extent>
@@ -73,15 +78,17 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 II 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="2">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 II 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="supplied">Correspondence between Árni Magnússon and his
+                            <msItem n="3" class="sendbr">
+                                <title type="supplied">Correspondence between Árni Magnússon and His
                                     Wife</title>
-                                <textLang mainLang="da">Principally in Danish</textLang>
+                                <textLang mainLang="da"/>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -89,7 +96,7 @@
                                 <supportDesc material="chart">
                                     <support>
                                         <p>
-                                            <material>Papir.</material>
+                                            <material>Paper.</material>
                                         </p>
                                     </support>
                                     <extent>48.</extent>
@@ -97,15 +104,24 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 III 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="3">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 III 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="supplied">Letters from Jonas Gram to Árni
-                                    Magnússon</title>
-                                <textLang mainLang="is">Principally in Icelandic</textLang>
+                            <msItem n="4" class="sendbr">
+                                <title type="supplied">Letters</title>
+                                <textLang mainLang="is"/>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="JonGam001">Jonas Gam</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="rcp"/>
+                                    <name type="person" key="ArnMag001">Árni Magnússon</name>
+                                </respStmt>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -113,7 +129,7 @@
                                 <supportDesc material="chart">
                                     <support>
                                         <p>
-                                            <material>Papir.</material>
+                                            <material>Paper.</material>
                                         </p>
                                     </support>
                                     <extent>14.</extent>
@@ -121,15 +137,25 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 IV 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="4">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 IV 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="supplied">Letters from Þormóður Torfason (Torfæus) to
-                                    Árni Magnússon</title>
-                                <textLang mainLang="is">Principally in Icelandic</textLang>
+                            <msItem n="5" class="sendbr">
+                                <title type="supplied">Letters</title>
+                                <textLang mainLang="is"/>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="ThoTor001">Þormóður Torfason
+                                        (Torfæus)</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="rcp"/>
+                                    <name type="person" key="ArnMag001">Árni Magnússon</name>
+                                </respStmt>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -137,7 +163,7 @@
                                 <supportDesc material="chart">
                                     <support>
                                         <p>
-                                            <material>Papir.</material>
+                                            <material>Paper.</material>
                                         </p>
                                     </support>
                                     <extent>23.</extent>
@@ -145,15 +171,24 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 V 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="5">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 V 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="supplied">Letters from Bishop Jón Árnason to Árni
-                                    Magmússon</title>
+                            <msItem n="6" class="sendbr">
+                                <title type="supplied">Letters</title>
                                 <textLang mainLang="is">Icelandic</textLang>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="JonArn003">Bishop Jón Árnason</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="rcp"/>
+                                    <name type="person" key="ArnMag001">Árni Magnússon</name>
+                                </respStmt>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -161,7 +196,7 @@
                                 <supportDesc material="chart">
                                     <support>
                                         <p>
-                                            <material>Papir.</material>
+                                            <material>Paper.</material>
                                         </p>
                                     </support>
                                     <extent>32.</extent>
@@ -169,15 +204,27 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 VI 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="6">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 VI 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="7" class="sendbr">
                                 <title type="supplied">Letters from Magnús Arason to Árni
                                     Magnússon</title>
                                 <textLang mainLang="is">Icelandic</textLang>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="MagAra001">Magnús Arason</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="rcp"/>
+                                    <name type="person" key="ArnMag001">Árni Magnússon</name>
+                                </respStmt>
+                                <bibl>Kålund, <ref target="AMbrevveksling">Arne Magnussons private brevveksling</ref>
+                                    <biblScope unit="page">16-17, 18-19</biblScope></bibl>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -185,7 +232,7 @@
                                 <supportDesc material="chart">
                                     <support>
                                         <p>
-                                            <material>Papir.</material>
+                                            <material>Paper.</material>
                                         </p>
                                     </support>
                                     <extent>8.</extent>
@@ -193,14 +240,21 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 VII 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="7">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 VII 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="supplied">Private Letter from I. Mathesius</title>
+                            <msItem n="8" class="sendbr">
+                                <title type="supplied">Private Letter</title>
                                 <textLang mainLang="da">Danish</textLang>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="Mat001">I. Mathesius</name>
+                                </respStmt>
+
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -208,7 +262,7 @@
                                 <supportDesc material="chart">
                                     <support>
                                         <p>
-                                            <material>Papir.</material>
+                                            <material>Paper.</material>
                                         </p>
                                     </support>
                                     <extent>10.</extent>
@@ -216,33 +270,58 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 VIII 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="8">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 VIII 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="supplied">Letter from C. J. Lund</title>
+                            <msItem n="9">
+                                <title type="supplied">Letter</title>
+                                <note>Dated <name type="place" key="Copen01">Copenhagen</name> <date when="1710">1710</date>.</note>
                                 <textLang mainLang="da">Danish</textLang>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="Lunooo001">C. J. Lund</name>
+                                </respStmt>
+                                <bibl><ref target="DK-breve">Danmarks breve</ref></bibl>
+                                <bibl>Kålund, <ref target="AMbrevveksling">Arne Magnussons private brevveksling</ref>
+                                <biblScope unit="page">285-286</biblScope></bibl>
                             </msItem>
-                            <msItem n="2">
-                                <title type="supplied">Letters from R. Rasmussen</title>
+                            <msItem n="10">
+                                <title type="supplied">Letters</title>
                                 <textLang mainLang="da">Danish</textLang>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="Rasooo002">R. Rasmussen</name>
+                                </respStmt>
                             </msItem>
-                            <msItem n="3">
-                                <title type="supplied">Letters from N. Therckilsen</title>
+                            <msItem n="11">
+                                <title type="supplied">Letters</title>
                                 <textLang mainLang="da">Danish</textLang>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="Theooo003">N. Therckilsen</name>
+                                </respStmt>
                             </msItem>
-                            <msItem n="4">
-                                <title type="supplied">Letter from Þorleifur Halldórsson</title>
+                            <msItem n="12">
+                                <title type="supplied">Letter</title>
                                 <textLang mainLang="is">Icelandic</textLang>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person">Þorleifur Halldórsson</name>
+                                </respStmt>
                             </msItem>
-                            <msItem n="5">
-                                <title type="supplied">Letter from Sigurður Sigurðsson,
-                                    Saurbæ</title>
+                            <msItem n="13">
+                                <title type="supplied">Letter</title>
                                 <textLang mainLang="is">Icelandic</textLang>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="SigSig003">Sigurður Sigurðsson, Saurbæ</name>
+                                </respStmt>
                             </msItem>
-                            <msItem n="6">
+                            <msItem n="14">
                                 <title type="supplied">Copy of a Certification from L. C.
                                     Gottrup</title>
                                 <textLang mainLang="da">Danish</textLang>
@@ -253,7 +332,7 @@
                                 <supportDesc material="chart">
                                     <support>
                                         <p>
-                                            <material>Papir.</material>
+                                            <material>Paper.</material>
                                         </p>
                                     </support>
                                     <extent>18.</extent>
@@ -261,12 +340,14 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 IX 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="9">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 IX 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="15">
                                 <title type="supplied">Documents Concerning the Lending of Diplomas
                                     and Letter Books to Árni Magnússon</title>
                                 <textLang mainLang="da">Danish</textLang>
@@ -277,7 +358,7 @@
                                 <supportDesc material="chart">
                                     <support>
                                         <p>
-                                            <material>Papir.</material>
+                                            <material>Paper.</material>
                                         </p>
                                     </support>
                                     <extent>57.</extent>
@@ -285,12 +366,14 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 1057 X 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="10">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 1057 X 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="16">
                                 <title type="uniform">Notes on Manuscripts and Old Letters</title>
                                 <note>On a rímnabók, a Norwegian Law book from I. Brøgger, and a
                                     forged Icelandic parchment diploma</note>
@@ -301,7 +384,7 @@
                                 <supportDesc material="chart">
                                     <support>
                                         <p>
-                                            <material>Papir.</material>
+                                            <material>Paper.</material>
                                         </p>
                                     </support>
                                     <extent>6.</extent>

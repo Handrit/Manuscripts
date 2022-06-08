@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,18 +23,17 @@
                             <idno>2007</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Roskilde kapitel og domkirkes jordebog</title>
-                        <origPlace>Denmark</origPlace>
-                        <origDate notBefore="1568" notAfter="1568">1568</origDate>
-                    </head>
-                    <msContents>
-                        <msItem n="1">
+                       <msContents>
+                        <summary><title type="supplied" xml:lang="en">The Land Registers of
+                            Roskilde Chapter and Roskilde Cathedral Chapter</title></summary>
+                        <msItem n="1" class="jarb">
+                            <title type="supplied" xml:lang="en">The Land Registers of
+                                Roskilde Chapter and Roskilde Cathedral Chapter</title>
                             <rubric>Jordbog paa allt Roskiilde Capit<lb/>tels oc domkirckens
                                 Indkomst oc <lb/> renthe epther Kon : Mai<ex>est</ex>t <lb/> wor
                                 aller naadigste herris <lb/> Begiering aff Capittell paa <lb/> thett
                                 flyteligste Schreffuen oc offueseet Anno <lb/> mdlxviij</rubric>
-                            <textLang mainLang="da">Danish</textLang>
+                            <textLang mainLang="da"/>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -41,16 +41,16 @@
                             <supportDesc material="chart">
                                 <support>
                                     <p>
-                                        <material>Papir.</material>
+                                        <material>Paper.</material>
                                     </p>
                                 </support>
                                 <extent>178 (including the slip 87), fols 1v, 32r, 108v, 11v, 128v,
                                     176-78 (except a small note on f. 178r) are blank. The otherwise
                                     blank f. 129v has a rubric. <dimensions type="leaf" scope="all">
-                                        <height>208</height>
-                                        <width>147</width>
+                                        <height unit="mm">208</height>
+                                        <width unit="mm">147</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <foliation>
                                     <p>Paginated 1-345</p>
                                 </foliation>
@@ -65,15 +65,18 @@
                         <additions>
                             <p>Four paper leaves from c. 1700, containing an index and information
                                 on <q xml:lang="la">Altari Ecclesi Roschildens</q>, are attached.
-                                Fol. 178r has an apothegm in Greek. On the pastedown <name type="person" key="ArnMag001">rni Magnsson</name> wrote <q xml:lang="la">Arnas Magnus possidet</q>.</p>
+                                Fol. 178r has an apothegm in Greek. On the pastedown <name
+                                    type="person" key="ArnMag001">rni Magnsson</name> wrote <q
+                                    xml:lang="la">Arnas Magnus possidet</q>.</p>
                         </additions>
                     </physDesc>
                     <history>
-                        <origin notBefore="1568" notAfter="1568">
+                        <origin when="1568">
                             <p>According to the title of the manuscript it is written in Roskilde,
-                                Denmark in 1568. Below the title two registration certificates,
+                                <origPlace>Denmark</origPlace> in <origDate when="1568">1568</origDate>. Below the title two registration certificates,
                                 dated <date when="1695"/>: <q xml:lang="da">Thune herritz ting A
-                                    95</q> and <date when="1645">1645</date>: <q xml:lang="da">Thudtzeherrits ting Den 11 October 1646</q>, respectively, are
+                                    95</q> and <date when="1645">1645</date>: <q xml:lang="da"
+                                    >Thudtzeherrits ting Den 11 October 1646</q>, respectively, are
                                 found. A wax seal is set below the latter.</p>
                         </origin>
                     </history>
@@ -87,8 +90,15 @@
                             </recordHist>
                         </adminInfo>
                         <listBibl>
-                            <bibl>
-                                <ref type="secondary-1" target="Dinesen">Gjellerup, 1868-70</ref>
+                            <bibl>Arhnung, <ref type="primary" target="Arhnung1965">Roskilde
+                                Kapitels Jordebog 1568</ref>
+                            </bibl>
+                            <bibl>Gjellerup, <ref type="secondary-1" target="Dinesen">Biskop Jens
+                                Dinesen Jersin</ref>
+                            </bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">242</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>

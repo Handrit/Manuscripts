@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,28 +23,54 @@
                      <idno>1702</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Exorcismi et Benedictiones</title>
-                  <origPlace>Iceland or Denmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1725">s. XVIII</origDate>
-                  <note>Transscript of <ref>AM 683 a 4to</ref>.</note>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Formulas of Exorcism and Benediction</title></summary>
                   <textLang mainLang="la" otherLangs="da">Latin and Danish</textLang>
+                   <msItem n="1" class="notes">
+                     <locus from="1r" to="2v">1r-2v</locus>
+                     <author key="ArnMag001">Árni Magnússon</author>
+                     <title type="supplied">Notes</title>
+                     <note>Concerning what he removed from <ref type="ms"
+                           target="#AM04-0062-en">AM 62 4to</ref>.</note>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="3r" to="5v">3r-5v</locus>
+                     <locus from="7r" to="11v">7r-11v</locus>
+                     <title type="supplied">Formulas of Exorcism and Benediction</title>
+                     <textLang mainLang="la" otherLangs="dan">Latin og dansk</textLang>
+                     <note>Copy of <ref type="ms" target="AM04-0683-a-en">AM 683 a 4to</ref>.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>11. 
-<dimensions type="leaf" scope="all">
-                              <height>213</height>
-                              <width>172</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>11. <dimensions type="leaf" scope="all">
+                              <height unit="mm">213</height>
+                              <width unit="mm">172</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" scribe="ArnMag001" script="unknown">Written by Árni Magnússon.</handNote>
+                  </handDesc>
+                  <additions>Fol. 6 is a slip containing notes on the collation of the copy.</additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland or Denmark</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup"
+                           >1/4</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">98</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,45 @@
                      <idno>1953</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Collecta ex historicis veteribus et modernis</title>
-                  <!--origPlace></origPlace-->
-<origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <summary><title type="supplied">On the History of Europe</title><note>Excerpts,
+                        for the most part only consitsing of list of names of medieval and other
+                        historians, concerning the history of Europe.</note></summary>
+                  <msItem n="1" class="sagnfr">
+                     <locus from="1r" to="38v">1r-38v</locus>
+                     <title type="supplied">On the History of Europe</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <rubric>COLLECTA EX HISTORIBUS <lb/> veteribus et modernis</rubric>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>38. 
-<dimensions type="leaf" scope="all">
-                              <height>200</height>
-                              <width>155</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>38. <dimensions type="leaf" scope="all">
+                              <height unit="mm">200</height>
+                              <width unit="mm">155</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
+                     <layoutDesc><layout>The leaves are only partly filled in,
+                        many blank bages.</layout></layoutDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <p>Written in <origDate notBefore="1600" notAfter="1699" evidence="conjecture"
+                        resp="KKKat">the seventeenth century</origDate>. The country of origin is unknown.</p>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">220-221</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -32,34 +32,76 @@
 						<summary>
 							<title type="supplied">Samtíningur</title>
 						</summary>
-						<msItem>
-							<p>I. Bl. 1-8. »Historia umm þaug Sorgarlegu Tidjindi Sem Skiedu I
-								Vestmann Eyum Fra þeim 27 deigi Julij til þess 29 …« : annáll
-								Kláusar Eyjólfssonar. II. Bl. 8-29. »Reisubokk Sal. Sera Olafs
-								Egilssonar.« III. Bl. 29-31. »Litill Annall Umm tyrkians Herhlaup a
-								Islande 1627.« IV 31-43. »Vitraner og Furdulegir Draumar sem fyre
-								nockrar personur Bored hefur« (síra Magnúsar Pétrssonar 1628,
-								Hávarðs Loptssonar í Ásgarði 1628, Þóru Helgadóttur undir
-								Eyjafjöllum 1628, Ólafs Oddssonar 1627, konu einnar á Akranesi 1627,
-								Gísla Þórðarsonar í Ytri-Skógum 1627).</p>
+						<msItem n="1" defective="false" class="annal sagnfr">
+							<locus from="1v" facs="#Lbs04-0759-0001v" to="8v">1v-8v</locus>
+							<title type="uniform">Tyrkjarán á Austfjörðum</title>
+							<rubric>Historia um þau Sorgarlegu tíðindi sem skeðu í
+								Vestmannaeyjum frá þeim 27 degi júlí til þess 29 ...</rubric>
+							<author><name type="person" key="KlaEyj001">Kláus Eyjólfsson</name></author>
+							<note>Annáll Kláusar Eyjólfssonar.</note>
+						</msItem>
+						<msItem n="2" defective="false" class="ferds">
+							<locus from="8v" facs="#Lbs04-0759-0008v" to="30v">8v-30v</locus>
+							<title type="uniform">Reisubók séra Ólafs Egilssonar</title>
+							<rubric>Reisubók Sal. Sr. Ólafs Egilssonar ...</rubric>
+							<author><name type="person" key="OlaEgi001">Ólafur Egilsson</name></author>
+						</msItem>
+						<msItem n="3" defective="false" class="annal sagnfr">
+							<locus from="30v" facs="#Lbs04-0759-0030v" to="32v">30v-32v</locus>
+							<title type="uniform">Tyrkjarán á Austfjörðum</title>
+							<rubric>Lítill annáll um Tyrkjans herhlaup á Íslandi 1627</rubric>
+						</msItem>
+						<msItem n="4" defective="false" class="draum vit">
+							<locus from="32v" facs="#Lbs04-0759-0032v" to="44v">32v-44v</locus>
+							<title type="supplied">Vitranir og furðulegir draumar</title>
+							<rubric>Vitranir og furðulegir draumar sem fyre nokkrar persónur borið hefur</rubric>
+							<note>Vitranir og draumar <name key="MagPet002">síra Magnúsar Péturssonar</name> 1628,
+								<name key="HavLof001">Hávarðs Loptssonar</name> í Ásgarði 1628, <name key="ThoHel008">Þóru Helgadóttur</name> undir
+								Eyjafjöllum 1628, <name key="OlaOdd003">Ólafs Oddssonar</name> 1627, <name key="GudSve008">konu einnar</name> á Akranesi 1627 og
+								<name key="GisTho017">Gísla Þórðarsonar</name> í Ytri-Skógum 1627.</note>
 						</msItem>
 					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p>Pappír.</p>
+								</support>
+								<extent>43 blöð (<dimensions scope="all" type="leaf" unit="mm">
+									<height n="190">190</height>
+									<width n="143">143</width>
+								</dimensions>).</extent>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<summary>Ein hönd:</summary>
+							<handNote scope="sole" script="textualis" scribe="unknown">Óþekktur skrifari.</handNote>
+						</handDesc>
+					</physDesc>
 					<history>
-						<provenance>Lbs. 759-61, 4to., gefið safninu af Andrési Fjelsted á
-							Hvítárvöllum, 1895. Á 1. bl. þessa hdr. stendr: »Bok þessa a Oddur
-							Sigurdsson a Langafosse«</provenance>
+						<origin>
+							<origPlace>Ísland</origPlace><origDate cert="medium" when="1770">, um 1770</origDate>
+						</origin>
+						<provenance>Lbs. 759-61, 4to., gefið safninu af <name key="AndFje001">Andrési Fjelsted</name> á
+							Hvítárvöllum, 1895. Á 1. bl. þessa hdr. stendr: »Bok þessa a <name key="OddSig003">Oddur
+							Sigurdsson a Langafosse</name>«</provenance>
 					</history>
 					<additional>
+						
 						<adminInfo>
 							<recordHist>
-
-								<source><name type="person" key="BraOla001">Bragi Þorgrímur
-									Ólafsson</name> frumskráði fyrir myndvinnslu, <date when="2009-10-27">27. október 2009</date> ; Handritaskrá, 1.
-									b.</source>
+								<source><p> Skráning <name type="person" key="PalOla002">Páls Eggerts
+									Ólasonar</name> á handritinu er aðgengileg í ritinu <bibl>
+										<ref target="PEO">Skrá um handritasöfn
+											Landsbókasafnsins</ref>, </bibl>1. bindi, <ref target="https://baekur.is/bok/000233966/1/348/Skra_um_handritasofn_Bindi_1_Bls_348">bls. 341-342</ref>.</p>
+									<name type="person" key="GudGud045">Guðrún Laufey Guðmundsdóttir</name> bætti við skráninguna <date when="2022-03-29">29. mars 2022</date> ; 
+									<name type="person" key="BraOla001">Bragi Þorgrímur
+									Ólafsson</name> frumskráði fyrir myndvinnslu, <date when="2009-10-27">27. október 2009</date>.</source>
 							</recordHist>
 						</adminInfo>
 						<listBibl>
-							<bibl>Tyrkjaránið á Íslandi 1627, bls. 33, 136</bibl>
+							<bibl><ref target="Tyrkjaranid">Tyrkjaránið á Íslandi 1627</ref>,
+								bls. 33, 136.</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>

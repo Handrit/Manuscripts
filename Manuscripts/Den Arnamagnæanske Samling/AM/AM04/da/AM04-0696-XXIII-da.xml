@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,15 +23,12 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Fragment med teologisk indhold</title>
-                  <origPlace>Island</origPlace>
-                  <origDate notBefore="1475" notAfter="1499" evidence="conjecture" resp="KKKat">s. XV 4/4</origDate>
-               </head>
                <msContents>
-                  <msItem defective="true">
-                     <title type="supplied" xml:lang="da">Fragment med teologisk indhold</title>
-                     <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                  <summary><title type="supplied">Udlægning af Davids bodssalmer</title></summary>
+                  <msItem n="1" defective="true">
+                     <locus from="1r" to="1v">1r-v</locus>
+                     <title type="supplied" xml:lang="da">Udlægning af Davids bodssalmer</title>
+                     <textLang mainLang="non"/>
                   </msItem>
                </msContents>
                <physDesc>
@@ -41,19 +39,25 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>1. <dimensions type="leaf" unit="mm" scope="all">
-                              <height>58</height>
-                              <width>38</width>
-                           </dimensions>
+                              <height unit="mm">58</height>
+                              <width unit="mm">38</width>
+                           </dimensions>.
                         </extent>
                         <condition>Beskåret foroven, forneden og langs ydersiden.</condition>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>
+                     <origDate notBefore="1200" notAfter="1225" evidence="conjecture" resp="KKKat"
+                        >s. XIII in</origDate> (<bibl><ref type="secondary" target="KirWol2002a"
+                           >Wolf 2002</ref><biblScope unit="page">1001</biblScope></bibl>)</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">114</biblScope>
+                        <biblScope unit="page">114</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

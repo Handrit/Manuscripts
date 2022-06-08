@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,33 +23,48 @@
                      <idno>1699</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Duggals leiðsla</title>
-                  <origPlace>Iceland or Denmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1725">s. XVIII 1/4</origDate>
-                  <note>Transscript of <ref>AM 681 a 4to</ref>.</note>
-               </head>
-               <msContents>
-                  <msItem>
+                  <msContents>
+                     <summary><title type="uniform">Duggals leiðsla</title></summary>
+                     <msItem n="1" class="leid">
+                        <locus from="1r" to="60v">1r-60v</locus>
+                        <title type="uniform">Duggals leiðsla</title>
                      <textLang mainLang="is">Icelandic</textLang>
+                     <filiation>Copy of <ref type="ms" target="AM04-0681-a-en">AM 681 a 4to</ref>. The copy is close and accurate.</filiation>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>60. 
-<dimensions type="leaf" scope="all">
-                              <height>210</height>
-                              <width>168</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>60. <dimensions type="leaf" scope="all">
+                              <height unit="mm">210</height>
+                              <width unit="mm">168</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="unknown">Written by <name type="person"
+                           key="JonOla003">Jón Ólafsson from Grunnavík</name>.</handNote>
+                  </handDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland or Denmark</origPlace>
+                  <origDate notBefore="1700"
+                     notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup">1/4</hi></origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="Rit25"/>
+                        <biblScope unit="page">ix</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">98</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2022-02-10" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

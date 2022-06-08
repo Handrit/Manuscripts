@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,10 +22,8 @@
                      <idno>1895</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Thorlacius' Gronlandica</title>;
-                     <origPlace>Island/Danmark</origPlace>, <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII 1/4</origDate>.</head>
                <msContents>
+                  <summary><title type="supplied">Thorlacius' Gronlandica</title></summary>
                   <msItem n="1">
                      <locus from="2r" to="6r">2-6r</locus>
                      <author key="ThoTho005">Thorlacius</author>
@@ -55,16 +54,18 @@
                   </msItem>
                   <msItem n="5">
                      <locus from="13r" to="14r">13r-14r</locus>
-                     <title type="supplied">Om Thorlacius' rettelser angående Grønland
-                        til en <q xml:lang="la">mappa
-                           hydrographica</q> trykt i Amsterdam 1666</title>
+                     <title type="supplied">Om Thorlacius' rettelser angående Grønland til en <q
+                           xml:lang="la">mappa hydrographica</q> trykt i Amsterdam 1666</title>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
                   <msItem n="6">
                      <locus from="15r" to="17r">15r-17r</locus>
                      <author key="BjoJon006">Björn Jónsson</author>
                      <title type="uniform">Descriptio Gronlandica</title>
-                     <respStmt><resp>Oversat af</resp><name type="person" key="ThoTho005">Thorlacius</name></respStmt>
+                     <respStmt>
+                        <resp>Oversat af</resp>
+                        <name type="person" key="ThoTho005">Thorlacius</name>
+                     </respStmt>
                      <note>Forsynet med anmærkninger</note>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
@@ -76,10 +77,10 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>17. Bl. 1v, 6v, 8, 10, 14v og 17v er ubeskrevne.
-                              <dimensions type="leaf" scope="all">
-                              <height>207</height>
-                              <width>160</width>
+                        <extent>17. Bl. 1v, 6v, 8, 10, 14v og 17v er ubeskrevne. <dimensions
+                              type="leaf" scope="all">
+                              <height unit="mm">207</height>
+                              <width unit="mm">160</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
@@ -90,9 +91,15 @@
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island eller Danmark</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="external">s. XVIII<hi rend="sup"
+                        >1/4</hi></origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">193</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">193</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

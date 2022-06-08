@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,12 +22,9 @@
                             <idno>360</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform">Jóns saga postola</title>;
-                            <origPlace>Island</origPlace>, <origDate notBefore="1375" notAfter="1425" evidence="conjecture">ca. 1400</origDate>
-                    </head>
-                    <msContents>
-                        <msItem defective="true">
+                      <msContents>
+                        <summary><title type="uniform">Jóns saga postola</title></summary>
+                        <msItem n="1" defective="true">
                             <locus from="1r" to="1v">1r-v</locus>
                             <title type="uniform">Jóns saga postola</title>
                             <textLang mainLang="non">Norrønt/islandsk</textLang>
@@ -48,8 +45,8 @@
                                     </p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>196</height>
-                                        <width>159</width>
+                                        <height unit="mm">196</height>
+                                        <width unit="mm">159</width>
                                     </dimensions>
                         </extent>
                             </supportDesc>
@@ -63,21 +60,21 @@
                         <bindingDesc>
                             <binding notBefore="1958" notAfter="1961" contemporary="false">
                                 <p>Indbundet i et gråt papomslag: <dimensions type="binding" unit="mm">
-                              <height>296</height>
-                              <width>249</width>
+                              <height unit="mm">296</height>
+                              <width unit="mm">249</width>
                            </dimensions>.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
+                             <p>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
                                     <ref type="secondary-1" target="KKKat">Katalog</ref>
                                     <biblScope unit="volume">I</biblScope>
-                                    <biblScope unit="pages">200</biblScope>
-                                </bibl>) har dateret bladet til <origDate notBefore="1400" notAfter="1499" evidence="conjecture">1400-tallet</origDate>,
+                                    <biblScope unit="page">200</biblScope>
+                                </bibl>) har dateret bladet til 1400-tallet,
                                 men <name type="person" key="SteKar001">Stefán Karlsson</name>
-                                (pers. 1983) senere har dateret det til <origDate notBefore="1475" notAfter="1525" evidence="conjecture">ca.
+                                (pers. 1983) senere har dateret det til <origDate notBefore="1490" notAfter="1510" evidence="conjecture">ca.
                                     1500</origDate>.</p>
                         </origin>
                     </history>
@@ -95,7 +92,7 @@
                            </p>
                                 </custEvent>
                                 <custEvent type="photography">
-                                    <p>Supplerende fotografier af AM 238 I-XXIX fol.s AM-sedler blev
+                                    <p>supplerende optagelser af AM 238 I-XXIX fol.s AM-sedler blev
                                         taget i <date when="1981">1981</date>.</p>
                                 </custEvent>
                                 <custEvent type="conservation">
@@ -106,42 +103,33 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plade</title>
-                                        <idno>plade38</idno>
-                                        <date when="1956">1956</date>
-                                        <note>UV-optagelser.</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">mikrofilm (originaler)</title>
-                                        <idno>Neg 620</idno>
-                                        <date when="1981">1981</date>
-                                        <note>Supplerende fotografier af AM-sedlerne til AM 238
-                                            I-XXIX fol.</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">mikrofilm (arkiv)</title>
-                                        <idno>Pos571</idno>
-                                        <date when="1981">1981</date>
-                                        <note>Supplerende fotografier af AM-sedlerne til AM 238
-                                            I-XXIX fol.</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">s/h fotografier</title>
-                                        <idno>AM 238 IV fol.</idno>
-                                        <date when="1963">1963</date>
-                                        <note>UV-kopier.</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">farvefotografier</title>
-                                        <idno>AM 238 IV fol.</idno>
-                                        <date when="1983">1983</date>
-                                        <note>Supplerende fotografi af bl. 1r.</note>
-                                    </bibl>
-                                </listBibl>
-                            </p>
+                                <list>
+                                    <item> Plade, <idno>plade 38</idno>, <date when="1956"
+                                        >1956</date> (UV-optagelser). </item>
+                                    <item> Mikrofilm (originaler), <idno>Neg 620</idno>, fra <date
+                                        when="1981">1981</date> (supplerende optagelser af
+                                        AM-sedlerne til AM 238 I-XXIX fol.). </item>
+                                    <item> Mikrofilm (arkiv), <idno>Pos571</idno>, fra <date
+                                        when="1981">1981</date> (supplerende optagelser af
+                                        AM-sedlerne til AM 238 I-XXIX fol.). </item>
+                                    <item>Sort-hvid fotografier fra <date when="1963">1963</date>
+                                        (UV-fotografier). </item>
+                                    <item> Farvefotografi fra <date when="1983">1983</date>
+                                        (supplerende fotografi af 1r). </item>
+                                </list>
+                                
+                                    </p>
                         </surrogates>
+                        <listBibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="pages">200</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary" target="Wolf2013"/>
+                                <biblScope unit="page">175</biblScope>
+                            </bibl>
+                        </listBibl>
+                        
                     </additional>
                 </msDesc>
             </sourceDesc>

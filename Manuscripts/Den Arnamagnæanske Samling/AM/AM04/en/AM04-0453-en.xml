@@ -1,62 +1,103 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 453 4to</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM04-0453-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 453 4to</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>1225</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title>Egils saga Skallagrímssonar</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-                  <note>Presumed transcribed from <ref>AM 162 A ɛ fol.</ref> when it was complete.</note>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>94. 
-<dimensions type="leaf" scope="all">
-                              <height>197</height>
-                              <width>157</width>
-                           </dimensions>
-                        </extent>
-                     </supportDesc>
-                  </objectDesc>
-                  <handDesc hands="1">
-                     <handNote scribe="KetJor001" scope="sole" script="unknown">
-                        <p>
-Written by the Priest Ketill Jörundsson.</p>
-                     </handNote>
-                  </handDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 453 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0453-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 453 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>1225</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="uniform">Egils saga Skallagrímssonar</title></summary>
+						<msItem n="1" class="isl">
+							<locus from="1r" facs="#AM04-0453-0001r" to="94v">1r-94v</locus>
+							<title type="uniform">Egils saga Skallagrímssonar</title>
+							<textLang mainLang="is">Icelandic</textLang>
+							<rubric>
+								<del rend="overstrike">Saga af Eigle Skalla Grïms. S<add place="above">ine</add>
+								</del>
+							</rubric>
+							<incipit>Wlfr hjet madr</incipit>
+							<note>Including <title type="ms">Höfuðlausn</title> and <title type="ms">Sonatorrek</title>.</note>
+							<filiation>Presumably a second copy of <ref type="ms" target="#AM02-0162A-alpha-is">AM 162 A α
+									fol.</ref>, when it was complete.</filiation>
+							<bibl>Chesnutt, <ref type="primary-1" target="EA-A21">Egils saga
+									Skallagrímssonar III: C-redaktionen</ref>
+								<biblScope unit="page">3-5, 8-16, 19-33, 34-42 (even pages), 44-59,
+									60-68 (even pages), 70-97, 98-110 (even pages), 112-123,
+									126-164, 187-189</biblScope>
+							</bibl>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support><material>Paper</material>.</support>
+								<extent>94. <dimensions type="leaf" scope="all">
+										<height unit="mm">197</height>
+										<width unit="mm">157</width>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<handNote scribe="KetJor001" scope="sole" script="unknown">
+								<p> Written by the Rev. Ketill Jörundsson.</p>
+							</handNote>
+						</handDesc>
+					</physDesc>
+					<history>
+						<origin><origPlace>Iceland</origPlace>, <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>. </origin>
+					</history>
+					<additional>
+						<listBibl>
+							<bibl>Chesnutt, <ref type="secondary-1" target="EA-A21">Egils saga
+									Skallagrímssonar III: C-redaktionen</ref>
+								<biblScope unit="page">xvii, xxiv, xxix-xxxvii, xxxix-xli, lviii,
+									lx-lxii, lxvi-lxvii</biblScope>
+								<note>Med faksimile: Pl. 3.</note>
+							</bibl>
+							<bibl>Finnur Jónsson, <ref target="STUAGNL17">Egils saga
+									Skallagrímssonar tilligemed Egils større Kvad</ref>
+								<biblScope unit="page">i, xv</biblScope>
+							</bibl>
+							<bibl>Guðmundur Magnússon: <ref type="secondary" target="GuðMag1809">Egils-Saga, sive Egilli Skallagrimii vita</ref>
+								<biblScope unit="page">xi, xiii</biblScope>
+							</bibl>
+							<bibl>Guðbrandur Vigfússon &amp; Powell: <ref target="CPBor">Corpvs
+									Poeticvm Boreale</ref>
+								<biblScope unit="page">276</biblScope>
+							</bibl>
+							<bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="page">645-646</biblScope>
+							</bibl>
+							<bibl>Rafn: <ref target="AntR">Antiquités Russes</ref>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="page">248</biblScope>
+							</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0453-0001r-FFl" n="0">
 			<desc>0001r-FFl</desc>

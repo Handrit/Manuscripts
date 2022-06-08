@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,16 +23,25 @@
                      <idno>1973</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="la">Annales Lundenses</title><title type="uniform" xml:lang="da">Lundeårbogen</title>; <origPlace>Danmark</origPlace>, <origDate notBefore="1390" notAfter="1410" evidence="conjecture" resp="KKKat">ca.
-                     1400</origDate>.</head>
                <msContents>
-                  <msItem>
+                  <summary>
+                     <title type="uniform" xml:lang="la">Annales Lundenses</title><title
+                        type="uniform" xml:lang="da">Lundeårbogen</title></summary>
+                  <msItem n="1" class="annal">
+                     <locus from="1r" to="41v">1r-41v</locus>
                      <title type="uniform" xml:lang="la">Annales Lundenses</title>
                      <title type="uniform" xml:lang="da">Lundeårbogen</title>
                      <textLang mainLang="la">Latin</textLang>
-                     <note>Fra verdens skabelse til året <date when="1307">1307</date>. Tidligere
-                        trykt under navnet <q xml:lang="la">Annales Esromenses</q>.</note>
+                     <note>Fra verdens skabelse til året <date when="1307">1307</date>.</note>
+                     <bibl>Kroman: <ref target="Kroman1980">Danmarks middelalderlige annaler</ref>
+                        <biblScope unit="pages">22-70</biblScope>
+                        <note>Var.app. Aa2a</note></bibl>
+                     <bibl>Langebek: <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
+                           Aevi</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">212 ff.</biblScope>
+                     </bibl>
+
                   </msItem>
                </msContents>
                <physDesc>
@@ -43,11 +52,11 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>50. Bl. 42-50 er ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>227</height>
-                              <width>165</width>
+                              <height unit="mm">227</height>
+                              <width unit="mm">165</width>
                            </dimensions>.</extent>
                         <foliation>
-                           <p>Pag. 1-82.</p>
+                           <p>Pagineret 1-82.</p>
                         </foliation>
                      </supportDesc>
                      <layoutDesc>
@@ -59,7 +68,8 @@
                   </objectDesc>
                   <additions>
                      <p>Hist og her marginalia, streger og lignende med yngre hånd. På bindets
-                        inderside findes, med en hånd fra <date notBefore="1500" notAfter="1599">1500-tallet</date>, nogle historiske optegnelser om de danske
+                        inderside findes, med en hånd fra <date notBefore="1500" notAfter="1599"
+                           >1500-tallet</date>, nogle historiske optegnelser om de danske
                         bispedømmers indstiftelse, <name type="place">Dalby kirke</name> og om
                         slaget ved <name type="place">Fodevig</name>.</p>
                   </additions>
@@ -69,28 +79,47 @@
                      </binding>
                   </bindingDesc>
                </physDesc>
+               <history>
+                  <origin>Skrevet i <origPlace>Danmark</origPlace> i <origDate notBefore="1400"
+                        notAfter="1450">1400-tallets første halvdel</origDate> (<bibl><ref
+                           target="Kroman1980">Kroman 1980</ref>
+                        <biblScope unit="pages">21</biblScope></bibl>). Kålunds og Gertz' datering: ca. 1400
+                     (<bibl><ref type="secondary-1" target="KKKat">Katalog</ref></bibl> og <bibl><ref target="SMHDMAE">Gertz 1917-1920</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">40</biblScope></bibl>).
+                  </origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">230</biblScope></bibl>
+                     <bibl><ref target="SMHDMAE">Gertz 1917-1920</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">40-41</biblScope></bibl>
+                     <bibl><ref target="Kroman1980">Kroman 1980</ref>
+                        <biblScope unit="pages">21</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">230</biblScope></bibl>
                      <bibl>Langebek: <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
                            Aevi</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">210-50</biblScope>
+                        <biblScope unit="page">210-50</biblScope>
                         <note>Med faksimile</note>
                      </bibl>
                      <bibl>Rørdam: <ref target="HolRør1873-1875">Historiske Kildeskrifter</ref>
                         <biblScope unit="volume">I:1</biblScope>
-                        <biblScope unit="pages">264</biblScope>
+                        <biblScope unit="page">264</biblScope>
                      </bibl>
                      <bibl>Suhm: <ref target="PetSuh1771-1776">Samlinger</ref>
                         <biblScope unit="volume">II:3</biblScope>
-                        <biblScope unit="pages">1 ff.</biblScope>
+                        <biblScope unit="page">1 bl.</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2022-03-21" who="EvaWed001">Opdateret indhold og datering efter Kroman 1980.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

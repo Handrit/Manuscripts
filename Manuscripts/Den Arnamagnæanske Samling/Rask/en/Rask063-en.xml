@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,36 +23,46 @@
                      <idno>2637</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Skånske lov</title>
-                  <origPlace>Denmark?</origPlace>
-                  <origDate notBefore="1800" notAfter="1832">s. XIX in.</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="dan">Danish</textLang>
+                  <summary><title type="uniform">The Provincial Law of Skåne</title> in which
+                     variants have been added in the margins.</summary>
+                  <msItem n="1" class="log">
+                     <title type="uniform">The Provincial Law of Skåne</title>
+                     <textLang mainLang="da">Danish</textLang>
+                     <note>A title was added to the first page of a preceding uncut leaf.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>39. 
-<dimensions type="leaf" scope="all">
-                              <height>230</height>
-                              <width>182</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>39. <dimensions type="leaf" scope="all" unit="mm">
+                              <height unit="mm">230</height>
+                              <width unit="mm">182</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="RasRas001" scope="sole" script="unknown">
-                        <p>
-Written by Rasmus Rask.</p>
+                        <p> Written by <name type="person" key="RasRas001">Rasmus Rask</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark?</origPlace>
+                     <origDate notBefore="1800" notAfter="1832">s. XIX in</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">539</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-15" who="EvaWed001">Updated markup.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

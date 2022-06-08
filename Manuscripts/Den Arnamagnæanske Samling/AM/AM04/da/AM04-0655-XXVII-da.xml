@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,17 +23,66 @@
                      <idno>1646</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="is">Íslenzkar hómiliur</title>
-                  <origPlace>Island</origPlace>
-                  <origDate notBefore="1290" notAfter="1310" cert="medium" evidence="conjecture" resp="KKat">c. 1300</origDate>
-                  <origDate notBefore="1200" notAfter="1299" evidence="conjecture" resp="ONP">s. XIII</origDate>
-               </head>
                <msContents>
-                  <msItem defective="true">
-                     <title type="supplied" xml:lang="is">Íslenzkar hómiliur</title>
-                     <note>brudstykker</note>
-                     <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                  <summary><title type="supplied">Homiliesamling</title><note>Håndskriftet
+                        indeholder 11 tekster, der stort set alle er fragmentariske. Fem af dem (nr.
+                        3-4 og 7-9) er excerperede fra <title type="uniform">Maríu
+                        saga</title>.</note></summary>
+                  <msItem n="1" class="gudfr">
+                     <locus from="2r" to="2v">2r–2v</locus>
+                     <locus>1r-1v</locus>
+                     <title type="supplied">Opregning af kristne dyder</title>
+                     <bibl>Pelle, <ref type="secondary-1" target="StePel2013a"/>
+                        <biblScope unit="page">54-55, 56-57</biblScope><note>uddrag</note></bibl>
+                  </msItem>
+                  <msItem n="2" class="hom">
+                     <locus from="1ar" to="5r">1ar–5r</locus>
+                     <title type="supplied">Homilie om Peter og Paulus</title>
+                     <note>Slutningen.</note>
+                  </msItem>
+                  <msItem n="3" class="hom">
+                     <locus from="5r" to="5v">5r–5v</locus>
+                     <title type="supplied">Homilie om Mariæ himmelfart</title>
+                     <note>Uddrag.</note>
+                  </msItem>
+                  <msItem n="4" class="hom">
+                     <locus from="3r" to="4v">3r–4v</locus>
+                     <title type="supplied">Eskatologisk homilie</title>
+                  </msItem>
+                  <msItem n="5" class="apo">
+                     <locus from="6r" to="9v">6r-9v</locus>
+                     <title type="supplied">Del af Nikodemusevangeliet</title>
+                     <bibl>Bullitta: <ref type="primary-1" target="DarBul2016a">The story of Joseph
+                           of Arimathea in AM 655 XXVII 4to</ref>
+                        <biblScope unit="page">65-70</biblScope></bibl>
+                  </msItem>
+                  <msItem n="6" class="hom">
+                     <locus from="10r" to="10r">10r</locus>
+                     <title type="supplied">Homilie om Allehelgensdag</title>
+                     <note>Slutningen.</note>
+                  </msItem>
+                  <msItem n="7" class="hom">
+                     <locus from="10r" to="11r">10r–11r</locus>
+                     <title type="supplied">Homile om Jesu fødsel</title>
+                  </msItem>
+                  <msItem n="8" class="hom">
+                     <locus from="11v" to="11v">11v</locus>
+                     <title type="supplied">Homily om Jesu fødsel</title>
+                  </msItem>
+                  <msItem n="9" class="hom">
+                     <locus from="11v" to="11v">11v</locus>
+                     <title type="supplied">Eksegetisk værk om fred</title>
+                  </msItem>
+                  <msItem n="10" class="hom">
+                     <locus from="12r" to="12r">12r</locus>
+                     <title type="supplied">Homilie om vigtigheden af at græde</title>
+                     <note>Slutningen.</note>
+                  </msItem>
+                  <msItem n="11" class="hom">
+                     <locus from="12r" to="13v">12r–13v</locus>
+                     <title type="supplied">Homilie om Mariæ bebudelse</title>
+                     <bibl>Pelle, <ref type="secondary-1" target="StePel2013a"/>
+                        <biblScope unit="page">60-65</biblScope><note>uddrag</note></bibl>
                   </msItem>
                </msContents>
                <physDesc>
@@ -43,25 +93,60 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>14. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>150</height>
-                              <width>110</width>
+                              <height unit="mm">150</height>
+                              <width unit="mm">110</width>
                            </dimensions>
                         </extent>
+                        <collation>
+                           <list>
+                              <item>I: 2+1+1a+5.</item>
+                              <item>II: 3+4</item>
+                              <item>III: 6+9+7+8.</item>
+                              <item>IV: 10+11+12+13.</item>
+                           </list> Bladene, bestående af fire læg, er blevet indbundet i en forkert
+                           rækkefølge.</collation>
+                        <condition>Bladene er alle meget medtagne.</condition>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote script="unknown"><p>Samme hånd som i <ref type="ms"
+                              target="AM04-0655-XVIII-en">AM 655 XVIII</ref>. De to fragmenter har
+                           muligvis oprindeligt hørt til det samme håndskrift.</p></handNote>
+                  </handDesc>
                   <accMat>På en vedlagt seddel har <name type="person" key="ArnMag001">Arne
-                        Magnusson</name> noteret: <q xml:lang="is">fra <name type="person" key="MagJon007">Magnuſe Jons
-                           ſyne</name> i <name type="place" key="SnóMið01">Snoksdal</name> 
-                        <date when="1704">1704</date>
-                     </q>.
-                  </accMat>
+                        Magnusson</name> noteret: <q xml:lang="is">fra Magnuſe Jons ſyne i Snoksdal
+                        1704 </q>. </accMat>
                </physDesc>
+
+               <history>
+                  <origin>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1200"
+                        notAfter="1299" evidence="conjecture" resp="ONP">s. XIII</origDate>
+                           (<bibl><ref target="OleWid1814a">Widding 1960</ref><biblScope unit="page"
+                           >90</biblScope></bibl>). Kålunds datering: c. 1300 (<bibl><ref
+                           type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">65</biblScope>
+                     </bibl>). </origin>
+                  <provenance/>
+                  <acquisition>Ifølge AM-sedlen fik Arne Magnusson håndskriftet af <name
+                        type="person" key="MagJon007">Magnús Jónsson</name> fra <name type="place"
+                        key="SnoMið01">Snóksdalur</name> i <date when="1704"
+                     >1704</date>.</acquisition>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     <bibl><ref type="primary-1" target="DarBul2016a"/>
+                        <biblScope unit="page">50-65</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">65</biblScope>
+                        <biblScope unit="page">65</biblScope>
                      </bibl>
+                     <bibl><ref type="secondary-1" target="StePel2013a"/>
+                        <biblScope unit="page">49-70</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="StePel2016a"/>
+                        <biblScope unit="page">273-274</biblScope></bibl>
+                     <bibl><ref target="OleWid1814a"/>
+                        <biblScope unit="page">90</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

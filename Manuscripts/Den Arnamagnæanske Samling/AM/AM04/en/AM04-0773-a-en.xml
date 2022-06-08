@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,72 @@
                      <idno>1897</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Gronlandia</title>
-                  <origPlace>Iceland/Denmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1730">s. XVIII in</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Gronlandia and Navigation Routes to
+                        Greenland</title></summary>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="ArnJon001">Arngrímur Jónsson</name>
-                     </author>
-                     <textLang mainLang="la">Latin</textLang>
+                     <locus from="1r" to="37v">1r-37v</locus>
+                     <author key="ArnJon001">Arngrímur Jónsson</author>
+                     <title type="uniform">Gronlandia</title>
+                     <textLang mainLang="la"/>
+                     <rubric>ANRGRIMI JONÆ <lb/> ISLANDI <lb/> GRONLANDIA</rubric>
+                     <filiation>Cognate to <ref type="ms" target="AM04-0773-b-en">AM 773 b
+                        4to</ref>.</filiation>
                   </msItem>
+                  <msItem n="2">
+                     <locus from="38r" to="38v">38r-v</locus>
+                     <title type="supplied">Navigation Routes to Greenland</title>
+                     <textLang mainLang="da">Ældre nydansk</textLang>
+                     <rubric>Om Grönlands Siegling</rubric>
+                     <filiation>Stemmer med <ref type="ms" target="AM04-0773-b-en">AM 773 b
+                           4to</ref>.</filiation>
+                     <note>A translation of three well known navigation routes.</note>
+                  </msItem>
+
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>38. 
-<dimensions type="leaf" scope="all">
-                              <height>206</height>
-                              <width>165</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>38 (including a map of the Arctic). <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">206</height>
+                              <width unit="mm">165</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <additions>
+                     <p>Corrections and marginalia in <name type="person" key="ArnMag001">Árni
+                           Magnússon</name>'s hand.</p>
+                     <p>On the map of the Arctic Árni Magnússon added: <q xml:lang="la"><name
+                              type="person" key="GudTho001">Gudbrandum Thorlacium</name> hanc
+                           Grnlandiæ tabulam <date when="1606">1606</date> delineaſſe aſſerit <name
+                              type="person" key="ThoTho005">Theodorus Thorlacius</name> qvi eam
+                           Notis ſuis in <name type="person" key="BjoJon006">Biornonis</name> de
+                           Scardza Grnlandiam inſeruit</q>.</p>
+                     <p>In the margin of fol. 4r, one of Thorlacius' annotations to <q
+                           xml:lang="la">Biornonis de Scardza Gronlandia</q> (in Danish) is added.</p>
+                  </additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland or Denmark</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="external">s. XVIII<hi rend="sup"
+                        >1/4</hi></origDate>.</origin>
+                  <provenance>The map of the Arctic originally belonging to this work was
+                     transferred from <name type="org">The Royal Library</name>, <ref type="ms"
+                        >Addit. 39 4to</ref>.</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref target="GHM">Grönlands historiske Mindesmærker</ref><biblScope
+                           unit="volume">III</biblScope><biblScope unit="page"
+                        >248</biblScope></bibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">194</biblScope></bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

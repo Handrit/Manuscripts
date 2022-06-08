@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,19 +23,16 @@
                             <idno>1066</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Sverris saga</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1360" notAfter="1380" cert="high" evidence="conjecture">c. 1370</origDate>
-                    </head>
                     <msContents>
-                        <msItem class="kon" defective="true">
+                        <summary><title type="uniform">Sverris saga</title></summary>
+                        <msItem n="1" class="kon" defective="true">
                             <locus from="1ra" to="1vb">1ra-1vb</locus>
-                            <title>Sverris saga</title>
+                            <title type="uniform">Sverris saga</title>
                             <incipit defective="true">vaʀ hafi g<expan>ri</expan>d ok
                                     f<expan>ri</expan>d v<expan>id</expan> aɴan</incipit>
-                            <explicit defective="true">af hliodi hu<supplied reason="damage">er</supplied>ia ætlan <gap reason="damage"/>
-                     </explicit>
+                            <explicit defective="true">af hliodi hu<supplied reason="damage"
+                                    >er</supplied>ia ætlan <gap reason="damage"/>
+                            </explicit>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -46,9 +44,9 @@
                                 </support>
                                 <extent>1 fragment-leaf. <dimensions scope="all" type="leaf">
                                         <height scope="all"> 77</height>
-                                        <width>203</width>
+                                        <width unit="mm">203</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
                                     <p>The first 8 lines are all that is extant of the leaf.</p>
                                 </condition>
@@ -61,55 +59,68 @@
                         </objectDesc>
                     </physDesc>
                     <history>
-                        <origin notBefore="1361" notAfter="1380" cert="high" evidence="conjecture">
-                            <p>The manuscript is written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> dated the
-                                manuscript to <origDate>c. 1400</origDate> (<bibl>
-                                    <ref type="secondary-1" target="KKKat">Katalog over Den
-                                        Arnamagnæanske Håndskriftsamling</ref>
-                                </bibl>) whereas <name type="person" key="SteKar001">Stefán
-                                    Karlsson</name> dates it to <date>c. 1370</date> (<bibl>
-                           <ref type="secondary" target="EIMF7">Stefán Karlsson</ref> 1967,
-                                    p. 21</bibl>).</p>
+                        <origin notBefore="1360" notAfter="1380" cert="high" evidence="conjecture">
+                            <p>The manuscript is written in <origPlace>Iceland</origPlace>
+                                <origDate notBefore="1360" notAfter="1380" cert="high">c.
+                                    1370</origDate> (<bibl>
+                                    <ref type="secondary" target="EIMF7">Stefán Karlsson 1967</ref>
+                                    <biblScope unit="page">21</biblScope></bibl>). Kålund's dating:
+                                    <date notBefore="1390" notAfter="1410">ca. 1400</date>
+                                        (<bibl><ref type="secondary-1" target="KKKat">Katalog</ref>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="page">560</biblScope>
+                                </bibl>).</p>
                         </origin>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date when="2000-03-02">02.03.2000</date> by <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                    <p>Catalogued <date when="2000-03-02">02.03.2000</date> by <name
+                                            type="person" key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
-                                    <p>The manuscript was set on meeting guards and put in a
-                                        cardboard cover <date from="1958-03-02" to="1959-04-04">02.03.1958-04.04.1959</date>.</p>
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
+                                    <p>The manuscript was put on meeting guards and put in a
+                                        cardboard cover <date from="1958-03-02" to="1959-04-04"
+                                            >02.03.1958-04.04.1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade 37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositives</title>
-                                        <idno> AM 325 VIII 3 a 4to</idno>
-                                        <date>May 1984 (or 1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <date>October 1956</date>
-                                        <idno> AM 325 VIII 3 a 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item>Plate, <idno>plade37</idno>, s.d.</item>
+                                    <item>Diapositives from <date notBefore="1984-05"
+                                            notAfter="1985-05">May 1984 or 1985</date>.
+                                    </item>
+                                    <item>Black and white prints from <date when="1956-10">October
+                                            1956</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
+                        <listBibl>
+                            <bibl><ref type="secondary-1" target="SteDre2021a">Dreschler
+                                    2021</ref><biblScope unit="page">26, 52, 127, 146-147,
+                                    226</biblScope></bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">560</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary" target="EIMF7">Stefán Karlsson 1967</ref>
+                                <biblScope unit="page">21</biblScope>
+                            </bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-11-30" who="EvaWed001">Updated markup and added content.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

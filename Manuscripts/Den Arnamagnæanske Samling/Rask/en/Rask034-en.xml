@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,60 @@
                      <idno>2605</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Alexanders saga</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1760-01-01" notAfter="1760-12-31">1760</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="uniform">Alexanders saga</title>. The two front leaves are
+                     taken up by a title and two forewords which means that the manuscript was
+                     prepared for print in <date when="1784">1784</date>. The actual preface
+                     containing information about the text is written by principal <name
+                        type="person" key="HalEin001">Hálfdán Einarsson</name> at Hólar <date
+                        when="1783">1783</date>. <name type="person" key="BogBen002">Bogi
+                        Benediktsson</name> of Hrappsey made a few comments on the actual edition
+                     and the added variants, mainly done by the priest <name type="person"
+                        key="GunPal002">Gunnar Pálsson</name>.</summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">Sagan <lb/> af <lb/> ALEXANDER <lb/> enum <lb/> Mikla
+                           <lb/> hverri ur Latinu a Norrænu <lb/> snuit hefur <lb/> Brandur Ionsson <lb/>
+                           <gap reason="irrelevant"/></titlePart>
+                        <titlePart type="sub">&#x00FE;rickt i &#x00FE;vi priviligerudu
+                           Bok&#x00FE;rickerie <lb/> i Hrappseyro af Gudmunde Jonssyni
+                           1784</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="sagnps">
+                     <title type="uniform">Alexanders saga</title>
+                     <textLang mainLang="is">Icelandic</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>ii + 98. 
-<dimensions type="leaf" scope="all">
-                              <height>206</height>
-                              <width>164</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>ii + 98. <dimensions type="leaf" scope="all">
+                              <height unit="mm">206</height>
+                              <width unit="mm">164</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Paginated 1-196.</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate when="1760"
+                     >1760</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat"/><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="pages">522</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-06-20" who="EvaWed001">Added ad translated information from Kålund's catalogue and added @class and reference.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

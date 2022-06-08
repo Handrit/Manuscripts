@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,48 +22,68 @@
                      <idno>2622</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Diverse annaler</title>; <origPlace>Island</origPlace>, <origDate notBefore="1700" notAfter="1749">s. XVIII 1/2</origDate>.</head>
                <msContents>
-                  <msItem>
+                  <summary><title type="supplied">Annaler</title></summary>
+                  <msItem n="1" class="annal">
+                     <author key="BjoJon006">Björn Jónsson</author>
+                     <title type="uniform">Annáll Björns Jónssonar á Skarðsá</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <rubric>An<ex>n</ex>alar Islendinga og an<ex>n</ex>ara Utlendskra þioda <lb/>
-                    saman<ex>n</ex>skrifadir af Birni Jonssyni ad Skards<lb/>,
-                fr Anno 1400, til Anno 1640 <lb/> med tilbæti af atskilianlegum
-                tymabokum <lb/>
-                        <ex>og</ex> vidurka Halldors Þorb<ex>er</ex>gss<ex>onar</ex>
-                    t<ex>il</ex> A<ex>nno</ex> 1659</rubric>
-                     <note>Vedlagt 1 bl. 
-                    <q>γεϱονιολογία
-                    χϱυμογηιχή</q>
-                1645-1704. og 1 bl. med udkast til en forretningsskrivelse <q>Til Syslum. Sr.
-                    B. H. S. angaaende Vicelögm. <lb/> antegnelser yfer nädar ärs
-                    Reikningen<ex>n</ex>
-                        </q>
-                     </note>
+                        saman<ex>n</ex>skrifadir af Birni Jonssyni ad Skards<lb/>&#xA733;,
+                        fr&#xA733; Anno 1400, til Anno 1640 <lb/> med tilbæti af atskilianlegum
+                        tymabokum <lb/>
+                        <ex>og</ex> vidur&#xA739;ka <name type="person" key="HalTho002">Halldors
+                           Þorb<ex>er</ex>gss<ex>onar</ex></name> t<ex>il</ex> A<ex>nno</ex>
+                        1659</rubric>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Papir.</p>
+                           <p><material>Papir</material>.</p>
                         </support>
-                        <extent>28. <dimensions type="leaf" scope="all">
-                              <height>210</height>
-                              <width>167</width>
-                           </dimensions>.</extent>
+                        <extent>28. <dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">210</height>
+                           <width unit="mm">167</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="EyjJon002" scope="sole" script="unknown">
-                        <p>Skrevet af Eyjólfur Jónsson fra <name type="place" key="VelSva02">Vellir</name>.</p>
+                        <p>Skrevet af <name type="person" key="EyjJon002">Eyjólfur Jónsson</name>
+                           på <name type="place" key="VelSva02">Vellir</name>.</p>
                      </handNote>
                   </handDesc>
+                  <additions>Vedlagt er to folio-blade, hhv. <q>γεϱονιολογία χϱυμογηιχή</q>
+                     <date when="1645" to="1704">1645-1704</date> (<name type="person"
+                        key="BolLux001">Bolle Willum Luxdorph</name>s <title type="uniform"
+                           >Longævi</title>) og et udkast til en forretningsskrivelse <q>Til
+                              Syslum. Sr. B. H. S. angaaende Vicelögm. <lb/> antegnelser yfer nädar ärs
+                              Reikningen<ex>n</ex>
+                           </q> (<name type="person" key="BjaHal001">Bjarni Halldórsson</name>?).
+                     Ifølge <name
+                        type="person" key="RasRas001">Rasks</name> er det første blad <q>med hendi Sra Eyjólfs á Völlum</q>.</additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1700" notAfter="1750"
+                     >s. XVIII<hi rend="sup">1</hi></origDate>.</origin>
+                  <acquisition><name type="org">Den Arnamagnæanske Kommision</name> købte <name
+                     type="person" key="RasRas001">Rasks</name> norrøne og islandske
+                     håndskriftsamling efter hans død i <date when="1832">1832</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">533-34</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-06-25" who="EvaWed001">Revideret og ændret origDate.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

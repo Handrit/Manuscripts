@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,28 +23,24 @@
                             <idno>362</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform">Maríu saga</title>
-                        <origPlace>Island</origPlace>
-                        <origDate notBefore="1275" notAfter="1325" evidence="conjecture">c. 1300</origDate>
-                    </head>
-                    <msContents>
-                        <msItem>
+                       <msContents>
+                        <summary><title type="uniform">Maríu saga</title></summary>
+                        <msItem n="1" class="hels">
                             <locus from="1r" to="3v">1r-3v</locus>
                             <title type="uniform">Maríu saga</title>
                             <textLang mainLang="non">Norrønt/islandsk</textLang>
                             <msItem n="1.1">
                                 <locus from="1r" to="1v">1r-v</locus>
                                 <incipit defective="true">
-                           <ex>ok</ex> allt þ<ex>at</ex>
-                        </incipit>
-                                <explicit defective="true">allv<ex>m</ex> ſkær<supplied reason="unknown">leik</supplied>
-                        </explicit>
+                                    <ex>ok</ex> allt þ<ex>at</ex>
+                                </incipit>
+                                <explicit defective="true">allv<ex>m</ex> ſkær<supplied
+                                        reason="unknown">leik</supplied>
+                                </explicit>
                                 <bibl>Unger: <ref type="primary" target="Mariu1871">Maríu saga</ref>
-                                    <biblScope unit="pages">393:18-398:18</biblScope>
-                           <note>Udg.
-                                            <q>e</q>
-                           </note>
+                                    <biblScope unit="page">393:18-398:18</biblScope>
+                                    <note>Udg. <q>e</q>
+                                    </note>
                                 </bibl>
                             </msItem>
                             <msItem n="1.2">
@@ -52,9 +49,8 @@
                                 <explicit defective="true">er f<ex>ra</ex>man liggr j
                                     halſinum</explicit>
                                 <bibl>Unger: <ref type="primary" target="Mariu1871">Maríu saga</ref>
-                                    <biblScope unit="pages">633:16-636:19</biblScope>
-                           <note>Udg.
-                                            <q>e2</q>. Teksten er brugt som hovedhåndskrift i
+                                    <biblScope unit="page">633:16-636:19</biblScope>
+                                    <note>Udg. <q>e2</q>. Teksten er brugt som hovedhåndskrift i
                                         udgaven, så længe bladet er læseligt, dvs. til udgavens s.
                                         634:21.</note>
                                 </bibl>
@@ -65,7 +61,7 @@
                                     lof</incipit>
                                 <explicit defective="true">tveir kryppling<ex>ar</ex> liggiandi
                                         i<gap reason="illegible"/>
-                        </explicit>
+                                </explicit>
                             </msItem>
                         </msItem>
                     </msContents>
@@ -78,10 +74,10 @@
                                     </p>
                                 </support>
                                 <extent>3. <dimensions type="leaf" scope="all">
-                                        <height>310</height>
-                                        <width>230</width>
+                                        <height unit="mm">310</height>
+                                        <width unit="mm">230</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
                                     <p>Bl. 2 defekt pga. beskæring af ydre kolonne. Bl. 3s inderste
                                         kolonne er bortskåret og bladet er også på anden måde
@@ -104,7 +100,8 @@
                     <history>
                         <origin>
                             <p>Skrevet i <origPlace>Island</origPlace>
-                                <origDate notBefore="1275" notAfter="1325" evidence="conjecture">ca. 1300</origDate>.</p>
+                                <origDate notBefore="1290" notAfter="1310" evidence="conjecture">ca.
+                                    1300</origDate>.</p>
                         </origin>
                     </history>
                     <additional>
@@ -122,27 +119,32 @@
                                         på knækfalse og lagt i et blåt papomslag.</p>
                                 </custEvent>
                                 <custEvent type="conservation">
-                                    <p>Forberedt til fotografering <date from="1964-10-24" to="1964-11-04">24. oktober-4. november 1964</date>.</p>
+                                    <p>Forberedt til fotografering <date from="1964-10-24"
+                                            to="1964-11-04">24. oktober-4. november 1964</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">70mm</title>
-                                        <idno>70mm27</idno>
-                                        <date when="1964">1964</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">s/h fotografier</title>
-                                        <idno>AM 240 II fol.</idno>
-                                        <date when="1965-01">January 1965</date>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item>70 mm, <idno>70mm27</idno>, fra <date when="1964"
+                                            >1964</date>.</item>
+                                    <item>Sort-hvid fotografier fra <date when="1965-01">januar
+                                            1965</date>.</item>
+                                </list>
                             </p>
                         </surrogates>
-                    </additional>
+                        <listBibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">207</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary" target="DidSei1954a"/>
+                                <biblScope unit="page">87-88</biblScope></bibl>
+                            <bibl><ref type="secondary" target="Wolf2013"/>
+                                <biblScope unit="page">231, 236</biblScope></bibl>
+                        </listBibl>
+                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

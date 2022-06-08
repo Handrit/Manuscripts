@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -24,13 +24,15 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary><title type="uniform" xml:lang="la">Breviarum
-                            Romanum</title><note>The manuscript contains a calendar and 'Ordinarius'
-                                which describes the right usage of the calendar.</note></summary>
+                        <summary><title type="supplied" xml:lang="la">Breviarum
+                                Romanum</title><note>The manuscript contains a calendar preceded by an
+                                <title type="supplied">Ordinarius</title> guiding the reader how to use the
+                            calendar.</note></summary>
                         <msItem n="1" class="helgb malvg">
-                            <title xml:lang="la">Breviarium Romanum</title>
+                            <locus from="1r" to="415v">1r-415v</locus>
+                            <title type="supplied" xml:lang="la">Breviarium Romanum</title>
                             <textLang mainLang="la">Latin</textLang>
-                            
+
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -41,70 +43,76 @@
                                         <material>Parchment</material>.</p>
                                 </support>
                                 <extent>415. <dimensions type="leaf" scope="all">
-                                        <height>107</height>
-                                        <width>76</width>
+                                        <height unit="mm">107</height>
+                                        <width unit="mm">76</width>
                                     </dimensions>
                                 </extent>
                                 <foliation>
-                                    <p>The number 31 has been omitted in the foliation and 100
+                                    <p>The number 31 has been omitted in the foliation and the number 100
                                         occurs twice.</p>
                                 </foliation>
-                                <condition>
-                                    <p>Árni Magnússon has indicated a few defects by the insertion
-                                        of white paper leaves and written remarks.</p>
-                                </condition>
-                            </supportDesc>
+                                 </supportDesc>
                             <layoutDesc>
                                 <layout columns="1">
                                     <p>The manuscript is written in long lines throughout. There are
-                                        rubrics written in red ink. 2v, 95r-v, 293r-v, 415r-v are
-                                        blank leaves.</p>
+                                        rubrics written in red ink.</p>
+                                    <p>Fols 2v, 95r-v, 293r-v, 415r-v are
+                                        blank.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
+                        <handDesc>
+                            <handNote scope="sole" script="unknown">Written in a fine and compact script.</handNote>
+                        </handDesc>
                         <decoDesc>
-                            <decoNote type="initial">
-                                <p>The large initials at the beginning of new sections the initials
-                                    have various colours are flourished and gilt. The smaller
-                                    initials at the beginning of less important sections are either
-                                    blue or red.</p>
+                            <decoNote type="initial" subtype="flourished">
+                                <p>Large, flourished initials at the beginning of new sections in
+                                    various colours and gilt.</p>
+                                <p>The smaller initials at the beginning of less important sections
+                                    are either blue or red.</p>
                             </decoNote>
                         </decoDesc>
+                        <additions><p><name type="person" key="ArnMag001"
+                            >Árni Magnússon</name> has indicated the defects by insertion
+                                        of white paper leaves and written remarks.</p></additions>
                     </physDesc>
                     <history>
-                        <origin notBefore="1390" notAfter="1410" cert="high" evidence="conjecture" resp="KKKat">
-                            <p> Written in <origPlace>Holland</origPlace>, <origDate>c.
-                                    1400</origDate>.</p>
+                        <origin notBefore="1390" notAfter="1410" cert="high" evidence="conjecture"
+                            resp="KKKat">
+                            <p> Written in <origPlace>Holland</origPlace>, <origDate
+                                    notBefore="1390" notAfter="1410">c. 1400</origDate>.</p>
                         </origin>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date when="2000-05-04">2000.05.04</date> by <name type="person" key="AnnSee001">AWS</name>.</p>
+                                    <p>Catalogued <date when="2000-05-04">2000.05.04</date> by <name
+                                            type="person" key="AnnSee001">AWS</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="photography">
-                                    <p>The manuscript was photographed in <date when="1989-09">September 1989</date></p>
+                                    <p>The manuscript was photographed in <date when="1989-09"
+                                            >September 1989</date></p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <bibl>
-                                    <title type="gmd">microfilm (master)</title>
-                                    <idno>Neg. 810</idno>
-                                    <title type="gmd">microfilm (archive)</title>
-                                    <idno>Pos. 735</idno>
-                                    <date when="1989">1989</date>
-                                </bibl>.</p>
+                                <list>
+                                    <item> Microfilm (master and archive), <idno>Neg.810</idno> and
+                                            <idno>Pos.735</idno>, from <date when="1989"
+                                        >1989</date>. </item>
+                                </list> .</p>
                         </surrogates>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2021-09-06" who="EvaWed001">Updated markup.</change></revisionDesc>
+        <revisionDesc>
+            <change when="2021-09-06" who="EvaWed001">Updated markup.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -25,20 +25,15 @@
                      <idno>2137</idno>
                   </altIdentifier>
                </msIdentifier>
-
-               <head>
-                  <title type="uniform">Knýtlinga saga</title>; <origPlace>Island?</origPlace>
-                  <origDate notBefore="1600" notAfter="1650" evidence="conjecture" resp="KKKat">s.
-                     XVII 1/2</origDate>. </head>
-
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform">Knýtlinga saga</title></summary>
+                  <msItem n="1" class="kon">
+                     <locus from="3r" to="80r">3r-80r</locus>
                      <title type="uniform">Knýtlinga saga</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <incipit>Sueirn ſon Vlfz Jarls tők Jarl dőm</incipit>
                   </msItem>
                </msContents>
-
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
@@ -48,23 +43,34 @@
                         </support>
                         <extent>80. Bl. 1-2 opr. ubeskrevne, af bl. 80 kun halvanden linjer
                            beskrevne. <dimensions type="leaf" scope="all">
-                              <height>200</height>
-                              <width>155</width>
+                              <height unit="mm">200</height>
+                              <width unit="mm">155</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <additions>
-                     <p>Marginalia med forskellige hænder. På bl. 2r er med <name type="person" key="OleWor001">Ole Worm</name>s hånd noteret sagaens titel og oplysning
+                     <p>Marginalia med forskellige hænder. På bl. 2r er med <name type="person"
+                           key="OleWor001">Ole Worm</name>s hånd noteret sagaens titel og oplysning
                         om indholdet.</p>
                      <p>På bl. 1v giver <name type="person" key="GriTho002">Thorkelin</name> dette
-                        håndskrift navnet <q xml:lang="la">charta Wormiana</q>. På bindets inderside
-                        har <name type="person" key="ArnMag001">Arne Magnusson</name> skrevet <q>Ex
-                           Auctione <name type="person" key="FreRos001">Roſtigardianâ</name>, Num. 722</q>.</p>
+                        håndskrift navnet <q xml:lang="la">charta Wormiana</q>. På forspejlet har
+                           <name type="person" key="ArnMag001">Arne Magnusson</name> skrevet <q>Ex
+                           Auctione Roſtigardianâ, Num. 722</q>.</p>
                   </additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island?</origPlace>
+                     <origDate notBefore="1600" notAfter="1650" evidence="conjecture" resp="KKKat"
+                        >s. XVII<hi rend="sup">1</hi></origDate>.</origin>
+                  <acquisition>Ifølge Arne Magnussons notits på forspejlet erhvervede han
+                     håndskriftet på <name type="person" key="FreRos001">Rostgaard</name>s
+                     auktion.</acquisition>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">290</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">290</biblScope></bibl>
                   </listBibl>
                </additional>
 

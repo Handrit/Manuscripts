@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,33 +23,54 @@
                      <idno>2465</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Samlinger til en oldnordisk ordbog</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1800" notAfter="1850">s. XIX 1/2</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied" xml:lang="en">Collection of Material to an Old Norse Dictionary, Vols
+                        I-IX</title></summary>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="NiePet001">M. N. Petersen</name>
-                     </author>
-                     <textLang mainLang="non">Old Norse/Icelandic</textLang>
-                     <!--textLang mainLang="da">Danish</textLang-->
-</msItem>
+                     <author key="NiePet001">M. N. Petersen</author>
+                     <title type="supplied">Collections of Material to an Old Norse Dictionary</title>
+                     <textLang mainLang="non" otherLangs="da"/>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>2361. 
-<dimensions type="leaf" scope="all">
-                              <height>170</height>
-                              <width>105</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>2361. A few blank leaves. <dimensions type="leaf" scope="all">
+                              <height unit="mm">170</height>
+                              <width unit="mm">105</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">Most of the leaves are not filled in
+                           completely.</layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="major" scribe="NiePet001" script="unknown">
+                        <p>Written by the author, N. M. Petersen.</p>
+                     </handNote>
+                  </handDesc>
+                  <accMat>
+                     <p>Numerous inserted slips.</p>
+                  </accMat>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark</origPlace>, <origDate notBefore="1800" notAfter="1850"
+                        >s. XIX<hi rend="sup">1</hi></origDate>.</origin>
+                  <acquisition>From <name type="org" key="KglNordOld">The Royal Society for Nordic
+                        Antiquaries</name>
+                     <date when="1883">1883</date>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="pages">465</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

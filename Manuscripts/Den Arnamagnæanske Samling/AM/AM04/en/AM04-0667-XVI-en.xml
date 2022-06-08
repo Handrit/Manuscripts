@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,17 +23,12 @@
                             <idno>1664</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="is">Prédikan</title>
-                        <title type="supplied" xml:lang="en">Sermon about God's Guidance</title>,
-                            <origPlace>Iceland</origPlace>; <origDate notBefore="1400" notAfter="1499">s. XVI</origDate>
-                    </head>
-                    <msContents>
-                        <msItem>
-                            <locus from="1r" to="1v">f. 1</locus>
-                            <title xml:lang="is">Prédikan</title>
-                            <title xml:lang="en">Sermon about God's Guidance</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                     <msContents>
+                        <summary><title type="supplied" xml:lang="en">Sermon on God's Guidance</title></summary>
+                        <msItem n="1" class="pred">
+                            <locus from="1r" facs="#AM04-0667-XVI-0001r" to="1v">1r-v</locus>
+                            <title xml:lang="en">Sermon on God's Guidance</title>
+                            <textLang mainLang="is"/>
                             <incipit defective="true">blo<supplied reason="unknown">d<expan>it</expan>
                         </supplied> e<expan>r</expan>
                                     st<expan>er</expan>k<expan>ar</expan>a j þi<expan>er</expan>
@@ -47,11 +43,11 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>185</height>
-                                        <width>122</width>
+                                        <height unit="mm">185</height>
+                                        <width unit="mm">122</width>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
@@ -64,7 +60,7 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1500" notAfter="1599" cert="high" evidence="conjecture">
-                            <p>The MS is written in <origPlace>Iceland</origPlace> in <origDate>the
+                            <p>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1500" notAfter="1599">the
                                     sixteenth century</origDate>.</p>
                         </origin>
                     </history>
@@ -72,33 +68,34 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date>18.07.2000</date> by <name type="person" key="EvaWed001">EW-J</name>. (Parsed
-                                            <date>18.07.2000</date>).</p>
+                                    <p>Catalogued <date>18.07.2000</date> by <name type="person" key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation">
                                     <p>During the restoration <date from="1963-04-02" to="1965-11-11">2 April 1963-11 November 1965</date> the
-                                        leaves were restored, set on meeting guards and put in a
+                                        leaves were restored, put on meeting guards and put into a
                                         cardboard cover.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <bibl>
-                                    <title type="gmd">70 mm</title>
-                                    <idno>?</idno>
-                                    <date>1963</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">b/w prints</title>
-                                    <idno>AM 667 XVI 4to</idno>
-                                    <date>March 1963</date>
-                                </bibl>
+                                <list>
+                                    <item>70 mm from <date when="1963">1963</date>.
+                                    </item>
+                                    <item>Black and white prints from <date when="1963-03">March
+                                        1963</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
-                    </additional>
+                        <listBibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">81</biblScope>
+                            </bibl>
+                        </listBibl></additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

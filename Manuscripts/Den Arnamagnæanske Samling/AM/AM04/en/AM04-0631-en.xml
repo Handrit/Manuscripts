@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,33 +23,89 @@
                      <idno>1619</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">Pétrs saga postola</title>
-                  <title n="2">Páls saga postola</title>
-                  <origPlace>Iceland or Denmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1715">s. XVII in.</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="supplied">Sagas of Apostles</title><note>AM 628 4to is one of three copies
+                        of <title type="ms">Codex Scardensis</title> (<ref type="ms"
+                           target="#SAM02-0001-is">SÁM 1</ref>) commissioned by Árni Magnússon and
+                        written in Iceland 1710-1712 by Eyjólfur Björnsson. Eyjólfur's copies are
+                        now preserved as<ref type="ms" target="#AM04-0628-en">AM 628 4to</ref>, AM
+                        631 4to and <ref type="ms" target="#AM04-0636-is">AM 636 4to</ref>.</note>
+                  </summary>
+                  <textLang mainLang="is"/>
+                  <msItem n="1" class="post">
+                     <locus from="1r" to="138v">1r-138v</locus>
+                     <title type="uniform">Pétrs saga postola</title>
+                     <bibl>Unger, <ref target="Postola1874">Postola sögur</ref><biblScope
+                           unit="page">1–126</biblScope></bibl>
+                  </msItem>
+                  <msItem n="2" class="post">
+                     <locus from="141r" to="184r">141r-184r</locus>
+                     <title type="uniform">Páls saga postola</title>
+                     <incipit>Her hefr vpp Pals ſgu postola</incipit>
+                     <bibl>Unger, <ref target="Postola1874">Postola sögur</ref><biblScope
+                           unit="page">236–279</biblScope><note>Var.app.</note></bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>184. 
-<dimensions type="leaf" scope="all">
-                              <height>203</height>
-                              <width>160</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>184. <dimensions type="leaf" scope="all">
+                              <height unit="mm">203</height>
+                              <width unit="mm">160</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" scribe="EyjBjo001"><p>Written by Eyjólfur
+                        Björnsson.</p></handNote>
+                  </handDesc>
+                  <accMat>There are three AM-slips. <list>
+                        <item>On the first slip <name type="person" key="ArnMag001">Árni
+                              Magnússon</name> wrote: <q xml:lang="is">Þeſſe <hi rend="underline"
+                                 >Petrs Saga og Pals</hi> Item Päls Saga poſtula eru ritadar epter
+                              Poſtula Sgunum ä Skardi ä Sk<ex>ar</ex>dzſtrnd, og ſtanda þar fyrſt
+                              i bökinne, eodem ordine, ſem i þeſſu volumine. <hi rend="underline"
+                                 >Petrs og Pals saga</hi> er ä þeim fyrſtu 26 1/4. bldum i
+                                 kalfſkin<ex>n</ex>s bokinni. Sidan kemr Pals Saga poſtula ä frekum
+                              .8. bldum</q>.</item>
+                        <item>The second and third slips (b and c) contain instructions for the
+                           copyist; slip b reads: <q>Þad ſem hier ur uppſkrifaſt, ſkal vera in 4<hi
+                                 rend="sup">to</hi>. 2. rk i hveriu arke. Inſcriptiones Capitum
+                              ſkrifeſt ofan f<ex>iri</ex> hveriu Capite eins <ex>og</ex> i membrana.
+                              Þar ſem þær vantar i membranâ lateſt ein lina aud f<ex>iri</ex> þeim.
+                              Fyrer upphafsſtfum llum ætleſt eyda framan i linur, eins <ex>og</ex>
+                              i membranâ, og gireſt eins margar ſtuttar linur, ſem i membranâ eru,
+                                 f<ex>iri</ex> ſtfunum, til þeſſ ſieſt giete hve ftör ſä eda ſa
+                              upphafsſtafur hafi i membranâ vered, og hvar hen<ex>n</ex>ar ſkrifare
+                              tilætlad hafe ad vera ſkyllde ſtærre ſectiones enn
+                              almen<ex>n</ex>elega, Upphafsſtafuren<ex>n</ex> ſkrifeſt þö ſmätt
+                                 in<ex>n</ex>ani ſkallan<ex>n</ex>, ſo ecki þurfi ſidar þar um ad
+                              villaſt. ſkrifeſt allt og bindeſt accuratè, og obſervereſt
+                              greinarmunur ä s. <ex>og</ex> ſ. o. og . . og r. . og ð.
+                           etc.</q></item>
+                     </list></accMat>
                </physDesc>
+               <history>
+                  <origin>Commissioned by <name type="person" key="ArnMag001">Árni
+                     Magnússon</name> and written in <origPlace>Iceland</origPlace> between
+                     <origDate notBefore="1710" notAfter="1712" evidence="external"
+                        resp="HerBry2005a">1710-1712</origDate> (see <bibl><ref target="HerBry2005a"
+                           >Hersteinn Brynjólfsson 2005</ref><biblScope unit="page">25 + 56
+                              (footnote 7)</biblScope></bibl>).</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Kålund</ref><biblScope
+                        unit="volume">II</biblScope><biblScope unit="page"
+                           >44-45</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2022-01-24" who="EvaWed001">Updated markup.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

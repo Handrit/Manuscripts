@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -30,29 +30,72 @@
 					</msIdentifier>
 					<msContents>
 						<summary>
-							<title type="supplied">Samtíningur</title>
+							<title type="supplied">Reikningsbók og orðasafn</title>
 						</summary>
-						<msItem>
-							<p>1) 19 bl. Reikningskver, eignað síra Jóni Jónssyni á Möðrufelli. 2)
-								192 bl. a) Limen arithmeticum (reikningsbók, vantar framan við
-								formálann) eftir síra Stefán Einarsson í Laufási (virðist vera ehdr.
-								með eiginhandarbreytingum höf.). b) «Lijtell Vidbæter. Þad er
-								þijding nockurra wtlenskra Orda, sem nu tijdkast so nær almennelega
-								bæde i skrife og tale.« Eftir sama. M.s.h. Ferill. Gjöf frá síra
-								Eiríki Briem 1914. </p>
+						<msItem n="1" defective="false" class="starfr">
+							<locus from="1r" facs="#Lbs08-1890-0001r" to="20r">1r-20r</locus>
+							<title type="supplied">Reikningskver</title>
+							<note>Eignað <name key="JonJon038">síra Jóni Jónssyni á Möðrufelli</name></note>
+						</msItem>
+						<msItem n="2" defective="true" class="starfr">
+							<locus from="29r" facs="#Lbs08-1890-0029r" to="201r">29r-201r</locus>
+							<title type="supplied">Reikningsbók</title>
+							<rubric>Limen arithmeticum</rubric>
+							<author key="SteEin003">Stefán Einarsson í Laufási</author>
+							<note>Vantar framan við formálann. Virðist vera eiginhandarrit með eiginhandarbreytingum höfundar.</note>
+						</msItem>
+						<msItem n="3" defective="false" class="ordas tyd">
+							<locus from="201v" facs="#Lbs08-1890-0201v" to="221v">201v-221v</locus>
+							<title type="supplied">Orðasafn</title>
+							<rubric>Lijtell Vidbæter. Þad er þijding nockurra wtlenskra Orda, sem nu tijdkast so nær almennelega
+								bæde i skrife og tale</rubric>
+							<author key="SteEin003">Stefán Einarsson í Laufási</author>
+							<note>Eftir sama, með sömu hendi.</note>
 						</msItem>
 					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p>Pappír.</p>
+								</support>
+								<extent>19 + 192 blöð (<dimensions type="leaf" scope="all" unit="mm">
+									<height>162</height>
+									<width>103
+									</width>
+								</dimensions>).</extent>
+							</supportDesc>
+						</objectDesc>
+						<handDesc n="2">
+							<summary>Tvær hendur ; þekktur skrifari:</summary>
+							<handNote scope="major" script="other" scribe="SteEin003"><name type="person" key="SteEin003">Stefán Einarsson</name></handNote>
+						</handDesc>
+						
+					</physDesc>
+					<history>
+						<origin>
+							<origPlace>Ísland</origPlace>, <origDate cert="medium" from="1750" to="1800">fyrri hluti um 1800 og annar hluti 1750</origDate>.</origin>
+						
+						<acquisition>
+							<p>Gjöf frá <name type="person" key="EirBri001">síra Eiríki Briem</name> 1914.</p>
+						</acquisition>
+					</history>
 					<additional>
 						<adminInfo>
 							<recordHist>
-								<source><name type="person" key="BraOla001">Bragi Þorgrímur
-									Ólafsson</name> frumskráði fyrir myndvinnslu, <date when="2009-10-26">26. október 2009</date> ; Handritaskrá, 2.
-									b.</source>
+								<source><p>Skráning <name type="person" key="PalOla002">Páls Eggerts
+									Ólasonar</name> á handritinu er aðgengileg í ritinu <bibl>
+										<ref target="PEO">Skrá um handritasöfn
+											Landsbókasafnsins</ref>, </bibl> 2. bindi, <ref target="https://baekur.is/bok/000233966/2/376/Skra_um_handritasofn_Bindi_2_Bls_376">bls. 369-370</ref>. 
+								</p><name type="person" key="GudGud045">Guðrún Laufey Guðmundsdóttir</name> bætti við færsluna, 
+									<date when="2022-03-22">22. mars 2022</date> ; <name type="person" key="BraOla001">Bragi Þorgrímur
+									Ólafsson</name> frumskráði fyrir myndvinnslu, <date when="2009-10-26">26. október 2009</date>.</source>
 							</recordHist>
 						</adminInfo>
 					</additional>
 				</msDesc>
 			</sourceDesc>
+		
 		</fileDesc>
 	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">

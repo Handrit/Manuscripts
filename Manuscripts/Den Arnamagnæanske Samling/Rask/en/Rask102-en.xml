@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,35 +23,64 @@
                      <idno>2678</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">
-                     <q xml:lang="la">Qvædam de Montibus ignivomis Islandia Collecta e H. Iacobæe dissertatione ed. Hafnyæ 1757</q>
-                  </title>
-                  <title type="supplied" n="2">The Örafi Volcanic Eruption 1712</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1750" notAfter="1799">s. XVIII 2/2</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">On volcanoes and the Volcanic Eruption of Örefi,
+                     1712</title>.</summary>
+                  <msItem n="1" class="eldg annal tyd">
+                     <locus from="1" to="40">pp. 1-40</locus>
+                     <author key="HalJak001">Halldór Jakobsson</author>
+                     <title type="uniform" xml:lang="da">Fuldstændige Efterretninger om de udi
+                        Island ildsprudende Bierge</title>
+                     <textLang mainLang="is">Icelandic</textLang>
+                     <rubric>Qvædam de <lb/> Montibus ignivomis Island<lb/>ia (!) Collecta e H.
+                        Iacobæe (!) disser<lb/>tatione ed. Hafnyæ 1757</rubric>
+                     <filiation>An extract, translated into Icelandic, of Halldór Jakobsson's
+                              <bibl><ref target="HalJak1757">printed book</ref></bibl> from <date
+                           when="1757">1757</date>.</filiation>
+                     <note>Comprising an addition and an added text containing annalistic notes
+                        (taking place outside Iceland).</note>
+                  </msItem>
+                  <msItem n="2" class="eldg">
+                     <locus from="41" to="52">pp. 41-52</locus>
+                     <title type="supplied">Account of farms destoyed by the volcanic eruption of
+                        Öræfajökull 1712</title>
+                     <!-- Jón Þorláksson's account? -->
+                     <textLang mainLang="is"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>26. 
-<dimensions type="leaf" scope="all">
-                              <height>163</height>
-                              <width>107</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>26. <dimensions type="leaf" scope="all" unit="mm">
+                              <height unit="mm">163</height>
+                              <width unit="mm">107</width>
                            </dimensions>
                         </extent>
+                        <foliation>Pagination occur on every page.</foliation>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland?</origPlace>,
+                     <origDate notBefore="1757" notAfter="1799">s. XVIII<hi rend="sup"
+                        >2</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKBidrag">Bidrag til en historisk-topografisk
+                           Beskrivelse af Island</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">281-82</biblScope></bibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">557-58</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-06-30" who="EvaWed001">Amended.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

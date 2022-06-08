@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,28 +23,27 @@
                             <idno>2381</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title xml:lang="la">Calendarium latinum</title>
-                        <origPlace>Denmark</origPlace>
-                        <origDate cert="high" evidence="external">1490</origDate>
-                        <note>Calendar for Århus stift. Once belonged to <ref>AM 10
-                            8vo</ref>.</note>
-                    </head>
-                    <msContents>
-                        <textLang mainLang="la">Latin</textLang>
+                     <msContents>
+                        <summary><title xml:lang="la">Calendarium latinum</title><note>Calendar for
+                            Aarhus stift. Once belonged to <ref type="ms" target="#AM08-0010-en">AM 10
+                                8vo</ref>.</note></summary>
+                        <msItem n="1" class="timat">
+                            <title xml:lang="la">Calendarium latinum</title>
+                            <textLang mainLang="la">Latin</textLang>
+                        </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
                                     <p>
-                              <material>Parchment</material>.</p>
+                                        <material>Parchment</material>.</p>
                                 </support>
                                 <extent>7. Fol. 7v is blank. <dimensions type="leaf" scope="all">
-                                        <height>144</height>
-                                        <width>107</width>
+                                        <height unit="mm">144</height>
+                                        <width unit="mm">107</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <bindingDesc>
@@ -54,16 +54,22 @@
                         </bindingDesc>
                         <accMat>
                             <p>On the AM-slip <name type="person" key="ArnMag001">Árni
-                                    Magnússon</name> has written the following: <q xml:lang="is">Þetta Calendarium er teked framan af Jutskre Lỏgbok
-                                    sem <name type="person" key="PerTer001">P<ex>er</ex>
+                                    Magnússon</name> has written the following: <q xml:lang="is"
+                                    >Þetta Calendarium er teked framan af Jutskre Lỏgbok sem <name
+                                        type="person" key="PerTer001">P<ex>er</ex>
                                             Terkilse<ex>n</ex>
-                           </name> till i <name type="place">Føwling</name> hefur lated rita <date when="1490">1490</date>. og ritad hefur <name type="person" key="JenNie003">Johannes Nicolai</name>.</q>
-                     </p>
+                                    </name> till i <name type="place">Føwling</name> hefur lated
+                                    rita <date when="1490">1490</date>. og ritad hefur <name
+                                        type="person" key="JenNie003">Johannes Nicolai</name>.</q>
+                            </p>
                         </accMat>
                     </physDesc>
                     <history>
                         <origin notBefore="1490" notAfter="1490" cert="high" evidence="external">
-                            <p>Written in <origPlace>Denmark</origPlace> in <origDate evidence="external" cert="high">1490</origDate>.</p>
+                            <p>Written in <origPlace>Denmark</origPlace> in <origDate
+                                    evidence="external" cert="high">1490</origDate>.</p>
+                            <!--  <origPlace>Denmark</origPlace>
+                        <origDate cert="high" evidence="external">1490</origDate> -->
                         </origin>
                     </history>
                     <additional>
@@ -77,34 +83,28 @@
                             <custodialHist>
                                 <custEvent type="photography">
                                     <p>Photographed in <date when="1960"/>
-                           </p>
+                                    </p>
                                 </custEvent>
                                 <custEvent type="loan">
-                                    <p>Lent out to Record Office for the use of <name type="person" key="EriKro001">Erik Kroman</name>
-                                        <date from="1964-03-02" to="1964-05-26">02.03.1964-26.05.1964</date>
-                           </p>
+                                    <p>Lent out to Record Office for the use of <name type="person"
+                                            key="EriKro001">Erik Kroman</name>
+                                        <date from="1964-03-02" to="1964-05-26"
+                                            >02.03.1964-26.05.1964</date>
+                                    </p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">microfilm (master)</title>
-                                        <idno>Gneg.221</idno>
-                                        <date when="1960"/>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">microfilm (archive)</title>
-                                        <idno>Gpos.256</idno>
-                                        <date when="1960"/>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <idno>AM 169 8vo</idno>
-                                        <date when="1979-03">March 1979</date>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item> Microfilm, <idno>Gneg.221</idno>, from <date when="1960"
+                                        />. </item>
+                                    <item> Microfilm (archive), <idno>Gpos.256</idno>, from <date
+                                            when="1960"/>. </item>
+                                    <item> Black and white prints from <date when="1979-03">March
+                                            1979</date>
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
                     </additional>

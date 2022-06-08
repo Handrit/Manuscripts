@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">AM 567 XIV alfa 4to</title>
+            <title type="main">AM 567 XIV alpha 4to</title>
          </titleStmt>
          <publicationStmt>
             <authority>Den Arnamagnæanske Samling</authority>
@@ -17,31 +17,47 @@
                   <institution key="AMS"/>
                   <repository>Den Arnamagnæanske Samling</repository>
                   <collection key="AM"/>
-                  <idno>AM 567 XIV alfa 4to</idno>
+                  <idno>AM 567 XIV alpha 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
                      <idno>1415</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Gautreks saga</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1390" notAfter="1410">c. 1400</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <msContents>
+                     <summary><title type="uniform">Hrólfs saga Gautrekssonar</title></summary>
+                  <msItem n="1" class="fas">
+                     <locus from="1r" to="1v">1r-v</locus>
+                     <title type="uniform">Hrólfs saga Gautrekssonar</title>
+                     <textLang mainLang="non"/>
+                     <bibl>Rafn:
+                        <ref type="primary" target="FASNRafn">Fornaldar sögur Nordrlanda</ref>
+                        <biblScope unit="volume">III</biblScope>
+                        <biblScope unit="page">104-108</biblScope>
+                     </bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment</p>
+                           <p>Parchment.</p>
                         </support>
-                        <extent>1. </extent>
+                        <extent>1. <dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">243</height>
+                           <width unit="mm">168</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin>Written in <origPlace>Iceland</origPlace>
+                  <origDate notBefore="1390" notAfter="1410">c. 1400</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">724</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

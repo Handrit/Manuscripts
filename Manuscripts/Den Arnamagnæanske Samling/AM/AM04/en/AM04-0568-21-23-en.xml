@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,18 +23,42 @@
                             <idno>1416</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title n="1">Prédikun</title>
-                        <title n="2">Grænlands saga Guðbrands Þorlákssonar</title>
-                        <title n="3">Landnamabók</title>, <origPlace>Iceland?</origPlace>; <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-                    </head>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 568 21 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msContents>
+                        <summary><title type="supplied">Miscellany</title></summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <p><material>Paper</material>.</p>
+                                </support>
+                                <extent>32. <dimensions type="leaf" scope="all" unit="mm">
+                                        <height unit="mm">229</height>
+                                        <width unit="mm">155</width>
+                                    </dimensions>. </extent>
+                                <condition>The leaves are badly worn and the size of the leaves is
+                                    reduced due to crumbling.</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <accMat>An AM-slip written by <name type="person" key="ArnMag001">Árni
+                                Magnússon</name> reads: <q xml:lang="is">Fra S<ex>era</ex>
+                                Arna ä Brecku</q>.
+                        </accMat>
+                    </physDesc>
+
+                    <history>
+                        <origin><origPlace>Iceland?</origPlace>, <origDate notBefore="1600"
+                                notAfter="1699">s. XVII</origDate>.</origin>
+                       </history>
+                    <msPart n="1">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 568 21 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1" defective="true">
-                                <title>Prédikun</title>
+                                <title type="supplied">Prédikun</title>
                                 <textLang mainLang="is">Icelandic</textLang>
                             </msItem>
                         </msContents>
@@ -41,19 +66,24 @@
                             <objectDesc form="codex">
                                 <supportDesc material="chart">
                                     <support>
-                                        <p>Paper.</p>
+                                        <p><material>Paper</material>.</p>
                                     </support>
-                                    <extent>2.</extent>
+                                    <extent>2. <dimensions type="leaf" scope="all" unit="mm">
+                                            <height unit="mm">229</height>
+                                            <width unit="mm">155</width>
+                                        </dimensions></extent>
                                 </supportDesc>
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 568 22 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="2">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 568 22 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1" defective="true">
+                            <msItem n="2" defective="true">
                                 <title type="uniform">Grænlands saga Guðbrands Þorlákssonar</title>
                                 <textLang mainLang="is">Icelandic</textLang>
                             </msItem>
@@ -69,12 +99,14 @@
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 568 23 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="3">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 568 23 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1" defective="true">
+                            <msItem n="3" defective="true">
                                 <title type="uniform">Landnamabók</title>
                                 <textLang mainLang="is">Icelandic</textLang>
                             </msItem>
@@ -85,7 +117,7 @@
                                     <support>
                                         <p>Paper.</p>
                                     </support>
-                                    <extent>4 fragment leaves.</extent>
+                                    <extent>4 fragmentary leaves.</extent>
                                 </supportDesc>
                             </objectDesc>
                         </physDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,31 +23,42 @@
                      <idno>382</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title xml:lang="la">Speculum regale</title>
-                  <title xml:lang="isl">Konungs skuggsjá</title>
-                  <title>Skemtiljóð</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary><title xml:lang="la">Speculum regale</title>
+                     <title xml:lang="is">Konungs skuggsjá</title>
+                     <title type="supplied">Jesting Ballad</title></summary>
+                  <msItem n="1" class="heims sidfr kenb">
+                     <locus from="1r" to="14v">pp. 1-28</locus>
+                     <title type="uniform" xml:lang="la">Speculum regale</title>
+                     <title type="uniform" xml:lang="is">Konungs skuggsjá</title>
                      <textLang mainLang="is">Islandsk</textLang>
+                     <rubric>Speculum<ex>m</ex> Regale</rubric>
+                     <note>I uddrag</note>
+                  </msItem>
+                  <msItem n="2" class="gamkv">
+                     <locus from="14v" to="14v">p. 28 (en halv side)</locus>
+                     <title type="supplied">Skæmtevise</title>
+                     <textLang mainLang="is">Islandsk</textLang>
+                     <rubric>Nockur Skiemti liod edur Bragleisur med <lb/> forn<ex>n</ex> kuæda
+                        hætte</rubric>
+                     <note>9 viser — senere overstregede — om en gnier, hvis mad fortæres af katte
+                        og mus.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>14. 
-<dimensions type="leaf" scope="all">
-                              <height>212</height>
-                              <width>163</width>
+                        <extent>14. <dimensions type="leaf" scope="all">
+                              <height unit="mm">212</height>
+                              <width unit="mm">163</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>,
+                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>.</origin></history>
             </msDesc>
          </sourceDesc>
       </fileDesc>

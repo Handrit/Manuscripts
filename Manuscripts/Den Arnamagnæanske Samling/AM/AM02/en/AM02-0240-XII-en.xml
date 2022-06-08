@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,16 +23,14 @@
                      <idno>362</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Maríu saga</title>; <origPlace>Iceland</origPlace>, <origDate notBefore="1290" notAfter="1310">c. 1300</origDate>. </head>
-               <msContents>
-                  <msItem class="hels" defective="true">
+                 <msContents>
+                  <summary><title type="uniform">Maríu saga</title></summary>
+                  <msItem n="1" class="hels" defective="true">
                      <title type="uniform" xml:lang="is">Maríu saga</title>
-                     <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                     <textLang mainLang="non">Old Norse/Icelandic</textLang>
                      <bibl>Unger: <ref type="primary-3" target="Mariu1871">Maríu saga</ref>
                         <biblScope unit="pages">1076-1077:13</biblScope>
-                        <note>Udg. <q>k</q>
-                        </note>
+                        <note>Ed. k</note>
                      </bibl>
                      <msItem n="1.1" class="hels">
                         <locus from="1r" to="1v">1r-v</locus>
@@ -53,18 +51,28 @@
                            <p><material>Parchment</material>.</p>
                         </support>
                         <extent>2. <dimensions type="leaf" scope="all" unit="mm">
-                           <height>215</height>
-                           <width>156</width>
+                           <height unit="mm">215</height>
+                           <width unit="mm">156</width>
                         </dimensions>.</extent>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>Rubrics and initials in red ink.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>, <origDate notBefore="1290" notAfter="1310">c. 1300</origDate>.</origin></history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund, <ref type="secondary-1" target="KKKat"/>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">210</biblScope>
+                        <biblScope unit="page">210</biblScope>
                      </bibl>
+                     <bibl><ref type="secondary-1" target="Mariu1871">Unger 1871</ref><biblScope
+                        unit="page">xxvii-xxviii</biblScope></bibl>
+                     <bibl><ref type="secondary" target="Wolf2013"/>
+                        <biblScope unit="page">236</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

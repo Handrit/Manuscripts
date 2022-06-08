@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,29 +23,63 @@
                      <idno>1707</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Elucidarius</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1400" notAfter="1499">s. XV</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                 <msContents>
+                  <summary><title type="uniform">Elucidarius</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" facs="#AM04-0685-b-0001r" to="1v">1r-v</locus>
+                     <title type="uniform">Elucidarius</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">svo sem diǫfull þion<ex>ar</ex>
+                        G<ex>udi</ex></incipit>
+                     <explicit defective="true">l<ex>an</ex>gt lif at
+                        m<ex>ar</ex>g<ex>er</ex></explicit>
+                     <bibl>Firchow &amp; Grimstad, <ref type="primary-1" target="Rit36">Elucidarius
+                        in Old Norse Translation</ref><biblScope unit="page">93-98</biblScope><note>Bottom text; Ed. 685b</note></bibl>
+                     <bibl>Konráð Gíslason, <ref type="primary" target="KonGis1858">Brudstykker
+                        af den islandske Elucidarius</ref>
+                        <biblScope unit="page">135:18-138:20</biblScope>
+                     </bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>1. </extent>
+                        <extent>1. <dimensions type="leaf" unit="mm">
+                           <height unit="mm">148</height>
+                           <width unit="mm">127</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>
+                  <origDate notBefore="1450" notAfter="1499">s. XV<hi rend="sup">2</hi></origDate> (<bibl>
+                     <ref type="secondary-1" target="Rit36">Firchow &amp; Grimstad 1989</ref>
+                     <biblScope unit="page">lxiii</biblScope>
+                  </bibl>). <name type="person" key="KriKaa001">Kålund</name>s dating: The fifteenth century (<bibl>
+                     <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     <biblScope unit="volume">II</biblScope>
+                     <biblScope unit="page">100</biblScope>
+                  </bibl>).</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">100</biblScope>
+                     </bibl>
+                     <bibl>Firchow og Grimstad: <ref target="Rit36">Elucidarius in Old
+                        Norse Translation</ref>
+                        <biblScope unit="page"/>
+                     </bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2022-02-11" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0685-b-0001r" n="0">

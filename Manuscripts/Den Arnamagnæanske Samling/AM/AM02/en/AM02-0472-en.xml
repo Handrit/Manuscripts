@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -25,15 +25,12 @@
                             <idno>Addit. 48 s fol.</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Manorial Court Roll of Skagafjarðarsýsla</title>
-                        <origPlace>Denmark</origPlace>
-                        <origDate notBefore="1700" notAfter="1800">s. XVIII</origDate>
-                    </head>
-                    <msContents>
-                        <msItem n="1">
-                            <author>Árni Magnússon</author>
-                            <author>Páll Vídalín</author>
+                       <msContents>
+                        <summary><title type="supplied">Land Register of Skagafjarðarsýsla</title></summary>
+                           <msItem n="1" class="jarb">
+                            <author key="ArnMag001">Arne Magnusson</author>
+                            <author key="PalJon005">Páll Vídalín</author>
+                            <title type="supplied">Land Register of Skagafjarðarsýsla</title>
                             <textLang mainLang="da">Danish</textLang>
                             <rubric>Jorde-Bog <lb/>over <lb/>Hegraness Thing. <lb/>ellers kaldet
                                 <lb/>Skagefiords-Syssel. <lb/>udi. <lb/>Island</rubric>
@@ -48,13 +45,22 @@
                                     </p>
                                 </support>
                                 <extent>314. <dimensions type="leaf" scope="all">
-                                        <height>330</height>
-                                        <width>212</width>
+                                        <height unit="mm">330</height>
+                                        <width unit="mm">212</width>
                                     </dimensions>
                         </extent>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
+                    <history><origin><origPlace>Denmark</origPlace>,
+                        <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>.</origin></history>
+                    <additional>
+                        <listBibl>
+                            <bibl><ref target="KKKat"/>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">332</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,15 +23,23 @@
                      <idno>1999</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title xml:lang="da">Løgumklosters dødebog</title>
-                  <title xml:lang="la">Necrologium monasterii Loci dei</title>
-                  <title xml:lang="en">The Løgum Abbey necrology</title>
-                  <origPlace>Denmark: Sorø, at the request of Løgumkloster</origPlace>
-                  <origDate notBefore="1518" notAfter="1518">1518</origDate>
-               </head>
                <msContents>
+                  <summary><title type="uniform" xml:lang="en">The Løgum Abbey
+                        Necrology</title><title type="uniform" xml:lang="la">Necrologium monasterii
+                        Loci dei</title></summary>
                   <textLang mainLang="la">Latin</textLang>
+                  <msItem n="1">
+                     <locus from="1r" to="43r">1r-43r</locus>
+                     <title type="uniform" xml:lang="en">The Løgum Abbey Necrology</title>
+                     <title type="uniform" xml:lang="la">Necrologium monasterii Loci dei</title>
+                     <note>Fol. 1r is taken up by an introduction, giving information on the origin
+                        of the manuscript.</note>
+                     <bibl>Langebek, <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
+                        Aevi</ref>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="page">575-587</biblScope>
+                     </bibl>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -39,13 +48,80 @@
                            <p>Parchment.</p>
                         </support>
                         <extent>43. <dimensions type="leaf" scope="all">
-                              <height>190</height>
-                              <width>132</width>
+                              <height unit="mm">190</height>
+                              <width unit="mm">132</width>
                            </dimensions>
                         </extent>
+                        <foliation>Foliated in the upper right-hand corners of the
+                           rectos.</foliation>
+                        <collation>The manuscript consists of six quires: <list>
+                              <item>I: 1, 2+8, 3+7, 5, 4+6</item>
+                              <item>II: 9+16, 10+15, 11+14, 12+13</item>
+                              <item>III: 17+ 24, 18+23, 19+ 22, 20+ 21</item>
+                              <item>IV: 25+32, 26+31, 27+30, 28+29</item>
+                              <item>V: 32+39, 34+38, 37, 35+36</item>
+                              <item>VI: 40+43 (40 is pasted to the fold of fol. 43), 41+42 (41 is
+                                 pasted to the fold of fol. 42)</item>
+                           </list>
+                        </collation>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>Plenty of red ink was used.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <additions>A few persons were added later; the youngest addition (from <date
+                        when="1520">1520</date>) occur on fol. 12v. On the originally blank fol. 43v
+                     the abbot, <name type="person" key="Henooo003">Henrik</name>, of <name
+                        type="place">Sorø Abbey</name> makes a request to be added to the necrology
+                     after his death.</additions>
+                  <bindingDesc>
+                     <binding contemporary="false">
+                        <p>Calfbound with a blind tooled and marbled panel design (<term
+                              type="binding">Holberg-binding</term>). <dimensions type="binding">
+                              <height unit="mm">194</height>
+                              <width unit="mm">140</width>
+                              <depth unit="mm">23</depth>
+                           </dimensions>
+                        </p>
+                        <decoNote>Tooled mirror design: The outer panel is marbled. Each corner of the
+                           outer panel has a decorative motif; on the outside flower vases are found, on
+                           the inside, a dotted line connects the outer panel to the middle
+                           panel.</decoNote>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Sorø, Denmark</origPlace>, <origDate when="1518">1518</origDate> when <name
+                        type="person" key="Henooo003">Henrik</name> was abbey. Commissioned by abbey <name type="person" key="Henooo001">Henichinus</name> of <name type="place"
+                           >Løgum Abbey</name>.
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Langebek, <ref target="SRDMAE">Scriptores Rerum Danicarum Medii
+                        Aevi</ref>
+                        <biblScope unit="volume">IV</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="KKKat">Kålund, Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">239</biblScope>
+                     </bibl>
+                     <bibl><ref target="McGBri1982">McGuire</ref>
+                     <biblScope unit="page">27</biblScope></bibl>
+                     <bibl>Nielsen, <ref type="secondary-1" target="LNHaandskrifter">Danmarks
+                        middelalderlige Haandskrifter</ref>
+                        <biblScope unit="page">85f</biblScope>
+                     </bibl>
+                     <bibl>Petersen, <ref type="secondary-1" target="EriPet1999">Levende ord og
+                        lysende billeder</ref>
+                        <note>No 45</note>
+                     </bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>

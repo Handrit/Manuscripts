@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,16 +23,19 @@
                      <idno>2669</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Hjáltýrs rímur ok Ölvis</title>;
-            <origPlace>Island</origPlace>, <origDate notBefore="1800" notAfter="1815">s. XIX
-        in</origDate>.</head>
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform">Rímur af Hjálmtý og Ölvi</title></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">Rymur <lb/> a&#xA77C; <lb/> Hialmtyr <lb/> Og <lb/>
+                           ØLWER <lb/> kvednar <lb/> a&#xA77C; <lb/> Sal. Arna
+                           Bødvars&#x017F;yne</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="rimur">
+                     <author key="ArnBod001">Árni Böðvarsson</author>
                      <title type="uniform">Rímur af Hjálmtý og Ölvi</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Rymur <lb/> af <lb/> Hialmtyr <lb/> Og <lb/> ØLWER <lb/> kvednar <lb/>
-                af <lb/> Sal. Arna Bødvarssyne</rubric>
                      <note>I alt 12 <q xml:lang="is">rímur</q>
                      </note>
                   </msItem>
@@ -44,25 +48,35 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>76. <dimensions type="leaf" scope="all">
-                              <height>170</height>
-                              <width>105</width>
+                              <height unit="mm">170</height>
+                              <width unit="mm">105</width>
                            </dimensions>.</extent>
                      </supportDesc>
-                     <layoutDesc>
-                        <layout columns="1">
-                           <p>Ornamenterede begyndelsesinitialer.</p>
-                        </layout>
-                     </layoutDesc>
-                  </objectDesc>
+                       </objectDesc>
                   <handDesc hands="1">
-                     <handNote scope="sole" scribe="HalDav01" script="unknown">
-                        <p>Skrevet af digteren Halldór Davíðsson.</p>
+                     <handNote scope="sole" scribe="HalDav001" script="unknown">
+                        <p>Skrevet af digteren <name type="person" key="HalDav001">Halldór
+                           Davíðsson</name>. I slutningsornamentet findes indskrevet <q>HDS Skr. R</q>.</p>
                      </handNote>
                   </handDesc>
+                  <decoDesc>
+                     <decoNote type="initial" subtype="flourished">Ornamenterede begyndelsesinitialer.</decoNote>
+                  </decoDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1800" notAfter="1815"
+                        >s. XIX in</origDate></origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">554</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-01" who="EvaWed001">Opdateret opmærkning og rettet titel.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,50 +23,61 @@
                             <idno>2612</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Brávalla rímur</title>
-                        <origPlace>Iceland?</origPlace>
-                        <origDate notBefore="1790" notAfter="1810">c. 1800</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1">
+                        <summary><title type="uniform">Brávalla rímur</title>. Ten
+                                <foreign>rímur</foreign> cantos containing explanations, written
+                            below the text.</summary>
+                        <msItem n="1" class="rimur">
+                            <author key="ArnBod001">Árni Böðvarsson</author>
                             <title type="uniform">Brávalla rímur</title>
                             <textLang mainLang="is">Icelandic</textLang>
-                            <note>Ten <foreign>rímur</foreign>
-                     </note>
                             <colophon>skräder efter manuscripto Authoris Þ. S. S.</colophon>
-                        </msItem>
+                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
-                                    <p>Paper</p>
+                                    <p><material>Paper</material>.</p>
                                 </support>
-                                <extent>49, f. 49 was originally blank. <dimensions type="leaf" scope="all">
-                                        <height>200</height>
-                                        <width>165</width>
+                                <extent>49. F. 49 originally blank. <dimensions type="leaf"
+                                        scope="all">
+                                        <height unit="mm">200</height>
+                                        <width unit="mm">165</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="2">
-                            <handNote scribe="Rask041-H1" scope="minor" script="unknown">
-                                <p> fols. 1-17 is written in one hand. Most probably this part of
-                                    the manuscript is a later addition.</p>
+                            <handNote scope="minor" script="unknown">
+                                <p>Fols. 1-17 is written in one hand. Most possibly this part of the
+                                    manuscript is a later addition.</p>
                             </handNote>
-                            <handNote scribe="Rask041-H2" scope="major" script="unknown">
-                                <p> fols 18-48 is written in another hand.</p>
+                            <handNote scope="major" script="unknown">
+                                <p>Fols 18-48 is written in another hand.</p>
                             </handNote>
                         </handDesc>
                         <additions>
-                            <p>Explanations below the text. f. 49r carries a note signed
-                                    <q>Vidalin</q>.</p>
+                            <p>Fol. 49r carries a note signed <q>Vidalin</q> (<name type="person"
+                                    key="GeiVid001">Geir Vídalín</name>?).</p>
                         </additions>
                     </physDesc>
+                    <history>
+                        <origin><origPlace key="IS">Iceland?</origPlace>
+                            <origDate notBefore="1790" notAfter="1810">c. 1800</origDate></origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund, <ref target="KKKat"/><biblScope unit="volume"
+                                    >II</biblScope><biblScope unit="pages">529</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-10-14" who="EvaWed001">Updated markup.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

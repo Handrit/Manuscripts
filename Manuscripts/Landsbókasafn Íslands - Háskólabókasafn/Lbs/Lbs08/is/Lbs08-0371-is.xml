@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -30,26 +30,74 @@
 					</msIdentifier>
 					<msContents>
 						<summary>
-							<title type="supplied">Samtíningur</title>
+							<title type="supplied">Tyrkjaránið</title>
 						</summary>
-						<msItem>
-							<p>1) Sannferdug Frásaga. Umm Þad Blodgiruga Mord …, sem Tirkiar frömdu
-								hier … 1627« Eftir Kláus Eyjólfsson. 2) »Reisu Bók Sira Olafs
-								Eigilssonar … sem hertekinn var 1627.« 3) »Su Islendska Tyrk[i]ans
-								Ráns og Hernadar Saga … 1627 … Samanntekinn … af … Byrni Ionssyni a
-								Skards a.«Ferill. Á skjólbl. framan við stendr: »Sira J. Austmann i
-								Vestmanneyum til herra dr. Eigilsen (ljed)« Not. Tyrkjaránið á
-								Íslandi 1627, bls. 33, 136, 206, 347.</p>
+						<msItem n="1" defective="false" class="sagnfr">
+							<locus from="1r" facs="#Lbs08-0371-0001r" to="7v">1r-7v</locus>
+							<title type="uniform">Tyrkjarán á Austfjörðum</title>
+							<rubric>Sannferðug frásaga. Um það blóðuga morð og mannraunir sem Tyrkjar frömdu hér á landi bæði í Austfjörðum,
+								Grindavík og Vestmannaeyjum. Anno Xti 1627</rubric>
+							<author><name type="person" key="KlaEyj001">Kláus Eyjólfsson</name></author>
+						</msItem>
+						<msItem n="2" defective="false" class="ferds">
+							<locus from="8r" facs="#Lbs08-0371-0008r" to="35v">8r-35v</locus>
+							<title type="uniform">Reisubók séra Ólafs Egilssonar</title>
+							<rubric>Reisubók síra Ólafs Egilssonar prests í Vestmanneyjum sem hertekinn var þar með öðrum mönnum af Tyrkjum það ár 1627
+							um þá sorglegu reisu hefur hann ritað frá 16. júlí sama ár til þess 6 ári síðar er hann hingað kom frá
+							illvirkja staðnum yfir í Afríka, er liggur 300 mílur lengra úti heiminn, en sá er þeir sem í Grindavík voru teknir, voru til fluttir</rubric>
+							<author><name type="person" key="OlaEgi001">Ólafur Egilsson</name></author>
+						</msItem>
+						<msItem n="3" defective="false" class="sagnfr">
+							<locus from="36r" facs="#Lbs08-0371-0036r" to="85r">36r-85r</locus>
+							<title type="uniform">Tyrkjarán á Austfjörðum</title>
+							<rubric>Sú íslenska Tyrkjans ráns og hernaðar saga eður eitt skrif og skilmerkileg frásögn af þeim hernaði manndrápum og mannraunum
+								þeirra spillvirkja og ræningja ódáðum, sem gjörð voru og framfóru á Íslandi árið 1627 ...</rubric>
+							<author><name type="person" key="BjoJon006">Björn Jónsson á Skarðsá</name></author>
 						</msItem>
 					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p>Pappír.</p>
+								</support>
+								<extent>87 blöð (<dimensions scope="all" type="leaf" unit="mm">
+									<height n="165">165</height>
+									<width n="101">101</width>
+								</dimensions>).</extent>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<summary>Ein hönd:</summary>
+							<handNote scope="sole" script="textualis" scribe="unknown">Óþekktur skrifari.</handNote>
+						</handDesc>
+						<bindingDesc><binding><p>Skinnband.</p></binding></bindingDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origPlace>Ísland</origPlace><origDate cert="high" when="1829">, 1829</origDate>
+						</origin>
+						<provenance>Á skjólblaði framanvið stendur: <quote><name key="JonAus002">Síra J. Austmann</name> í Vestmannaeyjum til herra <name key="SveEgi001">De. Eigilsen</name> (Ɔ: ljed)</quote>.</provenance>
+						<acquisition>
+							<p>Lbs 370-425 8vo er keypt 1891 úr dánarbúi <name type="person" key="JonArn002">Jóns Árnasonar</name>, 
+								en þetta handrit er til hans komið frá <name type="person" key="JonBor001">Jóni Borgfirðingi</name> 1860.</p>
+						</acquisition>
+					</history>
 					<additional>
 						<adminInfo>
 							<recordHist>
-								<source><name type="person" key="BraOla001">Bragi Þorgrímur
-									Ólafsson</name> frumskráði fyrir myndvinnslu, <date when="2009-10-26">26. október 2009</date> ; Handritaskrá, 2.
-									aukab.</source>
+								<source><p> Skráning <name type="person" key="PalOla002">Páls Eggerts
+									Ólasonar</name> á handritinu er aðgengileg í ritinu <bibl>
+										<ref target="PEO">Skrá um handritasöfn
+											Landsbókasafnsins</ref>, </bibl>2. bindi, <ref target="https://baekur.is/bok/000233966/2/88/Skra_um_handritasofn_Bindi_2_Bls_88">bls. 81</ref>.</p>
+									<name type="person" key="GudGud045">Guðrún Laufey Guðmundsdóttir</name> bætti við skráninguna <date when="2022-03-30">30. mars 2022</date> ; <name type="person" key="BraOla001">Bragi Þorgrímur
+									Ólafsson</name> frumskráði fyrir myndvinnslu, <date when="2009-10-26">26. október 2009</date>.</source>
 							</recordHist>
 						</adminInfo>
+						<listBibl>
+							<bibl><ref target="Tyrkjaranid">Tyrkjaránið á Íslandi 1627</ref>,
+								bls. 33, 136, 206, 347.</bibl>
+						</listBibl>
 					</additional>
 				</msDesc>
 			</sourceDesc>

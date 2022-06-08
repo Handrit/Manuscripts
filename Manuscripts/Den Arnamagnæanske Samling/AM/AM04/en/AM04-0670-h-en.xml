@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,33 +23,94 @@
                      <idno>1676</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Legends of Saint Ólaf</title>
-                  <origPlace>Denmark?</origPlace>
-                  <origDate notBefore="1700" notAfter="1725">s. XVII 1/4</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <summary><title type="supplied">Texts Concerning St. Ólafr</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="11v">1r-11v</locus>
+                     <textLang mainLang="la"/>
+                     <note>mainly</note>
+                     <msItem n="1.1">
+                        <title type="supplied">Description of Three Fragmants of Parchment</title>
+                        <note>Containing <title type="uniform">Legenda S. Olavo</title></note>
+                        <note>Designated A-C. A is made basis for the text of item 2 and B and C are
+                           collations.</note>
+                     </msItem>
+                     <msItem n="1.2">
+                        <title type="supplied">Notes on St Ólafr</title>
+                        <note>Including a description of a drinking horn depicting St. Ólafr,
+                           Charlemagne, Constantine and an inscription in honour of St.
+                           Ólafr.</note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="12r" to="18r">12-18r</locus>
+                     <title type="uniform">Legenda de S. Olavo</title>
+                     <filiation><name type="person" key="ArnMag001">Árni Mágnússon</name> wrote that
+                        the source texts, the fragments A, B and C, all came from Iceland. A (in
+                        8vo) was quite old; B (in 4to) was younger and part of a legendary,
+                        originally belonging to the church of Flatey in Western Iceland. C (in 4to)
+                        was not very old and was part of a codex containing texts on St. Þorlákr and
+                        a lectio on St. Peter.</filiation>
+                  </msItem>
+                  <msItem n="3">
+                     <locus from="21r" to="21v">21r-v</locus>
+                     <title type="uniform">De sancto Olavo</title>
+                     <filiation>On fol. 20 Árni Magnússon wrote that the original consisted of two
+                        parchment leaves in folio originating from Sweden. The leaves once belonged
+                        to a legendary from the fifteenth century.</filiation>
+                  </msItem>
+                  <msItem n="4">
+                     <locus from="25r" to="25r">25r</locus>
+                     <title type="uniform">Sancti Olavi Regis et Martyris</title>
+                     <filiation>On fol. 24r Árni Magnússon wrote that the exemplar was a parchment
+                        leaf from a legendary in folio which he had acquired in Denmark.</filiation>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>25. 
-<dimensions type="leaf" scope="all">
-                              <height>210</height>
-                              <width>166</width>
-                           </dimensions>
-                        </extent>
+                        <support><material>Paper</material>.</support>
+                        <extent>25. Fols 2-10 are inserted leaves mostly with blank verso pages;
+                           fols 18v-19v, 22r-23v, 24v and 25v are blank. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">210</height>
+                              <width unit="mm">166</width>
+                           </dimensions>. </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="ArnMag001" scope="sole" script="unknown">
-                        <p>
-Written by Árni Magnússon.</p>
+                        <p> Written by <name type="person" key="ArnMag001">Árni
+                           Magnússon</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark?</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup"
+                           >1/4</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary" target="JonThork1888"/>
+                        <biblScope unit="page">30</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="SRDMAE"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">529 ff.</biblScope>
+                        <note>Items 2-4</note>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope
+                           unit="volume">II</biblScope>
+                        <biblScope unit="page"
+                           >85-86</biblScope></bibl>
+                     <bibl><ref type="secondary" target="MhN"/>
+                        <biblScope unit="page">xxxii, 267, 271 ff.</biblScope>
+                        <note>Items 2-4</note>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

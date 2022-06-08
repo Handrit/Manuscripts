@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,10 +23,8 @@
                      <idno>2003</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Ondlosa ΠΟΛΎΞepsilonΣΤΟΣ seu ex vetusto renovata</title>;
-                     <origPlace>Danmark</origPlace>, <origDate notBefore="1650" notAfter="1699" evidence="conjecture" resp="KKKat">s. XVII 2/2</origDate>. </head>
                <msContents>
+                  <summary><title type="supplied">Ondlosa ex vetusto renovata</title></summary>
                   <titlePage type="MS">
                      <docTitle>
                         <titlePart>ONDLOSA <lb/> ΠΟΛΎΞΕΣΤΟΣ sev ex vetusto renovata <lb/> sev <lb/>
@@ -34,10 +32,16 @@
                            DREIER <lb/> Pastoris Ondlosani <lb/> ANNO <lb/> MDCLXIV</titlePart>
                      </docTitle>
                   </titlePage>
-                  <msItem>
+                  <msItem n="1">
+                     <locus from="1r" to="69r">1r-69r</locus>
+                     <author key="FreDre001">Frederik C. Dreier</author>
+                     <title type="uniform">Ondlosa ex vetusto renovata</title>
                      <textLang mainLang="la">Latin</textLang>
-                     <note>Med en dedikation til kansleren <name type="person" key="PedRet001">Peder
-                           Reedtz</name></note>
+                     <respStmt>
+                        <resp key="dte"/>
+                        <name type="person" key="PedRet001">Peder Retz</name>
+                     </respStmt>
+                     <note>Med en dedikation til Retz.</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -48,8 +52,8 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>69. Bl. 1v og 69v ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>199</height>
-                              <width>157</width>
+                              <height unit="mm">199</height>
+                              <width unit="mm">157</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
@@ -57,11 +61,16 @@
                         <name type="person" key="JorRos001">I Rosencranz</name>
                      </q>.</additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Danmark</origPlace>, <origDate notBefore="1650" notAfter="1699"
+                        evidence="conjecture" resp="KKKat">s. XVII<hi rend="sup"
+                     >2</hi></origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">240</biblScope>
+                        <biblScope unit="page">240</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

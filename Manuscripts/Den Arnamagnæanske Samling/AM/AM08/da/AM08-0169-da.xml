@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,11 +23,8 @@
                             <idno>2381</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform" xml:lang="la">Calendarium latinum</title>;
-                            <origPlace>Danmark</origPlace>, <origDate when="1490" cert="high" evidence="external">1490</origDate>
-                    </head>
-                    <msContents>
+                     <msContents>
+                        <summary><title type="uniform" xml:lang="la">Calendarium latinum</title></summary>
                         <msItem>
                             <title type="uniform" xml:lang="la">Calendarium latinum</title>
                             <textLang mainLang="la">Latin</textLang>
@@ -41,8 +39,8 @@
                                         <material>Pergament</material>.</p>
                                 </support>
                                 <extent>7. Bl. 7v er blank. <dimensions type="leaf" scope="all">
-                                        <height>144</height>
-                                        <width>107</width>
+                                        <height unit="mm">144</height>
+                                        <width unit="mm">107</width>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
@@ -56,26 +54,28 @@
                         <accMat>
                             <p>Der er en AM-seddel, hvorpå <name type="person" key="ArnMag001">Arne
                                     Magnusson</name> har skrevet: <q xml:lang="is">Þetta Calendarium
-                                    er teked framan af Jutſkre Lỏgbok ſem <name type="person" key="PerTer001">P<ex>er</ex>
-                                            Terkilse<ex>n</ex>
+                                    er teked framan af Jutſkre Lỏgbok ſem <name type="person"
+                                        key="PerTer001">P<ex>er</ex> Terkilse<ex>n</ex>
                                     </name> till i <name type="place">Føwling</name> hefur lated
-                                    rita <date when="1490">1490</date>. og ritad hefur <name type="person" key="JenNie003">Johannes Nicolai</name>.</q>
+                                    rita <date when="1490">1490</date>. og ritad hefur <name
+                                        type="person" key="JenNie003">Johannes Nicolai</name>.</q>
                             </p>
                         </accMat>
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Skrevet i <origPlace>Danmark</origPlace>  
-                        <origDate when="1490" evidence="external" cert="high">1490</origDate>. Har udgjort en del af <ref type="ms" target="AM08-010-da">AM
-                                    10 8vo</ref>.</p>
-                        </origin>
+                            <p>Skrevet i <origPlace>Danmark</origPlace>
+                                <origDate when="1490" evidence="external" cert="high"
+                                    >1490</origDate>. Har udgjort en del af <ref type="ms"
+                                    target="#AM08-010-da">AM 10 8vo</ref>.</p>
+                             </origin>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Katalogiseret <date when="2000-04-12">12. april 2000</date> af
-                                            <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                    <p>Katalogiseret <date when="2000-04-12">12. april 2000</date>
+                                        af <name type="person" key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
@@ -84,39 +84,33 @@
                                     </p>
                                 </custEvent>
                                 <custEvent type="loan">
-                                    <p>Udlånt til <name type="org">Rigsarkivet</name> til <name type="person" key="EriKro001">Erik Kroman</name>
-                                        <date from="1964-03-02" to="1964-05-26">2. marts 1964 til 26. maj 1964</date>
+                                    <p>Udlånt til <name type="org">Rigsarkivet</name> til <name
+                                            type="person" key="EriKro001">Erik Kroman</name>
+                                        <date from="1964-03-02" to="1964-05-26">2. marts 1964 til
+                                            26. maj 1964</date>
                                     </p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">mikrofilm (originaler)</title>
-                                        <idno>Gneg.221</idno>
-                                        <date when="1960"/>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">mikrofilm (arkiv)</title>
-                                        <idno>Gpos.256</idno>
-                                        <date when="1960"/>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">s/h fotografier</title>
-                                        <idno>AM 169 8vo</idno>
-                                        <date when="1979-03">marts 1979</date>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item> Mikrofilm (originaler), <idno>Gneg.221</idno>, fra <date
+                                            when="1960"/>. </item>
+                                    <item> Mikrofilm (arkiv), <idno>Gpos.256</idno>, fra <date
+                                            when="1960"/>. </item>
+                                    <item> Sort-hvid fotografier fra <date when="1979-03">marts
+                                            1979</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
-                    <listBibl>
-                        <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">430</biblScope>
-                     </bibl>
-                    </listBibl>
+                        <listBibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">430</biblScope>
+                            </bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -24,8 +24,9 @@
 						</altIdentifier>
 					</msIdentifier>
 					<msContents>
-						<summary><title type="supplied">Medical book</title></summary>
+						<summary><title type="supplied">Leechbook</title></summary>
 						<msItem class="lakn">
+							<title type="supplied">Leechbook</title>
 							<textLang mainLang="da">Old Danish</textLang>
 							<bibl>Skovgaard Boeck et.al., <title ref="https://tekstnet.dk/Laegeraad-AM/metadata">Lægeråd (AM 819,
 								4to)</title></bibl>
@@ -37,12 +38,12 @@
 							<supportDesc material="chart">
 								<support>
 									<p>
-										<material>Papir.</material>
+										<material>Paper.</material>
 									</p>
 								</support>
 								<extent>v + 54 + iv. <dimensions type="leaf" scope="all">
-										<height>185</height>
-										<width>125</width>
+										<height unit="mm">185</height>
+										<width unit="mm">125</width>
 									</dimensions>
 								</extent>
 								<foliation>
@@ -63,14 +64,14 @@
 						</objectDesc>
 						<bindingDesc>
 							<binding notBefore="1700" notAfter="1730" contemporary="false">
-								<p>Cover of used parchment.</p>
+								<p>Cover of recycled parchment.</p>
 							</binding>
 						</bindingDesc>
 					</physDesc>
 					<history>
-						<origin><origPlace>Denmark</origPlace>
-							<origDate notBefore="1500" notAfter="1515">Part 1 (1r - 33v): 1514; Part
-								2 (48v,6 - 50v,6): s. XVI in</origDate>.</origin>
+						<origin><origPlace>Denmark</origPlace>,
+							<origDate notBefore="1500" notAfter="1515">Part 1 (1r-33v): 1514; Part
+								2 (48v:6-50v:6): s. XVI in</origDate>.</origin>
 					</history>
 					<additional>
 						<listBibl>
@@ -80,13 +81,14 @@
 							</bibl>
 						</listBibl>
 					</additional>
-					<msPart>
+					<msPart n="1">
 						<msIdentifier><altIdentifier type="partial">
 							<idno>AM 819 I 4to</idno>
 						</altIdentifier></msIdentifier>
 						<msContents>
 							<msItem n="1" class="lakn" defective="true">
 								<locus from="1r" facs="#AM04-0819-0001r" to="33v">1r-33v</locus>
+								<title type="supplied">Leechbook</title>
 								<colophon>Anno domini MCXiiij sabato pentecostes</colophon>
 								<bibl>
 									<ref type="primary-1" target="Laegebog1970">Lægebøger -
@@ -132,17 +134,17 @@
 						<history><origin when="1514">Written in <origPlace>Denmark</origPlace> in
 							<origDate when="1514">1514</origDate>.</origin></history>
 					</msPart>
-					<msPart>
+					<msPart n="2">
 						<msIdentifier><altIdentifier type="partial">
 							<idno>AM 819 II 4to</idno>
 						</altIdentifier></msIdentifier>
 						<msContents>
 							<msItem n="2" class="lakn">
 								<locus from="34r" facs="#AM04-0819-0034r" to="53v">34r-53v</locus>
+								<title type="supplied">Leechbook</title>
 								<incipit>Assit principio sancta maria meo<lb/>Om hoor faller af
 									howeth</incipit>
 								<explicit>et sic est finis<lb/> in nomine dei</explicit>
-								<listBibl>
 									<bibl>
 										<ref type="primary-1" target="Hauberg1919">Lidt om Henrik
 											Harpestrængs Lægebog</ref>
@@ -157,7 +159,6 @@
 <p>Lægeråd[AM819]: 34ra-42rb: pp. 196-212 , 44vb-45va, 46rb-48vb, 50vb-53vb: pp. 239-243</p>
 <p>BondePr.[AM819]: 48vb-50vb: pp. 239-243.</p></list> -->
 									</bibl>
-								</listBibl>
 							</msItem>
 						</msContents>
 						<physDesc>
@@ -186,7 +187,7 @@
 							</decoDesc>
 						</physDesc>
 						<history><origin notBefore="1500" notAfter="1515">Written in <origPlace>Denmark</origPlace> in
-							<origDate>the beginning of the sixteenth century</origDate>.</origin></history>
+							<origDate notBefore="1500" notAfter="1515">the beginning of the sixteenth century</origDate>.</origin></history>
 					</msPart>
 				</msDesc>
 			</sourceDesc>

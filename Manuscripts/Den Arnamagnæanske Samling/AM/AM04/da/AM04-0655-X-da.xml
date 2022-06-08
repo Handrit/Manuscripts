@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,124 +23,125 @@
                      <idno>1646</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Legender om helgener</title>
-                  <origPlace>Island</origPlace>
-                  <origDate notBefore="1250" notAfter="1299" cert="medium" evidence="conjecture" resp="KKKat">s. XIII 2/2</origDate>
-                  <origDate notBefore="1250" notAfter="1274" evidence="conjecture" resp="ONP">s. XIII 3/4</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
-                     <locus from="1r" to="1v:15">1r-1v:15</locus>
+                  <summary>
+                     <title type="supplied" xml:lang="da">Helgensagaer</title>
+                  </summary>
+                  <textLang mainLang="non"/>
+                  <msItem n="1" class="hels" defective="true">
+                     <locus from="1r" facs="#AM04-0655-X-0001r" to="1v:15">1r-1v:15</locus>
                      <title type="uniform">Mauritius saga</title>
-                     <textLang mainLang="is">Norrønt/Islandsk</textLang>
-                     <bibl>Unger: <ref type="primary" target="HMS1877">Heilagra manna
-                           sögur</ref>
+                     <bibl>Unger: <ref type="primary" target="HMS1877">Heilagra Manna Søgur</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">656-658</biblScope>
+                        <biblScope unit="page">656-658</biblScope>
                      </bibl>
                   </msItem>
-                  <msItem n="2">
-                     <locus from="1v:16" to="2v">1v:16-2v</locus>
+                  <msItem n="2" class="hels" defective="true">
+                     <locus from="1v:16" facs="#AM04-0655-X-1v" to="2v">1v:16-2v</locus>
                      <title type="uniform">Plácidus saga</title>
-                     <textLang mainLang="is">Norrønt/Islandsk</textLang>
-                     <listBibl>
-                        <bibl>Tucker: <ref type="primary-1" target="EA-B31">Plácidus
-                              saga</ref>
-                           <biblScope unit="pages">2-8, 12-24, 28-36</biblScope>
-                           <note>venstresiderne,
-                              øverste tekst (Udg. A1)</note>
+                        <bibl>Tucker: <ref type="primary-1" target="EA-B31">Plácidus saga</ref>
+                           <biblScope unit="page">2-8, 12-24, 28-36</biblScope>
+                           <note>Udg. A1</note>
                         </bibl>
-                        <bibl>Unger: <ref type="primary" target="HMS1877">Heilagra manna
-                              sögur</ref>
+                        <bibl>Unger: <ref type="primary" target="HMS1877">Heilagra Manna Søgur</ref>
                            <biblScope unit="volume">II</biblScope>
-                           <biblScope unit="pages">204-207</biblScope>
+                           <biblScope unit="page">204-207</biblScope>
                         </bibl>
-                     </listBibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Pergament</p>
+                           <p><material>Pergament</material>.</p>
                         </support>
                         <extent>2. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>230</height>
-                              <width>175</width>
+                              <height unit="mm">230</height>
+                              <width unit="mm">175</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <summary>Ifølge Widding (<ref type="secondary-1" target="OleWid1960">Håndskriftanalyser.
-                        Én eller flere skrivere. I-IV</ref>) skrevet af to forskellige skrivere, som har skiftedes til at føre
-                        pennen:</summary>
+                     <summary>Ifølge Widding (<ref type="secondary-1" target="OleWid1960"
+                           >Widding 1960</ref>) skrevet af to
+                        forskellige skrivere, som har skiftedes til at føre pennen:</summary>
                      <handNote scope="major" script="textualis">Hånd A: <list>
                            <item>1r:5-16 og 1r:27-40 (dvs. siden ned),</item>
-                           <item>1v hele siden undtagen l. 23-24;</item>
-                           <item>2r</item>
-                           <item>2v:1-10, 2v:30-31</item>
+                           <item>1v hele siden undtagen l. 23-24,</item>
+                           <item>2r,</item>
+                           <item>2v:1-10, 2v:30-31,</item>
                         </list>
                      </handNote>
                      <handNote scope="minor" script="textualis"> Hånd B: <list>
-                           <item>1r:1-5, 1r:16-17;</item>
-                           <item>1v:23-24;</item>
+                           <item>1r:1-5 og 1r:16-17,</item>
+                           <item>1v:23-24,</item>
                            <item>2v:10-30.</item>
                         </list>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1250" notAfter="1275"
+                        evidence="conjecture" resp="ONP">s. XIII<hi rend="sup"
+                     >3/4</hi></origDate></origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Hreinn Benediktsson: <ref type="secondary-1" target="HreBen1964">Tvö
-                           handritsbrot</ref>
+                     <bibl><ref type="secondary-1" target="HreBen1964"/>
                      </bibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">60-61</biblScope>
+                        <biblScope unit="page">60-61</biblScope>
                      </bibl>
-                     <bibl>Tucker: <ref type="secondary-1" target="JohTuc1979">Scribal hands in AM
-                           655 4to X</ref>
+                     <bibl><ref type="secondary-1" target="DidSei1949a"/><biblScope unit="page">159</biblScope></bibl>
+                     <bibl><ref target="EA-B31"/><biblScope unit="page"
+                        >xliv</biblScope><!-- more? --></bibl>
+                     <bibl><ref type="secondary-1" target="JohTuc1979"/>
                      </bibl>
-                     <bibl>Widding: <ref type="secondary-1" target="OleWid1960">Håndskriftanalyser.
-                           Én eller flere skrivere. I-IV</ref>
-                        <biblScope unit="pages">84-85</biblScope>
+                     <bibl><ref type="secondary-1" target="OleWid1960"/>
+                        <biblScope unit="page">84-85</biblScope>
                      </bibl>
+                     <bibl><ref type="secondary-1" target="Wolf2013"/><biblScope unit="page">106,
+                        256</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
-		<surface xml:id="AM04-0655-X-0001r" n="0">
-			<desc>0001r</desc>
-			<graphic mimeType="pdf" url="AM%20655%20X%204to/0/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20X%204to/0/THUMBNAIL" width="200px" height="266px"/>
-			<graphic mimeType="jpg" url="AM%20655%20X%204to/0/SECONDARY_DISPLAY" width="4272px" height="5680px"/>
-			<graphic mimeType="pdf" url="AM%20655%20X%204to/0/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0655-X-0001v" n="1">
-			<desc>0001v</desc>
-			<graphic mimeType="pdf" url="AM%20655%20X%204to/1/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20X%204to/1/THUMBNAIL" width="200px" height="273px"/>
-			<graphic mimeType="jpg" url="AM%20655%20X%204to/1/SECONDARY_DISPLAY" width="4176px" height="5692px"/>
-			<graphic mimeType="pdf" url="AM%20655%20X%204to/1/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0655-X-0002r" n="2">
-			<desc>0002r</desc>
-			<graphic mimeType="pdf" url="AM%20655%20X%204to/2/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20X%204to/2/THUMBNAIL" width="200px" height="272px"/>
-			<graphic mimeType="jpg" url="AM%20655%20X%204to/2/SECONDARY_DISPLAY" width="4176px" height="5680px"/>
-			<graphic mimeType="pdf" url="AM%20655%20X%204to/2/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0655-X-0002v" n="3">
-			<desc>0002v</desc>
-			<graphic mimeType="pdf" url="AM%20655%20X%204to/3/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20655%20X%204to/3/THUMBNAIL" width="200px" height="273px"/>
-			<graphic mimeType="jpg" url="AM%20655%20X%204to/3/SECONDARY_DISPLAY" width="4176px" height="5697px"/>
-			<graphic mimeType="pdf" url="AM%20655%20X%204to/3/WEB_DISPLAY"/>
-		</surface>
-	</facsimile>
+   <facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+      <surface xml:id="AM04-0655-X-0001r" n="0">
+         <desc>0001r</desc>
+         <graphic mimeType="pdf" url="AM%20655%20X%204to/0/HIGH_QUALITY_DISPLAY"/>
+         <graphic mimeType="jpg" url="AM%20655%20X%204to/0/THUMBNAIL" width="200px" height="266px"/>
+         <graphic mimeType="jpg" url="AM%20655%20X%204to/0/SECONDARY_DISPLAY" width="4272px"
+            height="5680px"/>
+         <graphic mimeType="pdf" url="AM%20655%20X%204to/0/WEB_DISPLAY"/>
+      </surface>
+      <surface xml:id="AM04-0655-X-0001v" n="1">
+         <desc>0001v</desc>
+         <graphic mimeType="pdf" url="AM%20655%20X%204to/1/HIGH_QUALITY_DISPLAY"/>
+         <graphic mimeType="jpg" url="AM%20655%20X%204to/1/THUMBNAIL" width="200px" height="273px"/>
+         <graphic mimeType="jpg" url="AM%20655%20X%204to/1/SECONDARY_DISPLAY" width="4176px"
+            height="5692px"/>
+         <graphic mimeType="pdf" url="AM%20655%20X%204to/1/WEB_DISPLAY"/>
+      </surface>
+      <surface xml:id="AM04-0655-X-0002r" n="2">
+         <desc>0002r</desc>
+         <graphic mimeType="pdf" url="AM%20655%20X%204to/2/HIGH_QUALITY_DISPLAY"/>
+         <graphic mimeType="jpg" url="AM%20655%20X%204to/2/THUMBNAIL" width="200px" height="272px"/>
+         <graphic mimeType="jpg" url="AM%20655%20X%204to/2/SECONDARY_DISPLAY" width="4176px"
+            height="5680px"/>
+         <graphic mimeType="pdf" url="AM%20655%20X%204to/2/WEB_DISPLAY"/>
+      </surface>
+      <surface xml:id="AM04-0655-X-0002v" n="3">
+         <desc>0002v</desc>
+         <graphic mimeType="pdf" url="AM%20655%20X%204to/3/HIGH_QUALITY_DISPLAY"/>
+         <graphic mimeType="jpg" url="AM%20655%20X%204to/3/THUMBNAIL" width="200px" height="273px"/>
+         <graphic mimeType="jpg" url="AM%20655%20X%204to/3/SECONDARY_DISPLAY" width="4176px"
+            height="5697px"/>
+         <graphic mimeType="pdf" url="AM%20655%20X%204to/3/WEB_DISPLAY"/>
+      </surface>
+   </facsimile>
 </TEI>

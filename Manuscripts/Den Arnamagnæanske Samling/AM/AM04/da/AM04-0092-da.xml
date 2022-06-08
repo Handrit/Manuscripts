@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,57 +23,46 @@
                      <idno>745</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Norsk lovhåndskrift</title>; <origPlace>Norge</origPlace>,
-                     <origDate notBefore="1590" notAfter="1610" evidence="conjecture" resp="KKKat">ca. 1600</origDate>. <note>Beskrevet
-                     i Norges gamle Love IV, 586-87.</note>
-               </head>
                <msContents>
-                  <msItem n="1">
+               	<summary> <title type="supplied">Norsk lovhåndskrift</title></summary>
+               	<textLang mainLang="da">Ældre nydansk</textLang>
+               	<msItem n="1" class="logfr">
                      <locus facs="#AM04-0092-0001r">1r</locus>
                      <title type="supplied" xml:lang="da">Edens betydning</title>
-                     <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
-                  <msItem n="2">
+               	<msItem n="2" class="logfr">
                      <locus from="1v" facs="#AM04-0092-0001v" to="2r">1v-2r</locus>
                      <title type="uniform" xml:lang="da">Herredsskrivernes ed i Aggershus len
                         1592</title>
-                     <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
-                  <msItem n="3">
+                  <msItem n="3" class="log">
                      <locus from="5r" facs="#AM04-0092-0005r" to="105b">5r-105v</locus>
-                     <title type="uniform" xml:lang="da">Kong Magnus Lagabøters Norske
+                     <title type="uniform" xml:lang="da">Magnus Lagabøters norske
                         landslov</title>
-                     <textLang mainLang="da">Ældre nydansk</textLang>
-                     <note>Med efterfølgende register.</note>
+                  	<note>Med efterfølgende register.</note>
                   </msItem>
-                  <msItem n="4">
+                  <msItem n="4" class="log">
                      <locus from="107r" facs="#AM04-0092-0107r" to="126v">107r-126v</locus>
                      <title type="supplied" xml:lang="da">Retterbøder fra 1200-1300-tallet</title>
-                     <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
-                  <msItem n="5">
+                  <msItem n="5" class="regist">
                      <locus from="128r" facs="#AM04-0092-0128r" to="130v">128r-130v</locus>
-                     <title type="supplied" xml:lang="da">Register over retterbøderne</title>
-                     <textLang mainLang="da">Ældre nydansk</textLang>
+                  	<title type="supplied" xml:lang="da">Register over retterbøderne</title>
                      <note>Med undtagelse af de to sidste.</note>
                   </msItem>
-                  <msItem n="6">
+                  <msItem n="6" class="kont">
                      <locus from="133r" facs="#AM04-0092-0133r" to="134v">133r-134v</locus>
                      <title type="supplied" xml:lang="da">Norsk kongerække fra Harald hårfager til
                         Christoffer af Bayern</title>
-                     <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
-                  <msItem n="7">
+                  <msItem n="7" class="kont">
                      <locus from="134v" facs="#AM04-0092-0134v" to="136v">134v-136v</locus>
                      <title type="uniform" xml:lang="da">Arvetallet</title>
-                     <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
-                  <msItem n="8">
+                  <msItem n="8" class="log">
                      <locus from="137r" facs="#AM04-0092-0137r" to="144v">137r-144v</locus>
                      <title type="uniform" xml:lang="da">Christian IV, privilegier for den norske
                         adel, Kronborg 1591</title>
-                     <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
                </msContents>
                <physDesc>
@@ -85,8 +74,8 @@
                         </support>
                         <extent>144. Bl. 2v-4, 5v-8, 13, 105v-6, 127, 131-32, samt en del enkelte
                            sider er ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>193</height>
-                              <width>152</width>
+                              <height unit="mm">193</height>
+                              <width unit="mm">152</width>
                            </dimensions>.</extent>
                      </supportDesc>
                      <layoutDesc>
@@ -97,27 +86,30 @@
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="LauNic001" scope="sole" script="unknown">
-                        <p>Skrevet af Laurentius Nicolai.</p>
+                        <p>Skrevet af <name type="person" key="LauNic001">Laurentius Nicolai</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+            	<history><origin><origPlace>Norge</origPlace>,
+            		<origDate notBefore="1590" notAfter="1610" evidence="conjecture" resp="KKKat">ca. 1600</origDate>.</origin> 
+            	</history>
                <additional>
                   <listBibl>
                      <bibl>
                         <ref type="secondary" target="Gthl">Gulaþingslǫg</ref>
-                        <biblScope unit="pages">xxx</biblScope>
+                        <biblScope unit="page">xxx</biblScope>
                         </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">400-401</biblScope>
+                        <biblScope unit="page">400-401</biblScope>
                      </bibl>
                      <bibl>Storm: <ref type="secondary" target="ChrVidSkFor14">Om Haandskrifter og
                         Oversættelser af Magnus Lagaböters Love</ref>
-                        <biblScope unit="pages">43</biblScope>
+                        <biblScope unit="page">43</biblScope>
                      </bibl>
                      <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
                         <biblScope unit="volume">IV</biblScope>
-                        <biblScope unit="pages">586-587</biblScope>
+                        <biblScope unit="page">586-587</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

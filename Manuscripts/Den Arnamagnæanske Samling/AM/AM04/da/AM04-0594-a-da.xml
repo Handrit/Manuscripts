@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,43 +23,41 @@
                      <idno>1505</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Sögubók</title>; <origPlace>Island</origPlace>, <origDate notBefore="1600" notAfter="1699" resp="KKKat">s. XVII</origDate>
-               </head>
-               <msContents>
-                  <msItem n="1">
+                  <msContents>
+                  <summary><title type="supplied">Sagahåndskrift</title></summary>
+                     <textLang mainLang="is">Islandsk</textLang>
+                     <msItem n="1" class="ridd">
                      <locus from="1r" to="66r">1r-66r</locus>
                      <title type="uniform">Flóres saga ok Leó</title>
-                     <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Hier Hefur Wpp <lb/> SOGV AF OCTAFI<lb/>ANVS KEISARA OG HANS
+                      <rubric>Hier Hefur Wpp <lb/> SOGV AF OCTAFI<lb/>ANVS KEISARA OG HANS
                         TV<lb/>EIMVR SONVM LEO OG FLORIS OG <lb/> þeirra Moder vr þyſku
                         vtløgd</rubric>
                   </msItem>
-                  <msItem n="2">
+                     <msItem n="2" class="helgiso" defective="true">
                      <locus from="66v" to="69r">66v-69r</locus>
+                     <title type="uniform" xml:lang="is">Um sjö sofendr</title>
+                     <title type="uniform" xml:lang="la">De septem dormientibus</title>
                      <rubric>Historian wm siø sofendvr</rubric>
-                     <textLang mainLang="is">Islandsk</textLang>
-                     <note>Lakune da bl. 67-68 er gået tabt.</note>
+                     <note>Defekt, da bl. 67-68 er gået tabt.</note>
                   </msItem>
-                  <msItem n="3">
+                     <msItem n="3" class="helgiso">
                      <locus from="69r" to="69v">69r-v</locus>
+                     <title type="uniform">Kristofors saga helga</title>
                      <rubric>Historian Af Santi <lb/> CHRISTOFOR</rubric>
-                     <textLang mainLang="is">Islandsk</textLang>
-                  </msItem>
-                  <msItem n="3">
-                     <locus>70r</locus>
+                     </msItem>
+                     <msItem n="4"  class="helgiso">
+                     <locus from="70r" to="70r">70r</locus>
+                     <title type="supplied">Om sankt Nikolaus</title>
                      <rubric>Historian vm Sa<lb/>nti Nicolavm</rubric>
-                     <textLang mainLang="is">Islandsk</textLang>
-                  </msItem>
-                  <msItem n="4">
+                   </msItem>
+                  <msItem n="5" class="dyrl bis">
                      <locus from="70r" to="71r">70r-71r</locus>
-                     <rubric>Vm S. Martin<lb/>um biskup</rubric>
-                     <textLang mainLang="is">Islandsk</textLang>
-                  </msItem>
-                  <msItem n="5">
+                     <title type="supplied">Om Morten Bisp</title>
+                       <rubric>Vm S. Martin<lb/>um biskup</rubric>
+                   </msItem>
+                     <msItem n="6" class="jarteikn">
                      <locus from="71r" to="71v">71r-v</locus>
-                     <title type="supplied">Undr nokkur, anno 864-938</title>
-                     <textLang mainLang="is">Islandsk</textLang>
+                     <title type="supplied">Nogle mirakler fra årene 864-938</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -70,31 +69,36 @@
                         </support>
                         <extent>69. Størstedelen af bl. 69v (folieringens bl. 71v) er ubeskrevet.
                               <dimensions type="leaf" scope="all">
-                              <height>190</height>
-                              <width>152</width>
+                              <height unit="mm">190</height>
+                              <width unit="mm">152</width>
                            </dimensions>.</extent>
                         <foliation>Folieret 1-71, idet bl. 67-68 mangler.</foliation>
                      </supportDesc>
                   </objectDesc>
                   <decoDesc>
-                     <decoNote type="initial">Ornamenterede initialer.</decoNote>
+                     <decoNote type="initial" subtype="flourished">Ornamenterede initialer.</decoNote>
                   </decoDesc>
                   <accMat>På en foran indklæbet seddel har <name type="person" key="ArnMag001">Arne
-                        Magnusson</name> noteret: <q xml:lang="is">Þetta eignadizt eg ä
-                        Beſſaſtdum <date when="1707">1707</date>. Er komid fra <name type="person" key="GisTho001">Giſla</name> ä <name type="place" key="SetMið01">Setberge</name>.</q>
+                        Magnusson</name> noteret: <q xml:lang="is">Þetta eignadizt eg ä Beſſaſtdum
+                           <date when="1707">1707</date>. Er komid fra <name type="person"
+                           key="GisTho001">Giſla</name> ä <name type="place" key="SetMið01"
+                           >Setberge</name>.</q>
                   </accMat>
                </physDesc>
+               <history><origin><origPlace>Island</origPlace>, <origDate
+                  notBefore="1600" notAfter="1699" resp="KKKat">s. XVII</origDate>.</origin></history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">762</biblScope>
+                        <biblScope unit="page">762</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-10" who="EvaWed001">Opdateret opmærkning.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

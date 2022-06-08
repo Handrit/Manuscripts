@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,37 +19,43 @@
                         <collection key="AM"/>
                         <idno>AM 904 a 4to</idno>
                         <altIdentifier type="internal" subtype="KKKat">
-                            <idno>2009</idno>
+                            <idno>2036</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" n="1">Prologus Ólafs sögu helga (efter
-                            Bæjarbók)</title>, <title type="supplied" n="2">Prologus Ólafs sögu
-                            helga (efter AM 325 V 4to)</title>, <title type="uniform" n="3">Speculum
-                            regale</title> og <title type="supplied" n="4">Ættartölur úr fragmento
-                            Þórðar saga hreðu</title>; <!--origPlace></origPlace-->, <origDate notBefore="1680" notAfter="1720">ca. 1700</origDate>.</head>
                     <msContents>
+                        <summary><title type="supplied">Prologer til Ólafs saga helga, Konungs
+                                skuggsjá og Slægtstavler</title>.</summary>
                         <msItem n="1">
-                            <title type="supplied" n="1">Prologus Ólafs sögu helga (efter
-                                Bæjarbók)</title>
+                            <locus from="2r" to="8r">2r-8r</locus>
+                            <title type="supplied">Prolog til Ólafs saga helga</title>
                             <textLang mainLang="is" otherLangs="la">Islandsk og latin</textLang>
-                            <note>På omslaget (bl. 1r) giver <name type="person" key="ArnMag001">Arne Magnusson</name> oplysning om afskriften.</note>
+                            <filiation>Efter <title type="ms">Bæjarbók</title> (<ref type="ms"
+                                    target="#AM02-0073-b-da">AM 73 b fol.</ref>)</filiation>
+                            <note>På omslaget (bl. 1r) giver <name type="person" key="ArnMag001"
+                                    >Arne Magnusson</name> oplysning om afskriften.</note>
                         </msItem>
                         <msItem n="2">
-                            <title type="supplied" n="2">Prologus Ólafs sögu helga (efter AM 325 V
-                                4to)</title>
+                            <locus from="12r" to="15r">12r-15r</locus>
+                            <title type="supplied" n="2">Prolog til Ólafs saga helga</title>
                             <textLang mainLang="is" otherLangs="la">Islandsk og latin</textLang>
-                            <note>På omslaget (bl. 1r) giver <name type="person" key="ArnMag001">Arne Magnusson</name> oplysning om afskriften.</note>
+                            <note>På omslaget (bl. 1r) giver <name type="person" key="ArnMag001"
+                                    >Arne Magnusson</name> oplysning om afskriften.</note>
+                            <filiation>Efter <ref type="ms" target="#AM04-0325-V-da.xml">AM 325 V
+                                    4to</ref>.</filiation>
                         </msItem>
-                        <msItem n="3">
-                            <title type="uniform" n="3">Speculum regale</title>
+                        <msItem n="3" defective="true">
+                            <locus from="18r" to="21v">18r-21v</locus>
+                            <title type="uniform" xml:lang="la">Speculum regale</title>
+                            <title type="uniform" xml:lang="is">Konungs skuggsjá</title>
                             <textLang mainLang="is" otherLangs="la">Latin</textLang>
-                            <note>Latinsk oversættelse af Kongespejlet. Fragment. Aftrykt i Arkiv
-                                for nordisk Filologi I, 110-12.</note>
+                            <note>Latinsk oversættelse.</note>
+                            <bibl>Storm: <ref target="GusSto1883a">Brudstykke af en latinsk
+                                    Oversættelse af Kongespeilet fra 14de Aarhundrede</ref>
+                                <biblScope unit="page">110-112</biblScope></bibl>
                         </msItem>
                         <msItem n="4">
-                            <title type="supplied" n="4">Ættartölur úr fragmento Þórðar saga
-                                hreðu</title>
+                            <title type="supplied">Slægtstavler</title>
+                            <note><q>úr fragmento Þórðar saga hreðu</q></note>
                             <textLang mainLang="is" otherLangs="la">Islandsk og latin</textLang>
                         </msItem>
                     </msContents>
@@ -60,26 +67,39 @@
                                         <material>Papir.</material>
                                     </p>
                                 </support>
-                                <extent>31. Bl. 9-10 og 16-17 er ubeskrevne. <dimensions type="leaf" scope="all">
-                                        <height>210</height>
-                                        <width>165</width>
+                                <extent>31. Bl. 9-10 og 16-17 er ubeskrevne. <dimensions type="leaf"
+                                        scope="all">
+                                        <height unit="mm">210</height>
+                                        <width unit="mm">165</width>
                                     </dimensions>.</extent>
                             </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1 2">
+                                    <p>Bl. 2r-8r er skrevet på bladenes indre kolonner.</p>
+                                </layout>
+                            </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote scope="major" script="unknown" scribe="ArnMag001">
-                                <p>Skrevet af eller for Arne Magnusson. Bl. 2-8r er rettet af Arne
-                                    Magnusson. Bl. 12-15r er efter Arne Magnusson.</p>
+                            <handNote scope="major" script="unknown">
+                                <p>Skrevet af eller for <name type="person" key="ArnMag001">Arne
+                                        Magnusson</name>.</p>
                             </handNote>
-                            <handNote scope="minor" script="unknown" scribe="AsgJon001">På bl. 2-8r
-                                har Ásgeir Jónsson skrevet på bladenes indre kolonner.</handNote>
+                            <handNote scope="minor" script="unknown" scribe="AsgJon001"><name
+                                    type="person" key="AsgJon001">Ásgeir Jónsson</name> har skrevet
+                                bl. 2r-8r.</handNote>
                         </handDesc>
+                        <additions>Arne Magnusson har tilføjet rettelser til første stykke (bl.
+                            2r-8r).</additions>
                     </physDesc>
+                    <history>
+                        <origin>Skrevet i <origPlace>Island eller Danmark</origPlace>
+                            <origDate notBefore="1680" notAfter="1720">ca. 1700</origDate></origin>
+                    </history>
                     <additional>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                                 <biblScope unit="volume">II</biblScope>
-                                <biblScope unit="pages">254</biblScope></bibl>
+                                <biblScope unit="page">254</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

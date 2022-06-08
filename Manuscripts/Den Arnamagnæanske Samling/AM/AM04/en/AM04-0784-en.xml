@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,13 +23,35 @@
                             <idno>1917</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Prayer book</title>
-                        <origPlace>Denmark</origPlace>
-                        <origDate notBefore="1523-01-01" notAfter="1523-12-31">1523</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="supplied">Prayer book</title></summary>
                         <textLang mainLang="da">Old Danish</textLang>
+                                     <msItem n="1">
+                                <locus from="80r" to="338r">80r-338r</locus>
+                                <title type="supplied" xml:lang="en">Mirror of Wisdom</title>
+                                <title type="supplied" xml:lang="la">Speculum sapientiae</title>
+                                        <filiation>According to Nielsen (<bibl><ref type="primary-1"
+                                            target="MDB">Nielsen 1945</ref>
+                                            <biblScope unit="volume">I</biblScope>
+                                            <biblScope unit="pages">xxxv</biblScope></bibl>) parts of <ref
+                                                target="#AM04-0782-en">AM 782 4to</ref> and AM 784 4to are
+                                            copied from the same exemplar and fols 80r-338r correspond to AM 782
+                                            4to, fols 1r-246r.</filiation>
+                                        <!-- MDB IV, fols 1r-4v, 7r-13v, 16r-22v, 26r-29r, 36v-53r, 55r-80r (tjek indhold med bog når tilbage onsdag). -->
+                             <bibl>Nielsen: <ref type="primary" target="MDB">Middelalderens danske
+                                    bønnebøger</ref>
+                                <biblScope unit="volume">III</biblScope>
+                                <biblScope unit="page">179-473</biblScope>
+                                <note>Var.app. 784.</note>
+                            </bibl>
+                            <bibl>Nielsen: <ref type="primary" target="MDB">Middelalderens danske
+                                    bønnebøger</ref>
+                                <biblScope unit="volume">IV</biblScope>
+                                <biblScope unit="page">367-442</biblScope>
+                                <note>Fols 184r-186r, 265r-266r, 338v-339r, 341r-342v,
+                                    345v-346v.</note>
+                            </bibl>
+                    </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
@@ -39,19 +62,19 @@
                                     </p>
                                 </support>
                                 <extent>346. <dimensions type="leaf" scope="all">
-                                        <height>192</height>
-                                        <width>130</width>
+                                        <height unit="mm">192</height>
+                                        <width unit="mm">130</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <bindingDesc>
                             <binding notBefore="1523" notAfter="1599">
                                 <p>
-                           <dimensions type="binding">
-                                        <height>194</height>
-                                        <width>133</width>
-                                        <depth>70</depth>
+                                    <dimensions type="binding">
+                                        <height unit="mm">194</height>
+                                        <width unit="mm">133</width>
+                                        <depth unit="mm">70</depth>
                                     </dimensions>. Contemporary brown blind-tooled calfskin over
                                     pasteboards on three sewing supports. The back cover is extended
                                     with a flap which is fastened to the front cover by to metal
@@ -62,11 +85,35 @@
                             </binding>
                         </bindingDesc>
                         <accMat>
-                            <p>The text on rni Magnusson's slip reads: <q xml:lang="la">Ex auctione
-                                    Rostgardianå <lb/>Num. 353.</q> indicating that Árni Magnússon
-                                aquired the manuscript at <name type="person" key="FreRos001">Frederik Rostgaard</name>'s auction in <date when="1726">1726</date>.</p>
+                            <p>The text on Árni Magnusson's slip reads: <q xml:lang="la">Ex auctione
+                                    Rostgardianå <lb/>Num. 353.</q> indicating that he aquired the
+                                manuscript at <name type="person" key="FreRos001">Frederik
+                                    Rostgaard</name>'s auction in <date when="1726">1726</date>.</p>
                         </accMat>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Denmark</origPlace>, <origDate when="1523"
+                                >1523</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Cormack, <ref type="secondary-1" target="MarCor2016a">St Ursula
+                                    and the 11,000 Virgins in Scandinavia and Iceland in the Middle
+                                    Ages</ref>
+                                <biblScope unit="page">208, 220 (footnotes)</biblScope></bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">202-203</biblScope>
+                            </bibl>
+                            <bibl>Rietz, <ref target="Wadstena">En Wadstena-nunnas bönbok</ref>
+                                <biblScope unit="page">xv-xvi</biblScope>
+                            </bibl>
+                            <bibl>Wolf, <ref target="Barbarasaga2000">The Old Norse-Icelandic Legend
+                                    of Saint Barbara</ref><biblScope unit="page">55,
+                                57</biblScope></bibl>
+                        </listBibl>
+                    </additional>
+
                 </msDesc>
             </sourceDesc>
         </fileDesc>

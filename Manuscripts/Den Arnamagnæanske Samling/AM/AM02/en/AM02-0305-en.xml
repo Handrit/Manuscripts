@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,14 +23,45 @@
                      <idno>460</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="en">Norwegian Legal Manuscript</title>;
-                  <origPlace>Norway</origPlace>,
-                  <origDate notBefore="1290" notAfter="1460">c. 1300 (ff. 1r-76r); c. 1350 (ff. 76v-78v);
-                     s. XIV (f. 79r); ca. 1450 (ff. 80r-100v)</origDate>.
-               </head>
                <msContents class="log">
-                  <textLang mainLang="no">Old Norse/Norwegian</textLang>
+                  <summary><title type="supplied" xml:lang="en">Norwegian Legal
+                     Manuscript</title></summary>
+                  <textLang mainLang="non">Old Norse/Norwegian</textLang>
+                  <msItem n="1" class="log">
+                     <locus from="1r" to="76v">1r-76r</locus>
+                     <title type="supplied" xml:lang="en">King Magnus the Lawmender’s National Law
+                        of Norway</title>
+                     <title type="uniform" xml:lang="non">Landslǫg</title>
+                     <textLang mainLang="non">Norrønt/norsk</textLang>
+                     <bibl>Horn, <ref target="AnnHorMenota-02-305">Landslǫg Magnúss
+                           Hákonarsonar</ref>
+                        <note>From <ref type="url" target="http://clarino.uib.no/menota/catalogue"
+                              >Menota</ref>.</note></bibl>
+                  </msItem>
+                  <msItem n="2" class="log">
+                     <locus from="76va" to="84vb">76v-84vb</locus>
+                     <title type="supplied" xml:lang="en">Legal Amendments</title>
+                     <msItem n="2.1">
+                        <locus from="76v" to="78rb">76va-78rb</locus>
+                        <title type="uniform">Réttarbœtr Eiríks Magnússonar</title>
+                     </msItem>
+                     <msItem n="2.2">
+                        <locus from="78rb" to="83vb">78rb-83vb</locus>
+                        <title type="uniform">Réttarbœtr Hákonar Magnússonar</title>
+                        <bibl>Storm: <ref target="NgL4">Norges gamle Love</ref>
+                           <biblScope unit="volume">IV</biblScope>
+                           <biblScope unit="page">479-480</biblScope><note>Fols 80ra-81rb, Footnote 2.</note></bibl>
+                     </msItem>
+                     <msItem n="2.3">
+                        <locus from="84va" to="84vb">84va-84vb</locus>
+                        <title type="uniform">Réttarbœtr Magnús Eiríkssonar</title>
+                     </msItem>
+                  </msItem>
+                  <msItem n="3" class="log">
+                     <locus from="91v" to="100v">91v-100v</locus>
+                     <title type="uniform" xml:lang="non">Bœjarlǫg</title>
+                  </msItem>
+
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -38,17 +70,40 @@
                            <p>Parchment.</p>
                         </support>
                         <extent>100. <dimensions type="leaf" scope="all" unit="mm">
-                           <height>307</height>
-                           <width>214</width>
-                        </dimensions>.</extent>
+                              <height unit="mm">307</height>
+                              <width unit="mm">214</width>
+                           </dimensions>.</extent>
+                        <collation>The manuscript consists of ten quires plus one single leaf.</collation>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin notBefore="1290" notAfter="1460">
+                     <p>Written in <origPlace>Noway</origPlace>, <origDate
+                        notBefore="1290" notAfter="1460">c. 1300, s. XIV med, s. XIV and s. XV med</origDate> 
+                        (<bibl><ref target="ONPindices">ONP</ref></bibl>):
+                       <list>
+                           <item>Fols 1ra-76ra: c. 1300 (e.g. <bibl><ref target="DidSei9999a">Seip
+                              1950</ref><biblScope unit="page">16</biblScope></bibl>)</item>
+                           <item>Fols 76v-78v: c. 1350 (<bibl><ref target="DidSei9999a">ibid.</ref>.</bibl>)</item>
+                           <item>Fol. 79r: The fourteenth century (Magnus Rindal pers. 1988).</item>
+                           <item>Fol. 80r-100v: c. 1450 (e.g. <bibl><ref target="DidSei9999a">Seip
+                              1950</ref>, ibid.</bibl>).</item>
+                        </list></p>
+                     <p>Kålund (<bibl><ref target="KKKat">Katalog</ref></bibl>) dated the entired manuscript to <origDate notBefore="1300" notAfter="1499"
+                           >the fourteenth and the fifteenth centuries</origDate>. </p>
+                  </origin>
+                     </history>
                <additional>
                   <listBibl>
+                     <bibl>Grøtvedt, <ref target="PerGrø1939"/>
+                        <biblScope unit="page">7<!-- and? --></biblScope></bibl>
+                     <bibl>Horn, <ref target="AnnHor2009a"/></bibl>
+                     <bibl>Horn, <ref target="AnnHor2014a"/>
+                        <biblScope unit="page">68-70, 74-81</biblScope></bibl>
                      <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">257-258</biblScope>
+                        <biblScope unit="page">257-258</biblScope>
                      </bibl>
                      <bibl>Jón Sigurðsson, <ref target="DiplIsl">Diplomatarium Islandicum</ref>
                         <biblScope unit="volume">I</biblScope>
@@ -61,13 +116,15 @@
                         <ref target="Gthl">Magnus Konongs Laga-Bæters Gula-things-laug</ref>
                         <!-- primær eller sekundær litteratur? -->
                      </bibl>
+                     <bibl>Seip, <ref target="DidSei9999a"/><biblScope unit="page">16<!-- og? --></biblScope></bibl>
+                     <bibl>Steinnes, <ref target="Steinnes1964"/><!-- biblScope? --></bibl>
                      <bibl>Storm, <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
                         <biblScope unit="volume">IV</biblScope>
-                        <biblScope unit="pages">477-82</biblScope>
+                        <biblScope unit="page">477-82</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
-               
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

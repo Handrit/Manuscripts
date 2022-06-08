@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,26 +24,25 @@
                         </altIdentifier>
                         <msName type="nickname" xml:lang="is">Jöfraskinna</msName>
                     </msIdentifier>
-                    <head>
-                        <title>Sverris saga</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1300" notAfter="1325" cert="high" evidence="conjecture">s. XIV 1/4</origDate>
-                        <note>This leaf once belonged to the manuscript known as Jöfraskinna, the
-                            bulk of which is found in Kungliga biblioteket in <name type="place">Stockholm</name>, catalogued as <ref>Holm perg 9 II
-                            fol.</ref>
-                  </note>
-                    </head>
                     <msContents>
-                        <msItem class="kon" defective="true">
+                        <summary><title type="uniform">Sverris saga</title></summary>
+                        <msItem n="1" class="kon" defective="true">
                             <locus from="1ra" to="1vb">1ra-1vb</locus>
-                            <title>Sverris saga</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <title type="uniform">Sverris saga</title>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <incipit defective="true">mæla mundi æ<expan>ige</expan>
                                     þ<expan>at</expan> til</incipit>
                             <explicit defective="true">sva at hvarum tvegium hugnade</explicit>
+                            <filiation>This leaf once belonged to a manuscript known as Jöfraskinna,
+                                of which a part is preserved in <name type="org" key="KungBib">The
+                                    Royal Library of Sweden</name> (<ref type="ms">Holm perg 9 II
+                                    fol.</ref>) and another in <name type="org" key="NO-Riks">The
+                                    National Archival Services of Norway</name> (<ref type="ms">NRA
+                                    55 A</ref>).</filiation>
                             <bibl>
-                        <ref type="primary-2" target="FMS8">Fornmanna sögur</ref> VIII,
-                                pp. 227:17-250:12.</bibl>
+                                <ref type="primary-2" target="FMS8">Fornmanna sögur</ref>
+                                <biblScope unit="volume">VIII</biblScope>
+                                <biblScope unit="page">227:17-250:12</biblScope>.</bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -52,46 +52,52 @@
                                     <p>
                                         <material>Parchment</material>.</p>
                                 </support>
-                                <extent>1. <dimensions scope="all" type="leaf">
-                                        <height>283</height>
-                                        <width>168</width>
+                                <extent>1. <dimensions scope="all" type="leaf" unit="mm">
+                                        <height unit="mm">283</height>
+                                        <width unit="mm">168</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
-                                    <p>Only half of the outer column is extant.</p>
+                                    <p>Half of the outer column is excised.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" writtenLines="36 37">
-                                    <p>The leaf is written in double colums with 37 lines per column
-                                        on the recto and 36 lines per column on the verso.
-                                        Majuscules and rubrics in red.</p>
+                                    <p>The leaf is written in two colums with 37 lines per column on
+                                        the recto and 36 lines per column on the verso. Majuscules
+                                        and rubrics in red.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
                             <handNote scope="sole" script="textualis">
-                                <p>The leaf is written in black ink in a skilled Icelandic Gothic
-                                    bookhand.</p>
+                                <p>The leaf is written in black ink in a skilled <term type="script"
+                                        >Icelandic Gothic bookhand</term>.</p>
                             </handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote type="initial" subtype="litteraflorissa">
-                                <p>The very outer part of a littera florissa is found on f. 1va.</p>
+                                <p>The outermost part of a littera florissa is found on f. 1va.</p>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
                     <history>
                         <origin notBefore="1300" notAfter="1325" cert="high" evidence="conjecture">
-                            <p>The leaf is written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> has dated it
-                                to <date>the fourteenth century</date> (<bibl>
+                            <p>The leaf is written in <origPlace>Iceland</origPlace>. <name
+                                    type="person" key="KriKaa001">Kristian Kålund</name> has dated
+                                it to <date>the fourteenth century</date> (<bibl>
                                     <ref type="secondary-1" target="KKKat">KKKat</ref>
                                 </bibl>), whereas <name type="person" key="FinJon002">Finnur
                                     Jónsson</name> (<bibl>
-                           <ref type="secondary" target="STUAGNL24">Finnur Jónsson</ref> 1895, pp. iii, v</bibl>) and <name type="person" key="SteKar001">Stefán Karlson</name> (<bibl>
-                           <ref type="secondary" target="EIMF7">Stefán Karlsson 1967</ref>,
-                                    p. 59</bibl>) has dated it more precisely to <origDate notBefore="1300" notAfter="1325" cert="high" evidence="conjecture">the first quarter of the fourteenth
-                                    century</origDate>.</p>
+                                    <ref type="secondary" target="STUAGNL24">Finnur Jónsson
+                                        1895</ref>
+                                    <biblScope unit="page">iii, v</biblScope></bibl>) and <name
+                                    type="person" key="SteKar001">Stefán Karlson</name> (<bibl>
+                                    <ref type="secondary" target="EIMF7">Stefán Karlsson 1967</ref>,
+                                        <biblScope unit="page">59</biblScope></bibl>) have dated it
+                                more precisely to <origDate notBefore="1300" notAfter="1325"
+                                    cert="high" evidence="conjecture">the first quarter of the
+                                    fourteenth century</origDate>.</p>
                         </origin>
                     </history>
                     <additional>
@@ -103,59 +109,63 @@
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
-                                    <p>The manuscript was set on meeting guards and put in a
-                                        cardboard cover <date>02.03.1958-04.04.1959</date>.</p>
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
+                                    <p>The leaf was put on a meeting-guard and put in a cardboard
+                                        cover <date from="1958-03-02" to="1959-04-04"
+                                            >02.03.1958-04.04.1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade 37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositives</title>
-                                        <idno>AM 325 VIII 3 d 4to</idno>
-                                        <date>May 1984 (or 1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <date>October 1956</date>
-                                        <idno>AM 325 VIII 3 d 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item>Plate, <idno>plade37</idno>, s.d.</item>
+                                    <item>Diapositives from <date notBefore="1984-05"
+                                            notAfter="1985-05">May 1984 or 1985</date>.
+                                    </item>
+                                    <item>Black and white prints from <date when="1956-10">October
+                                            1956</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
                             <bibl>
-                        <ref type="secondary" target="FMS8">Fornmanna sögur</ref> VIII,
-                                    pp.XX-XXI<note>Described as fragment 8</note>
-                     </bibl>
+                                <ref type="secondary" target="FMS8">Fornmanna sögur</ref>
+                                <biblScope unit="volume">VIII</biblScope>, <biblScope unit="page"
+                                    >xx-xxi</biblScope><note>Described as fragment 8.</note>
+                            </bibl>
                             <bibl>
-                        <ref type="secondary" target="STUAGNL23">Finnur Jónsson
-                                    1893-1901</ref>, pp. XXIV-XXV</bibl>
+                                <ref type="secondary" target="STUAGNL23">Finnur Jónsson
+                                    1893-1901</ref><biblScope unit="page"
+                                >xxiv-xxv</biblScope></bibl>
                             <bibl>
-                        <ref type="secondary" target="STUAGNL24">Finnur Jónsson
-                                1895</ref>, pp. III-V, XI-XX<note>The fragment is described as
-                                    Jöfraskinna f. 6, including facs.</note>
-                     </bibl>
+                                <ref type="secondary" target="STUAGNL24">Finnur Jónsson 1895</ref>,
+                                    <biblScope unit="page">iii-v, xi-xx</biblScope>
+                                <note>The fragment is described as Jöfraskinna f. 6, including
+                                    facs.</note>
+                            </bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">560</biblScope>
+                            </bibl>
+
                             <bibl>
-                        <ref type="secondary" target="HandskrWidding1960">Ole Widding
-                                    1960</ref>, pp. 81-96</bibl>
+                                <ref type="secondary" target="HandskrWidding1960">Ole Widding
+                                    1960</ref><biblScope unit="page">81-96</biblScope></bibl>
                             <bibl>
-                        <ref type="secondary" target="EIMF7">Stefán Karlsson 1967</ref>,
-                                pp. 59, 60</bibl>
+                                <ref type="secondary" target="EIMF7">Stefán Karlsson 1967</ref>
+                                <biblScope unit="page">59, 60</biblScope></bibl>
                             <bibl>
-                        <ref type="secondary" target="BiblArn32">Louis-Jensen 1977</ref>,
-                                p. 24</bibl>
+                                <ref type="secondary" target="BiblArn32">Louis-Jensen 1977</ref>
+                                <biblScope unit="page">24</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2021-12-01" who="EvaWed001">Updated.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

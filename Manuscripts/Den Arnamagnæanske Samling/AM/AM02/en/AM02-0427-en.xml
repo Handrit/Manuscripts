@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,12 +26,9 @@
                             <idno>Addit. 31 a fol.</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Poëmata aliqvot perantiqva</title>
-                        <origPlace>Denmark</origPlace>
-                        <origDate notBefore="1756-01-01" notAfter="1756-12-31">1756</origDate>
-                    </head>
                     <msContents>
+                        <summary><title type="supplied">Poëmata aliqvot perantiqva</title>
+                        </summary>
                         <msItem n="1">
                             <rubric xml:lang="la">LIBER POEMATA aliqvot <lb/> perantiqva continens
                                 <lb/> vulgo dictus <lb/> Sæmundar Edda, <lb/> seu <lb/> EDDA
@@ -85,10 +83,10 @@
                                     </p>
                                 </support>
                                 <extent>143. <dimensions type="leaf" scope="all">
-                                        <height>335</height>
-                                        <width>212</width>
+                                        <height unit="mm">335</height>
+                                        <width unit="mm">212</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
@@ -99,10 +97,19 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1756" notAfter="1756" cert="high" evidence="internal">
-                            <p>Written in Copenhagen, Denmark 1756 by Jón Ólafsson of Grunnavík.</p>
+                            <p>Written in <origPlace>Copenhagen, Denmark</origPlace>, <origDate
+                                    when="1756" cert="high" evidence="internal">1756</origDate>.</p>
                         </origin>
                     </history>
-                </msDesc>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">318-319</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>

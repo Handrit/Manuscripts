@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,31 +22,97 @@
                             <idno>1892</idno>
                         </altIdentifier>
                     </msIdentifier>
+                    <msContents>
+                        <summary>
+                            <title type="supplied">Gronlandica</title>
+                            <note>Håndskriftet er sammensat af 8 forskellige håndskrifter af
+                                forskelligt format.</note>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="chart">
+                                <support>
+                                    <p>
+                                        <material>Papir.</material>
+                                    </p>
+                                </support>
+                                <extent>51.</extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p>Bladene er sat på knækfalse og indbundet i to forskellige bind.
+                                    Begge er lysebrune lærredbind med ryg og hjørner i mørkere brunt
+                                    lærred.</p>
+                                <p>AM 7770 c α-γ 4to, som er i folioformat, er indbundet i det
+                                    første bind. Bindet måler: <dimensions type="binding">
+                                        <height unit="mm">335</height>
+                                        <width unit="mm">230</width>
+                                        <depth unit="mm">4</depth>
+                                    </dimensions>.</p>
+                                <p>AM 770 c δ-θ 4to, som er i kvartoformat, er indbundet i det andet
+                                    bind. Bindet måler: <dimensions type="binding">
+                                        <height unit="mm">860</height>
+                                        <width unit="mm">720</width>
+                                        <depth unit="mm">20</depth>
+                                    </dimensions>.</p>
+                            </binding>
+                        </bindingDesc>
+                    </physDesc>
+                    <history>
+                        <origin>Skrevet i <origPlace>Island og Danmark</origPlace> fra <origDate
+                                notBefore="1500" notAfter="1725">1500-tallet til starten af
+                                1700-tallet</origDate>.</origin>
+                    </history>
                     <additional>
                         <listBibl>
                             <bibl>
                                 <ref target="GHM">Grönlands historiske Mindesmærker</ref>
                                 <biblScope unit="volume">I</biblScope>
-                                <biblScope unit="pages">84 (ved trykfejl citeret som 470 c), 118, 119, 640 ff., 664 og 726</biblScope>
-                               </bibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">190-191</biblScope></bibl>
-                            <bibl>Rafn:
-                                <ref target="AntA">Antiqvitates Americanæ</ref>
-                                <biblScope unit="pages">83, 196-200, 209 og 296</biblScope>
+                                <biblScope unit="page">84 (ved trykfejl citeret som 470 c), 118,
+                                    119, 640 ff., 664 og 726</biblScope>
                             </bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat"
+                                    >Katalog</ref><biblScope unit="volume">II</biblScope><biblScope
+                                    unit="page">190-191</biblScope></bibl>
+                            <bibl>Rafn: <ref target="AntA">Antiqvitates Americanæ</ref>
+                                <biblScope unit="page">83, 196-200, 209 og 296</biblScope>
+                            </bibl>
+                            <bibl>Stegmann: <ref type="secondary-1" target="BeeSte2016"/>
+                                <biblScope unit="page">158, 159, 180, 206, 207,
+                                226</biblScope></bibl>
                         </listBibl>
                     </additional>
 
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c alfa 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="1">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c α 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="supplied" xml:lang="da">Tilbud fra Peder Hvitfeldt og
-                                    Christoffer Walkendorff angående Grønlands genopdagelse</title>
+                            <msItem n="1" class="embr">
+                                <locus from="1r" to="1v">1r-v</locus>
+                                <title type="supplied" xml:lang="da">Tilbud om en ekspedition for at
+                                    genopdage Grønland</title>
                                 <textLang mainLang="da">Dansk</textLang>
-                                <note>Koncept eller samtidig kopi.</note>
+                                <note>Udkast eller samtidig kopi.</note>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="PedHvi001">Peder Hvitfeldt</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="crp"/>
+                                    <name type="person" key="ChrWal001">Christoffer
+                                        Walkendorf</name>
+                                </respStmt>
+                                <bibl>
+                                    <ref target="GHM">Grönlands historiske Mindesmærker</ref>
+                                    <biblScope unit="volume">III</biblScope>
+                                    <biblScope unit="page">665</biblScope>
+                                </bibl>
+
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -57,30 +123,52 @@
                                             <material>Papir.</material>
                                         </p>
                                     </support>
-                                    <extent>1. <dimensions type="leaf" scope="all">
-                                            <height>300</height>
-                                            <width>196</width>
+                                    <extent>2. Bl. 2 er ubeskrevet. <dimensions type="leaf"
+                                            scope="all">
+                                            <height unit="mm">300</height>
+                                            <width unit="mm">196</width>
                                         </dimensions>
                                     </extent>
+                                    <foliation>Folieret 1-2.</foliation>
+                                    <collation>To sammenhængende blade: 1+2.</collation>
+                                    <condition>Der er foldemærker, der viser, at bladene har været
+                                        foldet sammen som et brev.</condition>
                                 </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1"><p>Teksten er enspaltet med 25 beskrevne
+                                            linjer på recto-siden og 5 på versosiden.</p></layout>
+                                </layoutDesc>
                             </objectDesc>
                         </physDesc>
                         <history>
                             <origin>
-                                <p>Skrevet i <origPlace>Danmark</origPlace> i <origDate notBefore="1550" notAfter="1599" evidence="conjecture">1500-tallets anden halvdel</origDate>.</p>
+                                <p>Skrevet i <origPlace>Danmark</origPlace> i <origDate
+                                        notBefore="1550" notAfter="1599" evidence="conjecture"
+                                        >1500-tallets anden halvdel</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c beta 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="2">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c β 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="supplied" xml:lang="da">Christian IV's tilladelse for
-                                    <name type="person" key="Braooo003">J.</name> og <name type="person" key="Braooo002">G. Bram</name> til handel på den grønlandske insul
-                                    Christiansberg: 16. oktober 1631</title>
+                            <msItem n="2" class="embr">
+                                <locus from="3r" to="3r">3r</locus>
+                                <title type="supplied" xml:lang="da">Christian IV's tilladelse til
+                                    handel på Svalbard, 16. oktober 1631</title>
+                                <note>Dengang opfattet som landfast med Grønland.</note>
                                 <textLang mainLang="da">Dansk</textLang>
+                                <respStmt>
+                                    <resp key="rcp"/>
+                                    <name type="person" key="Braooo003">J. Bram</name>
+                                </respStmt>
+                                <respStmt>
+                                    <resp key="rcp"/>
+                                    <name type="person" key="Braooo002">G. Bram</name>
+                                </respStmt>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -91,27 +179,48 @@
                                             <material>Papir.</material>
                                         </p>
                                     </support>
-                                    <extent>1. <dimensions type="leaf" scope="all">
-                                            <height>320</height>
-                                            <width>205</width>
+                                    <extent>2. Bl. 3v-4v er ubeskrevet. <dimensions type="leaf"
+                                            scope="all">
+                                            <height unit="mm">320</height>
+                                            <width unit="mm">205</width>
                                         </dimensions>
                                     </extent>
+                                    <foliation>Folieret 3-4.</foliation>
+                                    <collation>To sammenhængende blade: 3+4.</collation>
+                                    <condition>Der er foldemærker, der viser, at bladene har været
+                                        foldet sammen som brev.</condition>
                                 </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1"><p>Teksten er enspaltet og kun bl. 3r er
+                                            beskrevet. Der er 25 beskrevne linjer på
+                                        siden.</p></layout>
+                                </layoutDesc>
                             </objectDesc>
                         </physDesc>
                         <history>
                             <origin>
-                                <p>Skrevet i <origPlace>Danmark</origPlace> i <origDate notBefore="1600" notAfter="1699" evidence="conjecture">1600-tallet</origDate>.</p>
+                                <p>Skrevet i <origPlace>Danmark</origPlace> i <origDate
+                                        notBefore="1600" notAfter="1699" evidence="conjecture"
+                                        >1600-tallet</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c gamma 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="3">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c γ 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="3" class="ritg">
+                                <locus from="5r" to="6v">5r-6v</locus>
+                                <author key="HugGro001">Hugo Grotius</author>
                                 <title type="supplied" xml:lang="la">De præadamitis</title>
+                                <textLang mainLang="la"/>
+                                <rubric>Auctor Exercitationes de Præadamitis; in systemate the<lb
+                                        rend="hypen"/> ologico ex Præadamitarum Hypothe&#x017F;i.
+                                    Parte I lib. IV. Cap. 14.<lb/> impre&#x017F;&#x017F;o
+                                    1655.</rubric>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -123,32 +232,47 @@
                                         </p>
                                     </support>
                                     <extent>2. <dimensions type="leaf" scope="all">
-                                            <height>333</height>
-                                            <width>210</width>
+                                            <height unit="mm">333</height>
+                                            <width unit="mm">210</width>
                                         </dimensions>
                                     </extent>
+                                    <foliation>Folieret 5-6.</foliation>
+                                    <collation>To løse blade: 5, 6.</collation>
                                 </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1">Teksten er enspaltet og antallet af linjer
+                                        pr side varierer fra 58-38 linjer. Der er dog kun 5
+                                        beskrevne linjer på bl. 6v.</layout>
+                                </layoutDesc>
                             </objectDesc>
                             <handDesc>
-                                <p>Delvis skrevet af <name type="person" key="ArnMag001">Arne
-                                        Magnusson</name>.</p>
+                                <handNote scope="minor" script="unknown"><p>Bl. 5r og de første 5
+                                        linjer på 5v er skrevet af en ukendt skriver. Skriften er
+                                        fin og tæt.</p></handNote>
+                                <handNote scope="major" script="unknown"><p>Resten er skrevet af
+                                            <name type="person" key="ArnMag001">Arne
+                                            Magnusson</name>.</p></handNote>
                             </handDesc>
                         </physDesc>
                         <history>
                             <origin>
                                 <p>Skrevet i <origPlace>Island og/eller Danmark</origPlace>
-                                    <origDate notBefore="1690" notAfter="1710" evidence="conjecture" resp="KKKat">ca. 1700</origDate>.</p>
+                                    <origDate notBefore="1690" notAfter="1710" evidence="conjecture"
+                                        resp="KKKat">ca. 1700</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c delta 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="4">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c δ 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="supplied" xml:lang="da">Dagbog over Jakob Aldays
-                                    Grønlandsrejse 1579</title>
+                            <msItem n="4" class="ferds">
+                                <locus from="1r" to="6v">1r-6v</locus>
+                                <title type="supplied">Logbog over James Aldays Grønlandsrejse
+                                    1579</title>
                                 <textLang mainLang="da">Dansk</textLang>
                             </msItem>
                         </msContents>
@@ -160,53 +284,77 @@
                                             <material>Papir.</material>
                                         </p>
                                     </support>
-                                    <extent>5. <dimensions type="leaf" scope="all">
-                                            <height>215</height>
-                                            <width>156</width>
+                                    <extent>6. Bl. 6 er ubeskrevet. <dimensions type="leaf"
+                                            scope="all">
+                                            <height unit="mm">215</height>
+                                            <width unit="mm">156</width>
                                         </dimensions>
                                     </extent>
+                                    <foliation>Folieret 1-6 med lilla blæk i bladenes øverste højre
+                                        hjørne.</foliation>
+                                    <collation>Tre sammenhængende bladpar: 1+6, 2+5,
+                                        3+4</collation>
                                 </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1"><p>Teksten er enkeltspaltet med 22-23 linjer
+                                            pr. side.</p></layout>
+                                </layoutDesc>
                             </objectDesc>
-                            <accMat>Hertil hører tre AM-sedler, af hvilke den ene indeholder
-                                følgende notits <q xml:lang="da">Kiöbt paa Etats Raad <name type="person" key="FreRos001">Roſtgaard</name>z
-                                    auction, i en faſciculo, num.
-                                        Mſtoru<ex>m</ex> 604</q>. </accMat>
+                            <accMat>Der er tre AM-sedler (a-c) sat fast på knækfalse forrest. På den første (a) står der: <q xml:lang="da">Kiöbt paa Etats
+                                    Raad Roſtgaardz auction, i en faſciculo, num. Mſtoru<ex>m</ex>
+                                    604</q>. </accMat>
                         </physDesc>
                         <history>
                             <origin>
-                                <p>Skrevet i <origPlace>Danmark</origPlace>
-                                    <origDate notBefore="1590" notAfter="1610" evidence="conjecture">ca. 1600</origDate>.</p>
+                                <p>Skrevet i <origPlace>Danmark</origPlace>, <origDate
+                                        notBefore="1590" notAfter="1610" evidence="conjecture">ca.
+                                        1600</origDate>.</p>
                             </origin>
+                            <acquisition>Købt på <name type="person" key="FreRos001"
+                                    >Rostgaard</name>s auktion.</acquisition>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c epsilon 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="5">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c ε 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="5" class="landn">
+                                <locus from="1r" to="1r">1r</locus>
+                                <title type="supplied">Excerpter af Landnámabók</title>
+                                <note>Overstreget.</note>
+                            </msItem>
+                            <msItem n="6" class="isl">
                                 <locus from="1v" to="3r">1v-3r</locus>
-                                <title type="uniform">Af Eiriki rauða</title>
+                                <title type="uniform">Eiríks saga rauða</title>
                                 <rubric>Af Eireki Rauda</rubric>
                             </msItem>
-                            <msItem n="2">
+                            <msItem n="7" class="isl">
                                 <locus from="3r" to="5r">3r-5r</locus>
-                                <title type="uniform">Eitt annað annál</title>
+                                <title type="uniform">Eiríks saga rauða</title>
                                 <rubric>Eitt an<ex>n</ex>ad An<ex>n</ex>al</rubric>
-                                <note>Om Erik den røde, landnám på Grønland, landets naturlige
-                                    beskaffenhed og geografiske notitser.</note>
+                                <note>Om Erik den røde, <foreign xml:lang="is">landnám</foreign> på
+                                    Grønland, landets naturlige beskaffenhed og geografiske
+                                    notitser.</note>
                             </msItem>
-                            <msItem n="3">
+                            <msItem n="8" class="isl">
                                 <locus from="5r" to="6r">5r-6r</locus>
-                                <title type="uniform">Þorfinns saga Karlsefnis</title>
+                                <title type="uniform">Eiríks saga rauða</title>
                                 <rubric>Af Þorbirne Kalls efni</rubric>
                                 <textLang mainLang="is">Islandsk</textLang>
                             </msItem>
-                            <msItem n="4">
+                            <msItem n="9">
                                 <locus from="6v" to="7r">6v-7r</locus>
                                 <title type="supplied">Smånotitser</title>
                                 <note>Om Grønlands frembringelser, landets senere skæbne, Björn
-                                    Einarssons besøg og om Gunnbjarnasker.</note>
+                                    Einarssons besøg og om Gunnbjarnarsker.</note>
+                            </msItem>
+                            <msItem n="10">
+                                <locus from="7v" to="7v">7v</locus>
+                                <title type="supplied">Notitser om Grønland</title>
+                                <note>Overstreget.</note>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -217,35 +365,61 @@
                                             <material>Papir.</material>
                                         </p>
                                     </support>
-                                    <extent>7. <dimensions type="leaf" scope="all">
-                                            <height>162</height>
-                                            <width>102</width>
+                                    <extent>9. Bl. (1) og (7) er ubeskrevne (se nedenfor).
+                                            <dimensions type="leaf" scope="all">
+                                            <height unit="mm">162</height>
+                                            <width unit="mm">102</width>
                                         </dimensions>
                                     </extent>
-                                    <foliation>Ved en paginering på foden af bladene (10-20) viser
-                                        håndskriftet sig som del af et større hele.</foliation>
-                                    <condition>Af bl. 1 er øvre halvdel, af bl. 7 nedre halvdel
-                                        bortskåren, og bladresterne 1r og 7v derefter overklæbede
-                                        med hvidt papir, efter at den oprindelige skrift her er
-                                        overstreget.</condition>
+                                    <foliation><p>Folieret (1) 1-7 (7). 1r og 7v har været
+                                            overklæbede med hvidt papir. Disse blanke sider er
+                                            nu adskilt fra de oprindelige sider og er
+                                            folieret (1) og (7). Bl. 2-7 er folieret med lilla blæk
+                                            i øverste højre hjørne. Bl. 1, der mangler øverste
+                                            halvdel, har en foliering med blyant i øverste bevarede
+                                            hjørne.</p>
+                                        <p>En paginering (9-20) på foden af bladene viser, at
+                                            håndskriftet engang var en del af et større
+                                        hele.</p></foliation>
+                                    <collation><list>
+                                            <item>I: (1), 1, 2, 3, 4</item>
+                                            <item>II: 5, 6, 7, (7)</item>
+                                        </list>
+                                        <catchwords>Der er kustoder på bl. 1r-2r, 3v, 4v,
+                                            5r-6v.</catchwords>
+                                    </collation>
+                                    <condition>Af bl. 1 er øverste halvdel, af bl. 7 nederste halvdel
+                                        bortskåret og teksten på bl. 1r og 7v er streget
+                                        ud.</condition>
                                 </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1"><p>Teksten er enspaltet med 25-28 linjer pr.
+                                            side. Bl. 1v og 7r har hhv. 11 og 10 bevarede linjer.
+                                                </p></layout>
+                                </layoutDesc>
                             </objectDesc>
-                            <additions>Af de to overklæbede halvsider bærer den første excerpter af
-                                Landnáma, den sidste notitser om Grønland.</additions>
+                            <decoDesc>
+                                <decoNote type="initial" subtype="pen-flourished"><p>Folierede initialer med sort blæk på bl. 1v og 5r.</p></decoNote>
+                            </decoDesc>
+                            <!--      <accMat>Der er en seddel skrevet af Jón Helgason mellem delta og eta.</accMat>  -->
                         </physDesc>
                         <history>
                             <origin>
-                                <p>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat">1600-tallet</origDate></p>
+                                <p>Skrevet i <origPlace>Island</origPlace> i <origDate
+                                        notBefore="1600" notAfter="1699" evidence="conjecture"
+                                        resp="KKKat">1600-tallet</origDate></p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c zeta 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="6">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c ζ 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="uniform">Kirkiur ä Grænland</title>
+                            <msItem n="9">
+                                <title type="uniform">Kirker på Grønland</title>
                                 <textLang mainLang="is">Islandsk</textLang>
                             </msItem>
                         </msContents>
@@ -258,34 +432,47 @@
                                         </p>
                                     </support>
                                     <extent>1. <dimensions type="leaf" scope="all">
-                                            <height>167</height>
-                                            <width>108</width>
+                                            <height unit="mm">167</height>
+                                            <width unit="mm">108</width>
                                         </dimensions>
                                     </extent>
+                                    <foliation>Ufolieret.</foliation>
                                 </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1"><p>Teksten er enspaltet, og der er 15
+                                            beskrevne linjer på recto-siden og 9 beskrevne linjer på
+                                            verso-siden.</p></layout>
+                                </layoutDesc>
                             </objectDesc>
                             <handDesc hands="1">
                                 <handNote scribe="ArnMag001" scope="sole" script="unknown">
                                     <p>Skrevet af Arne Magnusson.</p>
                                 </handNote>
                             </handDesc>
-                            <additions><q>Ex chartâ qvadam, in Islandiâ exſcriptum <date when="1702">1702</date> [Annotatum erat in margine Landnamæ
-                                    Sigurdar ä Feriu]</q> tilføjer <name type="person" key="ArnMag001">Arne Magnusson</name>.</additions>
+                            <additions>På bl. 1v under teksten har <name type="person"
+                                    key="ArnMag001">Arne Magnusson</name> tilføjet: <q>Ex chartâ
+                                    qvadam, in Islandiâ exſcriptum 1702 [Annotatum erat in margine
+                                    Landnamæ Sigurdar ä Feriu]</q>.</additions>
                         </physDesc>
                         <history>
                             <origin>
-                                <p>Skrevet i <origPlace>Island eller Danmark</origPlace> i <origDate notBefore="1700" notAfter="1725" evidence="conjecture">1700-tallets første fjerdedel</origDate>.</p>
+                                <p>Skrevet i <origPlace>Island eller Danmark</origPlace> i <origDate
+                                        notBefore="1700" notAfter="1725" evidence="conjecture"
+                                        >1700-tallets første fjerdedel</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c eta 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="7">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c η 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="uniform">Sögn Þormóðar Torfasonar um dráp Otta
-                                    Axelsonar skipherra</title>
+                            <msItem n="10" class="sagnfr">
+                                <author key="ThoTor001">Þormóður Torfason</author>
+                                <title type="supplied">Kaptajn Otto Axelsens død</title>
+                                <textLang mainLang="is"/>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -296,12 +483,20 @@
                                             <material>Papir.</material>
                                         </p>
                                     </support>
-                                    <extent>1. <dimensions type="leaf" scope="all">
-                                            <height>165</height>
-                                            <width>107</width>
+                                    <extent>2. Det andet blad er ubeskrevet. <dimensions type="leaf"
+                                            scope="all">
+                                            <height unit="mm">165</height>
+                                            <width unit="mm">107</width>
                                         </dimensions>
                                     </extent>
+                                    <foliation>Ufolieret.</foliation>
+                                    <collation>Dobbeltblad.</collation>
                                 </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1">Teksten er enkeltspaltet. På det første blad er
+                                        der 14 beskrevne linjer på recto-siden og 13 beskrevne
+                                        linjer på verso-siden. Andet blad er ubeskrevet.</layout>
+                                </layoutDesc>
                             </objectDesc>
                             <handDesc hands="1">
                                 <handNote scribe="ArnMag001" scope="sole" script="unknown">
@@ -311,19 +506,27 @@
                         </physDesc>
                         <history>
                             <origin>
-                                <p>Skrevet i <origPlace>Island eller Danmark</origPlace> i <date notBefore="1700" notAfter="1725" evidence="conjecture">begyndelsen af 1700-tallet</date>.</p>
+                                <p>Skrevet i <origPlace>Island eller Danmark</origPlace> i <date
+                                        notBefore="1700" notAfter="1725" evidence="conjecture"
+                                        >begyndelsen af 1700-tallet</date>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 770 c theta 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="8">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 770 c θ 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="11" class="notes">
+                                <locus from="1v" to="24r">1v-24r</locus>
                                 <title type="uniform">Gronlandica</title>
                                 <rubric>Gronlandica</rubric>
-                                <note>Om litteraturen over Grønland; bogtitler, litteraturnotitser o.l.</note>
+                                <textLang mainLang="is" otherLangs="en la de"/>
+                                <note>Noter om litteraturen over Grønland; bogtitler,
+                                    litteraturnotitser o.l.</note>
+                                <note>Bl. 15 er et trykt avertissement.</note>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -334,16 +537,55 @@
                                             <material>Papir.</material>
                                         </p>
                                     </support>
-                                    <extent>26. <dimensions type="leaf" scope="range">
-                                            <height>170</height>
-                                            <width>110</width>
+                                    <extent>26 (1 + 25) af forskellig størrelse. Bl. 1: ca.
+                                            <dimensions type="leaf" scope="range">
+                                            <height unit="mm">210</height>
+                                            <width unit="mm">166</width>
+                                        </dimensions>. Bl. 2-24: ca. <dimensions type="leaf">
+                                            <height unit="mm">165</height>
+                                            <width unit="mm">110</width>
+                                        </dimensions>. Bl. 25-26: ca. <dimensions type="leaf">
+                                            <height unit="mm">250</height>
+                                            <width unit="mm">162</width>
                                         </dimensions>
                                     </extent>
-                            <collation>Løse sedler.</collation>
+                                    <foliation>Blyantsfolieret 1-24 (inkl. 16 bis) i nederste højre
+                                        hjørne.</foliation>
+                                    <collation>
+                                        <list>
+                                            <item>I: 1, 2, 3, 4+5, 7, 8, 9, 10, 11, 12, 13, 14,
+                                                15</item>
+                                            <item>II: 16+16bis (omslag), 17, 18, 19, 20, 21, 22, 23,
+                                                24, 25+26</item>
+                                        </list>
+                                    </collation>
+                                    <condition>Bl. 1 har formodentlig tidligere været brugt som
+                                        omslag for resten af bladene, der dengang lå løse. En vandret linje
+                                        midt på bladet viser, at det tidligere var
+                                        sammenfoldet.</condition>
                                 </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1">Teksten er enkeltspaltet med undtagelse af en
+                                        tabel på bl. 3v. Lodret tekst forekommer på bl. 3v, 14r og 15r-v samt
+                                        titlen <q>Gronlandica</q> på bl. 1r. For det meste er kun
+                                        recto-siderne beskrevne.</layout>
+                                </layoutDesc>
                             </objectDesc>
-                            <additions>Bl. 15 er en trykt bekendtgørelse.</additions>
+                            <handDesc>
+                                <handNote scope="sole" script="unknown">Skrevet af eller for <name
+                                        type="person" key="ArnMag001">Arne
+                                    Magnusson</name>.</handNote>
+                            </handDesc>
                         </physDesc>
+                        <history>
+                            <origin>Kålund har ikke angivet nogen oprindelse for AM 770 c θ 4to, men
+                                denne del blev formodentlig skrevet i <origPlace>Danmark eller
+                                    Island</origPlace> i <origDate notBefore="1700" notAfter="1725"
+                                    >begyndelsen af 1700-tallet</origDate>.</origin>
+                            <provenance>Bl. 16-26 er overført fra <name type="org" key="KB">Det
+                                    Kongelige Bibliotek</name>, hvor de var opført som <ref
+                                    type="ms">Add. 49 4to</ref>.</provenance>
+                        </history>
                     </msPart>
                 </msDesc>
             </sourceDesc>

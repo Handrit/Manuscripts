@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,124 @@
                      <idno>2671</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Miscellaneous</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1800" notAfter="1832">s. XIX in.</origDate>
-               </head>
+
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Miscellaneous</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <msItem n="1" class="ridd">
+                     <locus from="1" to="19v">1-19v</locus>
+                     <!-- with <title>Jallmanns rímur</title> ? cf. "Om digtningen på Island", p. 168 -->
+                     <title type="uniform">Jarlmanns saga ok Hermanns</title>
+                     <rubric>Saga af Jallmann</rubric>
+                  </msItem>
+                  <msItem n="2" class="landfr kosmo stjofr tyd">
+                     <locus from="19v" to="24">19v-24</locus>
+                     <author key="HanNan001">Hans Nansen</author>
+                     <title type="supplied" xml:lang="la">Compendium cosmographicum, et
+                        chronologicum</title>
+                     <rubric>Ur Co&#x017F;mographiæ Compendio <lb/> Han<ex>n</ex>s
+                        Nans&#x017F;onar</rubric>
+                  </msItem>
+                  <msItem n="3" class="kvad">
+                     <locus from="25" to="28v">25-28v</locus>
+                     <author key="OlaEin001">Ólafur Einarsson</author>
+                     <title type="uniform">Árgali Íslands</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Islands Aargale</rubric>
+                     <note><q>Ortur af s<hi rend="sup">ra</hi> Olafe Einar&#x017F;yne</q></note>
+                  </msItem>
+                  <msItem n="4">
+                     <locus from="28v" to="34r">28v-34r</locus>
+                     <author key="OlaEin001">Ólafur Einarsson</author>
+                     <title type="uniform">Nauðvörn</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Naudvørn, ort af sama skáldi 1627, þegar Tirkarner ræntu
+                        Westmanneyar</rubric>
+                  </msItem>
+                  <msItem n="5" class="rimur">
+                     <locus from="34r" to="53v">34r-53v</locus>
+                     <title type="uniform">Grobbians rímur</title>
+                     <note>Six <q xml:lang="is">rímur</q> cantos.
+                        <!--KKKat: "1-2, 3-4, 5 og 6 med særlige
+                        navne". --></note>
+                     <msItem n="5.1" class="rimur">
+                        <author>Grímur <q>prestur fyrir norðan</q></author>
+                        <title type="supplied">Grobbians rímur; rímur 1-4</title>
+                     </msItem>
+                     <msItem n="5.2" class="rimur">
+                        <author key="VigJon012">Vigfús Jónsson á Leirulæk</author>
+                        <title type="supplied">Grobbians rímur; ríma 5</title>
+                     </msItem>
+                     <msItem n="5.3" class="rimur">
+                        <author key="BryHal001">Brynjólfur Halldórsson (<q>s<hi rend="sup">ra</hi>
+                              Brinj. Halldors&#x017F;. edur s<hi rend="sup">ra</hi>
+                           Þ.J.</q>)</author>
+                        <title type="supplied">Grobbians rímur; ríma 6</title>
+                     </msItem>
+                  </msItem>
+                  <msItem n="6" class="kvad">
+                     <locus from="53v" to="72">53v-72</locus>
+                     <title type="supplied">Kvæði</title>
+                     <msItem n="6.1" class="kvad">
+                        <author key="EggOla001">Eggert Ólafsson</author>
+                        <title type="uniform">Ísland</title>
+                     </msItem>
+                     <msItem n="6.2" class="kvad">
+                        <author key="HalPet001">Hallgrímur Pétursson</author>
+                        <title type="uniform">Samstæður</title>
+                     </msItem>
+                     <msItem n="6.3" class="kvad">
+                        <title type="uniform">Engildiktur</title>
+                     </msItem>
+                     <msItem n="6.4" class="kvad">
+                        <title type="uniform">Engilsóður</title>
+                     </msItem>
+                     <msItem n="6.5" class="kvad">
+                        <author key="ErlGud001">Erlendur Guðmundsson</author>
+                        <title type="uniform">Hvítasunnukvæði</title>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>72. 
-<dimensions type="leaf" scope="all">
-                              <height>168</height>
-                              <width>105</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>72. <dimensions type="leaf" scope="all">
+                              <height unit="mm">168</height>
+                              <width unit="mm">105</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Partly paginated.</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scribe="JonJon017" scope="sole" script="unknown">
+                        <p>Written by Rev. <name type="person" key="JonJon017">Jón
+                           Jónsson</name>.</p>
+                     </handNote>
+                  </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>
+                     <origDate notBefore="1800" notAfter="1815">s. XIX in.</origDate></origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Jón Þorkelsson, <ref target="JonThork1888">Om digtningen på
+                        Island</ref><biblScope unit="page">168</biblScope></bibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">555-556</biblScope></bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-11-02" who="EvaWed001">Opdateret opmærkning og rettet indhold.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,14 +23,15 @@
                             <idno>635</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Catalogus Librorum Msstorum Arnæ Magnæi</title>
-                        <origPlace>Denmark</origPlace>
-                        <origDate notBefore="1721" notAfter="1741">c. 1731</origDate>
-                    </head>
                     <msContents>
-                        <textLang mainLang="is" otherLangs="da la">Icelandic with Danish and
-                            Latin</textLang>
+                        <summary><title type="supplied">Catalogus Librorum Msstorum Arnæ
+                                Magnæi</title><note>Catalogue of <name type="person" key="ArnMag001"
+                                    >Árni Magnússon</name>'s manuscripts.</note></summary>
+                        <msItem n="1">
+                            <author key="JonOla001">Jón Ólafsson</author>
+                            <title type="supplied">Catalogus Librorum Msstorum Arnæ Magnæi</title>
+                            <textLang mainLang="is" otherLangs="da la"/>
+                        </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
@@ -39,11 +41,12 @@
                                         <material>Paper.</material>
                                     </p>
                                 </support>
-                                <extent>73. <dimensions type="leaf" scope="all">
-                                        <height>330</height>
-                                        <width>207</width>
+                                <extent>73 (+ the added leaves a-d). <dimensions type="leaf"
+                                        scope="all">
+                                        <height unit="mm">330</height>
+                                        <width unit="mm">207</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
@@ -52,6 +55,17 @@
                             </handNote>
                         </handDesc>
                     </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Denmark</origPlace>, <origDate notBefore="1721"
+                                notAfter="1741">c. 1731</origDate>. </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                                    >I</biblScope><biblScope unit="page">333</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,37 +23,39 @@
                      <idno>519</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">En historisk og geografisk beskrivelse af
-                     Danmark</title>; <origPlace>Danmark</origPlace>, <origDate notBefore="1685" notAfter="1699">s. XVII ex</origDate>.</head>
+                  <msContents>
+                  <summary><title type="supplied" xml:lang="da">En historisk og geografisk beskrivelse af
+                     Danmark</title></summary>
+               </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
                            <p>
-                              <material>Papir.</material>
+                              <material><material>Papir</material>.</material>
                            </p>
                         </support>
                         <extent>194 (+48 kort + 75 billeder klæbet ind i teksten). <dimensions type="leaf" scope="all" unit="mm">
-                              <height>320</height>
-                              <width>214</width>
+                              <height unit="mm">320</height>
+                              <width unit="mm">214</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history> <origin><origPlace>Danmark</origPlace>, <origDate notBefore="1685" notAfter="1699">s. XVII ex</origDate>.</origin></history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">290-291</biblScope>
+                        <biblScope unit="page">290-291</biblScope>
                      </bibl>
                      <bibl>Smith: <ref type="secondary-1" target="BirSmi1882">Om Kjøbenhavns
                            Universitetsbibliothek før 1728</ref>
-                        <biblScope unit="pages">71</biblScope>
+                        <biblScope unit="page">71</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
-               <msPart>
+               <msPart n="1">
                   <msIdentifier><altIdentifier type="partial">
                      <idno>AM 360 I fol.</idno>
                   </altIdentifier></msIdentifier>
@@ -71,7 +73,7 @@
                            steder</title>
                         <textLang mainLang="la">Latin</textLang>
                         <note>Omfatter <name type="place">Fyn</name>, <name type="place">Falster</name>, <name type="place">Lolland</name>, <name type="place">Langeland</name>, <name type="place">Ærø</name> og <name type="place">Als</name>.</note>
-                        <msItem n="2" class="regist">
+                        <msItem n="1.1" class="regist">
                            <locus>s. 115-117</locus>
                            <title type="supplied">Indholdsfortegnelse</title>
                         </msItem>
@@ -99,7 +101,7 @@
                      </decoDesc>
                   </physDesc>
                </msPart>
-               <msPart>
+               <msPart n="2">
                   <msIdentifier><altIdentifier type="partial">
                      <idno>AM 360 II fol.</idno>
                   </altIdentifier></msIdentifier>
@@ -132,6 +134,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-08" who="EvaWed001">Rettet opmærkning.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

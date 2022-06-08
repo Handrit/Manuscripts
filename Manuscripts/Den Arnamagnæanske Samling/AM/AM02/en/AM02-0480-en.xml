@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -23,15 +23,22 @@
                             <idno>638</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Íslenzk frumbréfaskrá</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1887-01-01" notAfter="1887-12-31">1887</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
-                            <author>Jón Sigurðsson</author>
-                            <textLang mainLang="is">Icelandic</textLang>
+                    	<summary><title type="supplied">Íslenzk frumbréfaskrá</title>
+                    	</summary>
+                    	<titlePage type="MS">
+                    		<docTitle>
+                    			<titlePart type="main">Íslenzk frumbréfaskrá. <lb/> Additamenta
+                    				Arnamagnæana <lb/> fascic. LXV-LXXII. </titlePart>
+                    			<titlePart type="sub">Skrifað upp eptir eiginhandarriti <lb/> Jóns
+                    				Sigurðarssonar <lb/> i safni hans i Reykjavík nr. 72 fol. <lb/>
+                    				1887.</titlePart>
+                    		</docTitle>
+                    	</titlePage>
+                    	<msItem n="1" class="hdrskr">
+                        	<author key="JonSig004">Jón Sigurðsson</author>
+                        	<title type="supplied">Íslenzk frumbréfaskrá</title>
+                        	<textLang mainLang="is">Icelandic</textLang>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -43,18 +50,26 @@
                                     </p>
                                 </support>
                                 <extent>i-ii + pp. 1-64. <dimensions type="leaf" scope="all">
-                                        <height>363</height>
-                                        <width>232</width>
+                                        <height unit="mm">363</height>
+                                        <width unit="mm">232</width>
                                     </dimensions>
                         </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
                             <handNote scribe="PalPal001" scope="sole" script="unknown">
-                                <p> Written by Pálmi Pálsson.</p>
+                                <p> Written by <name type="person" key="PalPal001">Pálmi Pálsson</name>.</p>
                             </handNote>
                         </handDesc>
                     </physDesc>
+                	<history><origin><origPlace>Iceland</origPlace>, <origDate when="1887">1887</origDate>.</origin></history>
+                	<additional>
+                		<listBibl>
+                			<bibl>Kålund, <ref target="KKKat">Katalog</ref>
+                				<biblScope unit="volume">II</biblScope>
+                				<biblScope unit="page">335</biblScope></bibl>
+                		</listBibl>
+                	</additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

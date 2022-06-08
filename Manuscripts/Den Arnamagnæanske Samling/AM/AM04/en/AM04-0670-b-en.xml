@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,30 +23,45 @@
                      <idno>1670</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>De S. Wilhelmo Confessore</title>
-                  <origPlace>Denmark?</origPlace>
-                  <origDate notBefore="1700" notAfter="1725">s. XVII 1/4</origDate>
-               </head>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                 <msContents>
+                  <summary><title type="uniform">Vita of St. Wilhelm Abbas</title></summary>
+                  <msItem n="1" class="helgiso">
+                     <locus from="1r" to="6r">1r-6r</locus>
+                     <title type="uniform">De S. Wilhelmo Confessore</title>
+                     <textLang mainLang="la">Latin</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>6. 
-<dimensions type="leaf" scope="all">
-                              <height>215</height>
-                              <width>167</width>
+                        <extent>6. Fol 6v is blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">215</height>
+                              <width unit="mm">167</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="unknown">Written by the hand who also wrote <ref type="ms"
+                        target="AM04-0670-a-en">AM 670 a 4to</ref>, <ref type="ms"
+                           target="#AM04-0670-c-en #AM04-0670-d-en">AM 670 c-d 4to</ref>, the first eight leaves of <ref type="ms"
+                                 target="#AM04-0670-e-en">AM 670 e 4to</ref>, fols 3r-7r of <ref type="ms"
+                                    target="#AM04-0670-f-en">AM 670 f 4to</ref> and <ref type="ms" target="#AM04-0670-g-en">AM 670 g 4to</ref>.</handNote>
+                  </handDesc>
                </physDesc>
+               <history><origin><origPlace>Denmark?</origPlace>, <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s.
+                  XVIII<hi rend="sup">1/4</hi></origDate></origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">83</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2022-02-02" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

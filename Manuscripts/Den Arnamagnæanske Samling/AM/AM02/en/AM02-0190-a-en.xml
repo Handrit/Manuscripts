@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,12 +23,10 @@
                             <idno>290</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Alexander den stores historie</title>;
-                        <origPlace>Denmark</origPlace>, <origDate notBefore="1584" notAfter="1584">1584</origDate>. </head>
-                    <msContents>
+                       <msContents>
+                    	<summary><title type="uniform">Alexander den stores historie</title></summary>
                         <msItem n="1">
-                            <locus from="1" to="2r">1-2r</locus>
+                            <locus from="1" facs="#AM02-0190-a-0001r" to="2r">1-2r</locus>
                             <textLang mainLang="da">Danish</textLang>
                             <rubric>Een Historie <lb/> om den Stoerm<lb/>megtige Førstis, <lb/>
                                 Keyser, Alexandri. <lb/> (som kaldis den <lb/> store) Konge vdi
@@ -41,7 +40,7 @@
                                 Galthen. <lb/> Anno M.D.LX<lb/>XXIIII.</rubric>
                         </msItem>
                         <msItem n="2">
-                            <locus from="3" to="11">3-11</locus>
+                            <locus from="3" facs="#AM02-0190-a-0003r" to="11">3-11</locus>
                             <note>Contains a dedication to <q xml:lang="da">Høgbaarne Første og
                                     Her<lb/>re, Her Christian wdua<lb/>ld Konge till Danmarck <lb/>
                                     oc Norge, Hertug vdii <lb/> Sletzuig</q> succeeded bya prologue
@@ -59,8 +58,8 @@
                                     </p>
                                 </support>
                                 <extent>267. <dimensions type="leaf" scope="all">
-                                        <height>300</height>
-                                        <width>187</width>
+                                        <height unit="mm">300</height>
+                                        <width unit="mm">187</width>
                                     </dimensions>
                         </extent>
                             </supportDesc>
@@ -77,8 +76,8 @@
                         </accMat>
                     </physDesc>
                     <history>
-                        <origin notBefore="1584-01-01" notAfter="1584-12-31" cert="high" evidence="internal">
-                            <p>Written in Denmark in 1584.</p>
+                        <origin>
+                        	<p>Written in <origPlace>Denmark</origPlace> in <origDate when="1584">1584</origDate>.</p>
                         </origin>
                         <provenance>
                             <p>According to Árni Magnússon's account on the AM-slip, he purchased

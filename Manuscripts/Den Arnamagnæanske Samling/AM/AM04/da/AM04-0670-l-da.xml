@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,36 +22,41 @@
                      <idno>1679</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Legender om sankt Hallvard</title>; <origPlace>Island eller
-                     Danmark</origPlace>, <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII 1/4</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
+                  <summary><title type="supplied">Tekster om Skt. Hallvard</title></summary>
+                  <msItem n="1" class="helgiso">
                      <locus from="1r" to="3r">1r-3r</locus>
                      <title type="supplied">De sancto halvardo</title>
                      <rubric>De Sancto Halvardo</rubric>
-                     <textLang mainLang="la">Latin</textLang>
-                     <filiation>Ex breviario Nidrosiensi</filiation>
+                     <textLang mainLang="la"/>
+                     <filiation><q>Ex breviario Nidrosiensi</q>.</filiation>
                   </msItem>
-                  <msItem n="2">
+                  <msItem n="2" class="hels" defective="true">
                      <locus from="6r" to="6v">6r-v</locus>
-                     <title type="uniform" xml:lang="da">Hallvards saga</title>
-                     <filiation>Begyndelsen, efter <ref type="ms" target="AM02-238-VIII-da">AM 238
-                           VIII fol</ref>. Bl. 5r indeholder en notits af <name type="person" key="ArnMag001">Arne Magnusson</name> om afskriften.</filiation>
+                     <title type="uniform">Hallvarðs saga</title>
+                     <textLang mainLang="is"/>
+                     <note>Begyndelsen. Bl. 5r indeholder en notits af <name type="person"
+                        key="ArnMag001">Arne Magnusson</name> om afskriften.</note>
+                     <filiation>Afskrift of <ref type="ms" target="#AM02-0238-VIII-da">AM 238
+                           VIII fol</ref>.</filiation>
                   </msItem>
-                  <msItem n="3">
+                  <msItem n="3" class="helgiso">
                      <locus from="10r" to="13v">10r-13v</locus>
                      <title type="supplied">Excerpta e missali: De Johanne episcopo et confessore,
                         De Sto Halvardo, De Augustino episcopo</title>
-                     <filiation>Ifg. notitser bl. 9r er teksten afskrevet efter to pergamentblade i
+                     <filiation>Ifg. notitser på bl. 9r er teksten afskrevet efter to pergamentblade i
                         4to fra Island.</filiation>
                   </msItem>
-                  <msItem n="4">
+                  <msItem n="4" class="kvad">
                      <locus from="17r" to="19v">17r-19v</locus>
                      <title type="supplied">Kvad om Skt. Hallvard</title>
                      <rubric>Gamallt Kvæde um S<ex>anc</ex>te Hallvard</rubric>
-                     <note>Bl. 20-22, af hvilke 21-22 i seddelformat, optages af <name type="person" key="ArnMag001">Arne Magnusson</name>s notitser hertil.</note>
+                   </msItem>
+                  <msItem n="5" class="notes">
+                     <locus from="20r" to="22r">20r-22r</locus>
+                     <author key="ArnMag001">Arne Magnusson</author>
+                     <title type="supplied">Notitser til Kvadet om Skt. Hallvard</title>
+                     <note>Bl. 21-22 i seddelformat</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -63,8 +68,8 @@
                         </support>
                         <extent>22. Bl. 3v-4, 5v, 7-8, 9v, 14-16, 20v, 21v og 22v ubeskrevne.
                               <dimensions type="leaf" scope="all">
-                              <height>312</height>
-                              <width>166</width>
+                              <height unit="mm">312</height>
+                              <width unit="mm">166</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
@@ -73,18 +78,25 @@
                            Magnusson</name>.</p>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island eller Danmark</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII<hi rend="sup"
+                           >1/4</hi></origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Jón Þorkelsson:
-                        <ref type="secondary" target="JonThork1888">Om digtningen på Island i det 15. og 16. Århundrede</ref>
-                        <biblScope unit="pages">31-33</biblScope>
+                     <bibl><ref type="secondary" target="JonThork1888"/>
+                        <biblScope unit="page">31-33</biblScope>
                      </bibl>
-                     <bibl>Langebek: <ref type="secondary" target="SRDMAE">Scriptores Rerum
-                        Danicarum Medii Aevi</ref>
+                     <bibl><ref type="secondary" target="SRDMAE"/>
                         <biblScope unit="volume">III</biblScope>
-                        <biblScope unit="pages">601 ff.</biblScope>
+                        <biblScope unit="page">601 ff.</biblScope>
                      </bibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">86-87</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >86-87</biblScope></bibl>
+                     <bibl><ref type="secondary" target="Wolf2013"/>
+                        <biblScope unit="page">149</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

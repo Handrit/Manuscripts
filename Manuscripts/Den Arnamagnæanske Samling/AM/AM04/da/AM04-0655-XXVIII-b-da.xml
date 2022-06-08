@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,16 +22,14 @@
                      <idno>1646</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Blöð guðfræðiligs efnis</title>
-                  <origPlace>Island</origPlace>
-                  <origDate notBefore="1290" notAfter="1310" evidence="conjecture" resp="KKKat">ca. 1300</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <title type="uniform" xml:lang="is">Blöð guðfræðiligs efnis</title>
-                     <textLang mainLang="is">Norrønt/Islandsk</textLang>
-                     <note>Antages at tilhøre en codex forskellig fra <ref type="ms" target="#AM04-0655-XXVIII-a-da">AM 655 XXVIII a</ref>.</note>
+                  <msContents>
+                  <summary><title type="uniform">Konungs skuggsjá</title></summary>
+                  <msItem n="1" class="sidfr kenb">
+                     <locus from="1r" to="2v">1r-2v</locus>
+                     <title type="uniform">Konungs skuggsjá</title>
+                     <textLang mainLang="non"/>
+                     <bibl>Jón Helgason: <ref type="primary-1" target="JonHel1984">Et fragment av Kongespeilet</ref>
+                     <biblScope unit="page">126-134</biblScope></bibl>
                   </msItem>
                </msContents>
                <physDesc>
@@ -42,19 +40,21 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>2. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>173</height>
-                              <width>123</width>
+                              <height unit="mm">173</height>
+                              <width unit="mm">123</width>
                            </dimensions>
                         </extent>
                         <condition>Bladene er næsten ulæselige på grund af slid.</condition>
                      </supportDesc>
                   </objectDesc>
-                  <accMat>På en indlags seddel har <name type="person" key="ArnMag001">Arne
+                  <accMat>På en indlagt seddel har <name type="person" key="ArnMag001">Arne
                         Magnusson</name> noteret: <q xml:lang="is">Ur
-                        Auſtfirdum <date when="1706">1706</date>
+                        Auſtfirdum <date when="1706">1706</date>.
                      </q>
                   </accMat>
                </physDesc>
+               <history><origin><origPlace>Island</origPlace>,
+                  <origDate notBefore="1290" notAfter="1310" evidence="conjecture" resp="KKKat">ca. 1300</origDate>.</origin></history>
                <additional>
                   <listBibl>
                      <bibl>Jon Helgason: <ref type="secondary-1" target="JonHel1984">Et fragment av
@@ -62,7 +62,7 @@
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">65</biblScope>
+                        <biblScope unit="page">65</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

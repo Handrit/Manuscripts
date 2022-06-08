@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -39,8 +39,8 @@
                                         <material>Pergament</material>.</p>
                                 </support>
                                 <extent>2. <dimensions type="leaf">
-                                        <height>88</height>
-                                        <width>75</width>
+                                        <height unit="mm">88</height>
+                                        <width unit="mm">75</width>
                                     </dimensions>
                                 </extent>
                                 <condition>Stærkt slidt fragment.</condition>
@@ -60,11 +60,13 @@
                         </handDesc>
                         <accMat>
                             <p><name type="person" key="ArnMag001">Arne Magnusson</name> har skrevet
-                                følgende på en AM-seddel, der er klæbet fast til det første blad: <q xml:lang="is">Þetta er ur Margretar Sỏgu. var in<ex>n</ex>ani
+                                følgende på en AM-seddel, der er klæbet fast til det første blad: <q
+                                    xml:lang="is">Þetta er ur Margretar Sỏgu. var in<ex>n</ex>ani
                                     involucro brefa bok<ex>ar</ex>
                                     <name type="person" key="OlaHja001">Olafs b<ex>isku</ex>ps
-                                        Hialltaſonar</name>, og hafdi fra alldaỏdle i
-                                    involucrum in<ex>n</ex>ſaumad vered. detexi <name type="place" key="Københ01">Hafniæ</name>
+                                        Hialltaſonar</name>, og hafdi fra alldaỏdle i involucrum
+                                        in<ex>n</ex>ſaumad vered. detexi <name type="place"
+                                        key="Copen01">Hafniæ</name>
                                     <date when="1725">1725</date>.</q>
                             </p>
                         </accMat>
@@ -74,10 +76,12 @@
                     <history>
                         <origin>
                             <p>Skrevet i <origPlace>Island</origPlace>
-                                <origDate notBefore="1390" notAfter="1410" cert="high" evidence="conjecture">ca. 1400</origDate>.</p>
+                                <origDate notBefore="1390" notAfter="1410" cert="high"
+                                    evidence="conjecture">ca. 1400</origDate>.</p>
                         </origin>
                         <provenance>
-                            <p>Ifølge AM-sedlen har håndskriftet engang tilhørt biskop <name type="person" key="OlaHja001">Ólafur Hjaltason</name>
+                            <p>Ifølge AM-sedlen har håndskriftet engang tilhørt biskop <name
+                                    type="person" key="OlaHja001">Ólafur Hjaltason</name>
                             </p>
                         </provenance>
                     </history>
@@ -86,7 +90,8 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Katalogiseret <date when="2000-03-30"/> af <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                    <p>Katalogiseret <date when="2000-03-30"/> af <name
+                                            type="person" key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
@@ -94,49 +99,34 @@
                                     <p>Fotograferet i <date when="1969">1969</date>.</p>
                                 </custEvent>
                                 <custEvent type="photography">
-                                    <p>Et andet sæt fotografier blev taget i <date when="1973">1973</date>.</p>
+                                    <p>Et andet sæt fotografier blev taget i <date when="1973"
+                                            >1973</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">mikrofilm (originaler)</title>
-                                        <idno>Neg. 400</idno>
-                                        <date when="1969">1969</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">mikrofilm (originaler)</title>
-                                        <idno>Neg. 452</idno>
-                                        <date when="1973">1973</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">mikrofilm (arkiv)</title>
-                                        <idno>Pos. 452</idno>
-                                        <date when="1973">1973</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade112</idno>s.d.<note>Supplerende photografier af
-                                            bl. 2r</note>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">s/h fotografier</title>
-                                        <idno>AM 428 b 12mo</idno>
-                                        <date when="1970">1970</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">s/h fotografier</title>
-                                        <idno>AM 428 b 12mo</idno>
-                                        <date when="1970">1970</date>
-                                        <note>Supplerende fotografier</note>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item> Mikrofilm (originaler), <idno>Neg. 400</idno>, fra <date
+                                            when="1969">1969</date>. </item>
+                                    <item> Mikrofilm (originaler), <idno>Neg. 452</idno>, fra <date
+                                            when="1973">1973</date>. </item>
+                                    <item> Mikrofilm (arkiv), <idno>Pos. 452</idno>, fra <date
+                                            when="1973">1973</date>. </item>
+                                    <item>Plade, <idno>plade112</idno>, s.d. (supplerende
+                                        photografier af bl. 2r). </item>
+                                    <item> Sort-hvid fotografier fra <date when="1970">1970</date>.
+                                    </item>
+                                    <item>Supplerende sort-hvid fotografier fra <date when="1970"
+                                            >1970</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">479-480</biblScope></bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat"
+                                    >Katalog</ref><biblScope unit="volume">II</biblScope><biblScope
+                                    unit="pages">479-480</biblScope></bibl>
                             <bibl>Widding et al.: <ref type="secondary-1" target="OleWid1963">The
                                     Lives of the Saints in Old Norse Prose</ref>
                             </bibl>

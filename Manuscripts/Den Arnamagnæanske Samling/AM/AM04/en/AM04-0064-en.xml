@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,44 +23,58 @@
                      <idno>709</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Norwegian Legal Manuscript</title>
-                  <origPlace>Norway</origPlace>
-                  <origDate notBefore="1575" notAfter="1625">c. 1600</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Norwegian Legal Manuscript</title></summary>
                   <textLang mainLang="da">Danish</textLang>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>353. 
-<dimensions type="leaf" scope="all">
-                              <height>202</height>
-                              <width>160</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>353. <dimensions type="leaf" scope="all">
+                              <height unit="mm">202</height>
+                              <width unit="mm">160</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="3">
-                     <handNote scribe="PedNil01" scope="major" script="unknown">
-                        <p>
-ff. 1r-332v, 339r-353v were written by Peder Nilssøn Lem of <name type="place">Bergen</name>.</p>
+                     <handNote scribe="PedLem001" scope="major" script="unknown">
+                        <p>Fols 1r-332v, 339r-353v were written by Peder Nilssøn Lem of <name
+                              type="place">Bergen</name>.</p>
                      </handNote>
-                     <handNote scribe="AbsAbs01" scope="minor" script="unknown">
-                        <p>
-ff. 333r-334v, 336v-338v were written by the Priest Absalon Absalonssøn.</p>
+                     <handNote scribe="AbsAbs001" scope="minor" script="unknown">
+                        <p>Fols 333r-334v, 336v-338v were written by the Priest Absalon
+                           Absalonssøn.</p>
                      </handNote>
-                     <handNote scribe="JenKna01" scope="minor" script="unknown">
-                        <p>
-ff. 335r-336v were written by Jens Knabestop.</p>
+                     <handNote scribe="JenKna001" scope="minor" script="unknown">
+                        <p>Fols 335r-336v were written by Jens Knabestop.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Norway</origPlace>,
+                     <origDate notBefore="1590" notAfter="1610">c. 1600</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">381-382</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="ChrVidSkFor14"/>
+                        <biblScope unit="page">24, 46, 56</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="NgL4"/>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="page">557-559</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+   <revisionDesc><change when="2021-12-09" who="EvaWed001">Updated markup.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

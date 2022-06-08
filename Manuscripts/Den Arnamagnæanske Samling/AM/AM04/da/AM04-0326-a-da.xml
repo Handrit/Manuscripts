@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,17 +23,19 @@
                      <idno>1070</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Hemings þáttr</title>; <origPlace>Norge?</origPlace>,
-            <origDate notBefore="1688" notAfter="1707">ca. 1700</origDate>.</head>
                <msContents>
-                  <msItem>
+                  <summary>
+                     <title type="uniform" xml:lang="is">Hemings þáttr</title></summary>
+                  <msItem n="1" class="konth">
+                     <locus from="1r" to="29r">1r-29r</locus>
                      <title type="uniform" xml:lang="is">Hemings þáttr</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <explicit defective="true">fram <lb/> um jolin<ex>n</ex>
                         <gap reason="irrelevant"/>
                      </explicit>
                      <note>Standser afbrudt bl. 29r.</note>
+                     <bibl>Fellows-Jensen: <ref type="primary" target="EA-B3">Hemings þáttr
+                           Áslákssonar</ref><note>Var.app. A3.</note></bibl>
                   </msItem>
                </msContents>
                <physDesc>
@@ -43,37 +46,46 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>29. <dimensions type="leaf" scope="all">
-                              <height>211</height>
-                              <width>164</width>
+                              <height unit="mm">211</height>
+                              <width unit="mm">164</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="AsgJon001" scope="sole" script="other">
-                        <p>Skrevet af Ásgeir Jónsson.</p>
+                        <p>Skrevet af <name type="person" key="AsgJon001">Ásgeir Jónsson</name>.</p>
                      </handNote>
                   </handDesc>
-                  <additions>I øvre margen bl. 1r har <name type="person" key="ArnMag001">Arne Magnusson</name> noteret: <q xml:lang="la">Ex 
-                     Codice membr. Regio continente Vitas Regu<ex>m</ex> Norveg</q>. I marginen ud for 
-                     titlen har <name type="person" key="GudVig001">Guðbrandur Vigfússon</name> tilføjet: <q xml:lang="la">Ex cod. optimo deperdito</q>. 
-                  </additions>
+                  <additions>I øvre margin bl. 1r har <name type="person" key="ArnMag001">Arne
+                        Magnusson</name> noteret: <q xml:lang="la">Ex Codice membr. Regio continente
+                        Vitas Regu<ex>m</ex> Norveg</q>. I marginen ud for titlen har <name
+                        type="person" key="GudVig001">Guðbrandur Vigfússon</name> tilføjet: <q
+                        xml:lang="la">Ex cod. optimo deperdito</q>. </additions>
                </physDesc>
+               <history>
+                  <origin>Sandsynligvis skrevet i <origPlace>Norge</origPlace>
+                     <origDate notBefore="1688" notAfter="1705">ca. 1700</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Guðbrandur Vigfússon:
-                        <ref type="secondary" target="IslSGV1887-1">Icelandic Sagas</ref>
+                     <bibl>Fellows-Jensen: <ref type="primary" target="EA-B3">Hemings þáttr
+                        Áslákssonar</ref><!-- biblScope? --></bibl>
+                     <bibl><ref type="secondary" target="IslSGV1887-1"/>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">xxxv</biblScope>
+                        <biblScope unit="page">xxxv</biblScope>
                      </bibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">569</biblScope>
+                        <biblScope unit="page">569</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-12-06" who="EvaWed001">Opdateret opmærkning.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,26 +23,58 @@
                      <idno>1646</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title xml:lang="is">Veraldar saga</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1175" notAfter="1225">s. XII/XIII</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="uniform">Veraldar saga</title>. <note>The B-version. AM 655 VII 4to and <ref type="ms" target="AM04-0655-VIII-en">AM 655 VIII
+                     4to</ref> contain the earliest manuscript fragments of the saga.</note> 
+                  </summary>
+                  <msItem n="1" defective="true" class="sagnps">
+                     <locus from="1r" facs="#AM04-0655-VII-0001r" to="2v">1r-2v</locus>
+                     <title type="uniform">Veraldar saga</title>
+                     <textLang mainLang="non"/>
+                        <bibl>Jakob Benediktsson, <ref target="STUAGNL61">Veraldar saga</ref>
+                           <note>Var.app. B1</note></bibl>
+                        <bibl>Morgenstern, <ref type="primary-1" target="HeilagraSuppl">Arnamagnæanische Fragmente</ref>
+                           <biblScope unit="page">37-42</biblScope></bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>2. </extent>
+                        <extent>2. <dimensions type="leaf">
+                           <height unit="mm">187</height>
+                           <width unit="mm">136</width>
+                        </dimensions></extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>
+                  <origDate notBefore="1190" notAfter="1210" resp="ONP">c. 1200</origDate></origin>
+                  <provenance>Fol. 1 and fol. 2 from <ref type="ms" target="AM04-0655-VIII-en">AM 655 VIII
+                     4to</ref> were put into a paper cover on which 
+                     <name type="person" key="ArnMag001">Árni Magnússon</name> wrote: <q xml:lang="is">Þetta gamla blad var lïmt ä spialld aptan vid latinſka Meſſu bok frä <name type="place" key="BærRey01">Saurbæ a Raudaſandi</name>, er eg feck <date when="1726">1726</date>. fra M<hi rend="sup">r</hi>
+                        <name type="person" key="OrmDad001">Orme Dadaſyne</name>. Sieſt ſo hier af,
+                        ad þeir elldri m<ex>enn</ex> hafa um þvilik<ex>ar</ex> gamlar lislendſkar
+                        bækur vered älika hirdulauſer og vær. þvi banded ä þeſſarre
+                        M<ex>esso</ex>bök, var ad viſu elldra (imò miklu elldra, ad eg hygg)
+                        en<ex>n</ex> reformatio Lutheri, og hefur þä ecki ſtort vered hirdt um
+                        peſſar fornu p<ex>re</ex>dikaner. Þo kynni <ex>og</ex> þetta þa
+                        e<ex>ck</ex>i vered hafa nema fragment</q>.</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="HarHre2021"/><biblScope unit="page">282-283</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="HreBen1965a"/><biblScope unit="page">ix</biblScope><!-- and more? --></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">59-60</biblScope>
+                     </bibl>
+                     <!-- SteKar1961a  <bibl>Jakob Benediktsson, <ref target="STUAGNL61">Veraldar saga</ref> der må være noget tekst om den.
+                           </bibl> -->
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,50 +24,27 @@
                         </altIdentifier>
                         <msName type="nickname" xml:lang="la">Codex Resenianus</msName>
                     </msIdentifier>
-                    <head>
-                        <title>Ólafs saga helga</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1390" notAfter="1410" cert="high" evidence="conjecture">c. 1400</origDate>
-                        <note>The leaf is all that remains of a manuscript called <title type="ms">Codex Resenianus</title>. Peder Resen (d. 1688) was a man that
-                            collected a number of manuscripts given to the university library of
-                            Copenhagen. A catalogue of the collection was made: <bibl>
-                                <title level="m">Petri Johannis Resenii bibliotheca regi academiæ
-                                    Hafniensi donata</title>
-                                <pubPlace>Hafniæ</pubPlace>
-                                <date>M. DC. L. XXXV</date>
-                            </bibl>, and the manuscript, now called Codex Resenianus, was then
-                            described on p. 259 among the foliants as <q xml:lang="la">Capsa VIII.
-                                Ord. I fol., nr 27</q>. Peder Resen's collection, however, together
-                            with all of the university library, was destroyed in the great
-                            Copenhagen fire of <date>1728</date>. On an AM-slip <name type="person" key="ArnMag001">Árni Magnússon</name> wrote that the leaf once
-                            belonged to a 7th gathering, that at his time was missing, and that the
-                            rest of this gathering was all gone. He added that this lacuna was an
-                            old one, what could be seen from an curse written in the manuscript upon
-                            the one who stole the gathering. Before the Copenhagen fire Codex
-                            Resenianus was copied for <name type="person" key="ArnMag001">Árni
-                                Magnússon</name>, and the content of the manuscript can now be found
-                            in AM 78 a fol and AM 78 b fol.</note>
-                    </head>
-                    <msContents>
-                        <msItem>
+                       <msContents>
+                           <summary><title type="uniform">Ólafs saga helga</title></summary>
+                           <msItem n="1" class="kon">
                             <locus from="1r" to="1v">1r-v</locus>
                             <title type="uniform">Ólafs saga helga</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <incipit defective="true">K<expan>onun</expan>gr vt t<expan>il</expan>
                                     siof<expan>ar</expan>
-                     </incipit>
+                            </incipit>
                             <explicit defective="true">skipit v<expan>ar</expan> gott
                                     <expan>ok</expan> miog vandadr</explicit>
-                            <listBibl>
-                                <bibl>
-                           <ref type="primary-3" target="OlHMU">Saga Ólafs konungs ens
-                                        helga</ref>, pp. 110-13</bibl>
-                                <bibl>
-                           <ref type="primary-3" target="OlHJH">Den store saga om Olav
-                                        den Hellige</ref>, pp. 284:13-291:8 <note>Ed. 325 XI
-                                        2d</note>
-                        </bibl>
-                            </listBibl>
+                            <filiation>Copies of <title type="ms">Codex Resenianus</title> exist in
+                                    <ref type="ms" target="#AM02-0078-a-en">AM 78 a fol.</ref> and
+                                    <ref target="#AM02-0078-b-en">AM 78 b fol.</ref>.</filiation>
+                            <bibl>Munch &amp; Unger, <ref type="primary-3" target="OlHMU">Saga Ólafs
+                                    konungs ens helga</ref><biblScope unit="page"
+                                >110-13</biblScope></bibl>
+                            <bibl>Johnsen &amp; Jón Helgason: <ref type="primary-3" target="OlHJH"
+                                    >Den store saga om Olav den Hellige</ref><biblScope unit="page"
+                                    >284:13-291:8</biblScope><note>Ed. 325 XI 2d</note>
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -76,10 +54,10 @@
                                     <p>Parchment.</p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>239</height>
-                                        <width>208</width>
+                                        <height unit="mm">239</height>
+                                        <width unit="mm">208</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" writtenLines="36">
@@ -95,76 +73,100 @@
                         </decoDesc>
                         <bindingDesc>
                             <binding contemporary="false">
-                                <p>Bound in a cardboard cover from <date when="1959">1959</date>.</p>
+                                <p>Bound in a cardboard cover from <date when="1959"
+                                    >1959</date>.</p>
                             </binding>
                         </bindingDesc>
+                        <accMat>On an AM-slip <name type="person" key="ArnMag001">Árni
+                                Magnússon</name> wrote: <q xml:lang="is">Þetta blad ur Olafs Sỏgu
+                                Helga, virdest mier heima eiga i þ<expan>ei</expan>re bok sem nu
+                                stendur in. Bibliotheca Reseniana, pag. Catalogi 259 Num. 27.
+                                Skriften er hin sama <del hand="ArnMag001" rend="overstrike">
+                                    <add place="supralinear" hand="ArnMag001">eda miỏg lik</add>
+                                </del>, sem mier synest, og gỏten i kiỏlnum accordera nærre lage. So
+                                hefr þä þetta blad ätt heima i þvi 7da kvere bokarinnar, sem nu er
+                                heillt burtu, og hefur ein hver f<expan>yrir</expan> laungu þar
+                                skrifad ä bokina: <hi rend="underline">Verdi þeim alldri lid at þvi
+                                    kveri, sem þeir hafa ur þessari bok stolid.</hi> Blad þetta hefi
+                                eg feinged i Islande, en<expan>n</expan> bokin sialf hefur (ad eg
+                                hygg) leinge i Danmork vered. Hefur so þetta ark leinge vantad i
+                                bokina. I bokina vantar þar f<expan>yrir</expan> utan 2. blỏd, sitt
+                                i hverium stad, og 2. blỏd midt in<expan>n</expan>an i eitt
+                            ark</q>.</accMat>
                     </physDesc>
                     <history>
-                        <origin notBefore="1485" notAfter="1515" cert="high" evidence="conjecture">
+                        <origin>
                             <p>The leaf is written in <origPlace>Iceland</origPlace>
-                                <origDate notBefore="1390" notAfter="1399" cert="high" evidence="conjecture">c. 1400</origDate>.</p>
+                                <origDate notBefore="1390" notAfter="1410" cert="high"
+                                    evidence="conjecture">c. 1400</origDate>.</p>
+                            <p>This leaf is all that survives of a manuscript called <title
+                                    type="ms">Codex Resenianus</title>. <name type="person"
+                                    key="PedRes001">Peder Resen</name> collected a number of
+                                manuscripts which he subsequently donated to <name type="org"
+                                    key="KB">The University Library of Copenhagen</name> and a
+                                catalogue of his collection <bibl>
+                                    <title level="m">Petri Johannis Resenii bibliotheca regi
+                                        academiæ Hafniensi donata</title>
+                                    <pubPlace>Hafniæ</pubPlace>
+                                    <date>M. DC. L. XXXV</date>
+                                </bibl> was made. The manuscript now known as Codex Resenianus was
+                                described as <q xml:lang="la">Capsa VIII. Ord. I fol., nr 27</q> on
+                                p. 259. Peder Resen’s collection was destroyed in the Copenhagen
+                                fire of <date when="1728">1728</date> together with the Univerity
+                                Library.</p>
                         </origin>
                         <acquisition>
-                            <p>On an AM-slip <name type="person" key="ArnMag001">Árni
-                                    Magnússon</name> informs that he has got the leaf from <name type="place">Iceland</name>. He does not mention a date, but as
-                                he refers to Codex Resenianus as an existing codex, he must have got
-                                it before the Copenhagen fire in <date when="1728">1728</date>: <q xml:lang="is">Þetta blad ur Olafs Sỏgu Helga, virdest
-                                    mier heima eiga i þ<expan>ei</expan>re bok sem nu stendur in.
-                                    Bibliotheca Reseniana, pag. Catalogi 259 Num. 27. Skriften er
-                                    hin sama <del hand="ArnMag001" rend="overstrike">
-                                        <add place="supralinear" hand="ArnMag001">eda
-                                            miỏg lik</add>
-                                    </del>, sem mier synest, og gỏten i
-                                    kiỏlnum accordera nærre lage. So hefr þä þetta blad
-                                    ätt heima i þvi 7da kvere bokarinnar, sem nu er heillt burtu, og
-                                    hefur ein hver f<expan>yrir</expan> laungu þar skrifad ä bokina:
-                                        <hi rend="underline">Verdi þeim alldri lid at þvi kveri, sem
-                                        þeir hafa ur þessari bok stolid.</hi> Blad þetta hefi eg
-                                    feinged i Islande, en<expan>n</expan> bokin sialf hefur (ad eg
-                                    hygg) leinge i Danmork vered. Hefur so þetta ark leinge vantad i
-                                    bokina. I bokina vantar þar f<expan>yrir</expan> utan 2.
-                                    blỏd, sitt i hverium stad, og 2. blỏd midt
-                                        in<expan>n</expan>an i eitt ark</q>.</p>
+                            <p>On the AM-slip <name type="person" key="ArnMag001">Árni
+                                    Magnússon</name> informs that he has got the leaf from <name
+                                    type="place">Iceland</name>. He does not mention any date, but
+                                as he refers to Codex Resenianus as an existing codex, he must have
+                                acquired it before <date when="1728">1728</date>.</p>
                         </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date>14.09.2000-18.09.2000</date> by <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                    <p>Catalogued <date>14.09.2000-18.09.2000</date> by <name
+                                            type="person" key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation">
-                                    <p>Set on meeting guards and bound in a cardboard cover
+                                    <p>put on meeting guards and bound in a cardboard cover
                                             <date>09.06.1959-15.08.1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
-                            <p>AMI has the following surrogates: <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade 37</idno>
-                                        <date>n.d.</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositive</title>
-                                        <idno>AM 325 XI 2d 4to</idno>
-                                        <date>May 1984 (1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <idno>AM 325 XI 2d 4to</idno>
-                                        <date>August 1959</date>
-                                    </bibl>
-                                </listBibl>
-                     </p>
+                            <p><list>
+                                    <item n="1">Plate, <idno>plade 37</idno>, s.d.</item>
+                                    <item n="2">Diapositives from <date notBefore="1984-05"
+                                            notAfter="1985-05">May 1984 or 1985</date>.
+                                    </item>
+                                    <item n="3">Black and white prints from <date when="1956-09"
+                                            >August 1956</date>.</item>
+                                </list>
+                            </p>
                         </surrogates>
+                        <listBibl>
+                            <bibl><ref type="secondary-1" target="SteDre2021a"/><biblScope
+                                    unit="page">28, 146, 224</biblScope></bibl>
+                            <bibl><ref type="secondary-1" target="OlHJH"/>
+                                <biblScope unit="volume">II</biblScope><biblScope unit="page">871,
+                                    959, 1002-5, 1067, 1107</biblScope></bibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                                    >566</biblScope></bibl>
+                        </listBibl>
+
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-12-02" who="EvaWed001">Updated.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

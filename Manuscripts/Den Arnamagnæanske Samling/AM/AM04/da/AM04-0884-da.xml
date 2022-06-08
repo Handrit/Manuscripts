@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,20 +22,18 @@
                      <idno>2015</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">De norske kongesagaer</title>;
-                     <origPlace>Norge eller Danmark</origPlace>, <origDate notBefore="1585" notAfter="1599" evidence="conjecture" resp="KKKat">s. XVI
-                  4/4</origDate>.</head>
                <msContents>
-                  <msItem>
+                  <summary><title type="supplied" xml:lang="da">De norske
+                        kongesagaer</title><note>Til og med Håkon Håkonssøns saga.</note></summary>
+                  <msItem n="1" class="kon">
+                     <locus from="1r" to="141r">1r-141r</locus>
                      <respStmt>
-                        <resp>Oversat af</resp>
+                        <resp key="trl"/>
                         <name type="person" key="MatSto001">Mattis Størssøn</name>
                      </respStmt>
                      <title type="supplied" xml:lang="da">De norske kongesagaer</title>
-                     <textLang mainLang="da">Ældre nydansk</textLang>
-                     <note>Til og med Håkon Håkonssøns saga. Bl. <locus>141v</locus>, der er
-                        overklæbet, har båret nogle gudelige vers.</note>
+                     <textLang mainLang="da"/>
+                     <note>Bl. 141v, der er overklæbet, har båret nogle gudelige vers.</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -43,11 +41,11 @@
                      <supportDesc material="chart">
                         <support>
                            <p>
-                              <material>Papir</material>. Bl. <locus>141v</locus> er overklæbet.</p>
+                              <material>Papir</material>. Bl. 141v er overklæbet.</p>
                         </support>
-                        <extent>141. Bl. <locus>2-7</locus> er ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>198</height>
-                              <width>150</width>
+                        <extent>141. Bl. 2-7 er ubeskrevne. <dimensions type="leaf" scope="all">
+                              <height unit="mm">198</height>
+                              <width unit="mm">150</width>
                            </dimensions>.</extent>
                         <condition>
                            <p>Titelbladet og register mangler.</p>
@@ -59,18 +57,23 @@
                   <bindingDesc>
                      <binding contemporary="unknown">
                         <p>Bindet var opr. betrukket med beskrevet pergament fra <title>Petrus de
-                              Herentals</title>, dette er nu overført til <ref type="ms">Access. 7e,
-                              Hs 123</ref>.</p>
+                              Herentals</title>, dette er nu overført til <ref type="ms"
+                              target="#Acc-0007-e-da">Access. 7e, Hs 123</ref>.</p>
                      </binding>
                   </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Norge eller Danmark</origPlace>, <origDate notBefore="1585"
+                        notAfter="1599" evidence="conjecture" resp="KKKat">s. XVI
+                     ex</origDate></origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">245</biblScope></bibl>
+                        <biblScope unit="page">245</biblScope></bibl>
                      <bibl>Storm: <ref target="SnorrHist">Snorre Sturlassöns Historieskrivning</ref>
-                        <biblScope unit="pages">266-274</biblScope>
+                        <biblScope unit="page">266-274</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

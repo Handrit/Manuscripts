@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -32,25 +32,25 @@
                   </altIdentifier>
 
                </msIdentifier>
-               <head>
-                  <title xml:lang="la">Speculum regale</title>
-                  <title xml:lang="is">Konungs skuggsjá</title>; <origPlace>Iceland</origPlace>, <origDate notBefore="1340" notAfter="1360" cert="high" resp="ONP">s. XIV med.</origDate>
-               </head>
                <msContents>
-                  <msItem defective="true" class="heims sidfr kenb">
+                  <summary><title xml:lang="la">Speculum regale</title>
+                     <title xml:lang="is">Konungs skuggsjá</title></summary>
+                  <msItem n="1" defective="true" class="heims sidfr kenb">
                      <title xml:lang="is">Konungs skuggsjá</title>
-                     <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                     <textLang mainLang="non">Old Norse/Icelandic</textLang>
                      <msItem n="1.1" class="heims sidfr kenb">
                         <locus from="1r" to="1v">1r-v</locus>
                         <incipit defective="true">ſkiot. En ept<ex>er</ex> þ<ex>vi</ex>
                         </incipit>
-                        <explicit defective="true">i millv<ex>m</ex> allt einn dag<supplied reason="damage">r</supplied>
+                        <explicit defective="true">i millv<ex>m</ex> allt einn dag<supplied
+                              reason="damage">r</supplied>
                         </explicit>
                      </msItem>
                      <msItem n="1.2" class="heims sidfr kenb">
                         <locus from="2r" to="2v">2r-v</locus>
                         <incipit defective="true">
-                           <supplied reason="damage">hirð</supplied>ar <supplied reason="damage">fø</supplied>ker h<ex>ann</ex> þegar ſina maka</incipit>
+                           <supplied reason="damage">hirð</supplied>ar <supplied reason="damage"
+                              >fø</supplied>ker h<ex>ann</ex> þegar ſina maka</incipit>
                         <explicit defective="true">allz kynſ uorþu yv<ex>er</ex>
                            k<ex>onun</ex>ge</explicit>
                      </msItem>
@@ -107,8 +107,8 @@
                            <p><material>Parchment</material>.</p>
                         </support>
                         <extent>9 + 1 added later. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>252</height>
-                              <width>163</width>
+                              <height unit="mm">252</height>
+                              <width unit="mm">163</width>
                            </dimensions>.</extent>
                         <foliation>Foliated with black ink at the inner left-hand corner on the top
                            of the pages.</foliation>
@@ -128,6 +128,10 @@
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1340" notAfter="1360"
+                        cert="high" resp="ONP">s. XIV med</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl><ref type="secondary-1" target="BiblArn13">Holm-Olsen 1952</ref>
@@ -142,7 +146,9 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2021-08-13" who="EvaWed001">Latest update.</change></revisionDesc>
+      <revisionDesc>
+         <change when="2021-08-13" who="EvaWed001">Latest update.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

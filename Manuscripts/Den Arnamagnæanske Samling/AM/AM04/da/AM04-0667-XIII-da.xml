@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,17 +23,13 @@
                             <idno>1664</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform">Maríu jartegnir</title>;
-                        <origPlace>Island</origPlace>,
-                        <origDate notBefore="1400" notAfter="1499" resp="KKKat ONP">s. XV</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
-                            <locus from="1r" to="1v">1r-v</locus>
-                            <title type="uniform">Maríu saga</title>
+                        <summary><title type="uniform">Maríu jartegnir</title></summary>
+                        <msItem n="1" class="jarteikn">
+                            <locus from="1r" facs="#AM04-0667-XIII-0001r" to="1v">1r-v</locus>
+                            <title type="uniform">Maríu jartegnir</title>
                             <title type="parallel">Af keisara fru</title>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                            <textLang mainLang="non">Norrønt/Islandsk</textLang>
                             <incipit defective="true">
                                 <supplied reason="damage">þ</supplied>eſſ hins sama
                                 hog<ex>g</ex>ormz</incipit>
@@ -45,11 +42,11 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Pergament.</p>
+                                    <p><material>Pergament</material>.</p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>205</height>
-                                        <width>145</width>
+                                        <height unit="mm">205</height>
+                                        <width unit="mm">145</width>
                                     </dimensions>
                                 </extent>
                                 <condition>Forskellige mindre beskadigelser.</condition>
@@ -76,7 +73,7 @@
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation">
-                                    <p>Under restaurering <date from="1963-04-02" to="1965-11-11">2.
+                                    <p>Under konservering <date from="1963-04-02" to="1965-11-11">2.
                                             april 1963-11. november 1965</date> blev fragmentet sat
                                         på knækfalse og lagt i et blåt papbind.</p>
                                 </custEvent>
@@ -84,23 +81,23 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <bibl>
-                                    <title type="gmd">70 mm</title>
-                                    <idno>?</idno>
-                                    <date when="1963">1963</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">s/h fotografier</title>
-                                    <idno>AM 667 XIII 4to</idno>
-                                    <date when="1963-03">Marts 1963</date>
-                                </bibl>
-                            </p>
+                                <list>
+                                    <item> 70 mm fra <date when="1963">1963</date>.
+                                    </item>
+                                    <item> Sort-hvid fotografier fra <date when="1963-03">marts
+                                        1963</date>.
+                                    </item>
+                                </list>
+                                
+                               </p>
                         </surrogates>
                         <listBibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">80</biblScope>
+                        <biblScope unit="page">80</biblScope>
                      </bibl>
+                            <bibl><ref type="secondary" target="Wolf2013"/>
+                            <biblScope unit="page">236</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

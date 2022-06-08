@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,14 +23,14 @@
                      <idno>1645</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Gyðinga saga</title>; <origPlace>Island?</origPlace>
-                  <origDate notBefore="1700" notAfter="1725" resp="KKKat">s. XVIII 1/4</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform">Gyðinga saga</title></summary>
+                  <msItem n="1" class="sagnps">
+                     <locus from="1r" to="136r">1r-136r</locus>
                      <title type="uniform">Gyðinga saga</title>
-                     <textLang mainLang="is">Islandsk</textLang>
+                     <textLang mainLang="is"/>
+                     <filiation>Ifølge AM-sedlen er håndskriftet en transskription af den tilsvarende saga <ref
+                        type="ms" target="AM02-0226-da">AM 226 fol.</ref></filiation>
                   </msItem>
                </msContents>
                <physDesc>
@@ -40,8 +41,8 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>136. Bl. 136v ubeskrevet. <dimensions type="leaf" scope="all">
-                              <height>215</height>
-                              <width>167</width>
+                              <height unit="mm">215</height>
+                              <width unit="mm">167</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
@@ -54,22 +55,25 @@
                      <decoNote type="initial">Farvelagt begyndelsesinitial.</decoNote>
                   </decoDesc>
                   <accMat>På en foran indklæbet seddel har <name type="person" key="ArnMag001">Arne
-                        Magnusson</name> noteret: <q xml:lang="la">Hiſtoria Macchabeorum ex
-                        SS Bibliis <ex>et</ex> Joſepho. Subnectitur Hiſtoriæ
-                           Alexandri Magni in Codice <name type="person" key="BryTho001">Brynolfi Theodori</name> (ͻ: <ref type="ms" target="AM02-226-da">AM 226 fol.</ref>) unde deſcripta
-                        eſt</q>
+                        Magnusson</name> noteret: <q xml:lang="la">Hiſtoria Macchabeorum ex SS
+                        Bibliis <ex>et</ex> Joſepho. Subnectitur Hiſtoriæ Alexandri Magni in Codice
+                           <name type="person" key="BryTho001">Brynolfi Theodori</name> (ͻ: AM 226 fol.) unde deſcripta eſt</q>
                   </accMat>
                </physDesc>
+               <history><origin><origPlace>Island?</origPlace>
+                  <origDate notBefore="1700" notAfter="1725" resp="KKKat">s. XVIII<hi rend="sup"
+                     >1/4</hi></origDate>.</origin></history>
                <additional>
                   <listBibl>
-                     <bibl>Guðmundur Þorláksson: <ref type="secondary-1" target="STUAGNL6">Gyðinga
-                           saga</ref>
-                        <biblScope unit="pages">xi</biblScope>
+                     <bibl><ref type="secondary-1" target="STUAGNL6"/>
+                        <biblScope unit="page">xi</biblScope>
                      </bibl>
-                     <bibl>Kålund: <ref type="seconday-1" target="KKKat">Katalog</ref>
+                     <bibl><ref type="secondary-1" target="JónHel0842a"/><!-- biblScope? --></bibl>
+                     <bibl><ref type="seconday-1" target="KKKat"/>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">57</biblScope>
+                        <biblScope unit="page">57</biblScope>
                      </bibl>
+                     <bibl><ref type="secondary-1" target="KirWol1995a"/><!-- biblScope? --></bibl>
                   </listBibl>
                </additional>
             </msDesc>

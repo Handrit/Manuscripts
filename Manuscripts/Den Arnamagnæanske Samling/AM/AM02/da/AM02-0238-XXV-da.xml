@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,15 +23,11 @@
                      <idno>360</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="is">Æfintýri</title>;
-                     <origPlace>Island</origPlace>, <origDate notBefore="1300" notAfter="1399" cert="medium" resp="KKKat">s.
-                     XIV</origDate>
-                  <origDate notBefore="1350" notAfter="1374" cert="high" resp="ONP">s. XIV 3/4</origDate>.</head>
                <msContents>
-                  <msItem>
-                     <title type="supplied" xml:lang="is">Æfintýri</title>
-                     <textLang mainLang="non">Norrønt/islandsk</textLang>
+                  <summary><title type="supplied" xml:lang="da">Ævintýri</title></summary>
+                  <msItem n="1" class="avint">
+                     <title type="supplied" xml:lang="da">Ævintýri</title>
+                     <textLang mainLang="non"/>
                      <incipit defective="true">vitrlig<ex>ri</ex> ok m<ex>ar</ex>gfalld<ex>ri</ex>
                            vmleita<ex>n</ex>
                      </incipit>
@@ -46,8 +43,8 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>3. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>227</height>
-                              <width>145</width>
+                              <height unit="mm">227</height>
+                              <width unit="mm">145</width>
                            </dimensions>.</extent>
                         <foliation>Folieret med sort blæk.</foliation>
                         <collation>Bl. 1 og 2 er sammenhængende.</collation>
@@ -65,24 +62,38 @@
                   <bindingDesc>
                      <binding contemporary="false">
                         <p>Gråt papomslag: <dimensions type="binding" unit="mm">
-                              <height>296</height>
-                              <width>249</width>
+                              <height unit="mm">296</height>
+                              <width unit="mm">249</width>
                            </dimensions>
                         </p>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
-                  <origin>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
+                  <!-- <origDate notBefore="1300"
+                        notAfter="1399" cert="medium">1300-tallet</origDate> -->
+                  <origin>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1350"
+                        notAfter="1375" cert="high">1300-tallets tredje fjerdedel</origDate>
+                           (<bibl><ref type="secondary" target="BiblArn32">Louis-Jensen
+                           1977</ref><biblScope unit="page">8, 14</biblScope></bibl>). <name
+                        type="person" key="KriKaa001">Kålund</name>s datering: 1300-tallet (<bibl>
                         <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">205</biblScope>
-                     </bibl>) har dateret fragmentet til <origDate notBefore="1300" notAfter="1399" cert="medium">1300-tallet</origDate>. <bibl>
-                        <ref type="secondary" target="ONPregistre">Ordbog over det norrøne
-                           prosasprog</ref>
-                     </bibl> har dog dateret det til <origDate notBefore="1350" notAfter="1375" cert="high">1300-tallets tredje fjerdedel</origDate>.</origin>
+                        <biblScope unit="page">205</biblScope>
+                     </bibl>).</origin>
                   <provenance>Proveniensen er ukendt.</provenance>
                </history>
+               <additional>
+                  <listBibl>
+                     <bibl>
+                        <ref type="secondary" target="KKKat"/>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">205</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="BiblArn32"/>
+                        <biblScope unit="page">8, 14</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

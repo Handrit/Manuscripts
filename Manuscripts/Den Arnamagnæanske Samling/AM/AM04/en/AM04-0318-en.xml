@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,41 +23,49 @@
                      <idno>1052</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Noregs konunga sögur</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1664" notAfter="1664">1664</origDate>
-                  <note>Transscript of
-                     <ref type="ms" target="AM02-0066">Hulda (AM 66 fol.)</ref>
-                  </note>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                   <msContents>
+                  <summary><title type="uniform" xml:lang="is">Noregs konunga
+                     sǫgur</title></summary>
+                  <msItem n="1" class="kon">
+                     <title type="uniform" xml:lang="is">Noregs konunga sǫgur</title>
+                     <textLang mainLang="is"/>
+                     <filiation>Copy of <ref type="ms" target="AM02-066-da">Hulda (AM 66
+                           fol.)</ref>
+                     </filiation>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>91. 
-<dimensions type="leaf" scope="all">
-                              <height>195</height>
-                              <width>167</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>91. <dimensions type="leaf" scope="all">
+                              <height unit="mm">195</height>
+                              <width unit="mm">167</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="HelGri001" scope="sole" script="unknown">
-                        <p>
-Written by Helgi Grímsson.</p>
+                        <p> Written by <name type="person" key="HelGri001">Helgi Grímsson</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate when="1664" cert="high"
+                     evidence="internal">1664</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/><biblScope
+                        unit="volume">I</biblScope><biblScope unit="page">550</biblScope></bibl>
+                  </listBibl>
+               </additional>
+               
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-12-14" who="EvaWed001">Updated markup and added bibliography.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

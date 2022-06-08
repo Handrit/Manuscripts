@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,46 +23,56 @@
                             <idno>1068</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title xml:lang="is">Konunga sögur</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1360" notAfter="1380" cert="high" evidence="conjecture">c. 1370</origDate>
-                    </head>
-                    <msContents>
-                        <msItem>
-                            <msItem n="1.1">
-                                <locus from="1r" to="7r">1r-7r</locus>
-                                <title>Sverris saga</title>
-                                <textLang mainLang="is">Old Norse/Icelandic</textLang>
-                                <incipit defective="true">þ<expan>e</expan>u maali
-                                        en<expan>n</expan> k<expan>onun</expan>gi</incipit>
-                                <note>Six fragments of the saga</note>
-                            </msItem>
-                            <msItem n="1.2">
-                                <locus from="7r" to="7v">7r-7v</locus>
-                                <title>Hákonar saga Sverrissonar</title>
-                                <bibl>
-                           <ref type="primary-2" target="FMS9">Fornmanna sögur</ref> IX,
-                                    pp. 214-16</bibl>
-                            </msItem>
-                            <msItem n="1.3">
-                                <locus from="8r" to="12v">8r-12v</locus>
-                                <title>Hákonar saga Hákonarsonar</title>
-                                <incipit defective="true">
-                           <supplied reason="damage">Kolb</supplied>æin<supplied reason="unknown">n</supplied>
-                                    kettu hry</incipit>
-                                <explicit defective="true">vpp vnd<expan>ir</expan>
-                                    kuínn en<expan>n</expan>
-                        </explicit>
-                                <note>Five fragments of the saga.</note>
-                            </msItem>
-                            <msItem n="1.4">
-                                <locus from="13" to="14">13-14</locus>
-                                <title>Magnúss saga lagabætis Hákonarsonar</title>
-                                <bibl>
-                           <ref type="primary-2" target="FMS10">Fornmanna sögur</ref> X,
-                                    pp. 155-63</bibl>
-                            </msItem>
+                      <msContents>
+                        <summary><title type="uniform" xml:lang="is">Noregs konunga
+                            sǫgur</title></summary>
+                        <textLang mainLang="non"/>
+                        <msItem n="1" class="kon">
+                            <locus from="1r" to="7r">1r-7r</locus>
+                            <title type="uniform">Sverris saga</title>
+                            <incipit defective="true">þ<expan>e</expan>u maali en<expan>n</expan>
+                                    k<expan>onun</expan>gi</incipit>
+                            <note>Six fragments of the saga</note>
+                        </msItem>
+                        <msItem n="2" class="kon">
+                            <locus from="7va" to="7vb">7va-vb</locus>
+                            <title type="uniform" xml:lang="is">Bǫglunga saga</title>
+                            <bibl>
+                                <ref type="primary-2" target="FMS9">Fornmanna sögur</ref>
+                                <biblScope unit="volume">IX</biblScope>
+                                <biblScope unit="page">214-16</biblScope>
+                            </bibl>
+                            <bibl>Magerøy, <ref type="primary-1" target="NT5">Soga om birkebeinar og
+                                    baglar: Bǫglunga sǫgur</ref>
+                                <biblScope unit="page">3-7</biblScope><note>Ed. X.</note></bibl>
+                        </msItem>
+                        <msItem n="3" class="kon">
+                            <locus from="8r" to="12v">8r-12v</locus>
+                            <title type="uniform">Hákonar saga Hákonarsonar</title>
+                            <note>Five fragments of the saga.</note>
+                            <incipit defective="true">
+                                <supplied reason="damage">Kolb</supplied>æin<supplied
+                                    reason="unknown">n</supplied> kettu hry&#x0262;</incipit>
+                            <explicit defective="true">vpp vnd<ex>ir</ex> ku&#x0262;ínn en<ex>n</ex>
+                            </explicit>
+                            <bibl>Guðbrandur Vigfússon, <ref type="primary" target="IslSGV1887-2"
+                                    >Hakonar Saga, and a Fragment of Magnus Saga, with
+                                    Appendices</ref>
+                                <biblScope unit="page">375-380</biblScope></bibl>
+                        </msItem>
+                        <msItem n="4" class="kon">
+                            <locus from="13" to="14">13-14</locus>
+                            <title type="uniform">Magnús saga lagabætis</title>
+                            <bibl>
+                                <ref type="primary-2" target="FMS10">Fornmanna sögur</ref>
+                                <biblScope unit="volume">X</biblScope>
+                                <biblScope unit="page">155-63</biblScope>
+                            </bibl>
+                            <bibl>Guðbrandur Vigfússon, <ref type="primary" target="IslSGV1887-2"
+                                    >Hakonar Saga, and a Fragment of Magnus Saga, with
+                                    Appendices</ref>
+                                <biblScope unit="page">361-368</biblScope><note>Ed.
+                                Cd.</note></bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -72,23 +83,31 @@
                                         <material>Parchment</material>.</p>
                                 </support>
                                 <extent>14. <dimensions type="leaf" scope="all">
-                                        <height>300</height>
-                                        <width>220</width>
+                                        <height unit="mm">300</height>
+                                        <width unit="mm">220</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
-                                    <p>Only fols 3 and 5 have full size, the other leaves are more
-                                        or less reduced in the margin. Fol. 7 is almost illegible
-                                        becuase of wear. The top lines of fol. 1 are missing, fol. 2 is
-                                        cut lenthgwise but with no damage to the text, the top of fol.
-                                        8 is cut, the upper part of the inner edge of fol. 10 is
-                                        mouldered, fol. 13 is almost illegible and damaged at the
-                                        inner edge.</p>
+                                    <p>Only fols 3 and 5 are all full size leaves the others have
+                                        lost more or less of the margins. Several leaves are badly
+                                        worn or have holes and tears. <list>
+                                            <item>Fol. 1 is badly worn and the top has been excised
+                                                including some of the top lines.</item>
+                                            <item>Fol. 2 is split vertically, however, with no
+                                                damage to the text.</item>
+                                            <item>Fol. 7 is almost illegible due to wear.</item>
+                                            <item>Fol 8 is excised at the top.</item>
+                                            <item>Fol. 10 is crumbled at the top along the
+                                                spine</item>
+                                            <item>Fol. 13 is almost illegible and damaged near the
+                                                spine.</item>
+                                        </list>
+                                    </p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2">
-                                    <p>Written in double columns.</p>
+                                    <p>Written in two columns.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -100,125 +119,136 @@
                         </decoDesc>
                         <accMat>
                             <p>There are two AM-slips. <list>
-                                    <item>The first is written for Árni Magnússon and concerns f. 4:
-                                            <q xml:lang="is">Þetta Sverris sgu blad feck
-                                            eg <date>1706</date> af Arna Han<expan>n</expan>essyne,
-                                            og hafde han<expan>n</expan> þ<expan>ad</expan> fundid j
-                                            rusle ä ytra Hölme, og var þar eckert meira þess slags.
-                                            Þad er manifestè ur sama volumine
-                                                se<expan>m</expan> þ<expan>ad</expan> eina blad ur
-                                            Magnuss sgu lagabætis er eg fenged hefe utan
-                                            af Kvere Han<expan>n</expan>esar
-                                        Þorleifssonar</q>.</item>
-                                    <item>The second AM slip concerning f. 13 is written by Árni
+                                    <item>The first is written by one of <name type="person"
+                                            key="ArnMag001">Árni Magnússon</name>'s scribes,
+                                        concerning fol. 4: <q xml:lang="is">Þetta Sverris sgu blad
+                                            feck eg <date>1706</date> af Arna
+                                            Han<expan>n</expan>essyne, og hafde han<expan>n</expan>
+                                                þ<expan>ad</expan> fundid j rusle ä ytra Hölme, og
+                                            var þar eckert meira þess slags. Þad er manifestè ur
+                                            sama volumine se<expan>m</expan> þ<expan>ad</expan> eina
+                                            blad ur Magnuss sgu lagabætis er eg fenged hefe utan af
+                                            Kvere Han<expan>n</expan>esar Þorleifssonar</q>.</item>
+                                    <item>The second AM slip, concerning fol. 13, is written by Árni
                                         Magnússon: <q xml:lang="is">Þetta blad var utanum qver, er
                                             att hafdi Han<expan>n</expan>es Þorleifsson</q>.</item>
                                     <item>Another 3 leaves are subjoined, these contain a copy of f.
-                                        13 written by <name type="person" key="ThoTho003">Þórður Þórðarsson</name>.</item>
+                                        13 written by <name type="person" key="ThoTho003">Þórður
+                                            Þórðarsson</name>.</item>
                                 </list>
                             </p>
                         </accMat>
                     </physDesc>
                     <history>
                         <origin notBefore="1345" notAfter="1395" cert="high" evidence="conjecture">
-                            <p> Written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> dates it to <origDate>c.
-                                    1400</origDate> (<bibl>
+                            <p> Written in <origPlace>Iceland</origPlace>
+                                <origDate notBefore="1360" notAfter="1380" cert="high"
+                                    evidence="conjecture">c. 1370</origDate> (<bibl>
+                                    <ref type="secondary" target="EIMF7">Stefán Karlsson
+                                        1967</ref><biblScope unit="page">28</biblScope>
+                                </bibl>). Kålund's date: <date>c. 1400</date> (<bibl>
                                     <ref type="secondary-1" target="KKKat">KKKat</ref>
-                                </bibl>), whereas <name type="person" key="SteKar001">Stefán
-                                    Karlsson</name> dates it to <origDate notBefore="1360" notAfter="1380" cert="high" evidence="conjecture">c.
-                                    1370</origDate> (<bibl>
-                                    <ref type="secondary" target="EIMF7">Stefán Karlsson 1967, p.
-                                        28</ref>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="page">564</biblScope>
                                 </bibl>).</p>
                         </origin>
                         <provenance>
-                            <p>On fols 2r and 4r a seventeenth century hand has written: <q xml:lang="is">
+                            <p>On fols 2r and 4r a seventeenth century hand wrote: <q xml:lang="is">
                                     <name type="person" key="SnaSte001">Snæbjörn Steffánsson</name>
-                                </q>, and on f. 11r the name <q xml:lang="is">
+                                </q>, and on fol. 11r the name <q xml:lang="is">
                                     <name type="person" key="SnoAsg001">snore asgeirsson</name>
                                 </q> appears.</p>
+                            <p>According to the AM-slip concerning fol. 13 the leaf was used as
+                                binding material for a book belonging to <name type="person"
+                                    key="HanTho001">Hannes Þorleifsson</name>.</p>
                         </provenance>
                         <acquisition>
                             <p>
-                        <name type="person" key="ArnMag001">Árni Magnússon</name> got the
-                                fragments from several places. <list>
-                                    <item>An AM slip written for Árni Magnússon tells of f. 4: <q xml:lang="is">Þetta Sverris sgu blad feck eg
-                                                <date>1706</date> af <name type="person" key="ArnHan001">Arna
-                                            Han<expan>n</expan>essyne</name>, og hafde
-                                                han<expan>n</expan> þ<expan>ad</expan> fundid j
-                                            rusle ä ytra Hölme, og var þar eckert meira þess slags.
-                                            Þad er manifestè ur sama volumine
-                                                se<expan>m</expan> þ<expan>ad</expan> eina blad ur
-                                            Magnuss sgu lagabætis er eg fenged hefe utan
-                                            af Kvere <name type="person" key="HanTho001">Han<expan>n</expan>esar
-                                        Þorleifssonar</name>
-                              </q>.</item>
-                                    <item>A note in Árni Magnússon's hand on f. 9r reads: <q xml:lang="is">i Reyk hollt <date>1707</date>
-                              </q>.</item>
-                                    <item>Another note in the bottom margin of f. 10r says: <q xml:lang="is">Ur Aust fiordu<expan>m</expan>
-                                            <date>1711</date>
-                              </q>.</item>
-                                    <item>On an AM slip concerning f. 13 Árni Magnússon has written:
-                                            <q xml:lang="is">Þetta blad var utanum qver, er att
-                                            hafdi <name type="person" key="HanTho001">Han<expan>n</expan>es
-                                        Þorleifsson</name>
-                              </q>.</item>
-                                    <item>According to <bibl>
-                                 <ref type="secondary" target="FMS9">Fornmanna sögur</ref> IX</bibl> a leaf of paper in
-                                        Árni Magnússon's hand belongs to f. 7. Here Árni explains
-                                        that he has bought a book bound with this leaf at an auction
-                                        in <name type="place">Copenhagen</name>.</item>
-                                </list>
-                     </p>
+                                <name type="person" key="ArnMag001">Árni Magnússon</name> got the
+                                fragments from several places. According to the AM-slips, Árni
+                                Magnússon acquired fol. 4 in <date when="1706">1706</date> from
+                                    <name type="person" key="ArnHan001">Árni Hannesson</name>, A
+                                note in Árni Magnússon's hand on f. 9r reads: <q xml:lang="is">i
+                                    Reyk hollt <date when="1707">1707</date></q>. Another note in
+                                the bottom margin of fol. 10r says: <q xml:lang="is">Ur Aust
+                                        fiordu<expan>m</expan>
+                                    <date when="1711">1711</date>
+                                </q>. According to <bibl>
+                                    <ref type="secondary" target="FMS9">Fornmanna sögur</ref>
+                                    <biblScope unit="volume">IX</biblScope></bibl> fol. 7 was bought
+                                at an auction in <name type="place" key="Copen01">Copenhagen</name>.
+                            </p>
                         </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date when="2000-05-29">29.05.2000</date> by <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                    <p>Catalogued <date when="2000-05-29">29.05.2000</date> by <name
+                                            type="person" key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation">
-                                    <p>The MS was set on meeting guards and in a cover
-                                            <date from="1959-03-03" to="1959-04-04">03.03.1959-04.04.1959</date>.</p>
+                                    <p>The MS was put on meeting guards and in a cover <date
+                                            from="1959-03-03" to="1959-04-04"
+                                            >03.03.1959-04.04.1959</date>.</p>
                                 </custEvent>
                                 <custEvent type="conservation">
                                     <p>The MS was set on new meeting guards and put in a new cover
-                                            <date>10.03.1980-31.03.1980</date>.</p>
+                                        <date from="1980-03-10" to="1980-03-31">10.03.1980-31.03.1980</date>.</p>
                                 </custEvent>
                                 <custEvent type="conservation">
-                                    <p>The binding was provided with a number and a back title
-                                            <date>04.10.1961</date> .</p>
+                                    <p>The binding was provided with a shelfmark and a title on the spine
+                                        <date when="1961-10-04">04.10.1961</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade37</idno>
-                                        <date>n.d.</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositive</title>
-                                        <idno>AM 325 X 4to</idno>
-                                        <date>May 1984 or 85</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <idno>325 X 4to</idno>
-                                        <date>November 1958</date>
-                                    </bibl>
-                                </listBibl>
-                            </p>
+                                <list>
+                                    <item n="1">Plate, <idno>plade 37</idno>, s.d.</item>
+                                    <item n="2">Diapositives from <date notBefore="1984-05"
+                                        notAfter="1985-05">May 1984 or 1985</date>.
+                                    </item>
+                                    <item n="3">Black and white prints from <date when="1956-11"
+                                        >November 1956</date>.</item>
+                                </list>
+                                   </p>
                         </surrogates>
+                        <listBibl>
+                            <bibl><ref type="secondary-1" target="SteDre2021a">Dreschler
+                                2021</ref><biblScope unit="page">26, 52, 127-128, 146-147, 226</biblScope></bibl>
+                            <bibl>
+                                <ref type="secondary" target="FMS8">Fornmanna sögur</ref>
+                                <biblScope unit="volume">VIII</biblScope>
+                                <biblScope unit="page">xvii-xxvii</biblScope>
+                                <note>Described as fragments 2-5, 7, 10 and 14.</note>
+                            </bibl>
+                            <bibl>
+                                <ref type="secondary" target="FMS9">Fornmanna sögur</ref>
+                                <biblScope unit="volume">IX</biblScope>
+                                <biblScope unit="page">ix, xvii-viii</biblScope>
+                                <note>Described as fragments 1, 3, 4, 6, 8 and 9.</note>
+                            </bibl>
+                            <bibl>
+                                <ref type="secondary" target="FMS10">Fornmanna sögur</ref>
+                                <biblScope unit="volume">X</biblScope>
+                                <biblScope unit="page">v-vi</biblScope>
+                            </bibl>
+                            <bibl><ref target="IslSGV1887-1">Guðbrandur Vigfússon 1887</ref><biblScope unit="volume"
+                                >I</biblScope><biblScope unit="page">xvii-xx</biblScope></bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat"
+                                >Katalog</ref><biblScope unit="volume">I</biblScope><biblScope
+                                    unit="page">564-565</biblScope></bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-12-03" who="EvaWed001">Updated markup and bibliography.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

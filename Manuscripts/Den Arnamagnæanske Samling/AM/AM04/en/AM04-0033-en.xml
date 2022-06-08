@@ -1,57 +1,98 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 33 4to</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM04-0033-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 33 4to</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>676</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title n="1">Historia legum Castrensium Regis Canuti magni</title>
-                  <title n="2">Compendiosa Regum Daniæ Historia</title>;
-                  <origPlace>Denmark</origPlace>,
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>.
-               </head>
-               <msContents>
-                  <msItem n="1">
-                     <author key="SveAgg001">Sven Aggesen</author>
-                     <textLang mainLang="la">Latin</textLang>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>52. 
-<dimensions type="leaf" scope="all">
-                              <height>210</height>
-                              <width>167</width>
-                           </dimensions>
-                        </extent>
-                     </supportDesc>
-                  </objectDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 33 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0033-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 33 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>676</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title n="1">Historia legum Castrensium Regis Canuti magni and Compendiosa Regum Daniæ Historia</title>.</summary>
+						<msItem n="1">
+							<locus facs="#AM04-0033-0001r">1r</locus>
+							<title type="supplied">Title Page</title>
+							<textLang mainLang="la">Latin</textLang>
+						</msItem>
+						<msItem n="2" class="sagnfr">
+							<locus from="2r" facs="#AM04-0033-0002r" to="18v">2r-18v</locus>
+							<author key="SveAgg001">Sven Aggesen</author>
+							<title n="1" xml:lang="la">Historia Legum Castrensium Regis Canuti
+								Magni</title>
+							<textLang mainLang="la">Latin</textLang>
+						</msItem>
+						<msItem n="3" class="sagnfr">
+							<locus from="19r" facs="#AM04-0033-0019r" to="51v">19r-51v</locus>
+							<author key="SveAgg001">Sven Aggesen</author>
+							<title n="2" xml:lang="la">Compendiosa Regum Daniæ Historia</title>
+							<textLang mainLang="la">Latin</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support><material>Paper</material>.</support>
+								<extent>52 written leaves + a blank quire. Fol. 1<hi rend="sup">bis</hi> is blank too. <dimensions type="leaf" scope="all">
+										<height unit="mm">210</height>
+										<width unit="mm">167</width>
+									</dimensions>. </extent>
+								<foliation>Foliated 1-51 (including 1<hi rend="sup">bis</hi>).</foliation>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<handNote scope="sole" scribe="ClaLys001" script="unknown">
+								<p>Written by <name type="person" key="ClaLys001">Claus
+										Christophersen Lyschander</name>.</p>
+							</handNote>
+						</handDesc>
+						<additions>
+							<p>Some notes were added to the inside and outside of the front cover.</p>
+							<p>Among these, the name <q>Claudius Christophorij Lyſchander</q> can be found.</p></additions>
+						<bindingDesc>
+							<binding contemporary="unknown">
+								<p>Cardboard binding.</p></binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin><origPlace>Denmark</origPlace>, <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>.</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="page">360-361</biblScope>
+							</bibl>
+							<bibl>Kolderup-Rosenvinge, <ref type="secondary-1" target="SgdL5">Samling af gamle danske Love</ref>
+								<biblScope unit="volume">III</biblScope>
+								<biblScope unit="page">xii</biblScope>
+							</bibl>
+							<bibl>Jørgensen, <ref type="secondary-1" target="Jørgensen1884">Udsigt
+								over de danske Rigsarchivers Historie</ref>
+								<biblScope unit="page">200-205</biblScope>
+							</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc><change when="2022-04-28" who="EvaWed001">Expanded.</change></revisionDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0033-0001r" n="0">
 			<desc>0001r</desc>

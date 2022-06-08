@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,22 +22,21 @@
                             <idno>1512</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform">Rómverja saga</title>
-                        <origPlace>Island</origPlace>
-                        <origDate notBefore="1400" notAfter="1499" evidence="conjecture" resp="KKKat">s. XV</origDate>
-                    </head>
                     <msContents>
-                        <msItem defective="true">
+                        <summary><title type="uniform">Rómverja saga</title></summary>
+                        <msItem n="1" class="sagnps" defective="true">
                             <locus from="1r" to="1v">1r-v</locus>
                             <title type="uniform">Rómverja saga</title>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                            <textLang mainLang="non"/>
                             <incipit defective="true">
                                 <gap reason="lacuna"/>er ui<ex>er</ex> saam v<ex>m</ex>
                                 nattina</incipit>
                             <bibl>Konráð Gíslason: <ref type="primary" target="KGProver">Fire og
                                     Fyrretyve for en stor Deel forhen utrykte Prøver af oldnordisk
-                                    Sprog og Litteratur</ref><biblScope unit="pages">233</biblScope></bibl>
+                                    Sprog og Litteratur</ref><biblScope unit="page"
+                                >233</biblScope></bibl>
+                            <bibl><ref type="primary" target="ÞorHel2010a">Rómverja
+                                    saga</ref><note>Var.app. 598IIIγ</note></bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -48,8 +48,8 @@
                                     </p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>213</height>
-                                        <width>163</width>
+                                        <height unit="mm">213</height>
+                                        <width unit="mm">163</width>
                                     </dimensions>
                                 </extent>
                                 <condition>
@@ -58,26 +58,35 @@
                             </supportDesc>
                         </objectDesc>
                         <bindingDesc>
-                            <binding notBefore="1967-07-07" notAfter="1967-04-27" contemporary="false">
+                            <binding notBefore="1967-07-07" notAfter="1967-04-27"
+                                contemporary="false">
                                 <p>I blåt papomslag.</p>
                             </binding>
                         </bindingDesc>
                         <accMat>
-                            <p>Der er en AM-seddel, som er skrevet af <name type="person" key="ArnMag001">Arne Magnusson</name>: <q xml:lang="is">Fra
+                            <p>Der er en AM-seddel, som er skrevet af <name type="person"
+                                    key="ArnMag001">Arne Magnusson</name>: <q xml:lang="is">Fra
                                     lỏgmanna <name type="person" key="PalJon005">Vidalin</name>
-                                    feinged her i <name type="place" key="Copen01">Kaupenhafn</name>. <date when="1715">1715</date>.</q>
+                                    feinged her i <name type="place" key="Copen01"
+                                    >Kaupenhafn</name>. <date when="1715">1715</date>.</q>
                             </p>
                         </accMat>
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1400" notAfter="1500" evidence="conjecture" resp="KKKat">1400-tallet</origDate>.</p>
+                            <p>Skrevet i <origPlace>Island</origPlace> i <origDate notBefore="1400"
+                                    notAfter="1499" evidence="conjecture" resp="KKKat"
+                                    >1400-tallet</origDate>.</p>
+                            <!-- <origPlace>Island</origPlace>
+                        <origDate notBefore="1400" notAfter="1499" evidence="conjecture" resp="KKKat">s. XV</origDate> -->
                         </origin>
                         <acquisition>
                             <p>Ifølge AM-sedlen <name type="person" key="ArnMag001">Arne
-                                    Magnusson</name> har fået fragmentet af <foreign xml:lang="is">lögmaður</foreign>
+                                    Magnusson</name> har fået fragmentet af <foreign xml:lang="is"
+                                    >lögmaður</foreign>
                                 <name type="person" key="PalJon005">Páll Jónsson Vídalín</name> i
-                                    <name type="place" key="Copen01">København</name> i <date when="1715">1715</date>: <q xml:lang="is">Fra lỏgmanna Vidalin
+                                    <name type="place" key="Copen01">København</name> i <date
+                                    when="1715">1715</date>: <q xml:lang="is">Fra lỏgmanna Vidalin
                                     feinged her i Kaupenhafn. 1715.</q>
                             </p>
                         </acquisition>
@@ -86,7 +95,8 @@
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Katalogiseret <date when="2000-07-11"/> af <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                    <p>Katalogiseret <date when="2000-07-11"/> af <name
+                                            type="person" key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
@@ -99,31 +109,24 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <bibl>
-                                    <title type="gmd">mikrofilm</title>
-                                    <idno>?</idno>
-                                    <date when="1991-06-27"/>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">diapositiv</title>
-                                    <idno>AM 598 III gamma 4to</idno>s.d.</bibl>
-                                <bibl>
-                                    <title type="gmd">s/h fotografier</title>
-                                    <idno>AM 598 III gamma 4to</idno>
-                                    <date when="1961-08"/>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">s/h fotografier</title>
-                                    <idno>AM 598 III gamma 4to</idno>
-                                    <date when="1961-11"/>
-                                </bibl>
+                                <list>
+                                    <item>Mikrofilm fra <date when="1991-06-27">27. juni
+                                        1991</date>.</item>
+                                    <item>Diapositiver, s.d. </item>
+                                    <item>Sort-hvid fotografier fra <date when="1961-08">august
+                                            1961</date>.</item>
+                                    <item>Sort-hvid fotografier fra <date when="1961-11">november
+                                            1961</date>.</item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                                 <biblScope unit="volume">I</biblScope>
-                                <biblScope unit="pages">768</biblScope>
+                                <biblScope unit="page">768</biblScope>
                             </bibl>
+                            <!-- <bibl><ref type="primary" target="ÞorHel2010a">Rómverja
+                                    saga</ref></bibl> -->
                         </listBibl>
                     </additional>
                 </msDesc>

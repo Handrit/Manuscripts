@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,38 +22,41 @@
                      <idno>701</idno>
                   </altIdentifier>
                </msIdentifier>
-                  <msContents>
+               <msContents>
                   <summary><title type="supplied">Lovhåndskrift</title></summary>
                   <msItem n="1" class="log">
-                     <locus from="1v">1v</locus>
+                     <locus from="1v" to="1v">1v</locus>
                      <title type="uniform">Om Edens Betydning</title>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                   </msItem>
-                  <msItem n="2" class="kont" defective="true">
+                  <msItem n="2" class="sagnfr" defective="true">
                      <locus from="2r" to="2v">2r-v</locus>
+                     <title type="supplied">Kongehistorie</title>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                      <rubric>Etlegh Norgis koningar fraa <lb/> harald haarfagre indtill
                         k<ex>on</ex>ge Olaf</rubric>
                      <incipit>Wdi gamell tidt for harald haarffagre wor mange konger i
                         norige</incipit>
                      <explicit defective="true">och Halffdan ſuarte, och Sigroder</explicit>
+                     <bibl>Storm: <ref target="NgL4">Norges gamle Love</ref>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="page">544</biblScope></bibl>
                   </msItem>
                   <msItem n="3" class="klog">
-                     <locus from="3r" to="11v">3r-11v</locus>
-                     <title type="uniform" xml:lang="is">Eiðsifaþingslǫg: Kristinn réttr hinn
-                        forni</title>
-                     <title type="uniform" xml:lang="da">Eidsivatings ældre Kristenret</title>
+                     <locus from="3ra" to="11vb">3ra-11vb</locus>
+                     <title type="uniform" xml:lang="is">Eiðsifaþingslǫg (Kristinn réttr hinn
+                        forni)</title>
                      <note>Kortere recension</note>
                      <textLang mainLang="non">Norrønt</textLang>
                      <bibl>Keyser og Munch: <ref type="primary-1" target="NgL1">Norges gamle
                            Love</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">394-406</biblScope>
-                        <note>Udg. C</note>
+                        <biblScope unit="page">394-406</biblScope>
+                        <note>Udg. C.</note>
                      </bibl>
                   </msItem>
                   <msItem n="4" class="klog">
-                     <locus from="11v" to="11v">11v</locus>
+                     <locus from="11vb" to="11vb">11vb</locus>
                      <title type="uniform" xml:lang="is">Borgarþingslǫg: Kristinn réttr hinn
                         nýi</title>
                      <title type="uniform" xml:lang="da">Borgartings Nyere Kristenret</title>
@@ -61,19 +65,19 @@
                      <bibl>Keyser og Munch: <ref type="primary-1" target="NgL1">Norges gamle
                            Love</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">406</biblScope>
+                        <biblScope unit="page">406</biblScope>
                      </bibl>
                   </msItem>
                   <msItem n="5" class="log">
-                     <locus from="12r" to="81v">12r-81v</locus>
-                     <title type="uniform" xml:lang="is">Landslǫg</title>
-                     <title type="uniform" xml:lang="da">Kong Magnus Lagabøters Norske
+                     <locus from="12ra" to="81vb">12ra-81vb</locus>
+                     <title type="uniform" xml:lang="da">Magnus Lagabøters Norske
                         Landslov</title>
-                     <textLang mainLang="non">Norrønt</textLang>
+                     <title type="uniform" xml:lang="is">Landslǫg</title>
+                        <textLang mainLang="non">Norrønt</textLang>
                      <bibl>Keyser og Munch: <ref type="primary-3" target="NgL2">Norges gamle
                            Love</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <note>Var. app. Bf.</note>
+                        <note>Var.app. Bf.</note>
                      </bibl>
                   </msItem>
                   <msItem n="6" class="log">
@@ -84,8 +88,14 @@
                      <bibl>Keyser og Munch: <ref type="primary-2" target="NgL2">Norges gamle
                            Love</ref>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">453-55</biblScope>
-                        <note>Udg. D</note>
+                        <biblScope unit="page">453-55</biblScope>
+                        <note>Udg D; var.app. B (bl. 82r-v)</note>
+                     </bibl>
+                     <bibl>Keyser og Munch: <ref type="primary-2" target="NgL3">Norges gamle
+                           Love</ref>
+                        <biblScope unit="volume">III</biblScope>
+                        <note>Var.app. F (bl. 84r), var.app. C (84r), var.app. K (84v), var.app. E
+                           (85r-v), var.app. B (86r-v).</note>
                      </bibl>
                   </msItem>
                </msContents>
@@ -93,20 +103,41 @@
                   <objectDesc form="codex">
                      <supportDesc material="perg">
                         <support>
-                           <p>Pergament.</p>
+                           <p><material>Pergament</material>.</p>
                         </support>
                         <extent>86. Bl. 1r er blank. <dimensions type="leaf" scope="most" unit="mm">
-                              <height>225</height>
-                              <width>165</width>
+                              <height unit="mm">225</height>
+                              <width unit="mm">165</width>
                            </dimensions>
                         </extent>
+                        <collation>Håndskriftet består af 2 indskudte blade, 12 læg + 5 blade: <list>
+                              <item>To indskudte blade (bl. 1r-2v) fra 1500-tallet</item>
+                              <item>I: 9 blade</item>
+                              <item>II: 6 blade</item>
+                              <item>III: 6 blade (femte blad er dog bortskåret).</item>
+                              <item>IV: 4 blade</item>
+                              <item>V: 8 blade (2. og 3. blad er dog bortskåret og 5. og 6. er
+                                 beskårede)</item>
+                              <item>VI: 7 blade (da tredje blad er skåret bort, dog uden noget
+                                 teksttab)</item>
+                              <item>VII: 6 blade</item>
+                              <item>VIII: 8 blade (dog er første og syvende blad afklippet)</item>
+                              <item>IX: 8 blade</item>
+                              <item>X: 8 blade</item>
+                              <item>XI: 10 blade</item>
+                              <item>XII: 5 blade. </item>
+                              <item>Derefter følger 5 blade bestående af et løst blad (bl. 81), to
+                                 sammenhængende blade (bl. 82-83) og endnu to sammenhængende blade
+                                 (bl. 84-86)</item>
+                           </list>
+                        </collation>
                         <condition>
                            <p>Adskillige defekter, som <name type="person" key="ArnMag001">Arne
                                  Magnusson</name> har fremhævet ved påtegning på foden af foregående
                               blad.</p>
                            <p>Bl. 65 er næsten helt bortskåret, så kun nogle bogstaver langs indre
-                              margen er tilbage. Bl. 19, 23, 28 og 29 er beskadigede ved beskæring
-                              af yderste margen, og 78, 84 er beskårede ved nederste margen.</p>
+                              margin er tilbage. Bl. 19, 23, 28 og 29 er beskadigede ved beskæring
+                              af yderste margin, og 78, 84 er beskårede ved nederste margin.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
@@ -117,27 +148,43 @@
                         </layout>
                      </layoutDesc>
                   </objectDesc>
-                  <!-- 
-      <handDesc hands="4">
-       <handNote scribe="AM04-0058-H1" scope="minor" script="cursiva">
-        <p>Hand 1 occurs on 2r-v and is from the second half of 1500-tallet written in
-         <term type="script">gotisk kursiv</term>.</p>
-       </handNote>
-       <handNote scribe="AM04-0058-H2" script="textualis" scope="minor">
-        <p>Hand 2 is from the middle of the fourteenth century and occurs on 1r-v. It is written in
-         a <term type="script">gotisk bogskrift</term>.</p>
-       </handNote>
-       <handNote scribe="AM04-0058-H3" script="textualis" scope="major">
-        <p>Hand 3 is also a <term type="script">gotisk bogskrift</term> from the middle of the fourteenth century, but is
-         slightly more blurred than hand 2.</p>
-       </handNote>
-       <handNote scribe="AM04-0058-H4" script="textualis" scope="minor">
-        <p>Hand 4 findes på 82r-v and is a <term type="script">gotisk bogskrift</term> from the middle of the fourteenth
-         century.</p>
-       </handNote>
-       </handDesc> -->
+                  <handDesc hands="10">
+                     <summary>Der kan identificeres 10 forskellige hænder.</summary>
+                     <handNote n="1" script="cursiva" scope="minor">
+                        <p>Bl. 1r-v er skrevet med en <term type="script">gotisk kursiv</term> fra
+                           anden halvdel af 1500-tallet.</p>
+                     </handNote>
+                     <handNote n="2" scope="minor" script="cursiva">
+                        <p>Bl. 2r-v er ligeledes med en <term type="script">gotisk kursiv</term> fra
+                           anden halvdel af 1500-tallet.</p>
+                     </handNote>
+                     <handNote n="3" script="hybrida" scope="minor">
+                        <p>Bl. 3ra-11vb er skrevet med en <term type="script">gotisk
+                              halvkursiv</term>
+                           <!-- fra midten af 1400-tallet -->.</p>
+                     </handNote>
+                     <handNote n="4" script="hybrida" scope="minor"><p>Bl. 11v nederst er skrevet
+                           med en lignende skrift, dog mere tætskrevet.</p></handNote>
+                     <handNote n="5" script="hybrida" scope="major">
+                        <p>Bl. 12ra-81vb: <term type="script">gotisk halvkursiv</term>
+                           <!-- fra midten af 1400-tallet dog smukkere og fastere end  nr. 3-->.
+                           Denne hånd har også skrevet <ref type="ms" target="#AM04-0074-da">AM 74
+                              4to</ref>. </p></handNote>
+                     <handNote n="6" script="hybrida" scope="minor"><p>Bl. 82r-v er skrevet med en
+                              <term type="script">gotisk halvkursiv</term>.</p></handNote>
+                     <handNote n="7" script="cursiva" scope="minor">Bl. 83r-84r er skrevet med en
+                           <term type="script">gotisk kursiv</term></handNote>
+                     <handNote n="8">Bl. 84v er skrevet med en gotisk halvkursiv. Denne hånd synes
+                        beslægtet med hånden på bl. 82r-v.</handNote>
+                     <handNote n="9" script="cursiva" scope="minor">Bl. 85r-v er skrevet af en
+                        gotisk kursivhånd.</handNote>
+                     <handNote n="10" script="cursiva" scope="minor">bl. 86r-v, ligeledes en gotisk
+                        kursivhånd.</handNote>
+                  </handDesc>
+
                   <additions>
-                     <p>De første to stykker (bl. 1v-2v) er senere tilføjelser fra <date notBefore="1575" notAfter="1599">slutningen af 1500-tallet</date>.</p>
+                     <p>De første to stykker (bl. 1v-2v) er senere tilføjelser fra <date
+                           notBefore="1575" notAfter="1599">slutningen af 1500-tallet</date>.</p>
                      <p>Forskellige yngre og ældre marginalhenvisninger.</p>
                      <p>Der er indsat 7 papirsblade i oktavo, der indeholder en afskrift, skrevet
                         for <name type="person" key="ArnMag001">Arne Magnusson</name>, af
@@ -158,45 +205,48 @@
                </physDesc>
                <history>
                   <origin notBefore="1320" notAfter="1360">
-                     <p>
-                        <name type="person" key="KriKaa001">Kristian Kålund</name> (<bibl>
+                     <p>Skrevet i <origPlace>Norge</origPlace> mellem <origDate notBefore="1320"
+                           notAfter="1360">1320-1360</origDate>
+                        <list>
+                           <item>Bl. 1r-83v er blevet dateret til ca. 1350 (<bibl>
+                                 <ref type="secondary-1" target="NgL4">Storm 1885</ref>
+                                 <biblScope unit="page">543</biblScope>
+                              </bibl>, <bibl>
+                                 <ref type="secondary" target="Landro1969">Landrö 1969</ref>
+                                 <biblScope unit="page">21, 67</biblScope>
+                              </bibl> og <bibl>
+                                 <ref type="secondary" target="Robertsen1979">Robertsen 1979</ref>
+                                 <biblScope unit="page">138</biblScope>
+                              </bibl>)</item>
+                           <item>Bl. 84r-85v er er blevet dateret til ca. 1330 (<bibl>
+                                 <ref type="secondary" target="NgL4">Storm 1885</ref>
+                                 <biblScope unit="page">539</biblScope>
+                              </bibl> og <bibl>
+                                 <ref type="secondary" target="Seip1955">Seip 1955</ref>
+                                 <biblScope unit="page">332</biblScope>
+                              </bibl>)</item>
+                           <item>Forrest i håndskriftet er der et tillæg på to blade fra anden halvdel af 1500-tallet (<bibl>
+                                 <ref type="secondary-1" target="NgL4">Storm 1885</ref>
+                                 <biblScope unit="page">543</biblScope>
+                              </bibl>).</item>
+                        </list> Kålunds datering: 1300-tallet (<bibl>
                            <ref type="secondary" target="KKKat">Katalog</ref>
                            <biblScope unit="volume">I</biblScope>
-                           <biblScope unit="pages">376</biblScope>
-                        </bibl>) har dateret hele håndskriftet til <origDate>1300-tallet</origDate>, men håndskriftet er senere blevet dateret mere
-                        præcist.</p>
-                     <p>
-                        <name type="person" key="GusSto001">Gustav Storm</name> (<bibl>
-                           <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
-                           <biblScope unit="volume">IV</biblScope>
-                           <biblScope unit="pages">543</biblScope>
-                        </bibl>) og senere <name type="person" key="JohLan001">John Landrö</name> (<bibl>
-                           <ref type="secondary" target="Landro1969">Lydverket i AM 58 qv</ref>
-                           <biblScope unit="pages">21, 67</biblScope>
-                        </bibl>) og <name type="person" key="AseRob001">Åse Sletten Robertsen</name> (<bibl>
-                           <ref type="secondary" target="Robertsen1979">AM 58 qv.</ref>
-                           <biblScope unit="pages">138</biblScope>
-                        </bibl>) har dateret bl. 3ra-84v til <origDate notBefore="1340" notAfter="1360">ca.
-                        1350</origDate>.</p>
-                     <p>Bl. 84r-85v er er blevet dateret til <origDate notBefore="1320" notAfter="1340">ca. 1330</origDate> af Gustav Storm (<bibl>
-                           <ref type="secondary" target="NgL4">Norges gamle Love</ref>
-                           <biblScope unit="volume">IV</biblScope>
-                           <biblScope unit="pages">539</biblScope>
-                        </bibl>) og <name type="person" key="DidSei001">Didrik Seip</name> (<bibl>
-                           <ref type="secondary" target="Seip1955">Norsk språkhistorie til omkring
-                              1370</ref>
-                           <biblScope unit="pages">332</biblScope>
+                           <biblScope unit="page">376</biblScope>
                         </bibl>).</p>
                   </origin>
                   <provenance>
                      <p>I påskrifter på sidste side nævnes som ejere af håndskriftet i ældre tid: <q>
-                           <name type="person" key="AsmSig001">asmu<ex>n</ex>der <gap reason="illegible"/>ſigurd<ex>e</ex>rſo<ex>n</ex>
+                           <name type="person" key="AsmSig001">asmu<ex>n</ex>der <gap
+                                 reason="illegible"/>ſigurd<ex>e</ex>rſo<ex>n</ex>
                            </name>
                         </q>. Bl. 1v anvngiver <q>
                            <name type="person" key="JacLau001">Jacop lauriszon</name>
-                        </q> sig som ejer i <date when="1576">1576</date>; ifølge <name type="person" key="ArnMag001">Arne Magnusson</name>s påtegning på
+                        </q> sig som ejer i <date when="1576">1576</date>; ifølge <name
+                           type="person" key="ArnMag001">Arne Magnusson</name>s påtegning på
                         bagsiden af den første af de to AM-sedler stod der på det ældre bind: <q>
-                           <name type="person" key="CarAnd001">Carl Andersen</name> anno <date when="1575">1575</date>
+                           <name type="person" key="CarAnd001">Carl Andersen</name> anno <date
+                              when="1575">1575</date>
                         </q>.</p>
                   </provenance>
                   <acquisition>
@@ -210,7 +260,8 @@
                   <adminInfo>
                      <custodialHist>
                         <custEvent notBefore="1981" notAfter="1982" type="conservation">
-                           <p>Håndskriftet blev restaureret fra <date from="1981-04-22" to="1982-03-30">22. april 1981 til 30. marts 1982</date>. Det
+                           <p>Håndskriftet blev restaureret fra <date from="1981-04-22"
+                                 to="1982-03-30">22. april 1981 til 30. marts 1982</date>. Det
                               tidligere grå papbind blev taget af, bladene blev sat på knækfalse og
                               indbundet i et moderne standard halvbind.</p>
                         </custEvent>
@@ -218,66 +269,55 @@
                            <p>Fotograferet i <date when="1981">1981</date>.</p>
                         </custEvent>
                         <custEvent type="loan">
-                           <p>Udlånt til <name type="org">Oslo Universitetsbibliotek </name> til <name type="person" key="TryKnu001">Tryggve Knudsen</name> fra
-                              <date from="1977-06-15" to="1978-06-10">15. juni 1977 til 10. juni 1978</date>.</p>
+                           <p>Udlånt til <name type="org">Oslo Universitetsbibliotek </name> til
+                                 <name type="person" key="TryKnu001">Tryggve Knudsen</name> fra
+                                 <date from="1977-06-15" to="1978-06-10">15. juni 1977 til 10. juni
+                                 1978</date>.</p>
                         </custEvent>
                      </custodialHist>
                   </adminInfo>
                   <surrogates>
                      <p>
-                        <name type="org" key="AMS">AMS</name> har følgende kopier:<listBibl>
-                           <bibl>
-                              <title type="gmd">mikrofilm (original)</title>
-                              <idno>Neg. 617</idno>
-                              <date when="1981">1981</date>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">mikrofilm (arkiv)</title>
-                              <idno>Pos. 568</idno>
-                              <date when="1981">1981</date>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">70 mm</title>
-                              <idno>70</idno>
-                              <date when="1981">1981</date>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">diapositiv</title>
-                              <idno>AM 58 4to</idno>
-                              <date when="1984-02">Februar 1984</date>
-                           </bibl>
-                           <bibl>
-                              <title type="gmd">s/h fotografier</title>
-                              <idno>AM 58 4to</idno>
-                              <date when="1981-03">Marts 1981</date>
-                              <note>Der er supplerende s/h billeder fra september 1981</note>
-                           </bibl>
-                        </listBibl>
+                        <name type="org" key="AMS">Den Arnamagnæanske Samling</name> har følgende
+                        kopier: <list>
+                           <item>Mikrofilm (original), <idno>Neg. 617</idno>, fra <date when="1981"
+                                 >1981</date>. </item>
+                           <item>Mikrofilm (arkiv), <idno>Pos. 568</idno>, fra <date when="1981"
+                                 >1981</date>. </item>
+                           <item>70 mm, <idno>70</idno>, fra <date when="1981">1981</date>. </item>
+                           <item>Diapositiver fra <date when="1984-02">februar 1984</date>. </item>
+                           <item>Sort-hvid fotografier fra <date when="1981-03">marts 1981</date>
+                              (eer er supplerende billeder fra september 1981). </item>
+                        </list>
                      </p>
                   </surrogates>
                   <listBibl>
                      <bibl>
                         <ref type="secondary" target="Gthl">Gulaþingslǫg</ref>
+                        <biblScope unit="page">lxiii-iv</biblScope>
                         <note>Faksimile</note>
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">376-377</biblScope>
+                        <biblScope unit="page">376-377</biblScope>
                      </bibl>
                      <bibl>Storm: <ref type="secondary" target="ChrVidSkFor14">Om Haandskrifter og
                            Oversættelser af Magnus Lagaböters Love</ref>
-                        <biblScope unit="pages">6</biblScope>
+                        <biblScope unit="page">6</biblScope>
                      </bibl>
                      <bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
                         <biblScope unit="volume">IV</biblScope>
-                        <biblScope unit="pages">543-46</biblScope>
+                        <biblScope unit="page">543-46</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2021-10-05" who="EvaWed001">Information fra head flyttet til summary.</change></revisionDesc>
+      <revisionDesc>
+         <change when="2021-10-05" who="EvaWed001">Information fra head flyttet til
+            summary.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,17 +22,12 @@
                             <idno>360</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">A fragment of a sermon</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1520" notAfter="1540">c. 1520-1540</origDate>
-                        <note>The fragment contains an Icelandic translation of <title>Christiern
+                        <msContents>
+                        <summary><title type="supplied">Sermon</title><note>The fragment contains an Icelandic translation of <title>Christiern
                                 Pedersens Jærtegnspostil</title> which was first printed in Paris in
                             1515 and again in Leipzig in 1518. The Icelandic translation is based on
-                            the second edition.</note>
-                    </head>
-                    <msContents>
-                        <msItem defective="true">
+                            the second edition.</note></summary>
+                        <msItem n="1" defective="true">
                             <author>Chriestiern Pedersen</author>
                             <title type="supplied" xml:lang="da">Jærtegnspostil</title>
                             <textLang mainLang="non">Old Norse/Icelandic</textLang>
@@ -42,12 +37,10 @@
                             <explicit defective="true">eitt darl<ex>e</ex>gt hiarta m<ex>ann</ex>z
                                 er s<ex>e</ex>m <supplied reason="damage">eitt</supplied> kær
                                 brotid</explicit>
-                            <listBibl>
-                                <bibl>
+                            <bibl>Stefán Karlsson,
                                     <ref target="StefKarl15">Brudstykker af Christiern Pedersens
                                         Jærtegnspostil i islandsk oversættelse</ref>
                                 </bibl>
-                            </listBibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -59,13 +52,35 @@
                                     </p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>242</height>
-                                        <width>173</width>
+                                        <height unit="mm">242</height>
+                                        <width unit="mm">173</width>
                                     </dimensions>
                         </extent>
                             </supportDesc>
                         </objectDesc>
+                        <bindingDesc>
+                            <binding contemporary="false">
+                                <p>Grey cardboard binding: <dimensions type="binding" unit="mm">
+                                    <height unit="mm">296</height>
+                                    <width unit="mm">249</width>
+                                </dimensions>
+                                </p>
+                            </binding>
+                        </bindingDesc>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Iceland</origPlace>,
+                            <origDate notBefore="1520" notAfter="1540">c. 1520-1540</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">205</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                    
                 </msDesc>
             </sourceDesc>
         </fileDesc>

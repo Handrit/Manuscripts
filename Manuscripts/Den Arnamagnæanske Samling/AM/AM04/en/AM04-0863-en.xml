@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,32 +23,42 @@
                      <idno>1994</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Series Dynastarum et Regum</title>
-                  <origPlace>Denmark?</origPlace>
-                  <origDate notBefore="1650" notAfter="1699">s. XVII 2/2</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Series Dynastarum et Regum Daniæ</title></summary>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="ThoTor001">Þormóður Torfason (Torfæus)</name>
-                     </author>
+                     <locus from="1r" to="180v">1r-180v</locus>
+                     <author key="ThoTor001">Þormóður Torfason (Torfæus)</author>
+                     <title type="supplied">Series Dynastarum et Regum Daniæ</title>
                      <textLang mainLang="la">Latin</textLang>
+                     <rubric>SERIES <lb/> DYNASTARUM ET RE<lb/>GUM DANIÆ <gap reason="illegible"
+                        /></rubric>
+                     <note>The same text is found in <ref type="ms" target="#AM04-0862-en">AM 862
+                           4to</ref>.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>180. 
-<dimensions type="leaf" scope="all">
-                              <height>194</height>
-                              <width>154</width>
+                        <extent>180. <dimensions type="leaf" scope="all">
+                              <height unit="mm">194</height>
+                              <width unit="mm">154</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark?</origPlace>
+                     <origDate notBefore="1650" notAfter="1699" evidence="conjecture" resp="KKKat"
+                        >s. XVII<hi rend="sup">2</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">237</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,6 +26,7 @@
                <msContents>
                   <summary><title type="uniform" xml:lang="da">Jyske lov</title></summary>
                   <msItem class="log">
+                     <locus from="1r" to="159v">1r-159v</locus>
                      <respStmt>
                         <resp key="trl"/>
                         <name type="person" key="JakBjo001">Jakob Björnsson</name>
@@ -41,8 +43,8 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>159. <dimensions type="leaf" scope="all">
-                              <height>208</height>
-                              <width>162</width>
+                              <height unit="mm">208</height>
+                              <width unit="mm">162</width>
                            </dimensions>.</extent>
                      </supportDesc>
                      <layoutDesc>
@@ -51,27 +53,31 @@
                         </layout>
                      </layoutDesc>
                   </objectDesc>
-                  <accMat>På en foran indklæbet seddel meddeler <q>
-                        <name type="person" key="JacBir001">Joan. Bircherodius</name>
-                     </q> på latin,
-                     at oversættelsen skyldes <q>
-                        <name type="person" key="JakBjo001">Jacobus Biorniu</name>s de Stenhalt</q>
+                  <accMat>På en foran indklæbet seddel, underskrevet <q>
+                        <name type="person" key="JacBir001">Jabob Bircherodius</name>
+                     </q>, meddeles det at at oversættelsen skyldes <q>
+                        <name type="person" key="JakBjo001">Jacobus Biornius</name> de Stenhalt</q>
                   </accMat>
                </physDesc>
-               <history><origin><origPlace>Danmark</origPlace>, <origDate notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat">s.
-                  XVII</origDate>.</origin></history>
+               <history>
+                  <origin><origPlace>Danmark</origPlace>, <origDate notBefore="1600" notAfter="1699"
+                        evidence="conjecture" resp="KKKat">s. XVII</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">347</biblScope>
+                        <biblScope unit="page">347</biblScope>
                      </bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc><change when="2021-10-06" who="EvaWed001">Opdateret opmærkning og tilføjet bibliografi.</change></revisionDesc>
+      <revisionDesc>
+         <change when="2021-10-06" who="EvaWed001">Opdateret opmærkning og tilføjet
+            bibliografi.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

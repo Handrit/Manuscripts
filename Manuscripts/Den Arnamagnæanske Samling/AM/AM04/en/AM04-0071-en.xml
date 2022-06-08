@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -24,9 +24,25 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary><title type="uniform">Landslǫg and Rettarbœtr</title></summary>
-                  <textLang mainLang="no" otherLangs="is">Old Norse/Norwegian (and
-                     Icelandic?)</textLang>
+                  <summary><title type="supplied">King Magnus the Lawmender’s National Law of Norway
+                        and Legal Amendments</title></summary>
+                  <textLang mainLang="non">Old Norse/Norwegian</textLang>
+                  <msItem n="1" class="log">
+                     <locus from="1ra" to="60vb">1ra-60vb</locus>
+                     <title type="uniform" xml:lang="en">King Magnus the Lawmender’s National Law of
+                        Norway</title>
+                     <title type="uniform" xml:lang="non">Landslǫg</title>
+                     <note>Including King Magnus's legal amendments and an epilogue.</note>
+                  </msItem>
+                  <msItem n="2" class="log">
+                     <locus from="8ra" to="8va">8ra-va</locus>
+                     <title type="uniform">Réttarbœtr Hákonar Magnússonar</title>
+                  </msItem>
+                  <msItem n="3" class="log">
+                     <locus from="60vb" to="61vb">60vb-61vb</locus>
+                     <title type="uniform">Réttarbœtr Eiríks Magnússonar</title>
+                     <textLang mainLang="non">Norrønt/norsk</textLang>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -34,16 +50,51 @@
                         <support>
                            <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>61. <dimensions type="leaf" scope="all">
-                              <height>238</height>
-                              <width>180</width>
+                        <extent>61. Most of fol. 8v is blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">238</height>
+                              <width unit="mm">180</width>
                            </dimensions></extent>
+                        <condition>Part of the margin of fol. 9 is excised.</condition>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2">
+                           <p>Written in two columns. Rubrics in red. Polychrome flourished initials.</p>
+                        </layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <accMat>There are two AM-slips, pasted to the beginning of the manuscript, giving
+                     information about the provenance and aqcusition of the manuscript.</accMat>
                </physDesc>
                <history>
-                  <origin notBefore="1300" notAfter="1399"><origPlace>Norway</origPlace>
-                     <origDate notBefore="1300" notAfter="1399">s. XIV</origDate>.</origin>
+                  <origin notBefore="1300" notAfter="1399" cert="high" evidence="conjecture">Written
+                     in <origPlace>Noway</origPlace> in <origDate notBefore="1300" notAfter="1399"
+                        >s. XIV<hi>1</hi>, c. 1300 and s. XIV ex</origDate>. <list>
+                        <item>Fols 1ra-60vb:21 can de dated to the first half of the fourteenth
+                           century (e.g. <bibl><ref target="NgL4">Storm 1885</ref><biblScope
+                                 unit="page">564</biblScope></bibl> and <bibl><ref target="KKKat"
+                                 >Kålund's catalogue</ref></bibl>) </item>
+                        <item>Fols 60vb:22-61rb can be dated to c. 1350 (<bibl><ref target="NgL4"
+                                 >Storm 1885</ref><biblScope unit="page"
+                           >565</biblScope></bibl>)</item>
+                        <item>Fols 61va-vb can be dated to the end of the fourteenth century
+                                 (<bibl><ref target="NgL4">ibid.</ref></bibl>).</item>
+                     </list> Kålund (<bibl><ref target="KKKat">Katalog</ref></bibl>) dated fols
+                     60vb-61vb to the second half of the fourteenth century.</origin>
+                  <provenance>From the AM-slips it appears that <name type="person" key="PedSyv001"
+                        >Peder Syv</name> of <name type="place">Hellested</name>, <country key="DK"
+                        >Denmark</country> gave the manuscript to <name type="person"
+                        key="FreRos001">Frederik Rostgård</name>. <q>
+                        <name type="person">IONAS MAGNI.</name>
+                        <lb/> ANNO <date when="1598">1598</date>
+                     </q> was written on the previous binding and on the pastedown the name <q>
+                        <name type="person" key="JacAnd001">Jacob Anderſsön</name>
+                     </q> was added. </provenance>
+                  <acquisition>
+                     <name type="person" key="FreRos001">Rostgård</name> presented <name
+                        type="person" key="ArnMag001">Árni Magnússon</name> with the manuscript. It
+                     was then bound together with a translation into Danish (<ref type="ms"
+                        target="#AM04-0075-en">AM 75 4to</ref>). Árni separated the translation from
+                     the source text and had AM 71 4to re-bound.</acquisition>
                </history>
                <additional>
                   <listBibl>
@@ -67,6 +118,9 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-05" who="EvaWed001">Added and translated content from the Danish description.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

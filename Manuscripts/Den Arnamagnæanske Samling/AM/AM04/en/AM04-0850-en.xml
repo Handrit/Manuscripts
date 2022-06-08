@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,33 +23,53 @@
                      <idno>1981</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Chronicon Danicum a Christophoro II ad Fredericum II</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1750">s. XVIII 1/2</origDate>
-               </head>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                 <msContents>
+                  <summary><title type="supplied">Chronicon Danicum a Christophoro II ad Fredericum
+                        II</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="175r">1r-175r</locus>
+                     <title type="supplied">Chronicon Danicum a Christophoro II ad Fredericum
+                        II</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <filiation>Copy of <ref type="ms">GKS 2461 4to</ref>. </filiation>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>175. 
-<dimensions type="leaf" scope="all">
-                              <height>215</height>
-                              <width>163</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>175. <dimensions type="leaf" scope="all">
+                              <height unit="mm">215</height>
+                              <width unit="mm">163</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Paginated 3-351, as fol. 1 (the title page) is missing.</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="JonTho008" scope="sole" script="unknown">
-                        <p>
-Written by Jón Þorkelsson.</p>
+                        <p> Written by Jón Þorkelsson.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark</origPlace>, <origDate notBefore="1700" notAfter="1750"
+                        >s. XVIII<hi rend="sup">1</hi></origDate>.</origin>
+                 </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">233</biblScope></bibl>
+                     <bibl><ref target="HHDNSR"/>
+                        <biblScope unit="page">52</biblScope></bibl>
+                     <bibl><ref target="HolRør1873-1875"/>
+                        <biblScope unit="volume">II:2</biblScope>
+                        <biblScope unit="page">11</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

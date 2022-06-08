@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,16 +23,20 @@
                             <idno>1664</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Lífssaga Jesú</title>, <origPlace>Iceland</origPlace>; <origDate notBefore="1450" notAfter="1499">s. XV 2/2</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
-                            <locus from="1r" to="2v">1r-2v</locus>
+                        <summary><title type="supplied">Fragment of a Homily Book</title><note>In Kålund's
+                                catalogue (<bibl>
+                                    <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                    <biblScope unit="volume">II</biblScope>
+                                    <biblScope unit="page">81</biblScope>
+                                </bibl>) it is given the title <title type="uniform">Lífssaga Jesú</title>
+                                . </note></summary>
+                        <msItem n="1" class="hom">
+                            <locus from="1r" facs="#AM04-0667-XIX-0001r" to="2v">1r-2v</locus>
                             <title>Lífssaga Jesú</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <msItem n="1.1">
-                                <locus>1</locus>
+                                <locus facs="#AM04-0667-XIX-0001r">1</locus>
                                 <incipit defective="true">oþv. en<expan>n</expan>
                                     þ<expan>ei</expan>r taca guþs lof votta æ<expan>r</expan> fyr
                                     þavgdv v<expan>m</expan> ch<expan>rist</expan>z <lb/>dyrþ svo
@@ -40,17 +45,17 @@
                                 <explicit defective="true">enn hvat stoþ<expan>ar</expan>
                                         þ<expan>at</expan> svo</explicit>
                                 <bibl>
-                           <ref type="primary" target="ForntbrotMML">Fornt brotalsilfur:
-                                        AM 667, 4to, fragm. XIX</ref>, p. 156</bibl>
+                                    <ref type="primary" target="ForntbrotMML">Fornt brotalsilfur: AM
+                                        667, 4to, fragm. XIX</ref>, p. 156</bibl>
                             </msItem>
                             <msItem n="1.2">
-                                <locus>2</locus>
+                                <locus facs="#AM04-0667-XIX-0002r">2</locus>
                                 <incipit defective="true">vl oþvr</incipit>
                                 <explicit defective="true">j fíavlda
                                     miskv<expan>n</expan>ar</explicit>
                                 <bibl>
-                           <ref type="primary" target="ForntbrotMML">Fornt brotalsilfur:
-                                        AM 667, 4to, fragm. XIX</ref>, p. 157</bibl>
+                                    <ref type="primary" target="ForntbrotMML">Fornt brotalsilfur: AM
+                                        667, 4to, fragm. XIX</ref>, p. 157</bibl>
                             </msItem>
                         </msItem>
                     </msContents>
@@ -58,111 +63,131 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
-                                <extent>2 bottom halfs. <dimensions type="leaf" scope="all">
-                                        <height>114</height>
-                                        <width>152</width>
+                                <extent>2. <dimensions type="leaf" scope="all">
+                                        <height unit="mm">114</height>
+                                        <width unit="mm">152</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
+                                <condition>Only the bottom halfs of the leaves are preserved.</condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1" writtenLines="15">
-                                    <p>Written in long lines with 15 extant lines on each side.</p>
+                                    <p>Written in one column with 15 extant lines per page.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <bindingDesc>
-                            <binding notBefore="1963-04-02" notAfter="1965-11-11" contemporary="false">
+                            <binding notBefore="1963-04-02" notAfter="1965-11-11"
+                                contemporary="false">
                                 <p>Bound in a cardboard cover.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin notBefore="1450" notAfter="1499" cert="high" evidence="conjecture">
-                            <p>The MS is written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> dated it
-                                    <origDate>the fifteenth century</origDate> (<bibl>
-                                    <ref type="secondary-1" target="KKKat">KKKat</ref>
-                                </bibl>), whereas <name type="person" key="IanKir001">Ian J.
-                                    Kirby</name> (<bibl>
-                           <ref type="secondary" target="Rit10">Kirby
-                                        1980</ref>, p. 95, 20 n. 9</bibl>).</p>
+                            <p>Written in <origPlace>Iceland</origPlace> in <origDate
+                                    notBefore="1450" notAfter="1499" evidence="conjecture"
+                                    resp="ONP">the second half of the fifteenth century</origDate> (<bibl>
+                                    <ref type="secondary" target="Rit10">Kirby 1980</ref>
+                                    <biblScope unit="page">95, 20 nr. 9</biblScope>
+                                </bibl>). <name type="person" key="KriKaa001">Kålund</name>'s
+                                dating: the fifteenth century (<bibl>
+                                    <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                </bibl>).</p>
                         </origin>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date>18.07.2000</date> by <name type="person" key="EvaWed001">EW-J</name>. (Parsed
-                                            <date>18.07.2000</date>).</p>
+                                    <p>Catalogued <date>18.07.2000</date> by <name type="person"
+                                            key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation">
-                                    <p>During the restoration <date from="1963-04-02" to="1965-11-11">2 April 1963-11 November 1965</date> the
-                                        leaves were restored, set on meeting guards and put in a
+                                    <p>During restoration <date from="1963-04-02"
+                                            to="1965-11-11">2 April 1963-11 November 1965</date> the
+                                        leaves were restored, put on meeting guards and put into a
                                         cardboard cover.</p>
                                 </custEvent>
                                 <custEvent type="loan">
-                                    <p>Photographs of the fragment together with photographs of
-                                            <ref>AM 667 X 4to</ref> were lent to <name type="place">Háskólabóksafn</name> for the use of <name type="person" key="IanKir001">Ian J. Kirby</name>
-                                        <date>18.03.1970-13.07.1970</date>.</p>
+                                    <p>Photographs of this fragment and
+                                            <ref>AM 667 X 4to</ref> were lent to <name type="org"
+                                                key="IS-Hásk">Háskólabókasafn</name> for the use of <name
+                                            type="person" key="IanKir001">Ian J. Kirby</name>
+                                        <date from="1970-03-18" to="1970-07-13">18.03.1970-13.07.1970</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <bibl>
-                                    <title type="gmd">70 mm</title>
-                                    <idno>?</idno>
-                                    <date>1963</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">70 mm</title>
-                                    <idno>147</idno>
-                                    <date>n.d.</date>
-                                    <note>Supplementary photographs</note>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">b/w prints</title>
-                                    <idno>AM 667 XIX 4to</idno>
-                                    <date>March 1963</date>
-                                </bibl>
+                                <list>
+                                    <item> 70 mm from <date when="1963">1963</date>.
+                                    </item>
+                                    <item> 70 mm, <idno>147</idno>, s.d. (supplementary
+                                        photographs).</item>
+                                    <item> Black and white prints from <date when="1963-03">March
+                                            1963</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
+                        <listBibl>
+                            <bibl><ref type="secondary-1" target="AnnHan2010a"/>
+                                <biblScope unit="page"><!-- ? --></biblScope></bibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">81</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary-1" target="ForntbrotMML"/></bibl>
+                            <bibl><ref target="OrdbogBNW"/>
+                                <biblScope unit="page">343-344</biblScope>
+                            </bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
-		<surface xml:id="AM04-0667-XIX-0001r" n="0">
-			<desc>0001r</desc>
-			<graphic mimeType="pdf" url="AM%20667%20XIX%204to/0/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20667%20XIX%204to/0/THUMBNAIL" width="200px" height="270px"/>
-			<graphic mimeType="jpg" url="AM%20667%20XIX%204to/0/SECONDARY_DISPLAY" width="4224px" height="5706px"/>
-			<graphic mimeType="pdf" url="AM%20667%20XIX%204to/0/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0667-XIX-0001v" n="1">
-			<desc>0001v</desc>
-			<graphic mimeType="pdf" url="AM%20667%20XIX%204to/1/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20667%20XIX%204to/1/THUMBNAIL" width="200px" height="268px"/>
-			<graphic mimeType="jpg" url="AM%20667%20XIX%204to/1/SECONDARY_DISPLAY" width="4240px" height="5686px"/>
-			<graphic mimeType="pdf" url="AM%20667%20XIX%204to/1/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0667-XIX-0002r" n="2">
-			<desc>0002r</desc>
-			<graphic mimeType="pdf" url="AM%20667%20XIX%204to/2/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20667%20XIX%204to/2/THUMBNAIL" width="200px" height="270px"/>
-			<graphic mimeType="jpg" url="AM%20667%20XIX%204to/2/SECONDARY_DISPLAY" width="4224px" height="5707px"/>
-			<graphic mimeType="pdf" url="AM%20667%20XIX%204to/2/WEB_DISPLAY"/>
-		</surface>
-		<surface xml:id="AM04-0667-XIX-0002v" n="3">
-			<desc>0002v</desc>
-			<graphic mimeType="pdf" url="AM%20667%20XIX%204to/3/HIGH_QUALITY_DISPLAY"/>
-			<graphic mimeType="jpg" url="AM%20667%20XIX%204to/3/THUMBNAIL" width="200px" height="270px"/>
-			<graphic mimeType="jpg" url="AM%20667%20XIX%204to/3/SECONDARY_DISPLAY" width="4224px" height="5717px"/>
-			<graphic mimeType="pdf" url="AM%20667%20XIX%204to/3/WEB_DISPLAY"/>
-		</surface>
-	</facsimile>
+    <facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+        <surface xml:id="AM04-0667-XIX-0001r" n="0">
+            <desc>0001r</desc>
+            <graphic mimeType="pdf" url="AM%20667%20XIX%204to/0/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20667%20XIX%204to/0/THUMBNAIL" width="200px"
+                height="270px"/>
+            <graphic mimeType="jpg" url="AM%20667%20XIX%204to/0/SECONDARY_DISPLAY" width="4224px"
+                height="5706px"/>
+            <graphic mimeType="pdf" url="AM%20667%20XIX%204to/0/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0667-XIX-0001v" n="1">
+            <desc>0001v</desc>
+            <graphic mimeType="pdf" url="AM%20667%20XIX%204to/1/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20667%20XIX%204to/1/THUMBNAIL" width="200px"
+                height="268px"/>
+            <graphic mimeType="jpg" url="AM%20667%20XIX%204to/1/SECONDARY_DISPLAY" width="4240px"
+                height="5686px"/>
+            <graphic mimeType="pdf" url="AM%20667%20XIX%204to/1/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0667-XIX-0002r" n="2">
+            <desc>0002r</desc>
+            <graphic mimeType="pdf" url="AM%20667%20XIX%204to/2/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20667%20XIX%204to/2/THUMBNAIL" width="200px"
+                height="270px"/>
+            <graphic mimeType="jpg" url="AM%20667%20XIX%204to/2/SECONDARY_DISPLAY" width="4224px"
+                height="5707px"/>
+            <graphic mimeType="pdf" url="AM%20667%20XIX%204to/2/WEB_DISPLAY"/>
+        </surface>
+        <surface xml:id="AM04-0667-XIX-0002v" n="3">
+            <desc>0002v</desc>
+            <graphic mimeType="pdf" url="AM%20667%20XIX%204to/3/HIGH_QUALITY_DISPLAY"/>
+            <graphic mimeType="jpg" url="AM%20667%20XIX%204to/3/THUMBNAIL" width="200px"
+                height="270px"/>
+            <graphic mimeType="jpg" url="AM%20667%20XIX%204to/3/SECONDARY_DISPLAY" width="4224px"
+                height="5717px"/>
+            <graphic mimeType="pdf" url="AM%20667%20XIX%204to/3/WEB_DISPLAY"/>
+        </surface>
+    </facsimile>
 </TEI>

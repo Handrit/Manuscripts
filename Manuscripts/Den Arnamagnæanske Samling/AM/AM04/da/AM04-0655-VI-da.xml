@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,23 +22,24 @@
                             <idno>1646</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform" xml:lang="is">Basíliuss saga</title>,
-                            <origPlace>Island</origPlace>; <origDate notBefore="1200" notAfter="1224">s. XIII 1/4</origDate>
-                    </head>
-                    <msContents>
-                        <msItem>
+                       <msContents>
+                        <summary><title type="uniform" xml:lang="is">Basílius saga</title></summary>
+                        <msItem n="1" class="hels" defective="true">
                             <locus from="1r" to="2v">1r-2v</locus>
-                            <title type="uniform" xml:lang="is">Basíliuss saga</title>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                            <title type="uniform" xml:lang="is">Basílius saga</title>
+                            <textLang mainLang="non"/>
                             <incipit defective="true">
                                 <gap reason="damage"/>þ<ex>ei</ex>r foro meþ micilli t<ex>rv</ex>
                             </incipit>
                             <explicit defective="true">i hafþi g<supplied reason="unknown">o</supplied>rzsc nema sic ein</explicit>
+                            <bibl>Hreinn Benediktsson: <ref type="primary-1" target="HreBen1965a"
+                                >Early Icelandic Script</ref><biblScope unit="page"
+                                    >xvi</biblScope><note>bl. 2r; facsimile: Planche
+                                        21.</note></bibl>
                             <bibl>Morgenstern: 
                                 <ref type="primary-1" target="HeilagraSuppl">Arnamagnæanische
                                     Fragmente</ref>
-                        <biblScope unit="pages">24-25</biblScope>
+                        <biblScope unit="page">24-25</biblScope>
                      </bibl>
                         </msItem>
                     </msContents>
@@ -46,11 +47,11 @@
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Pergament.</p>
+                                    <p><material>Pergament</material>.</p>
                                 </support>
                                 <extent>2. <dimensions type="leaf" scope="all">
-                                        <height>205</height>
-                                        <width>150</width>
+                                        <height unit="mm">205</height>
+                                        <width unit="mm">150</width>
                                     </dimensions>
                                 </extent>
                                 <condition>
@@ -60,17 +61,24 @@
                             </supportDesc>
                         </objectDesc>
                         <additions>
-                            <p>Bl. 2v bærer i nedre margen nogle vareoptegnelser (om 
+                            <p>Bl. 2v bærer i nedre margin nogle vareoptegnelser (om 
                                 fisk) fra <date notBefore="1600" notAfter="1699">1600-tallet</date>. 
                             </p>
                         </additions>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Island</origPlace>, <origDate notBefore="1200"
+                            notAfter="1225">s. XIII<hi rend="sup">1/4</hi></origDate>.</origin>
+                    </history>
                     <additional>
                         <listBibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">59</biblScope>
-                     </bibl>
+                            <bibl><ref type="secondary-1" target="PetJor2015"/><biblScope unit="page">57, 65, 67, 70</biblScope></bibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">59</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary-1" target="GusMor1895a"/><biblScope unit="page">97</biblScope></bibl>
+                            <bibl><ref type="secondary-1" target="Wolf2013"/><biblScope unit="page">56-57</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

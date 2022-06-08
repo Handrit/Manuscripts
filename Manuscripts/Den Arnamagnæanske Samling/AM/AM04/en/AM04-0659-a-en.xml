@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,29 +23,79 @@
                      <idno>1651</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Postola sögur</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1650">s. XVII 1/2</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <msContents>
+                  <summary><title type="uniform">Legends of Saints</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <msItem n="1" defective="true" class="post">
+                     <locus from="1r" to="20v">1r-20v</locus>
+                     <title type="uniform">Pétrs saga postola</title>
+                     <note>Lacunae after fols 1, 5 and 9.</note>
+                     <bibl>Unger, <ref type="primary" target="Postola1874">Postola
+                           sögur</ref><biblScope unit="page">159:23-201:3</biblScope></bibl>
+                  </msItem>
+                  <msItem n="2" defective="true" class="post">
+                     <locus from="20v" to="29v">20v-29v</locus>
+                     <title type="uniform">Andreas saga postola</title>
+                     <rubric>ANDREAS SAGA</rubric>
+                     <explicit defective="true">heill þu k<ex>ro</ex>ſs</explicit>
+                     <note>Lacunae after fols 21 and 23.</note>
+                  </msItem>
+                  <msItem n="3" defective="true" class="post">
+                     <locus from="30r" to="31r">30r-31r</locus>
+                     <title type="uniform">Filippus saga postola</title>
+                     <incipit defective="true">hu<ex>ar</ex>f af ſin<ex>n</ex>e giæſku</incipit>
+                  </msItem>
+                  <msItem n="4" class="post">
+                     <locus from="31r" to="33v">31r-33v</locus>
+                     <title type="uniform">Jakobs saga postola</title>
+                     <rubric>Jacobs saga</rubric>
+                  </msItem>
+                  <msItem n="5" defective="true" class="post">
+                     <locus from="33v" to="36v">33v-36v</locus>
+                     <title type="uniform">Mathías saga postola</title>
+                     <explicit defective="true">j trieueris borg e<ex>r</ex></explicit>
+                     <note>Lacuna after fol. 35.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>36. 
-<dimensions type="leaf" scope="all">
-                              <height>202</height>
-                              <width>153</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>36. <dimensions type="leaf" scope="all">
+                              <height unit="mm">202</height>
+                              <width unit="mm">153</width>
                            </dimensions>
                         </extent>
+                        <condition>The manuscript is defective with some lacunae. Fol. 1r is
+                           illegible due to wear and tear.</condition>
                      </supportDesc>
                   </objectDesc>
+                  <additions>In the bottom margins of fols 8r-v, 9r, 16r and 26r, some stanzas in
+                        <term>ferskeytt</term>, alluding to the content, are found.</additions>
                </physDesc>
+               <history>
+                  <origin notBefore="1600" notAfter="1650"><origPlace>Iceland</origPlace>, <origDate
+                        notBefore="1600" notAfter="1650">s. XVII<hi rend="sup"
+                     >1</hi></origDate>.</origin>
+                  <acquisition>According to a note in <name type="person" key="ArnMag001">Árni
+                        Magnússon</name>'s hand on the fly-leaf, he acquired the manuscript <q
+                        xml:lang="is">fra S<ex>era</ex>
+                        <name type="person" key="BodStu001">Bdvari Stullaſyni</name></q>. In <ref
+                        type="ms" target="AM04-0435-a-da">AM 435 a 4to</ref> fol. 15v he wrote:
+                        <q>Er in 4<hi rend="sup">to</hi>. Codex parum antiqvus. Eg true boken ſe fra
+                           <name type="place" key="ValPre02">Valþiofsſtad</name></q>. </acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">72-73</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="Postola1874"/>
+                        <biblScope unit="page">v, xvii</biblScope></bibl>
+                     <bibl><ref type="secondary" target="Wolf2013">29, 158, 254, 309,
+                        319</ref></bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

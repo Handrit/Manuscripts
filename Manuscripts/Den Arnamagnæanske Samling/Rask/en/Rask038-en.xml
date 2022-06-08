@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,101 +22,113 @@
                             <idno>2609</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Sagas and Rímur</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>
-                    </head>
-                    <msContents>
-                        <msItem n="1">
+                      <msContents>
+                        <summary><title type="supplied">Sagas and Rímur</title></summary>
+                        <msItem n="1" class="fas">
                             <locus from="1r" to="32r">1r-32r</locus>
                             <title type="uniform">Þorsteinns saga Víkingssonar</title>
                             <textLang mainLang="is">Icelandic</textLang>
                             <rubric>Sagann af <lb/> Þorsteini Vykyngs Syni</rubric>
                         </msItem>
-                        <msItem n="2">
+                        <msItem n="2" class="rimur">
                             <locus from="33r" to="60r">33r-60r</locus>
-                            <author>
-                                <name type="person" key="ArnBod001">Árni Böðvarsson</name>
-                            </author>
+                            <author key="ArnBod001">Árni Böðvarsson</author>
                             <title type="uniform">Alexanders rímur og Loðvíks</title>
+                            <note>8 <foreign>rímur</foreign>.</note>
                             <rubric>Af ALEXANDR Og LODWICH</rubric>
-                            <note>8 <foreign>rímur</foreign> items, dedicated
-                                    <foreign>sýslumaður</foreign>
-                                <name type="person" key="JonArn004">Jón Árnason</name> of <name type="place">Ingjaldshóll</name>
-                                <date when="1763">1763</date>
-                     </note>
+                            <respStmt>
+                                <resp key="dte">Dedicated to</resp>
+                                <name type="person" key="JonArn004">Sýslumaður Jón Árnason</name>
+                            </respStmt>
+                            <note><date when="1758">1763</date>.</note>
                         </msItem>
-                        <msItem n="3">
+                        <msItem n="3" class="rimur">
                             <locus from="61r" to="77v">61r-77v</locus>
                             <title type="uniform">Skáld-Helga rímur</title>
                             <rubric>Hier Skifast Rijmur Af <lb/> Skälldhelga</rubric>
-                            <note>7 <foreign>rímur</foreign> items</note>
+                            <note>Seven <foreign>rímur</foreign> cantos.</note>
                         </msItem>
-                        <msItem n="4" defective="true">
-                            <author>Árni Böðvarsson</author>
+                        <msItem n="4" defective="true" class="rimur">
+                            <locus from="78r" to="127r">78r-127r</locus>
+                            <author key="ArnBod001">Árni Böðvarsson</author>
                             <title type="uniform">Völsunga rímur</title>
-                            <note>Dedicated <foreign>sýslumaður</foreign> Jón Árnason, <date when="1758">1758</date>.</note>
-                            <msItem n="4.1">
-                                <locus from="78r" to="127r">78r-127r</locus>
-                                <title type="supplied">23-36. ríma</title>
-                                <rubric>Af <lb/> Ragnari Lodbrok og <lb/> sonum hanns</rubric>
-                            </msItem>
-                            <msItem n="4.1">
-                                <locus from="128r" to="214r">128r-214r</locus>
-                                <title type="supplied">1-22. ríma</title>
-                                <rubric>Hier Byriast Rijmur af <lb/> Wolsungum <lb/> Budlungum,
-                                        Giukungu<supplied reason="omitted">m</supplied>
-                                    <lb/> RAGNARE Lodbrok</rubric>
-                            </msItem>
+                            <note>The 23.-36. <foreign>rímur</foreign> cantos</note>
+                            <rubric>Af <lb/> Ragnari Lodbrok og <lb/> sonum hanns</rubric>
+                            <respStmt>
+                                <resp key="dte"/>
+                                <name type="person" key="JonArn004">Sýslumaður Jón Árnason</name>
+                            </respStmt>
+                            <note><date when="1758">1758</date>.</note>
                         </msItem>
-                    </msContents>
+                          <msItem n="5">
+                                <locus from="128r" to="214r">128r-214r</locus>
+                                <author key="ArnBod001">Árni Böðvarsson</author>
+                                <title type="uniform">Völsunga rímur</title>
+                                <note>The 1-22. <foreign>rímur</foreign>.</note>
+                                <rubric>Hier Byriast Rijmur af <lb/> Wolsungum <lb/> Budlungum,
+                                    Giukungu<supplied reason="omitted">m</supplied>
+                                    <lb/> RAGNARE Lodbrok</rubric>
+                                <respStmt>
+                                    <resp key="dte"/>
+                                    <name type="person" key="JonArn004">Sýslumaður Jón Árnason</name>
+                                </respStmt>
+                                <note><date when="1758">1758</date>.</note>
+                            </msItem>
+                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
-                                    <p>Paper</p>
+                                    <p><material>Paper</material>.</p>
                                 </support>
-                                <extent>215, fols 32v, 60v, 127v, 214v-215v were originally blank.
-                                        <dimensions type="leaf" scope="all">
-                                        <height>192</height>
-                                        <width>155</width>
+                                <extent>215. Fols 32v, 60v, 127v, 214v-215v were originally blank.
+                                    <dimensions type="leaf" scope="all">
+                                        <height unit="mm">192</height>
+                                        <width unit="mm">155</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
-                                    <p>The first 25 leaves are worn and has therefore been restored.
-                                        A piece of f. 214 is cut out with the consequence of loss of
-                                        some final lines. A new piece of paper, a fragment of a
-                                        letter dated <name type="place">Fagradal</name>
-                                        <date when="1732">1732</date>, has been added. The recto
-                                        carries the superscription: <q xml:lang="la">Finis
-                                        libri</q>, the verso: <q xml:lang="is">Christian i Vigri a
-                                            bókina</q>.</p>
+                                    <p>The writing of the first 25 leaves are badly worn and have
+                                        been restored. A piece of f. 214 is excised, with a loss of
+                                        the bottom lines, and a fragment of a letter, dated <date
+                                            when="1732">1732</date> in <name type="place"
+                                                >Fagradal</name> was added.</p>
                                 </condition>
                             </supportDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote scope="sole" script="unknown">
-                                <p>Written in different hands.</p>
+                            <handNote script="unknown">
+                                <p>Written by various hands.</p>
                             </handNote>
                         </handDesc>
                         <decoDesc>
                             <decoNote type="initial" subtype="flourished">
-                                <p>The book opens with a flourished initial.</p>
+                                <p><title type="uniform">Þorsteinns saga Víkingssonar</title> opens with a
+                                    flourished initial.</p>
                             </decoNote>
                         </decoDesc>
                         <additions>
-                            <p>At f. 215v a thanksgiving in verse is found.</p>
+                            <p>The recto of f. 214 reads: <q xml:lang="la">Finis libri</q>, the verso
+                                has: <q xml:lang="is">Christian i Vigri a bókina</q></p>
+                            <p>On f. 215v a thanksgiving in verse is found.</p>
                         </additions>
                         <bindingDesc>
                             <binding>
-                                <p>In the time of <name type="person" key="KriKaa001">Kristian
-                                        Kålund</name> fragments the fly-leaves and pastedowns
-                                    consisted of fragments private letters. One of the lettes used
-                                    at the binding is addressed <name type="person" key="JonAsg001">Jón Ásgeirson</name> of <name type="place">Sandar</name>.</p>
+                                <p>Bound in a contemporary full leather binding. The flyleaves and
+                                    pastedowns consist of fragments of private letters. One of these
+                                    lettes is addressed to <name type="person" key="JonAsg001">Jón
+                                        Ásgeirson</name> of <name type="place">Sandar</name>.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
+                    <history><origin><origPlace>Iceland</origPlace>
+                        <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate></origin></history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund, <ref target="KKKat"/><biblScope unit="volume"
+                                >II</biblScope><biblScope unit="page">525-26</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

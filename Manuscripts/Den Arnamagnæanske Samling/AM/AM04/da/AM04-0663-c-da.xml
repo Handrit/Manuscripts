@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,20 +23,17 @@
                      <idno>1659</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Játvarðar saga</title>
-                  <origPlace>Norge?</origPlace>
-                  <origDate notBefore="1688" notAfter="1704">ca. 1688-1704</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform">Játvarðar saga</title></summary>
+                  <msItem n="1" class="hels">
+                     <locus from="1r" to="19r">1r-19r</locus>
                      <title type="uniform">Játvarðar saga</title>
                      <title type="parallel">Saga Játvarðs konungs hins helga</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <rubric>Saga ens heil<ex>aga</ex> Eðvarð<ex>ar</ex>
                      </rubric>
                      <filiation>Ifølge <name type="person" key="ArnMag001">Arne Magnusson</name> en
-                        afskrift af <title type="ms">Flateyarbók</title> (<ref type="ms">GkS 1005
+                        afskrift af <title type="ms">Flateyarbók</title> (<ref type="ms" target="#GKS02-1005-is">GkS 1005
                            fol.</ref>).</filiation>
                   </msItem>
                </msContents>
@@ -46,34 +44,37 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>19. Bl. 19v er blankt. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>215</height>
-                              <width>165</width>
+                        <extent>19. Bl. 19v er blank. <dimensions type="leaf" scope="all" unit="mm">
+                              <height unit="mm">215</height>
+                              <width unit="mm">165</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="AsgJon001" scope="sole" script="unknown">
-                        <p>Skrevet af Ásgeir Jónsson.</p>
+                        <p>Skrevet af <name type="person" key="AsgJon001">Ásgeir Jónsson</name>.</p>
                      </handNote>
                   </handDesc>
                   <additions>I marginen bl. 1r har <name type="person" key="ArnMag001">Arne
-                        Magnusson</name> noteret: <q xml:lang="la">Ex Cod.
-                     Flateyen<ex>si</ex>
-                     </q>
-                  </additions>
+                        Magnusson</name> noteret: <q xml:lang="la">Ex Cod. Flateyen<ex>sis</ex>
+                     </q>.</additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Norge?</origPlace>
+                     <origDate notBefore="1688" notAfter="1704">ca. 1688-1704</origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">75-76</biblScope>
+                        <biblScope unit="page">75-76</biblScope>
                      </bibl>
-                     <bibl>Rafn og Jon Sigurdsson: <ref type="secondary-1" target="CarRaf1852">Saga
-                        Játvarðar konúngs hins helga</ref>
-                        <biblScope unit="pages">9</biblScope>
+                     <bibl><ref type="secondary-1" target="CarRaf1852"/>
+                        <biblScope unit="page">9</biblScope>
                      </bibl>
+                     <bibl><ref type="secondary" target="Wolf2013"/>
+                        <biblScope unit="page">96</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

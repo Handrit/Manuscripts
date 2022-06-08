@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,21 +22,17 @@
                      <idno>1415</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Rémundar saga keisarasonar</title>;
-                     <origPlace>Island</origPlace>, <origDate notBefore="1375" notAfter="1399">s.
-                     XIV 4/4</origDate>
-               </head>
-               <msContents>
-                  <msItem defective="true">
+                 <msContents>
+                  <summary><title type="supplied">Rémundar saga keisarasonar</title>.</summary>
+                  <msItem n="1" defective="true" class="ridd">
                      <locus from="1r" to="2v">1r-2v</locus>
                      <title type="supplied">Rémundar saga keisarasonar</title>
-                     <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                     <textLang mainLang="non"/>
                      <incipit defective="true">
                         <gap reason="damage"/>lykr s<ex>vo</ex>
                         þ<ex>ess</ex>e ſtefno</incipit>
                      <explicit defective="true">kalla aller m<ex>ed</ex> eíne rauddo</explicit>
-                     <bibl>Broberg: <ref type="primary-3" target="STUAGNL38">Rémundar saga
+                     <bibl>Broberg: <ref type="primary" target="STUAGNL38">Rémundar saga
                            keisarasonar</ref>
                         <note>Var.app. E</note>
                      </bibl>
@@ -46,11 +42,11 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Pergament</p>
+                           <p><material>Pergament</material>.</p>
                         </support>
                         <extent>2. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>205</height>
-                              <width>150</width>
+                              <height unit="mm">205</height>
+                              <width unit="mm">150</width>
                            </dimensions>
                         </extent>
                         <condition>Indersiderne slidte. Gennem begge blade er der boret tre huller
@@ -61,20 +57,26 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="sole" script="unknown">Vistnok samme hånd som <ref type="ms">AM 567 XVI 4to</ref>.</handNote>
+                     <handNote scope="sole" script="unknown">Vistnok samme hånd som <ref type="ms" target="#AM04-0567-XVI-is">AM 567 XVI 4to</ref>.</handNote>
                   </handDesc>
                </physDesc>
+               <history><origin><origPlace>Island</origPlace>, <origDate notBefore="1375" notAfter="1399">s.
+                  XIV<hi rend="sup">4/4</hi></origDate></origin></history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">727</biblScope>
+                        <biblScope unit="page">727</biblScope>
+                     </bibl>
+                     <bibl><ref type="primary-3" target="STUAGNL38"/>
+                        <biblScope unit="page">iii <!-- og mere? --></biblScope>
                      </bibl>
                   </listBibl>
-               </additional>
+               </additional>   
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-12-06" who="EvaWed001">Updated.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

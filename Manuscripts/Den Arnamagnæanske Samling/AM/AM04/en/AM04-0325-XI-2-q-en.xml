@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,27 +23,28 @@
                             <idno>1069</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Noregs konunga sögur</title>
-                        <origPlace>Iceland?</origPlace>
-                        <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
-                            <textLang mainLang="da">Danish</textLang>
+                        <summary><title type="uniform">Noregs konunga sǫgur</title><note>Narration
+                                on preparation for the Battle of Stiklastaðir from <title
+                                    type="uniform">Noregs konunga sǫgur</title>, translated from
+                                Danish.</note></summary>
+                        <textLang mainLang="is"/>
+                        <msItem n="1" class="kon tyd">
+                            <locus from="1ra" to="3vb">1ra-3vb</locus>
+                            <title type="uniform" xml:lang="is">Noregs konunga sǫgur</title>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>
-                                    <p>Paper.</p>
+                                    <p><material>Paper</material>.</p>
                                 </support>
                                 <extent>3. <dimensions type="leaf" scope="all">
-                                        <height>180</height>
-                                        <width>147</width>
+                                        <height unit="mm">180</height>
+                                        <width unit="mm">147</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
@@ -52,7 +54,52 @@
                                         <name type="place">Lambavatn</name>.</p>
                             </handNote>
                         </handDesc>
+                        <accMat>On an AM-slip <name type="person" key="ArnMag001">Árni
+                                Magnússon</name> gives the following account: <q xml:lang="is">Þeſſe
+                                3. bld lagu innani 3<hi rend="sup">ia</hi> qverenu fra endanum, þar
+                                ſem i vantar 2. bld midt i arkinu. Þau eru transfererud ur Dnſku.
+                                og eru med hendi S<ex>era</ex>
+                                <name type="person" key="JonOla009">Jons Olafsfonar</name> ä <name
+                                    type="place" key="LamRau01">Lambavatne</name> [imò, ex Danico
+                                impreſſo translata ſunt; contuli.]</q>
+                        </accMat>
                     </physDesc>
+                    <history>
+                        <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1600"
+                                notAfter="1699" evidence="conjecture" resp="KKKat">s.
+                                XVII</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <custodialHist>
+                                <custEvent type="conservation">
+                                    <p>The MS was put on meeting guards and bound in a cardboard
+                                        cover <date from="1959-06-09" to="1959-08-15"
+                                            >09.06.1959-15.08.1959</date>.</p>
+                                </custEvent>
+                            </custodialHist>
+                        </adminInfo>
+                        <surrogates>
+                            <p><list>
+                                    <item n="1">Plate, <idno>plade 37</idno>, s.d.</item>
+                                    <item n="2">Diapositives from <date notBefore="1984-05"
+                                            notAfter="1985-05">May 1984 or 1985</date>.</item>
+                                    <item n="3">Black and white prints from <date when="1956-09"
+                                            >August 1956</date>.</item>
+                                </list>
+                            </p>
+                        </surrogates>
+                        <listBibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">569</biblScope>
+                            </bibl>
+                            <bibl>Storm: <ref target="SnorrHist">Snorre Sturlassöns
+                                    Historieskrivning</ref>
+                                <biblScope unit="page">216</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

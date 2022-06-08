@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -25,25 +25,31 @@
                             <idno>Addit. 48 k fol.</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Jordebøger</title>
-                        <origPlace>Denmark (?)</origPlace>
-                        <origDate notBefore="1700" notAfter="1800">s. XVIII</origDate>
-                    </head>
-                    <msContents>
-                        <msItem>
-                            <author>Árni Magnússon</author>
-                            <author>Páll Vídalín</author>
-                            <textLang mainLang="is" otherLangs="da">Icelandic and Danish</textLang>
+                       <msContents>
+                        <summary><title type="supplied">Land Registers</title></summary>
+                        <msItem class="jarb">
+                            <author key="ArnMag001">Arne Magnusson</author>
+                            <author key="PalJon005">Páll Vídalín</author>
+                            <title type="supplied">Land Registers</title>
+                            <textLang mainLang="is" otherLangs="da"/>
                         </msItem>
                     </msContents>
-                    <msPart>
+                    <history><origin><origPlace>Denmark?</origPlace>
+                        <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>.</origin></history>
+                    <additional>
+                        <listBibl>
+                            <bibl><ref target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">329-330</biblScope></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1">
                         <msIdentifier><altIdentifier type="partial">
                             <idno>AM 464 I fol.</idno>
                         </altIdentifier></msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="uniform">Jarðabók yfir Vestmannaeyar</title>
+                            <msItem n="1" class="jarb">
+                                <title type="supplied">Land Register for Vestmannaeyar</title>
                                 <textLang mainLang="da">Danish</textLang>
                             </msItem>
                         </msContents>
@@ -56,21 +62,21 @@
                                         </p>
                                     </support>
                                     <extent>26. <dimensions type="leaf" scope="all">
-                                            <height>330</height>
-                                            <width>210</width>
+                                            <height unit="mm">330</height>
+                                            <width unit="mm">210</width>
                                         </dimensions>
                            </extent>
                                 </supportDesc>
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
+                    <msPart n="2">
                         <msIdentifier><altIdentifier type="partial">
                             <idno>AM 464 II fol.</idno>
                         </altIdentifier></msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="uniform">Jarðabók yfir Vestmannaeyar</title>
+                            <msItem n="2" class="jarb">
+                                <title type="uniform">Land Register for Vestmannaeyar</title>
                                 <textLang mainLang="is">Icelandic</textLang>
                             </msItem>
                         </msContents>
@@ -83,21 +89,21 @@
                                         </p>
                                     </support>
                                     <extent>14. <dimensions type="leaf" scope="all">
-                                            <height>330</height>
-                                            <width>210</width>
+                                            <height unit="mm">330</height>
+                                            <width unit="mm">210</width>
                                         </dimensions>
                            </extent>
                                 </supportDesc>
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
+                    <msPart n="3">
                         <msIdentifier><altIdentifier type="partial">
                             <idno>AM 464 5 fol.</idno>
                         </altIdentifier></msIdentifier>
                         <msContents>
-                            <msItem n="1">
-                                <title type="uniform">Jarðabók yfir Rangárvallasýsla</title>
+                            <msItem n="3" class="jarb">
+                                <title type="supplied">Land Register for Rangárvallasýsla</title>
                                 <textLang mainLang="da">Danish</textLang>
                             </msItem>
                         </msContents>
@@ -110,8 +116,8 @@
                                         </p>
                                     </support>
                                     <extent>316. <dimensions type="leaf" scope="all">
-                                            <height>330</height>
-                                            <width>210</width>
+                                            <height unit="mm">330</height>
+                                            <width unit="mm">210</width>
                                         </dimensions>
                            </extent>
                                 </supportDesc>

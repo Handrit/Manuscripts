@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,12 +23,12 @@
                             <idno>2283</idno>
                         </altIdentifier>
                     </msIdentifier>
-                      <msContents>
+                    <msContents>
                         <summary><title type="uniform">Obituarium, latine scriptum</title></summary>
-                         <msItem n="1" class="minngr" defective="true">
+                        <msItem n="1" class="minngr" defective="true">
                             <locus from="1r" to="4v">1r-4v</locus>
                             <title type="uniform">Obituarium, latine scriptum</title>
-                            <textLang mainLang="la">Latin</textLang>
+                            <textLang mainLang="la"/>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -38,8 +39,8 @@
                                         <material>Pergament</material>.</p>
                                 </support>
                                 <extent>4 bladfragmenter. <dimensions type="leaf" scope="all">
-                                        <height>93</height>
-                                        <width>165</width>
+                                        <height unit="mm">93</height>
+                                        <width unit="mm">165</width>
                                     </dimensions>
                                 </extent>
                                 <condition>
@@ -47,11 +48,12 @@
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                        <layout columns="1">Røde dato-betegnelser</layout>
-                     </layoutDesc>
+                                <layout columns="1">Røde dato-betegnelser</layout>
+                            </layoutDesc>
                         </objectDesc>
                         <bindingDesc>
-                            <binding notBefore="1971-11-10" notAfter="1972-01-12" contemporary="false">
+                            <binding notBefore="1971-11-10" notAfter="1972-01-12"
+                                contemporary="false">
                                 <p>Indbundet i et gråt papomslag med læderryg.</p>
                             </binding>
                             <binding>
@@ -59,10 +61,11 @@
                                     havde bogen et andet bind, som blev udskiftet under restaurering
                                         <date from="1971-11" to="1972-01">november 1971 til januar
                                         1972</date>. Dette var et halvbind med læderryg og
-                                    marmoreret papir. AM 80 a 8vo var da indbundet sammen med <ref type="ms">AM 80 b 8vo</ref>, som nu er udleveret til
+                                    marmoreret papir. AM 80 a 8vo var da indbundet sammen med <ref
+                                        type="ms">AM 80 b 8vo</ref>, som nu er udleveret til
                                     Island.</p>
                                 <p>På det gamle bind har <name type="person" key="ArnMag001">Arne
-                                    Magnusson</name> skrevet: <q xml:lang="da">Var liimet paa
+                                        Magnusson</name> skrevet: <q xml:lang="da">Var liimet paa
                                         Ryggen af en bog</q>.</p>
                             </binding>
                         </bindingDesc>
@@ -74,9 +77,9 @@
                         </origin>
                         <provenance>
                             <p>Blandt personnavnene kan mærkes: <q>
-                                <name type="person" key="Godooo001">Godefridus</name> clericus de
-                                    <name type="place">dacia</name>
-                        </q>.</p>
+                                    <name type="person" key="Godooo001">Godefridus</name> clericus
+                                    de <name type="place">dacia</name>
+                                </q>.</p>
                         </provenance>
                     </history>
                     <additional>
@@ -92,29 +95,21 @@
                                     <p>Fotograferet i <date when="1960"/>.</p>
                                 </custEvent>
                                 <custEvent type="conservation">
-                                    <p>Under konservering <date from="1971-11-10" to="1972-01-12"/> blev håndskriftet lagt i et gråt papomslag.</p>
+                                    <p>Under konservering <date from="1971-11-10" to="1972-01-12"/>
+                                        blev håndskriftet lagt i et gråt papomslag.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">mikrofilm (originaler)</title>
-                                        <idno>Gneg.209</idno>
-                                        <date when="1960"/>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">mikrofilm (arkiv)</title>
-                                        <idno>Gpos.243</idno>
-                                        <date when="1960"/>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">s/h fotografier</title>
-                                        <idno>AM 80 a 8vo</idno>
-                                        <date when="1994-05-31"/>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item> Mikrofilm (originaler), <idno>Gneg.209</idno>, fra <date
+                                            when="1960"/>. </item>
+                                    <item> Mikrofilm (arkiv), <idno>Gpos.243</idno>, fra <date
+                                            when="1960"/>. </item>
+                                    <item> Sort-hvid fotografier fra <date when="1994-05-31"/>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
@@ -127,7 +122,9 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2021-08-31" who="EvaWed001">Opdateret tagging</change></revisionDesc>
+        <revisionDesc>
+            <change when="2021-08-31" who="EvaWed001">Opdateret tagging</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

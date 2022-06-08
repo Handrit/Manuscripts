@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,31 +23,35 @@
                             <idno>1066</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Sverris saga </title>
-                        <title>Hákonar saga Sverrissonar</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1300" notAfter="1315" cert="high" evidence="conjecture">s. XIV in</origDate>
-                    </head>
                     <msContents>
-                        <msItem n="1">
+                        <summary><title type="uniform" xml:lang="is">Noregs konunga
+                            sǫgur</title>.</summary>
+                        <msItem n="1" class="kon">
                             <locus from="1r" to="1v">1r-1v</locus>
-                            <title>Sverris saga</title>
-                            <textLang mainLang="is">Icelandic</textLang>
-                            <incipit defective="true">b<expan>irki</expan>b<expan>einar</expan> naðo
-                                    m<expan>er</expan>k<expan>inu</expan>
-                                <expan>ok</expan> flyðo sida<expan>n</expan>
-                     </incipit>
-                            <explicit defective="true">at bøndr flyðv vpp f<expan>yri</expan>
+                            <title type="uniform" xml:lang="is">Sverris saga</title>
+                            <textLang mainLang="non"/>
+                            <incipit defective="true">b<ex>irki</ex>b<ex>einar</ex> naðo
+                                    m<ex>er</ex>k<ex>inu</ex>
+                                <ex>ok</ex> flyðo ſida<ex>n</ex>
+                            </incipit>
+                            <explicit defective="true">at bøndr flyðv vpp f<ex>yri</ex>
                                 norðan</explicit>
                             <bibl>
-                        <ref target="FMS8">Fornmanna sögur</ref> VIII, pp. 401-8</bibl>
+                                <ref target="FMS8">Fornmanna sögur</ref>
+                                <biblScope unit="volume">VIII</biblScope>
+                                <biblScope unit="page">401-8</biblScope>
+                            </bibl>
                         </msItem>
-                        <msItem n="2">
+                        <msItem n="2" class="kon">
                             <locus from="2r" to="2v">2r-2v</locus>
-                            <title>Hákonar saga Sverrissonar</title>
-                            <bibl>
-                        <ref target="FMS9">Fornmanna sögur</ref> IX, pp. 217-21</bibl>
+                            <title type="uniform">Bǫglunga saga</title>
+                            <note>Corresponding to <bibl>
+                                    <ref target="FMS9">Fornmanna sögur</ref>
+                                    <biblScope unit="volume">IX</biblScope>
+                                    <biblScope unit="page">217-221</biblScope>
+                                </bibl>.</note>
+                            <bibl>Magerøy: <ref type="primary-1" target="NT5">Soga om
+                                    birkebeinar og baglar: Bǫglunga sǫgur</ref></bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -57,97 +62,140 @@
                                         <material>Parchment</material>.</p>
                                 </support>
                                 <extent>2. <dimensions scope="all" type="leaf">
-                                        <height>240</height>
-                                        <width>174</width>
+                                        <height unit="mm">240</height>
+                                        <width unit="mm">174</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
                                     <p>The two extant leaves are well preserved.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1" writtenLines="30">
-                                    <p>The manuscript is written in long lines with 30 lines per
-                                        page. The majuscules has the size of 2 lines and occur in
-                                        varying colours. Rubrics in red.</p>
+                                    <p>The manuscript is written in one column with 30 lines per
+                                        page. The majuscules take up 2 lines and occur in varying
+                                        colours. Rubrics in red.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
                             <handNote script="textualis" scope="sole">
-                                <p>The manuscript is written in an Icelandic gothic bookhand.</p>
+                                <p>The fragment is written in an <term type="script">Icelandic
+                                    gothic bookhand</term>. The hand is identical with the main hand of <ref
+                                        type="ms" target="AM02-0045-en">AM 45 fol.</ref> (<bibl><ref
+                                            type="secondary" target="BiblArn32">Louis-Jensen 1977</ref><biblScope
+                                                unit="page">20</biblScope></bibl>).</p>
                             </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
-                        <origin notBefore="1301" notAfter="1325" cert="high" evidence="conjecture">
-                            <p>The manuscript is written in <origPlace>Iceland</origPlace>.<name type="person" key="KriKaa001"> Kristian Kålund</name> (<bibl>
+                        <origin notBefore="1300" notAfter="1325" cert="high" evidence="conjecture">
+                            <p>Written in <origPlace>Iceland</origPlace> in
+                                    <origDate notBefore="1300" notAfter="1325" cert="high">the
+                                    beginning of the fourteenth century</origDate> (<bibl>
+                                    <ref type="secondary" target="BiblArn32">Louis-Jensen
+                                        1977</ref><biblScope unit="page">20</biblScope></bibl>).
+                                Kålund's dating: <date notBefore="1300" notAfter="1399">the
+                                    fourteenth century</date> (<bibl>
                                     <ref type="secondary" target="KKKat">KKKat</ref>
-                                </bibl>) dates it to <origDate>the fourteenth century</origDate>,
-                                whereas <name type="person" key="JonLou001">Jonna Louis-Jensen</name>
-                                        (<bibl>
-                           <ref type="secondary" target="BiblArn32">Louis-Jensen
-                                        1977</ref>, p. 20</bibl>) dates it more precisely to
-                                    <date>the beginning of the fourteenth century</date>.</p>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="page">562</biblScope>
+                                </bibl>).</p>
                         </origin>
+                        <provenance><p>According to <bibl>
+                                    <ref type="secondary" target="FMS9">Fornmanna sögur</ref>
+                                    <biblScope unit="volume">IX</biblScope>
+                                </bibl> fols 2-3 of <ref type="ms" target="AM04-0325-VIII-4-b-en">AM
+                                    325 VIII 4 b 4to</ref> were put in a cover on which <name
+                                    type="person" key="ArnMag001">Árni Magnússon</name> had written:
+                                    <q xml:lang="is">Þesse .2. innlgd bld eru fundin i <country
+                                        key="NO">Noregi</country>. Eg hefi feinged þau af <name
+                                        type="person" key="AsgJon001">Asgeiri Jonssyne</name>,
+                                        en<expan>n</expan> hann feck þau fra Hr. <name type="person"
+                                        key="TruNit001">Truid Nitter</name>, presti i Norðlndum,
+                                    hver þau hafdi tekit fra stulku einne, er þau ætladi ad bruka
+                                    til at sauma ä. Fyrra bladed er ur <hi rend="underline">Sverris
+                                        Sgu</hi> hid sidara er ur <hi rend="underline">Appendice
+                                        Sverris</hi>-Sgu druvïs samsettre, en<expan>n</expan> vær
+                                        almen<expan>n</expan>elega hfum. Og mä þ<expan>et</expan>ta
+                                    sidara blad halldast f<expan>iri</expan> raritet. NB. Þetta blad
+                                    accorderar vid þä Dönsku version nærre lage.</q>
+                            </p>
+                            <p>Louis-Jensen (<bibl>
+                                    <ref type="secondary" target="BiblArn32">Louis Jensen 1977</ref>
+                                    <biblScope unit="page">20</biblScope>
+                                </bibl>) however, is more inclined to think that this cover belonged
+                                to AM 325 VIII 4 c 4to.</p></provenance>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
                                     <p>Catalogued <date when="2000-03-08">8 March 2000.</date> by
-                                            <name type="person" key="EvaWed001">EW-J</name>. (Parsed
-                                            <date>10.07.2000</date>).</p>
+                                            <name type="person" key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
-                                    <p>The manuscript was set on meeting guards and put in a
-                                        cardboard cover <date>02.03.1958-04.04.1959</date>.</p>
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
+                                    <p>The manuscript was put on meeting guards and put into a
+                                        cardboard cover <date from="1958-03-02" to="1959-04-04"
+                                            >02.03.1958-04.04.1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plate 37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositives</title>
-                                        <idno>AM 325 VIII 4 c 4to</idno>
-                                        <date>May 1984 (or 1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <date>October 1956</date>
-                                        <idno>AM 325 VIII 4 c 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item n="1">Plate, <idno>plade 37</idno>.</item>
+                                    <item n="2">Diapositives from <date notBefore="1984-05"
+                                            notAfter="1985-05">May 1984 or 1985</date>.
+                                    </item>
+                                    <item n="3">Black and white prints from <date when="1956-10"
+                                            >October 1956</date>.</item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
+                            <bibl><ref type="secondary-1" target="SteDre2021a">Dreschler
+                                2021</ref><biblScope unit="page">162</biblScope></bibl>
                             <bibl>
-                        <ref type="secondary" target="FMS8">Fornmanna sögur</ref>, VIII,
-                                pp. XXIII-IV<note>f. 1 is described as fragment 12.</note>
-                     </bibl>
-                            <bibl>
-                        <ref type="secondary" target="FMS9">Fornmanna sögur</ref>, IX, pp.
-                                IX-X</bibl>
-                            <bibl>
-                        <ref type="secondary" target="BiblArn32">Louis-Jensen, 1977</ref>,
-                                p. 20</bibl>
-                            <bibl>
-                                <ref type="secondary" target="FragmHelleJensen">Jensen, 1979</ref>
+                                <ref type="secondary" target="FMS8">Fornmanna sögur</ref>
+                                <biblScope unit="volume">VIII</biblScope>
+                                <biblScope unit="page">xxiii-iv</biblScope>
+                                <note>Fol. 1 is described as fragment 12.</note>
                             </bibl>
                             <bibl>
-                        <ref type="secondary" target="EIMF3">Holm-Olsen</ref>, p. 8</bibl>
-                        </listBibl>
+                                <ref type="secondary" target="FMS9">Fornmanna sögur</ref>
+                                <biblScope unit="volume">IX</biblScope>
+                                <biblScope unit="page">ix-x</biblScope>
+                                <note>Fol. 2.</note>
+                            </bibl>
+                            <bibl><ref type="secondary" target="EIMF3">Holm-Olsen 1961</ref>
+                                <biblScope unit="page">8</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary" target="FragmHelleJensen">Jensen, 1979</ref>
+                                <biblScope>25, 26</biblScope>
+                            </bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">562</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary" target="BiblArn32">Louis-Jensen 1977</ref>
+                                <biblScope unit="volume">XXXII</biblScope>
+                                <biblScope unit="page">20</biblScope>
+                            </bibl>
+                            <bibl><ref target="NT5">Magerøy 1988</ref><biblScope
+                                unit="volume">I</biblScope>
+                                <biblScope unit="page">16, 20, 21, 216</biblScope></bibl>
+                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2021-11-09" who="EvaWed001">Updated markup and bibliography.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

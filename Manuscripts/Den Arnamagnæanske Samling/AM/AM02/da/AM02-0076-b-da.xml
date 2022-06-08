@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -23,13 +23,11 @@
                             <idno>93</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title n="1">Ólafs saga helga</title>
-                        <title n="2">Korrespondence mellem Arne Magnusson og Páll Vídalín</title>
-                        <title n="3">Ólafs saga helga</title>
-                        <origPlace>Island, Island/Danmark</origPlace>
-                        <origDate notBefore="1720" notAfter="1730">1720-30</origDate>
-                    </head>
+                    <msContents>
+                        <summary><title n="1">Ólafs saga helga og Korrespondance mellem Arne
+                                Magnusson og Páll Vídalín</title>
+                        </summary>
+                    </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
@@ -39,16 +37,31 @@
                                     </p>
                                 </support>
                                 <extent>40.</extent>
-                                <foliation>Foliering med rødt blæk 1-40 af <name type="person" key="KriKaa001">Kristian Kålund</name>.</foliation>
+                                <foliation>Foliering med rødt blæk 1-40 af <name type="person"
+                                        key="KriKaa001">Kristian Kålund</name>.</foliation>
                             </supportDesc>
                         </objectDesc>
                     </physDesc>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 76 b I fol.</idno>
-                        </altIdentifier></msIdentifier>
+                    <history>
+                        <origin><origPlace>Island, Island/Danmark</origPlace>
+                            <origDate notBefore="1720" notAfter="1730">1720-30</origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl><ref type="secondary.1" target="KKKat"/>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">56-57</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 76 b I fol.</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="1" class="kon">
                                 <locus from="1" to="15">1-15</locus>
                                 <title type="uniform">Ólafs saga helga</title>
                                 <textLang mainLang="non">Norrønt/Islandsk</textLang>
@@ -71,58 +84,75 @@
                                         </p>
                                     </support>
                                     <extent>15. <dimensions type="leaf" scope="all" unit="mm">
-                                            <height>210</height>
-                                            <width>164</width>
+                                            <height unit="mm">210</height>
+                                            <width unit="mm">164</width>
                                         </dimensions>
                                     </extent>
                                 </supportDesc>
                             </objectDesc>
                             <handDesc>
-                                <handNote scope="sole" script="unknown">Skrevet af <name type="person" key="EyjJon002">Eyjólfur
+                                <handNote scope="sole" script="unknown">Skrevet af <name
+                                        type="person" key="EyjJon002">Eyjólfur
                                     Jónsson</name>.</handNote>
                             </handDesc>
                         </physDesc>
                         <history>
                             <origin>
-                                <p>Skrevet i <origPlace>Island</origPlace> i <origDate when="1726" evidence="internal" cert="high">1726</origDate>.</p>
+                                <p>Skrevet i <origPlace>Island</origPlace> i <origDate when="1726"
+                                        evidence="internal" cert="high">1726</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 76 b II fol.</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="2">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 76 b II fol.</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1">
+                            <msItem n="2" class="sendbr">
                                 <locus from="16" to="30">16-30</locus>
                                 <title type="supplied">Korrespondence mellem Arne Magnusson og Páll
-                                    Vídalín om Bæjarbók á Rauðisandi og afskrifterne</title>
+                                    Vídalín</title>
+                                <note>Om <title type="ms">Bæjarbók á Rauðisandi</title> og
+                                    afskrifterne.</note>
                             </msItem>
                         </msContents>
                         <physDesc>
                             <additions>
-                                <p>I brevvekslingen er der kommet en del forvirring, idet <name type="person" key="ArnMag001">Arne Magnusson</name> længe
-                                    har forvekslet <ref type="ms" target="AM02-073-b-da">AM 73 b
-                                        fol.</ref> med andre håndskrifter, især <ref type="ms" target="AM04-0325-V-da">AM 325 V 4to</ref>. Dette erkender
+                                <p>I brevvekslingen er der kommet en del forvirring, idet <name
+                                        type="person" key="ArnMag001">Arne Magnusson</name> længe
+                                    har forvekslet <ref type="ms" target="#AM02-073-b-da">AM 73 b
+                                        fol.</ref> med andre håndskrifter, især <ref type="ms"
+                                        target="#AM04-0325-V-da">AM 325 V 4to</ref>. Dette erkender
                                     Arne selv på bl. <locus>30</locus>: <q xml:lang="is">Þetta er
-                                        allt oriett, ſem eg nu ſie <date when="1726">1726</date> um
-                                        hauſted. Bok <name type="person" key="LauGot001">Lauruſar</name> lgman<ex>n</ex>s (mater
-                                        þ<ex>eir</ex>rar er lgman<ex>n</ex>
+                                        allt oriett, ſem eg nu ſie 1726 um hauſted. Bok <name
+                                            type="person" key="LauGot001">Lauruſar</name>
+                                            lgman<ex>n</ex>s (mater þ<ex>eir</ex>rar er
+                                            lgman<ex>n</ex>
                                         <name type="person" key="PalJon005">Widalin</name> ä med
                                         hendi Þorſteins Sigurdzſonar, og þ<ex>eir</ex>rar er eg nu
-                                        1726 ä med hende <name type="person" key="MagEin012">M<ex>agnus</ex>ar Einarsſonar</name>). er progenies
-                                            þ<ex>eir</ex>rar bokar er eg eignadist fra <name type="person" key="GudEgg001">Gudrunu
-                                            Eggertsdottur</name> ä <name type="place" key="BærRey01">Bæ</name> ä Raudaſande. Er þar i þ<ex>eir</ex>re
+                                        1726 ä med hende <name type="person" key="MagEin012"
+                                                >M<ex>agnus</ex>ar Einarsſonar</name>). er progenies
+                                            þ<ex>eir</ex>rar bokar er eg eignadist fra <name
+                                            type="person" key="GudEgg001">Gudrunu
+                                            Eggertsdottur</name> ä <name type="place" key="BærRey01"
+                                            >Bæ</name> ä Raudaſande. Er þar i þ<ex>eir</ex>re
                                         membranâ defect i einum ſtad, og ligg<ex>ur</ex>
                                             in<ex>n</ex>ani pappir med hende S<ex>era</ex>
                                         <name type="person" key="JonOla009">Jons</name> ä
                                         Lambavatne. Þ<ex>ad</ex> fyrsta þar af, er translatio ex
                                         Danico. hitt er fyllt ur ein<ex>n</ex>hverre rettre Olafs
-                                        ſgu, forte þ<ex>eir</ex>re er um hnd hfdu: <name type="person" key="ArnGud001">Arne Gudmundzſon</name>,
+                                        ſgu, forte þ<ex>eir</ex>re er um hnd hfdu: <name
+                                            type="person" key="ArnGud001">Arne Gudmundzſon</name>,
                                             <name type="person" key="JonErl001">Jon
-                                            Erlendzſon</name>, <name type="person" key="TorJon002">Torfe Jonsſon</name>, Amtmadur <name type="person" key="ChrMyl001">Müller</name>. id postea inſpiciam. Nunc
-                                        inſpexi, og er þad ſo. <pb/> Bok <name type="person" key="SnaPal001">Snæbiarnar</name> (af hverre eg hefi
-                                        Copie) er af ſama ſlage og þeſſe med hende <name type="person" key="ThoSig004">Þorsteins
+                                            Erlendzſon</name>, <name type="person" key="TorJon002"
+                                            >Torfe Jonsſon</name>, Amtmadur <name type="person"
+                                            key="ChrMyl001">Müller</name>. id postea inſpiciam. Nunc
+                                        inſpexi, og er þad ſo. <pb/> Bok <name type="person"
+                                            key="SnaPal001">Snæbiarnar</name> (af hverre eg hefi
+                                        Copie) er af ſama ſlage og þeſſe med hende <name
+                                            type="person" key="ThoSig004">Þorsteins
                                             Sigurdzſonar</name>. Eru badar ur Saurbæjar
                                             bokin<ex>n</ex>e og badar eins fylltar epter Supplemento
                                         chartaceo me<ex>d</ex> hendi S<ex>era</ex> Jons, hvar af
@@ -136,16 +166,20 @@
                             </additions>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 76 b III fol.</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="3">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 76 b III fol.</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1" class="kon">
+                            <msItem n="3" class="kon">
                                 <locus from="31" to="40">31-40</locus>
                                 <title type="uniform">Ólafs saga helga</title>
-                                <note>Afskrift af et brudstykke af sagaen med rettelser af <name type="person" key="ArnMag001">Arne Magnusson</name>.
-                                    utvivlsomt bestemt til erstatning af de uægte stykker i <ref type="ms" target="AM02-073-b-da">AM 73 b fol.</ref>
+                                <note>Afskrift af et brudstykke af sagaen med rettelser af <name
+                                        type="person" key="ArnMag001">Arne Magnusson</name>.
+                                    utvivlsomt bestemt til erstatning af de uægte stykker i <ref
+                                        type="ms" target="AM02-073-b-da">AM 73 b fol.</ref>
                                     (Bæjarbók) og dennes afskrifter.</note>
                             </msItem>
                         </msContents>

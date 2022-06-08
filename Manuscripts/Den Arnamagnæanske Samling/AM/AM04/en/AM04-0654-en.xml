@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,35 +23,63 @@
                      <idno>1645</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Gyðinga saga</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1700" notAfter="1715">s. XVIII in</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary>
+                     <title type="uniform">Gyðinga saga</title>
+                  </summary>
+                  <msItem n="1" class="sagnps">
+                     <locus from="1r" to="136r">1r-136r</locus>
+                     <title type="uniform">Gyðinga saga</title>
+                     <textLang mainLang="is"/>
+                     <filiation>According to <name type="person" key="ArnMag001">Árni
+                           Magnússon</name>'s account on the AM-slip the manuscript is a copy of the
+                        corresponding saga in <ref type="ms" target="AM02-0226-en">AM 226
+                        fol.</ref></filiation>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>136. 
-<dimensions type="leaf" scope="all">
-                              <height>215</height>
-                              <width>167</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>136. <dimensions type="leaf" scope="all">
+                              <height unit="mm">215</height>
+                              <width unit="mm">167</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="ThoTho003" scope="sole" script="unknown">
-                        <p>
-Written by Þórður Þórðarson.</p>
+                        <p> Written by Þórður Þórðarson.</p>
                      </handNote>
                   </handDesc>
+                  <accMat>On an AM-slip pasted to the beginning of the manuscript, Árni Magnússon
+                     wrote: <q xml:lang="la">Hiſtoria Macchabeorum ex SS Bibliis <ex>et</ex>
+                        Joſepho. Subnectitur Hiſtoriæ Alexandri Magni in Codice <name type="person"
+                           key="BryTho001">Brynolfi Theodori</name> (ͻ: AM 226 fol.) unde deſcripta
+                        eſt</q>
+                  </accMat>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Iceland?</origPlace>
+                     <origDate notBefore="1700" notAfter="1725">s. XVIII<hi rend="sup"
+                        >1/4</hi>.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary-1" target="STUAGNL6"/>
+                        <biblScope unit="page">xi</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="JónHel0842a"/><!-- biblScope? --></bibl>
+                     <bibl><ref type="seconday-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">57</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="KirWol1995a"/><!-- biblScope? --></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

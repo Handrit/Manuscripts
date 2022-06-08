@@ -1,54 +1,72 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 102 4to</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM04-0102-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 102 4to</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>756</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title type="supplied">Legal Texts</title>
-                  <origPlace>Norway</origPlace>
-                  <origDate notBefore="1590" notAfter="1610">c. 1600</origDate>
-               </head>
-               <msContents>
-                  <textLang mainLang="da">Danish</textLang>
-                  <!--textLang mainLang="is">Icelandic?</textLang-->
-</msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>142. 
-<dimensions type="leaf" scope="all">
-                              <height>202</height>
-                              <width>158</width>
-                           </dimensions>
-                        </extent>
-                     </supportDesc>
-                  </objectDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 102 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0102-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 102 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>756</idno>
+						</altIdentifier>
+					</msIdentifier>
+						<msContents>
+						<summary/>
+							<msItem><title type="supplied">Norwegian Legal Manuscript</title><textLang mainLang="da">Danish</textLang></msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support><material>Paper</material>.</support>
+								<extent>142. <dimensions type="leaf" scope="all">
+										<height unit="mm">202</height>
+										<width unit="mm">158</width>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origPlace>Norge</origPlace>, <origDate notBefore="1590" notAfter="1610" evidence="conjecture" resp="KKKat">c.
+							1600</origDate>.</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<bibl>Friis (udg. af Storm): <ref type="secondary" target="FriisSmlSkrifter">Samlede Skrifter</ref>
+								<biblScope unit="page">lxiv-v</biblScope>
+							</bibl>
+							<bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="page">405</biblScope>
+							</bibl>
+							<bibl>Storm: <ref type="secondary" target="ChrVidSkFor14">Om
+								Haandskrifter og Oversættelser af Magnus Lagaböters Love</ref>
+								<biblScope unit="page">50</biblScope>
+							</bibl>
+							<bibl>Storm: <ref type="secondary-1" target="NgL4">Norges gamle
+								Love</ref>
+								<biblScope unit="volume">IV</biblScope>
+								<biblScope unit="page">595-596</biblScope>
+							</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0102-0000r-FB" n="0">
 			<desc>0000r-FB</desc>

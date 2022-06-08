@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,29 +23,58 @@
                      <idno>1688</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>The Icelandic Elucidarius</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary>
+                     <title type="uniform">The Icelandic Elucidarius</title>
+                  </summary>
+                  <msItem n="1">
+                     <locus from="1r" to="8v">1r-8v</locus>
+                     <title type="uniform">The Icelandic Elucidarius</title>
                      <textLang mainLang="is">Icelandic</textLang>
+                     <incipit>Eɴ ſa eſ bok þeſſa les</incipit>
+                     <explicit>er blezon G<ex>oþs</ex></explicit>
+                     <filiation>Partly copied from <ref type="ms" target="#AM04-0674-a-en">AM 674 a
+                           4to</ref>.</filiation>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>8. 
-<dimensions type="leaf" scope="all">
-                              <height>207</height>
-                              <width>166</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>8. <dimensions type="leaf" scope="all">
+                              <height unit="mm">207</height>
+                              <width unit="mm">166</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" script="unknown">Written by the <foreign xml:lang="is"
+                           >sýslumaður</foreign>
+                        <name type="person" key="EinEyj002">Einar Eyjólfsson</name>.</handNote>
+                  </handDesc>
+                  <accMat>Four AM-slips (a-d) are pasted to the front of the manuscript. The first
+                     containing notes concerning this copy in <name type="person" key="ArnMag001"
+                        >Árni Magnússon</name>'s hand; the fourth is a part of a letter from <name
+                        type="person" key="GriEin001">Grímur Einarsson</name> dated <date when="1701"
+                        >1701</date>. The letter contains information on<ref type="ms"
+                        target="#AM04-0674-a-en">AM 674 a 4to</ref>.</accMat>
+
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1600" notAfter="1699"
+                        >s. XVII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary" target="KonGis1858"/>
+                     </bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">93</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

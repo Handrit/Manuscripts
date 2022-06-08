@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,32 +22,74 @@
                      <idno>2681</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Handbók presta</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1640-01-01" notAfter="1640-12-31">1640</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Handbook for Priests</title>.</summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main"><locus from="1r" to="1r">1r</locus> Skijrnar
+                           Em<ex>m</ex>bættisins <lb/> skickun, hegdun, og m&#xA733;te,
+                           m<ex>ed</ex>al krist<lb/>in<ex>n</ex>a man<ex>n</ex>a <gap
+                              reason="irrelevant"/></titlePart>
+                        <titlePart type="sub">Saman<ex>n</ex> tekid ut af Guds <lb/> Orde og Af
+                           pomeränisk<lb/>re Ordinantiu, og af or<lb/>din<ex>n</ex>antiu k.
+                           kristia<ex>n</ex>z þ<ex>ess</ex>
+                           <lb/> 4. og af Andligu<ex>m</ex> statutu<ex>m</ex>
+                           <ex>og</ex> syn<lb/>odalijs. <lb/> An<ex>n</ex>o 1640</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="handb">
+                     <title type="supplied" xml:lang="is">Handbók presta</title>
+                     <textLang mainLang="is"/>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>193. 
-<dimensions type="leaf" scope="all">
-                              <height>140</height>
-                              <width>100</width>
-                           </dimensions>
+                        <support><material>Paper</material>.</support>
+                        <extent>193. <dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">140</height>
+                           <width unit="mm">100</width>
+                        </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Contemporary, erraneous pagination.</p>
+                        </foliation>
+                        <condition>
+                           <p>Parts of ff. 1-4 have crumbled, f. 4v is covered with a new sheet of
+                              paper and provided with new text.</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
+                  <additions><p>Names of owners occur on ff. 117v, 150v, 183r, 192v.</p><p>Towards
+                     the end of the manuscript originally blank leaves occur; these have,
+                     however, been filled in with text by a contemporaneous or a slightly younger
+                     hand.</p></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>Fully bound in a leather binding with raised bands. The material used for
+                           the upper pastedown and the first flyleaf consists of discarded
+                           manuscript leaves with religious content. Regarding this, the
+                           archivist <name type="person" key="JonSig004">Jón Sigurðsson</name>
+                           noted: <q>með hendi S<hi rend="sup">r</hi>
+                              <name type="person" key="AsgBja001">Asgeirs Bjarnasonar</name> i Ögum
+                              þingum. mestpart</q>.</p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>,
+                  <origDate when="1640">1640</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                        >II</biblScope><biblScope unit="page">558-59</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-07-02" who="EvaWed001">Revised.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

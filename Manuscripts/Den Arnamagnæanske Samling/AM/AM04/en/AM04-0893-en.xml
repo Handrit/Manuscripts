@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,33 +23,64 @@
                      <idno>2024</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Visitationes diversis temporibus ador natæ ab anno 1617</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1617" notAfter="1650">s. XVII 1/2</origDate>
-                  <note>Journal of pastoral visitations for Aggerhus diocese 1617-35</note>
-               </head>
                <msContents>
+                  <summary><title type="supplied">On Aggershus Diocese, 1617-35</title></summary>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="NicGlo001">Nicolai Simon Glostrupius</name>
-                     </author>
-                     <textLang mainLang="la" otherLangs="da">Latin and Danish</textLang>
+                     <locus from="1v" to="2r">1v-2r</locus>
+                     <title type="supplied">List of the Regions of Aggershus Diocese</title>
+                     <textLang mainLang="da">Early Modern Danish</textLang>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="3r" to="179v">3-179v</locus>
+                     <author key="NicGlo001">Nicolai Simon Glostrupius</author>
+                     <title type="supplied">Journal of Pastoral Visitations for Aggerhus Diocese,
+                        1617-35</title>
+                     <textLang mainLang="la" otherLangs="da">Latin and Early Modern
+                        Danish</textLang>
+                     <rubric>Visitationes <lb/> diversis temporibus ador<lb/>natæ ab anno 1617.
+                        <lb/> per <lb/> Nicolaum Simonis <lb/> Glostrupium Sup. AH mpp</rubric>
+                     <note>mmp are intertwined</note>
+                  </msItem>
+                  <msItem n="3">
+                     <locus from="181r" to="182v">181r-182v</locus>
+                     <title type="supplied">Index</title>
+                     <textLang mainLang="da">Early Modern Danish</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>182. 
-<dimensions type="leaf" scope="all">
-                              <height>195</height>
-                              <width>160</width>
+                        <extent>182. Fols 2v, 8-15, 23v-28, 32-41, 48-53, 59v, 61-66, 70-79, 83-92,
+                           95-105, 108-116, 120-129, 136-142, 147-155, 161-168, 178, 179r and 180
+                           are blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">195</height>
+                              <width unit="mm">160</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Contemporary pagination, not including fols 1v-2r (<title
+                                 type="supplied">List of the Regions of Aggershus
+                              Diocese</title>).</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote scope="sole" scribe="NicGlo001" script="unknown">
+                        <p>The author's autograph.</p></handNote>
+                  </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark</origPlace>, <origDate notBefore="1617" notAfter="1650"
+                        >s. XVII<hi rend="sup">1</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">248</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,40 +23,61 @@
                      <idno>1909</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Grænlands Chronica</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1600" notAfter="1699">s. XVII</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                 <msContents>
+                  <summary>
+                     <title type="uniform">Den Grønlandske Cronica</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="48v">1r-48v</locus>
+                     <author key="ClaLys001">Claus Lyschander</author>
+                     <title type="uniform">Den Grønlandske Cronica</title>
+                     <textLang mainLang="is"/>
+                     <rubric>Grænlands Chronica</rubric>
+                     <note>The now hardly legible fol. 1 contains a preface by the translator,
+                        signed <q>G.Þ.s.</q>.</note>
+                     <filiation>Cognate to <ref type="ms" target="AM04-0779-b-da">AM
+                           779 b 4to</ref> and <ref type="ms" target="AM04-0779-c-da">AM 779 c IV og
+                           V 4to</ref>.</filiation>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>48. 
-<dimensions type="leaf" scope="all">
-                              <height>157</height>
-                              <width>102</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>48. Fol. 3v is blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">157</height>
+                              <width unit="mm">102</width>
                            </dimensions>
                         </extent>
+                        <condition>
+                           <p>Fol. 1 is badly worn.</p>
+                        </condition>
                      </supportDesc>
                   </objectDesc>
+                  <additions>Fols 2r-3r and 47r-48v are added in another hand.</additions>
                </physDesc>
                <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1600" notAfter="1699"
+                     evidence="conjecture" resp="KKKat">s. XVII</origDate>.</origin>
                   <provenance>
-                     <p><ref type="ms">AM 779 a-b 4to</ref> were for some time part of the collection in the
-                        <name type="org" key="KB">Royal Library in Copenhagen</name> under the shelfmark
-                        <ref type="ms">NkS 346 c-d 8vo</ref>. In <date when="1888-04">April 1888</date> the manuscripts were returned to the 
-                        <name type="org" key="AMDK">Arnamagnæan Collection</name>.</p>
+                     <p>For some time, <ref type="ms" target="#AM04-0779-b-en">AM 779 a-b 4to</ref> were part of the
+                        collection in the <name type="org" key="KB">Royal Library</name>, catalogued as <ref type="ms">NKS 346 c-d
+                           8vo</ref>. In <date when="1888-04">April 1888</date> the manuscripts were
+                        returned to the <name type="org" key="AMS">Arnamagnæan
+                        Collection</name>.</p>
                   </provenance>
                </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">199</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2022-03-01" who="EvaWed001">Updated markup.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

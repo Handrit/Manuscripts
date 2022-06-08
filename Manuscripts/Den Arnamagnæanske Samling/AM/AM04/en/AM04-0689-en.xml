@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,34 +23,44 @@
                      <idno>1718</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="da">Tale mod de norske biskopper</title>
-                  <origPlace>Denmark?</origPlace>
-                  <origDate notBefore="1700" notAfter="1725">s. XVIII 1/4</origDate>
-                  <note>Transcript of <ref>AM 114 a 4to</ref>.</note>
-               </head>
-               <msContents>
-                  <textLang mainLang="is">Old Norse</textLang>
+                  <msContents>
+                  <summary><title type="supplied">Varnaðarrœða</title></summary>
+                  <msItem n="1" class="deil">
+                     <locus from="1r" to="68v">1r-68v</locus>
+                     <title type="supplied">Varnaðarrœða</title>
+                     <textLang mainLang="is"/>
+                     <filiation>Copy of <ref type="ms" target="#AM04-0114-a-en">AM 114 a
+                        4to</ref>.</filiation>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>68. 
-<dimensions type="leaf" scope="all">
-                              <height>205</height>
-                              <width>158</width>
+                        <extent>68. <dimensions type="leaf" scope="all">
+                              <height unit="mm">205</height>
+                              <width unit="mm">158</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="MagEin005" scope="sole" script="unknown">
-                        <p>
-Written by Magnús Einarsson.</p>
+                        <p>Written by Magnús Einarsson.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history><origin><origPlace>Iceland</origPlace>
+                  <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s.
+                     XVIII<hi rend="sup">1/4</hi></origDate></origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">104</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

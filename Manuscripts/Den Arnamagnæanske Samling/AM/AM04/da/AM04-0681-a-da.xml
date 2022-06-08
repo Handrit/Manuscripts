@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,36 +22,32 @@
                             <idno>1695</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Heilagra manna sögur</title>;
-                        <origPlace>Island</origPlace>, <origDate notBefore="1425" notAfter="1475" evidence="conjecture" resp="Rit25 ONP">ca. 1450</origDate>.
-                    </head>
                     <msContents>
-                        <msItem n="1" defective="true" class="helgiso">
+                        <summary><title type="supplied">Religiøse tekster</title></summary>
+                        <msItem n="1" defective="true" class="leid">
                             <locus from="1r" to="8v">1r-8v</locus>
                             <title type="uniform" xml:lang="is">Duggals leiðsla</title>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                            <textLang mainLang="non"/>
                             <explicit defective="true">u<ex>n</ex>d<ex>er</ex> uidi
                                 þeſſum</explicit>
                             <note>Af det blad, der følger efter bl. 8, og som viser sig at have
                                 været fuldt beskrevet, ses endnu en rest nederst.</note>
                             <bibl>Cahill: <ref type="primary-1" target="Rit25">Duggals
-                                    leiðsla</ref><biblScope unit="pages">1-104</biblScope><note>s.
-                                    1-71, 75-103: øverste tekst</note></bibl>
+                                    leiðsla</ref><biblScope unit="page">1-104</biblScope></bibl>
                         </msItem>
-                        <msItem n="2" defective="true" class="sermon">
+                        <msItem n="2" defective="true" class="pred">
                             <locus from="9r" to="9v">9r-9v</locus>
                             <title type="supplied">Prædiken</title>
-                            <textLang mainLang="la">Latin</textLang>
+                            <textLang mainLang="la"/>
                             <note>Brudstykke. Bl. 9v er ulæselig.</note>
                         </msItem>
-                        <msItem n="3" defective="true" class="helgiso">
+                        <msItem n="3" defective="true" class="jarteikn">
                             <locus from="10r" to="10v">10r-10v</locus>
-                            <title type="uniform">Maríu saga</title>
+                            <title type="uniform">Maríu jartegnir</title>
                             <incipit defective="true">halldn<ex>er</ex> j daudl<ex>igu</ex>m
                                     lika<ex>m</ex></incipit>
-                            <explicit defective="true">ſe<ex>m</ex> hi<ex>n</ex> andada
-                                kona hapdi h<ex>onu</ex>m ſagt</explicit>
+                            <explicit defective="true">ſe<ex>m</ex> hi<ex>n</ex> andada kona hapdi
+                                    h<ex>onu</ex>m ſagt</explicit>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -63,48 +59,63 @@
                                     </p>
                                 </support>
                                 <extent>10. <dimensions type="leaf" unit="mm">
-                                        <height>210</height>
-                                        <width>165</width>
+                                        <height unit="mm">210</height>
+                                        <width unit="mm">165</width>
                                     </dimensions></extent>
                                 <condition>Af bl. 2 har en strimmel været bortskåret, men er senere
                                     påsyet.</condition>
                             </supportDesc>
                         </objectDesc>
-                        <accMat>På en tilhørende seddel meddeler <name type="person" key="ArnMag001">Arne Magnusson</name>: <q xml:lang="is">Þetta feck eg <date when="1708">1708</date>. af <name type="person" key="EirBja001">Eiriki Biarnaſyne</name>, en<ex>n</ex> han<ex>n</ex>
-                                hafde þad feinged hia mäge ſinum S<ex>era</ex>
-                                <name type="person" key="ThoGud007">Þorleifi Gudmundz
-                                    ſyne</name> ä Hallorms ſtad fyrer nockrum
-                                ärum</q>. Hermed stemmer Arne Magnussons optegnelser om dette
-                            håndskrift i <ref type="ms" target="AM04-0435-a-da">AM 435 a 4to</ref>,
-                            bl. 21v, hvor der efter ordene E. B. tilføjes:
-                                <q>lgrettumanni ur Auſtfiordum</q>.</accMat>
+                        <accMat>På en tilhørende seddel meddeler <name type="person" key="ArnMag001"
+                                >Arne Magnusson</name>: <q xml:lang="is">Þetta feck eg <date
+                                    when="1708">1708</date>. af <name type="person" key="EirBja001"
+                                    >Eiriki Biarnaſyne</name>, en<ex>n</ex> han<ex>n</ex> hafde þad
+                                feinged hia mäge ſinum S<ex>era</ex>
+                                <name type="person" key="ThoGud007">Þorleifi Gudmundz ſyne</name> ä
+                                Hallorms ſtad fyrer nockrum ärum</q>.</accMat>
                     </physDesc>
                     <history>
-                        <origin>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl>
+                        <origin>Skrevet i <origPlace>Island</origPlace>, <origDate notBefore="1440"
+                                notAfter="1460" evidence="conjecture" resp="Rit25">ca.
+                                1450</origDate> (<bibl>
+                                <ref type="secondary-1" target="Rit25">Cahill 1983</ref>
+                                <biblScope unit="page">xxi</biblScope>
+                            </bibl>). <name type="person" key="KriKaa001">Kålund</name>s datering:
+                            ca. 1500 (<bibl>
                                 <ref type="secondary-1" target="KKKat">Katalog</ref>
                                 <biblScope unit="volume">II</biblScope>
-                                <biblScope unit="pages">97</biblScope>
-                            </bibl>) daterer håndskriftet til <origDate notBefore="1475" notAfter="1525" cert="medium" evidence="conjecture" resp="KKKat">ca.
-                                1500</origDate>, mens Cahill (<bibl>
-                                <ref type="secondary-1" target="Rit25">Duggals leiðsla</ref>
-                                <biblScope unit="pages">xxi</biblScope>
-                            </bibl>) daterer det til <origDate notBefore="1425" notAfter="1475" evidence="conjecture" resp="Rit25 ONP">ca. 1450</origDate>.</origin>
+                                <biblScope unit="page">97</biblScope>
+                            </bibl>).</origin>
+                        <provenance>Ifølge teksten på AM-sedlen og en lignende optegnelse i <ref
+                                type="ms" target="AM04-0435-a-da">AM 435 a 4to</ref>, bl. 21v,
+                            ejede <name type="person" key="ThoGud007">Þorleifur Guðmundsson</name>
+                            håndskriftet, før han gav det til sin svoger, <foreign xml:lang="is"
+                                >lögréttumaður</foreign>
+                            <name type="person" key="EirBja001">Eiríkur
+                            Bjarnason</name>.</provenance>
+                        <acquisition>Arne Magnusson modtog håndskriftet fra Eiríkur Bjarnason
+                            i <date when="1708">1708</date>. I AM 435 a 4to er der til navnet Eiríkur
+                            Bjarnason føjet et <q>lgrettumanni ur
+                                Auſtfiordum</q>.</acquisition>
                     </history>
                     <additional>
                         <listBibl>
-                            <bibl>Konráð Gíslason: <ref target="KGProver">Fire og Fyrretyve
-                                    Prøver</ref></bibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                            <bibl><ref type="secondary-1" target="Rit25"/>
+                                <biblScope unit="page">ix, xxxvii-xlviii</biblScope></bibl>
+                            <bibl><ref target="KGProver"/></bibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
                                 <biblScope unit="volume">II</biblScope>
-                                <biblScope unit="pages">97</biblScope>
+                                <biblScope unit="page">97</biblScope>
                             </bibl>
-                            <bibl>Unger: <ref target="HMS1877">Heilagra manna søgur</ref><biblScope unit="pages">xii</biblScope>
+                            <bibl><ref target="HMS1877"/><biblScope
+                                    unit="page">xii</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2022-02-10" who="EvaWed001">Opdateret.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

@@ -1,55 +1,73 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 290 4to</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM04-0290-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 290 4to</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>1023</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title>Jómsvíkinga saga</title>
-                  <origPlace>Iceland?</origPlace>
-                  <origDate notBefore="1690" notAfter="1710">c. 1700</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>84. 
-<dimensions type="leaf" scope="all">
-                              <height>206</height>
-                              <width>165</width>
-                           </dimensions>
-                        </extent>
-                     </supportDesc>
-                  </objectDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 290 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0290-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 290 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>1023</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="uniform">Jómsvíkinga saga</title></summary>
+						<msItem n="1">
+							<locus from="1r" facs="#AM04-0290-0001r" to="84v">1r-84v</locus>
+							<title type="uniform">Jómsvíkinga saga</title>
+							<textLang mainLang="is">Icelandic</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support><material>Paper</material>.</support>
+								<extent>84. <dimensions type="leaf" scope="all">
+										<height unit="mm">206</height>
+										<width unit="mm">165</width>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origPlace>Iceland?</origPlace>
+							<origDate notBefore="1690" notAfter="1710">c. 1700</origDate>.</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<bibl>
+								<ref target="FMS9">Fornmanna sögur</ref>
+								<biblScope unit="volume">IX</biblScope>
+								<biblScope unit="page">7</biblScope>
+							</bibl>
+							<bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="page">538</biblScope>
+							</bibl>
+							<bibl>af Petersens: <ref target="JomsvSD">Jómsvíkinga saga &amp;
+									Jómsvíkingadrápa</ref>
+							</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc><change when="2021-12-13" who="EvaWed001">Updated markup and added content.</change></revisionDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0290-0000v-FFl" n="0">
 			<desc>0000v-FFl</desc>

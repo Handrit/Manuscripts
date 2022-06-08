@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,58 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Barlaams saga og Jósafats</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1485" notAfter="1499">s. XV ex; s. XV (ONP)</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="uniform">Barlaams saga og Jósafats</title></summary>
+                  <msItem n="1" defective="true">
+                     <locus from="1r" to="2v">1r-2v</locus>
+                     <title type="uniform">Barlaams saga og Jósafats</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true"><gap reason="lacuna"/>
+                        <lb/> þockv b<ex>ur</ex>t at hrinda</incipit>
+                     <explicit defective="true">hæfilig ſe t<ex>il</ex> þ<ex>es</ex>s ſem vor
+                           h<ex>er</ex>ra <gap reason="lacuna"/></explicit>
+                     <bibl>Rindal: <ref type="primary-3" target="NT4">Barlaams ok Josaphats
+                           saga</ref><note>var.app. <hi rend="bold">n</hi></note></bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>2. </extent>
+                        <extent>2. <dimensions type="leaf" scope="all" unit="mm">
+                           <height unit="mm">160</height>
+                           <width unit="mm">150</width>
+                        </dimensions>.</extent>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">Written in one column.</layout>
+                     </layoutDesc>
                   </objectDesc>
                </physDesc>
-            </msDesc>
+               <history>
+                  <origin>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1400"
+                        notAfter="1499" evidence="conjecture" resp="NT4">the fifteenth
+                        century</origDate> (<bibl>
+                        <ref type="secondary-1" target="NT4">Rindal 1981</ref>
+                        <biblScope unit="page">*46</biblScope>
+                     </bibl>). <name type="person" key="KriKaa001">Kålund</name>'s dating: The end
+                     of the fifteenth century (<bibl><ref type="secondary-1" target="KKKat"
+                           >Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">113</biblScope>
+                     </bibl>).</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">113</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+              </msDesc>
          </sourceDesc>
       </fileDesc>
    </teiHeader>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,16 +23,16 @@
                      <idno>2194</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Beskrivelse af det store kgl. bibliotheks islandske håndskrifter</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1886" notAfter="1889">1886-89</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
-                     <author>
-                        <name type="person" key="JonTho001">Jón Þorkelsson</name>
-                     </author>
+                  <summary>
+                     <title type="supplied">Catalogue of Icelandic Manuscripts Kept in the Royal
+                        Library of Denmark</title>
+                  </summary>
+                  <msItem n="1" class="hdrskr">
+                     <locus from="1r" to="414v">1r-414v</locus>
+                     <author key="JonTho001">Jón Þorkelsson</author>
+                     <title type="supplied">Catalogue of Icelandic Manuscripts Kept in the Royal
+                        Library of Denmark</title>
                      <textLang mainLang="da">Danish</textLang>
                   </msItem>
                </msContents>
@@ -39,15 +40,25 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>414. 
-<dimensions type="leaf" scope="all">
-                              <height>230</height>
-                              <width>186</width>
+                        <extent>414. <dimensions type="leaf" scope="all">
+                              <height unit="mm">230</height>
+                              <width unit="mm">186</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark</origPlace>, <origDate from="1886" to="1889"
+                        evidence="internal">1886-89</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">320</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

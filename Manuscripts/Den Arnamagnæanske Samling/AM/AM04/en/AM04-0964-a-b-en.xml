@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,19 +20,14 @@
                   <collection key="AM"/>
                   <idno>AM 964 a-b 4to</idno>
                   <altIdentifier type="internal" subtype="KKKat">
-                     <idno>096</idno>
+                     <idno>2096</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title xml:lang="da">Optegnelser om Iceland</title>
-                  <origPlace>Denmark?</origPlace>
-                  <origDate notBefore="1800" notAfter="1900">s. XIX</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
-                     <author>
-                        <name type="person" key="NiePet001">Niels Matthias Petersen</name>
-                     </author>
+                  <summary><title type="supplied">Notes Concerning Iceland</title></summary>
+                  <msItem>
+                     <author key="NiePet001">N.M. Petersen</author>
+                     <title type="supplied">Notes Concerning Iceland</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -40,47 +36,73 @@
                         <support>Paper.</support>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribe="NiePet001" script="unknown">
+                        <p>The author's autograph.</p>
+                     </handNote>
+                  </handDesc>
                </physDesc>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>a</idno>
-                  </altIdentifier></msIdentifier>
+               <history>
+                  <origin>
+                     <origPlace>Denmark</origPlace>,
+                     <origDate notBefore="1800" notAfter="1899">s. XIX</origDate>. </origin>
+                  <acquisition>Bequeathed from <name type="org" key="KglNordOld">The Royal Society
+                        for Nordic Antiquaries</name>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">280</biblScope></bibl>
+                  </listBibl>
+               </additional>
+               <msPart n="1">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 964 a 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
                      <msItem n="1">
-                        <title type="uniform">Optegnelser til Islands ældre Beskrivelse</title>
+                        <author key="NiePet001">N.M. Petersen</author>
+                        <title type="supplied">Notes on Early Descriptions of Iceland</title>
                      </msItem>
                   </msContents>
                   <physDesc>
                      <objectDesc form="codex">
                         <supportDesc material="chart">
-                           <extent>pp. 1-365. 
-<dimensions type="leaf" scope="all">
-                                 <height>220</height>
-                                 <width>166</width>
-                              </dimensions>
-                           </extent>
+                           <extent>183. <dimensions type="leaf" scope="all">
+                                 <height unit="mm">220</height>
+                                 <width unit="mm">166</width>
+                              </dimensions>. </extent>
+                           <foliation>
+                              <p>Paginated 1-365.</p>
+                           </foliation>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>
                </msPart>
-               <msPart>
-                  <msIdentifier><altIdentifier type="partial">
-                     <idno>b</idno>
-                  </altIdentifier></msIdentifier>
+               <msPart n="2">
+                  <msIdentifier>
+                     <altIdentifier type="partial">
+                        <idno>AM 964 b 4to</idno>
+                     </altIdentifier>
+                  </msIdentifier>
                   <msContents>
                      <msItem n="1">
-                        <title type="uniform">Optegnelser til Islands ældre Historie</title>
+                        <author key="NiePet001">N.M. Petersen</author>
+                        <title type="supplied">Notes on the Early History of Iceland</title>
                      </msItem>
                   </msContents>
                   <physDesc>
                      <objectDesc form="codex">
                         <supportDesc material="chart">
-                           <extent>pp. 1-739. 
-<dimensions type="leaf" scope="all">
-                                 <height>225</height>
-                                 <width>177</width>
+                           <extent>367 + a few slips. <dimensions type="leaf" scope="all">
+                                 <height unit="mm">225</height>
+                                 <width unit="mm">177</width>
                               </dimensions>
                            </extent>
+                           <foliation>Paginated 1-739, the numbers 562-566 have been skipped.</foliation>
                         </supportDesc>
                      </objectDesc>
                   </physDesc>

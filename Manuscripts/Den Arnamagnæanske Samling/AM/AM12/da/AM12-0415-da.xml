@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -25,11 +25,13 @@
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <title type="uniform" xml:lang="la">Breviarum Romanum</title>. Foran det
-                            tilhørende kalendarium forudskikkes en "ordinarius", som indeholder en
-                            anvisning til kalendariets rette brug.</summary>
+                            <title type="supplied" xml:lang="la">Breviarum Romanum</title>. Foran det
+                            tilhørende kalendarium forudskikkes en <title type="supplied"
+                                >Ordinarius</title>, som indeholder en anvisning til kalendariets
+                            rette brug.</summary>
                         <msItem n="1" defective="true" class="helgb malvg">
-                            <title type="uniform" xml:lang="la">Breviarium Romanum</title>
+                            <locus from="1r" to="415v">1r-415v</locus>
+                            <title type="supplied" xml:lang="la">Breviarium Romanum</title>
                             <textLang mainLang="la">Latin</textLang>
                             <note/>
                         </msItem>
@@ -41,9 +43,9 @@
                                     <p>
                                         <material>Pergament</material>.</p>
                                 </support>
-                                <extent>415. Bl. 2v, 95r-v, 293r-v, 415r-v er blanke. <dimensions type="leaf" scope="all">
-                                        <height>107</height>
-                                        <width>76</width>
+                                <extent>415. <dimensions type="leaf" scope="all">
+                                        <height unit="mm">107</height>
+                                        <width unit="mm">76</width>
                                     </dimensions>
                                 </extent>
                                 <foliation>
@@ -58,6 +60,7 @@
                                 <layout columns="1">
                                     <p>Teksten er enkeltspaltet. Røde overskrifter; røde eller blå
                                         initialer.</p>
+                                    <p>Bl. 2v, 95r-v, 293r-v, 415r-v er blanke.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -71,7 +74,8 @@
                                     guldbelægning.</p>
                             </decoNote>
                         </decoDesc>
-                        <additions>Defekterne er antydede af <name type="person" key="ArnMag001">Arne Magnusson</name> ved påskrifter og indsætning af blanke
+                        <additions>Defekterne er antydede af <name type="person" key="ArnMag001"
+                                >Arne Magnusson</name> ved påskrifter og indsætning af blanke
                             papirblade.</additions>
                     </physDesc>
                     <history>
@@ -97,13 +101,10 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <bibl>
-                                    <title type="gmd">mikrofilm (originaler)</title>
-                                    <idno>Neg. 810</idno>
-                                    <title type="gmd">mikrofilm (arkiv)</title>
-                                    <idno>Pos. 735</idno>
-                                    <date when="1989">1989</date>
-                                </bibl>.</p>
+                                <list>
+                                    <item>Mikrofilm <idno>Neg. 810</idno> og <idno>Pos. 735</idno>
+                                        fra <date when="1989">1989</date>. </item>
+                                </list>.</p>
                         </surrogates>
                         <listBibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
@@ -115,7 +116,9 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <revisionDesc><change when="2021-09-06" who="EvaWed001">Opdateret opmærkningen.</change></revisionDesc>
+        <revisionDesc>
+            <change when="2021-09-06" who="EvaWed001">Opdateret opmærkningen.</change>
+        </revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,33 +23,88 @@
                      <idno>2090</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Geographical Dissertations</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1717" notAfter="1737">c. 1727</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Geographical Dissertations</title></summary>
                   <textLang mainLang="is" otherLangs="la">Icelandic and Latin</textLang>
+                  <msItem n="1">
+                     <locus from="1r" to="19r">1r-19r</locus>
+                     <title type="supplied">Heimskringlunnar hegdunar blómstur</title>
+                     <textLang mainLang="is">Islandsk</textLang>
+                     <rubric>Heims-Kringlunnar <lb/> Hegdunar Bloomstur</rubric>
+                     <note>Copy of <name type="person" key="HanNan001">Hans Nansen</name>s
+                           <title type="uniform">Compendium Cosmographicum</title>
+                     </note>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="19v" to="27r">19v-27r</locus>
+                     <title type="supplied">Heimskringlunnar landa blómstur</title>
+                     <textLang mainLang="is">Islandsk</textLang>
+                     <rubric>Heims Kringlunnar <lb/> Landa Bloomstur</rubric>
+                  </msItem>
+                  <msItem n="3">
+                     <locus from="28r" to="63r">28r-63r</locus>
+                     <author key="BarFei001">M. Bartoldus Feind</author>
+                     <title type="supplied">Neue Cosmographia, das ist, Gründliche Anleitung zur
+                        Betrachtung des gantzen Welt-Kreyses</title>
+                     <respStmt>
+                        <resp>Translated in <date when="1727">1727</date> by</resp>
+                        <name type="person" key="JonOla003">Jón Ólafsson frá Grunnavík</name>
+                     </respStmt>
+                     <textLang mainLang="is">Islandsk</textLang>
+                     <rubric>M. BARTOLDI Feindes <lb/> COSMO-GRAPHIA</rubric>
+                     <note>With several illustrations.</note>
+                  </msItem>
+                  <msItem n="4">
+                     <locus from="68r" to="76r">68r-76r</locus>
+                     <title type="supplied">Dagstímatal m. v.</title>
+                     <textLang mainLang="is"/>
+                     <msItem n="4.1">
+                        <author key="PalJon005">Páll Jónsson Vídalín</author>
+                        <title type="supplied">Dagstímatal</title>
+                        <rubric>Dags-tïma <lb/> Authore Paulo Widalino, Prætore</rubric>
+                     </msItem>
+                     <msItem n="4.2">
+                        <title type="supplied">Observations for Estimating the Polar Altitude in
+                           Víðidalstunga</title>
+                     </msItem>
+                     <msItem n="4.3">
+                        <title type="supplied">Two Drawings of Compasses</title>
+                     </msItem>
+                     <msItem n="4.4">
+                        <title type="supplied">Directions for Determining the Daylight Hours etc.</title>
+                     </msItem>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>76. 
-<dimensions type="leaf" scope="all">
-                              <height>197</height>
-                              <width>160</width>
+                        <extent>76. Fols 27v and 63v-67v are blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">197</height>
+                              <width unit="mm">160</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="JonOla003" scope="sole" script="unknown">
-                        <p>
-Written by Jón Ólafsson from Grunnavík.</p>
+                        <p> Written by <name type="person" key="JonOla003">Jón Ólafsson</name> from Grunnavík.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Denmark</origPlace>, <origDate notBefore="1717" notAfter="1737">c.
+                        1727</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">278</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

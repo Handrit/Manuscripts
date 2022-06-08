@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,13 +23,51 @@
                      <idno>2660</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Kvæði og rímur</title>; 
-        <origPlace>Island</origPlace>, 
-        <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>.</head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Ordsprog, digte og rímur</title>.</summary>
+                  <textLang mainLang="is">Islandsk</textLang>
+                  <msItem n="1" class="mals">
+                     <locus from="1r" to="18r">1r-18r</locus>
+                     <author key="JonHal001">Jón Hálfdanarson</author>
+                     <title type="uniform">Orðskviðaklasi</title>
+                     <rubric>Ordskvida Klaſa Likell <lb/> I Liodum ſaman<ex>n</ex> bunden<ex>n</ex>
+                        a&#xA77C; Jone <lb/> Halfdanarſine ä Höle i Svartär Dal</rubric>
+                     <note>159 vers.</note>
+                  </msItem>
+                  <msItem n="2" class="mals">
+                     <locus from="18r" to="41r">18r-41r</locus>
+                     <author key="SkuGud001">Skúli Guðmundsson</author>
+                     <title type="uniform">Klasbarði</title>
+                     <rubric>Nockrer Ordskvider. Sem kallas&#x017F;t <lb/> Klas. Barde. <lb/>
+                           kueden<ex>n</ex> aꝼ Skwla Gudmunds <lb/> sine</rubric>
+                     <note>194 vers.</note>
+                  </msItem>
+                  <msItem n="3" class="rimur">
+                     <locus from="41r" to="59r">41r-59r</locus>
+                     <title type="uniform">Grobbians rímur</title>
+                     <rubric>Hier . Biriaſt . Rijmur. a&#xA77C; Þeim <lb/> Na&#xA77C;n&#xA77C;ræga .
+                        Narra Grobbian</rubric>
+                     <note>I alt 8 <foreign xml:lang="is">rímur</foreign>.</note>
+                  </msItem>
+                  <msItem n="4" class="kvad">
+                     <locus from="61r" to="66v">61r-66v</locus>
+                     <title type="uniform">Dæmisögukvæði</title>
+                     <rubric>Eitt kuæde A&#xA77C; Nock&#xA75B;<ex>um</ex>
+                        <lb/> Fabulum Æ&#x017F;opho</rubric>
+                  </msItem>
+                  <msItem n="5" class="kvad">
+                     <locus from="66v" to="68r">66v-68r</locus>
+                     <title type="uniform">Malpokakvæði</title>
+                  </msItem>
+                  <msItem n="6" class="gamkv">
+                     <locus from="68r" to="71r">68r-71r</locus>
+                     <title type="supplied">Skæmtedigte</title>
+                     <rubric>Bonus Dies byd eg &#x00FE;ier</rubric>
+                     <note><q>Lofsöngvar</q> 1-3.</note>
+                  </msItem>
+                  <msItem n="7" class="kvad">
+                     <locus from="71v" to="79r">71v-79r</locus>
+                     <title type="uniform">Bragarháttakvæði</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -38,16 +77,32 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>79. Bl. 59v-60,  79v ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>165</height>
-                              <width>107</width>
+                        <extent>79. Bl. 59v-60v og 79v ubeskrevne. <dimensions type="leaf" scope="all">
+                              <height unit="mm">165</height>
+                              <width unit="mm">107</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Island</origPlace>, <origDate notBefore="1700" notAfter="1799">s.
+                        XVIII</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >548-549</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-27" who="EvaWed001">Opdateret opmærkning og tilføjet information fra
+            Kålunds katalog.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

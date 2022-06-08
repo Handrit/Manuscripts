@@ -1,62 +1,72 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 84 fol.</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM02-0084-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 84 fol.</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>103</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title>Sverris saga</title>
-                  <origPlace>Norway</origPlace>
-                  <origDate notBefore="1688" notAfter="1700">s. XVII ex</origDate>
-                  <note>Copy of Flateyarbók.</note>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>131. 
-<dimensions type="leaf" scope="all">
-                              <height>317</height>
-                              <width>207</width>
-                           </dimensions>
-                        </extent>
-                     </supportDesc>
-                  </objectDesc>
-                  <handDesc hands="1">
-                     <handNote scribe="AsgJon001" scope="sole" script="unknown">
-                        <p>
-Written by Ásgeir Jónsson.</p>
-                     </handNote>
-                  </handDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 84 fol.</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM02-0084-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 84 fol.</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>103</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="uniform">Sverris saga</title></summary>
+						<msItem n="1" class="kon">
+							<locus from="1r" facs="#AM02-0084-0001r" to="131v">1r-131v</locus>
+							<title type="uniform">Sverris saga</title>
+							<textLang mainLang="is">Islandsk</textLang>
+							<colophon>Samanborin<ex>n</ex> vid Membranam Ao. 1695</colophon>
+							<filiation>Copy deriving from <title type="ms">Flateyjarbók</title>.</filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support><material>Paper</material>.</support>
+								<extent>131. <dimensions type="leaf" scope="all">
+										<height unit="mm">317</height>
+										<width unit="mm">207</width>
+									</dimensions>
+								</extent>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<handNote scribe="AsgJon001" scope="sole" script="unknown">
+								<p> Written by Ásgeir Jónsson.</p>
+							</handNote>
+						</handDesc>
+					</physDesc>
+					<history>
+						<origin><origPlace>Norway</origPlace>
+							<origDate notBefore="1688" notAfter="1700">s. XVII
+							ex</origDate>.</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<bibl><ref type="secondary-1" target="KKKat"/>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="page">62</biblScope>
+							</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM02-0084-0000r-FB" n="0">
 			<desc>0000r-FB</desc>

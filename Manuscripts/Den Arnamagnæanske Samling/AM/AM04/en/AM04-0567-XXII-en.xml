@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,26 +23,55 @@
                      <idno>1415</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Tristrams saga</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1450" notAfter="1499">s. XV 2/2</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary> <title type="uniform">Tristrams saga ok Ísondar</title></summary>
+                  <msItem n="1" class="ridd">
+                     <locus from="1r" to="3v">1r-3v</locus>
+                     <title type="uniform">Tristrams saga ok Ísondar</title>
+                     <textLang mainLang="non"/>
+                         <bibl xml:id="Trist1851">Gísli Brynjólfsson, <ref type="primary"
+                              target="Trist1851">Saga af Tristram ok Ísodd</ref>
+                           <note>Fols 1 and 3.</note>
+                        </bibl>
+                        <bibl>Gísli Brynjólfsson, <ref type="primary" target="Trist1878">Saga af
+                              Tristram ok Ísönd samt Mǫttuls saga</ref>
+                           <biblScope unit="page">201-213</biblScope>
+                           <note>Fols 1 and 3; ed. M</note>
+                        </bibl>
+                        <bibl>Schach, <ref type="primary-1" target="PauSch1964">An Unpublished Leaf
+                              of Tristrams saga</ref>
+                           <biblScope unit="page">52-54:19</biblScope>
+                           <note>Fol. 2.</note>
+                        </bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>3. </extent>
+                        <extent>3. <dimensions type="leaf" scope="all" unit="mm">
+                              <height unit="mm">164</height>
+                              <width unit="mm">119</width>
+                           </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1450" notAfter="1499"
+                        >s. XV<hi rend="sup">2</hi></origDate>.</origin>
+                  <provenance>Fol. 2 is transferred from AM 667 4to.</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">727</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

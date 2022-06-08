@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,35 +23,59 @@
                      <idno>1993</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Series Dynastarum et Regum</title>
-                  <origPlace>Denmark, Copenhagen</origPlace>
-                  <origDate notBefore="1664-01-01" notAfter="1664-12-31">1664</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
-                     <author>
-                        <name type="person" key="ThoTor001">Þormóður Torfason (Torfæus)</name>
-                     </author>
+                  <summary><title type="uniform">Series Dynastarum et Regum Daniæ</title></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">SERIES <lb/> DYNASTARUM ET REGUM <lb/></titlePart>
+                        <titlePart type="sub">Daniæ â Schioldo Othini filio <lb/> ad Svenonem
+                           Eſtridium, juxta <lb/> Monumentorum Islandicorum <lb/> Harmoniam deducta
+                           et con<lb/>cinnata, opera et studio <lb/></titlePart>
+                        <titlePart type="main">THORMODI THORFÆI Isl. <lb/> ANNO
+                           CIƆIƆCLXIV</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="sagnfr">
+                     <title type="uniform">Series Dynastarum et Regum Daniæ</title>
+                     <author key="ThoTor001">Þormóður Torfason (Torfæus)</author>
                      <textLang mainLang="la">Latin</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>208. 
-<dimensions type="leaf" scope="most">
-                              <height>200</height>
-                              <width>155</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>208. <dimensions type="leaf" scope="most">
+                              <height unit="mm">200</height>
+                              <width unit="mm">155</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Copenhagen, Denmark</origPlace>, <origDate when="1664"
+                        >1664</origDate>.</origin>
+                  <provenance><q>The top of fol 1r writes <name type="person" key="BirTho001"
+                           >Theodorus Thorlacius</name> poſsidet <lb/> ex donatione Autoris. <name
+                           type="place" key="Copen01">Hafn.</name>
+                        <date when="1667">1667</date></q>.</provenance>
+                  <acquisition><name type="person" key="ArnMag001">Árni Magnússon</name> purchased
+                     the manuscript at <name type="person" key="Lytooo001">Lützow</name>'s auction
+                        <date when="1714-01-15">15 January 1714</date> in <name type="place"
+                        key="Copen01">Copenhagen</name>. See Árni Magnússon's note on the pastedown:
+                        <q>Emi in auctione Lützovianâ Hafniæ A<ex>nno</ex> 1714</q>.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">237</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-11-25" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

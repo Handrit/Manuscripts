@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,82 @@
                      <idno>2031</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Designatio librorum bibliothecæ academiæ Hafniensis qvorum catalogus impressus nondum extat</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1689-01-01" notAfter="1689-12-31">1689</origDate>
-               </head>
-               <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <msContents>
+                  <summary><title type="supplied" xml:lang="la">Designatio librorum
+                        bibliothecæ</title></summary>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart type="main">DESIGNATIO <lb/> LIBRORUM <lb/> BIBLIOTHECÆ <lb/>
+                           ACADEMIÆ HAFNIENSIS <lb/> QVORUM <lb/> CATALOGUS <lb/> IMPRESSUS NONDUM
+                           EXSTAT</titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1">
+                     <locus from="1r" to="271v">1r-271v</locus>
+                     <title type="supplied" xml:lang="la">Designatio librorum bibliothecæ</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem n="1.1">
+                        <locus from="3r" to="74v">3r-74v</locus>
+                        <rubric>LIBRI <lb/> A <lb/> REGE CHRISTIA<lb/>NO QUARTO <lb/>
+                           DONATI</rubric>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="75r" to="237v">75r-237v</locus>
+                        <rubric>BIBLIOTHECA <lb/> BROCHMANNIANA</rubric>
+                     </msItem>
+                     <msItem n="1.3">
+                        <locus from="239r" to="271v">239r-271v</locus>
+                        <rubric>INVENTARIUM Som blef giordt, paa hvis der fantis ey at være
+                           optegned, eller bragt under nogen viſſe Catalogum, Paa det Kongl.
+                           Academietz Bibliothec <gap reason="irrelevant"/> effter Sl. D. <name
+                              type="person" key="ThoBan001">Thomæ Bangii</name> Dödelig afgang <gap
+                              reason="irrelevant"/>
+                        </rubric>
+                        <note><date when="1662">1662</date></note>
+                     </msItem>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>271. 
-<dimensions type="leaf" scope="all">
-                              <height>230</height>
-                              <width>184</width>
+                        <extent>271 (including fly-leaf and title pages). Fol. 238 and a few other
+                           pages are blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">230</height>
+                              <width unit="mm">184</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Paginated 1-535. The pagination starts on fol. 4.</p>
+                        </foliation>
                      </supportDesc>
                   </objectDesc>
+                  <additions>
+                     <p>A note on the foot of the title page on fol. 2r reads: <q xml:lang="la"
+                           >Descriptus <name type="place" key="Copen01">Hauniæ</name>
+                           <date when="1711">M.DC.XIC</date>. impensis <name type="person"
+                              key="FreRos001">Frederici Rostgaard</name></q>.</p>
+                     <p>In addition to an index, the following note in Rostgaard's hand is found on
+                        fol. 1v (the fly-leaf): <q xml:lang="la">Amico Integerrimo DNO. <name
+                              type="person" key="ArnMag001">ARNÆ MAGNÆO</name> Fridericus Rostgaard
+                           dono dedit</q>.</p>
+                  </additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark</origPlace>, <origDate when="1689"
+                     >1689</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">251</biblScope></bibl>
+                     <bibl>Smith, <ref target="BirSmi1882">Om Kjøbenhavns Universitetsbibliothek før
+                           1728</ref><biblScope unit="page">20, 21, 39, 41, 136
+                        ff.</biblScope></bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

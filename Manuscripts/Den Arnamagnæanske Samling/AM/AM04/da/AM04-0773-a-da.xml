@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,10 +22,9 @@
                      <idno>1897</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Gronlandia</title>; <origPlace>Island/Danmark</origPlace>,
-                     <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII 1/4</origDate>.</head>
                <msContents>
+                  <summary><title type="uniform">Gronlandia og Kursforskrifter til
+                     Grønland</title></summary>
                   <msItem n="1">
                      <locus from="1r" to="37v">1r-37v</locus>
                      <author key="ArnJon001">Arngrímur Jónsson</author>
@@ -37,7 +36,7 @@
                   </msItem>
                   <msItem n="2">
                      <locus from="38r" to="38v">38r-v</locus>
-                     <title type="supplied">Kursforskrifter for Grønland</title>
+                     <title type="supplied">Kursforskrifter til Grønland</title>
                      <textLang mainLang="da">Ældre nydansk</textLang>
                      <rubric>Om Grönlands Siegling</rubric>
                      <filiation>Stemmer med <ref type="ms" target="AM04-0773-b-da">AM 773 b
@@ -52,9 +51,9 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>38 (inkl. 1 kort). <dimensions type="leaf" scope="all">
-                              <height>206</height>
-                              <width>165</width>
+                        <extent>38 (inkl. 1 polarkort). <dimensions type="leaf" scope="all">
+                              <height unit="mm">206</height>
+                              <width unit="mm">165</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
@@ -66,17 +65,31 @@
                   <additions>
                      <p>Rettelser og marginaltilføjelser af <name type="person" key="ArnMag001">Arne
                            Magnusson</name>.</p>
-                     <p>Polarkortet, der hører til dette værk, og som er overført fra <ref type="ms">Addit. 39 4to</ref>, bærer følgende påtegning af <name type="person" key="ArnMag001">Arne Magnusson</name>: <q xml:lang="la"><name type="person" key="GudTho001">Gudbrandum Thorlacium</name> hanc
-                           Grnlandiæ tabulam <date when="1606">1606</date>
-                           delineaſſe aſſerit <name type="person" key="ThoTho005">Theodorus Thorlacius</name> qvi eam
-                           Notis ſuis in <name type="person" key="BjoJon006">Biornonis</name> de Scardza Grnlandiam inſeruit</q>. I
-                        marginen bl. 4r er indført en af Thorlacius' danske anmærkninger til <q xml:lang="la">Biornonis de Scardza Gronlandia</q>.</p>
+                     <p>Polarkortet bærer følgende påtegning af Arne Magnusson: <q xml:lang="la"
+                              ><name type="person" key="GudTho001">Gudbrandum Thorlacium</name> hanc
+                           Grnlandiæ tabulam <date when="1606">1606</date> delineaſſe aſſerit <name
+                              type="person" key="ThoTho005">Theodorus Thorlacius</name> qvi eam
+                           Notis ſuis in <name type="person" key="BjoJon006">Biornonis</name> de
+                           Scardza Grnlandiam inſeruit</q>.</p>
+                     <p>I marginen bl. 4r er indført en af Thorlacius' danske anmærkninger til <q
+                           xml:lang="la">Biornonis de Scardza Gronlandia</q>.</p>
                   </additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island eller Danmark</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="external">s. XVIII<hi rend="sup"
+                        >1/4</hi></origDate>.</origin>
+                  <provenance>Polarkortet, der hører til dette værk, er overført fra <name
+                     type="org">Det Kongelige Bibliotek</name>, <ref type="ms">KB Add. 39
+                        4to</ref>.</provenance>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl><ref target="GHM">Grönlands historiske Mindesmærker</ref><biblScope unit="volume">III</biblScope><biblScope unit="pages">248</biblScope></bibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">194</biblScope></bibl>
+                     <bibl><ref target="GHM">Grönlands historiske Mindesmærker</ref><biblScope
+                           unit="volume">III</biblScope><biblScope unit="page"
+                        >248</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">194</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>

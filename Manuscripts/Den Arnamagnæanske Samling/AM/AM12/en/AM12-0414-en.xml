@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -24,19 +24,45 @@
 						</altIdentifier>
 					</msIdentifier>
 					<msContents>
-						<summary><title>Book of Hours</title>. The manuscript contains texts in
-							several languages: A Calendar of which November and December are
-							missing,'Evangelium Secundum Iohannem', which is the 2nd
-							Gospel according to St. John, some prayers and hymns of which pp. 231-50
-							and pp. 333-38 are written in French. The pages 167-68 contain a prayer
-							to the Virgin in Italian and on 3 inserted leaves from <date notBefore="1690" notAfter="1710">c. 1700</date> a description of the
-							manuscript itself, written in Latin, is found.</summary>
-						<msItem n="1" class="helgs malvg bibl salm ban texfr">
-							<locus from="1" to="340">1-340</locus>
-							<!-- Kålund's title: <title>Breviarium Latinum, Immixtis Precibus Lingva Gallica</title>  -->
-							<textLang mainLang="la" otherLangs="fr it">Latin, Old French and
-								Italian</textLang>
-							<note/>
+						<summary><title type="supplied">Book of Hours</title>. <note>The manuscript
+								contains texts in several languages: A Calendar of which November
+								and December are missing, <title type="uniform">Evangelium Secundum Iohannem</title>, 
+								<title type="uniform">The Second Gospel According to John</title>, some prayers and hymns of
+								which pp. 231-250 and 333-338 are written in French. Pp.
+								167-68 contain a prayer to the Virgin in Italian and on three inserted
+								leaves from c. 1700 a description of the manuscript itself, written
+								in Latin, is found.</note></summary>
+						<msItem n="1">
+							<locus from="1r" to="340v">1r-340v</locus>
+							<title type="supplied">Book of Hours</title>
+							<msItem n="1.1" class="helgs">
+								<title type="supplied">Breviarium Latinum</title>
+							</msItem>
+							<msItem n="1.2" class="malvg">
+								<title type="uniform">Calendar</title>
+								<textLang mainLang="fr">Middle French</textLang>
+								<note>November and December are missing.</note>
+							</msItem>
+							<msItem n="1.3" class="bibl">
+								<title type="uniform" xml:lang="la">Evangelium Secundum
+									Iohannem</title>
+								<title type="uniform" xml:lang="en">The Second Gospel According to
+									John</title>
+								<textLang mainLang="la">Latin</textLang>
+								<note>From Vulgata.</note>
+							</msItem>
+							<msItem n="1.4" class="ban salm">
+								<title type="supplied">Prayers and Hymns</title>
+								<textLang mainLang="la" otherLangs="fr">Latin and Middle
+									French</textLang>
+								<note>pp. 116r-125v and 167r-169v in French.</note>
+							</msItem>
+							<msItem n="1.5" class="ban">
+								<locus from="84r" to="84v">84r-84v</locus>
+								<title type="supplied">Prayer to the Blessed Virgin Mary</title>
+								<textLang mainLang="it">Italian</textLang>
+								<note>Written in another hand.</note>
+							</msItem>
 						</msItem>
 					</msContents>
 					<physDesc>
@@ -47,40 +73,47 @@
 										<material>Parchment</material>.</p>
 								</support>
 								<extent>170. <dimensions type="leaf" scope="all">
-										<height>123</height>
-										<width>87</width>
+										<height unit="mm">123</height>
+										<width unit="mm">87</width>
 									</dimensions>
 								</extent>
 								<foliation>
 									<p>The leaves are paginated.</p>
 								</foliation>
 								<condition>
-									<p>There are several lacunae.</p>
+									<p>Several leaves are torn out.</p>
 								</condition>
 							</supportDesc>
 						</objectDesc>
 						<decoDesc>
 							<decoNote type="initial">
-								<p>The initials are red and blue.</p>
+								<p>Initials in red and blue ink.</p>
 							</decoNote>
 						</decoDesc>
+						<additions>Three leaves from <date notBefore="1690" notAfter="1710">c.
+								1700</date> containing a description of the manuscript in Latin, are
+							inserted at the end of the manuscript.</additions>
 						<bindingDesc>
 							<binding>
-								<p>The leather binding is tooled and the holes in it are traces of
-									two metal clasps.</p>
+								<p>Tooled leather binding with traces of two metal clasps.</p>
 							</binding>
 						</bindingDesc>
+						<accMat>AN AM-slip in <name type="person" key="ArnMag001">Árni
+								Magnússon</name>'s hand reads: <q>Ex autione Rostgardiana Num.
+								Mstorum 341</q>.</accMat>
 					</physDesc>
 					<history>
-						<origin notBefore="1400" notAfter="1410" cert="high" evidence="conjecture" resp="CHD">
-							<p>Written in <origPlace>France</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> dated it to <origDate>c.
-									1300</origDate>. Later a group of scholars from CHD (Center for
-								håndskriftstudier i Danmark) dated it to
-									<origDate>1400-1410</origDate>.</p>
+						<origin notBefore="1400" notAfter="1410" cert="high" evidence="conjecture"
+							resp="CHD">
+							<p>Written in <origPlace>France</origPlace>
+								<origDate notBefore="1400" notAfter="1410">1400-1410</origDate> (<bibl>
+									<ref target="CHD1997-2007">Drigsdahl 1997-2007</ref>
+								</bibl>). <name type="person" key="KriKaa001">Kålund</name>'s
+								dating: c. 1300.</p>
 						</origin>
 						<acquisition>
-							<p>According to the AM-slip <q>Ex autione Rostgardiana Num. Mstorum
-									341</q>, Árni Magnússon acquiered the manuscript at <name type="person" key="FreRos001">Frederik Rostgaard</name>'s
+							<p>According to the AM-slip, Árni Magnússon acquiered the manuscript at
+									<name type="person" key="FreRos001">Frederik Rostgaard</name>'s
 								auction in <date when="1726">1726</date>.</p>
 						</acquisition>
 					</history>
@@ -95,13 +128,11 @@
 						</adminInfo>
 						<surrogates>
 							<p>
-								<bibl>
-									<title type="gmd">microfilm (master)</title>
-									<idno>Neg.832</idno>
-									<title type="gmd">microfilm (archive)</title>
-									<idno>Pos.757</idno>
-									<date when="1989">1989</date>
-								</bibl>.</p>
+								<list>
+									<item> Microfilm (master and archive), <idno>Neg.832</idno> and
+											<idno>Pos.757</idno>, from <date when="1989"
+										>1989</date>. </item>
+								</list>.</p>
 						</surrogates>
 					</additional>
 				</msDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,17 +23,27 @@
                      <idno>2656</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title>Kvæði eptir Eggert Ólafsson</title>;
-        <origPlace>Island?</origPlace> 
-                  <origDate notBefore="1790" notAfter="1810">ca. 1800</origDate>.</head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Kvædi <lb/> eptir <lb/> Eggèrt Ólafsson <note>tilføjet af Rask</note>
-                     </rubric>
-                     <filiation>Ifølge Rask er det <q>ad miklu leiti skrifud eptir hans <lb/> egin handar riti</q>.</filiation>
-                  </msItem>
+                  <msContents>
+                  <summary><title type="supplied">Kvæði Eggerts Ólafssonar</title></summary>
+                  <textLang mainLang="is">Islandsk</textLang>
+                  <titlePage type="MS">
+                     <docTitle>
+                        <titlePart>Kvædi <lb/> eptir <lb/> Eggèrt Ólafsson <add hand="RasRas001"
+                              place="below">ad miklu leiti skrifud eptir hans <lb/> egin handar
+                              riti</add></titlePart>
+                     </docTitle>
+                  </titlePage>
+                  <msItem n="1" class="kvad">
+                     <locus from="1r" to="145v">1r-145v</locus>
+                     <author key="EggOla001">Eggert Ólafsson</author>
+                     <title type="supplied">Kvæði Eggerts Ólafssonar</title>
+                     <msItem n="1.1" class="regist">
+                        <locus from="2r" to="2v">2r-v</locus>
+                        <title type="supplied">Indholdsfortegnelse</title>
+                        <rubric>Innihald kvædasafnsins</rubric>
+                        <note>Tilføjet af <name type="RasRas001">Rasmus Rask</name>.</note>
+                     </msItem>
+                    </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -42,18 +53,35 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>145. <dimensions type="leaf" scope="all">
-                              <height>168</height>
-                              <width>97</width>
+                              <height unit="mm">168</height>
+                              <width unit="mm">97</width>
                            </dimensions>.</extent>
                         <foliation>
                            <p>Delvist pagineret 1-285.</p>
                         </foliation>
                      </supportDesc>
                   </objectDesc>
+                  <handDesc>
+                     <handNote script="unknown">Teksten er skrevet af to forskellige hænder.</handNote>
+                  </handDesc>
                </physDesc>
+               <history><origin> <origPlace>Island?</origPlace>,
+                  <origDate notBefore="1790" notAfter="1810">ca. 1800</origDate>.</origin></history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope><biblScope unit="page"
+                           >547</biblScope></bibl>
+                     <bibl><ref target="unknown14">[Vísur]</ref><biblScope unit="page">74, 76</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-10-29" who="EvaWed001">Opdateret opmærkning og tilføjet information fra
+            Kålunds katalog.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

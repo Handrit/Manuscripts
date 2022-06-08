@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -24,9 +24,9 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary><title type="supplied">Tidebog</title>, til brug i
-                            Utrecht.</summary>
-                        <textLang mainLang="nl">Middelnederlandsk</textLang>
+                        <summary><title type="supplied">Middelnederlandsk Tidebog</title><note>Til brug i
+                            Utrecht.</note></summary>
+                        <textLang mainLang="dum">Middelnederlandsk</textLang>
                         <msItem n="1" class="malvg">
                             <locus from="1r" to="12v">1r-12v</locus>
                             <title type="supplied">Kalendarium</title>
@@ -60,7 +60,7 @@
                             <title type="uniform">Ad nonam</title>
                             <rubric>None</rubric>
                         </msItem>
-                        <msItem n="8" class="ban">
+                        <msItem n="8" class="kvoldb">
                             <locus from="83r" to="96r">83r-96r</locus>
                             <title type="uniform">Ad vesperas</title>
                             <rubric>Vesper</rubric>
@@ -84,13 +84,13 @@
                             <locus from="163v" to="194v">163v-194v</locus>
                             <title type="uniform">Septem psalmi et litanie</title>
                             <msItem n="12.1" class="salm">
-                                <rubric>
-                                    <locus>163r</locus> Die vij salme.</rubric>
+                                <locus from="163r" to="186r">163r-186r</locus>
+                                <rubric>Die vij salme.</rubric>
                                 <incipit>Here in dijre uerbolghenheit</incipit>
                             </msItem>
                             <msItem n="12.2" class="ban">
-                                <rubric>
-                                    <locus>186v</locus> Litanie</rubric>
+                                <locus from="186v" to="194v">186v-194v</locus>
+                                <rubric>Litanie</rubric>
                                 <incipit>Here ontferme de onser</incipit>
                             </msItem>
                         </msItem>
@@ -98,22 +98,22 @@
                             <locus from="195r" to="232r">195r-232r</locus>
                             <title type="uniform">Missæ</title>
                             <msItem n="13.1" class="tid helgs">
-                                <locus>195r</locus>
-                                <rubric> Onser vrouwen mis.</rubric>
+                                <locus from="195r" to="208v">195r-208v</locus>
+                                 <rubric>Onser vrouwen mis.</rubric>
                                 <incipit>Weest ghegroet heilighe moeder.</incipit>
                             </msItem>
                             <msItem n="13.2" class="tid helgs">
-                                <locus>209r</locus>
+                                <locus from="209r" to="216v">209r-216v</locus>
                                 <rubric>Des heilighen geests mis.</rubric>
                                 <incipit>Des heren gheest heuet nervult.</incipit>
                             </msItem>
                             <msItem n="13.3" class="tid helgs">
-                                <locus>217</locus>
+                                <locus from="217r" to="224v">217r-224v</locus>
                                 <rubric> Die cruus misse.</rubric>
                                 <incipit>Het behoert ons te verbliden.</incipit>
                             </msItem>
                             <msItem n="13.4" class="tid helgs">
-                                <locus>225</locus>
+                                <locus from="225r" to="232v">225-232v</locus>
                                 <rubric>Die siel misse.</rubric>
                                 <incipit>Ghif hem here ruste ende dat ewighe licht.</incipit>
                                 <explicit>Alle ghelouige sielen moeten rusten in vreden.
@@ -154,8 +154,8 @@
                                         <material>Pergament</material>.</p>
                                 </support>
                                 <extent>240, bl 13r og 240v er blanke. <dimensions type="leaf" scope="all">
-                                        <height>122</height>
-                                        <width>86</width>
+                                        <height unit="mm">122</height>
+                                        <width unit="mm">86</width>
                                     </dimensions>
                                 </extent>
                                 <foliation>
@@ -165,21 +165,22 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1" writtenLines="12">
-                                    <p>Teksten er enkeltspaltet; Kalendariet har 16 linierede linjer
-                                        pr side, mens Tidebogen har 12 linjer pr side. Tekstfladen
-                                        måler <dimensions type="written" scope="all">
-                                            <height>600</height>
-                                            <width>380</width>
+                                    <p>Teksten er enkeltspaltet. Kalendariet har 16 linierede linjer
+                                        pr. side, mens tidebogen har 12 linjer pr. side. Tekstfladen
+                                        måler: <dimensions type="written" scope="all">
+                                            <height unit="mm">600</height>
+                                            <width unit="mm">380</width>
                                         </dimensions>.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
+                        <handDesc><handNote scope="sole" script="textualis">Skrevet med gotisk bogskrift.</handNote></handDesc>
                         <decoDesc>
                             <decoNote type="miniature">
                                 <p>
                                     <locus>13v</locus>: <dimensions type="written" scope="all">
-                                        <height>650</height>
-                                        <width>400</width>
+                                        <height unit="mm">650</height>
+                                        <width unit="mm">400</width>
                                     </dimensions>
                                     <term type="motive">Himmeldronningen</term>; den tronende Jomfru
                                     Maria i herlighed med Kristusbarnet; ansigterne er nu næsten

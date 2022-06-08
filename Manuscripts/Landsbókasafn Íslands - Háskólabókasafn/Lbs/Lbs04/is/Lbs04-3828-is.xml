@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -25,26 +25,53 @@
 						<collection key="Lbs">Handritasafn Landsbókasafns</collection>
 						<idno>Lbs 3828 4to</idno>
 						<altIdentifier type="internal" subtype="PEO">
-							<idno>378</idno>
+							<idno>iii 378</idno>
 						</altIdentifier>
-
 					</msIdentifier>
 					<msContents>
 						<summary>
-							<title type="supplied">Dagbók</title>
+							<title type="supplied">Dagbækur Ingibjargar Hóseasdóttur</title>
 						</summary>
-						<msItem>
-							<p>Ingibjörg Hóseasdóttir frá Jórvík í Breiðdal. Dagbók</p>
+						<msItem n="1" defective="false" class="dagb">
+							<locus from="1r" facs="#Lbs04-3828-0001r" to="100v">1r-100v</locus>
+							<title type="supplied">Dagbók Ingibjargar Hóseasdóttur frá Jórvík í Breiðdal</title>
+							<author><name type="person" key="IngHos001">Ingibjörg Hóseasdóttir</name></author>
+							<note><p>Dagbækurnar eru í 44 bindum undir safnmörkunum Lbs 3815-3846 4to.</p></note>
+							<bibl>Davíð Ólafsson, <ref target="DavÓla2021">
+								<title type="uniform">Frá degi til dags : dagbækur, almanök og veðurbækur 1720-1920</title>
+							</ref><biblScope unit="pages">225-226.</biblScope></bibl>
 						</msItem>
 					</msContents>
-					<history><provenance>Lbs. 3815-3849, 4to. Gjöf, afh. 1959 af dr. Stefáni Einarssyni prófessor</provenance></history>
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p>Pappír.</p>
+								</support>
+								<extent>Án blaðsíðutals (margvíslegt brot).</extent>
+							</supportDesc>
+						</objectDesc>
+						<handDesc n="1">
+							<summary>Ein hönd; skrifari:</summary>
+							<handNote scope="major" script="unknown" scribe="IngHos001">
+								<name type="person" key="IngHos001">Ingibjörg Hóseasdóttir</name>
+							</handNote>
+						</handDesc>					
+					</physDesc>
+					<history>
+						<origin>
+							<origPlace>Ísland</origPlace>, <origDate cert="high" from="1805" to="1855">1805-1855</origDate>. </origin><provenance>Lbs. 3815-3849, 4to. Gjöf, afhent 1959 af <name type="person" key="SteEin004">dr. Stefáni Einarssyni</name> prófessor.</provenance></history>
 					<additional>
 						<adminInfo>
 							<recordHist>
-
-								<source><name type="person" key="BraOla001">Bragi Þorgrímur
-									Ólafsson</name> frumskráði fyrir myndvinnslu, <date when="2009-10-27">27. október 2009</date> ; Handritaskrá, 3.
-									aukab.</source>
+								
+								<source><p> Skráning <name type="person" key="PalOla002">Páls Eggerts
+									Ólasonar</name> á handritinu er aðgengileg í ritinu <bibl>
+										<ref target="PEO">Skrá um handritasöfn
+											Landsbókasafnsins</ref>, </bibl> 3. aukabindi, <ref target="https://baekur.is/bok/000233966/6/62/Skra_um_handritasofn_Bindi_6_Bls_62">bls. 57</ref>. </p>
+									<name type="person" key="GudGud045">Guðrún Laufey Guðmundsdóttir</name> bætti við skráninguna <date when="2021-11-30">30. nóvember 2021</date> ; <name type="person" key="BraOla001">Bragi Þorgrímur
+									Ólafsson</name> frumskráði fyrir myndvinnslu, <date when="2009-10-27">27. október 2009</date></source>
 							</recordHist>
 						</adminInfo>
 						

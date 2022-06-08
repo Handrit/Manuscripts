@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,16 +22,20 @@
                      <idno>1521</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Skjaldar þáttr Danakonungs</title>
-                  <origPlace>Island eller Danmark</origPlace>
-                  <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII 1/4</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary><title type="uniform">Skjaldar þáttr Danakonungs</title><note>Denne korte
+                        fortælling om danerkongen Skjold og hans modstander, Hermann, som kun findes
+                        i dette håndskrift, formodes at være baseret på nogle <foreign xml:lang="is"
+                           >rímur</foreign> af en Magnús Jónsson (se <bibl><ref type="primary-1"
+                              target="PhiLav2016">Lavender 2016</ref></bibl>).</note></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="5v">1r-5v</locus>
                      <title type="uniform">Skjaldar þáttr Danakonungs</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <rubric>Innehald þattar af Skillde <lb/> Dana konge</rubric>
+                     <bibl>Lavender: <ref type="primary-1" target="PhiLav2016">Skjaldar þáttr
+                           Danakonungs. A lost fornaldarsaga?</ref>
+                        <biblScope unit="page">97-101</biblScope></bibl>
                   </msItem>
                </msContents>
                <physDesc>
@@ -41,9 +46,9 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>5. <dimensions type="leaf" scope="all">
-                              <height>213</height>
-                              <width>164</width>
-                        </dimensions>.</extent>
+                              <height unit="mm">213</height>
+                              <width unit="mm">164</width>
+                           </dimensions>.</extent>
                         <condition>Bladene er beskadigede af fugtighed.</condition>
                      </supportDesc>
                   </objectDesc>
@@ -54,18 +59,27 @@
                   </handDesc>
                   <additions>Til titlen har <name type="person" key="ArnMag001">Arne
                         Magnusson</name>
-                     <q xml:lang="la">com<ex>m</ex>unicerad mier af <name type="person" key="MagJon004">M<ex>agnus</ex>e J. ſ.</name>
-                        fra Leyraa</q>, og på det indskudte bl. 2 meddeles endvidere <q xml:lang="is">þetta efne 
-                           mun vera diktad af ſialfum Magnuſe Jonsſyne, er Rïmurnar girt hefur, 
-                     hvar ur þetta teked er</q>, hvorefter følger en bemærkning om eventyrskikkelsen 
-                     <q xml:lang="is">Raudur Radgiafe</q>. 
-                  </additions>
+                     <q xml:lang="la">com<ex>m</ex>unicerad mier af <name type="person"
+                           key="MagJon004">M<ex>agnus</ex>e J. ſ.</name> fra Leyraa</q>, og på det
+                     indskudte bl. 2 meddeles endvidere <q xml:lang="is">þetta efne mun vera diktad
+                        af ſialfum Magnuſe Jonsſyne, er Rïmurnar girt hefur, hvar ur þetta teked
+                        er</q>, hvorefter følger en bemærkning om <q xml:lang="is">Raudur
+                        Radgiafe</q>. </additions>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Island eller Danmark</origPlace>
+                     <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat"
+                        >s. XVIII<hi rend="sup">1/4</hi></origDate>
+                  </origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                     <bibl><ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">770</biblScope>
+                        <biblScope unit="page">770</biblScope>
+                     </bibl>
+                     <bibl><ref type="primary-1" target="PhiLav2016"/>
                      </bibl>
                   </listBibl>
                </additional>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,24 +23,22 @@
                             <idno>1664</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform" xml:lang="la">Dialogi Gregori</title>, <origPlace>Island</origPlace>;
-                            <origDate notBefore="1390" notAfter="1410" evidence="conjecture">ca. 1400</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
-                            <locus from="1r" to="2v">1r-2v</locus>
+                        <summary><title type="uniform" xml:lang="is">Gregors dialoger</title></summary>
+                        <msItem n="1">
+                            <locus from="1r" facs="#AM04-0667-XIV-0001r" to="2v">1r-2v</locus>
                             <title type="uniform" xml:lang="la">Dialogi Gregori</title>
-                            <textLang mainLang="is">Norrønt/Islandsk</textLang>
+                            <title type="uniform" xml:lang="is">Díalógar Gregors páfa</title>
+                            <textLang mainLang="non">Norrønt/Islandsk</textLang>
                             <msItem n="1.1">
-                                <locus from="1r" to="1v">1r-v</locus>
+                                <locus from="1r" facs="#AM04-0667-XIV-0001r" to="1v">1r-v</locus>
                                 <incipit defective="true">hlo h<ex>an</ex>n ath aullv athæfi
                                         m<ex>un</ex>ka</incipit>
                                 <explicit defective="true">i<ex>ar</ex>n e<ex>da</ex> eir
                                         e<ex>da</ex> bly</explicit>
                             </msItem>
                             <msItem n="1.2">
-                                <locus from="2r" to="2v">2r-v</locus>
+                                <locus from="2r" facs="#AM04-0667-XIV-0002r" to="2v">2r-v</locus>
                                 <incipit defective="true">ſinv<ex>m</ex> j ſvef<ex>n</ex>i</incipit>
                                 <explicit defective="true">hvg v<ex>or</ex>n t<ex>il</ex> navnga
                                         v<ex>or</ex>ra</explicit>
@@ -53,8 +52,8 @@
                                     <p>Pergament.</p>
                                 </support>
                                 <extent>2. <dimensions type="leaf" scope="all">
-                                        <height>194</height>
-                                        <width>158</width>
+                                        <height unit="mm">194</height>
+                                        <width unit="mm">158</width>
                                     </dimensions>
                                 </extent>
                                 <condition>Forskellige mindre beskadigelser.</condition>
@@ -83,7 +82,7 @@
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation">
-                                    <p>Under restaurering <date from="1963-04-02" to="1965-11-11">2
+                                    <p>Under konservering <date from="1963-04-02" to="1965-11-11">2
                                             April 1963-11 November 1965</date> blev fragmentet sat
                                         på knækfalse og lagt i et blåt papbind.</p>
                                 </custEvent>
@@ -91,23 +90,24 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <bibl>
-                                    <title type="gmd">70 mm</title>
-                                    <idno>?</idno>
-                                    <date when="1963">1963</date>
-                                </bibl>
-                                <bibl>
-                                    <title type="gmd">s/h fotografier</title>
-                                    <idno>AM 667 XIV 4to</idno>
-                                    <date when="1963-03">Marts 1963</date>
-                                </bibl>
-                            </p>
+                                <list>
+                                    <item> 70 mm fra <date when="1963">1963</date>.
+                                    </item>
+                                    <item> Sort-hvid fotografier fra <date when="1963-03">marts
+                                        1963</date>.
+                                    </item>
+                                </list>
+                                
+                                </p>
                         </surrogates>
                         <listBibl>
-                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">80</biblScope>
+                        <biblScope unit="page">80</biblScope>
                      </bibl>
+                            <bibl><ref type="secondary" target="Wolf2013"/>
+                                <biblScope unit="page">123</biblScope></bibl>
+                            
                         </listBibl>
                     </additional>
                 </msDesc>

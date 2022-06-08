@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,77 @@
                      <idno>1939</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="en">Book of Sydrach</title>
-                  <origPlace>Germany</origPlace>
-                  <origDate notBefore="1479-01-01" notAfter="1479-12-31">1479</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="gml">Middle Low German</textLang>
-                  <msItem>
-                     <rubric>Des wysen philosophi vnn astronomus meisters syderachs bock</rubric>
+                  <summary><title type="uniform" xml:lang="en">Book of Sydrach</title></summary>
+                  <textLang mainLang="nds">Middle Low German</textLang>
+                  <msItem n="1">
+                     <locus from="1r" to="154v">1r-154v</locus>
+                     <title type="uniform">Mester Sydrachs bog</title>
+                     <textLang mainLang="nds">Midlle Low German</textLang>
+                     <rubric>Des wysen philosophi vnn aſtronomus meiſters ſyderacks bock</rubric>
+                     <note>Beginning with a list indexing the 387 questions the book gives answers
+                        to.</note>
+                     <msItem n="1.1">
+                        <title type="supplied">Versified Postscript</title>
+                        <colophon>To copenhauen <gap reason="irrelevant"/> na godes ghebort duſent
+                           vierhundert alſo vort In dem LXXIX Jaer</colophon>
+                        <note>At L, some text has either been corrected or rubbed out.</note>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2" defective="true">
+                     <locus from="155r" to="155r">155r</locus>
+                     <title type="supplied">Draft to a Letter</title>
+                     <textLang mainLang="sv">Swedish</textLang>
+                     <note>From <date notBefore="1600" notAfter="1699">the seventeenth
+                           century</date>. Informing of news on foreign policy, probably Gustavus
+                        Adolphus’ wars. Ends defectively.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>155. </extent>
+                        <extent>155. Fols 153 and (originally) 154 are blank. Fol. 155v, originally
+                           pasted to the pastedown, is also blank. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">205</height>
+                              <width unit="mm">145</width>
+                           </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
+                  <additions>
+                     <p>Occasional younger marginalia.</p>
+                     <p>Two notes in the bottom margin of fol. 1r read: <q>Antonio: Flores</q> (from
+                           <date notBefore="1600" notAfter="1699">the seventeeth century</date>) and
+                           <q>Anders Söffrenſſsön</q> (<date notBefore="1590" notAfter="1610">c.
+                           1600</date>).</p>
+                     <p>On fol. 154r a religious reminder, dated <q>ar epther gudz Byrd <date
+                              when="1559">m, d, L, ix</date></q>, is found. Below this, a hand from
+                        the seventeenth century added: <q>Denne bock Er mig för Eratt blifuen Af Enn
+                           Erlig Mand, benemd <name type="person" key="HenDit001">Hinndrick
+                              Dyttmarckſk</name>, <choice><sic>glull</sic></choice> Smed wty Enn Junckers gård,
+                           benemd</q> - at the end some intertwined letters are found.</p>
+                  </additions>
+                  <accMat>On the AM-slip, <name type="person" key="ArnMag001">Árni Magnússon</name>
+                     wrote: <q xml:lang="la">Num. 1015. ex auctione Roſtgardianâ. Meiſter Syderacks bock</q>.
+                  </accMat>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Germany</origPlace>, <origDate when="1479">1479</origDate>.</origin>
+                  <acquisition>Acquired at <name type="person"
+                     key="FreRos001">Rostgaard</name>'s auction.</acquisition>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">214-215</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

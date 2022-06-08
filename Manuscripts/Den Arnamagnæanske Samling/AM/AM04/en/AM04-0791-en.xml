@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,24 +23,47 @@
                      <idno>1924</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="la">Ordo ecclesiastici usus</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1300" notAfter="1399">s. XIV</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="la">Latin</textLang>
+                  <summary><title type="uniform" xml:lang="la">Ordo ecclesiastici
+                     usus</title></summary>
+                   <msItem n="1" defective="true">
+                     <locus from="1r" to="63v">1r-63v</locus>
+                     <title type="supplied">Ordo ecclesiastici usus</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <rubric>Ordo ecclesiastici usus per anni circulum observandus</rubric>
+                     <note>Ends defectively.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>63. </extent>
+                        <extent>63. <dimensions type="leaf" scope="all">
+                           <height unit="mm">230</height>
+                           <width unit="mm">160</width>
+                        </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
+                  <accMat><q>Min Fra S<ex>era</ex>
+                     <name type="person" key="OlaSte001">Olafi</name> i <name type="place"
+                        key="ValVal01">Vallaneſe</name></q> <name type="person"
+                           key="ArnMag001">Árni Magnússon</name> wrote on an AM-slip.</accMat>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Iceland</origPlace>, <origDate notBefore="1300" notAfter="1399">s.
+                        XIV</origDate>. </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">206</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

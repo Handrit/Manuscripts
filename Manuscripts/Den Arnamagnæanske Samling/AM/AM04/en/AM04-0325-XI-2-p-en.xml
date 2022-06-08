@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,111 +23,119 @@
                             <idno>1069</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Ólafs saga helga</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1350" notAfter="1399" cert="high">s. XIV 2/2</origDate>
-                    </head>
                     <msContents>
-                        <msItem class="kon" defective="true">
+                        <summary><title type="uniform">Ólafs saga helga</title></summary>
+                        <msItem n="1" class="kon" defective="true">
                             <locus from="1r" to="1v">1r-v</locus>
                             <title type="uniform">Ólafs saga helga</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
-                            <listBibl>
-                                <bibl>
-                           <ref type="primary-3" target="OlHMU">Saga Ólafs konungs ens
-                                        helga</ref>, p. 48</bibl>
-                                <bibl>
-                           <ref type="primary-3" target="OlHJH">Den store saga om Olav
-                                        den Hellige</ref>, pp. pp. 965-968 <note>Ed. 325 XI
-                                        2p</note>
-                        </bibl>
-                            </listBibl>
+                            <textLang mainLang="non"/>
+                            <bibl>Munch &amp; Unger,
+                                    <ref type="primary-3" target="OlHMU">Saga Ólafs konungs ens
+                                        helga</ref>, <biblScope unit="page">48</biblScope></bibl>
+                            <bibl>Johnsen &amp; Jón Helgason,
+                                    <ref type="primary-3" target="OlHJH">Den store saga om Olav den
+                                        Hellige</ref>, <biblScope unit="page">965-968</biblScope>
+                                    <note>Ed. 325 XI 2p</note>
+                                </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
-                                <extent>1 fragment-leaf. <dimensions type="leaf" scope="all">
-                                        <height>225</height>
-                                        <width>180</width>
+                                <extent>1 fragmentary leaf. <dimensions type="leaf" scope="all">
+                                        <height unit="mm">225</height>
+                                        <width unit="mm">180</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
-                                    <p>The leaf is considerably defect, the middle part is all torn
-                                        out and the columns, especially the first recto/second verso
-                                        has suffered.</p>
+                                    <p>The leaf is badly worn, the middle part is torn out and the
+                                        columns, especially the first recto/second verso have
+                                        suffered from damage.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" writtenLines="31">
-                                    <p>Written in two columns with 31 lines to the column.</p>
+                                    <p>Written in two columns with 31 lines per column.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <bindingDesc>
                             <binding notBefore="1959" notAfter="1959" contemporary="false">
-                                <p>Bound in a cardboard cover from 1959.</p>
+                                <p>Bound in a cardboard cover from <date when="1959"
+                                    >1959</date>.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
                     <history>
                         <origin notBefore="1350" notAfter="1399" cert="high" evidence="conjecture">
-                            <p>The fragment is written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> once dated
-                                it <origDate>the fourteenth century</origDate> (<bibl>
-                                    <ref type="secondary-1" target="KKKat">KKKat</ref>
-                                </bibl>). Later <name type="person" key="OscJoh001">Oscar Albert
-                                    Johnsen</name> and <name type="person" key="JonHel003">Jón
-                                    Helgason</name> dated it <origDate notBefore="1350" notAfter="1399" cert="high" evidence="conjecture">the second
-                                    half of the fourteenth century</origDate> (<bibl>
-                           <ref type="secondary-1" target="OlHJH">Johnsen &amp; Jón
-                                        Helgason 1941</ref>, p. 965</bibl>). A dating that later was
-                                supported by <name type="person" key="SteKar001">Stefán
-                                    Karlsson</name> (<bibl>
-                           <ref type="secondary" target="EIMF7">Stefán Karlsson 1967</ref>, p. 21</bibl>).</p>
-                        </origin>
+                            <p>The fragment is written in <origPlace>Iceland</origPlace> in <origDate
+                                    notBefore="1350" notAfter="1399" evidence="conjecture"
+                                    resp="ONP">the second half of the fourteenth century</origDate> (<bibl>
+                                    <ref type="secondary-1" target="OlHJH">Johnsen og Jón Helgason
+                                        1941</ref>
+                                    <biblScope unit="page">965</biblScope>
+                                </bibl> and <bibl><ref type="secondary" target="EIMF7">Stefán
+                                        Karlsson 1967</ref>
+                                    <biblScope unit="page">21</biblScope>
+                                </bibl>). Kålund's dating: <date notBefore="1300" notAfter="1399"
+                                    cert="medium" evidence="conjecture" resp="KKKat"
+                                    >The fourteenth century</date> (<bibl><ref type="secondary-1"
+                                        target="KKKat">Katalog</ref>
+                                    <biblScope unit="volume">I</biblScope>
+                                    <biblScope unit="page">568</biblScope>
+                                </bibl>)</p>
+                           </origin>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date/> by <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                    <p>Catalogued by <name type="person" key="EvaWed001"
+                                            >EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation">
-                                    <p>The MS was set on meeting guards and bound in a cardboard
-                                        cover <date>09.06.1959-15.08.1959</date>.</p>
+                                    <p>The MS was put on meeting guards and bound in a cardboard
+                                        cover <date from="1959-06-09" to="1959-08-15">09.06.1959-15.08.1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
-                            <p>The AMI has the following surrogates:<listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade 37</idno>
-                                        <date>n.d.</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositive</title>
-                                        <idno>AM 325 XI 2p 4to</idno>
-                                        <date>May 1984 (1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <idno>AM 325 XI 2p 4to</idno>
-                                        <date>August 1959</date>
-                                    </bibl>
-                                </listBibl>
-                     </p>
+                            <p><list>
+                                <item n="1">Plate, <idno>plade 37</idno>, s.d.</item>
+                                <item n="2">Diapositives from <date notBefore="1984-05"
+                                    notAfter="1985-05">May 1984 or 1985</date>.
+                                </item>
+                                <item n="3">Black and white prints from <date when="1956-09"
+                                    >August 1956</date>.</item>
+                            </list>
+                            </p>
                         </surrogates>
+                        <listBibl>
+                            <bibl>
+                                <ref type="secondary-1" target="OlHJH">Johnsen &amp; Jón Helgason
+                                    1941</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">965</biblScope>
+                            </bibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">568</biblScope>
+                            </bibl>
+                            <bibl><ref type="secondary" target="EIMF7">Stefán
+                                Karlsson 1967</ref>
+                                <biblScope unit="page">21</biblScope>
+                            </bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2021-12-09" who="EvaWed001">Updated markup.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

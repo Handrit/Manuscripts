@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,27 +23,64 @@
                      <idno>714</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="en">Norwegian law book</title>
-                  <origPlace>Norway</origPlace>
-                  <origDate notBefore="1300" notAfter="1350">s. XIV 1/2</origDate>
-               </head>
                <msContents>
-                  <textLang mainLang="is">Old Norse</textLang>
+                  <summary><title type="supplied" xml:lang="en">Norwegian Legal
+                     Manuscript</title></summary>
+                  <msItem n="1">
+                     <title type="supplied" xml:lang="en">Norwegian Legal
+                        Manuscript</title>
+                     <textLang mainLang="non"/>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>85. </extent>
+                        <extent>85. <dimensions type="leaf" scope="all">
+                              <height unit="mm">180</height>
+                              <width unit="mm">135</width>
+                           </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Norway</origPlace>, <origDate notBefore="1300" notAfter="1350">s.
+                           XIV<hi rend="sup">1</hi>.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>
+                        <ref target="Gthl">Gulaþingslǫg</ref>
+                        <note>Faksimile</note>
+                     </bibl>
+                     <bibl>Jón Sigurðsson: <ref target="DiplIsl">Diplomatarium Islandicum</ref>
+                        <biblScope unit="volume">I</biblScope>
+                     </bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">I</biblScope>
+                        <biblScope unit="page">384-385</biblScope>
+                     </bibl>
+                     <bibl>Storm: <ref target="ChrVidSkFor14">Om Haandskrifter og Oversættelser af
+                           Magnus Lagaböters Love</ref>
+                        <biblScope unit="page">5</biblScope>
+                     </bibl>
+                     <bibl>Storm: <ref type="secondary" target="NgL4">Norges gamle Love</ref>
+                        <biblScope unit="volume">IV</biblScope>
+                        <biblScope unit="page">563</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-12-09" who="EvaWed001">Updated markup and added dimensions and
+            bibliography.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

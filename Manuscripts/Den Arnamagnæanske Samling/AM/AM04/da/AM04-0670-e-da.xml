@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,43 +22,37 @@
                      <idno>1673</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Latinske helgenlegender</title>
-                  <origPlace>Danmark?</origPlace>
-                  <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s. XVIII 1/4</origDate>
-               </head>
                <msContents>
-                  <msItem n="1">
+                  <summary><title type="supplied">Helgenlegender</title></summary>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem n="1" class="hels">
                      <locus from="1r" to="8v">1r-8v</locus>
-                     <title type="supplied">De sancto Olavo</title>
-                     <textLang mainLang="la">Latin</textLang>
+                     <title type="uniform">De Sancto Olavo</title>
                   </msItem>
-                  <msItem n="2">
+                  <msItem n="2" class="hels">
                      <locus from="9r" to="12v">9r-12v</locus>
-                     <title type="supplied">De sancto Olavio seqventiæ duæ</title>
-                     <textLang mainLang="la">Latin</textLang>
+                     <title type="uniform">De sancto Olavio</title>
                   </msItem>
-                  <msItem n="3">
+                  <msItem n="3" class="hels">
                      <locus from="18r" to="20v">18r-20v</locus>
-                     <title type="supplied">Fragmentum viæ S. Thorlaci episcopi</title>
-                     <textLang mainLang="la">Latin</textLang>
+                     <title type="uniform">Vita S. Thorlaci episcopi</title>
+                     <filiation>Afskrift af <ref type="ms" target="#AM04-0386-I-is">AM 386 I
+                           4to</ref></filiation>
                   </msItem>
-                  <msItem n="4">
+                  <msItem n="4" class="hels">
                      <locus from="25r" to="26r">25r-26r</locus>
-                     <title type="supplied">De sancto Thorlacio fragmentum</title>
-                     <textLang mainLang="la">Latin</textLang>
+                     <title type="uniform">De sancto Thorlacio</title>
                   </msItem>
-                  <msItem n="5">
+                  <msItem n="5" class="hels">
                      <locus from="29r" to="30v">29r-30v</locus>
-                     <title type="supplied">Fragmentum legendarii</title>
-                     <msItem n="5.1">
-                        <title type="supplied">De S. Thorlacio</title>
-                     </msItem>
-                     <msItem n="5.2">
-                        <title type="supplied">De Maria Magdalena</title>
-                        <note>tre linjer</note>
-                     </msItem>
+                     <title type="supplied">De sancto Thorlacio</title>
+                      </msItem>
+                  <msItem n="6" class="hels">
+                     <locus from="30v" to="30v">30v</locus>
+                     <title type="uniform">De Maria Magdalena</title>
+                     <note>tre linjer</note>
                   </msItem>
+                  
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
@@ -66,73 +61,83 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>30. Ubeskrevne ere bl. 9v 13-14, 16, 17v 21-23, 26v-27, 28v; 
-                           bl. 17 er en indfæstet seddel. <dimensions type="leaf" scope="all">
-                              <height>213</height>
-                              <width>167</width>
+                        <extent>30. Bl. 9v 13-14, 16, 17v 21-23, 26v-27, 28v er ubeskrevne; bl. 17
+                           er en indsat seddel. <dimensions type="leaf" scope="all">
+                              <height unit="mm">213</height>
+                              <width unit="mm">167</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote scope="minor" script="unknown">Bl. 1-8 er skrevet af samme hånd som
-                           <ref type="ms" target="AM04-0670-a-da">AM 670 a 4to</ref>, <ref type="ms" target="AM04-0670-b-da">AM 670 b to</ref>, <ref type="ms" target="AM04-0670-c-da">AM 670 c 4to</ref> og <ref type="ms" target="AM04-0670-d-da">AM 670 d 4to</ref>.</handNote>
-                     <handNote scope="major" script="unknown" scribe="ArnMag001">Resten er skrevet af Arne Magnusson.</handNote>
+                           <ref type="ms"
+                           target="#AM04-0670-a-da #AM04-0670-b-da #AM04-0670-c-da #AM04-0670-d-da"
+                           >AM 670 a-d 4to</ref>, bl 3r-7r af <ref type="ms"
+                           target="#AM04-0670-f-da">AM 670 f 4to</ref> og <ref type="ms"
+                           target="#AM04-0670-g-da">AM 670 g 4to</ref>.</handNote>
+                     <handNote scope="major" script="unknown" scribe="ArnMag001">Resten er skrevet
+                        af Arne Magnusson.</handNote>
                   </handDesc>
                   <additions>
                      <p>Angående stykke 2 har <name type="person" key="ArnMag001">Arne
-                           Magnusson</name> noteret på bl. 9r: <q xml:lang="la">Ex
-                           Miſſali Nidroſienſi
-                           impreſſo. in folio <date when="1619">1619</date></q>.</p>
+                           Magnusson</name> noteret på bl. 9r: <q xml:lang="la">Ex Miſſali
+                           Nidroſienſi impreſſo. in folio <date when="1619">1619</date></q>.</p>
                      <p>Om stykke 3 udtaler han sig på bl. 15r (på Dansk) og giver her en vurdering
                         af originalbladene i AM 386 I, 4to; bl. 17r indeholder en latinsk notits af
                         lignende art.</p>
                      <p>Angående stykke 4, hvis original nu er gået tabt, oplyser Arne Magnusson på
-                        bl. 24: <q>Dette fragmentum de Sancto Thorlaco. Er ſkrevet efter
-                           et pergaments blad i folio eller rettere 4<hi rend="sup">to</hi> maximo,
-                           ſom ieg haver bekom<ex>m</ex>et i Iisland, var
-                           ſkrevet med god stor ſkrift, men ikke meget gammel,
-                           kandſke circa An<ex>n</ex>. 1440 [rettet for 60]. Bladet var
-                           ſkrevet med .2. Columner paa hver ſide. Men
-                           ſkaden var, at den överſte halve deel af bladet var
-                           bortſkaaren, og icke tilbage uden den nederste halve deel.
-                           Derfore er det, at her fattes pag. priore, den överſte deel af
-                           Columnis .1. 2. og ligeledes pagina posteriore den överſte deel
-                           af den 1<hi rend="sup">te</hi> og 2<hi rend="sup">den</hi> Column. Er
-                           ſaa icke her, uden de nederſte deele af paginæ
-                           prioris Columnis 1. 2. og ligeledes de nederſte deele af
-                           Columnis 1. 2. pag<ex>inæ</ex> poſterioris. Haver, uden tvil,
-                           veret legendarium ſine cantibus <ex>et</ex> officiis</q>.</p>
+                        bl. 24: <q>Dette fragmentum de Sancto Thorlaco. Er ſkrevet efter et
+                           pergaments blad i folio eller rettere 4<hi rend="sup">to</hi> maximo, ſom
+                           ieg haver bekom<ex>m</ex>et i Iisland, var ſkrevet med god stor ſkrift,
+                           men ikke meget gammel, kandſke circa An<ex>n</ex>. 1440 [rettet for 60].
+                           Bladet var ſkrevet med .2. Columner paa hver ſide. Men ſkaden var, at den
+                           överſte halve deel af bladet var bortſkaaren, og icke tilbage uden den
+                           nederste halve deel. Derfore er det, at her fattes pag. priore, den
+                           överſte deel af Columnis .1. 2. og ligeledes pagina posteriore den
+                           överſte deel af den 1<hi rend="sup">te</hi> og 2<hi rend="sup">den</hi>
+                           Column. Er ſaa icke her, uden de nederſte deele af paginæ prioris
+                           Columnis 1. 2. og ligeledes de nederſte deele af Columnis 1. 2.
+                              pag<ex>inæ</ex> poſterioris. Haver, uden tvil, veret legendarium ſine
+                           cantibus <ex>et</ex> officiis</q>.</p>
                      <p>Om stykke 5, hvor forholdet er det samme som ved 4, oplyser Arne Magnusson
                         på bl. 28r: <q>Ex fragmento legendarii, ex Islandiâ Hafniam ad me delato.
-                           Erat in membrana in 4<ex>to</ex>. majori. habueratqve ſaltem
-                           lectiones, ſine Collectis vel Cantibus. Ex eodem fragmento
-                           nonnulla de S. Olavo etiam exſcripſi, ubi hoc
-                           Fragmentum vocavi Fragm<ex>en</ex>tum c. Vide integram legendam S. Olavi,
-                           à me ex tribus fragmentis membraneis compilatam.</q></p>
+                           Erat in membrana in 4<ex>to</ex>. majori. habueratqve ſaltem lectiones,
+                           ſine Collectis vel Cantibus. Ex eodem fragmento nonnulla de S. Olavo
+                           etiam exſcripſi, ubi hoc Fragmentum vocavi Fragm<ex>en</ex>tum c. Vide
+                           integram legendam S. Olavi, à me ex tribus fragmentis membraneis
+                           compilatam.</q></p>
                   </additions>
-                  <accMat/>
                </physDesc>
+               <history>
+                  <origin><origPlace>Danmark?</origPlace>
+                     <origDate notBefore="1700" notAfter="1725">s. XVIII<hi rend="sup"
+                        >1/4</hi></origDate></origin>
+               </history>
                <additional>
                   <listBibl>
                      <bibl>
                         <ref target="Bisk">Biskupa sögur</ref>
-                        <biblScope unit="pages">401-403</biblScope>
-                        <note>stykke 4 og 5.1</note>
+                        <biblScope unit="page">401-403</biblScope>
+                        <note>Stykke 4 og 5.</note>
                      </bibl>
-                     <bibl>Langebek: <ref type="secondary" target="SRDMAE">Scriptores Rerum
-                           Danicarum Medii Aevi</ref>
+                     <bibl><ref type="secondary" target="SRDMAE"/>
                         <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">532 ff.</biblScope>
+                        <biblScope unit="page">532 ff.</biblScope>
                         <biblScope unit="volume">IV</biblScope>
-                        <biblScope unit="pages">627 ff.</biblScope>
-                        <note>stykke 1, 3 og 5</note>
+                        <biblScope unit="page">627 ff.</biblScope>
+                        <note>Stykke 1, 3 og 5.</note>
                      </bibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">84</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">84</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2022-02-02" who="EvaWed001">Opdateret opmærkning og handDesc.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

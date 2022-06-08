@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -22,19 +22,21 @@
                             <idno>2050</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head> </head>
                     <msContents>
                         <summary><title type="supplied">Blandingshåndskrift</title></summary>
                     </msContents>
                     <history>
-                        <origin notBefore="1500" notAfter="1799"><origPlace>Sverige/Danmark</origPlace>
+                        <origin notBefore="1500" notAfter="1799"><origPlace>Sverige, Danmark? og
+                                Norge</origPlace>
                             <origDate notBefore="1500" notAfter="1799">ss.
                             XVI-XVII</origDate></origin>
                     </history>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 918 I 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="1">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 918 I 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1" defective="true" class="log">
                                 <title type="uniform" xml:lang="sv">Sveriges landslag</title>
@@ -53,8 +55,8 @@
                                         </p>
                                     </support>
                                     <extent>8. <dimensions type="leaf" scope="all">
-                                            <height>200</height>
-                                            <width>150</width>
+                                            <height unit="mm">200</height>
+                                            <width unit="mm">150</width>
                                         </dimensions>
                                     </extent>
                                 </supportDesc>
@@ -64,19 +66,21 @@
                             <listBibl>
                                 <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                                     <biblScope unit="volume">II</biblScope>
-                                    <biblScope unit="pages">261</biblScope>
+                                    <biblScope unit="page">261</biblScope>
                                 </bibl>
                             </listBibl>
                         </additional>
 
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 918 II 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="2">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 918 II 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1" defective="true" class="hagfr">
-                                <title type="uniform" xml:lang="da">Regnskab over proviant og
+                            <msItem n="2" defective="true" class="hagfr">
+                                <title type="supplied" xml:lang="da">Regnskab over proviant og
                                     kreaturer mv.</title>
                                 <textLang mainLang="da">Dansk</textLang>
                                 <note>Brudstykke.</note>
@@ -91,23 +95,25 @@
                                         </p>
                                     </support>
                                     <extent>2. <dimensions type="leaf" scope="all">
-                                            <height>330</height>
-                                            <width>210</width>
+                                            <height unit="mm">330</height>
+                                            <width unit="mm">210</width>
                                         </dimensions>
                                     </extent>
                                 </supportDesc>
                             </objectDesc>
                         </physDesc>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 918 III 4to</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="3">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 918 III 4to</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
-                            <msItem n="1" class="lofts">
+                            <msItem n="3" class="vit">
                                 <title type="uniform" xml:lang="da">Et underligt syn</title>
-                                <note>åbenbaret den 1. august 1657 for M. Arent Hammersmed ved
-                                    Vestfossen på Egger</note>
+                                <note>Åbenbaret den 1. august 1657 for M. Arent Hammersmed ved
+                                    Vestfossen på Eiker</note>
                                 <textLang mainLang="da">Dansk</textLang>
                             </msItem>
                         </msContents>
@@ -120,19 +126,22 @@
                                         </p>
                                     </support>
                                     <extent>1. <dimensions type="leaf" scope="all">
-                                            <height>330</height>
-                                            <width>212</width>
+                                            <height unit="mm">330</height>
+                                            <width unit="mm">212</width>
                                         </dimensions>
                                     </extent>
                                 </supportDesc>
                             </objectDesc>
                             <handDesc hands="1">
                                 <handNote scribe="LauJor001" scope="sole" script="unknown">
-                                    <p>Skrevet <date when="1658-01-25">25. januar 1658</date> af
-                                        Laurits Jørgensen i Haags præstegård på Egger.</p>
+                                    <p>Skrevet af Laurits Jørgensen.</p>
                                 </handNote>
                             </handDesc>
                         </physDesc>
+                        <history>
+                            <origin>Skrevet i Haug prestegård, Eiker, <origPlace>Norge</origPlace>
+                                den <origDate when="1658-01-25">25. januar 1658</origDate>.</origin>
+                        </history>
                     </msPart>
                 </msDesc>
             </sourceDesc>

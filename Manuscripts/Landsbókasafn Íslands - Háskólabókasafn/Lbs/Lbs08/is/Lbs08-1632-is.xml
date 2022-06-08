@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -32,23 +32,99 @@
 						<summary>
 							<title type="supplied">Kvæða- og rímnasafn</title>
 						</summary>
-						<msItem>
-							<p>Kvæða- og rímnasafn (bl. 1-56 og 75-108 m.h. Hallgríms Gíslasonar um
-								1824). Nafngreindir höfundar: Sigurðr Breiðfjörð (»Draugamálin«),
-								Jón Hallgrímsson á Karlsá (Nikulásarrímur leikara, 10), Illugi
-								Einarsson (Griðkuríma), Guðbrandr Einarsson, Níels skáldi Jónsson
-								(ríma af enskum stúdent, vantar 1 bl. framan við), Þ.P. (´ríma,
-								kölluð Kongshugvekja´), síra Magnús Einarsson, Jón Ólafsson á
-								Krínastöðum (rímur (3) af Sveini og Finni, orktar 1792), Sigurðr
-								fóstri (Skíðaríma).</p>
+						<msItem n="1" defective="false" class="kvad">
+							<locus from="1r" facs="#Lbs08-1632-0001r" to="6r">1r-6r</locus>
+							<title type="uniform">Draugamál</title>
+							<author><name type="person" key="SigBre001">Sigurður Breiðfjörð</name></author>
+						</msItem>
+						<msItem n="2" defective="false" class="rimur">
+							<locus from="7v" facs="#Lbs08-1632-0007v" to="56r">7v-56r</locus>
+							<title type="uniform">Rímur af Nikulási leikara</title>
+							<rubric>Hér skrifast rímur af Nikulás Kóngi Leikara</rubric>
+							<incipit>Á skal hella Óma ker ...</incipit>
+							<author><name type="person" key="JonHal010">Jón Hallgrímsson</name></author>
+							<note>10 rímur.</note>
+						</msItem>
+						<msItem n="3" defective="false" class="rimur">
+							<locus from="57r" facs="#Lbs08-1632-0057r" to="60v">57r-60v</locus>
+							<title type="uniform">Griðkuríma</title>
+							<rubric>Griðku ríma. Kveðin af Illuga Einarssyni</rubric>
+							<incipit>Gandólfs skal hér skútu mynd ...</incipit>
+							<author><name type="person" key="IllEin001">Illugi Einarsson</name></author>
+						</msItem>
+						<msItem n="4" defective="false" class="kvad">
+							<locus from="61r" facs="#Lbs08-1632-0061r" to="65v">61r-65v</locus>
+							<title type="uniform">Hrafnahrekkur</title>
+							<author><name type="person" key="GudEin004">Guðbrandur Einarsson</name></author>
+						</msItem>
+						<msItem n="5" defective="false" class="rimur">
+							<locus from="66r" facs="#Lbs08-1632-0066r" to="74r">66r-74r</locus>
+							<title type="uniform">Ríma af enskum stúdent</title>
+							<author><name type="person" key="NieJon001">Níels Jónsson</name></author>
+							<note>Vantar 1 blað framan við.</note>
+						</msItem>
+						<msItem n="6" defective="false" class="rimur">
+							<locus from="75r" facs="#Lbs08-1632-0075r" to="80r">75r-80r</locus>
+							<title type="uniform">Kóngshugvekjuríma</title>
+							<rubric>Ríma kölluð Kongs Hugvekja kveðin af Þ.P.</rubric>
+							<author><name type="person" key="ThoPal001">Þorkell Pálsson</name></author>
+							<incipit>Haukur Óma vaknar veikur ...</incipit>
+						</msItem>
+						<msItem n="7" defective="false" class="kvad">
+							<locus from="80r" facs="#Lbs08-1632-0082r" to="65v">80r-82r</locus>
+							<title type="uniform">Hugarfundur</title>
+							<author><name type="person" key="MagEin008">Magnús Einarsson</name></author>
+						</msItem>
+						<msItem n="8" defective="false" class="rimur">
+							<locus from="75r" facs="#Lbs08-1632-0075r" to="96v">75r-96v</locus>
+							<title type="uniform">Rímur af Sveini og Finni</title>
+							<rubric>Rímur af Sveini og Finni. Sögu Ólafs Kongs Tryggvasonar</rubric>
+							<author><name type="person" key="JonOla028">Jón Ólafsson á Krínastöðum</name></author>
+							<incipit>Fálkinn Óma flýgur brátt ...</incipit>
+						</msItem>
+						<msItem n="9" defective="false" class="rimur">
+							<locus from="97r" facs="#Lbs08-1632-0097r" to="108v">97r-108v</locus>
+							<title type="uniform">Skíðaríma</title>
+							<rubric>Ríma af Skíða Göngumanni kveðinn að sögn manna af Sigurði fóstra.</rubric>
+							<author><name type="person" key="SigTho002">Sigurður fóstri</name></author>
+							<incipit>Mér er ekki um mansöng greitt ...</incipit>
 						</msItem>
 					</msContents>
+					
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p>Pappír.</p>
+								</support>
+								<extent>108 blöð (<dimensions type="leaf" scope="all" unit="mm">
+									<height>174</height>
+									<width>104</width>
+								</dimensions>).</extent>
+							</supportDesc>
+						</objectDesc>
+						<handDesc n="3">
+							<summary>Þrjár hendur ; að mestu með hendi:</summary>
+							<handNote scope="major" script="other" scribe="HalGis009"><name
+								type="person" key="HalGis009">Hallgríms Gíslasonar</name></handNote>
+						</handDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origPlace>Ísland</origPlace>, <origDate cert="medium" from="1824" to="1840"> um 1824-1840</origDate>.</origin>
+					</history>
 					<additional>
 						<adminInfo>
 							<recordHist>
-								<source><name type="person" key="BraOla001">Bragi Þorgrímur
-									Ólafsson</name> frumskráði fyrir myndvinnslu, <date when="2009-10-20">20. október 2009</date> ; Handritaskrá, 2.
-									b.</source>
+								<source><p>Skráning <name type="person" key="PalOla002">Páls Eggerts
+									Ólasonar</name> á handritinu er aðgengileg í ritinu <bibl>
+										<ref target="PEO">Skrá um handritasöfn
+											Landsbókasafnsins</ref>, </bibl>2. bindi, <ref
+												target="https://baekur.is/bok/000233966/2/328/Skra_um_handritasofn_Bindi_2_Bls_328"
+												>bls. 320-321</ref>. </p><name type="person" key="GudGud045"
+													>Guðrún Laufey Guðmundsdóttir</name> bætti við færsluna,
+									<date when="2022-06-02">2. júní 2022</date> ; <name type="person" key="BraOla001">Bragi Þorgrímur
+									Ólafsson</name> frumskráði fyrir myndvinnslu, <date when="2009-10-20">20. október 2009</date>.</source>
 							</recordHist>
 						</adminInfo>
 					</additional>

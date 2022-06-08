@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -24,22 +24,35 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary>
-                            <title type="supplied" xml:lang="en">Annals of Lund</title>
-                        </summary>
+                        <summary><title type="supplied">Annals and Chronicles</title></summary>
+                           <textLang mainLang="la">Latin</textLang>
                         <msItem n="1" defective="true">
                             <locus from="1r" to="4v">1r-4v</locus>
-                            <title type="supplied" xml:lang="eng">Annals</title>
-                            <textLang mainLang="la">Latin</textLang>
-                            <incipit/>
-                            <explicit/>
+                            <title type="uniform" xml:lang="la">Conspectus rerum Judæorum usqve ad
+                                interitum Hierosolymorum</title>
+                            <incipit defective="true">ta eſt. Huíus etatis</incipit>
+                            <note>A history of the Jews. This part is incomplete as one leaf at the
+                                beginning was excised.</note>
                         </msItem>
-                        <msItem n="2">
-                            <locus from="5r" to="13v">5r-13v</locus>
+                        <msItem n="2" defective="true" class="sagnfr">
+                            <locus from="5r" to="7v">5r-7v</locus>
+                            <title type="uniform" xml:lang="la">Chronicon Lethrense</title>
+                            <title type="uniform" xml:lang="da">Lejrekrøniken</title>
+                            <incipit defective="true">Prímo temp<ex>or</ex>e</incipit>
+                            <explicit defective="true">hiarwart ſialan<lb/>diam</explicit>
+                            <note>Ends defectively.</note>
+                            <bibl>Gertz, <ref target="SMHDMAE">Scriptores minores historiæ Danicæ
+                                    medii ævi</ref>
+                                <biblScope unit="page">43-53</biblScope>
+                                <note>Ed. A.</note></bibl>
+                        </msItem>
+                        <msItem n="3" defective="true">
+                            <locus from="8r" to="13v">8r-13v</locus>
                             <title type="uniform" xml:lang="la">Annales Lundenses</title>
-                            <textLang mainLang="la">Latin</textLang>
-                            <incipit/>
-                            <explicit/>
+                            <title type="uniform" xml:lang="da">Lundeårbogen</title>
+                            <incipit defective="true">dccxcix</incipit>
+                            <explicit defective="true">pirate in furore<ex>m</ex>
+                                <ex>con</ex>u<ex>er</ex>ſi</explicit>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -50,9 +63,10 @@
                                         <material>Parchment.</material>
                                     </p>
                                 </support>
-                                <extent>13. size of leaves: <dimensions type="leaf" scope="all" unit="mm">
-                                        <height>180</height>
-                                        <width>118</width>
+                                <extent>13. Size of leaves: <dimensions type="leaf" scope="all"
+                                        unit="mm">
+                                        <height unit="mm">180</height>
+                                        <width unit="mm">118</width>
                                     </dimensions>
                                 </extent>
                                 <foliation>Foliated 1-13 on the top right corner of the recto of
@@ -60,40 +74,66 @@
                                     each leaf 1-17; 23-25; 19-21.</foliation>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="28">
-                                    <p> Written in 1 to 2 columns; 28-30 lines per page.</p>
-                                    <p> Size of written area: <dimensions type="written" unit="mm">
-                                            <height>123</height>
-                                            <width>80</width>
+                                <layout columns="1 2" writtenLines="28">
+                                    <p>Written in 1 to 2 columns with 28-30 lines per page.</p>
+                                    <p>Size of written area: <dimensions type="written" unit="mm">
+                                            <height unit="mm">123</height>
+                                            <width unit="mm">80</width>
                                         </dimensions>.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
+                        <handDesc>
+                            <handNote script="textualis"><p>Written by two early Gothic Bookhands.</p></handNote>
+                        </handDesc>
                     </physDesc>
                     <history>
-                        <origin notBefore="1275" notAfter="1325"><p>Written probably in
-                                    <origPlace>Lund, Sweden</origPlace> at the end of the thirteenth or the
-                                beginning of the fourteenth century.</p></origin>
+                        <origin notBefore="1275" notAfter="1325"><p>Most possibly written in
+                                    <origPlace>Lund, Sweden</origPlace>, <origDate notBefore="1290"
+                                    notAfter="1310">c. 1300</origDate> (<bibl><ref
+                                        type="secondary-1" target="KKKat">Kålund, Katalog</ref>
+                                    <biblScope unit="volume">II</biblScope>
+                                    <biblScope unit="page">231</biblScope></bibl> and <bibl><ref
+                                        target="Kroman1980">Kromann 1980</ref>
+                                    <biblScope unit="page">21</biblScope></bibl>). It was previously
+                                dated to c. 1250 (<bibl><ref type="secondary"
+                                        target="LNHaandskrifter">Nielsen 1937</ref>
+                                    <biblScope unit="page">106</biblScope></bibl> and <bibl><ref
+                                        target="SMHDMAE">Gertz 1917-1920</ref>
+                                    <biblScope unit="page">38</biblScope></bibl>).</p></origin>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>Catalogued on <date when="2018-12-12"/> by <name type="person" key="KivYav001">N. Kıvılcım Yavuz</name>. Last
-                                    updated on <date when="2018-12-12"/> by <name type="person" key="KivYav001">N. Kıvılcım Yavuz</name>.</source>
+                                <source>Catalogued on <date when="2018-12-12"/> by <name
+                                        type="person" key="KivYav001">N. Kıvılcım Yavuz</name>. Last
+                                    updated on <date when="2018-12-12"/> by <name type="person"
+                                        key="KivYav001">N. Kıvılcım Yavuz</name>.</source>
                             </recordHist>
                         </adminInfo>
                         <listBibl>
-                            <bibl> Kålund <ref type="secondary-1" target="KKKat"/>
+                            <bibl><ref target="SMHDMAE">Gertz 1917-1920</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">38-39</biblScope></bibl>
+                            <bibl><ref
+                                target="Kroman1980">Kromann 1980</ref>
+                                <biblScope unit="page">21</biblScope></bibl>
+                            <bibl><ref target="SRDMAE">Langebek 1772-1878</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">214 ff</biblScope>
+                                <note>Facsimily p. 223; quoted as <q xml:lang="la">fragmentum
+                                        vetus</q>.</note>
+                            </bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat"/>
                                 <biblScope unit="volume">II</biblScope>
                                 <biblScope unit="pages">231</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>
-
-
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2022-03-21" who="EvaWed001">Updated msContens, origDate and added titles to the bibliography.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

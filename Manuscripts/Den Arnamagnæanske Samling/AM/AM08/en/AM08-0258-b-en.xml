@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -27,21 +27,42 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary><title type="supplied">List of Norwegian Bishops</title></summary>
+                        <summary>
+                            <title type="supplied">Lists of Norwegian Bishops</title>
+                        </summary>
                     </msContents>
                     <history>
-                        <origin notBefore="1300" notAfter="1730"><origPlace>Norway, Iceland (and
-                                Denmark?)</origPlace>
+                        <origin notBefore="1300" notAfter="1730">
+                            <origPlace>Norway, Iceland (and Denmark?)</origPlace>
                             <origDate notBefore="1300" notAfter="1730">s. XIV<hi rend="sup">1</hi>,
-                                s. XVIII in</origDate></origin>
+                                s. XVIII in</origDate>
+                        </origin>
                     </history>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 258 b I 8vo</idno>
-                        </altIdentifier></msIdentifier>
+                    <additional>
+                        <listBibl>
+                            <bibl>Jón Sigurðsson, <ref type="secondary-1" target="DiplIsl"
+                                    >Diplomatarium Islandicum</ref>
+                                <biblScope unit="volume">III</biblScope>
+                                <biblScope unit="pages">20, 35, 40, 45</biblScope>
+                            </bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="pages">467-468</biblScope></bibl>
+                        </listBibl>
+                    </additional>
+                    <msPart n="1">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 258 b I 8vo</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1" class="bis">
-                                <textLang mainLang="is">Old Norse/Norwegian</textLang>
+                                <title type="supplied">List of Norwegian Bishops</title>
+                                <textLang mainLang="non">Old Norse/Norwegian</textLang>
+                                <filiation>Copied from the fly-leaf from
+                                        <ref type="ms" target="#AM04-0062-en">AM 62
+                                    4to</ref>.</filiation>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -52,29 +73,46 @@
                                             <material>Parchment</material>.</p>
                                     </support>
                                     <extent>1. <dimensions type="leaf" scope="all">
-                                            <height>225</height>
-                                            <width>167</width>
+                                            <height unit="mm">225</height>
+                                            <width unit="mm">167</width>
                                         </dimensions>
                                     </extent>
                                 </supportDesc>
                             </objectDesc>
                         </physDesc>
                         <history>
-                            <origin notBefore="1300" notAfter="1350" cert="high" evidence="conjecture">
-                                <p>Written in <origDate>the first half of the fourteenth
-                                        century</origDate>, most probably in
+                            <origin notBefore="1300" notAfter="1350" cert="high"
+                                evidence="conjecture">
+                                <p>Written in <origDate notBefore="1300" notAfter="1350">the first
+                                        half of the fourteenth century</origDate>, most probably in
                                         <origPlace>Norway</origPlace>.</p>
                             </origin>
                         </history>
+                        <additional>
+                            <listBibl>
+                                <bibl>Storm: <ref target="NgL4">Norges gamle Love</ref>
+                                    <biblScope unit="volume">IV</biblScope>
+                                    <biblScope unit="pages">553-556</biblScope></bibl>
+                            </listBibl>
+                        </additional>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 258 b II 8vo</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="2">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 258 b II 8vo</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="1" class="bis">
+                                <title type="supplied">List of Norwegian Bishops</title>
                                 <textLang mainLang="is" otherLangs="la">Icelandic and
                                     Latin</textLang>
+                                <rubric>Catalogus Ep<ex>iscop</ex>orum <lb/> Provinciæ Nidroſienſis,
+                                    <lb/> deſcriptus ex lacerâ <lb/> membranâ 1713. <lb/> et adhuc
+                                    accuratè re<lb/>viſus <date when="1726">1726</date></rubric>
+                                <filiation>Copy of the abovementioned parchment leaf, including a
+                                    preceding description of the exemplar in Icelandic and elaborate
+                                        <q xml:lang="la">Notæ ad hanc Seriem</q>.</filiation>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -85,8 +123,8 @@
                                             <material>Paper</material>.</p>
                                     </support>
                                     <extent>30. <dimensions type="leaf" scope="all">
-                                            <height>168</height>
-                                            <width>108</width>
+                                            <height unit="mm">168</height>
+                                            <width unit="mm">108</width>
                                         </dimensions>
                                     </extent>
                                 </supportDesc>
@@ -99,19 +137,25 @@
                             </handDesc>
                         </physDesc>
                         <history>
-                            <origin notBefore="1700" notAfter="1730" cert="high" evidence="conjecture" resp="KKKat">
-                                <p>Written in <origPlace>Iceland/Denmark</origPlace>
-                                    <origDate>1700-1730</origDate>.</p>
+                            <origin notBefore="1700" notAfter="1730" cert="high"
+                                evidence="conjecture" resp="KKKat">
+                                <p>Written in <origPlace>Iceland or Denmark</origPlace>, <origDate
+                                        notBefore="1700" notAfter="1730">1700-1730</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 258 b III 8vo</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="3">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 258 b III 8vo</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="2" class="bis">
+                                <title type="supplied">List of Norwegian Bishops</title>
                                 <textLang mainLang="is">Icelandic</textLang>
+                                <filiation>Copy of <ref type="ms" target="#AM04-0415-is">AM 415
+                                        4to</ref>.</filiation>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -122,8 +166,8 @@
                                             <material>Paper</material>.</p>
                                     </support>
                                     <extent>7. <dimensions type="leaf" scope="all">
-                                            <height>168</height>
-                                            <width>108</width>
+                                            <height unit="mm">168</height>
+                                            <width unit="mm">108</width>
                                         </dimensions>
                                     </extent>
                                 </supportDesc>
@@ -136,18 +180,23 @@
                             </handDesc>
                         </physDesc>
                         <history>
-                            <origin notBefore="1700" notAfter="1730" cert="high" evidence="conjecture">
-                                <p>Written in <origPlace>Iceland/Denmark</origPlace>
-                                    <origDate>1700-1730</origDate>.</p>
+                            <origin notBefore="1700" notAfter="1730" cert="high"
+                                evidence="conjecture">
+                                <p>Written in <origPlace>Iceland or Denmark</origPlace>
+                                    <origDate notBefore="1700" notAfter="1730"
+                                    >1700-1730</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 258 b IV 8vo</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="4">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 258 b IV 8vo</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="3" class="bis">
+                                <title type="supplied">List of Norwegian Bishops</title>
                                 <textLang mainLang="is">Icelandic</textLang>
                             </msItem>
                         </msContents>
@@ -159,8 +208,8 @@
                                             <material>Paper</material>.</p>
                                     </support>
                                     <extent>8. <dimensions type="leaf" scope="all">
-                                            <height>168</height>
-                                            <width>108</width>
+                                            <height unit="mm">168</height>
+                                            <width unit="mm">108</width>
                                         </dimensions>
                                     </extent>
                                 </supportDesc>
@@ -173,20 +222,28 @@
                             </handDesc>
                         </physDesc>
                         <history>
-                            <origin notBefore="1700" notAfter="1730" cert="high" evidence="conjecture">
-                                <p>Written in <origPlace>Iceland/Denmark</origPlace>
-                                    <origDate>1700-1730</origDate>
+                            <origin notBefore="1700" notAfter="1730" cert="high"
+                                evidence="conjecture">
+                                <p>Written in <origPlace>Iceland or Denmark</origPlace>
+                                    <origDate notBefore="1700" notAfter="1730">1700-1730</origDate>
                                 </p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 258 b V 8vo</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="5">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 258 b V 8vo</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="5" class="bis">
+                                <title type="supplied">List of Norwegian Bishops</title>
                                 <textLang mainLang="is">Icelandic</textLang>
+                                <filiation>
+                                    <q>ritud epter pappirs Exemplare gmlu, ſkrifudu circa <date
+                                            notBefore="1655" notAfter="1675">1660-70</date></q>
+                                </filiation>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -197,8 +254,8 @@
                                             <material>Paper</material>.</p>
                                     </support>
                                     <extent>10. <dimensions type="leaf" scope="all">
-                                            <height>168</height>
-                                            <width>108</width>
+                                            <height unit="mm">168</height>
+                                            <width unit="mm">108</width>
                                         </dimensions>
                                     </extent>
                                 </supportDesc>
@@ -211,19 +268,29 @@
                             </handDesc>
                         </physDesc>
                         <history>
-                            <origin notBefore="1700" notAfter="1730" cert="high" evidence="conjecture" resp="KKKat">
+                            <origin notBefore="1700" notAfter="1730" cert="high"
+                                evidence="conjecture" resp="KKKat">
                                 <p>Written in <origPlace>Iceland/Denmark</origPlace>
-                                    <origDate>1700-1730</origDate>.</p>
+                                    <origDate notBefore="1700" notAfter="1730"
+                                    >1700-1730</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>
-                    <msPart>
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>AM 258 b VI 8vo</idno>
-                        </altIdentifier></msIdentifier>
+                    <msPart n="6">
+                        <msIdentifier>
+                            <altIdentifier type="partial">
+                                <idno>AM 258 b VI 8vo</idno>
+                            </altIdentifier>
+                        </msIdentifier>
                         <msContents>
                             <msItem n="6" class="bis annal">
+                                <title type="supplied">List of Norwegian Bishops with Annalistic
+                                    Notes</title>
                                 <textLang mainLang="is">Icelandic</textLang>
+                                <note>Including notes on også om the Orkney Islands, the Faroe
+                                    Islands, Icelandic literature and Greenland; probably from the
+                                    writings of <name type="person" key="PedFri001">Peder Claussøn
+                                        Friis</name>.</note>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -234,8 +301,8 @@
                                             <material>Paper</material>.</p>
                                     </support>
                                     <extent>15. <dimensions type="leaf" scope="all">
-                                            <height>168</height>
-                                            <width>108</width>
+                                            <height unit="mm">168</height>
+                                            <width unit="mm">108</width>
                                         </dimensions>
                                     </extent>
                                 </supportDesc>
@@ -249,9 +316,17 @@
                             </handDesc>
                         </physDesc>
                         <history>
-                            <origin notBefore="1600" notAfter="1655" cert="high" evidence="conjecture">
-                                <p>Written in <origPlace>Iceland</origPlace>
-                                    <origDate>1600-1655</origDate>.</p>
+                            <origin notBefore="1600" notAfter="1655" cert="high"
+                                evidence="conjecture">
+                                <p>Written in <origPlace>Iceland</origPlace>. <name type="person"
+                                        key="KriKaa001">Kålund</name> (<bibl>
+                                        <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                        <biblScope unit="volume">II</biblScope>
+                                        <biblScope unit="pages">468</biblScope>
+                                    </bibl>) dates the manuscript to the seventeenth century, but
+                                    since <name type="person" key="BjoJon006">Björn Jónsson</name>
+                                    died in 1655 it can be dated more precisely to <origDate
+                                        notBefore="1600" notAfter="1655">1600-1655</origDate>.</p>
                             </origin>
                         </history>
                     </msPart>

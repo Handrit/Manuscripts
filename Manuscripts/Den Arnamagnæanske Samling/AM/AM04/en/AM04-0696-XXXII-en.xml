@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,26 +23,66 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="en">Homily</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1485" notAfter="1499">s. XV ex</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary>
+                     <title type="supplied">Viðr&#x0153;ða líkams ok sálar</title></summary>
+                  <msItem n="1" defective="true">
+                     <locus from="1r" to="2v">1r-2v</locus>
+                     <title type="supplied">Viðr&#x0153;ða líkams ok sálar</title>
+                     <textLang mainLang="non"/>
+                     <incipit defective="true">k<ex>onun</ex>g. Skylldí ſu þa taka v<ex>id</ex>
+                           d<ex>ro</ex>ttning<ex>ar</ex> metord<ex>um</ex>
+                     </incipit>
+                     <bibl>Gunnar Harðarson, <ref type="primary" target="GHLitterature">Littérature
+                           et spiritualité en Scandinavie médiévale</ref>
+                        <biblScope unit="page">221-226</biblScope>
+                        <note>Udg. M</note>
+                     </bibl>
+                     <bibl>Widding &amp; Bekker-Nielsen, <ref type="primary"
+                        target="DebateWiddingBekker">A Debate of the Body and the Soul in Old
+                        Norse Literature</ref>
+                        <biblScope unit="page">282-287</biblScope>
+                        <note>Ed. 696</note></bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>2. </extent>
+                        <extent>2. <dimensions type="leaf">
+                              <height unit="mm">226</height>
+                              <width unit="mm">150</width>
+                           </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1475" notAfter="1499"
+                        >s. XV ex</origDate>. According to Gunnar Harðarson (<bibl><ref
+                           type="secondary" target="GHLitterature">Gunnar Harðarson
+                        1995</ref></bibl>) the fragment originates from a scriptorium in Northern
+                     Iceland.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl><ref type="secondary" target="GHLitterature"/>
+                        <biblScope unit="page">46-49</biblScope>
+                        <note>Facsimily of fol. 1r</note>
+                     </bibl>
+                     <bibl><ref type="secondary" target="GunHar2016a"/>
+                        <biblScope unit="page">147</biblScope></bibl>
+                     <bibl><ref type="secondary-1" target="KKKat"/>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">116</biblScope>
+                     </bibl>
+                     <bibl><ref type="secondary" target="DebateWiddingBekker"/>
+                        <biblScope unit="page">275</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
+
             </msDesc>
          </sourceDesc>
       </fileDesc>

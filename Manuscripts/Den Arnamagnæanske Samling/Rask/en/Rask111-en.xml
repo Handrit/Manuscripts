@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,38 +23,85 @@
                      <idno>2687</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">On Greenland and Iceland</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1700" notAfter="1799">s. XVIII</origDate>
-               </head>
+                   
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Islandsk</textLang>
+                  <summary><title type="supplied">Texts Concerning Greenland and
+                     Iceland</title></summary>
+                  <textLang mainLang="is">Icelandic</textLang>
+                  <msItem n="1" class="landfr tyd">
+                     <locus from="1r" to="30r">1-30r</locus>
+                     <author key="HanEge001">Hans Egede</author>
+                     <title type="supplied">Account on Greenland</title>
+                     <rubric>Ný frásögn um Grænland</rubric>
+                     <note>Translation of Egede's <title type="uniform">Det gamle Grønlands ny
+                           Perlustration</title> from <date when="1729">1729</date></note>
+                  </msItem>
+                  <msItem n="2" class="landfr tyd">
+                     <locus from="31r" to="53v">31r-53v</locus>
+                     <author key="LudHol001">Ludvig Holberg</author>
+                     <title type="supplied">Account on Greenland</title>
+                     <rubric>Um<ex>m</ex> Grænland</rubric>
+                     <note>Translation of Holberg's <title type="uniform">Dannemarks Riges
+                           Historie</title> from <date from="1732" to="1735">1732-35</date></note>
+                  </msItem>
+                  <msItem n="3" class="versl deil">
+                     <locus from="54" to="56r">54r-56r</locus>
+                     <title type="supplied">On the Icelandic Trade</title>
+                     <rubric>Um<ex>m</ex> þ&#xA733; Iislendsku kauph&#xE7D3;nd<lb/>lan</rubric>
+                  </msItem>
+                  <msItem n="4" class="liffr">
+                     <locus from="57r" to="62r">57-62r</locus>
+                     <author key="ThoTho005">Þórður Þorláksson</author>
+                     <title type="supplied">On Seals and Whales in the Seas Surrounding Greenland
+                        and Iceland</title>
+                     <rubric>Sela <ex>og</ex> Hvala Kin i Grænlan<lb/>ds <ex>og</ex> Islands Hafi,
+                           m&#xE7D3;n<ex>n</ex>um kun<ex>n</ex>
+                        <lb/>ug ordin<ex>n</ex>, utlagt ur Gr&#xE7D3;nlandia <lb/> Þormöds Thorfa
+                           son<ex>ar</ex>
+                     </rubric>
+                     <note>Fra Þórður Þorlákssons <title type="uniform">Grönlandia</title>.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>62. 
-<dimensions type="leaf" scope="all">
-                              <height>167</height>
-                              <width>106</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>62. <dimensions type="leaf" scope="all">
+                              <height unit="mm">167</height>
+                              <width unit="mm">106</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="JonHal05" scope="sole" script="unknown">
-                        <p>
-Written by Jón Haldórsson.</p>
+                     <handNote scribe="JonHal005" scope="sole" script="unknown">
+                        <p> Written by <name type="person" key="JonHal005">Jón
+                           Haldórsson</name>.</p>
                      </handNote>
                   </handDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>, <origDate notBefore="1700" notAfter="1799"
+                        >s. XVIII</origDate>. The translation of item 2 (ff. 31r-53v) is dated <date
+                        when="1739">1739</date>. A private letter, addressed <name type="person"
+                        key="JonHal005">Jón Halldórsson</name> is used as a flyleaf on which is
+                     noted: <q>Kver S<hi rend="sup">r</hi> Ions Halldorssonar Eigen<ex>n</ex> Hende
+                        skrifad og seirni parturin<ex>n</ex> utlagdur A<hi rend="sup">o</hi>
+                        <date when="1740">1740</date></q>.</origin>
+                  <provenance>In <date when="1779">1779</date> the priest <name type="person"
+                        key="JonJon019">Jón Jónsson</name> of Glæsibær owned the
+                     manuscript.</provenance>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">561</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-19" who="EvaWed001">Updated markup and content.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

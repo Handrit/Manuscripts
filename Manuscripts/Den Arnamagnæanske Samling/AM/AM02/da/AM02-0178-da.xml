@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -22,17 +22,23 @@
                      <idno>264</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Þiðreks saga af Bern</title>; <origPlace>Island</origPlace>, <origDate notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat">s. XVII</origDate>
-               </head>
-               <msContents>
+                <msContents>
+                  <summary><title type="uniform">Þiðreks saga af Bern</title></summary>
                   <msItem n="1" class="fas">
-                     <title type="uniform" xml:lang="is">Þiðreks saga af Bern</title>
+                     <title type="uniform">Þiðreks saga af Bern</title>
                      <textLang mainLang="is"/>
                      <filiation>Formodentlig afskrift af <ref type="ms">Bræðratungubók</ref> i
                         4to, som gik tabt ved <name type="place" key="Copen01">København</name>s
                         brand <date when="1728">1728</date>
                      </filiation>
+                     <bibl>Bertelsen: <ref target="STUAGNL34">Þiðriks saga af Bern</ref>
+                        <biblScope unit="page">1-43, 73-212, 214-350, 352-370</biblScope>
+                        <note>Udg. A.</note></bibl>
+                     <bibl><ref target="GamOrdMenota">Þiðreks saga af Bern</ref>
+                        <note>Fra <ref type="url" target="http://clarino.uib.no/menota/catalogue"
+                           >Menota</ref>. Medtaget er bl. 1r-17r, 47r-49r, 58r-v,
+                           60r-61r, 108r–110r, 123r–124r, 129v–131r, 165r–166v, 174v–185v,
+                           186v–194r.</note></bibl>
                   </msItem>
                </msContents>
                <physDesc>
@@ -43,8 +49,8 @@
                               <material>Papir</material>.</p>
                         </support>
                         <extent>194. <dimensions type="leaf" scope="all" unit="mm">
-                              <height>308</height>
-                              <width>195</width>
+                              <height unit="mm">308</height>
+                              <width unit="mm">195</width>
                            </dimensions>.</extent>
                         <foliation>
                            <p>Folieret 1-194 med rødt blæk af <name type="person" key="KriKaa001">Kristian Kålund</name>.</p>
@@ -72,9 +78,9 @@
                         <p>Indbundet i et <term type="binding">BD-standardbind</term> fra <date when="1968">1968</date> med brun lærredsryg og -hjørner. Overtræk af
                            gråbrunt lærred. Bladene på knækfalse af indfarvet japanpapir.
                               <dimensions type="binding" unit="mm">
-                              <height>311</height>
-                              <width>215</width>
-                              <depth>41</depth>
+                              <height unit="mm">311</height>
+                              <width unit="mm">215</width>
+                              <depth unit="mm">41</depth>
                            </dimensions>
                         </p>
                      </binding>
@@ -93,11 +99,12 @@
                         <date when="1708">1708</date>
                   </accMat>
                </physDesc>
+               <history><origin><origPlace>Island</origPlace>, <origDate notBefore="1600" notAfter="1699" evidence="conjecture" resp="KKKat">s. XVII</origDate>.</origin></history>
                <additional>
                   <listBibl>
                      <bibl>Kålund: <ref target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">144-45</biblScope>
+                        <biblScope unit="page">144-45</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,40 +23,56 @@
                      <idno>2055</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">Register over islandske rímur</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1850" notAfter="1899">s. XIX 2/2</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">Register of Icelandic Rímur</title></summary>
                   <msItem n="1">
-                     <author>
-                        <name type="person" key="JonSig004">Jón Sigurðsson</name>
-                     </author>
+                     <author key="JonSig004">Jón Sigurðsson</author>
+                     <title type="supplied">Register of Icelandic Rímur</title>
                      <textLang mainLang="da">Danish</textLang>
+                     <rubric>Jón Sigurðsson, register over islandske rímur</rubric>
+                     <filiation>Copied from the original register, written on slips in Jón
+                        Sigurðsson's manuscript collection.</filiation>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Paper.</support>
-                        <extent>129. 
-<dimensions type="leaf" scope="all">
-                              <height>220</height>
-                              <width>177</width>
+                        <extent>129. + title page + enclosed slips. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">220</height>
+                              <width unit="mm">177</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc hands="1">
-                     <handNote scribe="EirJon01" scope="sole" script="unknown">
-                        <p>Written by Eiríkur Jónsson.</p>
+                     <handNote scribe="EirJon001" scope="sole" script="unknown">
+                        <p>Written by <name type="person" key="EirJon001">Eiríkur
+                           Jónsson</name>.</p>
                      </handNote>
                   </handDesc>
+                  <additions>A list of authors, made by <name type="person" key="JonTho010">Jón
+                        Þorkelsson</name>, is enclosed.</additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Denmark</origPlace>, <origDate notBefore="1850" notAfter="1899"
+                        >s. XIX<hi rend="sup">2</hi></origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">264</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2022-03-29" who="EvaWed001">Updated.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

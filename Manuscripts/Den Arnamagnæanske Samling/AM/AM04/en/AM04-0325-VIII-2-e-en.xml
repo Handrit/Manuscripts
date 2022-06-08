@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,25 +23,27 @@
                             <idno>1066</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Ólafs saga Tryggvasonar</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1376" notAfter="1399" cert="high" evidence="conjecture">s. XIV 4/4</origDate>
-                        <note>According to <name type="person" key="OlaHal001">Ólafur
-                                Halldórsson</name> AM 325 VIII 2c, 2e, 2 f, 2g and 2h 4to once
-                            belonged to the same codex.</note>
-                    </head>
                     <msContents>
-                        <msItem class="kon" defective="true">
+                        <summary><title type="uniform">Ólafs saga Tryggvasonar</title></summary>
+                        <msItem n="1" class="kon" defective="true">
                             <locus from="1ra" to="1rb">1ra-1rb</locus>
-                            <title>Ólafs saga Tryggvasonar</title>
-                            <textLang mainLang="is">Icelandic</textLang>
+                            <title type="uniform">Ólafs saga Tryggvasonar</title>
+                            <textLang mainLang="non"/>
                             <incipit defective="true">ero blotadir. Nu vil ek senda þik</incipit>
                             <explicit defective="true">avdgvldanda<gap reason="damage"/>
-                     </explicit>
-                            <bibl>
-                        <ref type="primary-1" target="EA-A2">Ólafs saga Tryggvasonar en
-                                    Mesta</ref> II, pp. 17:12-25:15</bibl>
+                            </explicit>
+                            <bibl>Bjarni Einarsson, <ref type="primary" target="STUAGNL64">Hallfreðar saga</ref>
+                                <note>Var.app. E.</note></bibl>
+                            <bibl>Ólafur Halldórsson, <ref type="primary-1" target="EA-A1">Ólafs
+                                    saga Tryggvasonar en Mesta</ref>
+                                <biblScope unit="volume">I</biblScope>
+                                <note>Var. app. C<hi rend="sup">4</hi></note>
+                            </bibl>
+                            <bibl>Ólafur Halldórsson, <ref type="primary-1" target="EA-A2">Ólafs
+                                    saga Tryggvasonar en Mesta</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <note>Var. app. C<hi rend="sup">4</hi></note>
+                            </bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -51,10 +54,10 @@
                                         <material>Parchment</material>.</p>
                                 </support>
                                 <extent>1. <dimensions scope="all" type="leaf">
-                                        <height>225-235</height>
-                                        <width>210-213</width>
+                                        <height unit="mm">225-235</height>
+                                        <width unit="mm">210-213</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
                                     <p>The leaf bear traces of it former use as binding where
                                         ploughing of the lower part have caused a loss of text.</p>
@@ -62,11 +65,11 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" writtenLines="41">
-                                    <p>The manuscript is written in double columns. The columns once
+                                    <p>Written in double columns. The columns once
                                         consisted of 41 lines and the size of each column is
                                         approximately <dimensions type="written" scope="range">
-                                            <height>220</height>
-                                            <width>80</width>
+                                            <height unit="mm">220</height>
+                                            <width unit="mm">80</width>
                                         </dimensions>. Only the traces of rubrics are left on 1r.
                                         The traces of a red and a yellow majuscule is left on f.
                                         1r.</p>
@@ -80,32 +83,42 @@
                         </handDesc>
                     </physDesc>
                     <history>
-                        <origin notBefore="1376" notAfter="1399" cert="high" evidence="conjecture">
-                            <p>The manuscript is written in <origPlace>Iceland</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name> has dated
-                                it to c<origDate>. 1400</origDate>, whereas <name type="person" key="OlaHal001">Ólafur Halldórsson</name> has dated it more
-                                precisely to <origDate notBefore="1376" notAfter="1399" cert="high" evidence="conjecture">the fourth quarter of the fourteenth
-                                    century</origDate>.</p>
+                        <origin>
+                            <p>The manuscript is written in <origPlace>Iceland</origPlace>
+                                <origDate notBefore="1390" notAfter="1410">c. 1400</origDate>.</p>
+                            <p>According to <bibl>
+                                    <ref type="secondary-1" target="EA-A3">Ólafur Halldórsson
+                                        2000</ref>
+                                    <biblScope unit="page">clv</biblScope>
+                                </bibl>, <ref type="ms" target="AM04-0325-VIII-2-c-en">AM 325 VIII 2
+                                    c 4to</ref>, AM 325 VIII 2 e 4to, <ref type="ms"
+                                    target="AM04-0325-VIII-2-f-en">AM 325 VIII 2 f 4to</ref>, <ref
+                                    type="ms" target="AM04-0325-VIII-2-g-en">AM 325 VIII 2 g
+                                    4to</ref> and <ref type="ms" target="AM04-0325-VIII-2-h-en">AM
+                                    325 VIII 2 h 4to</ref> originally belonged to the same
+                                codex.</p>
                         </origin>
                         <provenance>
-                            <p>The only known owner is <name type="person" key="SnoJon002">Snorri
-                                    Jónsson</name>.</p>
+                            <p>The only known owner of this fragment is <name type="person"
+                                    key="SnoJon002">Snorri Jónsson</name>.</p>
                         </provenance>
                         <acquisition>
                             <p>In the left margin of fol. 1r Árni Magnússon has noted: <q>Fra Snorra
                                     Jonssyne <date>1721</date>
-                        </q>.</p>
+                                </q>.</p>
                         </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date>01.03.2000.</date>by <name type="person" key="EvaWed001">EW-J</name>. Parsed
-                                            <date>29.06.2000</date>.</p>
+                                    <p>Catalogued <date when="2000-03-01">01.03.2000</date> by <name
+                                            type="person" key="EvaWed001">EW-J</name>. </p>
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
                                     <p>From the 2 March 1958 to 4 April 1959 the manuscript was set
                                         on meeting guards and put in a cover.</p>
                                 </custEvent>
@@ -113,40 +126,39 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositives</title>
-                                        <idno>AM 325 VIII 2e 4to</idno>
-                                        <date>May 1984 (or 1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <date>October 1956</date>
-                                        <idno>AM 325 VIII 2 e 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item>Plate, <idno>plade37</idno>, s.d.</item>
+                                    <item>Diapositives from <date notBefore="1984-05"
+                                            notAfter="1985-05">May 1984 or 1985</date>.
+                                    </item>
+                                    <item>Black and white prints from <date when="1956-10">October
+                                            1956</date>.
+                                    </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
                             <bibl>
-                        <ref type="secondary" target="Rit15">Bjarni Einarsson 1977</ref>,
-                                pp. xlvi-xlviii</bibl>
+                                <ref type="secondary" target="Rit15">Bjarni Einarsson 1977</ref>,
+                                <biblScope unit="page">xlvi-xlviii</biblScope></bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">559</biblScope>
+                            </bibl>
                             <bibl>
                                 <ref type="secondary" target="Morgenstern1892">Morgenstern,
                                     1892</ref>
                             </bibl>
                             <bibl>
                                 <ref type="secondary-1" target="EA-A3">Ólafur Halldórsson 2000</ref>
+                                <biblScope unit="page">xvii, xix-xxi, clv, clvi, clviii-clxiii</biblScope>
                             </bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc><change when="2021-11-29" who="EvaWed001">Updated.</change></revisionDesc>
     </teiHeader>
     <facsimile>
         <surface/>

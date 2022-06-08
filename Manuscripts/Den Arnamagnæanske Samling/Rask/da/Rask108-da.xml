@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,56 +23,75 @@
                      <idno>2684</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied">Teologisk håndskrift</title>; <origPlace>Island</origPlace>,
-            <origDate notBefore="1690" notAfter="1710">ca. 1700</origDate>.</head>
                <msContents>
-                  <msItem n="1">
-                     <locus from="1" to="30">1-30</locus>
-                     <title type="supplied" xml:lang="da">Om præsten og prediken</title>
+                  <summary><title type="supplied">Teologisk håndskrift</title>.</summary>
+                  <msItem n="1" class="gudfr">
+                     <locus from="1r" to="30v">1r-30v</locus>
+                     <title type="supplied" xml:lang="da">Om præsten og prædikenen</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <rubric>Um prest og predikun</rubric>
                   </msItem>
-                  <msItem n="2">
-                     <locus from="31" to="49">31-49</locus>
-                     <author>Páll Björnsson</author>
-                     <title type="supplied" xml:lang="is">Om kross etc.</title>
+                  <msItem n="2" class="gudfr">
+                     <locus from="31r" to="49v">31r-49v</locus>
+                     <author key="PalBjo001">Páll Björnsson</author>
+                     <title type="supplied" xml:lang="is">Om korset, korsfæstelsen og korsets
+                        tegn</title>
                      <textLang mainLang="is">Islandsk</textLang>
                      <rubric>Um kross, krossfesting og krossmark</rubric>
                   </msItem>
-                  <msItem n="3">
-                     <locus from="50" to="62">50-62</locus>
+                  <msItem n="3" class="gudfr">
+                     <locus from="50r" to="62v">50r-62v</locus>
+                     <author>Matthias Chr.</author>
+                     <title type="uniform">Compendium itinerarii salvatoris</title>
                      <textLang mainLang="la">Latin</textLang>
-                     <rubric>Compendium Itinerarii Salvato<lb/>ris ex Chemnitio et Chr. Matthia</rubric>
+                     <rubric>Compendium Itinerarii Salvato<lb/>ris ex Chemnitio et Chr.
+                        Matthia</rubric>
                   </msItem>
-                  <msItem n="4">
-                     <locus from="63" to="83r">63-83r</locus>
-                     <author>Biskup <name type="person" key="BrySve001">Brynjólfur Sveinsson</name>
-                     </author>
+                  <msItem n="4" class="trul">
+                     <locus from="63r" to="83r">63r-83r</locus>
+                     <author key="BrySve001">Biskop Brynjólfur Sveinsson</author>
+                     <title type="uniform" xml:lang="la">De cruce Carmen Votivum</title>
+                     <title type="uniform" xml:lang="is">Krosskvæði</title>
                      <textLang mainLang="la">Latin</textLang>
                      <rubric>De Cruce <lb/> CARMEN VOTIVUM</rubric>
                   </msItem>
-                  <msItem n="5">
+                  <msItem n="5" class="pred">
                      <locus from="83v" to="101r">83v-101r</locus>
+                     <author key="JohGer002">Johannes Gerhardi</author>
+                     <title type="uniform">Lectio scripturæ sanctæ</title>
                      <textLang mainLang="la">Latin</textLang>
                      <rubric>Joh. Gerh., De Lectione Scripturæ Sanctæ</rubric>
                   </msItem>
-                  <msItem n="6">
-                     <locus from="103" to="123r">103-123r</locus>
-                     <author>Páll Björnsson</author>
+                  <msItem n="6" class="pred">
+                     <locus from="103r" to="123r">103r-123r</locus>
+                     <author key="PalBjo001">Páll Björnsson</author>
+                     <title type="supplied">Prædiken om kometen i 1680</title>
                      <textLang mainLang="la">Latin</textLang>
                      <rubric>Homilia de cometa 1680</rubric>
                   </msItem>
-                  <msItem n="7">
-                     <locus from="125" to="140r">125-140r</locus>
+                  <msItem n="7" class="embr">
+                     <locus from="125r" to="140r">125r-140r</locus>
+                     <title type="supplied">Officielt brev</title>
                      <textLang mainLang="is">Islandsk</textLang>
-                     <rubric>Bref Pröfastsens Sr; Pls Biørnssonar. Tilskrifad Iöne Ulfssyne</rubric>
-                     <note>1671</note>
+                     <rubric>Bref Pröfastsens Sr; P&#xA733;ls Biørnssonar. Tilskrifad Iöne
+                        Ulfssyne</rubric>
+                     <note><date when="1671">1671</date></note>
+                     <respStmt>
+                        <resp key="crp"/>
+                        <name type="person" key="PalBjo001">Páll Björnsson</name>
+                     </respStmt>
+                     <respStmt>
+                        <resp key="rcp"/>
+                        <name type="person" key="JonUlf001">Jón Úlfsson</name>
+                     </respStmt>
                   </msItem>
-                  <msItem n="8">
-                     <locus from="141" to="150">141-150</locus>
-                     <textLang mainLang="la">Latin</textLang>
+                  <msItem n="8" class="sidfr tyd">
+                     <locus from="141r" to="150v">141r-150v</locus>
+                     <title type="uniform">Hugsvinnsmál</title>
+                     <title type="unform">Disticha Catonis</title>
+                     <textLang mainLang="is">Islandsk</textLang>
                      <rubric>CATONIS DISTICHA MORALIA</rubric>
+                     <note>Skrevet på langs.</note>
                   </msItem>
                </msContents>
                <physDesc>
@@ -81,21 +101,40 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>150. Bl. 101v-2, 123v-24 er 140v ubeskrevet. <dimensions type="leaf" scope="all">
-                              <height>165</height>
-                              <width>105</width>
+                        <extent>150. Bl. 101v-102v, 123v-24v og 140v er blanke. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">165</height>
+                              <width unit="mm">105</width>
                            </dimensions>.</extent>
                      </supportDesc>
-                     <layoutDesc>
-                        <layout columns="1">
-                           <p>Bl. 141-150 er beskrevne på langs.</p>
-                        </layout>
-                     </layoutDesc>
                   </objectDesc>
+                  <handDesc n="9">
+                     <handNote script="unknown"><p>Skrevet af forskellige hænder.</p></handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <binding>
+                        <p>Materialet til begge spejle er genanvendte stumper af privatbreve, som er
+                           adresseret til præsten <name type="person" key="BenPet001">Benedikt
+                              Pétursson</name> til Hestur</p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Island</origPlace>, <origDate notBefore="1690" notAfter="1710"
+                        >ca. 1700</origDate></origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Jón Þorkelsson: <ref target="JonThork1888">Om digtningen på Island i det
+                           15. og 16. Århundrede</ref><biblScope unit="page">114</biblScope></bibl>
+                     <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                           >II</biblScope><biblScope unit="page">560</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc><change when="2021-10-18" who="EvaWed001">Opdateret opmærkning of indhold.</change></revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>

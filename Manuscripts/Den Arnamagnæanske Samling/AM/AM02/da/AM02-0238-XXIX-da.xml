@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,32 +23,29 @@
                             <idno>360</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Fragment af en prædiken</title>
-                        <origPlace>Island</origPlace>
-                        <origDate notBefore="1520" notAfter="1540">ca. 1520-1540</origDate>
-                    </head>
                     <msContents>
-                        <msItem defective="true">
+                        <summary><title type="supplied">Fragment af en prædiken</title></summary>
+                        <msItem n="1" class="pred" defective="true">
                             <author>Christiern Pedersen</author>
                             <title type="supplied" xml:lang="da">Jærtegnspostil</title>
-                            <note>Fragmentet indeholder en islandsk oversættelse af <title type="supplied">Christiern Pedersens Jærtegnspostil</title>, som
+                            <note>Fragmentet indeholder en islandsk oversættelse af <title
+                                    type="supplied">Christiern Pedersens Jærtegnspostil</title>, som
                                 først var trykt i <name type="place" key="Paris01">Paris</name> i
-                                    <date when="1515">1515</date> og senere i <name type="place" key="Leipzi01">Leipzig</name> i <date when="1518">1518</date>.
+                                    <date when="1515">1515</date> og senere i <name type="place"
+                                    key="Leipz01">Leipzig</name> i <date when="1518">1518</date>.
                                 Den islandske oversættelse er baseret på den anden udgave.</note>
                             <textLang mainLang="non">Norrønt/islandsk</textLang>
                             <incipit defective="true">
-                        <supplied reason="damage">kro</supplied>ssen<ex>n</ex> langa f<ex>ri</ex>a dag af
-                                    i<ex>e</ex>r<ex>usa</ex>l<ex>e</ex>m</incipit>
+                                <supplied reason="damage">kro</supplied>ssen<ex>n</ex> langa
+                                    f<ex>ri</ex>a dag af
+                                i<ex>e</ex>r<ex>usa</ex>l<ex>e</ex>m</incipit>
                             <explicit defective="true">eitt darl<ex>e</ex>gt hiarta m<ex>ann</ex>z
                                 er s<ex>e</ex>m <supplied reason="damage">eitt</supplied> kær
                                 brotid</explicit>
-                            <listBibl>
                                 <bibl>Stefán Karlsson: <ref target="StefKarl15">Brudstykker af
                                         Christiern Pedersens Jærtegnspostil i islandsk
                                         oversættelse</ref>
                                 </bibl>
-                            </listBibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -59,22 +57,36 @@
                                     </p>
                                 </support>
                                 <extent>1. <dimensions type="leaf" scope="all">
-                                        <height>242</height>
-                                        <width>173</width>
+                                        <height unit="mm">242</height>
+                                        <width unit="mm">173</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <bindingDesc>
                             <binding contemporary="false">
                                 <p>Gråt papomslag: <dimensions type="binding" unit="mm">
-                                        <height>296</height>
-                                        <width>249</width>
+                                        <height unit="mm">296</height>
+                                        <width unit="mm">249</width>
                                     </dimensions>
-                        </p>
+                                </p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Island</origPlace>,
+                            <origDate notBefore="1520" notAfter="1540">ca. 1520-1540</origDate>.
+                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">I</biblScope>
+                                <biblScope unit="page">205</biblScope>
+                            </bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

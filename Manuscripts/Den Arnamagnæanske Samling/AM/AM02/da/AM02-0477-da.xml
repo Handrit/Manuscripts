@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,20 +23,15 @@
                             <idno>635</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied">Catalogus Librorum Msstorum Arnæ Magnæi</title>
-                        <origPlace>Danmark</origPlace>
-                        <origDate notBefore="1721" notAfter="1741">ca. 1731</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
+                        <summary><title type="supplied">Catalogus Librorum Msstorum Arnæ
+                                Magnæi</title>
+                            <note>Fortegnelse over <name type="person" key="ArnMag001">Arne
+                                    Magnusson</name>s håndskrifter.</note></summary>
+                        <msItem n="1">
                             <author key="JonOla001">Jón Ólafsson</author>
                             <title type="supplied">Catalogus Librorum Msstorum Arnæ Magnæi</title>
-                            <textLang mainLang="is" otherLangs="da la">Islandsk, dansk og
-                                latin</textLang>
-                            <note>Fortegnelse over <name type="person" key="ArnMag001">Arne
-                                    Magnusson</name>s efterladte håndskrifter, med forbigåelse af de
-                                trykte bøger.</note>
+                            <textLang mainLang="is" otherLangs="da la"/>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -46,31 +42,41 @@
                                         <material>Papir.</material>
                                     </p>
                                 </support>
-                                <extent>73 (+ de senere indlagte a-d). <dimensions type="leaf" scope="all">
-                                        <height>330</height>
-                                        <width>207</width>
+                                <extent>73 (+ de senere indlagte a-d). <dimensions type="leaf"
+                                        scope="all">
+                                        <height unit="mm">330</height>
+                                        <width unit="mm">207</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
                             <handNote scope="sole" script="unknown">
                                 <p>Skrevet af <name type="person" key="JonOla003">Jón Ólafsson from
-                                        Grunnavík</name> eller <name type="person" key="JonTho008">Jón Þorkelsson</name>.</p>
+                                        Grunnavík</name> eller <name type="person" key="JonTho008"
+                                        >Jón Þorkelsson</name>.</p>
                             </handNote>
                         </handDesc>
                         <additions>
                             <p>Forøget i tidens løb med adskillige tilføjelser og rettelser af
                                 biblioteksembedsmænd og Arnamagnæanske stipendiarar.</p>
                             <p>I kataloget findes efterfølgende marginalhenvisninger, der angiver de
-                                enkelte formaters (fol. 4to, 8vo, 12mo) orden: <!-- <q>Hi&#x17F;toria I<hi rend="sup">o</hi> Danica (Libri Hi&#x17F;torici) </q> --></p>
+                                enkelte formaters (fol. 4to, 8vo, 12mo) orden:
+                                <!-- <q>Hi&#x17F;toria I<hi rend="sup">o</hi> Danica (Libri Hi&#x17F;torici) </q> --></p>
                         </additions>
                     </physDesc>
                     <history>
                         <origin>Skrevet i <origPlace>Danmark</origPlace>
-                            <origDate notBefore="1721" notAfter="1741" cert="high" evidence="external">ca. 1731</origDate>. Eksemplaret er beregnet til
+                            <origDate notBefore="1721" notAfter="1741" cert="high"
+                                evidence="external">ca. 1731</origDate>. Eksemplaret er beregnet til
                             biblioteksbrug.</origin>
                     </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Kålund: <ref target="KKKat">Katalog</ref><biblScope unit="volume"
+                                    >I</biblScope><biblScope unit="page">333</biblScope></bibl>
+                        </listBibl>
+                    </additional>
                 </msDesc>
             </sourceDesc>
         </fileDesc>

@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,26 +23,48 @@
                      <idno>1741</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform" xml:lang="is">Andreas saga postola</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1400" notAfter="1499">s. XV</origDate>
-               </head>
                <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
+                  <summary><title type="uniform" xml:lang="is">Andreas saga
+                     postola</title></summary>
+                  <msItem n="1" class="hels">
+                     <locus from="1r" to="2v">1r-2v</locus>
+                     <title type="uniform" xml:lang="is">Andreas saga postola</title>
+                     <textLang mainLang="non"/>
+                     <note>On fol. 2r the following beginning of a chapter is found:</note>
+                     <msItem n="1.1">
+                        <incipit>En e<ex>r</ex> hin h<ex>eilagi</ex> and<ex>reas</ex>
+                              p<ex>ostuli</ex> ko<ex>m</ex> t<ex>il</ex> þ<ex>ess</ex>
+                              ſtad<ex>ar</ex> er kroſſi<supplied reason="unknown"
+                           >nn</supplied></incipit>
+                     </msItem>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Parchment.</p>
+                           <p><material>Parchment</material>.</p>
                         </support>
-                        <extent>2. </extent>
-                     </supportDesc>
+                        <extent>2. <dimensions type="leaf" unit="mm">
+                              <height unit="mm">150</height>
+                              <width unit="mm">115</width>
+                           </dimensions>.</extent>
+                        <collation>The leaves are conjoint.</collation>
+                          </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin><origPlace>Iceland</origPlace>,
+                     <origDate notBefore="1400" notAfter="1499">s. XV</origDate>.</origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">112</biblScope>
+                     </bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

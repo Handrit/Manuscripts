@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,50 +23,45 @@
                             <idno>1646</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="supplied" xml:lang="en">Fragment of an Icelandic
-                            breviary</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1200" notAfter="1250">s. XIII 1/2</origDate>
-                        <note>Fol. 1, 4 olim AM 686 b 4to.</note>
-                    </head>
                     <msContents>
+                        <summary><title type="supplied" xml:lang="en">Fragment of an Icelandic
+                            Breviary</title><note>Fols 1 and 4 are transferred from <ref type="ms" target="#AM04-0686-b-en">AM 686 b
+                                4to</ref>.</note></summary>
                         <msItem n="1" defective="true">
+                            <locus from="1r" facs="#AM04-0655-XXI-0001r" to="4v"/>
                             <title type="supplied" xml:lang="en">Fragment of an Icelandic
                                 breviary</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <textLang mainLang="non">Old Norse/Icelandic</textLang>
                             <incipit defective="true">h<expan>ann</expan> þar mavrg</incipit>
                             <explicit defective="true">en er lyþr</explicit>
-                            <listBibl>
-                                <bibl>
+                                 <bibl>
                                     <ref type="primary-1" target="Leifar1878">Leifar fornra
                                         kristinna fræða íslenzkra</ref>
                                     <biblScope unit="pages">167-72</biblScope>
                                 </bibl>
-                            </listBibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>
-                                    <p>Parchment.</p>
+                                    <p><material>Parchment</material>.</p>
                                 </support>
                                 <extent>4. <dimensions type="leaf" scope="all">
-                                        <height>200</height>
-                                        <width>141</width>
-                                    </dimensions>
-                        </extent>
+                                    <height unit="mm">200</height>
+                                    <width unit="mm">141</width>
+                                </dimensions>
+                                </extent>
                                 <condition>
-                                    <p>Of the two conjoint leaves, ff. 1 and 4, once inserted in
-                                            <ref>AM 686 b 4to</ref>, only the upper 8 lines are
-                                        preserved. Fols. 2 and 3 have smaller damages at the bottom.
-                                        Lacuna after (1? and) 2. </p>
+                                    <p>Only the top eight lines of the two conjoint leaves 1+4, previously a part of
+                                        <ref type="ms" target="#AM04-0686-b-en">AM 686 b
+                                            4to</ref>, are preserved. Fols. 2
+                                        and 3 have smaller damages at the bottom.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1">
-                                    <p>Written in long lines. Initials in various colours, traces of
+                                    <p>Written in long lines. Initials in various colours, faint
                                         red rubrics.</p>
                                 </layout>
                             </layoutDesc>
@@ -73,29 +69,34 @@
                     </physDesc>
                     <history>
                         <origin notBefore="1200" notAfter="1250" cert="high" evidence="conjecture">
-                            <p>Written in Iceland. <name type="person" key="KriKaa001">Kålund</name> (<bibl>
-                                    <ref type="secondary-1" target="KKKat">Katalog over Den
-                                        Arnamagnæanske Håndskriftsamling</ref>
-                                </bibl>) dated it the thirteenth century, whereas <name type="person" key="HreBen001">Hreinn Benediktsson</name> (<bibl>
+                            <p>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1200" notAfter="1250">the first half of the
+                                thirteenth century</origDate> (<bibl>
                                     <ref type="secondary-1" target="IHFol2">Hreinn Benediktsson
                                         1965</ref>
                                     <biblScope unit="pages">xxix</biblScope>
-                                </bibl>) later dated it more correctly to the first half of the
-                                thirteenth century.</p>
+                                </bibl>). <name type="person" key="KriKaa001">Kålund</name>'s
+                                dating: The thirteenth century (<bibl>
+                                    <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                    <biblScope unit="volume">II</biblScope>
+                                    <biblScope unit="page">64</biblScope>
+                                </bibl>).</p>
                         </origin>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date>12-08-2003</date> by <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                    <p>Catalogued <date when="2003-08-12">12-08-2003</date> by <name type="person" key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                         </adminInfo>
                         <listBibl>
+                            <bibl><ref type="secondary-1" target="KKKat"/>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">64</biblScope>
+                            </bibl>
                             <bibl>
-                                <ref type="primary-2" target="OrdbogBNW">Widding and
-                                    Bekker-Nielsen</ref>
+                                <ref type="secondary" target="OrdbogBNW"/>
                                 <biblScope unit="pages">343-44</biblScope>
                             </bibl>
                         </listBibl>

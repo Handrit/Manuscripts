@@ -1,52 +1,203 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">AM 668 4to</title>
-         </titleStmt>
-         <publicationStmt>
-            <authority>Den Arnamagnæanske Samling</authority>
-            <pubPlace>København</pubPlace>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc xml:id="AM04-0668-en" xml:lang="en">
-               <msIdentifier>
-                  <country>Denmark</country>
-                  <settlement>København</settlement>
-                  <institution key="AMS"/>
-                  <repository>Den Arnamagnæanske Samling</repository>
-                  <collection key="AM"/>
-                  <idno>AM 668 4to</idno>
-                  <altIdentifier type="internal" subtype="KKKat">
-                     <idno>1665</idno>
-                  </altIdentifier>
-               </msIdentifier>
-               <head>
-                  <title type="supplied" xml:lang="is">Heilagra manna sögur</title>
-                  <origPlace>Iceland</origPlace>
-                  <origDate notBefore="1400" notAfter="1499">s. XV; s. XVI (1ra-1rb), s. XV 1/2 (1va-4vb) (ONP)</origDate>
-               </head>
-               <msContents>
-                  <msItem>
-                     <textLang mainLang="is">Icelandic</textLang>
-                  </msItem>
-               </msContents>
-               <physDesc>
-                  <objectDesc form="codex">
-                     <supportDesc material="chart">
-                        <support>
-                           <p>Parchment</p>
-                        </support>
-                        <extent>4. </extent>
-                     </supportDesc>
-                  </objectDesc>
-               </physDesc>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">AM 668 4to</title>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Den Arnamagnæanske Samling</authority>
+				<pubPlace>København</pubPlace>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:id="AM04-0668-en" xml:lang="en">
+					<msIdentifier>
+						<country>Denmark</country>
+						<settlement>København</settlement>
+						<institution key="AMS"/>
+						<repository>Den Arnamagnæanske Samling</repository>
+						<collection key="AM"/>
+						<idno>AM 668 4to</idno>
+						<altIdentifier type="internal" subtype="KKKat">
+							<idno>1665</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary><title type="supplied">Miscellany</title></summary>
+						<msItem n="1" class="logfr">
+							<locus from="1ra" facs="#AM04-0668-1ra" to="1rb">1ra-rb</locus>
+							<note>Supplement from the sixteenth century</note>
+							<msItem n="1.1" class="logfr">
+								<locus from="1ra" facs="#AM04-0668-1ra" to="1ra">1ra</locus>
+								<title type="supplied">On Perjury</title>
+								<textLang mainLang="is"/>
+								<incipit>Hu<ex>er</ex> ſem ſu<ex>er</ex> rangan<ex>n</ex>
+										bok<ex>ar</ex> eid</incipit>
+								<bibl>Bekker-Nielsen, <ref type="primary-1" target="HanBek1960">Et
+										brudstykke af Kongespejlet</ref>
+									<biblScope unit="page">107:29-108:8</biblScope>
+								</bibl>
+							</msItem>
+							<msItem n="1.2" class="logfr">
+								<locus from="1ra" facs="#AM04-0668-1ra" to="1rb">1ra-rb</locus>
+								<title type="supplied">Formula for Establishing the District
+									Assembly</title>
+								<textLang mainLang="is"/>
+								<bibl>Bekker-Nielsen: <ref type="primary-1" target="HanBek1960">Et
+										brudstykke af Kongespejlet</ref>
+									<biblScope unit="page">108:9-27</biblScope>
+								</bibl>
+							</msItem>
+							<msItem n="1.3" class="logfr">
+								<locus from="1rb" facs="#AM04-0668-1rb" to="1rb">1rb</locus>
+								<title type="supplied">Formula for Ending the District
+									Assembly</title>
+								<textLang mainLang="is"/>
+								<bibl>Bekker-Nielsen: <ref type="primary-1" target="HanBek1960">Et
+										brudstykke af Kongespejlet</ref>
+									<biblScope unit="page">108:28-109:6</biblScope>
+								</bibl>
+							</msItem>
+						</msItem>
+						<msItem n="2" defective="true" class="sidfr kenb">
+							<locus from="1va" facs="#AM04-0668-1va" to="1vb">1va-vb</locus>
+							<title type="uniform" xml:lang="la">Speculum regale</title>
+							<title type="uniform" xml:lang="is">Konungs skuggsjá</title>
+							<textLang mainLang="non"/>
+							<note>Described as <title type="supplied">Opbyggelige
+									betragtninger</title> (Contemplations for Edification) and <q xml:lang="da">vistnok en prologus</q> (possibly a prologue) in
+								Kålund's Catalogue <bibl>
+									<ref type="secondary-1" target="KKKat">Katalog</ref>
+									<biblScope unit="volume">II</biblScope>
+									<biblScope unit="page">82</biblScope>
+								</bibl>. </note>
+							<incipit>ſkavm<ex>m</ex> vid ſkilizt</incipit>
+						</msItem>
+						<msItem n="3" class="regist">
+							<locus facs="#AM04-0668-0001v">1v</locus>
+							<title type="supplied">Index</title>
+							<note>Written when the codex was complete</note>
+							<bibl>Bekker-Nielsen: <ref type="primary-1" target="HanBek1960">Et
+									brudstykke af Kongespejlet</ref>
+								<biblScope unit="page">109:11-15</biblScope>
+							</bibl>
+						</msItem>
+						<msItem n="4" defective="true" class="hels">
+							<locus from="3ra" facs="#AM04-0668-3ra" to="3vb">3ra-vb</locus>
+							<title type="uniform" xml:lang="la">Vitæ patrum</title>
+							<title type="uniform" xml:lang="is">Heilagra feðra æfi</title>
+							<textLang mainLang="non"/>
+							<incipit defective="true">þ<ex>e</ex>tta ſagd<supplied reason="unknown">i</supplied> h<ex>an</ex>n</incipit>
+							<explicit defective="true">til i<ex>n</ex>s heilaga fav<gap reason="damage"/>
+							</explicit>
+							<bibl>Unger: <ref type="primary" target="HMS1877">Heilagra Manna
+									Søgur</ref>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="page">534-542</biblScope>
+								<note>Ed. Fr</note>
+							</bibl>
+						</msItem>
+						<msItem n="5" defective="true" class="hels">
+							<locus from="2ra" facs="#AM04-0668-2ra" to="2vb">2ra-2vb</locus>
+							<locus from="4ra" facs="#AM04-0668-4ra" to="4vb">4ra-4vb</locus>
+							<title type="uniform">Barlaams saga ok Jósafats</title>
+							<textLang mainLang="non"/>
+							<bibl>Rindal: <ref type="primary" target="NT4">Barlaams ok Josaphats
+									saga</ref>
+								<note>Ed. m</note>
+							</bibl>
+							<msItem n="5.1">
+								<locus from="2ra" facs="#AM04-0668-2ra" to="2vb">2ra-vb</locus>
+								<incipit defective="true">
+									<gap reason="damage"/> vid ath ſkirazt j vatne</incipit>
+								<explicit defective="true">j okvn<ex>n</ex>an<ex>n</ex> ſtadþa<gap reason="damage"/>
+								</explicit>
+							</msItem>
+							<msItem n="5.2">
+								<locus from="4ra" facs="#AM04-0668-4ra" to="4vb">4ra-vb</locus>
+								<incipit defective="true">
+									<gap reason="damage"/>ath þ<ex>ei</ex>r gledizt</incipit>
+								<explicit defective="true">er ek hefi ſva haleitv<ex>m</ex>
+										h<ex>er</ex>ra</explicit>
+							</msItem>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>
+									<p><material>Parchment</material>. Fol. 1r is a palimpsest.</p>
+								</support>
+								<extent>4. <dimensions type="leaf" scope="all" unit="mm">
+										<height unit="mm">270</height>
+										<width unit="mm">196</width>
+									</dimensions></extent>
+								<condition>The four leaves are badly worn and crumbling and damaged
+									due to trimming of the leaves. The bottom half of fol. 2 is
+									excised. At places the text is illegible due to wear and
+									tear.</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="2">Written in two columns. Rubrics in red ink,
+									initials in various colours of ink.</layout>
+							</layoutDesc>
+						</objectDesc>
+						<accMat>On an AM-slip, a copy of the aforementioned index in <name type="person" key="ArnMag001">Árni Magnússon</name>'s hand is found:
+								<q xml:lang="is">Fyſt  þeſſi bok er vitas patrv<ex>m</ex>. þa
+									æ<supplied reason="damage">u</supplied>entyrid af <lb/>
+									iungf<ex>ru</ex> ſ<ex>anct</ex>e Marie v<ex>m</ex> favſtuna
+									an<ex>n</ex>vnciacions æuentyr <lb/> af ſancte avn<ex>n</ex>v
+								hver h<ex>an</ex>a, heid<ex>ra</ex>r vpp  þr<supplied reason="unknown">idi</supplied>o dag. Ep<lb/>ter þ<ex>at</ex> er
+								barlaams ſaga. þa ineſſv dygd<supplied reason="unknown">ir</supplied>. þ<ex>ar</ex> eptir <lb/> er Michaels ſaga.
+								Sidazt  bokin<ex>n</ex>e erv nockvr <lb/> æventyr avllv<ex>m</ex>
+									kriſtnu<ex>m</ex> m<ex>onnu</ex>m til nytſemdar</q>.</accMat>
+					</physDesc>
+					<history>
+						<origin><p>Written in <origPlace>Iceland</origPlace> in <origDate notBefore="1400" notAfter="1450" evidence="conjecture" resp="ONP Tveitane1968">the first half of the fifteenth
+									century</origDate> (<bibl>
+									<ref type="secondary-1" target="Tveitane1968">Tveitane
+										1968</ref>
+									<biblScope unit="page">16</biblScope>
+								</bibl>). <name type="person" key="KriKaa001">Kålund</name>'s
+								dating: The fifteenth century (<bibl>
+									<ref type="secondary-1" target="KKKat">Katalog</ref>
+									<biblScope unit="volume">II</biblScope>
+									<biblScope unit="page">81</biblScope>
+								</bibl>).</p>
+							<p>The text on fol. 1v is a later addition from <origDate notBefore="1500" notAfter="1599" evidence="conjecture" resp="KKKat">the sixteenth century</origDate>.</p>
+						</origin>
+					</history>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<source>
+									<p>Catalogued <date when="2009-08-12"/> by <name type="person" key="EvaWed001">Eva Wedervang-Jensen</name>.</p>
+								</source>
+							</recordHist>
+						</adminInfo>
+						<listBibl>
+							<bibl><ref type="secondary-1" target="HanBek1960"/>
+							</bibl>
+							<bibl><ref type="secondary-1" target="KKKat"/>
+								<biblScope unit="volume">II</biblScope>
+								<biblScope unit="page">82</biblScope>
+							</bibl>
+							<bibl><ref type="secondary-1" target="HMS1877"/>
+								<biblScope unit="volume">I</biblScope>
+								<biblScope unit="page">xxiii</biblScope>
+							</bibl>
+							<bibl><ref type="secondary" target="Wolf2013"/>
+								<biblScope unit="page">46, 394</biblScope></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change when="2022-02-02" who="EvaWed001">Translated into English.</change>
+		</revisionDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="AM04-0668-accMat01r" n="0">
 			<desc>accMat01r</desc>

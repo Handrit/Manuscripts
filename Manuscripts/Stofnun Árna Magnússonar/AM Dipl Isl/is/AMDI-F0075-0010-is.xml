@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -26,7 +26,7 @@
                     <msContents xml:lang="is">
                         <textLang mainLang="is">Íslenska</textLang>
                         <msItem defective="false" class="fornb mald">
-                            <locus from="1r" to="1v">1r-1v</locus>
+                            <locus from="1r" facs="#AMDI-F0075-0010-0001r" to="1v">1r-1v</locus>
                             <title type="supplied">Máldagi Holtskirkju</title>
                             <incipit>Anno Domini MCDXCI féll svo mikið í Holtsþingum hundraðmælt
                                 fyrir því …</incipit>
@@ -61,13 +61,13 @@
 
                         <handDesc hands="1">
                             <summary>Ein hönd.</summary>
-                            <handNote scribe="unknown" scope="major" script="kurrent"><locus from="1r" target="1v">1r-1v</locus>: Óþekktur skrifari,
+                            <handNote scribe="unknown" scope="major" script="kurrent"><locus from="1r" facs="#AMDI-F0075-0010-0001r" target="1v">1r-1v</locus>: Óþekktur skrifari,
                                 fljótaskrift.</handNote>
-                            <handNote scope="minor" script="kurrent"><locus from="1v" target="1v">1v</locus>: Jón Jónsson, fljótaskrift.</handNote>
+                            <handNote scope="minor" script="kurrent"><locus from="1v" facs="#AMDI-F0075-0010-0001v" target="1v">1v</locus>: Jón Jónsson, fljótaskrift.</handNote>
                         </handDesc>
                         <additions>
-                            <p>Safnmarkið skrifað efst á bl. <locus from="1r" to="1r">1r</locus> auk
-                                ártalsins <q>1491</q>. Neðst á <locus from="1v" to="1v">1v</locus>
+                            <p>Safnmarkið skrifað efst á bl. <locus from="1r" facs="#AMDI-F0075-0010-0001r" to="1r">1r</locus> auk
+                                ártalsins <q>1491</q>. Neðst á <locus from="1v" facs="#AMDI-F0075-0010-0001v" to="1v">1v</locus>
                                 er ritað langsum <q>Um Holt. Num 1.</q></p>
                         </additions>
                         <bindingDesc>
@@ -116,7 +116,23 @@
         </fileDesc>
 
     </teiHeader>
-    <text>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+		<surface xml:id="AMDI-F0075-0010-0001r" n="0">
+			<desc>0001r</desc>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,10/0/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,10/0/THUMBNAIL" width="200px" height="231px"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,10/0/SECONDARY_DISPLAY" width="7068px" height="8174px"/>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,10/0/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AMDI-F0075-0010-0001v" n="1">
+			<desc>0001v</desc>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,10/1/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,10/1/THUMBNAIL" width="200px" height="231px"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,10/1/SECONDARY_DISPLAY" width="7068px" height="8174px"/>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,10/1/WEB_DISPLAY"/>
+		</surface>
+	</facsimile>
+	<text>
         <body>
 
             <p/>

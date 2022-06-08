@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -22,26 +23,21 @@
                             <idno>1066</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Ólafs saga Tryggvasonar</title>
-                        <origPlace>Iceland</origPlace>
-                        <origDate notBefore="1490" notAfter="1510" cert="high" evidence="conjecture">c. 1500</origDate>
-                    </head>
                     <msContents>
-                        <msItem defective="true">
+                        <summary><title type="uniform">Ólafs saga Tryggvasonar</title></summary>
+                        <msItem n="1" class="kon" defective="true">
                             <locus from="1ra" to="1vb">1ra-1rb</locus>
-                            <title>Ólafs saga Tryggvasonar</title>
-                            <textLang mainLang="is">Old Norse/Icelandic</textLang>
+                            <title type="uniform">Ólafs saga Tryggvasonar</title>
+                            <textLang mainLang="non"/>
                             <incipit defective="true">
-                        <supplied reason="damage">kyrt</supplied>il
-                                    stuttan<expan>n</expan> vt<expan>an</expan> yf<expan>er</expan>
-                                    bry<expan>n</expan>
+                                <supplied reason="damage">kyrt</supplied>il stuttan<expan>n</expan>
+                                    vt<expan>an</expan> yf<expan>er</expan> bry<expan>n</expan>
                                 <lb/>
-                        <supplied reason="unknown">iu</supplied>
-                     </incipit>
+                                <supplied reason="unknown">iu</supplied>
+                            </incipit>
                             <explicit defective="true">S<expan>vo</expan> s<expan>eger</expan>
                                     ha<gap reason="damage"/>
-                     </explicit>
+                            </explicit>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -52,10 +48,10 @@
                                         <material>Parchment</material>.</p>
                                 </support>
                                 <extent>1. <dimensions scope="all" type="leaf">
-                                        <height>268</height>
-                                        <width>184</width>
+                                        <height unit="mm">268</height>
+                                        <width unit="mm">184</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                                 <condition>
                                     <p>The inner column has been cut so that the first and last
                                         letters are missing on fol 1r and 1v, respectively. A
@@ -77,20 +73,23 @@
                         </handDesc>
                     </physDesc>
                     <history>
-                        <origin notBefore="1476" notAfter="1525" cert="high" evidence="conjecture">
+                        <origin>
                             <p>Written in <origPlace>Iceland</origPlace>
-                                <origDate notBefore="1490" notAfter="1510" cert="high" evidence="conjecture">c. 1500</origDate>.</p>
+                                <origDate notBefore="1490" notAfter="1510" cert="high"
+                                    evidence="conjecture">c. 1500</origDate>.</p>
                         </origin>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Catalogued <date when="2000-02-25">25.02.2000</date> by <name type="person" key="EvaWed001">EW-J</name>.</p>
+                                    <p>Catalogued <date when="2000-02-25">25.02.2000</date> by <name
+                                            type="person" key="EvaWed001">EW-J</name>.</p>
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
                                     <p>From 02.03.1958. to 04.04.1959. the manuscript was set on
                                         meeting guards and put in a cover.</p>
                                 </custEvent>
@@ -98,29 +97,24 @@
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plate</title>
-                                        <idno>plade37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositives</title>
-                                        <idno>AM 325 VIII 2b 4to</idno>
-                                        <date>May 1984 (or 1985)</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">b/w prints</title>
-                                        <date>October 1956</date>
-                                        <idno>AM 325 VIII 2 b 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item>Plate, <idno>plade37</idno>, s.d.</item>
+                                    <item>Diapositives from <date>May 1984 (or 1985)</date>.</item>
+                                    <item>B/w prints from <date>October 1956</date>.</item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
+                            <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">558</biblScope>
+                            </bibl>
                             <bibl>
                                 <ref type="secondary" target="Morgenstern1892">Morgenstern,
                                     1892</ref>
                             </bibl>
+                            <bibl><ref target="EA-A1">Ólafur Halldórsson 2000</ref><biblScope unit="page"
+                                >xvii, xx, cciii-ccvi, cclxv, cccii, ccciii, cccix</biblScope></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>

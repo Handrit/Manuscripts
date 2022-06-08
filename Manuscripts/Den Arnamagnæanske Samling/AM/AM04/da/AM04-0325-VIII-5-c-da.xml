@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18,27 +19,36 @@
                         <repository>Den Arnamagnæanske Samling</repository>
                         <collection key="AM"/>
                         <idno>AM 325 VIII 5 c 4to.</idno>
+                        <msName type="nickname" xml:lang="is">Gullinskinna</msName>
                         <altIdentifier type="internal" subtype="KKKat">
                             <idno>1066</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title type="uniform" xml:lang="is">Hákonar saga Hákonarsonar</title>;
-                            <origPlace>Island</origPlace>, <origDate notBefore="1390" notAfter="1410" evidence="conjecture">ca.
-                        1400</origDate>.</head>
                     <msContents>
-                        <msItem class="kon" defective="true">
+                        <summary><title type="uniform">Gullinskinna</title>, <title type="uniform"
+                                xml:lang="is">Hákonar saga Hákonarsonar</title></summary>
+                        <msItem n="1" class="kon" defective="true">
                             <locus from="1r" to="1v">1r-1v</locus>
                             <title type="uniform" xml:lang="is">Hákonar saga Hákonarsonar</title>
-                            <textLang mainLang="is">Islandsk</textLang>
-                            <incipit defective="true">v<ex>ær</ex>i brőtt or
-                                rikínv</incipit>
+                            <textLang mainLang="non"/>
+                            <incipit defective="true">v<ex>ær</ex>i brőtt or rikínv</incipit>
                             <explicit defective="true">ſkilduz þ<ex>ei</ex>r þa</explicit>
+                            <filiation>>Dette blad er formodentlig alt hvad der er tilbage af et
+                                codex kendt under navnet <ref type="ms">Gullinskinna</ref>, som blev
+                                ødelagt i Københavns brand i <date when="1728">1728</date>. <title
+                                    type="ms">Gullinskinna</title>-teksten er dog bevaret i to
+                                afskrifter af <name type="person" key="AsgJon001">Ásgeir
+                                    Jónsson</name>: <ref type="ms" target="AM02-0042-da">AM 42
+                                    fol.</ref> og <ref type="ms" target="AM02-0080-da">AM 80
+                                    fol.</ref>.</filiation>
                             <bibl>
                                 <ref target="FMS10">Fornmanna sögur</ref>
                                 <biblScope unit="volume">X</biblScope>
-                                <biblScope unit="pages">80-97</biblScope>
+                                <biblScope unit="page">80-97</biblScope>
                             </bibl>
+                            <bibl>Jacobsen: <ref type="ms" target="BenJac1982a">Gullinskinna AM 325
+                                    VIII 5c 4to</ref>
+                                <biblScope unit="page">304-309</biblScope></bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -49,8 +59,8 @@
                                         <material>Pergament</material>.</p>
                                 </support>
                                 <extent>1. <dimensions scope="range" type="leaf">
-                                        <height>255</height>
-                                        <width>200</width>
+                                        <height unit="mm">155</height>
+                                        <width unit="mm">250</width>
                                     </dimensions>.</extent>
                                 <condition>
                                     <p>Udvisket initial. Beskæring af hjørnerne foroven, hvilket har
@@ -59,8 +69,8 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="2" writtenLines="34">
-                                    <p>Bladet er dobbeltspaltet med 34 linjer pr. spalte. Røde
-                                        overskrifter og ornamenterede initialer i forskellig farve.
+                                    <p>Bladet er tospaltet med 34 linjer pr. spalte. Røde
+                                        overskrifter og ornamenterede initialer i røde og grønne farver.
                                         Det udviskede initial strækker sig over 2 linjer.</p>
                                 </layout>
                             </layoutDesc>
@@ -77,27 +87,35 @@
                                     bogstavet.</p>
                             </decoNote>
                         </decoDesc>
+                        <!--  Jacobsens afskrift afAM-sedlen (BenJac1982a):  <accMat><q>Þetta blad ur Hakonar Sógu Hakonarsonar feck eg 1719. af Pro-
+                                fessor Gram, enn hann hafde þad fleiged utanaf bok in Bibliotheca
+                                Lymvicana supra Hopnerianam. Mier virdest þad vera ur Codice
+                                Academico þeim sem kom fra Þormodi, og hann kallar Gullinskinnu, o:
+                                þeim, sem eg liet setia banded um. Formed er ad sónnu nockru
+                                styttra, enn linurnar eru eins margar i hverutveggiu. Skriften er ad
+                                sönnu smærre á þessu blade, Enn hun smæckar og i Codice Academico,
+                                epter þvi sem á hann lidur.</q> 
+                        </accMat> -->
+                        
                     </physDesc>
                     <history>
                         <origin>
-                            <p>Håndskriftet er skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kristian Kålund</name>
-                                    (<bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
+                            <p>Håndskriftet er skrevet i <origPlace>Island</origPlace>
+                                <origDate notBefore="1390" notAfter="1410" evidence="conjecture"
+                                    resp="ONP">ca. 1400</origDate> (<bibl>
+                                    <ref target="BiblArn32">Louis-Jensen 1977</ref>
+                                    <biblScope unit="page">30</biblScope>
+                                </bibl>). Kålunds datering: <date notBefore="1375" notAfter="1399"
+                                    >slutningen af 1300-tallet</date> (<bibl>Kålund: <ref
+                                        type="secondary-1" target="KKKat">Katalog</ref>
                                     <biblScope unit="volume">I</biblScope>
-                                    <biblScope unit="pages">562</biblScope>
-                                </bibl>) har dateret det til <origDate notBefore="1375" notAfter="1399" cert="medium" evidence="conjecture" resp="KKKat">slutningen af 1300-tallet</origDate>, mens <name type="person" key="JonLou001">Jonna Louis-Jensen</name> (<bibl>
-                                    <ref target="BiblArn32">Kongesagastudier</ref>
-                                    <biblScope unit="pages">30</biblScope>
-                                </bibl> ) senere har dateret det til <origDate notBefore="1390" notAfter="1410" evidence="conjecture" resp="ONP">ca.
-                                    1400</origDate>.</p>
-                            <p>Dette blad er formodentlig alt hvad der er tilbage af et codex kendt
-                                under navnet <title type="ms">Gullinskinna</title>, som blev ødelagt
-                                i Københavns brand <date when="1728">1728</date>. <title type="ms">Gullinskinna</title>-teksten er bevaret i to afskrifter af
-                                    <name type="person" key="AsgJon001">Ásgeir Jónsson</name>: <ref type="ms" target="AM02-42-da">AM 42 fol.</ref> og <ref type="ms" target="AM02-80-da">AM 80 fol.</ref>
-                            </p>
+                                    <biblScope unit="page">562</biblScope>
+                                </bibl>).</p>
                         </origin>
                         <provenance>Man ved ikke meget om håndskriftets tidligere historie, men det
-                            er sandsynligt, at håndskriftet befandt sig i <name type="place" key="DK">Danmark</name> allerede i
-                            <date notBefore="1500" notAfter="1599">1500-tallet</date>.</provenance>
+                            er sandsynligt, at håndskriftet befandt sig i <country key="DK"
+                                >Danmark</country> allerede i <date notBefore="1500" notAfter="1599"
+                                >1500-tallet</date>.</provenance>
                     </history>
                     <additional>
                         <adminInfo>
@@ -108,53 +126,49 @@
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04" type="conservation">
-                                    <p>Sat på knækfalse og lagt i et papomslag <date from="1958-04-02" to="1959-04-04">2. april 1958-4. april
+                                <custEvent notBefore="1958-03-02" notAfter="1959-04-04"
+                                    type="conservation">
+                                    <p>Sat på knækfalse og lagt i et papomslag <date
+                                            from="1958-04-02" to="1959-04-04">2. april 1958-4. april
                                             1959</date>.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
                             <p>
-                                <listBibl>
-                                    <bibl>
-                                        <title type="gmd">plade</title>
-                                        <idno>plade 37</idno>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">diapositiv</title>
-                                        <idno>AM 325 VIII 5 c 4to</idno>
-                                        <date notBefore="1984-05" notAfter="1985-05">Maj 1984 eller
-                                            1985</date>
-                                    </bibl>
-                                    <bibl>
-                                        <title type="gmd">s/h fotografier</title>
-                                        <date when="1956-10">Oktober 1956</date>
-                                        <idno>AM 325 VIII 5 c 4to</idno>
-                                    </bibl>
-                                </listBibl>
+                                <list>
+                                    <item n="1">Plade, <idno>plade 37</idno>. </item>
+                                    <item n="2">Diapositiver fra <date notBefore="1984-05"
+                                        notAfter="1985-05">maj 1984 eller 1985</date>.
+                                    </item>
+                                    <item n="3">Sort-hvid fotografier fra <date when="1956-10"
+                                        >oktober 1956</date>. </item>
+                                </list>
                             </p>
                         </surrogates>
                         <listBibl>
                             <bibl>
                                 <ref type="secondary" target="FMS9">Fornmanna sögur</ref>
                                 <biblScope unit="volume">IX</biblScope>
-                                <biblScope unit="pages">XVII-XVIII</biblScope>
+                                <biblScope unit="page">XVII-XVIII</biblScope>
                                 <note>Beskrevet som fragment nr. 7</note>
                             </bibl>
                             <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
-                        <biblScope unit="volume">II</biblScope>
-                        <biblScope unit="pages">562-563</biblScope>
-                     </bibl>
-                            <bibl>Louis-Jensen: <ref target="BiblArn32">Kongesagastudier</ref>
-                        <biblScope unit="pages">30-31</biblScope>
-                     </bibl>
-                            <bibl>Stefán Karlsson: <ref type="secondary" target="EIMF7">Sagas of
-                                    Icelandic Bishops</ref>
-                        <biblScope unit="volume">VII</biblScope>
+                                <biblScope unit="volume">II</biblScope>
+                                <biblScope unit="page">562-563</biblScope>
+                            </bibl>
+                            <bibl><ref type="ms" target="BenJac1982a">Jacobsen 1982</ref>
+                                <biblScope unit="page">289-303</biblScope><note>med faksimile af
+                                    verso-siden</note></bibl>
+                            <bibl><ref target="BiblArn32">Louis-Jensen</ref>
+                                <biblScope unit="page">28-31</biblScope>
+                            </bibl>
+                            <bibl>
+                                <ref type="secondary" target="EIMF7">Stefán Karlsson 1967</ref>
                                 <biblScope unit="pages">60</biblScope>
                             </bibl>
-                            <bibl>Stefán Karlsson: <ref type="secondary" target="StefKarl45">Islandsk bogeksport til Norge i middelalderen</ref>
+                            <bibl>
+                                <ref type="secondary" target="StefKarl45">Stefán Karlsson 1979</ref>
                                 <biblScope unit="pages">1-17</biblScope>
                             </bibl>
                         </listBibl>

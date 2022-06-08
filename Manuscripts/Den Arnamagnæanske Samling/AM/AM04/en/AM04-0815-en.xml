@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -23,38 +23,63 @@
                      <idno>1947</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">Inscriptiones variæ antiqvæ</title>
-                  <title n="2">Fabii victoris de XIII urbis regionibus et vetustatibus
-                     opusculum</title>
-                  <title n="3">De asse</title>
-                  <title n="4">Explicatio notarum</title>
-                  <!--origPlace>Italy (?)</origPlace-->
-                  <origDate notBefore="1500" notAfter="1599">s. XVI</origDate>
-               </head>
                <msContents>
+                  <summary><title type="supplied">A Collection of Texts in Latin</title>
+                  </summary>
                   <textLang mainLang="la">Latin</textLang>
+                  <msItem n="1">
+                     <locus from="1r" to="200v">1r-200v</locus>
+                     <title type="supplied">Inscriptiones variæ antiqvæ</title>
+                     <note>Mainly Roman inscriptions.</note>
+                  </msItem>
+                  <msItem n="2">
+                     <locus from="201r" to="208v">201r-208v</locus>
+                     <title type="supplied">Fabii victoris</title>
+                     <rubric>FABII VICTORIS DE XIII VRBIS <lb/> REGIONIBVS ET VETUSTATIB<ex>US</ex>
+                        OPVSCVLVM</rubric>
+                  </msItem>
+                  <msItem n="3">
+                     <locus from="209r" to="213v">209r-213v</locus>
+                     <title type="supplied">De asse</title>
+                  </msItem>
+                  <msItem n="4">
+                     <locus from="214r" to="216v">214r-216v</locus>
+                     <title type="supplied">Sententia Minuciorum de controversiis inter Genuates et
+                        Viturios</title>
+                  </msItem>
+                  <msItem n="5">
+                     <locus from="217r" to="231v">217r-231v</locus>
+                     <title type="supplied">Explicatio notarum</title>
+                  </msItem>
+
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>224. <dimensions type="leaf" scope="all">
-                              <height>230</height>
-                              <width>164</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>224. Fols 188 and 200v are blank. <dimensions type="leaf" scope="all">
+                              <height unit="mm">230</height>
+                              <width unit="mm">164</width>
                            </dimensions>
                         </extent>
+                        <foliation>
+                           <p>Foliated 1-231 (+ 194<hi rend="sup">bis</hi>) as the foliater skipped the numbers 82-87 and 198.</p>
+                        </foliation>
                      </supportDesc>
-                  </objectDesc>
+                    </objectDesc>
                   <bindingDesc>
                      <p>Limp binding. Laced parchment case with yapp edges on the fore edge.</p>
                   </bindingDesc>
                </physDesc>
                <history>
-                  <provenance><p>The manuscript was in the possession of <name type="person" key="CorLer001">Cornelius Pedersen Lerche</name> at the time of his death
+                  <origin><origPlace>Italy?</origPlace>
+                     <origDate notBefore="1500" notAfter="1599">s. XVI</origDate>.</origin>
+                  <provenance><p>The manuscript was in the possession of <name type="person"
+                           key="CorLer001">Cornelius Pedersen Lerche</name> at the time of his death
                         and is mentioned in the 1682 auction catalogue under quarto manuscripts as
-                        no. 8 (See <bibl><ref type="secondary-2" target="CPLKat">Catalogus, p.
-                              166</ref></bibl>).</p></provenance>
+                        no. 8 (See <bibl><ref type="secondary-2" target="CPLKat">Catalogus</ref>
+                           <biblScope unit="page">166</biblScope>
+                        </bibl>).</p></provenance>
                   <acquisition>There is no record of acquisition.</acquisition>
                </history>
                <additional>
@@ -70,7 +95,7 @@
                         <biblScope unit="volume">II</biblScope>
                         <biblScope unit="pages">219</biblScope>
                      </bibl>
-                     <bibl>Lerche Catalogue<ref type="secondary-2" target="CPLKat"/>
+                     <bibl>Lerche Catalogue <ref type="secondary-2" target="CPLKat"/>
                         <biblScope unit="pages">164-167</biblScope></bibl>
                      <bibl>Ilsøe <ref type="secondary-4" target="HarIls1999"/>
                         <biblScope unit="volume">I</biblScope>

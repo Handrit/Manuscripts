@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,15 +26,27 @@
                             <idno>Addit. 39 4to</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <head>
-                        <title>Lýsing Grænlandskorts Þórðar Þorlákssonar</title>
-                        <origPlace>Denmark</origPlace>
-                        <origDate notBefore="1700" notAfter="1730">s. XVIII in</origDate>
-                    </head>
                     <msContents>
-                        <msItem>
-                            <author key="ArnMag001">Árni Magnússon</author>
-                            <textLang mainLang="is">Icelandic</textLang>
+                        <summary><title type="supplied">Notes on Þórður Þorláksson's Map of
+                                Greenland</title>
+                            <note>Containing a more comprehensive description of Þórður Þorláksson's
+                                map of Greenland than the one in <ref type="ms"
+                                    target="#AM04-0771-a-en">AM 771 a 4to</ref>. Heading, date and
+                                signature are missing but the following note on the map is found:
+                                    <q>Dedicatio Chartæ er: Heroi Perilluſtri <gap
+                                        reason="irrelevant"/>
+                                    <name type="person" key="HenBie001">HENRICO BIELKE</name>,
+                                        D<ex>omi</ex>no de Elingegaard <gap reason="irrelevant"/> et
+                                    Gubernatori Islandiæ, D<ex>omi</ex>no Patrono et Evergetæ ſuo
+                                    ſummo, Novam hanc terrarum hyperborearum mappam Greographicam
+                                    humillime offert et conſecrat <name type="person"
+                                        key="ThoTho005">Theodorus
+                                Thorlaci<ex>us</ex></name></q>.</note></summary>
+                        <msItem n="1">
+                            <author key="ArnMag001">Arne Magnússon</author>
+                            <title type="supplied">Notes on Þórður Þorláksson's Map of
+                                Greenland</title>
+                            <textLang mainLang="is"/>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -41,22 +54,46 @@
                             <supportDesc material="chart">
                                 <support>
                                     <p>
-                                        <material>Papir.</material>
+                                        <material>Paper.</material>
                                     </p>
                                 </support>
                                 <extent>4. <dimensions type="leaf" scope="all">
-                                        <height>210</height>
-                                        <width>165</width>
+                                        <height unit="mm">210</height>
+                                        <width unit="mm">165</width>
                                     </dimensions>
-                        </extent>
+                                </extent>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
                             <handNote scribe="JonOla003" scope="sole" script="unknown">
-                                <p> written by Jón Ólafsson.</p>
+                                <p>Written by Jón Ólafsson.</p>
                             </handNote>
                         </handDesc>
                     </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Denmark</origPlace>, <origDate notBefore="1700"
+                                notAfter="1725" evidence="external">s. XVIII<hi rend="sup"
+                                >1/4</hi></origDate>.</origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl>Jón Þorkelsson, <ref type="secondary" target="NblH">Nokkur blöð úr
+                                    Hauksbók</ref>
+                            </bibl>
+                            <bibl>Kålund, <ref type="secondary-1" target="KKKat"
+                                    >Katalog</ref><biblScope unit="volume">II</biblScope><biblScope
+                                    unit="page">184</biblScope></bibl>
+                            <bibl>Rafn, <ref type="secondary" target="AntR">Antiquités Russes</ref>
+                                <biblScope unit="volume">II</biblScope>, <biblScope unit="page"
+                                    >426</biblScope>
+                            </bibl>
+                            <bibl>Werlauff, <ref type="secondary" target="Symbol">Symbolæ ad
+                                    Geographiam Medii Aevi</ref>
+                            </bibl>
+                        </listBibl>
+                    </additional>
+
                 </msDesc>
             </sourceDesc>
         </fileDesc>

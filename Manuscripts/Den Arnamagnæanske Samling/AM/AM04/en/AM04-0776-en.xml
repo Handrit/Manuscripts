@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,28 +23,55 @@
                      <idno>1903</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title n="1">Grønlands Beschriffuelse Saa wit denn er bequemb at boe paa</title>
-                  <title n="2">Fostbrødre saga</title>
-                  <origPlace>Denmark</origPlace>
-                  <origDate notBefore="1600" notAfter="1650">s. XVI 1/2</origDate>
-               </head>
-               <msContents>
-                  <textLang mainLang="da">Danish</textLang>
+                 <msContents>
+                  <summary><title n="1">Arngrímur Jónsson's Gronlandia and Fóstbr&#x0153;ðra saga</title></summary>
+                  <msItem n="1">
+                     <locus from="1r" to="43r">1r-43r</locus>
+                     <author key="ArnJon001">Arngrímur Jónsson</author>
+                     <title type="uniform">Gronlandia</title>
+                     <textLang mainLang="da"/>
+                     <rubric>Grönlands Beschriffuelse Saa wit <lb/> denn er bequemb at boe
+                        paa</rubric>
+                     <note>Abridged version. Followed by a treatise concerning the Dano-Norwegian
+                        colonisation of the polar region. Related to <ref type="ms"
+                           target="AM04-0778-a-I-da">AM 778 a I 4to</ref>?</note>
+                  </msItem>
+                  <msItem n="2" class="isl tyd">
+                     <locus from="44r" to="45v">44r-45v</locus>
+                     <title type="uniform">Fóstbr&#x0153;ðra saga</title>
+                     <textLang mainLang="da"/>
+                     <note>Fragment. Translation.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Paper.</support>
-                        <extent>45. 
-<dimensions type="leaf" scope="all">
-                              <height>216</height>
-                              <width>167</width>
+                        <support><material>Paper</material>.</support>
+                        <extent>45. <dimensions type="leaf" scope="all">
+                              <height unit="mm">216</height>
+                              <width unit="mm">167</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                   </objectDesc>
                </physDesc>
+               <history>
+                  <origin>
+                     <p><origPlace>Denmark</origPlace>, <origDate notBefore="1600" notAfter="1725"
+                           >s. XVI<hi rend="sup">1</hi> and s. XVIII<hi rend="sup"
+                           >1/4</hi></origDate>. The majority of the manuscript is written in the
+                        first half of the seventeenth century. Fols 44r-45v (containing <title
+                           type="uniform" xml:lang="da">Fóstbr&#x0153;ðra saga</title>) are however
+                        written in the beginning of the eighteenth century. </p>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <bibl>Kålund, <ref type="secondary-1" target="KKKat">Katalog</ref>
+                        <biblScope unit="volume">II</biblScope>
+                        <biblScope unit="page">196</biblScope></bibl>
+                  </listBibl>
+               </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>

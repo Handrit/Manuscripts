@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
@@ -23,13 +23,10 @@
 							<idno>105</idno>
 						</altIdentifier>
 					</msIdentifier>
-					<head>
-						<title n="1">Kongesagaer</title>; <origPlace>Island eller
-							Danmark</origPlace>, <origDate notBefore="1685" notAfter="1699">s. XVII
-							ex</origDate>. </head>
 					<msContents>
+						<summary><title type="uniform">Noregs konunga sǫgur</title></summary>
 						<msItem n="1" class="kon">
-							<locus from="1r" to="138v">1r-138v</locus>
+							<locus from="1r" facs="#AM02-0086-0001r" to="138v">1r-138v</locus>
 							<title type="uniform">Sverris saga</title>
 							<textLang mainLang="is"/>
 							<filiation>Afskrift af <ref type="ms" target="#AM02-0081a-da">AM 81 a
@@ -37,12 +34,12 @@
 								yngsta</title>).</filiation>
 						</msItem>
 						<msItem n="2" class="kon" defective="true">
-							<locus from="138v" to="163v">138v-163v</locus>
+							<locus from="138v" facs="#AM02-0086-0138v" to="163v">138v-163v</locus>
 							<title type="uniform">Hákonar saga Hákonarsonar</title>
 							<textLang mainLang="is"/>
 							<note>Defekt ved slutningen, hvor det sidste ord <q>meſt</q> er tilføjet
 								af <name type="person" key="ArnMag001">Arne Magnusson</name>.</note>
-							<filiation>Afskrift af AM 81 a fol.</filiation>
+							<filiation>Afskrift af <ref type="ms" target="#AM02-0081-a-da">AM 81 a fol.</ref></filiation>
 						</msItem>
 					</msContents>
 					<physDesc>
@@ -53,8 +50,8 @@
 										<material>Papir.</material></p>
 								</support>
 								<extent>163. <dimensions type="leaf" scope="all" unit="mm">
-										<height>302</height>
-										<width>194</width>
+										<height unit="mm">302</height>
+										<width unit="mm">194</width>
 									</dimensions>.</extent>
 								<foliation>Folieret med rødt blæk af <name type="person" key="KriKaa001">Kålund</name>.</foliation>
 								<condition>
@@ -74,9 +71,9 @@
 									gennemtrukne pergamentstropper samt to fra kapitælerne og
 									overtræk af beskrevet pergament fra et latinsk kirkeligt
 									håndskrift: <dimensions type="binding" unit="mm">
-										<height>309</height>
-										<width>196</width>
-										<depth>50</depth>
+										<height unit="mm">309</height>
+										<width unit="mm">196</width>
+										<depth unit="mm">50</depth>
 									</dimensions>. </p>
 								<p>
 									<name type="person" key="ArnMag001">Arne Magnusson</name> har,
@@ -92,11 +89,14 @@
 							</binding>
 						</bindingDesc>
 					</physDesc>
+					<history><origin><origPlace>Island eller
+						Danmark</origPlace>, <origDate notBefore="1685" notAfter="1699">s. XVII
+							ex</origDate>.</origin></history>
 					<additional>
 						<listBibl>
 							<bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
 								<biblScope unit="volume">I</biblScope>
-								<biblScope unit="pages">63</biblScope>
+								<biblScope unit="page">63</biblScope>
 							</bibl>
 						</listBibl>
 					</additional>

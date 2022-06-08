@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -22,12 +23,13 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary><title type="supplied" xml:lang="da">Norsk lovhåndskrift</title></summary>
+                  <summary><title type="supplied" xml:lang="da">Norsk
+                     lovhåndskrift</title></summary>
                   <msItem n="1" class="log">
-                     <locus from="1r" to="8v">1r-8v</locus>
-                     <locus from="17r" to="63v">17r-63v</locus>
+                     <locus>1r-8v, 17r-63v</locus>
+                     <title type="uniform" xml:lang="da">Magnus Lagabøters Norske Landslov</title>
                      <title type="uniform">Landslǫg</title>
-                     <textLang mainLang="no">Norrønt/norsk</textLang>
+                     <textLang mainLang="non">Norrønt/norsk</textLang>
                      <note>Med tilhørende retterbøder og epilog.</note>
                      <bibl>Keyser og Unger: <ref type="primary-3">Norges gamle Love</ref>
                         <biblScope unit="volume">II</biblScope>
@@ -36,28 +38,31 @@
                   </msItem>
                   <msItem n="2" class="klog">
                      <locus from="8v" to="17r">8v-17r</locus>
-                     <title type="uniform">Eiðsifaþingslǫg: Kristinnréttr hinn forni</title>
-                     <textLang mainLang="no">Norrønt/norsk</textLang>
+                     <title type="uniform">Eiðsifaþingslǫg (Kristinn réttr hinn forni)</title>
+                     <textLang mainLang="non">Norrønt/norsk</textLang>
                      <note>I den længere recension, indsat i landsloven efter dennes
                         kristendoms-balk.</note>
+                     <bibl>Halvorsen &amp; Rindal, <ref target="EyvHal2008">De eldste østlandske
+                           kristenrettene</ref>
+                        <!-- biblScope? --></bibl>
                      <bibl>Keyser og Unger: <ref target="NgL1">Norges gamle Love</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">375-392</biblScope>
+                        <biblScope unit="page">375-392</biblScope>
                      </bibl>
                   </msItem>
                   <msItem n="3" defective="true" class="klog">
                      <locus from="12r" to="12v">12r-v</locus>
-                     <title type="uniform">Borgarþingslǫg: Kristinnréttr hinn forni</title>
+                     <title type="uniform">Borgarþingslǫg (Kristinn réttr hinn forni)</title>
                      <note>Brudstykke</note>
-                     <textLang mainLang="no">Norrønt/norsk</textLang>
+                     <textLang mainLang="non">Norrønt/norsk</textLang>
                      <note>Fra slutningen af 1300-tallet. Indsat under kristenretten i stykke 2, og
                         ved henvisningstegn anvist plads på bl. 11v.</note>
                   </msItem>
                   <msItem n="4" class="log">
                      <locus from="63v" to="66v">63v-66v</locus>
-                     <title type="supplied">Réttarbœtr</title>
-                     <textLang mainLang="no">Norrønt/norsk</textLang>
-                     <note>Af kongerne Erik Magnusson og Håkon Magnusson.</note>
+                     <title type="supplied">Réttarbœtr Magnúss Eiríkssonar ok Hákonar
+                        Magnússonar</title>
+                     <textLang mainLang="non">Norrønt/norsk</textLang>
                   </msItem>
                </msContents>
                <physDesc>
@@ -68,14 +73,14 @@
                               <material>Pergament</material>.</p>
                         </support>
                         <extent>66. <dimensions type="leaf" scope="all">
-                              <height>195</height>
-                              <width>145</width>
+                              <height unit="mm">195</height>
+                              <width unit="mm">145</width>
                            </dimensions>.</extent>
                         <condition>Håndskriftet ender defekt.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="1">
-                           <p>Røde overskrifter, røde og blå initialer eller åben plads for
+                        <layout columns="2">
+                           <p>Tospaltet. Røde overskrifter, røde og blå initialer eller åben plads for
                               disse.</p>
                         </layout>
                      </layoutDesc>
@@ -90,38 +95,32 @@
                         Enkelte steder (fx bl. 1r) er skriften senere opfrisket.</p>
                      <p>Et brudstykke af det tidlige foresatsblad er blevet klæbet ind forrest i
                         håndskriftet.</p>
-                     <p>Bl. 63v ved landslovens slutning findes antegnet med en samtidig hånd: <q xml:lang="is">Ingulf<ex>er</ex> dagfínz ſon a
-                           þeſſa logbok</q>.</p>
+                     <p>Bl. 63v ved landslovens slutning findes antegnet med en samtidig hånd: <q
+                           xml:lang="is">Ingulf<ex>er</ex> dagfínz ſon a þeſſa logbok</q>.</p>
                   </additions>
-                  <accMat>På en foran indklæbet AM-seddel skrevet af <name type="person" key="ArnMag001">Arne Magnusson</name>, meddeles det, at den islandske
+                  <accMat>På en foran indklæbet AM-seddel skrevet af <name type="person"
+                        key="ArnMag001">Arne Magnusson</name>, meddeles det, at den islandske
                      lovmand <name type="person" key="SigBjo001">Sigurður Björnsson</name> skænkede
                      Arne Magnusson dette håndskrift i <date when="1704">1704</date>
                   </accMat>
                </physDesc>
                <history>
-                  <origin notBefore="1300" notAfter="1399">Håndskriftet er skrevet i <origPlace>Norge</origPlace>. 
-                     <list>
-                        <item> Bl. 1r-11v og
-                     13r-64v er fra <origDate notBefore="1300" notAfter="1315">begyndelsen af
-                        1300-tallet</origDate>
-                        </item>
-                        <item>Bl. 12 tilhører oprindelig ikke dette håndskrift, og
-                     er skrevet i <origDate notBefore="1385" notAfter="1399">slutningen af
-                     1300-tallet</origDate>.</item>
-                        <item>Bl. 65-66 har <name type="person" key="KriKaa001">Kålund</name> (<bibl>
+                  <origin notBefore="1300" notAfter="1399">Håndskriftet er skrevet i
+                        <origPlace>Norge</origPlace>. Ifølge <bibl><ref target="ONPregistre"
+                           >ONP</ref></bibl> er håndskriftet skrevet <origDate notBefore="1300"
+                        notAfter="1399">s. XIV in, s. XIV ex og s. XIV med</origDate>. <list>
+                        <item>Bl. 1r-11v og 13r-64v: Begyndelsen af 1300-tallet.</item>
+                        <item>Bl. 12 er et senere indskud fra slutningen af 1300-tallet.</item>
+                        <item>Bl. 65-66: ca. 1350 (<bibl>
+                              <ref type="secondary-1" target="NgL4">Storm 1885</ref>
+                              <biblScope unit="page">562</biblScope>
+                           </bibl> og <bibl>
+                              <ref target="Seip1955">Seip 1955</ref>
+                              <biblScope unit="page">229</biblScope>
+                           </bibl>). <name type="person" key="KriKaa001">Kålund</name>s (<bibl>
                               <ref type="secondary-1" target="KKKat">Katalog</ref>
-                              <biblScope unit="volume">I</biblScope>
-                              <biblScope unit="pages">383-384</biblScope>
-                           </bibl>) betegnet som <q xml:lang="da">med en noget yngre hånd end det
-                        foregående.</q> (dvs. bl. 1r-11v og 13r-64v). <name type="person" key="GusSto001">Storm</name> (<bibl>
-                              <ref type="secondary-1" target="NgL4">Norges gamle Love</ref>
-                              <biblScope unit="volume">IV</biblScope>
-                              <biblScope unit="pages">562</biblScope>
-                           </bibl>) og <name type="person" key="DidSei001">Seip</name> (<bibl>
-                              <ref target="Seip1955">Norsk språkhistorie til omkring 1370</ref>
-                              <biblScope unit="pages">229</biblScope>
-                           </bibl>) har begge dateret denne del til <origDate notBefore="1340" notAfter="1360" evidence="conjecture">ca. 1350</origDate>
-                        </item>
+                           </bibl>)) datering: "en noget yngre hånd end det foregående". (dvs. bl.
+                           1r-11v og 13r-64v).</item>
                      </list>
                   </origin>
                </history>
@@ -135,15 +134,15 @@
                      </bibl>
                      <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">I</biblScope>
-                        <biblScope unit="pages">383-384</biblScope>
+                        <biblScope unit="page">383-384</biblScope>
                      </bibl>
-                     <bibl>Storm, Gustav: <ref target="ChrVidSkFor14">Om Haandskrifter og
-                           Oversættelser af Magnus Lagaböters Love</ref>
-                        <biblScope unit="pages">5</biblScope>
+                     <bibl>Storm: <ref target="ChrVidSkFor14">Om Haandskrifter og Oversættelser af
+                           Magnus Lagaböters Love</ref>
+                        <biblScope unit="page">5</biblScope>
                      </bibl>
                      <bibl>Storm: <ref type="secondary" target="NgL4">Norges gamle Love</ref>
                         <biblScope unit="volume">IV</biblScope>
-                        <biblScope unit="pages">561-563</biblScope>
+                        <biblScope unit="page">561-563</biblScope>
                      </bibl>
                   </listBibl>
                </additional>

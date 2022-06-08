@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,22 +22,21 @@
                      <idno>1674</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="supplied" n="1">De Sancto Magno Martyre glorioso</title>
-                  <title type="supplied" n="2">Seqventia in festo Magni ducis martyris</title>;
-                     <origPlace>Danmark?</origPlace>, <origDate notBefore="1700" notAfter="1725" evidence="conjecture" resp="KKKat">s.
-                     XVII 1/4</origDate>
-               </head>
                <msContents>
-                  <msItem>
+                  <summary>
+                     <title type="supplied">Håndskrift med religiøse tekster</title>
+                  </summary>
+                  <textLang mainLang="la">Latin</textLang>
+                  <msItem n="1" class="helgiso">
                      <locus from="3r" to="7v">3r-7v</locus>
-                     <title type="supplied">De Sancto Magno Martyre glorioso</title>
-                     <textLang mainLang="la">Latin</textLang>
+                     <rubric>De Sancto Magno Martyre glorioso</rubric>
+                     <note>Varianter tilføjet af <name type="person" key="ArnMag001">Arne
+                           Magnusson</name> såvel i teksten som på bl. 1 og 2.</note>
                   </msItem>
-                  <msItem>
+                  <msItem n="2" class="helgs">
                      <locus from="10r" to="12v">10r-12v</locus>
-                     <title type="supplied">Seqventia in festo Magni ducis martyris</title>
-                     <textLang mainLang="la">Latin</textLang>
+                     <title type="supplied" xml:lang="la">Seqventia in festo Magni ducis
+                        martyris</title>
                   </msItem>
                </msContents>
                <physDesc>
@@ -46,57 +46,66 @@
                            <p>
                               <material>Papir</material>.</p>
                         </support>
-                        <extent>12. Bl. 1r, 7v-8v og 9v ubeskrevne. <dimensions type="leaf" scope="all">
-                              <height>213</height>
-                              <width>172</width>
+                        <extent>12. Bl. 1r, 7v-8v og 9v ubeskrevne. <dimensions type="leaf"
+                              scope="all">
+                              <height unit="mm">213</height>
+                              <width unit="mm">172</width>
                            </dimensions>.</extent>
                      </supportDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote scope="major" script="unknown">Bl. 3-7 er skrevet af samme hånd som
-                           <ref type="ms" target="AM04-0670-a-da">AM 670 a 4to</ref>, <ref type="ms" target="AM04-0670-b-da">AM 670 b to</ref>, <ref type="ms" target="AM04-0670-c-da">AM 670 c 4to</ref>, <ref type="ms" target="AM04-0670-d-da">AM 670 d 4to</ref> og <ref type="ms" target="AM04-0670-e-da">AM 670 e 4to</ref> (bl. 1-8).</handNote>
+                     <handNote scope="major" script="unknown">Bl. 3r-7r er skrevet af samme hånd som
+                           <ref type="ms"
+                           target="#AM04-0670-a-da #AM04-0670-b-da #AM04-0670-c-da #AM04-0670-d-da"
+                           >AM 670 a-d 4to</ref>, de første 8 blade af <ref type="ms"
+                           target="#AM04-0670-e-da">AM 670 e 4to</ref> og <ref type="ms"
+                           target="#AM04-0670-g-en">AM 670 g 4to</ref>.</handNote>
                      <handNote scope="minor" script="unknown" scribe="ArnMag001">Resten skrevet af
                         Arne Magnusson.</handNote>
                   </handDesc>
                   <additions>
-                     <p><name type="person" key="ArnMag001">Arne Magnusson</name> har tilføjet
-                        varianter til teksten til <title type="supplied">De Sancto Magno Martyre
-                           glorioso</title> i teksten og på bl. 1 og 2.</p>
-                     <p>Angående varianterne til stykke 1 meddeler Arne Magnusson på bl. 2r: <q>For
-                           og bag inden paa bindet af den Snorre Sturlesens chronica, som ieg eier,
-                           og begynder af Sven Alfifesön, vare liimede .2. pergam<ex>en</ex>ts blade
-                           i folio, hvor dog neden af vare bortskaarne nogle liner. Paa
-                           diſſe 2. blade vare ſkrefne med en haand
-                           icke ret gam<ex>m</ex>el, og hverken god eller ond, legenda S. Annæ
-                           matris B. Virginis, og begyndelsen af legenda S. Magni
-                           orcadenſis ſtrax efter den anden. Af dette fragmento
-                           membraneo ere tagne de Variæ lectiones, fom her ftaae med min egen haand
-                           fkrefne. Bindet paa Snorre Sturleſen, er
-                           viſſeligen icke Iislandsſk. maae
-                           ſaa diſſe blade vere limede paa bindet, i
-                           Norge eller Danmark</q>.</p>
-                     <p>Om stykke 2 anføres bl. 9r: <q>Exſcriptmn ex libro officiorum
-                           Sacrorum (Meſſebog) in grandi folio, qvem nactus
-                           ſum <name type="place" key="SkaSka02">Scardi
-                              Scardſtrandenſium</name> in occidentali
+                     <p>Angående varianterne til stykke 1 meddeler <name type="person"
+                           key="ArnMag001">Arne Magnusson</name> på bl. 2r: <q>For og bag inden paa
+                           bindet af den Snorre Sturlesens chronica, som ieg eier, og begynder af
+                           Sven Alfifesön, vare liimede .2. pergam<ex>en</ex>ts blade i folio, hvor
+                           dog neden af vare bortskaarne nogle liner. Paa diſſe 2. blade vare
+                           ſkrefne med en haand icke ret gam<ex>m</ex>el, og hverken god eller ond,
+                           legenda S. Annæ matris B. Virginis, og begyndelsen af legenda S. Magni
+                           orcadenſis ſtrax efter den anden. Af dette fragmento membraneo ere tagne
+                           de Variæ lectiones, fom her ftaae med min egen haand fkrefne. Bindet paa
+                           Snorre Sturleſen, er viſſeligen icke Iislandsſk. maae ſaa diſſe blade
+                           vere limede paa bindet, i Norge eller Danmark</q>.</p>
+                     <p>Om stykke 2 anføres på bl. 9r: <q>Exſcriptmn ex libro officiorum Sacrorum
+                           (Meſſebog) in grandi folio, qvem nactus ſum <name type="place"
+                              key="SkaSka02">Scardi Scardſtrandenſium</name> in occidentali
                            Islandiâ</q>.</p>
                   </additions>
                </physDesc>
+               <history>
+                  <origin><origPlace>Danmark?</origPlace>, <origDate notBefore="1700"
+                        notAfter="1725" evidence="conjecture" resp="KKKat">s. XVII<hi rend="sup"
+                           >1/4</hi></origDate>.</origin>
+               </history>
                <additional>
                   <listBibl>
-                     <bibl>Guðbrandur Vigfússon: <ref type="secondary" target="IslSGV1887-1">Icelandic Sagas</ref>
-                        <biblScope unit="pages">299-305</biblScope>
+                     <bibl>Guðbrandur Vigfússon: <ref type="secondary" target="IslSGV1887-1"
+                           >Icelandic Sagas</ref>
+                        <biblScope unit="page">299-305</biblScope>
                      </bibl>
                      <bibl>Jón Þorkelsson: <ref type="secondary" target="JonThork1888">Om digtningen
                            på Island</ref>
-                        <biblScope unit="pages">24</biblScope>
+                        <biblScope unit="page">24</biblScope>
                      </bibl>
-                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope unit="volume">II</biblScope><biblScope unit="pages">85</biblScope></bibl>
+                     <bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref><biblScope
+                           unit="volume">II</biblScope><biblScope unit="page">85</biblScope></bibl>
                   </listBibl>
                </additional>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2021-11-11" who="EvaWed001">opdateret opmærkning.</change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface/>
