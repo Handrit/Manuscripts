@@ -27,11 +27,11 @@
                         <textLang mainLang="is">Íslenska</textLang>
                         
                         <msItem n="1" class="fornb mald" defective="false" xml:lang="da">
-                            <locus from="1r" to="2r">1r-2r</locus>
+                            <locus from="1r" facs="#AMDI-F0075-0024-0001r" to="2r">1r-2r</locus>
                             <title type="supplied">Gíslamáldagar</title>
                             <rubric>Máldagar Mýra-, Núps- og Sæbólskirkna. Eftir visitasíubók sáluga herra Gísla Jónss. gjörðri Anno 1575.</rubric>
                             <msItem n="1.1" class="mald">
-                                <locus from="1r" to="1v">1r-v</locus>
+                                <locus from="1r" facs="#AMDI-F0075-0024-0001r" to="1v">1r-v</locus>
                                 <title type="supplied">Mýrar í Dýrafirði</title>
                                 <rubric>Mýrar</rubric>
                             <incipit>Kirkjan á Mýrum í Dýrafirði á xx c í heimalandi …</incipit>
@@ -39,7 +39,7 @@
                                 <bibl>Máldaginn er pr. eftir frumriti í <ref type="primary-2" target="DI15">Íslenzku fornbréfasafni XV</ref>, bls. 576.</bibl>
                             </msItem>
                             <msItem n="1.2" class="mald">
-                                <locus from="1v" to="1v">1v</locus>
+                                <locus from="1v" facs="#AMDI-F0075-0024-0001v" to="1v">1v</locus>
                                 <title type="supplied">Núpur í Dýrafirði</title>
                                 <rubric>Núpur</rubric>
                                 <incipit>Kirkjan undir Núpi á þriðjung í heimalandi …</incipit>
@@ -47,7 +47,7 @@
                                 <bibl>Máldaginn er pr. eftir frumriti í <ref type="primary-2" target="DI15">Íslenzku fornbréfasafni XV</ref>, bls. 575-576.</bibl>
                             </msItem>
                             <msItem n="1.3" class="mald">
-                                <locus from="1v" to="2r">1v-2r</locus>
+                                <locus from="1v" facs="#AMDI-F0075-0024-0001v" to="2r">1v-2r</locus>
                                 <title type="uniform">Sæból í Dýrafirði</title>
                                 <rubric>Sæból</rubric>
                                 <incipit>Kirkjan á Sæbóli á land undir Hálsi …</incipit>
@@ -67,7 +67,7 @@
                                 <extent>Tvíblöðungur (<dimensions type="leaf" scope="all" unit="mm">
                                     <height>212</height>
                                     <width>164</width>
-                                </dimensions>). Bl. <locus from="2v" to="2v">2v</locus>
+                                </dimensions>). Bl. <locus from="2v" facs="#AMDI-F0075-0024-0002v" to="2v">2v</locus>
                                     autt.</extent>
                                 <condition>Bleksmitun.</condition>
                             </supportDesc>
@@ -138,7 +138,37 @@
         </fileDesc>
         
     </teiHeader>
-    <text>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+		<surface xml:id="AMDI-F0075-0024-0001r" n="0">
+			<desc>0001r</desc>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/0/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/0/THUMBNAIL" width="200px" height="298px"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/0/SECONDARY_DISPLAY" width="5225px" height="7776px"/>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/0/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AMDI-F0075-0024-0001v" n="1">
+			<desc>0001v</desc>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/1/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/1/THUMBNAIL" width="200px" height="299px"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/1/SECONDARY_DISPLAY" width="5200px" height="7776px"/>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/1/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AMDI-F0075-0024-0002r" n="2">
+			<desc>0002r</desc>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/2/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/2/THUMBNAIL" width="200px" height="296px"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/2/SECONDARY_DISPLAY" width="5244px" height="7776px"/>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/2/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AMDI-F0075-0024-0002v" n="3">
+			<desc>0002v</desc>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/3/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/3/THUMBNAIL" width="200px" height="298px"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/3/SECONDARY_DISPLAY" width="5225px" height="7776px"/>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20LXXV,24/3/WEB_DISPLAY"/>
+		</surface>
+	</facsimile>
+	<text>
         <body>
             
             <p/>
