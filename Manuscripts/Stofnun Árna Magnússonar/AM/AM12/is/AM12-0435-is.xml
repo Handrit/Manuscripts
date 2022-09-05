@@ -26,19 +26,37 @@
                         </altIdentifier>
                         
                     </msIdentifier>
-                    
-                    
+           
                     <msContents>
+                        <summary>
+                        <title type="supplied">Alfræði</title>
+                    </summary>
                         <textLang mainLang="is">Íslenska</textLang>
-                        
-                        <msItem n="1" class="timat">
-                            <locus>?</locus>
-                            <title type="supplied">Um náttúru mannsins, messur og helgidaga,
-                                rímtal, tunglsaldrar og jólaskrár</title>
+                        <msItem n="1" class="alf" defective="true">
+                            <locus from="1r" facs="#AM12-0435-0001r" to="15v">1r-15v</locus>
+                            <title type="supplied">Um náttúru mannsins</title>
+                            <rubric>Sequiur de naturas</rubric>
+                            <incipit>Almáttugur Guðsson með fagurlegan vilja …</incipit>
+                            <explicit>… þá skal meira virða augnabragðið
+                            því að það skal ráða eftir …</explicit>
+                            <note>Vantar niðurlag textans</note>
+                            <note>Ekkert hefur verið skrifað frá miðri síðu <locus from="15v" facs="#AM12-0435-0015v">15v</locus>
+                                til <locus from="17r" facs="#AM12-0435-0017r">17r</locus>.</note>
                         </msItem>
-                        
-                       
-                        
+                        <msItem n="2" class="alf" defective="true">
+                            <locus from="17v" facs="#AM12-0435-0017v" to="26r">17v-26r</locus>
+                            <title type="supplied">Um messur og helgidaga</title>
+                            <incipit>Alexander hinn fyrsti páfi bauð að kennimenn skyldu vígja salt og vatn …</incipit>
+                            <explicit>… á skepnuna alla skal kalla og lofa svo skapara sinn.</explicit>
+                        </msItem>
+                        <msItem n="3" class="timat" defective="false">
+                            <locus from="26r" facs="#AM12-0435-0026r" to="28r">26r-28r</locus>
+                            <title type="supplied">Rímtal</title><!-- ath hvort sé hægt að lesa fyrirsögnina -->
+                            <incipit>Guð bauð Moysi vin sinn í lögmáli að gaumgæfa …</incipit>
+                            <explicit>…  er þá ein nótt að munum. Tekur fé …</explicit>
+                            <note>Vantar aftan á textann.</note>
+                            <note>Síður <locus from="28v" facs="#AM12-0435-0028v" to="32r">28v-32r</locus>eru auðar.</note>
+                        </msItem>
                     </msContents>
                     
                     <physDesc>
@@ -47,7 +65,7 @@
                                 <support>Skinn</support>
                                 <extent>62 blöð <dimensions type="leaf" scope="all">
                                     <height/>
-                                    <width/>
+                                    <width/> 
                                 </dimensions>
                                 </extent>
                                 <foliation>
@@ -95,8 +113,7 @@
                         </bindingDesc>
                         <accMat>
                             <p>Smáseðill með hendi Árna Magnússonar frá <date>um
-                                1707</date>, skrifaður í tveimur lotum, fyrri
-                                setningin hugsanlega jafnóðum, nefndur í Katalog: <q>
+                                1707</date>, skrifaður í tveimur lotum<q>
                                     <p>Frá Guðrúnu Ögmundard[óttur] í Flatey 1707.</p>
                                     <p>Ég trúi það heyri til Galdrakversins góða.</p>
                                 </q>
@@ -113,12 +130,13 @@
                         </origin>
                         
                         <provenance>
-                            <p><name key="ArnMag001" type="person">Árni Magnússon</name> fékk handritið frá <name key="GudOgm001" type="person">Guðrúnu Ögmundsdóttur</name> í Flatey</p>
+                            <p><name key="ArnMag001" type="person">Árni Magnússon</name> fékk handritið frá 
+                                <name key="GudOgm001" type="person">Guðrúnu Ögmundsdóttur</name> í Flatey.</p>
                         </provenance>
                         
-                        <acquisition>
+                        <acquisition when="1983-09-30">
                             <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu
-                                .</p>
+                              30. september 1983.</p>
                         </acquisition>
                         
                     </history>
@@ -129,11 +147,11 @@
                             
                             <recordHist>
                                 <source>
-                                    <p>Tekið eftir <ref target="KKKat">Katalog II</ref>
+                                    <list><item><name type="person" key="ThoJoh002">ÞEJ</name> skráði
+                                        samkvæmt reglum TEI P5 <date notBefore="2022-09" notAfter="2022-09">í september 2022</date>.</item>
+                                    <item>Tekið eftir <ref target="KKKat">Katalog II</ref>
                                         bls. 484-85 (nr. 2522). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu
-                                        til skráningar ?. október 189?. NN tölvuskráði
-                                        <date>??</date>. <name key="MarJon001" type="person">Már Jónsson</name> annaðist hlut
-                                        Árna Magnússonar <date>13. mars 2000</date>.</p>
+                                        til skráningar ?. október 1890.</item></list>
                                 </source>
                             </recordHist>
                             
