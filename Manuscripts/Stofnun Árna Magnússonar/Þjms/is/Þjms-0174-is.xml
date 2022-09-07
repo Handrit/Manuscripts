@@ -25,19 +25,19 @@
                         <textLang mainLang="la">Latína</textLang>
                         
                         <msItem defective="true" n="1"> 
-                            <locus from="1r" to="1v"> 1r-1v </locus>
+                            <locus from="1r" facs="#Þjms-0174-0001r" to="1v"> 1r-1v </locus>
                             <title type="supplied">Missale</title> 
                             
                       
                         <msItem n="1.1" class="messus">
-                            <locus from="1r" to="1r">1r</locus>
+                            <locus from="1r" facs="#Þjms-0174-0001r" to="1r">1r</locus>
                             <title type="supplied"> </title>
                             <incipit> ... tatis tue ...</incipit>
                             <explicit> ... ministerium operatus iniquitatus tantum. in ... </explicit>
                         </msItem>
                         
                         <msItem n="1.2" class="messus">
-                            <locus from="1v" to="1v">1v</locus>
+                            <locus from="1v" facs="#Þjms-0174-0001v" to="1v">1v</locus>
                             <title type="supplied"> </title>
                             <incipit> ... ut qui tenet nunc teneat donec de medio fiat ... </incipit>
                             <explicit> ... virtute succurre ut per auxilium gr[ati]e ... </explicit>
@@ -101,7 +101,34 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <facsimile xml:base="http://www.ImageDirectory.is">
-        <surface> </surface>
-    </facsimile>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+		<surface xml:id="Þjms-0174-0001r" n="0">
+			<desc>0001r</desc>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20174/0/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20174/0/THUMBNAIL" width="200px" height="300px"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20174/0/SECONDARY_DISPLAY" width="6571px" height="9856px"/>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20174/0/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="Þjms-0174-0001v" n="1">
+			<desc>0001v</desc>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20174/1/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20174/1/THUMBNAIL" width="200px" height="300px"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20174/1/SECONDARY_DISPLAY" width="6571px" height="9856px"/>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20174/1/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="Þjms-0174-addMat01r" n="2">
+			<desc>addMat01r</desc>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20174/2/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20174/2/THUMBNAIL" width="200px" height="272px"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20174/2/SECONDARY_DISPLAY" width="7379px" height="10021px"/>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20174/2/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="Þjms-0174-addMat01v" n="3">
+			<desc>addMat01v</desc>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20174/3/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20174/3/THUMBNAIL" width="200px" height="272px"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20174/3/SECONDARY_DISPLAY" width="7379px" height="10021px"/>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20174/3/WEB_DISPLAY"/>
+		</surface>
+	</facsimile>
 </TEI>

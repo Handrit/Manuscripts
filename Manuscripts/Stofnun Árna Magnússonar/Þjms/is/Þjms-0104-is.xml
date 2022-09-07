@@ -28,7 +28,7 @@
                         
                   
                    <msItem n="1" defective="true" class="mals">
-                        <locus from="1r" to="2v">1r-1v</locus>
+                        <locus from="1r" facs="#Þjms-0104-0001r" to="2v">1r-1v</locus>
                         <title type="supplied">Disticha Catonis bók 4.25b-49</title>
                         
                     <incipit>rursus levitate crimine damnis</incipit>
@@ -36,12 +36,12 @@
                    
                         
                        <msItem n="1.1" defective="true">
-                            <locus from="1r" to="1r">1r</locus>
+                            <locus from="1r" facs="#Þjms-0104-0001r" to="1r">1r</locus>
                             <title type="supplied">Bók 4.25b-37a</title>
                          
                         </msItem>
                         <msItem n="1.2" defective="true">
-                            <locus from="1v">1v</locus>
+                            <locus from="1v" facs="#Þjms-0104-0001v">1v</locus>
                             <title type="supplied">Bók 4.37b-49</title>
                         </msItem>
                    </msItem>
@@ -104,7 +104,34 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <facsimile xml:base="http://www.ImageDirectory.is">
-        <surface> </surface>
-    </facsimile>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+		<surface xml:id="Þjms-0104-0001r" n="0">
+			<desc>0001r</desc>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20104/0/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20104/0/THUMBNAIL" width="169px" height="300px"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20104/0/SECONDARY_DISPLAY" width="5832px" height="10368px"/>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20104/0/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="Þjms-0104-0001v" n="1">
+			<desc>0001v</desc>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20104/1/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20104/1/THUMBNAIL" width="169px" height="300px"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20104/1/SECONDARY_DISPLAY" width="5832px" height="10368px"/>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20104/1/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="Þjms-0104-addMat01r" n="2">
+			<desc>addMat01r</desc>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20104/2/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20104/2/THUMBNAIL" width="200px" height="272px"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20104/2/SECONDARY_DISPLAY" width="7379px" height="10021px"/>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20104/2/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="Þjms-0104-addMat01v" n="3">
+			<desc>addMat01v</desc>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20104/3/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20104/3/THUMBNAIL" width="200px" height="272px"/>
+			<graphic mimeType="jpg" url="%C3%9Ejms%20104/3/SECONDARY_DISPLAY" width="7379px" height="10021px"/>
+			<graphic mimeType="pdf" url="%C3%9Ejms%20104/3/WEB_DISPLAY"/>
+		</surface>
+	</facsimile>
 </TEI>
