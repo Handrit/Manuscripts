@@ -25,18 +25,18 @@
                         <textLang mainLang="is">Íslenska</textLang>
                         
                         <msItem defective="true" class="fornbn" n="1">
-                            <locus from="1r" to="1v"> 1r-1v </locus>
+                            <locus from="1r" facs="#AMDI-F0009-a1-0001r" to="1v"> 1r-1v </locus>
                             <title type="supplied"> </title>
                             <note>Brot</note>
                             
                             <msItem n="1.1" class="fornb">
-                                <locus from="1r" to="1r">1r</locus>
+                                <locus from="1r" facs="#AMDI-F0009-a1-0001r" to="1r">1r</locus>
                                 <title type="supplied"> </title>
                                 <incipit> ... Öllum góðum mönnum þem sem þetta bréf sjá eður heyra ... </incipit>
                                 <explicit> ... og gjört í stað degi og ári sem fyrr segir ... </explicit>
                             </msItem>
                             <msItem n="1.2" class="fornb">
-                                <locus from="1v" to="1v">1v</locus>
+                                <locus from="1v" facs="#AMDI-F0009-a1-0001v" to="1v">1v</locus>
                                 <title type="supplied"> </title>
                                 <note>Á bl. 1v stendur: „littera super ripam“ með hendi frá um 1500. Þar stendur með annarri hendi: „J norrænu um Jondina Rip.“ með hendi frá sama tíma. Með hendi frá um 1700 stendur: „Ryp feingenn herra Jone Gunn wilhialms syne.“ Einnig hefur gamalt skráarnúmer verið ritað: „Num 515 ,sk´“ efst í vinstra horni.
                                 </note></msItem>
@@ -90,7 +90,20 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <facsimile xml:base="http://www.ImageDirectory.is">
-        <surface> </surface>
-    </facsimile>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+		<surface xml:id="AMDI-F0009-a1-0001r" n="0">
+			<desc>0001r</desc>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20IX%20a1/0/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20IX%20a1/0/THUMBNAIL" width="200px" height="200px"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20IX%20a1/0/SECONDARY_DISPLAY" width="7776px" height="7776px"/>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20IX%20a1/0/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AMDI-F0009-a1-0001v" n="1">
+			<desc>0001v</desc>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20IX%20a1/1/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20IX%20a1/1/THUMBNAIL" width="200px" height="200px"/>
+			<graphic mimeType="jpg" url="AM%20Dipl.%20Isl.%20Fasc.%20IX%20a1/1/SECONDARY_DISPLAY" width="7776px" height="7776px"/>
+			<graphic mimeType="pdf" url="AM%20Dipl.%20Isl.%20Fasc.%20IX%20a1/1/WEB_DISPLAY"/>
+		</surface>
+	</facsimile>
 </TEI>
