@@ -141,8 +141,9 @@
                         <support>
                         	<!-- test -->
                         	
-                        	<p><list><item><material>
-                        		Paper, folded in <measure>folio</measure>. <!-- added "paper" -->
+                        	<p>Paper. 
+                        		<list><item><material>
+                        		Folded in <measure>folio</measure>. <!-- added "paper" -->
                         		Chainlines: <num type="chainlinesLeaf">8</num> chainlines per leaf,
                         		<num type="chainlinesSheet">16</num> chainlines per sheet.
                         		<dimensions type="chainlines" unit="mm">
@@ -152,16 +153,13 @@
                         			<term type="watermarkType">Main watermark:</term> 
                         			<term type="watermarkMotif">Fool's cap</term>,
                         			<note type="watermarkVariation">with seven bells on the collar, no chain, cross and three circles.</note>
-                        			Location: ff.
-                        			<locusGrp>  
-                        				<locus from="5r" to="5v">5,</locus>
-                        				<locus from="7r" to="7v">7,</locus>
-                        				<locus from="9r" to="9v">9,</locus>
-                        				<locus from="12r" to="12v">12,</locus>
-                        				<locus from="22r" to="22v">22,</locus>
-                        				<locus from="23r" to="23v">23,</locus>
-                        				<locus from="24r" to="24v">24</locus> 
-                        			</locusGrp>.
+                        			Location: ff. <locus from="5r" to="5v">5</locus>,
+                        				<locus from="7r" to="7v">7</locus>,
+                        				<locus from="9r" to="9v">9</locus>,
+                        				<locus from="12r" to="12v">12</locus>,
+                        				<locus from="22r" to="22v">22</locus>,
+                        				<locus from="23r" to="23v">23</locus>,
+                        				<locus from="24r" to="24v">24</locus>. 
                         			
                         			Dimensions of watermark: <dimensions type="watermark" unit="mm">
                         				<height>106</height>
@@ -184,23 +182,20 @@
 	                                consolidated tei customization. The consolidated tei schema has a custom countermark 
 	                                element but it is not part of the official TEI yet. -->
                         			<term type="watermarkType">Countermark:</term>
-                        			<note>Initials "IV".</note> <!-- use @type="watermarkMotif"? -->
-                        			Dimensions of countermark: <!-- Why here and not earlier? -->
+                        			<note>Initials "IV".</note> 
+                        			Dimensions of countermark: 
                         			<dimensions type="watermark" unit="mm">
                         				<height>12</height>
                         				<width>22</width>
                         			</dimensions>.
-                        			Location:
-                        			<!-- test <locusGrp>--> <!-- test: or formatted like this (as is done in other elements on Handrit) -->
-                        				ff. <locus from="2r" to="2v">2</locus>,
+                        			Location: ff. <locus from="2r" to="2v">2</locus>,
                         				<locus from="4r" to="4v">4</locus>,
                         				<locus from="13r" to="13v">13</locus>,
                         				<locus from="16r" to="16v">16</locus>,
                         				<locus from="17r" to="17v">17</locus>,
                         				<locus from="18r" to="18v">18</locus>,
                         				<locus from="19r" to="19v">19</locus>.
-                        			<!--</locusGrp>-->
-                        			
+                        		
                         			<note type="watermarkPosition">
                         				Distance to nearest chainline to the left: <dimensions type="distanceToChainlineLeft" unit="mm">
                         					<width>0</width>
