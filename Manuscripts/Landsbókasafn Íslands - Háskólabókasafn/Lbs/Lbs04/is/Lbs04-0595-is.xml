@@ -4,7 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Lbs 593 4to</title>
+                <title type="main">Lbs 595 4to</title>
             </titleStmt>
             <publicationStmt>
                 <authority>Landsbókasafn Íslands - Háskólabókasafn</authority>
@@ -15,7 +15,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <msDesc xml:id="Lbs04-0593-is" xml:lang="is">
+                <msDesc xml:id="Lbs04-0595-is" xml:lang="is">
                     <msIdentifier>
                         <country key="IS">Ísland</country>
                         <settlement>Reykjavík</settlement>
@@ -23,21 +23,36 @@
                             Háskólabókasafn</institution>
                         <repository>Handritasafn</repository>
                         <collection key="Lbs">Handritasafn Landsbókasafns</collection>
-                        <idno>Lbs 593 4to</idno>
+                        <idno>Lbs 595 4to</idno>
                         <altIdentifier type="internal" subtype="PEO">
-                            <idno>926</idno>
+                            <idno>927</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <summary>
-                            <title type="supplied">Stærðfræði</title>
+                            <title type="supplied">Sendibréf Sveinbjörns Egilssonar</title>
                         </summary>
                         <textLang mainLang="is">Íslenska</textLang>
-                        <msItem n="1" defective="false" class="starfr fyr skol">
-                            <title type="supplied">Stærðfræði</title>
-                            <author><name key="BjoGun001">Björn Gunnlaugsson</name></author>
-                            <note><p>Fyrirlestrar í stærðfræði eftir Björn Gunnlaugsson.</p>
-                                <p>Uppskrift skólapilta í Bessastaðaskóla og Reykjavíkurskóla.</p></note>
+                        <msItem n="1" defective="false" class="sendbr">
+                            <title type="supplied">Sendibréf</title>
+                            <respStmt>
+                                <resp key="rcp"/>
+                                <name type="person" key="SveEgi001">Sveinbjörn Egilsson</name>
+                            </respStmt>
+                            <respStmt>
+                                <resp key="crp"/>
+                                <name type="person" key="JonSig">Jón Sigurðsson</name>
+                            </respStmt>
+                            <note><p>37 bréf í eiginhandarriti Sveinbjarnar.</p></note>
+                        </msItem>
+                        <msItem n="2" defective="false" class="sendbr">
+                            <title type="supplied">Sendibréf</title>
+                            <note><p>Hefti með uppskrift Jóns Árnasonar af nokkrum bréfa <name key="SveEgi001">Sveinbjarnar</name>.</p></note>
+                        </msItem>
+                        <msItem n="3" defective="false" class="bokm">
+                            <title type="supplied">Bókmenntasaga Íslendinga</title>
+                            <author><name key="SveEgi001">Sveinbjörn Egilsson</name></author>
+                            <note><p>Fremst í heftinu er upphaf Bókmenntasögu Sveinbjarnar.</p></note>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -46,18 +61,23 @@
                                 <support>
                                     <p>Pappír.</p>
                                 </support>
-                                <extent>136 blöð (margvíslegt brot).</extent>
+                                <extent>Án blaðsíðutals (margvíslegt brot).</extent>
                             </supportDesc>
                         </objectDesc>
-                        <handDesc hands="3">
-                            <summary>Þrjár hendur, óþekktir skrifarar.</summary>
-                            <handNote scope="minor" script="unknown"></handNote>
+                        <handDesc hands="2">
+                            <summary>Tvær hendur, skrifarar:</summary>
+                            <handNote scope="major" script="unknown" scribe="SveEgi001">
+                                <name type="person" key="SveEgi001">Sveinbjörn Egilsson</name>
+                            </handNote>
+                            <handNote scope="minor" script="unknown" scribe="JonArn002">
+                                <name type="person" key="JonArn002">Jón bókavörður Árnason</name>
+                            </handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin>
-                            <origPlace>Ísland</origPlace>,<origDate cert="medium" when="1854">
-                                um 1854.</origDate>
+                            <origPlace>Ísland</origPlace>,<origDate cert="high" from="1834" to="1852">
+                                1834-1852.</origDate>
                         </origin>
                         <acquisition>Lbs 528-614 4to eru keypt úr dánarbúi <name key="JonArn002">
                                 Jóns Árnasonar</name>.</acquisition>
@@ -78,7 +98,11 @@
                                 </source>
                             </recordHist>
                         </adminInfo>
-
+                        <listBibl> 
+                            <bibl>
+                                <ref target="JonSig1911a"> Minningarrit aldarafmælis Jóns Sigurðssonar, Rv. 1911.</ref>
+                            </bibl>
+                        </listBibl>
                     </additional>
                 </msDesc>
             </sourceDesc>
