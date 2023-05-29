@@ -50,26 +50,22 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                        	<p>Pappír með vatnsmerkjum.</p>
-                        	<p>
-                        		<watermark n="1">
-                        			Vatnsmerki 1. Aðalmerki:
-                        			<ref target="watermark:U">Skjaldarmerki skipt niður í 5 hluta með ýmsum dýramyndum</ref>
-                        			<ref target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0165a_1r">IS5000-02-0165a_1r</ref>
-                        			// Ekkert mótmerki (
-                        			<locus from="1r" facs="#AM02-0165a-0001r" to="7v">1-7</locus>
-                        			,
-                        			<locus from="12r" facs="#AM02-0165a-0012r" to="12v">12</locus>
-                        			,
-                        			<locus from="14r" facs="#AM02-0165a-0014r" to="15v">14-15</locus>
-                        			,
-                        			<locus from="18r" facs="#AM02-0165a-0018r" to="18v">18</locus>
-                        			,
-                        			<locus from="20r" facs="#AM02-0165a-0020r" to="20v">20</locus>
-                        			,
-                        			<locus from="22r" facs="#AM02-0165a-0022r" to="23v">22-23</locus>
-                        			).
+                        	<p>Pappír með vatnsmerkjum.<material>
+                        		<watermark xml:id="IS5000-02-0165a_1r">
+                        			<term type="watermarkType">Aðalmerki</term>: <ref target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0165a_1r">IS5000-02-0165a_1r</ref>.
+                        			Mótíf: <term type="watermarkMotif"><ref target="watermark:T1">Skjaldarmerki</ref></term> <note type="watermarkVariation">skipt niður í 5 hluta með ýmsum dýramyndum</note>. 
+                        			Bl. <locus from="1r" facs="#AM02-0165a-0001r" to="7v">1-7</locus>, <locus from="12r" facs="#AM02-0165a-0012r" to="12v">12</locus>, <locus from="14r" facs="#AM02-0165a-0014r" to="15v">14-15</locus>, <locus from="18r" facs="#AM02-0165a-0018r" to="18v">18</locus>, <locus from="20r" facs="#AM02-0165a-0020r" to="20v">20</locus>, <locus from="22r" facs="#AM02-0165a-0022r" to="23v">22-23</locus>. 
+                        			Stærð: <dimensions type="chainlines" unit="mm">
+                        				<height>111</height>
+                        			</dimensions> x <dimensions type="chainlines" unit="mm">
+                        				<width>89</width>
+                        			</dimensions>mm, <note> fjarlægð á milli vatnslína á báðum megin vatnsmerkisins: <dimensions type="chainlines" unit="mm">
+                        				<width>91</width>
+                        			</dimensions> mm.</note>
                         		</watermark>
+                        		<note type="paperDate">Notað <date from="1626" to="1646">frá 1626 til 1646</date>
+                        		</note>.
+                        	</material>
                         	</p>
                         </support>
                         <extent>i + 25 + i blöð (<dimensions type="leaf" unit="mm" scope="all">
@@ -80,7 +76,19 @@
                         <foliation>
                            <p>Handritið hefur verið blaðmerkt síðar 1-24.</p>
                         </foliation>
-
+                     	<collation>
+                     		<p>7 kver:      
+                     			<list>
+                     				<item n="1">I: fremra spjald og fremri saurblöð (eitt tvinn + eitt blað)</item>
+                     				<item n="2">II: bl. <locus from="1r" to="5v">1-5</locus> (eitt blað + 2 tvinn: 1, 2+5, 3+4)</item>
+                     				<item n="3">III: bl. <locus from="6r" to="9v">6-9</locus> (2 tvinn: 6+9, 7+8)</item>
+                     				<item n="4">IV: bl. <locus from="10r" to="12v">10-12</locus> (eitt tvinn + eitt blað)</item>
+                     				<item n="5">V: bl. <locus from="13r" to="18v">13-18</locus> (3 tvinn: 13+18, 14+17, 15+16)</item>
+                     				<item n="6">VI: bl. <locus from="19r" to="accMat02v">19-fylgigögn 2</locus> (eitt blað + 2 tvinn + eitt tvinn: 19, 20+23, 21+22, 24+fygigögn 2</item>
+                     				<item n="7">VII: aftara saurblað og aftara spjald (eitt tvinn)</item>
+                     			</list>
+                     		</p>
+                     	</collation>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1" writtenLines="46 48">
@@ -175,7 +183,9 @@
                                  <date when="2001-11-01">1. nóvember 2001</date>. <name type="person" key="KriKaa001">Kålund</name> gekk frá handritinu til
                               skráningar í <date when="1886-01-05"> 5. janúar 1886</date>(sjá <bibl>
                                  <ref target="KKKat">Katalog I 1889:135 (nr. 234)</ref>
-                              </bibl>. </p>
+                              </bibl>. 
+                           	<name type="person" key="ErmMue001">EM</name> uppfærði vatnsmerkin og skráði kveraskipan <date when="2023-05-26">29. maí 2023</date>.
+                           </p>
                         </source>
                      </recordHist>
 
