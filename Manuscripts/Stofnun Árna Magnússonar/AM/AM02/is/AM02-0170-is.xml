@@ -38,23 +38,22 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                        	<p>Pappír með vatnsmerkjum.</p>
-                        	<p>
-                        		<watermark n="1">
-                        			Vatnsmerki 1. Aðalmerki:
-                        			<ref target="watermark:V">Tveir litlir hringir, ofan á hvor öðrum. Annar hringurinn er með lilju eða þistli og hinn með fangamark FE</ref>
-                        			<ref target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0170_15v">IS5000-02-0170_15v</ref>
-                        			// Ekkert mótmerki (
-                        			<locus from="1r" facs="#AM02-0170-0001r" to="3v">1-3</locus>
-                        			,
-                        			<locus from="5r" facs="#AM02-0170-0005r" to="5v">5</locus>
-                        			,
-                        			<locus from="10r" facs="#AM02-0170-0010r" to="10v">10?</locus>
-                        			,
-                        			<locus from="13r" facs="#AM02-0170-0013r" to="15v">13-15</locus>
-                        			,
-                        			blað 15 er saurblað).
+                        	<p>Pappír með vatnsmerkjum.<material>
+                        		<watermark xml:id="IS5000-02-0170_15v">
+                        			<term type="watermarkType">Aðalmerki</term>: <ref target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0170_15v">IS5000-02-0170_15v</ref>.
+                        			Mótíf: <term type="watermarkMotif">Tveir litlir hringir, ofan á hvor öðrum</term>. <note type="watermarkVariation">Annar hringurinn er með lilju eða þistli og hinn með fangamark FE</note>. <!-- cat. missing in authority file -->
+                        			Bl. <locus from="1r" facs="#AM02-0170-0001r" to="3v">1-3</locus>, <locus from="5r" facs="#AM02-0170-0005r" to="5v">5</locus>, <locus from="10r" facs="#AM02-0170-0010r" to="10v">10?</locus>, <locus from="13r" facs="#AM02-0170-0013r" to="15v">13-15</locus>. 
+                        			Stærð: <dimensions type="chainlines" unit="mm">
+                        				<height>47</height>
+                        			</dimensions> x <dimensions type="chainlines" unit="mm">
+                        				<width>26</width>
+                        			</dimensions>mm, <note> fjarlægð á milli vatnslína á báðum megin vatnsmerkisins: <dimensions type="chainlines" unit="mm">
+                        				<width>44</width>
+                        			</dimensions> mm.</note>
                         		</watermark>
+                        		<note type="paperDate">Notað <date when="1691">í 1691</date>
+                        		</note>.
+                        	</material>
                         	</p>
                         </support>
                         <extent>i + 15 + i blöð (<dimensions type="leaf" unit="mm" scope="all">
@@ -156,6 +155,9 @@
                         <source>
                            <p>
                               <list>
+                              	<item>
+                              		<name type="person" key="ErmMue001">EM</name> uppfærði vatnsmerkin <date when="2023-05-26">29. maí 2023</date>.
+                              	</item>
                               	<item>
                               		<name key="ThuSig002" type="person">ÞÓS</name> skráði <date when="2020-06-25">25. júní 2020</date>.</item>
                                  <item>
