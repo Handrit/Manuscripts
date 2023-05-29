@@ -39,20 +39,22 @@
 						<objectDesc form="codex">
 							<supportDesc material="chart">
 								<support>
-									<p>Pappír með vatnsmerkjum.</p>
-									<p>
-										<watermark n="1">
-											Vatnsmerki 1. Aðalmerki:
-											<ref target="watermark:U">Skjaldarmerki með krossi umvafinn snáki, fangamark HS og kóróna</ref>
-											<ref target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0165c_1v">IS5000-02-0165c_1v</ref>
-											// Ekkert mótmerki (
-											<locus from="1r" facs="#AM02-0165c-0001r" to="1v">1</locus>
-											,
-											<locus from="3r" facs="#AM02-0165c-0003r" to="3v">3</locus>
-											,
-											<locus from="6r" facs="#AM02-0165c-0006r" to="6v">6</locus>
-											).
+									<p>Pappír með vatnsmerkjum.<material>
+										<watermark xml:id="IS5000-02-0165c_1v">
+											<term type="watermarkType">Aðalmerki</term>: <ref target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0165c_1v">IS5000-02-0165c_1v</ref>.
+											Mótíf: <term type="watermarkMotif"><ref target="watermark:T1">Skjaldarmerki</ref></term> <note type="watermarkVariation">með krossi umvafinn snáki, fangamark HS og kóróna</note>. 
+											Bl. <locus from="1r" facs="#AM02-0165c-0001r" to="1v">1</locus>, <locus from="3r" facs="#AM02-0165c-0003r" to="3v">3</locus>, <locus from="6r" facs="#AM02-0165c-0006r" to="6v">6</locus>. 
+											Stærð: <dimensions type="chainlines" unit="mm">
+												<height>86</height>
+											</dimensions> x <dimensions type="chainlines" unit="mm">
+												<width>50</width>
+											</dimensions>mm, <note> fjarlægð á milli vatnslína á báðum megin vatnsmerkisins: <dimensions type="chainlines" unit="mm">
+												<width>51</width>
+											</dimensions> mm.</note>
 										</watermark>
+										<note type="paperDate">Notað <date from="1626" to="1646">frá 1626 til 1646</date>
+										</note>.
+									</material>
 									</p>
 								</support>
 								<extent>8 blöð (<dimensions type="leaf" unit="mm" scope="all">
@@ -167,6 +169,7 @@
 							<recordHist>
 								<source>
 									<p>
+										<name type="person" key="ErmMue001">EM</name> uppfærði vatnsmerkin <date when="2023-05-26">29. maí 2023</date>.
 										<name key="ThuSig002" type="person">ÞÓS</name> skráði <date when="2020-06-24">24. júní 2020</date>.<name type="person" key="ThoSig001">ÞS</name> skráði <date from="2009-01-05" to="2009-01-05">5. janúar 2009</date>
 										og síðar. <name type="person" key="DriThr001">DKÞ</name>
 										færði inn grunnupplýsingar <date when="2001-11-06">6.
