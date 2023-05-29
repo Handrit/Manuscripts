@@ -49,16 +49,35 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>
-                           <p>Pappír með vatnsmerkjum.</p>
-                           <p>
-                              <watermark n="1">
-                                 Vatnsmerki 1. Aðalmerki:
-                                 <ref target="watermark:U">Skjaldarmerki í tvöföldum kringlóttum ramma. Fyrir innan er Charlotte Amalie ásamt kórónu</ref>
-                                 <ref target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0183_5v">IS5000-02-0183_5v</ref>
-                                 <ref target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0183_12r">IS5000-02-0183_12r</ref>
-                                 (bl. <locus from="2r" to="2v">2</locus>, <locus from="8r" to="8v">8</locus>, <locus from="10r" to="12">10-12</locus>)
-                                 // Mótmerki:<ref target="watermark:X2">Fangamark ID</ref> (bl. <locus from="1r" to="1v">1</locus>, <locus from="3r" to="7v">3-7</locus>, <locus from="9r" to="9v">9</locus>).
+                           <p>Pappír með vatnsmerkjum. <material>
+                              <watermark xml:id="IS5000-02-0183_12r">
+                                 <term type="watermarkType">Aðalmerki</term>: <ref target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0183_12r">IS5000-02-0183_12r</ref>.
+                                 Mótíf: <term type="watermarkMotif"><ref target="watermark:T1">Skjaldarmerki</ref></term> <note type="watermarkVariation">í tvöföldum kringlóttum ramma. Fyrir innan er Charlotte Amalie ásamt kórónu</note>. 
+                                 Bl. <locus from="2r" to="2v">2</locus>, <locus from="8r" to="8v">8</locus>, <locus from="10r" to="12">10-12</locus>. 
+                                 Stærð: <dimensions type="chainlines" unit="mm">
+                                    <height>108</height>
+                                 </dimensions> x <dimensions type="chainlines" unit="mm">
+                                    <width>80</width>
+                                 </dimensions>mm, <note> fjarlægð á milli vatnslína á báðum megin vatnsmerkisins: <dimensions type="chainlines" unit="mm">
+                                    <width>103</width>
+                                 </dimensions> mm.</note>
                               </watermark>
+                              <watermark xml:id="IS5000-02-0183_5v">
+                                 <term type="watermarkType">Mótmerki</term>: <ref target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0183_5v">IS5000-02-0183_5v</ref>.
+                                 Mótíf: <term type="watermarkMotif"><ref target="watermark:X">Fangamark ID</ref></term>. 
+                                 Bl. <locus from="1r" to="1v">1</locus>, <locus from="3r" to="7v">3-7</locus>, <locus from="9r" to="9v">9</locus>. 
+                                 Stærð: <dimensions type="chainlines" unit="mm">
+                                    <height>16</height>
+                                 </dimensions> x <dimensions type="chainlines" unit="mm">
+                                    <width>15</width>
+                                 </dimensions>mm, </watermark>
+                              <note type="paperDate">Notað <date from="1686" to="1700">frá 1686 til 1700</date>
+                              </note>.
+                              <note type="paperMill">
+                                 Malari: <persName role="Miller">Drewsen- Johan</persName>.
+                                 Mylla: <orgName type="Mill">Strandmøllen.</orgName>
+                              </note>
+                           </material>
                            </p>
                         </support>
                         <extent>12 blöð (<dimensions type="leaf" unit="mm" scope="all">
@@ -69,7 +88,14 @@
                            <p/>
                         </foliation>
                         <collation>
-                           <p/>
+                           <p>4 kver:      
+                              <list>
+                                 <item n="1">I: fremra spjald og fremra saurblað (1 tvinn)</item>
+                                 <item n="2">II: bl. <locus from="1r" to="4v">1-4</locus> (2 tvinn: 1+4, 2+3)</item>
+                                 <item n="3">III: bl. <locus from="5r" to="12v">5-12</locus> (4 tvinn: 5+12, 6+11, 7+10, 8+9)</item>
+                                 <item n="4">IV: aftara saurblað og aftara spjald (1 tvinn)</item>
+                              </list>
+                           </p>
                         </collation>
                         <condition>
                            <p>Krotað yfir niðurlag sögu á bl. 1r.</p>
@@ -119,7 +145,9 @@
                               <date when="1886-01-19">19. janúar 1886</date>. 
                               <name key="DriThr001" type="person">DKÞ</name> skráði vatnsmerki <date when="2001-04-17">17. apríl 2001</date>. 
                               <name key="ThuSig002" type="person">ÞÓS</name> skráði vatnsmerki <date when="2020-06-29">29. júní 2020</date>.
-                              <name key="BeeSte001" type="person">BS</name> lagfærði XML <date when="2022-10-27"> 27. október 2022</date>.</p>
+                              <name key="BeeSte001" type="person">BS</name> lagfærði XML <date when="2022-10-27"> 27. október 2022</date>.
+                              <name type="person" key="ErmMue001">EM</name> uppfærði vatnsmerkin og skráði kveraskipan<date when="2023-05-26">29. maí 2023</date>.
+                           </p>
                         </source>
                      </recordHist>
                      <custodialHist>
