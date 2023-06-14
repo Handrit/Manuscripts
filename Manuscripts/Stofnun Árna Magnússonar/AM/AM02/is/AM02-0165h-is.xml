@@ -40,34 +40,47 @@
 						<objectDesc form="codex">
 							<supportDesc material="chart">
 								<support>
-									<p>Pappír með vatnsmerkjum.</p>
-									<p>
-										<watermark n="1">
-											Vatnsmerki 1. Aðalmerki:
-											<ref target="watermark:U">Skjaldarmerki með krossi sem er umvafinn snáki, fangamark HS og kóróna</ref>
-											<ref target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0165h_12r">IS5000-02-0165h_12r</ref>
-											<ref target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0165h_13v">IS5000-02-0165h_13v</ref>
-											// Ekkert mótmerki (
-											<locus from="4r" facs="#AM02-0165h-0004r" to="5v">4-5</locus>
-											,
-											<locus from="10r" facs="#AM02-0165h-0010r" to="14v">10-14</locus>
-											,
-											<locus from="16r" facs="#AM02-0165h-0016r" to="16v">16</locus>
-											).
-										</watermark>
-									</p>
-									<p>
-									<watermark n="2">
-										Vatnsmerki 2. Aðalmerki:
-										<ref target="watermark:B">Dárahöfuð með 4 litlum bjöllum á kraga, Hermes kross og 3 stórir hringir</ref>
-										// Mótmerki:
-										<ref target="watermark:X2">Fangamark VM</ref>
-										<ref target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0165h_7r">IS5000-02-0165h_7r</ref>
-										(
-										<locus from="6r" facs="#AM02-0165h-0006r" to="7v">6-7</locus>
-										,
-										fangamörkin eru mótmerki dárahöfuðs í handriti AM 165 g fol.).
-									</watermark>
+									<p>Pappír með vatnsmerkjum.
+									<list>
+										<item n="1">
+											<watermark>
+												<term type="mainWatermark">Aðalmerki 1</term>: <ref type="watermarkMotif" target="watermark:T1">Skjaldarmerki með krossi sem er umvafinn snáki, fangamark HS og kóróna</ref> (<ref type="watermarkID"
+													target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0165h_12r">IS5000-02-0165h_12r</ref>), 
+												bl. <locus from="4r" facs="#AM02-0165h-0004r" to="5v">4-5</locus>, <locus from="10r" facs="#AM02-0165h-0010r" to="14v">10-14</locus>, <locus from="16r" facs="#AM02-0165h-0016r" to="16v">16</locus>. 
+												Stærð: <dimensions type="watermark" unit="mm">
+													<height>82</height>
+												</dimensions> x <dimensions type="watermark" unit="mm">
+													<width>57</width>
+												</dimensions>mm, <note> fjarlægð á milli vatnslína á báðum megin vatnsmerkisins: <dimensions type="chainlines" unit="mm">
+													<width>48</width>
+												</dimensions> mm.</note>
+											</watermark>
+											<p>Ekkert mótmerki.</p>
+											<p>
+												<note type="paperDate">Notað <date from="1626" to="1646">frá 1626 til 1646.</date>
+												</note>
+											</p>
+										</item>
+										<item n="2">
+											<watermark>
+												<term type="countermark">Mótmerki</term>: <ref type="watermarkMotif" target="watermark:X">fangamark MV</ref> (<ref type="watermarkID"
+													target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0165h_7r">IS5000-02-0165h_7r</ref>). 
+												Mótmerki aðalmerkis 1 (dárahöfuð) í AM 165 g fol.  
+												bl. <locus from="6r" facs="#AM02-0165h-0006r" to="7v">6-7</locus>. 
+												Stærð: <dimensions type="watermark" unit="mm">
+													<height>11</height>
+												</dimensions> x <dimensions type="watermark" unit="mm">
+													<width>21</width>
+												</dimensions>mm, <note> fjarlægð á milli vatnslína á báðum megin vatnsmerkisins: <dimensions type="chainlines" unit="mm">
+													<width>22</width>
+												</dimensions> mm.</note>
+											</watermark>
+											<p>
+												<note type="paperDate">Notað <date from="1626" to="1646">frá 1626 til 1646.</date>
+												</note>
+											</p>
+										</item>
+									</list>
 									</p>
 								</support>
 								<extent>i + 16 + i blöð (<dimensions type="leaf" unit="mm" scope="all">
@@ -77,6 +90,18 @@
 								<foliation>
 									<p>Handritið hefur verið blaðmerkt síðar 1-16.</p>
 								</foliation>
+								
+								<collation>
+									<p>4 kver:    
+										<list>
+											<item>I: fremra spjald - fylgigögn 1 (eitt tvinn + eitt blað)</item>
+											<item>II: bl. 1-12 (6 tvinn: 1+12, 2+11, 3+10, 4+9, 5+8, 6+7)</item>
+											<item>III: bl. 13-16 (2 tvinn: 13+16, 14+15)</item>
+											<item>IV: aftara saurblað - aftara spjald (eitt tvinn)</item>
+										</list>
+									</p>
+								</collation>
+								
 								<condition>
 									<p>Ytri spássía skorin af blöðum <locus from="6r" facs="#AM02-0165h-0006r" to="7v">6 og 7</locus> en hefur
 										ekki áhrif á textann.</p>
@@ -179,6 +204,7 @@
 								<source>
 									<p>
 										<list>
+											<item><name type="person" key="ErmMue001">EM</name> uppfærði vatnsmerkin og skráði kveraskipan <date when="2023-06-14">14. júní 2023</date>.</item>
 											<item>
 												<name key="ThuSig002" type="person">ÞÓS</name> skráði <date when="2020-06-24">24. júní 2020</date>.</item>
 											<item>
