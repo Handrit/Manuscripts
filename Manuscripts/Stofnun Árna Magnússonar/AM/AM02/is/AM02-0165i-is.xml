@@ -40,23 +40,26 @@
 						<objectDesc form="codex">
 							<supportDesc material="chart">
 								<support>
-									<p>Pappír með vatnsmerkjum.</p>
-									<p>
-										<watermark n="1">
-											Vatnsmerki 1. Aðalmerki:
-											<ref target="watermark:G6">Brenninetla</ref>
-											// Ekkert mótmerki (
-											<locus from="1r" facs="#AM02-0165i-0001r" to="1v">1</locus>
-											,
-											<locus from="3r" facs="#AM02-0165i-0003r" to="4v">3-4</locus>
-											,
-											<locus from="7r" facs="#AM02-0165i-0007r" to="7v">7</locus>
-											,
-											<locus from="9r" facs="#AM02-0165i-0009r" to="9v">9</locus>
-											,
-											<locus from="12r" facs="#AM02-0165i-0012r" to="13v">12-13</locus>
-											).
-										</watermark>
+									<p>Pappír með vatnsmerkjum.
+									<list>
+										<item>
+											<watermark>
+												<term type="mainWatermark-watermarkPair">Aðalmerki</term>: <ref type="watermarkMotif" target="watermark:G7">Brenninetla</ref> (<ref type="watermarkID"
+													target="https://www.wasserzeichen-online.de/wzis/struktur.php?ref=IS5000-02-0165i_13v">IS5000-02-0165i_13v</ref>), 
+												bl. <locus from="1r" facs="#AM02-0165i-0001r" to="1v">1</locus>, <locus from="3r" facs="#AM02-0165i-0003r" to="4v">3-4</locus>, <locus from="7r" facs="#AM02-0165i-0007r" to="7v">7</locus>, <locus from="9r" facs="#AM02-0165i-0009r" to="9v">9</locus>, <locus from="12r" facs="#AM02-0165i-0012r" to="13v">12-13</locus>. 
+												Stærð: <dimensions type="watermark" unit="mm">
+													<height>38</height>
+												</dimensions> x <dimensions type="watermark" unit="mm">
+													<width>40</width>
+												</dimensions>mm, <note> fjarlægð á milli vatnslína á báðum megin vatnsmerkisins: <dimensions type="chainlines" unit="mm">
+													<width>26</width>
+												</dimensions> mm.</note>
+											</watermark>
+											<p>Ekkert mótmerki.</p>
+											<note type="paperDate">Notað <date from="1626" to="1646">frá 1626 til 1646.</date>
+												</note>
+										</item>
+									</list>
 									</p>
 								</support>
 								<extent>i + 14 + i blöð (<dimensions type="leaf" unit="mm" scope="all">
@@ -67,6 +70,16 @@
 									<p>Handritið hefur verið blaðmerkt síðar með bleki, 1-13; bl. 14
 										er ótölusett.</p>
 								</foliation>
+								<collation>
+									<p>4 kver:    
+										<list>
+											<item>I: spjaldblað - fylgigögn 1 (eitt tvinn + eitt blað)</item>
+											<item>II: bl. 1-8 (4 tvinn: 1+8, 2+7, 3+6, 4+5)</item>
+											<item>III: bl. 9-14 (3 tvinn: 9+14, 10+13, 11+12)</item>
+											<item>IV: aftara saurblað -  spjaldblað (eitt tvinn)</item>
+										</list>
+									</p>
+								</collation>
 							</supportDesc>
 							<layoutDesc>
 								<layout columns="1" writtenLines="42 43">
@@ -170,6 +183,7 @@
 								<source>
 									<p>
 										<list>
+											<item><name type="person" key="ErmMue001">EM</name> uppfærði vatnsmerkin og skráði kveraskipan <date when="2023-06-14">14. júní 2023</date>.</item>
 											<item>
 												<name key="ThuSig002" type="person">ÞÓS</name> skráði <date when="2020-06-25">25. júní 2020</date>.</item>
 											<item>
