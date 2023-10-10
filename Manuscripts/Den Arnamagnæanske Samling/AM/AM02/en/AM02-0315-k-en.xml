@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -26,7 +27,7 @@
                   <summary><title type="uniform">Frostaþingslǫg: Kristinn réttr hinn
                      forni</title></summary>
                   <msItem n="1" class="log" defective="true">
-                     <locus from="1r" to="1v">1r-v</locus>
+                     <locus from="1r" facs="#AM02-0315-k-0001r" to="1v">1r-v</locus>
                      <title type="uniform">Frostaþingslǫg: Kristinn réttr hinn forni</title>
                      <textLang mainLang="non"/>
                      <bibl>Storm: <ref type="primary" target="NgL4">Norges gamle Love</ref>
@@ -76,7 +77,27 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-   <facsimile>
-      <surface/>
-   </facsimile>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+		<surface xml:id="AM02-0315-k-0001r" n="0">
+			<desc>0001r</desc>
+			<graphic mimeType="pdf" url="AM%20315%20k%20fol./0/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20315%20k%20fol./0/THUMBNAIL" width="170px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20315%20k%20fol./0/SECONDARY_DISPLAY" width="2133px" height="3759px"/>
+			<graphic mimeType="pdf" url="AM%20315%20k%20fol./0/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0315-k-0001v" n="1">
+			<desc>0001v</desc>
+			<graphic mimeType="pdf" url="AM%20315%20k%20fol./1/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20315%20k%20fol./1/THUMBNAIL" width="175px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20315%20k%20fol./1/SECONDARY_DISPLAY" width="2198px" height="3773px"/>
+			<graphic mimeType="pdf" url="AM%20315%20k%20fol./1/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM02-0315-k-accMat01r" n="2">
+			<desc>accMat01r</desc>
+			<graphic mimeType="pdf" url="AM%20315%20k%20fol./2/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20315%20k%20fol./2/THUMBNAIL" width="200px" height="255px"/>
+			<graphic mimeType="jpg" url="AM%20315%20k%20fol./2/SECONDARY_DISPLAY" width="3037px" height="3866px"/>
+			<graphic mimeType="pdf" url="AM%20315%20k%20fol./2/WEB_DISPLAY"/>
+		</surface>
+	</facsimile>
 </TEI>
