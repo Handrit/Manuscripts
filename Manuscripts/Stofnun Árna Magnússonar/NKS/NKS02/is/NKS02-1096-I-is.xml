@@ -45,7 +45,7 @@
 					<physDesc>
 						<objectDesc form="codex">
 							<supportDesc material="chart">
-								<support>Pappír.</support>
+								<support>Pappír. <watermark>Vatnsmerki.</watermark></support>
 								<extent>i + 10 + ii (<dimensions type="leaf" scope="all" unit="mm">
 										<height>338</height>
 										<width>214</width>
@@ -70,7 +70,12 @@
 									</p>
 								</foliation>
 								<collation>
-									<p/>
+									<p>Þrjú kver. <list>
+											<item n="1">Kver I: blöð 1-2, tvinn.</item>
+											<item n="2">Kver II: blöð 3-6, 2 tvinn.</item>
+											<item n="3">Kver III: blöð 7-10, 2 tvinn.</item>
+										</list>
+									</p>
 									<note/>
 								</collation>
 
@@ -88,11 +93,15 @@
 								</condition>
 							</supportDesc>
 							<layoutDesc>
-								<layout columns="1" writtenLines=" 29 36">
+								<layout columns="7" writtenLines=" 29 36">
 									<list>
 										<item>Handritið er sett upp í dálka, sbr. <locus from="1v"
 												facs="#NKS02-1096-I-0001v" to="1v"
 											>1v</locus>.</item>
+										<item>Leturflötur er <dimensions type="written" unit="mm">
+												<height scope="range">119</height>
+												<width scope="range">310</width>
+											</dimensions>.</item>
 										<item>Línufjöldi er á milli 29-36.</item>
 									</list>
 								</layout>
@@ -109,20 +118,29 @@
 								>6v</locus>.</decoNote>
 						</decoDesc>
 						<additions>
-							<p/>
+							<p>Á bl.<locus from="0001r" facs="#NKS04-1096-I-0001r" to="0001r"
+									>1r</locus>, er stimpill sem á stendur: <quote>Bibliotheca Regia
+									Hafnensis</quote>.</p>
 						</additions>
 						<bindingDesc>
 							<binding contemporary="false">
-								<p>
-									<list>
-										<item>Bundin í áþrykktan pappír.</item>
-										<item>Vatnsskemdir efst við jaðar.</item>
-									</list>
-								</p>
+								<decoNote>
+									<p>Óvíst um uppruna bandsins (<dimensions type="binding"
+											unit="mm">
+											<height>335</height>
+											<width>210</width>
+											<depth>40</depth>
+										</dimensions>)</p>
+									<p><material><locus from="0000r-FB"
+												facs="#NKS02-1096-I-0000r-FB" to="0000r-FB"
+												>Kápa</locus> er áþrykktur pappír</material>.</p>
+									<p>Handritið er í öskju, ásamt <ref type="ms"
+											target="NKS02-1096-II-is">NKS 1096 II fol.</ref>.</p>
+								</decoNote>
 							</binding>
 						</bindingDesc>
 						<accMat>
-							<p> Með handritinu fylgir lítill brúnn merkimiði frá Safni Konunglega
+							<p>Með handritinu fylgir lítill brúnn merkimiði frá Safni Konunglega
 								bókasafnsins í Kaupmannahöfn. Á honum stendur: <quote xml:lang="da"
 									>Håndskr. Afd. <lb/> Ny kgl. S.<lb/> 1096,<lb/> 2° <lb/>
 									Adskillige <lb/> ældre og nyere <lb/> taxter <lb/> for
@@ -138,7 +156,9 @@
 									>nr. 250</ref></p>
 						</origin>
 						<provenance>
-							<p>Handritið er hluti af <ref type="ms" target="https://handrit.is/manuscript/view/is/NKS02-1096-II/0#mode/2up">NKS 1096 II fol.</ref> skv. Kålund.</p>
+							<p>Handritið er hluti af <ref type="ms"
+									target="https://handrit.is/manuscript/view/is/NKS02-1096-II/0#mode/2up"
+									>NKS 1096 II fol.</ref> skv. Kålund.</p>
 						</provenance>
 						<acquisition>
 							<p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 29. ágúst 1986.
@@ -149,6 +169,8 @@
 						<adminInfo>
 							<recordHist>
 								<source>
+									<p><name type="person" key="MarGis003">MJG</name> uppfærði upplýsingar <date
+										when="2023-10-18">18. október 2023</date>.</p>
 									<p><name type="person" key="MarGis003">MJG</name> skráði
 										handritið rafrænt og aðlagaði kóðann samkvæmt TEI P5 <date
 											when="2023-09-15">15. september 2023</date>.</p>
