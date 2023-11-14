@@ -27,10 +27,10 @@
 						<textLang mainLang="is"/>
 						<titlePage type="ms">
 							<docTitle>
-								<note>!ER Í VINNSLU!</note>
 								<titlePart type="main">Lögbók <lb/> Íslendinga <lb/> hverja sama
 									<lb/> nú hefur sett <lb/> Magnús Noregs <lb/> kóngur <lb/> svo
-									sem hans bréf og formáli vottast: <lb/> Skrifuð á <placeName
+									sem hans bréf og formáli vottast: <lb/> </titlePart>
+									<titlePart type="sub">Skrifuð á <placeName
 										key="TyrSna01">Mýri</placeName> á Snjáfallaströnd <lb/>
 										An<ex>n</ex>o 1531 af <lb/>
 									<name type="person" key="BjaJon006">Bjarna Jónssyni</name>.
@@ -41,10 +41,9 @@
 						<msItem n="1" defective="false" class="log logfr">
 							<locus from="1r" facs="#NKS04-1931-0001r" to="87v">1r-87v</locus>
 							<title type="uniform">Jónsbók</title>
-							<rubric>Lögbók Íslendinga</rubric>
-							<incipit>Magnús kóngs bréf <ex>og</ex>
-								<lb/> Magn- <lb/> ús með <lb/> Guðs m- <lb/> iskunn <lb/> Noregs
-								kóngr ...</incipit>
+							<rubric>Magnús kóngs bréf</rubric>
+							<incipit>Magn- <lb/> ús með <lb/> Guðs m- <lb/> iskunn <lb/> Noregs
+								kóngr <lb/> son Hákonar ...</incipit>
 							<explicit>... er orð mín hef<ex>ur</ex>. <lb/> FINIS</explicit>
 							<colophon> Var þessi lögbók skrifuð í sama stað <ex>og</ex> ári sem fyr
 								se- <lb/> gir og enduð þ<ex>an</ex>n 24. mars sem var hin<ex>n</ex>
@@ -91,7 +90,7 @@
 										<height>173</height>
 										<width>139</width>
 									</dimensions>). Blað 87v er autt.</extent>
-								<!-- Ath. blað 4, 13, 35, 47, 61, 81 er minna, sjá fyrir neðan en blað 3 er stærra -->
+								<!-- Ath. blað 4, 13, 35, 47, 61, 81 er minna, sjá fyrir neðan en blað 3 er stærra - á eftir að mæla -->
 								<foliation>
 									<p>Rektósíður blaðmerktar 1-86, með rauðum blýanti, síðari tíma
 										viðbót. <list>
@@ -186,8 +185,10 @@
 						</handDesc>
 						<decoDesc>
 							<decoNote type="paratext" subtype="title-page">Titilsíða er skreytt með
-								ramma utan um texta, með rauðum og bláum lit (<locus from="1r"
+								ramma utan um texta, með rauðum og grænum lit (<locus from="1r"
 									facs="#NKS04-1931-0001r" to="1r">1r</locus>.)</decoNote>
+							<decoNote type="Border" subtype="title-page">Skrautbekkur um titil með rauðum og grænum lit(bl. <locus from="1r"
+								facs="#NKS04-1931-0001r" to="1r">1r</locus>.)</decoNote>
 							<decoNote type="initial" subtype="decorated">Stórir, litaðir og
 								skreyttir upphafsstafir (bl. <locus from="1v"
 									facs="#NKS04-1931-0001v" to="1v">1v</locus>, <locus from="3v"
@@ -311,7 +312,7 @@
 						<provenance>
 							<p/>
 						</provenance>
-						<acquisition>
+						<acquisition notBefore="1997-04-09" notAfter="1997-04-09">
 							<p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 9. apríl
 								1997.</p>
 						</acquisition>
@@ -320,7 +321,7 @@
 						<adminInfo>
 							<recordHist>
 								<source>
-									<p>Handritið er óskráð stafrænt.</p>
+									<p><name type="person" key="MarGis003">MJG</name> skráði handritið rafrænt og aðlagaði kóðann samkvæmt TEI P5 <date when="2023-11-14">14. nóvember 2023</date>. .</p>
 									<p>Skráning <name type="person" key="KriKaa001">Kristian
 											Kålunds</name> á handritinu er aðgengileg á <bibl>
 											<ref target="KatKB">Katalog over de oldnorsk-islandske
