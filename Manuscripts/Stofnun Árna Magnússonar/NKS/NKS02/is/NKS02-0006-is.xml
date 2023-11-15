@@ -14,23 +14,36 @@
                     <msIdentifier>
                         <country key="IS">Ísland</country>
                         <settlement>Reykjavík</settlement>
-                        <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                        <institution key="SAM">Stofnun Árna Magnússonar í íslenskum
+                            fræðum</institution>
                         <repository>Handritasvið</repository>
-                        <collection key="NKS">Safn Konunglega bókasafnsins í Kaupmannahöfn</collection>
+                        <collection key="NKS">Safn Konunglega bókasafnsins í
+                            Kaupmannahöfn</collection>
                         <idno>NKS 6 fol.</idno>
-                        <altIdentifier type="internal" subtype="KKKat">
-                            <idno>OI156</idno>
+                        <altIdentifier type="internal" subtype="KatKB">
+                            <idno>156</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
                         <textLang mainLang="is">Íslenska</textLang>
-                       <msItem n="1"><title type="supplied">Skýringar við Davíðssálma</title></msItem>
+                        <msItem n="1">
+                            <locus from="1r" facs="#NKS02-0006-is" to="177v">1r-177v</locus>
+                            <title type="supplied">Skýringar við Davíðssálma</title>
+                            <author key="PalBjo001">Páll Björnsson</author>
+                        </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent/>
+                                <extent> 177 blöð (<dimensions type="leaf" scope="all" unit="mm">
+                                        <height>300</height>
+                                        <width>210</width>
+                                    </dimensions>). Blöð <locus from="6v" facs="#NKS02-0006-is"
+                                        to="6v">6v</locus>, <locus from="8v" facs="#NKS02-0006-is"
+                                        to="9r">8v-9r</locus>, <locus from="127v"
+                                        facs="#NKS02-0006-is" to="128r">127v-128r</locus> eru
+                                    auð.</extent>
                                 <foliation>
                                     <p>
                                         <list>
@@ -42,9 +55,9 @@
                                     <p/>
                                     <note/>
                                 </collation>
-                                
+
                                 <condition>
-                                    <p/>
+                                    <p>Skaddað í lokin.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -53,16 +66,17 @@
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
-                            <handNote scribe="unknown" script="unknown" scope="sole"/>
-                            
+                        <handDesc hands="1">
+                            <handNote scribe="unknown" script="PalBjo001" scope="sole">Páll
+                                Björnsson</handNote>
+
                         </handDesc>
                         <additions>
                             <p/>
                         </additions>
                         <bindingDesc>
-                            <binding contemporary="false"><p>
-                            </p>
+                            <binding contemporary="false">
+                                <p>Eldra band fylgdi í bandaspjöldum með handritinu.</p>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -70,28 +84,36 @@
                         </accMat>
                     </physDesc>
                     <history>
-                        <origin>
-                            <p/>
+                        <origin when="1705">
+                            <p>Handritið er tímasett <origDate when="1705" cert="high"
+                                    >1705</origDate> í <bibl><ref target="KatKB">Katalog over de
+                                        oldnorsk-islandske håndskrifte</ref>, </bibl> nr. <ref
+                                    target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/158"
+                                    > 156</ref>. </p>
                         </origin>
                         <provenance>
                             <p/>
                         </provenance>
-                        <acquisition>
-                            <p/>
+                        <acquisition notBefore="1986-08-26" notAfter="1986-08-26">
+                            <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu <date
+                                    when="1986-08-21">21. ágúst 1986.</date>. </p>
                         </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Handritið er óskráð stafrænt.</p> 
-                                    <p>Skráning <name type="person" key="KriKaa001">Kristian Kålunds</name> á
-                                        handritinu er aðgengileg á <bibl>
-                                            <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter i Det store kongelige
-                                                Bibliotek og i Universitetsbiblioteket</ref>
+                                    <p><name type="person" key="MarGis003">MJG</name> skráði
+                                        handritið rafrænt og aðlagaði kóðann samkvæmt TEI P5 <date
+                                            when="2023-11-15">15. nóvember 2023</date>.</p>
+                                    <p>Skráning <name type="person" key="KriKaa001">Kristian
+                                            Kålunds</name> á handritinu er aðgengileg á <bibl>
+                                            <ref target="KatKB">Katalog over de oldnorsk-islandske
+                                                Håndskrifter i Det store kongelige Bibliotek og i
+                                                Universitetsbiblioteket</ref>
                                         </bibl>, bls. 85.</p>
                                 </source>
-                            </recordHist>                            
+                            </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation"/>
                             </custodialHist>
@@ -114,7 +136,7 @@
     </teiHeader>
     <text>
         <body>
-            
+
             <p/>
         </body>
     </text>
