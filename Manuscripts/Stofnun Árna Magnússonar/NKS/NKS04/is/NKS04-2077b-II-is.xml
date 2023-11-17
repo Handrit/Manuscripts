@@ -14,7 +14,8 @@
                     <msIdentifier>
                         <country key="IS">Ísland</country>
                         <settlement>Reykjavík</settlement>
-                        <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
+                        <institution key="SAM">Stofnun Árna Magnússonar í íslenskum
+                            fræðum</institution>
                         <repository>Handritasvið</repository>
                         <collection key="NKS">Safn Árna Magnússonar</collection>
                         <idno>NKS 2077 b II 4to</idno>
@@ -22,16 +23,26 @@
                             <idno>911</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <msContents>
-                        <msItem>
+                    <msContents xml:lang="is">
+                        <msItem defective="false" class="sendibr">
                             <title type="supplied">Líf íslenskra stúdenta í Kaupmannahöfn</title>
+                            <note>Hér eru skjöl um íslenska stúdenta 1756, félagsskjalasafn er
+                                tilheyrði íslenska stúdentafélaginu, 2 latnesk bréf frá Íslendingum,
+                                1 danskt og 1 þýskt ljóð.</note>
+                            <bibl>Jón Espólín: <ref target="JonEsp1895a" type="secondary-3">Saga
+                                    Jóns Espólíns hins fróða, sýslumanns í Hegranesþingi</ref>.
+                                Kaupmannahöfn, 1895, s. VIII, XXI ff.</bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent/>
+                                <!-- ath. nánar stærð -->
+                                <extent>39 blöð og seðlar (<dimensions type="leaf" unit="mm">
+                                        <height scope="range">210 +/-2</height>
+                                        <width scope="range">170 +/-2</width>
+                                    </dimensions>). </extent>
                                 <foliation>
                                     <p>
                                         <list>
@@ -71,21 +82,30 @@
                         </accMat>
                     </physDesc>
                     <history>
-                        <origin>
-                            <p/>
+                        <origin notBefore="1750" notAfter="1810">
+                            <p>Handritið er tímasett á síðari hluta <origDate notBefore="1750"
+                                    notAfter="1799" cert="medium">18. aldar</origDate> og um
+                                aldamótin 1800 í <bibl><ref target="KatKB">Katalog over de
+                                        oldnorsk-islandske håndskrifte</ref>, </bibl> nr. <ref
+                                    target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/364 "
+                                    > 911</ref>.</p>
                         </origin>
                         <provenance>
                             <p/>
                         </provenance>
-                        <acquisition>
-                            <p/>
+                        <acquisition when="1997-04-09">
+                            <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu <date
+                                    when="1997-04-09">9. apríl 1997.</date>.</p>
+                            <p> Áður í safni Konunglega bókasafnsins í Kaupamannahöfn.</p>
                         </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Handritið er óskráð stafrænt.</p>
+                                    <p><name type="person" key="MarGis003">MJG</name> skráði
+                                        handritið rafrænt og aðlagaði kóðann samkvæmt TEI P5 <date
+                                            when="2023-11-17">17. nóvember 2023</date>.</p>
                                     <p>Skráning <name type="person" key="KriKaa001">Kristian
                                             Kålunds</name> á handritinu er aðgengileg á <bibl>
                                             <ref target="KatKB">Katalog over de oldnorsk-islandske
@@ -95,7 +115,11 @@
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent type="conservation"/>
+                                <custEvent type="conservation" notBefore="1972-03"
+                                    notAfter="1996-04">Gert var við handritið fyrst í mars 1972, en
+                                    seinast í apríl 1996. Handritið er í 24 nýjum kápum og í nýrri
+                                    öskju. Nákvæm lýsing á ljósmyndun og viðgerð fylgdi með. Einnig
+                                    nákvæm skrá um innihaldið.</custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
