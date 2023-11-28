@@ -1,125 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Handritaskrá Árnastofnunar</title>
-            </titleStmt>
-            <publicationStmt>
-                <p>Tilraunaútgáfa</p>
-            </publicationStmt>
-            <sourceDesc>
-                <msDesc xml:lang="is" xml:id="NKS04-3284-is">
-                    <msIdentifier>
-                        <country key="IS">Ísland</country>
-                        <settlement>Reykjavík</settlement>
-                        <institution key="SAM">Stofnun Árna Magnússonar í íslenskum fræðum</institution>
-                        <repository>Handritasvið</repository>
-                        <collection key="NKS">Safn Árna Magnússonar</collection>
-                        <idno>NKS 3284 4to</idno>
-                        <altIdentifier type="internal" subtype="KatKB">
-                            <idno/>
-                        </altIdentifier>
-                    </msIdentifier>
-                    <msContents xml:lang="is">
-                        <textLang mainLang="is" otherLangs="da">Íslenska</textLang>
-                        <msItem>
-                            <title type="supplied">Ljóðasafn</title>
-                        </msItem>
-                    </msContents>
-                    <physDesc>
-                        <objectDesc form="codex">
-                            <supportDesc material="chart">
-                                <support>Pappír.</support>
-                            	<extent>i + 20 + i, þar með talið blað merkt <locus from="0002bisr" facs="#NKS04-3284-0002bisr" to="0002bisv">2bis</locus>. Auð blöð <locus from="19v" facs="#NKS04-3284-0019v" to="19v">19v</locus>.</extent>
-                                <foliation>
-                                    <p>Blaðsíðumerking 1-37 + bl. 2bis.
-                                        <list>
-                                            <item/>
-                                        </list>
-                                    </p>
-                                </foliation>
-                                <collation>
-                                    <p/>
-                                    <note/>
-                                </collation>
-                                
-                                <condition>
-                                	<p>Milli blaða 2 og 3 er blaðbrotsblað merkt <locus from="0002bisr" facs="#NKS04-3284-0002bisr" to="0002bisv">2bis</locus>.</p>
-                                </condition>
-                            </supportDesc>
-                            <layoutDesc>
-                                <layout columns="1" writtenLines="23 25">
-                                    <p><list>
-                                    	<item>Eindálka.</item>
-                                    	<item>Línufjöldi er 23-25.</item>
-                                    	<item>Leturflötur er afmarkaður með línum (sbr. bl. <locus from="1r" facs="#NKS04-3284-0001r" to="1r">1r</locus>).</item>
-                                    </list></p>
-                                </layout>
-                            </layoutDesc>
-                        </objectDesc>
-                        <handDesc>
-                            <handNote scribe="unknown" script="unknown" scope="sole"/>
-                            
-                        </handDesc>
-                    	<decoDesc>
-                    		<decoNote type="frize" subtype="tail-piece">Bókahnútur, (bl. <locus
-                    			from="4r" facs="#NKS04-3284-004r" to="4r">4r</locus>).
-                    		</decoNote>
-                    	</decoDesc>
-                        <additions>
-                            <p/>
-                        </additions>
-                        <bindingDesc>
-                            <binding contemporary="false"><p>
-                            </p>
-                            </binding>
-                        </bindingDesc>
-                        <accMat>
-                            <p/>
-                        </accMat>
-                    </physDesc>
-                    <history>
-                        <origin>
-                            <p/>
-                        </origin>
-                        <provenance>
-                            <p/>
-                        </provenance>
-                        <acquisition>
-                        	<p>Stofnun Árna Magnússonar á Íslandi tók við handritinu <date when="1997-04-09">9. apríl 1997</date>.</p> 
-                        	
-                        	<p> Áður í safni Konunglega bókasafnsins í Kaupamannahöfn.</p>
-                        </acquisition>
-                    </history>
-                    <additional>
-                        <adminInfo>
-                            <recordHist>
-                                <source>
-                                    <p>Handritið er óskráð stafrænt.</p>
-                                </source>
-                            </recordHist>
-                            <custodialHist>
-                                <custEvent type="conservation"><p>Gert var við handritið í júní til október 1993. Handritið er í nýlegu bandi, en er ekki í hylki.</p><p>Nákvæm lýsing á ljósmyndun og viðgerð fylgdi með.</p><p>Handritið er ekki í skrá Kålunds.</p></custEvent>
-                            </custodialHist>
-                        </adminInfo>
-                        <surrogates>
-                            <p>
-                                <list>
-                                    <item>Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
-                                        Kaupmannahöfn.</item>
-                                </list>
-                            </p>
-                        </surrogates>
-                        <listBibl>
-                            <bibl/>
-                        </listBibl>
-                    </additional>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
-    </teiHeader>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Handritaskrá Árnastofnunar</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Tilraunaútgáfa</p>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc xml:lang="is" xml:id="NKS04-3284-is">
+					<msIdentifier>
+						<country key="IS">Ísland</country>
+						<settlement>Reykjavík</settlement>
+						<institution key="SAM">Stofnun Árna Magnússonar í íslenskum
+							fræðum</institution>
+						<repository>Handritasvið</repository>
+						<collection key="NKS">Safn Árna Magnússonar</collection>
+						<idno>NKS 3284 4to</idno>
+						<altIdentifier type="internal" subtype="KatKB">
+							<idno/>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents xml:lang="is">
+						<summary>
+							<title type="supplied">Ljóðmæli Benedikts Gröndal Jónssonar</title>
+						</summary>
+						<textLang mainLang="is" otherLangs="da">Íslenska</textLang>
+						<msItem n="1" defective="false" class="kvad">
+							<locus from="1r" facs="#NKS04-3284-0001r" to="2r">1r-2r</locus>
+							<textLang mainLang="da"/>
+							<title type="supplied">Ljóð á afmælisdegi konungs 29. janúar
+								1799</title>
+							<rubric xml:lang="da">Den 29di Januar 1799 paa kongens <lb/>
+								Födelsdag.</rubric>
+							<incipit>Jeg lebet har i saa mange aar / og har paa bagen vel tiende
+								sneese ...</incipit>
+							<explicit>... til landets slötter i sönder brække ved
+								Ragnarök.</explicit>
+							<note>8 erindi.</note>
+						</msItem>
+						<msItem n="2" defective="false" class="kvad">
+							<locus from="2v" facs="#NKS04-3284-0002v" to="2v">2v</locus>
+							<title type="supplied">Ljóð vegna andláts Finsens</title>
+							<rubric xml:lang="da">Ved Finsens Död.</rubric>
+							<incipit xml:lang="is">Þrútin af ekka þrykti hjálm / þrotin Minerva
+								sældar gengi ...</incipit>
+							<explicit xml:lang="is">... lætur margtekið: enginn, engi.</explicit>
+							<note>2 erindi.</note>
+							<bibl>Hefur verið prentað í <ref target="BenGro1833a">Kvæði
+									landsyfirréttar assessors Benedkits Gröndals</ref> bls.
+								96.</bibl>
+							<bibl>Í <ref target="PoeJos1905">Eislandblüten ein Sammelbuch
+									neuisländischer Lyrik von J.C. Poestion</ref> bls. 3 hefur
+								ljóðið verið þýtt yfir á þýsku.</bibl>
+						</msItem>
+						<msItem n="3" defective="false" class="kvad">
+							<locus from="2v" facs="#NKS04-3284-0002v" to="3v">2v-3v</locus>
+							<title type="supplied">Ég bað til Guðs þá ég var ærið ungur</title>
+							<rubric>Jómfrú Malene Örum - þann <lb/> 12ta febrúar 1801.</rubric>
+							<incipit>Ég bað til Guðs þá eg var ærið ungur / og varla par ég þekkti
+								illt né gott ...</incipit>
+							<explicit>... ráð, sem mér ætíð gáfust gæða vel.</explicit>
+							<note>8 erindi.</note>
+							<bibl>Hefur verið prentað í <ref target="BenGro1833a">Kvæði
+									landsyfirréttar assessors Benedkits Gröndals</ref> bls.
+								73-74.</bibl>
+						</msItem>
+						<msItem n="4" defective="false" class="kvad">
+							<locus from="3v" facs="#NKS04-3284-0003v" to="4r">3v-4r</locus>
+							<title type="supplied">Þegar Júpíter gjörði gildi</title>
+							<rubric>Sauðurinn <lb/> eftir Lessing.</rubric>
+							<incipit>Þegar Júpíter gjörði gildi / giftingar degi sínum á
+								...</incipit>
+							<explicit>... grát hefði Júnó fallið í.</explicit>
+							<note>5 erindi.</note>
+							<bibl>Hefur verið prentað í <ref target="BenGro1833a">Kvæði
+									landsyfirréttar assessors Benedkits Gröndals</ref> bls.
+								67-68.</bibl>
+						</msItem>
+						<msItem n="5" defective="false" class="kvad">
+							<locus from="4v" facs="#NKS04-3284-0004v" to="5v">4v-5v</locus>
+							<title type="supplied">Íslands Elli-væla</title>
+							<rubric>Ellivæla.</rubric>
+							<incipit>Íslands elli-væla / orð sem vildi næla ...</incipit>
+							<explicit>... að gera grun - hver girnilegri vera mun.</explicit>
+							<note>7 erindi auk formála.</note>
+						</msItem>
+						<msItem n="6" defective="false" class="kvad">
+							<locus from="5v" facs="#NKS04-3284-0005v" to="5v">5v-5v</locus>
+							<title type="supplied">Hafði Herkúles hinn harðgeði</title>
+							<rubric>Eftir Theokrits.</rubric>
+							<incipit>Hafði Herkúles / en harðgeði / ári minnur ...</incipit>
+							<explicit>... svo höfðu goðin - gætur alls.</explicit>
+							<note>9 og hálft erindi. <p/></note>
+							<bibl>Allt kvæðið hefur verið prentað í <ref target="BenGro1833a">Kvæði
+									landsyfirréttar assessors Benedkits Gröndals</ref> bls. 51-55.</bibl>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>Pappír.</support>
+								<extent>i + 20 + i, þar með talið blað merkt <locus from="0002bisr" facs="#NKS04-3284-0002bisr" to="0002bisv">2bis</locus>. Auð
+									blöð <locus from="19v" facs="#NKS04-3284-0019v" to="19v">19v</locus>.</extent>
+								<foliation>
+									<p>Blaðsíðumerking 1-37 + bl. 2bis. <list>
+											<item/>
+										</list>
+									</p>
+								</foliation>
+								<collation>
+									<p/>
+									<note/>
+								</collation>
+
+								<condition>
+									<p>Milli blaða 2 og 3 er blaðbrotsblað merkt <locus from="0002bisr" facs="#NKS04-3284-0002bisr" to="0002bisv">2bis</locus>.</p>
+								</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1" writtenLines="23 25">
+									<p><list>
+											<item>Eindálka.</item>
+											<item>Línufjöldi er 23-25.</item>
+											<item>Leturflötur er afmarkaður með línum (sbr. bl.
+												<locus from="1r" facs="#NKS04-3284-0001r" to="1r">1r</locus>).</item>
+										</list></p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote scribe="unknown" script="unknown" scope="sole"/>
+
+						</handDesc>
+						<decoDesc>
+							<decoNote type="frize" subtype="tail-piece">Bókahnútur, (bl. <locus from="4r" facs="#NKS04-3284-0004r" to="4r">4r</locus>). </decoNote>
+							<decoNote type="frize" subtype="tail-piece">Ígildi bókahnúts, (bl.
+									<locus from="11r" facs="#NKS04-3284-0011r" to="11r">11r</locus>). </decoNote>
+						</decoDesc>
+						<additions>
+							<p/>
+						</additions>
+						<bindingDesc>
+							<binding contemporary="false">
+								<p><locus from="0000r-FB" facs="#NKS04-3284-0000r-FB" to="0000r-FB">Pappaspjöld</locus> klædd fínofnum líndúk. Grófari dúkur á
+									kili og hornum. Saurblöð tilheyra nýju bandi.</p>
+								<p>Límmiði á kili.</p>
+							</binding>
+						</bindingDesc>
+						<accMat>
+							<p/>
+						</accMat>
+					</physDesc>
+					<history>
+						<origin>
+							<p/>
+						</origin>
+						<provenance>
+							<p/>
+						</provenance>
+						<acquisition>
+							<p>Stofnun Árna Magnússonar á Íslandi tók við handritinu <date when="1997-04-09">9. apríl 1997</date>.</p>
+						</acquisition>
+					</history>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<source>
+									<p>Handritið er óskráð stafrænt.</p>
+								</source>
+							</recordHist>
+							<custodialHist>
+								<custEvent type="conservation" notBefore="1993-06" notAfter="1993-10"><p>Gert var við handritið í júní til október
+										1993. Handritið er í nýlegu bandi, en er ekki í
+										hylki.</p><p>Nákvæm lýsing á ljósmyndun og viðgerð fylgdi
+										með.</p><p>Handritið er ekki í skrá Kålunds.</p></custEvent>
+							</custodialHist>
+						</adminInfo>
+						<surrogates>
+							<p>
+								<list>
+									<item>Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
+										Kaupmannahöfn.</item>
+								</list>
+							</p>
+						</surrogates>
+						<listBibl>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
 	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
 		<surface xml:id="NKS04-3284-0000r-FB" n="0">
 			<desc>0000r-FB</desc>
@@ -494,9 +569,9 @@
 		</surface>
 	</facsimile>
 	<text>
-        <body>
-            
-            <p/>
-        </body>
-    </text>
+		<body>
+
+			<p/>
+		</body>
+	</text>
 </TEI>
