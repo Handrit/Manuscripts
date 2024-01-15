@@ -56,9 +56,9 @@
 						<objectDesc form="codex">
 							<supportDesc material="chart">
 								<support>Pappír.</support>
-								<extent>37 blöð (<dimensions type="leaf" scope="all" unit="mm">
-										<height>196</height>
-										<width>157</width>
+								<extent>37 blöð (<dimensions type="leaf" unit="mm">
+										<height scope="range">193-196</height>
+										<width scope="range">154-158</width>
 									</dimensions>).</extent>
 								<foliation>
 									<p>Blaðmerking 1-72 með blýanti á efri spássíu á hverri síðu,
@@ -70,15 +70,18 @@
 								</collation>
 
 								<condition>
-									<p>Blettir, en skerðir ekki texta, bl. <locus from="23v"
+									<p><list>
+										<item>Blöð stökk og gulnuð.</item>
+									<item>Blettir, en skerðir ekki texta, bl. <locus from="23v"
 											facs="#NKS04-1851a-0023v" to="23v">23v</locus>, <locus
 											from="37r" facs="#NKS04-1851a-0037r" to="37r"
 											>37r</locus> og <locus from="37v"
-											facs="#NKS04-1851a-0037v" to="37v">37v</locus>.</p>
-									<p>Texti sést allstaðar í gegn, sbr. <locus from="1v"
+											facs="#NKS04-1851a-0037v" to="37v">37v</locus>.</item>
+									<item>Texti sést allstaðar í gegn, sbr. <locus from="1v"
 											facs="#NKS04-1851a-0001v" to="1v">1v</locus> og <locus
 											from="2r" facs="#NKS04-1851a-0002r" to="2r"
-										>2r</locus>.</p>
+										>2r</locus>.</item>
+									</list></p>
 								</condition>
 							</supportDesc>
 							<layoutDesc>
@@ -86,7 +89,13 @@
 									<p>
 										<list>
 											<item>Eindálka.</item>
+											<item>Leturflötur er <dimensions type="written"
+												unit="mm">
+												<height scope="range">154-160</height>
+												<width scope="range">130-135</width>
+												</dimensions>.</item>
 											<item>Línufjöldi er 18-22.</item>
+											<item>Leturflötur afmarkaður með þurroddi.</item>
 										</list>
 									</p>
 								</layout>
@@ -95,7 +104,7 @@
 						<handDesc hands="1">
 							<handNote scribe="GunPal002" script="kurrent humcursiva" scope="sole"
 								>Með hendi <name type="person" key="GunPal002">Gunnars Pálssonar
-									</name>, snarhönd (latína) og fljótaskrift.</handNote>
+								</name>, snarhönd (latína) og fljótaskrift.</handNote>
 
 						</handDesc>
 						<decoDesc>
@@ -131,15 +140,34 @@
 							</p>
 						</additions>
 						<bindingDesc>
-							<binding contemporary="false">
-								<p>Bókaspjöld úr pappa klædd áþrykktum pappir.</p>
+							<binding contemporary="false" notAfter="1986">
+								<decoNote><p>Óvíst um uppruna bandsins (<dimensions type="binding"
+											unit="mm">
+											<height>196</height>
+											<width>157</width>
+											<depth>9</depth>
+										</dimensions>).</p>
+									<p><material><locus from="0000r-FB"
+												facs="#NKS04-NKS04-1851a-0000r-FB" to="0000r-FB"
+												>Bókaspjald</locus> úr pappa með grænu flæðimynstri.
+										</material> Límmiði á fremra spjaldi með stimpli og:
+											<quote>Gunn - Pauli f. <lb/> de typographia Islando-
+											<lb/> ium; 1754</quote>.</p>
+									<p>Handritið er í nýlegri öskju (<dimensions type="binding"
+											unit="mm">
+											<height>200</height>
+											<width>163</width>
+											<depth>16</depth>
+										</dimensions>).</p><p>Límmiði framan á með merki
+										Árnastofnunar.</p>
+								</decoNote>
 							</binding>
 						</bindingDesc>
 						<accMat>
 							<p>Með handritinu fylgir lítill brúnn merkimiði frá Safni Konunglega
 								bókasafnsins í Kaupmannahöfn. Á honum stendur: <quote xml:lang="da"
 									>Håndskr. Afd. <lb/> Ny kgl. <lb/> Saml. <lb/> 1851 a,<lb/>
-									4°</quote>.</p>
+									4°</quote></p>
 						</accMat>
 					</physDesc>
 					<history>
@@ -155,7 +183,7 @@
 												håndskrifte</ref></bibl>, nr. <ref
 											target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/320"
 											> 756</ref>.</item>
-									
+
 								</list>
 							</p>
 						</origin>
@@ -173,8 +201,9 @@
 							<recordHist>
 								<source>
 									<p><name type="person" key="MarGis003">MJG</name> skráði
-										handritið rafrænt og aðlagaði kóðann samkvæmt TEI P5 <date
-											when="2023-10-02">2. október 2023</date>.</p>
+										handritið samkvæmt TEI P5 <date
+											when="2023-10-02">2. október 2023</date> ; bætti við skráningu <date
+												when="2024-01-15">15. janúar 2024</date>.</p>
 									<p>Skráning <name type="person" key="KriKaa001">Kristian
 											Kålunds</name> á handritinu er aðgengileg á <bibl>
 											<ref target="KatKB">Katalog over de oldnorsk-islandske
