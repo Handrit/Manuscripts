@@ -24,7 +24,8 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        <summary><title type="supplied">Partalopa rímur</title></summary>
+                        <summary><title type="supplied">Partalopa rímur</title>
+                        <note>Handritið er í heilu lagi, en er skráð hér í tveimur hlutum.</note></summary>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
@@ -34,15 +35,16 @@
                             </supportDesc>
                         </objectDesc>
                         <bindingDesc>
-                            <binding>
-                                <p>Í dag er handritið bundið í pappaspjöld klædd fínofnum líndúk,
+                            <binding when="1979">
+                                <p>Band frá því <date when="1979">1979</date>. Handritið er bundið í pappaspjöld klædd fínofnum líndúk,
                                     frá tíma <name type="person" key="BirDal001">Birgitte
                                         Dall</name>.</p>
                                 <p>Var áður í eldra pappaspjöld, með brúnum og bláum marmarapappír á
                                     innri spjöldum, frá tíma <name type="person" key="KriKaa001"
                                         >Kristian Kålund</name>, um <date notBefore="1883"
-                                        notAfter="1919">1883-1919</date>. Eldra band er varðveitt
-                                    með handritinu, en í annarri blárri öskju. </p>
+                                        notAfter="1919">1883-1919</date>.</p>
+                                <p>Eldra band er varðveitt með handritinu, en í annarri blárri
+                                    öskju.</p>
                             </binding>
                         </bindingDesc>
                     </physDesc>
@@ -50,7 +52,7 @@
 
                         <origin notBefore="1601" notAfter="1700">
                             <p>Handritið er sennilega skrifað á <origPlace key="IS"
-                                    >Íslandi</origPlace></p><p>Kålund tímasetur það á <origDate
+                                    >Íslandi</origPlace>.</p><p>Kålund tímasetur það á <origDate
                                     notBefore="1601" notAfter="1700">17. öld</origDate> í <bibl><ref
                                         target="KKKat">Katalog II</ref></bibl>, bls. <ref
                                     target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/2/520"
@@ -77,7 +79,10 @@
                                         október 189?. NN tölvuskráði <date>??</date>. <name
                                             key="MarJon001" type="person">Már Jónsson</name>
                                         annaðist hlut Árna Magnússonar <date>13. mars
-                                        2000</date>.</p>
+                                        2000</date>.</p><p><name type="person" key="MarGis003"
+                                            >MJG</name> uppfærði skráningu með gögnum frá <name
+                                            type="person" key="BeeSte001">BS</name>, <date
+                                            when="2024-02-09">9. febrúar 2024</date>. </p>
                                 </source>
                             </recordHist>
                             <custodialHist>
@@ -96,7 +101,7 @@
                         </listBibl>
 
                     </additional>
-                    <msPart n="1">
+                    <msPart n="1" xml:id="AM120440bCU1">
                         <msIdentifier>
                             <idno>AM 440 b 12mo CU1</idno>
                         </msIdentifier>
@@ -110,7 +115,7 @@
                                 <textLang mainLang="is"/>
                                 <title type="uniform">Rímur af Partalopa</title>
                                 <rubric>Rímur af Partalopa</rubric>
-                                <note>Neðst á fyrstu síðu (1r) með hendi Árna Magnússonar frá
+                                <note>Neðst á 1r er með hendi Árna Magnússonar frá
                                         <date>um 1710</date>, prentað í Katalog: <quote>Þorvalldz
                                         Rỏgv. s.</quote>
                                 </note>
@@ -136,10 +141,10 @@
                                                   </p></item>
                                             </list>
                                         </p></support>
-                                    <extent>41 blað (<dimensions type="leaf" unit="mm">
+                                    <extent>29 blöð (<dimensions type="leaf" unit="mm">
                                             <height>92</height>
                                             <width scope="range">76-82</width>
-                                        </dimensions>). Auð blöð: <locus from="8v" to="8v"
+                                        </dimensions>). Autt blað: <locus from="8v" to="8v"
                                             >8v</locus>. </extent>
                                     <foliation>
                                         <p>Blaðmerking 1-29, með svörtu bleki, síðari tíma
@@ -210,12 +215,7 @@
                             </additions>
                             <bindingDesc>
                                 <binding contemporary="false">
-                                    <p>Band frá því 1979. Eldra band fylgir í öskju.
-                                        <!-- <dimensions type="binding">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
-                                    </dimensions> -->
+                                    <p>
                                     </p>
                                 </binding>
                             </bindingDesc>
@@ -224,13 +224,76 @@
                             </accMat>
                         </physDesc>
 
-
                     </msPart>
-
-
-
-
-
+                    <msPart xml:id="AM120440bCU2"> 
+                        <msIdentifier>
+                            <idno>AM 440 b 12mo CU2</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem n="3">
+                                <locus from="30r" to="36v">30r-36v</locus>
+                                <title type="supplied">Kvæði</title>
+                                <textLang mainLang="is">Icelandic</textLang>
+                                <rubric>Eytt heylagt kvædi</rubric>
+                            </msItem>
+                            <msItem n="4">
+                                <locus from="37r" to="39r">37r-39r</locus>
+                                <title type="supplied">Kvæði</title>
+                                <textLang mainLang="is">Icelandic</textLang>
+                                <rubric>Annað kvæði</rubric>
+                                
+                            </msItem>
+                            <msItem n="5">
+                                <locus from="39v" to="41v">39v-41v</locus>
+                                <title type="supplied">Kvæði</title>
+                                <textLang mainLang="is">Icelandic</textLang>
+                                <incipit type="upphaf">O þu galen<ex>n</ex> fiall fäla</incipit>
+                            </msItem>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc form="codex">
+                                <supportDesc material="chart">
+                                    <support><p>Pappír, <watermark>ekki hægt að greina vatnsmerki, vegna ástand pappírs, en stundum hægt að greina lóðréttar keðjulínur.</watermark></p></support>
+                                    <extent>12 blöð (<dimensions type="leaf" unit="mm" scope="all"><height>102</height><width>80</width></dimensions>).</extent>
+                                    <foliation>Blaðmerking 30-41, með svörtu bleki, síðari tíma viðbót. </foliation>
+                                    <collation>Tvö kver: <list>
+                                        <item>Kver V: bl. 30-35 (30+35, 31+34, 32+33), 3 tvinn. </item>
+                                        <item>Kver VI: bl. 36-41 (36+41, 37+40, 38+39), 3 tvinn.</item>
+                                    </list></collation>
+                                    <condition><list>
+                                        <item>Blöð eru dökk.</item>
+                                        <item>Gert hefur við jaðar með japönskum pappír, texti er skertur.</item>
+                                        <item>Bl. <locus from="30r" to="30r">30r</locus>, <locus from="35v" to="36r">35v-36r</locus> og <locus from="41v" to="41v">41v</locus> eru dekkri og óhreinni en önnur blöð.</item>
+                                        <item>Bl. <locus from="36r" to="36r">36r</locus> blek hefur dofnað.</item>
+                                    </list></condition>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <layout columns="1" writtenLines="17 19">
+                                        <list>
+                                            <item>Eindálka.</item>
+                                            <item>Leturflötur er <dimensions unit="mm" type="writtenLines"><height>85</height><width>65</width></dimensions>.</item>
+                                            <item>Línufjöldi er 17-19.</item>
+                                            <item><catchwords>Griporð</catchwords>, pennaflúruð.</item>
+                                        </list>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc hands="1">
+                                <handNote scribe="unknown" scope="sole" script="kanzlei">Ein hönd, kansellískrift.</handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote type="initial">Fyrsti upphafstafur er skemmdur, en aðrir upphafsstafir eru um 1-2 línur og oft skreyttir með línum og stafaflúri</decoNote>
+                                <decoNote type="paratext">Griporð skreytt með beinum og bogadregnum línum.</decoNote>
+                                <decoNote type="border">Á bl. <locus from="36v" to="36v">36v</locus> við lok textans, er skrautbekkur.</decoNote>
+                                <decoNote type="other">Á bl. <locus from="34r" to="34r">34r</locus> hefur skrifari teiknað fjóra krossa sem mynda tígul.</decoNote>
+                            </decoDesc>
+                            <additions><list>
+                                <item>Pennaprufur (bl. <locus from="38v" to="38v">38v</locus>, <locus from="39r" to="39r">39r</locus>).</item>
+                                <item>Nafnið <quote>Eynar Jonsson</quote> kemur stundum fyrir.</item>
+                                <item>Á bl. <locus from="39r" to="39r">39r</locus> er teikning eftir óþekkta hönd, af andliti, með sítt hár og eitthvað sem kemur inn eða út úr munni þess.</item>
+                            </list></additions>
+                        </physDesc>
+                    </msPart>
 
                 </msDesc>
             </sourceDesc>
@@ -238,7 +301,7 @@
     </teiHeader>
     <text>
         <body>
-            <p></p>
+            <p/>
         </body>
     </text>
 </TEI>
