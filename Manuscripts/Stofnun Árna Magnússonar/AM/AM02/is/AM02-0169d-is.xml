@@ -25,12 +25,14 @@
                <head>
                   <title type="uniform">Illuga saga Gríðarfóstra</title>
                   <origPlace>Ísland</origPlace>
-                  <origDate notBefore="1625" notAfter="1672" evidence="external">c1625-1672</origDate>
+                  <origDate notBefore="1625" notAfter="1672" evidence="external"
+                     >c1625-1672</origDate>
                   <!--<lang>Íslenska</lang>--><note/>
                </head>
-               <msContents class="fas">
-                  <msItem class="fas">
+               <msContents>
+                  <msItem n="1" class="fas">
                      <locus from="1r" to="7v">1r-7v</locus>
+                     <textLang mainLang="is"/>
                      <title type="uniform">Illuga saga Gríðarfóstra</title>
                      <rubric>Søgu þättur af Jlluga <lb/> Grydar föſtra</rubric>
                   </msItem>
@@ -41,66 +43,85 @@
                         <support>
                            <p>Pappír með vatnsmerkjum.</p>
                            <p>
-                              <watermark n="1">
-                                 Vatnsmerki 1. Aðalmerki:
-                                 <ref target="watermark:K7-1">Tveir turnar með tveimur egglaga gluggum</ref>
-                                 (
-                                 <locus from="3r" to="4v">3-4</locus>
-                                 ,
-                                 <locus from="7r" to="8v">7-8</locus>
-                                 )
-                                 // Mótmerki:
-                                 <ref target="watermark:X">Fangamark PH</ref>
-                                 (
-                                 <locus from="2r" to="2v">2</locus>
-                                 ,
-                                 <locus from="5r" to="6v">5-6</locus>
-                                 ).
-                              </watermark>
-                           </p>  
-                           <p>
-                              <watermark n="2">
-                                 Vatnsmerki 2. Aðalmerki:
-                                 <ref target="watermark:T1">Skjaldarmerki Amsterdam</ref>
-                                 // Ekkert mótmerki (fastur seðill fremst í handriti).
+                              <watermark n="1"> Vatnsmerki 1. Aðalmerki: <ref
+                                    target="watermark:K7-1">Tveir turnar með tveimur egglaga
+                                    gluggum</ref> ( <locus from="3r" to="4v">3-4</locus> , <locus
+                                    from="7r" to="8v">7-8</locus> ) // Mótmerki: <ref
+                                    target="watermark:X">Fangamark PH</ref> ( <locus from="2r"
+                                    to="2v">2</locus> , <locus from="5r" to="6v">5-6</locus> ).
                               </watermark>
                            </p>
+                           <p>
+                              <watermark n="2"> Vatnsmerki 2. Aðalmerki: <ref target="watermark:T1"
+                                    >Skjaldarmerki Amsterdam</ref> // Ekkert mótmerki (fastur seðill
+                                 fremst í handriti). </watermark>
+                           </p>
                         </support>
-                        <extent>8 blöð (<dimensions type="leaf" unit="mm" scope="all">
-                              <height>307</height>
-                              <width>197</width>
-                           </dimensions>).</extent>
+                        <extent>i + 8 + i blað (<dimensions type="leaf" unit="mm" scope="all">
+                              <height>301-307</height>
+                              <width>192-197</width>
+                           </dimensions>). Mest af bl. <locus from="7v" to="7v">7v</locus> er autt
+                           og allt bl. <locus from="8r" to="8v">8</locus>.</extent>
                         <foliation>
-                           <p/>
+                           <p>Blaðmerking með blýanti á neðri spássíu, 1-8, síðari tíma viðbót.</p>
                         </foliation>
                         <collation>
-                           <p>3 kver:    
-                              <list>
+                           <p>3 kver: <list>
                                  <item>I: spjaldblað - fremra saurblað (eitt tvinn)</item>
-                                 <item>II: AM seðill - bl. 8 (eitt blað + 4 tvinn: seðill, 1+8, 2+7, 3+6, 4+5)</item>
+                                 <item>II: AM seðill - bl. 8 (eitt blað + 4 tvinn: seðill, 1+8, 2+7,
+                                    3+6, 4+5)</item>
                                  <item>III: aftara saurblað - spjaldblað (eitt tvinn)</item>
                               </list>
                            </p>
                         </collation>
                         <condition>
-                           <p/>
+                           <list>
+                              <item>Blettótt, sérstaklega á spássíu.</item>
+                              <item>Bl. <locus from="8v" to="8v">8v</locus> sérstaklega óhreint og
+                                 dekkra en önnur blöð.</item>
+                           </list>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="1">
-                           <p>Eyður fyrir upphafsstafi.</p>
+                        <layout columns="1" writtenLines="23 24">
+                           <list>
+                              <item>Eindálka.</item>
+                              <item>Leturflötur er <dimensions unit="mm" type="written">
+                                    <height>230</height>
+                                    <width>120</width>
+                                 </dimensions></item>
+                              <item>Línufjöldi er 23-24.</item>
+                              <item>Eyður fyrir upphafsstafi.</item>
+                           </list>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc>
-                     <p>Ein hönd, brotaskrift.</p>
+                  <handDesc hands="1">
+                     <handNote scribe="JonErl001" script="kanzlei" scope="sole">Ein hönd, <name
+                           type="person" key="JonErl001">Jón Erlendsson</name>,
+                        kansellíbrotaskrift.</handNote>
                   </handDesc>
+                  <decoDesc>
+                     <decoNote type="initial">Eyður fyrir stóra upphafsstafi (ca. 3 línur). Aðrir
+                        upphafstafir eru skrifaðir af skrifara, eru 1-2 línur og eru blekdregnir
+                        skrautstafir.</decoNote>
+                     <decoNote type="paratext">
+                           <p>Fyrsta lína oft skrifuð með stærri skrift.</p>
+                           <p>Við lok texta er stafaflúr.</p>
+                        </decoNote>
+                  </decoDesc>
                   <additions>
                      <p/>
                   </additions>
                   <bindingDesc>
                      <binding contemporary="unknown">
-                        <p/>
+
+                        <p> Band frá <date when="1982">1982</date>, bundið í <name type="place"
+                              >Kaupmannahöfn</name> áður en handritið kom til Íslands. </p>
+                        <p><material>Spjöld eru klædd fínofnum striga.</material></p>
+                        <p>Áður pappaband frá tíma <name type="person" key="KriKaa001"
+                           >Kålund</name> með marmarapappír á spjöldum.</p>
+                        
                      </binding>
                   </bindingDesc>
                   <accMat>Fastur <locus from="accMat01v" to="accMat01v">seðill (núverandi fremra
@@ -108,23 +129,31 @@
                         <height>301</height>
                         <width>193</width>
                      </dimensions>) fremst með hendi <name key="ArnMag001" type="person">Árna
-                        Magnússonar</name>, en afgangur með sömu hendi: <quote xml:lang="is" type="AMSlip">Þáttur af Illuga Gríðarfóstra. Með hendi síra Jóns í
-                        Villingahollti. Léður mér af Jóni Þorlákssyni 1769 og síðan seldur
-                        1710. Var til forna í innbundinni bók.</quote>
-                     <note>Pappír er hinn sami og í <ref>AM 169 a fol.</ref> og <ref>AM 169 b
-                           fol.</ref>.</note>
+                        Magnússonar</name>, en afgangur með sömu hendi: <quote xml:lang="is"
+                        type="AMSlip">Þáttur af Illuga Gríðarfóstra. Með hendi síra Jóns í
+                        Villingahollti. Léður mér af Jóni Þorlákssyni 1769 og síðan seldur 1710. Var
+                        til forna í innbundinni bók.</quote>
+                     <note>Pappír er hinn sami og í <ref type="ms" target="#AM02-0169a-is">AM 169 a
+                           fol.</ref> og <ref type="ms" target="#AM02-0169b-is">AM 169 b
+                        fol.</ref></note>
                   </accMat>
                </physDesc>
                <history>
                   <origin notBefore="1625" notAfter="1672">
-                     <p>Skrifað af <name key="JonErl001" type="person">Jóni Erlendssyni</name> og
-                        tímasett til 17. aldar í <bibl>
-                           <ref target="KKKat">Katalog I</ref>
-                        </bibl>, bls. 141, en virkt skriftartímabil Jóns var c1625-1672. Var áður
-                        hluti af stærri bók (sbr. seðil). Í þeirri bók voru einnig <ref>AM 1 a
-                           fol.</ref>, <ref>AM 9 fol.</ref>, <ref>AM 139 fol.</ref>, <ref>AM 156
-                           fol.</ref>, <ref>AM 169 a fol.</ref>, <ref>AM 169 b fol.</ref>, <ref>AM
-                           192 fol.</ref> og <ref>AM 202 b fol.</ref>.</p>
+                     <p>Skrifað á <origPlace key="IS"/> og af <name key="JonErl001" type="person"
+                           >Jóni Erlendssyni</name> og tímasett til 17. aldar í <bibl>
+                           <ref target="KKKat">Katalog I</ref></bibl>, bls. <ref
+                           target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/1/156"
+                           >141</ref>, en virkt skriftartímabil Jóns var c1625-1672. Var áður hluti
+                        af stærri bók (sbr. seðil). Í þeirri bók voru einnig <ref
+                           type="ms" target="#AM02-0001-a-da">AM 1 a fol.</ref>, <ref type="ms"
+                              target="#AM02-0009-da">AM 9 fol.</ref>, <ref type="ms"
+                                 target="#AM02-0139-is">AM 139 fol.</ref>, <ref type="ms"
+                                    target="#AM02-0156-is">AM 156 fol.</ref>, <ref type="ms"
+                                       target="#AM02-0169a-is">AM 169 a fol.</ref>, <ref type="ms"
+                                          target="#AM02-0169b-is">AM 169 b fol.</ref>, <ref type="ms"
+                                             target="#AM02-0192-da">AM 192 fol.</ref> og <ref type="ms"
+                                                target="#AM02-0202b-is">AM 202 b fol.</ref></p>
                   </origin>
                   <provenance>
                      <p>
@@ -142,11 +171,18 @@
                      <recordHist>
                         <source>
                            <p>Tekið eftir <bibl>
-                                 <ref target="KKKat">Katalog I</ref>
-                              </bibl>, bls. 141 (nr. 252). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar <date when="1886-01-08">8. janúar 1886</date>. <name key="DriThr001" type="person">DKÞ</name> skráði <date when="2001-03-20">20. mars
-                                 2001</date>. <name key="ThuSig002" type="person">ÞÓS</name> skráði <date when="2020-06-25">25. júní 2020</date>.
-                              <name type="person" key="ErmMue001">EM</name> skráði kveraskipan <date when="2023-06-20">20. júní 2023</date>.
-                           </p>
+                                 <ref target="KKKat">Katalog I</ref></bibl>, bls. 141 (nr. 252). <name key="KriKaa001" type="person"
+                                 >Kålund</name> gekk frá handritinu til skráningar <date
+                                 when="1886-01-08">8. janúar 1886</date>.</p><p>
+                              <name key="DriThr001" type="person">DKÞ</name> skráði <date
+                                 when="2001-03-20">20. mars 2001</date>. </p><p><name
+                                 key="ThuSig002" type="person">ÞÓS</name> skráði <date
+                                 when="2020-06-25">25. júní 2020</date>.</p><p>
+                              <name type="person" key="ErmMue001">EM</name> skráði kveraskipan <date
+                                 when="2023-06-20">20. júní 2023</date>. </p><p><name type="person"
+                                 key="MarGis003">MJG</name> fór yfir skráningu með gögnum frá <name
+                                 type="person" key="BeeSte001">BS</name>, <date when="2024-02-13"
+                                 >13. febrúar 2024</date>. </p>
                         </source>
                      </recordHist>
                   </adminInfo>
@@ -165,8 +201,10 @@
 
                   <!-- Vatnsmerki eru tvö ljón við kórónu en pappír nokkuð gulur og þynnri en vanalega. Kålund (líklega) skrifar með blýanti neðst á blaðið að tekið sé úr <ref>AM 169 c fol.</ref> á milli bl. 338 og 364, og á líklega við handritið sem slíkt. (MJ) -->
                   <listBibl>
-                     <bibl>Davíð Erlingsson 1975, <ref target="DavErl1975a">Illuga saga og Illuga dans</ref></bibl>
-                     <bibl>Guðrún Ása Grímsdóttir 2008, <ref target="GuðGrí2008a">Ættartölusafnrit séra Þórðar Jónssonar í Hítardal</ref></bibl>                     
+                     <bibl>Davíð Erlingsson 1975, <ref target="DavErl1975a">Illuga saga og Illuga
+                           dans</ref></bibl>
+                     <bibl>Guðrún Ása Grímsdóttir 2008, <ref target="GuðGrí2008a">Ættartölusafnrit
+                           séra Þórðar Jónssonar í Hítardal</ref></bibl>
                   </listBibl>
                </additional>
             </msDesc>
