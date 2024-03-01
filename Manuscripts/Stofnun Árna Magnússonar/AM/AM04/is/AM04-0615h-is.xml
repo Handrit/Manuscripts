@@ -22,14 +22,16 @@
                      <idno>1593</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
-                  <title type="uniform">Rímur af Appollóníusi</title>
-                  <title type="uniform">Rímur af Ásmundi og Tryggva</title>
+            
+               <msContents>
+                  <summary>
+                     <title type="supplied">Rímur</title>
+                  <title type="uniform">Rímur af Appollóníusi</title>,
+                  <title type="uniform">Rímur af Ásmundi og Tryggva</title> og
                   <title type="supplied">Samstæður Hallgríms Péturssonar</title>
                   <origPlace>Ísland</origPlace>
-                  <origDate notBefore="1600" notAfter="1700" evidence="external">s. XVII</origDate>
-               </head>
-               <msContents>
+                  <origDate notBefore="1600" notAfter="1700" evidence="external" cert="high">s. XVII</origDate>
+               </summary>
                   <textLang mainLang="is">Íslenska</textLang>
                   <msItem n="1" class="rimur">
                      <locus from="1r" to="18v">1r-18v</locus>
@@ -37,8 +39,8 @@
                      <title type="uniform">Rímur af Appollóníusi</title>
                      <note>18 rímur.</note>
                      <rubric>APOLLONII RMUR</rubric>
-                     <incipit type="upphaf">Þögn að lasta mætir menn</incipit>
-                     <explicit>Gud sie med oss øllum</explicit>
+                     <incipit type="upphaf">Þögn að lasta mætir menn ...</incipit>
+                     <explicit>... Gud sie med oss øllum</explicit>
                   </msItem>
                   <msItem n="2" class="rimur">
                      <locus from="18v" to="28v">18v-28v</locus>
@@ -46,24 +48,26 @@
                      <note>12 rímur, óheilar. Vantar lok 3. rímu og upphaf 4. Texti dálítið skertur
                         vegna skemmda (bl. 20).</note>
                      <rubric>Rÿmur af Asmunde og Triggva</rubric>
-                     <incipit type="upphaf">Mín er fánýt fræða mennt</incipit>
-                     <explicit>audnu virdist senda</explicit>
+                     <incipit type="upphaf">Mín er fánýt fræða mennt ...</incipit>
+                     <explicit>... audnu virdist senda</explicit>
                   </msItem>
                   <msItem n="3" class="kvad">
                      <locus from="28v" to="28v">28v</locus>
-                     <author>Hallgrímur Pétursson</author>
+                     <author key="HalPet001">Hallgrímur Pétursson</author>
                      <title type="supplied">Samstæður</title>
                      <title type="parallel">Of og van, illt og gott</title>
-                     <incipit type="upphaf">Eitt er við ofi hætt</incipit>
-                     <explicit>lÿka er halldin<expan>n</expan> djgd rÿk</explicit>
+                     <incipit type="upphaf">Eitt er við ofi hætt ...</incipit>
+                     <explicit>... lÿka er halldin<ex>n</ex> djgd rÿk</explicit>
                      <bibl>
-                        <ref>Ljóðmæli (2) 2000:71-76</ref>.</bibl>
+                        <ref target="HalPét2000a">Ljóðmæli (2) </ref>2000:71-76.</bibl>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="codex">
                      <supportDesc material="chart">
-                        <support>Pappír.</support>
+                        <support>Pappír með vatnsmerkjum. <list>
+                           <item><p><watermark n="1">Aðalmerki: Lítið dárahöfuð (bl. <locus from="2r" to="2v">2</locus>, <locus from="4r" to="4v">4</locus>, <locus from="6r" to="6v">6</locus>, <locus from="9r" to="9v">9</locus>, <locus from="11r" to="11v">11</locus> ).</watermark></p></item>
+                        </list></support>
                         <extent>28 blöð (<dimensions type="leaf" unit="mm" scope="all">
                               <height>203 +/- 1</height>
                               <width>160 +/- 1</width>
@@ -114,9 +118,9 @@
                         </layout>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc>
-                     <p>Ein hönd.</p>
-                     <p>Óþekktur skrifari.</p>
+                  <handDesc hands="1">
+                     <handNote scope="sole" scribe="unknown" script="humcursiva">Ein hönd, óþekktur skrifari, sprettskrift.</handNote>
+                   
                   </handDesc>
                   <decoDesc>
                      <decoNote type="secondary" subtype="initial">
@@ -150,7 +154,7 @@
                </physDesc>
                <history>
                   <origin notBefore="1600" notAfter="1700" cert="high">
-                     <p>Tímasett til 17. aldar (sjá <bibl><ref target="KKKat">Katalog (II)
+                     <p>Skrifað á <origPlace key="IS">Íslandi</origPlace> og tímasett til 17. aldar (sjá <bibl><ref target="KKKat">Katalog (II)
                            </ref>1894:</bibl><ref
                            target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/2/60"
                            >26</ref>).</p>
