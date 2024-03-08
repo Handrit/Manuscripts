@@ -29,10 +29,10 @@
 							<title type="supplied">Fornaldarsögur</title>
 							<origPlace>Ísland</origPlace>
 							<origDate notBefore="1675" notAfter="1700" evidence="external"
-								cert="high">s. XVII 4/4</origDate><note>Er í vinnslu</note>
+								cert="high">s. XVII 4/4</origDate>
 						</summary>
 						<textLang mainLang="is">Íslenska</textLang>
-						
+
 					</msContents>
 					<physDesc>
 						<objectDesc form="codex">
@@ -59,7 +59,9 @@
 							<p>Þrjár hendur.</p>
 						</handDesc>
 						<additions>
-							<p>Á bl. 29v er skrá frá <date when="1702">1702</date> yfir 19 rómönsur
+							<p>Á bl. <locus from="29v"
+								facs="#AM04-0345-0029v" to="29v"
+								>29v</locus> er skrá frá <date when="1702">1702</date> yfir 19 rómönsur
 								sem flestar eru í þessu númeri eða <ref type="ms"
 									target="#AM04-0536">AM 536 4to</ref> og <ref type="ms"
 									target="#AM04-0585a">AM 585 a-e 4to</ref>. Síðan segir:
@@ -108,8 +110,9 @@
 										upprunalegu handritinu (samkvæmt listanum á bl. <locus
 											from="29v" facs="#AM04-0345-0029v" to="29v"
 										>29v</locus>). </item>
-									<item><locus from="accMat01r" to="accMat01v">Seðill 2</locus>
-											(<dimensions type="slip" unit="mm">
+									<item><locus from="accMat01r" facs="#AM04-0345-accMat01r"
+											to="accMat01v">Seðill 2</locus> (<dimensions type="slip"
+											unit="mm">
 											<height>198</height>
 											<width>155</width>
 										</dimensions>) skrifaður með hendi <name type="person"
@@ -118,8 +121,9 @@
 											<quote>Ur bök er eg feck af Markuse Bergssyne og tök ij
 											sundur.</quote> Þessi seðill á við AM 345 4to (part
 										I).</item>
-									<item><locus from="accMat01r" to="accMat01v">Seðill 3</locus>
-											(<dimensions type="slip" unit="mm">
+									<item><locus from="accMat01r" facs="#AM04-0345-accMat01r"
+											to="accMat01v">Seðill 3</locus> (<dimensions type="slip"
+											unit="mm">
 											<height>198</height>
 											<width>155</width>
 										</dimensions>) er skrifaður með hendi <name type="person"
@@ -140,7 +144,19 @@
 									>580</ref>.</p>
 						</origin>
 						<provenance>
-							<p>Sjá viðbætur.</p>
+							<p><name type="person" role="owner" key="JonJon071">Jón Jónsson</name>
+								erfði handritið, sem þetta handrit er hluti af, eftir föður sinn
+									<name type="person" key="JonTho058" role="owner">Jón
+									Þórðarson</name>. </p><p>Árið <date when="1710">1710</date>, gaf
+									<name type="person" key="MarBer001" role="owner">Markús
+									Bergsson</name> stærra handritið til <name type="person"
+									key="ArnMag001">Árna Magnússonar</name>, sem endurraðaði því.
+								Það er ekki vitað hvernig handritið kom til <name type="person"
+									key="MarBer001" role="owner">Markúsar</name>, en í athugasemdum
+								sínum, nefnir <name type="person" key="ArnMag001">Árni</name> að
+									<name type="person" key="SigSae001">Sigmundur Sæmundsson</name>
+								er sagður hafa verið fyrri eigandi. (Sjá <ref type="ms"
+									target="AM04-0435-a">AM 435 a 4to</ref>, bl. 82r).</p>
 						</provenance>
 						<acquisition notBefore="1982-11-08" notAfter="1982-11-08">
 							<p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 8. nóvember
@@ -229,7 +245,7 @@
 											<width scope="range">155-161</width>
 										</dimensions>).</extent>
 									<foliation>
-										<p>Síðari tíma blaðmerking á neðri spássíu 1-8.</p>
+										<p>Síðari tíma blaðmerking á neðri spássíu með blýanti 1-8.</p>
 										<p>Leifar af eldri blaðmerkingu með rauðu bleki í efra
 											rektó-horn. Blekið hefur dofnað.</p>
 									</foliation>
@@ -253,17 +269,18 @@
 									<layout columns="1" writtenLines="30 35"><list>
 											<item>Eindálka.</item>
 											<item>Leturflötur er <dimensions type="written"
-												scope="all">
+												scope="all" unit="mm">
 												<height>180</height>
 												<width>135</width>
 												</dimensions>. </item>
-											<item>Línufjöldi 34 30-35.</item>
-											<item>Mjög víða eyður fyrir upphafstafi.</item>
+											<item>Línufjöldi er 30-35.</item>
+											
 											<item>Lok texta endar í totu (bl. <locus from="8v"
 												facs="#AM04-0345-0008v" to="8v"
 												>8v</locus>).</item>
 											<item><catchwords>Griporð</catchwords>,
 												pennaflúr.</item>
+										<item>Mjög víða eyður fyrir upphafstafi.</item>
 										</list></layout>
 								</layoutDesc>
 							</objectDesc>
@@ -271,35 +288,44 @@
 								<handNote scope="sole" scribe="JonTho058" script="kurrent kanzlei"
 									>Með hendi <name type="person" key="JonTho058">Jóns
 										Þórðarsonar</name>. Skrifari breytir skrift frá uppréttri
-									kansellískrift til grennri og meira hallandi. Griporð eru
-									skrifuð í fljótaskrift. fljótaskrift. Sama hönd og í <ref
-										target="#AM04-0585a">AM 585 a 4to</ref>.</handNote>
+									kansellískrift til grennri og meira hallandi fljótaskrift.
+									Griporð eru skrifuð í fljótaskrift. Sama hönd og í <ref
+										type="ms" target="#AM04-0585a">AM 585 a
+									4to</ref>.</handNote>
 							</handDesc>
 							<decoDesc>
-								<decoNote type="initial">Upphafstafir eru blekdregnir skrautstafir (5
-									línur) (bl. <locus from="1r" facs="#AM04-0345-0001r" to="3v"
-										>1-3</locus>), andlit á bl. <locus from="1v" facs="#AM04-0345-0001v" to="1v">1v</locus>.</decoNote>
-								<decoNote type="initial">Minni upphafstafir, ekkert skreyttir (1-2 línur) (bl. <locus from="4r" facs="#AM04-0345-0001r" to="8v"
-										>4-8</locus>). 
-								</decoNote><decoNote type="paratext">Fyrirsagnir og fyrsta lína oft dreginn stærri en megintexti.</decoNote>
-								<decoNote type="secondary" subtype="catchword-decoration">Skreyting við eða umhverfis griporð.</decoNote>
+								<decoNote type="initial">Upphafstafir eru blekdregnir skrautstafir
+									(5 línur) (bl. <locus from="1r" facs="#AM04-0345-0001r" to="3v"
+										>1-3</locus>), andlit á bl. <locus from="1v"
+										facs="#AM04-0345-0001v" to="1v">1v</locus>.</decoNote>
+								<decoNote type="initial">Minni upphafstafir, ekkert skreyttir (1-2
+									línur) (bl. <locus from="4r" facs="#AM04-0345-0001r" to="8v"
+										>4-8</locus>). </decoNote>
+								<decoNote type="paratext">Fyrirsagnir og fyrsta lína oft dreginn
+									stærri en megintexti.</decoNote>
+								<decoNote type="secondary" subtype="catchword-decoration">Skreyting
+									við eða umhverfis griporð.</decoNote>
 							</decoDesc>
 							<additions>
-								<p>Á neðri spássíu á bl. <locus from="4v" facs="#AM04-0345-0004v" to="4v">4v</locus>, er hægt að lesa: <quote>Lytill er nu niatt<ex>vr</ex>in<ex>n</ex></quote>.</p>
+								<p>Á neðri spássíu á bl. <locus from="4v" facs="#AM04-0345-0004v"
+										to="4v">4v</locus>, er hægt að lesa: <quote>Lytill er nu
+											niatt<ex>vr</ex>in<ex>n</ex></quote>.</p>
 							</additions>
-							
-							
+
+
 						</physDesc>
 						<history>
 							<origin notBefore="1675" notAfter="1700">
-								<p>Handritið er skrifað á <origPlace key="IS">Íslandi</origPlace> af <name type="person" key="JonTho058">Jóni Þórðarsyni</name>.</p>
+								<p>Handritið er skrifað á <origPlace key="IS">Íslandi</origPlace> af
+										<name type="person" key="JonTho058">Jóni
+									Þórðarsyni</name>.</p>
 								<p>Tímasett til c1675-1700 í <bibl>
 										<ref target="KKKat">Katalog I</ref></bibl>, bls. <ref
 										target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/1/596"
 										>580</ref>.</p>
 							</origin>
 							<provenance>
-								<p>Sjá viðbætur.</p>
+								<p>Sjá hér fyrir ofan.</p>
 							</provenance>
 						</history>
 
@@ -312,54 +338,83 @@
 						</msIdentifier>
 						<msContents>
 							<textLang mainLang="is">Íslenska</textLang>
-							
+
 							<msItem n="2" class="fas">
 								<locus from="9r" facs="#AM04-0345-0009r" to="29v">9r-29v</locus>
 								<title type="uniform">Þorsteins saga Víkingssonar</title>
 								<rubric>Saga fra Þorſteine Wykings ſyne</rubric>
 							</msItem>
-							
-							
+
+
 						</msContents>
 						<physDesc>
 							<objectDesc form="codex">
 								<supportDesc material="chart">
-									<support>Pappír</support>
-									<extent>21 blað.</extent>
+									<support>Pappír með vatnsmerkjum. <list>
+											<item><p><watermark n="1">Aðalmerki 1: Lítið vatnsmerki
+												(skjaldarmerki?) hjartalaga (bl. 10, 12, 13, 15, 27, 28, 29 ).</watermark></p><p><watermark n="2">Mótmerki
+												(bl. 9, 11 ).</watermark></p></item>
+										<item><p><watermark n="3">Aðalmerki 2: Lítið horn (bl. 18, 21 ).</watermark></p></item>
+										<item><p><watermark n="4">Aðalmerki 3: Blómaskraut (bl. 25 ).</watermark></p></item>
+										</list></support>
+									<extent>21 blað (<dimensions unit="mm" type="leaf" scope="all">
+											<height>195</height>
+											<width>160</width>
+										</dimensions>).</extent>
 									<foliation>
-										<p/>
+										<p>Síðari tíma blaðmerking á neðri spássíu með blýanti 9-29.</p>
+										<p>Leifar af eldri blaðmerkingu með rauðu bleki í efra
+											rektó-horn. Blekið hefur dofnað.</p>
 									</foliation>
 									<collation>
-										<p/>
+										<p>Þrjú kver:<list>
+											<item>Kver I: bl. 9-16 (9+16, 10+15, 11+14, 12+13), 4 tvinn.</item> 
+											<item>Kver IV: bl. 17-24 (17+24, 18+23, 19+22, 20+21), 4 tvinn.</item>
+											<item>Kver V: bl. 25-[32] (25, 26, 27, 28+29, [30], [31], [32]), 3 stök blöð, 1 tvinn.</item>
+										</list></p>
 									</collation>
 									<condition>
-										<p/>
+										<list><item>Blettir á efri hluta blaða <locus from="10r" facs="#AM04-0345-0010r" to="29v">10r-29v</locus>.</item>
+										<item>Blöð hafa dökknað.</item></list>
 									</condition>
 								</supportDesc>
 								<layoutDesc>
-									<layout columns="1">
-										<p> <!-- Leturflötur er <dimensions type="written" scope="all"> <height></height><width></width></dimensions> --> </p>
-									</layout>
+									<layout columns="1" writtenLines="25 28"><list>
+										<item>Eindálka.</item>
+										<item>Leturflötur er <dimensions type="written" scope="all"><height>160</height><width>125</width></dimensions>. </item>
+										<item>Línufjöldi er 25-28.</item>
+										<item>Lok texta endar í totu (bl. <locus from="29v"
+											facs="#AM04-0345-0029v" to="29v"
+											>8v</locus>).</item>
+										<item>Kaflatal á spássíum.</item>
+										<item><catchwords>Griporð</catchwords>.</item>
+										<item>Eyður fyrir upphafsstafi.</item>
+										
+								</list>	</layout>
 								</layoutDesc>
 							</objectDesc>
-							<handDesc>
-								<p>Þrjár hendur.</p>
+							<handDesc hands="1">
+								<handNote scope="sole" scribe="JonTho058" script="hybrid kurrent kanzlei"
+									>Með hendi <name type="person" key="JonTho058">Jóns
+										Þórðarsonar</name>, aðallega uppréttri kansellískrift, en stundum blendingsskrift undir áhrifum fljótaskriftar.
+									Griporð eru skrifuð í fljótaskrift. Sama hönd og í <ref
+										type="ms" target="#AM04-0585a">AM 585 a
+										4to</ref>.</handNote>
 							</handDesc>
-							<additions>
-								<p>Sjá hér fyrir ofan.</p>
-							</additions>
-							<bindingDesc>
-								<binding notBefore="1981" notAfter="1981" contemporary="false">
-									<p>Band frá 1981. <material><locus from="0000r-FB"
-												facs="#NKS04-0345-0000r-FB" to="0000r-FB"
-												>Pappaspjöld</locus> klædd fínofnum líndúk. Grófari
-											dúkur á kili og hornum. Saurblöð tilheyra nýju
-											bandi.</material></p>
-								</binding>
-
-
-
-							</bindingDesc>
+							<decoDesc>
+								<decoNote type="initial">Minni upphafstafir eru blekdregnir skrautstafir
+									(2-3 línur) (bl. <locus from="12v" facs="#AM04-0345-0012v" to="12v"
+										>12v</locus>), aðrir ekkert skreyttir.</decoNote>
+								
+								<decoNote type="secondary" subtype="catchword-decoration">Skreyting
+									við eða umhverfis griporð.</decoNote>
+							</decoDesc>
+							<additions><list>
+								<item>Efnisyfirlit (bl. <locus from="29v"
+									facs="#AM04-0345-0029v" to="29v"
+									>29v</locus>). (Sjá nánar hér fyrir ofan).</item>
+							</list></additions>
+							
 							<accMat>
 								<p>Sjá hér fyrir ofan.</p>
 							</accMat>
