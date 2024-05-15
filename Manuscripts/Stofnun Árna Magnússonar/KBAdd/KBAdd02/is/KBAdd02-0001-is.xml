@@ -7,7 +7,8 @@
                 <title>Handritaskrá Árnastofnunar</title>
             </titleStmt>
             <publicationStmt>
-                <p>Tilraunaútgáfa</p>
+                <p>Til
+                	raunaútgáfa</p>
             </publicationStmt>
             <sourceDesc>
                 <msDesc xml:lang="is" xml:id="KBAdd02-0001-is">
@@ -24,14 +25,17 @@
                     </msIdentifier>
                     <msContents xml:lang="is">
                         <textLang mainLang="is">Íslenska</textLang>
-                        <msItem><title type="supplied">Ártíðaskrá Vestfirðinga</title></msItem>
+                        <msItem defective="false" class="timat">
+                        	<locus from="1r" facs="#KBAdd02-0001-0001r" to="7v"></locus>
+                        	<title type="supplied">Ártíðaskrá Vestfirðinga</title>
+                        </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="perg">
                                 <support>Skinn.</support>
-                                <extent/>
-                                <foliation/>
+                                <extent>ii + 7 + ii blöð (<dimensions type="leaf" scope="all" unit="mm"><height>274</height><width>207</width></dimensions>).</extent>
+                                <foliation>Blaðmerking með blýanti 1-7, síðari tíma viðbót.</foliation>
                                 <collation>
                                     <p/>
                                 </collation>
@@ -42,17 +46,17 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scope="sole" script="unknown" scribe="unknown">
+                            <handNote scope="sole" script="textualis" scribe="unknown">
                             </handNote>
                         </handDesc>
                         <decoDesc><decoNote/></decoDesc>
                         <bindingDesc>
-                            <binding>
-                                <p/>
+                        	<binding contemporary="false" notBefore="1994-08-23" notAfter="1995-04-27">
+                                <p>Band frá árunum 1994-1995 (<dimensions type="binding" unit="mm"><height></height><width></width><depth></depth></dimensions>). Pappaspjöld klædd fínofnum líndúk, leður á kili og hornum. Saumað á móttök. Saurblöð tilheyra nýju bandi.</p>
                             </binding>
                         </bindingDesc>
                         <accMat>
-                            <p/>
+                        	<p><locus from="0001r-FFl" facs="#KBAdd02-0001-0001r-FFl" to="0001v-FFl">Seðill</locus> (<dimensions unit="mm" type="slip"><height></height><width></width></dimensions>, á honum stendur: <quote xml:lang="da">Et islandsk Calendarium paa Pergamentblade.</quote> </p>
                         </accMat>
                     </physDesc>
                     
@@ -60,23 +64,25 @@
                         <origin>
                             <p/></origin>
                         <provenance/>
-                        <acquisition/>
+                    	<acquisition when="1997-04-09">
+                        	<p>Stofnun Árna Magnússonar á Íslandi tók við handritinu <date when="1997-04-09">9. apríl 1997</date>.</p>
+                        </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>
-                                    <p>Handritið er óskráð stafrænt.</p> 
-                                    <p>Skráning <name type="person" key="KriKaa001">Kristian Kålunds</name> á
+                                <source><list>
+                                	<item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum, <date when="2024-05-15">15. maí 2024</date>. </item> 
+                                    <item>Skráning <name type="person" key="KriKaa001">Kristian Kålunds</name> á
                                         handritinu er aðgengileg á <bibl>
                                             <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter i Det store kongelige
                                                 Bibliotek og i Universitetsbiblioteket</ref>
-                                        </bibl>, bls. 425.</p>
-                                </source>
+                                        </bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/498">425</ref>.</item>
+                               </list> </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent type="conservation">
-                                    <p/>
+                                <custEvent type="conservation" notBefore="1994-08-23" notAfter="1995-04-27">
+                                    <p><name type="person" key="MorGro001">Morten Grønbech</name> (forvarsla), <name type="person" key="ChrBro002">Christine Bronér</name> (saumur) og <name type="person" key="MetJak001">Mette Jakobsen</name> (binding) gerðu við í ágúst 1994 til apríl 1995. Handritið er í nýju bandi og nýju hylki. Gamalat band fylgdi í gömlu og vönduðu hylki. Lýsing á ljósmyndun og viðgerð fylgdi með.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
@@ -86,6 +92,7 @@
                             <bibl>Louis-Jensen, J. 1977, <ref target="BiblArn32">Kongesagastudier: Kompilationen Hulda-Hrokkinskinna</ref></bibl>
                             <bibl>Stefán Karlsson 1988, <ref target="SteKar1988b">Alfræði Sturlu Þórðarsonar</ref></bibl>
                             <bibl>Stefán Karlsson 2000, <ref target="SteKar2000p">Alfræði Sturlu Þórðarsonar</ref></bibl>
+                        
                         </listBibl>
                     </additional>
                     
