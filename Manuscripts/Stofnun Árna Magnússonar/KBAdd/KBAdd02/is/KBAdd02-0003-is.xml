@@ -23,14 +23,41 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents xml:lang="is">
-                        <textLang mainLang="is">Íslenska</textLang>
-                        <msItem><title type="supplied">Apparatus ad Historiam Literariam Islandicam</title></msItem>
+                        <textLang mainLang="is" otherLangs="da">Íslenska</textLang>
+                        <msItem n="1">
+                        <locus from="6r" facs="#KBAdd02-0003-is" to="50v">6r-50v</locus>
+                            <author key="JonOla003">Jón Ólafsson frá Grunnavík</author>
+                            <textLang mainLang="is"></textLang>
+                            <title type="supplied">Apparatus ad Historiam Literariam Islandicam</title>
+                        </msItem>
+                        <msItem n="2">
+                            <locus from="51r" facs="#KBAdd02-0003-is" to="132v">51r-132v</locus>
+                            <title type="supplied">Yfirlit um kennara og þekkta Íslendinga eftir siðaskiptin</title>
+                        </msItem>
+                        <msItem n="3">
+                            <locus from="133r" facs="#KBAdd02-0003-is" to="162v">133r-162v</locus>
+                            <textLang mainLang="is"></textLang>
+                            <title type="supplied">Viðbætur</title>
+                        </msItem>
+                        <msItem n="4">
+                            <locus from="166r" facs="#KBAdd02-0003-is" to="170v">166r-170v</locus>
+                            <title type="supplied">Sjálfsævisaga <name type="person" key="SteJon003">Steins Jónssonar</name> biskups árið 1739.</title>
+                        </msItem>
+                        <msItem n="5">
+                            <locus from="171r" facs="#KBAdd02-0003-is" to="204v">171r-204v</locus>
+                            <title type="supplied">Drög að <quote>Yfirlit um kennara og þekkta Íslendinga</quote></title>
+                            <filiation>Ein af þeim síðum sem vantar í ævisögu Árna Magnússonar, er nú í <ref type="ms" target="AM04-1027">AM 1027 4to</ref>.</filiation>
+                       <bibl>Stefán Ólafsson <ref target="SteOla1885a">Kvæði</ref> <biblScope unit="volume">I-II</biblScope>, <biblScope unit="pages">LXIV, LXXIII</biblScope>.</bibl>
+                            <bibl>Ólafur Davíðsson <ref target="OlaDav1894a">Íslenzkir vikivakar</ref>.</bibl>
+                            <bibl>Þ. Thoroddsen <ref target="ÞorTho1892">Landfræðisaga Íslands</ref> <biblScope unit="volume">II</biblScope>, <biblScope unit="pages">61 nmgr. 274</biblScope>.</bibl>
+                        </msItem>
+                        
                      </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent> </extent>
+                                <extent>205 blöð (<dimensions type="leaf" unit="mm" scope="all"><height>335</height><width>215</width></dimensions> ásamt seðlum og fylgigögnum). </extent>
                                 <foliation/>
                                 <collation>
                                     <p/>
@@ -57,26 +84,28 @@
                     </physDesc>
                     
                     <history>
-                        <origin>
-                            <p/></origin>
+                        <origin when="1738">
+                            <p>Handritið er skrifað árið <origDate when="1738" cert="high">1738</origDate>.
+                            
+                            <!-- Ath. <quote>Opus inchoatum 1738</quote> vinna hafin --></p></origin>
                         <provenance/>
-                        <acquisition/>
+                        <acquisition when="1997-04-09">
+                            <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 9. apríl 1997.</p>
+                        </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>
-                                    <p>Handritið er óskráð stafrænt.</p> 
-                                    <p>Skráning <name type="person" key="KriKaa001">Kristian Kålunds</name> á
-                                        handritinu er aðgengileg á <bibl>
-                                            <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter i Det store kongelige
-                                                Bibliotek og i Universitetsbiblioteket</ref>
-                                        </bibl>, bls. 425-426.</p>
+                                <source><list>
+                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-16">16. maí 2024</date>.</item> 
+                                    <item><name type="person" key="KriKaa001">Kålund</name> gekk frá handritinu til skráningar 1900 (<bibl>
+                                            <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter </ref>
+                                    </bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/498">425-426 (nr. 18)</ref>).</item></list>
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent type="conservation">
-                                    <p/>
+                                <custEvent type="conservation" notBefore="1996-04-10" notAfter="1996-04-29">
+                                    <p><name type="person" key="NieBor001">Niels Borring</name>, <name type="person" key="MetJak001">Metta Jakobsen</name> og <name type="person" key="MorBro001">Morten Grønbech</name> gerðu við í apríl 1996. Handritið er í nýju hylki. Gamalt band er á tveimur hlutum, en seinasti parturinn er í nýju bandi. Laus blöð eru í 7 nýjum kápum. Nákvæm lýsing á ljósmyndun og viðgerð fylgdi með.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
