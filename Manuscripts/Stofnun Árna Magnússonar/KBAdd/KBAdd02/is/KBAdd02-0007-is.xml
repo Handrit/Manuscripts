@@ -25,14 +25,18 @@
                     <msContents xml:lang="is">
                         <textLang mainLang="is">Íslenska</textLang>
                         
-                        <msItem><title type="supplied">Flateyjarannáll</title></msItem>
+                        <msItem n="1">
+                            <locus from="1r" facs="#KBAdd02-0007-is" to="83v">1r-83v</locus>
+                            <title type="supplied">Flateyjarannáll</title>
+                        <note>Afrit af Flateyjarbók.</note>
+                        </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent> </extent>
-                                <foliation/>
+                                <extent>83 blöð auk titilssíðu (<dimensions type="leaf" unit="mm" scope="all"><height>313</height><width>195</width></dimensions>). </extent>
+                                <foliation>Blaðsíðumerkt 1-166.</foliation>
                                 <collation>
                                     <p/>
                                 </collation>
@@ -48,8 +52,15 @@
                         </handDesc>
                         <decoDesc><decoNote/></decoDesc>
                         <bindingDesc>
-                            <binding>
-                                <p/>
+                             <binding contemporary="false" notBefore="1800" notAfter="1899">
+                                <p><!--Band frá 19. öld (<dimensions type="binding" unit="mm">
+                                    <height>314</height>
+                                    <width>202</width>
+                                    <depth>13</depth>
+                                </dimensions>). Pappaspjöld klædd pappír með brúnleitu
+                                    marmaramynstri. Leður á kili og hornum. Upphleyptar rendur á
+                                    kili og gylling. Titill með gylltu á kili. Saurblöð tilheyra
+                                    bandi. Handritið liggur í öskju. --></p>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -58,26 +69,27 @@
                     </physDesc>
                     
                     <history>
-                        <origin>
-                            <p/></origin>
-                        <provenance/>
-                        <acquisition/>
+                        <origin notBefore="1750" notAfter="1799" cert="high" evidence="external">
+                            <p>Handritið var skrifað í <origPlace key="Copen01">Kaupmannahöfn</origPlace>. Kålund tímasetur það til <origDate notBefore="1700" notAfter="1799">síðari hluta 18.
+                                aldar</origDate> (<ref target="KatKB">Katalog </ref>1900 bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/500">435</ref>).</p>
+                        </origin>
+                        <provenance><p>Sjá nr. 240 fol. í uppboðsskrá <name type="person" key="BerMol001">Bernhards Møllmann</name> 1783.</p></provenance>
+                        <acquisition><p>Stofnun Árna Magnússonar á Íslandi tók við handritinu <date when="1997-04-09">9. apríl 1997.</date></p></acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>
-                                    <p>Handritið er óskráð stafrænt.</p> 
-                                    <p>Skráning <name type="person" key="KriKaa001">Kristian Kålunds</name> á
-                                        handritinu er aðgengileg á <bibl>
+                                <source><list>
+                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-21">21. maí 2024</date>.</item> 
+                                    <item><name type="person" key="KriKaa001">Kålunds</name> gekk frá handritinu til skráningar 1900 (<bibl>
                                             <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter i Det store kongelige
                                                 Bibliotek og i Universitetsbiblioteket</ref>
-                                        </bibl>, bls. 427.</p>
-                                </source>
+                                        </bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/500">427 (nr. 22)</ref>).</item>
+                               </list> </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent type="conservation">
-                                    <p/>
+                                <custEvent type="conservation" notBefore="1995-08-23" notAfter="1995-11-30">
+                                    <p><name type="person" key="MorGro001">Morten Grønbech</name> gerði við í ágúst til nóvember 1995. Handritið er í nýrri öskju, en ekkert var hreyft við upphaflegu bandi. Nákvæm lýsing á ljósmyndun og viðgerð fylgdi með.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
