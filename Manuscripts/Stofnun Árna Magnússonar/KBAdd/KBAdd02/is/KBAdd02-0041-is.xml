@@ -22,11 +22,29 @@
                             <idno>OI24</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <msContents xml:lang="is">
+                    <msContents xml:lang="is"><summary><title type="supplied">Háttalykill Snorra Sturlusonar</title></summary>
                         <textLang mainLang="is">Íslenska</textLang>
-                        <msItem n="1"><title type="supplied">Háttalykill Snorra Sturlusonar</title></msItem>
-                        <msItem n="2"><title type="supplied">Konungatal</title></msItem>
-                        <msItem n="3"><title type="supplied">Index til Snorra Edda.</title></msItem>
+                        <msItem n="1">
+                            <locus from="1r" facs="#KBAdd02-0041-is" to="8r">1r-8r</locus>
+                            <title type="supplied">Háttalykill Snorra Sturlusonar</title></msItem>
+                        <msItem n="2">
+                            <locus from="9r" facs="#KBAdd02-0041-is" to="10r">9r-10r</locus>
+                            <title type="supplied">Konungatal</title></msItem>
+                        <msItem n="3">
+                            <locus from="11r" facs="#KBAdd02-0041-is" to="11v">11r-v</locus>
+                            <title type="supplied">Fornaldarljóð þar sem Óðinn er ákallaður</title>
+                        <incipit type="upphaf">Vaci þu árgalinn eplagoþs ver ...</incipit>
+                        </msItem>
+                        <msItem n="4">
+                            <locus from="12r" facs="#KBAdd02-0041-is" to="12r">12r</locus>
+                            <title type="supplied">Minningarkvæði um Harald harðáða</title>
+                        <incipit type="upphaf">I hvörum kveð eg alvald efri ...</incipit></msItem>
+                        <msItem n="5">
+                            <locus from="13r" facs="#KBAdd02-0041-is" to="16r">13r-16r</locus>
+                            <title type="supplied">Hreinskrifaður texti, en með villum</title></msItem>
+                        <msItem n="6">
+                            <locus from="19r" facs="#KBAdd02-0041-is" to="28r">19r-28r</locus>
+                            <title type="supplied">Index til Snorra Edda.</title></msItem>
                        
                         
                     </msContents>
@@ -34,7 +52,7 @@
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent> </extent>
+                                <extent>28 blöð (ca <dimensions unit="mm" type="leaf" scope="all"><height>330</height><width>210</width></dimensions>). Auð blöð: <locus from="8v" facs="#KBAdd02-0041-is" to="8v">8v</locus>, <locus from="10v" facs="#KBAdd02-0041-is" to="10v">10v</locus>, <locus from="12v" facs="#KBAdd02-0041-is" to="12v">12v</locus>, <locus from="14v" facs="#KBAdd02-0041-is" to="14v">14v</locus>, <locus from="16v" facs="#KBAdd02-0041-is" to="18v">16v-18v</locus>, <locus from="28v" facs="#KBAdd02-0041-is" to="28v">28v</locus>. </extent>
                                 <foliation/>
                                 <collation>
                                     <p/>
@@ -46,13 +64,19 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scope="sole" script="unknown" scribe="unknown">
+                            <handNote scope="major" script="kanzlei" scribe="ErlOla001"><name type="person" key="ErlOla001">Erlendur Ólafsson, kansellíbrotaskrift, bl. <locus from="19r" facs="#KBAdd02-0041-is" to="28r">19r-28r</locus>.</name>
                             </handNote>
                         </handDesc>
-                        <decoDesc><decoNote/></decoDesc>
+                       <!-- <decoDesc><decoNote/></decoDesc> --> 
                         <bindingDesc>
-                            <binding>
-                                <p/>
+                            <binding contemporary="false" notBefore="1800" notAfter="1899">
+                               <p><!--  Band frá 18. öld (<dimensions type="binding" unit="mm">
+                                    <height>330</height>
+                                    <width>210</width>
+                                    <depth></depth>
+                                </dimensions>). Pappaspjöld klædd pappír með brúnleitu
+                                    marmaramynstri. Leður á kili og hornum. Saurblöð tilheyra
+                                    bandi. Límmiði framan á með safnmarki. --></p>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -63,28 +87,30 @@
                     <history>
                         <origin>
                             <p/></origin>
-                        <provenance/>
-                        <acquisition/>
+                        <provenance><p>Í uppboðskrá <name type="person" key="FinMag001">Finns Magnússonar</name> nr. 149 fol.</p></provenance>
+                        
+                        <acquisition when="1997-04-09"><p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 9. apríl 1997.</p></acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>
-                                    <p>Handritið er óskráð stafrænt.</p> 
-                                    <p>Skráning <name type="person" key="KriKaa001">Kristian Kålunds</name> á
-                                        handritinu er aðgengileg á <bibl>
+                                <source><list>
+                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-21">21. maí 2024</date>. </item> 
+                                    <item><name type="person" key="KriKaa001">Kålund</name> gekk frá handritinu til skráningar <date when="1900">1900</date> (<bibl>
                                             <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter i Det store kongelige
                                                 Bibliotek og i Universitetsbiblioteket</ref>
-                                        </bibl>, bls. 428.</p>
+                                    </bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/502">428 (nr. 24)</ref>).</item></list>
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent type="conservation">
-                                    <p/>
+                                <custEvent type="conservation" notBefore="1995-08" notAfter="1995-11">
+                                    <p><name type="person" key="MorGro001">Morten Grønbech</name>
+                                        gerði við í ágúst til nóvember 1995. Handritið er í gömlu bandi en skipt var um saurblöð og það er ekki í öskju. Lýsing á ljósmyndun og viðgerð fylgdi
+                                        með.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
-                        <listBibl><bibl><ref/></bibl></listBibl>
+                        <!-- <listBibl><bibl><ref/></bibl></listBibl> -->
                     </additional>
                     
                 </msDesc>
