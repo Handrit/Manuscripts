@@ -68,7 +68,7 @@
                         <adminInfo>
                             <recordHist>
                                 <source><list>
-                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-16">16. maí 2024</date>.</item> 
+                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-23">23. maí 2024</date>.</item> 
                                     <item><name type="person" key="KriKaa001">Kålund</name> gekk frá handritinu til skráningar 1900 (<bibl>
                                             <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter</ref></bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/498">425-426 (nr. 18)</ref>).</item></list>
                                 </source>
@@ -129,7 +129,7 @@
                                     <titlePart type="sub">Secunda fert judicium de auctori fate <lb/> fide et ætate Librorum Islandicorum, tam <lb/> in genere omnium, qvam in Specie qvorum- <lb/> dam. <lb/></titlePart>
                                     <titlePart type="sub">Tertia continet Nomina, Vitas et Scri- <lb/> pta eorum auctorum, de qvorum operibus <lb/> nobis constat. <lb/></titlePart>
                                     <titlePart type="sub">Opus inchoatum <lb/> HAFNAÆ <lb/> Anno M.DCC.XXX.VIII (Bl. <locus from="1r" facs="#KBAdd02-0003-is" to="1r">1r</locus>).</titlePart>
-                                </docTitle>
+                               </docTitle>
                                 <docTitle n="2">
                                     <titlePart type="main">Tertia pars <lb/> Historiæ Literari <lb/> Is-landicæ <lb/> in Tres Partes divisus, <lb/> </titlePart>
                                     <titlePart type="sub">continens ... (Bl. <locus from="15r" facs="#KBAdd02-0003-is" to="15r">15r</locus>).</titlePart>
@@ -155,25 +155,33 @@
                                     <locus from="13r" facs="#KBAdd02-0003-is" to="13r">13r</locus>
                                     <title type="supplied">Vinaspegill</title>
                                     <rubric>Vinaspegill</rubric>
-                                    <incipit type="upphaf">Vinur glest vinar af láni / varar hinn og áminnir ...</incipit>
+                                    <incipit type="upphaf">Vinur gleðst vinar af láni / varar hinn og áminnir ...</incipit>
                                     <explicit>... um aldur trúskap halda.</explicit>
                                     <note>1 erindi.</note>
                                     <bibl><ref target="Visnalin">Vísnakver Páls lögmanns Vídalíns</ref>, Kaupmannahöfn, <biblScope unit="pages">122</biblScope>.</bibl>
                                 </msItem>
                             </msItem>
-                            <msItem n="2">
+                            <msItem n="2" defective="false" class="bokms">
                                 <locus from="51r" facs="#KBAdd02-0003-is" to="132v">51r-132v</locus>
-                                <textLang mainLang="da"></textLang>
+                                <textLang mainLang="is" otherLangs="da"></textLang>
                                 <title type="supplied" xml:lang="da">Kort Under-retning om nogle Lærde Islændere, deres Vitas og Scripta.</title>
                                 <rubric xml:lang="da">Kort Under-retning om nogle Lærde Islændere, deres Vitas og Scripta. Sammanskrivet in <placeName key="Copen01">Kiöbenhavn</placeName> Anno Christi 1738.</rubric>
                                 <incipit xml:lang="da">Som dag alt staar til den forbedring ...</incipit>
                                 <explicit>... i Stockholm 18.14.</explicit>
-                                <colophon xml:lang="da">Kiöbenhafn, Anno Christi 1738. Jón Ólafsson.(Bl. <locus from="59r" facs="#KBAdd02-0003-is" to="59r">59r</locus>.</colophon>
+                                <colophon xml:lang="da">Kiöbenhafn, Anno Christi 1738. Jón Ólafsson. (Bl. <locus from="59r" facs="#KBAdd02-0003-is" to="59r">59r</locus>).</colophon>
+                                <note>Bl. <locus from="92v" facs="#KBAdd02-0003-is" to="92v">92</locus> er skrifað með hendi <name type="person" key="JonMag011">Jóns Magnússonar</name> <quote>þessir hafa eitthvað skrifað lögum viðvikandi.</quote>,</note>
+                                <msItem n="2.1" defective="false" class="regist">
+                                    <locus from="131r" facs="#KBAdd02-0003-is" to="132r">131r-132r</locus>
+                                    <title type="supplied">Registur</title>
+                                </msItem>
                             </msItem>
-                            <msItem n="3">
+                            <msItem n="3" defective="false" class="bokms">
                                 <locus from="133r" facs="#KBAdd02-0003-is" to="162v">133r-162v</locus>
-                                <textLang mainLang="is"></textLang>
+                                <textLang mainLang="is" otherLangs="la"></textLang>
                                 <title type="supplied">Viðbætur</title>
+                                <rubric>Qvæ seqvuntur Additamenta sunt ad præcedens Scriptum Danicum, ...</rubric>
+                                <incipit>Nota að furutum operis auctorem ...</incipit>
+                                <explicit>... hennar sálmur.</explicit>
                             </msItem>
                         </msContents>
                         <physDesc>
@@ -205,7 +213,9 @@
                                </layoutDesc>
                             </objectDesc>
                             <handDesc hands="1">
-                                <handNote scope="sole" script="kurrent humcursiva" scribe="JonOla003">Eiginhandarrit <name type="person" key="JonOla003">Jóns Ólafssonar</name> frá Grunnavík, síðfljótaskrift en sprettskrift í nöfnum og latínuorðum.
+                                <handNote scope="sole" script="kurrent humcursiva" scribe="JonOla003">I: Eiginhandarrit <name type="person" key="JonOla003">Jóns Ólafssonar</name> frá Grunnavík, síðfljótaskrift en sprettskrift í nöfnum og latínuorðum.
+                                </handNote>
+                                <handNote scope="minor" script="kurrent humcursiva" scribe="JonMag011">II: Með hendi <name type="person" key="JonMag011">Jóns Magnússonar</name>, síðfljótaskrift en sprettskrift í nöfnum (bl. 92).
                                 </handNote>
                             </handDesc>
                             <decoDesc>
@@ -216,7 +226,7 @@
                             <additions><list>
                                 <item>Spássíugreinar víða.</item>
                                 <item>Yfirstrikanir og leiðréttingar víða (sjá t.d. bl. 61r).</item>
-                                <item></item>
+                                <item>Á bl. <locus from="165r" facs="#KBAdd02-0003-is" to="165r">165r</locus> er límdur seðill (<dimensions unit="mm" type="slip"><height>70</height><width>138</width></dimensions>) á honum stendur: <quote>Þessir hafa utanlands verið, svo eg þekki ei til. Jón Halldórsson, Hafniæ 1667. Thorkillu Theodari 1658. <name type="person" key="SkuTho001">Skúli Þorláksson</name> 1657. Kann hafa verið sonur <name type="person" key="ThoSku001">Þorláks biskups Skúlasonar</name>, þá sé um 24. ára.</quote></item>
                             </list></additions>
                             <bindingDesc>
                                 <binding contemporary="false" notBefore="1800" notAfter="1899">
@@ -227,7 +237,7 @@
                                 </dimensions>). <material>Pappaspjöld klædd pappír með bláleitum
                                     marmaramynstri. Leður á kili og hornum.</material> Saurblöð tilheyra
                                         bandi. Límmiði á kili með safnmarki. Á fremra spjaldi er safnmarksmiði og stimpill frá <name type="org" key="KB">Konungsbókhlöðunni í
-                                            Kaupmannahöfn</name>.</p> <p>Varðveitt í öskju með öðrum handritum með sama safnmerki.</p>
+                                            Kaupmannahöfn</name>.</p> <p>Bl. 57, 63, 92, 114-116, 117-124, 145 eru bundið í sér kápum.</p><p>Varðveitt í öskju með öðrum handritum með sama safnmerki.</p>
                                 </binding>
                             </bindingDesc>
                             <accMat>
