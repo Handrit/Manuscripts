@@ -24,7 +24,8 @@
                     </msIdentifier>
                     <msContents xml:lang="is">
                         <summary><title type="supplied">Apparatus ad Historiam Literariam Islandicam</title>
-                            <note>Í vinnslu.<p>Samansett handrit.</p></note>
+                            <note>Í vinnslu.<p>Þrjú bindi.</p></note>
+                            <!-- Ath. vel blaðatöl þegar myndir eru settar inn. -->
                          <bibl>Stefán Ólafsson <ref target="SteOla1885a">Kvæði</ref> <biblScope unit="volume">I-II</biblScope>, <biblScope unit="pages">LXIV, LXXIII</biblScope>.</bibl>
                             <bibl>Ólafur Davíðsson <ref target="OlaDav1894a">Íslenzkir vikivakar</ref>.</bibl>
                             <bibl>Þ. Thoroddsen <ref target="ÞorTho1892">Landfræðisaga Íslands</ref> <biblScope unit="volume">II</biblScope>, <biblScope unit="pages">61 nmgr. 274</biblScope>.</bibl></summary>
@@ -35,7 +36,7 @@
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent>205 blöð (<dimensions type="leaf" unit="mm" scope="all"><height>335</height><width>215</width></dimensions> ásamt seðlum og fylgigögnum). </extent>
+                                <extent>i + 205 + i blöð (<dimensions type="leaf" unit="mm"><height scope="range">205-335</height><width scope="range">167-215</width></dimensions> ásamt seðlum og fylgigögnum). </extent>
                                 <foliation/>
                                 <collation>
                                     <p/>
@@ -52,7 +53,7 @@
                         </handDesc>
                         <bindingDesc>
                             <binding>
-                                <p>Handritin eru varðveitt saman í öskju með álímdu efni (<dimensions type="binding" unit="mm"><height>366</height><width>242</width><depth>86</depth></dimensions>).</p>
+                                <p>Handritið er í þremur bindum sem eru varðveitt saman í öskju með álímdu efni (<dimensions type="binding" unit="mm"><height>366</height><width>242</width><depth>86</depth></dimensions>).</p>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -61,8 +62,8 @@
                     </physDesc>
                     
                     <history>
-                        <origin when="1738">
-                            <p>Handritið er skrifað árið <origDate when="1738" cert="high">1738</origDate>.
+                        <origin notBefore="1738" notAfter="1739" cert="high" evidence="internal">
+                            <p>Handritið er skrifað í <placeName key="Copen01">Kaupmannahöfn</placeName> og skrifin hófust árið <origDate when="1738" cert="high">1738</origDate>, sjá bl. 1r og 59r .
                             
                             <!-- Ath. <quote>Opus inchoatum 1738</quote> vinna hafin --></p></origin>
                         <provenance/>
@@ -76,7 +77,7 @@
                                 <source><list>
                                     <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-16">16. maí 2024</date>.</item> 
                                     <item><name type="person" key="KriKaa001">Kålund</name> gekk frá handritinu til skráningar 1900 (<bibl>
-                                            <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter </ref> </bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/498">425-426 (nr. 18)</ref>).</item></list>
+                                            <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter</ref></bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/498">425-426 (nr. 18)</ref>).</item></list>
                                 </source>
                             </recordHist>
                             <custodialHist>
@@ -128,35 +129,83 @@
                         </altIdentifier></msIdentifier>
                         <msContents xml:lang="is">
                             <textLang mainLang="is" otherLangs="la"></textLang>
+                            <titlePage type="ms">
+                                <docTitle>
+                                    <titlePart type="main">Apparatus ad Historiam Literari am Is-landicam in Tres Partes divisus,</titlePart>
+                                    <titlePart type="sub">Qvarum Prima indigitat præcipuos Libros carmina et Scripta, qvæ unqvam ab Is-landis literis consignata, ad nos pervenerunt.</titlePart>
+                                    <titlePart type="sub">Secunda fert judicium de auctori fate fide et ætate Librorum Islandicorum, tam in genere omnium, qvam in Specie qvorumdam.</titlePart>
+                                    <titlePart type="sub">Tertia continet Nomina, Vitas et Scripta eorum auctorum, de qvorum operibus nobis constat.</titlePart>
+                                    <titlePart type="sub">Opus inchoatum HAFNAÆ Anno M.DCC.XXX.VIII (Bl. <locus from="1r" facs="#KBAdd02-0003-is" to="1r">1r</locus>).</titlePart>
+                                </docTitle>
+                            </titlePage>
+                            
                             <msItem n="1">
                                 <locus from="6r" facs="#KBAdd02-0003-is" to="50v">6r-50v</locus>
                                 <author key="JonOla003">Jón Ólafsson frá Grunnavík</author>
                                 <textLang mainLang="is"></textLang>
                                 <title type="supplied">Apparatus ad Historiam Literariam Islandicam</title>
+                                <note>Hér eru II. og III. kafli íslenskrar bókmenntasögu sem inniheldur a) miðaldarbókmenntir, b) prósa-rithöfundar um siðaskiptin og c) skáld.</note>
+                            </msItem>
+                            <msItem n="2">
+                                <locus from="51r" facs="#KBAdd02-0003-is" to="132v">51r-132v</locus>
+                                <title type="supplied">Stutt yfirlit yfir kennara og nafnþekkta Íslendinga eftir siðaskiptin</title>
+                            </msItem>
+                            <msItem n="3">
+                                <locus from="133r" facs="#KBAdd02-0003-is" to="162v">133r-162v</locus>
+                                <textLang mainLang="is"></textLang>
+                                <title type="supplied">Viðbætur</title>
                             </msItem>
                         </msContents>
                         <physDesc>
                             <objectDesc form="codex">
                                 <supportDesc material="chart">
                                     <support>Pappír.</support>
-                                    <extent>45 blöð (<dimensions type="leaf" unit="mm" scope="all"><height>335</height><width>215</width></dimensions> ásamt seðlum og fylgigögnum). </extent>
-                                    <foliation/>
-                                    <collation>
-                                        <p/>
-                                    </collation>
+                                    <extent>Bindi I: i + 165 + i blöð (<dimensions type="leaf" unit="mm"><height>205-335</height><width>167-210</width></dimensions> ásamt seðlum og fylgigögnum). Auð blöð: 12r, 13v, 15v, 16v, 19v, 32r, 33r, 36r, 43r, 48r, 49r, 117, 123, 124, 130v, 132v, 134v, 142v, 143v, 160r, 162r, 163-164 og 165v.</extent>
+                                    <foliation><list>
+                                        <item>Blaðmerkt með blýanti í efra horni 1-5.</item>
+                                        <item>Blaðmerkt með blýanti á neðri spássíu 1-165, hlaupið yfir 5, 39, 73, 79, 89, 111-113 og 159.</item>
+                                        <item>Upprunaleg blaðsíðumerking 2-15 (51v-59r) og 2-160 (60r-162v) með bleki og blýanti.</item>
+                                    </list>
+                                    </foliation>
+                                    <collation><list>
+                                        <item>Ytri jaðrar eru dekkri en blöðin sjálf og snjáðir.</item>
+                                        <item>Blek smitast í gegn.</item>
+                                        <item>Rifið af horni á bl. 140 og 151.</item>
+                                  </list>  </collation>
+                                    <condition></condition>
                                 </supportDesc>
                                 <layoutDesc>
-                                    <layout columns="1">
-                                        <p/></layout>
-                                </layoutDesc>
+                                    <layout columns="1" writtenLines="5 51"><list>
+                                        <item>Eindálka.</item>
+                                        <item>Leturflötur er <dimensions unit="mm" type="written"><height>133-316</height><width>135-185</width></dimensions>.</item>
+                                        <item>Línufjöldi er ca 5-51.</item>
+                                        <item>Leturflötur er afmarkaður með broti í blaði, þurroddi og lóðréttum blýantsstrikum.</item>
+                                        <item><catchwords>Griporð</catchwords> víða.</item>
+                                    </list></layout>
+                               </layoutDesc>
                             </objectDesc>
                             <handDesc hands="1">
-                                <handNote scope="sole" script="unknown" scribe="unknown">
+                                <handNote scope="sole" script="kurrent humcursiva" scribe="JonOla003">Eiginhandarrit <name type="person" key="JonOla003">Jóns Ólafssonar</name> frá Grunnavík, síðfljótaskrift en sprettskrift í nöfnum og latínuorðum.
                                 </handNote>
                             </handDesc>
+                            <decoDesc>
+                                <decoNote type="paratext" subtype="title-page">Titilsíður bl. 1r, 15r, 16r, 20r, 51r.</decoNote>
+                            </decoDesc>
+                            <additions><list>
+                                <item>Spássíugreinar víða.</item>
+                                <item>Yfirstrikanir og leiðréttingar víða (sjá t.d. bl. 61r).</item>
+                                <item></item>
+                            </list></additions>
                             <bindingDesc>
-                                <binding>
-                                    <p/>
+                                <binding contemporary="false" notBefore="1800" notAfter="1899">
+                                    <p>Band frá 18. öld (<dimensions type="binding" unit="mm">
+                                    <height>340</height>
+                                    <width>220</width>
+                                    <depth>33</depth>
+                                </dimensions>). <material>Pappaspjöld klædd pappír með bláleitum
+                                    marmaramynstri. Leður á kili og hornum.</material> Saurblöð tilheyra
+                                        bandi. Límmiði á kili með safnmarki. Á fremra spjaldi er safnmarksmiði og stimpill frá <name type="org" key="KB">Konungsbókhlöðunni í
+                                            Kaupmannahöfn</name>.</p> <p>Varðveitt í öskju með öðrum handritum með sama safnmerki.</p>
                                 </binding>
                             </bindingDesc>
                             <accMat>
@@ -166,7 +215,7 @@
                         
                         <history>
                             <origin when="1738">
-                                <p>Handritið er skrifað árið <origDate when="1738" cert="high">1738</origDate>.
+                                <p>Handritið er skrifað í <placeName key="Copen01">Kaupmannahöfn</placeName> og skrifin hófust árið <origDate when="1738" evidence="internal" cert="high">1738</origDate>.
                                     
                                     <!-- Ath. <quote>Opus inchoatum 1738</quote> vinna hafin --></p></origin>
                             <provenance/>
@@ -175,6 +224,7 @@
                             </acquisition>
                         </history>
                     </msPart>
+                   
                     <msPart n="2">
                         <msIdentifier><altIdentifier type="partial">
                             <idno>KBAdd 3 fol.</idno>
@@ -182,34 +232,57 @@
                         <msContents xml:lang="is">
                             <textLang mainLang="is" otherLangs="la"></textLang>
                           
-                            <msItem n="2">
-                                <locus from="51r" facs="#KBAdd02-0003-is" to="132v">51r-132v</locus>
-                                <title type="supplied">Yfirlit um kennara og þekkta Íslendinga eftir siðaskiptin</title>
+                            <msItem n="4">
+                                <locus from="166r" facs="#KBAdd02-0003-is" to="170v">166r-170v</locus>
+                                <author key="SteJon003">Steinn Jónsson</author>
+                                <title type="supplied">Sjálfsævisaga Steins Jónssonar biskups árið 1739</title>
+                                <rubric xml:lang="la">Compendium Vitæ anteactæ, et operum imprimis memorabilium, Sthenonis Jonæi, Episcopi Holensis, in Boreali Islandia.</rubric>
+                                <incipit>Anno 1660 þann 20 Agusti var eg Steinn Jónsson ...</incipit>
+                                <explicit>... </explicit>
+                                <colophon>Vitam þessa biskupsins herra Steins, sendi hann mér sjálfur til Kaupmannahafanar um haustið 1739. Þá eg meðtók hana frá kaupmatir(?) monsr. Huilby(?), 8. november. (Bl. 170).</colophon>
+                                <note>Skrifaraklausa er með hendi Jóns Ólafssonar frá Grunnavík</note>
                             </msItem>
+                        
                             
                         </msContents>
                         <physDesc>
                             <objectDesc form="codex">
                                 <supportDesc material="chart">
                                     <support>Pappír.</support>
-                                    <extent>81 blað (<dimensions type="leaf" unit="mm" scope="all"><height>335</height><width>215</width></dimensions> ásamt seðlum og fylgigögnum). </extent>
-                                    <foliation/>
+                                    <extent>Bindi II: i + 5 + i blöð (<dimensions type="leaf" unit="mm" scope="all"><height scope="range">195-321</height><width scope="range">150-200</width></dimensions> ásamt seðlum og fylgigögnum). Auð blöð: 169v og 170v.</extent>
+                                    <foliation>Blaðmerkt með blýanti 166-170.</foliation>
                                     <collation>
-                                        <p/>
+                                        <p>Eitt kver: 166-170, 2 tvinn og 1 stakt blað.</p>
                                     </collation>
+                                    <condition>Blöð hafa gulnað og jaðar hefur dökknað.</condition>
                                 </supportDesc>
                                 <layoutDesc>
-                                    <layout columns="1">
-                                        <p/></layout>
+                                    <layout columns="1" writtenLines="16 28">
+                                        <list>
+                                            <item>Eindálka.</item>
+                                            <item>Leturflötur er ca <dimensions unit="mm" type="written"><height>180-270</height><width>135-160</width></dimensions></item>
+                                            <item>Línufjöldi er 16-28.</item>
+                                        </list>
+                                    </layout>
                                 </layoutDesc>
                             </objectDesc>
-                            <handDesc hands="1">
-                                <handNote scope="sole" script="kurrent" scribe="unknown">
+                            <handDesc hands="2">
+                                <summary>Tvær hendur:</summary>
+                                <handNote scope="sole" script="kurrent humcursiva" scribe="SteJon003">I: Með hendi <name type="person" key="SteJon003">Steins Jónssonar</name> biskups, fljótaskrift en sprettskrift í nöfnum og latínuorðum. 
                                 </handNote>
+                                <handNote scope="minor" script="kurrent" scribe="JonOla003">II: Með hendi <name type="person" key="JonOla003">Jóns Ólafssonar</name> frá Grunnavík, síðfljótaskrift (bl. 170).</handNote>
                             </handDesc>
+                            
                             <bindingDesc>
-                                <binding>
-                                    <p/>
+                                <binding contemporary="false" notBefore="1800" notAfter="1899">
+                                    <p>Band frá 18. öld (<dimensions type="binding" unit="mm">
+                                        <height>324</height>
+                                        <width>211</width>
+                                        <depth>4</depth>
+                                    </dimensions>). <material>Pappaspjöld klædd pappír með bláleitum
+                                        marmaramynstri. Leður á kili og hornum.</material> Saurblöð tilheyra
+                                        bandi. Límmiði framan á með safnmarki. Á fremra spjaldi er safnmarksmiði og stimpill frá <name type="org" key="KB">Konungsbókhlöðunni í
+                                            Kaupmannahöfn</name>.</p> <p>Varðveitt í öskju með öðrum handritum með sama safnmerki.</p>
                                 </binding>
                             </bindingDesc>
                             <accMat>
@@ -218,8 +291,8 @@
                         </physDesc>
                         
                         <history>
-                            <origin when="1738">
-                                <p>Handritið er skrifað árið <origDate when="1738" cert="high">1738</origDate>.
+                            <origin when="1739">
+                                <p>Handritið er skrifað árið <origDate when="1738" cert="high">1739</origDate>.
                                     
                                     <!-- Ath. <quote>Opus inchoatum 1738</quote> vinna hafin --></p></origin>
                             <provenance/>
@@ -233,119 +306,12 @@
                             <idno>KBAdd 3 fol.</idno>
                         </altIdentifier></msIdentifier>
                         <msContents xml:lang="is">
-                            <textLang mainLang="is" otherLangs="la"></textLang>
-                           
-                            <msItem n="3">
-                                <locus from="133r" facs="#KBAdd02-0003-is" to="162v">133r-162v</locus>
-                                <textLang mainLang="is"></textLang>
-                                <title type="supplied">Viðbætur</title>
-                            </msItem>
-                        </msContents>
-                        <physDesc>
-                            <objectDesc form="codex">
-                                <supportDesc material="chart">
-                                    <support>Pappír.</support>
-                                    <extent>30 blöð (<dimensions type="leaf" unit="mm" scope="all"><height>335</height><width>215</width></dimensions> ásamt seðlum og fylgigögnum). </extent>
-                                    <foliation/>
-                                    <collation>
-                                        <p/>
-                                    </collation>
-                                </supportDesc>
-                                <layoutDesc>
-                                    <layout columns="1">
-                                        <p/></layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc hands="1">
-                                <handNote scope="sole" script="unknown" scribe="unknown">
-                                </handNote>
-                            </handDesc>
-                            <bindingDesc>
-                                <binding>
-                                    <p/>
-                                </binding>
-                            </bindingDesc>
-                            <accMat>
-                                <p/>
-                            </accMat>
-                        </physDesc>
-                        
-                        <history>
-                            <origin when="1738">
-                                <p>Handritið er skrifað árið <origDate when="1738" cert="high">1738</origDate>.
-                                    
-                                    <!-- Ath. <quote>Opus inchoatum 1738</quote> vinna hafin --></p></origin>
-                            <provenance/>
-                            <acquisition when="1997-04-09">
-                                <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 9. apríl 1997.</p>
-                            </acquisition>
-                        </history>
-                    </msPart>
-                    <msPart n="4">
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>KBAdd 3 fol.</idno>
-                        </altIdentifier></msIdentifier>
-                        <msContents xml:lang="is">
-                            <textLang mainLang="is" otherLangs="la"></textLang>
-                          
-                            <msItem n="4">
-                                <locus from="166r" facs="#KBAdd02-0003-is" to="170v">166r-170v</locus>
-                                <title type="supplied">Sjálfsævisaga <name type="person" key="SteJon003">Steins Jónssonar</name> biskups árið 1739.</title>
-                            </msItem>
-                        
-                            
-                        </msContents>
-                        <physDesc>
-                            <objectDesc form="codex">
-                                <supportDesc material="chart">
-                                    <support>Pappír.</support>
-                                    <extent>5 blöð (<dimensions type="leaf" unit="mm" scope="all"><height>335</height><width>215</width></dimensions> ásamt seðlum og fylgigögnum). </extent>
-                                    <foliation/>
-                                    <collation>
-                                        <p/>
-                                    </collation>
-                                </supportDesc>
-                                <layoutDesc>
-                                    <layout columns="1">
-                                        <p/></layout>
-                                </layoutDesc>
-                            </objectDesc>
-                            <handDesc hands="1">
-                                <handNote scope="sole" script="kurrent" scribe="unknown">
-                                </handNote>
-                            </handDesc>
-                            
-                            <bindingDesc>
-                                <binding>
-                                    <p/>
-                                </binding>
-                            </bindingDesc>
-                            <accMat>
-                                <p/>
-                            </accMat>
-                        </physDesc>
-                        
-                        <history>
-                            <origin when="1738">
-                                <p>Handritið er skrifað árið <origDate when="1738" cert="high">1738</origDate>.
-                                    
-                                    <!-- Ath. <quote>Opus inchoatum 1738</quote> vinna hafin --></p></origin>
-                            <provenance/>
-                            <acquisition when="1997-04-09">
-                                <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 9. apríl 1997.</p>
-                            </acquisition>
-                        </history>
-                    </msPart>
-                    <msPart n="5">
-                        <msIdentifier><altIdentifier type="partial">
-                            <idno>KBAdd 3 fol.</idno>
-                        </altIdentifier></msIdentifier>
-                        <msContents xml:lang="is">
                             <textLang mainLang="is" otherLangs="la da"></textLang>
                             
                             <msItem n="5">
                                 <locus from="171r" facs="#KBAdd02-0003-is" to="205r">171r-205r</locus>
-                                <title type="supplied">Drög að <quote>Yfirlit um kennara og þekkta Íslendinga</quote></title>
+                                <textLang mainLang="la"></textLang>
+                                <title type="supplied">Drög að <quote>Yfirlit um kennara og nafnþekkta Íslendinga</quote></title>
                                 <author key="JonOla003">Jón Ólafsson</author>
                                 <incipit>Curtius Amundæus, ...</incipit>
                                 <explicit>... nemlig per Aprilum, Majum, Junium ...</explicit>
@@ -358,10 +324,11 @@
                             <objectDesc form="codex">
                                 <supportDesc material="chart">
                                     <support>Pappír.</support>
-                                    <extent>iii + 33 + iii blöð (<dimensions type="leaf" unit="mm"><height scope="range">210-212</height><width scope="range">163-167</width></dimensions>). Bl. 206 er autt. </extent>
+                                    <extent>Bindi III: iii + 33 + iii blöð (<dimensions type="leaf" unit="mm"><height scope="range">210-212</height><width scope="range">163-167</width></dimensions>). Bl. 206 er autt. </extent>
                                     <foliation><list>
+                                         <item>Blaðmerkt á efri spássíu með blýanti 1-33.</item>
                                         <item>Blaðmerkt á neðri spássíu með blýanti 171-205, blaðtal 199 er sleppt.</item>
-                                        <item>Blaðmerkt á efri spássíu með blýanti 1-33.</item>
+                                       
                                     </list></foliation>
                                     <collation>
                                         <p>Níu kver:<list>
@@ -393,7 +360,7 @@
                                 </layoutDesc>
                             </objectDesc>
                             <handDesc hands="1">
-                                <handNote scope="sole" script="kurrent" scribe="JonOla003">Eiginhandarrit <name type="person" key="JonOla003">Jóns Ólafssonar</name> frá Grunnavík, fljótaskrift.
+                                <handNote scope="sole" script="kurrent" scribe="JonOla003">Eiginhandarrit <name type="person" key="JonOla003">Jóns Ólafssonar</name> frá Grunnavík, síðfljótaskrift.
                                 </handNote>
                             </handDesc>
                        <additions><list>
