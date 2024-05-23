@@ -42,15 +42,9 @@
                                     <p/>
                                 </collation>
                             </supportDesc>
-                            <layoutDesc>
-                                <layout columns="1">
-                                    <p/></layout>
-                            </layoutDesc>
+                          
                         </objectDesc>
-                        <handDesc hands="1">
-                            <handNote scope="sole" script="unknown" scribe="unknown">
-                            </handNote>
-                        </handDesc>
+                      
                         <bindingDesc>
                             <binding>
                                 <p>Handritið er í þremur bindum sem eru varðveitt saman í öskju með álímdu efni (<dimensions type="binding" unit="mm"><height>366</height><width>242</width><depth>86</depth></dimensions>).</p>
@@ -62,10 +56,9 @@
                     </physDesc>
                     
                     <history>
-                        <origin notBefore="1738" notAfter="1739" cert="high" evidence="internal">
-                            <p>Handritið er skrifað í <placeName key="Copen01">Kaupmannahöfn</placeName> og skrifin hófust árið <origDate when="1738" cert="high">1738</origDate>, sjá bl. 1r og 59r .
-                            
-                            <!-- Ath. <quote>Opus inchoatum 1738</quote> vinna hafin --></p></origin>
+                        <origin notBefore="1738">
+                            <p>Handritið er skrifað í <placeName key="Copen01">Kaupmannahöfn</placeName> og vinna hófst <quote>Opus inchoatum 1738</quote> (bl. 1r) árið <origDate when="1738" cert="high">1738</origDate>.
+                            </p></origin>
                         <provenance/>
                         <acquisition when="1997-04-09">
                             <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 9. apríl 1997.</p>
@@ -129,26 +122,53 @@
                         </altIdentifier></msIdentifier>
                         <msContents xml:lang="is">
                             <textLang mainLang="is" otherLangs="la"></textLang>
-                            <titlePage type="ms">
-                                <docTitle>
-                                    <titlePart type="main">Apparatus ad Historiam Literari am Is-landicam in Tres Partes divisus,</titlePart>
-                                    <titlePart type="sub">Qvarum Prima indigitat præcipuos Libros carmina et Scripta, qvæ unqvam ab Is-landis literis consignata, ad nos pervenerunt.</titlePart>
-                                    <titlePart type="sub">Secunda fert judicium de auctori fate fide et ætate Librorum Islandicorum, tam in genere omnium, qvam in Specie qvorumdam.</titlePart>
-                                    <titlePart type="sub">Tertia continet Nomina, Vitas et Scripta eorum auctorum, de qvorum operibus nobis constat.</titlePart>
-                                    <titlePart type="sub">Opus inchoatum HAFNAÆ Anno M.DCC.XXX.VIII (Bl. <locus from="1r" facs="#KBAdd02-0003-is" to="1r">1r</locus>).</titlePart>
+                            <titlePage  type="ms">
+                                <docTitle n="1">
+                                    <titlePart type="main">Apparatus <lb/> ad <lb/> Historiam Literari <lb/> am Is-landicam <lb/> in Tres Partes divisus, <lb/> </titlePart>
+                                    <titlePart type="sub">Qvarum Prima indigitat præcipuos Libros <lb/> carmina et Scripta, qvæ unqvam ab Is-lan- <lb/> dis literis consignata, ad nos pervenerunt. <lb/> </titlePart>
+                                    <titlePart type="sub">Secunda fert judicium de auctori fate <lb/> fide et ætate Librorum Islandicorum, tam <lb/> in genere omnium, qvam in Specie qvorum- <lb/> dam. <lb/></titlePart>
+                                    <titlePart type="sub">Tertia continet Nomina, Vitas et Scri- <lb/> pta eorum auctorum, de qvorum operibus <lb/> nobis constat. <lb/></titlePart>
+                                    <titlePart type="sub">Opus inchoatum <lb/> HAFNAÆ <lb/> Anno M.DCC.XXX.VIII (Bl. <locus from="1r" facs="#KBAdd02-0003-is" to="1r">1r</locus>).</titlePart>
+                                </docTitle>
+                                <docTitle n="2">
+                                    <titlePart type="main">Tertia pars <lb/> Historiæ Literari <lb/> Is-landicæ <lb/> in Tres Partes divisus, <lb/> </titlePart>
+                                    <titlePart type="sub">continens ... (Bl. <locus from="15r" facs="#KBAdd02-0003-is" to="15r">15r</locus>).</titlePart>
+                                </docTitle>
+                                <docTitle n="3">
+                                    <titlePart type="main">Catalogus <lb/> aliqvot <lb/> Scriptorum Isl-landi <lb/> corum <lb/> </titlePart>
+                                    <titlePart type="sub">de qvorum seilicet nominit constat <lb/> tam Veterum <lb/> qvam Recentiorum, <lb/> </titlePart>
+                                    <titlePart type="sub">cum annexa hinc inde brevi qvo- <lb/> ri,da, Biographia. <lb/></titlePart>
+                                    <titlePart type="sub">in duas Partes divisus <lb/> pta eorum auctorum, de qvorum operibusQvarum prior continet Scriptores ve- <lb/> teres, seu ante Reformationem Lutheri, <lb/> Posterior recentiores, qvi post dictam <lb/></titlePart>
+                                    <titlePart type="sub">Reformationem vixerunt. (Bl. <locus from="16r" facs="#KBAdd02-0003-is" to="16r">16r</locus>).</titlePart>
                                 </docTitle>
                             </titlePage>
                             
-                            <msItem n="1">
+                            <msItem n="1" defective="false" class="bokms">
                                 <locus from="6r" facs="#KBAdd02-0003-is" to="50v">6r-50v</locus>
                                 <author key="JonOla003">Jón Ólafsson frá Grunnavík</author>
                                 <textLang mainLang="is"></textLang>
-                                <title type="supplied">Apparatus ad Historiam Literariam Islandicam</title>
+                                <title type="supplied">Historiæ literariæ Islandicæ Pars secunda qva continetur CRITiCA</title>
+                                <incipit>ommium monumetorum literariorum ...</incipit>
+                                <explicit>... Þangbrandur drap hann.</explicit>
                                 <note>Hér eru II. og III. kafli íslenskrar bókmenntasögu sem inniheldur a) miðaldarbókmenntir, b) prósa-rithöfundar um siðaskiptin og c) skáld.</note>
+                                <msItem n="1.1" defective="false" class="kvad">
+                                    <locus from="13r" facs="#KBAdd02-0003-is" to="13r">13r</locus>
+                                    <title type="supplied">Vinaspegill</title>
+                                    <rubric>Vinaspegill</rubric>
+                                    <incipit type="upphaf">Vinur glest vinar af láni / varar hinn og áminnir ...</incipit>
+                                    <explicit>... um aldur trúskap halda.</explicit>
+                                    <note>1 erindi.</note>
+                                    <bibl><ref target="Visnalin">Vísnakver Páls lögmanns Vídalíns</ref>, Kaupmannahöfn, <biblScope unit="pages">122</biblScope>.</bibl>
+                                </msItem>
                             </msItem>
                             <msItem n="2">
                                 <locus from="51r" facs="#KBAdd02-0003-is" to="132v">51r-132v</locus>
-                                <title type="supplied">Stutt yfirlit yfir kennara og nafnþekkta Íslendinga eftir siðaskiptin</title>
+                                <textLang mainLang="da"></textLang>
+                                <title type="supplied" xml:lang="da">Kort Under-retning om nogle Lærde Islændere, deres Vitas og Scripta.</title>
+                                <rubric xml:lang="da">Kort Under-retning om nogle Lærde Islændere, deres Vitas og Scripta. Sammanskrivet in <placeName key="Copen01">Kiöbenhavn</placeName> Anno Christi 1738.</rubric>
+                                <incipit xml:lang="da">Som dag alt staar til den forbedring ...</incipit>
+                                <explicit>... i Stockholm 18.14.</explicit>
+                                <colophon xml:lang="da">Kiöbenhafn, Anno Christi 1738. Jón Ólafsson.(Bl. <locus from="59r" facs="#KBAdd02-0003-is" to="59r">59r</locus>.</colophon>
                             </msItem>
                             <msItem n="3">
                                 <locus from="133r" facs="#KBAdd02-0003-is" to="162v">133r-162v</locus>
@@ -160,7 +180,7 @@
                             <objectDesc form="codex">
                                 <supportDesc material="chart">
                                     <support>Pappír.</support>
-                                    <extent>Bindi I: i + 165 + i blöð (<dimensions type="leaf" unit="mm"><height>205-335</height><width>167-210</width></dimensions> ásamt seðlum og fylgigögnum). Auð blöð: 12r, 13v, 15v, 16v, 19v, 32r, 33r, 36r, 43r, 48r, 49r, 117, 123, 124, 130v, 132v, 134v, 142v, 143v, 160r, 162r, 163-164 og 165v.</extent>
+                                    <extent>Bindi I: i + 165 + i blöð (<dimensions type="leaf" unit="mm"><height>205-335</height><width>167-210</width></dimensions> ásamt seðlum og fylgigögnum). Auð blöð: 2-4, 12r, 13v, 15v, 16v, 19v, 32r, 33r, 36r, 43r, 48r, 49r, 117, 123, 124, 130v, 132v, 134v, 142v, 143v, 160r, 162r, 163-164 og 165v.</extent>
                                     <foliation><list>
                                         <item>Blaðmerkt með blýanti í efra horni 1-5.</item>
                                         <item>Blaðmerkt með blýanti á neðri spássíu 1-165, hlaupið yfir 5, 39, 73, 79, 89, 111-113 og 159.</item>
@@ -189,7 +209,9 @@
                                 </handNote>
                             </handDesc>
                             <decoDesc>
-                                <decoNote type="paratext" subtype="title-page">Titilsíður bl. 1r, 15r, 16r, 20r, 51r.</decoNote>
+                                <decoNote type="paratext" subtype="title-page">Titilsíður, bl. 1r, 15r, 16r, 20r.</decoNote>
+                                <decoNote type="border">Rammi um titilsíðu, bl. 1r, 16r.</decoNote>
+                                <decoNote type="frieze" subtype="tail-piece">Ígildi bókahnúts, bl. 132.</decoNote>
                             </decoDesc>
                             <additions><list>
                                 <item>Spássíugreinar víða.</item>
@@ -198,7 +220,7 @@
                             </list></additions>
                             <bindingDesc>
                                 <binding contemporary="false" notBefore="1800" notAfter="1899">
-                                    <p>Band frá 18. öld (<dimensions type="binding" unit="mm">
+                                    <p>Band frá 19. öld (<dimensions type="binding" unit="mm">
                                     <height>340</height>
                                     <width>220</width>
                                     <depth>33</depth>
@@ -214,10 +236,9 @@
                         </physDesc>
                         
                         <history>
-                            <origin when="1738">
-                                <p>Handritið er skrifað í <placeName key="Copen01">Kaupmannahöfn</placeName> og skrifin hófust árið <origDate when="1738" evidence="internal" cert="high">1738</origDate>.
-                                    
-                                    <!-- Ath. <quote>Opus inchoatum 1738</quote> vinna hafin --></p></origin>
+                            <origin notBefore="1738">
+                                <p>Handritið er skrifað í <placeName key="Copen01">Kaupmannahöfn</placeName> og vinna hófst <quote>Opus inchoatum 1738</quote> (bl. 1r) árið <origDate when="1738" cert="high">1738</origDate>.
+                                </p></origin>
                             <provenance/>
                             <acquisition when="1997-04-09">
                                 <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 9. apríl 1997.</p>
@@ -238,8 +259,8 @@
                                 <title type="supplied">Sjálfsævisaga Steins Jónssonar biskups árið 1739</title>
                                 <rubric xml:lang="la">Compendium Vitæ anteactæ, et operum imprimis memorabilium, Sthenonis Jonæi, Episcopi Holensis, in Boreali Islandia.</rubric>
                                 <incipit>Anno 1660 þann 20 Agusti var eg Steinn Jónsson ...</incipit>
-                                <explicit>... </explicit>
-                                <colophon>Vitam þessa biskupsins herra Steins, sendi hann mér sjálfur til Kaupmannahafanar um haustið 1739. Þá eg meðtók hana frá kaupmatir(?) monsr. Huilby(?), 8. november. (Bl. 170).</colophon>
+                                <explicit>... infinite valeto"</explicit>
+                                <colophon>Vitam þessa biskupsins herra Steins, sendi hann mér sjálfur til Kaupmannahafnar um haustið 1739. Þá eg meðtók hana frá kaupmatir(?) monsr. Huilby(?), 8. november. (Bl. 170).</colophon>
                                 <note>Skrifaraklausa er með hendi Jóns Ólafssonar frá Grunnavík</note>
                             </msItem>
                         
@@ -272,10 +293,14 @@
                                 </handNote>
                                 <handNote scope="minor" script="kurrent" scribe="JonOla003">II: Með hendi <name type="person" key="JonOla003">Jóns Ólafssonar</name> frá Grunnavík, síðfljótaskrift (bl. 170).</handNote>
                             </handDesc>
+                            <decoDesc>
+                                <decoNote type="secondary" subtype="display-script">Letur skreytt í fyrirsögnum og frábrugðið letur í manna- og staðanöfnum.</decoNote>
+                                <decoNote type="initial" subtype="flourished">Blekdregnir upphafstafir, bl. 166r og 169r.</decoNote>
+                            </decoDesc>
                             
                             <bindingDesc>
                                 <binding contemporary="false" notBefore="1800" notAfter="1899">
-                                    <p>Band frá 18. öld (<dimensions type="binding" unit="mm">
+                                    <p>Band frá 19. öld (<dimensions type="binding" unit="mm">
                                         <height>324</height>
                                         <width>211</width>
                                         <depth>4</depth>
@@ -291,10 +316,9 @@
                         </physDesc>
                         
                         <history>
-                            <origin when="1739">
-                                <p>Handritið er skrifað árið <origDate when="1738" cert="high">1739</origDate>.
-                                    
-                                    <!-- Ath. <quote>Opus inchoatum 1738</quote> vinna hafin --></p></origin>
+                            <origin notBefore="1738">
+                                <p>Handritið er skrifað í <placeName key="Copen01">Kaupmannahöfn</placeName> og vinna hófst <quote>Opus inchoatum 1738</quote> (bl. 1r) árið <origDate when="1738" cert="high">1738</origDate>.
+                                </p></origin>
                             <provenance/>
                             <acquisition when="1997-04-09">
                                 <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 9. apríl 1997.</p>
@@ -308,14 +332,14 @@
                         <msContents xml:lang="is">
                             <textLang mainLang="is" otherLangs="la da"></textLang>
                             
-                            <msItem n="5">
+                            <msItem n="5" defective="false" class="avis">
                                 <locus from="171r" facs="#KBAdd02-0003-is" to="205r">171r-205r</locus>
-                                <textLang mainLang="la"></textLang>
-                                <title type="supplied">Drög að <quote>Yfirlit um kennara og nafnþekkta Íslendinga</quote></title>
+                                <textLang mainLang="is" otherLangs="da"></textLang>
+                                <title type="supplied">Uppkast að <quote>Yfirlit um kennara og nafnþekkta Íslendinga</quote></title>
                                 <author key="JonOla003">Jón Ólafsson</author>
-                                <incipit>Curtius Amundæus, ...</incipit>
+                                <incipit>Curtius Amundæus, [...] Kort Amundason, locator á Hólum andaðist 1669. </incipit>
                                 <explicit>... nemlig per Aprilum, Majum, Junium ...</explicit>
-                                <filiation>Hluti af þeim kverum sem vantar í ævisögu Árna Magnússonar, sjá <ref type="ms" target="AM04-1027">AM 1027 4to</ref>.</filiation>
+                                <filiation>Eitt af þeim kverum sem vantar í ævisögu Árna Magnússonar, sjá <ref type="ms" target="AM04-1027">AM 1027 4to</ref>.</filiation>
                                 <note>Óheilt, vantar aftan á.<p>Á bl. 205r nefnir Jón hvaða bækur hann þarf til sinnar <quote>Hist. Lit.</quote> </p></note>
                             </msItem>
                             
@@ -377,10 +401,9 @@
                         </physDesc>
                         
                         <history>
-                            <origin when="1738">
-                                <p>Handritið er skrifað árið <origDate when="1738" cert="high">1738</origDate>.
-                                    
-                                    <!-- Ath. <quote>Opus inchoatum 1738</quote> vinna hafin --></p></origin>
+                            <origin notBefore="1738">
+                                <p>Handritið er skrifað í <placeName key="Copen01">Kaupmannahöfn</placeName> og vinna hófst <quote>Opus inchoatum 1738</quote> (bl. 1r) árið <origDate when="1738" cert="high">1738</origDate>.
+                                    </p></origin>
                             <provenance/>
                           
                         </history>
