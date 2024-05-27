@@ -23,15 +23,17 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents xml:lang="is">
-                        <textLang mainLang="is">Íslenska</textLang>
-                        <msItem><title type="supplied">Alpium Islandiæ Myrdalinarum Vesuvius</title></msItem>
+                        <textLang mainLang="da" otherLangs="la"></textLang>
+                        <msItem n="1">
+                            <locus from="1r" facs="#KBAdd02-0228-is" to="7v">1r-7v</locus>
+                            <title type="supplied">Alpium Islandiæ Myrdalinarum Vesuvius</title><note>Lýsing á Kötlugosi <date notBefore="1755" notAfter="1756">1755-1756</date>.</note></msItem>
                         
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent/>
+                                <extent>7 blöð (<dimensions unit="mm" type="leaf" scope="all"><height>318</height><width>211</width></dimensions>).</extent>
                                 <foliation/>
                                 <collation>
                                     <p/>
@@ -43,10 +45,10 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scope="sole" script="unknown" scribe="unknown">
+                            <handNote scope="sole" script="unknown" scribe="JonMar002">Með hendi <name type="person" key="JonMar002">Jóns Marteinssonar</name>
                             </handNote>
                         </handDesc>
-                        <decoDesc><decoNote/></decoDesc>
+                        <!-- <decoDesc><decoNote/></decoDesc> -->
                         <bindingDesc>
                             <binding>
                                 <p/>
@@ -58,30 +60,32 @@
                     </physDesc>
                     
                     <history>
-                        <origin>
-                            <p/></origin>
-                        <provenance/>
-                        <acquisition/>
+                        <origin notBefore="1700" notAfter="1799" cert="high">
+                            <p>Kålund tímasetur handritið til <origDate notBefore="1700" notAfter="1799" cert="high" evidence="external">síðari hluta 18.
+                                aldar</origDate> (<ref target="KatKB">Katalog </ref>1900 bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/504">431</ref>).</p>
+                        </origin>
+                        <provenance></provenance>
+                        <acquisition when="1997-04-09">
+                            <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 9. apríl
+                                1997.</p>
+                        </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>
-                                    <p>Handritið er óskráð stafrænt.</p> 
-                                    <p>Skráning <name type="person" key="KriKaa001">Kristian Kålunds</name> á
-                                        handritinu er aðgengileg á <bibl>
-                                            <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter i Det store kongelige
-                                                Bibliotek og i Universitetsbiblioteket</ref>
-                                        </bibl>, bls. 431.</p>
-                                </source>
+                                <source><list>
+                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-23">23. maí 2024</date>.</item> 
+                                    <item><name type="person" key="KriKaa001">Kålund</name> gekk frá handritinu til skráningar 1900 (<bibl>
+                                            <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter </ref></bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/504">431 (nr. 36)</ref>.</item>
+                               </list> </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent type="conservation">
-                                    <p/>
+                                <custEvent type="conservation" notBefore="1995-08-23" notAfter="1995-11-30">
+                                    <p><name type="person" key="MorGro001">Morten Grønbech</name> gerði við í ágúst til nóvember 1995. Ekkert var hreyft við gömlu bandi, en hvít kápa úr þykkum karton lögð utan um. Nákvæm lýsing á ljósmyndun og viðgerð fylgdi með.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
-                        <listBibl><bibl><ref/></bibl></listBibl>
+                       <!--<listBibl><bibl><ref/></bibl></listBibl>  --> 
                     </additional>
                     
                 </msDesc>
