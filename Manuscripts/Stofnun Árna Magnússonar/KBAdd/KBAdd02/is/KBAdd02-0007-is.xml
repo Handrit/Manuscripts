@@ -23,44 +23,62 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents xml:lang="is">
-                        <textLang mainLang="is">Íslenska</textLang>
+                         <textLang mainLang="is">Íslenska</textLang>
+                       <titlePage type="ms">
+                            <docTitle>
+                                <titlePart type="main">Flateyjar annáll <lb/></titlePart>
+                                <titlePart type="sub"> I Codice Regio Flateynsi a columna <lb/> 856 usqve ad Finem Cod. nempe col: 995. </titlePart>
+                            </docTitle>
+                        </titlePage>
+                       
                         
-                        <msItem n="1">
+                        <msItem n="1" defective="false" class="annal">
                             <locus from="1r" facs="#KBAdd02-0007-is" to="83v">1r-83v</locus>
                             <title type="supplied">Flateyjarannáll</title>
-                        <note>Afrit af Flateyjarbók.</note>
+                            <rubric>Hér hefur annál frá heims upphafi og tölu Jeronimi prests</rubric>
+                            <incipit>Guð skapaði alla skepnu senn enn hann syndi hana á sex dögum ...</incipit>
+                            <explicit>... grasvöstur lítill. fellir nokkur.</explicit>
+                        <note>Afrit eftir Flateyjarbók.</note>
+                            <bibl><ref target="FlbChria">Flateyjarbók</ref> <biblScope unit="volume">III</biblScope>, <biblScope unit="pages">475-583</biblScope>.</bibl>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent>83 blöð auk titilsíðu (<dimensions type="leaf" unit="mm" scope="all"><height>313</height><width>195</width></dimensions>). </extent>
-                                <foliation>Blaðsíðumerkt 1-166.</foliation>
+                                <extent>i + 83 + i blað auk titilsíðu (<dimensions type="leaf" unit="mm" scope="all"><height>313</height><width>195</width></dimensions>). </extent>
+                                <foliation>Upprunaleg blaðsíðumerking 1-166.</foliation>
                                 <collation>
                                     <p/>
                                 </collation>
+                                <condition><p>Texti sést í gegn. </p></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1">
-                                    <p/></layout>
+                                <layout columns="1" writtenLines="28 33">
+                                    <list>
+                                        <item>Eindálka.</item>
+                                        <item>Leturflötur er <dimensions unit="mm" type="leaf"><height>247-250</height><width>157</width></dimensions>.</item>
+                                        <item>Línufjöldi er 28-33.</item>
+                                        <item>Leturflötur er afmarkaður með þurroddi.</item>
+                                    </list></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scope="sole" script="unknown" scribe="unknown">
+                            <handNote scope="sole" script="kanzlei" scribe="unknown">Ein hönd, óþekktur skrifari, kansellískrift.
                             </handNote>
                         </handDesc>
-                      <!--  <decoDesc><decoNote/></decoDesc> --> 
+                        <decoDesc> <decoNote type="frieze" subtype="tail-piece">Ígildi bókahnúts við lok texta, bl. <locus from="83v" facs="#KBAdd02-0007-is" to="83v">83v</locus>.</decoNote></decoDesc>  
                         <bindingDesc>
                              <binding contemporary="false" notBefore="1800" notAfter="1899">
-                                <p><!--Band frá 19. öld (<dimensions type="binding" unit="mm">
-                                    <height>314</height>
+                                <p>Band frá 19. öld (<dimensions type="binding" unit="mm">
+                                    <height>318</height>
                                     <width>202</width>
-                                    <depth>13</depth>
-                                </dimensions>). Pappaspjöld klædd pappír með brúnleitu
+                                    <depth>24</depth>
+                                </dimensions>). <material> Pappaspjöld klædd pappír með brúnleitu
                                     marmaramynstri. Leður á kili og hornum. Upphleyptar rendur á
-                                    kili og gylling. Titill með gylltu á kili. Saurblöð tilheyra
-                                    bandi. Handritið liggur í öskju. --></p>
+                                    kili og gylling. </material>Titill með gylltu á kili. Saurblöð tilheyra
+                                    bandi. Límmiði framan á kápu með safnmarki. Á fremra spjaldi er safnmarksmiði og stimpill frá <name type="org" key="KB">Konungsbókhlöðunni í
+                                        Kaupmannahöfn</name>.</p><p>Handritið liggur í öskju (<dimensions unit="mm" type="binding"><height>333</height><width>218</width><depth>30</depth></dimensions>).</p>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -70,7 +88,7 @@
                     
                     <history>
                         <origin notBefore="1750" notAfter="1799" cert="high" evidence="external">
-                            <p>Handritið var skrifað í <origPlace key="Copen01">Kaupmannahöfn</origPlace>. Kålund tímasetur það til <origDate notBefore="1700" notAfter="1799" cert="high">síðari hluta 18.
+                            <p>Handritið var skrifað í <placeName key="Copen01">Kaupmannahöfn</placeName>. Kålund tímasetur það til <origDate notBefore="1700" notAfter="1799" cert="high">síðari hluta 18.
                                 aldar</origDate> (<ref target="KatKB">Katalog </ref>1900 bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/500">435</ref>).</p>
                         </origin>
                         <provenance><p>Sjá nr. 240 fol. í uppboðsskrá <name type="person" key="BerMol001">Bernhards Møllmann</name> 1783.</p></provenance>
@@ -80,7 +98,7 @@
                         <adminInfo>
                             <recordHist>
                                 <source><list>
-                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-21">21. maí 2024</date>.</item> 
+                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-27">27. maí 2024</date>.</item> 
                                     <item><name type="person" key="KriKaa001">Kålund</name> gekk frá handritinu til skráningar 1900 (<bibl>
                                             <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter</ref></bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/500">427 (nr. 22)</ref>).</item>
                                </list> </source>
