@@ -22,13 +22,15 @@
                             <idno>OI35</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <msContents xml:lang="is">
-                        <textLang mainLang="is">Íslenska</textLang>
-                        <msItem n="1">
+                    <msContents xml:lang="la">
+                        <textLang mainLang="la" otherLangs="is"></textLang>
+                        <msItem n="1" defective="false" class="vidsk skip">
                             <locus from="1r" facs="#KBAdd02-0227-is" to="12v">1r-12v</locus>
                             <author key="JonArn004">Jón Árnason</author>
                             <title type="supplied">De Mercatura Islandorum Propriis Navibus Facta</title>
-                        <note>Afrit af Thott 1744 4to.</note>
+                            <rubric>I Dissertatio Johannis Arneæi De Mercatura Islandorum Propriis Navibus Facta</rubric>
+                            <incipit>Ex libendum ...</incipit>
+                        <filiation>Er hluti af Thott 1744 4to.</filiation>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -36,35 +38,51 @@
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
                                 <extent>12 blöð (<dimensions unit="mm" type="leaf" scope="all"><height>310</height><width>198</width></dimensions>). Blað 12v er autt.</extent>
-                                <foliation/>
+                                <foliation>Blaðmerkt með blýanti 1-12.</foliation>
                                 <collation>
                                     <p/>
                                 </collation>
+                                <condition>
+                                    <list>
+                                        <item>Blöð gulnuð.</item>
+                                        <item>Blek hefur smitast í gegn.</item>
+                                        <item>Blekblettir.</item>
+                                        <item>Jaðar er gulnaður og bylgjaður.</item>
+                                    </list>
+                                </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1">
-                                    <p/></layout>
+                                <layout columns="1" writtenLines="38 43">
+                                    <list>
+                                        <item>Eindálka.</item>
+                                        <item>Leturflötur er ca <dimensions unit="mm" type="written"><height>273-280</height><width>178</width></dimensions>.</item>
+                                        <item>Línufjöldi er 38-43.</item>
+                                    </list></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scope="sole" script="unknown" scribe="unknown">
+                            <handNote scope="sole" script="kanzlei kurrent" scribe="JonArn004">Sennilega með hendi sýslumannsins <name type="person" key="JonArn004">Jóns Árnasonar</name>, kansellískrift sem breytist í fljótaskrift í lokin.
                             </handNote>
                         </handDesc>
-                       <!--  <decoDesc><decoNote/></decoDesc> -->
                         <bindingDesc>
-                            <binding>
-                                <p/>
+                            <binding contemporary="false" notBefore="1800" notAfter="1899">
+                                <p>Band (<dimensions type="binding" unit="mm">
+                                    <height>310</height>
+                                    <width>198</width>
+                                    <depth>5</depth>
+                                </dimensions>). <material>Pappaspjöld klædd pappír með grænleitum
+                                    marmaramynstri. </material>. Tveir límmiðar framan á kápu og einn innan á fremra spjaldi, með safnmarki.</p> <p>Hvít kápa úr þykkum karton er lögð utan um.</p>
                             </binding>
                         </bindingDesc>
                         <accMat>
-                            <p/>
+                            <p>Blár seðill (<dimensions unit="mm" type="slip"><height>215</height><width>175</width></dimensions>) er límdur á fremra spjaldi, skrifaður með hendi <name type="person" key="JonSig004">Jóns Sigurðssonar</name> þar sem hann lýsir efnistök handritsins. </p>
                         </accMat>
                     </physDesc>
                     
                     <history>
                         <origin notBefore="1700" notAfter="1799" cert="high">
                             <p>Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace>. Kålund tímasetur það til <origDate notBefore="1700" notAfter="1799" cert="high" evidence="external">síðari hluta 18.
-                                aldar</origDate> (<ref target="KatKB">Katalog </ref>1900 bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/504">431</ref>).</p>
+                                aldar</origDate> (<ref target="KatKB">Katalog </ref>1900 bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/504">431</ref>).</p><p>Skv. seðli á fremra spjaldi telur Jón Sigursson að skrifari handritsins hafi verið <quote>Íslendingur sem hefir þekkt sögurnar, Crymogæa, Annála nokkra, Bréfabók Jóns Vilhjálmssonar. Hann citerar "Tilgift til Anderson", og má bæði þar af og af upphafinu sjá, að hann skrifar milli 1750 og 1760.</quote> </p>
                         </origin>
                         <provenance/>
                         <acquisition when="1997-04-09">
@@ -76,14 +94,15 @@
                         <adminInfo>
                             <recordHist>
                                 <source><list>
-                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-23">23. maí 2024</date>.</item> 
+                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-28">28. maí 2024</date>.</item> 
                                     <item><name type="person" key="KriKaa001">Kålund</name> gekk frá handritinu til skráningar 1900 (<bibl>
                                             <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter</ref></bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/504">431 (nr. 35)</ref>.</item>
                                </list> </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation" notBefore="1995-08-23" notAfter="1995-11-30">
-                                    <p><name type="person" key="MorGro001">Morten Grønbech</name> gerði við í ágúst til nóvember 1995. Ekkert var hreyft við gömlu bandi, en hvít kápa úr þykkum karton lögð utan um. Nákvæm lýsing á ljósmyndun og viðgerð fylgdi með.</p>
+                                    <p><name type="person" key="MorGro001">Morten Grønbech</name> gerði við í ágúst til nóvember 1995. Ekkert var hreyft við gömlu bandi, en hvít kápa úr þykkum karton lögð utan um. Nákvæm lýsing á ljósmyndun og viðgerð fylgdi með
+                                        .</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
