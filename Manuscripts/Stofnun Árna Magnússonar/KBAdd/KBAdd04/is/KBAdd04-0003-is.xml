@@ -22,66 +22,95 @@
                             <idno>OI40</idno>
                         </altIdentifier>
                     </msIdentifier>
-                    <msContents xml:lang="is">
-                        <textLang mainLang="is">Íslenska</textLang>
-                        <msItem><title type="supplied">Grammatica Islandica</title></msItem>
+                    <msContents xml:lang="la">
+                        <textLang mainLang="la" otherLangs="is"></textLang>
+                        <msItem n="1" defective="false" class="malfr">
+                            <locus from="1r" facs="#KBAdd04-0003-is" to="82v">1r-82v</locus>
+                            <author key="JonMag011">Jón Magnússon</author>
+                            <title type="supplied">Grammatica Islandica</title>
+                        <rubric>Grammatica Islandica</rubric>
+                            <incipit>Literæ Islandicæ vulgo numerantur ...</incipit>
+                            <explicit>... Figura - Simplex ut nú. composita, núnú.</explicit>
+                            <filiation>Sama og <ref type="ms" target="#KBAdd04-0002-is">KBAdd 2 4to</ref>.</filiation>
+                        </msItem>
                         
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent/>
-                                <foliation/>
+                                <extent>vii + 82 + iii blöð (<dimensions unit="mm" type="leaf" scope="all"><height>196</height><width>158</width></dimensions>).</extent>
+                                <foliation>Upprunalega blaðsíðumerking 1-162. Ruglingur í blaðsíðumerkingu: bl. 75bis = 76, bl. 76 = 77, bl. 127bis = 129, 122bis = 130.</foliation>
                                 <collation>
                                     <p/>
                                 </collation>
+                                <condition>
+                                    <list>
+                                        <item>Blöð hafa gulnað.</item>
+                                        <item>Blek hefur smitast í gegn.</item>
+                                        <item>Blekblettur á ytri jaðri bls. 35-86.</item>
+                                    </list>
+                                </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1">
-                                    <p/></layout>
+                                <layout columns="1" writtenLines="23 29">
+                                    <list>
+                                        <item>Eindálka.</item>
+                                        <item>Leturflötur er ca <dimensions unit="mm" type="written"><height>165</height><width>115-125</width></dimensions>.</item>
+                                        <item>Línufjöldi er ca 23-29.</item>
+                                        <item>Leturflötur er afmarkaður með þurroddi.</item>
+                                        <item><catchwords>Griporð</catchwords>.</item>
+                                    </list></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scope="sole" script="unknown" scribe="unknown">
+                            <handNote scope="sole" script="humcursiva kanzlei" scribe="unknown">Óþekktur skrifari, ein hönd, snarhönd.
                             </handNote>
                         </handDesc>
-                        <decoDesc><decoNote/></decoDesc>
+                        <decoDesc><decoNote type="secondary" subtype="display-script">Frábrugðið letur í fyrirsögnum.</decoNote></decoDesc>
+                        <additions>Nokkrar spássíugreinar.</additions>
                         <bindingDesc>
-                            <binding>
-                                <p/>
+                            <binding contemporary="false" notBefore="1800" notAfter="1899">
+                                <p>Band <!--  frá 19. öld--> (<dimensions type="binding" unit="mm">
+                                    <height>200</height>
+                                    <width>166</width>
+                                    <depth>20</depth>
+                                </dimensions>). <material>Pappaspjöld klædd pappír með bláleitum
+                                    marmaramynstri. Leður á kili og hornum. </material>Saurblöð tilheyra
+                                    bandi. Safnmarksmiði á kili og á fremra spjaldblaði.</p>
                             </binding>
                         </bindingDesc>
                         <accMat>
-                            <p/>
+                            <p>Fastur seðill (<dimensions unit="mm" type="slip"><height>46</height><width>154</width></dimensions>) (á milli bls. 163 og fyrsta aftasta saurblaðs) er athugasemd með hendi <name type="person" key="WerAbr001">H.W.F Abrahamson</name>.</p>
                         </accMat>
                     </physDesc>
                     
                     <history>
-                        <origin>
-                            <p/></origin>
-                        <provenance/>
-                        <acquisition/>
+                        <origin notBefore="1700" notAfter="1799" cert="high">
+                             <p>Handritið er tímasett til <origDate notBefore="1700" notAfter="1799" cert="high">18. aldar</origDate> í <ref target="KatKB">Katalog </ref>1900 bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/506">432</ref>.</p></origin>
+                        <provenance><list>
+                            <item>Framarlega í handriti stendur: <quote>Foræret til <name type="person" key="DooSmi001">D. Smith</name> <date when="1812-10">Oct. 1812</date> og af ham til Universitetsbibliotheket i <date when="1815-08">August 1815</date>.</quote></item>
+                            <item>Á bl. 82v (bls. 164) stendur: <quote xml:lang="da">Grammatica hæc Islandica Conscripta est a Duo. <name type="person" key="JonMag011">Iohanne Magnæo</name> et a <name type="person" key="JonOla003">Iona Olavio</name>, studioso antiqvitatum correcta et aucta, qvod videri potest ex lineolis in qvibusdam paginis occurentibus.</quote></item>
+                            <item>Á fasta seðlinum upplýsir Abrahamson að handritið, hafi verið selt á uppboði "Bryggers Ursins", og sé minna fullbúið en <ref type="ms" target="#KBAdd04-0002-is">KBAdd 2 4to</ref>, en hefur þó eitt og annað sem vantar þar. </item>
+                        </list></provenance>
+                        <acquisition when="1997-04-09">Stofnun Árna Magnússonar á Íslandi tók við handritinu 9. apríl 1997.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>
-                                    <p>Handritið er óskráð stafrænt.</p> 
-                                    <p>Skráning <name type="person" key="KriKaa001">Kristian Kålunds</name> á
-                                        handritinu er aðgengileg á <bibl>
-                                            <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter i Det store kongelige
-                                                Bibliotek og i Universitetsbiblioteket</ref>
-                                        </bibl>, bls. 432.</p>
-                                </source>
+                                <source><list>
+                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-29">29. maí 2024</date>. </item> 
+                                    <item><name type="person" key="KriKaa001">Kristian Kålund</name> gekk frá handritinu til skráningar 1900 (<bibl><ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter </ref></bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/506">432 (nr. 40)</ref>).</item>
+                               </list> </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent type="conservation">
-                                    <p/>
+                                <custEvent type="conservation" notBefore="1995-12-06" notAfter="1996-02-08">
+                                    <p><name type="person" key="TinJoh001">Tina Johannesen</name> og <name type="person" key="MorGro001">Morten Grønbech</name>
+                                        gerðu við í desember 1995 til febrúar 1996. Handritið er í gömlu bandi, en skipt hefur verið um saurblöð. Handritið er ekki í öskju. Lýsing á ljósmyndun og viðgerð fylgdi
+                                        með.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
-                        <listBibl><bibl><ref/></bibl></listBibl>
                     </additional>
                     
                 </msDesc>

@@ -25,17 +25,32 @@
                     <msContents xml:lang="is">
                         <summary><title type="supplied">Sögubók</title></summary>
                         <textLang mainLang="is">Íslenska</textLang>
-                        <msItem n="1"><title type="supplied">Droplaugarsona saga</title></msItem>
-                        <msItem n="2"><title type="supplied">Saga af Þorsteini Uxafót</title></msItem>
-                        <msItem n="3"><title type="supplied">Þáttur af Eindriða illbreið</title></msItem>
-                        <msItem n="4"><title type="supplied">Þáttur af Högna og Héðinn</title></msItem>
-                        <msItem n="5"><title type="supplied">Fóstbræðra saga</title></msItem>
+                        <msItem n="1" class="isl">
+                            <locus from="1r" facs="#KBAdd04-0005-is" to="19r">1r-19r</locus>
+                            <title type="supplied">Droplaugarsona saga</title>
+                        </msItem>
+                        <msItem n="2" class="islt">
+                            <locus from="20r" facs="#KBAdd04-0005-is" to="34r">20-34r</locus>
+                            <title type="supplied">Saga af Þorsteini Uxafót</title>
+                        </msItem>
+                        <msItem n="3" class="konth">
+                            <locus from="34r" facs="#KBAdd04-0005-is" to="42v">34r-42v</locus>
+                            <title type="supplied">Þáttur af Eindriða illbreið</title>
+                        </msItem>
+                        <msItem n="4" class="fornth">
+                            <locus from="43r" facs="#KBAdd04-0005-is" to="51r">43r-51r</locus>
+                            <title type="supplied">Þáttur af Högna og Héðinn</title>
+                        </msItem>
+                        <msItem n="5" class="isl">
+                            <locus from="51v" facs="#KBAdd04-0005-is" to="126r">51v-126r</locus>
+                            <title type="supplied">Fóstbræðra saga</title>
+                        </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent> </extent>
+                                <extent>iii + 126 + iii blöð (<dimensions unit="mm" type="leaf" scope="all"><height>184</height><width>153</width></dimensions>). Blað <locus from="19v" facs="#KBAdd04-0005-is" to="19v">19v</locus> er autt.</extent>
                                 <foliation/>
                                 <collation>
                                     <p/>
@@ -47,10 +62,14 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
+                            <summary>Tvær hendur:</summary>
                             <handNote scope="sole" script="unknown" scribe="unknown">
                             </handNote>
                         </handDesc>
-                        <decoDesc><decoNote/></decoDesc>
+                        <additions><list>
+                            <item>Á bl. <locus from="126v" facs="#KBAdd04-0005-is" to="126v">126v</locus> stendur: <quote><name type="person" key="ArnTho019">Arne Þörðarson A Bokena med riettu.</name></quote></item>
+                        <item>Á saurblaði hefur <name type="person" key="RasRas001">R. Rask</name> skrifað efnisyfirlit.</item>
+                        </list></additions>
                         <bindingDesc>
                             <binding>
                                 <p/>
@@ -62,26 +81,25 @@
                     </physDesc>
                     
                     <history>
-                        <origin>
-                            <p/></origin>
+                        <origin notBefore="1700" notAfter="1799" cert="high">
+                            <p>Handritið er tímasett til <origDate notBefore="1700" notAfter="1799" cert="high">18. aldar</origDate> í <ref target="KatKB">Katalog </ref>1900 bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/506">433</ref>.</p></origin>
                         <provenance/>
-                        <acquisition/>
+                        <acquisition when="1997-04-09">Stofnun Árna Magnússonar á Íslandi tók við handritinu <date when="1997-04-09">9. apríl 1997</date>.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>
-                                    <p>Handritið er óskráð stafrænt.</p> 
-                                    <p>Skráning <name type="person" key="KriKaa001">Kristian Kålunds</name> á
-                                        handritinu er aðgengileg á <bibl>
-                                            <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter i Det store kongelige
-                                                Bibliotek og i Universitetsbiblioteket</ref>
-                                        </bibl>, bls. 433.</p>
-                                </source>
+                                <source><list>
+                                    <item>Handritið er óskráð stafrænt.</item> 
+                                    <item><name type="person" key="KriKaa001">Kristian Kålund</name> gekk frá
+                                        handritinu til skráningar 1900 ( <bibl><ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter</ref></bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/506">433 (nr. 42)</ref>).</item>
+                                </list></source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent type="conservation">
-                                    <p/>
+                                <custEvent type="conservation" notBefore="1995-09-28" notAfter="1995-11-07">
+                                    <p><name type="person" key="MorGro001">Morten Grønbech</name>
+                                        gerði við í september til nóvember 1995. Ekkert var hreyft við bandi en handritið er í nýlegri öskju. Nákvæm lýsing á ljósmyndun og viðgerð fylgdi
+                                        með.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
