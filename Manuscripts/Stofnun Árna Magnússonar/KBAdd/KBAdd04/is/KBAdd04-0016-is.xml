@@ -24,14 +24,16 @@
                     </msIdentifier>
                     <msContents xml:lang="is">
                         <textLang mainLang="is">Íslenska</textLang>                        
-                        <msItem><title type="uniform">Jónsbók</title>
+                        <msItem>
+                            <locus from="1r" facs="#KBAdd04-0016-0001r" to="112v">1r-112v</locus>
+                            <title type="uniform">Jónsbók</title>
                         <note>Með réttarbótum.</note></msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
-                            <supportDesc material="chart">
-                                <support>Pappír.</support>
-                                <extent> </extent>
+                            <supportDesc material="perg">
+                                <support>Skinn.</support>
+                                <extent>112 blöð (<dimensions unit="mm" type="leaf" scope="all"><height>187</height><width>150</width></dimensions>). </extent>
                                 <foliation/>
                                 <collation>
                                     <p/>
@@ -46,38 +48,37 @@
                             <handNote scope="sole" script="unknown" scribe="unknown">
                             </handNote>
                         </handDesc>
-                        <decoDesc><decoNote/></decoDesc>
+                        <decoDesc> <decoNote type="secondary" subtype="rubric">Rauðlitaðar fyrirsagnir.</decoNote>
+                            <decoNote type="initial" subtype="rubric">Litaðir upphafsstafir.</decoNote></decoDesc>
                         <bindingDesc>
                             <binding>
                                 <p/>
                             </binding>
                         </bindingDesc>
+                        
                         <accMat>
                             <p/>
                         </accMat>
                     </physDesc>
                     
                     <history>
-                        <origin>
-                            <p/></origin>
-                        <provenance/>
+                        <origin notBefore="1600" notAfter="1699" cert="high">
+                            <p>Handritið er tímasett til <origDate notBefore="1600" notAfter="1699" cert="high">17. aldar</origDate> í <ref target="KatKB">Katalog </ref>1900 bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/508">435</ref>.</p></origin>
+                            
+                        <provenance>Skv. áritun á bl. <locus from="112r" facs="#KBAdd04-0016-is" to="112r">112r</locus>, gaf sr. J. Borch handritið háskólabókasafninu árið 1805.</provenance>
                         <acquisition/>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>
-                                    <p>Handritið er óskráð stafrænt.</p> 
-                                    <p>Skráning <name type="person" key="KriKaa001">Kristian Kålunds</name> á
-                                        handritinu er aðgengileg á <bibl>
-                                            <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter i Det store kongelige
-                                                Bibliotek og i Universitetsbiblioteket</ref>
-                                        </bibl>, bls. 435.</p>
-                                </source>
+                                <source><list>
+                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-31">31. maí 2024</date>. </item> 
+                                    <item><name type="person" key="KriKaa001">Kristian Kålund</name> gekk frá handritinu til skráningar 1900 ( <bibl><ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter</ref></bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/508">435 (nr. 50)</ref>).</item>
+                               </list> </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent type="conservation">
-                                    <p/>
+                                <custEvent type="conservation" notBefore="1996-01-15" notAfter="1996-04-17">
+                                    <p><name type="person" key="NieBor001">Niels Borring</name> og <name type="person" key="MorGro001">Morten Grønbech</name> gerðu við í janúar til apríl 1996. Handritið er í gömlu bandi en skipt hefur verið um saurblöð og fleira. Handritið er í nýrri öskju og liggur dót úr bandi aftast. Nákvæm lýsing á ljósmyndun og viðgerð fylgdi með.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>

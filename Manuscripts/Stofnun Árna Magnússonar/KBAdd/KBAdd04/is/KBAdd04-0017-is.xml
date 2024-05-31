@@ -24,7 +24,9 @@
                     </msIdentifier>
                     <msContents xml:lang="is">
                         <textLang mainLang="is">Íslenska</textLang>
-                        <msItem><title type="supplied">Íslensk messubók eða Grallari</title></msItem>   
+                        <msItem n="1" defective="false" class="messus">
+                            <locus from="1r" facs="#KBAdd04-0017-0001r" to="165v">1r-165v</locus>
+                            <title type="supplied">Íslensk messubók eða Grallari</title></msItem>   
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
@@ -188,7 +190,7 @@
                                         </watermark>
                                     </p>
                                 </support> 
-                                <extent> (</extent>
+                                <extent>165 blöð (<dimensions unit="mm" type="leaf" scope="all"><height>173</height><width>145</width></dimensions>).</extent>
                                 <foliation/>
                                 <collation>
                                     <p/>
@@ -203,7 +205,11 @@
                             <handNote scope="sole" script="unknown" scribe="unknown">
                             </handNote>
                         </handDesc>
-                        <decoDesc><decoNote/></decoDesc>
+                        <musicNotation>Nótur.</musicNotation>
+                        <decoDesc><decoNote type="secondary" subtype="rubric">Rauðlitaðar fyrirsagnir.</decoNote>
+                            <decoNote type="initial" subtype="foliate">Skreyttir og litaðir upphafsstafir.</decoNote>
+                        <decoNote type="inital" subtype="figure">Upphafsstafir skreyttir með drekamyndum.</decoNote>
+                        </decoDesc>
                         <bindingDesc>
                             <binding>
                                 <p/>
@@ -215,26 +221,24 @@
                     </physDesc>
                     
                     <history>
-                        <origin>
-                            <p/></origin>
-                        <provenance/>
+                        <origin notBefore="1600" notAfter="1699" cert="high">
+                            <p>Handritið er tímasett til <origDate notBefore="1600" notAfter="1699" cert="high">17. aldar</origDate> í <ref target="KatKB">Katalog </ref>1900 bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/508">435</ref>.</p></origin>
+                        
+                        <provenance>Skv. áritun á fremra spjaldi, gaf <quote>sr. Jón Eggertson, nú verandi á <placeName key="GauGau01">Gaulverjabæ</placeName> í Flóa</quote> handritið háskólabókasafninu árið 1815.</provenance>
                         <acquisition/>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>
-                                    <p>Handritið er óskráð stafrænt.</p> 
-                                    <p>Skráning <name type="person" key="KriKaa001">Kristian Kålunds</name> á
-                                        handritinu er aðgengileg á <bibl>
-                                            <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter i Det store kongelige
-                                                Bibliotek og i Universitetsbiblioteket</ref>
-                                        </bibl>, bls. 435. <name key="ThuSig002" type="person">ÞÓS</name> skráði <date when="2020-07-14">14. júlí 2020</date>.</p>
-                                </source>
+                                <source><list>
+                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-31">31. maí 2024</date>.</item> 
+                                    <item><name key="ThuSig002" type="person">ÞÓS</name> skráði vatnsmerki <date when="2020-07-14">14. júlí 2020</date>.</item>
+                                    <item><name type="person" key="KriKaa001">Kristian Kålund</name> gekk frá handritinu til skráning 1900 ( <bibl><ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter</ref></bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/508">435 (nr. 51)</ref>).</item> 
+                                </list></source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent type="conservation">
-                                    <p/>
+                                <custEvent type="conservation" notBefore="1995-04-28" notAfter="1995-11-30">
+                                    <p><name type="person" key="NieBor001">Niels Borring</name> og <name type="person" key="MorGro001">Morten Grønbech</name> gerðu við í apríl til nóvember 1995. Handritið er í gömlu bandi en skipt hefur verið um saurblöð og fleira. Handritið er í nýrri öskju og dót úr bandi fylgdi með í fóðruðum spjöldum með bendlum. Nákvæm lýsing á ljósmyndun og viðgerð og lýsing á bókbandi "boghistorie", fylgdi með.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
