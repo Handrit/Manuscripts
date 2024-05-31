@@ -25,13 +25,16 @@
                     <msContents xml:lang="is">
                         <textLang mainLang="is">Íslenska</textLang>
                        
-                        <msItem><title type="supplied">Ritgerð um rúnabókstafina</title></msItem>
+                        <msItem n="1" defective="false" class="run">
+                            <locus from="1" facs="#KBAdd04-0025-is" to="8v">1r-8v</locus>
+                            <title type="supplied">Ritgerð um rúnabókstafina</title>
+                        </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent/>
+                                <extent>8 blöð (<dimensions unit="mm" type="leaf" scope="all"><height>215</height><width>169</width></dimensions>). Blað <locus from="1v" facs="#KBAdd04-0025-is" to="1v"> er autt.</locus></extent>
                                 <foliation/>
                                 <collation>
                                     <p/>
@@ -46,7 +49,11 @@
                             <handNote scope="sole" script="unknown" scribe="unknown">
                             </handNote>
                         </handDesc>
-                        <decoDesc><decoNote/></decoDesc>
+                        <decoDesc>
+                            <decoNote type="secondary" subtype="rubric">Rautt letur.</decoNote>
+                            <decoNote type="border">Gulir rammar.</decoNote>
+                            <decoNote type="border">Tvöfaldur rammi (rauður og gulur) á titilsíðu.</decoNote>
+                        </decoDesc>
                         <bindingDesc>
                             <binding>
                                 <p/>
@@ -58,30 +65,28 @@
                     </physDesc>
                     
                     <history>
-                        <origin>
-                            <p/></origin>
+                        <origin notBefore="1700" notAfter="1799" cert="high">
+                            <p>Handritið er tímasett til <origDate notBefore="1700" notAfter="1799" cert="high">18. aldar</origDate> í <ref target="KatKB">Katalog </ref>1900 bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/510">437</ref>.</p></origin>
+                        
                         <provenance/>
-                        <acquisition/>
+                        <acquisition when="1997-04-09"><p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 9. apríl 1997.</p></acquisition>
+                        
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>
-                                    <p>Handritið er óskráð stafrænt.</p> 
-                                    <p>Skráning <name type="person" key="KriKaa001">Kristian Kålunds</name> á
-                                        handritinu er aðgengileg á <bibl>
-                                            <ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter i Det store kongelige
-                                                Bibliotek og i Universitetsbiblioteket</ref>
-                                        </bibl>, bls. 437.</p>
-                                </source>
+                                <source><list>
+                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-31">31. maí 2024</date>. </item> 
+                                    <item><name type="person" key="KriKaa001">Kristian Kålunds</name> gekk frá handritinu til skráningar 1900 ( <bibl><ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter </ref></bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/510">437 (nr. 59)</ref>).</item>
+                                    </list></source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent type="conservation">
-                                    <p/>
+                                <custEvent type="conservation" notBefore="1995-09" notAfter="1995-11">
+                                    <p><name type="person" key="MorGro001">.</name> gerði við í september til nóvember 1995. Handritið er í gömlu bandi, en skipt hefur verið um saurblöð og handritið liggur ekki í öskju. Nákvæm lýsing á ljósmyndun og viðgerð fylgdi með.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
-                        <listBibl><bibl><ref/></bibl></listBibl>
+                       
                     </additional>
                     
                 </msDesc>
