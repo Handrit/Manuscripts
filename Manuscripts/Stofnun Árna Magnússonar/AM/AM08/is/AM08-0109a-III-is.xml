@@ -39,10 +39,10 @@
             <locus from="1r" to="1v">1r-v (258r-v)</locus>
             <title type="uniform">Hjálmþérs saga</title>
             <rubric xml:lang="is">Sagan af Hjálmþér og Ölvir</rubric>
-            <incipit>Þessi saga byrjast af einum ágætum konungi ...</incipit>
+            <incipit>Þessi saga byrjast af einum ágætum konungi er Ingi hét ...</incipit>
             <explicit>... er Herrauður hét. Hann kunni allar listir</explicit>
             <note>Aðeins upphaf sögunnar sem <name type="person" key="ArnMag001"> Árni
-                    Magnússon</name>skrifaði.</note>
+                    Magnússon</name> skrifaði.</note>
         </msItem>
 
 
@@ -67,15 +67,16 @@
         <objectDesc form="codex">
             <supportDesc material="chart">
                 <support>
-                    <p>Pappír</p>
+                    <p>Pappír með vatnsmerkjum.</p>
                 </support>
-                <extent> i + 25 + i blqð (<dimensions type="leaf" scope="all" unit="mm">
+                <extent> i + 25 + i blað (<dimensions type="leaf" scope="all" unit="mm">
                         <height>150</height>
                         <width>100</width>
                     </dimensions>).</extent>
-                <foliation>
-                    <p>Seinni tíma blaðmerking 258-282.</p>
-                </foliation>
+                <foliation><list>
+                    <item>Seinni tíma blaðmerking 258-282.</item>
+                    <item>Blaðmerking með fjólubláum lit 207-231.</item>
+              </list>  </foliation>
                 <collation>Fjögur kver:
                 <list><item>Kver I: bl. 258-262 (258, 259, 260, 261, 262), 5 stök blöð. (Blöðin tilheyrðu áður síðasta kveri í AM 119 a II 8vo.</item>
                     <item>Kver II: bl. 253-270 (263+270, 264+269, 265+268, 266+267), 4 tvinn.</item>
@@ -85,7 +86,8 @@
                 </collation>
                 <condition><list>
                     <item>Blöð eru dökk.</item>
-                    <item>Blek er að dofna.</item>
+                    <item>Blek er að dofna (sjá t.d. <locus from="262v" to="263r">262v-263r</locus>, <locus from="270v" to="271r">270v-271r</locus>, 
+                        <locus from="278v" to="279r">278v-279r</locus> og <locus from="282v" to="282v">282v</locus>).</item>
                     <item>Eldri viðgerðir.</item>
                 </list></condition>
             </supportDesc>
@@ -94,16 +96,23 @@
                 <layout columns="1" writtenLines="27 29"><list>
                     <item>Eindálka.</item>
                     <item>Leturflötur er <dimensions unit="mm" type="written"><height>135</height><width>95</width></dimensions>.</item>
+                    <item>Línufjöldi er 27-29.</item>
                     <item><catchwords>Griporð</catchwords>.</item>
                 </list></layout>
             </layoutDesc>
         </objectDesc>
 
-        <handDesc hands="1">
-            <p>Ein hönd (bl. 1 viðbót með annarri hendi).</p>
-            <p>Skrifari óþekktur.</p>
+        <handDesc hands="2">
+            <handNote scope="sole" scribe="OlaJon021" script="hybrida">Með hendi <name>Ólafs Jónssonar</name> á <placeName key="LauGlæ01">Laugaland</placeName>, blendingsskrift.</handNote>
+            <handNote scope="minor" scribe="ArnMag001" script="humcursiva">Bl. <locus from="1r" to="1v">1 (258)</locus> með hendi <name type="person" key="ArnMag001">Árna Magnússonar</name>, sprettskrift.</handNote>
+            <!--<p>Ein hönd (bl. 1 viðbót með annarri hendi).</p>
+            <p>Skrifari óþekktur.</p>-->
         </handDesc>
-
+<decoDesc>
+    <decoNote type="initial">Blekdregnir upphafstafir (1-3 línur) með flúri. </decoNote>
+    <decoNote type="paratext">Fyrirsagnir eru dregnar hærri en meginmál.</decoNote>
+    <decoNote type="secondary" subtype="catchword-decoration">Skreyting við eða umhverfis griporð.</decoNote>
+</decoDesc>
         <bindingDesc>
             <binding contemporary="false" when="1890">
                 <p>Bundið c. 1890 (<dimensions type="binding" scope="all" unit="mm">
@@ -112,7 +121,8 @@
                         <depth>14</depth>
                     </dimensions>). Pappaspjöld klædd brúnum pappír. Horn og kjölur klædd fínofnum
                     líndúk. Saumað á móttök.</p>
-                <p>Í öskju með AM 109 a I og II.</p>
+                <p>Í öskju með <ref type="ms" target="#AM08-0109a-I-is">AM 109 a I</ref> og <ref type="ms" target="#AM08-0109a-II-is"> AM 109 a II</ref>.</p>
+                
             </binding>
         </bindingDesc>
         <accMat>Fastur <locus from="accMat01r" to="accMat01v">seðill</locus> (<dimensions type="slip" unit="mm">
@@ -134,16 +144,18 @@
     </physDesc>
     <history>
         <origin notBefore="1600" notAfter="1699" evidence="conjecture" cert="high">
-            <p>Handritið var skrifað á <origPlace>Íslandi</origPlace>. það er tímasett til 17. aldar
+            <p>Handritið var skrifað á norður <origPlace>Íslandi</origPlace> og er tímasett til 17. aldar
                 í <bibl>
-                    <ref target="KKKat">Katalog II 1892:396</ref>.</bibl>
+                    <ref target="KKKat">Katalog</ref> II 1892, bls. <ref target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/2/430">396</ref>.</bibl>
             </p>
             <p>Enn fremur hafa eftirfarandi sögur einnig verið í AM 109 a 8vo: annað eintak af
                 Hrólfs sögu kraka, Ketils sögu hængs, Gríms sögu loðinkinna og Örvar-Odds sögu.
                 Einnig Þorsteins saga Víkingssonar, Göngu-Hrólfs saga, Sturlaugs saga starfsama, og
-                Þorsteins þáttur bæjarmagns (sbr. <ref>AM 477 fol.</ref>).</p>
+                Þorsteins þáttur bæjarmagns (sbr. <ref type="ms" target="AM02-0477-is.xml">AM 477 fol.</ref>).</p>
         </origin>
-        <provenance/>
+        
+            <provenance>Það er ekki vitað hvernig <name type="person" role="owner" key="ArnMag001">Árni Magnússon</name> fékk handritið.</provenance>
+        
         <acquisition>
             <p>Afhendingu frestað vegna rannsókna í <name type="place">Kaupmannahöfn</name>. Í láni
                 þar frá <date when="1997-04-18">18. apríl 1997</date>. Skilað <date when="2006-08-01">1. ágúst 2006</date>.</p>
@@ -156,6 +168,7 @@
                 <source>
                     <p>
                         <list>
+                            <item><name type="person" key="MarGis003">MJG</name> fór yfir með gögnum frá <name type="person" key="BeeSte001">BS</name>, <date when="2024-06-21">, 21. júní 2024</date>. </item>
                             <item n="1">
                                 <name type="person" key="ThoSig001">ÞS</name> tölvuskráði handritið
                                     <date notBefore="2008-06-19" notAfter="2008-06-20">19.-20. júní
@@ -165,8 +178,9 @@
                                 <name type="person" key="KriKaa001">Kålund</name> gekk frá
                                 handritinu til skráningar <date when="1890-01-28">28. janúar
                                     1890</date> (<bibl>
-                                    <ref target="KKKat">Katalog II 1892:396-397 (nr. 2313)</ref>
-                                </bibl>)</item>
+                                        <ref target="KKKat">Katalog</ref></bibl> II 1892, bls. <ref
+                                            target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/2/430"
+                                            >397 (nr. 2313)</ref>).</item>
                         </list>
                     </p>
                 </source>
@@ -179,6 +193,8 @@
                     <item n="1">Filma negatív gerð af KPG. Askja 244 og 507.</item>
                     <item n="2">Myndir gerðar í janúar 1993 af <name type="person" key="JohOla002">Jóhönnu Ólafsdóttur</name> eftir filmu frá <date when="1977-01-27">27.
                             janúar 1977</date>.</item>
+                    <item>Svart-hvítar ljósmyndir á <ref target="https://sprogsamlinger.ku.dk/q.php?p=ds/hjem/mapper/14356">NorS Sprogsamlinger</ref> frá <date notBefore="1995-09-15" notAfter="1996-04-22">1995-1996</date>.
+                    </item>
                 </list>
             </p>
         </surrogates>
