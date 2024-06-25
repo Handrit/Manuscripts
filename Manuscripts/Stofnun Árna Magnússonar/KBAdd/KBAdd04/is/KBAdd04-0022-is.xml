@@ -23,11 +23,20 @@
                         </altIdentifier>
                     </msIdentifier>
                     <msContents xml:lang="is">
-                        <textLang mainLang="is">Íslenska</textLang>
+                        <textLang mainLang="is" otherLangs="da">Íslenska</textLang>
+                        <titlePage type="ms"><docTitle>
+                            <titlePart type="main">Velædle <lb/> Hr. Sigurd Thorstensen, <lb/> Officier <lb/> ved Øster Borger-Compagnie: <lb/> og forrige <lb/> Oldermand ved Guldsmed-Lauget <lb/> i Kiöbenhavn, <lb/> hans <lb/> Genealogie. </titlePart>
+                            <titlePart type="sub">Samlet ved Biskop Hans Finsen <lb/> Kiobenhavn, 1776. (Bl. <locus from="1r" facs="#KBAdd04-0022-0001r" to="1r">1r</locus>).</titlePart>
+                            
+                        </docTitle></titlePage>
+                       
                         <msItem n="1" defective="false" class="attfr">
                             <locus from="1r" facs="#KBAdd04-0022-is" to="22v">1r-22v</locus>
                             <author key="HanFin001">Hannes Finsson</author>
                             <title type="supplied">Ættfræði <name type="person" key="SigTho053">Sigurðar Þorsteinssonar (Thorstensen)</name> gullsmiðs</title>
+                            <rubric>Wærk</rubric>
+                            <incipit xml:lang="da">Denne Genealogie er samlet for de ...</incipit>
+                            <rubric>... Laurentii Martijris, Anno ut supra, 1488.</rubric>
                         </msItem>
                     </msContents>
                     <physDesc>
@@ -35,24 +44,43 @@
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
                                 <extent>22 blöð (<dimensions unit="mm" type="leaf" scope="all"><height>235</height><width>186</width></dimensions>). </extent>
-                                <foliation/>
+                                <foliation>Blaðsíðumerking á efri spássíu 1-44.</foliation>
                                 <collation>
-                                    <p/>
+                                    <p>Þrjú kver:<list>
+                                        <item>Kver I: bl. 1-8, 4 tvinn.</item>
+                                        <item>Kver II: bl. 9-16, 4 tvinn.</item>
+                                        <item>Kver III: bl. 17-22, 3 tvinn.</item>
+                                    </list></p>
                                 </collation>
+                                <condition><list>
+                                    <item>Nokkrir blettir, skerðir ekki texta.</item>
+                                    <item>Texti sést í gegn.</item>
+                                </list></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1">
-                                    <p/></layout>
+                                <layout columns="1" writtenLines="18 19">
+                                    <list>
+                                        <item>Eindálka.</item>
+                                        <item>Leturflötur er <dimensions unit="mm" type="written" scope="all"><height>183-193</height><width>136-140</width></dimensions>.</item>
+                                        <item>Línufjöldi ca 18-19.</item>
+                                        <item>Leturflötur afmarkaður með þurroddi.</item>
+                                    </list></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scope="sole" script="unknown" scribe="unknown">
+                            <handNote scope="sole" script="humcursiva kurrent" scribe="unknown">Óþekktur skrifari, ein hönd, fljótaskrift, snarhönd í nöfnum.
                             </handNote>
                         </handDesc>
-                      
+                      <decoDesc><decoNote type="frieze" subtype="tail-piece">Bókahnútur, bl. <locus from="22v" facs="#KBAdd04-0022-0022v" to="22v">22v</locus>.</decoNote></decoDesc>
                         <bindingDesc>
-                            <binding>
-                                <p/>
+                            <binding contemporary="false" notBefore="1800" notAfter="1899">
+                                <p>Band frá 19. öld (<dimensions type="binding" unit="mm">
+                                    <height>237</height>
+                                    <width>193</width>
+                                    <depth>10</depth>
+                                </dimensions>). <material>Pappaspjöld klædd pappír með bláleitum
+                                    marmaramynstri. Leður á kili og hornum. </material>Saurblöð tilheyra
+                                    bandi. Safnmarksmiði á kápu og innan á fremra spjaldi.</p>
                             </binding>
                         </bindingDesc>
                         <accMat>
@@ -62,7 +90,7 @@
                     
                     <history>
                         <origin when="1776">
-                            <p>Handritið er skrifað <origDate when="1776" cert="high">1776</origDate>.</p></origin>
+                            <p>Handritið er skrifað í <origPlace key="Copen01">Kaupmannahöfn</origPlace> árið <origDate when="1776" cert="high">1776</origDate>.</p></origin>
                         <provenance>Á titilblað hefur <name type="person" key="RasNye001">Rasmun Nyerup</name> skrifað: <quote>Foræret til Antiqvitets-Commissionens Museum af Hr. Thorsteinsson Lærer ved Borgerskolen i <placeName key="Rings01">Ringsted</placeName>.</quote></provenance>
                         <acquisition when="1997-04-09"><p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 9. apríl 1997.</p></acquisition>
                         
@@ -71,13 +99,13 @@
                         <adminInfo>
                             <recordHist>
                                 <source><list>
-                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-05-31">31. maí 2024</date>. </item> 
+                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-06-25">25. júní 2024</date>. </item> 
                                     <item><name type="person" key="KriKaa001">Kristian Kålunds</name> gekk frá handritinu til skráningar 1900 ( <bibl><ref target="KatKB">Katalog over de oldnorsk-islandske Håndskrifter</ref></bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/510">436 (nr. 56)</ref>).</item>
                                 </list></source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation" notBefore="1995-08-23" notAfter="1995-11-08">
-                                    <p><name type="person" key="MorGro001">Morten Grønbech</name> gerði við í ágúst til nóvember 1995. Ekkert var hreyft við bandi, en handritið liggur í nýrri öskju. Nákvæm lýsing á ljósmyndun og viðgerð fylgdi með.</p>
+                                    <p><name type="person" key="MorGro001">Morten Grønbech</name> gerði við í ágúst til nóvember 1995. Ekkert var hreyft við bandi. Nákvæm lýsing á ljósmyndun og viðgerð fylgdi með.</p>
                                 </custEvent>
                                 
                             </custodialHist>
