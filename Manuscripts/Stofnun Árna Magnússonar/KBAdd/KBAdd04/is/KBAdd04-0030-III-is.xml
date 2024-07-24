@@ -23,11 +23,19 @@
                         </altIdentifier>
                     </msIdentifier>
 
-                    <msContents xml:lang="is">
-                        <textLang mainLang="is">Íslenska</textLang>
+                    <msContents xml:lang="la">
+                        <textLang mainLang="la" otherLangs="is"></textLang>
                         <msItem n="1" defective="false" class="stadl">
                             <locus from="1r" facs="#KBAdd04-0030-III-0001r" to="12v">1r-12v</locus>
+                            <author key="EggOla001">Eggert Ólafsson</author>
+                            <author key="GriTho002">Grímur Thorkelín</author>
                             <title type="supplied">Fróðleikur um norræna, einkum norska staðfræði</title>
+                               <rubric>Roskild (islandie dim Hrooars-kellda)</rubric>
+                            <incipit>Roskild - vulgo rita ...</incipit>
+                            <explicit>... Nota: Marieboe er i Falster.</explicit>
+                            <note>
+                                <p>Á forsíðu <ref type="ms" target="KBAdd04-0030-I-is">KBAdd 30 I 4to</ref> kemur fram að <name type="person" key="JonOla003">Jón Ólafsson</name> frá Grunnavík telji Grím Thorkelín höfund verksins, en hann hafi tekið þetta eintak árið 1775 til eigin afnota. Hins vegar skrifar Grímur Thorkelin á spássíu að Eggert Ólafsson sé upprunalegur höfundur, en hann hafi aukið við og endurbætt (sjá bl. <locus from="1r" facs="#KBAdd04-0030-I-0001r" to="1r">1r</locus>).</p></note>
+                        
                         </msItem>
 
                     </msContents>
@@ -35,7 +43,7 @@
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent>10 blöð (<dimensions unit="mm" type="leaf"><height scope="range">203-212</height><width scope="range">160-168</width></dimensions>) + 2 blöð (<dimensions unit="mm" type="leaf"><height scope="range">162</height><width scope="range">101</width></dimensions>).</extent>
+                                <extent>10 blöð (<dimensions unit="mm" type="leaf"><height scope="range">203-212</height><width scope="range">160-168</width></dimensions>) + 2 blöð (<dimensions unit="mm" type="leaf"><height scope="range">162</height><width scope="range">101</width></dimensions>), þar af seðill blaðmerktur <locus from="41r" facs="#KBAdd04-0030-III-0041r" to="41v">41</locus> (<dimensions unit="mm" type="slip"><height>33</height><width>90</width></dimensions>). Autt bl. <locus from="41v" facs="#KBAdd04-0030-III-0041v" to="41v">41v</locus>.</extent>
                                 <foliation><list><item>Blaðmerkt með blýanti á efri spássíu 1-12.</item>
                                     <item>Blaðmerkt með blýanti á neðri spássíu 34-46.</item></list>
                                 </foliation>
@@ -45,16 +53,30 @@
                                         <item>Kver II: bl. 11-12 (11+12), 1 tvinn.</item>
                                     </list></p>
                                 </collation>
+                                <condition><list>
+                                    <item>Blöð eru dekkri við jaðar.</item>
+                                    <item>Jaðar óskorinn og bylgjaður.</item>
+                                    <item>Blek sums staðar í gegn.</item>
+                                    <item>Krotað yfir texta, bl. <locus from="7r" facs="#KBAdd04-0030-III-0007r" to="7v">7r-v</locus> og <locus from="8r" facs="#KBAdd04-0030-III-0008r" to="9v">8r-9v</locus>.</item>
+                                </list></condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1">
-                                    <p/></layout>
+                                <layout columns="1" writtenLines="10 47">
+                                    <list>
+                                        <item>Eindálka.</item>
+                                        <item>Leturflötur er ca <dimensions unit="mm" type="written"><height>180-192</height><width>110-123</width></dimensions>.</item>
+                                        <item>Línufjöldi er 10-47.</item>
+                                        <item>Leturflötur stundum afmarkaður með tvöföldum lóðréttum línum með bleki.</item>
+                                    </list></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scope="sole" script="unknown" scribe="JonOla003">Með hendi <name type="person" key="JonOla003">Jóns Ólafssonar</name> frá Grunnavík.</handNote>
+                            <handNote scope="sole" script="humcursiva" scribe="JonOla003">Með hendi <name type="person" key="JonOla003">Jóns Ólafssonar</name> frá Grunnavík, sprettskrift og kansellíbrotaskrift í áhersluorðum og fyrirsögnum.</handNote>
                         </handDesc>
-                     
+                        <decoDesc>
+                            <decoNote type="frieze" subtype="tail-head">Lítill bókahnútur á bl. <locus from="4r" facs="#KBAdd04-0030-III-0004r" to="4r">4r</locus>.</decoNote>
+                        </decoDesc>
+                     <additions>Spássíugreinar.</additions>
                         <bindingDesc>
                             <binding contemporary="false" notBefore="1995-04" notAfter="1995-08">
                                 <p>Band frá 1995 (<dimensions type="binding" unit="mm">
@@ -68,7 +90,7 @@
                             </binding>
                         </bindingDesc>
                         <accMat><list>
-                            <item>Seðill.</item>
+                            <item>Fastur seðill, blaðmerktur <locus from="41r" facs="#KBAdd04-0030-III-0041r" to="41v">41</locus> (<dimensions unit="mm" type="slip"><height>33</height><width>90</width></dimensions>).</item>
                             <item>Tvö auð <locus from="addMat05r" facs="#KBAdd04-0030-I-is" to="addMat06v">blöð</locus> fyrir framan handritið sjálft, safnmark á fremra blaði.</item>
                       </list>  </accMat>
                     </physDesc>
