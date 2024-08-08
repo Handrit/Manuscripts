@@ -28,6 +28,8 @@
                         <msItem n="1" defective="false" class="althing stjorns">
                             <locus from="1r" facs="#KBAdd04-0036-0001r" to="174v">1r-174v</locus>
                             <title type="supplied">Alþingisbók 1631-1660</title>
+                            <rubric>Anno 1631. Hér eftir fylgja kopíur eftir Alþingisbók Íslendinga frá því er almennilegur landskrifari var fyrst til settur og samþyktur - in Nomine Domini</rubric>
+                            <incipit>Anno 1631 á almennilegu Öxarárþingi var samþykt af velvirðugum  <name type="person" key="HolRos002">Holger Rosenkrantez ...</name></incipit>
                             <note>Afrit eða útdráttur.</note>
                         </msItem>
                     </msContents>
@@ -35,26 +37,45 @@
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent>174 blöð (<dimensions unit="mm" type="leaf" scope="all"><height>194</height><width>150</width></dimensions>). Bl. <locus from="96v" facs="#KBAdd04-0036-0096v" to="96v">96v</locus> og <locus from="103v" facs="#KBAdd04-0036-0103v" to="103v">103v</locus> eru auð.</extent>
-                                <foliation>Blaðmerkt 1-174 með blýanti á efri spássíu.</foliation>
+                                <extent>ii + 174 + i blað (<dimensions unit="mm" type="leaf" scope="all"><height>194</height><width>147-150</width></dimensions>). Bl. <locus from="103v" facs="#KBAdd04-0036-0103v" to="103v">103v</locus> er autt, .</extent>
+                                <foliation>Blaðmerkt 1-174 með blýanti á efri spássíu, síðari tíma viðbót.</foliation>
                                 <collation>
                                     <p/>
                                 </collation>
+                                <condition>
+                                    <list>
+                                        <item>Bl. <locus from="1r" facs="#KBAdd04-0036-0001r" to="1v">1</locus> var illa farið, hefur verið illa farið, </item>
+                                        <item>Blettótt.</item>
+                                    </list>
+                                </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1">
-                                    <p/></layout>
+                                <layout columns="1" writtenLines="16 29">
+                                    <list>
+                                        <item>Eindálka.</item>
+                                        <item>Leturflötur er ca <dimensions><height>158-170</height><width>117-128</width></dimensions>.</item>
+                                        <item>Línufjöldi er ca 16-29.</item>
+                                        <item>Leturflötur afmarkaður með þurroddi.</item>
+                                        <item>Kaflatal á spássíum.</item>
+                                        <item><catchwords>Griporð</catchwords> pennaflúruð.</item>
+                                        <item>Síðustu orð á síðu hanga á stöku stað undir leturfleti.</item>
+                                    </list></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
                             <summary>Ýmsar hendur</summary>
                             <handNote scope="sole" script="unknown" scribe="unknown"> </handNote>
                         </handDesc>
-                   
+                   <decoDesc>
+                       <decoNote type="frieze" subtype="tail-piece">Ígildi bókahnúts, bl. <locus from="1r" facs="#KBAdd04-0036-0001r" to="1r">1r</locus> og <locus from="6v" facs="#KBAdd04-0036-0006v" to="6v">6v</locus>.</decoNote>
+                   </decoDesc>
                         <bindingDesc>
-                            <binding>
-                                <p/>
-                            </binding>
+                            <binding contemporary="false">
+                                <p>Band (<dimensions type="binding" unit="mm">
+                                    <height>197</height>
+                                    <width>160</width>
+                                    <depth>36</depth></dimensions>). <material>Pappaspjöld klædd pappír með bláu marmaramynstri. Leður á kili og hornum. </material> Safnmarksmiði framan á kápu og annar innan á fremra spjaldi. Saurblöð eru ný.</p></binding>
+                            
                         </bindingDesc>
                         <accMat>
                             <p/>
@@ -74,7 +95,7 @@
                         <adminInfo>
                             <recordHist>
                                 <source><list>
-                                    <item>Handritið er óskráð stafrænt.</item>
+                                    <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-08-08">8. ágúst 2024</date>.</item>
                                     <item>Skráning <name type="person" key="KriKaa001">Kristian
                                             Kålunds</name> á handritinu er aðgengileg á <bibl>
                                             <ref target="KatKB">Katalog over de oldnorsk-islandske
@@ -87,7 +108,8 @@
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
-                      
+                        <surrogates><p>Svart-hvítar ljósmyndir á <ref target="https://gefin.ku.dk/q?p=ds/hjem/mapper/36399">NorS Sprogsamlinger</ref> frá <date when="1995">1995</date>.</p></surrogates>
+                        
                     </additional>
 
                 </msDesc>
