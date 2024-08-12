@@ -24,9 +24,12 @@
                     </msIdentifier>
 
                     <msContents xml:lang="is">
-                        <textLang mainLang="is">Íslenska</textLang>
-                        <msItem>
+                        <textLang mainLang="is" otherLangs="da">Íslenska</textLang>
+                        <msItem n="1" defective="false">
+                            <locus from="1r" facs="#KBAdd04-0452-0001r" to="9v">1r-9v</locus>
+                            <author key="PalJon005">Páll Vídalín</author>
                             <title type="supplied">De Prioritate Dotis apud Islandos</title>
+                            <note>Skýrsla skrifuð af Páli Vídalín árið 1721, þýdd á dönsku 1757 að viðbættu <quote>Notula Translatoris</quote> á dönsku.</note>
                         </msItem>
 
                     </msContents>
@@ -34,7 +37,7 @@
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent> </extent>
+                                <extent>9 blöð (<dimensions unit="mm" type="leaf" scope="all"><height>208</height><width>165</width></dimensions>). Blað <locus from="9v" facs="#KBAdd04-0452-0009v" to="9v">9v</locus> er autt. </extent>
                                 <foliation/>
                                 <collation>
                                     <p/>
@@ -42,53 +45,58 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1">
-                                    <p/></layout>
+                                    <list>
+                                        <item>Eindálka.</item>
+                                        <item>Leturflötur er <dimensions unit="mm" type="written"><height></height><width></width></dimensions>.</item>
+                                        <item>Línufjöldi er .</item>
+                                    </list></layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote scope="sole" script="unknown" scribe="unknown"> </handNote>
+                            <handNote scope="sole" script="unknown" scribe="JonMar002">Með hendi <name type="person" key="JonMar002">Jóns Marteinssonar</name> </handNote>
                         </handDesc>
-                        <decoDesc>
-                            <decoNote/>
-                        </decoDesc>
+                       
                         <bindingDesc>
-                            <binding>
-                                <p/>
-                            </binding>
+                            <binding contemporary="false" notBefore="1890" notAfter="1910">
+                                <p>Band frá 19. öld (<dimensions type="binding" unit="mm">
+                                    <height></height>
+                                    <width></width>
+                                    <depth></depth></dimensions>). <material>Pappaspjöld klædd pappír með bláu marmaramynstri. Leður á kili og hornum. </material> <!-- Safnmarksmiði framan á kápu og annar innan á fremra spjaldi. Saumað í kápu. -->Saurblöð eru ný.</p></binding>
+                            
                         </bindingDesc>
                         <accMat>
                             <p/>
+                            
                         </accMat>
                     </physDesc>
 
                     <history>
-                        <origin>
-                            <p/></origin>
+                        <origin notBefore="1700" notAfter="1799" cert="high">
+                            <p>Handritið er tímasett til <origDate notBefore="1700" notAfter="1799" cert="high">18. aldar</origDate> í <bibl><ref target="KatKB">Katalog over de oldnorsk-islandske
+                                Håndskrifter</ref></bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/520">447</ref>.</p>
+                        </origin>
                         <provenance/>
-                        <acquisition/>
+                        <acquisition>Stofnun Árna Magnússonar á Íslandi tók við handritinu 9. apríl 1997.</acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>
-                                    <p>Handritið er óskráð stafrænt.</p>
-                                    <p>Skráning <name type="person" key="KriKaa001">Kristian
-                                            Kålunds</name> á handritinu er aðgengileg á <bibl>
+                                <source><list>
+                                    <item>Handritið er óskráð stafrænt.</item>
+                                    <item>Skráning <name type="person" key="KriKaa001">Kristian
+                                        Kålunds</name> á handritinu er aðgengileg á <bibl>
                                             <ref target="KatKB">Katalog over de oldnorsk-islandske
-                                                Håndskrifter i Det store kongelige Bibliotek og i
-                                                Universitetsbiblioteket</ref>
-                                        </bibl>, bls. 447.</p>
-                                </source>
+                                                Håndskrifter</ref></bibl>, bls. <ref target="https://baekur.is/bok/476c9523-7c85-4b44-b128-d0ae22f11a99/0/520">447 (nr. 92)</ref></item>
+                                </list></source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent type="conservation">
-                                    <p/>
+                                <custEvent type="conservation" notBefore="1995-04-19" notAfter="1995-08-01">
+                                    <p><name type="person" key="MorGro001">Morten Grønbech</name> gerði við handritið í apríl til ágúst 1995. Handritið er í gömlu bandi, skipt hefur verið um saurblöð og handritið er í öskju. Nákvæm lýsing á ljósmyndun og viðgerð fylgdi með.</p>
                                 </custEvent>
                             </custodialHist>
                         </adminInfo>
-                        <listBibl>
-                            <bibl><ref/></bibl>
-                        </listBibl>
+                        <surrogates><p>Svart-hvítar ljósmyndir á <ref target="https://gefin.ku.dk/q?p=ds/hjem/mapper/36449">NorS Sprogsamlinger</ref> frá <date when="1995">1995</date>.</p></surrogates>
+                        
                     </additional>
 
                 </msDesc>
