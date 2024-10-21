@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -19,21 +20,35 @@
                         <collection key="Acc">Safn Árna Magnússonar</collection>
                         <idno>Acc. 18</idno>
                         <altIdentifier type="internal" subtype="KKKat">
-                            <idno/>
+                            <idno>2841</idno>
                         </altIdentifier>
                     </msIdentifier>
                     <msContents>
-                        
+                        <textLang mainLang="is" otherLangs="da la nl"/>
+                        <msItem n="1" defective="false">
+                            <locus from="1r" to="114v">Bl. 1r-114v</locus>
+                            <author key="SnoStu001">Snorri Sturluson</author>
+                            <title type="uniform">Edda</title>
+                            <title type="parallel">Snorra Edda</title>
+                            <note>Uppskrift <name type="person" key="FinJon002">Finns Jónssonar</name> prófessors frá <date when="1898">1898</date>eftir <ref target="Utrecht 1374">Trektarbók</ref> Snorra-Eddu (Codex Trajectinus). Sjá nánar hjá <bibl>Faulkes, A. 1985, <ref target="AntFau1985b">The Utrectht manuscript of the Prose Edda [Introduction]</ref>, bls. 21-22.</bibl></note>
+                        </msItem>
+                         
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent/>
+                                <extent>ii + 114 + ii blöð (
+                                    <dimensions type="leaf" scope="all" unit="mm">
+                                        <height>218</height>
+                                        <width>176</width>
+                                    </dimensions>).
+                                </extent>
                                 <foliation>
                                     <p>
                                         <list>
-                                            <item/>
+                                            <item>Blaðmerking neðst í hægra horni á rektósíðum: 1-3, 10, 20, 30, ..., 110, 114, 116.</item>
+                                            <item>Blaðsíðumerking 1-224 efst á úthorni síðna. Byrjar á 3r.</item>
                                         </list>
                                     </p>
                                 </foliation>
@@ -43,7 +58,7 @@
                                 </collation>
                                 
                                 <condition>
-                                    <p/>
+                                    <p>Heilt og óskemmt.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -53,19 +68,30 @@
                             </layoutDesc>
                         </objectDesc>
                         <handDesc>
-                            <handNote scribe="unknown" script="unknown" scope="sole"/>
+                            <handNote scribe="FinJon002" script="unknown" scope="sole"><name type="person" key="FinJon002">Finnur Jónsson</name> prófessor skrifaði.</handNote>
                             
                         </handDesc>
                         <additions>
                             <p/>
                         </additions>
                         <bindingDesc>
-                            <binding contemporary="false"><p>
-                            </p>
+                            <binding contemporary="true">
+                                <p>Bundið í pappaspjöld með skinni á kilinum. Kjölur þrykktur með gyllingu.
+                                </p>
                             </binding>
-                        </bindingDesc>
+                         </bindingDesc>
                         <accMat>
-                            <p/>
+                            <p>
+                                <list>
+                                    <item>Með handritinu er laust hefti í pappaspjöldum. Þar eru bundin 6 blöð með lýsingu <name key="JonSig004">Jóns Sigurðssonar</name> á Trektarbók. Einnig límdur seðill með uppskrift af bréfi Chr. Ravius um Trektarbók.</item> 
+                                    <item>Með handritinu liggur laus vélritaður seðill frá Mette Jacobsen.</item>
+                                    <item xml:lang="nl">Milli saurblaða fremst í handritinu eru bundin fjögur prentuð blöð með umfjöllun um Trektarbók eftir C. L. Schüller tot Peursum á hollensku.</item>
+                                    <item xml:lang="da">
+                                        Næst á undan uppskriftinni er bréf <name type="person" key="FinJon002">Finns Jónssonar</name> þar sem hann gefur hana Árnasafni.</item>
+                                    <item>Fyrir aftan uppskriftina er ljósprentuð mynd af bl. 1r í Trektarbók.</item>
+                                    <item xml:lang="la">Á næstaftasta saurblaði er uppskrift af bréfi Chr. Ravius sem gaf Trektarbók bókasafninu í Utrecht.</item>
+                                </list> 
+                            </p>
                         </accMat>
                     </physDesc>
                     <history>
@@ -75,20 +101,19 @@
                         <provenance>
                             <p/>
                         </provenance>
-                        <acquisition>
-                            <p/>
+                        <acquisition when="1989-12-22">
+                            <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 22. desember 1989.</p>
                         </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Handritið er óskráð stafrænt.</p>
+                                    <p><name type="person" key="KarOla002">Karl Ó. Ólafsson</name> skráði <date when="2024-10-21">21. október 2024</date>.</p>
                                    
                                 </source>
                             </recordHist>
-                            <custodialHist>
-                                <custEvent type="conservation"/>
+                            <custodialHist><p>Yfirfarið í <date when="1989-10">desember 1989</date> af <name type="person" key="MetJak001">Mette Jacobsen</name>.</p>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
@@ -100,7 +125,7 @@
                             </p>
                         </surrogates>
                         <listBibl>
-                            <bibl>Faulkes, A. 1985, <ref target="AntFau1985b">The Utrectht manuscript of the Prose Edda [Introduction]</ref></bibl>
+                            <bibl>Faulkes, A. 1985, <ref target="AntFau1985b">The Utrecht manuscript of the Prose Edda [Introduction]</ref></bibl>
                         </listBibl>
                     </additional>
                 </msDesc>
