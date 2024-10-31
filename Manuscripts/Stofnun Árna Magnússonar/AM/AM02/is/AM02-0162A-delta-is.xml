@@ -71,23 +71,33 @@
                   <objectDesc form="codex">
                      <supportDesc material="perg">
                         <support>Skinn</support>
-                        <extent>8 blöð, misstór (<dimensions unit="mm" type="leaf" scope="all">
-                              <height>223</height>
-                              <width>150</width>
+                        <extent>8 blöð, misstór (<dimensions unit="mm" type="leaf">
+                              <height scope="range">210-223</height>
+                              <width>120-150</width>
                            </dimensions>).</extent>
                         <foliation>
-                           <p/>
+                           <p>Blað merkt fol. 1-8, á efri spássíu, síðari tíma viðbót.</p>
                         </foliation>
                         <collation>
-                           <p/>
+                           <p>Eitt kver, 4 tvinn, laus.</p>
                         </collation>
-                        <condition>
-                           <p>Bl. 1 hefur skaddast nokkuð við afskurð.</p>
-                        </condition>
+                        <condition><list>
+                           <item>Blöð eru laus, sum mörg dökk og óreglulega að lögun.</item>
+                           <item>Bl. <locus from="1r" facs="#AM02-0162A-delta-0001r" to="1r">1</locus> hefur skaddast nokkuð við afskurð.</item>
+                           <item>Blek hefur dofnað, sjá t.d. bl. <locus from="1r" facs="#AM02-0162A-delta-0001r" to="1r">1r</locus>, <locus from="5r" facs="#AM02-0162A-delta-0005r" to="5r">5r</locus> og <locus from="8r" facs="#AM02-0162A-delta-0008r" to="8v">8r-v</locus>.</item>
+                           <item>Göt sem myndast hafa við verkun.</item>
+                           <item>Blettótt.</item>
+                       </list> </condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="1">
-                           <p/>
+                        <layout columns="1" writtenLines="35">
+                           <list>
+                              <item>Eindálka.</item>
+                              <item>Leturflötur er ca <dimensions unit="mm" type="written"><height>173-180</height><width>110-120</width></dimensions>.</item>
+                              <item>Línufjöldi er 35.</item>
+                              <item>Stafir dregnir út úr leturfleti, sjá t.d. <locus from="2r" facs="#AM02-0162A-delta-0002r" to="2v">2r-v</locus>.</item>
+                              <item>Línunúmer á bl. <locus from="2v" facs="#AM02-0162A-delta-0002v" to="2v">2v</locus>, síðari tíma viðbót.</item>
+                           </list>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -109,8 +119,8 @@
                      <p>
                         <list>
 
-                           <item n="1">Á neðri spássíu 7v hefur nafnið <name type="person">Magnús
-                                 Gunnlaugsson</name> verið ritað með sextándu aldar hendi.</item>
+                           <item n="1">Á neðri spássíu 7v hefur nafnið <quote><name type="person">Magnús
+                                 Gunnlaugsson</name></quote> verið ritað með sextándu aldar hendi.</item>
 
                            <item n="2">
                               <name key="GudVig001" type="person">Guðbrandur Vigfússon</name> hefur
@@ -142,14 +152,14 @@
 
                <history>
 
-                  <origin notBefore="1290" notAfter="1310">
+                  <origin notBefore="1290" notAfter="1310" cert="high">
                      <p>Blöðin eru tímasett um <origDate notBefore="1290" notAfter="1310" cert="high">1300</origDate> í <bibl>
                            <ref target="KKKat">Katalog I</ref></bibl>, bls. <ref target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/1/130">115</ref> (sjá einnig <bibl>
                            <ref xml:id="ONPregistre" target="ONPregistre">ONPregistre</ref></bibl>, bls. 434).</p>
                   </origin>
 
                   <provenance>
-                     <p>Bl. 1 fékk <name key="ArnMag001" type="person">Árni Magnússon</name> <date when="1716">1716</date> frá <name type="person">Þorsteini
+                     <p>Bl. <locus from="1r" facs="#AM02-0162A-delta-0001r" to="1r">1</locus> fékk <name key="ArnMag001" type="person">Árni Magnússon</name> <date when="1716">1716</date> frá <name type="person">Þorsteini
                            Sigurðssyni</name>, sem hafði fengið það að norðan og flutt til
                         Kaupmannahafnar <date when="1715">1715</date>.</p>
                   </provenance>
@@ -167,11 +177,13 @@
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <list><item>Tekið eftir <bibl>
-                                 <ref target="KKKat">Katalog I</ref></bibl>, bls. <ref target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/1/130">114-17 (nr. 198)</ref>. <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar í <date when="1885-12">desember 1885</date>.</item>
+                           <list>
+                              <item><name type="person" key="MarGis003">MJG</name> skráði samkvæmt TEI P5 reglum <date when="2024-10-21">21. október 2024</date>.</item>
+                       
                               <item><name key="HarBer001" type="person">Haraldur Bernharðsson</name> tölvuskráði í <date when="2001-02">febrúar 2001</date>.</item>
-                              <item>Yfirfarið af <name type="person" key="MarGis003">MJG</name> <date when="2024-09-21">21. október 2024</date>.</item> </list>
-                        </source>
+                              <item>Tekið eftir <bibl>
+                                 <ref target="KKKat">Katalog I</ref></bibl>, bls. <ref target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/1/130">114-17 (nr. 198)</ref>. <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar í <date when="1885-12">desember 1885</date>.</item>
+                              </list> </source>
 
                      </recordHist>
 
