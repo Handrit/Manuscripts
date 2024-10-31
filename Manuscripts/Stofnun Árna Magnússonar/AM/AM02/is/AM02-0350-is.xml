@@ -145,25 +145,31 @@
                   <objectDesc form="codex">
                      <supportDesc material="chart">
                         <support>Skinn.</support>
-                        <extent>157 blöð. Bl. <locus from="157r" facs="#AM02-0350-0157r" to="157r">157r</locus> er
+                        <extent>v + 157 + iv blöð (ca <dimensions unit="mm" type="leaf"><height>362</height><width>267</width></dimensions> ). Bl. <locus from="157r" facs="#AM02-0350-0157r" to="157r">157r</locus> er
                         autt.</extent>
+                     	<collation>
+                     		<p>Tuttugu kver, og eru átta blöð (fjögur tvinn) í öllum nema tveimur: átjánda kveri sem í eru sjö blöð og því tuttugasta sem í eru sex blöð.</p>
+                     		<!-- Kveraskipting kemur frá https://arnastofnun.is/is/greinar/skardsbok-jonsbokar-am-350-fol -->
+                     	</collation>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="2">
+                        <layout columns="2" writtenLines="28">
                            <p>
                               <list>
                                  <item>Tvídálka.</item>
+                              	<item>Leturflötur er <dimensions type="written" scope="all"> <height></height><width></width></dimensions>.</item>
+                              	<item>Línufjöldi er 28.</item>
                                  <item>Texti á bl. <locus from="151r" facs="#AM02-0350-0151r" to="151v">151r-151v</locus>
                                     skrifaður í löngum línum þvert yfir síðuna.</item>
-                                 <!-- <dimensions type="written" scope="all"> <height></height><width></width></dimensions> -->
+                              
                               </list>
                            </p>
                         </layout>
                      </layoutDesc>
 
                   </objectDesc>
-                  <handDesc>
-                     <p/>
+                  <handDesc hands="1">
+                     <handNote scribe="unknown" script="textualis">Óþekktur skrifari, textaskrift.</handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="initial" subtype="historiated">
@@ -186,20 +192,16 @@
                      <p>Viðbætur við texta:<list>
                            <item>Bl. <locus from="18r" facs="#AM02-0350-0018r" to="23v">18-23</locus> innskotsblöð tímasett
                               til <date from="1500" to="1550">ca 1500-1550</date> (sbr. <bibl>
-                                 <ref target="ONPregistre">ONPRegistre</ref>
-                              </bibl>, bls. 442), bætt við í staðinn fyrir blöð sem hafa glatast.</item>
+                                 <ref target="ONPregistre">ONPRegistre</ref></bibl>, bls. 442), bætt við í staðinn fyrir blöð sem hafa glatast.</item>
                            <item>Bl. <locus from="152r" facs="#AM02-0350-0152r" to="156v">152-156</locus> innskotsblöð (eitt
                               kver) tímasett til c1500-1525 (sbr. <bibl>
-                                 <ref target="ONPregistre">ONPRegistre</ref>
-                              </bibl>, bls. 442).</item>
+                                 <ref target="ONPregistre">ONPRegistre</ref></bibl>, bls. 442).</item>
                            <item>Innri dálkur á bl. <locus from="150v" facs="#AM02-0350-0150v" to="150v">150v</locus> og bl.
                                  <locus from="151r" facs="#AM02-0350-0151r" to="151v">151r-v</locus>, sem upprunalega var
                               autt, skrifað <date from="1490" to="1510">ca 1500</date> (sbr. <bibl>
-                                 <ref target="ONPregistre">ONPRegistre</ref>
-                              </bibl>, bls. 442).</item>
+                                 <ref target="ONPregistre">ONPRegistre</ref></bibl>, bls. 442).</item>
                            <item>Formáli skrifaður <date from="1490" to="1510">ca 1500</date> (sbr. <bibl>
-                                 <ref target="KKKat">Katalog I</ref>
-                              </bibl>, bls. 285) fyrir miðju á bl. <locus from="157v" facs="#AM02-0350-0157v" to="157v">157v</locus>, sem annars er autt.</item>
+                           	<ref target="KKKat">Katalog I</ref></bibl>, bls. <ref target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/1/300">285</ref>) fyrir miðju á bl. <locus from="157v" facs="#AM02-0350-0157v" to="157v">157v</locus>, sem annars er autt.</item>
                         </list>
                      </p>
                      <p>Aðrar viðbætur:<list>
@@ -233,17 +235,16 @@
                <history>
                   <origin notBefore="1363" notAfter="1363" evidence="internal">
                      <p>Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace>. Meginhluti
-                        þess var skrifaður <origDate when="1363">ca 1363</origDate>, skv. áritun á bl.
+                        þess var skrifaður <origDate when="1363" cert="high">ca 1363</origDate>, skv. áritun á bl.
                            <locus from="149r" facs="#AM02-0350-0149r" to="149r">149r</locus>, en viðbætur eru tímasettar til
                         ca 1500 og fyrri hluta 16. aldar (sbr. <bibl>
-                           <ref target="ONPregistre">ONPRegistre</ref>
-                        </bibl>, bls. 442).</p>
+                           <ref target="ONPregistre">ONPRegistre</ref></bibl>, bls. 442).</p>
                   </origin>
                   <provenance>
                      <p>
                         <name key="BjoMag003" type="person">Björn Magnússon</name> á <name type="place">Bæ á Rauðasandi</name> átti handritið árið <date when="1594">1594</date> og ánafnaði þá bróður sínum (sbr. bl. <locus from="1r" facs="#AM02-0350-0001r" to="1r">1r</locus>). Björn fékk handritið frá móðurföður sínum, <name key="EggHan001" type="person">Eggerti Hannessyni</name> lögmanni,
                         samkvæmt því sem <name key="ArnMag001" type="person">Árni Magnússon</name>
-                        segir standa með gylltum stöfum utan á gömlu bandi (sbr. <ref xml:id="AM04-0435a">AM 435 a 4to</ref>, bl. 176v-178r). Árni nefndi
+                        segir standa með gylltum stöfum utan á gömlu bandi (sbr. <ref type="ms" target="AM04-043-5a">AM 435 a 4to</ref>, bl. 176v-178r). Árni nefndi
                         handritið Skarðsbók eftir syni Björns, <name key="EggBjo001" type="person">Eggerti</name> á <name type="place">Skarði</name>. Árið <date from="1697" to="1698">1697 eða 1698</date> fékk Árni handritið frá <name type="person">Þórði Jónssyni</name> í Kaupmannahöfn, en hann hafði fengið
                         það frá <name key="ThoTho016" type="person">Þorsteini Þórðarsyni</name>,
                         móðurbróður sínum.</p>
@@ -273,8 +274,7 @@
                                     <name type="person" key="KriKaa001">Kålund</name> gekk frá
                                     handritinu til skráningar í <date when="1886-01">janúar
                                     1886</date>. <bibl>
-                                       <ref target="KKKat">Katalog I</ref>
-                                    </bibl>, bls. 284-285 (508).</item>
+                                       <ref target="KKKat">Katalog I</ref></bibl>, bls. <ref target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/1/300">284-285 (508)</ref>.</item>
                               </list>
                            </p>
                         </source>
@@ -290,7 +290,7 @@
                   <surrogates>
                      <p>
                         <list>
-                           <item>Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í
+                        	<item>Svart-hvítar ljósmyndir á <ref target="https://sprogsamlinger.ku.dk/q.php?p=ds/hjem/mapper/28487">Sprogsamlinger</ref> í
                               Kaupmannahöfn.</item>
                            <item>Ljósprent í <bibl>
                                  <ref>Corpus Codicum Islandicorum Medii Aevi XVI</ref>
