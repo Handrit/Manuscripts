@@ -40,8 +40,8 @@
                         <objectDesc form="codex">
                             <supportDesc material="chart">
                                 <support>Pappír.</support>
-                                <extent>93 blöð <dimensions type="leaf" scope="all">
-                                    <height/>
+                                <extent>i + 93 + i blöð <dimensions unit="mm" type="leaf" scope="all">
+                                    <height>97</height>
                                     <width/>
                                 </dimensions>
                                 </extent>
@@ -91,14 +91,14 @@
                         <accMat>
                             <p>Smáseðill hálfur með hendi <name type="person" key="ArnMag001">Árna Magnússonar</name> frá <date>um
                                 1720</date>, prentaður í Katalog og bætir Kålund því
-                                sem er innan klofa: <q>Frá systur [minni Hall]<lb/> dóru
+                                sem er innan klofa: <quote>Frá systur [minni Hall]<lb/> dóru
                                     Ketils[dottur] <lb/> og segir hún [að ég] <lb/>
                                     megi eiga það [ef] <lb/> ég vilji. <lb/> Er ekki
-                                    merkil[egt].</q>
+                                    merkil[egt].</quote>
                                 <note> Aftan á er texti með svipaðri hendi Árna en
-                                    strikað niður við miðju, ekki í Katalog: <q> ... einhvern tímann <lb/> ... skrifa ættartölubók systur
+                                    strikað niður við miðju, ekki í Katalog: <quote> ... einhvern tímann <lb/> ... skrifa ættartölubók systur
                                         minnar Halldóru Ketilsdóttur<lb/> ... og lána
-                                        hana.</q>
+                                        hana.</quote>
                                 </note>
                             </p>
                         </accMat>
@@ -115,8 +115,7 @@
                         </provenance>
                         
                         <acquisition>
-                            <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu
-                                .</p>
+                            <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu.</p>
                         </acquisition>
                         
                     </history>
@@ -126,13 +125,16 @@
                         <adminInfo>
                             
                             <recordHist>
-                                <source>
-                                    <p>Tekið eftir <ref target="KKKat">Katalog II</ref>
-                                        bls. 485 (nr. 2523). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu
-                                        til skráningar ?. október 189?. NN tölvuskráði
-                                        <date>??</date>. <name key="MarJon001" type="person">Már Jónsson</name> annaðist hlut
-                                        Árna Magnússonar <date>13. mars 2000</date>.</p>
-                                </source>
+                                <source><list>
+                                    <item><name type="person" key="MarGis003">MJG</name> bætti við og jók við skráningu samkvæmt TEI P5 reglum <date when="2024-11-05">5. nóvember 2024</date>.</item>
+                                    <item><name key="MarJon001" type="person">Már Jónsson</name> annaðist hlut
+                                        Árna Magnússonar <date>13. mars 2000</date>.</item>
+                                    <item>NN tölvuskráði
+                                        <date>??</date>. </item>
+                                    <item>Tekið eftir <bibl><ref target="KKKat">Katalog II</ref></bibl>, 
+                                        bls. <ref target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/2/518">485 (nr. 2523)</ref>. <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu
+                                        til skráningar ?. október 189?. </item>
+                               </list> </source>
                             </recordHist>
                             
                         </adminInfo>
