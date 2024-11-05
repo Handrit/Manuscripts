@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -46,13 +47,14 @@
                                     </p>
                                 </foliation>
                                 <collation>
-                                    <p/>
+                                    <p>Eitt stakt blað.</p>
                                     <note/>
                                 </collation>
                                 
-                                <condition>
-                                    <p>Brot.</p>
-                                </condition>
+                                <condition><list>
+                                    <item>Brot.</item>
+                                    <item>Blettir.</item>
+                              </list>  </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1">
@@ -69,17 +71,17 @@
                             <p/>
                         </additions>
                         <bindingDesc>
-                            <binding contemporary="false"><p/>
+                            <binding contemporary="false"><p>Liggur laust í pappakápu (<dimensions unit="mm" type="binding"><height>348</height><width>278</width></dimensions>). Safnmarksmiði framan á kápu og innan á fremra spjaldi.</p>
                             </binding>
                         </bindingDesc>
                         <accMat>
-                            <p>Á seðli <name type="person" key="ArnMag001">Árna Magnússonar</name> er uppskrift hans á íslenska textanum um uppruna handritsins.</p>
-                            <p>Á öðrum seðli Árna Magnússonar eru upplýsingar um feril: <q>Þetta pergamentsblað eignaðist ég A.M. annó <date when="1715">1715</date> í <placeName>Kaupmannahöfn</placeName> af  <name type="person" key="ThoSig004">Þorsteini Sigurðssyni</name>, sýslumanni í <placeName>Múlasýslu</placeName>. Hann hafði það fengið hjá almúgabónda einum í <placeName>Eyjafirði</placeName>, og hafði sá ekkert meira af bókinni en þetta einstaka blað. Sagðist sá og ekki muna rétt af hverjum það fengið hefði. Hefði svo til sín flækst frá einhverjum öðrum. Er óefað komið í fyrstu frá <placeName>Munkaþverá</placeName> og mun bókin sjálf eyðilögð vera</q>.</p>
+                            <p>Á <locus from="accMat01r" facs="#AM08-0080b-accMat01r" to="accMat01r">seðli</locus> <name type="person" key="ArnMag001">Árna Magnússonar</name> er uppskrift hans á íslenska textanum um uppruna handritsins.</p>
+                            <p>Á öðrum <locus from="accMat02r" facs="#AM08-0080b-accMat02r" to="accMat02r">seðli</locus> Árna Magnússonar eru upplýsingar um feril: <q>Þetta pergamentsblað eignaðist ég A.M. annó <date when="1715">1715</date> í <placeName>Kaupmannahöfn</placeName> af  <name type="person" key="ThoSig004">Þorsteini Sigurðssyni</name>, sýslumanni í <placeName>Múlasýslu</placeName>. Hann hafði það fengið hjá almúgabónda einum í <placeName>Eyjafirði</placeName>, og hafði sá ekkert meira af bókinni en þetta einstaka blað. Sagðist sá og ekki muna rétt af hverjum það fengið hefði. Hefði svo til sín flækst frá einhverjum öðrum. Er óefað komið í fyrstu frá <placeName>Munkaþverá</placeName> og mun bókin sjálf eyðilögð vera</q>.</p>
                         </accMat>
                     </physDesc>
                     <history>
                         <origin when="1473">
-                            <p>Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace> 1473.</p>
+                            <p>Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace> <origDate when="1473" cert="high">1473</origDate>.</p>
                             <p>Á blaðinu stendur á íslensku að handritið hafi verið gert fyrir jómfrú <name type="person">Maríu</name> á <placeName>Munkaþverá.</placeName></p>
                         </origin>
                         <provenance>
@@ -92,14 +94,14 @@
                     <additional>
                         <adminInfo>
                             <recordHist>
-                                <source>
-                                    <p><name type="person" key="GudIng001">GI</name> skráði <date when="2012-06-19">19. júní 2012.</date></p>
-                                    <p>Skráning <name type="person" key="KriKaa001">Kristian Kålunds</name> á
+                                <source><list>
+                                    <item>Yfirfarið af <name type="person" key="MarGis003">MJG</name> <date when="2024-11-05">5. nóvember 2024</date>.</item>
+                                    <item><name type="person" key="GudIng001">GI</name> skráði <date when="2012-06-19">19. júní 2012.</date></item>
+                                    <item>Skráning <name type="person" key="KriKaa001">Kristian Kålunds</name> á
                                         handritinu er aðgengileg á <bibl>
                                             <ref target="KKKat">Katalog over den Arnamagnæanske
-                                                håndskriftsamling</ref>
-                                        </bibl>, II. bindi, bls. 382-383.</p>
-                                </source>
+                                                håndskriftsamling</ref></bibl>, II. bindi, bls. <ref target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/2/416">382-383, (nr. 2283)</ref>.</item>
+                              </list>  </source>
                             </recordHist>
                             <custodialHist>
                                 <custEvent type="conservation"><name type="person" key="BirDal001">Birgitte Dall</name> gerði við blaðið <date notBefore="1971" notAfter="1972">1971-1972</date>.</custEvent>
