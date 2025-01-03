@@ -22,14 +22,20 @@
                      <idno>509</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
+            	
+              
+               <!-- Sjá annars …(?) um uppskriftir (AM 352 fol., AM 355 a fol., AM 184 4to). MJ -->
+            		<msContents class="log klog"> 
+            			
+            			<summary>
                   <title type="supplied">Lögbók</title>
                   <origPlace>Ísland</origPlace>
-                  <origDate notBefore="1360" notAfter="1400" evidence="external">c1360-1400</origDate>
-                  <!--<lang>Íslenska</lang>--><note>
-                     <name key="ArnMag001" type="person">Árni Magnússon</name> nefnir þetta handrit: <q>Skal holltz bokin folio, su elldri og betre</q> (sbr. <ref xml:id="AM04-0435a">AM 435 a 4to</ref>, bl. 174 (útg. bls. 56)).</note>
-               </head>
-               <!-- Sjá annars …(?) um uppskriftir (AM 352 fol., AM 355 a fol., AM 184 4to). MJ --><msContents class="log klog">
+                  <origDate notBefore="1360" notAfter="1400" evidence="external" cert="high">c1360-1400</origDate>
+                  
+            				<note>
+                     <name key="ArnMag001" type="person">Árni Magnússon</name> nefnir þetta handrit: <quote>Skal holltz bokin folio, su elldri og betre</quote> (sbr. <ref type="ms" xml:id="AM04-0435a">AM 435 a 4to</ref>, bl. 174 (útg. bls. 56)).</note>
+               </summary>
+            			<textLang mainLang="is">Íslenska</textLang>
                   <msItem n="1">
                      <locus from="1r" facs="#AM02-0351-0001r" to="64r">1r-64r</locus>
                      <title type="uniform">Jónsbók</title>
@@ -91,12 +97,12 @@
                   <objectDesc form="codex">
                      <supportDesc material="perg">
                         <support>Skinn</support>
-                        <extent>133 blöð (<dimensions type="leaf" unit="mm" scope="all">
+                        <extent>ii + 133 + ii blöð (<dimensions type="leaf" unit="mm" scope="all">
                               <height>280</height>
                               <width>198</width>
                            </dimensions>).</extent>
                         <foliation>
-                           <p/>
+                           <p>Blaðmerkt með rauðu bleki, 1-133.</p>
                         </foliation>
                         <collation>
                            <p/>
@@ -129,12 +135,24 @@
                      <p>Ýmsar viðbætur á spássíum, t.d. málsgreinar úr réttarbótum með gamalli hendi á fremstu blöðunum.</p>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="unknown">
-                        <p><!-- <dimensions type="binding"> <height></height><width></width><depth></depth></dimensions> --></p>
-                     </binding>
+                  	<binding contemporary="unknown">
+                  		<p>Band (<dimensions unit="mm"
+                  				type="binding">
+                  				<height></height>
+                  				<width></width>
+                  				<depth></depth>
+                  			</dimensions>): <locus from="0000r-FB" facs="#AM02-351-0000r-FB" to="0000r-FB">Tréspjöld</locus> klædd skinni, blindþrykktu, með tveimur spennum. Kjölur og jaðrar
+                  			klæddir skinni, kjölur upphleyptur.</p>
+                  	<condition><p>Safnmarksmiði á kili og innan á fremra <locus from="0000v-FB" facs="#AM02-0351-0000v-FB" to="0000v-FB">spjaldi</locus>. Þar stendur jafnframt: <quote>133 bl. (+2 AMske sedler) 8/5 86</quote>.</p>
+                  		<p>Með í öskju eru <locus from="accMat02r" facs="#AM02-0351-accMat02r" to="accMat02r">skinnræmur</locus> sem teknar voru í bandinu vegna ljósprentunnar, sjá nánar hjá <bibl>Stefáni Karlssyni 1979, <ref target="SteKar1979b">Skinnræmur úr Skálholtsbók (AM 351 fol)</ref></bibl>, bls. 124-127.</p></condition>	
+                  	
+                  	</binding>
                   </bindingDesc>
                   <accMat>
-                     <p>Tveir seðlar með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name>.</p>
+                     <p>Tveir seðlar með hendi <name key="ArnMag001" type="person">Árna Magnússonar</name>.<list>
+                     	<item><locus from="0000v-FB" facs="#AM02-0351-0000v-FB" to="0000v-FB">Seðill</locus> (<dimensions type="slip" unit="mm"><height></height><width></width></dimensions>) innan á fremra spjaldi sem á stendur:  <quote>Kom frá Ormi Daðasyni 1721.</quote></item>
+                     	<item><locus from="0000v-FFl" facs="#AM02-0351-0001r-FFl" to="0000v-FFl">Seðill</locus> (<dimensions type="slip" unit="mm"><height></height><width></width></dimensions>) </item>
+                     </list></p>
                   </accMat>
                </physDesc>
                <history>
@@ -143,24 +161,26 @@
                            <ref xml:id="ONPregistre" target="ONPregistre">ONPRegistre</ref>
                         </bibl>, bls. 442). Tímasetning í <bibl>
                            <ref target="KKKat">Katalog I</ref>
-                        </bibl>, bls. 285, er síðari hluti 14. aldar.</p>
+                        </bibl>, bls. <ref target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/1/300">285</ref>, er síðari hluti 14. aldar.</p>
                   </origin>
-                  <!-- Ath. í ONPregistre er einnig tiltekið bl. 134 (3 brot) sem er tímasett til c1400-1500. --><provenance>
-                     <p>Í handritaskrá <name key="ArnMag001" type="person">Árna Magnússonar</name> er bókin talin upp meðal annarra í afhendingu <name type="person">Skálholtsstaðar</name> til <name key="ThoTho005" type="person">Þórðar Þorlákssonar</name> biskups árið <date when="1674">1674</date> (sbr. <ref>AM 435 a 4to</ref>, bl. 153r (útg. bls. 48)) og einnig meðal handrita sem <name type="person">Jón Vídalín</name> biskup sendi Árna árið <date when="1699">1699</date> (sbr. <ref>AM 435 a 4to</ref>, bls. 186v (útg. bls. 61)). <name key="OrmDad001" type="person">Ormur Daðason</name> sendi Árna bókina aftur frá Íslandi árið <date when="1721">1721</date> (sbr. seðil).</p>
+                  <!-- Ath. í ONPregistre er einnig tiltekið bl. 134 (3 brot) sem er tímasett til c1400-1500. -->
+               	<provenance>
+                     <p>Í handritaskrá <name key="ArnMag001" type="person">Árna Magnússonar</name> er bókin talin upp meðal annarra í afhendingu <name type="person">Skálholtsstaðar</name> til <name key="ThoTho005" type="person">Þórðar Þorlákssonar</name> biskups árið <date when="1674">1674</date> (sbr. <ref type="ms" target="#AM04-0435-a-da">AM 435 a 4to</ref>, bl. 153r (útg. bls. 48)) og einnig meðal handrita sem <name type="person" key="JonTho016">Jón Vídalín</name> biskup sendi Árna árið <date when="1699">1699</date> (sbr. <ref>AM 435 a 4to</ref>, bls. 186v (útg. bls. 61)). <name key="OrmDad001" type="person">Ormur Daðason</name> sendi Árna bókina aftur frá Íslandi árið <date when="1721">1721</date> (sbr. seðil).</p>
                   </provenance>
-                  <!-- Bókin er skráð í afhendingarskrá Skálholts 1674: <q>1. Lögbók Islendsk (virdt i t&idda;d Mag. Bryniólfs fyrer 1 c) [Er i folio i brúnu bandi med spenlum].</q>
-Í handritaskrá Árna Magnússonar bl. 153, útg. bls. 48, kemur fram að hann fékk bókina senda frá Skálholti árið 1699. Á bl. 174v, en útg. bls. 56 (í skrá yfir handrit að lögum) kallar hann hana: <q>E. [3] e. Skalholltz bokin folio, su elldri og betre.</q> Á bl. 186v, en útg. bls. 61, er hún einnig í skrá Árna til Jóns Vídalíns árið 1699, ásamt öðrum bókum sem biskup sendi honum það haust (sjá bls. 62): <q>6. Bok i folio, inn bundna, þar á Jons bók, Kristin retter, biskupa Statutur og margar Rettarbætur [Innehelldur Jónsbók, Riettarbætur, Kristinnrett nya, Biskupa Statutur, Kristinrett inn forna, Biskupa Statutur, Sáttargiörd Magnuss kóngz og Jóns Erki biskupz, Rettarbætur, Formulas Juridicas].</q> Á seðli í bókinni kemur svo fram að Ormur Daðason sendi hana aftur frá Íslandi árið 1721, þannig að Árni hefur tekið hana með sér til landsins 1702. MJ --><acquisition notBefore="1975-11-14" notAfter="1975-11-14">
+                  <!-- Bókin er skráð í afhendingarskrá Skálholts 1674: <quote>1. Lögbók Islendsk (virdt i t&idda;d Mag. Bryniólfs fyrer 1 c) [Er i folio i brúnu bandi med spenlum].</quote>
+Í handritaskrá Árna Magnússonar bl. 153, útg. bls. 48, kemur fram að hann fékk bókina senda frá Skálholti árið 1699. Á bl. 174v, en útg. bls. 56 (í skrá yfir handrit að lögum) kallar hann hana: <quote>E. [3] e. Skalholltz bokin folio, su elldri og betre.</quote> Á bl. 186v, en útg. bls. 61, er hún einnig í skrá Árna til Jóns Vídalíns árið 1699, ásamt öðrum bókum sem biskup sendi honum það haust (sjá bls. 62): <q>6. Bok i folio, inn bundna, þar á Jons bók, Kristin retter, biskupa Statutur og margar Rettarbætur [Innehelldur Jónsbók, Riettarbætur, Kristinnrett nya, Biskupa Statutur, Kristinrett inn forna, Biskupa Statutur, Sáttargiörd Magnuss kóngz og Jóns Erki biskupz, Rettarbætur, Formulas Juridicas].</q> Á seðli í bókinni kemur svo fram að Ormur Daðason sendi hana aftur frá Íslandi árið 1721, þannig að Árni hefur tekið hana með sér til landsins 1702. MJ --><acquisition notBefore="1975-11-14" notAfter="1975-11-14">
                      <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 14. nóvember 1975.</p>
                   </acquisition>
                </history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                           <p>Tekið eftir <bibl>
-                                 <ref target="KKKat">Katalog I</ref>
-                              </bibl>, bls. 285-286 (nr. 509). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar í <date when="1886-01">janúar 1886</date>. <name key="DriThr001" type="person">DKþ</name> skráði <date when="2002-08-01">1. ágúst 2002</date>.</p>
-                        </source>
+                        <source><list>
+                        	<item><name type="person" key="MarGis003">MJG</name> yfirfór og skráði samkvæmt TEI P5 <date when="2025-01-03">3. janúar 2025</date>.</item>
+                        	<item><name key="DriThr001" type="person">DKþ</name> skráði <date when="2002-08-01">1. ágúst 2002</date>.</item>
+                           <item>Tekið eftir <bibl>
+                                 <ref target="KKKat">Katalog I</ref></bibl>, bls. <ref target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/1/300">285-286 (nr. 509)</ref>. <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar í <date when="1886-01">janúar 1886</date>.</item>
+                      </list>  </source>
                      </recordHist>
                      <custodialHist>
                         <custEvent type="conservation">
@@ -175,6 +195,7 @@
                            <item>Ljósprent í <ref xml:id="EIMF9">Early Icelandic Manuscripts in Facsimile IX (1971).</ref>
                            </item>
                            <item>Svart-hvít ljósmynd af bl. 2r á Stofnun Árna Magnússonar á Íslandi.</item>
+                        	<item>Svart-hvítar ljósmyndir á <ref target="https://sprogsamlinger.ku.dk/q.php?p=ds/hjem/mapper/28515">NorS Sprogsamlinger</ref>.</item>
                         </list>
                      </p>
                   </surrogates>
