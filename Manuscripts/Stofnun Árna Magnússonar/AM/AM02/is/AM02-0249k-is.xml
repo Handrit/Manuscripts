@@ -22,13 +22,15 @@
                      <idno>399</idno>
                   </altIdentifier>
                </msIdentifier>
-               <head>
+            
+               <msContents class="timafr tim"> 
+               	<summary>
                   <title type="supplied">Rímtal (latneskt)</title>
                   <origPlace>Ísland</origPlace>
-                  <origDate notBefore="1475" notAfter="1525" evidence="external">s. XV 4/4 - XVI 1/4</origDate>
-                  <!--<lang>Íslenska</lang>--><note/>
-               </head>
-               <msContents class="timafr tim">
+                  <origDate notBefore="1475" notAfter="1525" evidence="external" cert="high">s. XV 4/4 - XVI 1/4</origDate>
+                 
+               </summary>
+               	<textLang mainLang="la"></textLang>
                   <msItem>
                      <locus from="1r" facs="#AM02-0249k-0001r" to="4v">1r-4v</locus>
                      <title type="supplied" xml:lang="is">Rímtal (latneskt)</title>
@@ -41,7 +43,7 @@
                   <objectDesc form="codex">
                      <supportDesc material="perg">
                         <support>Skinn</support>
-                        <extent>4 blöð (<dimensions type="leaf" unit="mm" scope="all">
+                        <extent>i + 4 + i blað (<dimensions type="leaf" unit="mm" scope="all">
                               <height>230</height>
                               <width>162</width>
                            </dimensions>).</extent>
@@ -51,9 +53,12 @@
                         <collation>
                            <p/>
                         </collation>
-                        <condition>
-                           <p>Brot. Blöðin illa varðveitt.</p>
-                        </condition>
+                        <condition><list>
+                           <item>Brot. Blöðin illa varðveitt, og eru dökk, sérstaklega bl. <locus from="1r" facs="#AM02-0249k-0001r" to="1r">1r</locus>.</item>
+                        	<item>Blekblettir.</item>
+                        	<item>Rakablettir.</item>
+                        	<item></item>
+                      </list>  </condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="1">
@@ -69,12 +74,21 @@
                         <p>Rauðir og grænir upphafsstafir.</p>
                      </decoNote>
                      <!-- Fleira af svipuðu tagi með rauðum og grænum lit - ath. betur í 2. umferð --></decoDesc>
-                  <additions>
-                     <p>Á bl. 2v stendur: „en betur skrifar þó Helga en Guðrún“.</p>
-                  </additions>
+                  <additions><list>
+                     <item>Á bl. <locus from="2v" facs="#AM02-0249k-0002v" to="2v">2v</locus> stendur: „en betur skrifar þó Helga en Guðrún“.</item>
+                  	<item>Pennaprufur og krot á hverju blaði.</item>
+                 </list> </additions>
                   <bindingDesc>
-                     <binding contemporary="unknown">
-                        <p/>
+                  	<binding contemporary="false" notBefore="1800" notAfter="1899">
+                  		<p>Band líklega frá 19. öld (<dimensions type="binding" unit="mm">
+                  			<height>x</height>
+                  			<width>x</width>
+                  			<depth>x</depth>
+                  		</dimensions>). <material><locus from="0000r-FB" facs="#AM02-0249k-0000r-FB" to="0000r-FB">Pappaspjöld</locus> klædd pappír með ljósu marmaramynstri, skinn
+                  			á kili og hornum.</material> Saurblöð tilheyra bandi. Blár safnmarksmiði á kili.</p>
+                  		<p>Innan á fremra spjaldi er skrifað safnmark. Á fremra saurblaði stendur: <quote>4 bl. 15/5 86.</quote></p>
+                  	
+                  	
                      </binding>
                   </bindingDesc>
                   <accMat>
@@ -84,10 +98,8 @@
                <history>
                   <origin notBefore="1475" notAfter="1525">
                      <p>Tímasett til c1475-1525 (sjá <bibl>
-                           <ref xml:id="ONPregistre" target="ONPregistre">ONPRegistre</ref>
-                        </bibl>, bls. 439), en til 14. aldar í <bibl>
-                           <ref target="KKKat">Katalog I</ref>
-                        </bibl>, bls. 229.</p>
+                           <ref xml:id="ONPregistre" target="ONPregistre">ONPRegistre</ref></bibl>, bls. 439), en til 14. aldar í <bibl>
+                           <ref target="KKKat">Katalog I</ref></bibl>, bls. <ref target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/1/244">229</ref>.</p>
                   </origin>
                   <provenance><p/>
                   </provenance>
@@ -98,11 +110,12 @@
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source>
-                           <p>Tekið eftir <bibl>
-                                 <ref target="KKKat">Katalog I</ref>
-                              </bibl>, bls. 299 (nr. 399). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar í <date when="1886-01">janúar 1886</date>. <name key="DriThr001" type="person">DKÞ</name> skráði <date when="2001-03-09">9. mars 2001</date>.</p>
-                        </source>
+                        <source><list>
+                        	<item><name type="person" key="MarGis003">MJG</name> yfirfór <date when="2025-02-03">3. febrúar 2025</date>.</item>
+                        	<item><name key="DriThr001" type="person">DKÞ</name> skráði <date when="2001-03-09">9. mars 2001</date>.</item>
+                           <item>Tekið eftir <bibl>
+                                 <ref target="KKKat">Katalog I</ref></bibl>, bls. <ref target="https://baekur.is/bok/c9ff2011-3cda-4197-90ef-7e14fc19f264/1/244">299 (nr. 399)</ref>. <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar í <date when="1886-01">janúar 1886</date>.</item>
+                      </list>  </source>
                      </recordHist>
                      <custodialHist>
                         <custEvent type="conservation" notBefore="1991" notAfter="1991">
@@ -118,6 +131,7 @@
                         <list>
                            <item>Svart-hvítar ljósmyndir á Det Arnamagnæanske Institut í Kaupmannahöfn.</item>
                            <item>Svart-hvítar ljósmyndir á Stofnun Árna Magnússonar á Íslandi.</item>
+                        	<item>Svart-hvítar ljósmyndir á <ref target="https://sprogsamlinger.ku.dk/q.php?p=ds/hjem/mapper/26808">NorS Sprogsamlinger</ref>.</item>
                         </list>
                      </p>
                   </surrogates>
