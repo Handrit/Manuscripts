@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -25,7 +26,7 @@
                  <msContents>
                   <summary><title type="uniform" xml:lang="is">Píslarsaga Krists</title></summary>
                     <msItem n="1" defective="true">
-                       <locus from="1r" to="2v">1r-2v</locus>
+                       <locus from="1r" facs="#AM04-0696-XIX-0001r" to="2v">1r-2v</locus>
                        <title type="uniform" xml:lang="is">Píslarsaga Krists</title>
                      <textLang mainLang="is">Icelandic</textLang>
                      <incipit defective="true">En<ex>n</ex> u<ex>m</ex> m<ex>or</ex>guni<ex>n</ex>
@@ -48,13 +49,8 @@
                   </objectDesc>
                </physDesc>
                <history><origin>Written in <origPlace>Iceland</origPlace> in
-                  <origDate
-                     notBefore="1500" notAfter="1550" evidence="conjecture" resp="ONP"
-                     >1500-tallets første halvdel</origDate> (<name type="person"
-                        key="SteKar001">Stefán Karlsson</name> pers., see <bibl><ref type="secondary" target="ONPindices">ONP</ref></bibl>).
-                  <name type="person" key="KriKaa001"
-                     >Kålund</name>'s dating: c. 1500 (<bibl>Kålund: <ref type="secondary-1" target="KKKat"
-                        >Katalog</ref>
+                  <origDate notBefore="1500" notAfter="1550" evidence="conjecture" resp="ONP">1500-tallets første halvdel</origDate> (<name type="person" key="SteKar001">Stefán Karlsson</name> pers., see <bibl><ref type="secondary" target="ONPindices">ONP</ref></bibl>).
+                  <name type="person" key="KriKaa001">Kålund</name>'s dating: c. 1500 (<bibl>Kålund: <ref type="secondary-1" target="KKKat">Katalog</ref>
                         <biblScope unit="volume">II</biblScope>
                         <biblScope unit="page">113</biblScope>
                      </bibl>).</origin></history>
@@ -71,7 +67,48 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-   <facsimile>
-      <surface/>
-   </facsimile>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+		<surface xml:id="AM04-0696-XIX-0000r-FB" n="0">
+			<desc>0000r-FB</desc>
+			<graphic mimeType="pdf" url="AM%20696%20XIX%204to/0/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20XIX%204to/0/THUMBNAIL" width="200px" height="142px"/>
+			<graphic mimeType="jpg" url="AM%20696%20XIX%204to/0/SECONDARY_DISPLAY" width="9842px" height="6989px"/>
+			<graphic mimeType="pdf" url="AM%20696%20XIX%204to/0/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0696-XIX-accMat01v" n="1">
+			<desc>accMat01v</desc>
+			<graphic mimeType="pdf" url="AM%20696%20XIX%204to/1/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20XIX%204to/1/THUMBNAIL" width="200px" height="234px"/>
+			<graphic mimeType="jpg" url="AM%20696%20XIX%204to/1/SECONDARY_DISPLAY" width="6399px" height="7465px"/>
+			<graphic mimeType="pdf" url="AM%20696%20XIX%204to/1/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0696-XIX-0001r" n="2">
+			<desc>0001r</desc>
+			<graphic mimeType="pdf" url="AM%20696%20XIX%204to/2/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20XIX%204to/2/THUMBNAIL" width="199px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20696%20XIX%204to/2/SECONDARY_DISPLAY" width="7156px" height="10786px"/>
+			<graphic mimeType="pdf" url="AM%20696%20XIX%204to/2/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0696-XIX-0001v" n="3">
+			<desc>0001v</desc>
+			<graphic mimeType="pdf" url="AM%20696%20XIX%204to/3/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20XIX%204to/3/THUMBNAIL" width="200px" height="291px"/>
+			<graphic mimeType="jpg" url="AM%20696%20XIX%204to/3/SECONDARY_DISPLAY" width="7404px" height="10786px"/>
+			<graphic mimeType="pdf" url="AM%20696%20XIX%204to/3/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0696-XIX-0002r" n="4">
+			<desc>0002r</desc>
+			<graphic mimeType="pdf" url="AM%20696%20XIX%204to/4/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20XIX%204to/4/THUMBNAIL" width="200px" height="293px"/>
+			<graphic mimeType="jpg" url="AM%20696%20XIX%204to/4/SECONDARY_DISPLAY" width="7365px" height="10786px"/>
+			<graphic mimeType="pdf" url="AM%20696%20XIX%204to/4/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0696-XIX-0002v" n="5">
+			<desc>0002v</desc>
+			<graphic mimeType="pdf" url="AM%20696%20XIX%204to/5/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20XIX%204to/5/THUMBNAIL" width="200px" height="286px"/>
+			<graphic mimeType="jpg" url="AM%20696%20XIX%204to/5/SECONDARY_DISPLAY" width="7546px" height="10786px"/>
+			<graphic mimeType="pdf" url="AM%20696%20XIX%204to/5/WEB_DISPLAY"/>
+		</surface>
+	</facsimile>
 </TEI>
