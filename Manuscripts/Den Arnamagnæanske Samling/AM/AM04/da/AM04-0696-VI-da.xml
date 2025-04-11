@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="https://handrit.is/schema/handrit-2.0.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -30,26 +31,26 @@
                         islandske Lucidarius</title></note>.</summary>
                      <textLang mainLang="is" otherLangs="la"/>
                      <msItem n="1">
-                     <locus from="1r" to="4v">1r-4v</locus>
+                     <locus from="1r" facs="#AM04-0696-VI-0001r" to="4v">1r-4v</locus>
                      <title type="uniform">Lucidarius</title>
                      <bibl>Hansen: <ref type="primary" target="AMH1999">Den islandske
                            Lucidarius</ref><note>Upubliceret Cand. phil. afhandling</note></bibl>
                       <msItem n="1.1">
-                        <locus from="1r:1" to="1v:27">1r:1-1v:27</locus>
+                        <locus from="1r:1" facs="#AM04-0696-VI-1r:1" to="1v:27">1r:1-1v:27</locus>
                         <incipit defective="true">líking. At eín god fæda sem vel eͬ t<ex>il</ex>
                            reídd</incipit>
                         <explicit defective="true">
                            <ex>og</ex> hvlen<ex>n</ex> under braude <ex>og</ex> víne. Af</explicit>
                      </msItem>
                      <msItem n="1.2">
-                        <locus from="2r:1" to="2v:26">2r:1-2v:26</locus>
+                        <locus from="2r:1" facs="#AM04-0696-VI-2r:1" to="2v:26">2r:1-2v:26</locus>
                         <incipit defective="true">
                            <locus/>vpp rísv holldzíns og eylíft líf evígt</incipit>
                         <explicit defective="true">
                            <locus/>huerfís hana ren<ex>n</ex>ur. En<ex>n</ex> þar sem</explicit>
                      </msItem>
                      <msItem n="1.3">
-                        <locus from="3r:1" to="3v:27">3r:1-3v:27</locus>
+                        <locus from="3r:1" facs="#AM04-0696-VI-3r:1" to="3v:27">3r:1-3v:27</locus>
                         <incipit defective="true"> alldre  byrd. meistare<ex>n</ex>
                            suarar</incipit>
                         <explicit defective="true">
@@ -59,7 +60,7 @@
                         </explicit>
                      </msItem>
                      <msItem n="1.4">
-                        <locus from="4r:1" to="4v:26">4r:1-4v:26</locus>
+                        <locus from="4r:1" facs="#AM04-0696-VI-4r:1" to="4v:26">4r:1-4v:26</locus>
                         <incipit defective="true">So uílía <ex>og</ex> gydínga bækvr
                            seígía</incipit>
                         <explicit defective="true">Enok v<ex>ar</ex> m<ex>adur</ex>
@@ -102,8 +103,7 @@
                   </objectDesc>
                   <handDesc hands="1">
                      <handNote scribe="unknown" script="textualis" scope="sole">
-                        <p>Skrevet med en lidt klodset, yngre gotisk bogskrift. Bogstavet <hi
-                              rend="bold">g</hi> er bemærkelsesværdigt, da hele bogstavet er skrevet
+                        <p>Skrevet med en lidt klodset, yngre gotisk bogskrift. Bogstavet <hi rend="bold">g</hi> er bemærkelsesværdigt, da hele bogstavet er skrevet
                            på linjen, uden nogen underlængde.</p>
                      </handNote>
                   </handDesc>
@@ -152,8 +152,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <p>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001"
-                           >Kålund</name> (<bibl>
+                     <p>Skrevet i <origPlace>Island</origPlace>. <name type="person" key="KriKaa001">Kålund</name> (<bibl>
                            <ref type="secondary-1" target="KKKat">Katalog</ref>
                            <biblScope unit="volume">II</biblScope>
                            <biblScope unit="page">111</biblScope>
@@ -162,8 +161,7 @@
                            <ref type="secondary-1" target="MI4">The Arna-Magnæan Manuscript 674 A,
                               4to. Elucidarius</ref>
                            <biblScope unit="page">xxxii-xxxiii</biblScope>
-                        </bibl> dateret det til <origDate notBefore="1600" notAfter="1650"
-                           evidence="conjecture" resp="MI4">1600-tallets første
+                        </bibl> dateret det til <origDate notBefore="1600" notAfter="1650" evidence="conjecture" resp="MI4">1600-tallets første
                         halvdel</origDate>.</p>
                   </origin>
                </history>
@@ -171,8 +169,7 @@
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Katalogiseret <date when="1999-10-08">8. oktober 1999</date> af <name
-                                 type="person" key="AnnHan001">AMH</name>.</p>
+                           <p>Katalogiseret <date when="1999-10-08">8. oktober 1999</date> af <name type="person" key="AnnHan001">AMH</name>.</p>
                         </source>
                      </recordHist>
                      <availability status="free">
@@ -219,11 +216,79 @@
          </sourceDesc>
       </fileDesc>
       <revisionDesc>
-         <change>Checked <date when="2000-02-02">02.02.2000</date> by <name type="person"
-               key="MatDri001">MJD</name>.</change>
+         <change>Checked <date when="2000-02-02">02.02.2000</date> by <name type="person" key="MatDri001">MJD</name>.</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
-      <surface/>
-   </facsimile>
+	<facsimile xml:base="https://myndir.handrit.is/file/Handrit.is/">
+		<surface xml:id="AM04-0696-VI-0000r-FB" n="0">
+			<desc>0000r-FB</desc>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/0/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/0/THUMBNAIL" width="200px" height="142px"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/0/SECONDARY_DISPLAY" width="9842px" height="6989px"/>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/0/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0696-VI-accMat01v" n="1">
+			<desc>accMat01v</desc>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/1/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/1/THUMBNAIL" width="200px" height="234px"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/1/SECONDARY_DISPLAY" width="6399px" height="7465px"/>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/1/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0696-VI-0001r" n="2">
+			<desc>0001r</desc>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/2/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/2/THUMBNAIL" width="199px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/2/SECONDARY_DISPLAY" width="7195px" height="10847px"/>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/2/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0696-VI-0001v" n="3">
+			<desc>0001v</desc>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/3/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/3/THUMBNAIL" width="191px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/3/SECONDARY_DISPLAY" width="6819px" height="10728px"/>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/3/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0696-VI-0002r" n="4">
+			<desc>0002r</desc>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/4/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/4/THUMBNAIL" width="196px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/4/SECONDARY_DISPLAY" width="7066px" height="10847px"/>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/4/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0696-VI-0002v" n="5">
+			<desc>0002v</desc>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/5/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/5/THUMBNAIL" width="192px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/5/SECONDARY_DISPLAY" width="6868px" height="10728px"/>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/5/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0696-VI-0003r" n="6">
+			<desc>0003r</desc>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/6/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/6/THUMBNAIL" width="197px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/6/SECONDARY_DISPLAY" width="7113px" height="10847px"/>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/6/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0696-VI-0003v" n="7">
+			<desc>0003v</desc>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/7/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/7/THUMBNAIL" width="192px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/7/SECONDARY_DISPLAY" width="6863px" height="10728px"/>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/7/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0696-VI-0004r" n="8">
+			<desc>0004r</desc>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/8/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/8/THUMBNAIL" width="194px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/8/SECONDARY_DISPLAY" width="7002px" height="10847px"/>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/8/WEB_DISPLAY"/>
+		</surface>
+		<surface xml:id="AM04-0696-VI-0004v" n="9">
+			<desc>0004v</desc>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/9/HIGH_QUALITY_DISPLAY"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/9/THUMBNAIL" width="197px" height="300px"/>
+			<graphic mimeType="jpg" url="AM%20696%20VI%204to/9/SECONDARY_DISPLAY" width="7028px" height="10728px"/>
+			<graphic mimeType="pdf" url="AM%20696%20VI%204to/9/WEB_DISPLAY"/>
+		</surface>
+	</facsimile>
 </TEI>
