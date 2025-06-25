@@ -27,31 +27,42 @@
                   <title type="uniform">Eyrbyggja saga</title>
                   <origPlace>Ísland</origPlace>
                   <origDate notBefore="1650" notAfter="1682" evidence="external">c1650-1682</origDate>
-                  <!--<lang>Íslenska</lang>-->
                   <note/>
                </head>
                <msContents>
-                  <msItem n="1" class="isl rimur">
+                  <msItem n="1" class="isl">
                      <locus from="1r" to="22v">1r-22v</locus>
                      <title type="uniform">Laxdæla saga</title>
-                     <rubric>Þeſse Saga Kallast Laxdæla <lb/> Af Gömlum Islendingum</rubric>
+                     <rubric>Þessi saga kallast Laxdæla <lb/> af gömlum Íslendingum</rubric>
                   </msItem>
                   <msItem n="2" class="kvad">
                      <locus from="22v" to="22v">22v</locus>
-                     <!-- ??? bl. 23r skv. Sagnaneti en Kålund segir niðurlag annarrar sögu vera á efri helmingi bl. 23r - ekki athugað vegna þess að hdr. er í láni í Kmh. -->
-                     <author>Þórður Magnússon á Strjúgi</author>
+                     <author key="ThoMag018">Þórður Magnússon á Strjúgi</author>
                      <title type="uniform">Kappakvæði</title>
                      <note>
-                        <p>Einungis tvö erindi, annað um Kjartan (<q>Kært var kóngi björtum</q>) og
-                           hitt um Bolla (<q>Bolli snilldar snilli</q>).</p>
-                        <p>Sömu erindi eru í <ref>AM 126 fol.</ref> og <ref>AM 127 fol.</ref>
-                        </p>
+                        <p>Einungis tvö erindi, þau sömu og eru í <ref type="ms" target="AM02-0126">AM 126 fol.</ref> og <ref type="ms" target="AM02-0127" >AM 127 fol.</ref></p>
                      </note>
-                  </msItem>
+                     <msItem n="2.1" defective="false" class="kvad lofkv" xml:lang="is">
+                        <locus from="22v" to="22v">22v</locus>
+                        <author key="ThoMag018">Þórður Magnússon</author>
+                        <title type="supplied">Vísa um Kjartan Ólafsson</title>
+                        <rubric>Vísa um Kjartan Ólafsson er orti Þórður Magnússon.</rubric>
+                        <incipit type="upphaf">Kært var kóngi björtum / Kjartans til í hjarta …</incipit>								
+                        <explicit>… stórt hann afl ei skorti.</explicit>
+                     </msItem>
+                     <msItem n="2.2" defective="false" class="kvad lofkv" xml:lang="is">
+                        <locus from="64r" facs="#AM02-0126-0064r" to="64r">64r</locus>
+                        <author key="ThoMag018">Þórður Magnússon</author>
+                        <title type="supplied">Vísa um Bolla</title>
+                        <rubric>Önnur um Bolla.</rubric>
+                        <incipit type="upphaf">Bolli snilldar snilli / snjallur á bar hjalli …</incipit>
+                        <explicit>… allmjög frænda falli.</explicit>								
+                     </msItem>
+          </msItem>
                   <msItem n="3" class="isl">
                      <locus from="23r" to="38v">23r-37v</locus>
                      <title type="uniform">Eyrbyggja saga</title>
-                     <rubric>Hier Byriast Islendinga <lb/> Saga er Eyrbiggja heiter</rubric>
+                     <rubric>Hér byrjast Íslendinga- <lb/> saga er Eyrbyggja heitir</rubric>
                      <note>Niðurlag annarrar sögu er á efri helmingi bl. 23r, strikað yfir og pappír
                         límdur yfir.</note>
                   </msItem>
@@ -126,24 +137,26 @@
                            </p>
                         </collation>
                         <condition>
-                           <p>Strikað yfir niðurlag sögu á efri helmingi bl. 23r og hvítur pappír
+                           <p>Strikað yfir niðurlag sögu á efri helmingi bl. <locus from="23r" to="23r">23r</locus> og hvítur pappír
                               límdur yfir.</p>
                         </condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="1">
-                           <p/>
+                        <layout columns="1 2">
+                           <p>Einn dálkur á Laxdæla sögu en tveir á Eyrbyggja sögu.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc>
-                     <p>Ein hönd, þétt skrift og mikið um styttingar (bl. 37 viðbót með annarri
-                        hendi).</p>
+                  <handDesc hands="3">
+                     <summary>Þrjár hendur.</summary>
+                     <handNote scribe="unknown" scope="major" script="hybrida">I, 1r-22v, óþekktur skrifari, blendingsskrift.</handNote>
+                     <handNote scribe="unknown" scope="minor" script="hybrida">II, 23r-36v, óþekktur skrifari, blendingsskrift.</handNote>
+                     <handNote scribe="ThoTho003" scope="minor" script="kurrent">III, 37r-37v, Þórður Þórðarson, fljótaskrift.</handNote>
                   </handDesc>
                   <additions>
                      <p>
                         <list>
-                           <item>Bl. 37 innskotsblað með hendi <name key="ThoTho003" type="person">Þórðar Þórðarssonar</name>, bætt við fyrir <name key="ArnMag001" type="person">Árna Magnússon</name>.</item>
+                           <item>Bl. 37 innskotsblað með hendi <name key="ThoTho003" type="person">Þórðar Þórðarsonar</name>, bætt við fyrir <name key="ArnMag001" type="person">Árna Magnússon</name>.</item>
                            <item>Athugasemdir um tímatal og aðrar spássíugreinar víða á bl.
                               1r-22v.</item>
                            <item>Fyrsta lína á síðu gjarnan skrifuð á spássíu á bl. 1r-22v.</item>
@@ -168,7 +181,7 @@
                                  Eyrbyggja saga.
                                  Úr bók sem ég keypti 1711 af Sigurði á Ferju og tók í sundur í
                                  parta, var eldri en 1683.</quote></item>
-                           <item n="2">Seðill (við bl. 27r) sem á er skrifuð ítarleg athugasemd um
+                           <item n="2">Seðill (við bl. <locus from="27r" to="27r">27r</locus>) sem á er skrifuð ítarleg athugasemd um
                               Eirík rauða og byggð er á sögunni sem við hann er kennd.</item>
                         </list>
                      </p>
@@ -180,8 +193,8 @@
                         Handritið er því tímasett til c1650-1683 en í <bibl>
                            <ref target="KKKat">Katalog I</ref>
                         </bibl>, bls. 90, er það tímasett til 17. aldar. Í sömu bók voru a.m.k.
-                           <ref>AM 110 fol.</ref>, <ref>AM 163 a-d fol.</ref>, <ref>AM 163 i
-                           fol.</ref> og b.l. 10-11 í <ref>AM 202 g fol.</ref>
+                           <ref target="AM02-0110">AM 110 fol.</ref>, <ref target="AM02-0163a">AM 163 a-d fol.</ref>, 
+                           <ref target="AM02-0163i">AM 163 i fol.</ref> og bl. 10-11 í <ref target="AM02-0202g">AM 202 g fol.</ref>
                      </p>
                   </origin>
                   <!-- sjá óprentaðan lista SÁM um aldursgreiningu -->
@@ -201,20 +214,19 @@
                   <adminInfo>
                      <recordHist>
                         <source>
-                           <p>Tekið eftir <bibl>
-                                 <ref target="KKKat">Katalog I</ref>
-                              </bibl>, bls. 90 (nr. 154). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu til skráningar í <date when="1885-12">desember 1885</date>. <name key="DriThr001" type="person">DKÞ</name> skráði <date when="2001-12-14">14.
-                                 desember 2001</date>, <name key="ValHil001" type="person">VH</name>
-                              leiðrétti lítillega <date when="2010-11-12">12. nóvember 2010</date>. <name key="ThuSig002" type="person">ÞÓS</name> skráði <date when="2020-06-15">15. júní 2020</date>.
-                              <!--Leiðr. úr 'Fjósaríma' í 'Kappakvæði'. Vísurnar um Kjartan og Bolla eru úr því kvæði (sbr. skrán. Í Gegni og Kristján okkar)   -->.
-                              <name type="person" key="ErmMue001">EM</name> skráði kveraskipan <date when="2023-06-12">12. júní 2023</date>.
-                           </p>
+                           <p><name key="KarOla002" type="person">KÓÓ</name> lagaði og bætti við <date when="2025-06-25">25. júní 2025</date>.</p>
+                           <p><name key="ErmMue001" type="person">EM</name> skráði kveraskipan <date when="2023-06-12">12. júní 2023</date>.</p>
+                           <p><name key="ThuSig002" type="person">ÞÓS</name> skráði <date when="2020-06-15">15. júní 2020</date>.</p>
+                           <p><name key="ValHil001" type="person">VH</name> leiðrétti lítillega <date when="2010-11-12">12. nóvember 2010</date>.</p>
+                           <p><name key="DriThr001" type="person">DKÞ</name> skráði <date when="2001-12-14">14. desember 2001</date> eftir 
+                           <bibl><ref target="KKKat">Katalog I</ref></bibl>, bls. 90 (nr. 154). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu 
+                              til skráningar í <date when="1885-12">desember 1885</date>.</p>
                         </source>
                      </recordHist>
                      <custodialHist>
                         <custEvent type="loan" notBefore="1977-11-16">
-                           <p>Í láni vegna rannsókna á Det Arnamagnæanske Institut í Kaupmannahöfn
-                              frá 16. nóvember 1977.</p>
+                           <p>Var lánað vegna rannsókna á Det Arnamagnæanske Institut í Kaupmannahöfn
+                              frá 16. nóvember 1977. Skilað <date when="2007-03-15">15. mars 2007</date>.</p>
                         </custEvent>
                      </custodialHist>
                   </adminInfo>
@@ -231,7 +243,7 @@
                      <bibl>Arthur S.M. 2012, <ref target="SusArt2012a">The importance of marital and maternal ties in the distribution of Icelandic manuscripts from the middle ages to the seventeenth century</ref></bibl>
                      <bibl>Heizmann, W. 1996, <ref target="WilHei0625a">Kannte der Verfasser der Laxdæla saga Gregors des Großen Moralia in Iob?</ref></bibl>
                      <bibl>Kålund, K. 1889, <ref target="KriKål1889a">Laxdæla saga</ref></bibl>
-                     <bibl>Scott, F.S. 2003, <ref target="ForSco2003a">Eyrbyggja saga. The vellum tradition</ref></bibl>
+                     <bibl>Scott, F.S. 2003, <ref target="ForSco2003a">Eyrbyggja saga. The vellum tradition</ref>.</bibl>
                   </listBibl>
                </additional>
             </msDesc>
