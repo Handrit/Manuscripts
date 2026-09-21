@@ -25,75 +25,183 @@
                     <msContents>
                     	<summary><title type="uniform">Jónsbók</title></summary>
                     	<textLang mainLang="is"/>
-                        <msItem n="1" class="log">
-                            <title type="supplied">Jónsbók</title>
+                    	<msItem n="1" class="log">
+                    		<locus from="1r" facs="#GKS04-3269b-0001r" to="60r">1ra-60rb7</locus>
+                    		<title type="supplied">Jónsbók</title>
+                    		<incipit>...formanna vera lýsing og leiðtogar til allra réttinda og miskunnsamlegra sanninda...</incipit>
+                    		<explicit>... hins sæla Þorláks biskups sé með oss öllum nú og jafnan. Amen.</explicit>
+                    		<note><p>Hefst á bréfi Magnúsar Hákonarsonar konungs (óheilt, vantar framan af) en aftast endar textinn á 
+                    			kristilegri bæn sem kemur í framhaldi af Þjófabálki.</p>
+                    			<p>Textinn er ekki samfelldur á milli <locus from="3v" to="3v">3v</locus> og <locus from="4r" to="4r">4r</locus>.</p>
+                    		</note>
+                    		<!-- Kålund telur greinilega ekki með blaðstubbinn sem merktur er 48 í myndaröðinni. Þar vantar ekki neinn texta í á milli 47v og 
+                    		49r svo að þetta hefur aldrei verið raunverulegt blað. Skýrir kveraskiptingin þetta einhvern veginn? -->
                         </msItem>
-                        <msItem n="2" class="log">
-                            <title type="supplied">Viðaukar við réttarbætur í Jónsbók</title>
+                    	<msItem n="2" class="log">
+                    		<locus from="60r" facs="#GKS04-3269b-0060r" to="63v">60rb-63va</locus>
+                    		<title type="supplied">Réttarbætur</title>
+                    		<incipit>Með handsölum skal jarðir byggja og svo í borgun ganga...</incipit>
+                    		<explicit>... Herra Bjarni Auðunarson innsiglaði. Jón murti ritaði</explicit>
                         </msItem>
-                        <msItem n="3" class="log">
-                            <title type="supplied">Norskar og íslenskar réttarbætur</title>
-                        </msItem>
+                    	<msItem n="3" class="log">
+                    		<locus from="63v" facs="#GKS04-3269b-0063v" to="67v">63va-67va</locus>
+                    		<title type="supplied">Norskar og íslenskar réttarbætur</title>
+                    		<incipit>Hákon með Guðs miskunn et cetera sendir öllum...</incipit>
+                    		<explicit>..og lögmáli réttu að vitni þínu N. og þínu N.</explicit>
+                    		<note>
+                    			<p>Aftast eru tvær formúlur til að nota við ættleiðingar.</p>
+                    			<p>Upphaflega hefur textinn endað í miðjum dálki <locus from="67v" to="67v">67va</locus> og afgangur síðunnar
+                    				skilinn eftir auður.</p></note>
+                    	</msItem>
+                    	<msItem n="4" class="log">
+                    		<locus n="67v" facs="#GKS04-3269b-0067v">67vb</locus>
+                    		<title type="uniform">Gamli sáttmáli</title>
+                    		<incipit>Í nafni föður og sonar og heilags anda ...</incipit>
+                    		<explicit>... af yðvarri hálfu að bestu manna yfirsýn et cetera</explicit>
+                    		<note>Gamla sáttmála hefur verið bætt við síðar í pláss sem var upphaflega autt.</note>
+                    	</msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="codex">
-                            <supportDesc material="chart">
+                            <supportDesc material="perg">
                                 <support>Skinn.</support>
-                                <extent/>
-                                <foliation>
-                                    <p>
-                                        <list>
-                                            <item/>
-                                        </list>
-                                    </p>
-                                </foliation>
-                                <collation>
-                                    <p/>
-                                    <note/>
-                                </collation>
+                            	
+                            	<!-- Ath. blaðfjölda. -->
+                            	<extent>ii + 67 leaves + ii(<dimensions type="leaf" unit="mm" scope="all">
+                            		<height scope="range">220</height>
+                            		<width scope="range">166</width>
+                            	</dimensions>)</extent> 
+                            	<foliation xml:id="modern">
+                            		<p>Blaðmerking (1-66) með blýanti uppi í hægra horni recto-síðna. Blaðstubbur milli 47 og 49 ekki talinn með.</p>
+                            		<p>Blaðsíðumerking Jóns Sigurðssonar með bleki uppi í hægra horni, bls. 1, 11, 21, ... og svo framvegis á tíu síðna 
+                            			fresti. Blaðstubbur milli 47 og 49 er ekki talinn með. Aftast er merkingin tíðari og sést einnig á bls. 117, 
+                            			125, 127, 129, 130.</p>
+                            	</foliation>
+                            	<collation>
+                            		<!--<p>Þrettán kver: Þarf að athuga betur, sérstaklega bl. 48 og kver V og I 
+                            			<list>
+                            				<item n="1">I: bl. 1-10, 10 blöð</item>
+                            				<item n="2">II: bl. 11-12, 2 blöð</item>
+                            				<item n="3">III: bl. 13-16, 4 blöð</item>
+                            				<item n="4">IV: bl. 17-18, 2 blöð</item>
+                            				<item n="5">V: bl. 19-25, 6 blöð (+ 1 missing)[??]</item>
+                            				<item n="6">VI: bl. 26-27, 2 blöð</item>
+                            				<item n="7">VII: bl. 28-35, 8 blöð</item>
+                            				<item n="8">VIII: bl. 36-43, 8 blöð</item>
+                            				<item n="9">IX: bl. 44-45, 2 blöð</item>
+                            				<item n="10">X: bl. 46-51, 6 blöð (meðtalinn blaðstubbur, bl. 48).</item> 
+                            				<item n="11">XI. bl. 52, 1 tvinn</item>
+                            				<item n="12">XII: bl. 53-59, 7 blöð</item>
+                            				<item n="13">XIII: bl. 60-67, 8 blöð</item>
+                            			</list>
+                            		</p>
+                            		<note/>-->
+                            	</collation>
 
                                 <condition>
-                                    <p/>
+                                    <p>
+                                    	<list>
+                                    		<item n="1">Blað eða blöð vantar framan af handritinu. Einnig hefur blað eða blöð týnst úr á milli 
+                                    			<locus from="3v" to="3v">3</locus> og <locus from="4r" to="4r">4</locus> og á milli 
+                                    			<locus from="25v" to="25v">25</locus> og <locus from="26r" to="26r">26</locus>.</item>
+                                    		<item n="2" >Blöðin eru víða blettótt eftir óþekkt efni sem hefur verið borið á skinnið, að því er virðist
+                                    			aðallega við rauðritaðar fyrirsagnir. Sjá t.d. <locus from="36r" to="36r">36r</locus> og 
+                                    			<locus from="38r" to="38r">38r</locus>.</item>
+                                    		<item n="3">Göt sjást á bl. 
+                                    			<locus from="13r" facs="#GKS04-3269b-0013r" to="13v">13</locus>, 
+                                    			<locus from="29r" to="29r">29</locus>,
+                                    			<locus from="66r" facs="#GKS04-3269b-0066r" to="66v">66</locus>.</item>
+                                    		<item n="4">Á milli bl. <locus from="47v" to="47v">47</locus> og <locus from="49r" to="49r">49</locus> er blaðstubbur. 
+                                    			Textinn er samfelldur milli 47v og 49r svo að stubburinn er ekki leifar af blaði sem hefur innihaldið texta. </item>
+                                    		<item n="5">Búið að skera blöðin til. Þannig hafa myndir á spássíum, síðutitlar og jafnvel texti glatast. 
+                                    			See for example <locus n="7v" facs="#GKS04-3269b-0007v">7v</locus>, 66, 17, 19, 
+                                    			<locus n="58r" facs="#GKS04-3269b-0058r">58r</locus></item>
+                                    		<item n="6">Stórar viðgerðir á bl. 
+                                    			<locus n="1v" facs="#GKS04-3269b-0001v" to="1v">1</locus>,
+                                    			<locus from="9r" facs="#GKS04-3269b-0009r" to="9v">9</locus>, 
+                                    			<locus from="11r" facs="#GKS04-3269b-0011r" to="11v">11</locus>,
+                                    			<locus from="20r" facs="#GKS04-3269b-0020r" to="20v">20</locus>
+                                    			<locus from="22r" facs="#GKS04-3269b-0022r" to="22v">22</locus>,
+                                    			<locus from="51r" facs="#GKS04-3269b-0051r" to="51v">51</locus>. Víða annars staðar smærri viðgerðir.</item>
+                                    	</list>
+                                    </p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1">
-                                    <p/>
+                                <layout columns="2" writtenLines="26 28">
+                                    <p>Tveir dálkar.</p>
+                                	<p>Línufjöldi er 26-28 (nema á <locus from="67v" to="67v">67v</locus> þar sem eru 16 línur).</p>
+                                	<p>Á sumum síðum sést að strikað er með bleki fyrir línum og leturfleti. Til dæmis á <locus from="2v" to="2v">2v</locus>,
+                                		<locus from="10v" to="10v">10v</locus> og <locus from="37r" to="37r">37r</locus>.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <handDesc>
-                            <handNote scribe="unknown" script="unknown" scope="sole"/>
-
+                        <handDesc hands="3">
+                        	<summary>Að minnsta kosti þrír skrifarar.</summary>
+                            <handNote scribe="unknown" script="textualis" scope="major">I. Bl. 1r-63va21, óþekktur skrifari, textaskrift.</handNote>
+                        	<handNote scribe="unknown" script="textualis" scope="minor">II. Bl. 63va22-67va, óþekktur skrifari, textaskrift.</handNote>
+                        	<handNote scribe="unknown" script="cursiva" scope="minor">III. Bl. 67vb, óþekktur skrifari, léttiskrift.</handNote>
                         </handDesc>
+                    	<!-- 
+                    	<decoDesc>
+                    		<decoNote type="initial">
+                    			<p>Initials of different colours (red, green and blue). Some are still in
+                    				fairly good conditions while others are severely faded.</p>
+                    			<p>Historiated initials > <locus n="1v" facs="#GKS04-3269b-0001v">1v</locus>,
+                    				<locus n="7v" facs="#GKS04-3269b-0007v">7v</locus>,<locus n="14v" facs="#GKS04-3269b-0014v">14v</locus>,
+                    				<locus n="25r" facs="#GKS04-3269b-0025r">25v</locus>,<locus n="27r" facs="#GKS04-3269b-0027r">27r</locus>,
+                    				<locus n="42r" facs="#GKS04-3269b-0042r">42r</locus>,<locus n="45r" facs="#GKS04-3269b-0045r">45r</locus>,
+                    				<locus n="52r" facs="#GKS04-3269b-0052r">52r</locus>,<locus n="56v" facs="#GKS04-3269b-0056v">56v</locus></p>
+                    			<p>Initials with a face > <locus n="26r" facs="#GKS04-3269b-0026r">26r</locus>,
+                    				<locus n="29r" facs="#GKS04-3269b-0029r">29r</locus>,<locus n="37v" facs="#GKS04-3269b-0037v">37v</locus>,</p>
+                    			<p>There are some space for initials.</p>
+                    		</decoNote>
+                    		<decoNote type="miniature">
+                    			<p>Decorations in lower margins in color > <locus n="6v" facs="#GKS04-3269b-0006v">6v</locus>,
+                    				<locus n="7v" facs="#GKS04-3269b-0007v">7v</locus>, <locus n="14v" facs="#GKS04-3269b-0014v">14v</locus>,
+                    				<locus n="42r" facs="#GKS04-3269b-0042rv">42r</locus>,<locus n="45v" facs="#GKS04-3269b-0045v">45v</locus>,
+                    				<locus n="56v" facs="#GKS04-3269b-0056v">56v</locus></p>
+                    		</decoNote>
+                    		<decoNote type="secondary" subtype="rubric">
+                    			<p>Titles written in red.</p>
+                    		</decoNote>
+                    	</decoDesc>
+                    	
+                    	
+                    	-->
                         <additions>
                             <p/>
                         </additions>
                         <bindingDesc>
                             <binding contemporary="false">
-                                <p> </p>
+                                <p/> 
                             </binding>
                         </bindingDesc>
                         <accMat>
-                            <p/>
+                            <p>Miði forvarðar.</p>
+                        	<p>Kjalmiði með safnmarki frá handritadeild Konungsbókhlöðu.</p>
                         </accMat>
                     </physDesc>
                     <history>
-                        <origin>
-                            <p/>
+                        <origin notBefore="1300" notAfter="1400" cert="unknown">
+                            <p>Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace>. Það er tímasett til <origDate notBefore="1300" 
+                            	notAfter="1500">fjórtándu aldar</origDate> í handritaskrá Kålunds en Gamli sáttmáli aftast er tímasettur til 
+                            	fimmtándu aldar í handritaskránni.</p>
                         </origin>
                         <provenance>
                             <p><name type="person" key="ThoJon080">Þórdís Jónsdóttir</name> átti handritið (38v)</p>
                         </provenance>
-                        <acquisition>
-                            <p/>
+                        <acquisition when="1980-12-19">
+                        	<p>Stofnun Árna Magnússonar á Íslandi tók við handritinu 19. desember 1980.</p>
                         </acquisition>
                     </history>
                     <additional>
                         <adminInfo>
                             <recordHist>
                                 <source>
-                                    <p>Handritið er óskráð stafrænt.</p>
+                                    <p><name type="person" key="KarOla002">KÓÓ</name> skráði <date when="2026-09-15">15. september 2026</date> 
+                                    	með upplýsingum frá <name type="person" key="CyrDel001">Cyrus Delerme</name> og <name type="person" 
+                                    		key="RicMen001">Richard Menzies</name>.</p>
                                     <p>Skráning <name type="person" key="KriKaa001">Kristian
                                             Kålunds</name> á handritinu er aðgengileg á <bibl>
                                             <ref target="KatKB">Katalog over de oldnorsk-islandske
@@ -103,7 +211,8 @@
                                 </source>
                             </recordHist>
                             <custodialHist>
-                                <custEvent type="conservation"/>
+                                <custEvent type="conservation">Viðgert af <name type="person" key="BirDal001">Birgitte Dall</name> í 
+                                	<date when="1980-06">júní 1980</date>.</custEvent>
                             </custodialHist>
                         </adminInfo>
                         <surrogates>
