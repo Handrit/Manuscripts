@@ -14,39 +14,27 @@
                     
                     <msIdentifier>
                         
-                        <country>Ísland</country>
-                        
+                        <country key="IS">Ísland</country>
                         <settlement>Reykjavík</settlement>
-                        
                         <institution key="SAM">Stofnun Árna Magnússonar</institution>
                         <collection key="AM">Safn Árna Magnússonar</collection>
-                        
                         <idno>AM 470 12mo</idno>
                         <altIdentifier type="internal" subtype="KKKat">
-                            <idno>2561</idno>
-                        </altIdentifier>
+                            <idno>2561</idno></altIdentifier>
+                        <msName type="nickname">Tröllkonurím</msName>
                         
                     </msIdentifier>
                     
-                    <head>
-                        
-                        <title type="uniform">Rímtal</title>
-                        
-                        <origPlace>Ísland</origPlace>
-                        
-                        <origDate notBefore="1590" notAfter="1610" evidence="external">s. XVI/XVII</origDate>
-                        
-                        
-                        <note>Skinnrolla á samansaumuðum ræmum</note>
-                        
-                    </head>
-                    
+              
                     
                     <msContents>
+                        <summary>
+                            <title type="uniform">Rímtal</title>
+                            <note>Skinnrolla á samansaumuðum ræmum</note>
+                        </summary>
                         <textLang mainLang="is">Íslenska</textLang>
-                        
                        <msItem n="1">
-                           <title type="supplied">Rím á Íslensku</title>
+                           <title type="supplied">Rím á íslensku</title>
                        </msItem>
                         
                     </msContents>
@@ -55,11 +43,10 @@
                         <objectDesc form="other">
                             <supportDesc material="perg">
                                 <support>Skinn</support>
-                                <extent>1 blað, <dimensions type="leaf" scope="all">
-                                    <height/>
-                                    <width/>
-                                </dimensions>
-                                </extent>
+                                <extent>1 blað, saumað saman úr fjórum skinnræmum, (<dimensions type="leaf" scope="all" unit="mm">
+                                    <height>1150</height>
+                                    <width>64</width>
+                                </dimensions>).</extent>
                                 <foliation>
                                     <p/>
                                 </foliation>
@@ -72,7 +59,7 @@
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1">
-                                    <p>Leturflötur er <dimensions type="written" scope="all">
+                                    <p><dimensions type="written" scope="all">
                                         <height/>
                                         <width/>
                                     </dimensions>
@@ -93,21 +80,14 @@
                         </additions>
                         <bindingDesc>
                             <binding contemporary="false">
-                                <p>
-                                    
-                                    <dimensions type="binding">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
-                                    </dimensions>
-                                </p>
-                            </binding>
+                                <p/></binding>
                         </bindingDesc>
                         <accMat>
                             
                             <p>Renningur með hendi Árna Magnússonar frá <date when="1710">um 1710 </date>, að hluta í Katalog:
-                                <q>Þessa rímrollu hefi ég 1705 í martio fengið frá sýslumanninum <name key="JonEyj004" type="person">Jóni Eyjólfssyni</name>. Ég sýndi hana
-                                    Jóni Péturssyni, skólapilti bróður sr. Þorvarðs á
+                                <q>Þessa rímrollu hefi ég 1705 í martio fengið frá sýslumanninum 
+                                    <name key="JonEyj004" type="person">Jóni Eyjólfssyni</name>. Ég sýndi hana
+                                    Jóni Péturssyni skólapilti, bróður sr. Þorvarðs á
                                     Þingeyrum, og meinti hann það væri það sama pergament
                                     sem sr. Þorvarður Pétursson tekið hefði þar eystra og
                                     kallað hefði verið Tröllkonurím og hefði þá Jón
@@ -122,17 +102,18 @@
                     
                     <history>
                         
-                        <origin>
-                            <p/>
+                        <origin notBefore="1590" notAfter="1610">
+                            <p>Handritið var skrifað á <origPlace key="IS">Íslandi</origPlace>. Það er tímasett til <origDate notBefore="1590" 
+                                notAfter="1610">ca 1600</origDate> í <bibl><ref target="KKKat">Katalog II</ref></bibl>.</p>
                         </origin>
+                        
                         
                         <provenance>
                             <p/>
                         </provenance>
                         
                         <acquisition>
-                            <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu
-                                .</p>
+                            <p>Stofnun Árna Magnússonar á Íslandi tók við handritinu <date when="1993-05-06">6. maí 1993</date>.</p>
                         </acquisition>
                         
                     </history>
@@ -143,13 +124,18 @@
                             
                             <recordHist>
                                 <source>
+                                    <p><name type="person" key="KarOla002">KÓÓ</name> bætti við skráningu <date when="2026-10-01">1. október 2026</date>.</p>
                                     <p>Tekið eftir <ref target="KKKat">Katalog II</ref>
                                         bls. 502 (nr. 2561). <name key="KriKaa001" type="person">Kålund</name> gekk frá handritinu
-                                        til skráningar ?. október 189?. NN tölvuskráði
-                                        <date>??</date>. <name key="MarJon001" type="person">Már Jónsson</name> annaðist hlut
+                                        til skráningar ?. október 189?.</p>
+                                    <p><name key="MarJon001" type="person">Már Jónsson</name> annaðist hlut
                                         Árna Magnússonar <date>13. mars 2000</date>.</p>
+                                    <p>NN tölvuskráði <date>??</date>.</p>
+                                    
                                 </source>
                             </recordHist>
+                            <custodialHist><p>Gert var við rolluna <date when="1979">1979</date> (13.3-12.7). Búið um í 
+                                nýrri öskju í <date when="1993-03">apríl 1993</date>.</p></custodialHist>
                             
                         </adminInfo>
                         
